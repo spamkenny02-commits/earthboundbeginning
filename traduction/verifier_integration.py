@@ -73,6 +73,11 @@ def verify(rom,build):
                 assert all(target[p+i]==old[i] for i in range(len(old)) if not mask[i])
             elif change['type']=='dialogue':
                 row=dialogues[change['id']];old=bytes.fromhex(row['raw_hex']);spans=row['text_fr_segments'];position=0
+                from extraire import encode
+                native={0x8b,0x8c,0x8d,0x8e,0xab,0xac,0xad,0xae}
+                old_glyphs=[c for seg in spans for c in encode(seg['original']) if c in native]
+                new_glyphs=[c for seg in spans for c in encode_fr(seg['french'],profile=='accents') if c in native]
+                assert new_glyphs==old_glyphs, 'Suffixes PSI natifs modifiés'
                 for k,seg in enumerate(spans):
                     a=seg['offset']; b=spans[k+1]['offset'] if k+1<len(spans) else len(old)
                     # La longueur originale du fragment est calculée par son encodage source.

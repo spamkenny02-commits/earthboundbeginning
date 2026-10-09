@@ -594,6 +594,35 @@ DIALOGUES += '''
 36BA13|Le |?|Prends-en soin.|Tu veux autre chose ?|Oui|Non
 36BACB|À bientôt, |...|Prends soin de toi !'''
 
+DIALOGUES += '''
+36A934|Frérot !
+36A96E|Le téléphone !||, décroche !
+36A9EC|Oh ! Tu es blessé !'''
+
+DIALOGUES += '''
+372FAC|Augmente la vitesse du groupe jusqu'à la fin du combat.
+372FF5|Augmente la défense d'une personne jusqu'à la fin du combat.
+373042|Augmente la défense du groupe jusqu'à la fin du combat.
+37308D|Réduit la défense d'un ennemi jusqu'à la fin du combat.
+3730DD|Réduit la défense des ennemis jusqu'à la fin du combat.
+37312E|Augmente l'attaque d'une personne jusqu'à la fin du combat.
+37317B|Augmente l'attaque du groupe jusqu'à la fin du combat.
+3731C6|Les utilisations successives cumulent cet effet.
+373201|Trouble l'esprit d'un ennemi.
+373220|Cette technique s'appelle aussi <Cyclone mental>.
+37325C|Soigne rhume, poison, insolation et sommeil.
+373296|Aux effets de Guérison [8B] s'ajoute le soin des nausées, de la confusion et de la cécité.
+3732F2|Aux effets de Guérison [8C] s'ajoute le soin de la pétrification et de la paralysie.|Ranime aussi un allié inconscient, sans rétablir tous ses PV.
+373398|Aux effets de Guérison [8D] s'ajoute le retour de tous les PV d'un allié ranimé.|Cette technique s'appelle aussi <Super guérison>.
+37342A|Des flammes jaillissent des doigts : environ 80 dégâts par ennemi d'un rang.
+373488|Des flammes jaillissent des doigts : environ 160 dégâts par ennemi d'un rang.
+3734E7|Des flammes jaillissent des doigts : environ 280 dégâts par ennemi d'un rang.
+373546|Des flammes jaillissent des doigts : environ 400 dégâts par ennemi d'un rang.
+3735A5|Un vent glacial inflige environ 180 dégâts à un ennemi.|Peut le geler entièrement.
+373628|Un vent glacial inflige environ 360 dégâts à un ennemi.|Peut le geler entièrement.
+3736AB|Un vent glacial inflige environ 540 dégâts à un ennemi.|Peut le geler entièrement.
+37372E|Un vent glacial inflige environ 540 dégâts à tous les ennemis.|Peut les geler entièrement.'''
+
 def main():
     import sys
     sys.path.insert(0,str(ROOT/'atelier/outils'))

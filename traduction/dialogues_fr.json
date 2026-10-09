@@ -7514,5 +7514,629 @@
       }
     ],
     "status": "draft"
+  },
+  {
+    "id": "36A934",
+    "offset": "36A934",
+    "snes": "F6A934",
+    "length": 58,
+    "source": "script_candidate",
+    "text_en": "[1F E5 FF][1F 16 0A 00 03][1F 1A 0A 00 03][10 3C][1F 1B 0A 00][1F E8 FF][18 01 35]@Brother![13][18 04][1F E5 FF][1F F1 0A 00 E7 03][10 64][1F 67 02][1F E8 FF][04 87 04][02]",
+    "text_fr": "",
+    "raw_hex": "1F E5 FF 1F 16 0A 00 03 1F 1A 0A 00 03 10 3C 1F 1B 0A 00 1F E8 FF 18 01 35 70 72 A2 9F A4 98 95 A2 51 13 18 04 1F E5 FF 1F F1 0A 00 E7 03 10 64 1F 67 02 1F E8 FF 04 87 04 02",
+    "literal_pointer_offsets": [
+      "36A8EC"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F E5 FF][1F 16 0A 00 03][1F 1A 0A 00 03][10 3C][1F 1B 0A 00][1F E8 FF][18 01 35]@Brother![13][18 04][1F E5 FF][1F F1 0A 00 E7 03][10 64][1F 67 02][1F E8 FF][04 87 04][02]",
+    "text_fr_segments": [
+      {
+        "offset": 25,
+        "original": "@Brother!",
+        "french": "@Frérot !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36A96E",
+    "offset": "36A96E",
+    "snes": "F6A96E",
+    "length": 107,
+    "source": "script_candidate",
+    "text_en": "[06 1C 03 EC A9 F6 00][06 1B 03 DB A9 F6 00][06 F1 02 A3 AC F6 00][08 FC AB F6 00][03][18 04][1F E5 FF][04 F1 02][1F F1 08 00 28 00][10 1E][1F 1A 07 00 03][10 3C][1F 1B 07 00][10 0A][18 01 35][01]@Oh, the telephone![10 14]  [1C 02 01], please get it![13][04 07 00][02]",
+    "text_fr": "",
+    "raw_hex": "06 1C 03 EC A9 F6 00 06 1B 03 DB A9 F6 00 06 F1 02 A3 AC F6 00 08 FC AB F6 00 03 18 04 1F E5 FF 04 F1 02 1F F1 08 00 28 00 10 1E 1F 1A 07 00 03 10 3C 1F 1B 07 00 10 0A 18 01 35 01 70 7F 98 5C 50 A4 98 95 50 A4 95 9C 95 A0 98 9F 9E 95 51 10 14 50 50 1C 02 01 5C 50 A0 9C 95 91 A3 95 50 97 95 A4 50 99 A4 51 13 04 07 00 02",
+    "literal_pointer_offsets": [
+      "202228"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 1C 03 EC A9 F6 00][06 1B 03 DB A9 F6 00][06 F1 02 A3 AC F6 00][08 FC AB F6 00][03][18 04][1F E5 FF][04 F1 02][1F F1 08 00 28 00][10 1E][1F 1A 07 00 03][10 3C][1F 1B 07 00][10 0A][18 01 35]\n\n@Oh, the telephone![10 14]  [1C 02 01], please get it![13][04 07 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 60,
+        "original": "@Oh, the telephone!",
+        "french": "@Le téléphone !"
+      },
+      {
+        "offset": 81,
+        "original": "  ",
+        "french": "  "
+      },
+      {
+        "offset": 86,
+        "original": ", please get it!",
+        "french": ", décroche !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36A9EC",
+    "offset": "36A9EC",
+    "snes": "F6A9EC",
+    "length": 71,
+    "source": "script_candidate",
+    "text_en": "[07 90 00][1B 02 2B AB F6 00][06 7F 01 ED AA F6 00][19 10 01][0B 01][1B 02 32 AB F6 00][19 27 09][18 07 05 00 00 00 00][1B 02 33 AA F6 00]@Oh, my! You're hurt![03][00][0A 90 AA F6 00]",
+    "text_fr": "",
+    "raw_hex": "07 90 00 1B 02 2B AB F6 00 06 7F 01 ED AA F6 00 19 10 01 0B 01 1B 02 32 AB F6 00 19 27 09 18 07 05 00 00 00 00 1B 02 33 AA F6 00 70 7F 98 5C 50 9D A9 51 50 89 9F A5 57 A2 95 50 98 A5 A2 A4 51 03 00 0A 90 AA F6 00",
+    "literal_pointer_offsets": [
+      "202217",
+      "36A971"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[07 90 00][1B 02 2B AB F6 00][06 7F 01 ED AA F6 00][19 10 01][0B 01][1B 02 32 AB F6 00][19 27 09][18 07 05 00 00 00 00][1B 02 33 AA F6 00]@Oh, my! You're hurt!\n[0A 90 AA F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 43,
+        "original": "@Oh, my! You're hurt!",
+        "french": "@Oh ! Tu es blessé !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372FAC",
+    "offset": "372FAC",
+    "snes": "F72FAC",
+    "length": 73,
+    "source": "script_candidate",
+    "text_en": "@Increase everyone's Speed for the duration of the current battle.[00][08 C6 31 F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E 93 A2 95 91 A3 95 50 95 A6 95 A2 A9 9F 9E 95 57 A3 50 83 A0 95 95 94 50 96 9F A2 50 A4 98 95 50 94 A5 A2 91 A4 99 9F 9E 50 9F 96 50 A4 98 95 50 93 A5 A2 A2 95 9E A4 50 92 91 A4 A4 9C 95 5E 00 08 C6 31 F7 00 02",
+    "literal_pointer_offsets": [
+      "382CE0"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Increase everyone's Speed for the duration of the current battle.\n[08 C6 31 F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Increase everyone's Speed for the duration of the current battle.",
+        "french": "@Augmente la vitesse du groupe jusqu'à la fin du combat."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372FF5",
+    "offset": "372FF5",
+    "snes": "F72FF5",
+    "length": 77,
+    "source": "script_candidate",
+    "text_en": "@Increase one person's Defense for the duration of the current battle.[00][08 C6 31 F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E 93 A2 95 91 A3 95 50 9F 9E 95 50 A0 95 A2 A3 9F 9E 57 A3 50 74 95 96 95 9E A3 95 50 96 9F A2 50 A4 98 95 50 94 A5 A2 91 A4 99 9F 9E 50 9F 96 50 A4 98 95 50 93 A5 A2 A2 95 9E A4 50 92 91 A4 A4 9C 95 5E 00 08 C6 31 F7 00 02",
+    "literal_pointer_offsets": [
+      "382CEF"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Increase one person's Defense for the duration of the current battle.\n[08 C6 31 F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Increase one person's Defense for the duration of the current battle.",
+        "french": "@Augmente la défense d'une personne jusqu'à la fin du combat."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "373042",
+    "offset": "373042",
+    "snes": "F73042",
+    "length": 75,
+    "source": "script_candidate",
+    "text_en": "@Increase everyone's Defense for the duration of the current battle.[00][08 C6 31 F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E 93 A2 95 91 A3 95 50 95 A6 95 A2 A9 9F 9E 95 57 A3 50 74 95 96 95 9E A3 95 50 96 9F A2 50 A4 98 95 50 94 A5 A2 91 A4 99 9F 9E 50 9F 96 50 A4 98 95 50 93 A5 A2 A2 95 9E A4 50 92 91 A4 A4 9C 95 5E 00 08 C6 31 F7 00 02",
+    "literal_pointer_offsets": [
+      "382CFE"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Increase everyone's Defense for the duration of the current battle.\n[08 C6 31 F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Increase everyone's Defense for the duration of the current battle.",
+        "french": "@Augmente la défense du groupe jusqu'à la fin du combat."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37308D",
+    "offset": "37308D",
+    "snes": "F7308D",
+    "length": 80,
+    "source": "script_candidate",
+    "text_en": "@Decreases the Defense of one foe for the duration of the current battle.[00][08 C6 31 F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 74 95 93 A2 95 91 A3 95 A3 50 A4 98 95 50 74 95 96 95 9E A3 95 50 9F 96 50 9F 9E 95 50 96 9F 95 50 96 9F A2 50 A4 98 95 50 94 A5 A2 91 A4 99 9F 9E 50 9F 96 50 A4 98 95 50 93 A5 A2 A2 95 9E A4 50 92 91 A4 A4 9C 95 5E 00 08 C6 31 F7 00 02",
+    "literal_pointer_offsets": [
+      "382B87"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Decreases the Defense of one foe for the duration of the current battle.\n[08 C6 31 F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Decreases the Defense of one foe for the duration of the current battle.",
+        "french": "@Réduit la défense d'un ennemi jusqu'à la fin du combat."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3730DD",
+    "offset": "3730DD",
+    "snes": "F730DD",
+    "length": 81,
+    "source": "script_candidate",
+    "text_en": "@Decreases the Defense of all foes for the duration of the current battle.[00][08 C6 31 F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 74 95 93 A2 95 91 A3 95 A3 50 A4 98 95 50 74 95 96 95 9E A3 95 50 9F 96 50 91 9C 9C 50 96 9F 95 A3 50 96 9F A2 50 A4 98 95 50 94 A5 A2 91 A4 99 9F 9E 50 9F 96 50 A4 98 95 50 93 A5 A2 A2 95 9E A4 50 92 91 A4 A4 9C 95 5E 00 08 C6 31 F7 00 02",
+    "literal_pointer_offsets": [
+      "382B96"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Decreases the Defense of all foes for the duration of the current battle.\n[08 C6 31 F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Decreases the Defense of all foes for the duration of the current battle.",
+        "french": "@Réduit la défense des ennemis jusqu'à la fin du combat."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37312E",
+    "offset": "37312E",
+    "snes": "F7312E",
+    "length": 77,
+    "source": "script_candidate",
+    "text_en": "@Increase one person's Offense for the duration of the current battle.[00][08 C6 31 F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E 93 A2 95 91 A3 95 50 9F 9E 95 50 A0 95 A2 A3 9F 9E 57 A3 50 7F 96 96 95 9E A3 95 50 96 9F A2 50 A4 98 95 50 94 A5 A2 91 A4 99 9F 9E 50 9F 96 50 A4 98 95 50 93 A5 A2 A2 95 9E A4 50 92 91 A4 A4 9C 95 5E 00 08 C6 31 F7 00 02",
+    "literal_pointer_offsets": [
+      "382B69"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Increase one person's Offense for the duration of the current battle.\n[08 C6 31 F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Increase one person's Offense for the duration of the current battle.",
+        "french": "@Augmente l'attaque d'une personne jusqu'à la fin du combat."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37317B",
+    "offset": "37317B",
+    "snes": "F7317B",
+    "length": 75,
+    "source": "script_candidate",
+    "text_en": "@Increase everyone's Offense for the duration of the current battle.[00][08 C6 31 F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E 93 A2 95 91 A3 95 50 95 A6 95 A2 A9 9F 9E 95 57 A3 50 7F 96 96 95 9E A3 95 50 96 9F A2 50 A4 98 95 50 94 A5 A2 91 A4 99 9F 9E 50 9F 96 50 A4 98 95 50 93 A5 A2 A2 95 9E A4 50 92 91 A4 A4 9C 95 5E 00 08 C6 31 F7 00 02",
+    "literal_pointer_offsets": [
+      "382B78"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Increase everyone's Offense for the duration of the current battle.\n[08 C6 31 F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Increase everyone's Offense for the duration of the current battle.",
+        "french": "@Augmente l'attaque du groupe jusqu'à la fin du combat."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3731C6",
+    "offset": "3731C6",
+    "snes": "F731C6",
+    "length": 59,
+    "source": "script_candidate",
+    "text_en": "@Effective when used multiple times to <layer> the effect.[02]",
+    "text_fr": "",
+    "raw_hex": "70 75 96 96 95 93 A4 99 A6 95 50 A7 98 95 9E 50 A5 A3 95 94 50 9D A5 9C A4 99 A0 9C 95 50 A4 99 9D 95 A3 50 A4 9F 50 6C 9C 91 A9 95 A2 6E 50 A4 98 95 50 95 96 96 95 93 A4 5E 02",
+    "literal_pointer_offsets": [
+      "372FA7",
+      "372FF0",
+      "37303D",
+      "373088",
+      "3730D8",
+      "373129",
+      "373176",
+      "3731C1"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Effective when used multiple times to <layer> the effect.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Effective when used multiple times to <layer> the effect.",
+        "french": "@Les utilisations successives cumulent cet effet."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "373201",
+    "offset": "373201",
+    "snes": "F73201",
+    "length": 31,
+    "source": "script_candidate",
+    "text_en": "@Makes one enemy feel strange.[02]",
+    "text_fr": "",
+    "raw_hex": "70 7D 91 9B 95 A3 50 9F 9E 95 50 95 9E 95 9D A9 50 96 95 95 9C 50 A3 A4 A2 91 9E 97 95 5E 02",
+    "literal_pointer_offsets": [
+      "382BFF"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Makes one enemy feel strange.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Makes one enemy feel strange.",
+        "french": "@Trouble l'esprit d'un ennemi."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "373220",
+    "offset": "373220",
+    "snes": "F73220",
+    "length": 60,
+    "source": "script_candidate",
+    "text_en": "[08 77 57 EF 00][00]@This technique is also known as the <Brain Cyclone>.[02]",
+    "text_fr": "",
+    "raw_hex": "08 77 57 EF 00 00 70 84 98 99 A3 50 A4 95 93 98 9E 99 A1 A5 95 50 99 A3 50 91 9C A3 9F 50 9B 9E 9F A7 9E 50 91 A3 50 A4 98 95 50 6C 72 A2 91 99 9E 50 73 A9 93 9C 9F 9E 95 6E 5E 02",
+    "literal_pointer_offsets": [
+      "382C0E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[08 77 57 EF 00]\n@This technique is also known as the <Brain Cyclone>.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 6,
+        "original": "@This technique is also known as the <Brain Cyclone>.",
+        "french": "@Cette technique s'appelle aussi <Cyclone mental>."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37325C",
+    "offset": "37325C",
+    "snes": "F7325C",
+    "length": 58,
+    "source": "script_candidate",
+    "text_en": "@Cures a cold, poisonings, sunstroke or sleep conditions.[02]",
+    "text_fr": "",
+    "raw_hex": "70 73 A5 A2 95 A3 50 91 50 93 9F 9C 94 5C 50 A0 9F 99 A3 9F 9E 99 9E 97 A3 5C 50 A3 A5 9E A3 A4 A2 9F 9B 95 50 9F A2 50 A3 9C 95 95 A0 50 93 9F 9E 94 99 A4 99 9F 9E A3 5E 02",
+    "literal_pointer_offsets": [
+      "382AB5"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Cures a cold, poisonings, sunstroke or sleep conditions.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Cures a cold, poisonings, sunstroke or sleep conditions.",
+        "french": "@Soigne rhume, poison, insolation et sommeil."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "373296",
+    "offset": "373296",
+    "snes": "F73296",
+    "length": 92,
+    "source": "script_candidate",
+    "text_en": "@In addition to the effects of Healing [8B], this cures nausea, feeling strange and blindness.[02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E 50 91 94 94 99 A4 99 9F 9E 50 A4 9F 50 A4 98 95 50 95 96 96 95 93 A4 A3 50 9F 96 50 78 95 91 9C 99 9E 97 50 8B 5C 50 A4 98 99 A3 50 93 A5 A2 95 A3 50 9E 91 A5 A3 95 91 5C 50 96 95 95 9C 99 9E 97 50 A3 A4 A2 91 9E 97 95 50 91 9E 94 50 92 9C 99 9E 94 9E 95 A3 A3 5E 02",
+    "literal_pointer_offsets": [
+      "382AC4"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@In addition to the effects of Healing [8B], this cures nausea, feeling strange and blindness.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@In addition to the effects of Healing [8B], this cures nausea, feeling strange and blindness.",
+        "french": "@Aux effets de Guérison [8B] s'ajoute le soin des nausées, de la confusion et de la cécité."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3732F2",
+    "offset": "3732F2",
+    "snes": "F732F2",
+    "length": 166,
+    "source": "script_candidate",
+    "text_en": "@In addition to the effects of Healing [8C], this cures being petrified and paralysis.[00]@It also revives a friend who has become unconscious, though HP is not maxed out.[02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E 50 91 94 94 99 A4 99 9F 9E 50 A4 9F 50 A4 98 95 50 95 96 96 95 93 A4 A3 50 9F 96 50 78 95 91 9C 99 9E 97 50 8C 5C 50 A4 98 99 A3 50 93 A5 A2 95 A3 50 92 95 99 9E 97 50 A0 95 A4 A2 99 96 99 95 94 50 91 9E 94 50 A0 91 A2 91 9C A9 A3 99 A3 5E 00 70 79 A4 50 91 9C A3 9F 50 A2 95 A6 99 A6 95 A3 50 91 50 96 A2 99 95 9E 94 50 A7 98 9F 50 98 91 A3 50 92 95 93 9F 9D 95 50 A5 9E 93 9F 9E A3 93 99 9F A5 A3 5C 50 A4 98 9F A5 97 98 50 78 80 50 99 A3 50 9E 9F A4 50 9D 91 A8 95 94 50 9F A5 A4 5E 02",
+    "literal_pointer_offsets": [
+      "382AD3"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@In addition to the effects of Healing [8C], this cures being petrified and paralysis.\n@It also revives a friend who has become unconscious, though HP is not maxed out.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@In addition to the effects of Healing [8C], this cures being petrified and paralysis.",
+        "french": "@Aux effets de Guérison [8C] s'ajoute le soin de la pétrification et de la paralysie."
+      },
+      {
+        "offset": 84,
+        "original": "@It also revives a friend who has become unconscious, though HP is not maxed out.",
+        "french": "@Ranime aussi un allié inconscient, sans rétablir tous ses PV."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "373398",
+    "offset": "373398",
+    "snes": "F73398",
+    "length": 146,
+    "source": "script_candidate",
+    "text_en": "@In addition to the effects of Healing [8D], this completely maxes out the HP of a revived friend.[00]@This technique is also known as <Super Healing>.[02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E 50 91 94 94 99 A4 99 9F 9E 50 A4 9F 50 A4 98 95 50 95 96 96 95 93 A4 A3 50 9F 96 50 78 95 91 9C 99 9E 97 50 8D 5C 50 A4 98 99 A3 50 93 9F 9D A0 9C 95 A4 95 9C A9 50 9D 91 A8 95 A3 50 9F A5 A4 50 A4 98 95 50 78 80 50 9F 96 50 91 50 A2 95 A6 99 A6 95 94 50 96 A2 99 95 9E 94 5E 00 70 84 98 99 A3 50 A4 95 93 98 9E 99 A1 A5 95 50 99 A3 50 91 9C A3 9F 50 9B 9E 9F A7 9E 50 91 A3 50 6C 83 A5 A0 95 A2 50 78 95 91 9C 99 9E 97 6E 5E 02",
+    "literal_pointer_offsets": [
+      "382AE2"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@In addition to the effects of Healing [8D], this completely maxes out the HP of a revived friend.\n@This technique is also known as <Super Healing>.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@In addition to the effects of Healing [8D], this completely maxes out the HP of a revived friend.",
+        "french": "@Aux effets de Guérison [8D] s'ajoute le retour de tous les PV d'un allié ranimé."
+      },
+      {
+        "offset": 96,
+        "original": "@This technique is also known as <Super Healing>.",
+        "french": "@Cette technique s'appelle aussi <Super guérison>."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37342A",
+    "offset": "37342A",
+    "snes": "F7342A",
+    "length": 94,
+    "source": "script_candidate",
+    "text_en": "@Fire bursts from the fingers and a row of enemies take about 80 points of damage each.[00][08 2F 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 76 99 A2 95 50 92 A5 A2 A3 A4 A3 50 96 A2 9F 9D 50 A4 98 95 50 96 99 9E 97 95 A2 A3 50 91 9E 94 50 91 50 A2 9F A7 50 9F 96 50 95 9E 95 9D 99 95 A3 50 A4 91 9B 95 50 91 92 9F A5 A4 50 68 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 50 95 91 93 98 5E 00 08 2F 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "38296B"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Fire bursts from the fingers and a row of enemies take about 80 points of damage each.\n[08 2F 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Fire bursts from the fingers and a row of enemies take about 80 points of damage each.",
+        "french": "@Des flammes jaillissent des doigts : environ 80 dégâts par ennemi d'un rang."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "373488",
+    "offset": "373488",
+    "snes": "F73488",
+    "length": 95,
+    "source": "script_candidate",
+    "text_en": "@Fire bursts from the fingers and a row of enemies take about 160 points of damage each.[00][08 2F 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 76 99 A2 95 50 92 A5 A2 A3 A4 A3 50 96 A2 9F 9D 50 A4 98 95 50 96 99 9E 97 95 A2 A3 50 91 9E 94 50 91 50 A2 9F A7 50 9F 96 50 95 9E 95 9D 99 95 A3 50 A4 91 9B 95 50 91 92 9F A5 A4 50 61 66 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 50 95 91 93 98 5E 00 08 2F 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "1AD3CB",
+      "38297A"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Fire bursts from the fingers and a row of enemies take about 160 points of damage each.\n[08 2F 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Fire bursts from the fingers and a row of enemies take about 160 points of damage each.",
+        "french": "@Des flammes jaillissent des doigts : environ 160 dégâts par ennemi d'un rang."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3734E7",
+    "offset": "3734E7",
+    "snes": "F734E7",
+    "length": 95,
+    "source": "script_candidate",
+    "text_en": "@Fire bursts from the fingers and a row of enemies take about 280 points of damage each.[00][08 2F 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 76 99 A2 95 50 92 A5 A2 A3 A4 A3 50 96 A2 9F 9D 50 A4 98 95 50 96 99 9E 97 95 A2 A3 50 91 9E 94 50 91 50 A2 9F A7 50 9F 96 50 95 9E 95 9D 99 95 A3 50 A4 91 9B 95 50 91 92 9F A5 A4 50 62 68 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 50 95 91 93 98 5E 00 08 2F 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "382989"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Fire bursts from the fingers and a row of enemies take about 280 points of damage each.\n[08 2F 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Fire bursts from the fingers and a row of enemies take about 280 points of damage each.",
+        "french": "@Des flammes jaillissent des doigts : environ 280 dégâts par ennemi d'un rang."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "373546",
+    "offset": "373546",
+    "snes": "F73546",
+    "length": 95,
+    "source": "script_candidate",
+    "text_en": "@Fire bursts from the fingers and a row of enemies take about 400 points of damage each.[00][08 2F 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 76 99 A2 95 50 92 A5 A2 A3 A4 A3 50 96 A2 9F 9D 50 A4 98 95 50 96 99 9E 97 95 A2 A3 50 91 9E 94 50 91 50 A2 9F A7 50 9F 96 50 95 9E 95 9D 99 95 A3 50 A4 91 9B 95 50 91 92 9F A5 A4 50 64 60 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 50 95 91 93 98 5E 00 08 2F 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "382998"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Fire bursts from the fingers and a row of enemies take about 400 points of damage each.\n[08 2F 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Fire bursts from the fingers and a row of enemies take about 400 points of damage each.",
+        "french": "@Des flammes jaillissent des doigts : environ 400 dégâts par ennemi d'un rang."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3735A5",
+    "offset": "3735A5",
+    "snes": "F735A5",
+    "length": 131,
+    "source": "script_candidate",
+    "text_en": "@Causes a very cold wind to swirl around one enemy, inflicting about 180 points of damage.[00]@May freeze the enemy completely.[01][08 2F 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 73 91 A5 A3 95 A3 50 91 50 A6 95 A2 A9 50 93 9F 9C 94 50 A7 99 9E 94 50 A4 9F 50 A3 A7 99 A2 9C 50 91 A2 9F A5 9E 94 50 9F 9E 95 50 95 9E 95 9D A9 5C 50 99 9E 96 9C 99 93 A4 99 9E 97 50 91 92 9F A5 A4 50 61 68 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 5E 00 70 7D 91 A9 50 96 A2 95 95 AA 95 50 A4 98 95 50 95 9E 95 9D A9 50 93 9F 9D A0 9C 95 A4 95 9C A9 5E 01 08 2F 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "3829A7"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Causes a very cold wind to swirl around one enemy, inflicting about 180 points of damage.\n@May freeze the enemy completely.\n\n[08 2F 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Causes a very cold wind to swirl around one enemy, inflicting about 180 points of damage.",
+        "french": "@Un vent glacial inflige environ 180 dégâts à un ennemi."
+      },
+      {
+        "offset": 91,
+        "original": "@May freeze the enemy completely.",
+        "french": "@Peut le geler entièrement."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "373628",
+    "offset": "373628",
+    "snes": "F73628",
+    "length": 131,
+    "source": "script_candidate",
+    "text_en": "@Causes a very cold wind to swirl around one enemy, inflicting about 360 points of damage.[00]@May freeze the enemy completely.[01][08 2F 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 73 91 A5 A3 95 A3 50 91 50 A6 95 A2 A9 50 93 9F 9C 94 50 A7 99 9E 94 50 A4 9F 50 A3 A7 99 A2 9C 50 91 A2 9F A5 9E 94 50 9F 9E 95 50 95 9E 95 9D A9 5C 50 99 9E 96 9C 99 93 A4 99 9E 97 50 91 92 9F A5 A4 50 63 66 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 5E 00 70 7D 91 A9 50 96 A2 95 95 AA 95 50 A4 98 95 50 95 9E 95 9D A9 50 93 9F 9D A0 9C 95 A4 95 9C A9 5E 01 08 2F 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "3829B6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Causes a very cold wind to swirl around one enemy, inflicting about 360 points of damage.\n@May freeze the enemy completely.\n\n[08 2F 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Causes a very cold wind to swirl around one enemy, inflicting about 360 points of damage.",
+        "french": "@Un vent glacial inflige environ 360 dégâts à un ennemi."
+      },
+      {
+        "offset": 91,
+        "original": "@May freeze the enemy completely.",
+        "french": "@Peut le geler entièrement."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3736AB",
+    "offset": "3736AB",
+    "snes": "F736AB",
+    "length": 131,
+    "source": "script_candidate",
+    "text_en": "@Causes a very cold wind to swirl around one enemy, inflicting about 540 points of damage.[00]@May freeze the enemy completely.[01][08 2F 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 73 91 A5 A3 95 A3 50 91 50 A6 95 A2 A9 50 93 9F 9C 94 50 A7 99 9E 94 50 A4 9F 50 A3 A7 99 A2 9C 50 91 A2 9F A5 9E 94 50 9F 9E 95 50 95 9E 95 9D A9 5C 50 99 9E 96 9C 99 93 A4 99 9E 97 50 91 92 9F A5 A4 50 65 64 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 5E 00 70 7D 91 A9 50 96 A2 95 95 AA 95 50 A4 98 95 50 95 9E 95 9D A9 50 93 9F 9D A0 9C 95 A4 95 9C A9 5E 01 08 2F 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "3829C5"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Causes a very cold wind to swirl around one enemy, inflicting about 540 points of damage.\n@May freeze the enemy completely.\n\n[08 2F 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Causes a very cold wind to swirl around one enemy, inflicting about 540 points of damage.",
+        "french": "@Un vent glacial inflige environ 540 dégâts à un ennemi."
+      },
+      {
+        "offset": 91,
+        "original": "@May freeze the enemy completely.",
+        "french": "@Peut le geler entièrement."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37372E",
+    "offset": "37372E",
+    "snes": "F7372E",
+    "length": 135,
+    "source": "script_candidate",
+    "text_en": "@Causes a very cold wind to swirl around all enemies, inflicting about 540 points of damage.[00]@May freeze the enemies completely.[01][08 2F 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 73 91 A5 A3 95 A3 50 91 50 A6 95 A2 A9 50 93 9F 9C 94 50 A7 99 9E 94 50 A4 9F 50 A3 A7 99 A2 9C 50 91 A2 9F A5 9E 94 50 91 9C 9C 50 95 9E 95 9D 99 95 A3 5C 50 99 9E 96 9C 99 93 A4 99 9E 97 50 91 92 9F A5 A4 50 65 64 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 5E 00 70 7D 91 A9 50 96 A2 95 95 AA 95 50 A4 98 95 50 95 9E 95 9D 99 95 A3 50 93 9F 9D A0 9C 95 A4 95 9C A9 5E 01 08 2F 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "3829D4"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Causes a very cold wind to swirl around all enemies, inflicting about 540 points of damage.\n@May freeze the enemies completely.\n\n[08 2F 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Causes a very cold wind to swirl around all enemies, inflicting about 540 points of damage.",
+        "french": "@Un vent glacial inflige environ 540 dégâts à tous les ennemis."
+      },
+      {
+        "offset": 93,
+        "original": "@May freeze the enemies completely.",
+        "french": "@Peut les geler entièrement."
+      }
+    ],
+    "status": "draft"
   }
 ]

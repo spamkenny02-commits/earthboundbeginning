@@ -19,10 +19,14 @@ def encode_fr(s,accents=True):
     s=s.replace('Œ','Oe').replace('œ','oe').replace('’',"'").replace('–','-').replace('…','...')
     if not accents:s=''.join(c for c in unicodedata.normalize('NFD',s) if not unicodedata.combining(c))
     raw=bytearray()
-    for c in s:
-        if accents and c in ACCENT_CODES:raw.append(ACCENT_CODES[c])
-        elif 0x20<=ord(c)<=0x7a and c not in '"[\\]^':raw.append(ord(c)+0x30)
-        else:raise ValueError('Caractère non représentable : '+repr(c))
+    for part in re.split(r'(\[(?:8B|8C|8D|8E|AB|AC|AD|AE)\])',s):
+        if re.fullmatch(r'\[(?:8B|8C|8D|8E|AB|AC|AD|AE)\]',part):
+            # Glyphes natifs : conserver les suffixes des PSI sans les redessiner.
+            raw.append(int(part[1:-1],16));continue
+        for c in part:
+            if accents and c in ACCENT_CODES:raw.append(ACCENT_CODES[c])
+            elif 0x20<=ord(c)<=0x7a and c not in '"[\\]^':raw.append(ord(c)+0x30)
+            else:raise ValueError('Caractère non représentable : '+repr(c))
     return bytes(raw)
 
 def glyph_decode(raw,w,h):
