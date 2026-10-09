@@ -585,6 +585,15 @@ DIALOGUES += '''
 
 DIALOGUES += '\n33ED82|Biiiip...\n36ADB4|Biiiip...'
 
+DIALOGUES += '''
+36B715|| ouvrit la porte.
+36B7D5|Que veux-tu me confier ?||?|Je le garderai en lieu sûr.
+36B96F|Tu devrais garder ça.
+36B99B|Tu portes déjà trop d'objets.
+36B9D9|Que veux-tu|récupérer ?
+36BA13|Le |?|Prends-en soin.|Tu veux autre chose ?|Oui|Non
+36BACB|À bientôt, |...|Prends soin de toi !'''
+
 def main():
     import sys
     sys.path.insert(0,str(ROOT/'atelier/outils'))

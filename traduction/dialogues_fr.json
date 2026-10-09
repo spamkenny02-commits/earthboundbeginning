@@ -7290,5 +7290,229 @@
       }
     ],
     "status": "draft"
+  },
+  {
+    "id": "36B715",
+    "offset": "36B715",
+    "snes": "F6B715",
+    "length": 61,
+    "source": "script_candidate",
+    "text_en": "[06 7F 03 55 A9 F7 00][19 19 00 00][1B 04][1B 00][0B AA][1B 02 52 B7 F6 00]@[08 D7 E6 C7 00] unlocked the door.[13][1F 02 77][04 6C 00][1F 1E 10 00 06][02]",
+    "text_fr": "",
+    "raw_hex": "06 7F 03 55 A9 F7 00 19 19 00 00 1B 04 1B 00 0B AA 1B 02 52 B7 F6 00 70 08 D7 E6 C7 00 50 A5 9E 9C 9F 93 9B 95 94 50 A4 98 95 50 94 9F 9F A2 5E 13 1F 02 77 04 6C 00 1F 1E 10 00 06 02",
+    "literal_pointer_offsets": [
+      "2022C5"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 7F 03 55 A9 F7 00][19 19 00 00][1B 04][1B 00][0B AA][1B 02 52 B7 F6 00]@[08 D7 E6 C7 00] unlocked the door.[13][1F 02 77][04 6C 00][1F 1E 10 00 06][02]",
+    "text_fr_segments": [
+      {
+        "offset": 23,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 29,
+        "original": " unlocked the door.",
+        "french": " ouvrit la porte."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B7D5",
+    "offset": "36B7D5",
+    "snes": "F6B7D5",
+    "length": 151,
+    "source": "script_candidate",
+    "text_en": "[08 31 E4 C5 00][1B 02 C1 B8 F6 00][1D 0C 01 01][18 07 02 00 00 00 00][1B 03 1C B9 F6 00]@What do you want me to store?[03][00][1C 04][08 56 E4 C5 00][1B 02 F3 B8 F6 00][1B 00][1D 0C 00 00][1B 03 6F B9 F6 00][1B 01][19 19 00 00][1F 02 76]@[08 6C B5 F8 00][1C 05 00]?[00]  Don't worry, I'll keep it safe.[03][00][1B 01][1D 12 00 00][0A 6C B8 F6 00]",
+    "text_fr": "",
+    "raw_hex": "08 31 E4 C5 00 1B 02 C1 B8 F6 00 1D 0C 01 01 18 07 02 00 00 00 00 1B 03 1C B9 F6 00 70 87 98 91 A4 50 94 9F 50 A9 9F A5 50 A7 91 9E A4 50 9D 95 50 A4 9F 50 A3 A4 9F A2 95 6F 03 00 1C 04 08 56 E4 C5 00 1B 02 F3 B8 F6 00 1B 00 1D 0C 00 00 1B 03 6F B9 F6 00 1B 01 19 19 00 00 1F 02 76 70 08 6C B5 F8 00 1C 05 00 6F 00 50 50 74 9F 9E 57 A4 50 A7 9F A2 A2 A9 5C 50 79 57 9C 9C 50 9B 95 95 A0 50 99 A4 50 A3 91 96 95 5E 03 00 1B 01 1D 12 00 00 0A 6C B8 F6 00",
+    "literal_pointer_offsets": [
+      "36B7C8",
+      "36B8B4"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[08 31 E4 C5 00][1B 02 C1 B8 F6 00][1D 0C 01 01][18 07 02 00 00 00 00][1B 03 1C B9 F6 00]@What do you want me to store?\n[1C 04][08 56 E4 C5 00][1B 02 F3 B8 F6 00][1B 00][1D 0C 00 00][1B 03 6F B9 F6 00][1B 01][19 19 00 00][1F 02 76]@[08 6C B5 F8 00][1C 05 00]?\n  Don't worry, I'll keep it safe.\n[1B 01][1D 12 00 00][0A 6C B8 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 28,
+        "original": "@What do you want me to store?",
+        "french": "@Que veux-tu me confier ?"
+      },
+      {
+        "offset": 94,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 103,
+        "original": "?",
+        "french": "?"
+      },
+      {
+        "offset": 105,
+        "original": "  Don't worry, I'll keep it safe.",
+        "french": "  Je le garderai en lieu sûr."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B96F",
+    "offset": "36B96F",
+    "snes": "F6B96F",
+    "length": 44,
+    "source": "script_candidate",
+    "text_en": "@I don't think you should store that.[03][00][0A 6C B8 F6 00]",
+    "text_fr": "",
+    "raw_hex": "70 79 50 94 9F 9E 57 A4 50 A4 98 99 9E 9B 50 A9 9F A5 50 A3 98 9F A5 9C 94 50 A3 A4 9F A2 95 50 A4 98 91 A4 5E 03 00 0A 6C B8 F6 00",
+    "literal_pointer_offsets": [
+      "36B826"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@I don't think you should store that.\n[0A 6C B8 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@I don't think you should store that.",
+        "french": "@Tu devrais garder ça."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B99B",
+    "offset": "36B99B",
+    "snes": "F6B99B",
+    "length": 62,
+    "source": "script_candidate",
+    "text_en": "[1F 02 05][10 14][01]@I think you're already carrying too many things.[03][00][0A F3 B8 F6 00]",
+    "text_fr": "",
+    "raw_hex": "1F 02 05 10 14 01 70 79 50 A4 98 99 9E 9B 50 A9 9F A5 57 A2 95 50 91 9C A2 95 91 94 A9 50 93 91 A2 A2 A9 99 9E 97 50 A4 9F 9F 50 9D 91 9E A9 50 A4 98 99 9E 97 A3 5E 03 00 0A F3 B8 F6 00",
+    "literal_pointer_offsets": [
+      "36B9E8"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 05][10 14]\n\n@I think you're already carrying too many things.\n[0A F3 B8 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 6,
+        "original": "@I think you're already carrying too many things.",
+        "french": "@Tu portes déjà trop d'objets."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B9D9",
+    "offset": "36B9D9",
+    "snes": "F6B9D9",
+    "length": 58,
+    "source": "script_candidate",
+    "text_en": "[0E 01][19 14][1B 02 44 B9 F6 00][1D 03 FF][1B 02 9B B9 F6 00]@What would you like[00]  returned?[03][00][0A 13 BA F6 00]",
+    "text_fr": "",
+    "raw_hex": "0E 01 19 14 1B 02 44 B9 F6 00 1D 03 FF 1B 02 9B B9 F6 00 70 87 98 91 A4 50 A7 9F A5 9C 94 50 A9 9F A5 50 9C 99 9B 95 00 50 50 A2 95 A4 A5 A2 9E 95 94 6F 03 00 0A 13 BA F6 00",
+    "literal_pointer_offsets": [
+      "36B7CC",
+      "36BAA8"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[0E 01][19 14][1B 02 44 B9 F6 00][1D 03 FF][1B 02 9B B9 F6 00]@What would you like\n  returned?\n[0A 13 BA F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 19,
+        "original": "@What would you like",
+        "french": "@Que veux-tu"
+      },
+      {
+        "offset": 40,
+        "original": "  returned?",
+        "french": "  récupérer ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36BA13",
+    "offset": "36BA13",
+    "snes": "F6BA13",
+    "length": 162,
+    "source": "script_candidate",
+    "text_en": "[1C 04][18 02][1A 07][01][1B 02 B5 BA F6 00][1B 04][1B 00][18 02][08 4A E5 C5 00][1B 02 C2 BA F6 00][1B 05][18 03 0D][18 00][18 03 35][1B 06][1F 02 74][1D 13 00 00][19 19 00 00]@The [1C 05 00]?[00]  Take good care of it.[03][00]@Is there anything else you want returned?[00][19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 D9 B9 F6 00 F3 B8 F6 00][0A F3 B8 F6 00]",
+    "text_fr": "",
+    "raw_hex": "1C 04 18 02 1A 07 01 1B 02 B5 BA F6 00 1B 04 1B 00 18 02 08 4A E5 C5 00 1B 02 C2 BA F6 00 1B 05 18 03 0D 18 00 18 03 35 1B 06 1F 02 74 1D 13 00 00 19 19 00 00 70 84 98 95 50 1C 05 00 6F 00 50 50 84 91 9B 95 50 97 9F 9F 94 50 93 91 A2 95 50 9F 96 50 99 A4 5E 03 00 70 79 A3 50 A4 98 95 A2 95 50 91 9E A9 A4 98 99 9E 97 50 95 9C A3 95 50 A9 9F A5 50 A7 91 9E A4 50 A2 95 A4 A5 A2 9E 95 94 6F 00 19 02 89 95 A3 02 19 02 7E 9F 02 1C 07 02 11 12 09 02 D9 B9 F6 00 F3 B8 F6 00 0A F3 B8 F6 00",
+    "literal_pointer_offsets": [
+      "36BA0F",
+      "36BAC7"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1C 04][18 02][1A 07]\n\n[1B 02 B5 BA F6 00][1B 04][1B 00][18 02][08 4A E5 C5 00][1B 02 C2 BA F6 00][1B 05][18 03 0D][18 00][18 03 35][1B 06][1F 02 74][1D 13 00 00][19 19 00 00]@The [1C 05 00]?\n  Take good care of it.\n@Is there anything else you want returned?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 D9 B9 F6 00 F3 B8 F6 00][0A F3 B8 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 53,
+        "original": "@The ",
+        "french": "@Le "
+      },
+      {
+        "offset": 61,
+        "original": "?",
+        "french": "?"
+      },
+      {
+        "offset": 63,
+        "original": "  Take good care of it.",
+        "french": "  Prends-en soin."
+      },
+      {
+        "offset": 88,
+        "original": "@Is there anything else you want returned?",
+        "french": "@Tu veux autre chose ?"
+      },
+      {
+        "offset": 133,
+        "original": "Yes",
+        "french": "Oui"
+      },
+      {
+        "offset": 139,
+        "original": "No",
+        "french": "Non"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36BACB",
+    "offset": "36BACB",
+    "snes": "F6BACB",
+    "length": 49,
+    "source": "script_candidate",
+    "text_en": "@See you later, and [08 FC BA F6 00]...[10 14][01]  You take care![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 83 95 95 50 A9 9F A5 50 9C 91 A4 95 A2 5C 50 91 9E 94 50 08 FC BA F6 00 5E 5E 5E 10 14 01 50 50 89 9F A5 50 A4 91 9B 95 50 93 91 A2 95 51 13 02",
+    "literal_pointer_offsets": [
+      "36B7D1"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@See you later, and [08 FC BA F6 00]...[10 14]\n\n  You take care![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@See you later, and ",
+        "french": "@À bientôt, "
+      },
+      {
+        "offset": 25,
+        "original": "...",
+        "french": "..."
+      },
+      {
+        "offset": 31,
+        "original": "  You take care!",
+        "french": "  Prends soin de toi !"
+      }
+    ],
+    "status": "draft"
   }
 ]
