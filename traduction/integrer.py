@@ -104,7 +104,7 @@ def integrate(rom,out,accents=True):
         q=p+len(raw)
         if any(p<b and a<q for a,b in patched_intervals):raise ValueError('Chevauchement : '+id)
         data[p:q]=raw;changes.append((p,q));patched_intervals.append((p,q))
-    rows=json.loads((ROOT/'traduction/menus_objets_fr.json').read_text())
+    rows=json.loads((ROOT/'traduction/menus_objets_fr.json').read_text(encoding='utf-8'))
     for row in rows:
         p=int(row['offset'],16);old=bytes.fromhex(row['raw_hex']);cap=row['capacity_bytes']
         assert original[p:p+len(old)]==old,'Champ source différent'
@@ -128,7 +128,7 @@ def integrate(rom,out,accents=True):
                 report['rejected'].append({'id':row['id'],'type':'field','reason':'champ fixe trop court','needed':len(raw),'available':allowed,'english':row['text_en'],'french':row['text_fr']});continue
             encoded=raw.ljust(allowed,b'\x50')
         write(p,encoded,row['id']);report['accepted'].append({'id':row['id'],'type':'field','english':row['text_en'],'french':row['text_fr'],'bytes':len(encoded)})
-    rows=json.loads((ROOT/'traduction/dialogues_fr.json').read_text())
+    rows=json.loads((ROOT/'traduction/dialogues_fr.json').read_text(encoding='utf-8'))
     for row in rows:
         p=int(row['offset'],16);old=bytes.fromhex(row['raw_hex']);parsed=parse(old,0,len(old)+1)
         assert original[p:p+len(old)]==old
@@ -158,7 +158,7 @@ def integrate(rom,out,accents=True):
         assert check_controls==control_bytes,'Commandes modifiées : '+row['id']
         write(p,bytes(outblock).ljust(len(old),b'\0'),row['id']);report['accepted'].append({'id':row['id'],'type':'dialogue','old_bytes':len(old),'new_bytes':len(outblock),'stable_offsets_padding':stable_offsets})
     # Introduction du remake : conserver toutes les commandes de défilement, modifier uniquement les lignes.
-    scroll=json.loads((ROOT/'traduction/introduction_fr.json').read_text())
+    scroll=json.loads((ROOT/'traduction/introduction_fr.json').read_text(encoding='utf-8'))
     for row in scroll:
         p=int(row['offset'],16);old=bytes.fromhex(row['raw_hex']);text=row['text_en'];tokens=re.split(r'(\[[0-9A-F ]+\])',text)
         literals=[t for t in tokens if t and not t.startswith('[')]
@@ -184,7 +184,7 @@ def integrate(rom,out,accents=True):
     report.update(target_sha256=hashlib.sha256(data).hexdigest(),source_rom_unchanged=hashlib.sha256(rom.read_bytes()).hexdigest()==hashlib.sha256(src).hexdigest(),rom_size=len(data),checksum=f'{checksum:04X}',accepted_count=len(report['accepted']),rejected_count=len(report['rejected']),bytes_changed=sum(a!=b for a,b in zip(original,data)),commands_preserved=True,ips_roundtrip_passed=True,runtime_validated=False)
     out.mkdir(parents=True,exist_ok=True);suffix='accents' if accents else 'ascii'
     (out/f'EarthBound_Beginnings_FR_v01_{suffix}.ips').write_bytes(patch)
-    (out/f'rapport_{suffix}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+    (out/f'rapport_{suffix}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2), encoding='utf-8')
     (out/f'EarthBound_Beginnings_FR_v01_{suffix}.sfc').write_bytes(data)
     print(json.dumps({k:report[k] for k in ['profile','accepted_count','rejected_count','bytes_changed','target_sha256','runtime_validated']},ensure_ascii=False,indent=2))
     return report

@@ -407,9 +407,9 @@ def main():
     sys.path.insert(0,str(ROOT/'atelier/outils'))
     from extraire import parse,render
     mapping=dict(line.split('|',1) for line in FIELDS.splitlines())
-    rows=json.loads((ROOT/'atelier/extraction/champs_menus_objets_ennemis.json').read_text())
+    rows=json.loads((ROOT/'atelier/extraction/champs_menus_objets_ennemis.json').read_text(encoding='utf-8'))
     names=[dict(r,text_fr=mapping[r['text_en']],status='draft') for r in rows if r['text_en'] in mapping and mapping[r['text_en']]!=r['text_en']]
-    blocks={r['id']:r for r in json.loads((ROOT/'atelier/extraction/dialogues.json').read_text())}
+    blocks={r['id']:r for r in json.loads((ROOT/'atelier/extraction/dialogues.json').read_text(encoding='utf-8'))}
     translated=[];errors=[]
     for line in DIALOGUES.splitlines():
         id,*values=line.split('|');r=blocks[id];raw=bytes.fromhex(r['raw_hex']);parsed=parse(raw,0,max_bytes=len(raw)+1)
@@ -423,7 +423,7 @@ def main():
             parts.append(dict(offset=a,original=en,french=fr));last=b
         translated.append(dict(r,text_fr_segments=parts,status='draft'))
     for filename,content in [('menus_objets_fr.json',names),('dialogues_fr.json',translated),('erreurs_preparation.json',errors)]:
-        (ROOT/'traduction'/filename).write_text(json.dumps(content,ensure_ascii=False,indent=2))
+        (ROOT/'traduction'/filename).write_text(json.dumps(content,ensure_ascii=False,indent=2), encoding='utf-8')
     print('Champs',len(names),'dialogues',len(translated),'erreurs',len(errors))
     for e in errors:print(e)
 if __name__=='__main__':main()

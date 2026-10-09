@@ -11,7 +11,7 @@ import re
 
 EXPECTED = 'e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c'
 ROOT = Path(__file__).resolve().parent.parent
-CFG = json.loads((ROOT / 'outils/commandes.json').read_text())
+CFG = json.loads((ROOT / 'outils/commandes.json').read_text(encoding='utf-8'))
 BASE = {int(k): v for k, v in CFG['base'].items()}
 SUB = {int(k): {int(a): n for a, n in v.items()} for k, v in CFG['sub'].items()}
 SPECIAL = {0x52, 0x8B, 0x8C, 0x8D, 0x8E, 0xAB, 0xAC, 0xAD, 0xAE}
@@ -343,11 +343,11 @@ def extract(rom, output):
     for m in re.finditer(rb'[\x20-\x7e]{4,}',b):
         if re.search(rb'[A-Za-z]{3}',m[0]):
             ascii_rows.append(record(b,m.start(),m.end(),m[0].decode('ascii'),'raw_ascii_scan',review_required=True))
-    (output/'inventaire_ascii_direct.json').write_text(json.dumps(ascii_rows,indent=2))
+    (output/'inventaire_ascii_direct.json').write_text(json.dumps(ascii_rows,indent=2), encoding='utf-8')
     pointer_rows=[dict(target_offset=f'{p:06X}',snes=f'{p+0xC00000:06X}',
                        literal_offsets=[f'{x:06X}' for x in locs]) for p,locs in sorted(ptrs.items())
                   if 0x339A82<=p<0x3A0000]
-    (output/'pointeurs_candidats.json').write_text(json.dumps(pointer_rows,indent=2))
+    (output/'pointeurs_candidats.json').write_text(json.dumps(pointer_rows,indent=2), encoding='utf-8')
     stats=dict(rom_sha256=sha,rom_size=len(b),copier_header_bytes=header,
                dialogue_blocks=len(blocks),dialogue_bytes=sum(r['length'] for r in blocks),
                fixed_fields=len(fixed),dictionary_entries=len(dictionary),
@@ -361,7 +361,7 @@ def extract(rom, output):
                remake_fragments_uncovered=sum(r['zone']=='remake_region' and not r['covered_by_export'] for r in fragments),
                validated_runtime=False,rom_modified=False,
                roundtrip_verified_blocks=len(blocks))
-    (output/'bilan.json').write_text(json.dumps(stats,indent=2))
+    (output/'bilan.json').write_text(json.dumps(stats,indent=2), encoding='utf-8')
     print(json.dumps(stats,indent=2))
 
 if __name__ == '__main__':

@@ -18,7 +18,7 @@ def audit(rom, output):
     intervals=[]
     counts={}
     for filename in FILES:
-        rows=json.loads((output/filename).read_text())
+        rows=json.loads((output/filename).read_text(encoding='utf-8'))
         counts[filename]=len(rows)
         for row in rows:
             p=int(row['offset'],16)
@@ -55,7 +55,7 @@ def audit(rom, output):
         assert found,('Passage absent des exports',text)
         probe_results.append(dict(text=text,covered_offsets=[f'{p:06X}' for p in found]))
     # Callback parameters are kept in the same token, so they cannot become bogus script commands.
-    combined='\n'.join(r['text_en'] for r in json.loads((output/'dialogues.json').read_text()))
+    combined='\n'.join(r['text_en'] for r in json.loads((output/'dialogues.json').read_text(encoding='utf-8')))
     assert '[1A 0C 34 AA F8 00 1D 03]' in combined,'Paramètres de palette perdus'
     assert '[1A 0C E5 95 F8 00 01]' in combined,'Paramètre de cinématique perdu'
     assert not missing,missing
@@ -66,7 +66,7 @@ def audit(rom, output):
                 regression_probes=probe_results,
                 all_rom_text_proven=False,
                 limits='Audit limité aux encodages reconnus et aux plages analysées ; pas de preuve de couverture des textes graphiques ou de tous les chemins en jeu.')
-    (output/'audit_verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
+    (output/'audit_verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2), encoding='utf-8')
     print(json.dumps({k:v for k,v in result.items() if k not in ('regression_probes','record_counts')},ensure_ascii=False,indent=2))
     return result
 

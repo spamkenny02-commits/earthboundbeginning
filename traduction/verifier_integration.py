@@ -21,10 +21,10 @@ def verify(rom,build):
     raw=rom.read_bytes();source=raw[512:] if len(raw)%0x8000==512 else raw
     assert hashlib.sha256(source).hexdigest()==EXPECTED
     results={}
-    menus={x['id']:x for x in json.loads((ROOT/'traduction/menus_objets_fr.json').read_text())}
-    dialogues={x['id']:x for x in json.loads((ROOT/'traduction/dialogues_fr.json').read_text())}
+    menus={x['id']:x for x in json.loads((ROOT/'traduction/menus_objets_fr.json').read_text(encoding='utf-8'))}
+    dialogues={x['id']:x for x in json.loads((ROOT/'traduction/dialogues_fr.json').read_text(encoding='utf-8'))}
     for profile in ['accents','ascii']:
-        report=json.loads((build/f'rapport_{profile}.json').read_text());target=(build/f'EarthBound_Beginnings_FR_v01_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v01_{profile}.ips').read_bytes()
+        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v01_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v01_{profile}.ips').read_bytes()
         assert len(target)==len(source)==4194304
         assert apply_independent(source,patch)==target
         assert hashlib.sha256(target).hexdigest()==report['target_sha256']
@@ -76,6 +76,6 @@ def verify(rom,build):
         assert apply_independent(with_header[512:],patch)==target
         results[profile]={'passed':True,'translations_checked':checked,'font_glyphs_checked':glyphs,'stable_fragment_positions_checked':stable_commands,'ips_reapplication':True,'headered_source_supported':True,'checksum_verified':True,'runtime_emulator_test':False}
     assert hashlib.sha256(rom.read_bytes()).hexdigest()==hashlib.sha256(raw).hexdigest()
-    (build/'verification_integration.json').write_text(json.dumps(results,ensure_ascii=False,indent=2));print(json.dumps(results,indent=2))
+    (build/'verification_integration.json').write_text(json.dumps(results,ensure_ascii=False,indent=2), encoding='utf-8');print(json.dumps(results,indent=2))
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('rom',type=Path);p.add_argument('--build',type=Path,default=ROOT/'build');a=p.parse_args();verify(a.rom,a.build)
