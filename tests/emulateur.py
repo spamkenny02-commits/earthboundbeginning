@@ -60,6 +60,7 @@ lib.retro_serialize.argtypes=[C.c_void_p,C.c_size_t];lib.retro_serialize.restype
 lib.retro_unserialize.argtypes=[C.c_void_p,C.c_size_t];lib.retro_unserialize.restype=C.c_bool
 if a.state:
  st=Path(a.state).read_bytes();buf=C.create_string_buffer(st);assert lib.retro_unserialize(buf,len(st))
+lib.retro_set_controller_port_device(0,1)
 actions=json.loads(Path(a.actions).read_text()) if a.actions else [{'frames':600,'capture':'boot','save':'boot.state'}]
 for action in actions:
  buttons=set(action.get('buttons',[]))
@@ -68,5 +69,7 @@ for action in actions:
   assert last is not None;last.save(out/(action['capture']+'.png'))
  if action.get('save'):
   size=lib.retro_serialize_size();buf=C.create_string_buffer(size);assert lib.retro_serialize(buf,size);(out/action['save']).write_bytes(buf.raw)
-print(json.dumps({'frames':frame,'rom_sha256':hashlib.sha256(raw).hexdigest(),'pixel_format':fmt,'size':last.size,'actions':actions}))
+result={'frames':frame,'rom_sha256':hashlib.sha256(raw).hexdigest(),'pixel_format':fmt,'size':last.size,'actions':actions}
+(out/'session.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps(result))
 lib.retro_unload_game();lib.retro_deinit()

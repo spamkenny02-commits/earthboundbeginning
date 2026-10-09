@@ -538,7 +538,7 @@
       "id": "0454F2",
       "type": "field",
       "english": "To ",
-      "french": "Sur",
+      "french": "À ",
       "bytes": 3
     },
     {
@@ -2222,6 +2222,104 @@
       "bytes": 25
     },
     {
+      "id": "33A03A",
+      "type": "dialogue",
+      "old_bytes": 230,
+      "new_bytes": 203,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A184",
+      "type": "dialogue",
+      "old_bytes": 156,
+      "new_bytes": 154,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A220",
+      "type": "dialogue",
+      "old_bytes": 154,
+      "new_bytes": 136,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A2BA",
+      "type": "dialogue",
+      "old_bytes": 134,
+      "new_bytes": 114,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A340",
+      "type": "dialogue",
+      "old_bytes": 68,
+      "new_bytes": 63,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A384",
+      "type": "dialogue",
+      "old_bytes": 196,
+      "new_bytes": 145,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A6B8",
+      "type": "dialogue",
+      "old_bytes": 262,
+      "new_bytes": 244,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A7BE",
+      "type": "dialogue",
+      "old_bytes": 386,
+      "new_bytes": 386,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "33A96E",
+      "type": "dialogue",
+      "old_bytes": 300,
+      "new_bytes": 274,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33AA9A",
+      "type": "dialogue",
+      "old_bytes": 350,
+      "new_bytes": 268,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33ABF8",
+      "type": "dialogue",
+      "old_bytes": 376,
+      "new_bytes": 284,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33AE0C",
+      "type": "dialogue",
+      "old_bytes": 32,
+      "new_bytes": 24,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33AE2C",
+      "type": "dialogue",
+      "old_bytes": 128,
+      "new_bytes": 128,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "33AEAC",
+      "type": "dialogue",
+      "old_bytes": 132,
+      "new_bytes": 119,
+      "stable_offsets_padding": false
+    },
+    {
       "id": "339A92",
       "type": "dialogue",
       "old_bytes": 28,
@@ -3281,13 +3379,13 @@
       "offset": "217CA1"
     }
   ],
-  "target_sha256": "f0105642e5f482849b8a7e209643c37c2eda88959e029f0e46f94f9ef5bb05da",
+  "target_sha256": "99cba70c61a7be1ea023253a153e9e708b28449c12f6fbb5e06c3b05abee9f07",
   "source_rom_unchanged": true,
   "rom_size": 4194304,
-  "checksum": "3D2C",
-  "accepted_count": 393,
+  "checksum": "68F4",
+  "accepted_count": 407,
   "rejected_count": 5,
-  "bytes_changed": 11163,
+  "bytes_changed": 13775,
   "commands_preserved": true,
   "ips_roundtrip_passed": true,
   "runtime_validated": false

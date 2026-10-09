@@ -1,6 +1,6 @@
 # Tests de la première intégration
 
-Aucun test en émulateur n'a été réalisé dans cette étape. Les contrôles binaires et de structure ont passé pour les deux variantes du patch.
+Premiers essais réalisés en v02 : menus de création de partie, introduction, maison, dialogue de la sœur et premier combat jusqu’à la victoire. Voir RAPPORT_V02.md pour le périmètre exact. Les contrôles binaires et de structure passent pour les deux variantes.
 
 À vérifier dans un émulateur SNES :
 

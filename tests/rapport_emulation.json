@@ -1,0 +1,39 @@
+{
+  "core": "libretro/snes9x2010",
+  "core_revision": "fe690dd321fa5a46b5234a2bde089d2518c62b0e",
+  "method": "software libretro ctypes; video callbacks; adaptive inputs and temporary save states",
+  "full_game_validated": false,
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "final_sha256": "99cba70c61a7be1ea023253a153e9e708b28449c12f6fbb5e06c3b05abee9f07",
+  "first_tests_sha256": "d93e70719d14b2c1e0bfef5d8aa4ac7810052dc68d594ae4e32b264da05b6fd9",
+  "observed": [
+    "boot/title",
+    "new game menus",
+    "accent glyphs in menus and introduction",
+    "introduction scrolling and entry into house",
+    "house command menu",
+    "lamp battle and victory",
+    "return to house",
+    "French sister dialogue on final ROM"
+  ],
+  "pending": [
+    "telephone",
+    "mother",
+    "doll and melody",
+    "dog key",
+    "inventory/depot",
+    "save/load",
+    "defeat",
+    "all remaining dialogues",
+    "ASCII full gameplay"
+  ],
+  "comparison_menus": [
+    "original English ROM",
+    "final accents ROM",
+    "final ASCII ROM"
+  ],
+  "automated_route": "tests/parcours_debut.json",
+  "fresh_boot_route_passed": true,
+  "fresh_boot_route_frames": 22630,
+  "fresh_boot_route_reached": "lamp victory, experience, return to house"
+}

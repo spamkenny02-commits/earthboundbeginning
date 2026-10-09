@@ -82,7 +82,7 @@ To all enemies|Tous les ennemis
 To one of us|Sur un allié
 to One Friend|Sur un allié
 To all of us|Tous nos alliés
-To |Sur
+To |À 
  the Front Row|la première ligne
 the Front Row|ligne avant
 the Back Row|ligne arrière
