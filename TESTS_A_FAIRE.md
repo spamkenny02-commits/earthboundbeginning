@@ -24,3 +24,7 @@ Vérifier le clavier MAJ/min/Au choix/Effacer, les goûts des fenêtres, les 23 
 ## Mise à jour v04
 
 Confirmés : attaque du héros et de la lampe, dégâts aux deux cibles, expérience sans caractère parasite, retour à la maison dans les deux variantes, « À qui ? », « R.A.S. » et dialogue sur l’oreiller vivant. Les boutiques, descriptions PSI, sauvegarde/chargement, autres combats et la fin de la séquence familiale restent à valider. Voir tests/rapport_emulation_v04.json.
+
+## Mise à jour v05
+
+Niveau 2, mélodie et premier appel familial observés ; sauvegarde SRAM et chargement après redémarrage confirmés pour les deux variantes finales. Poursuivre les messages financiers, les menus PSI, le stockage, les cadeaux, la défaite, les autres emplacements de sauvegarde et la relecture des espaces. Voir RAPPORT_V05.md et tests/rapport_emulation_v05.json.

@@ -1,6 +1,6 @@
 # EarthBound Beginnings SNES — traduction française
 
-Intégration expérimentale v04 : **599 entrées traduites**, introduction et 16 caractères accentués. Le défaut d’expérience est corrigé ; les attaques, dégâts et messages d’examen sont intégrés. Les deux variantes ont été testées depuis une nouvelle partie jusqu’à la première victoire et au retour à la maison. **La traduction reste partielle.**
+Intégration expérimentale v05 : **671 entrées traduites**, introduction et 16 caractères accentués. Les premiers combats, la montée au niveau 2, la mélodie et le premier appel familial sont testés. La sauvegarde au téléphone et le chargement depuis la SRAM sont observés. **La traduction reste partielle.**
 
 La sauvegarde intégrale de la TBL, des textes extraits et du repérage graphique est dans `sauvegardes/atelier_extraction_graphismes_v02.zip`. Décompresser à la racine pour retrouver tout le dossier `atelier/` (les outils et rapports principaux sont également visibles directement).
 
@@ -12,7 +12,7 @@ SHA-256 : `e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c`.
 Avec Python 3 :
 
 ```sh
-python traduction/integrer.py "ROM.sfc" --appliquer patches/EarthBound_Beginnings_FR_v04_accents.ips
+python traduction/integrer.py "ROM.sfc" --appliquer patches/EarthBound_Beginnings_FR_v05_accents.ips
 ```
 
 Le résultat est écrit dans `build/EarthBound_Beginnings_FR.sfc`. La ROM source reste inchangée. Une variante `ascii.ips` est fournie pour comparer l'affichage sans les nouveaux glyphes accentués.
@@ -25,6 +25,6 @@ python traduction/integrer.py "ROM.sfc"
 
 Cinq libellés et un dialogue du canari trop longs restent anglais et sont consignés dans le rapport. Les blocs à pointeurs intérieurs conservent leurs positions grâce à un remplissage par espaces. Les graphismes avec du texte anglais restent à modifier. Les noms d'objets hérités peuvent ne pas tous être utilisés par le remake.
 
-Rapport actuel : [RAPPORT_V03.md](RAPPORT_V03.md). Étape précédente : [RAPPORT_V03.md](RAPPORT_V03.md). Historique : [RAPPORT_V01.md](RAPPORT_V01.md). Vérifications à effectuer : [TESTS_A_FAIRE.md](TESTS_A_FAIRE.md). Sous Windows, glisser la ROM originale sur `Appliquer_patch_FR.bat`.
+Rapport actuel : [RAPPORT_V05.md](RAPPORT_V05.md). Étape précédente : [RAPPORT_V04.md](RAPPORT_V04.md). Historique : [RAPPORT_V01.md](RAPPORT_V01.md). Vérifications à effectuer : [TESTS_A_FAIRE.md](TESTS_A_FAIRE.md). Sous Windows, glisser la ROM originale sur `Appliquer_patch_FR.bat`.
 
-Le kit courant est [EarthBound_Beginnings_FR_v04_atelier_patch.zip](distributions/EarthBound_Beginnings_FR_v04_atelier_patch.zip). Il contient les deux patchs et les sources nécessaires à leur intégration. Le moteur de déplacement vérifie la réserve et les références explicites ; voir RAPPORT_V04.md.
+Le kit courant est [EarthBound_Beginnings_FR_v05_atelier_patch.zip](distributions/EarthBound_Beginnings_FR_v05_atelier_patch.zip). Il contient les deux patchs et les sources nécessaires à leur intégration. Le moteur de déplacement vérifie la réserve et les références explicites ; voir RAPPORT_V05.md.
