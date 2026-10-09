@@ -23,3 +23,7 @@ Les essais confirment « La lampe hantée attaque ! » et « Ninten attaque ! »
 ## Descriptions PSI et troisième série marchande
 
 Les 48 nouveaux blocs marchands et PSI sont intégrés, ainsi que trois versions de « Rien à signaler ». Les effets décrits (50 %, 80, 220 et 600 dégâts, portée et durée) suivent le texte anglais. L’affichage et les opérations des boutiques/PSI restent à valider en jeu. Bilan courant : **593 entrées intégrées** (348 champs, 229 blocs ordinaires, 11 routines compressées, 3 routines déplacées, 2 fragments d’introduction). Six propositions restent exclues.
+
+## Routines natives d’examen
+
+Un essai d’examen a montré que le moteur utilisait encore une quatrième famille de scripts compressés. Les blocs $07C59E, $086E02, $086E2F et $087EB2 sont ajoutés aux sources éditables et remplacés par « R.A.S. » ; l’affichage est confirmé. Cela porte le total à **597 entrées**, avec 15 routines compressées.

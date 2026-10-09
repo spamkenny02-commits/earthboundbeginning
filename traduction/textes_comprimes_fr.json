@@ -239,6 +239,54 @@
       "raw_hex": "97 95 A4",
       "code": "16 23",
       "pointer_offset": "08D279"
+    },
+    "16 ED": {
+      "id": "08C8FC",
+      "offset": "08C8FC",
+      "snes": "C8C8FC",
+      "length": 3,
+      "source": "compression_dictionary",
+      "text_en": "@No",
+      "text_fr": "",
+      "raw_hex": "70 7E 9F",
+      "code": "16 ED",
+      "pointer_offset": "08D5A1"
+    },
+    "17 96": {
+      "id": "08CC28",
+      "offset": "08CC28",
+      "snes": "C8CC28",
+      "length": 4,
+      "source": "compression_dictionary",
+      "text_en": " pro",
+      "text_fr": "",
+      "raw_hex": "50 A0 A2 9F",
+      "code": "17 96",
+      "pointer_offset": "08D845"
+    },
+    "16 86": {
+      "id": "08C6CF",
+      "offset": "08C6CF",
+      "snes": "C8C6CF",
+      "length": 3,
+      "source": "compression_dictionary",
+      "text_en": "ble",
+      "text_fr": "",
+      "raw_hex": "92 9C 95",
+      "code": "16 86",
+      "pointer_offset": "08D405"
+    },
+    "15 3E": {
+      "id": "08BE46",
+      "offset": "08BE46",
+      "snes": "C8BE46",
+      "length": 6,
+      "source": "compression_dictionary",
+      "text_en": " here.",
+      "text_fr": "",
+      "raw_hex": "50 98 95 A2 95 5E",
+      "code": "15 3E",
+      "pointer_offset": "08CEE5"
     }
   },
   "blocks": [
@@ -525,6 +573,62 @@
           "end": 35,
           "original": "  hitting the target!",
           "french": "de la cible !"
+        }
+      ]
+    },
+    {
+      "id": "07C59E",
+      "offset": "07C59E",
+      "raw_hex": "06 B0 01 BB 8E C5 00 16 ED 17 96 16 86 9D 15 3E 13 02",
+      "text_en": "[06 B0 01 BB 8E C5 00][16 ED][17 96][16 86]m[15 3E][13][02]",
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "end": 16,
+          "original": "@No problem here.",
+          "french": "@R.A.S."
+        }
+      ]
+    },
+    {
+      "id": "086E02",
+      "offset": "086E02",
+      "raw_hex": "06 91 00 14 6E C8 00 16 ED 17 96 16 86 9D 15 3E 13 02",
+      "text_en": "[06 91 00 14 6E C8 00][16 ED][17 96][16 86]m[15 3E][13][02]",
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "end": 16,
+          "original": "@No problem here.",
+          "french": "@R.A.S."
+        }
+      ]
+    },
+    {
+      "id": "086E2F",
+      "offset": "086E2F",
+      "raw_hex": "16 ED 17 96 16 86 9D 15 3E 13 19 26 05 02",
+      "text_en": "[16 ED][17 96][16 86]m[15 3E][13][19 26 05][02]",
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "end": 9,
+          "original": "@No problem here.",
+          "french": "@R.A.S."
+        }
+      ]
+    },
+    {
+      "id": "087EB2",
+      "offset": "087EB2",
+      "raw_hex": "16 ED 17 96 16 86 9D 15 3E 02",
+      "text_en": "[16 ED][17 96][16 86]m[15 3E][02]",
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "end": 9,
+          "original": "@No problem here.",
+          "french": "@R.A.S."
         }
       ]
     }
