@@ -474,7 +474,114 @@ DIALOGUES='''2FA66C|MAJ|min|Au choix|Effacer|OK
 38A466|Ayant repris des forces...|| revint à la charge !|Courage, | !
 38A4C3|| comprit que ce n'était qu'un mauvais rêve.|Courage, | !'''
 
-DIALOGUES += '\n' + "371C72|Regarde, les animaux se sont enfuis.|Il ne reste que ce |.|Tu veux l'acheter ?|Oui|Non\n371CFC|Alors, pour 85 $ ?|Oui|Non\n371D56|Merci ! Prends-en soin.|Reviens nous voir !\n371D9E|Oh ? Tu n'as pas assez d'argent.\n371DC9|Oui, je comprends.|Il ne sait même pas chanter.\n371E06|Tu le veux gratuitement ?|Prends-le !\n371E63|Tu ne peux plus rien porter.\n371E94|Et le canari ?|Ah...| ils sont mignons, hein ?|Oui|Non|Imbécile !\n371EF2|Regarde, les animaux se sont enfuis...\n371F27|Quelque chose contrôle les animaux.\n371F57|Bonjour !|Que veux-tu ?\n371F7F|Merci !\n371F8C|Tu regardes seulement ?\n371FA7|Tu cherches|quelque chose ?\n371FCA|Tu veux| |?\n371FE0|Qui va le porter ?\n371FF7|Tu veux l'équiper ici ?\n372017|Je rachète| |pour | $?\n372040|| ne peut l'équiper.|Tu l'achètes quand même ?\n372077|Tu n'en veux pas... Hmm...\n3720A4|Tu n'as pas assez !\n3720BE|Tu portes trop de choses.|Tu veux m'en vendre ?\n37210C|Que me proposes-tu ?\n372127|Le |?|Je t'en offre | $.\n372154|Tant pis\n372160|Tu n'as rien à me vendre.\n37219E|Je ne rachète pas |.\n3721BF|Merci bien !\n372215|Autre chose ?\n372234|Que veux-tu ?\n37224D|| porte trop de choses.|Quelqu'un d'autre le prend ?\n372295|Tout ça ?\n3722A6|Tu n'as pas assez pour tout payer.\n3722DF|Tu ne peux pas tout porter.\n372304|D'accord.\n372311|Salut !|Que veux-tu ?\n372337|Cool, merci.\n372347|Si tu n'achètes rien, va voir ailleurs.\n372380|Que veux-tu ?\n372394|Tu veux| |?\n3723AA|Qui va le porter ?\n3723C1|Tu veux l'équiper ?\n3723DA|Je te rachète|le |pour | $ ?\n37240F|| ne peut l'utiliser !|Tu l'achètes ?\n372442|D'accord.\n372452|Tu n'as pas assez !\n37246C|Tu ne peux plus rien porter !|Tu veux vendre des objets inutiles ?\n3724C4|Tu as quoi ?\n3724D6||?|Je t'offre | $ ?|Ça te va ?\n37250D|Ça me plaisait pourtant. Dommage.\n372535|Tu n'as rien à vendre, je crois.\n37256B|Je refuse ça !\n372583|Cool, merci.\n3725D7|Autre chose ?\n3725F6|Que veux-tu d'autre ?\n372619|On dirait que | ne peut plus rien porter.|Quelqu'un d'autre le prend ?"
+DIALOGUES += '''
+371C72|Regarde, les animaux se sont enfuis.|Il ne reste que ce |.|Tu veux l'acheter ?|Oui|Non
+371CFC|Alors, pour 85 $ ?|Oui|Non
+371D56|Merci ! Prends-en soin.|Reviens nous voir !
+371D9E|Oh ? Tu n'as pas assez d'argent.
+371DC9|Oui, je comprends.|Il ne sait même pas chanter.
+371E06|Tu le veux gratuitement ?|Prends-le !
+371E63|Tu ne peux plus rien porter.
+371E94|Et le canari ?|Ah...| ils sont mignons, hein ?|Oui|Non|Imbécile !
+371EF2|Regarde, les animaux se sont enfuis...
+371F27|Quelque chose contrôle les animaux.
+371F57|Bonjour !|Que veux-tu ?
+371F7F|Merci !
+371F8C|Tu regardes seulement ?
+371FA7|Tu cherches|quelque chose ?
+371FCA|Tu veux| |?
+371FE0|Qui va le porter ?
+371FF7|Tu veux l'équiper ici ?
+372017|Je rachète| |pour | $?
+372040|| ne peut l'équiper.|Tu l'achètes quand même ?
+372077|Tu n'en veux pas... Hmm...
+3720A4|Tu n'as pas assez !
+3720BE|Tu portes trop de choses.|Tu veux m'en vendre ?
+37210C|Que me proposes-tu ?
+372127|Le |?|Je t'en offre | $.
+372154|Tant pis
+372160|Tu n'as rien à me vendre.
+37219E|Je ne rachète pas |.
+3721BF|Merci bien !
+372215|Autre chose ?
+372234|Que veux-tu ?
+37224D|| porte trop de choses.|Quelqu'un d'autre le prend ?
+372295|Tout ça ?
+3722A6|Tu n'as pas assez pour tout payer.
+3722DF|Tu ne peux pas tout porter.
+372304|D'accord.
+372311|Salut !|Que veux-tu ?
+372337|Cool, merci.
+372347|Si tu n'achètes rien, va voir ailleurs.
+372380|Que veux-tu ?
+372394|Tu veux| |?
+3723AA|Qui va le porter ?
+3723C1|Tu veux l'équiper ?
+3723DA|Je te rachète|le |pour | $ ?
+37240F|| ne peut l'utiliser !|Tu l'achètes ?
+372442|D'accord.
+372452|Tu n'as pas assez !
+37246C|Tu ne peux plus rien porter !|Tu veux vendre des objets inutiles ?
+3724C4|Tu as quoi ?
+3724D6||?|Je t'offre | $ ?|Ça te va ?
+37250D|Ça me plaisait pourtant. Dommage.
+372535|Tu n'as rien à vendre, je crois.
+37256B|Je refuse ça !
+372583|Cool, merci.
+3725D7|Autre chose ?
+3725F6|Que veux-tu d'autre ?
+372619|On dirait que | ne peut plus rien porter.|Quelqu'un d'autre le prend ?
+372670|Tout ça ? D'accord.
+372687|Tu n'as pas assez pour tout ça !
+3726AB|Tu ne peux pas tout porter.
+3726D6|Rien ? Je ne peux pas te vendre du vide !
+372705|Bonjour !|Que veux-tu ?
+372729|À bientôt !
+372737|Bonne journée !|(Sourire)
+37275B|Regarde.
+37276A|Le |?
+372775|Qui va le porter ?
+37278A|Tu veux l'équiper ?
+3727A3|Je te rachète| |pour | $.
+3727DB|| ne peut l'utiliser|Tu le veux ?
+372803|D'accord
+37280F|Oh... Tu n'as pas assez d'argent.
+372839|Tu portes trop d'objets.
+372854|Que me proposes-tu ?
+372870|Le |?|Je t'en offre | $.
+372899|Rien ?
+3728A5|Oh... Tu n'as rien.
+3728C2|Je ne peux pas racheter| |...
+3728F1|Merci !
+372942|Autre chose ?
+372953|Que veux-tu ?
+37296C|| porte trop d'objets.|Un autre le prend ?
+3729A1|Tu aimes les féculents, toi.
+3729C1|Désolé, tu n'as pas assez pour tout ça.
+3729EF|Tu ne peux tout porter.
+372A0D|Tu veux... rien ?
+372A22|Un bouclier de lumière protège un allié.|Réduit de moitié les dégâts des attaques ennemies.
+372A89|Protège le groupe par un bouclier de lumière.|Réduit de moitié les dégâts des attaques ennemies.
+372AEE|Protège une personne par un bouclier de force.|Réduit les dégâts de moitié et en renvoie une partie à l'ennemi.
+372B68|Protège le groupe par un bouclier de force.|Réduit les dégâts de moitié et en renvoie une partie à l'ennemi.
+372BE0|Un autre bouclier annule ces effets.
+372C15|Un rayon de lumière inflige environ 80 dégâts à un ennemi.
+372C5E|Deux rayons de lumière infligent environ 220 dégâts à un ennemi.
+372CAB|Un rayon de lumière élimine un ennemi sur-le-champ.
+372CEE|Un rayon de lumière frappe tous les ennemis.|Inflige environ 600 dégâts.
+372D42|Tente de fuir le combat par la quatrième dimension.|Les alliés mortellement touchés tombent avant la fin du transfert.
+372DCB|Détruit le bouclier d'un ennemi.|Agit sur les boucliers physiques et psychiques.
+372E22|Peut bloquer les PSI ennemis un temps.
+372E4D|Aveugle un ennemi.
+372E86|Aveugle tous les ennemis.
+372EBB|Permet de lire les pensées des gens ou des animaux.
+372EF4|Moins fort sur les machines
+372F11|Sans effet sur les boss.
+372F2F|Peut être moins efficace sur certains ennemis.
+372F61|Augmente la vitesse d'une personne jusqu'à la fin du combat.
+33C6E8|Rien à signaler.
+347960|Rien à signaler.
+3744AD|Rien à signaler.'''
 
 def main():
     import sys

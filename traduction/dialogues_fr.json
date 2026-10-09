@@ -5951,5 +5951,1298 @@
       }
     ],
     "status": "draft"
+  },
+  {
+    "id": "372670",
+    "offset": "372670",
+    "snes": "F72670",
+    "length": 23,
+    "source": "script_candidate",
+    "text_en": "@All of those? Sure.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 9C 9C 50 9F 96 50 A4 98 9F A3 95 6F 50 83 A5 A2 95 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "36672F"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@All of those? Sure.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@All of those? Sure.",
+        "french": "@Tout ça ? D'accord."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372687",
+    "offset": "372687",
+    "snes": "F72687",
+    "length": 36,
+    "source": "script_candidate",
+    "text_en": "@No way you can afford that many![03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 7E 9F 50 A7 91 A9 50 A9 9F A5 50 93 91 9E 50 91 96 96 9F A2 94 50 A4 98 91 A4 50 9D 91 9E A9 51 03 00 02",
+    "literal_pointer_offsets": [
+      "3667E7"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@No way you can afford that many!\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@No way you can afford that many!",
+        "french": "@Tu n'as pas assez pour tout ça !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3726AB",
+    "offset": "3726AB",
+    "snes": "F726AB",
+    "length": 43,
+    "source": "script_candidate",
+    "text_en": "@That's too much stuff for you to carry.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 84 98 91 A4 57 A3 50 A4 9F 9F 50 9D A5 93 98 50 A3 A4 A5 96 96 50 96 9F A2 50 A9 9F A5 50 A4 9F 50 93 91 A2 A2 A9 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "36689F"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@That's too much stuff for you to carry.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@That's too much stuff for you to carry.",
+        "french": "@Tu ne peux pas tout porter."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3726D6",
+    "offset": "3726D6",
+    "snes": "F726D6",
+    "length": 47,
+    "source": "script_candidate",
+    "text_en": "@None? You want none? I can't sell you none.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 7E 9F 9E 95 6F 50 89 9F A5 50 A7 91 9E A4 50 9E 9F 9E 95 6F 50 79 50 93 91 9E 57 A4 50 A3 95 9C 9C 50 A9 9F A5 50 9E 9F 9E 95 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "366957"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@None? You want none? I can't sell you none.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@None? You want none? I can't sell you none.",
+        "french": "@Rien ? Je ne peux pas te vendre du vide !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372705",
+    "offset": "372705",
+    "snes": "F72705",
+    "length": 36,
+    "source": "script_candidate",
+    "text_en": "@Hey there![00]  What would you like?[00][02]",
+    "text_fr": "",
+    "raw_hex": "70 78 95 A9 50 A4 98 95 A2 95 51 00 50 50 87 98 91 A4 50 A7 9F A5 9C 94 50 A9 9F A5 50 9C 99 9B 95 6F 00 02",
+    "literal_pointer_offsets": [
+      "36581E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Hey there!\n  What would you like?\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Hey there!",
+        "french": "@Bonjour !"
+      },
+      {
+        "offset": 12,
+        "original": "  What would you like?",
+        "french": "  Que veux-tu ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372729",
+    "offset": "372729",
+    "snes": "F72729",
+    "length": 14,
+    "source": "script_candidate",
+    "text_en": "@Come again![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 73 9F 9D 95 50 91 97 91 99 9E 51 13 02",
+    "literal_pointer_offsets": [
+      "3658D6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Come again![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Come again!",
+        "french": "@À bientôt !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372737",
+    "offset": "372737",
+    "snes": "F72737",
+    "length": 36,
+    "source": "script_candidate",
+    "text_en": "@Have a nice day![01]  (smile, smile)[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 78 91 A6 95 50 91 50 9E 99 93 95 50 94 91 A9 51 01 50 50 58 A3 9D 99 9C 95 5C 50 A3 9D 99 9C 95 59 13 02",
+    "literal_pointer_offsets": [
+      "36598E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Have a nice day!\n\n  (smile, smile)[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Have a nice day!",
+        "french": "@Bonne journée !"
+      },
+      {
+        "offset": 18,
+        "original": "  (smile, smile)",
+        "french": "  (Sourire)"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37275B",
+    "offset": "37275B",
+    "snes": "F7275B",
+    "length": 15,
+    "source": "script_candidate",
+    "text_en": "@Take a look.[14][02]",
+    "text_fr": "",
+    "raw_hex": "70 84 91 9B 95 50 91 50 9C 9F 9F 9B 5E 14 02",
+    "literal_pointer_offsets": [
+      "365A46"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Take a look.[14][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Take a look.",
+        "french": "@Regarde."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37276A",
+    "offset": "37276A",
+    "snes": "F7276A",
+    "length": 11,
+    "source": "script_candidate",
+    "text_en": "@The [1C 05 00]?[00][02]",
+    "text_fr": "",
+    "raw_hex": "70 84 98 95 50 1C 05 00 6F 00 02",
+    "literal_pointer_offsets": [
+      "365AFE"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@The [1C 05 00]?\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@The ",
+        "french": "@Le "
+      },
+      {
+        "offset": 8,
+        "original": "?",
+        "french": "?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372775",
+    "offset": "372775",
+    "snes": "F72775",
+    "length": 21,
+    "source": "script_candidate",
+    "text_en": "@Who will carry it?[14][02]",
+    "text_fr": "",
+    "raw_hex": "70 87 98 9F 50 A7 99 9C 9C 50 93 91 A2 A2 A9 50 99 A4 6F 14 02",
+    "literal_pointer_offsets": [
+      "365BB6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Who will carry it?[14][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Who will carry it?",
+        "french": "@Qui va le porter ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37278A",
+    "offset": "37278A",
+    "snes": "F7278A",
+    "length": 25,
+    "source": "script_candidate",
+    "text_en": "@Want to equip it here?[00][02]",
+    "text_fr": "",
+    "raw_hex": "70 87 91 9E A4 50 A4 9F 50 95 A1 A5 99 A0 50 99 A4 50 98 95 A2 95 6F 00 02",
+    "literal_pointer_offsets": [
+      "365C6E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Want to equip it here?\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Want to equip it here?",
+        "french": "@Tu veux l'équiper ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3727A3",
+    "offset": "3727A3",
+    "snes": "F727A3",
+    "length": 56,
+    "source": "script_candidate",
+    "text_en": "@I can take the[00]  [1C 05 00][00]  off your hands for $[1B 04][1C 0A 00 00 00 00].[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 50 93 91 9E 50 A4 91 9B 95 50 A4 98 95 00 50 50 1C 05 00 00 50 50 9F 96 96 50 A9 9F A5 A2 50 98 91 9E 94 A3 50 96 9F A2 50 54 1B 04 1C 0A 00 00 00 00 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "365D26"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@I can take the\n  [1C 05 00]\n  off your hands for $[1B 04][1C 0A 00 00 00 00].\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@I can take the",
+        "french": "@Je te rachète"
+      },
+      {
+        "offset": 16,
+        "original": "  ",
+        "french": "   "
+      },
+      {
+        "offset": 22,
+        "original": "  off your hands for $",
+        "french": "  pour "
+      },
+      {
+        "offset": 52,
+        "original": ".",
+        "french": " $."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3727DB",
+    "offset": "3727DB",
+    "snes": "F727DB",
+    "length": 40,
+    "source": "script_candidate",
+    "text_en": "@[1C 02 00] can't use this.[03][00]@Want it anyway?[00][02]",
+    "text_fr": "",
+    "raw_hex": "70 1C 02 00 50 93 91 9E 57 A4 50 A5 A3 95 50 A4 98 99 A3 5E 03 00 70 87 91 9E A4 50 99 A4 50 91 9E A9 A7 91 A9 6F 00 02",
+    "literal_pointer_offsets": [
+      "365DDE"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@[1C 02 00] can't use this.\n@Want it anyway?\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 4,
+        "original": " can't use this.",
+        "french": " ne peut l'utiliser"
+      },
+      {
+        "offset": 22,
+        "original": "@Want it anyway?",
+        "french": "@Tu le veux ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372803",
+    "offset": "372803",
+    "snes": "F72803",
+    "length": 12,
+    "source": "script_candidate",
+    "text_en": "@OK then.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 7F 7B 50 A4 98 95 9E 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "365E96"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@OK then.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@OK then.",
+        "french": "@D'accord"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37280F",
+    "offset": "37280F",
+    "snes": "F7280F",
+    "length": 42,
+    "source": "script_candidate",
+    "text_en": "@Oh... you don't have the money for it.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 7F 98 5E 5E 5E 50 A9 9F A5 50 94 9F 9E 57 A4 50 98 91 A6 95 50 A4 98 95 50 9D 9F 9E 95 A9 50 96 9F A2 50 99 A4 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "365F4E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Oh... you don't have the money for it.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Oh... you don't have the money for it.",
+        "french": "@Oh... Tu n'as pas assez d'argent."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372839",
+    "offset": "372839",
+    "snes": "F72839",
+    "length": 27,
+    "source": "script_candidate",
+    "text_en": "@You have too much stuff.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 89 9F A5 50 98 91 A6 95 50 A4 9F 9F 50 9D A5 93 98 50 A3 A4 A5 96 96 5E 13 02",
+    "literal_pointer_offsets": [
+      "366006"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@You have too much stuff.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@You have too much stuff.",
+        "french": "@Tu portes trop d'objets."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372854",
+    "offset": "372854",
+    "snes": "F72854",
+    "length": 28,
+    "source": "script_candidate",
+    "text_en": "@What have you got for me?[14][02]",
+    "text_fr": "",
+    "raw_hex": "70 87 98 91 A4 50 98 91 A6 95 50 A9 9F A5 50 97 9F A4 50 96 9F A2 50 9D 95 6F 14 02",
+    "literal_pointer_offsets": [
+      "3660BE"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@What have you got for me?[14][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@What have you got for me?",
+        "french": "@Que me proposes-tu ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372870",
+    "offset": "372870",
+    "snes": "F72870",
+    "length": 41,
+    "source": "script_candidate",
+    "text_en": "@The [1C 05 00]?[00]I can buy that for $[1B 04][1C 0A 00 00 00 00].[00][02]",
+    "text_fr": "",
+    "raw_hex": "70 84 98 95 50 1C 05 00 6F 00 79 50 93 91 9E 50 92 A5 A9 50 A4 98 91 A4 50 96 9F A2 50 54 1B 04 1C 0A 00 00 00 00 5E 00 02",
+    "literal_pointer_offsets": [
+      "366176"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@The [1C 05 00]?\nI can buy that for $[1B 04][1C 0A 00 00 00 00].\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@The ",
+        "french": "@Le "
+      },
+      {
+        "offset": 8,
+        "original": "?",
+        "french": "?"
+      },
+      {
+        "offset": 10,
+        "original": "I can buy that for $",
+        "french": "Je t'en offre "
+      },
+      {
+        "offset": 38,
+        "original": ".",
+        "french": " $."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372899",
+    "offset": "372899",
+    "snes": "F72899",
+    "length": 12,
+    "source": "script_candidate",
+    "text_en": "@Nothing?[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 7E 9F A4 98 99 9E 97 6F 03 00 02",
+    "literal_pointer_offsets": [
+      "36622E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Nothing?\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Nothing?",
+        "french": "@Rien ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3728A5",
+    "offset": "3728A5",
+    "snes": "F728A5",
+    "length": 29,
+    "source": "script_candidate",
+    "text_en": "@Oh... you've got nothing.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 7F 98 5E 5E 5E 50 A9 9F A5 57 A6 95 50 97 9F A4 50 9E 9F A4 98 99 9E 97 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "3662E6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Oh... you've got nothing.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Oh... you've got nothing.",
+        "french": "@Oh... Tu n'as rien."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3728C2",
+    "offset": "3728C2",
+    "snes": "F728C2",
+    "length": 47,
+    "source": "script_candidate",
+    "text_en": "@I just couldn't take the[00] [1C 05 00][00]  from you...[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 50 9A A5 A3 A4 50 93 9F A5 9C 94 9E 57 A4 50 A4 91 9B 95 50 A4 98 95 00 50 1C 05 00 00 50 50 96 A2 9F 9D 50 A9 9F A5 5E 5E 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "36639E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@I just couldn't take the\n [1C 05 00]\n  from you...\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@I just couldn't take the",
+        "french": "@Je ne peux pas racheter"
+      },
+      {
+        "offset": 26,
+        "original": " ",
+        "french": " "
+      },
+      {
+        "offset": 31,
+        "original": "  from you...",
+        "french": "  ..."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3728F1",
+    "offset": "3728F1",
+    "snes": "F728F1",
+    "length": 14,
+    "source": "script_candidate",
+    "text_en": "@Thank you![03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 84 98 91 9E 9B 50 A9 9F A5 51 03 00 02",
+    "literal_pointer_offsets": [
+      "366456"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Thank you!\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Thank you!",
+        "french": "@Merci !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372942",
+    "offset": "372942",
+    "snes": "F72942",
+    "length": 17,
+    "source": "script_candidate",
+    "text_en": "@Anything else?[00][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 9E A9 A4 98 99 9E 97 50 95 9C A3 95 6F 00 02",
+    "literal_pointer_offsets": [
+      "36650E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Anything else?\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Anything else?",
+        "french": "@Autre chose ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372953",
+    "offset": "372953",
+    "snes": "F72953",
+    "length": 25,
+    "source": "script_candidate",
+    "text_en": "@What can I do for you?[00][02]",
+    "text_fr": "",
+    "raw_hex": "70 87 98 91 A4 50 93 91 9E 50 79 50 94 9F 50 96 9F A2 50 A9 9F A5 6F 00 02",
+    "literal_pointer_offsets": [
+      "3665C6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@What can I do for you?\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@What can I do for you?",
+        "french": "@Que veux-tu ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37296C",
+    "offset": "37296C",
+    "snes": "F7296C",
+    "length": 53,
+    "source": "script_candidate",
+    "text_en": "@[1C 02 00] has too much stuff.[03][00]@Can anyone else take it?[00][02]",
+    "text_fr": "",
+    "raw_hex": "70 1C 02 00 50 98 91 A3 50 A4 9F 9F 50 9D A5 93 98 50 A3 A4 A5 96 96 5E 03 00 70 73 91 9E 50 91 9E A9 9F 9E 95 50 95 9C A3 95 50 A4 91 9B 95 50 99 A4 6F 00 02",
+    "literal_pointer_offsets": [
+      "36667E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@[1C 02 00] has too much stuff.\n@Can anyone else take it?\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 4,
+        "original": " has too much stuff.",
+        "french": " porte trop d'objets."
+      },
+      {
+        "offset": 26,
+        "original": "@Can anyone else take it?",
+        "french": "@Un autre le prend ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3729A1",
+    "offset": "3729A1",
+    "snes": "F729A1",
+    "length": 32,
+    "source": "script_candidate",
+    "text_en": "@You're quite the carb eater.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 89 9F A5 57 A2 95 50 A1 A5 99 A4 95 50 A4 98 95 50 93 91 A2 92 50 95 91 A4 95 A2 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "366736"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@You're quite the carb eater.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@You're quite the carb eater.",
+        "french": "@Tu aimes les féculents, toi."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3729C1",
+    "offset": "3729C1",
+    "snes": "F729C1",
+    "length": 46,
+    "source": "script_candidate",
+    "text_en": "@I'm sorry, but you can't afford that many.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 57 9D 50 A3 9F A2 A2 A9 5C 50 92 A5 A4 50 A9 9F A5 50 93 91 9E 57 A4 50 91 96 96 9F A2 94 50 A4 98 91 A4 50 9D 91 9E A9 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "3667EE"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@I'm sorry, but you can't afford that many.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@I'm sorry, but you can't afford that many.",
+        "french": "@Désolé, tu n'as pas assez pour tout ça."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3729EF",
+    "offset": "3729EF",
+    "snes": "F729EF",
+    "length": 30,
+    "source": "script_candidate",
+    "text_en": "@You can't carry all those.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 89 9F A5 50 93 91 9E 57 A4 50 93 91 A2 A2 A9 50 91 9C 9C 50 A4 98 9F A3 95 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "3668A6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@You can't carry all those.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@You can't carry all those.",
+        "french": "@Tu ne peux tout porter."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372A0D",
+    "offset": "372A0D",
+    "snes": "F72A0D",
+    "length": 21,
+    "source": "script_candidate",
+    "text_en": "@You want... none?[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 89 9F A5 50 A7 91 9E A4 5E 5E 5E 50 9E 9F 9E 95 6F 03 00 02",
+    "literal_pointer_offsets": [
+      "36695E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@You want... none?\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@You want... none?",
+        "french": "@Tu veux... rien ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372A22",
+    "offset": "372A22",
+    "snes": "F72A22",
+    "length": 103,
+    "source": "script_candidate",
+    "text_en": "@Protect one person with a shield of light.[00]@It reduces the damage caused by an enemy's attack by 50%.[02]",
+    "text_fr": "",
+    "raw_hex": "70 80 A2 9F A4 95 93 A4 50 9F 9E 95 50 A0 95 A2 A3 9F 9E 50 A7 99 A4 98 50 91 50 A3 98 99 95 9C 94 50 9F 96 50 9C 99 97 98 A4 5E 00 70 79 A4 50 A2 95 94 A5 93 95 A3 50 A4 98 95 50 94 91 9D 91 97 95 50 93 91 A5 A3 95 94 50 92 A9 50 91 9E 50 95 9E 95 9D A9 57 A3 50 91 A4 A4 91 93 9B 50 92 A9 50 65 60 55 5E 02",
+    "literal_pointer_offsets": [
+      "382AF1"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Protect one person with a shield of light.\n@It reduces the damage caused by an enemy's attack by 50%.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Protect one person with a shield of light.",
+        "french": "@Un bouclier de lumière protège un allié."
+      },
+      {
+        "offset": 44,
+        "original": "@It reduces the damage caused by an enemy's attack by 50%.",
+        "french": "@Réduit de moitié les dégâts des attaques ennemies."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372A89",
+    "offset": "372A89",
+    "snes": "F72A89",
+    "length": 101,
+    "source": "script_candidate",
+    "text_en": "@Protect everyone with a shield of light.[00]@It reduces the damage caused by an enemy's attack by 50%.[02]",
+    "text_fr": "",
+    "raw_hex": "70 80 A2 9F A4 95 93 A4 50 95 A6 95 A2 A9 9F 9E 95 50 A7 99 A4 98 50 91 50 A3 98 99 95 9C 94 50 9F 96 50 9C 99 97 98 A4 5E 00 70 79 A4 50 A2 95 94 A5 93 95 A3 50 A4 98 95 50 94 91 9D 91 97 95 50 93 91 A5 A3 95 94 50 92 A9 50 91 9E 50 95 9E 95 9D A9 57 A3 50 91 A4 A4 91 93 9B 50 92 A9 50 65 60 55 5E 02",
+    "literal_pointer_offsets": [
+      "382B00"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Protect everyone with a shield of light.\n@It reduces the damage caused by an enemy's attack by 50%.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Protect everyone with a shield of light.",
+        "french": "@Protège le groupe par un bouclier de lumière."
+      },
+      {
+        "offset": 42,
+        "original": "@It reduces the damage caused by an enemy's attack by 50%.",
+        "french": "@Réduit de moitié les dégâts des attaques ennemies."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372AEE",
+    "offset": "372AEE",
+    "snes": "F72AEE",
+    "length": 122,
+    "source": "script_candidate",
+    "text_en": "@Protects one person with a power shield.[00]@Cuts damage in half and some of the blocked damage is dealt back to the enemy.[02]",
+    "text_fr": "",
+    "raw_hex": "70 80 A2 9F A4 95 93 A4 A3 50 9F 9E 95 50 A0 95 A2 A3 9F 9E 50 A7 99 A4 98 50 91 50 A0 9F A7 95 A2 50 A3 98 99 95 9C 94 5E 00 70 73 A5 A4 A3 50 94 91 9D 91 97 95 50 99 9E 50 98 91 9C 96 50 91 9E 94 50 A3 9F 9D 95 50 9F 96 50 A4 98 95 50 92 9C 9F 93 9B 95 94 50 94 91 9D 91 97 95 50 99 A3 50 94 95 91 9C A4 50 92 91 93 9B 50 A4 9F 50 A4 98 95 50 95 9E 95 9D A9 5E 02",
+    "literal_pointer_offsets": [
+      "382B0F"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Protects one person with a power shield.\n@Cuts damage in half and some of the blocked damage is dealt back to the enemy.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Protects one person with a power shield.",
+        "french": "@Protège une personne par un bouclier de force."
+      },
+      {
+        "offset": 42,
+        "original": "@Cuts damage in half and some of the blocked damage is dealt back to the enemy.",
+        "french": "@Réduit les dégâts de moitié et en renvoie une partie à l'ennemi."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372B68",
+    "offset": "372B68",
+    "snes": "F72B68",
+    "length": 120,
+    "source": "script_candidate",
+    "text_en": "@Protects everyone with a power shield.[00]@Cuts damage in half and some of the blocked damage is dealt back to the enemy.[02]",
+    "text_fr": "",
+    "raw_hex": "70 80 A2 9F A4 95 93 A4 A3 50 95 A6 95 A2 A9 9F 9E 95 50 A7 99 A4 98 50 91 50 A0 9F A7 95 A2 50 A3 98 99 95 9C 94 5E 00 70 73 A5 A4 A3 50 94 91 9D 91 97 95 50 99 9E 50 98 91 9C 96 50 91 9E 94 50 A3 9F 9D 95 50 9F 96 50 A4 98 95 50 92 9C 9F 93 9B 95 94 50 94 91 9D 91 97 95 50 99 A3 50 94 95 91 9C A4 50 92 91 93 9B 50 A4 9F 50 A4 98 95 50 95 9E 95 9D A9 5E 02",
+    "literal_pointer_offsets": [
+      "382B1E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Protects everyone with a power shield.\n@Cuts damage in half and some of the blocked damage is dealt back to the enemy.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Protects everyone with a power shield.",
+        "french": "@Protège le groupe par un bouclier de force."
+      },
+      {
+        "offset": 40,
+        "original": "@Cuts damage in half and some of the blocked damage is dealt back to the enemy.",
+        "french": "@Réduit les dégâts de moitié et en renvoie une partie à l'ennemi."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372BE0",
+    "offset": "372BE0",
+    "snes": "F72BE0",
+    "length": 53,
+    "source": "script_candidate",
+    "text_en": "@Using a different shield will cancel these effects.[02]",
+    "text_fr": "",
+    "raw_hex": "70 85 A3 99 9E 97 50 91 50 94 99 96 96 95 A2 95 9E A4 50 A3 98 99 95 9C 94 50 A7 99 9C 9C 50 93 91 9E 93 95 9C 50 A4 98 95 A3 95 50 95 96 96 95 93 A4 A3 5E 02",
+    "literal_pointer_offsets": [],
+    "evidence": "sequential_or_inline",
+    "reading_en": "@Using a different shield will cancel these effects.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Using a different shield will cancel these effects.",
+        "french": "@Un autre bouclier annule ces effets."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372C15",
+    "offset": "372C15",
+    "snes": "F72C15",
+    "length": 73,
+    "source": "script_candidate",
+    "text_en": "@A beam of light that deals about 80 points of damage to an enemy.[00][08 F4 2E F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 50 92 95 91 9D 50 9F 96 50 9C 99 97 98 A4 50 A4 98 91 A4 50 94 95 91 9C A3 50 91 92 9F A5 A4 50 68 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 50 A4 9F 50 91 9E 50 95 9E 95 9D A9 5E 00 08 F4 2E F7 00 02",
+    "literal_pointer_offsets": [
+      "382C3B"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@A beam of light that deals about 80 points of damage to an enemy.\n[08 F4 2E F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@A beam of light that deals about 80 points of damage to an enemy.",
+        "french": "@Un rayon de lumière inflige environ 80 dégâts à un ennemi."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372C5E",
+    "offset": "372C5E",
+    "snes": "F72C5E",
+    "length": 77,
+    "source": "script_candidate",
+    "text_en": "@Twin beams of light that deal about 220 points of damage to an enemy.[00][08 F4 2E F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 84 A7 99 9E 50 92 95 91 9D A3 50 9F 96 50 9C 99 97 98 A4 50 A4 98 91 A4 50 94 95 91 9C 50 91 92 9F A5 A4 50 62 62 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 50 A4 9F 50 91 9E 50 95 9E 95 9D A9 5E 00 08 F4 2E F7 00 02",
+    "literal_pointer_offsets": [
+      "382C4A"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Twin beams of light that deal about 220 points of damage to an enemy.\n[08 F4 2E F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Twin beams of light that deal about 220 points of damage to an enemy.",
+        "french": "@Deux rayons de lumière infligent environ 220 dégâts à un ennemi."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372CAB",
+    "offset": "372CAB",
+    "snes": "F72CAB",
+    "length": 67,
+    "source": "script_candidate",
+    "text_en": "@Instantly destroys a single foe with a beam of light.[00][08 F4 2E F7 00][00][08 11 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E A3 A4 91 9E A4 9C A9 50 94 95 A3 A4 A2 9F A9 A3 50 91 50 A3 99 9E 97 9C 95 50 96 9F 95 50 A7 99 A4 98 50 91 50 92 95 91 9D 50 9F 96 50 9C 99 97 98 A4 5E 00 08 F4 2E F7 00 00 08 11 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "382C59"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Instantly destroys a single foe with a beam of light.\n[08 F4 2E F7 00]\n[08 11 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Instantly destroys a single foe with a beam of light.",
+        "french": "@Un rayon de lumière élimine un ennemi sur-le-champ."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372CEE",
+    "offset": "372CEE",
+    "snes": "F72CEE",
+    "length": 84,
+    "source": "script_candidate",
+    "text_en": "@Strikes all enemies with a beam of light.[00]@Deals about 600 points of damage.[00][08 F4 2E F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 83 A4 A2 99 9B 95 A3 50 91 9C 9C 50 95 9E 95 9D 99 95 A3 50 A7 99 A4 98 50 91 50 92 95 91 9D 50 9F 96 50 9C 99 97 98 A4 5E 00 70 74 95 91 9C A3 50 91 92 9F A5 A4 50 66 60 60 50 A0 9F 99 9E A4 A3 50 9F 96 50 94 91 9D 91 97 95 5E 00 08 F4 2E F7 00 02",
+    "literal_pointer_offsets": [
+      "382C68"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Strikes all enemies with a beam of light.\n@Deals about 600 points of damage.\n[08 F4 2E F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Strikes all enemies with a beam of light.",
+        "french": "@Un rayon de lumière frappe tous les ennemis."
+      },
+      {
+        "offset": 43,
+        "original": "@Deals about 600 points of damage.",
+        "french": "@Inflige environ 600 dégâts."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372D42",
+    "offset": "372D42",
+    "snes": "F72D42",
+    "length": 137,
+    "source": "script_candidate",
+    "text_en": "@Attempts to escape battle via the 4th dimension.[00]@Friends who have taken mortal damage will collapse before the warp is complete.[00][08 11 2F F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 A4 A4 95 9D A0 A4 A3 50 A4 9F 50 95 A3 93 91 A0 95 50 92 91 A4 A4 9C 95 50 A6 99 91 50 A4 98 95 50 64 A4 98 50 94 99 9D 95 9E A3 99 9F 9E 5E 00 70 76 A2 99 95 9E 94 A3 50 A7 98 9F 50 98 91 A6 95 50 A4 91 9B 95 9E 50 9D 9F A2 A4 91 9C 50 94 91 9D 91 97 95 50 A7 99 9C 9C 50 93 9F 9C 9C 91 A0 A3 95 50 92 95 96 9F A2 95 50 A4 98 95 50 A7 91 A2 A0 50 99 A3 50 93 9F 9D A0 9C 95 A4 95 5E 00 08 11 2F F7 00 02",
+    "literal_pointer_offsets": [
+      "382C86"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Attempts to escape battle via the 4th dimension.\n@Friends who have taken mortal damage will collapse before the warp is complete.\n[08 11 2F F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Attempts to escape battle via the 4th dimension.",
+        "french": "@Tente de fuir le combat par la quatrième dimension."
+      },
+      {
+        "offset": 50,
+        "original": "@Friends who have taken mortal damage will collapse before the warp is complete.",
+        "french": "@Les alliés mortellement touchés tombent avant la fin du transfert."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372DCB",
+    "offset": "372DCB",
+    "snes": "F72DCB",
+    "length": 87,
+    "source": "script_candidate",
+    "text_en": "@Destroys the shield of one enemy.[00]@Can break both psychic and physical power shields.[02]",
+    "text_fr": "",
+    "raw_hex": "70 74 95 A3 A4 A2 9F A9 A3 50 A4 98 95 50 A3 98 99 95 9C 94 50 9F 96 50 9F 9E 95 50 95 9E 95 9D A9 5E 00 70 73 91 9E 50 92 A2 95 91 9B 50 92 9F A4 98 50 A0 A3 A9 93 98 99 93 50 91 9E 94 50 A0 98 A9 A3 99 93 91 9C 50 A0 9F A7 95 A2 50 A3 98 99 95 9C 94 A3 5E 02",
+    "literal_pointer_offsets": [
+      "382CC2"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Destroys the shield of one enemy.\n@Can break both psychic and physical power shields.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Destroys the shield of one enemy.",
+        "french": "@Détruit le bouclier d'un ennemi."
+      },
+      {
+        "offset": 35,
+        "original": "@Can break both psychic and physical power shields.",
+        "french": "@Agit sur les boucliers physiques et psychiques."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372E22",
+    "offset": "372E22",
+    "snes": "F72E22",
+    "length": 43,
+    "source": "script_candidate",
+    "text_en": "@May block an enemy's PSI for a few turns.[02]",
+    "text_fr": "",
+    "raw_hex": "70 7D 91 A9 50 92 9C 9F 93 9B 50 91 9E 50 95 9E 95 9D A9 57 A3 50 80 83 79 50 96 9F A2 50 91 50 96 95 A7 50 A4 A5 A2 9E A3 5E 02",
+    "literal_pointer_offsets": [
+      "382CB3"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@May block an enemy's PSI for a few turns.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@May block an enemy's PSI for a few turns.",
+        "french": "@Peut bloquer les PSI ennemis un temps."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372E4D",
+    "offset": "372E4D",
+    "snes": "F72E4D",
+    "length": 57,
+    "source": "script_candidate",
+    "text_en": "@Obscures the vision of one enemy, inflicting blindness.[02]",
+    "text_fr": "",
+    "raw_hex": "70 7F 92 A3 93 A5 A2 95 A3 50 A4 98 95 50 A6 99 A3 99 9F 9E 50 9F 96 50 9F 9E 95 50 95 9E 95 9D A9 5C 50 99 9E 96 9C 99 93 A4 99 9E 97 50 92 9C 99 9E 94 9E 95 A3 A3 5E 02",
+    "literal_pointer_offsets": [
+      "382C95"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Obscures the vision of one enemy, inflicting blindness.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Obscures the vision of one enemy, inflicting blindness.",
+        "french": "@Aveugle un ennemi."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372E86",
+    "offset": "372E86",
+    "snes": "F72E86",
+    "length": 53,
+    "source": "script_candidate",
+    "text_en": "@Obscures all enemies' vision, inflicting blindness.[02]",
+    "text_fr": "",
+    "raw_hex": "70 7F 92 A3 93 A5 A2 95 A3 50 91 9C 9C 50 95 9E 95 9D 99 95 A3 57 50 A6 99 A3 99 9F 9E 5C 50 99 9E 96 9C 99 93 A4 99 9E 97 50 92 9C 99 9E 94 9E 95 A3 A3 5E 02",
+    "literal_pointer_offsets": [
+      "382CA4"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Obscures all enemies' vision, inflicting blindness.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Obscures all enemies' vision, inflicting blindness.",
+        "french": "@Aveugle tous les ennemis."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372EBB",
+    "offset": "372EBB",
+    "snes": "F72EBB",
+    "length": 57,
+    "source": "script_candidate",
+    "text_en": "@Allows the user to read the minds of people or animals.[02]",
+    "text_fr": "",
+    "raw_hex": "70 71 9C 9C 9F A7 A3 50 A4 98 95 50 A5 A3 95 A2 50 A4 9F 50 A2 95 91 94 50 A4 98 95 50 9D 99 9E 94 A3 50 9F 96 50 A0 95 9F A0 9C 95 50 9F A2 50 91 9E 99 9D 91 9C A3 5E 02",
+    "literal_pointer_offsets": [
+      "382C77"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Allows the user to read the minds of people or animals.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Allows the user to read the minds of people or animals.",
+        "french": "@Permet de lire les pensées des gens ou des animaux."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372EF4",
+    "offset": "372EF4",
+    "snes": "F72EF4",
+    "length": 29,
+    "source": "script_candidate",
+    "text_en": "@Less effective on machines.[02]",
+    "text_fr": "",
+    "raw_hex": "70 7C 95 A3 A3 50 95 96 96 95 93 A4 99 A6 95 50 9F 9E 50 9D 91 93 98 99 9E 95 A3 5E 02",
+    "literal_pointer_offsets": [
+      "372C59",
+      "372CA6",
+      "372CE3",
+      "372D3D"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Less effective on machines.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Less effective on machines.",
+        "french": "@Moins fort sur les machines"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372F11",
+    "offset": "372F11",
+    "snes": "F72F11",
+    "length": 30,
+    "source": "script_candidate",
+    "text_en": "@Doesn't work against bosses.[02]",
+    "text_fr": "",
+    "raw_hex": "70 74 9F 95 A3 9E 57 A4 50 A7 9F A2 9B 50 91 97 91 99 9E A3 A4 50 92 9F A3 A3 95 A3 5E 02",
+    "literal_pointer_offsets": [
+      "372CE9",
+      "372DC6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Doesn't work against bosses.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Doesn't work against bosses.",
+        "french": "@Sans effet sur les boss."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372F2F",
+    "offset": "372F2F",
+    "snes": "F72F2F",
+    "length": 50,
+    "source": "script_candidate",
+    "text_en": "@It may not be so effective against some enemies.[02]",
+    "text_fr": "",
+    "raw_hex": "70 79 A4 50 9D 91 A9 50 9E 9F A4 50 92 95 50 A3 9F 50 95 96 96 95 93 A4 99 A6 95 50 91 97 91 99 9E A3 A4 50 A3 9F 9D 95 50 95 9E 95 9D 99 95 A3 5E 02",
+    "literal_pointer_offsets": [
+      "373483",
+      "3734E2",
+      "373541",
+      "3735A0",
+      "373623",
+      "3736A6",
+      "373729",
+      "3737B0"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@It may not be so effective against some enemies.[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@It may not be so effective against some enemies.",
+        "french": "@Peut être moins efficace sur certains ennemis."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "372F61",
+    "offset": "372F61",
+    "snes": "F72F61",
+    "length": 75,
+    "source": "script_candidate",
+    "text_en": "@Increase one person's Speed for the duration of the current battle.[00][08 C6 31 F7 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E 93 A2 95 91 A3 95 50 9F 9E 95 50 A0 95 A2 A3 9F 9E 57 A3 50 83 A0 95 95 94 50 96 9F A2 50 A4 98 95 50 94 A5 A2 91 A4 99 9F 9E 50 9F 96 50 A4 98 95 50 93 A5 A2 A2 95 9E A4 50 92 91 A4 A4 9C 95 5E 00 08 C6 31 F7 00 02",
+    "literal_pointer_offsets": [
+      "382CD1"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Increase one person's Speed for the duration of the current battle.\n[08 C6 31 F7 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Increase one person's Speed for the duration of the current battle.",
+        "french": "@Augmente la vitesse d'une personne jusqu'à la fin du combat."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33C6E8",
+    "offset": "33C6E8",
+    "snes": "F3C6E8",
+    "length": 20,
+    "source": "script_candidate",
+    "text_en": "@No problem here.[03][00][02]",
+    "text_fr": "",
+    "raw_hex": "70 7E 9F 50 A0 A2 9F 92 9C 95 9D 50 98 95 A2 95 5E 03 00 02",
+    "literal_pointer_offsets": [
+      "33C6A8"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@No problem here.\n[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@No problem here.",
+        "french": "@Rien à signaler."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "347960",
+    "offset": "347960",
+    "snes": "F47960",
+    "length": 34,
+    "source": "script_candidate",
+    "text_en": "[18 04][18 01 35][01][07 2E 03][1B 02 87 79 F4 00]@No problem here.[13][02]",
+    "text_fr": "",
+    "raw_hex": "18 04 18 01 35 01 07 2E 03 1B 02 87 79 F4 00 70 7E 9F 50 A0 A2 9F 92 9C 95 9D 50 98 95 A2 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "20328F",
+      "2032B1"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[18 04][18 01 35]\n\n[07 2E 03][1B 02 87 79 F4 00]@No problem here.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 15,
+        "original": "@No problem here.",
+        "french": "@Rien à signaler."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3744AD",
+    "offset": "3744AD",
+    "snes": "F744AD",
+    "length": 26,
+    "source": "script_candidate",
+    "text_en": "[06 38 04 C7 44 F7 00]@No problem here.[13][02]",
+    "text_fr": "",
+    "raw_hex": "06 38 04 C7 44 F7 00 70 7E 9F 50 A0 A2 9F 92 9C 95 9D 50 98 95 A2 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "202FB4"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 38 04 C7 44 F7 00]@No problem here.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 7,
+        "original": "@No problem here.",
+        "french": "@Rien à signaler."
+      }
+    ],
+    "status": "draft"
   }
 ]
