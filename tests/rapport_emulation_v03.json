@@ -1,0 +1,49 @@
+{
+  "core": "libretro/snes9x2010",
+  "core_revision": "fe690dd321fa5a46b5234a2bde089d2518c62b0e",
+  "method": "fresh boot, deterministic input sequence, framebuffer inspection",
+  "full_game_validated": false,
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "accents_sha256": "f31ea6b8b7cfd77fc90b457db604bf47cb7b5b945f70384a573f24a035f0de74",
+  "ascii_sha256": "1426c0100fefcc68def6d81ab14c07f4b2cf223bb76dbc71b3ebd097359ce8e4",
+  "translations_checked": 473,
+  "enemy_entries_checked": 23,
+  "enemy_statistics_unchanged": true,
+  "observed": [
+    "French window flavors",
+    "French naming keyboard labels",
+    "French battle command Voir and Parer",
+    "French enemy name with article and no English The",
+    "French lamp defeat message",
+    "French experience gain text with residual characters requiring correction",
+    "return to house"
+  ],
+  "known_display_issue": {
+    "description": "Residual e before hero name and after EXP; original English comparison does not show it. Also visible with ASCII version.",
+    "blocking": false,
+    "resolved": false,
+    "capture": "tests/captures_v03/experience_a_corriger.png"
+  },
+  "pending": [
+    "English attack/damage routines",
+    "experience display residue",
+    "group battles and each suffix",
+    "other enemies in actual encounters",
+    "stat/status messages outside first battle",
+    "save/load",
+    "remaining scenario and graphics"
+  ],
+  "accents_route": {
+    "passed": true,
+    "frames": 23545,
+    "fresh_boot": true,
+    "return_to_house_observed": true
+  },
+  "ascii_route": {
+    "passed": true,
+    "fresh_boot": true,
+    "frames_before_additional_wait": 23545,
+    "additional_wait_frames_after_state_restore": 600,
+    "return_to_house_observed": true
+  }
+}

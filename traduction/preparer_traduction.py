@@ -68,7 +68,7 @@ Bash|Frapper
 Goods|Objets
 Auto Fight|Auto
 PSI|PSI
-Guard|Défense
+Guard|Parer
 Sing|Chanter
 Shoot|Tirer
 Check|Voir
