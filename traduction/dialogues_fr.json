@@ -1,5 +1,1415 @@
 [
   {
+    "id": "2FA66C",
+    "offset": "2FA66C",
+    "snes": "EFA66C",
+    "length": 59,
+    "source": "verified_menu_script",
+    "text_en": "[18 05 00 04][2F]CAPITAL[18 05 07 04][2F]small[18 05 00 06][2F]Don't Care[18 05 11 06][2F]Backspace[18 05 19 06][2F]OK[02]",
+    "raw_hex": "18 05 00 04 2F 73 71 80 79 84 71 7C 18 05 07 04 2F A3 9D 91 9C 9C 18 05 00 06 2F 74 9F 9E 57 A4 50 73 91 A2 95 18 05 11 06 2F 72 91 93 9B A3 A0 91 93 95 18 05 19 06 2F 7F 7B 02",
+    "evidence": "Script fermé du clavier des noms avec commandes de placement 18 05 préservées.",
+    "text_fr_segments": [
+      {
+        "offset": 5,
+        "original": "CAPITAL",
+        "french": "MAJ"
+      },
+      {
+        "offset": 17,
+        "original": "small",
+        "french": "min"
+      },
+      {
+        "offset": 27,
+        "original": "Don't Care",
+        "french": "Au choix"
+      },
+      {
+        "offset": 42,
+        "original": "Backspace",
+        "french": "Effacer"
+      },
+      {
+        "offset": 56,
+        "original": "OK",
+        "french": "OK"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "2FA6A7",
+    "offset": "2FA6A7",
+    "snes": "EFA6A7",
+    "length": 44,
+    "source": "verified_menu_script",
+    "text_en": "[18 05 00 04][2F]CAPITAL[18 05 07 04][2F]small[18 05 11 06][2F]Backspace[18 05 19 06][2F]OK[02]",
+    "raw_hex": "18 05 00 04 2F 73 71 80 79 84 71 7C 18 05 07 04 2F A3 9D 91 9C 9C 18 05 11 06 2F 72 91 93 9B A3 A0 91 93 95 18 05 19 06 2F 7F 7B 02",
+    "evidence": "Script fermé du clavier des noms avec commandes de placement 18 05 préservées.",
+    "text_fr_segments": [
+      {
+        "offset": 5,
+        "original": "CAPITAL",
+        "french": "MAJ"
+      },
+      {
+        "offset": 17,
+        "original": "small",
+        "french": "min"
+      },
+      {
+        "offset": 27,
+        "original": "Backspace",
+        "french": "Effacer"
+      },
+      {
+        "offset": 41,
+        "original": "OK",
+        "french": "OK"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3675EA",
+    "offset": "3675EA",
+    "snes": "F675EA",
+    "length": 48,
+    "source": "script_candidate",
+    "text_en": "[01]@The Franklin Badge bounced back the beam![1F 02 5D][03][02]",
+    "text_fr": "",
+    "raw_hex": "01 70 84 98 95 50 76 A2 91 9E 9B 9C 99 9E 50 72 91 94 97 95 50 92 9F A5 9E 93 95 94 50 92 91 93 9B 50 A4 98 95 50 92 95 91 9D 51 1F 02 5D 03 02",
+    "literal_pointer_offsets": [
+      "2F7161"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "\n\n@The Franklin Badge bounced back the beam![1F 02 5D][03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@The Franklin Badge bounced back the beam!",
+        "french": "@Le badge Franklin renvoie le rayon !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36761A",
+    "offset": "36761A",
+    "snes": "F6761A",
+    "length": 66,
+    "source": "script_candidate",
+    "text_en": "[18 06][1F 00 00 05][00]              [1C 08 02][00][10 78][06 5D 04 57 76 F6 00][03][00]@[08 D7 E6 C7 00] gained [1C 0F] exp[08 AD 8F EF 00][05 5D 04][14][02]",
+    "text_fr": "",
+    "raw_hex": "18 06 1F 00 00 05 00 50 50 50 50 50 50 50 50 50 50 50 50 50 50 1C 08 02 00 10 78 06 5D 04 57 76 F6 00 03 00 70 08 D7 E6 C7 00 50 97 91 99 9E 95 94 50 1C 0F 50 95 A8 A0 08 AD 8F EF 00 05 5D 04 14 02",
+    "literal_pointer_offsets": [
+      "2F79D8"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[18 06][1F 00 00 05]\n              [1C 08 02]\n[10 78][06 5D 04 57 76 F6 00]\n@[08 D7 E6 C7 00] gained [1C 0F] exp[08 AD 8F EF 00][05 5D 04][14][02]",
+    "text_fr_segments": [
+      {
+        "offset": 7,
+        "original": "              ",
+        "french": "              "
+      },
+      {
+        "offset": 36,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 42,
+        "original": " gained ",
+        "french": " gagne "
+      },
+      {
+        "offset": 52,
+        "original": " exp",
+        "french": " EXP"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36765C",
+    "offset": "36765C",
+    "snes": "F6765C",
+    "length": 56,
+    "source": "script_candidate",
+    "text_en": "[18 06][1F 00 00 B8][00]              [1C 08 02][00][10 78][03][00]@[08 D7 E6 C7 00] gained [1C 0F] exp[08 AD 8F EF 00][14][02]",
+    "text_fr": "",
+    "raw_hex": "18 06 1F 00 00 B8 00 50 50 50 50 50 50 50 50 50 50 50 50 50 50 1C 08 02 00 10 78 03 00 70 08 D7 E6 C7 00 50 97 91 99 9E 95 94 50 1C 0F 50 95 A8 A0 08 AD 8F EF 00 14 02",
+    "literal_pointer_offsets": [
+      "2F7A15"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[18 06][1F 00 00 B8]\n              [1C 08 02]\n[10 78]\n@[08 D7 E6 C7 00] gained [1C 0F] exp[08 AD 8F EF 00][14][02]",
+    "text_fr_segments": [
+      {
+        "offset": 7,
+        "original": "              ",
+        "french": "              "
+      },
+      {
+        "offset": 29,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 35,
+        "original": " gained ",
+        "french": " gagne "
+      },
+      {
+        "offset": 45,
+        "original": " exp",
+        "french": " EXP"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "3678E0",
+    "offset": "3678E0",
+    "snes": "F678E0",
+    "length": 39,
+    "source": "script_candidate",
+    "text_en": "[01]@[1C 0E] could breathe normally again![1F 02 25][03][02]",
+    "text_fr": "",
+    "raw_hex": "01 70 1C 0E 50 93 9F A5 9C 94 50 92 A2 95 91 A4 98 95 50 9E 9F A2 9D 91 9C 9C A9 50 91 97 91 99 9E 51 1F 02 25 03 02",
+    "literal_pointer_offsets": [],
+    "evidence": "sequential_or_inline",
+    "reading_en": "\n\n@[1C 0E] could breathe normally again![1F 02 25][03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 4,
+        "original": " could breathe normally again!",
+        "french": " respire normalement !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "367907",
+    "offset": "367907",
+    "snes": "F67907",
+    "length": 35,
+    "source": "script_candidate",
+    "text_en": "[01]@[1C 0E] couldn't[00]  stop coughing![1F 02 53][03][02]",
+    "text_fr": "",
+    "raw_hex": "01 70 1C 0E 50 93 9F A5 9C 94 9E 57 A4 00 50 50 A3 A4 9F A0 50 93 9F A5 97 98 99 9E 97 51 1F 02 53 03 02",
+    "literal_pointer_offsets": [],
+    "evidence": "sequential_or_inline",
+    "reading_en": "\n\n@[1C 0E] couldn't\n  stop coughing![1F 02 53][03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 4,
+        "original": " couldn't",
+        "french": " tousse"
+      },
+      {
+        "offset": 14,
+        "original": "  stop coughing!",
+        "french": "  sans arrêt !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "367A28",
+    "offset": "367A28",
+    "snes": "F67A28",
+    "length": 21,
+    "source": "script_candidate",
+    "text_en": "[01]@[1C 0E] was convinced![03][02]",
+    "text_fr": "",
+    "raw_hex": "01 70 1C 0E 50 A7 91 A3 50 93 9F 9E A6 99 9E 93 95 94 51 03 02",
+    "literal_pointer_offsets": [],
+    "evidence": "sequential_or_inline",
+    "reading_en": "\n\n@[1C 0E] was convinced![03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 4,
+        "original": " was convinced!",
+        "french": " cède !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "367A3D",
+    "offset": "367A3D",
+    "snes": "F67A3D",
+    "length": 30,
+    "source": "script_candidate",
+    "text_en": "[01]@but [1C 0E] didn't fall for it![03][02]",
+    "text_fr": "",
+    "raw_hex": "01 70 92 A5 A4 50 1C 0E 50 94 99 94 9E 57 A4 50 96 91 9C 9C 50 96 9F A2 50 99 A4 51 03 02",
+    "literal_pointer_offsets": [],
+    "evidence": "sequential_or_inline",
+    "reading_en": "\n\n@but [1C 0E] didn't fall for it![03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@but ",
+        "french": "@Mais "
+      },
+      {
+        "offset": 8,
+        "original": " didn't fall for it!",
+        "french": " résiste !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "367AD2",
+    "offset": "367AD2",
+    "snes": "F67AD2",
+    "length": 28,
+    "source": "script_candidate",
+    "text_en": "[01]@[1C 0D] is[00]  challenging you![03][02]",
+    "text_fr": "",
+    "raw_hex": "01 70 1C 0D 50 99 A3 00 50 50 93 98 91 9C 9C 95 9E 97 99 9E 97 50 A9 9F A5 51 03 02",
+    "literal_pointer_offsets": [
+      "159ADA"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "\n\n@[1C 0D] is\n  challenging you![03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 4,
+        "original": " is",
+        "french": " te"
+      },
+      {
+        "offset": 8,
+        "original": "  challenging you!",
+        "french": "  défie !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "367B9A",
+    "offset": "367B9A",
+    "snes": "F67B9A",
+    "length": 37,
+    "source": "script_candidate",
+    "text_en": "[01]@[1C 0D] has [00]  forfeited the battle![03][10 3C][02]",
+    "text_fr": "",
+    "raw_hex": "01 70 1C 0D 50 98 91 A3 50 00 50 50 96 9F A2 96 95 99 A4 95 94 50 A4 98 95 50 92 91 A4 A4 9C 95 51 03 10 3C 02",
+    "literal_pointer_offsets": [
+      "369319"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "\n\n@[1C 0D] has \n  forfeited the battle![03][10 3C][02]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 4,
+        "original": " has ",
+        "french": " a "
+      },
+      {
+        "offset": 10,
+        "original": "  forfeited the battle!",
+        "french": "  abandonné le combat !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "367D77",
+    "offset": "367D77",
+    "snes": "F67D77",
+    "length": 25,
+    "source": "script_candidate",
+    "text_en": "[05 3D 04][01]@[1C 0E] is exhausted.[1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 3D 04 01 70 1C 0E 50 99 A3 50 95 A8 98 91 A5 A3 A4 95 94 5E 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "37F5FE"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 3D 04]\n\n@[1C 0E] is exhausted.[1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " is exhausted.",
+        "french": " est à bout."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F0D4",
+    "offset": "37F0D4",
+    "snes": "F7F0D4",
+    "length": 27,
+    "source": "script_candidate",
+    "text_en": "[01]@[08 0B 79 EF 00] draws near...[03][0E 01][1B 05][02]",
+    "text_fr": "",
+    "raw_hex": "01 70 08 0B 79 EF 00 50 94 A2 91 A7 A3 50 9E 95 91 A2 5E 5E 5E 03 0E 01 1B 05 02",
+    "literal_pointer_offsets": [
+      "15BBE6",
+      "15E09E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "\n\n@[08 0B 79 EF 00] draws near...[03][0E 01][1B 05][02]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " draws near...",
+        "french": " s'approche..."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F192",
+    "offset": "37F192",
+    "snes": "F7F192",
+    "length": 26,
+    "source": "script_candidate",
+    "text_en": "[01]@[08 0B 79 EF 00] blocked the way![03][02]",
+    "text_fr": "",
+    "raw_hex": "01 70 08 0B 79 EF 00 50 92 9C 9F 93 9B 95 94 50 A4 98 95 50 A7 91 A9 51 03 02",
+    "literal_pointer_offsets": [
+      "15B026"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "\n\n@[08 0B 79 EF 00] blocked the way![03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " blocked the way!",
+        "french": " barre la route !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F373",
+    "offset": "37F373",
+    "snes": "F7F373",
+    "length": 22,
+    "source": "script_candidate",
+    "text_en": "[04 5A 03][01]@[08 0B 79 EF 00] attacked![03][02]",
+    "text_fr": "",
+    "raw_hex": "04 5A 03 01 70 08 0B 79 EF 00 50 91 A4 A4 91 93 9B 95 94 51 03 02",
+    "literal_pointer_offsets": [
+      "1595B6",
+      "159D6C",
+      "159F42",
+      "159FA0",
+      "15A408",
+      "15A522",
+      "15A98A",
+      "15AD94",
+      "15B084",
+      "15B0E2",
+      "15B2B8",
+      "15B430",
+      "15B6C2",
+      "15B898",
+      "15BC44",
+      "15BD5E",
+      "15C572",
+      "15C804",
+      "15C97C",
+      "15D076",
+      "15D190",
+      "15D1EE",
+      "15D308",
+      "15D366",
+      "15D3C4",
+      "15D480",
+      "15D4DE",
+      "15D53C",
+      "15D59A",
+      "15D656",
+      "15D712",
+      "15D770",
+      "15D7CE",
+      "15D82C",
+      "15D946",
+      "15DA60",
+      "15DABE",
+      "15DB7A",
+      "15DBD8",
+      "15DC36",
+      "15DCF2",
+      "15DEC8",
+      "15DF26",
+      "15DF84",
+      "15DFE2",
+      "15E040",
+      "15E3EC",
+      "15E4A8",
+      "15E506",
+      "15E564",
+      "15E5C2",
+      "15E620",
+      "15E67E",
+      "15E6DC",
+      "15E854",
+      "15E8B2",
+      "15E96E",
+      "15E9CC"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[04 5A 03]\n\n@[08 0B 79 EF 00] attacked![03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 10,
+        "original": " attacked!",
+        "french": " attaque !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F389",
+    "offset": "37F389",
+    "snes": "F7F389",
+    "length": 29,
+    "source": "script_candidate",
+    "text_en": "[04 5A 03][01]@[08 0B 79 EF 00] blocked the way![03][02]",
+    "text_fr": "",
+    "raw_hex": "04 5A 03 01 70 08 0B 79 EF 00 50 92 9C 9F 93 9B 95 94 50 A4 98 95 50 A7 91 A9 51 03 02",
+    "literal_pointer_offsets": [
+      "15AFC8",
+      "15C224",
+      "15C91E",
+      "15CB52",
+      "15D88A",
+      "15E0FC",
+      "15EA2A"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[04 5A 03]\n\n@[08 0B 79 EF 00] blocked the way![03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 10,
+        "original": " blocked the way!",
+        "french": " barre la route !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F3A6",
+    "offset": "37F3A6",
+    "snes": "F7F3A6",
+    "length": 28,
+    "source": "script_candidate",
+    "text_en": "[04 5A 03][01]@[08 0B 79 EF 00] came after you![03][02]",
+    "text_fr": "",
+    "raw_hex": "04 5A 03 01 70 08 0B 79 EF 00 50 93 91 9D 95 50 91 96 A4 95 A2 50 A9 9F A5 51 03 02",
+    "literal_pointer_offsets": [
+      "159B38",
+      "15A4C4"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[04 5A 03]\n\n@[08 0B 79 EF 00] came after you![03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 10,
+        "original": " came after you!",
+        "french": " te poursuit !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F3C2",
+    "offset": "37F3C2",
+    "snes": "F7F3C2",
+    "length": 25,
+    "source": "script_candidate",
+    "text_en": "[04 5A 03][01]@[08 0B 79 EF 00] trapped you![03][02]",
+    "text_fr": "",
+    "raw_hex": "04 5A 03 01 70 08 0B 79 EF 00 50 A4 A2 91 A0 A0 95 94 50 A9 9F A5 51 03 02",
+    "literal_pointer_offsets": [
+      "15BB2A",
+      "15DE0C"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[04 5A 03]\n\n@[08 0B 79 EF 00] trapped you![03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 10,
+        "original": " trapped you!",
+        "french": " te piège !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F3DB",
+    "offset": "37F3DB",
+    "snes": "F7F3DB",
+    "length": 26,
+    "source": "script_candidate",
+    "text_en": "[04 5A 03][01]@You encounter [08 4B 79 EF 00][03][02]",
+    "text_fr": "",
+    "raw_hex": "04 5A 03 01 70 89 9F A5 50 95 9E 93 9F A5 9E A4 95 A2 50 08 4B 79 EF 00 03 02",
+    "literal_pointer_offsets": [
+      "159848",
+      "1598A6",
+      "159BF4",
+      "159D0E",
+      "15A0BA",
+      "15A176",
+      "15A232",
+      "15A290",
+      "15A34C",
+      "15A63C",
+      "15A69A",
+      "15AF6A",
+      "15B77E",
+      "15BACC",
+      "15BB88",
+      "15BF92",
+      "15C1C6",
+      "15C458",
+      "15C862",
+      "15C9DA",
+      "15CA38",
+      "15CC6C",
+      "15CFBA",
+      "15DDAE",
+      "15DE6A",
+      "15E216"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[04 5A 03]\n\n@You encounter [08 4B 79 EF 00][03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@You encounter ",
+        "french": "@Tu rencontres "
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F425",
+    "offset": "37F425",
+    "snes": "F7F425",
+    "length": 20,
+    "source": "script_candidate",
+    "text_en": "[04 5A 03]@You meet [08 4B 79 EF 00][03][02]",
+    "text_fr": "",
+    "raw_hex": "04 5A 03 70 89 9F A5 50 9D 95 95 A4 50 08 4B 79 EF 00 03 02",
+    "literal_pointer_offsets": [
+      "15A1D4",
+      "15A6F8",
+      "15B954",
+      "15C748",
+      "15E274",
+      "15E2D2"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[04 5A 03]@You meet [08 4B 79 EF 00][03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 3,
+        "original": "@You meet ",
+        "french": "@Tu vois "
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F439",
+    "offset": "37F439",
+    "snes": "F7F439",
+    "length": 22,
+    "source": "script_candidate",
+    "text_en": "[04 5A 03]@You engage [08 4B 79 EF 00][03][02]",
+    "text_fr": "",
+    "raw_hex": "04 5A 03 70 89 9F A5 50 95 9E 97 91 97 95 50 08 4B 79 EF 00 03 02",
+    "literal_pointer_offsets": [
+      "1596D0",
+      "1597EA",
+      "1599C0",
+      "159A1E",
+      "159B96",
+      "159DCA",
+      "159E28",
+      "159E86",
+      "159EE4",
+      "159FFE",
+      "15A05C",
+      "15A2EE",
+      "15A3AA",
+      "15A466",
+      "15A580",
+      "15A5DE",
+      "15A756",
+      "15A7B4",
+      "15A9E8",
+      "15AAA4",
+      "15AB60",
+      "15ABBE",
+      "15AD36",
+      "15ADF2",
+      "15B19E",
+      "15B1FC",
+      "15B25A",
+      "15B316",
+      "15B3D2",
+      "15B48E",
+      "15B606",
+      "15B664",
+      "15B720",
+      "15BA6E",
+      "15BD00",
+      "15BDBC",
+      "15BE78",
+      "15BED6",
+      "15BF34",
+      "15BFF0",
+      "15C0AC",
+      "15C10A",
+      "15C168",
+      "15C282",
+      "15C2E0",
+      "15C33E",
+      "15C4B6",
+      "15C514",
+      "15C6EA",
+      "15C7A6",
+      "15C8C0",
+      "15CA96",
+      "15CAF4",
+      "15CC0E",
+      "15CE42",
+      "15CEA0",
+      "15CEFE",
+      "15CF5C",
+      "15D018",
+      "15D5F8",
+      "15D6B4",
+      "15DB1C",
+      "15DD50",
+      "15E330",
+      "15E38E",
+      "15E44A",
+      "15E73A",
+      "15E798",
+      "15E7F6",
+      "15E910"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[04 5A 03]@You engage [08 4B 79 EF 00][03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 3,
+        "original": "@You engage ",
+        "french": "@Tu défies "
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F44F",
+    "offset": "37F44F",
+    "snes": "F7F44F",
+    "length": 24,
+    "source": "script_candidate",
+    "text_en": "[04 5A 03]@You confront [08 4B 79 EF 00][03][02]",
+    "text_fr": "",
+    "raw_hex": "04 5A 03 70 89 9F A5 50 93 9F 9E 96 A2 9F 9E A4 50 08 4B 79 EF 00 03 02",
+    "literal_pointer_offsets": [
+      "159904",
+      "159962",
+      "159A7C",
+      "159C52",
+      "15A118",
+      "15A812",
+      "15A870",
+      "15A8CE",
+      "15A92C",
+      "15AC1C",
+      "15AE50",
+      "15AEAE",
+      "15AF0C",
+      "15B140",
+      "15B374",
+      "15B54A",
+      "15B5A8",
+      "15B83A",
+      "15B8F6",
+      "15B9B2",
+      "15BA10",
+      "15BE1A",
+      "15C04E",
+      "15C39C",
+      "15C3FA",
+      "15C5D0",
+      "15C62E",
+      "15C68C",
+      "15CBB0",
+      "15CCCA",
+      "15CD28",
+      "15CD86",
+      "15CDE4",
+      "15D8E8",
+      "15D9A4",
+      "15DA02",
+      "15DC94",
+      "15E15A",
+      "15E1B8"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[04 5A 03]@You confront [08 4B 79 EF 00][03][02]",
+    "text_fr_segments": [
+      {
+        "offset": 3,
+        "original": "@You confront ",
+        "french": "@Tu défies "
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F467",
+    "offset": "37F467",
+    "snes": "F7F467",
+    "length": 33,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] was totally scrapped![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 A7 91 A3 50 A4 9F A4 91 9C 9C A9 50 A3 93 A2 91 A0 A0 95 94 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "1596D4",
+      "159D12",
+      "159EE8",
+      "159F46",
+      "15A7B8",
+      "15A9EC",
+      "15AB64",
+      "15AFCC",
+      "15B2BC",
+      "15B668",
+      "15BE1E",
+      "15BF38",
+      "15C4BA",
+      "15C576",
+      "15C7AA"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] was totally scrapped![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " was totally scrapped!",
+        "french": " est en miettes !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F488",
+    "offset": "37F488",
+    "snes": "F7F488",
+    "length": 35,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] was totally[00]  scrapped![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 A7 91 A3 50 A4 9F A4 91 9C 9C A9 00 50 50 A3 93 A2 91 A0 A0 95 94 51 1F 02 21 02",
+    "literal_pointer_offsets": [],
+    "evidence": "sequential_or_inline",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] was totally\n  scrapped![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " was totally",
+        "french": " est"
+      },
+      {
+        "offset": 20,
+        "original": "  scrapped!",
+        "french": "  en miettes !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F4AB",
+    "offset": "37F4AB",
+    "snes": "F7F4AB",
+    "length": 34,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] turned back to normal![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 A4 A5 A2 9E 95 94 50 92 91 93 9B 50 A4 9F 50 9E 9F A2 9D 91 9C 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "159732",
+      "1598AA",
+      "15A060",
+      "15A6FC",
+      "15B958",
+      "15C9DE",
+      "15CA3C",
+      "15D540",
+      "15DECC"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] turned back to normal![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " turned back to normal!",
+        "french": " reprend sa forme !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F4CD",
+    "offset": "37F4CD",
+    "snes": "F7F4CD",
+    "length": 46,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] returned to the dust of the earth![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 A2 95 A4 A5 A2 9E 95 94 50 A4 9F 50 A4 98 95 50 94 A5 A3 A4 50 9F 96 50 A4 98 95 50 95 91 A2 A4 98 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "15A4C8",
+      "15B8FA",
+      "15B9B6",
+      "15BAD0",
+      "15DB20",
+      "15E73E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] returned to the dust of the earth![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " returned to the dust of the earth!",
+        "french": " retourne à la poussière !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F4FB",
+    "offset": "37F4FB",
+    "snes": "F7F4FB",
+    "length": 32,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][06 AD 03 1B F5 F7 00][01]@[1C 0E] was defeated![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 06 AD 03 1B F5 F7 00 01 70 1C 0E 50 A7 91 A3 50 94 95 96 95 91 A4 95 94 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "159A80",
+      "159B9A",
+      "159C56",
+      "159FA4",
+      "15A0BE",
+      "15A294",
+      "15A350",
+      "15A46A",
+      "15A5E2",
+      "15A69E",
+      "15A874",
+      "15AB06",
+      "15ABC2",
+      "15AC7E",
+      "15AD3A",
+      "15ADF6",
+      "15AE54",
+      "15AEB2",
+      "15AF10",
+      "15B02A",
+      "15B144",
+      "15B25E",
+      "15B5AC",
+      "15B6C6",
+      "15B724",
+      "15B782",
+      "15B89C",
+      "15BA72",
+      "15BB2E",
+      "15BB8C",
+      "15BCA6",
+      "15BD62",
+      "15BDC0",
+      "15BEDA",
+      "15BF96",
+      "15C052",
+      "15C0B0",
+      "15C10E",
+      "15C16C",
+      "15C228",
+      "15C3A0",
+      "15C3FE",
+      "15C5D4",
+      "15C632",
+      "15C980",
+      "15CF60",
+      "15D0D8",
+      "15D3C8",
+      "15D426",
+      "15D484",
+      "15D88E",
+      "15D8EC",
+      "15D94A",
+      "15D9A8",
+      "15DA06",
+      "15DA64",
+      "15DC3A",
+      "15DC98",
+      "15DCF6",
+      "15DDB2",
+      "15DE10",
+      "15E1BC",
+      "15E278",
+      "15E2D6",
+      "15E5C6",
+      "15E624",
+      "15E682",
+      "15E6E0",
+      "15E8B6",
+      "15E972",
+      "15E9D0"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03][06 AD 03 1B F5 F7 00]\n\n@[1C 0E] was defeated![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 11,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 14,
+        "original": " was defeated!",
+        "french": " a perdu !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F51F",
+    "offset": "37F51F",
+    "snes": "F7F51F",
+    "length": 27,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] stopped moving![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 A3 A4 9F A0 A0 95 94 50 9D 9F A6 99 9E 97 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "15984C",
+      "15A002",
+      "15A816",
+      "15AC20",
+      "15B200",
+      "15C1CA",
+      "15C45C",
+      "15C808",
+      "15CB56",
+      "15CBB4",
+      "15CFBE",
+      "15D4E2",
+      "15E044",
+      "15E100",
+      "15E21A",
+      "15EA2E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] stopped moving![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " stopped moving!",
+        "french": " s'immobilise !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F53A",
+    "offset": "37F53A",
+    "snes": "F7F53A",
+    "length": 24,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] became tame![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 92 95 93 91 9D 95 50 A4 91 9D 95 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "159676",
+      "1597EE",
+      "159908",
+      "159966",
+      "1599C4",
+      "159A22",
+      "159D70",
+      "159DCE",
+      "159E2C",
+      "15A17A",
+      "15A1D8",
+      "15A236",
+      "15A3AE",
+      "15A40C",
+      "15A526",
+      "15A640",
+      "15A75A",
+      "15A930",
+      "15A98E",
+      "15AAA8",
+      "15AF6E",
+      "15B0E6",
+      "15B1A2",
+      "15B31A",
+      "15B378",
+      "15B3D6",
+      "15B492",
+      "15B60A",
+      "15B83E",
+      "15BA14",
+      "15BC48",
+      "15BD04",
+      "15BE7C",
+      "15BFF4",
+      "15C286",
+      "15C2E4",
+      "15C342",
+      "15C6EE",
+      "15C74C",
+      "15C866",
+      "15C8C4",
+      "15CA9A",
+      "15CAF8",
+      "15CC12",
+      "15CC70",
+      "15CD8A",
+      "15CE46",
+      "15CEA4",
+      "15CF02",
+      "15D01C",
+      "15D59E",
+      "15D5FC",
+      "15D65A",
+      "15D6B8",
+      "15D716",
+      "15D774",
+      "15D7D2",
+      "15D830",
+      "15DAC2",
+      "15DB7E",
+      "15DBDC",
+      "15DD54",
+      "15DF2A",
+      "15DF88",
+      "15E334",
+      "15E392",
+      "15E44E",
+      "15E79C",
+      "15E7FA",
+      "15E914"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] became tame![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " became tame!",
+        "french": " se calme !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F552",
+    "offset": "37F552",
+    "snes": "F7F552",
+    "length": 24,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] disappeared![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 94 99 A3 91 A0 A0 95 91 A2 95 94 51 1F 02 21 02",
+    "literal_pointer_offsets": [],
+    "evidence": "sequential_or_inline",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] disappeared![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " disappeared!",
+        "french": " disparaît !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F56A",
+    "offset": "37F56A",
+    "snes": "F7F56A",
+    "length": 47,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@The figure of [1C 0E] melted into thin air![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 84 98 95 50 96 99 97 A5 A2 95 50 9F 96 50 1C 0E 50 9D 95 9C A4 95 94 50 99 9E A4 9F 50 A4 98 99 9E 50 91 99 A2 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "159618",
+      "159B3C",
+      "15A11C",
+      "15A2F2",
+      "15A584",
+      "15E3F0"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03]\n\n@The figure of [1C 0E] melted into thin air![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@The figure of ",
+        "french": "@L'image de "
+      },
+      {
+        "offset": 21,
+        "original": " melted into thin air!",
+        "french": " s'évanouit dans l'air !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F599",
+    "offset": "37F599",
+    "snes": "F7F599",
+    "length": 35,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] was broken into pieces![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 A7 91 A3 50 92 A2 9F 9B 95 9E 50 99 9E A4 9F 50 A0 99 95 93 95 A3 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "159790",
+      "159BF8",
+      "159E8A",
+      "15AD98",
+      "15C518",
+      "15CDE8",
+      "15E15E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] was broken into pieces![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " was broken into pieces!",
+        "french": " tombe en morceaux !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F5BC",
+    "offset": "37F5BC",
+    "snes": "F7F5BC",
+    "length": 37,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] was broken[00]  into pieces![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 A7 91 A3 50 92 A2 9F 9B 95 9E 00 50 50 99 9E A4 9F 50 A0 99 95 93 95 A3 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "15B54E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] was broken\n  into pieces![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " was broken",
+        "french": " tombe"
+      },
+      {
+        "offset": 19,
+        "original": "  into pieces!",
+        "french": "  en morceaux !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F5E1",
+    "offset": "37F5E1",
+    "snes": "F7F5E1",
+    "length": 26,
+    "source": "script_candidate",
+    "text_en": "[05 5A 03][01]@[1C 0E] was destroyed![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "05 5A 03 01 70 1C 0E 50 A7 91 A3 50 94 95 A3 A4 A2 9F A9 95 94 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "15A8D2",
+      "15C690",
+      "15C922",
+      "15CCCE",
+      "15CD2C",
+      "15DE6E",
+      "15DFE6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 5A 03]\n\n@[1C 0E] was destroyed![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 4,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 7,
+        "original": " was destroyed!",
+        "french": " est hors jeu !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "37F5FB",
+    "offset": "37F5FB",
+    "snes": "F7F5FB",
+    "length": 44,
+    "source": "script_candidate",
+    "text_en": "[06 3D 04 77 7D F6 00][05 5A 03][01]@[1C 0E] became[00]  a pile of fluff![1F 02 21][02]",
+    "text_fr": "",
+    "raw_hex": "06 3D 04 77 7D F6 00 05 5A 03 01 70 1C 0E 50 92 95 93 91 9D 95 00 50 50 91 50 A0 99 9C 95 50 9F 96 50 96 9C A5 96 96 51 1F 02 21 02",
+    "literal_pointer_offsets": [
+      "15B088",
+      "15B434"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 3D 04 77 7D F6 00][05 5A 03]\n\n@[1C 0E] became\n  a pile of fluff![1F 02 21][02]",
+    "text_fr_segments": [
+      {
+        "offset": 11,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 14,
+        "original": " became",
+        "french": " finit"
+      },
+      {
+        "offset": 22,
+        "original": "  a pile of fluff!",
+        "french": "  en tas de duvet !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
     "id": "33A03A",
     "offset": "33A03A",
     "snes": "F3A03A",

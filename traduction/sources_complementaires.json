@@ -1,0 +1,114 @@
+{
+  "fields": [
+    {
+      "id": "0F61CB",
+      "offset": "0F61CB",
+      "snes": "CF61CB",
+      "source": "verified_literal_field",
+      "text_en": "Plain flavor",
+      "text_fr": "Nature",
+      "raw_hex": "80 9C 91 99 9E 50 96 9C 91 A6 9F A2",
+      "capacity_bytes": 12,
+      "evidence": "Correspondance exacte, chaîne terminée, choix de fenêtres testé dans le remake."
+    },
+    {
+      "id": "20FFD5",
+      "offset": "20FFD5",
+      "snes": "E0FFD5",
+      "source": "verified_literal_field",
+      "text_en": "Spearmint flavor",
+      "text_fr": "Menthe",
+      "raw_hex": "83 A0 95 91 A2 9D 99 9E A4 50 96 9C 91 A6 9F A2",
+      "capacity_bytes": 16,
+      "evidence": "Correspondance exacte, chaîne terminée, choix de fenêtres testé dans le remake."
+    },
+    {
+      "id": "212E04",
+      "offset": "212E04",
+      "snes": "E12E04",
+      "source": "verified_literal_field",
+      "text_en": "Tuna flavor",
+      "text_fr": "Thon",
+      "raw_hex": "84 A5 9E 91 50 96 9C 91 A6 9F A2",
+      "capacity_bytes": 11,
+      "evidence": "Correspondance exacte, chaîne terminée, choix de fenêtres testé dans le remake."
+    },
+    {
+      "id": "212E1D",
+      "offset": "212E1D",
+      "snes": "E12E1D",
+      "source": "verified_literal_field",
+      "text_en": "Mayo flavor",
+      "text_fr": "Mayonnaise",
+      "raw_hex": "7D 91 A9 9F 50 96 9C 91 A6 9F A2",
+      "capacity_bytes": 11,
+      "evidence": "Correspondance exacte, chaîne terminée, choix de fenêtres testé dans le remake."
+    },
+    {
+      "id": "212E36",
+      "offset": "212E36",
+      "snes": "E12E36",
+      "source": "verified_literal_field",
+      "text_en": "Grape flavor",
+      "text_fr": "Raisin",
+      "raw_hex": "77 A2 91 A0 95 50 96 9C 91 A6 9F A2",
+      "capacity_bytes": 12,
+      "evidence": "Correspondance exacte, chaîne terminée, choix de fenêtres testé dans le remake."
+    },
+    {
+      "id": "375218",
+      "offset": "375218",
+      "snes": "F75218",
+      "source": "verified_literal_field",
+      "text_en": "Check",
+      "text_fr": "Voir",
+      "raw_hex": "73 98 95 93 9B",
+      "capacity_bytes": 5,
+      "evidence": "Chaîne du menu de combat du remake, fin NUL vérifiée ; aucun octet après le NUL utilisé."
+    },
+    {
+      "id": "375207",
+      "offset": "375207",
+      "snes": "F75207",
+      "source": "verified_literal_field",
+      "text_en": "Throw",
+      "text_fr": "Jeter",
+      "raw_hex": "84 98 A2 9F A7",
+      "capacity_bytes": 5,
+      "evidence": "Chaîne du menu de combat du remake, fin NUL vérifiée ; aucun octet après le NUL utilisé."
+    },
+    {
+      "id": "37520D",
+      "offset": "37520D",
+      "snes": "F7520D",
+      "source": "verified_literal_field",
+      "text_en": "Blast",
+      "text_fr": "Tirer",
+      "raw_hex": "72 9C 91 A3 A4",
+      "capacity_bytes": 5,
+      "evidence": "Chaîne du menu de combat du remake, fin NUL vérifiée ; aucun octet après le NUL utilisé."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "2FA66C",
+      "offset": "2FA66C",
+      "snes": "EFA66C",
+      "length": 59,
+      "source": "verified_menu_script",
+      "text_en": "[18 05 00 04][2F]CAPITAL[18 05 07 04][2F]small[18 05 00 06][2F]Don't Care[18 05 11 06][2F]Backspace[18 05 19 06][2F]OK[02]",
+      "raw_hex": "18 05 00 04 2F 73 71 80 79 84 71 7C 18 05 07 04 2F A3 9D 91 9C 9C 18 05 00 06 2F 74 9F 9E 57 A4 50 73 91 A2 95 18 05 11 06 2F 72 91 93 9B A3 A0 91 93 95 18 05 19 06 2F 7F 7B 02",
+      "evidence": "Script fermé du clavier des noms avec commandes de placement 18 05 préservées."
+    },
+    {
+      "id": "2FA6A7",
+      "offset": "2FA6A7",
+      "snes": "EFA6A7",
+      "length": 44,
+      "source": "verified_menu_script",
+      "text_en": "[18 05 00 04][2F]CAPITAL[18 05 07 04][2F]small[18 05 11 06][2F]Backspace[18 05 19 06][2F]OK[02]",
+      "raw_hex": "18 05 00 04 2F 73 71 80 79 84 71 7C 18 05 07 04 2F A3 9D 91 9C 9C 18 05 11 06 2F 72 91 93 9B A3 A0 91 93 95 18 05 19 06 2F 7F 7B 02",
+      "evidence": "Script fermé du clavier des noms avec commandes de placement 18 05 préservées."
+    }
+  ]
+}

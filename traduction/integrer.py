@@ -109,7 +109,14 @@ def integrate(rom,out,accents=True):
         p=int(row['offset'],16);old=bytes.fromhex(row['raw_hex']);cap=row['capacity_bytes']
         assert original[p:p+len(old)]==old,'Champ source différent'
         raw=encode_fr(row['text_fr'],accents);terminated=original[p+len(old)]==0
-        if row['source']=='ITEM_CONFIGURATION_TABLE':
+        if row['source']=='ENEMY_CONFIGURATION_TABLE':
+            # CoilSnake eb.yml : premier octet = The Flag ; nom de 25 octets, stride 94.
+            assert cap==25 and (p-0x15958a)%94==0 and 0x15958a<=p<0x15958a+21714
+            if len(raw)>=cap:raise ValueError('Nom ennemi trop long : '+row['id'])
+            assert row.get('article_in_name') and original[p-1] in (0,1)
+            write(p-1,b'\0',row['id']+'-article')
+            encoded=(raw+b'\0').ljust(cap,b'\0')
+        elif row['source']=='ITEM_CONFIGURATION_TABLE':
             # Table native vérifiée : nom de 25 octets au début d'un enregistrement de 39 octets.
             assert cap==25 and (p-0x155000)%39==0 and 0x155000<=p<0x157700
             if len(raw)>=cap: raise ValueError('Nom objet trop long : '+row['id'])
@@ -183,9 +190,9 @@ def integrate(rom,out,accents=True):
     patch=ips_patch(original,data);assert apply_ips(original,patch)==bytes(data),'Échec application IPS'
     report.update(target_sha256=hashlib.sha256(data).hexdigest(),source_rom_unchanged=hashlib.sha256(rom.read_bytes()).hexdigest()==hashlib.sha256(src).hexdigest(),rom_size=len(data),checksum=f'{checksum:04X}',accepted_count=len(report['accepted']),rejected_count=len(report['rejected']),bytes_changed=sum(a!=b for a,b in zip(original,data)),commands_preserved=True,ips_roundtrip_passed=True,runtime_validated=False)
     out.mkdir(parents=True,exist_ok=True);suffix='accents' if accents else 'ascii'
-    (out/f'EarthBound_Beginnings_FR_v02_{suffix}.ips').write_bytes(patch)
+    (out/f'EarthBound_Beginnings_FR_v03_{suffix}.ips').write_bytes(patch)
     (out/f'rapport_{suffix}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2), encoding='utf-8')
-    (out/f'EarthBound_Beginnings_FR_v02_{suffix}.sfc').write_bytes(data)
+    (out/f'EarthBound_Beginnings_FR_v03_{suffix}.sfc').write_bytes(data)
     print(json.dumps({k:report[k] for k in ['profile','accepted_count','rejected_count','bytes_changed','target_sha256','runtime_validated']},ensure_ascii=False,indent=2))
     return report
 if __name__=='__main__':

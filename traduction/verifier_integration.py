@@ -24,7 +24,7 @@ def verify(rom,build):
     menus={x['id']:x for x in json.loads((ROOT/'traduction/menus_objets_fr.json').read_text(encoding='utf-8'))}
     dialogues={x['id']:x for x in json.loads((ROOT/'traduction/dialogues_fr.json').read_text(encoding='utf-8'))}
     for profile in ['accents','ascii']:
-        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v02_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v02_{profile}.ips').read_bytes()
+        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v03_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v03_{profile}.ips').read_bytes()
         assert len(target)==len(source)==4194304
         assert apply_independent(source,patch)==target
         assert hashlib.sha256(target).hexdigest()==report['target_sha256']
@@ -36,7 +36,10 @@ def verify(rom,build):
             p=int(change['id'],16)
             if change['type']=='field':
                 row=menus[change['id']];fr=encode_fr(row['text_fr'],profile=='accents');assert target[p:p+len(fr)]==fr
-                if row['source']=='ITEM_CONFIGURATION_TABLE':assert target[p+len(fr)]==0
+                if row['source'] in ('ITEM_CONFIGURATION_TABLE','ENEMY_CONFIGURATION_TABLE'):assert target[p+len(fr)]==0
+                if row['source']=='ENEMY_CONFIGURATION_TABLE':
+                    assert target[p-1]==0
+                    assert target[p+25:p+93]==source[p+25:p+93], 'Stats ennemi modifiées'
             elif change['type']=='dialogue':
                 row=dialogues[change['id']];old=bytes.fromhex(row['raw_hex']);spans=row['text_fr_segments'];position=0
                 for k,seg in enumerate(spans):

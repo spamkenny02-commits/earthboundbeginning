@@ -3,7 +3,30 @@
 import json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-FIELDS='''Start New Game|Nouveau jeu
+FIELDS='''Haunted Lamp|La lampe hantée
+Cursed Pillow|L'oreiller maudit
+Possessed Doll|La poupée possédée
+Cheerful Crow|Le corbeau joyeux
+Spiteful Crow|Le corbeau hargneux
+Stray Dog|Le chien errant
+Guard Dog|Le chien de garde
+Frail Snake|Le serpent frêle
+Rattlesnake|Le serpent à sonnette
+Red Snake|Le serpent rouge
+Dirty Rat|Le rat crasseux
+Nasty Zombie|Le zombie féroce
+Gangster Zombie|Le zombie gangster
+Suburban Zombie|Le zombie de banlieue
+Pseudo Zombie|Le faux zombie
+Alarm Ghost|Le fantôme d'alarme
+Alligator|L'alligator
+Crocodile|Le crocodile
+Medieval Armor|L'armure médiévale
+Bionic Batty|La chauve-souris cyborg
+Bionic Centipede|Le mille-pattes bionique
+Bionic Scorpion|Le scorpion bionique
+New Age Retro Hippie|Le hippie rétro
+Start New Game|Nouveau jeu
 Text Speed:|Vitesse:
 Fast|Vite
 Medium|Normal
@@ -327,7 +350,42 @@ Protection coin|Pièce protectrice
 Magic coin|Pièce magique'''
 # Chaque entrée remplace les fragments de texte du bloc, dans leur ordre.
 # Les commandes sont récupérées à l'identique depuis les octets de référence.
-DIALOGUES='''33A03A|Tu frappes peut-être aux portes au hasard, mais...|N'oublie jamais que, qui que tu sois...|quelqu'un t'aime quelque part.|C'est beau, non ?|Je pourrais être poète, tu ne crois pas ?
+DIALOGUES='''2FA66C|MAJ|min|Au choix|Effacer|OK
+2FA6A7|MAJ|min|Effacer|OK
+3675EA|Le badge Franklin renvoie le rayon !
+36761A|            || gagne | EXP
+36765C|            || gagne | EXP
+3678E0|| respire normalement !
+367907|| tousse|sans arrêt !
+367A28|| cède !
+367A3D|Mais | résiste !
+367AD2|| te|défie !
+367B9A|| a |abandonné le combat !
+367D77|| est à bout.
+37F0D4|| s'approche...
+37F192|| barre la route !
+37F373|| attaque !
+37F389|| barre la route !
+37F3A6|| te poursuit !
+37F3C2|| te piège !
+37F3DB|Tu rencontres 
+37F425|Tu vois 
+37F439|Tu défies 
+37F44F|Tu défies 
+37F467|| est en miettes !
+37F488|| est|en miettes !
+37F4AB|| reprend sa forme !
+37F4CD|| retourne à la poussière !
+37F4FB|| a perdu !
+37F51F|| s'immobilise !
+37F53A|| se calme !
+37F552|| disparaît !
+37F56A|L'image de | s'évanouit dans l'air !
+37F599|| tombe en morceaux !
+37F5BC|| tombe|en morceaux !
+37F5E1|| est hors jeu !
+37F5FB|| finit|en tas de duvet !
+33A03A|Tu frappes peut-être aux portes au hasard, mais...|N'oublie jamais que, qui que tu sois...|quelqu'un t'aime quelque part.|C'est beau, non ?|Je pourrais être poète, tu ne crois pas ?
 33A184|Voilà le livreur de pizzas !|Hé, une seconde...|Je ne sens aucune pizza derrière la porte !|Pas question !|Je ne me ferai plus avoir.
 33A220|Les trains ne roulent toujours pas ?|Que se passe-t-il donc ?|Sans leur sifflet au loin, impossible de dormir...
 33A2BA|Le doux sifflet d'un train au loin apaise mon âme.|Les trains roulent à nouveau. Je peux enfin bien dormir.
@@ -422,8 +480,13 @@ def main():
     from extraire import parse,render
     mapping=dict(line.split('|',1) for line in FIELDS.splitlines())
     rows=json.loads((ROOT/'atelier/extraction/champs_menus_objets_ennemis.json').read_text(encoding='utf-8'))
+    extra=json.loads((ROOT/'traduction/sources_complementaires.json').read_text(encoding='utf-8'))
     names=[dict(r,text_fr=mapping[r['text_en']],status='draft') for r in rows if r['text_en'] in mapping and mapping[r['text_en']]!=r['text_en']]
+    names.extend(dict(r,status='draft') for r in extra['fields'])
+    for r in names:
+        if r['source']=='ENEMY_CONFIGURATION_TABLE':r['article_in_name']=True
     blocks={r['id']:r for r in json.loads((ROOT/'atelier/extraction/dialogues.json').read_text(encoding='utf-8'))}
+    blocks.update({r['id']:r for r in extra['blocks']})
     translated=[];errors=[]
     for line in DIALOGUES.splitlines():
         id,*values=line.split('|');r=blocks[id];raw=bytes.fromhex(r['raw_hex']);parsed=parse(raw,0,max_bytes=len(raw)+1)
