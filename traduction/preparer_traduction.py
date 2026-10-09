@@ -327,7 +327,21 @@ Protection coin|Pièce protectrice
 Magic coin|Pièce magique'''
 # Chaque entrée remplace les fragments de texte du bloc, dans leur ordre.
 # Les commandes sont récupérées à l'identique depuis les octets de référence.
-DIALOGUES='''339A92|Qu'attends-tu ?
+DIALOGUES='''33A03A|Tu frappes peut-être aux portes au hasard, mais...|N'oublie jamais que, qui que tu sois...|quelqu'un t'aime quelque part.|C'est beau, non ?|Je pourrais être poète, tu ne crois pas ?
+33A184|Voilà le livreur de pizzas !|Hé, une seconde...|Je ne sens aucune pizza derrière la porte !|Pas question !|Je ne me ferai plus avoir.
+33A220|Les trains ne roulent toujours pas ?|Que se passe-t-il donc ?|Sans leur sifflet au loin, impossible de dormir...
+33A2BA|Le doux sifflet d'un train au loin apaise mon âme.|Les trains roulent à nouveau. Je peux enfin bien dormir.
+33A340|Tu écoutes la radio ?|Oui|Non
+33A384|Il y a un groupe que j'aime bien...|Une chanson fait <yeah, yeah, yeah>... enfin, je crois.|À bien y penser, ça n'a pas grand intérêt...
+33A6B8|Hmm...|Je veux appeler mes parents pour qu'ils me ramènent...|Mais ce téléphone vert coûte un dollar. Je tiens à mes sous.|Avec tous ces appels, mon argent de poche partirait vite.|Si seulement il était noir ! Ceux-là sont gratuits !
+33A7BE|Oups ! (Boum) Pardon !|Je suis... (argh) ...coincé dans ce coin.|Tout à l'heure, j'ai... (zut) vu ce champignon sur ma tête.|Depuis, j'ai du mal à marcher dans la bonne direction.|Le drôle de type à l'accueil veut l'acheter,|mais le médecin dit de le traiter comme une mycose !|Qui croire ? Je suis bien embêté !
+33A96E|*grommelle*|Ces zombies empestent.|Les animaux du zoo sont en liberté. Le maire ne fait rien.|Routes barrées.| Des gamins entrent chez moi.|Même les oiseaux ne chantent plus !|Cette ville tourne mal. Je reste chez moi aujourd'hui.|Pas même un orteil dehors.
+33AA9A|As-tu déjà essayé les condiments avec tes plats ?|C'est vraiment incroyable !|Ils assaisonnent tes plats tout seuls, comme par magie !|Si le condiment va bien avec ton plat,|tu récupères BEAUCOUP plus de PV !|Essaie donc ! En plus, ça ne coûte pas cher !
+33ABF8|Hein... Tu es perdu, petit ?|Tu as l'air perdu.|Avec un plan de la ville, tu trouveras ton chemin.|Sais-tu que <X> affiche ton plan si tu es perdu ?|Ça marche aussi quand tu sais où tu vas.|Eh oui ! <X> affiche le plan ! Ho ho ho !|Bon...| Reviens me voir.| (tousse)
+33AE0C|Tu es un ami de | ?
+33AE2C|Hmm... Tu peux me parler de l'autre côté du bureau ?|Sinon, je n'ai pas vraiment l'air... d'un maire.
+33AEAC|Reviens vivant,| et tu seras un héros !|Si je me sentais mieux,| je viendrais avec toi...| *Hum hum*| *tousse*
+339A92|Qu'attends-tu ?
 339AAE|Tu sais quoi faire.
 339ACB|Elle t'attend.
 339C02|(On entend un aspirateur en marche...)

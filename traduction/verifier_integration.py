@@ -24,7 +24,7 @@ def verify(rom,build):
     menus={x['id']:x for x in json.loads((ROOT/'traduction/menus_objets_fr.json').read_text(encoding='utf-8'))}
     dialogues={x['id']:x for x in json.loads((ROOT/'traduction/dialogues_fr.json').read_text(encoding='utf-8'))}
     for profile in ['accents','ascii']:
-        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v01_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v01_{profile}.ips').read_bytes()
+        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v02_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v02_{profile}.ips').read_bytes()
         assert len(target)==len(source)==4194304
         assert apply_independent(source,patch)==target
         assert hashlib.sha256(target).hexdigest()==report['target_sha256']

@@ -1,5 +1,587 @@
 [
   {
+    "id": "33A03A",
+    "offset": "33A03A",
+    "snes": "F3A03A",
+    "length": 230,
+    "source": "script_candidate",
+    "text_en": "[1F 02 6F][10 28][18 01 35]@You might just be a stranger knocking on random doors, but...[03][00]@I want you to remember that no matter who you are... [03][00]  somebody out there loves you.[03][00]@Isn't that just beautiful?[00]  I could be a poet, don't you think?[13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 6F 10 28 18 01 35 70 89 9F A5 50 9D 99 97 98 A4 50 9A A5 A3 A4 50 92 95 50 91 50 A3 A4 A2 91 9E 97 95 A2 50 9B 9E 9F 93 9B 99 9E 97 50 9F 9E 50 A2 91 9E 94 9F 9D 50 94 9F 9F A2 A3 5C 50 92 A5 A4 5E 5E 5E 03 00 70 79 50 A7 91 9E A4 50 A9 9F A5 50 A4 9F 50 A2 95 9D 95 9D 92 95 A2 50 A4 98 91 A4 50 9E 9F 50 9D 91 A4 A4 95 A2 50 A7 98 9F 50 A9 9F A5 50 91 A2 95 5E 5E 5E 50 03 00 50 50 A3 9F 9D 95 92 9F 94 A9 50 9F A5 A4 50 A4 98 95 A2 95 50 9C 9F A6 95 A3 50 A9 9F A5 5E 03 00 70 79 A3 9E 57 A4 50 A4 98 91 A4 50 9A A5 A3 A4 50 92 95 91 A5 A4 99 96 A5 9C 6F 00 50 50 79 50 93 9F A5 9C 94 50 92 95 50 91 50 A0 9F 95 A4 5C 50 94 9F 9E 57 A4 50 A9 9F A5 50 A4 98 99 9E 9B 6F 13 18 00 02",
+    "literal_pointer_offsets": [
+      "0F14CC"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 6F][10 28][18 01 35]@You might just be a stranger knocking on random doors, but...\n@I want you to remember that no matter who you are... \n  somebody out there loves you.\n@Isn't that just beautiful?\n  I could be a poet, don't you think?[13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 8,
+        "original": "@You might just be a stranger knocking on random doors, but...",
+        "french": "@Tu frappes peut-être aux portes au hasard, mais..."
+      },
+      {
+        "offset": 72,
+        "original": "@I want you to remember that no matter who you are... ",
+        "french": "@N'oublie jamais que, qui que tu sois..."
+      },
+      {
+        "offset": 128,
+        "original": "  somebody out there loves you.",
+        "french": "  quelqu'un t'aime quelque part."
+      },
+      {
+        "offset": 161,
+        "original": "@Isn't that just beautiful?",
+        "french": "@C'est beau, non ?"
+      },
+      {
+        "offset": 189,
+        "original": "  I could be a poet, don't you think?",
+        "french": "  Je pourrais être poète, tu ne crois pas ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A184",
+    "offset": "33A184",
+    "snes": "F3A184",
+    "length": 156,
+    "source": "script_candidate",
+    "text_en": "[1F 02 6F][10 28][18 01 35]@Oh, that must be the pizza guy![03][00]@Hey, wait a second...[00]  I can't smell any pizza through the door![03][00]@No way![00]  I'm not falling for THAT again.[13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 6F 10 28 18 01 35 70 7F 98 5C 50 A4 98 91 A4 50 9D A5 A3 A4 50 92 95 50 A4 98 95 50 A0 99 AA AA 91 50 97 A5 A9 51 03 00 70 78 95 A9 5C 50 A7 91 99 A4 50 91 50 A3 95 93 9F 9E 94 5E 5E 5E 00 50 50 79 50 93 91 9E 57 A4 50 A3 9D 95 9C 9C 50 91 9E A9 50 A0 99 AA AA 91 50 A4 98 A2 9F A5 97 98 50 A4 98 95 50 94 9F 9F A2 51 03 00 70 7E 9F 50 A7 91 A9 51 00 50 50 79 57 9D 50 9E 9F A4 50 96 91 9C 9C 99 9E 97 50 96 9F A2 50 84 78 71 84 50 91 97 91 99 9E 5E 13 18 00 02",
+    "literal_pointer_offsets": [
+      "0F09BB"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 6F][10 28][18 01 35]@Oh, that must be the pizza guy!\n@Hey, wait a second...\n  I can't smell any pizza through the door!\n@No way!\n  I'm not falling for THAT again.[13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 8,
+        "original": "@Oh, that must be the pizza guy!",
+        "french": "@Voilà le livreur de pizzas !"
+      },
+      {
+        "offset": 42,
+        "original": "@Hey, wait a second...",
+        "french": "@Hé, une seconde..."
+      },
+      {
+        "offset": 65,
+        "original": "  I can't smell any pizza through the door!",
+        "french": "  Je ne sens aucune pizza derrière la porte !"
+      },
+      {
+        "offset": 110,
+        "original": "@No way!",
+        "french": "@Pas question !"
+      },
+      {
+        "offset": 119,
+        "original": "  I'm not falling for THAT again.",
+        "french": "  Je ne me ferai plus avoir."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A220",
+    "offset": "33A220",
+    "snes": "F3A220",
+    "length": 154,
+    "source": "script_candidate",
+    "text_en": "[1F 02 6F][10 28][18 01 35][06 5B 03 BA A2 F3 00]@The trains still aren't running, huh?[03][00]@I wonder what's wrong...[03][00]@I can't sleep without hearing the train whistles in the distance...[13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 6F 10 28 18 01 35 06 5B 03 BA A2 F3 00 70 84 98 95 50 A4 A2 91 99 9E A3 50 A3 A4 99 9C 9C 50 91 A2 95 9E 57 A4 50 A2 A5 9E 9E 99 9E 97 5C 50 98 A5 98 6F 03 00 70 79 50 A7 9F 9E 94 95 A2 50 A7 98 91 A4 57 A3 50 A7 A2 9F 9E 97 5E 5E 5E 03 00 70 79 50 93 91 9E 57 A4 50 A3 9C 95 95 A0 50 A7 99 A4 98 9F A5 A4 50 98 95 91 A2 99 9E 97 50 A4 98 95 50 A4 A2 91 99 9E 50 A7 98 99 A3 A4 9C 95 A3 50 99 9E 50 A4 98 95 50 94 99 A3 A4 91 9E 93 95 5E 5E 5E 13 18 00 02",
+    "literal_pointer_offsets": [
+      "0F1BE9"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 6F][10 28][18 01 35][06 5B 03 BA A2 F3 00]@The trains still aren't running, huh?\n@I wonder what's wrong...\n@I can't sleep without hearing the train whistles in the distance...[13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 15,
+        "original": "@The trains still aren't running, huh?",
+        "french": "@Les trains ne roulent toujours pas ?"
+      },
+      {
+        "offset": 55,
+        "original": "@I wonder what's wrong...",
+        "french": "@Que se passe-t-il donc ?"
+      },
+      {
+        "offset": 82,
+        "original": "@I can't sleep without hearing the train whistles in the distance...",
+        "french": "@Sans leur sifflet au loin, impossible de dormir..."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A2BA",
+    "offset": "33A2BA",
+    "snes": "F3A2BA",
+    "length": 134,
+    "source": "script_candidate",
+    "text_en": "@The sweet sound of a train whistle in the distance soothes my soul.[03][00]@With the trains running again, I can finally sleep soundly.[13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 84 98 95 50 A3 A7 95 95 A4 50 A3 9F A5 9E 94 50 9F 96 50 91 50 A4 A2 91 99 9E 50 A7 98 99 A3 A4 9C 95 50 99 9E 50 A4 98 95 50 94 99 A3 A4 91 9E 93 95 50 A3 9F 9F A4 98 95 A3 50 9D A9 50 A3 9F A5 9C 5E 03 00 70 87 99 A4 98 50 A4 98 95 50 A4 A2 91 99 9E A3 50 A2 A5 9E 9E 99 9E 97 50 91 97 91 99 9E 5C 50 79 50 93 91 9E 50 96 99 9E 91 9C 9C A9 50 A3 9C 95 95 A0 50 A3 9F A5 9E 94 9C A9 5E 13 18 00 02",
+    "literal_pointer_offsets": [
+      "33A22B"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@The sweet sound of a train whistle in the distance soothes my soul.\n@With the trains running again, I can finally sleep soundly.[13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@The sweet sound of a train whistle in the distance soothes my soul.",
+        "french": "@Le doux sifflet d'un train au loin apaise mon âme."
+      },
+      {
+        "offset": 70,
+        "original": "@With the trains running again, I can finally sleep soundly.",
+        "french": "@Les trains roulent à nouveau. Je peux enfin bien dormir."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A340",
+    "offset": "33A340",
+    "snes": "F3A340",
+    "length": 68,
+    "source": "script_candidate",
+    "text_en": "[1F 02 6F][10 28][18 01 35]@Do you listen to the radio?[00][19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 84 A3 F3 00 48 A4 F3 00][0A 48 A4 F3 00]",
+    "text_fr": "",
+    "raw_hex": "1F 02 6F 10 28 18 01 35 70 74 9F 50 A9 9F A5 50 9C 99 A3 A4 95 9E 50 A4 9F 50 A4 98 95 50 A2 91 94 99 9F 6F 00 19 02 89 95 A3 02 19 02 7E 9F 02 1C 07 02 11 12 09 02 84 A3 F3 00 48 A4 F3 00 0A 48 A4 F3 00",
+    "literal_pointer_offsets": [
+      "0F1B65"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 6F][10 28][18 01 35]@Do you listen to the radio?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 84 A3 F3 00 48 A4 F3 00][0A 48 A4 F3 00]",
+    "text_fr_segments": [
+      {
+        "offset": 8,
+        "original": "@Do you listen to the radio?",
+        "french": "@Tu écoutes la radio ?"
+      },
+      {
+        "offset": 39,
+        "original": "Yes",
+        "french": "Oui"
+      },
+      {
+        "offset": 45,
+        "original": "No",
+        "french": "Non"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A384",
+    "offset": "33A384",
+    "snes": "F3A384",
+    "length": 196,
+    "source": "script_candidate",
+    "text_en": "@So, there's a band I like to listen to...[03][00]@They have this song that goes <yeah, yeah, yeah>... or something like that.[03][00]@Now that I think about it, it's nothing really worth talking about...[13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 83 9F 5C 50 A4 98 95 A2 95 57 A3 50 91 50 92 91 9E 94 50 79 50 9C 99 9B 95 50 A4 9F 50 9C 99 A3 A4 95 9E 50 A4 9F 5E 5E 5E 03 00 70 84 98 95 A9 50 98 91 A6 95 50 A4 98 99 A3 50 A3 9F 9E 97 50 A4 98 91 A4 50 97 9F 95 A3 50 6C A9 95 91 98 5C 50 A9 95 91 98 5C 50 A9 95 91 98 6E 5E 5E 5E 50 9F A2 50 A3 9F 9D 95 A4 98 99 9E 97 50 9C 99 9B 95 50 A4 98 91 A4 5E 03 00 70 7E 9F A7 50 A4 98 91 A4 50 79 50 A4 98 99 9E 9B 50 91 92 9F A5 A4 50 99 A4 5C 50 99 A4 57 A3 50 9E 9F A4 98 99 9E 97 50 A2 95 91 9C 9C A9 50 A7 9F A2 A4 98 50 A4 91 9C 9B 99 9E 97 50 91 92 9F A5 A4 5E 5E 5E 13 18 00 02",
+    "literal_pointer_offsets": [
+      "33A377"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@So, there's a band I like to listen to...\n@They have this song that goes <yeah, yeah, yeah>... or something like that.\n@Now that I think about it, it's nothing really worth talking about...[13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@So, there's a band I like to listen to...",
+        "french": "@Il y a un groupe que j'aime bien..."
+      },
+      {
+        "offset": 44,
+        "original": "@They have this song that goes <yeah, yeah, yeah>... or something like that.",
+        "french": "@Une chanson fait <yeah, yeah, yeah>... enfin, je crois."
+      },
+      {
+        "offset": 122,
+        "original": "@Now that I think about it, it's nothing really worth talking about...",
+        "french": "@À bien y penser, ça n'a pas grand intérêt..."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A6B8",
+    "offset": "33A6B8",
+    "snes": "F3A6B8",
+    "length": 262,
+    "source": "script_candidate",
+    "text_en": "@Hmmm...[03][00]@I wanna call my folks for a ride home...[03][00]@But that green phone costs a dollar and I don't want to spend my allowance.[03][00]@I need to be careful about phone calls or they could eat up my money fast.[03][00]@I wish it was a black phone. Those are free to use![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 78 9D 9D 9D 5E 5E 5E 03 00 70 79 50 A7 91 9E 9E 91 50 93 91 9C 9C 50 9D A9 50 96 9F 9C 9B A3 50 96 9F A2 50 91 50 A2 99 94 95 50 98 9F 9D 95 5E 5E 5E 03 00 70 72 A5 A4 50 A4 98 91 A4 50 97 A2 95 95 9E 50 A0 98 9F 9E 95 50 93 9F A3 A4 A3 50 91 50 94 9F 9C 9C 91 A2 50 91 9E 94 50 79 50 94 9F 9E 57 A4 50 A7 91 9E A4 50 A4 9F 50 A3 A0 95 9E 94 50 9D A9 50 91 9C 9C 9F A7 91 9E 93 95 5E 03 00 70 79 50 9E 95 95 94 50 A4 9F 50 92 95 50 93 91 A2 95 96 A5 9C 50 91 92 9F A5 A4 50 A0 98 9F 9E 95 50 93 91 9C 9C A3 50 9F A2 50 A4 98 95 A9 50 93 9F A5 9C 94 50 95 91 A4 50 A5 A0 50 9D A9 50 9D 9F 9E 95 A9 50 96 91 A3 A4 5E 03 00 70 79 50 A7 99 A3 98 50 99 A4 50 A7 91 A3 50 91 50 92 9C 91 93 9B 50 A0 98 9F 9E 95 5E 50 84 98 9F A3 95 50 91 A2 95 50 96 A2 95 95 50 A4 9F 50 A5 A3 95 51 13 02",
+    "literal_pointer_offsets": [
+      "203C0E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Hmmm...\n@I wanna call my folks for a ride home...\n@But that green phone costs a dollar and I don't want to spend my allowance.\n@I need to be careful about phone calls or they could eat up my money fast.\n@I wish it was a black phone. Those are free to use![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Hmmm...",
+        "french": "@Hmm..."
+      },
+      {
+        "offset": 10,
+        "original": "@I wanna call my folks for a ride home...",
+        "french": "@Je veux appeler mes parents pour qu'ils me ramènent..."
+      },
+      {
+        "offset": 53,
+        "original": "@But that green phone costs a dollar and I don't want to spend my allowance.",
+        "french": "@Mais ce téléphone vert coûte un dollar. Je tiens à mes sous."
+      },
+      {
+        "offset": 131,
+        "original": "@I need to be careful about phone calls or they could eat up my money fast.",
+        "french": "@Avec tous ces appels, mon argent de poche partirait vite."
+      },
+      {
+        "offset": 208,
+        "original": "@I wish it was a black phone. Those are free to use!",
+        "french": "@Si seulement il était noir ! Ceux-là sont gratuits !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A7BE",
+    "offset": "33A7BE",
+    "snes": "F3A7BE",
+    "length": 386,
+    "source": "script_candidate",
+    "text_en": "@Oops!(bump) Excuse me![03][00]@I'm kinda of... (ugh) ...stuck in this corner.[03][00]@A little while ago I... (dang it) noticed this mushroom on my head.[03][00]@After that, walking where I wanted to go got really difficult.[03][00]@The strange guy downstairs in the lobby wanted to buy it, [03][00]  but the doctor said we should just treat it like athlete's foot![03][00]@Who do I trust?  I'm having a hard time here![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 7F 9F A0 A3 51 58 92 A5 9D A0 59 50 75 A8 93 A5 A3 95 50 9D 95 51 03 00 70 79 57 9D 50 9B 99 9E 94 91 50 9F 96 5E 5E 5E 50 58 A5 97 98 59 50 5E 5E 5E A3 A4 A5 93 9B 50 99 9E 50 A4 98 99 A3 50 93 9F A2 9E 95 A2 5E 03 00 70 71 50 9C 99 A4 A4 9C 95 50 A7 98 99 9C 95 50 91 97 9F 50 79 5E 5E 5E 50 58 94 91 9E 97 50 99 A4 59 50 9E 9F A4 99 93 95 94 50 A4 98 99 A3 50 9D A5 A3 98 A2 9F 9F 9D 50 9F 9E 50 9D A9 50 98 95 91 94 5E 03 00 70 71 96 A4 95 A2 50 A4 98 91 A4 5C 50 A7 91 9C 9B 99 9E 97 50 A7 98 95 A2 95 50 79 50 A7 91 9E A4 95 94 50 A4 9F 50 97 9F 50 97 9F A4 50 A2 95 91 9C 9C A9 50 94 99 96 96 99 93 A5 9C A4 5E 03 00 70 84 98 95 50 A3 A4 A2 91 9E 97 95 50 97 A5 A9 50 94 9F A7 9E A3 A4 91 99 A2 A3 50 99 9E 50 A4 98 95 50 9C 9F 92 92 A9 50 A7 91 9E A4 95 94 50 A4 9F 50 92 A5 A9 50 99 A4 5C 50 03 00 50 50 92 A5 A4 50 A4 98 95 50 94 9F 93 A4 9F A2 50 A3 91 99 94 50 A7 95 50 A3 98 9F A5 9C 94 50 9A A5 A3 A4 50 A4 A2 95 91 A4 50 99 A4 50 9C 99 9B 95 50 91 A4 98 9C 95 A4 95 57 A3 50 96 9F 9F A4 51 03 00 70 87 98 9F 50 94 9F 50 79 50 A4 A2 A5 A3 A4 6F 50 50 79 57 9D 50 98 91 A6 99 9E 97 50 91 50 98 91 A2 94 50 A4 99 9D 95 50 98 95 A2 95 51 13 02",
+    "literal_pointer_offsets": [
+      "203BA8"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Oops!(bump) Excuse me!\n@I'm kinda of... (ugh) ...stuck in this corner.\n@A little while ago I... (dang it) noticed this mushroom on my head.\n@After that, walking where I wanted to go got really difficult.\n@The strange guy downstairs in the lobby wanted to buy it, \n  but the doctor said we should just treat it like athlete's foot!\n@Who do I trust?  I'm having a hard time here![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Oops!(bump) Excuse me!",
+        "french": "@Oups ! (Boum) Pardon !"
+      },
+      {
+        "offset": 25,
+        "original": "@I'm kinda of... (ugh) ...stuck in this corner.",
+        "french": "@Je suis... (argh) ...coincé dans ce coin."
+      },
+      {
+        "offset": 74,
+        "original": "@A little while ago I... (dang it) noticed this mushroom on my head.",
+        "french": "@Tout à l'heure, j'ai... (zut) vu ce champignon sur ma tête."
+      },
+      {
+        "offset": 144,
+        "original": "@After that, walking where I wanted to go got really difficult.",
+        "french": "@Depuis, j'ai du mal à marcher dans la bonne direction."
+      },
+      {
+        "offset": 209,
+        "original": "@The strange guy downstairs in the lobby wanted to buy it, ",
+        "french": "@Le drôle de type à l'accueil veut l'acheter,"
+      },
+      {
+        "offset": 270,
+        "original": "  but the doctor said we should just treat it like athlete's foot!",
+        "french": "  mais le médecin dit de le traiter comme une mycose !"
+      },
+      {
+        "offset": 338,
+        "original": "@Who do I trust?  I'm having a hard time here!",
+        "french": "@Qui croire ? Je suis bien embêté !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A96E",
+    "offset": "33A96E",
+    "snes": "F3A96E",
+    "length": 300,
+    "source": "script_candidate",
+    "text_en": "@*grumble grumble*[00]@Zombies are stinking up the place.[03][00]@Zoo animals just running loose all over and the mayor's doing nothing.[03][00]@Closed roads. [10 0F][10 0F] Kids wandering into my house.[03][00]@Even the birds won't sing![03][00]@This whole town is going to heck.  I'm not setting foot outside today.[03][00]@Not even a toe.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 5A 97 A2 A5 9D 92 9C 95 50 97 A2 A5 9D 92 9C 95 5A 00 70 8A 9F 9D 92 99 95 A3 50 91 A2 95 50 A3 A4 99 9E 9B 99 9E 97 50 A5 A0 50 A4 98 95 50 A0 9C 91 93 95 5E 03 00 70 8A 9F 9F 50 91 9E 99 9D 91 9C A3 50 9A A5 A3 A4 50 A2 A5 9E 9E 99 9E 97 50 9C 9F 9F A3 95 50 91 9C 9C 50 9F A6 95 A2 50 91 9E 94 50 A4 98 95 50 9D 91 A9 9F A2 57 A3 50 94 9F 99 9E 97 50 9E 9F A4 98 99 9E 97 5E 03 00 70 73 9C 9F A3 95 94 50 A2 9F 91 94 A3 5E 50 10 0F 10 0F 50 7B 99 94 A3 50 A7 91 9E 94 95 A2 99 9E 97 50 99 9E A4 9F 50 9D A9 50 98 9F A5 A3 95 5E 03 00 70 75 A6 95 9E 50 A4 98 95 50 92 99 A2 94 A3 50 A7 9F 9E 57 A4 50 A3 99 9E 97 51 03 00 70 84 98 99 A3 50 A7 98 9F 9C 95 50 A4 9F A7 9E 50 99 A3 50 97 9F 99 9E 97 50 A4 9F 50 98 95 93 9B 5E 50 50 79 57 9D 50 9E 9F A4 50 A3 95 A4 A4 99 9E 97 50 96 9F 9F A4 50 9F A5 A4 A3 99 94 95 50 A4 9F 94 91 A9 5E 03 00 70 7E 9F A4 50 95 A6 95 9E 50 91 50 A4 9F 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "203108"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@*grumble grumble*\n@Zombies are stinking up the place.\n@Zoo animals just running loose all over and the mayor's doing nothing.\n@Closed roads. [10 0F][10 0F] Kids wandering into my house.\n@Even the birds won't sing!\n@This whole town is going to heck.  I'm not setting foot outside today.\n@Not even a toe.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@*grumble grumble*",
+        "french": "@*grommelle*"
+      },
+      {
+        "offset": 19,
+        "original": "@Zombies are stinking up the place.",
+        "french": "@Ces zombies empestent."
+      },
+      {
+        "offset": 56,
+        "original": "@Zoo animals just running loose all over and the mayor's doing nothing.",
+        "french": "@Les animaux du zoo sont en liberté. Le maire ne fait rien."
+      },
+      {
+        "offset": 129,
+        "original": "@Closed roads. ",
+        "french": "@Routes barrées."
+      },
+      {
+        "offset": 148,
+        "original": " Kids wandering into my house.",
+        "french": " Des gamins entrent chez moi."
+      },
+      {
+        "offset": 180,
+        "original": "@Even the birds won't sing!",
+        "french": "@Même les oiseaux ne chantent plus !"
+      },
+      {
+        "offset": 209,
+        "original": "@This whole town is going to heck.  I'm not setting foot outside today.",
+        "french": "@Cette ville tourne mal. Je reste chez moi aujourd'hui."
+      },
+      {
+        "offset": 282,
+        "original": "@Not even a toe.",
+        "french": "@Pas même un orteil dehors."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33AA9A",
+    "offset": "33AA9A",
+    "snes": "F3AA9A",
+    "length": 350,
+    "source": "script_candidate",
+    "text_en": "@Say, have you ever tried out the condiments here with your food?[03][00]@It's really quite incredible![03][00]@They automatically sprinkle on your food when you eat, almost like magic![03][00]@If the condiment goes well with what you're eating,[03][00]  then you'll get a BIG boost to your health recovered![03][00]@Why don't you give it a try? They're easy on the wallet, too![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 83 91 A9 5C 50 98 91 A6 95 50 A9 9F A5 50 95 A6 95 A2 50 A4 A2 99 95 94 50 9F A5 A4 50 A4 98 95 50 93 9F 9E 94 99 9D 95 9E A4 A3 50 98 95 A2 95 50 A7 99 A4 98 50 A9 9F A5 A2 50 96 9F 9F 94 6F 03 00 70 79 A4 57 A3 50 A2 95 91 9C 9C A9 50 A1 A5 99 A4 95 50 99 9E 93 A2 95 94 99 92 9C 95 51 03 00 70 84 98 95 A9 50 91 A5 A4 9F 9D 91 A4 99 93 91 9C 9C A9 50 A3 A0 A2 99 9E 9B 9C 95 50 9F 9E 50 A9 9F A5 A2 50 96 9F 9F 94 50 A7 98 95 9E 50 A9 9F A5 50 95 91 A4 5C 50 91 9C 9D 9F A3 A4 50 9C 99 9B 95 50 9D 91 97 99 93 51 03 00 70 79 96 50 A4 98 95 50 93 9F 9E 94 99 9D 95 9E A4 50 97 9F 95 A3 50 A7 95 9C 9C 50 A7 99 A4 98 50 A7 98 91 A4 50 A9 9F A5 57 A2 95 50 95 91 A4 99 9E 97 5C 03 00 50 50 A4 98 95 9E 50 A9 9F A5 57 9C 9C 50 97 95 A4 50 91 50 72 79 77 50 92 9F 9F A3 A4 50 A4 9F 50 A9 9F A5 A2 50 98 95 91 9C A4 98 50 A2 95 93 9F A6 95 A2 95 94 51 03 00 70 87 98 A9 50 94 9F 9E 57 A4 50 A9 9F A5 50 97 99 A6 95 50 99 A4 50 91 50 A4 A2 A9 6F 50 84 98 95 A9 57 A2 95 50 95 91 A3 A9 50 9F 9E 50 A4 98 95 50 A7 91 9C 9C 95 A4 5C 50 A4 9F 9F 51 13 02",
+    "literal_pointer_offsets": [
+      "2036AD"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Say, have you ever tried out the condiments here with your food?\n@It's really quite incredible!\n@They automatically sprinkle on your food when you eat, almost like magic!\n@If the condiment goes well with what you're eating,\n  then you'll get a BIG boost to your health recovered!\n@Why don't you give it a try? They're easy on the wallet, too![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Say, have you ever tried out the condiments here with your food?",
+        "french": "@As-tu déjà essayé les condiments avec tes plats ?"
+      },
+      {
+        "offset": 67,
+        "original": "@It's really quite incredible!",
+        "french": "@C'est vraiment incroyable !"
+      },
+      {
+        "offset": 99,
+        "original": "@They automatically sprinkle on your food when you eat, almost like magic!",
+        "french": "@Ils assaisonnent tes plats tout seuls, comme par magie !"
+      },
+      {
+        "offset": 175,
+        "original": "@If the condiment goes well with what you're eating,",
+        "french": "@Si le condiment va bien avec ton plat,"
+      },
+      {
+        "offset": 229,
+        "original": "  then you'll get a BIG boost to your health recovered!",
+        "french": "  tu récupères BEAUCOUP plus de PV !"
+      },
+      {
+        "offset": 286,
+        "original": "@Why don't you give it a try? They're easy on the wallet, too!",
+        "french": "@Essaie donc ! En plus, ça ne coûte pas cher !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33ABF8",
+    "offset": "33ABF8",
+    "snes": "F3ABF8",
+    "length": 376,
+    "source": "script_candidate",
+    "text_en": "@Huh... Oh? Are you lost, kid?[00]@Kid, you look lost.[03][00]@If you have a town map you can use it to find your way.[03][00]@Kid, did you know you can look at your town map by pressing <X> if you're lost?[03][00]@Well, you can look at it by pressing <X> even if you aren't lost, too.[03][00]@Yup! <X> marks the spot to open your map! Hoo hur hoo![03][00]@Well... [10 0F] Come visit again, I guess. [10 0F][10 0F] (cough)[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 78 A5 98 5E 5E 5E 50 7F 98 6F 50 71 A2 95 50 A9 9F A5 50 9C 9F A3 A4 5C 50 9B 99 94 6F 00 70 7B 99 94 5C 50 A9 9F A5 50 9C 9F 9F 9B 50 9C 9F A3 A4 5E 03 00 70 79 96 50 A9 9F A5 50 98 91 A6 95 50 91 50 A4 9F A7 9E 50 9D 91 A0 50 A9 9F A5 50 93 91 9E 50 A5 A3 95 50 99 A4 50 A4 9F 50 96 99 9E 94 50 A9 9F A5 A2 50 A7 91 A9 5E 03 00 70 7B 99 94 5C 50 94 99 94 50 A9 9F A5 50 9B 9E 9F A7 50 A9 9F A5 50 93 91 9E 50 9C 9F 9F 9B 50 91 A4 50 A9 9F A5 A2 50 A4 9F A7 9E 50 9D 91 A0 50 92 A9 50 A0 A2 95 A3 A3 99 9E 97 50 6C 88 6E 50 99 96 50 A9 9F A5 57 A2 95 50 9C 9F A3 A4 6F 03 00 70 87 95 9C 9C 5C 50 A9 9F A5 50 93 91 9E 50 9C 9F 9F 9B 50 91 A4 50 99 A4 50 92 A9 50 A0 A2 95 A3 A3 99 9E 97 50 6C 88 6E 50 95 A6 95 9E 50 99 96 50 A9 9F A5 50 91 A2 95 9E 57 A4 50 9C 9F A3 A4 5C 50 A4 9F 9F 5E 03 00 70 89 A5 A0 51 50 6C 88 6E 50 9D 91 A2 9B A3 50 A4 98 95 50 A3 A0 9F A4 50 A4 9F 50 9F A0 95 9E 50 A9 9F A5 A2 50 9D 91 A0 51 50 78 9F 9F 50 98 A5 A2 50 98 9F 9F 51 03 00 70 87 95 9C 9C 5E 5E 5E 50 10 0F 50 73 9F 9D 95 50 A6 99 A3 99 A4 50 91 97 91 99 9E 5C 50 79 50 97 A5 95 A3 A3 5E 50 10 0F 10 0F 50 58 93 9F A5 97 98 59 13 02",
+    "literal_pointer_offsets": [
+      "203080"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Huh... Oh? Are you lost, kid?\n@Kid, you look lost.\n@If you have a town map you can use it to find your way.\n@Kid, did you know you can look at your town map by pressing <X> if you're lost?\n@Well, you can look at it by pressing <X> even if you aren't lost, too.\n@Yup! <X> marks the spot to open your map! Hoo hur hoo!\n@Well... [10 0F] Come visit again, I guess. [10 0F][10 0F] (cough)[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Huh... Oh? Are you lost, kid?",
+        "french": "@Hein... Tu es perdu, petit ?"
+      },
+      {
+        "offset": 31,
+        "original": "@Kid, you look lost.",
+        "french": "@Tu as l'air perdu."
+      },
+      {
+        "offset": 53,
+        "original": "@If you have a town map you can use it to find your way.",
+        "french": "@Avec un plan de la ville, tu trouveras ton chemin."
+      },
+      {
+        "offset": 111,
+        "original": "@Kid, did you know you can look at your town map by pressing <X> if you're lost?",
+        "french": "@Sais-tu que <X> affiche ton plan si tu es perdu ?"
+      },
+      {
+        "offset": 193,
+        "original": "@Well, you can look at it by pressing <X> even if you aren't lost, too.",
+        "french": "@Ça marche aussi quand tu sais où tu vas."
+      },
+      {
+        "offset": 266,
+        "original": "@Yup! <X> marks the spot to open your map! Hoo hur hoo!",
+        "french": "@Eh oui ! <X> affiche le plan ! Ho ho ho !"
+      },
+      {
+        "offset": 323,
+        "original": "@Well... ",
+        "french": "@Bon..."
+      },
+      {
+        "offset": 334,
+        "original": " Come visit again, I guess. ",
+        "french": " Reviens me voir."
+      },
+      {
+        "offset": 366,
+        "original": " (cough)",
+        "french": " (tousse)"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33AE0C",
+    "offset": "33AE0C",
+    "snes": "F3AE0C",
+    "length": 32,
+    "source": "script_candidate",
+    "text_en": "@Are you one of [1C 02 01]'s friends?[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 A2 95 50 A9 9F A5 50 9F 9E 95 50 9F 96 50 1C 02 01 57 A3 50 96 A2 99 95 9E 94 A3 6F 13 02",
+    "literal_pointer_offsets": [
+      "3604B6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Are you one of [1C 02 01]'s friends?[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Are you one of ",
+        "french": "@Tu es un ami de "
+      },
+      {
+        "offset": 19,
+        "original": "'s friends?",
+        "french": " ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33AE2C",
+    "offset": "33AE2C",
+    "snes": "F3AE2C",
+    "length": 128,
+    "source": "script_candidate",
+    "text_en": "[06 21 03 3A AE F3 00][06 74 03 AC AE F3 00]@Hrmm... Would you mind speaking to me from across the desk?[03][00]@Otherwise, it just doesn't feel very... mayorial.[13][02]",
+    "text_fr": "",
+    "raw_hex": "06 21 03 3A AE F3 00 06 74 03 AC AE F3 00 70 78 A2 9D 9D 5E 5E 5E 50 87 9F A5 9C 94 50 A9 9F A5 50 9D 99 9E 94 50 A3 A0 95 91 9B 99 9E 97 50 A4 9F 50 9D 95 50 96 A2 9F 9D 50 91 93 A2 9F A3 A3 50 A4 98 95 50 94 95 A3 9B 6F 03 00 70 7F A4 98 95 A2 A7 99 A3 95 5C 50 99 A4 50 9A A5 A3 A4 50 94 9F 95 A3 9E 57 A4 50 96 95 95 9C 50 A6 95 A2 A9 5E 5E 5E 50 9D 91 A9 9F A2 99 91 9C 5E 13 02",
+    "literal_pointer_offsets": [
+      "36002A"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 21 03 3A AE F3 00][06 74 03 AC AE F3 00]@Hrmm... Would you mind speaking to me from across the desk?\n@Otherwise, it just doesn't feel very... mayorial.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 14,
+        "original": "@Hrmm... Would you mind speaking to me from across the desk?",
+        "french": "@Hmm... Tu peux me parler de l'autre côté du bureau ?"
+      },
+      {
+        "offset": 76,
+        "original": "@Otherwise, it just doesn't feel very... mayorial.",
+        "french": "@Sinon, je n'ai pas vraiment l'air... d'un maire."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33AEAC",
+    "offset": "33AEAC",
+    "snes": "F3AEAC",
+    "length": 132,
+    "source": "script_candidate",
+    "text_en": "@Come back alive,[10 0F] and surely you'll be a hero![03][00]@If only I was, er, feeling better,[10 0F] I'd, um, go with you...[10 1E] *Ahem*[10 0F] *cough*[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 73 9F 9D 95 50 92 91 93 9B 50 91 9C 99 A6 95 5C 10 0F 50 91 9E 94 50 A3 A5 A2 95 9C A9 50 A9 9F A5 57 9C 9C 50 92 95 50 91 50 98 95 A2 9F 51 03 00 70 79 96 50 9F 9E 9C A9 50 79 50 A7 91 A3 5C 50 95 A2 5C 50 96 95 95 9C 99 9E 97 50 92 95 A4 A4 95 A2 5C 10 0F 50 79 57 94 5C 50 A5 9D 5C 50 97 9F 50 A7 99 A4 98 50 A9 9F A5 5E 5E 5E 10 1E 50 5A 71 98 95 9D 5A 10 0F 50 5A 93 9F A5 97 98 5A 13 02",
+    "literal_pointer_offsets": [
+      "33AE36"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Come back alive,[10 0F] and surely you'll be a hero!\n@If only I was, er, feeling better,[10 0F] I'd, um, go with you...[10 1E] *Ahem*[10 0F] *cough*[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Come back alive,",
+        "french": "@Reviens vivant,"
+      },
+      {
+        "offset": 19,
+        "original": " and surely you'll be a hero!",
+        "french": " et tu seras un héros !"
+      },
+      {
+        "offset": 50,
+        "original": "@If only I was, er, feeling better,",
+        "french": "@Si je me sentais mieux,"
+      },
+      {
+        "offset": 87,
+        "original": " I'd, um, go with you...",
+        "french": " je viendrais avec toi..."
+      },
+      {
+        "offset": 113,
+        "original": " *Ahem*",
+        "french": " *Hum hum*"
+      },
+      {
+        "offset": 122,
+        "original": " *cough*",
+        "french": " *tousse*"
+      }
+    ],
+    "status": "draft"
+  },
+  {
     "id": "339A92",
     "offset": "339A92",
     "snes": "F39A92",
