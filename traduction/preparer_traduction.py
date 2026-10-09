@@ -108,7 +108,7 @@ To all of us|Tous nos alliés
 To |À 
  the Front Row|la première ligne
 the Front Row|ligne avant
-the Back Row|ligne arrière
+the Back Row|rang arrière
   Weapon|     Arme
       Body|     Corps
      Arms|     Bras

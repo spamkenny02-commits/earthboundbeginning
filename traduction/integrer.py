@@ -11,6 +11,8 @@ from extraire import parse,render,EXPECTED
 ACCENTS='éèêëàâîïôùûüçÉÀÇ'
 ACCENT_CODES={c:0xb0+i for i,c in enumerate(ACCENTS)}
 BASES=dict(zip(ACCENTS,'eeeeaaiiouuucEAC'))
+# Le NUL de Row Back est aussi une chaîne vide chargée par le code C186CE.
+PROTECTED_TERMINATORS=[(0x04550e,0x0186ce,bytes.fromhex('A9 0E 55 85 0A A9 C4 00 85 0C'))]
 FONT_SIZES=[(16,16),(16,16),(8,16),(8,8),(16,16)]
 
 def encode_fr(s,accents=True):
@@ -97,6 +99,8 @@ def apply_ips(source,patch):
 def integrate(rom,out,accents=True):
     src=rom.read_bytes();header=512 if len(src)%0x8000==512 else 0;original=src[header:]
     if hashlib.sha256(original).hexdigest()!=EXPECTED:raise ValueError('Mauvaise ROM source (SHA-256).')
+    for pos,ref,evidence in PROTECTED_TERMINATORS:
+        assert original[pos]==0 and original[ref:ref+len(evidence)]==evidence,'Référence de chaîne vide différente'
     data=bytearray(original);changes=[];report={'profile':'accents' if accents else 'ascii','source_sha256':EXPECTED,'accepted':[],'rejected':[]}
     targets=sorted(set(int.from_bytes(m[1],'little')-0xc00000 for m in re.finditer(rb'(?=([\x00-\xff]{2}[\xc0-\xff]\x00))',original)))
     patched_intervals=[]
@@ -134,6 +138,8 @@ def integrate(rom,out,accents=True):
             if len(raw)>allowed:
                 report['rejected'].append({'id':row['id'],'type':'field','reason':'champ fixe trop court','needed':len(raw),'available':allowed,'english':row['text_en'],'french':row['text_fr']});continue
             encoded=raw.ljust(allowed,b'\x50')
+        if any(p<=zero<p+len(encoded) and encoded[zero-p]!=0 for zero,_,_ in PROTECTED_TERMINATORS):
+            report['rejected'].append({'id':row['id'],'type':'field','reason':'terminateur partagé utilisé comme chaîne vide ; traduction trop longue'});continue
         write(p,encoded,row['id']);report['accepted'].append({'id':row['id'],'type':'field','english':row['text_en'],'french':row['text_fr'],'bytes':len(encoded)})
     rows=json.loads((ROOT/'traduction/dialogues_fr.json').read_text(encoding='utf-8'))
     for row in rows:
@@ -188,11 +194,13 @@ def integrate(rom,out,accents=True):
     assert all(allowed[i] for i in range(len(data)) if original[i]!=data[i]),'Mutation hors plages autorisées'
     assert data[0xffc0:0xffdc]==original[0xffc0:0xffdc],'En-tête hors checksum modifié'
     patch=ips_patch(original,data);assert apply_ips(original,patch)==bytes(data),'Échec application IPS'
+    assert all(data[pos]==0 for pos,_,_ in PROTECTED_TERMINATORS),'Chaîne vide partagée écrasée'
+    report['protected_terminators']=[{'offset':f'{pos:06X}','reference':f'{ref:06X}','preserved':data[pos]==0} for pos,ref,_ in PROTECTED_TERMINATORS]
     report.update(target_sha256=hashlib.sha256(data).hexdigest(),source_rom_unchanged=hashlib.sha256(rom.read_bytes()).hexdigest()==hashlib.sha256(src).hexdigest(),rom_size=len(data),checksum=f'{checksum:04X}',accepted_count=len(report['accepted']),rejected_count=len(report['rejected']),bytes_changed=sum(a!=b for a,b in zip(original,data)),commands_preserved=True,ips_roundtrip_passed=True,runtime_validated=False)
     out.mkdir(parents=True,exist_ok=True);suffix='accents' if accents else 'ascii'
-    (out/f'EarthBound_Beginnings_FR_v03_{suffix}.ips').write_bytes(patch)
+    (out/f'EarthBound_Beginnings_FR_v04_{suffix}.ips').write_bytes(patch)
     (out/f'rapport_{suffix}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2), encoding='utf-8')
-    (out/f'EarthBound_Beginnings_FR_v03_{suffix}.sfc').write_bytes(data)
+    (out/f'EarthBound_Beginnings_FR_v04_{suffix}.sfc').write_bytes(data)
     print(json.dumps({k:report[k] for k in ['profile','accepted_count','rejected_count','bytes_changed','target_sha256','runtime_validated']},ensure_ascii=False,indent=2))
     return report
 if __name__=='__main__':

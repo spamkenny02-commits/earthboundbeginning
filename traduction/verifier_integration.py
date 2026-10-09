@@ -2,7 +2,7 @@
 """Vérifications indépendantes des deux ROM reconstruites. Aucune validation d'émulation."""
 import argparse,hashlib,json,struct,tempfile
 from pathlib import Path
-from integrer import ROOT,EXPECTED,ACCENT_CODES,BASES,FONT_SIZES,encode_fr,glyph_decode
+from integrer import ROOT,EXPECTED,ACCENT_CODES,BASES,FONT_SIZES,PROTECTED_TERMINATORS,encode_fr,glyph_decode
 
 def apply_independent(source,patch):
     assert patch.startswith(b'PATCH')
@@ -24,8 +24,11 @@ def verify(rom,build):
     menus={x['id']:x for x in json.loads((ROOT/'traduction/menus_objets_fr.json').read_text(encoding='utf-8'))}
     dialogues={x['id']:x for x in json.loads((ROOT/'traduction/dialogues_fr.json').read_text(encoding='utf-8'))}
     for profile in ['accents','ascii']:
-        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v03_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v03_{profile}.ips').read_bytes()
+        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v04_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v04_{profile}.ips').read_bytes()
         assert len(target)==len(source)==4194304
+        for pos,ref,evidence in PROTECTED_TERMINATORS:
+            assert target[pos]==source[pos]==0
+            assert target[ref:ref+len(evidence)]==source[ref:ref+len(evidence)]==evidence
         assert apply_independent(source,patch)==target
         assert hashlib.sha256(target).hexdigest()==report['target_sha256']
         checksum=int.from_bytes(target[0xffde:0xffe0],'little');compl=int.from_bytes(target[0xffdc:0xffde],'little')
