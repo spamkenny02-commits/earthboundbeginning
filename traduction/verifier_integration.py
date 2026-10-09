@@ -43,6 +43,13 @@ def verify(rom,build):
                 if row['source']=='ENEMY_CONFIGURATION_TABLE':
                     assert target[p-1]==0
                     assert target[p+25:p+93]==source[p+25:p+93], 'Stats ennemi modifiées'
+            elif change['type']=='compressed_dialogue':
+                rows=json.loads((ROOT/'traduction/textes_comprimes_fr.json').read_text(encoding='utf-8'))['blocks']
+                row=next(r for r in rows if r['id']==change['id']);old=bytes.fromhex(row['raw_hex']);mask=bytearray(len(old))
+                for seg in row['text_fr_segments']:
+                    a,b=seg['offset'],seg['end'];fr=encode_fr(seg['french'],profile=='accents')
+                    assert target[p+a:p+b]==fr.ljust(b-a,b'\x50');mask[a:b]=b'\1'*(b-a)
+                assert all(target[p+i]==old[i] for i in range(len(old)) if not mask[i])
             elif change['type']=='dialogue':
                 row=dialogues[change['id']];old=bytes.fromhex(row['raw_hex']);spans=row['text_fr_segments'];position=0
                 for k,seg in enumerate(spans):

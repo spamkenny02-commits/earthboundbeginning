@@ -170,6 +170,27 @@ def integrate(rom,out,accents=True):
             n=length(check,p2);check_controls.extend(check[p2:p2+n]);p2+=n
         assert check_controls==control_bytes,'Commandes modifiées : '+row['id']
         write(p,bytes(outblock).ljust(len(old),b'\0'),row['id']);report['accepted'].append({'id':row['id'],'type':'dialogue','old_bytes':len(old),'new_bytes':len(outblock),'stable_offsets_padding':stable_offsets})
+    # Routines anglaises compressées : les codes 15/16/17 sont des références de texte.
+    # Les commandes de jeu, paramètres et positions restent strictement identiques.
+    from compression import text_spans,expand
+    compressed=json.loads((ROOT/'traduction/textes_comprimes_fr.json').read_text(encoding='utf-8'))
+    for entry in compressed['dictionary'].values():
+        dp=int(entry['offset'],16);dr=bytes.fromhex(entry['raw_hex'])
+        assert original[dp:dp+len(dr)]==dr,'Dictionnaire source différent'
+    for row in compressed['blocks']:
+        p=int(row['offset'],16);old=bytes.fromhex(row['raw_hex']);spans=text_spans(old)
+        assert original[p:p+len(old)]==old
+        assert len(spans)==len(row['text_fr_segments'])
+        new=bytearray(old);mask=bytearray(len(old));too_long=False
+        for (a,b),seg in zip(spans,row['text_fr_segments']):
+            assert (a,b)==(seg['offset'],seg['end']) and expand(old[a:b],compressed['dictionary'])==seg['original']
+            fr=encode_fr(seg['french'],accents)
+            if len(fr)>b-a:too_long=True;break
+            new[a:b]=fr.ljust(b-a,b'\x50');mask[a:b]=b'\1'*(b-a)
+        if too_long:
+            report['rejected'].append({'id':row['id'],'type':'compressed_dialogue','reason':'fragment comprimé trop court ; relocation requise'});continue
+        assert all(new[i]==old[i] for i in range(len(old)) if not mask[i]),'Commande ou paramètre modifié'
+        write(p,bytes(new),row['id']);report['accepted'].append({'id':row['id'],'type':'compressed_dialogue','old_bytes':len(old),'new_bytes':len(new),'commands_and_offsets_preserved':True})
     # Introduction du remake : conserver toutes les commandes de défilement, modifier uniquement les lignes.
     scroll=json.loads((ROOT/'traduction/introduction_fr.json').read_text(encoding='utf-8'))
     for row in scroll:
