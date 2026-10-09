@@ -1,6 +1,6 @@
 # EarthBound Beginnings SNES — traduction française
 
-Première intégration expérimentale, partielle. **Ce n'est pas encore une traduction complète et aucun parcours en émulateur n'a été validé.**
+Première intégration expérimentale : **317 libellés, 74 dialogues, introduction et 16 caractères accentués**. **Ce n'est pas encore une traduction complète et aucun parcours en émulateur n'a été validé.**
 
 La sauvegarde intégrale de la TBL, des textes extraits et du repérage graphique est dans `sauvegardes/atelier_extraction_graphismes_v02.zip`. Décompresser à la racine pour retrouver tout le dossier `atelier/` (les outils et rapports principaux sont également visibles directement).
 
@@ -23,4 +23,6 @@ Pour reconstruire depuis les traductions, décompresser la sauvegarde puis :
 python traduction/integrer.py "ROM.sfc"
 ```
 
-Les textes trop longs et les blocs ayant des pointeurs intérieurs restent anglais et sont consignés dans le rapport. Les graphismes avec du texte anglais restent à modifier. Les noms d'objets hérités peuvent ne pas tous être utilisés par le remake.
+Cinq libellés trop longs restent anglais et sont consignés dans le rapport. Les blocs à pointeurs intérieurs conservent leurs positions grâce à un remplissage par espaces. Les graphismes avec du texte anglais restent à modifier. Les noms d'objets hérités peuvent ne pas tous être utilisés par le remake.
+
+Rapport : [RAPPORT_V01.md](RAPPORT_V01.md). Vérifications à effectuer : [TESTS_A_FAIRE.md](TESTS_A_FAIRE.md). Sous Windows, glisser la ROM originale sur `Appliquer_patch_FR.bat`.

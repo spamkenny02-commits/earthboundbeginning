@@ -109,7 +109,12 @@ def integrate(rom,out,accents=True):
         p=int(row['offset'],16);old=bytes.fromhex(row['raw_hex']);cap=row['capacity_bytes']
         assert original[p:p+len(old)]==old,'Champ source différent'
         raw=encode_fr(row['text_fr'],accents);terminated=original[p+len(old)]==0
-        if terminated:
+        if row['source']=='ITEM_CONFIGURATION_TABLE':
+            # Table native vérifiée : nom de 25 octets au début d'un enregistrement de 39 octets.
+            assert cap==25 and (p-0x155000)%39==0 and 0x155000<=p<0x157700
+            if len(raw)>=cap: raise ValueError('Nom objet trop long : '+row['id'])
+            encoded=(raw+b'\0').ljust(cap,b'\0')
+        elif terminated:
             end=p+len(old)
             while end<p+cap and original[end]==0:end+=1
             allowed=end-p-1 if end>p+len(old) else len(old)
@@ -130,14 +135,17 @@ def integrate(rom,out,accents=True):
         if not parsed['terminal'] or parsed['end']!=len(old):raise ValueError('Bloc non fermé : '+row['id'])
         # Un déplacement à l'intérieur d'un bloc ne doit invalider aucun point d'entrée.
         k=bisect.bisect_right(targets,p)
-        if k<len(targets) and targets[k]<p+len(old):
-            report['rejected'].append({'id':row['id'],'type':'dialogue','reason':'pointeur intérieur au bloc ; relocation nécessaire'});continue
+        stable_offsets=k<len(targets) and targets[k]<p+len(old)
+        if stable_offsets and any(len(encode_fr(seg['french'],accents))>b-a for (a,b),seg in zip(parsed['spans'],row['text_fr_segments'])):
+            report['rejected'].append({'id':row['id'],'type':'dialogue','reason':'pointeur intérieur et fragment français trop long ; relocation nécessaire'});continue
         outblock=bytearray();last=0;control_bytes=bytearray()
         assert len(row['text_fr_segments'])==len(parsed['spans'])
         for (a,b),seg in zip(parsed['spans'],row['text_fr_segments']):
             assert seg['offset']==a and seg['original']==render(old[a:b])
             controls=old[last:a];control_bytes.extend(controls);outblock.extend(controls)
-            outblock.extend(encode_fr(seg['french'],accents));last=b
+            fragment=encode_fr(seg['french'],accents)
+            if stable_offsets:fragment=fragment.ljust(b-a,b'\x50')
+            outblock.extend(fragment);last=b
         outblock.extend(old[last:]);control_bytes.extend(old[last:])
         if len(outblock)>len(old):
             report['rejected'].append({'id':row['id'],'type':'dialogue','reason':'texte trop long ; relocation nécessaire','needed':len(outblock),'available':len(old)});continue
@@ -148,7 +156,7 @@ def integrate(rom,out,accents=True):
             if 0x50<=check[p2]<=0xae or (accents and 0xb0<=check[p2]<=0xbf) or check[p2] in (0xc8,0xc9,0xca,0xcb):p2+=1;continue
             n=length(check,p2);check_controls.extend(check[p2:p2+n]);p2+=n
         assert check_controls==control_bytes,'Commandes modifiées : '+row['id']
-        write(p,bytes(outblock).ljust(len(old),b'\0'),row['id']);report['accepted'].append({'id':row['id'],'type':'dialogue','old_bytes':len(old),'new_bytes':len(outblock)})
+        write(p,bytes(outblock).ljust(len(old),b'\0'),row['id']);report['accepted'].append({'id':row['id'],'type':'dialogue','old_bytes':len(old),'new_bytes':len(outblock),'stable_offsets_padding':stable_offsets})
     # Introduction du remake : conserver toutes les commandes de défilement, modifier uniquement les lignes.
     scroll=json.loads((ROOT/'traduction/introduction_fr.json').read_text())
     for row in scroll:

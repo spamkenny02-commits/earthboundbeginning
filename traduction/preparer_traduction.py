@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 FIELDS='''Start New Game|Nouveau jeu
 Text Speed:|Vitesse:
-Fast|Rapide
+Fast|Vite
 Medium|Normal
 Slow|Lent
 Continue|Suite
@@ -16,7 +16,7 @@ Copy to where?|Copier où ?
 Are you sure you want to delete?|Effacer cette sauvegarde ?
 No|Non
 Yes|Oui
-Please select text speed.|Choisis la vitesse du texte.
+Please select text speed.|Choisis la vitesse.
 Please select sound setting.|Choisis le mode sonore.
 Stereo|Stéréo
 Mono|Mono
@@ -71,24 +71,24 @@ Luck:|Chan:
 Register your name, please|Inscris ton nom, s'il te plaît
 Offense|Attaque
 Recover|Soins
-Assist|Soutien
+Assist|Aide
 Other|Autres
 PP Cost|Coût PP
 To enemy|Sur l'ennemi
 To one enemy|Sur un ennemi
 to One Enemy|Sur un ennemi
 To row of foes|Sur une rangée
-To all enemies|Sur tous les ennemis
+To all enemies|Tous les ennemis
 To one of us|Sur un allié
 to One Friend|Sur un allié
-To all of us|Sur tous les alliés
+To all of us|Tous nos alliés
 To |Sur
  the Front Row|la première ligne
 the Front Row|ligne avant
 the Back Row|ligne arrière
-  Weapon|      Arme
+  Weapon|     Arme
       Body|     Corps
-     Arms|      Bras
+     Arms|     Bras
      Other|    Autres
 Weapons|Armes
 Body|Corps
@@ -97,9 +97,9 @@ Others|Autres
 (Nothing) |(Rien)
 None|Rien
 To:|À:
-Use|Usage
+Use|Util
 Give|Don
-Drop|Jeter
+Drop|Jet
 Help!|Aide
 Who?|Qui ?
 Which?|Lequel ?
@@ -334,69 +334,69 @@ DIALOGUES='''339A92|Qu'attends-tu ?
 339D9E|Qui est là ?|Ah, un gamin.|Tu ne m'auras pas avec ta sonnette !
 339DF7|Pourquoi frapper chez des inconnus ?|Ta mère ne t'a pas dit de t'en méfier ?
 339EE7|Hahaha...|P-personne ici !
-339F10|Ne fais pas attention à moi.|Je ne suis qu'un pauvre inconnu.
+339F10|Oh, laisse-moi.|Je ne suis personne.
 33A448|Tu es vraiment ennuyeux, hein ?|Va donc ennuyer quelqu'un d'autre.
 33A497|Conseils de survie|<Hôtel :> Une nuit rend tous tes PV et PP.|<Défaite :> Reprendre rend tous tes PV, mais aucun PP.|Tu perds aussi la moitié de ton argent de poche.
 33A577|Conseils pratiques|<Distributeur :> Il permet de retirer de l'argent.|On en trouve dans les hôtels, magasins et gares.|<Téléphone :> Il permet de sauvegarder ta partie.|Les noirs sont gratuits. Les verts coûtent $1.|On en trouve aussi près des distributeurs.
-33A940|<Podunk>|Des jours paisibles et de belles fleurs.
+33A940|<Podunk>|Paix et belles fleurs.
 33AD70|1er étage : Accueil|2e étage : Pharmacie|3e étage : Articles de sport|4e étage : Restauration|5e étage : Animaux
-33ADEC|Les animaux doivent rester dehors.
+33ADEC|Les animaux restent dehors.
 33AF88|<Lapin commun>|Les savants du monde entier le trouvent adorable.
-33AFD2|<Tigre peu commun>|Il change de rayures quand elles sont sales.
+33AFD2|<Tigre rare>|Il change de rayures quand elles sont sales.
 33B036|<Éléphant d'Afrique>|De tous les animaux du zoo, c'est le pire sauteur.
 33B088|<Alligator commun>|Il adore l'eau, mais il arrive souvent en retard.
 33B0D6|<Panda géant>|L'un des mangeurs les plus difficiles qui soient.
-33B11A|<Manchot de Humboldt>|Il vient du Chili et du Pérou.|Ne pas confondre avec le manchot humble.|C'est un incorrigible vantard.
-33B198|<Gorille de l'Est>|L'empreinte de son nez est unique, comme celle d'un doigt.|S'il commet un crime, les preuves sont sur son visage.
+33B11A|<Manchot de Humboldt>|Il vient du Chili et du Pérou.|Pas un manchot humble !|C'est un incorrigible vantard.
+33B198|Gorille de l'Est|L'empreinte de son nez est unique, comme celle d'un doigt.|S'il commet un crime, les preuves sont sur son visage.
 33B23D|<Flamant nain>|Sa couleur rose vient de son alimentation.|On cherche des aliments qui lui donneraient d'autres couleurs.
 33B2C2|<Hyène tachetée>|Plus proche du chat que du chien, elle adore les blagues.
-33B315|Les alligators, c'est mes préférés !
+33B315|Les alligators, mes préférés !
 33B336|Ohoho !|Vous pourriez prendre exemple sur mes petits-enfants.|Chérissez chaque souvenir et chaque découverte.
-33B5CD|Mon fils a fait semblant d'être malade pour rater l'école.|Alors j'ai fait pareil pour ne pas aller travailler !|Le voir si heureux en valait la peine.|Je suis un super papa, non ?
+33B5CD|Mon fils joue au malade pour rater l'école.|J'ai fait pareil pour éviter le travail !|Le voir heureux en valait la peine.|Je suis un super papa, non ?
 33B67F|Il paraît que certains singes savent chanter !|Mais il paraît aussi qu'ils savent mentir.|Un singe mentirait-il sur ses talents de chanteur ?
-33B715|(Quelque chose est gravé ici.)|Le monde est meilleur quand on est aimé. Je t'aime.
+33B715|(Une inscription.)|Le monde est meilleur quand on est aimé. Je t'aime.
 33B76A|En attente.
-33B779|Rien à signaler.
+33B779|R.A.S.
 33B786|Cui-cui
 33BE79|(Des rochers bloquent les rails.)
 33C256|Ouaf, ouaf.|(Pardon. Parfois, un chien doit aboyer.)
-33C299|Des produits d'ici.|Des saveurs d'amis.|-Marché de Reindeer
+33C299|Des produits d'ici.|Des saveurs d'amis.|Marché de Reindeer
 33C2DA|Bienvenue|au pays du burger !|Mange à ta faim|le meilleur du coin !
-33C327|Air pur et eau claire,|la ville sans les soucis !|<-Reindeer>
+33C327|Air et eau purs,|la ville sans souci !|<-Reindeer>
 33C365|Tu aimes voyager en train ? Parfait !|La gare de Reindeer est au nord.|Suis simplement les rails !
 33C3DE|Des lits doux et chauds.|Une table raffinée.|Hôtel du Soleil Couchant, à l'ouest.
 33C443|Pour des achats imbattables,|visitez notre grand magasin juste en face !
-36A9DB|Au secours, mon fils !
-36AA33|Mon fils, tu es bien plus brave que je ne le pensais.|Tu ne peux pas partir le ventre vide.|Je vais te faire du |.|Mange, puis repose-toi cette nuit.
-36AAED|Quand tu voudras encore du |, reviens à la maison.
+36A9DB|Aide-nous !
+36AA33|Mon fils, tu es plus brave que prévu.|Tu ne peux pas partir le ventre vide.|Voici du |.|Mange, puis dors bien.
+36AAED|Pour remanger du |, reviens à la maison.
 36AB32|Aidez mon petit | autant que possible.
 36ABB9|Oh, tu ne peux plus rien porter, pas vrai ?
 36ABFC||! Tout va bien ?|Mon Dieu ! Qu'arrive-t-il à la maison ?|Oh là là,|oh là là...|Si ton père était là, tout irait peut-être mieux.|J'aimerais tant...
-36ACA3|Réponds au téléphone !|C'est peut-être ton père.
+36ACA3|Décroche !|C'est peut-être papa.
 36ADF1|| décrocha le téléphone.|Allô, |?| C'est papa.|Tout le monde va bien ?|Les infos parlent de phénomènes étranges partout.|Je voulais savoir si vous alliez bien.|Comment ?|Je vois.|Je vois...|Hmm...|On dirait qu'un fantôme hante notre maison !
-36AF40|On dirait qu'un fantôme hantait notre maison.|Heureusement que tu étais là !|Bravo !|Je ne sais pas ce qui se passe...|Ton arrière-grand-père étudiait les PSI.|Pour comprendre tout ça,|cherche ses vieilles affaires dans la cave.|J'ai rangé la | en lieu sûr...|...mais je ne sais plus où...|Bref, tu es notre seul espoir.|Tu es assez grand pour découvrir le monde.|Il est temps de partir à l'aventure.||, fonce !|Reviens quand même voir ta famille.|Salut.|Ah... Appelle-moi pour sauvegarder ta partie.|Appelle quand tu veux.|Clac !|Biiiiip !
-36B28A|Frérot, j'ai si peur !|On dirait que l'oreiller est vivant !
+36AF40|Un fantôme devait hanter notre maison.|Heureusement que tu étais là !|Bravo !|Je ne comprends pas...|Ton arrière-grand-père étudiait les PSI.|Pour comprendre tout ça,|cherche ses vieilles affaires dans la cave.|J'ai rangé la | en lieu sûr...|...mais je ne sais plus où...|Bref, tu es notre seul espoir.|Tu es assez grand pour découvrir le monde.|Il est temps de partir à l'aventure.||, fonce !|Reviens quand même voir ta famille.|À+ !|Ah... Appelle-moi pour sauvegarder ta partie.|Appelle quand tu veux.|Clac!|Biiiiip !
+36B28A|Frérot, j'ai peur !|Cet oreiller est vivant !
 36B2D2|Frérot !|La maison va vraiment s'écrouler ?|Bouhouhou !
 36B323|Mimmie et maman sont en danger aussi !|Bouhouhou !
-36B35A|À l'aide !
-36B371|J'ai eu une peur bleue...|Oh ! Je crois qu'il y a quelque chose dans la poupée.
-36B3D6|Moi, c'est Mimmie ! Ne me confonds pas avec Minnie.
+36B35A|À moi !
+36B371|J'étais terrifiée...|Oh ! Je crois qu'il y a quelque chose dans la poupée.
+36B3D6|Moi, c'est Mimmie, pas Minnie !
 36B403|Frérot, voici du jus.|Tu as soif, non ?
 36B458|Désolée, tu ne peux plus rien porter.
-36B493|Dans la poupée,| | trouva une vieille boîte à musique.|En remontant la boîte...|Une mélodie se fit entendre.
+36B493|Dans la poupée,| | trouva une boîte à musique.|En remontant la boîte...|Une mélodie se fit entendre.
 36B582|OUAF, OUAF !|(Tu peux parler aux animaux, non ?)|(Un petit secret...)|(Et si tu m'examinais ?)
 36B5F1|OUAF !|(Pas mal, hein ?)|(Quand tu trouves quelque chose d'étrange, examine-le.)
-36B658|Sur le collier du chien se trouvait la | !
+36B658|Le collier du chien cachait la | !
 36B6B8|Ouaf...|(Oh...|Tu ne peux plus rien porter.)
-36B6F8|La porte est fermée à clé.
-36B752|Cette clé ne va pas dans cette serrure.
-36B788|Moi, c'est Minnie.|Que puis-je faire pour toi ?|Déposer|Retirer
+36B6F8|C'est fermé.
+36B752|Cette clé ne convient pas.
+36B788|Moi, Minnie|Que veux-tu ?|Dépôt|Retirer
 36B86C|Tu veux me confier autre chose ?|Oui|Non
 36B8C1|Tu n'as rien à me confier.
 36B8F3|Tu as besoin d'autre chose ?
-36B91C|Désolée.|Mon casier est plein.
+36B91C|Désolée.|Casier plein.
 36B944|Je ne garde aucun de tes objets.
-38A32A|La porte est fermée à clé.
+38A32A|C'est fermé à clé.
 38A345||!|Les combats t'ont épuisé.|Tu veux essayer encore une fois ?|Oui| |Non
 38A3D7|Tu es sûr ?|À ta prochaine aventure,|tu reprendras à ta dernière sauvegarde.|D'accord ?|Non| |Oui
 38A466|Ayant repris des forces...|| revint à la charge !|Courage, | !
