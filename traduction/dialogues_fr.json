@@ -7873,7 +7873,7 @@
       {
         "offset": 0,
         "original": "@In addition to the effects of Healing [8B], this cures nausea, feeling strange and blindness.",
-        "french": "@Aux effets de Guérison [8B] s'ajoute le soin des nausées, de la confusion et de la cécité."
+        "french": "@Aux effets de Soins [8B] s'ajoute le soin des nausées, de la confusion et de la cécité."
       }
     ],
     "status": "draft"
@@ -7896,7 +7896,7 @@
       {
         "offset": 0,
         "original": "@In addition to the effects of Healing [8C], this cures being petrified and paralysis.",
-        "french": "@Aux effets de Guérison [8C] s'ajoute le soin de la pétrification et de la paralysie."
+        "french": "@Aux effets de Soins [8C] s'ajoute le soin de la pétrification et de la paralysie."
       },
       {
         "offset": 84,
@@ -7924,7 +7924,7 @@
       {
         "offset": 0,
         "original": "@In addition to the effects of Healing [8D], this completely maxes out the HP of a revived friend.",
-        "french": "@Aux effets de Guérison [8D] s'ajoute le retour de tous les PV d'un allié ranimé."
+        "french": "@Aux effets de Soins [8D] s'ajoute le retour de tous les PV d'un allié ranimé."
       },
       {
         "offset": 96,
@@ -8135,6 +8135,65 @@
         "offset": 93,
         "original": "@May freeze the enemies completely.",
         "french": "@Peut les geler entièrement."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36ACF9",
+    "offset": "36ACF9",
+    "snes": "F6ACF9",
+    "length": 131,
+    "source": "script_candidate",
+    "text_en": "[1F 1C 01 10][10 3C][1F 1D 01][10 0F][18 04][1F 23 03 00][1B 03 A3 AD F6 00][1F 01 02][04 10 03][04 12 03][04 11 03][04 7E 03][1F 67 01][1F 67 02][05 3C 03][08 9C DF F8 00][04 94 03][04 46 03][1A 0C 13 AA F8 00 03][1F 21 40][1F 03][18 01 35]@The phenomenon has stopped.  For the moment...[13][18 04][06 1B 03 7C AD F6 00][02]",
+    "text_fr": "",
+    "raw_hex": "1F 1C 01 10 10 3C 1F 1D 01 10 0F 18 04 1F 23 03 00 1B 03 A3 AD F6 00 1F 01 02 04 10 03 04 12 03 04 11 03 04 7E 03 1F 67 01 1F 67 02 05 3C 03 08 9C DF F8 00 04 94 03 04 46 03 1A 0C 13 AA F8 00 03 1F 21 40 1F 03 18 01 35 70 84 98 95 50 A0 98 95 9E 9F 9D 95 9E 9F 9E 50 98 91 A3 50 A3 A4 9F A0 A0 95 94 5E 50 50 76 9F A2 50 A4 98 95 50 9D 9F 9D 95 9E A4 5E 5E 5E 13 18 04 06 1B 03 7C AD F6 00 02",
+    "literal_pointer_offsets": [
+      "20227D"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 1C 01 10][10 3C][1F 1D 01][10 0F][18 04][1F 23 03 00][1B 03 A3 AD F6 00][1F 01 02][04 10 03][04 12 03][04 11 03][04 7E 03][1F 67 01][1F 67 02][05 3C 03][08 9C DF F8 00][04 94 03][04 46 03][1A 0C 13 AA F8 00 03][1F 21 40][1F 03][18 01 35]@The phenomenon has stopped.  For the moment...[13][18 04][06 1B 03 7C AD F6 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 73,
+        "original": "@The phenomenon has stopped.  For the moment...",
+        "french": "@Le phénomène s'est arrêté... pour l'instant."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "38D12D",
+    "offset": "38D12D",
+    "snes": "F8D12D",
+    "length": 48,
+    "source": "script_candidate",
+    "text_en": "[1F E5 FF][18 01 35]@[19 10 01][1B 04][1C 02 00] remembered the tune.[13][18 04][1F E8 FF][08 5D D1 F8 00][02]",
+    "text_fr": "",
+    "raw_hex": "1F E5 FF 18 01 35 70 19 10 01 1B 04 1C 02 00 50 A2 95 9D 95 9D 92 95 A2 95 94 50 A4 98 95 50 A4 A5 9E 95 5E 13 18 04 1F E8 FF 08 5D D1 F8 00 02",
+    "literal_pointer_offsets": [
+      "33ED78",
+      "369ACF",
+      "369B44",
+      "369D33",
+      "36B54D",
+      "3738BE",
+      "38644A",
+      "38A916",
+      "38BC23"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F E5 FF][18 01 35]@[19 10 01][1B 04][1C 02 00] remembered the tune.[13][18 04][1F E8 FF][08 5D D1 F8 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 6,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 15,
+        "original": " remembered the tune.",
+        "french": " retint la mélodie."
       }
     ],
     "status": "draft"

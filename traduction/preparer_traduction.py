@@ -350,6 +350,23 @@ Protection coin|Pièce protectrice
 Magic coin|Pièce magique'''
 # Chaque entrée remplace les fragments de texte du bloc, dans leur ordre.
 # Les commandes sont récupérées à l'identique depuis les octets de référence.
+FIELDS += '''
+PK Fire |PK Feu 
+PK Freeze |PK Glace 
+PK Thunder |PK Foudre 
+PK Flash |PK Éclat 
+PK Starstorm |PK Météores 
+Lifeup |PV+ 
+Healing |Soins 
+Shield |Écran 
+PSI Shield |Écran PSI 
+Offense up |Attaque+ 
+Defense down |Défense- 
+Hypnosis |Hypnose 
+PSI Magnet |PSI Aimant 
+Paralysis |Paralysie 
+Brainshock |Confusion 
+Teleport |Téléport '''
 DIALOGUES='''2FA66C|MAJ|min|Au choix|Effacer|OK
 2FA6A7|MAJ|min|Effacer|OK
 3675EA|Le badge Franklin renvoie le rayon !
@@ -611,9 +628,9 @@ DIALOGUES += '''
 373201|Trouble l'esprit d'un ennemi.
 373220|Cette technique s'appelle aussi <Cyclone mental>.
 37325C|Soigne rhume, poison, insolation et sommeil.
-373296|Aux effets de Guérison [8B] s'ajoute le soin des nausées, de la confusion et de la cécité.
-3732F2|Aux effets de Guérison [8C] s'ajoute le soin de la pétrification et de la paralysie.|Ranime aussi un allié inconscient, sans rétablir tous ses PV.
-373398|Aux effets de Guérison [8D] s'ajoute le retour de tous les PV d'un allié ranimé.|Cette technique s'appelle aussi <Super guérison>.
+373296|Aux effets de Soins [8B] s'ajoute le soin des nausées, de la confusion et de la cécité.
+3732F2|Aux effets de Soins [8C] s'ajoute le soin de la pétrification et de la paralysie.|Ranime aussi un allié inconscient, sans rétablir tous ses PV.
+373398|Aux effets de Soins [8D] s'ajoute le retour de tous les PV d'un allié ranimé.|Cette technique s'appelle aussi <Super guérison>.
 37342A|Des flammes jaillissent des doigts : environ 80 dégâts par ennemi d'un rang.
 373488|Des flammes jaillissent des doigts : environ 160 dégâts par ennemi d'un rang.
 3734E7|Des flammes jaillissent des doigts : environ 280 dégâts par ennemi d'un rang.
@@ -622,6 +639,12 @@ DIALOGUES += '''
 373628|Un vent glacial inflige environ 360 dégâts à un ennemi.|Peut le geler entièrement.
 3736AB|Un vent glacial inflige environ 540 dégâts à un ennemi.|Peut le geler entièrement.
 37372E|Un vent glacial inflige environ 540 dégâts à tous les ennemis.|Peut les geler entièrement.'''
+
+DIALOGUES += '''
+36ACF9|Le phénomène s'est arrêté... pour l'instant.'''
+
+DIALOGUES += '''
+38D12D|| retint la mélodie.'''
 
 def main():
     import sys

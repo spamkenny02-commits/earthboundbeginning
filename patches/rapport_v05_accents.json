@@ -2383,6 +2383,118 @@
       "bytes": 25
     },
     {
+      "id": "0F7656",
+      "type": "field",
+      "english": "PK Fire ",
+      "french": "PK Feu ",
+      "bytes": 9
+    },
+    {
+      "id": "0F766F",
+      "type": "field",
+      "english": "PK Freeze ",
+      "french": "PK Glace ",
+      "bytes": 11
+    },
+    {
+      "id": "0F7688",
+      "type": "field",
+      "english": "PK Thunder ",
+      "french": "PK Foudre ",
+      "bytes": 12
+    },
+    {
+      "id": "0F76A1",
+      "type": "field",
+      "english": "PK Flash ",
+      "french": "PK Éclat ",
+      "bytes": 10
+    },
+    {
+      "id": "0F76BA",
+      "type": "field",
+      "english": "PK Starstorm ",
+      "french": "PK Météores ",
+      "bytes": 14
+    },
+    {
+      "id": "0F76D3",
+      "type": "field",
+      "english": "Lifeup ",
+      "french": "PV+ ",
+      "bytes": 8
+    },
+    {
+      "id": "0F76EC",
+      "type": "field",
+      "english": "Healing ",
+      "french": "Soins ",
+      "bytes": 9
+    },
+    {
+      "id": "0F7705",
+      "type": "field",
+      "english": "Shield ",
+      "french": "Écran ",
+      "bytes": 8
+    },
+    {
+      "id": "0F771E",
+      "type": "field",
+      "english": "PSI Shield ",
+      "french": "Écran PSI ",
+      "bytes": 12
+    },
+    {
+      "id": "0F7737",
+      "type": "field",
+      "english": "Offense up ",
+      "french": "Attaque+ ",
+      "bytes": 12
+    },
+    {
+      "id": "0F7750",
+      "type": "field",
+      "english": "Defense down ",
+      "french": "Défense- ",
+      "bytes": 14
+    },
+    {
+      "id": "0F7769",
+      "type": "field",
+      "english": "Hypnosis ",
+      "french": "Hypnose ",
+      "bytes": 10
+    },
+    {
+      "id": "0F7782",
+      "type": "field",
+      "english": "PSI Magnet ",
+      "french": "PSI Aimant ",
+      "bytes": 12
+    },
+    {
+      "id": "0F779B",
+      "type": "field",
+      "english": "Paralysis ",
+      "french": "Paralysie ",
+      "bytes": 11
+    },
+    {
+      "id": "0F77B4",
+      "type": "field",
+      "english": "Brainshock ",
+      "french": "Confusion ",
+      "bytes": 12
+    },
+    {
+      "id": "0F77CD",
+      "type": "field",
+      "english": "Teleport ",
+      "french": "Téléport ",
+      "bytes": 10
+    },
+    {
       "id": "0F61CB",
       "type": "field",
       "english": "Plain flavor",
@@ -4206,21 +4318,21 @@
       "id": "373296",
       "type": "dialogue",
       "old_bytes": 92,
-      "new_bytes": 89,
+      "new_bytes": 86,
       "stable_offsets_padding": false
     },
     {
       "id": "3732F2",
       "type": "dialogue",
       "old_bytes": 166,
-      "new_bytes": 146,
+      "new_bytes": 143,
       "stable_offsets_padding": false
     },
     {
       "id": "373398",
       "type": "dialogue",
       "old_bytes": 146,
-      "new_bytes": 130,
+      "new_bytes": 127,
       "stable_offsets_padding": false
     },
     {
@@ -4277,6 +4389,20 @@
       "type": "dialogue",
       "old_bytes": 135,
       "new_bytes": 99,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36ACF9",
+      "type": "dialogue",
+      "old_bytes": 131,
+      "new_bytes": 131,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "38D12D",
+      "type": "dialogue",
+      "old_bytes": 48,
+      "new_bytes": 46,
       "stable_offsets_padding": false
     },
     {
@@ -5118,13 +5244,13 @@
       "preserved": true
     }
   ],
-  "target_sha256": "6da8869d2ba965cfdcb98c85c4849f85c3015d3b4f58c5082f4a641ca8554d3f",
+  "target_sha256": "e174cddcc2e28c56f45a1245ffdf20cc38302f69ea3927915a9cc02f377caf51",
   "source_rom_unchanged": true,
   "rom_size": 4194304,
-  "checksum": "312B",
-  "accepted_count": 646,
+  "checksum": "1FDB",
+  "accepted_count": 664,
   "rejected_count": 6,
-  "bytes_changed": 21829,
+  "bytes_changed": 21992,
   "commands_preserved": true,
   "ips_roundtrip_passed": true,
   "runtime_validated": false

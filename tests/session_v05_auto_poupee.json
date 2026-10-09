@@ -1,0 +1,61 @@
+{
+  "frames": 3105,
+  "rom_sha256": "6da8869d2ba965cfdcb98c85c4849f85c3015d3b4f58c5082f4a641ca8554d3f",
+  "pixel_format": 2,
+  "size": [
+    256,
+    224
+  ],
+  "actions": [
+    {
+      "frames": 15,
+      "buttons": [
+        7
+      ]
+    },
+    {
+      "frames": 30
+    },
+    {
+      "frames": 15,
+      "buttons": [
+        7
+      ]
+    },
+    {
+      "frames": 30,
+      "capture": "choix_auto"
+    },
+    {
+      "frames": 15,
+      "buttons": [
+        8
+      ]
+    },
+    {
+      "frames": 600,
+      "capture": "auto_0",
+      "save": "auto_0.state"
+    },
+    {
+      "frames": 600,
+      "capture": "auto_1",
+      "save": "auto_1.state"
+    },
+    {
+      "frames": 600,
+      "capture": "auto_2",
+      "save": "auto_2.state"
+    },
+    {
+      "frames": 600,
+      "capture": "auto_3",
+      "save": "auto_3.state"
+    },
+    {
+      "frames": 600,
+      "capture": "auto_4",
+      "save": "auto_4.state"
+    }
+  ]
+}
