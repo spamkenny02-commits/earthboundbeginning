@@ -1,0 +1,48 @@
+[
+  {
+    "frames": 600,
+    "capture": "00_demarrage"
+  },
+  {
+    "frames": 15,
+    "buttons": [
+      3
+    ]
+  },
+  {
+    "frames": 1800,
+    "capture": "01_titre"
+  },
+  {
+    "frames": 15,
+    "buttons": [
+      8
+    ]
+  },
+  {
+    "frames": 420,
+    "capture": "02_fichiers"
+  },
+  {
+    "frames": 15,
+    "buttons": [
+      8
+    ]
+  },
+  {
+    "frames": 300,
+    "capture": "options",
+    "save": "options.state"
+  },
+  {
+    "frames": 15,
+    "buttons": [
+      8
+    ]
+  },
+  {
+    "frames": 1200,
+    "capture": "charge",
+    "save": "charge.state"
+  }
+]

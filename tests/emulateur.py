@@ -9,7 +9,7 @@ import argparse,ctypes as C,json,hashlib
 from pathlib import Path
 import numpy as np
 from PIL import Image
-p=argparse.ArgumentParser();p.add_argument('core');p.add_argument('rom');p.add_argument('out');p.add_argument('--state');p.add_argument('--actions');a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('core');p.add_argument('rom');p.add_argument('out');p.add_argument('--state');p.add_argument('--actions');p.add_argument('--sram',type=Path,help='Charger puis conserver la RAM de sauvegarde native (.srm)');a=p.parse_args()
 out=Path(a.out);out.mkdir(parents=True,exist_ok=True)
 lib=C.CDLL(a.core);fmt=0;last=None;buttons=set();frame=0;refs=[]
 class Variable(C.Structure):_fields_=[('key',C.c_char_p),('value',C.c_char_p)]
@@ -55,11 +55,19 @@ for name,cb in [('environment',env),('video_refresh',video),('audio_sample',audi
 lib.retro_init();lib.retro_load_game.argtypes=[C.POINTER(Game)];lib.retro_load_game.restype=C.c_bool
 raw=Path(a.rom).read_bytes();buffer=C.create_string_buffer(raw);game=Game(str(Path(a.rom).resolve()).encode(),C.cast(buffer,C.c_void_p),len(raw),None)
 assert lib.retro_load_game(C.byref(game)),'Échec chargement ROM'
+lib.retro_get_memory_size.argtypes=[C.c_uint];lib.retro_get_memory_size.restype=C.c_size_t
+lib.retro_get_memory_data.argtypes=[C.c_uint];lib.retro_get_memory_data.restype=C.c_void_p
+sram_size=lib.retro_get_memory_size(0);sram_ptr=lib.retro_get_memory_data(0);sram_loaded_sha256=None;state_sha256=None
+if a.sram:
+ assert sram_size and sram_ptr,'RAM de sauvegarde absente'
+ if a.sram.exists():
+  saved=a.sram.read_bytes();assert len(saved)==sram_size,'Taille SRAM différente'
+  sram_loaded_sha256=hashlib.sha256(saved).hexdigest();C.memmove(sram_ptr,saved,sram_size)
 lib.retro_serialize_size.restype=C.c_size_t
 lib.retro_serialize.argtypes=[C.c_void_p,C.c_size_t];lib.retro_serialize.restype=C.c_bool
 lib.retro_unserialize.argtypes=[C.c_void_p,C.c_size_t];lib.retro_unserialize.restype=C.c_bool
 if a.state:
- st=Path(a.state).read_bytes();buf=C.create_string_buffer(st);assert lib.retro_unserialize(buf,len(st))
+ st=Path(a.state).read_bytes();state_sha256=hashlib.sha256(st).hexdigest();buf=C.create_string_buffer(st);assert lib.retro_unserialize(buf,len(st))
 lib.retro_set_controller_port_device(0,1)
 actions=json.loads(Path(a.actions).read_text()) if a.actions else [{'frames':600,'capture':'boot','save':'boot.state'}]
 for action in actions:
@@ -69,7 +77,10 @@ for action in actions:
   assert last is not None;last.save(out/(action['capture']+'.png'))
  if action.get('save'):
   size=lib.retro_serialize_size();buf=C.create_string_buffer(size);assert lib.retro_serialize(buf,size);(out/action['save']).write_bytes(buf.raw)
-result={'frames':frame,'rom_sha256':hashlib.sha256(raw).hexdigest(),'pixel_format':fmt,'size':last.size,'actions':actions}
+result={'frames':frame,'rom_sha256':hashlib.sha256(raw).hexdigest(),'pixel_format':fmt,'size':last.size,'actions':actions,'initial_state_sha256':state_sha256,'loaded_sram_sha256':sram_loaded_sha256}
+if a.sram:
+ saved=C.string_at(sram_ptr,sram_size);a.sram.parent.mkdir(parents=True,exist_ok=True);a.sram.write_bytes(saved)
+ result['sram']={'size':sram_size,'sha256':hashlib.sha256(saved).hexdigest()}
 (out/'session.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(result))
 lib.retro_unload_game();lib.retro_deinit()

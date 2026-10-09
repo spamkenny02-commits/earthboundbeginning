@@ -646,6 +646,8 @@ DIALOGUES += '''
 DIALOGUES += '''
 38D12D|| retint la mélodie.'''
 
+DIALOGUES += "\n35A9C3|La carte téléphonique n'a plus de crédit.|| décroche le téléphone.\n35C53A|| décroche le téléphone.\n35C597|| décroche le téléphone.\n35C768|De quoi as-tu besoin ?|Sauver|Rien, merci|Bon vent !\n35C7C8|D'accord... Je pensais aussi aller dormir.|J'ai sauvegardé tous tes combats.|Bonne nuit.|Suite|Dodo|Tu travailles dur, comme| maman.|Mais ne te fatigue pas trop.\n35C8E9|On fait une belle équipe !|Éteins la console plutôt que d'appuyer sur RESET.|D'accord ?\n35C960|(Clac ! Biiiip...)"
+
 def main():
     import sys
     sys.path.insert(0,str(ROOT/'atelier/outils'))

@@ -8197,5 +8197,290 @@
       }
     ],
     "status": "draft"
+  },
+  {
+    "id": "35A9C3",
+    "offset": "35A9C3",
+    "snes": "F5A9C3",
+    "length": 174,
+    "source": "script_candidate",
+    "text_en": "[08 E5 C4 F5 00][06 8E 03 33 AA F5 00][06 8F 03 33 AA F5 00][06 90 03 33 AA F5 00][06 91 03 33 AA F5 00][06 92 03 33 AA F5 00][06 93 03 33 AA F5 00]@The credit limit of the Telephone Card has been reached.[03][00][1B 01][1D 0F 00 00]@[19 10 01][1B 04][1C 02 00] grabbed the telephone.[03][00][1F 02 0B][1B 06][09 05 D9 C5 F5 00 17 D8 F5 00 5D CE F5 00 1C 4A C6 00 71 AA F5 00][02]",
+    "text_fr": "",
+    "raw_hex": "08 E5 C4 F5 00 06 8E 03 33 AA F5 00 06 8F 03 33 AA F5 00 06 90 03 33 AA F5 00 06 91 03 33 AA F5 00 06 92 03 33 AA F5 00 06 93 03 33 AA F5 00 70 84 98 95 50 93 A2 95 94 99 A4 50 9C 99 9D 99 A4 50 9F 96 50 A4 98 95 50 84 95 9C 95 A0 98 9F 9E 95 50 73 91 A2 94 50 98 91 A3 50 92 95 95 9E 50 A2 95 91 93 98 95 94 5E 03 00 1B 01 1D 0F 00 00 70 19 10 01 1B 04 1C 02 00 50 97 A2 91 92 92 95 94 50 A4 98 95 50 A4 95 9C 95 A0 98 9F 9E 95 5E 03 00 1F 02 0B 1B 06 09 05 D9 C5 F5 00 17 D8 F5 00 5D CE F5 00 1C 4A C6 00 71 AA F5 00 02",
+    "literal_pointer_offsets": [
+      "35A997",
+      "35A99E",
+      "35A9A5",
+      "35A9AC",
+      "35A9B3",
+      "35A9BA"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[08 E5 C4 F5 00][06 8E 03 33 AA F5 00][06 8F 03 33 AA F5 00][06 90 03 33 AA F5 00][06 91 03 33 AA F5 00][06 92 03 33 AA F5 00][06 93 03 33 AA F5 00]@The credit limit of the Telephone Card has been reached.\n[1B 01][1D 0F 00 00]@[19 10 01][1B 04][1C 02 00] grabbed the telephone.\n[1F 02 0B][1B 06][09 05 D9 C5 F5 00 17 D8 F5 00 5D CE F5 00 1C 4A C6 00 71 AA F5 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 47,
+        "original": "@The credit limit of the Telephone Card has been reached.",
+        "french": "@La carte téléphonique n'a plus de crédit."
+      },
+      {
+        "offset": 112,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 121,
+        "original": " grabbed the telephone.",
+        "french": " décroche le téléphone."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "35C53A",
+    "offset": "35C53A",
+    "snes": "F5C53A",
+    "length": 66,
+    "source": "script_candidate",
+    "text_en": "[18 0A][1D 14 01 00 00 00][1B 03 83 C5 F5 00]@[19 10 01][1B 04][1C 02 00] grabbed the telephone.[03][00][1F 02 0B][1D 09 01 00][18 0A][1A 0A][1B 02 7C C5 F5 00][02]",
+    "text_fr": "",
+    "raw_hex": "18 0A 1D 14 01 00 00 00 1B 03 83 C5 F5 00 70 19 10 01 1B 04 1C 02 00 50 97 A2 91 92 92 95 94 50 A4 98 95 50 A4 95 9C 95 A0 98 9F 9E 95 5E 03 00 1F 02 0B 1D 09 01 00 18 0A 1A 0A 1B 02 7C C5 F5 00 02",
+    "literal_pointer_offsets": [
+      "203CB8",
+      "205ADE",
+      "205FFB",
+      "2064C3",
+      "206518",
+      "2065A0",
+      "207172",
+      "207194",
+      "38A548",
+      "38A57B",
+      "38A5AE",
+      "38A5E1",
+      "38A614",
+      "38A647",
+      "38A67A",
+      "38A6AD",
+      "38A6E0",
+      "38A713"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[18 0A][1D 14 01 00 00 00][1B 03 83 C5 F5 00]@[19 10 01][1B 04][1C 02 00] grabbed the telephone.\n[1F 02 0B][1D 09 01 00][18 0A][1A 0A][1B 02 7C C5 F5 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 14,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 23,
+        "original": " grabbed the telephone.",
+        "french": " décroche le téléphone."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "35C597",
+    "offset": "35C597",
+    "snes": "F5C597",
+    "length": 65,
+    "source": "script_candidate",
+    "text_en": "@[19 10 01][1B 04][1C 02 00] grabbed the telephone.[03][00][1F 02 0B][1A 0A][1B 00][07 B0 02][1B 02 CC C5 F5 00][04 C9 00][04 C8 00][1B 01][1B 02 D8 C5 F5 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 19 10 01 1B 04 1C 02 00 50 97 A2 91 92 92 95 94 50 A4 98 95 50 A4 95 9C 95 A0 98 9F 9E 95 5E 03 00 1F 02 0B 1A 0A 1B 00 07 B0 02 1B 02 CC C5 F5 00 04 C9 00 04 C8 00 1B 01 1B 02 D8 C5 F5 00 02",
+    "literal_pointer_offsets": [
+      "2032D3",
+      "204208",
+      "2050E8",
+      "20514E",
+      "205390",
+      "205CED",
+      "206C99",
+      "20757F",
+      "20796A",
+      "207D11",
+      "38A537",
+      "38A56A",
+      "38A59D",
+      "38A5D0",
+      "38A603",
+      "38A636",
+      "38A669",
+      "38A69C",
+      "38A6CF",
+      "38A702"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@[19 10 01][1B 04][1C 02 00] grabbed the telephone.\n[1F 02 0B][1A 0A][1B 00][07 B0 02][1B 02 CC C5 F5 00][04 C9 00][04 C8 00][1B 01][1B 02 D8 C5 F5 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 9,
+        "original": " grabbed the telephone.",
+        "french": " décroche le téléphone."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "35C768",
+    "offset": "35C768",
+    "snes": "F5C768",
+    "length": 96,
+    "source": "script_candidate",
+    "text_en": "@By the way, what do you need?[00][19 02]Record[02][19 02]Nothing, really[02][1C 07 02][11][12][09 02 C8 C7 F5 00 B1 C7 F5 00]@Good luck.[03][00][08 60 C9 F5 00][13][1F 02 0B][02]",
+    "text_fr": "",
+    "raw_hex": "70 72 A9 50 A4 98 95 50 A7 91 A9 5C 50 A7 98 91 A4 50 94 9F 50 A9 9F A5 50 9E 95 95 94 6F 00 19 02 82 95 93 9F A2 94 02 19 02 7E 9F A4 98 99 9E 97 5C 50 A2 95 91 9C 9C A9 02 1C 07 02 11 12 09 02 C8 C7 F5 00 B1 C7 F5 00 70 77 9F 9F 94 50 9C A5 93 9B 5E 03 00 08 60 C9 F5 00 13 1F 02 0B 02",
+    "literal_pointer_offsets": [
+      "35C6C3",
+      "35C6CC"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@By the way, what do you need?\n[19 02]Record[02][19 02]Nothing, really[02][1C 07 02][11][12][09 02 C8 C7 F5 00 B1 C7 F5 00]@Good luck.\n[08 60 C9 F5 00][13][1F 02 0B][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@By the way, what do you need?",
+        "french": "@De quoi as-tu besoin ?"
+      },
+      {
+        "offset": 33,
+        "original": "Record",
+        "french": "Sauver"
+      },
+      {
+        "offset": 42,
+        "original": "Nothing, really",
+        "french": "Rien, merci"
+      },
+      {
+        "offset": 73,
+        "original": "@Good luck.",
+        "french": "@Bon vent !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "35C7C8",
+    "offset": "35C7C8",
+    "snes": "F5C7C8",
+    "length": 289,
+    "source": "script_candidate",
+    "text_en": "[19 26 00][07 B0 02][1B 02 D7 C7 F5 00][04 C9 00][04 C8 00][1F B0]@OK...  Actually, I was thinking of going to sleep now, too.[03][00]@I've made a record of your battles so far.[03][00]@Good night.[00][19 02]Continue[02][19 02]Rest[02][1C 07 02][11][12][09 02 75 C8 F5 00 E9 C8 F5 00]@You've got a great work ethic, just like [08 8C 7A F8 00] mother.[03][00]@But, I don't think it's good to work too hard.[03][00][08 60 C9 F5 00][13][1F 02 0B][02]",
+    "text_fr": "",
+    "raw_hex": "19 26 00 07 B0 02 1B 02 D7 C7 F5 00 04 C9 00 04 C8 00 1F B0 70 7F 7B 5E 5E 5E 50 50 71 93 A4 A5 91 9C 9C A9 5C 50 79 50 A7 91 A3 50 A4 98 99 9E 9B 99 9E 97 50 9F 96 50 97 9F 99 9E 97 50 A4 9F 50 A3 9C 95 95 A0 50 9E 9F A7 5C 50 A4 9F 9F 5E 03 00 70 79 57 A6 95 50 9D 91 94 95 50 91 50 A2 95 93 9F A2 94 50 9F 96 50 A9 9F A5 A2 50 92 91 A4 A4 9C 95 A3 50 A3 9F 50 96 91 A2 5E 03 00 70 77 9F 9F 94 50 9E 99 97 98 A4 5E 00 19 02 73 9F 9E A4 99 9E A5 95 02 19 02 82 95 A3 A4 02 1C 07 02 11 12 09 02 75 C8 F5 00 E9 C8 F5 00 70 89 9F A5 57 A6 95 50 97 9F A4 50 91 50 97 A2 95 91 A4 50 A7 9F A2 9B 50 95 A4 98 99 93 5C 50 9A A5 A3 A4 50 9C 99 9B 95 50 08 8C 7A F8 00 50 9D 9F A4 98 95 A2 5E 03 00 70 72 A5 A4 5C 50 79 50 94 9F 9E 57 A4 50 A4 98 99 9E 9B 50 99 A4 57 A3 50 97 9F 9F 94 50 A4 9F 50 A7 9F A2 9B 50 A4 9F 9F 50 98 91 A2 94 5E 03 00 08 60 C9 F5 00 13 1F 02 0B 02",
+    "literal_pointer_offsets": [
+      "35C7A9"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[19 26 00][07 B0 02][1B 02 D7 C7 F5 00][04 C9 00][04 C8 00][1F B0]@OK...  Actually, I was thinking of going to sleep now, too.\n@I've made a record of your battles so far.\n@Good night.\n[19 02]Continue[02][19 02]Rest[02][1C 07 02][11][12][09 02 75 C8 F5 00 E9 C8 F5 00]@You've got a great work ethic, just like [08 8C 7A F8 00] mother.\n@But, I don't think it's good to work too hard.\n[08 60 C9 F5 00][13][1F 02 0B][02]",
+    "text_fr_segments": [
+      {
+        "offset": 20,
+        "original": "@OK...  Actually, I was thinking of going to sleep now, too.",
+        "french": "@D'accord... Je pensais aussi aller dormir."
+      },
+      {
+        "offset": 82,
+        "original": "@I've made a record of your battles so far.",
+        "french": "@J'ai sauvegardé tous tes combats."
+      },
+      {
+        "offset": 127,
+        "original": "@Good night.",
+        "french": "@Bonne nuit."
+      },
+      {
+        "offset": 142,
+        "original": "Continue",
+        "french": "Suite"
+      },
+      {
+        "offset": 153,
+        "original": "Rest",
+        "french": "Dodo"
+      },
+      {
+        "offset": 173,
+        "original": "@You've got a great work ethic, just like ",
+        "french": "@Tu travailles dur, comme"
+      },
+      {
+        "offset": 220,
+        "original": " mother.",
+        "french": " maman."
+      },
+      {
+        "offset": 230,
+        "original": "@But, I don't think it's good to work too hard.",
+        "french": "@Mais ne te fatigue pas trop."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "35C8E9",
+    "offset": "35C8E9",
+    "snes": "F5C8E9",
+    "length": 119,
+    "source": "script_candidate",
+    "text_en": "@We're a great team, aren't we?[03][00]@Well, you should turn the power OFF instead of just pressing RESET.[03][00]@All right?[13][1F 50][13][02]",
+    "text_fr": "",
+    "raw_hex": "70 87 95 57 A2 95 50 91 50 97 A2 95 91 A4 50 A4 95 91 9D 5C 50 91 A2 95 9E 57 A4 50 A7 95 6F 03 00 70 87 95 9C 9C 5C 50 A9 9F A5 50 A3 98 9F A5 9C 94 50 A4 A5 A2 9E 50 A4 98 95 50 A0 9F A7 95 A2 50 7F 76 76 50 99 9E A3 A4 95 91 94 50 9F 96 50 9A A5 A3 A4 50 A0 A2 95 A3 A3 99 9E 97 50 82 75 83 75 84 5E 03 00 70 71 9C 9C 50 A2 99 97 98 A4 6F 13 1F 50 13 02",
+    "literal_pointer_offsets": [
+      "35C871"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@We're a great team, aren't we?\n@Well, you should turn the power OFF instead of just pressing RESET.\n@All right?[13][1F 50][13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@We're a great team, aren't we?",
+        "french": "@On fait une belle équipe !"
+      },
+      {
+        "offset": 33,
+        "original": "@Well, you should turn the power OFF instead of just pressing RESET.",
+        "french": "@Éteins la console plutôt que d'appuyer sur RESET."
+      },
+      {
+        "offset": 103,
+        "original": "@All right?",
+        "french": "@D'accord ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "35C960",
+    "offset": "35C960",
+    "snes": "F5C960",
+    "length": 28,
+    "source": "script_candidate",
+    "text_en": "@(Click! Beep-beep-beep...)[02]",
+    "text_fr": "",
+    "raw_hex": "70 58 73 9C 99 93 9B 51 50 72 95 95 A0 5D 92 95 95 A0 5D 92 95 95 A0 5E 5E 5E 59 02",
+    "literal_pointer_offsets": [
+      "35C7BF",
+      "35C8E0",
+      "35CB22"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@(Click! Beep-beep-beep...)[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@(Click! Beep-beep-beep...)",
+        "french": "@(Clac ! Biiiip...)"
+      }
+    ],
+    "status": "draft"
   }
 ]
