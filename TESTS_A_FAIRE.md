@@ -20,3 +20,7 @@ Les enseignes, images anglaises, crédits et la majorité du scénario ne sont p
 ## Mise à jour v03
 
 Vérifier le clavier MAJ/min/Au choix/Effacer, les goûts des fenêtres, les 23 noms d’ennemis et les nouveaux messages de combat. Le premier combat est documenté dans RAPPORT_V03.md ; poursuivre les attaques/dégâts, les textes résiduels d’expérience et les combats à plusieurs alliés.
+
+## Mise à jour v04
+
+Confirmés : attaque du héros et de la lampe, dégâts aux deux cibles, expérience sans caractère parasite, retour à la maison dans les deux variantes, « À qui ? », « R.A.S. » et dialogue sur l’oreiller vivant. Les boutiques, descriptions PSI, sauvegarde/chargement, autres combats et la fin de la séquence familiale restent à valider. Voir tests/rapport_emulation_v04.json.

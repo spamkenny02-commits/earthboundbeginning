@@ -1,0 +1,62 @@
+{
+  "core": "libretro/snes9x2010",
+  "core_revision": "fe690dd321fa5a46b5234a2bde089d2518c62b0e",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "full_game_validated": false,
+  "translations_checked": 599,
+  "observed": [
+    "French attack text for Ninten and the haunted lamp",
+    "damage to both hero and enemy",
+    "experience gain without residual characters",
+    "return to house",
+    "no interlocutor: À qui ?",
+    "empty examination: R.A.S.",
+    "sister frightened by the living pillow"
+  ],
+  "pending": [
+    "shops and inventory transactions",
+    "PSI descriptions in context",
+    "fatal damage and status effects",
+    "phone save/load",
+    "pillow and doll battles",
+    "group battles",
+    "remaining scenario and English graphics"
+  ],
+  "routes": {
+    "accents": {
+      "passed": true,
+      "fresh_boot": true,
+      "frames": 24145,
+      "rom_sha256": "3f71bb4e870907847421f2327fc6676714d4b85fda9987f132fb3cc3ce9a5d0b",
+      "return_to_house_observed": true
+    },
+    "ascii": {
+      "passed": true,
+      "fresh_boot": true,
+      "frames": 24145,
+      "rom_sha256": "9a7ac3d9f9428b3cdacaebf452b3ee9d16939831df503318154c5981c4a8941c",
+      "return_to_house_observed": true
+    },
+    "combat": {
+      "passed": true,
+      "fresh_boot": false,
+      "state_origin": "current accents fresh-boot route, same ROM SHA-256",
+      "frames": 570,
+      "rom_sha256": "3f71bb4e870907847421f2327fc6676714d4b85fda9987f132fb3cc3ce9a5d0b"
+    },
+    "maison": {
+      "passed": true,
+      "fresh_boot": false,
+      "state_origin": "current accents fresh-boot route, same ROM SHA-256",
+      "frames": 3596,
+      "rom_sha256": "3f71bb4e870907847421f2327fc6676714d4b85fda9987f132fb3cc3ce9a5d0b"
+    },
+    "examen": {
+      "passed": true,
+      "fresh_boot": false,
+      "state_origin": "current accents fresh-boot route, same ROM SHA-256",
+      "frames": 480,
+      "rom_sha256": "3f71bb4e870907847421f2327fc6676714d4b85fda9987f132fb3cc3ce9a5d0b"
+    }
+  }
+}
