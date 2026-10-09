@@ -205,6 +205,9 @@ def integrate(rom,out,accents=True):
         if len(new)>len(old):raise ValueError('Introduction trop longue')
         assert old[-1]==0 and new[-1]==0
         write(p,bytes(new).ljust(len(old),b'\0'),row['id']);report['accepted'].append({'id':row['id'],'type':'intro','old_bytes':len(old),'new_bytes':len(new)})
+    from relocaliser import relocate
+    moved,report['relocation']=relocate(original,write,encode_fr,accents)
+    report['accepted'].extend(moved)
     report['font_glyphs']=patch_fonts(original,data,changes) if accents else []
     # Checksum HiROM. La somme des quatre octets checksum/complément reste 0x1FE.
     data[0xffdc:0xffe0]=b'\xff\xff\0\0';checksum=sum(data)&0xffff

@@ -13,3 +13,9 @@ Onze routines compressées sont maintenant intégrées sans modifier le dictionn
 Sur 56 nouveaux dialogues de boutiques et de vente du canari, 55 sont intégrés. Le bloc $371E94 reste anglais : ses pointeurs intérieurs empêchent pour l’instant d’allonger le choix « No » en « Non ». Les boutiques ne sont pas encore validées en jeu.
 
 Bilan provisoire : **539 entrées intégrées** (348 champs, 178 blocs ordinaires, 11 routines compressées, 2 fragments d’introduction). Six propositions restent exclues. Les deux variantes passent le contrôle de réapplication IPS, des commandes, des pointeurs intérieurs, des statistiques ennemies, des polices et du checksum. Ce contrôle binaire ne constitue pas une validation de tout le jeu.
+
+## Première réinsertion par déplacement
+
+Trois routines d’attaque ($2F848C, $2F84A7, $2F84B6) sont déplacées dans les octets nuls $3FF920–$3FF9DF. La zone est vérifiée contre la source et n’est visée par aucune adresse HiROM littérale relevée. Les sept références externes connues et le branchement interne sont ajustés ; les anciennes routines restent intactes. Le plan explicite bloque si les références changent ou si un pointeur intérieur inattendu apparaît. Ce contrôle ne prétend pas découvrir tous les pointeurs reconstruits par du code machine.
+
+Les essais confirment « La lampe hantée attaque ! » et « Ninten attaque ! ». Bilan : **542 entrées intégrées**, dont trois routines déplacées. Six propositions restent exclues.

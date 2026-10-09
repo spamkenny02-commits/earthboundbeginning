@@ -1,0 +1,115 @@
+{
+  "region_start": "3FF920",
+  "region_end": "3FF9E0",
+  "dictionary": {
+    "16 00": {
+      "id": "08C3C4",
+      "offset": "08C3C4",
+      "snes": "C8C3C4",
+      "length": 3,
+      "source": "compression_dictionary",
+      "text_en": " is",
+      "text_fr": "",
+      "raw_hex": "50 99 A3",
+      "code": "16 00",
+      "pointer_offset": "08D1ED"
+    },
+    "15 DB": {
+      "id": "08C2D3",
+      "offset": "08C2D3",
+      "snes": "C8C2D3",
+      "length": 7,
+      "source": "compression_dictionary",
+      "text_en": " attack",
+      "text_fr": "",
+      "raw_hex": "50 91 A4 A4 91 93 9B",
+      "code": "15 DB",
+      "pointer_offset": "08D159"
+    },
+    "17 7D": {
+      "id": "08CBB4",
+      "offset": "08CBB4",
+      "snes": "C8CBB4",
+      "length": 4,
+      "source": "compression_dictionary",
+      "text_en": "ing!",
+      "text_fr": "",
+      "raw_hex": "99 9E 97 51",
+      "code": "17 7D",
+      "pointer_offset": "08D7E1"
+    }
+  },
+  "blocks": [
+    {
+      "id": "2F848C",
+      "offset": "2F848C",
+      "raw_hex": "01 1F 41 08 1B 02 A7 84 EF 00 1F 02 19 70 1C 0D 16 00 15 DB 17 7D 1F 02 1A 03 02",
+      "incoming_refs": [
+        "157B9C",
+        "368245",
+        "3691C9",
+        "36939D"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 13,
+          "end": 14,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 16,
+          "end": 22,
+          "original": " is attacking!",
+          "french": " attaque !"
+        }
+      ]
+    },
+    {
+      "id": "2F84A7",
+      "offset": "2F84A7",
+      "raw_hex": "1F 02 18 70 1C 0D 15 DB A3 51 1F 02 1A 03 02",
+      "incoming_refs": [
+        "2F8492"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 3,
+          "end": 4,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 6,
+          "end": 10,
+          "original": " attacks!",
+          "french": " attaque !"
+        }
+      ]
+    },
+    {
+      "id": "2F84B6",
+      "offset": "2F84B6",
+      "raw_hex": "01 1F 02 18 70 1C 0D 15 DB A3 51 1F 02 1B 03 02",
+      "incoming_refs": [
+        "157BA8",
+        "368251",
+        "3693E5"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 4,
+          "end": 5,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 7,
+          "end": 11,
+          "original": " attacks!",
+          "french": " attaque !"
+        }
+      ]
+    }
+  ]
+}

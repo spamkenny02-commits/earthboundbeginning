@@ -43,6 +43,27 @@ def verify(rom,build):
                 if row['source']=='ENEMY_CONFIGURATION_TABLE':
                     assert target[p-1]==0
                     assert target[p+25:p+93]==source[p+25:p+93], 'Stats ennemi modifiées'
+            elif change['type']=='relocated_dialogue':
+                from extraire import parse
+                from compression import text_spans
+                plan=json.loads((ROOT/'traduction/textes_relocalises_fr.json').read_text(encoding='utf-8'))
+                row=next(r for r in plan['blocks'] if r['id']==change['id'])
+                old=bytes.fromhex(row['raw_hex']);dest=int(change['offset'],16)
+                new=bytearray(target[dest:dest+change['new_bytes']])
+                assert target[p:p+len(old)]==source[p:p+len(old)]==old
+                for ref in change['internal_refs']:
+                    q=int(ref['offset'],16)-dest
+                    assert new[q:q+4]==(0xc00000+int(ref['new_target'],16)).to_bytes(4,'little')
+                    new[q:q+4]=(0xc00000+int(ref['old_target'],16)).to_bytes(4,'little')
+                cursor=0;previous=0
+                for seg in row['text_fr_segments']:
+                    a,b=seg['offset'],seg['end'];gap=old[previous:a]
+                    assert new[cursor:cursor+len(gap)]==gap;cursor+=len(gap)
+                    fr=encode_fr(seg['french'],profile=='accents')
+                    assert new[cursor:cursor+len(fr)]==fr;cursor+=len(fr);previous=b
+                assert new[cursor:]==old[previous:]
+                parsed=parse(bytes(new),0,len(new)+1)
+                assert parsed['terminal'] and not parsed['error'] and parsed['end']==len(new)
             elif change['type']=='compressed_dialogue':
                 rows=json.loads((ROOT/'traduction/textes_comprimes_fr.json').read_text(encoding='utf-8'))['blocks']
                 row=next(r for r in rows if r['id']==change['id']);old=bytes.fromhex(row['raw_hex']);mask=bytearray(len(old))
@@ -67,6 +88,10 @@ def verify(rom,build):
                     covered=set(j for seg in spans for j in range(seg['offset'],seg['offset']+len(encode(seg['original']))))
                     assert all(source[p+j]==target[p+j] for j in range(len(old)) if j not in covered)
             checked+=1
+        for ref in report['relocation']['external_refs']:
+            q=int(ref['offset'],16)
+            assert source[q:q+4]==(0xc00000+int(ref['old_target'],16)).to_bytes(4,'little')
+            assert target[q:q+4]==(0xc00000+int(ref['new_target'],16)).to_bytes(4,'little')
         glyphs=0
         for i,(w,h) in enumerate(FONT_SIZES):
             wp=int.from_bytes(source[0x3f054+i*12:0x3f058+i*12],'little')-0xc00000;gp=int.from_bytes(source[0x3f058+i*12:0x3f05c+i*12],'little')-0xc00000;size=w//8*h
