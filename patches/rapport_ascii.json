@@ -1,0 +1,2829 @@
+{
+  "profile": "ascii",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "accepted": [
+    {
+      "id": "04C060",
+      "type": "field",
+      "english": "Start New Game",
+      "french": "Nouveau jeu",
+      "bytes": 14
+    },
+    {
+      "id": "04C074",
+      "type": "field",
+      "english": "Text Speed:",
+      "french": "Vitesse:",
+      "bytes": 11
+    },
+    {
+      "id": "04C086",
+      "type": "field",
+      "english": "Medium",
+      "french": "Normal",
+      "bytes": 7
+    },
+    {
+      "id": "04C08D",
+      "type": "field",
+      "english": "Slow",
+      "french": "Lent",
+      "bytes": 5
+    },
+    {
+      "id": "0CFF92",
+      "type": "field",
+      "english": "Continue",
+      "french": "Suite",
+      "bytes": 9
+    },
+    {
+      "id": "0CFFAB",
+      "type": "field",
+      "english": "Copy",
+      "french": "Dupl",
+      "bytes": 5
+    },
+    {
+      "id": "0CFFC4",
+      "type": "field",
+      "english": "Delete",
+      "french": "Efface",
+      "bytes": 7
+    },
+    {
+      "id": "0CFFDD",
+      "type": "field",
+      "english": "Set Up",
+      "french": "Options",
+      "bytes": 8
+    },
+    {
+      "id": "0C2E0B",
+      "type": "field",
+      "english": "Copy to where?",
+      "french": "Copier où ?",
+      "bytes": 14
+    },
+    {
+      "id": "04C0BE",
+      "type": "field",
+      "english": "Are you sure you want to delete?",
+      "french": "Effacer cette sauvegarde ?",
+      "bytes": 32
+    },
+    {
+      "id": "0BD880",
+      "type": "field",
+      "english": "Yes",
+      "french": "Oui",
+      "bytes": 4
+    },
+    {
+      "id": "04C0FE",
+      "type": "field",
+      "english": "Please select sound setting.",
+      "french": "Choisis le mode sonore.",
+      "bytes": 28
+    },
+    {
+      "id": "04C11A",
+      "type": "field",
+      "english": "Stereo",
+      "french": "Stéréo",
+      "bytes": 7
+    },
+    {
+      "id": "04C128",
+      "type": "field",
+      "english": "Which style of windows do you prefer?",
+      "french": "Quel style de fenêtre préfères-tu ?",
+      "bytes": 37
+    },
+    {
+      "id": "04C194",
+      "type": "field",
+      "english": "Please name him.",
+      "french": "Quel est son nom ?",
+      "bytes": 19
+    },
+    {
+      "id": "04C1BC",
+      "type": "field",
+      "english": "Name her, too.",
+      "french": "Quel est son nom à elle ?",
+      "bytes": 26
+    },
+    {
+      "id": "04C1E4",
+      "type": "field",
+      "english": "Name your friend.",
+      "french": "Nomme ton ami.",
+      "bytes": 18
+    },
+    {
+      "id": "04C20C",
+      "type": "field",
+      "english": "Name your other friend.",
+      "french": "Nomme ton autre ami.",
+      "bytes": 24
+    },
+    {
+      "id": "04C25C",
+      "type": "field",
+      "english": "Favorite homemade food?",
+      "french": "Quel est ton plat préféré ?",
+      "bytes": 28
+    },
+    {
+      "id": "0C2DEF",
+      "type": "field",
+      "english": "Favorite food:",
+      "french": "Plat préféré:",
+      "bytes": 14
+    },
+    {
+      "id": "09FFF0",
+      "type": "field",
+      "english": "Are you sure?",
+      "french": "C'est bon ?",
+      "bytes": 14
+    },
+    {
+      "id": "0BD85D",
+      "type": "field",
+      "english": "Yep",
+      "french": "Oui",
+      "bytes": 4
+    },
+    {
+      "id": "03FDF4",
+      "type": "field",
+      "english": "Nope",
+      "french": "Non",
+      "bytes": 5
+    },
+    {
+      "id": "045B70",
+      "type": "field",
+      "english": "Fainted",
+      "french": "K.O.",
+      "bytes": 8
+    },
+    {
+      "id": "045B80",
+      "type": "field",
+      "english": "Petrified",
+      "french": "Pétrifié",
+      "bytes": 10
+    },
+    {
+      "id": "045B90",
+      "type": "field",
+      "english": "Paralyzed",
+      "french": "Paralysé",
+      "bytes": 10
+    },
+    {
+      "id": "045BB0",
+      "type": "field",
+      "english": "Poisoned",
+      "french": "Empoisonné",
+      "bytes": 11
+    },
+    {
+      "id": "045BC0",
+      "type": "field",
+      "english": "Sunstroke",
+      "french": "Insolation",
+      "bytes": 11
+    },
+    {
+      "id": "045BE0",
+      "type": "field",
+      "english": "Mushroomized",
+      "french": "Champignon",
+      "bytes": 13
+    },
+    {
+      "id": "045BF0",
+      "type": "field",
+      "english": "Possessed",
+      "french": "Possédé",
+      "bytes": 10
+    },
+    {
+      "id": "045C00",
+      "type": "field",
+      "english": "Asthma",
+      "french": "Asthme",
+      "bytes": 7
+    },
+    {
+      "id": "049FE1",
+      "type": "field",
+      "english": "Bash",
+      "french": "Frapper",
+      "bytes": 8
+    },
+    {
+      "id": "049FF1",
+      "type": "field",
+      "english": "Goods",
+      "french": "Objets",
+      "bytes": 7
+    },
+    {
+      "id": "04A001",
+      "type": "field",
+      "english": "Auto Fight",
+      "french": "Auto",
+      "bytes": 11
+    },
+    {
+      "id": "04A021",
+      "type": "field",
+      "english": "Guard",
+      "french": "Défense",
+      "bytes": 8
+    },
+    {
+      "id": "0ADC89",
+      "type": "field",
+      "english": "Shoot",
+      "french": "Tirer",
+      "bytes": 6
+    },
+    {
+      "id": "0BD844",
+      "type": "field",
+      "english": "Check",
+      "french": "Voir",
+      "bytes": 6
+    },
+    {
+      "id": "04A061",
+      "type": "field",
+      "english": "Run Away",
+      "french": "Fuir",
+      "bytes": 9
+    },
+    {
+      "id": "0ADC70",
+      "type": "field",
+      "english": "Mirror",
+      "french": "Miroir",
+      "bytes": 7
+    },
+    {
+      "id": "04FFE3",
+      "type": "field",
+      "english": "Do Nothing",
+      "french": "Attendre",
+      "bytes": 11
+    },
+    {
+      "id": "2FA37A",
+      "type": "field",
+      "english": "Talk to",
+      "french": "Parler",
+      "bytes": 8
+    },
+    {
+      "id": "2FA384",
+      "type": "field",
+      "english": "Goods",
+      "french": "Objets",
+      "bytes": 7
+    },
+    {
+      "id": "2FA398",
+      "type": "field",
+      "english": "Equip",
+      "french": "Équiper",
+      "bytes": 8
+    },
+    {
+      "id": "2FA3A2",
+      "type": "field",
+      "english": "Check",
+      "french": "Voir",
+      "bytes": 6
+    },
+    {
+      "id": "2FA3AC",
+      "type": "field",
+      "english": "Status",
+      "french": "État",
+      "bytes": 7
+    },
+    {
+      "id": "2FA3BA",
+      "type": "field",
+      "english": "Level:",
+      "french": "Niv.:",
+      "bytes": 6
+    },
+    {
+      "id": "2FA3C4",
+      "type": "field",
+      "english": "Hit Points:",
+      "french": "Points vie:",
+      "bytes": 11
+    },
+    {
+      "id": "2FA3D3",
+      "type": "field",
+      "english": "Psychic Points:",
+      "french": "Points PSI:",
+      "bytes": 15
+    },
+    {
+      "id": "2FA3E6",
+      "type": "field",
+      "english": "Experience Points:",
+      "french": "Expérience:",
+      "bytes": 18
+    },
+    {
+      "id": "2FA3FC",
+      "type": "field",
+      "english": "Exp. for next level.",
+      "french": "Exp. niveau suivant",
+      "bytes": 20
+    },
+    {
+      "id": "2FA414",
+      "type": "field",
+      "english": "Offense:",
+      "french": "Attaque:",
+      "bytes": 8
+    },
+    {
+      "id": "2FA420",
+      "type": "field",
+      "english": "Defense:",
+      "french": "Défense:",
+      "bytes": 8
+    },
+    {
+      "id": "2FA42C",
+      "type": "field",
+      "english": "Speed:",
+      "french": "Vit.:",
+      "bytes": 6
+    },
+    {
+      "id": "2FA436",
+      "type": "field",
+      "english": "Guts:",
+      "french": "Cran:",
+      "bytes": 5
+    },
+    {
+      "id": "2FA43F",
+      "type": "field",
+      "english": "Vitality:",
+      "french": "Vitalité:",
+      "bytes": 9
+    },
+    {
+      "id": "2FA44C",
+      "type": "field",
+      "english": "IQ:",
+      "french": "QI:",
+      "bytes": 3
+    },
+    {
+      "id": "2FA453",
+      "type": "field",
+      "english": "Luck:",
+      "french": "Chan:",
+      "bytes": 5
+    },
+    {
+      "id": "045B4D",
+      "type": "field",
+      "english": "@Press the -A- Button for PSI info.",
+      "french": "@Touche -A- : infos PSI.",
+      "bytes": 35
+    },
+    {
+      "id": "03FB2B",
+      "type": "field",
+      "english": "Register your name, please",
+      "french": "Inscris ton nom, s'il te plaît",
+      "bytes": 31
+    },
+    {
+      "id": "03F090",
+      "type": "field",
+      "english": "Offense",
+      "french": "Attaque",
+      "bytes": 8
+    },
+    {
+      "id": "03F098",
+      "type": "field",
+      "english": "Recover",
+      "french": "Soins",
+      "bytes": 8
+    },
+    {
+      "id": "03F0A8",
+      "type": "field",
+      "english": "Other",
+      "french": "Autres",
+      "bytes": 7
+    },
+    {
+      "id": "03F11C",
+      "type": "field",
+      "english": "PP Cost",
+      "french": "Coût PP",
+      "bytes": 7
+    },
+    {
+      "id": "03F124",
+      "type": "field",
+      "english": "To enemy",
+      "french": "Sur l'ennemi",
+      "bytes": 13
+    },
+    {
+      "id": "03F138",
+      "type": "field",
+      "english": "To one enemy",
+      "french": "Sur un ennemi",
+      "bytes": 14
+    },
+    {
+      "id": "03F14C",
+      "type": "field",
+      "english": "to One Enemy",
+      "french": "Sur un ennemi",
+      "bytes": 14
+    },
+    {
+      "id": "03F160",
+      "type": "field",
+      "english": "To row of foes",
+      "french": "Sur une rangée",
+      "bytes": 15
+    },
+    {
+      "id": "03F188",
+      "type": "field",
+      "english": "To one of us",
+      "french": "Sur un allié",
+      "bytes": 13
+    },
+    {
+      "id": "03F19C",
+      "type": "field",
+      "english": "To one of us",
+      "french": "Sur un allié",
+      "bytes": 13
+    },
+    {
+      "id": "03F1B0",
+      "type": "field",
+      "english": "to One Friend",
+      "french": "Sur un allié",
+      "bytes": 14
+    },
+    {
+      "id": "0454F2",
+      "type": "field",
+      "english": "To ",
+      "french": "Sur",
+      "bytes": 3
+    },
+    {
+      "id": "0454F5",
+      "type": "field",
+      "english": "the Front Row",
+      "french": "ligne avant",
+      "bytes": 13
+    },
+    {
+      "id": "045502",
+      "type": "field",
+      "english": "the Back Row",
+      "french": "ligne arrière",
+      "bytes": 14
+    },
+    {
+      "id": "045C1C",
+      "type": "field",
+      "english": "Offense",
+      "french": "Attaque",
+      "bytes": 7
+    },
+    {
+      "id": "045C37",
+      "type": "field",
+      "english": "      Body",
+      "french": "     Corps",
+      "bytes": 11
+    },
+    {
+      "id": "045C4D",
+      "type": "field",
+      "english": "     Other",
+      "french": "    Autres",
+      "bytes": 11
+    },
+    {
+      "id": "045C58",
+      "type": "field",
+      "english": "Weapons",
+      "french": "Armes",
+      "bytes": 8
+    },
+    {
+      "id": "045C60",
+      "type": "field",
+      "english": "Body",
+      "french": "Corps",
+      "bytes": 6
+    },
+    {
+      "id": "045C68",
+      "type": "field",
+      "english": "Arms",
+      "french": "Bras",
+      "bytes": 5
+    },
+    {
+      "id": "045C70",
+      "type": "field",
+      "english": "Others",
+      "french": "Autres",
+      "bytes": 7
+    },
+    {
+      "id": "045C78",
+      "type": "field",
+      "english": "(Nothing) ",
+      "french": "(Rien)",
+      "bytes": 10
+    },
+    {
+      "id": "00FFA2",
+      "type": "field",
+      "english": "None",
+      "french": "Rien",
+      "bytes": 5
+    },
+    {
+      "id": "007FF5",
+      "type": "field",
+      "english": "To:",
+      "french": "À:",
+      "bytes": 4
+    },
+    {
+      "id": "043556",
+      "type": "field",
+      "english": "Give",
+      "french": "Don",
+      "bytes": 5
+    },
+    {
+      "id": "043562",
+      "type": "field",
+      "english": "Help!",
+      "french": "Aide",
+      "bytes": 6
+    },
+    {
+      "id": "045963",
+      "type": "field",
+      "english": "Who?",
+      "french": "Qui ?",
+      "bytes": 6
+    },
+    {
+      "id": "04596D",
+      "type": "field",
+      "english": "Which?",
+      "french": "Lequel ?",
+      "bytes": 9
+    },
+    {
+      "id": "045977",
+      "type": "field",
+      "english": "Where?",
+      "french": "Où ?",
+      "bytes": 7
+    },
+    {
+      "id": "045981",
+      "type": "field",
+      "english": "Whom?",
+      "french": "À qui ?",
+      "bytes": 8
+    },
+    {
+      "id": "04598B",
+      "type": "field",
+      "english": "Where?",
+      "french": "Où ?",
+      "bytes": 7
+    },
+    {
+      "id": "045C10",
+      "type": "field",
+      "english": "Stored Goods",
+      "french": "Réserve",
+      "bytes": 12
+    },
+    {
+      "id": "007FFA",
+      "type": "field",
+      "english": "Call:",
+      "french": "Appel",
+      "bytes": 6
+    },
+    {
+      "id": "155027",
+      "type": "field",
+      "english": "Franklin badge",
+      "french": "Badge Franklin",
+      "bytes": 15
+    },
+    {
+      "id": "15504E",
+      "type": "field",
+      "english": "Teddy bear",
+      "french": "Ours en peluche",
+      "bytes": 16
+    },
+    {
+      "id": "155075",
+      "type": "field",
+      "english": "Super plush bear",
+      "french": "Super ours en peluche",
+      "bytes": 22
+    },
+    {
+      "id": "15509C",
+      "type": "field",
+      "english": "Old bone",
+      "french": "Vieil os",
+      "bytes": 9
+    },
+    {
+      "id": "1550C3",
+      "type": "field",
+      "english": "Broken gadget",
+      "french": "Gadget cassé",
+      "bytes": 14
+    },
+    {
+      "id": "1550EA",
+      "type": "field",
+      "english": "Broken air gun",
+      "french": "Fusil à air cassé",
+      "bytes": 18
+    },
+    {
+      "id": "155138",
+      "type": "field",
+      "english": "Broken laser",
+      "french": "Laser cassé",
+      "bytes": 13
+    },
+    {
+      "id": "15515F",
+      "type": "field",
+      "english": "Broken iron",
+      "french": "Fer cassé",
+      "bytes": 12
+    },
+    {
+      "id": "155186",
+      "type": "field",
+      "english": "Broken pipe",
+      "french": "Tuyau cassé",
+      "bytes": 12
+    },
+    {
+      "id": "1551AD",
+      "type": "field",
+      "english": "Broken cannon",
+      "french": "Canon cassé",
+      "bytes": 14
+    },
+    {
+      "id": "1551D4",
+      "type": "field",
+      "english": "Broken tube",
+      "french": "Tube cassé",
+      "bytes": 12
+    },
+    {
+      "id": "1551FB",
+      "type": "field",
+      "english": "Broken bazooka",
+      "french": "Bazooka cassé",
+      "bytes": 15
+    },
+    {
+      "id": "155222",
+      "type": "field",
+      "english": "Broken trumpet",
+      "french": "Trompette cassée",
+      "bytes": 17
+    },
+    {
+      "id": "155249",
+      "type": "field",
+      "english": "Broken harmonica",
+      "french": "Harmonica cassé",
+      "bytes": 17
+    },
+    {
+      "id": "155270",
+      "type": "field",
+      "english": "Broken antenna",
+      "french": "Antenne cassée",
+      "bytes": 15
+    },
+    {
+      "id": "155297",
+      "type": "field",
+      "english": "Plastic bat",
+      "french": "Batte en plastique",
+      "bytes": 19
+    },
+    {
+      "id": "1552E5",
+      "type": "field",
+      "english": "Aluminum bat",
+      "french": "Batte en aluminium",
+      "bytes": 19
+    },
+    {
+      "id": "15535A",
+      "type": "field",
+      "english": "Screwball bat",
+      "french": "Batte courbe",
+      "bytes": 14
+    },
+    {
+      "id": "1553A8",
+      "type": "field",
+      "english": "Magicant bat",
+      "french": "Batte de Magicant",
+      "bytes": 18
+    },
+    {
+      "id": "1553F6",
+      "type": "field",
+      "english": "Home-run bat",
+      "french": "Batte de champion",
+      "bytes": 18
+    },
+    {
+      "id": "15541D",
+      "type": "field",
+      "english": "Knit cap",
+      "french": "Bonnet",
+      "bytes": 9
+    },
+    {
+      "id": "155444",
+      "type": "field",
+      "english": "Fry pan",
+      "french": "Poêle",
+      "bytes": 8
+    },
+    {
+      "id": "15546B",
+      "type": "field",
+      "english": "Non-stick pan",
+      "french": "Poêle antiadhésive",
+      "bytes": 19
+    },
+    {
+      "id": "155492",
+      "type": "field",
+      "english": "Iron skillet",
+      "french": "Poêle en fer",
+      "bytes": 13
+    },
+    {
+      "id": "1554B9",
+      "type": "field",
+      "english": "Slap bracelet",
+      "french": "Bracelet claquant",
+      "bytes": 18
+    },
+    {
+      "id": "1554E0",
+      "type": "field",
+      "english": "Thick fry pan",
+      "french": "Poêle épaisse",
+      "bytes": 14
+    },
+    {
+      "id": "155555",
+      "type": "field",
+      "english": "Stellar cannon",
+      "french": "Canon stellaire",
+      "bytes": 16
+    },
+    {
+      "id": "15557C",
+      "type": "field",
+      "english": "Zap gun",
+      "french": "Pistolet électrique",
+      "bytes": 20
+    },
+    {
+      "id": "1555A3",
+      "type": "field",
+      "english": "Stun gun",
+      "french": "Pistolet paralysant",
+      "bytes": 20
+    },
+    {
+      "id": "1555F1",
+      "type": "field",
+      "english": "Magnum air gun",
+      "french": "Fusil à air Magnum",
+      "bytes": 19
+    },
+    {
+      "id": "155618",
+      "type": "field",
+      "english": "Zip gun",
+      "french": "Pistolet artisanal",
+      "bytes": 19
+    },
+    {
+      "id": "15563F",
+      "type": "field",
+      "english": "Deluxe fry pan",
+      "french": "Poêle de luxe",
+      "bytes": 15
+    },
+    {
+      "id": "155666",
+      "type": "field",
+      "english": "Extreme cannon",
+      "french": "Canon extrême",
+      "bytes": 15
+    },
+    {
+      "id": "15568D",
+      "type": "field",
+      "english": "Mushroom soup",
+      "french": "Soupe aux champignons",
+      "bytes": 22
+    },
+    {
+      "id": "1556B4",
+      "type": "field",
+      "english": "Hot chocolate",
+      "french": "Chocolat chaud",
+      "bytes": 15
+    },
+    {
+      "id": "1556DB",
+      "type": "field",
+      "english": "Galoshes",
+      "french": "Bottes de pluie",
+      "bytes": 16
+    },
+    {
+      "id": "155702",
+      "type": "field",
+      "english": "Toy rocket kit",
+      "french": "Fusée-jouet en kit",
+      "bytes": 19
+    },
+    {
+      "id": "155729",
+      "type": "field",
+      "english": "Model rocket kit",
+      "french": "Maquette de fusée",
+      "bytes": 18
+    },
+    {
+      "id": "155750",
+      "type": "field",
+      "english": "George's Diary",
+      "french": "Journal de George",
+      "bytes": 18
+    },
+    {
+      "id": "155777",
+      "type": "field",
+      "english": "Butterfly yo-yo",
+      "french": "Yo-yo papillon",
+      "bytes": 16
+    },
+    {
+      "id": "15579E",
+      "type": "field",
+      "english": "Slingshot",
+      "french": "Lance-pierre",
+      "bytes": 13
+    },
+    {
+      "id": "1557EC",
+      "type": "field",
+      "english": "Trick yo-yo",
+      "french": "Yo-yo acrobatique",
+      "bytes": 18
+    },
+    {
+      "id": "155813",
+      "type": "field",
+      "english": "Combat yo-yo",
+      "french": "Yo-yo de combat",
+      "bytes": 16
+    },
+    {
+      "id": "15583A",
+      "type": "field",
+      "english": "Travel charm",
+      "french": "Charme du voyageur",
+      "bytes": 19
+    },
+    {
+      "id": "155861",
+      "type": "field",
+      "english": "Great charm",
+      "french": "Grand charme",
+      "bytes": 13
+    },
+    {
+      "id": "155888",
+      "type": "field",
+      "english": "Crystal charm",
+      "french": "Charme de cristal",
+      "bytes": 18
+    },
+    {
+      "id": "1558AF",
+      "type": "field",
+      "english": "Rain pendant",
+      "french": "Pendentif de pluie",
+      "bytes": 19
+    },
+    {
+      "id": "1558D6",
+      "type": "field",
+      "english": "Flame pendant",
+      "french": "Pendentif de flamme",
+      "bytes": 20
+    },
+    {
+      "id": "1558FD",
+      "type": "field",
+      "english": "Earth pendant",
+      "french": "Pendentif de terre",
+      "bytes": 19
+    },
+    {
+      "id": "155924",
+      "type": "field",
+      "english": "Night pendant",
+      "french": "Pendentif de nuit",
+      "bytes": 18
+    },
+    {
+      "id": "15594B",
+      "type": "field",
+      "english": "Sea pendant",
+      "french": "Pendentif marin",
+      "bytes": 16
+    },
+    {
+      "id": "155972",
+      "type": "field",
+      "english": "Star pendant",
+      "french": "Pendentif étoilé",
+      "bytes": 17
+    },
+    {
+      "id": "1559C0",
+      "type": "field",
+      "english": "Cheap bracelet",
+      "french": "Bracelet bon marché",
+      "bytes": 20
+    },
+    {
+      "id": "1559E7",
+      "type": "field",
+      "english": "Copper bracelet",
+      "french": "Bracelet de cuivre",
+      "bytes": 19
+    },
+    {
+      "id": "155A0E",
+      "type": "field",
+      "english": "Silver bracelet",
+      "french": "Bracelet d'argent",
+      "bytes": 18
+    },
+    {
+      "id": "155A35",
+      "type": "field",
+      "english": "Gold bracelet",
+      "french": "Bracelet d'or",
+      "bytes": 14
+    },
+    {
+      "id": "155A5C",
+      "type": "field",
+      "english": "Miracle band",
+      "french": "Bracelet miracle",
+      "bytes": 17
+    },
+    {
+      "id": "155A83",
+      "type": "field",
+      "english": "Diamond band",
+      "french": "Bracelet de diamant",
+      "bytes": 20
+    },
+    {
+      "id": "155B1F",
+      "type": "field",
+      "english": "Crumpled paper",
+      "french": "Papier froissé",
+      "bytes": 15
+    },
+    {
+      "id": "155B46",
+      "type": "field",
+      "english": "Baseball cap",
+      "french": "Casquette",
+      "bytes": 13
+    },
+    {
+      "id": "155B6D",
+      "type": "field",
+      "english": "Girl's hat",
+      "french": "Chapeau de fille",
+      "bytes": 17
+    },
+    {
+      "id": "155B94",
+      "type": "field",
+      "english": "Dentures",
+      "french": "Dentier",
+      "bytes": 9
+    },
+    {
+      "id": "155BBB",
+      "type": "field",
+      "english": "Ticket stub",
+      "french": "Talon de billet",
+      "bytes": 16
+    },
+    {
+      "id": "155BE2",
+      "type": "field",
+      "english": "Ribbon",
+      "french": "Ruban",
+      "bytes": 7
+    },
+    {
+      "id": "155C09",
+      "type": "field",
+      "english": "Red ribbon",
+      "french": "Ruban rouge",
+      "bytes": 12
+    },
+    {
+      "id": "155C30",
+      "type": "field",
+      "english": "Goddess ribbon",
+      "french": "Ruban de déesse",
+      "bytes": 16
+    },
+    {
+      "id": "155C57",
+      "type": "field",
+      "english": "Coin of slumber",
+      "french": "Pièce du sommeil",
+      "bytes": 17
+    },
+    {
+      "id": "155C7E",
+      "type": "field",
+      "english": "Coin of defense",
+      "french": "Pièce de défense",
+      "bytes": 17
+    },
+    {
+      "id": "155CA5",
+      "type": "field",
+      "english": "Onyx hook",
+      "french": "Crochet d'onyx",
+      "bytes": 15
+    },
+    {
+      "id": "155CCC",
+      "type": "field",
+      "english": "Last weapon",
+      "french": "Arme ultime",
+      "bytes": 12
+    },
+    {
+      "id": "155CF3",
+      "type": "field",
+      "english": "Shiny coin",
+      "french": "Pièce brillante",
+      "bytes": 16
+    },
+    {
+      "id": "155D1A",
+      "type": "field",
+      "english": "Souvenir coin",
+      "french": "Pièce souvenir",
+      "bytes": 15
+    },
+    {
+      "id": "155D68",
+      "type": "field",
+      "english": "Cookie",
+      "french": "Biscuit",
+      "bytes": 8
+    },
+    {
+      "id": "155D8F",
+      "type": "field",
+      "english": "Bag of fries",
+      "french": "Sachet de frites",
+      "bytes": 17
+    },
+    {
+      "id": "155DDD",
+      "type": "field",
+      "english": "Boiled egg",
+      "french": "Œuf dur",
+      "bytes": 11
+    },
+    {
+      "id": "155E04",
+      "type": "field",
+      "english": "Fresh egg",
+      "french": "Œuf frais",
+      "bytes": 11
+    },
+    {
+      "id": "155E2B",
+      "type": "field",
+      "english": "Picnic lunch",
+      "french": "Panier-repas",
+      "bytes": 13
+    },
+    {
+      "id": "155E52",
+      "type": "field",
+      "english": "Roasted corn",
+      "french": "Maïs grillé",
+      "bytes": 13
+    },
+    {
+      "id": "155EA0",
+      "type": "field",
+      "english": "Chef's special",
+      "french": "Spécialité du chef",
+      "bytes": 19
+    },
+    {
+      "id": "155EC7",
+      "type": "field",
+      "english": "Large pizza",
+      "french": "Grande pizza",
+      "bytes": 13
+    },
+    {
+      "id": "155EEE",
+      "type": "field",
+      "english": "PSI caramel",
+      "french": "Caramel PSI",
+      "bytes": 12
+    },
+    {
+      "id": "155F15",
+      "type": "field",
+      "english": "Magic truffle",
+      "french": "Truffe magique",
+      "bytes": 15
+    },
+    {
+      "id": "155F3C",
+      "type": "field",
+      "english": "Brain food lunch",
+      "french": "Repas cérébral",
+      "bytes": 17
+    },
+    {
+      "id": "155F63",
+      "type": "field",
+      "english": "Rock candy",
+      "french": "Sucre candi",
+      "bytes": 12
+    },
+    {
+      "id": "155FB1",
+      "type": "field",
+      "english": "Bread roll",
+      "french": "Petit pain",
+      "bytes": 11
+    },
+    {
+      "id": "156026",
+      "type": "field",
+      "english": "Can of fruit juice",
+      "french": "Jus de fruits",
+      "bytes": 19
+    },
+    {
+      "id": "15604D",
+      "type": "field",
+      "english": "Peanut cheese`bar",
+      "french": "Barre aux cacahuètes",
+      "bytes": 21
+    },
+    {
+      "id": "156074",
+      "type": "field",
+      "english": "Sports drink",
+      "french": "Boisson énergétique",
+      "bytes": 20
+    },
+    {
+      "id": "15609B",
+      "type": "field",
+      "english": "Life-up cream",
+      "french": "Crème de vie",
+      "bytes": 14
+    },
+    {
+      "id": "1560C2",
+      "type": "field",
+      "english": "Bottle of water",
+      "french": "Bouteille d'eau",
+      "bytes": 16
+    },
+    {
+      "id": "1560E9",
+      "type": "field",
+      "english": "Cold remedy",
+      "french": "Remède contre le rhume",
+      "bytes": 23
+    },
+    {
+      "id": "156110",
+      "type": "field",
+      "english": "Vial of serum",
+      "french": "Fiole de sérum",
+      "bytes": 15
+    },
+    {
+      "id": "156137",
+      "type": "field",
+      "english": "Wisdom capsule",
+      "french": "Capsule de sagesse",
+      "bytes": 19
+    },
+    {
+      "id": "15615E",
+      "type": "field",
+      "english": "Physical capsule",
+      "french": "Capsule de vitalité",
+      "bytes": 20
+    },
+    {
+      "id": "156185",
+      "type": "field",
+      "english": "Speed capsule",
+      "french": "Capsule de vitesse",
+      "bytes": 19
+    },
+    {
+      "id": "1561AC",
+      "type": "field",
+      "english": "Fight capsule",
+      "french": "Capsule de cran",
+      "bytes": 16
+    },
+    {
+      "id": "1561D3",
+      "type": "field",
+      "english": "Force capsule",
+      "french": "Capsule de force",
+      "bytes": 17
+    },
+    {
+      "id": "1561FA",
+      "type": "field",
+      "english": "Ketchup packet",
+      "french": "Sachet de ketchup",
+      "bytes": 18
+    },
+    {
+      "id": "156221",
+      "type": "field",
+      "english": "Friendship ring",
+      "french": "Bague de l'amitié",
+      "bytes": 18
+    },
+    {
+      "id": "156248",
+      "type": "field",
+      "english": "Tin of Cocoa",
+      "french": "Boîte de cacao",
+      "bytes": 15
+    },
+    {
+      "id": "1562BD",
+      "type": "field",
+      "english": "Jar of hot sauce",
+      "french": "Sauce piquante",
+      "bytes": 17
+    },
+    {
+      "id": "1562E4",
+      "type": "field",
+      "english": "Salt packet",
+      "french": "Sachet de sel",
+      "bytes": 14
+    },
+    {
+      "id": "156332",
+      "type": "field",
+      "english": "Jar of delisauce",
+      "french": "Sauce spéciale",
+      "bytes": 17
+    },
+    {
+      "id": "156359",
+      "type": "field",
+      "english": "Wet towel",
+      "french": "Serviette humide",
+      "bytes": 17
+    },
+    {
+      "id": "156380",
+      "type": "field",
+      "english": "Refreshing herb",
+      "french": "Herbe rafraîchissante",
+      "bytes": 22
+    },
+    {
+      "id": "1563A7",
+      "type": "field",
+      "english": "Magic herb",
+      "french": "Herbe magique",
+      "bytes": 14
+    },
+    {
+      "id": "1563CE",
+      "type": "field",
+      "english": "Horn of life",
+      "french": "Cor de vie",
+      "bytes": 13
+    },
+    {
+      "id": "1563F5",
+      "type": "field",
+      "english": "Counter-PSI unit",
+      "french": "Unité anti-PSI",
+      "bytes": 17
+    },
+    {
+      "id": "15641C",
+      "type": "field",
+      "english": "Shield killer",
+      "french": "Brise-bouclier",
+      "bytes": 15
+    },
+    {
+      "id": "15646A",
+      "type": "field",
+      "english": "Heavy bazooka",
+      "french": "Bazooka lourd",
+      "bytes": 14
+    },
+    {
+      "id": "156491",
+      "type": "field",
+      "english": "HP-sucker",
+      "french": "Aspire-PV",
+      "bytes": 10
+    },
+    {
+      "id": "1564B8",
+      "type": "field",
+      "english": "Hungry HP-sucker",
+      "french": "Super aspire-PV",
+      "bytes": 17
+    },
+    {
+      "id": "156506",
+      "type": "field",
+      "english": "Slime generator",
+      "french": "Générateur de gel",
+      "bytes": 18
+    },
+    {
+      "id": "156554",
+      "type": "field",
+      "english": "Ruler",
+      "french": "Règle",
+      "bytes": 6
+    },
+    {
+      "id": "15657B",
+      "type": "field",
+      "english": "Flea bag",
+      "french": "Sac de puces",
+      "bytes": 13
+    },
+    {
+      "id": "1565A2",
+      "type": "field",
+      "english": "Words of love",
+      "french": "Mots d'amour",
+      "bytes": 14
+    },
+    {
+      "id": "1565C9",
+      "type": "field",
+      "english": "Protractor",
+      "french": "Rapporteur",
+      "bytes": 11
+    },
+    {
+      "id": "1565F0",
+      "type": "field",
+      "english": "Bottle rocket",
+      "french": "Petite fusée",
+      "bytes": 14
+    },
+    {
+      "id": "156617",
+      "type": "field",
+      "english": "Big bottle rocket",
+      "french": "Grande fusée",
+      "bytes": 18
+    },
+    {
+      "id": "15663E",
+      "type": "field",
+      "english": "Multi`bottle rocket",
+      "french": "Salve de fusées",
+      "bytes": 20
+    },
+    {
+      "id": "156665",
+      "type": "field",
+      "english": "Bomb",
+      "french": "Bombe",
+      "bytes": 6
+    },
+    {
+      "id": "15668C",
+      "type": "field",
+      "english": "Super bomb",
+      "french": "Super bombe",
+      "bytes": 12
+    },
+    {
+      "id": "1566B3",
+      "type": "field",
+      "english": "Insecticide spray",
+      "french": "Insecticide",
+      "bytes": 18
+    },
+    {
+      "id": "1566DA",
+      "type": "field",
+      "english": "Rust promoter",
+      "french": "Accélérateur de rouille",
+      "bytes": 24
+    },
+    {
+      "id": "156701",
+      "type": "field",
+      "english": "Rust promoter DX",
+      "french": "Rouille express DX",
+      "bytes": 19
+    },
+    {
+      "id": "156728",
+      "type": "field",
+      "english": "Swear words",
+      "french": "Gros mots",
+      "bytes": 12
+    },
+    {
+      "id": "15674F",
+      "type": "field",
+      "english": "Stone of Origin",
+      "french": "Pierre des origines",
+      "bytes": 20
+    },
+    {
+      "id": "156776",
+      "type": "field",
+      "english": "Poison needle",
+      "french": "Aiguille empoisonnée",
+      "bytes": 21
+    },
+    {
+      "id": "15679D",
+      "type": "field",
+      "english": "Flamethrower",
+      "french": "Lance-flammes",
+      "bytes": 14
+    },
+    {
+      "id": "1567C4",
+      "type": "field",
+      "english": "Real rocket",
+      "french": "Vraie fusée",
+      "bytes": 12
+    },
+    {
+      "id": "1567EB",
+      "type": "field",
+      "english": "Defense shower",
+      "french": "Douche défensive",
+      "bytes": 17
+    },
+    {
+      "id": "156812",
+      "type": "field",
+      "english": "Letter from mom",
+      "french": "Lettre de maman",
+      "bytes": 16
+    },
+    {
+      "id": "156839",
+      "type": "field",
+      "english": "Sudden fight pill",
+      "french": "Pilule de courage",
+      "bytes": 18
+    },
+    {
+      "id": "156860",
+      "type": "field",
+      "english": "Bag of Dragonite",
+      "french": "Sac de Dragonite",
+      "bytes": 17
+    },
+    {
+      "id": "156887",
+      "type": "field",
+      "english": "Defense spray",
+      "french": "Spray défensif",
+      "bytes": 15
+    },
+    {
+      "id": "1568AE",
+      "type": "field",
+      "english": "Piggy nose",
+      "french": "Groin de cochon",
+      "bytes": 16
+    },
+    {
+      "id": "1568D5",
+      "type": "field",
+      "english": "For Sale sign",
+      "french": "Pancarte à vendre",
+      "bytes": 18
+    },
+    {
+      "id": "1568FC",
+      "type": "field",
+      "english": "Bread loaf",
+      "french": "Pain",
+      "bytes": 11
+    },
+    {
+      "id": "15694A",
+      "type": "field",
+      "english": "Banana",
+      "french": "Banane",
+      "bytes": 7
+    },
+    {
+      "id": "156971",
+      "type": "field",
+      "english": "Letter from Tony",
+      "french": "Lettre de Tony",
+      "bytes": 17
+    },
+    {
+      "id": "156998",
+      "type": "field",
+      "english": "Canary chick",
+      "french": "Bébé canari",
+      "bytes": 13
+    },
+    {
+      "id": "1569BF",
+      "type": "field",
+      "english": "Chicken",
+      "french": "Poulet",
+      "bytes": 8
+    },
+    {
+      "id": "156A0D",
+      "type": "field",
+      "english": "Key to the zoo",
+      "french": "Clé du zoo",
+      "bytes": 15
+    },
+    {
+      "id": "156A34",
+      "type": "field",
+      "english": "Bad key machine",
+      "french": "Machine à clés",
+      "bytes": 16
+    },
+    {
+      "id": "156A82",
+      "type": "field",
+      "english": "Trout yogurt",
+      "french": "Yaourt à la truite",
+      "bytes": 19
+    },
+    {
+      "id": "156AA9",
+      "type": "field",
+      "english": "Bread loaf",
+      "french": "Pain",
+      "bytes": 11
+    },
+    {
+      "id": "156AD0",
+      "type": "field",
+      "english": "Bicycle",
+      "french": "Vélo",
+      "bytes": 8
+    },
+    {
+      "id": "156AF7",
+      "type": "field",
+      "english": "ATM card",
+      "french": "Carte bancaire",
+      "bytes": 15
+    },
+    {
+      "id": "156B6C",
+      "type": "field",
+      "english": "Live Show ticket",
+      "french": "Billet de concert",
+      "bytes": 18
+    },
+    {
+      "id": "156B93",
+      "type": "field",
+      "english": "Receiver phone",
+      "french": "Téléphone récepteur",
+      "bytes": 20
+    },
+    {
+      "id": "156BBA",
+      "type": "field",
+      "english": "Red weed",
+      "french": "Herbe rouge",
+      "bytes": 12
+    },
+    {
+      "id": "156C2F",
+      "type": "field",
+      "english": "Flight plan A",
+      "french": "Plan de vol A",
+      "bytes": 14
+    },
+    {
+      "id": "156C56",
+      "type": "field",
+      "english": "Flight plan B",
+      "french": "Plan de vol B",
+      "bytes": 14
+    },
+    {
+      "id": "156C7D",
+      "type": "field",
+      "english": "Flight plan C",
+      "french": "Plan de vol C",
+      "bytes": 14
+    },
+    {
+      "id": "156CA4",
+      "type": "field",
+      "english": "Calorie stick",
+      "french": "Barre calorique",
+      "bytes": 16
+    },
+    {
+      "id": "156CCB",
+      "type": "field",
+      "english": "Carton of cream",
+      "french": "Brique de crème",
+      "bytes": 16
+    },
+    {
+      "id": "156CF2",
+      "type": "field",
+      "english": "Plain roll",
+      "french": "Pain nature",
+      "bytes": 12
+    },
+    {
+      "id": "156D19",
+      "type": "field",
+      "english": "Time machine",
+      "french": "Machine temporelle",
+      "bytes": 19
+    },
+    {
+      "id": "156D40",
+      "type": "field",
+      "english": "Key to the manor",
+      "french": "Clé du manoir",
+      "bytes": 17
+    },
+    {
+      "id": "156D67",
+      "type": "field",
+      "english": "Meteorite piece",
+      "french": "Fragment de météorite",
+      "bytes": 22
+    },
+    {
+      "id": "156DB5",
+      "type": "field",
+      "english": "Neutralizer",
+      "french": "Neutraliseur",
+      "bytes": 13
+    },
+    {
+      "id": "156DDC",
+      "type": "field",
+      "english": "Carton of milk",
+      "french": "Brique de lait",
+      "bytes": 15
+    },
+    {
+      "id": "156E03",
+      "type": "field",
+      "english": "Sprig of parsley",
+      "french": "Brin de persil",
+      "bytes": 17
+    },
+    {
+      "id": "156E51",
+      "type": "field",
+      "english": "Crisp apple",
+      "french": "Pomme croquante",
+      "bytes": 16
+    },
+    {
+      "id": "156E78",
+      "type": "field",
+      "english": "Juicy pear",
+      "french": "Poire juteuse",
+      "bytes": 14
+    },
+    {
+      "id": "156EC6",
+      "type": "field",
+      "english": "Town map",
+      "french": "Plan de la ville",
+      "bytes": 17
+    },
+    {
+      "id": "156F14",
+      "type": "field",
+      "english": "Magic candy",
+      "french": "Bonbon magique",
+      "bytes": 15
+    },
+    {
+      "id": "156F3B",
+      "type": "field",
+      "english": "Key to the locker",
+      "french": "Clé du casier",
+      "bytes": 18
+    },
+    {
+      "id": "156F62",
+      "type": "field",
+      "english": "Insignificant item",
+      "french": "Objet insignifiant",
+      "bytes": 19
+    },
+    {
+      "id": "156F89",
+      "type": "field",
+      "english": "Magic tart",
+      "french": "Tarte magique",
+      "bytes": 14
+    },
+    {
+      "id": "156FB0",
+      "type": "field",
+      "english": "Tiny ruby",
+      "french": "Petit rubis",
+      "bytes": 12
+    },
+    {
+      "id": "156FD7",
+      "type": "field",
+      "english": "Monkey's love",
+      "french": "Amour de singe",
+      "bytes": 15
+    },
+    {
+      "id": "156FFE",
+      "type": "field",
+      "english": "Eraser eraser",
+      "french": "Efface-effaceur",
+      "bytes": 16
+    },
+    {
+      "id": "157025",
+      "type": "field",
+      "english": "Tendakraut",
+      "french": "Choucroute Tenda",
+      "bytes": 17
+    },
+    {
+      "id": "15704C",
+      "type": "field",
+      "english": "T-rex's bat",
+      "french": "Batte de T-Rex",
+      "bytes": 15
+    },
+    {
+      "id": "157073",
+      "type": "field",
+      "english": "Big league bat",
+      "french": "Batte pro",
+      "bytes": 15
+    },
+    {
+      "id": "15709A",
+      "type": "field",
+      "english": "Ultimate bat",
+      "french": "Batte ultime",
+      "bytes": 13
+    },
+    {
+      "id": "1570C1",
+      "type": "field",
+      "english": "Laser beam",
+      "french": "Rayon laser",
+      "bytes": 12
+    },
+    {
+      "id": "15710F",
+      "type": "field",
+      "english": "Diamond band",
+      "french": "Bracelet de diamant",
+      "bytes": 20
+    },
+    {
+      "id": "157136",
+      "type": "field",
+      "english": "Defense ribbon",
+      "french": "Ruban de défense",
+      "bytes": 17
+    },
+    {
+      "id": "15715D",
+      "type": "field",
+      "english": "Talisman ribbon",
+      "french": "Ruban talisman",
+      "bytes": 16
+    },
+    {
+      "id": "157184",
+      "type": "field",
+      "english": "Saturn ribbon",
+      "french": "Ruban Saturne",
+      "bytes": 14
+    },
+    {
+      "id": "1571AB",
+      "type": "field",
+      "english": "Coin of peace",
+      "french": "Pièce de paix",
+      "bytes": 14
+    },
+    {
+      "id": "1571F9",
+      "type": "field",
+      "english": "Protection coin",
+      "french": "Pièce protectrice",
+      "bytes": 18
+    },
+    {
+      "id": "339A92",
+      "type": "dialogue",
+      "old_bytes": 28,
+      "new_bytes": 18
+    },
+    {
+      "id": "339AAE",
+      "type": "dialogue",
+      "old_bytes": 29,
+      "new_bytes": 22
+    },
+    {
+      "id": "339ACB",
+      "type": "dialogue",
+      "old_bytes": 18,
+      "new_bytes": 17
+    },
+    {
+      "id": "339C02",
+      "type": "dialogue",
+      "old_bytes": 60,
+      "new_bytes": 43
+    },
+    {
+      "id": "339D9E",
+      "type": "dialogue",
+      "old_bytes": 89,
+      "new_bytes": 80
+    },
+    {
+      "id": "339DF7",
+      "type": "dialogue",
+      "old_bytes": 111,
+      "new_bytes": 91
+    },
+    {
+      "id": "339EE7",
+      "type": "dialogue",
+      "old_bytes": 41,
+      "new_bytes": 41
+    },
+    {
+      "id": "33A448",
+      "type": "dialogue",
+      "old_bytes": 79,
+      "new_bytes": 73
+    },
+    {
+      "id": "33A497",
+      "type": "dialogue",
+      "old_bytes": 224,
+      "new_bytes": 174
+    },
+    {
+      "id": "33A577",
+      "type": "dialogue",
+      "old_bytes": 321,
+      "new_bytes": 271
+    },
+    {
+      "id": "33AD70",
+      "type": "dialogue",
+      "old_bytes": 124,
+      "new_bytes": 123
+    },
+    {
+      "id": "33AF88",
+      "type": "dialogue",
+      "old_bytes": 74,
+      "new_bytes": 69
+    },
+    {
+      "id": "33B036",
+      "type": "dialogue",
+      "old_bytes": 82,
+      "new_bytes": 76
+    },
+    {
+      "id": "33B088",
+      "type": "dialogue",
+      "old_bytes": 78,
+      "new_bytes": 73
+    },
+    {
+      "id": "33B0D6",
+      "type": "dialogue",
+      "old_bytes": 68,
+      "new_bytes": 68
+    },
+    {
+      "id": "33B23D",
+      "type": "dialogue",
+      "old_bytes": 133,
+      "new_bytes": 127
+    },
+    {
+      "id": "33B2C2",
+      "type": "dialogue",
+      "old_bytes": 83,
+      "new_bytes": 79
+    },
+    {
+      "id": "33B336",
+      "type": "dialogue",
+      "old_bytes": 127,
+      "new_bytes": 116
+    },
+    {
+      "id": "33B67F",
+      "type": "dialogue",
+      "old_bytes": 150,
+      "new_bytes": 148
+    },
+    {
+      "id": "33B76A",
+      "type": "dialogue",
+      "old_bytes": 15,
+      "new_bytes": 14
+    },
+    {
+      "id": "33B786",
+      "type": "dialogue",
+      "old_bytes": 13,
+      "new_bytes": 9
+    },
+    {
+      "id": "33BE79",
+      "type": "dialogue",
+      "old_bytes": 41,
+      "new_bytes": 36
+    },
+    {
+      "id": "33C256",
+      "type": "dialogue",
+      "old_bytes": 67,
+      "new_bytes": 56
+    },
+    {
+      "id": "33C2DA",
+      "type": "dialogue",
+      "old_bytes": 77,
+      "new_bytes": 76
+    },
+    {
+      "id": "33C365",
+      "type": "dialogue",
+      "old_bytes": 121,
+      "new_bytes": 106
+    },
+    {
+      "id": "33C3DE",
+      "type": "dialogue",
+      "old_bytes": 101,
+      "new_bytes": 89
+    },
+    {
+      "id": "33C443",
+      "type": "dialogue",
+      "old_bytes": 93,
+      "new_bytes": 78
+    },
+    {
+      "id": "36AB32",
+      "type": "dialogue",
+      "old_bytes": 43,
+      "new_bytes": 43
+    },
+    {
+      "id": "36ABB9",
+      "type": "dialogue",
+      "old_bytes": 67,
+      "new_bytes": 51
+    },
+    {
+      "id": "36ABFC",
+      "type": "dialogue",
+      "old_bytes": 167,
+      "new_bytes": 162
+    },
+    {
+      "id": "36ADF1",
+      "type": "dialogue",
+      "old_bytes": 335,
+      "new_bytes": 297
+    },
+    {
+      "id": "36B2D2",
+      "type": "dialogue",
+      "old_bytes": 81,
+      "new_bytes": 80
+    },
+    {
+      "id": "36B323",
+      "type": "dialogue",
+      "old_bytes": 55,
+      "new_bytes": 55
+    },
+    {
+      "id": "36B403",
+      "type": "dialogue",
+      "old_bytes": 85,
+      "new_bytes": 69
+    },
+    {
+      "id": "36B458",
+      "type": "dialogue",
+      "old_bytes": 59,
+      "new_bytes": 45
+    },
+    {
+      "id": "36B582",
+      "type": "dialogue",
+      "old_bytes": 111,
+      "new_bytes": 110
+    },
+    {
+      "id": "36B5F1",
+      "type": "dialogue",
+      "old_bytes": 103,
+      "new_bytes": 87
+    },
+    {
+      "id": "36B6B8",
+      "type": "dialogue",
+      "old_bytes": 59,
+      "new_bytes": 56
+    },
+    {
+      "id": "36B86C",
+      "type": "dialogue",
+      "old_bytes": 85,
+      "new_bytes": 66
+    },
+    {
+      "id": "36B8C1",
+      "type": "dialogue",
+      "old_bytes": 50,
+      "new_bytes": 35
+    },
+    {
+      "id": "36B8F3",
+      "type": "dialogue",
+      "old_bytes": 41,
+      "new_bytes": 35
+    },
+    {
+      "id": "36B944",
+      "type": "dialogue",
+      "old_bytes": 43,
+      "new_bytes": 41
+    },
+    {
+      "id": "38A345",
+      "type": "dialogue",
+      "old_bytes": 146,
+      "new_bytes": 129
+    },
+    {
+      "id": "38A3D7",
+      "type": "dialogue",
+      "old_bytes": 143,
+      "new_bytes": 130
+    },
+    {
+      "id": "38A466",
+      "type": "dialogue",
+      "old_bytes": 93,
+      "new_bytes": 78
+    },
+    {
+      "id": "38A4C3",
+      "type": "dialogue",
+      "old_bytes": 76,
+      "new_bytes": 71
+    },
+    {
+      "id": "38AD64",
+      "type": "intro",
+      "old_bytes": 473,
+      "new_bytes": 456
+    },
+    {
+      "id": "38AF3D",
+      "type": "intro",
+      "old_bytes": 40,
+      "new_bytes": 31
+    }
+  ],
+  "rejected": [
+    {
+      "id": "04C07F",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 6,
+      "available": 5,
+      "english": "Fast",
+      "french": "Rapide"
+    },
+    {
+      "id": "0BD867",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 3,
+      "available": 2,
+      "english": "No",
+      "french": "Non"
+    },
+    {
+      "id": "04C0E5",
+      "type": "field",
+      "reason": "champ fixe trop court",
+      "needed": 28,
+      "available": 25,
+      "english": "Please select text speed.",
+      "french": "Choisis la vitesse du texte."
+    },
+    {
+      "id": "0C2DFD",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 5,
+      "available": 4,
+      "english": "Beam",
+      "french": "Rayon"
+    },
+    {
+      "id": "045BA0",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 6,
+      "available": 4,
+      "english": "Sick",
+      "french": "Malade"
+    },
+    {
+      "id": "045BD0",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 5,
+      "available": 4,
+      "english": "Cold",
+      "french": "Rhume"
+    },
+    {
+      "id": "0BD82B",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 7,
+      "available": 4,
+      "english": "Sing",
+      "french": "Chanter"
+    },
+    {
+      "id": "03F0A0",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 7,
+      "available": 6,
+      "english": "Assist",
+      "french": "Soutien"
+    },
+    {
+      "id": "03F174",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 20,
+      "available": 18,
+      "english": "To all enemies",
+      "french": "Sur tous les ennemis"
+    },
+    {
+      "id": "03F1C4",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 19,
+      "available": 18,
+      "english": "To all of us",
+      "french": "Sur tous les alliés"
+    },
+    {
+      "id": "03F1D8",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 19,
+      "available": 18,
+      "english": "To all of us",
+      "french": "Sur tous les alliés"
+    },
+    {
+      "id": "045C2C",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 10,
+      "available": 9,
+      "english": "  Weapon",
+      "french": "      Arme"
+    },
+    {
+      "id": "045C42",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 10,
+      "available": 9,
+      "english": "     Arms",
+      "french": "      Bras"
+    },
+    {
+      "id": "043550",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 5,
+      "available": 4,
+      "english": "Use",
+      "french": "Usage"
+    },
+    {
+      "id": "04355C",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 5,
+      "available": 4,
+      "english": "Drop",
+      "french": "Jeter"
+    },
+    {
+      "id": "155111",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 10,
+      "available": 7,
+      "english": "Inhaler",
+      "french": "Inhalateur"
+    },
+    {
+      "id": "1552BE",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 13,
+      "available": 10,
+      "english": "Wooden bat",
+      "french": "Batte en bois"
+    },
+    {
+      "id": "15530C",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 13,
+      "available": 8,
+      "english": "Nail bat",
+      "french": "Batte à clous"
+    },
+    {
+      "id": "155333",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 19,
+      "available": 9,
+      "english": "Lucky bat",
+      "french": "Batte porte-bonheur"
+    },
+    {
+      "id": "155381",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 17,
+      "available": 11,
+      "english": "Slugger bat",
+      "french": "Batte de frappeur"
+    },
+    {
+      "id": "1553CF",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 13,
+      "available": 10,
+      "english": "Hank's bat",
+      "french": "Batte de Hank"
+    },
+    {
+      "id": "155507",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 14,
+      "available": 11,
+      "english": "Peter's pan",
+      "french": "Poêle de Peter"
+    },
+    {
+      "id": "15552E",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 17,
+      "available": 10,
+      "english": "Spirit bat",
+      "french": "Batte spirituelle"
+    },
+    {
+      "id": "1555CA",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 11,
+      "available": 7,
+      "english": "Air gun",
+      "french": "Fusil à air"
+    },
+    {
+      "id": "155999",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 12,
+      "available": 11,
+      "english": "Complex kit",
+      "french": "Kit complexe"
+    },
+    {
+      "id": "155D41",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 16,
+      "available": 13,
+      "english": "Double burger",
+      "french": "Double hamburger"
+    },
+    {
+      "id": "155FD8",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 13,
+      "available": 12,
+      "english": "Medium pizza",
+      "french": "Pizza moyenne"
+    },
+    {
+      "id": "155FFF",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 16,
+      "available": 13,
+      "english": "Skip sandwich",
+      "french": "Sandwich express"
+    },
+    {
+      "id": "156296",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 17,
+      "available": 7,
+      "english": "IC-chip",
+      "french": "Puce électronique"
+    },
+    {
+      "id": "15630B",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 15,
+      "available": 12,
+      "english": "Sugar packet",
+      "french": "Sachet de sucre"
+    },
+    {
+      "id": "1564DF",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 13,
+      "available": 11,
+      "english": "Super spray",
+      "french": "Super aérosol"
+    },
+    {
+      "id": "15652D",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 11,
+      "available": 9,
+      "english": "Flashdark",
+      "french": "Lampe noire"
+    },
+    {
+      "id": "156923",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 14,
+      "available": 13,
+      "english": "Vial of serum",
+      "french": "Fiole de sérum"
+    },
+    {
+      "id": "1569E6",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 14,
+      "available": 12,
+      "english": "Basement key",
+      "french": "Clé de la cave"
+    },
+    {
+      "id": "156A5B",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 14,
+      "available": 9,
+      "english": "Mouthwash",
+      "french": "Bain de bouche"
+    },
+    {
+      "id": "156B1E",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 20,
+      "available": 8,
+      "english": "Old pass",
+      "french": "Vieux laissez-passer"
+    },
+    {
+      "id": "156B45",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 12,
+      "available": 10,
+      "english": "Noble seed",
+      "french": "Graine noble"
+    },
+    {
+      "id": "156BE1",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 9,
+      "available": 8,
+      "english": "Bullhorn",
+      "french": "Mégaphone"
+    },
+    {
+      "id": "156C08",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 9,
+      "available": 8,
+      "english": "Debugger",
+      "french": "Débogueur"
+    },
+    {
+      "id": "156D8E",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 13,
+      "available": 11,
+      "english": "Secret herb",
+      "french": "Herbe secrète"
+    },
+    {
+      "id": "156E2A",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 20,
+      "available": 12,
+      "english": "Cheeseburger",
+      "french": "Hamburger au fromage"
+    },
+    {
+      "id": "156E9F",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 10,
+      "available": 9,
+      "english": "PSI stone",
+      "french": "Pierre PSI"
+    },
+    {
+      "id": "156EED",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 13,
+      "available": 12,
+      "english": "Magic ribbon",
+      "french": "Ruban magique"
+    },
+    {
+      "id": "1570E8",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 12,
+      "available": 11,
+      "english": "Plasma beam",
+      "french": "Rayon plasma"
+    },
+    {
+      "id": "1571D2",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 5,
+      "available": 4,
+      "english": "Rope",
+      "french": "Corde"
+    },
+    {
+      "id": "157220",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 13,
+      "available": 10,
+      "english": "Magic coin",
+      "french": "Pièce magique"
+    },
+    {
+      "id": "339F10",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 76,
+      "available": 57
+    },
+    {
+      "id": "33A940",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 53,
+      "available": 46
+    },
+    {
+      "id": "33ADEC",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "33AFD2",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "33B11A",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 133,
+      "available": 126
+    },
+    {
+      "id": "33B198",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "33B315",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 39,
+      "available": 33
+    },
+    {
+      "id": "33B5CD",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "33B715",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 88,
+      "available": 85
+    },
+    {
+      "id": "33B779",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 19,
+      "available": 13
+    },
+    {
+      "id": "33C299",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 66,
+      "available": 65
+    },
+    {
+      "id": "33C327",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 68,
+      "available": 62
+    },
+    {
+      "id": "36A9DB",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 25,
+      "available": 17
+    },
+    {
+      "id": "36AA33",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "36AAED",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "36ACA3",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 53,
+      "available": 47
+    },
+    {
+      "id": "36AF40",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "36B28A",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 78,
+      "available": 72
+    },
+    {
+      "id": "36B35A",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 25,
+      "available": 23
+    },
+    {
+      "id": "36B371",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 91,
+      "available": 89
+    },
+    {
+      "id": "36B3D6",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 54,
+      "available": 45
+    },
+    {
+      "id": "36B493",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 158,
+      "available": 152
+    },
+    {
+      "id": "36B658",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 100,
+      "available": 96
+    },
+    {
+      "id": "36B6F8",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "36B752",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "36B788",
+      "type": "dialogue",
+      "reason": "pointeur intérieur au bloc ; relocation nécessaire"
+    },
+    {
+      "id": "36B91C",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 41,
+      "available": 40
+    },
+    {
+      "id": "38A32A",
+      "type": "dialogue",
+      "reason": "texte trop long ; relocation nécessaire",
+      "needed": 34,
+      "available": 27
+    }
+  ],
+  "font_glyphs": [],
+  "target_sha256": "7cb533089c1da4ac5234790bcd4a7f02f2c899ff8d686451dad9f4635bfa49cf",
+  "source_rom_unchanged": true,
+  "rom_size": 4194304,
+  "checksum": "29E2",
+  "accepted_count": 324,
+  "rejected_count": 74,
+  "bytes_changed": 7493,
+  "commands_preserved": true,
+  "ips_roundtrip_passed": true,
+  "runtime_validated": false
+}

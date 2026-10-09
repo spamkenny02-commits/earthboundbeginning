@@ -1,0 +1,2440 @@
+[
+  {
+    "id": "339A92",
+    "offset": "339A92",
+    "snes": "F39A92",
+    "length": 28,
+    "source": "script_candidate",
+    "text_en": "@What are you waiting for?[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 87 98 91 A4 50 91 A2 95 50 A9 9F A5 50 A7 91 99 A4 99 9E 97 50 96 9F A2 6F 13 02",
+    "literal_pointer_offsets": [
+      "3489C0"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@What are you waiting for?[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@What are you waiting for?",
+        "french": "@Qu'attends-tu ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "339AAE",
+    "offset": "339AAE",
+    "snes": "F39AAE",
+    "length": 29,
+    "source": "script_candidate",
+    "text_en": "@You know what you must do.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 89 9F A5 50 9B 9E 9F A7 50 A7 98 91 A4 50 A9 9F A5 50 9D A5 A3 A4 50 94 9F 5E 13 02",
+    "literal_pointer_offsets": [
+      "348B29"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@You know what you must do.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@You know what you must do.",
+        "french": "@Tu sais quoi faire."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "339ACB",
+    "offset": "339ACB",
+    "snes": "F39ACB",
+    "length": 18,
+    "source": "script_candidate",
+    "text_en": "@She is waiting.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 83 98 95 50 99 A3 50 A7 91 99 A4 99 9E 97 5E 13 02",
+    "literal_pointer_offsets": [
+      "348B5F"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@She is waiting.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@She is waiting.",
+        "french": "@Elle t'attend."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "339C02",
+    "offset": "339C02",
+    "snes": "F39C02",
+    "length": 60,
+    "source": "script_candidate",
+    "text_en": "@(The sound of a running vacuum cleaner can be heard...)[13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 58 84 98 95 50 A3 9F A5 9E 94 50 9F 96 50 91 50 A2 A5 9E 9E 99 9E 97 50 A6 91 93 A5 A5 9D 50 93 9C 95 91 9E 95 A2 50 93 91 9E 50 92 95 50 98 95 91 A2 94 5E 5E 5E 59 13 18 00 02",
+    "literal_pointer_offsets": [
+      "339B7A"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@(The sound of a running vacuum cleaner can be heard...)[13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@(The sound of a running vacuum cleaner can be heard...)",
+        "french": "@(On entend un aspirateur en marche...)"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "339D9E",
+    "offset": "339D9E",
+    "snes": "F39D9E",
+    "length": 89,
+    "source": "script_candidate",
+    "text_en": "[1F 02 6F][10 28][18 01 35]@Who is it?[03][00]@Oh, it's just a brat.[03][00]@You can't ding-dong-ditch me this time![13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 6F 10 28 18 01 35 70 87 98 9F 50 99 A3 50 99 A4 6F 03 00 70 7F 98 5C 50 99 A4 57 A3 50 9A A5 A3 A4 50 91 50 92 A2 91 A4 5E 03 00 70 89 9F A5 50 93 91 9E 57 A4 50 94 99 9E 97 5D 94 9F 9E 97 5D 94 99 A4 93 98 50 9D 95 50 A4 98 99 A3 50 A4 99 9D 95 51 13 18 00 02",
+    "literal_pointer_offsets": [
+      "0F16E5"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 6F][10 28][18 01 35]@Who is it?\n@Oh, it's just a brat.\n@You can't ding-dong-ditch me this time![13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 8,
+        "original": "@Who is it?",
+        "french": "@Qui est là ?"
+      },
+      {
+        "offset": 21,
+        "original": "@Oh, it's just a brat.",
+        "french": "@Ah, un gamin."
+      },
+      {
+        "offset": 45,
+        "original": "@You can't ding-dong-ditch me this time!",
+        "french": "@Tu ne m'auras pas avec ta sonnette !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "339DF7",
+    "offset": "339DF7",
+    "snes": "F39DF7",
+    "length": 111,
+    "source": "script_candidate",
+    "text_en": "[1F 02 6F][10 28][18 01 35]@Why are you knocking on strangers' doors?[03][00]@Didn't your mother teach you not to talk to strangers?[13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 6F 10 28 18 01 35 70 87 98 A9 50 91 A2 95 50 A9 9F A5 50 9B 9E 9F 93 9B 99 9E 97 50 9F 9E 50 A3 A4 A2 91 9E 97 95 A2 A3 57 50 94 9F 9F A2 A3 6F 03 00 70 74 99 94 9E 57 A4 50 A9 9F A5 A2 50 9D 9F A4 98 95 A2 50 A4 95 91 93 98 50 A9 9F A5 50 9E 9F A4 50 A4 9F 50 A4 91 9C 9B 50 A4 9F 50 A3 A4 A2 91 9E 97 95 A2 A3 6F 13 18 00 02",
+    "literal_pointer_offsets": [
+      "0F1DF3"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 6F][10 28][18 01 35]@Why are you knocking on strangers' doors?\n@Didn't your mother teach you not to talk to strangers?[13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 8,
+        "original": "@Why are you knocking on strangers' doors?",
+        "french": "@Pourquoi frapper chez des inconnus ?"
+      },
+      {
+        "offset": 52,
+        "original": "@Didn't your mother teach you not to talk to strangers?",
+        "french": "@Ta mère ne t'a pas dit de t'en méfier ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "339EE7",
+    "offset": "339EE7",
+    "snes": "F39EE7",
+    "length": 41,
+    "source": "script_candidate",
+    "text_en": "[1F 02 6F][10 28][18 01 35]@Hahaha...[03][00]@N-no one's home![13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 6F 10 28 18 01 35 70 78 91 98 91 98 91 5E 5E 5E 03 00 70 7E 5D 9E 9F 50 9F 9E 95 57 A3 50 98 9F 9D 95 51 13 18 00 02",
+    "literal_pointer_offsets": [
+      "0F1055"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 6F][10 28][18 01 35]@Hahaha...\n@N-no one's home![13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 8,
+        "original": "@Hahaha...",
+        "french": "@Hahaha..."
+      },
+      {
+        "offset": 20,
+        "original": "@N-no one's home!",
+        "french": "@P-personne ici !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "339F10",
+    "offset": "339F10",
+    "snes": "F39F10",
+    "length": 57,
+    "source": "script_candidate",
+    "text_en": "[1F 02 6F][10 28][18 01 35]@Oh, don't mind me.[03][00]@I'm a real nowhere man.[13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 6F 10 28 18 01 35 70 7F 98 5C 50 94 9F 9E 57 A4 50 9D 99 9E 94 50 9D 95 5E 03 00 70 79 57 9D 50 91 50 A2 95 91 9C 50 9E 9F A7 98 95 A2 95 50 9D 91 9E 5E 13 18 00 02",
+    "literal_pointer_offsets": [
+      "0F0A85"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 6F][10 28][18 01 35]@Oh, don't mind me.\n@I'm a real nowhere man.[13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 8,
+        "original": "@Oh, don't mind me.",
+        "french": "@Ne fais pas attention à moi."
+      },
+      {
+        "offset": 29,
+        "original": "@I'm a real nowhere man.",
+        "french": "@Je ne suis qu'un pauvre inconnu."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A448",
+    "offset": "33A448",
+    "snes": "F3A448",
+    "length": 79,
+    "source": "script_candidate",
+    "text_en": "@You're a boring type of person, aren't you?[03][00]@Go be boring someplace else.[13][18 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 89 9F A5 57 A2 95 50 91 50 92 9F A2 99 9E 97 50 A4 A9 A0 95 50 9F 96 50 A0 95 A2 A3 9F 9E 5C 50 91 A2 95 9E 57 A4 50 A9 9F A5 6F 03 00 70 77 9F 50 92 95 50 92 9F A2 99 9E 97 50 A3 9F 9D 95 A0 9C 91 93 95 50 95 9C A3 95 5E 13 18 00 02",
+    "literal_pointer_offsets": [
+      "33A37B",
+      "33A380"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@You're a boring type of person, aren't you?\n@Go be boring someplace else.[13][18 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@You're a boring type of person, aren't you?",
+        "french": "@Tu es vraiment ennuyeux, hein ?"
+      },
+      {
+        "offset": 46,
+        "original": "@Go be boring someplace else.",
+        "french": "@Va donc ennuyer quelqu'un d'autre."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A497",
+    "offset": "33A497",
+    "snes": "F3A497",
+    "length": 224,
+    "source": "script_candidate",
+    "text_en": "@Life Hints[03][00]@<Hotel Rule:> Sleeping the night fully recovers both HP and PP.[03][00]@<Recovery Rule:> Continuing from a lost battle restores you with full HP but 0 PP.[03][00]@Half of the money you were carrying on hand is also lost.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 7C 99 96 95 50 78 99 9E A4 A3 03 00 70 6C 78 9F A4 95 9C 50 82 A5 9C 95 6A 6E 50 83 9C 95 95 A0 99 9E 97 50 A4 98 95 50 9E 99 97 98 A4 50 96 A5 9C 9C A9 50 A2 95 93 9F A6 95 A2 A3 50 92 9F A4 98 50 78 80 50 91 9E 94 50 80 80 5E 03 00 70 6C 82 95 93 9F A6 95 A2 A9 50 82 A5 9C 95 6A 6E 50 73 9F 9E A4 99 9E A5 99 9E 97 50 96 A2 9F 9D 50 91 50 9C 9F A3 A4 50 92 91 A4 A4 9C 95 50 A2 95 A3 A4 9F A2 95 A3 50 A9 9F A5 50 A7 99 A4 98 50 96 A5 9C 9C 50 78 80 50 92 A5 A4 50 60 50 80 80 5E 03 00 70 78 91 9C 96 50 9F 96 50 A4 98 95 50 9D 9F 9E 95 A9 50 A9 9F A5 50 A7 95 A2 95 50 93 91 A2 A2 A9 99 9E 97 50 9F 9E 50 98 91 9E 94 50 99 A3 50 91 9C A3 9F 50 9C 9F A3 A4 5E 13 02",
+    "literal_pointer_offsets": [
+      "203C30"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Life Hints\n@<Hotel Rule:> Sleeping the night fully recovers both HP and PP.\n@<Recovery Rule:> Continuing from a lost battle restores you with full HP but 0 PP.\n@Half of the money you were carrying on hand is also lost.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Life Hints",
+        "french": "@Conseils de survie"
+      },
+      {
+        "offset": 13,
+        "original": "@<Hotel Rule:> Sleeping the night fully recovers both HP and PP.",
+        "french": "@<Hôtel :> Une nuit rend tous tes PV et PP."
+      },
+      {
+        "offset": 79,
+        "original": "@<Recovery Rule:> Continuing from a lost battle restores you with full HP but 0 PP.",
+        "french": "@<Défaite :> Reprendre rend tous tes PV, mais aucun PP."
+      },
+      {
+        "offset": 164,
+        "original": "@Half of the money you were carrying on hand is also lost.",
+        "french": "@Tu perds aussi la moitié de ton argent de poche."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A577",
+    "offset": "33A577",
+    "snes": "F3A577",
+    "length": 321,
+    "source": "script_candidate",
+    "text_en": "@Convenience Hints[03][00]@<ATM Rule:> ATMs can be used to withdraw money.[03][00]@An ATM can always be found in hotels, stores, and train stations. [03][00]@<Phone Rule:> Telephones can be used to record your progress.[03][00]@Black phones are free to use. Green payphones cost $1.[03][00]@Telephones can also be found anywhere an ATM is available.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 73 9F 9E A6 95 9E 99 95 9E 93 95 50 78 99 9E A4 A3 03 00 70 6C 71 84 7D 50 82 A5 9C 95 6A 6E 50 71 84 7D A3 50 93 91 9E 50 92 95 50 A5 A3 95 94 50 A4 9F 50 A7 99 A4 98 94 A2 91 A7 50 9D 9F 9E 95 A9 5E 03 00 70 71 9E 50 71 84 7D 50 93 91 9E 50 91 9C A7 91 A9 A3 50 92 95 50 96 9F A5 9E 94 50 99 9E 50 98 9F A4 95 9C A3 5C 50 A3 A4 9F A2 95 A3 5C 50 91 9E 94 50 A4 A2 91 99 9E 50 A3 A4 91 A4 99 9F 9E A3 5E 50 03 00 70 6C 80 98 9F 9E 95 50 82 A5 9C 95 6A 6E 50 84 95 9C 95 A0 98 9F 9E 95 A3 50 93 91 9E 50 92 95 50 A5 A3 95 94 50 A4 9F 50 A2 95 93 9F A2 94 50 A9 9F A5 A2 50 A0 A2 9F 97 A2 95 A3 A3 5E 03 00 70 72 9C 91 93 9B 50 A0 98 9F 9E 95 A3 50 91 A2 95 50 96 A2 95 95 50 A4 9F 50 A5 A3 95 5E 50 77 A2 95 95 9E 50 A0 91 A9 A0 98 9F 9E 95 A3 50 93 9F A3 A4 50 54 61 5E 03 00 70 84 95 9C 95 A0 98 9F 9E 95 A3 50 93 91 9E 50 91 9C A3 9F 50 92 95 50 96 9F A5 9E 94 50 91 9E A9 A7 98 95 A2 95 50 91 9E 50 71 84 7D 50 99 A3 50 91 A6 91 99 9C 91 92 9C 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "203C1F"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Convenience Hints\n@<ATM Rule:> ATMs can be used to withdraw money.\n@An ATM can always be found in hotels, stores, and train stations. \n@<Phone Rule:> Telephones can be used to record your progress.\n@Black phones are free to use. Green payphones cost $1.\n@Telephones can also be found anywhere an ATM is available.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Convenience Hints",
+        "french": "@Conseils pratiques"
+      },
+      {
+        "offset": 20,
+        "original": "@<ATM Rule:> ATMs can be used to withdraw money.",
+        "french": "@<Distributeur :> Il permet de retirer de l'argent."
+      },
+      {
+        "offset": 70,
+        "original": "@An ATM can always be found in hotels, stores, and train stations. ",
+        "french": "@On en trouve dans les hôtels, magasins et gares."
+      },
+      {
+        "offset": 139,
+        "original": "@<Phone Rule:> Telephones can be used to record your progress.",
+        "french": "@<Téléphone :> Il permet de sauvegarder ta partie."
+      },
+      {
+        "offset": 203,
+        "original": "@Black phones are free to use. Green payphones cost $1.",
+        "french": "@Les noirs sont gratuits. Les verts coûtent $1."
+      },
+      {
+        "offset": 260,
+        "original": "@Telephones can also be found anywhere an ATM is available.",
+        "french": "@On en trouve aussi près des distributeurs."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33A940",
+    "offset": "33A940",
+    "snes": "F3A940",
+    "length": 46,
+    "source": "script_candidate",
+    "text_en": "@<Podunk>[00]@Quiet days and beautiful flowers.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 80 9F 94 A5 9E 9B 6E 00 70 81 A5 99 95 A4 50 94 91 A9 A3 50 91 9E 94 50 92 95 91 A5 A4 99 96 A5 9C 50 96 9C 9F A7 95 A2 A3 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F0F33"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<Podunk>\n@Quiet days and beautiful flowers.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<Podunk>",
+        "french": "@<Podunk>"
+      },
+      {
+        "offset": 10,
+        "original": "@Quiet days and beautiful flowers.",
+        "french": "@Des jours paisibles et de belles fleurs."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33AD70",
+    "offset": "33AD70",
+    "snes": "F3AD70",
+    "length": 124,
+    "source": "script_candidate",
+    "text_en": "@1st floor: Service Desk[03][00]@2nd floor: Pharmacy[03][00]@3rd floor: Sports and Athletics[03][00]@4th floor: Food Court[03][00]@5th floor: Pets[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 61 A3 A4 50 96 9C 9F 9F A2 6A 50 83 95 A2 A6 99 93 95 50 74 95 A3 9B 03 00 70 62 9E 94 50 96 9C 9F 9F A2 6A 50 80 98 91 A2 9D 91 93 A9 03 00 70 63 A2 94 50 96 9C 9F 9F A2 6A 50 83 A0 9F A2 A4 A3 50 91 9E 94 50 71 A4 98 9C 95 A4 99 93 A3 03 00 70 64 A4 98 50 96 9C 9F 9F A2 6A 50 76 9F 9F 94 50 73 9F A5 A2 A4 03 00 70 65 A4 98 50 96 9C 9F 9F A2 6A 50 80 95 A4 A3 13 02",
+    "literal_pointer_offsets": [
+      "0F19F6"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@1st floor: Service Desk\n@2nd floor: Pharmacy\n@3rd floor: Sports and Athletics\n@4th floor: Food Court\n@5th floor: Pets[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@1st floor: Service Desk",
+        "french": "@1er étage : Accueil"
+      },
+      {
+        "offset": 26,
+        "original": "@2nd floor: Pharmacy",
+        "french": "@2e étage : Pharmacie"
+      },
+      {
+        "offset": 48,
+        "original": "@3rd floor: Sports and Athletics",
+        "french": "@3e étage : Articles de sport"
+      },
+      {
+        "offset": 82,
+        "original": "@4th floor: Food Court",
+        "french": "@4e étage : Restauration"
+      },
+      {
+        "offset": 106,
+        "original": "@5th floor: Pets",
+        "french": "@5e étage : Animaux"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33ADEC",
+    "offset": "33ADEC",
+    "snes": "F3ADEC",
+    "length": 32,
+    "source": "script_candidate",
+    "text_en": "@All pets must remain outside.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 9C 9C 50 A0 95 A4 A3 50 9D A5 A3 A4 50 A2 95 9D 91 99 9E 50 9F A5 A4 A3 99 94 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1DBF"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@All pets must remain outside.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@All pets must remain outside.",
+        "french": "@Les animaux doivent rester dehors."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33AF88",
+    "offset": "33AF88",
+    "snes": "F3AF88",
+    "length": 74,
+    "source": "script_candidate",
+    "text_en": "@<Common Rabbit>[03][00]@Scientists around the world agree they're super cute.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 73 9F 9D 9D 9F 9E 50 82 91 92 92 99 A4 6E 03 00 70 83 93 99 95 9E A4 99 A3 A4 A3 50 91 A2 9F A5 9E 94 50 A4 98 95 50 A7 9F A2 9C 94 50 91 97 A2 95 95 50 A4 98 95 A9 57 A2 95 50 A3 A5 A0 95 A2 50 93 A5 A4 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1A26"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<Common Rabbit>\n@Scientists around the world agree they're super cute.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<Common Rabbit>",
+        "french": "@<Lapin commun>"
+      },
+      {
+        "offset": 18,
+        "original": "@Scientists around the world agree they're super cute.",
+        "french": "@Les savants du monde entier le trouvent adorable."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33AFD2",
+    "offset": "33AFD2",
+    "snes": "F3AFD2",
+    "length": 100,
+    "source": "script_candidate",
+    "text_en": "@<Uncommon Tiger>[03][00]@Contrary to popular belief, they change their stripes whenever they get dirty.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 85 9E 93 9F 9D 9D 9F 9E 50 84 99 97 95 A2 6E 03 00 70 73 9F 9E A4 A2 91 A2 A9 50 A4 9F 50 A0 9F A0 A5 9C 91 A2 50 92 95 9C 99 95 96 5C 50 A4 98 95 A9 50 93 98 91 9E 97 95 50 A4 98 95 99 A2 50 A3 A4 A2 99 A0 95 A3 50 A7 98 95 9E 95 A6 95 A2 50 A4 98 95 A9 50 97 95 A4 50 94 99 A2 A4 A9 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1A9D"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<Uncommon Tiger>\n@Contrary to popular belief, they change their stripes whenever they get dirty.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<Uncommon Tiger>",
+        "french": "@<Tigre peu commun>"
+      },
+      {
+        "offset": 19,
+        "original": "@Contrary to popular belief, they change their stripes whenever they get dirty.",
+        "french": "@Il change de rayures quand elles sont sales."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B036",
+    "offset": "33B036",
+    "snes": "F3B036",
+    "length": 82,
+    "source": "script_candidate",
+    "text_en": "@<African Elephant>[03][00]@Of all the animals in this zoo, they're the worst jumpers.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 71 96 A2 99 93 91 9E 50 75 9C 95 A0 98 91 9E A4 6E 03 00 70 7F 96 50 91 9C 9C 50 A4 98 95 50 91 9E 99 9D 91 9C A3 50 99 9E 50 A4 98 99 A3 50 AA 9F 9F 5C 50 A4 98 95 A9 57 A2 95 50 A4 98 95 50 A7 9F A2 A3 A4 50 9A A5 9D A0 95 A2 A3 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1A2A"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<African Elephant>\n@Of all the animals in this zoo, they're the worst jumpers.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<African Elephant>",
+        "french": "@<Éléphant d'Afrique>"
+      },
+      {
+        "offset": 21,
+        "original": "@Of all the animals in this zoo, they're the worst jumpers.",
+        "french": "@De tous les animaux du zoo, c'est le pire sauteur."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B088",
+    "offset": "33B088",
+    "snes": "F3B088",
+    "length": 78,
+    "source": "script_candidate",
+    "text_en": "@<Common Alligator>[03][00]@They love water, but have a bad habit of running late.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 73 9F 9D 9D 9F 9E 50 71 9C 9C 99 97 91 A4 9F A2 6E 03 00 70 84 98 95 A9 50 9C 9F A6 95 50 A7 91 A4 95 A2 5C 50 92 A5 A4 50 98 91 A6 95 50 91 50 92 91 94 50 98 91 92 99 A4 50 9F 96 50 A2 A5 9E 9E 99 9E 97 50 9C 91 A4 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F197C"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<Common Alligator>\n@They love water, but have a bad habit of running late.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<Common Alligator>",
+        "french": "@<Alligator commun>"
+      },
+      {
+        "offset": 21,
+        "original": "@They love water, but have a bad habit of running late.",
+        "french": "@Il adore l'eau, mais il arrive souvent en retard."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B0D6",
+    "offset": "33B0D6",
+    "snes": "F3B0D6",
+    "length": 68,
+    "source": "script_candidate",
+    "text_en": "@<Giant Panda>[03][00]@One of the pickiest eaters of the animal kingdom.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 77 99 91 9E A4 50 80 91 9E 94 91 6E 03 00 70 7F 9E 95 50 9F 96 50 A4 98 95 50 A0 99 93 9B 99 95 A3 A4 50 95 91 A4 95 A2 A3 50 9F 96 50 A4 98 95 50 91 9E 99 9D 91 9C 50 9B 99 9E 97 94 9F 9D 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1980"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<Giant Panda>\n@One of the pickiest eaters of the animal kingdom.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<Giant Panda>",
+        "french": "@<Panda géant>"
+      },
+      {
+        "offset": 16,
+        "original": "@One of the pickiest eaters of the animal kingdom.",
+        "french": "@L'un des mangeurs les plus difficiles qui soient."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B11A",
+    "offset": "33B11A",
+    "snes": "F3B11A",
+    "length": 126,
+    "source": "script_candidate",
+    "text_en": "@<Humboldt Penguin>[03][00]@Native to Chile and Peru.[03][00]@Not to be confused with the Humble Penguin.[03][00]@They're notorious braggarts.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 78 A5 9D 92 9F 9C 94 A4 50 80 95 9E 97 A5 99 9E 6E 03 00 70 7E 91 A4 99 A6 95 50 A4 9F 50 73 98 99 9C 95 50 91 9E 94 50 80 95 A2 A5 5E 03 00 70 7E 9F A4 50 A4 9F 50 92 95 50 93 9F 9E 96 A5 A3 95 94 50 A7 99 A4 98 50 A4 98 95 50 78 A5 9D 92 9C 95 50 80 95 9E 97 A5 99 9E 5E 03 00 70 84 98 95 A9 57 A2 95 50 9E 9F A4 9F A2 99 9F A5 A3 50 92 A2 91 97 97 91 A2 A4 A3 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1A2E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<Humboldt Penguin>\n@Native to Chile and Peru.\n@Not to be confused with the Humble Penguin.\n@They're notorious braggarts.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<Humboldt Penguin>",
+        "french": "@<Manchot de Humboldt>"
+      },
+      {
+        "offset": 21,
+        "original": "@Native to Chile and Peru.",
+        "french": "@Il vient du Chili et du Pérou."
+      },
+      {
+        "offset": 49,
+        "original": "@Not to be confused with the Humble Penguin.",
+        "french": "@Ne pas confondre avec le manchot humble."
+      },
+      {
+        "offset": 95,
+        "original": "@They're notorious braggarts.",
+        "french": "@C'est un incorrigible vantard."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B198",
+    "offset": "33B198",
+    "snes": "F3B198",
+    "length": 165,
+    "source": "script_candidate",
+    "text_en": "@<Eastern Gorilla>[03][00]@Because a gorilla's nose print is as unique as a person's fingerprints,[03][00]@if they commit a crime you can see the evidence all over their face.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 75 91 A3 A4 95 A2 9E 50 77 9F A2 99 9C 9C 91 6E 03 00 70 72 95 93 91 A5 A3 95 50 91 50 97 9F A2 99 9C 9C 91 57 A3 50 9E 9F A3 95 50 A0 A2 99 9E A4 50 99 A3 50 91 A3 50 A5 9E 99 A1 A5 95 50 91 A3 50 91 50 A0 95 A2 A3 9F 9E 57 A3 50 96 99 9E 97 95 A2 A0 A2 99 9E A4 A3 5C 03 00 70 99 96 50 A4 98 95 A9 50 93 9F 9D 9D 99 A4 50 91 50 93 A2 99 9D 95 50 A9 9F A5 50 93 91 9E 50 A3 95 95 50 A4 98 95 50 95 A6 99 94 95 9E 93 95 50 91 9C 9C 50 9F A6 95 A2 50 A4 98 95 99 A2 50 96 91 93 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1AA1"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<Eastern Gorilla>\n@Because a gorilla's nose print is as unique as a person's fingerprints,\n@if they commit a crime you can see the evidence all over their face.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<Eastern Gorilla>",
+        "french": "@<Gorille de l'Est>"
+      },
+      {
+        "offset": 20,
+        "original": "@Because a gorilla's nose print is as unique as a person's fingerprints,",
+        "french": "@L'empreinte de son nez est unique, comme celle d'un doigt."
+      },
+      {
+        "offset": 94,
+        "original": "@if they commit a crime you can see the evidence all over their face.",
+        "french": "@S'il commet un crime, les preuves sont sur son visage."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B23D",
+    "offset": "33B23D",
+    "snes": "F3B23D",
+    "length": 133,
+    "source": "script_candidate",
+    "text_en": "@<Lesser Flamingo>[03][00]@Their pink coloration is gained from their diets.[03][00]@Research to find other colors of food for them is ongoing.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 7C 95 A3 A3 95 A2 50 76 9C 91 9D 99 9E 97 9F 6E 03 00 70 84 98 95 99 A2 50 A0 99 9E 9B 50 93 9F 9C 9F A2 91 A4 99 9F 9E 50 99 A3 50 97 91 99 9E 95 94 50 96 A2 9F 9D 50 A4 98 95 99 A2 50 94 99 95 A4 A3 5E 03 00 70 82 95 A3 95 91 A2 93 98 50 A4 9F 50 96 99 9E 94 50 9F A4 98 95 A2 50 93 9F 9C 9F A2 A3 50 9F 96 50 96 9F 9F 94 50 96 9F A2 50 A4 98 95 9D 50 99 A3 50 9F 9E 97 9F 99 9E 97 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1A32"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<Lesser Flamingo>\n@Their pink coloration is gained from their diets.\n@Research to find other colors of food for them is ongoing.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<Lesser Flamingo>",
+        "french": "@<Flamant nain>"
+      },
+      {
+        "offset": 20,
+        "original": "@Their pink coloration is gained from their diets.",
+        "french": "@Sa couleur rose vient de son alimentation."
+      },
+      {
+        "offset": 72,
+        "original": "@Research to find other colors of food for them is ongoing.",
+        "french": "@On cherche des aliments qui lui donneraient d'autres couleurs."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B2C2",
+    "offset": "33B2C2",
+    "snes": "F3B2C2",
+    "length": 83,
+    "source": "script_candidate",
+    "text_en": "@<Spotted Hyena>[03][00]@More closely related to cats than dogs, they love a good joke.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 6C 83 A0 9F A4 A4 95 94 50 78 A9 95 9E 91 6E 03 00 70 7D 9F A2 95 50 93 9C 9F A3 95 9C A9 50 A2 95 9C 91 A4 95 94 50 A4 9F 50 93 91 A4 A3 50 A4 98 91 9E 50 94 9F 97 A3 5C 50 A4 98 95 A9 50 9C 9F A6 95 50 91 50 97 9F 9F 94 50 9A 9F 9B 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1A36"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@<Spotted Hyena>\n@More closely related to cats than dogs, they love a good joke.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@<Spotted Hyena>",
+        "french": "@<Hyène tachetée>"
+      },
+      {
+        "offset": 18,
+        "original": "@More closely related to cats than dogs, they love a good joke.",
+        "french": "@Plus proche du chat que du chien, elle adore les blagues."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B315",
+    "offset": "33B315",
+    "snes": "F3B315",
+    "length": 33,
+    "source": "script_candidate",
+    "text_en": "@The allegrators are my favrut![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 84 98 95 50 91 9C 9C 95 97 A2 91 A4 9F A2 A3 50 91 A2 95 50 9D A9 50 96 91 A6 A2 A5 A4 51 13 02",
+    "literal_pointer_offsets": [
+      "203E1D"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@The allegrators are my favrut![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@The allegrators are my favrut!",
+        "french": "@Les alligators, c'est mes préférés !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B336",
+    "offset": "33B336",
+    "snes": "F3B336",
+    "length": 127,
+    "source": "script_candidate",
+    "text_en": "@Ohoho![03][00]@You youngsters could learn a thing or two from my grandkids.[03][00]@Remember to cherish every new memory and experience.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 7F 98 9F 98 9F 51 03 00 70 89 9F A5 50 A9 9F A5 9E 97 A3 A4 95 A2 A3 50 93 9F A5 9C 94 50 9C 95 91 A2 9E 50 91 50 A4 98 99 9E 97 50 9F A2 50 A4 A7 9F 50 96 A2 9F 9D 50 9D A9 50 97 A2 91 9E 94 9B 99 94 A3 5E 03 00 70 82 95 9D 95 9D 92 95 A2 50 A4 9F 50 93 98 95 A2 99 A3 98 50 95 A6 95 A2 A9 50 9E 95 A7 50 9D 95 9D 9F A2 A9 50 91 9E 94 50 95 A8 A0 95 A2 99 95 9E 93 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "203EFA"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Ohoho!\n@You youngsters could learn a thing or two from my grandkids.\n@Remember to cherish every new memory and experience.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Ohoho!",
+        "french": "@Ohoho !"
+      },
+      {
+        "offset": 9,
+        "original": "@You youngsters could learn a thing or two from my grandkids.",
+        "french": "@Vous pourriez prendre exemple sur mes petits-enfants."
+      },
+      {
+        "offset": 72,
+        "original": "@Remember to cherish every new memory and experience.",
+        "french": "@Chérissez chaque souvenir et chaque découverte."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B5CD",
+    "offset": "33B5CD",
+    "snes": "F3B5CD",
+    "length": 178,
+    "source": "script_candidate",
+    "text_en": "@My son faked being sick to get out of school.[03][00]@So I faked being sick to get out of work![03][00]@Seeing how happy he is makes it all worth it.[03][00]@Don't you think I'm a great father?[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 7D A9 50 A3 9F 9E 50 96 91 9B 95 94 50 92 95 99 9E 97 50 A3 99 93 9B 50 A4 9F 50 97 95 A4 50 9F A5 A4 50 9F 96 50 A3 93 98 9F 9F 9C 5E 03 00 70 83 9F 50 79 50 96 91 9B 95 94 50 92 95 99 9E 97 50 A3 99 93 9B 50 A4 9F 50 97 95 A4 50 9F A5 A4 50 9F 96 50 A7 9F A2 9B 51 03 00 70 83 95 95 99 9E 97 50 98 9F A7 50 98 91 A0 A0 A9 50 98 95 50 99 A3 50 9D 91 9B 95 A3 50 99 A4 50 91 9C 9C 50 A7 9F A2 A4 98 50 99 A4 5E 03 00 70 74 9F 9E 57 A4 50 A9 9F A5 50 A4 98 99 9E 9B 50 79 57 9D 50 91 50 97 A2 95 91 A4 50 96 91 A4 98 95 A2 6F 13 02",
+    "literal_pointer_offsets": [
+      "203F0B"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@My son faked being sick to get out of school.\n@So I faked being sick to get out of work!\n@Seeing how happy he is makes it all worth it.\n@Don't you think I'm a great father?[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@My son faked being sick to get out of school.",
+        "french": "@Mon fils a fait semblant d'être malade pour rater l'école."
+      },
+      {
+        "offset": 48,
+        "original": "@So I faked being sick to get out of work!",
+        "french": "@Alors j'ai fait pareil pour ne pas aller travailler !"
+      },
+      {
+        "offset": 92,
+        "original": "@Seeing how happy he is makes it all worth it.",
+        "french": "@Le voir si heureux en valait la peine."
+      },
+      {
+        "offset": 140,
+        "original": "@Don't you think I'm a great father?",
+        "french": "@Je suis un super papa, non ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B67F",
+    "offset": "33B67F",
+    "snes": "F3B67F",
+    "length": 150,
+    "source": "script_candidate",
+    "text_en": "@I've heard there are monkeys who can sing![03][00]@But I've also heard that monkeys can lie.[03][00]@Would a monkey lie about being able to sing, do you think?[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 57 A6 95 50 98 95 91 A2 94 50 A4 98 95 A2 95 50 91 A2 95 50 9D 9F 9E 9B 95 A9 A3 50 A7 98 9F 50 93 91 9E 50 A3 99 9E 97 51 03 00 70 72 A5 A4 50 79 57 A6 95 50 91 9C A3 9F 50 98 95 91 A2 94 50 A4 98 91 A4 50 9D 9F 9E 9B 95 A9 A3 50 93 91 9E 50 9C 99 95 5E 03 00 70 87 9F A5 9C 94 50 91 50 9D 9F 9E 9B 95 A9 50 9C 99 95 50 91 92 9F A5 A4 50 92 95 99 9E 97 50 91 92 9C 95 50 A4 9F 50 A3 99 9E 97 5C 50 94 9F 50 A9 9F A5 50 A4 98 99 9E 9B 6F 13 02",
+    "literal_pointer_offsets": [
+      "203F1C"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@I've heard there are monkeys who can sing!\n@But I've also heard that monkeys can lie.\n@Would a monkey lie about being able to sing, do you think?[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@I've heard there are monkeys who can sing!",
+        "french": "@Il paraît que certains singes savent chanter !"
+      },
+      {
+        "offset": 45,
+        "original": "@But I've also heard that monkeys can lie.",
+        "french": "@Mais il paraît aussi qu'ils savent mentir."
+      },
+      {
+        "offset": 89,
+        "original": "@Would a monkey lie about being able to sing, do you think?",
+        "french": "@Un singe mentirait-il sur ses talents de chanteur ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B715",
+    "offset": "33B715",
+    "snes": "F3B715",
+    "length": 85,
+    "source": "script_candidate",
+    "text_en": "  (Something is carved here.)[03][00]@It's a better world when you're loved.  I love you.[13][02]",
+    "text_fr": "",
+    "raw_hex": "50 50 58 83 9F 9D 95 A4 98 99 9E 97 50 99 A3 50 93 91 A2 A6 95 94 50 98 95 A2 95 5E 59 03 00 70 79 A4 57 A3 50 91 50 92 95 A4 A4 95 A2 50 A7 9F A2 9C 94 50 A7 98 95 9E 50 A9 9F A5 57 A2 95 50 9C 9F A6 95 94 5E 50 50 79 50 9C 9F A6 95 50 A9 9F A5 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F198F"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "  (Something is carved here.)\n@It's a better world when you're loved.  I love you.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "  (Something is carved here.)",
+        "french": "  (Quelque chose est gravé ici.)"
+      },
+      {
+        "offset": 31,
+        "original": "@It's a better world when you're loved.  I love you.",
+        "french": "@Le monde est meilleur quand on est aimé. Je t'aime."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B76A",
+    "offset": "33B76A",
+    "snes": "F3B76A",
+    "length": 15,
+    "source": "script_candidate",
+    "text_en": "@Standing by.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 83 A4 91 9E 94 99 9E 97 50 92 A9 5E 13 02",
+    "literal_pointer_offsets": [
+      "202B1F",
+      "360D15"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Standing by.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Standing by.",
+        "french": "@En attente."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B779",
+    "offset": "33B779",
+    "snes": "F3B779",
+    "length": 13,
+    "source": "script_candidate",
+    "text_en": "@All clear.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 9C 9C 50 93 9C 95 91 A2 5E 13 02",
+    "literal_pointer_offsets": [
+      "202B30",
+      "360D4F"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@All clear.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@All clear.",
+        "french": "@Rien à signaler."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33B786",
+    "offset": "33B786",
+    "snes": "F3B786",
+    "length": 13,
+    "source": "script_candidate",
+    "text_en": "@Chirp Chirp[02]",
+    "text_fr": "",
+    "raw_hex": "70 73 98 99 A2 A0 50 73 98 99 A2 A0 02",
+    "literal_pointer_offsets": [
+      "33B7C1",
+      "33B971",
+      "33B9CC",
+      "33BA1D",
+      "33BC29"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Chirp Chirp[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Chirp Chirp",
+        "french": "@Cui-cui"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33BE79",
+    "offset": "33BE79",
+    "snes": "F3BE79",
+    "length": 41,
+    "source": "script_candidate",
+    "text_en": "@(Rocks have blocked the train tracks.)[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 58 82 9F 93 9B A3 50 98 91 A6 95 50 92 9C 9F 93 9B 95 94 50 A4 98 95 50 A4 A2 91 99 9E 50 A4 A2 91 93 9B A3 5E 59 13 02",
+    "literal_pointer_offsets": [
+      "202E60"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@(Rocks have blocked the train tracks.)[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@(Rocks have blocked the train tracks.)",
+        "french": "@(Des rochers bloquent les rails.)"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33C256",
+    "offset": "33C256",
+    "snes": "F3C256",
+    "length": 67,
+    "source": "script_candidate",
+    "text_en": "@Arf arf.[00]@(Excuse me. Sometimes dogs just can't resist barking.)[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 A2 96 50 91 A2 96 5E 00 70 58 75 A8 93 A5 A3 95 50 9D 95 5E 50 83 9F 9D 95 A4 99 9D 95 A3 50 94 9F 97 A3 50 9A A5 A3 A4 50 93 91 9E 57 A4 50 A2 95 A3 99 A3 A4 50 92 91 A2 9B 99 9E 97 5E 59 13 02",
+    "literal_pointer_offsets": [
+      "204406"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Arf arf.\n@(Excuse me. Sometimes dogs just can't resist barking.)[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Arf arf.",
+        "french": "@Ouaf, ouaf."
+      },
+      {
+        "offset": 10,
+        "original": "@(Excuse me. Sometimes dogs just can't resist barking.)",
+        "french": "@(Pardon. Parfois, un chien doit aboyer.)"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33C299",
+    "offset": "33C299",
+    "snes": "F3C299",
+    "length": 65,
+    "source": "script_candidate",
+    "text_en": "@The food we grow.[00]  The food you know.[00]       -Reindeer Market[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 84 98 95 50 96 9F 9F 94 50 A7 95 50 97 A2 9F A7 5E 00 50 50 84 98 95 50 96 9F 9F 94 50 A9 9F A5 50 9B 9E 9F A7 5E 00 50 50 50 50 50 50 50 5D 82 95 99 9E 94 95 95 A2 50 7D 91 A2 9B 95 A4 13 02",
+    "literal_pointer_offsets": [
+      "0F1D3E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@The food we grow.\n  The food you know.\n       -Reindeer Market[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@The food we grow.",
+        "french": "@Des produits d'ici."
+      },
+      {
+        "offset": 19,
+        "original": "  The food you know.",
+        "french": "  Des saveurs d'amis."
+      },
+      {
+        "offset": 40,
+        "original": "       -Reindeer Market",
+        "french": "  -Marché de Reindeer"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33C2DA",
+    "offset": "33C2DA",
+    "snes": "F3C2DA",
+    "length": 77,
+    "source": "script_candidate",
+    "text_en": "@Come on down[00]  to burger town![03][00]@Eat your fill of the [00]  best grub around![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 73 9F 9D 95 50 9F 9E 50 94 9F A7 9E 00 50 50 A4 9F 50 92 A5 A2 97 95 A2 50 A4 9F A7 9E 51 03 00 70 75 91 A4 50 A9 9F A5 A2 50 96 99 9C 9C 50 9F 96 50 A4 98 95 50 00 50 50 92 95 A3 A4 50 97 A2 A5 92 50 91 A2 9F A5 9E 94 51 13 02",
+    "literal_pointer_offsets": [
+      "0F1D4D"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Come on down\n  to burger town!\n@Eat your fill of the \n  best grub around![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Come on down",
+        "french": "@Bienvenue"
+      },
+      {
+        "offset": 14,
+        "original": "  to burger town!",
+        "french": "  au pays du burger !"
+      },
+      {
+        "offset": 33,
+        "original": "@Eat your fill of the ",
+        "french": "@Mange à ta faim"
+      },
+      {
+        "offset": 56,
+        "original": "  best grub around!",
+        "french": "  le meilleur du coin !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33C327",
+    "offset": "33C327",
+    "snes": "F3C327",
+    "length": 62,
+    "source": "script_candidate",
+    "text_en": "@Fresh air and water,[00]  big city excitement![00]    <-Reindeer>[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 76 A2 95 A3 98 50 91 99 A2 50 91 9E 94 50 A7 91 A4 95 A2 5C 00 50 50 92 99 97 50 93 99 A4 A9 50 95 A8 93 99 A4 95 9D 95 9E A4 51 00 50 50 50 50 6C 5D 82 95 99 9E 94 95 95 A2 6E 13 02",
+    "literal_pointer_offsets": [
+      "0F1DFE"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Fresh air and water,\n  big city excitement!\n    <-Reindeer>[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Fresh air and water,",
+        "french": "@Air pur et eau claire,"
+      },
+      {
+        "offset": 22,
+        "original": "  big city excitement!",
+        "french": "  la ville sans les soucis !"
+      },
+      {
+        "offset": 45,
+        "original": "    <-Reindeer>",
+        "french": "  <-Reindeer>"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33C365",
+    "offset": "33C365",
+    "snes": "F3C365",
+    "length": 121,
+    "source": "script_candidate",
+    "text_en": "@Do you enjoy travel by train? If so, great![03][00]  Come to Reindeer Station, just north of town.[00]  Just follow the tracks![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 74 9F 50 A9 9F A5 50 95 9E 9A 9F A9 50 A4 A2 91 A6 95 9C 50 92 A9 50 A4 A2 91 99 9E 6F 50 79 96 50 A3 9F 5C 50 97 A2 95 91 A4 51 03 00 50 50 73 9F 9D 95 50 A4 9F 50 82 95 99 9E 94 95 95 A2 50 83 A4 91 A4 99 9F 9E 5C 50 9A A5 A3 A4 50 9E 9F A2 A4 98 50 9F 96 50 A4 9F A7 9E 5E 00 50 50 7A A5 A3 A4 50 96 9F 9C 9C 9F A7 50 A4 98 95 50 A4 A2 91 93 9B A3 51 13 02",
+    "literal_pointer_offsets": [
+      "0F1DD9"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Do you enjoy travel by train? If so, great!\n  Come to Reindeer Station, just north of town.\n  Just follow the tracks![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Do you enjoy travel by train? If so, great!",
+        "french": "@Tu aimes voyager en train ? Parfait !"
+      },
+      {
+        "offset": 46,
+        "original": "  Come to Reindeer Station, just north of town.",
+        "french": "  La gare de Reindeer est au nord."
+      },
+      {
+        "offset": 94,
+        "original": "  Just follow the tracks!",
+        "french": "  Suis simplement les rails !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33C3DE",
+    "offset": "33C3DE",
+    "snes": "F3C3DE",
+    "length": 101,
+    "source": "script_candidate",
+    "text_en": "@Soft, warm beds.[00]  A fine dining experience.[03][00]  Come join us at Setting Sun Hotel. Just head west.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 83 9F 96 A4 5C 50 A7 91 A2 9D 50 92 95 94 A3 5E 00 50 50 71 50 96 99 9E 95 50 94 99 9E 99 9E 97 50 95 A8 A0 95 A2 99 95 9E 93 95 5E 03 00 50 50 73 9F 9D 95 50 9A 9F 99 9E 50 A5 A3 50 91 A4 50 83 95 A4 A4 99 9E 97 50 83 A5 9E 50 78 9F A4 95 9C 5E 50 7A A5 A3 A4 50 98 95 91 94 50 A7 95 A3 A4 5E 13 02",
+    "literal_pointer_offsets": [
+      "0F1EB2"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Soft, warm beds.\n  A fine dining experience.\n  Come join us at Setting Sun Hotel. Just head west.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Soft, warm beds.",
+        "french": "@Des lits doux et chauds."
+      },
+      {
+        "offset": 18,
+        "original": "  A fine dining experience.",
+        "french": "  Une table raffinée."
+      },
+      {
+        "offset": 47,
+        "original": "  Come join us at Setting Sun Hotel. Just head west.",
+        "french": "  Hôtel du Soleil Couchant, à l'ouest."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33C443",
+    "offset": "33C443",
+    "snes": "F3C443",
+    "length": 93,
+    "source": "script_candidate",
+    "text_en": "@A shopping experience that can't be beat![03][00]  Our local department store across the street![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 50 A3 98 9F A0 A0 99 9E 97 50 95 A8 A0 95 A2 99 95 9E 93 95 50 A4 98 91 A4 50 93 91 9E 57 A4 50 92 95 50 92 95 91 A4 51 03 00 50 50 7F A5 A2 50 9C 9F 93 91 9C 50 94 95 A0 91 A2 A4 9D 95 9E A4 50 A3 A4 9F A2 95 50 91 93 A2 9F A3 A3 50 A4 98 95 50 A3 A4 A2 95 95 A4 51 13 02",
+    "literal_pointer_offsets": [
+      "0F1F66"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@A shopping experience that can't be beat!\n  Our local department store across the street![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@A shopping experience that can't be beat!",
+        "french": "@Pour des achats imbattables,"
+      },
+      {
+        "offset": 44,
+        "original": "  Our local department store across the street!",
+        "french": "  visitez notre grand magasin juste en face !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36A9DB",
+    "offset": "36A9DB",
+    "snes": "F6A9DB",
+    "length": 17,
+    "source": "script_candidate",
+    "text_en": "@Help us, son!![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 78 95 9C A0 50 A5 A3 5C 50 A3 9F 9E 51 51 13 02",
+    "literal_pointer_offsets": [
+      "36A978"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Help us, son!![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Help us, son!!",
+        "french": "@Au secours, mon fils !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36AA33",
+    "offset": "36AA33",
+    "snes": "F6AA33",
+    "length": 186,
+    "source": "script_candidate",
+    "text_en": "@Son of mine, you are braver than I thought.[03][00]@I can't let you go on a journey so famished.[03][00]@I'll cook some [1C 01 04] for you.[03][00]@Eat your dinner, and rest for the night.[03][08 5B 7A F8 00][1F 00 00 04][1F 21 1F][08 7A 7A F8 00][04 7F 01][02]",
+    "text_fr": "",
+    "raw_hex": "70 83 9F 9E 50 9F 96 50 9D 99 9E 95 5C 50 A9 9F A5 50 91 A2 95 50 92 A2 91 A6 95 A2 50 A4 98 91 9E 50 79 50 A4 98 9F A5 97 98 A4 5E 03 00 70 79 50 93 91 9E 57 A4 50 9C 95 A4 50 A9 9F A5 50 97 9F 50 9F 9E 50 91 50 9A 9F A5 A2 9E 95 A9 50 A3 9F 50 96 91 9D 99 A3 98 95 94 5E 03 00 70 79 57 9C 9C 50 93 9F 9F 9B 50 A3 9F 9D 95 50 1C 01 04 50 96 9F A2 50 A9 9F A5 5E 03 00 70 75 91 A4 50 A9 9F A5 A2 50 94 99 9E 9E 95 A2 5C 50 91 9E 94 50 A2 95 A3 A4 50 96 9F A2 50 A4 98 95 50 9E 99 97 98 A4 5E 03 08 5B 7A F8 00 1F 00 00 04 1F 21 1F 08 7A 7A F8 00 04 7F 01 02",
+    "literal_pointer_offsets": [
+      "36AA13"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Son of mine, you are braver than I thought.\n@I can't let you go on a journey so famished.\n@I'll cook some [1C 01 04] for you.\n@Eat your dinner, and rest for the night.[03][08 5B 7A F8 00][1F 00 00 04][1F 21 1F][08 7A 7A F8 00][04 7F 01][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Son of mine, you are braver than I thought.",
+        "french": "@Mon fils, tu es bien plus brave que je ne le pensais."
+      },
+      {
+        "offset": 46,
+        "original": "@I can't let you go on a journey so famished.",
+        "french": "@Tu ne peux pas partir le ventre vide."
+      },
+      {
+        "offset": 93,
+        "original": "@I'll cook some ",
+        "french": "@Je vais te faire du "
+      },
+      {
+        "offset": 112,
+        "original": " for you.",
+        "french": "."
+      },
+      {
+        "offset": 123,
+        "original": "@Eat your dinner, and rest for the night.",
+        "french": "@Mange, puis repose-toi cette nuit."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36AAED",
+    "offset": "36AAED",
+    "snes": "F6AAED",
+    "length": 62,
+    "source": "script_candidate",
+    "text_en": "[06 2E 03 5D AB F6 00]@When you want to eat [1C 01 04] again, just come back here.[13][02]",
+    "text_fr": "",
+    "raw_hex": "06 2E 03 5D AB F6 00 70 87 98 95 9E 50 A9 9F A5 50 A7 91 9E A4 50 A4 9F 50 95 91 A4 50 1C 01 04 50 91 97 91 99 9E 5C 50 9A A5 A3 A4 50 93 9F 9D 95 50 92 91 93 9B 50 98 95 A2 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "36A9F8"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 2E 03 5D AB F6 00]@When you want to eat [1C 01 04] again, just come back here.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 7,
+        "original": "@When you want to eat ",
+        "french": "@Quand tu voudras encore du "
+      },
+      {
+        "offset": 32,
+        "original": " again, just come back here.",
+        "french": ", reviens à la maison."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36AB32",
+    "offset": "36AB32",
+    "snes": "F6AB32",
+    "length": 43,
+    "source": "script_candidate",
+    "text_en": "@Please give my [1C 02 01] all the help you can.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 80 9C 95 91 A3 95 50 97 99 A6 95 50 9D A9 50 1C 02 01 50 91 9C 9C 50 A4 98 95 50 98 95 9C A0 50 A9 9F A5 50 93 91 9E 5E 13 02",
+    "literal_pointer_offsets": [
+      "36AA03"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Please give my [1C 02 01] all the help you can.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Please give my ",
+        "french": "@Aidez mon petit "
+      },
+      {
+        "offset": 19,
+        "original": " all the help you can.",
+        "french": " autant que possible."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36ABB9",
+    "offset": "36ABB9",
+    "snes": "F6ABB9",
+    "length": 67,
+    "source": "script_candidate",
+    "text_en": "[1F 02 05][10 14]@Oh, it seems like you can't carry any more things, can you?[13][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 05 10 14 70 7F 98 5C 50 99 A4 50 A3 95 95 9D A3 50 9C 99 9B 95 50 A9 9F A5 50 93 91 9E 57 A4 50 93 91 A2 A2 A9 50 91 9E A9 50 9D 9F A2 95 50 A4 98 99 9E 97 A3 5C 50 93 91 9E 50 A9 9F A5 6F 13 02",
+    "literal_pointer_offsets": [
+      "36ABA7"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 05][10 14]@Oh, it seems like you can't carry any more things, can you?[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 5,
+        "original": "@Oh, it seems like you can't carry any more things, can you?",
+        "french": "@Oh, tu ne peux plus rien porter, pas vrai ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36ABFC",
+    "offset": "36ABFC",
+    "snes": "F6ABFC",
+    "length": 167,
+    "source": "script_candidate",
+    "text_en": "@[1C 02 01]!  Are you alright?[03][00]@Egad!  What is happening to our house?[10 0F]  Oh dear,[10 05] oh dear...[03][00]@Maybe things would be all right if your dad were here.[00]  I wish he were...[02]",
+    "text_fr": "",
+    "raw_hex": "70 1C 02 01 51 50 50 71 A2 95 50 A9 9F A5 50 91 9C A2 99 97 98 A4 6F 03 00 70 75 97 91 94 51 50 50 87 98 91 A4 50 99 A3 50 98 91 A0 A0 95 9E 99 9E 97 50 A4 9F 50 9F A5 A2 50 98 9F A5 A3 95 6F 10 0F 50 50 7F 98 50 94 95 91 A2 5C 10 05 50 9F 98 50 94 95 91 A2 5E 5E 5E 03 00 70 7D 91 A9 92 95 50 A4 98 99 9E 97 A3 50 A7 9F A5 9C 94 50 92 95 50 91 9C 9C 50 A2 99 97 98 A4 50 99 96 50 A9 9F A5 A2 50 94 91 94 50 A7 95 A2 95 50 98 95 A2 95 5E 00 50 50 79 50 A7 99 A3 98 50 98 95 50 A7 95 A2 95 5E 5E 5E 02",
+    "literal_pointer_offsets": [
+      "36A984",
+      "36AB2C"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@[1C 02 01]!  Are you alright?\n@Egad!  What is happening to our house?[10 0F]  Oh dear,[10 05] oh dear...\n@Maybe things would be all right if your dad were here.\n  I wish he were...[02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 4,
+        "original": "!  Are you alright?",
+        "french": "! Tout va bien ?"
+      },
+      {
+        "offset": 25,
+        "original": "@Egad!  What is happening to our house?",
+        "french": "@Mon Dieu ! Qu'arrive-t-il à la maison ?"
+      },
+      {
+        "offset": 66,
+        "original": "  Oh dear,",
+        "french": "  Oh là là,"
+      },
+      {
+        "offset": 78,
+        "original": " oh dear...",
+        "french": "oh là là..."
+      },
+      {
+        "offset": 91,
+        "original": "@Maybe things would be all right if your dad were here.",
+        "french": "@Si ton père était là, tout irait peut-être mieux."
+      },
+      {
+        "offset": 147,
+        "original": "  I wish he were...",
+        "french": "  J'aimerais tant..."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36ACA3",
+    "offset": "36ACA3",
+    "snes": "F6ACA3",
+    "length": 47,
+    "source": "script_candidate",
+    "text_en": "@Answer the phone![03][00]@It could be your father.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 71 9E A3 A7 95 A2 50 A4 98 95 50 A0 98 9F 9E 95 51 03 00 70 79 A4 50 93 9F A5 9C 94 50 92 95 50 A9 9F A5 A2 50 96 91 A4 98 95 A2 5E 13 02",
+    "literal_pointer_offsets": [
+      "36A97F",
+      "36ACEB"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Answer the phone!\n@It could be your father.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Answer the phone!",
+        "french": "@Réponds au téléphone !"
+      },
+      {
+        "offset": 20,
+        "original": "@It could be your father.",
+        "french": "@C'est peut-être ton père."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36ADF1",
+    "offset": "36ADF1",
+    "snes": "F6ADF1",
+    "length": 335,
+    "source": "script_candidate",
+    "text_en": "@[19 10 01][1B 04][1C 02 00] grabbed the telephone.[03][00][1F 02 0B][05 F1 02][1F F1 08 00 28 00]@Hello, [1C 02 01]?[10 0F] This is your dad.[03][00]@Is everyone alright?[03][00]@There's reports of paranormal activity spiraling all over the news.[03][00]@Just want to make sure everyone's okay.[03][00]@What's that?[03][00]@I see.[03][00]@I see...[10 0F] Hmmm...[03][00][07 3C 03][1B 02 40 AF F6 00]@It sounds almost as if a poltergeist is haunting our home![03][00][0A B8 AF F6 00]",
+    "text_fr": "",
+    "raw_hex": "70 19 10 01 1B 04 1C 02 00 50 97 A2 91 92 92 95 94 50 A4 98 95 50 A4 95 9C 95 A0 98 9F 9E 95 5E 03 00 1F 02 0B 05 F1 02 1F F1 08 00 28 00 70 78 95 9C 9C 9F 5C 50 1C 02 01 6F 10 0F 50 84 98 99 A3 50 99 A3 50 A9 9F A5 A2 50 94 91 94 5E 03 00 70 79 A3 50 95 A6 95 A2 A9 9F 9E 95 50 91 9C A2 99 97 98 A4 6F 03 00 70 84 98 95 A2 95 57 A3 50 A2 95 A0 9F A2 A4 A3 50 9F 96 50 A0 91 A2 91 9E 9F A2 9D 91 9C 50 91 93 A4 99 A6 99 A4 A9 50 A3 A0 99 A2 91 9C 99 9E 97 50 91 9C 9C 50 9F A6 95 A2 50 A4 98 95 50 9E 95 A7 A3 5E 03 00 70 7A A5 A3 A4 50 A7 91 9E A4 50 A4 9F 50 9D 91 9B 95 50 A3 A5 A2 95 50 95 A6 95 A2 A9 9F 9E 95 57 A3 50 9F 9B 91 A9 5E 03 00 70 87 98 91 A4 57 A3 50 A4 98 91 A4 6F 03 00 70 79 50 A3 95 95 5E 03 00 70 79 50 A3 95 95 5E 5E 5E 10 0F 50 78 9D 9D 9D 5E 5E 5E 03 00 07 3C 03 1B 02 40 AF F6 00 70 79 A4 50 A3 9F A5 9E 94 A3 50 91 9C 9D 9F A3 A4 50 91 A3 50 99 96 50 91 50 A0 9F 9C A4 95 A2 97 95 99 A3 A4 50 99 A3 50 98 91 A5 9E A4 99 9E 97 50 9F A5 A2 50 98 9F 9D 95 51 03 00 0A B8 AF F6 00",
+    "literal_pointer_offsets": [
+      "36ADBE"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@[19 10 01][1B 04][1C 02 00] grabbed the telephone.\n[1F 02 0B][05 F1 02][1F F1 08 00 28 00]@Hello, [1C 02 01]?[10 0F] This is your dad.\n@Is everyone alright?\n@There's reports of paranormal activity spiraling all over the news.\n@Just want to make sure everyone's okay.\n@What's that?\n@I see.\n@I see...[10 0F] Hmmm...\n[07 3C 03][1B 02 40 AF F6 00]@It sounds almost as if a poltergeist is haunting our home!\n[0A B8 AF F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 9,
+        "original": " grabbed the telephone.",
+        "french": " décrocha le téléphone."
+      },
+      {
+        "offset": 46,
+        "original": "@Hello, ",
+        "french": "@Allô, "
+      },
+      {
+        "offset": 57,
+        "original": "?",
+        "french": "?"
+      },
+      {
+        "offset": 60,
+        "original": " This is your dad.",
+        "french": " C'est papa."
+      },
+      {
+        "offset": 80,
+        "original": "@Is everyone alright?",
+        "french": "@Tout le monde va bien ?"
+      },
+      {
+        "offset": 103,
+        "original": "@There's reports of paranormal activity spiraling all over the news.",
+        "french": "@Les infos parlent de phénomènes étranges partout."
+      },
+      {
+        "offset": 173,
+        "original": "@Just want to make sure everyone's okay.",
+        "french": "@Je voulais savoir si vous alliez bien."
+      },
+      {
+        "offset": 215,
+        "original": "@What's that?",
+        "french": "@Comment ?"
+      },
+      {
+        "offset": 230,
+        "original": "@I see.",
+        "french": "@Je vois."
+      },
+      {
+        "offset": 239,
+        "original": "@I see...",
+        "french": "@Je vois..."
+      },
+      {
+        "offset": 250,
+        "original": " Hmmm...",
+        "french": "Hmm..."
+      },
+      {
+        "offset": 269,
+        "original": "@It sounds almost as if a poltergeist is haunting our home!",
+        "french": "@On dirait qu'un fantôme hante notre maison !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36AF40",
+    "offset": "36AF40",
+    "snes": "F6AF40",
+    "length": 773,
+    "source": "script_candidate",
+    "text_en": "@It sounds almost as if a poltergeist was haunting our home.[03][00]@I'm glad you were there to take care of it![10 0F] Atta boy![03][00]@I'm not sure what's going on...[03][00]@But, your great-grandfather studied PSI, if I recall.[03][00]@If you want to get to the bottom of this,[03][00]@you might want to look for some of his old things in the basement.[03][00]@I know I left the [1C 05 AA] somewhere safe...[03][00]@...but I can't remember exactly where...[03][00]@Anyhow, you are our only hope.[03][00]@You're just old enough to get a taste of the world out there.[03][00]@It's time for you to go on a little adventure.[03][00]@[1C 02 01], go for it!![03][00]@But don't forget to come back and check on our family.[03][00]@Bye.[03][00]@Oh... Phone me, and I'll make a record of your progress.[03][00]@Call me whenever you want.[03][00]@Slam![10 0F]  Beeeeeeeeep![13][1F 02 0B][18 04][04 05 00][04 1B 03][04 C7 00][05 07 00][06 10 03 45 B2 F6 00][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 A4 50 A3 9F A5 9E 94 A3 50 91 9C 9D 9F A3 A4 50 91 A3 50 99 96 50 91 50 A0 9F 9C A4 95 A2 97 95 99 A3 A4 50 A7 91 A3 50 98 91 A5 9E A4 99 9E 97 50 9F A5 A2 50 98 9F 9D 95 5E 03 00 70 79 57 9D 50 97 9C 91 94 50 A9 9F A5 50 A7 95 A2 95 50 A4 98 95 A2 95 50 A4 9F 50 A4 91 9B 95 50 93 91 A2 95 50 9F 96 50 99 A4 51 10 0F 50 71 A4 A4 91 50 92 9F A9 51 03 00 70 79 57 9D 50 9E 9F A4 50 A3 A5 A2 95 50 A7 98 91 A4 57 A3 50 97 9F 99 9E 97 50 9F 9E 5E 5E 5E 03 00 70 72 A5 A4 5C 50 A9 9F A5 A2 50 97 A2 95 91 A4 5D 97 A2 91 9E 94 96 91 A4 98 95 A2 50 A3 A4 A5 94 99 95 94 50 80 83 79 5C 50 99 96 50 79 50 A2 95 93 91 9C 9C 5E 03 00 70 79 96 50 A9 9F A5 50 A7 91 9E A4 50 A4 9F 50 97 95 A4 50 A4 9F 50 A4 98 95 50 92 9F A4 A4 9F 9D 50 9F 96 50 A4 98 99 A3 5C 03 00 70 A9 9F A5 50 9D 99 97 98 A4 50 A7 91 9E A4 50 A4 9F 50 9C 9F 9F 9B 50 96 9F A2 50 A3 9F 9D 95 50 9F 96 50 98 99 A3 50 9F 9C 94 50 A4 98 99 9E 97 A3 50 99 9E 50 A4 98 95 50 92 91 A3 95 9D 95 9E A4 5E 03 00 70 79 50 9B 9E 9F A7 50 79 50 9C 95 96 A4 50 A4 98 95 50 1C 05 AA 50 A3 9F 9D 95 A7 98 95 A2 95 50 A3 91 96 95 5E 5E 5E 03 00 70 5E 5E 5E 92 A5 A4 50 79 50 93 91 9E 57 A4 50 A2 95 9D 95 9D 92 95 A2 50 95 A8 91 93 A4 9C A9 50 A7 98 95 A2 95 5E 5E 5E 03 00 70 71 9E A9 98 9F A7 5C 50 A9 9F A5 50 91 A2 95 50 9F A5 A2 50 9F 9E 9C A9 50 98 9F A0 95 5E 03 00 70 89 9F A5 57 A2 95 50 9A A5 A3 A4 50 9F 9C 94 50 95 9E 9F A5 97 98 50 A4 9F 50 97 95 A4 50 91 50 A4 91 A3 A4 95 50 9F 96 50 A4 98 95 50 A7 9F A2 9C 94 50 9F A5 A4 50 A4 98 95 A2 95 5E 03 00 70 79 A4 57 A3 50 A4 99 9D 95 50 96 9F A2 50 A9 9F A5 50 A4 9F 50 97 9F 50 9F 9E 50 91 50 9C 99 A4 A4 9C 95 50 91 94 A6 95 9E A4 A5 A2 95 5E 03 00 70 1C 02 01 5C 50 97 9F 50 96 9F A2 50 99 A4 51 51 03 00 70 72 A5 A4 50 94 9F 9E 57 A4 50 96 9F A2 97 95 A4 50 A4 9F 50 93 9F 9D 95 50 92 91 93 9B 50 91 9E 94 50 93 98 95 93 9B 50 9F 9E 50 9F A5 A2 50 96 91 9D 99 9C A9 5E 03 00 70 72 A9 95 5E 03 00 70 7F 98 5E 5E 5E 50 80 98 9F 9E 95 50 9D 95 5C 50 91 9E 94 50 79 57 9C 9C 50 9D 91 9B 95 50 91 50 A2 95 93 9F A2 94 50 9F 96 50 A9 9F A5 A2 50 A0 A2 9F 97 A2 95 A3 A3 5E 03 00 70 73 91 9C 9C 50 9D 95 50 A7 98 95 9E 95 A6 95 A2 50 A9 9F A5 50 A7 91 9E A4 5E 03 00 70 83 9C 91 9D 51 10 0F 50 50 72 95 95 95 95 95 95 95 95 95 A0 51 13 1F 02 0B 18 04 04 05 00 04 1B 03 04 C7 00 05 07 00 06 10 03 45 B2 F6 00 02",
+    "literal_pointer_offsets": [
+      "36AEFA"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@It sounds almost as if a poltergeist was haunting our home.\n@I'm glad you were there to take care of it![10 0F] Atta boy!\n@I'm not sure what's going on...\n@But, your great-grandfather studied PSI, if I recall.\n@If you want to get to the bottom of this,\n@you might want to look for some of his old things in the basement.\n@I know I left the [1C 05 AA] somewhere safe...\n@...but I can't remember exactly where...\n@Anyhow, you are our only hope.\n@You're just old enough to get a taste of the world out there.\n@It's time for you to go on a little adventure.\n@[1C 02 01], go for it!!\n@But don't forget to come back and check on our family.\n@Bye.\n@Oh... Phone me, and I'll make a record of your progress.\n@Call me whenever you want.\n@Slam![10 0F]  Beeeeeeeeep![13][1F 02 0B][18 04][04 05 00][04 1B 03][04 C7 00][05 07 00][06 10 03 45 B2 F6 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@It sounds almost as if a poltergeist was haunting our home.",
+        "french": "@On dirait qu'un fantôme hantait notre maison."
+      },
+      {
+        "offset": 62,
+        "original": "@I'm glad you were there to take care of it!",
+        "french": "@Heureusement que tu étais là !"
+      },
+      {
+        "offset": 108,
+        "original": " Atta boy!",
+        "french": "Bravo !"
+      },
+      {
+        "offset": 120,
+        "original": "@I'm not sure what's going on...",
+        "french": "@Je ne sais pas ce qui se passe..."
+      },
+      {
+        "offset": 154,
+        "original": "@But, your great-grandfather studied PSI, if I recall.",
+        "french": "@Ton arrière-grand-père étudiait les PSI."
+      },
+      {
+        "offset": 210,
+        "original": "@If you want to get to the bottom of this,",
+        "french": "@Pour comprendre tout ça,"
+      },
+      {
+        "offset": 254,
+        "original": "@you might want to look for some of his old things in the basement.",
+        "french": "@cherche ses vieilles affaires dans la cave."
+      },
+      {
+        "offset": 323,
+        "original": "@I know I left the ",
+        "french": "@J'ai rangé la "
+      },
+      {
+        "offset": 345,
+        "original": " somewhere safe...",
+        "french": " en lieu sûr..."
+      },
+      {
+        "offset": 365,
+        "original": "@...but I can't remember exactly where...",
+        "french": "@...mais je ne sais plus où..."
+      },
+      {
+        "offset": 408,
+        "original": "@Anyhow, you are our only hope.",
+        "french": "@Bref, tu es notre seul espoir."
+      },
+      {
+        "offset": 441,
+        "original": "@You're just old enough to get a taste of the world out there.",
+        "french": "@Tu es assez grand pour découvrir le monde."
+      },
+      {
+        "offset": 505,
+        "original": "@It's time for you to go on a little adventure.",
+        "french": "@Il est temps de partir à l'aventure."
+      },
+      {
+        "offset": 554,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 558,
+        "original": ", go for it!!",
+        "french": ", fonce !"
+      },
+      {
+        "offset": 573,
+        "original": "@But don't forget to come back and check on our family.",
+        "french": "@Reviens quand même voir ta famille."
+      },
+      {
+        "offset": 630,
+        "original": "@Bye.",
+        "french": "@Salut."
+      },
+      {
+        "offset": 637,
+        "original": "@Oh... Phone me, and I'll make a record of your progress.",
+        "french": "@Ah... Appelle-moi pour sauvegarder ta partie."
+      },
+      {
+        "offset": 696,
+        "original": "@Call me whenever you want.",
+        "french": "@Appelle quand tu veux."
+      },
+      {
+        "offset": 725,
+        "original": "@Slam!",
+        "french": "@Clac !"
+      },
+      {
+        "offset": 733,
+        "original": "  Beeeeeeeeep!",
+        "french": "  Biiiiip !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B28A",
+    "offset": "36B28A",
+    "snes": "F6B28A",
+    "length": 72,
+    "source": "script_candidate",
+    "text_en": "[06 12 03 D2 B2 F6 00][18 01 35]@Brother, I'm so scared![10 0F]  It's like the pillow is alive![13][18 04][02]",
+    "text_fr": "",
+    "raw_hex": "06 12 03 D2 B2 F6 00 18 01 35 70 72 A2 9F A4 98 95 A2 5C 50 79 57 9D 50 A3 9F 50 A3 93 91 A2 95 94 51 10 0F 50 50 79 A4 57 A3 50 9C 99 9B 95 50 A4 98 95 50 A0 99 9C 9C 9F A7 50 99 A3 50 91 9C 99 A6 95 51 13 18 04 02",
+    "literal_pointer_offsets": [
+      "2021F5",
+      "202206",
+      "202932"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 12 03 D2 B2 F6 00][18 01 35]@Brother, I'm so scared![10 0F]  It's like the pillow is alive![13][18 04][02]",
+    "text_fr_segments": [
+      {
+        "offset": 10,
+        "original": "@Brother, I'm so scared!",
+        "french": "@Frérot, j'ai si peur !"
+      },
+      {
+        "offset": 36,
+        "original": "  It's like the pillow is alive!",
+        "french": "  On dirait que l'oreiller est vivant !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B2D2",
+    "offset": "36B2D2",
+    "snes": "F6B2D2",
+    "length": 81,
+    "source": "script_candidate",
+    "text_en": "[06 10 03 03 B4 F6 00][06 02 00 23 B3 F6 00]@Brother![10 0F]  Is our house really falling apart?[03][00]@Boo hoo hoo![13][04 02 00][02]",
+    "text_fr": "",
+    "raw_hex": "06 10 03 03 B4 F6 00 06 02 00 23 B3 F6 00 70 72 A2 9F A4 98 95 A2 51 10 0F 50 50 79 A3 50 9F A5 A2 50 98 9F A5 A3 95 50 A2 95 91 9C 9C A9 50 96 91 9C 9C 99 9E 97 50 91 A0 91 A2 A4 6F 03 00 70 72 9F 9F 50 98 9F 9F 50 98 9F 9F 51 13 04 02 00 02",
+    "literal_pointer_offsets": [
+      "36B28D"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 10 03 03 B4 F6 00][06 02 00 23 B3 F6 00]@Brother![10 0F]  Is our house really falling apart?\n@Boo hoo hoo![13][04 02 00][02]",
+    "text_fr_segments": [
+      {
+        "offset": 14,
+        "original": "@Brother!",
+        "french": "@Frérot !"
+      },
+      {
+        "offset": 25,
+        "original": "  Is our house really falling apart?",
+        "french": "  La maison va vraiment s'écrouler ?"
+      },
+      {
+        "offset": 63,
+        "original": "@Boo hoo hoo!",
+        "french": "@Bouhouhou !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B323",
+    "offset": "36B323",
+    "snes": "F6B323",
+    "length": 55,
+    "source": "script_candidate",
+    "text_en": "@Mimmie and mommy are in trouble, too![03][00]@Boo hoo hoo![13][02]",
+    "text_fr": "",
+    "raw_hex": "70 7D 99 9D 9D 99 95 50 91 9E 94 50 9D 9F 9D 9D A9 50 91 A2 95 50 99 9E 50 A4 A2 9F A5 92 9C 95 5C 50 A4 9F 9F 51 03 00 70 72 9F 9F 50 98 9F 9F 50 98 9F 9F 51 13 02",
+    "literal_pointer_offsets": [
+      "36B2DC"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Mimmie and mommy are in trouble, too!\n@Boo hoo hoo![13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Mimmie and mommy are in trouble, too!",
+        "french": "@Mimmie et maman sont en danger aussi !"
+      },
+      {
+        "offset": 40,
+        "original": "@Boo hoo hoo!",
+        "french": "@Bouhouhou !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B35A",
+    "offset": "36B35A",
+    "snes": "F6B35A",
+    "length": 23,
+    "source": "script_candidate",
+    "text_en": "[06 10 03 71 B3 F6 00][18 01 35]@Help me![13][18 04][02]",
+    "text_fr": "",
+    "raw_hex": "06 10 03 71 B3 F6 00 18 01 35 70 78 95 9C A0 50 9D 95 51 13 18 04 02",
+    "literal_pointer_offsets": [
+      "20224A",
+      "20225B",
+      "202921"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 10 03 71 B3 F6 00][18 01 35]@Help me![13][18 04][02]",
+    "text_fr_segments": [
+      {
+        "offset": 10,
+        "original": "@Help me!",
+        "french": "@À l'aide !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B371",
+    "offset": "36B371",
+    "snes": "F6B371",
+    "length": 89,
+    "source": "script_candidate",
+    "text_en": "[06 B6 00 CA B3 F6 00]@I was scared to death...[03][00]@Oh wow!  I think something's hidden inside the doll.[13][02]",
+    "text_fr": "",
+    "raw_hex": "06 B6 00 CA B3 F6 00 70 79 50 A7 91 A3 50 A3 93 91 A2 95 94 50 A4 9F 50 94 95 91 A4 98 5E 5E 5E 03 00 70 7F 98 50 A7 9F A7 51 50 50 79 50 A4 98 99 9E 9B 50 A3 9F 9D 95 A4 98 99 9E 97 57 A3 50 98 99 94 94 95 9E 50 99 9E A3 99 94 95 50 A4 98 95 50 94 9F 9C 9C 5E 13 02",
+    "literal_pointer_offsets": [
+      "36B35D"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 B6 00 CA B3 F6 00]@I was scared to death...\n@Oh wow!  I think something's hidden inside the doll.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 7,
+        "original": "@I was scared to death...",
+        "french": "@J'ai eu une peur bleue..."
+      },
+      {
+        "offset": 34,
+        "original": "@Oh wow!  I think something's hidden inside the doll.",
+        "french": "@Oh ! Je crois qu'il y a quelque chose dans la poupée."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B3D6",
+    "offset": "36B3D6",
+    "snes": "F6B3D6",
+    "length": 45,
+    "source": "script_candidate",
+    "text_en": "@I'm Mimmie!  Don't confuse me with Minnie.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 79 57 9D 50 7D 99 9D 9D 99 95 51 50 50 74 9F 9E 57 A4 50 93 9F 9E 96 A5 A3 95 50 9D 95 50 A7 99 A4 98 50 7D 99 9E 9E 99 95 5E 13 02",
+    "literal_pointer_offsets": [
+      "36B3CD"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@I'm Mimmie!  Don't confuse me with Minnie.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@I'm Mimmie!  Don't confuse me with Minnie.",
+        "french": "@Moi, c'est Mimmie ! Ne me confonds pas avec Minnie."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B403",
+    "offset": "36B403",
+    "snes": "F6B403",
+    "length": 85,
+    "source": "script_candidate",
+    "text_en": "@Brother, here's some juice.[10 0F]  You're thirsty, aren't you?[03][1D 03 FF][1B 02 58 B4 F6 00][1D 0E 00 6A][1F 02 74][10 3C][08 DA DC C7 00][13][02]",
+    "text_fr": "",
+    "raw_hex": "70 72 A2 9F A4 98 95 A2 5C 50 98 95 A2 95 57 A3 50 A3 9F 9D 95 50 9A A5 99 93 95 5E 10 0F 50 50 89 9F A5 57 A2 95 50 A4 98 99 A2 A3 A4 A9 5C 50 91 A2 95 9E 57 A4 50 A9 9F A5 6F 03 1D 03 FF 1B 02 58 B4 F6 00 1D 0E 00 6A 1F 02 74 10 3C 08 DA DC C7 00 13 02",
+    "literal_pointer_offsets": [
+      "36B2D5",
+      "36B3D2"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Brother, here's some juice.[10 0F]  You're thirsty, aren't you?[03][1D 03 FF][1B 02 58 B4 F6 00][1D 0E 00 6A][1F 02 74][10 3C][08 DA DC C7 00][13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Brother, here's some juice.",
+        "french": "@Frérot, voici du jus."
+      },
+      {
+        "offset": 30,
+        "original": "  You're thirsty, aren't you?",
+        "french": "  Tu as soif, non ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B458",
+    "offset": "36B458",
+    "snes": "F6B458",
+    "length": 59,
+    "source": "script_candidate",
+    "text_en": "[1F 02 05][10 14]@Sorry, but it looks like you can't carry that much.[13][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 05 10 14 70 83 9F A2 A2 A9 5C 50 92 A5 A4 50 99 A4 50 9C 9F 9F 9B A3 50 9C 99 9B 95 50 A9 9F A5 50 93 91 9E 57 A4 50 93 91 A2 A2 A9 50 A4 98 91 A4 50 9D A5 93 98 5E 13 02",
+    "literal_pointer_offsets": [
+      "36B444"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 05][10 14]@Sorry, but it looks like you can't carry that much.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 5,
+        "original": "@Sorry, but it looks like you can't carry that much.",
+        "french": "@Désolée, tu ne peux plus rien porter."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B493",
+    "offset": "36B493",
+    "snes": "F6B493",
+    "length": 152,
+    "source": "script_candidate",
+    "text_en": "@Inside the doll,[10 0F] [19 10 01][1B 04][1C 02 00] spotted an old music box.[03][00]@As the music box was wound up...[03][00]@A melody began to play.[13][18 04][04 94 03][04 0B 00][1F 07 03][10 0F][1F 00 00 20][06 47 03 2B B5 F6 00][1F 15 2B 00 A8 03 01][0A 32 B5 F6 00]",
+    "text_fr": "",
+    "raw_hex": "70 79 9E A3 99 94 95 50 A4 98 95 50 94 9F 9C 9C 5C 10 0F 50 19 10 01 1B 04 1C 02 00 50 A3 A0 9F A4 A4 95 94 50 91 9E 50 9F 9C 94 50 9D A5 A3 99 93 50 92 9F A8 5E 03 00 70 71 A3 50 A4 98 95 50 9D A5 A3 99 93 50 92 9F A8 50 A7 91 A3 50 A7 9F A5 9E 94 50 A5 A0 5E 5E 5E 03 00 70 71 50 9D 95 9C 9F 94 A9 50 92 95 97 91 9E 50 A4 9F 50 A0 9C 91 A9 5E 13 18 04 04 94 03 04 0B 00 1F 07 03 10 0F 1F 00 00 20 06 47 03 2B B5 F6 00 1F 15 2B 00 A8 03 01 0A 32 B5 F6 00",
+    "literal_pointer_offsets": [
+      "20226C",
+      "202AEC",
+      "20801F"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Inside the doll,[10 0F] [19 10 01][1B 04][1C 02 00] spotted an old music box.\n@As the music box was wound up...\n@A melody began to play.[13][18 04][04 94 03][04 0B 00][1F 07 03][10 0F][1F 00 00 20][06 47 03 2B B5 F6 00][1F 15 2B 00 A8 03 01][0A 32 B5 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Inside the doll,",
+        "french": "@Dans la poupée,"
+      },
+      {
+        "offset": 19,
+        "original": " ",
+        "french": " "
+      },
+      {
+        "offset": 28,
+        "original": " spotted an old music box.",
+        "french": " trouva une vieille boîte à musique."
+      },
+      {
+        "offset": 56,
+        "original": "@As the music box was wound up...",
+        "french": "@En remontant la boîte..."
+      },
+      {
+        "offset": 91,
+        "original": "@A melody began to play.",
+        "french": "@Une mélodie se fit entendre."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B582",
+    "offset": "36B582",
+    "snes": "F6B582",
+    "length": 111,
+    "source": "script_candidate",
+    "text_en": "[06 43 03 F1 B5 F6 00]@WOOF-WOOF![03][00]@(You can talk to animals, right?)[03][00]@(Tell you a secret.)[03][00]@(Why don't you Check me out?)[13][02]",
+    "text_fr": "",
+    "raw_hex": "06 43 03 F1 B5 F6 00 70 87 7F 7F 76 5D 87 7F 7F 76 51 03 00 70 58 89 9F A5 50 93 91 9E 50 A4 91 9C 9B 50 A4 9F 50 91 9E 99 9D 91 9C A3 5C 50 A2 99 97 98 A4 6F 59 03 00 70 58 84 95 9C 9C 50 A9 9F A5 50 91 50 A3 95 93 A2 95 A4 5E 59 03 00 70 58 87 98 A9 50 94 9F 9E 57 A4 50 A9 9F A5 50 73 98 95 93 9B 50 9D 95 50 9F A5 A4 6F 59 13 02",
+    "literal_pointer_offsets": [
+      "2022E3"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 43 03 F1 B5 F6 00]@WOOF-WOOF!\n@(You can talk to animals, right?)\n@(Tell you a secret.)\n@(Why don't you Check me out?)[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 7,
+        "original": "@WOOF-WOOF!",
+        "french": "@OUAF, OUAF !"
+      },
+      {
+        "offset": 20,
+        "original": "@(You can talk to animals, right?)",
+        "french": "@(Tu peux parler aux animaux, non ?)"
+      },
+      {
+        "offset": 56,
+        "original": "@(Tell you a secret.)",
+        "french": "@(Un petit secret...)"
+      },
+      {
+        "offset": 79,
+        "original": "@(Why don't you Check me out?)",
+        "french": "@(Et si tu m'examinais ?)"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B5F1",
+    "offset": "36B5F1",
+    "snes": "F6B5F1",
+    "length": 103,
+    "source": "script_candidate",
+    "text_en": "@WOOF![03][00]@(Pretty fancy, eh?)[03][00]@(When you find something strange, be sure to Check it out every time.)[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 87 7F 7F 76 51 03 00 70 58 80 A2 95 A4 A4 A9 50 96 91 9E 93 A9 5C 50 95 98 6F 59 03 00 70 58 87 98 95 9E 50 A9 9F A5 50 96 99 9E 94 50 A3 9F 9D 95 A4 98 99 9E 97 50 A3 A4 A2 91 9E 97 95 5C 50 92 95 50 A3 A5 A2 95 50 A4 9F 50 73 98 95 93 9B 50 99 A4 50 9F A5 A4 50 95 A6 95 A2 A9 50 A4 99 9D 95 5E 59 13 02",
+    "literal_pointer_offsets": [
+      "36B585",
+      "36B6F4"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@WOOF!\n@(Pretty fancy, eh?)\n@(When you find something strange, be sure to Check it out every time.)[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@WOOF!",
+        "french": "@OUAF !"
+      },
+      {
+        "offset": 8,
+        "original": "@(Pretty fancy, eh?)",
+        "french": "@(Pas mal, hein ?)"
+      },
+      {
+        "offset": 30,
+        "original": "@(When you find something strange, be sure to Check it out every time.)",
+        "french": "@(Quand tu trouves quelque chose d'étrange, examine-le.)"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B658",
+    "offset": "36B658",
+    "snes": "F6B658",
+    "length": 96,
+    "source": "script_candidate",
+    "text_en": "[06 43 03 F3 B6 F6 00][18 01 35]@There, on the dog's collar, was the [1C 05 AA]![03][00][1D 03 FF][1B 02 B8 B6 F6 00][1F 02 74][10 3C][18 04][1F 02 66][10 5A][18 01 35][1D 03 FF][1D 0E 00 AA][08 DA DC C7 00][13][04 43 03][18 04][02]",
+    "text_fr": "",
+    "raw_hex": "06 43 03 F3 B6 F6 00 18 01 35 70 84 98 95 A2 95 5C 50 9F 9E 50 A4 98 95 50 94 9F 97 57 A3 50 93 9F 9C 9C 91 A2 5C 50 A7 91 A3 50 A4 98 95 50 1C 05 AA 51 03 00 1D 03 FF 1B 02 B8 B6 F6 00 1F 02 74 10 3C 18 04 1F 02 66 10 5A 18 01 35 1D 03 FF 1D 0E 00 AA 08 DA DC C7 00 13 04 43 03 18 04 02",
+    "literal_pointer_offsets": [],
+    "evidence": "sequential_or_inline",
+    "reading_en": "[06 43 03 F3 B6 F6 00][18 01 35]@There, on the dog's collar, was the [1C 05 AA]!\n[1D 03 FF][1B 02 B8 B6 F6 00][1F 02 74][10 3C][18 04][1F 02 66][10 5A][18 01 35][1D 03 FF][1D 0E 00 AA][08 DA DC C7 00][13][04 43 03][18 04][02]",
+    "text_fr_segments": [
+      {
+        "offset": 10,
+        "original": "@There, on the dog's collar, was the ",
+        "french": "@Sur le collier du chien se trouvait la "
+      },
+      {
+        "offset": 50,
+        "original": "!",
+        "french": " !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B6B8",
+    "offset": "36B6B8",
+    "snes": "F6B6B8",
+    "length": 59,
+    "source": "script_candidate",
+    "text_en": "[1F 02 05][10 14][01]@Woof...[03][00]@(Oh... [10 0F]You can't carry anything else.)[13][02]",
+    "text_fr": "",
+    "raw_hex": "1F 02 05 10 14 01 70 87 9F 9F 96 5E 5E 5E 03 00 70 58 7F 98 5E 5E 5E 50 10 0F 89 9F A5 50 93 91 9E 57 A4 50 93 91 A2 A2 A9 50 91 9E A9 A4 98 99 9E 97 50 95 9C A3 95 5E 59 13 02",
+    "literal_pointer_offsets": [
+      "36B692"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1F 02 05][10 14]\n\n@Woof...\n@(Oh... [10 0F]You can't carry anything else.)[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 6,
+        "original": "@Woof...",
+        "french": "@Ouaf..."
+      },
+      {
+        "offset": 16,
+        "original": "@(Oh... ",
+        "french": "@(Oh..."
+      },
+      {
+        "offset": 26,
+        "original": "You can't carry anything else.)",
+        "french": "Tu ne peux plus rien porter.)"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B6F8",
+    "offset": "36B6F8",
+    "snes": "F6B6F8",
+    "length": 29,
+    "source": "script_candidate",
+    "text_en": "[06 6C 00 14 B7 F6 00]@The door is locked.[13][02]",
+    "text_fr": "",
+    "raw_hex": "06 6C 00 14 B7 F6 00 70 84 98 95 50 94 9F 9F A2 50 99 A3 50 9C 9F 93 9B 95 94 5E 13 02",
+    "literal_pointer_offsets": [
+      "2022C1"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 6C 00 14 B7 F6 00]@The door is locked.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 7,
+        "original": "@The door is locked.",
+        "french": "@La porte est fermée à clé."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B752",
+    "offset": "36B752",
+    "snes": "F6B752",
+    "length": 54,
+    "source": "script_candidate",
+    "text_en": "[1B 01][0B AB][1B 03 66 B7 F6 00][1B 01][0B FD][1B 02 B6 C6 C7 00]@That key doesn't fit this lock.[13][02]",
+    "text_fr": "",
+    "raw_hex": "1B 01 0B AB 1B 03 66 B7 F6 00 1B 01 0B FD 1B 02 B6 C6 C7 00 70 84 98 91 A4 50 9B 95 A9 50 94 9F 95 A3 9E 57 A4 50 96 99 A4 50 A4 98 99 A3 50 9C 9F 93 9B 5E 13 02",
+    "literal_pointer_offsets": [
+      "36B728"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[1B 01][0B AB][1B 03 66 B7 F6 00][1B 01][0B FD][1B 02 B6 C6 C7 00]@That key doesn't fit this lock.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 20,
+        "original": "@That key doesn't fit this lock.",
+        "french": "@Cette clé ne va pas dans cette serrure."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B788",
+    "offset": "36B788",
+    "snes": "F6B788",
+    "length": 77,
+    "source": "script_candidate",
+    "text_en": "@I'm Minnie.[03][00]@What can I do for you?[00][19 02]Store[02][19 02]Take out[02][1C 07 02][11][12][09 02 D5 B7 F6 00 D9 B9 F6 00][0A CB BA F6 00]",
+    "text_fr": "",
+    "raw_hex": "70 79 57 9D 50 7D 99 9E 9E 99 95 5E 03 00 70 87 98 91 A4 50 93 91 9E 50 79 50 94 9F 50 96 9F A2 50 A9 9F A5 6F 00 19 02 83 A4 9F A2 95 02 19 02 84 91 9B 95 50 9F A5 A4 02 1C 07 02 11 12 09 02 D5 B7 F6 00 D9 B9 F6 00 0A CB BA F6 00",
+    "literal_pointer_offsets": [
+      "202F3D"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@I'm Minnie.\n@What can I do for you?\n[19 02]Store[02][19 02]Take out[02][1C 07 02][11][12][09 02 D5 B7 F6 00 D9 B9 F6 00][0A CB BA F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@I'm Minnie.",
+        "french": "@Moi, c'est Minnie."
+      },
+      {
+        "offset": 14,
+        "original": "@What can I do for you?",
+        "french": "@Que puis-je faire pour toi ?"
+      },
+      {
+        "offset": 40,
+        "original": "Store",
+        "french": "Déposer"
+      },
+      {
+        "offset": 48,
+        "original": "Take out",
+        "french": "Retirer"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B86C",
+    "offset": "36B86C",
+    "snes": "F6B86C",
+    "length": 85,
+    "source": "script_candidate",
+    "text_en": "@Do you have anything else that you want me to store?[00][19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 D5 B7 F6 00 F3 B8 F6 00][0A F3 B8 F6 00]",
+    "text_fr": "",
+    "raw_hex": "70 74 9F 50 A9 9F A5 50 98 91 A6 95 50 91 9E A9 A4 98 99 9E 97 50 95 9C A3 95 50 A4 98 91 A4 50 A9 9F A5 50 A7 91 9E A4 50 9D 95 50 A4 9F 50 A3 A4 9F A2 95 6F 00 19 02 89 95 A3 02 19 02 7E 9F 02 1C 07 02 11 12 09 02 D5 B7 F6 00 F3 B8 F6 00 0A F3 B8 F6 00",
+    "literal_pointer_offsets": [
+      "36B868",
+      "36B997"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Do you have anything else that you want me to store?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 D5 B7 F6 00 F3 B8 F6 00][0A F3 B8 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Do you have anything else that you want me to store?",
+        "french": "@Tu veux me confier autre chose ?"
+      },
+      {
+        "offset": 56,
+        "original": "Yes",
+        "french": "Oui"
+      },
+      {
+        "offset": 62,
+        "original": "No",
+        "french": "Non"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B8C1",
+    "offset": "36B8C1",
+    "snes": "F6B8C1",
+    "length": 50,
+    "source": "script_candidate",
+    "text_en": "[01]@I don't think you have anything to store.[03][00][0A F3 B8 F6 00]",
+    "text_fr": "",
+    "raw_hex": "01 70 79 50 94 9F 9E 57 A4 50 A4 98 99 9E 9B 50 A9 9F A5 50 98 91 A6 95 50 91 9E A9 A4 98 99 9E 97 50 A4 9F 50 A3 A4 9F A2 95 5E 03 00 0A F3 B8 F6 00",
+    "literal_pointer_offsets": [
+      "36B7DC"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "\n\n@I don't think you have anything to store.\n[0A F3 B8 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@I don't think you have anything to store.",
+        "french": "@Tu n'as rien à me confier."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B8F3",
+    "offset": "36B8F3",
+    "snes": "F6B8F3",
+    "length": 41,
+    "source": "script_candidate",
+    "text_en": "@Do you need anything else from me?[01][0A AE B7 F6 00]",
+    "text_fr": "",
+    "raw_hex": "70 74 9F 50 A9 9F A5 50 9E 95 95 94 50 91 9E A9 A4 98 99 9E 97 50 95 9C A3 95 50 96 A2 9F 9D 50 9D 95 6F 01 0A AE B7 F6 00",
+    "literal_pointer_offsets": [
+      "36B81A",
+      "36B8B8",
+      "36B8BD",
+      "36B8EF",
+      "36B940",
+      "36B96B",
+      "36B9D5",
+      "36BAAC",
+      "36BAB1",
+      "36BABE"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Do you need anything else from me?\n\n[0A AE B7 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Do you need anything else from me?",
+        "french": "@Tu as besoin d'autre chose ?"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B91C",
+    "offset": "36B91C",
+    "snes": "F6B91C",
+    "length": 40,
+    "source": "script_candidate",
+    "text_en": "[01]@I'm sorry.[00]  My locker is full.[03][00][0A F3 B8 F6 00]",
+    "text_fr": "",
+    "raw_hex": "01 70 79 57 9D 50 A3 9F A2 A2 A9 5E 00 50 50 7D A9 50 9C 9F 93 9B 95 A2 50 99 A3 50 96 A5 9C 9C 5E 03 00 0A F3 B8 F6 00",
+    "literal_pointer_offsets": [
+      "36B7ED"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "\n\n@I'm sorry.\n  My locker is full.\n[0A F3 B8 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@I'm sorry.",
+        "french": "@Désolée."
+      },
+      {
+        "offset": 13,
+        "original": "  My locker is full.",
+        "french": "  Mon casier est plein."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36B944",
+    "offset": "36B944",
+    "snes": "F6B944",
+    "length": 43,
+    "source": "script_candidate",
+    "text_en": "[01]@I'm not storing any of your stuff.[03][00][0A F3 B8 F6 00]",
+    "text_fr": "",
+    "raw_hex": "01 70 79 57 9D 50 9E 9F A4 50 A3 A4 9F A2 99 9E 97 50 91 9E A9 50 9F 96 50 A9 9F A5 A2 50 A3 A4 A5 96 96 5E 03 00 0A F3 B8 F6 00",
+    "literal_pointer_offsets": [
+      "36B9DF"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "\n\n@I'm not storing any of your stuff.\n[0A F3 B8 F6 00]",
+    "text_fr_segments": [
+      {
+        "offset": 1,
+        "original": "@I'm not storing any of your stuff.",
+        "french": "@Je ne garde aucun de tes objets."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "38A32A",
+    "offset": "38A32A",
+    "snes": "F8A32A",
+    "length": 27,
+    "source": "script_candidate",
+    "text_en": "[18 01 35]@The door is locked.[13][18 04][02]",
+    "text_fr": "",
+    "raw_hex": "18 01 35 70 84 98 95 50 94 9F 9F A2 50 99 A3 50 9C 9F 93 9B 95 94 5E 13 18 04 02",
+    "literal_pointer_offsets": [
+      "06FB21"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[18 01 35]@The door is locked.[13][18 04][02]",
+    "text_fr_segments": [
+      {
+        "offset": 3,
+        "original": "@The door is locked.",
+        "french": "@La porte est fermée à clé."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "38A345",
+    "offset": "38A345",
+    "snes": "F8A345",
+    "length": 146,
+    "source": "script_candidate",
+    "text_en": "[05 80 03][08 11 DE C7 00][08 82 90 C6 00][18 01 35][08 A4 DF C7 00]@[1C 02 00]![03][00]@You seem to be worn out from fighting.[03][00]@Would you like to give it one more try?[00][05 5A 03][19 02]Yes[02]  [19 02]No[02][1C 07 02][11][12][09 02 66 A4 F8 00 D7 A3 F8 00][0A D7 A3 F8 00]",
+    "text_fr": "",
+    "raw_hex": "05 80 03 08 11 DE C7 00 08 82 90 C6 00 18 01 35 08 A4 DF C7 00 70 1C 02 00 51 03 00 70 89 9F A5 50 A3 95 95 9D 50 A4 9F 50 92 95 50 A7 9F A2 9E 50 9F A5 A4 50 96 A2 9F 9D 50 96 99 97 98 A4 99 9E 97 5E 03 00 70 87 9F A5 9C 94 50 A9 9F A5 50 9C 99 9B 95 50 A4 9F 50 97 99 A6 95 50 99 A4 50 9F 9E 95 50 9D 9F A2 95 50 A4 A2 A9 6F 00 05 5A 03 19 02 89 95 A3 02 50 50 19 02 7E 9F 02 1C 07 02 11 12 09 02 66 A4 F8 00 D7 A3 F8 00 0A D7 A3 F8 00",
+    "literal_pointer_offsets": [
+      "07DE7E"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[05 80 03][08 11 DE C7 00][08 82 90 C6 00][18 01 35][08 A4 DF C7 00]@[1C 02 00]!\n@You seem to be worn out from fighting.\n@Would you like to give it one more try?\n[05 5A 03][19 02]Yes[02]  [19 02]No[02][1C 07 02][11][12][09 02 66 A4 F8 00 D7 A3 F8 00][0A D7 A3 F8 00]",
+    "text_fr_segments": [
+      {
+        "offset": 21,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 25,
+        "original": "!",
+        "french": "!"
+      },
+      {
+        "offset": 28,
+        "original": "@You seem to be worn out from fighting.",
+        "french": "@Les combats t'ont épuisé."
+      },
+      {
+        "offset": 69,
+        "original": "@Would you like to give it one more try?",
+        "french": "@Tu veux essayer encore une fois ?"
+      },
+      {
+        "offset": 115,
+        "original": "Yes",
+        "french": "Oui"
+      },
+      {
+        "offset": 119,
+        "original": "  ",
+        "french": "   "
+      },
+      {
+        "offset": 123,
+        "original": "No",
+        "french": "Non"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "38A3D7",
+    "offset": "38A3D7",
+    "snes": "F8A3D7",
+    "length": 143,
+    "source": "script_candidate",
+    "text_en": "@Are you sure?[03][00]@The next time you start your adventure,[03][00]@you'll begin where you last saved.[03][00]@Is that okay?[00][19 02]No[02]  [19 02]Yes[02][1C 07 02][11][12][09 02 66 A4 F8 00 C3 A4 F8 00][0A 66 A4 F8 00]",
+    "text_fr": "",
+    "raw_hex": "70 71 A2 95 50 A9 9F A5 50 A3 A5 A2 95 6F 03 00 70 84 98 95 50 9E 95 A8 A4 50 A4 99 9D 95 50 A9 9F A5 50 A3 A4 91 A2 A4 50 A9 9F A5 A2 50 91 94 A6 95 9E A4 A5 A2 95 5C 03 00 70 A9 9F A5 57 9C 9C 50 92 95 97 99 9E 50 A7 98 95 A2 95 50 A9 9F A5 50 9C 91 A3 A4 50 A3 91 A6 95 94 5E 03 00 70 79 A3 50 A4 98 91 A4 50 9F 9B 91 A9 6F 00 19 02 7E 9F 02 50 50 19 02 89 95 A3 02 1C 07 02 11 12 09 02 66 A4 F8 00 C3 A4 F8 00 0A 66 A4 F8 00",
+    "literal_pointer_offsets": [
+      "07DEE1",
+      "38A3CE",
+      "38A3D3"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Are you sure?\n@The next time you start your adventure,\n@you'll begin where you last saved.\n@Is that okay?\n[19 02]No[02]  [19 02]Yes[02][1C 07 02][11][12][09 02 66 A4 F8 00 C3 A4 F8 00][0A 66 A4 F8 00]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Are you sure?",
+        "french": "@Tu es sûr ?"
+      },
+      {
+        "offset": 16,
+        "original": "@The next time you start your adventure,",
+        "french": "@À ta prochaine aventure,"
+      },
+      {
+        "offset": 58,
+        "original": "@you'll begin where you last saved.",
+        "french": "@tu reprendras à ta dernière sauvegarde."
+      },
+      {
+        "offset": 95,
+        "original": "@Is that okay?",
+        "french": "@D'accord ?"
+      },
+      {
+        "offset": 112,
+        "original": "No",
+        "french": "Non"
+      },
+      {
+        "offset": 115,
+        "original": "  ",
+        "french": "   "
+      },
+      {
+        "offset": 119,
+        "original": "Yes",
+        "french": "Oui"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "38A466",
+    "offset": "38A466",
+    "snes": "F8A466",
+    "length": 93,
+    "source": "script_candidate",
+    "text_en": "@With his strength regained...[03][00]@[1C 02 00] returned with all his might![03][00]@Do your best, [1C 02 00]![13][18 04][04 DB 01][02]",
+    "text_fr": "",
+    "raw_hex": "70 87 99 A4 98 50 98 99 A3 50 A3 A4 A2 95 9E 97 A4 98 50 A2 95 97 91 99 9E 95 94 5E 5E 5E 03 00 70 1C 02 00 50 A2 95 A4 A5 A2 9E 95 94 50 A7 99 A4 98 50 91 9C 9C 50 98 99 A3 50 9D 99 97 98 A4 51 03 00 70 74 9F 50 A9 9F A5 A2 50 92 95 A3 A4 5C 50 1C 02 00 51 13 18 04 04 DB 01 02",
+    "literal_pointer_offsets": [
+      "07DF3D",
+      "38A3CA",
+      "38A459",
+      "38A462"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@With his strength regained...\n@[1C 02 00] returned with all his might!\n@Do your best, [1C 02 00]![13][18 04][04 DB 01][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@With his strength regained...",
+        "french": "@Ayant repris des forces..."
+      },
+      {
+        "offset": 32,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 36,
+        "original": " returned with all his might!",
+        "french": " revint à la charge !"
+      },
+      {
+        "offset": 67,
+        "original": "@Do your best, ",
+        "french": "@Courage, "
+      },
+      {
+        "offset": 85,
+        "original": "!",
+        "french": " !"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "38A4C3",
+    "offset": "38A4C3",
+    "snes": "F8A4C3",
+    "length": 76,
+    "source": "script_candidate",
+    "text_en": "@[1C 02 00] realized that it had only been a bad dream.[03][00]@Do your best, [1C 02 00]![13][18 04][05 DB 01][02]",
+    "text_fr": "",
+    "raw_hex": "70 1C 02 00 50 A2 95 91 9C 99 AA 95 94 50 A4 98 91 A4 50 99 A4 50 98 91 94 50 9F 9E 9C A9 50 92 95 95 9E 50 91 50 92 91 94 50 94 A2 95 91 9D 5E 03 00 70 74 9F 50 A9 9F A5 A2 50 92 95 A3 A4 5C 50 1C 02 00 51 13 18 04 05 DB 01 02",
+    "literal_pointer_offsets": [
+      "07DF79",
+      "38A45D"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@[1C 02 00] realized that it had only been a bad dream.\n@Do your best, [1C 02 00]![13][18 04][05 DB 01][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 4,
+        "original": " realized that it had only been a bad dream.",
+        "french": " comprit que ce n'était qu'un mauvais rêve."
+      },
+      {
+        "offset": 50,
+        "original": "@Do your best, ",
+        "french": "@Courage, "
+      },
+      {
+        "offset": 68,
+        "original": "!",
+        "french": " !"
+      }
+    ],
+    "status": "draft"
+  }
+]
