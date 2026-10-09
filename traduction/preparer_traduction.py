@@ -571,17 +571,19 @@ DIALOGUES += '''
 372CEE|Un rayon de lumière frappe tous les ennemis.|Inflige environ 600 dégâts.
 372D42|Tente de fuir le combat par la quatrième dimension.|Les alliés mortellement touchés tombent avant la fin du transfert.
 372DCB|Détruit le bouclier d'un ennemi.|Agit sur les boucliers physiques et psychiques.
-372E22|Peut bloquer les PSI ennemis un temps.
+372E22|Peut priver un ennemi de PSI un temps.
 372E4D|Aveugle un ennemi.
 372E86|Aveugle tous les ennemis.
 372EBB|Permet de lire les pensées des gens ou des animaux.
-372EF4|Moins fort sur les machines
+372EF4|Machines : effet réduit.
 372F11|Sans effet sur les boss.
 372F2F|Peut être moins efficace sur certains ennemis.
 372F61|Augmente la vitesse d'une personne jusqu'à la fin du combat.
 33C6E8|Rien à signaler.
 347960|Rien à signaler.
 3744AD|Rien à signaler.'''
+
+DIALOGUES += '\n33ED82|Biiiip...\n36ADB4|Biiiip...'
 
 def main():
     import sys

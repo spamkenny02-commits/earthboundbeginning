@@ -6998,7 +6998,7 @@
       {
         "offset": 0,
         "original": "@May block an enemy's PSI for a few turns.",
-        "french": "@Peut bloquer les PSI ennemis un temps."
+        "french": "@Peut priver un ennemi de PSI un temps."
       }
     ],
     "status": "draft"
@@ -7093,7 +7093,7 @@
       {
         "offset": 0,
         "original": "@Less effective on machines.",
-        "french": "@Moins fort sur les machines"
+        "french": "@Machines : effet réduit."
       }
     ],
     "status": "draft"
@@ -7241,6 +7241,52 @@
         "offset": 7,
         "original": "@No problem here.",
         "french": "@Rien à signaler."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "33ED82",
+    "offset": "33ED82",
+    "snes": "F3ED82",
+    "length": 27,
+    "source": "script_candidate",
+    "text_en": "[06 6F 03 C7 A5 F8 00][1F 02 0B][10 14]@Beeeep...[13][1F 02 0B][02]",
+    "text_fr": "",
+    "raw_hex": "06 6F 03 C7 A5 F8 00 1F 02 0B 10 14 70 72 95 95 95 95 A0 5E 5E 5E 13 1F 02 0B 02",
+    "literal_pointer_offsets": [
+      "2025AD"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 6F 03 C7 A5 F8 00][1F 02 0B][10 14]@Beeeep...[13][1F 02 0B][02]",
+    "text_fr_segments": [
+      {
+        "offset": 12,
+        "original": "@Beeeep...",
+        "french": "@Biiiip..."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "36ADB4",
+    "offset": "36ADB4",
+    "snes": "F6ADB4",
+    "length": 34,
+    "source": "script_candidate",
+    "text_en": "[06 1B 03 D6 AD F6 00][06 F1 02 F1 AD F6 00][1F 02 0B][10 14]@Beeeep...[13][1F 02 0B][02]",
+    "text_fr": "",
+    "raw_hex": "06 1B 03 D6 AD F6 00 06 F1 02 F1 AD F6 00 1F 02 0B 10 14 70 72 95 95 95 95 A0 5E 5E 5E 13 1F 02 0B 02",
+    "literal_pointer_offsets": [
+      "202239"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "[06 1B 03 D6 AD F6 00][06 F1 02 F1 AD F6 00][1F 02 0B][10 14]@Beeeep...[13][1F 02 0B][02]",
+    "text_fr_segments": [
+      {
+        "offset": 19,
+        "original": "@Beeeep...",
+        "french": "@Biiiip..."
       }
     ],
     "status": "draft"
