@@ -28,3 +28,7 @@ Confirmés : attaque du héros et de la lampe, dégâts aux deux cibles, expéri
 ## Mise à jour v05
 
 Niveau 2, mélodie et premier appel familial observés ; sauvegarde SRAM et chargement après redémarrage confirmés pour les deux variantes finales. Poursuivre les messages financiers, les menus PSI, le stockage, les cadeaux, la défaite, les autres emplacements de sauvegarde et la relecture des espaces. Voir RAPPORT_V05.md et tests/rapport_emulation_v05.json.
+
+## Mise à jour v06
+
+Virements et formules du père observés dans un essai isolé ; les calculs et le parcours normal restent à vérifier. Nouvelle partie et lecture SRAM sur les deux ROM finales confirmées. Vérifier les groupes, le stockage, les PSI et les espacements. Voir RAPPORT_V06.md et tests/rapport_emulation_v06.json.

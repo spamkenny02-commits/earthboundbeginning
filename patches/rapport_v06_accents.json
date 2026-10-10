@@ -4784,28 +4784,28 @@
     }
   ],
   "telephone_calls": {
-    "region_start": "31F260",
-    "region_end": "31F360",
+    "region_start": "3FF550",
+    "region_end": "3FF5F5",
     "routines": [
       {
         "id": "papa",
-        "offset": "31F260",
-        "raw_hex": "19 10 01 0b 01 1b 02 74 f2 f1 00 a4 9f 9e 50 a0 91 a0 91 02 9c 95 50 a0 91 a0 91 50 94 95 50 1c 02 01 02"
+        "offset": "3FF550",
+        "raw_hex": "19 10 01 0b 01 1b 02 64 f5 ff 00 a4 9f 9e 50 a0 91 a0 91 02 9c 95 50 a0 91 a0 91 50 94 95 50 1c 02 01 02"
       },
       {
         "id": "compte",
-        "offset": "31F2A0",
-        "raw_hex": "19 10 01 0b 01 1b 02 af f2 f1 00 a4 9f 99 02 1c 02 01 02"
+        "offset": "3FF580",
+        "raw_hex": "19 10 01 0b 01 1b 02 8f f5 ff 00 a4 9f 99 02 1c 02 01 02"
       },
       {
         "id": "depenses",
-        "offset": "31F2C0",
-        "raw_hex": "1d 19 03 1b 02 d8 f2 f1 00 1d 19 02 1b 02 d8 f2 f1 00 a4 a5 50 91 a3 02 a6 9f a5 a3 50 91 a6 95 aa 02"
+        "offset": "3FF5A0",
+        "raw_hex": "1d 19 03 1b 02 b8 f5 ff 00 1d 19 02 1b 02 b8 f5 ff 00 a4 a5 50 91 a3 02 a6 9f a5 a3 50 91 a6 95 aa 02"
       },
       {
         "id": "maman",
-        "offset": "31F300",
-        "raw_hex": "19 10 01 0b 01 1b 02 14 f3 f1 00 a4 91 50 9d 91 9d 91 9e 02 9c 91 50 9d 91 9d 91 9e 50 94 95 50 1c 02 01 02"
+        "offset": "3FF5D0",
+        "raw_hex": "19 10 01 0b 01 1b 02 e4 f5 ff 00 a4 91 50 9d 91 9d 91 9e 02 9c 91 50 9d 91 9d 91 9e 50 94 95 50 1c 02 01 02"
       }
     ],
     "calls": [
@@ -4814,28 +4814,28 @@
         "offset": "35C5E3",
         "original_target": "387A8C",
         "helper": "papa",
-        "new_target": "31F260"
+        "new_target": "3FF550"
       },
       {
         "block": "35C5D9",
         "offset": "35C622",
         "original_target": "387A8C",
         "helper": "compte",
-        "new_target": "31F2A0"
+        "new_target": "3FF580"
       },
       {
         "block": "35C5D9",
         "offset": "35C644",
         "original_target": "387AD2",
         "helper": "depenses",
-        "new_target": "31F2C0"
+        "new_target": "3FF5A0"
       },
       {
         "block": "35C7C8",
         "offset": "35C8A0",
         "original_target": "387A8C",
         "helper": "maman",
-        "new_target": "31F300"
+        "new_target": "3FF5D0"
       }
     ]
   },
@@ -5370,10 +5370,10 @@
       "preserved": true
     }
   ],
-  "target_sha256": "4dcf4f8d86eb779637327fc7e12cafa4485006267fe89f0c7f9e8a6408fa0fdc",
+  "target_sha256": "ee8e11a9579c23a7ec912dde5bbd93e8d21828a5544a3d413ad2760cfedc9c68",
   "source_rom_unchanged": true,
   "rom_size": 4194304,
-  "checksum": "266A",
+  "checksum": "27E1",
   "accepted_count": 674,
   "rejected_count": 6,
   "bytes_changed": 22742,

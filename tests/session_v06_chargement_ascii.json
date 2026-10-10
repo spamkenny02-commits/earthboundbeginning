@@ -1,0 +1,63 @@
+{
+  "frames": 5580,
+  "rom_sha256": "2ad419c0b5a5bb84aa5b983a75e28ce2957b43dd946640e1ea7d10930d12cd5b",
+  "pixel_format": 2,
+  "size": [
+    256,
+    224
+  ],
+  "actions": [
+    {
+      "frames": 600,
+      "capture": "00_demarrage"
+    },
+    {
+      "frames": 15,
+      "buttons": [
+        3
+      ]
+    },
+    {
+      "frames": 1800,
+      "capture": "01_titre"
+    },
+    {
+      "frames": 15,
+      "buttons": [
+        8
+      ]
+    },
+    {
+      "frames": 420,
+      "capture": "02_fichiers"
+    },
+    {
+      "frames": 15,
+      "buttons": [
+        8
+      ]
+    },
+    {
+      "frames": 300,
+      "capture": "options",
+      "save": "options.state"
+    },
+    {
+      "frames": 15,
+      "buttons": [
+        8
+      ]
+    },
+    {
+      "frames": 2400,
+      "capture": "charge",
+      "save": "charge.state"
+    }
+  ],
+  "initial_state_sha256": null,
+  "loaded_sram_sha256": "8debc317356e7ec60ec14023eaa988916ab2977ba629bacd4c60ddc031914c8a",
+  "sram": {
+    "size": 8192,
+    "sha256": "8debc317356e7ec60ec14023eaa988916ab2977ba629bacd4c60ddc031914c8a"
+  }
+}

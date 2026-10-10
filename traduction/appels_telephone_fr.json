@@ -1,6 +1,6 @@
 {
-  "region_start": "31F260",
-  "region_end": "31F360",
+  "region_start": "3FF550",
+  "region_end": "3FF5F5",
   "guards": [
     {
       "offset": "387A8C",
@@ -14,28 +14,28 @@
   "helpers": [
     {
       "id": "papa",
-      "offset": "31F260",
+      "offset": "3FF550",
       "kind": "possessive",
       "singular": "ton papa",
       "named_prefix": "le papa de "
     },
     {
       "id": "compte",
-      "offset": "31F2A0",
+      "offset": "3FF580",
       "kind": "possessive",
       "singular": "toi",
       "named_prefix": ""
     },
     {
       "id": "depenses",
-      "offset": "31F2C0",
+      "offset": "3FF5A0",
       "kind": "party",
       "singular": "tu as",
       "plural": "vous avez"
     },
     {
       "id": "maman",
-      "offset": "31F300",
+      "offset": "3FF5D0",
       "kind": "possessive",
       "singular": "ta maman",
       "named_prefix": "la maman de "

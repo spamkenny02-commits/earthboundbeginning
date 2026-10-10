@@ -1,0 +1,36 @@
+{
+  "scope": "Essais partiels, avec entrée directe pour le téléphone",
+  "core_revision": "fe690dd321fa5a46b5234a2bde089d2518c62b0e",
+  "translations": 674,
+  "original_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "variants": {
+    "accents": {
+      "rom_sha256": "ee8e11a9579c23a7ec912dde5bbd93e8d21828a5544a3d413ad2760cfedc9c68",
+      "beginning_session": "session_v06_debut_accents.json",
+      "conversation_session": "session_v06_conversation_accents.json",
+      "financial_render_session": "session_v06_virement_accents.json",
+      "fresh_sram_load_session": "session_v06_chargement_accents.json"
+    },
+    "ascii": {
+      "rom_sha256": "2ad419c0b5a5bb84aa5b983a75e28ce2957b43dd946640e1ea7d10930d12cd5b",
+      "beginning_session": "session_v06_debut_ascii.json",
+      "conversation_session": "session_v06_conversation_ascii.json",
+      "financial_render_session": "session_v06_virement_ascii.json",
+      "fresh_sram_load_session": "session_v06_chargement_ascii.json"
+    }
+  },
+  "telephone_test_hook": {
+    "changed_interval": [
+      "07C588",
+      "07C58E"
+    ],
+    "purpose": "Déclencher la conversation ou le passage financier depuis À qui ?",
+    "natural_quest_path_validated": false,
+    "bank_accounting_validated": false,
+    "party_branches_runtime_validated": false
+  },
+  "native_sram_bytes": 8192,
+  "fresh_sram_load_both_variants": true,
+  "sram_provenance": "Partie enregistrée via le dialogue de sauvegarde dans la ROM de test isolé",
+  "rom_state_sram_core_distributed": false
+}
