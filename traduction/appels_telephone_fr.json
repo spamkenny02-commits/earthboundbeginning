@@ -1,0 +1,70 @@
+{
+  "region_start": "31F260",
+  "region_end": "31F360",
+  "guards": [
+    {
+      "offset": "387A8C",
+      "raw_hex": "19 10 01 0b 01 1b 02 9c 7a f8 00 a9 9f a5 a2 02 1c 02 01 57 a3 02"
+    },
+    {
+      "offset": "387AD2",
+      "raw_hex": "1d 19 03 1b 02 f8 7a f8 00 1d 19 02 1b 02 eb 7a f8 00 a9 9f a5 57 a6 95 02 a9 9f a5 50 a4 a7 9f 50 98 91 a6 95 02 a9 9f a5 50 91 9c 9c 50 98 91 a6 95 02"
+    }
+  ],
+  "helpers": [
+    {
+      "id": "papa",
+      "offset": "31F260",
+      "kind": "possessive",
+      "singular": "ton papa",
+      "named_prefix": "le papa de "
+    },
+    {
+      "id": "compte",
+      "offset": "31F2A0",
+      "kind": "possessive",
+      "singular": "toi",
+      "named_prefix": ""
+    },
+    {
+      "id": "depenses",
+      "offset": "31F2C0",
+      "kind": "party",
+      "singular": "tu as",
+      "plural": "vous avez"
+    },
+    {
+      "id": "maman",
+      "offset": "31F300",
+      "kind": "possessive",
+      "singular": "ta maman",
+      "named_prefix": "la maman de "
+    }
+  ],
+  "calls": [
+    {
+      "block": "35C5D9",
+      "offset": "35C5E3",
+      "original_target": "387A8C",
+      "helper": "papa"
+    },
+    {
+      "block": "35C5D9",
+      "offset": "35C622",
+      "original_target": "387A8C",
+      "helper": "compte"
+    },
+    {
+      "block": "35C5D9",
+      "offset": "35C644",
+      "original_target": "387AD2",
+      "helper": "depenses"
+    },
+    {
+      "block": "35C7C8",
+      "offset": "35C8A0",
+      "original_target": "387A8C",
+      "helper": "maman"
+    }
+  ]
+}

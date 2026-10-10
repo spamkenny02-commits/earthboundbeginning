@@ -682,7 +682,7 @@
     "length": 6,
     "source": "menu_field",
     "text_en": "Level:",
-    "text_fr": "Niv.:",
+    "text_fr": "Niv.",
     "raw_hex": "7C 95 A6 95 9C 6A",
     "label": "Status Window/Level",
     "capacity_bytes": 6,
@@ -4182,6 +4182,19 @@
     "text_fr": "Pièce magique",
     "raw_hex": "7D 91 97 99 93 50 93 9F 99 9E",
     "label": "224/Name",
+    "capacity_bytes": 25,
+    "status": "draft"
+  },
+  {
+    "id": "157AAE",
+    "offset": "157AAE",
+    "snes": "D57AAE",
+    "length": 3,
+    "source": "TELEPHONE_CONTACTS_TABLE",
+    "text_en": "Dad",
+    "text_fr": "Papa",
+    "raw_hex": "74 91 94",
+    "label": "0/Name",
     "capacity_bytes": 25,
     "status": "draft"
   },

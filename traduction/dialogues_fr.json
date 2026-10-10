@@ -8410,12 +8410,12 @@
       {
         "offset": 173,
         "original": "@You've got a great work ethic, just like ",
-        "french": "@Tu travailles dur, comme"
+        "french": "@Tu travailles dur, comme "
       },
       {
         "offset": 220,
         "original": " mother.",
-        "french": " maman."
+        "french": "."
       },
       {
         "offset": 230,
@@ -8479,6 +8479,118 @@
         "offset": 0,
         "original": "@(Click! Beep-beep-beep...)",
         "french": "@(Clac ! Biiiip...)"
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "35C583",
+    "offset": "35C583",
+    "snes": "F5C583",
+    "length": 20,
+    "source": "script_candidate",
+    "text_en": "@Not enough money.[13][02]",
+    "text_fr": "",
+    "raw_hex": "70 7E 9F A4 50 95 9E 9F A5 97 98 50 9D 9F 9E 95 A9 5E 13 02",
+    "literal_pointer_offsets": [
+      "35C544"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@Not enough money.[13][02]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@Not enough money.",
+        "french": "@Manque d’argent."
+      }
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "35C5D9",
+    "offset": "35C5D9",
+    "snes": "F5C5D9",
+    "length": 291,
+    "source": "script_candidate",
+    "text_en": "@This is [08 8C 7A F8 00] dad.[03][00][06 39 04 7C C9 F5 00][1D 24 01][1B 02 97 C6 F5 00][1B 04]@I've transferred $[1C 0A 00 00 00 00][00]  into [08 8C 7A F8 00] account.[03][00]@Taking away what [08 D2 7A F8 00] spent, you should now[00]  have $[1C 01 07] in the bank.[03][00]@Spend your money wisely.[03][00][1D 24 02]@Well, the next level requires...[03][00][0E 01][0D 01][1D 19 00][1B 03 68 C7 F5 00][19 10 00][1B 02 68 C7 F5 00][0D 00][19 18 00][1B 02 FC C6 F5 00][01]@[1B 04][1C 0A 00 00 00 00] exp for [1B 04][1C 02 00].[03][00][0F][0A BC C6 F5 00]",
+    "text_fr": "",
+    "raw_hex": "70 84 98 99 A3 50 99 A3 50 08 8C 7A F8 00 50 94 91 94 5E 03 00 06 39 04 7C C9 F5 00 1D 24 01 1B 02 97 C6 F5 00 1B 04 70 79 57 A6 95 50 A4 A2 91 9E A3 96 95 A2 A2 95 94 50 54 1C 0A 00 00 00 00 00 50 50 99 9E A4 9F 50 08 8C 7A F8 00 50 91 93 93 9F A5 9E A4 5E 03 00 70 84 91 9B 99 9E 97 50 91 A7 91 A9 50 A7 98 91 A4 50 08 D2 7A F8 00 50 A3 A0 95 9E A4 5C 50 A9 9F A5 50 A3 98 9F A5 9C 94 50 9E 9F A7 00 50 50 98 91 A6 95 50 54 1C 01 07 50 99 9E 50 A4 98 95 50 92 91 9E 9B 5E 03 00 70 83 A0 95 9E 94 50 A9 9F A5 A2 50 9D 9F 9E 95 A9 50 A7 99 A3 95 9C A9 5E 03 00 1D 24 02 70 87 95 9C 9C 5C 50 A4 98 95 50 9E 95 A8 A4 50 9C 95 A6 95 9C 50 A2 95 A1 A5 99 A2 95 A3 5E 5E 5E 03 00 0E 01 0D 01 1D 19 00 1B 03 68 C7 F5 00 19 10 00 1B 02 68 C7 F5 00 0D 00 19 18 00 1B 02 FC C6 F5 00 01 70 1B 04 1C 0A 00 00 00 00 50 95 A8 A0 50 96 9F A2 50 1B 04 1C 02 00 5E 03 00 0F 0A BC C6 F5 00",
+    "literal_pointer_offsets": [
+      "157AC9",
+      "35AA5C"
+    ],
+    "evidence": "literal_pointer",
+    "reading_en": "@This is [08 8C 7A F8 00] dad.\n[06 39 04 7C C9 F5 00][1D 24 01][1B 02 97 C6 F5 00][1B 04]@I've transferred $[1C 0A 00 00 00 00]\n  into [08 8C 7A F8 00] account.\n@Taking away what [08 D2 7A F8 00] spent, you should now\n  have $[1C 01 07] in the bank.\n@Spend your money wisely.\n[1D 24 02]@Well, the next level requires...\n[0E 01][0D 01][1D 19 00][1B 03 68 C7 F5 00][19 10 00][1B 02 68 C7 F5 00][0D 00][19 18 00][1B 02 FC C6 F5 00]\n\n@[1B 04][1C 0A 00 00 00 00] exp for [1B 04][1C 02 00].\n[0F][0A BC C6 F5 00]",
+    "text_fr_segments": [
+      {
+        "offset": 0,
+        "original": "@This is ",
+        "french": "@Ici "
+      },
+      {
+        "offset": 14,
+        "original": " dad.",
+        "french": "."
+      },
+      {
+        "offset": 39,
+        "original": "@I've transferred $",
+        "french": "@J’ai versé $"
+      },
+      {
+        "offset": 65,
+        "original": "  into ",
+        "french": "  pour "
+      },
+      {
+        "offset": 77,
+        "original": " account.",
+        "french": "."
+      },
+      {
+        "offset": 88,
+        "original": "@Taking away what ",
+        "french": "@Après ce que "
+      },
+      {
+        "offset": 111,
+        "original": " spent, you should now",
+        "french": " dépensé, il reste"
+      },
+      {
+        "offset": 134,
+        "original": "  have $",
+        "french": "  $"
+      },
+      {
+        "offset": 145,
+        "original": " in the bank.",
+        "french": " en banque."
+      },
+      {
+        "offset": 160,
+        "original": "@Spend your money wisely.",
+        "french": "@Dépense avec prudence."
+      },
+      {
+        "offset": 190,
+        "original": "@Well, the next level requires...",
+        "french": "@Pour le prochain niveau..."
+      },
+      {
+        "offset": 259,
+        "original": "@",
+        "french": "@"
+      },
+      {
+        "offset": 268,
+        "original": " exp for ",
+        "french": " EXP : "
+      },
+      {
+        "offset": 282,
+        "original": ".",
+        "french": "."
       }
     ],
     "status": "draft"

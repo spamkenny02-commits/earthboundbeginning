@@ -24,7 +24,7 @@ def verify(rom,build):
     menus={x['id']:x for x in json.loads((ROOT/'traduction/menus_objets_fr.json').read_text(encoding='utf-8'))}
     dialogues={x['id']:x for x in json.loads((ROOT/'traduction/dialogues_fr.json').read_text(encoding='utf-8'))}
     for profile in ['accents','ascii']:
-        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v05_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v05_{profile}.ips').read_bytes()
+        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v06_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v06_{profile}.ips').read_bytes()
         assert len(target)==len(source)==4194304
         for pos,ref,evidence in PROTECTED_TERMINATORS:
             assert target[pos]==source[pos]==0
@@ -34,6 +34,35 @@ def verify(rom,build):
         checksum=int.from_bytes(target[0xffde:0xffe0],'little');compl=int.from_bytes(target[0xffdc:0xffde],'little')
         assert checksum^compl==0xffff and sum(target)&0xffff==checksum
         assert target[0xffc0:0xffdc]==source[0xffc0:0xffdc]
+        telephone=report['telephone_calls']
+        plan=json.loads((ROOT/'traduction/appels_telephone_fr.json').read_text(encoding='utf-8'))
+        helper_rows={r['id']:r for r in plan['helpers']}
+        for routine in telephone['routines']:
+            row=helper_rows[routine['id']];dest=int(routine['offset'],16);routine_bytes=bytes.fromhex(routine['raw_hex'])
+            assert target[dest:dest+len(routine_bytes)]==routine_bytes and source[dest:dest+len(routine_bytes)]==bytes(len(routine_bytes))
+            first=encode_fr(row['singular'],profile=='accents')+b'\x02'
+            if row['kind']=='possessive':
+                assert routine_bytes[:7]==source[0x387a8c:0x387a93]
+                assert routine_bytes[11:11+len(first)]==first
+                alternate=dest+11+len(first)
+                assert routine_bytes[7:11]==(0xc00000+alternate).to_bytes(4,'little')
+                rest=encode_fr(row['named_prefix'],profile=='accents')+b'\x1c\x02\x01\x02'
+                assert routine_bytes[alternate-dest:]==rest
+            else:
+                assert routine_bytes[:5]==source[0x387ad2:0x387ad7] and routine_bytes[9:14]==source[0x387adb:0x387ae0]
+                assert routine_bytes[18:18+len(first)]==first
+                alternate=dest+18+len(first);ptr=(0xc00000+alternate).to_bytes(4,'little')
+                assert routine_bytes[5:9]==routine_bytes[14:18]==ptr
+                assert routine_bytes[alternate-dest:]==encode_fr(row['plural'],profile=='accents')+b'\x02'
+        for call in telephone['calls']:
+            q=int(call['offset'],16)
+            assert source[q-1]==target[q-1]==8
+            assert source[q:q+4]==(0xc00000+int(call['original_target'],16)).to_bytes(4,'little')
+            assert target[q:q+4]==(0xc00000+int(call['new_target'],16)).to_bytes(4,'little')
+        # Les sous-programmes partagés restent identiques ; seuls les quatre appelants changent.
+        for guard in plan['guards']:
+            q=int(guard['offset'],16);routine_bytes=bytes.fromhex(guard['raw_hex'])
+            assert source[q:q+len(routine_bytes)]==target[q:q+len(routine_bytes)]==routine_bytes
         checked=0;stable_commands=0
         for change in report['accepted']:
             p=int(change['id'],16)
@@ -91,7 +120,8 @@ def verify(rom,build):
                         assert fr in target[p:p+change['new_bytes']]
                 if change['stable_offsets_padding']:
                     covered=set(j for seg in spans for j in range(seg['offset'],seg['offset']+len(encode(seg['original']))))
-                    assert all(source[p+j]==target[p+j] for j in range(len(old)) if j not in covered)
+                    call_bytes={q for c in telephone['calls'] if c['block']==change['id'] for q in range(int(c['offset'],16)-p,int(c['offset'],16)-p+4)}
+                    assert all(source[p+j]==target[p+j] for j in range(len(old)) if j not in covered and j not in call_bytes)
             checked+=1
         for ref in report['relocation']['external_refs']:
             q=int(ref['offset'],16)

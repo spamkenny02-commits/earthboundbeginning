@@ -112,6 +112,8 @@ def integrate(rom,out,accents=True):
         q=p+len(raw)
         if any(p<b and a<q for a,b in patched_intervals):raise ValueError('Chevauchement : '+id)
         data[p:q]=raw;changes.append((p,q));patched_intervals.append((p,q))
+    from appels_telephone import prepare,apply_calls
+    report['telephone_calls']=prepare(original,write,encode_fr,accents)
     rows=json.loads((ROOT/'traduction/menus_objets_fr.json').read_text(encoding='utf-8'))
     for row in rows:
         p=int(row['offset'],16);old=bytes.fromhex(row['raw_hex']);cap=row['capacity_bytes']
@@ -173,6 +175,7 @@ def integrate(rom,out,accents=True):
             if 0x50<=check[p2]<=0xae or (accents and 0xb0<=check[p2]<=0xbf) or check[p2] in (0xc8,0xc9,0xca,0xcb):p2+=1;continue
             n=length(check,p2);check_controls.extend(check[p2:p2+n]);p2+=n
         assert check_controls==control_bytes,'Commandes modifiées : '+row['id']
+        outblock=apply_calls(row['id'],old,outblock,stable_offsets,report['telephone_calls']['calls'])
         write(p,bytes(outblock).ljust(len(old),b'\0'),row['id']);report['accepted'].append({'id':row['id'],'type':'dialogue','old_bytes':len(old),'new_bytes':len(outblock),'stable_offsets_padding':stable_offsets})
     # Routines anglaises compressées : les codes 15/16/17 sont des références de texte.
     # Les commandes de jeu, paramètres et positions restent strictement identiques.
@@ -212,6 +215,7 @@ def integrate(rom,out,accents=True):
     from relocaliser import relocate
     moved,report['relocation']=relocate(original,write,encode_fr,accents)
     report['accepted'].extend(moved)
+    assert all(any(x['id']==c['block'] for x in report['accepted']) for c in report['telephone_calls']['calls']), 'Dialogue téléphone exclu'
     report['font_glyphs']=patch_fonts(original,data,changes) if accents else []
     # Checksum HiROM. La somme des quatre octets checksum/complément reste 0x1FE.
     data[0xffdc:0xffe0]=b'\xff\xff\0\0';checksum=sum(data)&0xffff
@@ -224,11 +228,11 @@ def integrate(rom,out,accents=True):
     patch=ips_patch(original,data);assert apply_ips(original,patch)==bytes(data),'Échec application IPS'
     assert all(data[pos]==0 for pos,_,_ in PROTECTED_TERMINATORS),'Chaîne vide partagée écrasée'
     report['protected_terminators']=[{'offset':f'{pos:06X}','reference':f'{ref:06X}','preserved':data[pos]==0} for pos,ref,_ in PROTECTED_TERMINATORS]
-    report.update(target_sha256=hashlib.sha256(data).hexdigest(),source_rom_unchanged=hashlib.sha256(rom.read_bytes()).hexdigest()==hashlib.sha256(src).hexdigest(),rom_size=len(data),checksum=f'{checksum:04X}',accepted_count=len(report['accepted']),rejected_count=len(report['rejected']),bytes_changed=sum(a!=b for a,b in zip(original,data)),commands_preserved=True,ips_roundtrip_passed=True,runtime_validated=False)
+    report.update(target_sha256=hashlib.sha256(data).hexdigest(),source_rom_unchanged=hashlib.sha256(rom.read_bytes()).hexdigest()==hashlib.sha256(src).hexdigest(),rom_size=len(data),checksum=f'{checksum:04X}',accepted_count=len(report['accepted']),rejected_count=len(report['rejected']),bytes_changed=sum(a!=b for a,b in zip(original,data)),commands_preserved=True,telephone_call_arguments_retargeted=True,ips_roundtrip_passed=True,runtime_validated=False)
     out.mkdir(parents=True,exist_ok=True);suffix='accents' if accents else 'ascii'
-    (out/f'EarthBound_Beginnings_FR_v05_{suffix}.ips').write_bytes(patch)
+    (out/f'EarthBound_Beginnings_FR_v06_{suffix}.ips').write_bytes(patch)
     (out/f'rapport_{suffix}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2), encoding='utf-8')
-    (out/f'EarthBound_Beginnings_FR_v05_{suffix}.sfc').write_bytes(data)
+    (out/f'EarthBound_Beginnings_FR_v06_{suffix}.sfc').write_bytes(data)
     print(json.dumps({k:report[k] for k in ['profile','accepted_count','rejected_count','bytes_changed','target_sha256','runtime_validated']},ensure_ascii=False,indent=2))
     return report
 if __name__=='__main__':

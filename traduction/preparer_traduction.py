@@ -646,7 +646,10 @@ DIALOGUES += '''
 DIALOGUES += '''
 38D12D|| retint la mélodie.'''
 
-DIALOGUES += "\n35A9C3|La carte téléphonique n'a plus de crédit.|| décroche le téléphone.\n35C53A|| décroche le téléphone.\n35C597|| décroche le téléphone.\n35C768|De quoi as-tu besoin ?|Sauver|Rien, merci|Bon vent !\n35C7C8|D'accord... Je pensais aussi aller dormir.|J'ai sauvegardé tous tes combats.|Bonne nuit.|Suite|Dodo|Tu travailles dur, comme| maman.|Mais ne te fatigue pas trop.\n35C8E9|On fait une belle équipe !|Éteins la console plutôt que d'appuyer sur RESET.|D'accord ?\n35C960|(Clac ! Biiiip...)"
+DIALOGUES += "\n35A9C3|La carte téléphonique n'a plus de crédit.|| décroche le téléphone.\n35C53A|| décroche le téléphone.\n35C597|| décroche le téléphone.\n35C768|De quoi as-tu besoin ?|Sauver|Rien, merci|Bon vent !\n35C7C8|D'accord... Je pensais aussi aller dormir.|J'ai sauvegardé tous tes combats.|Bonne nuit.|Suite|Dodo|Tu travailles dur, comme |.|Mais ne te fatigue pas trop.\n35C8E9|On fait une belle équipe !|Éteins la console plutôt que d'appuyer sur RESET.|D'accord ?\n35C960|(Clac ! Biiiip...)"
+
+FIELDS += '\nDad|Papa\nLevel:|Niv.'
+DIALOGUES += '\n35C583|Manque d’argent.\n35C5D9|Ici |.|J’ai versé $|pour |.|Après ce que | dépensé, il reste|$| en banque.|Dépense avec prudence.|Pour le prochain niveau...|| EXP : |.'
 
 def main():
     import sys
