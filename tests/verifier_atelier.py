@@ -3,6 +3,7 @@
 import copy
 import csv
 import hashlib
+import json
 import sys
 import tempfile
 from pathlib import Path
@@ -58,10 +59,35 @@ def main():
             atelier.import_csv(path)
         first = next(atelier.entries(sample))
         assert first[2] == 'Essai' and first[1] == rows[0]['original']
+
+        # Un audit ancien ne doit pas donner un statut fiable à des sources modifiées.
+        report_path = Path(folder) / 'rapport.json'
+        output = Path(folder) / 'audit.json'
+        report = {'artifact_stem': 'essai', 'target_sha256': 'essai',
+                  'accepted_count': 1, 'accepted': [{'id': 'FFFFFF'}], 'rejected': [],
+                  'translation_sources_sha256': {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
+                      for p in sorted((ROOT / 'traduction').glob('*_fr.json'))}}
+        report_path.write_text(json.dumps(report), encoding='utf-8')
+        audit_fixture = {'field': [{'id': 'FFFFFF', 'text_en': 'No', 'text_fr': 'No'}],
+                         'dialogue': []}
+        with patch.object(atelier, 'load', return_value=audit_fixture):
+            atelier.audit(report_path, output)
+        found = json.loads(output.read_text())['fragments_identiques_a_relire']
+        assert any(row['text'] == 'No' and row['id'] == 'FFFFFF' for row in found)
+        report['translation_sources_sha256']['dialogues_fr.json'] = 'perime'
+        report_path.write_text(json.dumps(report), encoding='utf-8')
+        output.unlink()
+        try:
+            atelier.audit(report_path, output)
+        except ValueError:
+            pass
+        else:
+            raise AssertionError('Audit périmé accepté')
+        assert not output.exists()
     after = {name: hashlib.sha256((ROOT / 'traduction' / name).read_bytes()).hexdigest()
              for name in atelier.FILES.values()}
     assert before == after, 'Sources modifiées pendant les refus ou l’aller-retour'
-    print('Atelier : aller-retour, import partiel, 6 refus et sources intactes OK.')
+    print('Atelier : import CSV, 6 refus, audit des fragments et refus de rapport périmé OK.')
 
 
 if __name__ == '__main__':

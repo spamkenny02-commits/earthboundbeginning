@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Atelier CLI : CSV éditable et reconstruction vérifiée des deux variantes."""
 import argparse
+import hashlib
 import csv
 import json
 import os
@@ -108,9 +109,38 @@ def build(rom, output, version):
     subprocess.run([sys.executable, str(ROOT / 'traduction/verifier_integration.py'),
                     str(rom), '--build', str(output)], check=True)
     export_csv(output / 'traductions.csv', output / 'rapport_accents.json')
+    audit(output / 'rapport_accents.json', output / 'audit.json')
     report = json.loads((output / 'rapport_accents.json').read_text(encoding='utf-8'))
     print(f"{report['accepted_count']} entrées intégrées ; "
           f"{report['rejected_count']} exclues. Consulter les rapports avant de tester en jeu.")
+
+
+def audit(report_path, output):
+    report = json.loads(report_path.read_text(encoding='utf-8'))
+    expected = report.get('translation_sources_sha256')
+    current = {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
+               for p in sorted((ROOT / 'traduction').glob('*_fr.json'))}
+    if expected != current:
+        raise ValueError('Rapport absent ou périmé : reconstruire avant d’auditer les sources.')
+    accepted = {row['id']: row for row in report['accepted']}
+    pending = []
+    for key, original, french, _ in entries(load()):
+        if key[1] not in accepted:
+            continue
+        # Les noms propres et les marqueurs restent souvent identiques à juste titre.
+        if french == original and any(c.isalpha() for c in french) and not NATIVE.fullmatch(french):
+            pending.append({'type': key[0], 'id': key[1], 'segment': key[2],
+                            'text': french, 'source_bytes': len(encode_fr(original)),
+                            'french_bytes': len(encode_fr(french))})
+    result = {'artifact_stem': report['artifact_stem'],
+              'target_sha256': report['target_sha256'],
+              'accepted_count': report['accepted_count'],
+              'rejected': report['rejected'],
+              'fragments_identiques_a_relire': pending,
+              'scope': 'Champs et dialogues ordinaires préparés uniquement ; noms propres et glyphes à relire manuellement.'}
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f"Audit : {len(report['rejected'])} entrées exclues ; {len(pending)} fragments identiques à relire.")
 
 
 def main():
@@ -120,13 +150,16 @@ def main():
     p.add_argument('--rapport', type=Path)
     p = sub.add_parser('importer'); p.add_argument('csv', type=Path)
     p.add_argument('--appliquer', action='store_true')
+    p = sub.add_parser('auditer'); p.add_argument('rapport', type=Path)
+    p.add_argument('--sortie', type=Path, required=True)
     p = sub.add_parser('construire'); p.add_argument('rom', type=Path)
     p.add_argument('--sortie', type=Path, default=ROOT / 'build')
-    p.add_argument('--version', default='v07')
+    p.add_argument('--version', default='v08')
     args = parser.parse_args()
     try:
         if args.action == 'exporter': export_csv(args.csv, args.rapport)
         elif args.action == 'importer': import_csv(args.csv, args.appliquer)
+        elif args.action == 'auditer': audit(args.rapport, args.sortie)
         else: build(args.rom, args.sortie, args.version)
     except (ValueError, OSError, subprocess.CalledProcessError) as exc:
         parser.exit(1, 'Échec : ' + str(exc) + '\n')

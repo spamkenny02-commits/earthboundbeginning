@@ -647,6 +647,42 @@
       "raw_hex": "50 99 A4 5E",
       "code": "17 8F",
       "pointer_offset": "08D829"
+    },
+    "16 1B": {
+      "id": "08C465",
+      "offset": "08C465",
+      "snes": "C8C465",
+      "length": 3,
+      "source": "compression_dictionary",
+      "text_en": " go",
+      "text_fr": "",
+      "raw_hex": "50 97 9F",
+      "code": "16 1B",
+      "pointer_offset": "08D259"
+    },
+    "15 95": {
+      "id": "08C0E3",
+      "offset": "08C0E3",
+      "snes": "C8C0E3",
+      "length": 6,
+      "source": "compression_dictionary",
+      "text_en": "  the ",
+      "text_fr": "",
+      "raw_hex": "50 50 A4 98 95 50",
+      "code": "15 95",
+      "pointer_offset": "08D041"
+    },
+    "15 C8": {
+      "id": "08C24D",
+      "offset": "08C24D",
+      "snes": "C8C24D",
+      "length": 6,
+      "source": "compression_dictionary",
+      "text_en": " stuff",
+      "text_fr": "",
+      "raw_hex": "50 A3 A4 A5 96 96",
+      "code": "15 C8",
+      "pointer_offset": "08D10D"
     }
   },
   "blocks": [
@@ -1369,6 +1405,70 @@
           "french": " l'a."
         }
       ]
+    },
+    {
+      "id": "07DCDA",
+      "offset": "07DCDA",
+      "raw_hex": "1B 00 08 85 DC C7 00 1B 03 03 DD C7 00 1B 01 1B 04 01 70 58 1C 02 00 16 1B A4 00 15 95 1B 04 19 19 00 00 1C 05 00 5E 59 02",
+      "text_fr_segments": [
+        {
+          "offset": 18,
+          "end": 20,
+          "original": "@(",
+          "french": "@("
+        },
+        {
+          "offset": 23,
+          "end": 26,
+          "original": " got",
+          "french": " + "
+        },
+        {
+          "offset": 27,
+          "end": 29,
+          "original": "  the ",
+          "french": "1 "
+        },
+        {
+          "offset": 38,
+          "end": 40,
+          "original": ".)",
+          "french": ".)"
+        }
+      ],
+      "evidence": "Routine de réception/attribution des objets appelée par 38104C ; notifications raccourcies sans déplacement."
+    },
+    {
+      "id": "07DD03",
+      "offset": "07DD03",
+      "raw_hex": "19 10 01 1B 04 70 58 1C 02 00 50 91 94 94 15 4A 1B 01 19 19 00 00 1C 05 00 00 50 15 0C 1B 04 1C 02 00 57 A3 15 C8 5E 59 02",
+      "text_fr_segments": [
+        {
+          "offset": 5,
+          "end": 7,
+          "original": "@(",
+          "french": "@("
+        },
+        {
+          "offset": 10,
+          "end": 16,
+          "original": " added the ",
+          "french": " : "
+        },
+        {
+          "offset": 26,
+          "end": 29,
+          "original": "  to ",
+          "french": " à "
+        },
+        {
+          "offset": 34,
+          "end": 40,
+          "original": "'s stuff.)",
+          "french": ".)"
+        }
+      ],
+      "evidence": "Routine de réception/attribution des objets appelée par 38104C ; notifications raccourcies sans déplacement."
     }
   ]
 }

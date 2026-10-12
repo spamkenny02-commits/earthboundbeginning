@@ -100,7 +100,7 @@ def apply_ips(source,patch):
         data[offset:offset+size]=raw
     return bytes(data)
 
-def integrate(rom,out,accents=True,version="v07"):
+def integrate(rom,out,accents=True,version="v08"):
     if not re.fullmatch(r"v[0-9]{2,4}",version):raise ValueError("Version invalide : utiliser v07, v08...")
     stem=f"EarthBound_Beginnings_FR_{version}"
     src=rom.read_bytes();header=512 if len(src)%0x8000==512 else 0;original=src[header:]
@@ -230,6 +230,7 @@ def integrate(rom,out,accents=True,version="v07"):
     patch=ips_patch(original,data);assert apply_ips(original,patch)==bytes(data),'Échec application IPS'
     assert all(data[pos]==0 for pos,_,_ in PROTECTED_TERMINATORS),'Chaîne vide partagée écrasée'
     report['protected_terminators']=[{'offset':f'{pos:06X}','reference':f'{ref:06X}','preserved':data[pos]==0} for pos,ref,_ in PROTECTED_TERMINATORS]
+    report['translation_sources_sha256']={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT/'traduction').glob('*_fr.json'))}
     report.update(artifact_stem=stem,target_sha256=hashlib.sha256(data).hexdigest(),source_rom_unchanged=hashlib.sha256(rom.read_bytes()).hexdigest()==hashlib.sha256(src).hexdigest(),rom_size=len(data),checksum=f'{checksum:04X}',accepted_count=len(report['accepted']),rejected_count=len(report['rejected']),bytes_changed=sum(a!=b for a,b in zip(original,data)),commands_preserved=True,telephone_call_arguments_retargeted=True,ips_roundtrip_passed=True,runtime_validated=False)
     out.mkdir(parents=True,exist_ok=True);suffix='accents' if accents else 'ascii'
     (out/f'{stem}_{suffix}.ips').write_bytes(patch)
@@ -239,7 +240,7 @@ def integrate(rom,out,accents=True,version="v07"):
     return report
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('rom',type=Path);p.add_argument('--sortie',type=Path,default=ROOT/'build');p.add_argument('--sans-accents',action='store_true');p.add_argument('--appliquer',type=Path,help='Appliquer un patch IPS existant au lieu de construire la traduction')
-    p.add_argument('--version',default='v07',help='Version des fichiers reconstruits, ex. v07');args=p.parse_args()
+    p.add_argument('--version',default='v08',help='Version des fichiers reconstruits, ex. v07');args=p.parse_args()
     if args.appliquer:
         src=args.rom.read_bytes();header=512 if len(src)%0x8000==512 else 0;src=src[header:]
         if hashlib.sha256(src).hexdigest()!=EXPECTED:raise ValueError('Mauvaise ROM source')

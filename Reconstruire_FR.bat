@@ -5,10 +5,10 @@ if "%~1"=="" (
  pause
  exit /b 1
 )
-py -3 traduction\atelier.py construire "%~1" --version v07 --sortie build_v07
+py -3 traduction\atelier.py construire "%~1" --version v08 --sortie build_v08
 if errorlevel 1 (
  echo Echec : consultez le message ci-dessus.
 ) else (
- echo Patchs, ROM et rapports crees dans build_v07.
+ echo Patchs, ROM et rapports crees dans build_v08.
 )
 pause

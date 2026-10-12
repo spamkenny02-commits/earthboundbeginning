@@ -21,18 +21,28 @@ Le CSV couvre les champs et les dialogues ordinaires déjà préparés. Les text
 ## Construire et contrôler
 
 ```sh
-python traduction/atelier.py construire "ROM.sfc" --version v07 --sortie build_v07
+python traduction/atelier.py construire "ROM.sfc" --version v08 --sortie build_v08
 ```
 
 Sous Windows, on peut aussi glisser la ROM source sur `Reconstruire_FR.bat`.
 
 Cette commande vérifie la ROM source, produit les variantes avec et sans accents, puis lance le vérificateur indépendant. Les noms de ROM et de patch portent la version demandée. Le CSV produit dans le dossier de sortie indique les entrées intégrées ou exclues ; consulter également les rapports JSON pour les capacités réelles.
 
-Les commandes, les pointeurs intérieurs, les terminaisons partagées, les glyphes et les checksums sont protégés par l'intégrateur existant. Les six propositions exclues de la v07 restent anglaises. Un contrôle binaire réussi ne confirme pas l'affichage ni les conditions du scénario.
+Les commandes, les pointeurs intérieurs, les terminaisons partagées, les glyphes et les checksums sont protégés par l'intégrateur existant. Les six propositions exclues de la v08 restent anglaises. Un contrôle binaire réussi ne confirme pas l'affichage ni les conditions du scénario.
 
 Pour appliquer uniquement le patch publié sous Windows, glisser la ROM source sur `Appliquer_patch_FR.bat`. La sortie se trouve dans `build/EarthBound_Beginnings_FR.sfc`.
 
 ## Vérifier l'outil
+
+Après reconstruction, produire le relevé des entrées exclues et des fragments encore identiques :
+
+```sh
+python traduction/atelier.py auditer build_v08/rapport_accents.json --sortie build_v08/audit.json
+```
+
+Le rapport porte les empreintes des sources de traduction. Si elles ont changé, l'audit demande une reconstruction avant de donner le statut des entrées. Les fragments identiques nécessitent une relecture : ils peuvent être des noms propres, des symboles ou du texte encore anglais. Le relevé couvre les champs et les dialogues ordinaires déjà préparés, sans prétendre mesurer le pourcentage de traduction de tout le jeu.
+
+Le lot v08 conserve quatre choix `No` : remplacer leurs deux octets par les trois octets de `Non` dépasserait les positions fixes. Les autres phrases de ces dialogues sont intégrées en français. Ces limites apparaissent dans l'audit.
 
 ```sh
 python tests/verifier_atelier.py

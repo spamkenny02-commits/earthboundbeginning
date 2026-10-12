@@ -1,0 +1,244 @@
+{
+  "artifact_stem": "EarthBound_Beginnings_FR_v08",
+  "target_sha256": "40f1edb80aa6631e38adccd4cd34f16742f0c3de471a3a0ae942658eb58a1f93",
+  "accepted_count": 752,
+  "rejected": [
+    {
+      "id": "0BD867",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 3,
+      "available": 2,
+      "english": "No",
+      "french": "Non"
+    },
+    {
+      "id": "0C2DFD",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 5,
+      "available": 4,
+      "english": "Beam",
+      "french": "Rayon"
+    },
+    {
+      "id": "045BA0",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 6,
+      "available": 4,
+      "english": "Sick",
+      "french": "Malade"
+    },
+    {
+      "id": "045BD0",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 5,
+      "available": 4,
+      "english": "Cold",
+      "french": "Rhume"
+    },
+    {
+      "id": "0BD82B",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 7,
+      "available": 4,
+      "english": "Sing",
+      "french": "Chanter"
+    },
+    {
+      "id": "371E94",
+      "type": "dialogue",
+      "reason": "pointeur intérieur et fragment français trop long ; relocation nécessaire"
+    }
+  ],
+  "fragments_identiques_a_relire": [
+    {
+      "type": "dialogue",
+      "id": "2FA66C",
+      "segment": "4",
+      "text": "OK",
+      "source_bytes": 2,
+      "french_bytes": 2
+    },
+    {
+      "type": "dialogue",
+      "id": "2FA6A7",
+      "segment": "3",
+      "text": "OK",
+      "source_bytes": 2,
+      "french_bytes": 2
+    },
+    {
+      "type": "dialogue",
+      "id": "339EE7",
+      "segment": "0",
+      "text": "@Hahaha...",
+      "source_bytes": 10,
+      "french_bytes": 10
+    },
+    {
+      "type": "dialogue",
+      "id": "33A940",
+      "segment": "0",
+      "text": "@<Podunk>",
+      "source_bytes": 9,
+      "french_bytes": 9
+    },
+    {
+      "type": "dialogue",
+      "id": "36002E",
+      "segment": "8",
+      "text": "No",
+      "source_bytes": 2,
+      "french_bytes": 2
+    },
+    {
+      "type": "dialogue",
+      "id": "36002E",
+      "segment": "9",
+      "text": "@Oh?!",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "dialogue",
+      "id": "3601FC",
+      "segment": "13",
+      "text": "No",
+      "source_bytes": 2,
+      "french_bytes": 2
+    },
+    {
+      "type": "dialogue",
+      "id": "360C10",
+      "segment": "2",
+      "text": "@Psst...",
+      "source_bytes": 8,
+      "french_bytes": 8
+    },
+    {
+      "type": "dialogue",
+      "id": "361070",
+      "segment": "9",
+      "text": "@Oh",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "dialogue",
+      "id": "361070",
+      "segment": "11",
+      "text": " oh",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "1",
+      "text": "  A",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "2",
+      "text": "A",
+      "source_bytes": 1,
+      "french_bytes": 1
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "3",
+      "text": "A",
+      "source_bytes": 1,
+      "french_bytes": 1
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "4",
+      "text": "A",
+      "source_bytes": 1,
+      "french_bytes": 1
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "5",
+      "text": "AAAHHH!",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "dialogue",
+      "id": "3616AF",
+      "segment": "0",
+      "text": "@Hum.",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "dialogue",
+      "id": "3619E9",
+      "segment": "0",
+      "text": "@Zombie!",
+      "source_bytes": 8,
+      "french_bytes": 8
+    },
+    {
+      "type": "dialogue",
+      "id": "361AD4",
+      "segment": "1",
+      "text": "@Ha ha ha!",
+      "source_bytes": 10,
+      "french_bytes": 10
+    },
+    {
+      "type": "dialogue",
+      "id": "361BFE",
+      "segment": "0",
+      "text": "@Oh... ",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "dialogue",
+      "id": "380F4C",
+      "segment": "5",
+      "text": "No",
+      "source_bytes": 2,
+      "french_bytes": 2
+    },
+    {
+      "type": "dialogue",
+      "id": "380FBF",
+      "segment": "1",
+      "text": "@Ha ha ha!",
+      "source_bytes": 10,
+      "french_bytes": 10
+    },
+    {
+      "type": "dialogue",
+      "id": "380FEB",
+      "segment": "3",
+      "text": "No",
+      "source_bytes": 2,
+      "french_bytes": 2
+    },
+    {
+      "type": "dialogue",
+      "id": "3810EA",
+      "segment": "0",
+      "text": "@Oh...",
+      "source_bytes": 6,
+      "french_bytes": 6
+    }
+  ],
+  "scope": "Champs et dialogues ordinaires préparés uniquement ; noms propres et glyphes à relire manuellement."
+}
