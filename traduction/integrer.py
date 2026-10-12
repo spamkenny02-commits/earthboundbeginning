@@ -100,7 +100,9 @@ def apply_ips(source,patch):
         data[offset:offset+size]=raw
     return bytes(data)
 
-def integrate(rom,out,accents=True):
+def integrate(rom,out,accents=True,version="v07"):
+    if not re.fullmatch(r"v[0-9]{2,4}",version):raise ValueError("Version invalide : utiliser v07, v08...")
+    stem=f"EarthBound_Beginnings_FR_{version}"
     src=rom.read_bytes();header=512 if len(src)%0x8000==512 else 0;original=src[header:]
     if hashlib.sha256(original).hexdigest()!=EXPECTED:raise ValueError('Mauvaise ROM source (SHA-256).')
     for pos,ref,evidence in PROTECTED_TERMINATORS:
@@ -228,18 +230,18 @@ def integrate(rom,out,accents=True):
     patch=ips_patch(original,data);assert apply_ips(original,patch)==bytes(data),'Échec application IPS'
     assert all(data[pos]==0 for pos,_,_ in PROTECTED_TERMINATORS),'Chaîne vide partagée écrasée'
     report['protected_terminators']=[{'offset':f'{pos:06X}','reference':f'{ref:06X}','preserved':data[pos]==0} for pos,ref,_ in PROTECTED_TERMINATORS]
-    report.update(target_sha256=hashlib.sha256(data).hexdigest(),source_rom_unchanged=hashlib.sha256(rom.read_bytes()).hexdigest()==hashlib.sha256(src).hexdigest(),rom_size=len(data),checksum=f'{checksum:04X}',accepted_count=len(report['accepted']),rejected_count=len(report['rejected']),bytes_changed=sum(a!=b for a,b in zip(original,data)),commands_preserved=True,telephone_call_arguments_retargeted=True,ips_roundtrip_passed=True,runtime_validated=False)
+    report.update(artifact_stem=stem,target_sha256=hashlib.sha256(data).hexdigest(),source_rom_unchanged=hashlib.sha256(rom.read_bytes()).hexdigest()==hashlib.sha256(src).hexdigest(),rom_size=len(data),checksum=f'{checksum:04X}',accepted_count=len(report['accepted']),rejected_count=len(report['rejected']),bytes_changed=sum(a!=b for a,b in zip(original,data)),commands_preserved=True,telephone_call_arguments_retargeted=True,ips_roundtrip_passed=True,runtime_validated=False)
     out.mkdir(parents=True,exist_ok=True);suffix='accents' if accents else 'ascii'
-    (out/f'EarthBound_Beginnings_FR_v06_{suffix}.ips').write_bytes(patch)
+    (out/f'{stem}_{suffix}.ips').write_bytes(patch)
     (out/f'rapport_{suffix}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2), encoding='utf-8')
-    (out/f'EarthBound_Beginnings_FR_v06_{suffix}.sfc').write_bytes(data)
+    (out/f'{stem}_{suffix}.sfc').write_bytes(data)
     print(json.dumps({k:report[k] for k in ['profile','accepted_count','rejected_count','bytes_changed','target_sha256','runtime_validated']},ensure_ascii=False,indent=2))
     return report
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('rom',type=Path);p.add_argument('--sortie',type=Path,default=ROOT/'build');p.add_argument('--sans-accents',action='store_true');p.add_argument('--appliquer',type=Path,help='Appliquer un patch IPS existant au lieu de construire la traduction')
-    args=p.parse_args()
+    p.add_argument('--version',default='v07',help='Version des fichiers reconstruits, ex. v07');args=p.parse_args()
     if args.appliquer:
         src=args.rom.read_bytes();header=512 if len(src)%0x8000==512 else 0;src=src[header:]
         if hashlib.sha256(src).hexdigest()!=EXPECTED:raise ValueError('Mauvaise ROM source')
         result=apply_ips(src,args.appliquer.read_bytes());args.sortie.mkdir(parents=True,exist_ok=True);(args.sortie/'EarthBound_Beginnings_FR.sfc').write_bytes(result)
-    else:integrate(args.rom,args.sortie,not args.sans_accents)
+    else:integrate(args.rom,args.sortie,not args.sans_accents,args.version)

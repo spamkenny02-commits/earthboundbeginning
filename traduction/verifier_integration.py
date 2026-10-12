@@ -24,7 +24,7 @@ def verify(rom,build):
     menus={x['id']:x for x in json.loads((ROOT/'traduction/menus_objets_fr.json').read_text(encoding='utf-8'))}
     dialogues={x['id']:x for x in json.loads((ROOT/'traduction/dialogues_fr.json').read_text(encoding='utf-8'))}
     for profile in ['accents','ascii']:
-        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));target=(build/f'EarthBound_Beginnings_FR_v06_{profile}.sfc').read_bytes();patch=(build/f'EarthBound_Beginnings_FR_v06_{profile}.ips').read_bytes()
+        report=json.loads((build/f'rapport_{profile}.json').read_text(encoding='utf-8'));stem=report.get('artifact_stem','EarthBound_Beginnings_FR_v06');target=(build/f'{stem}_{profile}.sfc').read_bytes();patch=(build/f'{stem}_{profile}.ips').read_bytes()
         assert len(target)==len(source)==4194304
         for pos,ref,evidence in PROTECTED_TERMINATORS:
             assert target[pos]==source[pos]==0

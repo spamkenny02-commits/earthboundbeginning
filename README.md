@@ -1,6 +1,6 @@
 # EarthBound Beginnings SNES — traduction française
 
-Intégration expérimentale v06 : **674 entrées traduites**, introduction et 16 caractères accentués. Les textes financiers du père et les formules du téléphone sont intégrés. Les deux variantes passent les contrôles binaires et les premiers essais depuis une nouvelle partie. Le téléphone est testé par une entrée isolée ; son parcours normal reste à vérifier. **La traduction reste partielle.**
+Intégration expérimentale v07 : **718 entrées traduites**, introduction et 16 caractères accentués. 44 dialogues supplémentaires de Podunk, du cimetière et du zoo sont intégrés. Un atelier CLI permet l’export et l’import CSV ainsi que la reconstruction vérifiée des deux variantes. Les deux variantes passent les contrôles binaires et les premiers essais depuis une nouvelle partie. Le téléphone est testé par une entrée isolée ; son parcours normal reste à vérifier. **La traduction reste partielle.**
 
 La sauvegarde intégrale de la TBL, des textes extraits et du repérage graphique est dans `sauvegardes/atelier_extraction_graphismes_v02.zip`. Décompresser à la racine pour retrouver tout le dossier `atelier/` (les outils et rapports principaux sont également visibles directement).
 
@@ -12,7 +12,7 @@ SHA-256 : `e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c`.
 Avec Python 3 :
 
 ```sh
-python traduction/integrer.py "ROM.sfc" --appliquer patches/EarthBound_Beginnings_FR_v06_accents.ips
+python traduction/integrer.py "ROM.sfc" --appliquer patches/EarthBound_Beginnings_FR_v07_accents.ips
 ```
 
 Le résultat est écrit dans `build/EarthBound_Beginnings_FR.sfc`. La ROM source reste inchangée. Une variante `ascii.ips` est fournie pour comparer l'affichage sans les nouveaux glyphes accentués.
@@ -25,6 +25,8 @@ python traduction/integrer.py "ROM.sfc"
 
 Cinq libellés et un dialogue du canari trop longs restent anglais et sont consignés dans le rapport. Les blocs à pointeurs intérieurs conservent leurs positions grâce à un remplissage par espaces. Les graphismes avec du texte anglais restent à modifier. Les noms d'objets hérités peuvent ne pas tous être utilisés par le remake.
 
-Rapport actuel : [RAPPORT_V06.md](RAPPORT_V06.md). Étape précédente : [RAPPORT_V05.md](RAPPORT_V05.md). Historique : [RAPPORT_V01.md](RAPPORT_V01.md). Vérifications à effectuer : [TESTS_A_FAIRE.md](TESTS_A_FAIRE.md). Sous Windows, glisser la ROM originale sur `Appliquer_patch_FR.bat`.
+Rapport actuel : [RAPPORT_V07.md](RAPPORT_V07.md). Étape précédente : [RAPPORT_V06.md](RAPPORT_V06.md). Historique : [RAPPORT_V01.md](RAPPORT_V01.md). Vérifications à effectuer : [TESTS_A_FAIRE.md](TESTS_A_FAIRE.md). Sous Windows, glisser la ROM originale sur `Appliquer_patch_FR.bat`.
 
-Le kit courant est [EarthBound_Beginnings_FR_v06_atelier_patch.zip](distributions/EarthBound_Beginnings_FR_v06_atelier_patch.zip). Il contient les deux patchs et les sources nécessaires à leur intégration. Le moteur de déplacement vérifie la réserve et les références explicites ; voir RAPPORT_V06.md.
+Le kit courant est [EarthBound_Beginnings_FR_v07_atelier_patch.zip](distributions/EarthBound_Beginnings_FR_v07_atelier_patch.zip). Il contient les deux patchs et les sources nécessaires à leur intégration. Le moteur de déplacement vérifie la réserve et les références explicites ; voir RAPPORT_V07.md.
+
+Guide de l’outil : [traduction/ATELIER.md](traduction/ATELIER.md). Le CSV couvre les champs et dialogues ordinaires préparés ; les autres formats restent éditables en JSON.
