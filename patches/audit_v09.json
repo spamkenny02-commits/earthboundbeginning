@@ -1,0 +1,979 @@
+{
+  "artifact_stem": "EarthBound_Beginnings_FR_v09",
+  "target_sha256": "2dee7242a0e97ab95a004004afe892d02cd7277786839e91cf423273a2a74be5",
+  "accepted_count": 1095,
+  "rejected": [
+    {
+      "id": "0BD867",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 3,
+      "available": 2,
+      "english": "No",
+      "french": "Non"
+    }
+  ],
+  "fragments_identiques_a_relire": [
+    {
+      "type": "field",
+      "id": "04C121",
+      "segment": "0",
+      "text": "Mono",
+      "source_bytes": 4,
+      "french_bytes": 4
+    },
+    {
+      "type": "field",
+      "id": "04A011",
+      "segment": "0",
+      "text": "PSI",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "field",
+      "id": "2FA38E",
+      "segment": "0",
+      "text": "PSI",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "field",
+      "id": "38C2E3",
+      "segment": "0",
+      "text": "Mary",
+      "source_bytes": 4,
+      "french_bytes": 4
+    },
+    {
+      "type": "field",
+      "id": "38C2E8",
+      "segment": "0",
+      "text": "Suzy",
+      "source_bytes": 4,
+      "french_bytes": 4
+    },
+    {
+      "type": "field",
+      "id": "38C2ED",
+      "segment": "0",
+      "text": "George",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "38C2F4",
+      "segment": "0",
+      "text": "Maria",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "38C2FA",
+      "segment": "0",
+      "text": "Mimmie",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "38C301",
+      "segment": "0",
+      "text": "Minnie",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "38C308",
+      "segment": "0",
+      "text": "Pippi",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "38C30E",
+      "segment": "0",
+      "text": "Duncan",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "38C315",
+      "segment": "0",
+      "text": "Laura",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "38C31B",
+      "segment": "0",
+      "text": "Giygas",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "38C322",
+      "segment": "0",
+      "text": "Abbott",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "38C329",
+      "segment": "0",
+      "text": "Nancy",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "38C32F",
+      "segment": "0",
+      "text": "Ullrich",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "38C337",
+      "segment": "0",
+      "text": "Wally",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "38C33D",
+      "segment": "0",
+      "text": "Kelly",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "38C343",
+      "segment": "0",
+      "text": "Juana",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "1557C5",
+      "segment": "0",
+      "text": "Boomerang",
+      "source_bytes": 9,
+      "french_bytes": 9
+    },
+    {
+      "type": "field",
+      "id": "155DB6",
+      "segment": "0",
+      "text": "Hamburger",
+      "source_bytes": 9,
+      "french_bytes": 9
+    },
+    {
+      "type": "field",
+      "id": "155E79",
+      "segment": "0",
+      "text": "Pizza",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "155F8A",
+      "segment": "0",
+      "text": "Croissant",
+      "source_bytes": 9,
+      "french_bytes": 9
+    },
+    {
+      "type": "field",
+      "id": "15626F",
+      "segment": "0",
+      "text": "Ocarina",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "156443",
+      "segment": "0",
+      "text": "Bazooka",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "15730A",
+      "segment": "0",
+      "text": "Katana",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "1578BE",
+      "segment": "0",
+      "text": "Podunk",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "1578FC",
+      "segment": "0",
+      "text": "Zoo",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "field",
+      "id": "15793A",
+      "segment": "0",
+      "text": "Merrysville",
+      "source_bytes": 11,
+      "french_bytes": 11
+    },
+    {
+      "type": "field",
+      "id": "157978",
+      "segment": "0",
+      "text": "Spookane",
+      "source_bytes": 8,
+      "french_bytes": 8
+    },
+    {
+      "type": "field",
+      "id": "157997",
+      "segment": "0",
+      "text": "Reindeer",
+      "source_bytes": 8,
+      "french_bytes": 8
+    },
+    {
+      "type": "field",
+      "id": "1579B6",
+      "segment": "0",
+      "text": "Snowman",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "1579D5",
+      "segment": "0",
+      "text": "Youngtown",
+      "source_bytes": 9,
+      "french_bytes": 9
+    },
+    {
+      "type": "field",
+      "id": "157A13",
+      "segment": "0",
+      "text": "Ellay",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "157AEC",
+      "segment": "0",
+      "text": "Escargo Express",
+      "source_bytes": 15,
+      "french_bytes": 15
+    },
+    {
+      "type": "field",
+      "id": "157B0B",
+      "segment": "0",
+      "text": "Mach Pizza",
+      "source_bytes": 10,
+      "french_bytes": 10
+    },
+    {
+      "type": "field",
+      "id": "159B0C",
+      "segment": "0",
+      "text": "Shroudley",
+      "source_bytes": 9,
+      "french_bytes": 9
+    },
+    {
+      "type": "field",
+      "id": "159C26",
+      "segment": "0",
+      "text": "Groucho",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "159CE2",
+      "segment": "0",
+      "text": "Kelly",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "159F74",
+      "segment": "0",
+      "text": "Pippi",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15A43A",
+      "segment": "0",
+      "text": "Gabilan",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "15A788",
+      "segment": "0",
+      "text": "Nancy",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15ABF0",
+      "segment": "0",
+      "text": "Ullrich",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "15AE82",
+      "segment": "0",
+      "text": "Papa Swoosh",
+      "source_bytes": 11,
+      "french_bytes": 11
+    },
+    {
+      "type": "field",
+      "id": "15AF9C",
+      "segment": "0",
+      "text": "R7037",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15AFFA",
+      "segment": "0",
+      "text": "R7038XX",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "15B638",
+      "segment": "0",
+      "text": "Juana",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15BAFE",
+      "segment": "0",
+      "text": "R7038",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15BBBA",
+      "segment": "0",
+      "text": "Giygas",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15BF08",
+      "segment": "0",
+      "text": "Juana",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15C3CE",
+      "segment": "0",
+      "text": "Groucho",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "15C48A",
+      "segment": "0",
+      "text": "Nancy",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15CC40",
+      "segment": "0",
+      "text": "Ranboob",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "field",
+      "id": "15D0A8",
+      "segment": "0",
+      "text": "Pippi",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15D106",
+      "segment": "0",
+      "text": "EVE",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "field",
+      "id": "15D220",
+      "segment": "0",
+      "text": "EVE",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "field",
+      "id": "15DD82",
+      "segment": "0",
+      "text": "Tangoo",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15DE9C",
+      "segment": "0",
+      "text": "Everdred",
+      "source_bytes": 8,
+      "french_bytes": 8
+    },
+    {
+      "type": "field",
+      "id": "15E072",
+      "segment": "0",
+      "text": "Giygas",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15E47C",
+      "segment": "0",
+      "text": "Buzz Buzz",
+      "source_bytes": 9,
+      "french_bytes": 9
+    },
+    {
+      "type": "field",
+      "id": "15E596",
+      "segment": "0",
+      "text": "Giygas",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15E5F4",
+      "segment": "0",
+      "text": "Giygas",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15E652",
+      "segment": "0",
+      "text": "Giygas",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15E6B0",
+      "segment": "0",
+      "text": "Giygas",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15E9A0",
+      "segment": "0",
+      "text": "Giygas",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15F4CF",
+      "segment": "0",
+      "text": "Ninten",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15F4F9",
+      "segment": "0",
+      "text": "Ana",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "field",
+      "id": "15F523",
+      "segment": "0",
+      "text": "Lloyd",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F54D",
+      "segment": "0",
+      "text": "Teddy",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F577",
+      "segment": "0",
+      "text": "Mick",
+      "source_bytes": 4,
+      "french_bytes": 4
+    },
+    {
+      "type": "field",
+      "id": "15F4D5",
+      "segment": "0",
+      "text": "Ken",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "field",
+      "id": "15F4FF",
+      "segment": "0",
+      "text": "Grace",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F529",
+      "segment": "0",
+      "text": "James",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F553",
+      "segment": "0",
+      "text": "Rick",
+      "source_bytes": 4,
+      "french_bytes": 4
+    },
+    {
+      "type": "field",
+      "id": "15F57D",
+      "segment": "0",
+      "text": "Ringo",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F5A7",
+      "segment": "0",
+      "text": "Pizza",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F4DB",
+      "segment": "0",
+      "text": "Zack",
+      "source_bytes": 4,
+      "french_bytes": 4
+    },
+    {
+      "type": "field",
+      "id": "15F505",
+      "segment": "0",
+      "text": "Emily",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F52F",
+      "segment": "0",
+      "text": "Mason",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F559",
+      "segment": "0",
+      "text": "Pablo",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F583",
+      "segment": "0",
+      "text": "Tassy",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F4E1",
+      "segment": "0",
+      "text": "Pete",
+      "source_bytes": 4,
+      "french_bytes": 4
+    },
+    {
+      "type": "field",
+      "id": "15F50B",
+      "segment": "0",
+      "text": "Kim",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "field",
+      "id": "15F535",
+      "segment": "0",
+      "text": "Kyle",
+      "source_bytes": 4,
+      "french_bytes": 4
+    },
+    {
+      "type": "field",
+      "id": "15F55F",
+      "segment": "0",
+      "text": "Wyatt",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F4E7",
+      "segment": "0",
+      "text": "Clyde",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F511",
+      "segment": "0",
+      "text": "Megan",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F53B",
+      "segment": "0",
+      "text": "Gavin",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F565",
+      "segment": "0",
+      "text": "Mateo",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F4ED",
+      "segment": "0",
+      "text": "Mitch",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F517",
+      "segment": "0",
+      "text": "Chloe",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F541",
+      "segment": "0",
+      "text": "Chase",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F56B",
+      "segment": "0",
+      "text": "Billy",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F595",
+      "segment": "0",
+      "text": "Rex",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "field",
+      "id": "15F5BF",
+      "segment": "0",
+      "text": "Nachos",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "field",
+      "id": "15F4F3",
+      "segment": "0",
+      "text": "Lucky",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F51D",
+      "segment": "0",
+      "text": "Sarah",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F547",
+      "segment": "0",
+      "text": "Dylan",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F571",
+      "segment": "0",
+      "text": "Kevin",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "field",
+      "id": "15F59B",
+      "segment": "0",
+      "text": "Spot",
+      "source_bytes": 4,
+      "french_bytes": 4
+    },
+    {
+      "type": "field",
+      "id": "0F763D",
+      "segment": "0",
+      "text": "PSI(????)",
+      "source_bytes": 9,
+      "french_bytes": 9
+    },
+    {
+      "type": "dialogue",
+      "id": "2FA66C",
+      "segment": "4",
+      "text": "OK",
+      "source_bytes": 2,
+      "french_bytes": 2
+    },
+    {
+      "type": "dialogue",
+      "id": "2FA6A7",
+      "segment": "3",
+      "text": "OK",
+      "source_bytes": 2,
+      "french_bytes": 2
+    },
+    {
+      "type": "dialogue",
+      "id": "339EE7",
+      "segment": "0",
+      "text": "@Hahaha...",
+      "source_bytes": 10,
+      "french_bytes": 10
+    },
+    {
+      "type": "dialogue",
+      "id": "33A940",
+      "segment": "0",
+      "text": "@<Podunk>",
+      "source_bytes": 9,
+      "french_bytes": 9
+    },
+    {
+      "type": "dialogue",
+      "id": "360C10",
+      "segment": "2",
+      "text": "@Psst...",
+      "source_bytes": 8,
+      "french_bytes": 8
+    },
+    {
+      "type": "dialogue",
+      "id": "361070",
+      "segment": "9",
+      "text": "@Oh",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "dialogue",
+      "id": "361070",
+      "segment": "11",
+      "text": " oh",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "1",
+      "text": "  A",
+      "source_bytes": 3,
+      "french_bytes": 3
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "2",
+      "text": "A",
+      "source_bytes": 1,
+      "french_bytes": 1
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "3",
+      "text": "A",
+      "source_bytes": 1,
+      "french_bytes": 1
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "4",
+      "text": "A",
+      "source_bytes": 1,
+      "french_bytes": 1
+    },
+    {
+      "type": "dialogue",
+      "id": "361560",
+      "segment": "5",
+      "text": "AAAHHH!",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "dialogue",
+      "id": "3616AF",
+      "segment": "0",
+      "text": "@Hum.",
+      "source_bytes": 5,
+      "french_bytes": 5
+    },
+    {
+      "type": "dialogue",
+      "id": "3619E9",
+      "segment": "0",
+      "text": "@Zombie!",
+      "source_bytes": 8,
+      "french_bytes": 8
+    },
+    {
+      "type": "dialogue",
+      "id": "361AD4",
+      "segment": "1",
+      "text": "@Ha ha ha!",
+      "source_bytes": 10,
+      "french_bytes": 10
+    },
+    {
+      "type": "dialogue",
+      "id": "361BFE",
+      "segment": "0",
+      "text": "@Oh... ",
+      "source_bytes": 7,
+      "french_bytes": 7
+    },
+    {
+      "type": "dialogue",
+      "id": "380FBF",
+      "segment": "1",
+      "text": "@Ha ha ha!",
+      "source_bytes": 10,
+      "french_bytes": 10
+    },
+    {
+      "type": "dialogue",
+      "id": "3810EA",
+      "segment": "0",
+      "text": "@Oh...",
+      "source_bytes": 6,
+      "french_bytes": 6
+    },
+    {
+      "type": "relocated",
+      "id": "371E94",
+      "segment": "1",
+      "text": "@Ah...",
+      "source_bytes": 6,
+      "french_bytes": 6
+    }
+  ],
+  "scope": "Champs et dialogues ordinaires préparés uniquement ; noms propres et glyphes à relire manuellement."
+}

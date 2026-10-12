@@ -63,7 +63,8 @@ def length(b, p):
         raise ValueError(f'Sous-commande non définie {c:02X} {s:02X}')
     return 1 + SUB[c][s]
 
-def parse(b, start, max_bytes=8192):
+def parse(b, start, max_bytes=8192, extra_glyphs=()):
+    glyphs = EXTRA_GLYPHS | set(extra_glyphs)
     p = start
     parts, spans, targets, refs = [], [], [], []
     inline = False
@@ -72,9 +73,9 @@ def parse(b, start, max_bytes=8192):
     try:
         while p < min(len(b), start + max_bytes):
             c = b[p]
-            if 0x50 <= c <= 0xAE or c in EXTRA_GLYPHS:
+            if 0x50 <= c <= 0xAE or c in glyphs:
                 q = p + 1
-                while q < len(b) and (0x50 <= b[q] <= 0xAE or b[q] in EXTRA_GLYPHS):
+                while q < len(b) and (0x50 <= b[q] <= 0xAE or b[q] in glyphs):
                     q += 1
                 parts.append(render(b[p:q]))
                 spans.append((p, q))

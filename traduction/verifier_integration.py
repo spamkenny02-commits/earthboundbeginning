@@ -34,6 +34,20 @@ def verify(rom,build):
         checksum=int.from_bytes(target[0xffde:0xffe0],'little');compl=int.from_bytes(target[0xffdc:0xffde],'little')
         assert checksum^compl==0xffff and sum(target)&0xffff==checksum
         assert target[0xffc0:0xffdc]==source[0xffc0:0xffdc]
+        relocation_plan=json.loads((ROOT/'traduction/textes_relocalises_fr.json').read_text(encoding='utf-8'))
+        moved_by_id={r['id']:r for r in report['accepted'] if r['type']=='relocated_dialogue'}
+        expected_mapping={}
+        for row in relocation_plan['blocks']:
+            old=bytes.fromhex(row['raw_hex']);origin=int(row['offset'],16)
+            dest=int(moved_by_id[row['id']]['offset'],16);old_pos=0;new_pos=0
+            expected_mapping[origin]=dest
+            for seg in row['text_fr_segments']:
+                a,b=seg['offset'],seg['end']
+                for q in range(old_pos,a):expected_mapping[origin+q]=dest+new_pos+q-old_pos
+                new_pos+=a-old_pos;expected_mapping[origin+a]=dest+new_pos
+                new_pos+=len(encode_fr(seg['french'],profile=='accents'))
+                expected_mapping[origin+b]=dest+new_pos;old_pos=b
+            for q in range(old_pos,len(old)):expected_mapping[origin+q]=dest+new_pos+q-old_pos
         telephone=report['telephone_calls']
         plan=json.loads((ROOT/'traduction/appels_telephone_fr.json').read_text(encoding='utf-8'))
         helper_rows={r['id']:r for r in plan['helpers']}
@@ -82,6 +96,7 @@ def verify(rom,build):
                 assert target[p:p+len(old)]==source[p:p+len(old)]==old
                 for ref in change['internal_refs']:
                     q=int(ref['offset'],16)-dest
+                    assert int(ref['new_target'],16)==expected_mapping[int(ref['old_target'],16)], 'Branche vers une mauvaise frontière traduite'
                     assert new[q:q+4]==(0xc00000+int(ref['new_target'],16)).to_bytes(4,'little')
                     new[q:q+4]=(0xc00000+int(ref['old_target'],16)).to_bytes(4,'little')
                 cursor=0;previous=0
@@ -91,7 +106,7 @@ def verify(rom,build):
                     fr=encode_fr(seg['french'],profile=='accents')
                     assert new[cursor:cursor+len(fr)]==fr;cursor+=len(fr);previous=b
                 assert new[cursor:]==old[previous:]
-                parsed=parse(bytes(new),0,len(new)+1)
+                parsed=parse(bytes(new),0,len(new)+1,extra_glyphs=range(0xb0,0xc0) if profile=='accents' else ())
                 assert parsed['terminal'] and not parsed['error'] and parsed['end']==len(new)
             elif change['type']=='compressed_dialogue':
                 rows=json.loads((ROOT/'traduction/textes_comprimes_fr.json').read_text(encoding='utf-8'))['blocks']
@@ -127,6 +142,10 @@ def verify(rom,build):
             q=int(ref['offset'],16)
             assert source[q:q+4]==(0xc00000+int(ref['old_target'],16)).to_bytes(4,'little')
             assert target[q:q+4]==(0xc00000+int(ref['new_target'],16)).to_bytes(4,'little')
+            assert int(ref['new_target'],16)==expected_mapping[int(ref['old_target'],16)]
+        for alias in report['relocation'].get('preserved_original_aliases',[]):
+            q=int(alias['offset'],16)
+            assert target[q:q+4]==source[q:q+4]==(0xc00000+int(alias['target'],16)).to_bytes(4,'little')
         glyphs=0
         for i,(w,h) in enumerate(FONT_SIZES):
             wp=int.from_bytes(source[0x3f054+i*12:0x3f058+i*12],'little')-0xc00000;gp=int.from_bytes(source[0x3f058+i*12:0x3f05c+i*12],'little')-0xc00000;size=w//8*h

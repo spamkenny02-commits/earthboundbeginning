@@ -6,6 +6,7 @@ import csv
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -13,14 +14,17 @@ from pathlib import Path
 
 from integrer import ROOT, encode_fr
 
-FILES = {'field': 'menus_objets_fr.json', 'dialogue': 'dialogues_fr.json'}
+FILES = {'field': 'menus_objets_fr.json', 'dialogue': 'dialogues_fr.json', 'relocated': 'textes_relocalises_fr.json'}
 COLUMNS = ['type', 'id', 'segment', 'original', 'francais', 'octets_fr', 'etat_integration']
 NATIVE = re.compile(r'\[(?:8B|8C|8D|8E|AB|AC|AD|AE)\]')
 
 
 def load():
-    return {kind: json.loads((ROOT / 'traduction' / name).read_text(encoding='utf-8'))
-            for kind, name in FILES.items()}
+    result = {}
+    for kind, name in FILES.items():
+        value = json.loads((ROOT / 'traduction' / name).read_text(encoding='utf-8'))
+        result[kind] = value['blocks'] if kind == 'relocated' else value
+    return result
 
 
 def entries(data):
@@ -78,6 +82,13 @@ def import_csv(path, apply=False):
                 target['text_fr' if key[0] == 'field' else 'french'] = french
                 changed.add(key[0])
     # Tout est validé avant la première écriture. L'import partiel est autorisé.
+    if apply and changed:
+        backup_root=ROOT/'sauvegardes_import'
+        backup_root.mkdir(parents=True,exist_ok=True)
+        backup=Path(tempfile.mkdtemp(prefix='import_',dir=backup_root))
+        for kind in changed:
+            shutil.copy2(ROOT/'traduction'/FILES[kind],backup/FILES[kind])
+        print('Sources précédentes sauvegardées : '+str(backup))
     if apply:
         for kind in FILES:
             if kind not in changed:
@@ -86,7 +97,11 @@ def import_csv(path, apply=False):
             fd, name = tempfile.mkstemp(dir=destination.parent, prefix='.import-')
             try:
                 with os.fdopen(fd, 'w', encoding='utf-8') as output:
-                    json.dump(data[kind], output, ensure_ascii=False, indent=2)
+                    value = data[kind]
+                    if kind == 'relocated':
+                        value = json.loads(destination.read_text(encoding='utf-8'))
+                        value['blocks'] = data[kind]
+                    json.dump(value, output, ensure_ascii=False, indent=2)
                     output.write('\n')
                 os.replace(name, destination)
             finally:
@@ -150,16 +165,21 @@ def main():
     p.add_argument('--rapport', type=Path)
     p = sub.add_parser('importer'); p.add_argument('csv', type=Path)
     p.add_argument('--appliquer', action='store_true')
+    p = sub.add_parser('cataloguer'); p.add_argument('rapport', type=Path)
+    p.add_argument('--sortie', type=Path, required=True)
     p = sub.add_parser('auditer'); p.add_argument('rapport', type=Path)
     p.add_argument('--sortie', type=Path, required=True)
     p = sub.add_parser('construire'); p.add_argument('rom', type=Path)
     p.add_argument('--sortie', type=Path, default=ROOT / 'build')
-    p.add_argument('--version', default='v08')
+    p.add_argument('--version', default='v09')
     args = parser.parse_args()
     try:
         if args.action == 'exporter': export_csv(args.csv, args.rapport)
         elif args.action == 'importer': import_csv(args.csv, args.appliquer)
         elif args.action == 'auditer': audit(args.rapport, args.sortie)
+        elif args.action == 'cataloguer':
+            from couverture import catalogue
+            catalogue(args.rapport, args.sortie)
         else: build(args.rom, args.sortie, args.version)
     except (ValueError, OSError, subprocess.CalledProcessError) as exc:
         parser.exit(1, 'Échec : ' + str(exc) + '\n')

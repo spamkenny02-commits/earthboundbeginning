@@ -32,3 +32,7 @@ Niveau 2, mélodie et premier appel familial observés ; sauvegarde SRAM et char
 ## Mise à jour v06
 
 Virements et formules du père observés dans un essai isolé ; les calculs et le parcours normal restent à vérifier. Nouvelle partie et lecture SRAM sur les deux ROM finales confirmées. Vérifier les groupes, le stockage, les PSI et les espacements. Voir RAPPORT_V06.md et tests/rapport_emulation_v06.json.
+
+## Mise à jour v09
+
+Choix Oui/Non observés dans les routines déplacées de Podunk. Confirmer le trajet normal jusqu'à Pippi et le canari, le recrutement au cimetière, les branches qui utilisent des alias conservés, les tables de noms et les graphismes. Le catalogue conserve 2 043 blocs candidats à examiner. Vérifier l'éditeur HTML dans un vrai navigateur ; ses événements et formats sont testés avec un DOM simulé.

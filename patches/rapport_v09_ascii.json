@@ -1,0 +1,8301 @@
+{
+  "profile": "ascii",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "accepted": [
+    {
+      "id": "04C060",
+      "type": "field",
+      "english": "Start New Game",
+      "french": "Nouveau jeu",
+      "bytes": 14
+    },
+    {
+      "id": "04C074",
+      "type": "field",
+      "english": "Text Speed:",
+      "french": "Vitesse:",
+      "bytes": 11
+    },
+    {
+      "id": "04C07F",
+      "type": "field",
+      "english": "Fast",
+      "french": "Vite",
+      "bytes": 5
+    },
+    {
+      "id": "04C086",
+      "type": "field",
+      "english": "Medium",
+      "french": "Normal",
+      "bytes": 7
+    },
+    {
+      "id": "04C08D",
+      "type": "field",
+      "english": "Slow",
+      "french": "Lent",
+      "bytes": 5
+    },
+    {
+      "id": "0CFF92",
+      "type": "field",
+      "english": "Continue",
+      "french": "Suite",
+      "bytes": 9
+    },
+    {
+      "id": "0CFFAB",
+      "type": "field",
+      "english": "Copy",
+      "french": "Dupl",
+      "bytes": 5
+    },
+    {
+      "id": "0CFFC4",
+      "type": "field",
+      "english": "Delete",
+      "french": "Efface",
+      "bytes": 7
+    },
+    {
+      "id": "0CFFDD",
+      "type": "field",
+      "english": "Set Up",
+      "french": "Options",
+      "bytes": 8
+    },
+    {
+      "id": "0C2E0B",
+      "type": "field",
+      "english": "Copy to where?",
+      "french": "Copier où ?",
+      "bytes": 14
+    },
+    {
+      "id": "04C0BE",
+      "type": "field",
+      "english": "Are you sure you want to delete?",
+      "french": "Effacer cette sauvegarde ?",
+      "bytes": 32
+    },
+    {
+      "id": "0BD880",
+      "type": "field",
+      "english": "Yes",
+      "french": "Oui",
+      "bytes": 4
+    },
+    {
+      "id": "04C0E5",
+      "type": "field",
+      "english": "Please select text speed.",
+      "french": "Choisis la vitesse.",
+      "bytes": 25
+    },
+    {
+      "id": "04C0FE",
+      "type": "field",
+      "english": "Please select sound setting.",
+      "french": "Choisis le mode sonore.",
+      "bytes": 28
+    },
+    {
+      "id": "04C11A",
+      "type": "field",
+      "english": "Stereo",
+      "french": "Stéréo",
+      "bytes": 7
+    },
+    {
+      "id": "04C128",
+      "type": "field",
+      "english": "Which style of windows do you prefer?",
+      "french": "Quel style de fenêtre préfères-tu ?",
+      "bytes": 37
+    },
+    {
+      "id": "04C194",
+      "type": "field",
+      "english": "Please name him.",
+      "french": "Quel est son nom ?",
+      "bytes": 19
+    },
+    {
+      "id": "04C1BC",
+      "type": "field",
+      "english": "Name her, too.",
+      "french": "Quel est son nom à elle ?",
+      "bytes": 26
+    },
+    {
+      "id": "04C1E4",
+      "type": "field",
+      "english": "Name your friend.",
+      "french": "Nomme ton ami.",
+      "bytes": 18
+    },
+    {
+      "id": "04C20C",
+      "type": "field",
+      "english": "Name your other friend.",
+      "french": "Nomme ton autre ami.",
+      "bytes": 24
+    },
+    {
+      "id": "04C25C",
+      "type": "field",
+      "english": "Favorite homemade food?",
+      "french": "Quel est ton plat préféré ?",
+      "bytes": 28
+    },
+    {
+      "id": "0C2DEF",
+      "type": "field",
+      "english": "Favorite food:",
+      "french": "Plat préféré:",
+      "bytes": 14
+    },
+    {
+      "id": "0C2DFD",
+      "type": "field",
+      "english": "Beam",
+      "french": "Rai",
+      "bytes": 5
+    },
+    {
+      "id": "09FFF0",
+      "type": "field",
+      "english": "Are you sure?",
+      "french": "C'est bon ?",
+      "bytes": 14
+    },
+    {
+      "id": "0BD85D",
+      "type": "field",
+      "english": "Yep",
+      "french": "Oui",
+      "bytes": 4
+    },
+    {
+      "id": "03FDF4",
+      "type": "field",
+      "english": "Nope",
+      "french": "Non",
+      "bytes": 5
+    },
+    {
+      "id": "045B70",
+      "type": "field",
+      "english": "Fainted",
+      "french": "K.O.",
+      "bytes": 8
+    },
+    {
+      "id": "045B80",
+      "type": "field",
+      "english": "Petrified",
+      "french": "Pétrifié",
+      "bytes": 10
+    },
+    {
+      "id": "045B90",
+      "type": "field",
+      "english": "Paralyzed",
+      "french": "Paralysé",
+      "bytes": 10
+    },
+    {
+      "id": "045BA0",
+      "type": "field",
+      "english": "Sick",
+      "french": "Mal.",
+      "bytes": 5
+    },
+    {
+      "id": "045BB0",
+      "type": "field",
+      "english": "Poisoned",
+      "french": "Empoisonné",
+      "bytes": 11
+    },
+    {
+      "id": "045BC0",
+      "type": "field",
+      "english": "Sunstroke",
+      "french": "Insolation",
+      "bytes": 11
+    },
+    {
+      "id": "045BD0",
+      "type": "field",
+      "english": "Cold",
+      "french": "Rh.",
+      "bytes": 5
+    },
+    {
+      "id": "045BE0",
+      "type": "field",
+      "english": "Mushroomized",
+      "french": "Champignon",
+      "bytes": 13
+    },
+    {
+      "id": "045BF0",
+      "type": "field",
+      "english": "Possessed",
+      "french": "Possédé",
+      "bytes": 10
+    },
+    {
+      "id": "045C00",
+      "type": "field",
+      "english": "Asthma",
+      "french": "Asthme",
+      "bytes": 7
+    },
+    {
+      "id": "049FE1",
+      "type": "field",
+      "english": "Bash",
+      "french": "Frapper",
+      "bytes": 8
+    },
+    {
+      "id": "049FF1",
+      "type": "field",
+      "english": "Goods",
+      "french": "Objets",
+      "bytes": 7
+    },
+    {
+      "id": "04A001",
+      "type": "field",
+      "english": "Auto Fight",
+      "french": "Auto",
+      "bytes": 11
+    },
+    {
+      "id": "04A021",
+      "type": "field",
+      "english": "Guard",
+      "french": "Parer",
+      "bytes": 6
+    },
+    {
+      "id": "0BD82B",
+      "type": "field",
+      "english": "Sing",
+      "french": "Ch.",
+      "bytes": 5
+    },
+    {
+      "id": "0ADC89",
+      "type": "field",
+      "english": "Shoot",
+      "french": "Tirer",
+      "bytes": 6
+    },
+    {
+      "id": "0BD844",
+      "type": "field",
+      "english": "Check",
+      "french": "Voir",
+      "bytes": 6
+    },
+    {
+      "id": "04A061",
+      "type": "field",
+      "english": "Run Away",
+      "french": "Fuir",
+      "bytes": 9
+    },
+    {
+      "id": "0ADC70",
+      "type": "field",
+      "english": "Mirror",
+      "french": "Miroir",
+      "bytes": 7
+    },
+    {
+      "id": "04FFE3",
+      "type": "field",
+      "english": "Do Nothing",
+      "french": "Attendre",
+      "bytes": 11
+    },
+    {
+      "id": "2FA37A",
+      "type": "field",
+      "english": "Talk to",
+      "french": "Parler",
+      "bytes": 8
+    },
+    {
+      "id": "2FA384",
+      "type": "field",
+      "english": "Goods",
+      "french": "Objets",
+      "bytes": 7
+    },
+    {
+      "id": "2FA398",
+      "type": "field",
+      "english": "Equip",
+      "french": "Équiper",
+      "bytes": 8
+    },
+    {
+      "id": "2FA3A2",
+      "type": "field",
+      "english": "Check",
+      "french": "Voir",
+      "bytes": 6
+    },
+    {
+      "id": "2FA3AC",
+      "type": "field",
+      "english": "Status",
+      "french": "État",
+      "bytes": 7
+    },
+    {
+      "id": "2FA3BA",
+      "type": "field",
+      "english": "Level:",
+      "french": "Niv.",
+      "bytes": 6
+    },
+    {
+      "id": "2FA3C4",
+      "type": "field",
+      "english": "Hit Points:",
+      "french": "Points vie:",
+      "bytes": 11
+    },
+    {
+      "id": "2FA3D3",
+      "type": "field",
+      "english": "Psychic Points:",
+      "french": "Points PSI:",
+      "bytes": 15
+    },
+    {
+      "id": "2FA3E6",
+      "type": "field",
+      "english": "Experience Points:",
+      "french": "Expérience:",
+      "bytes": 18
+    },
+    {
+      "id": "2FA3FC",
+      "type": "field",
+      "english": "Exp. for next level.",
+      "french": "Exp. niveau suivant",
+      "bytes": 20
+    },
+    {
+      "id": "2FA414",
+      "type": "field",
+      "english": "Offense:",
+      "french": "Attaque:",
+      "bytes": 8
+    },
+    {
+      "id": "2FA420",
+      "type": "field",
+      "english": "Defense:",
+      "french": "Défense:",
+      "bytes": 8
+    },
+    {
+      "id": "2FA42C",
+      "type": "field",
+      "english": "Speed:",
+      "french": "Vit.:",
+      "bytes": 6
+    },
+    {
+      "id": "2FA436",
+      "type": "field",
+      "english": "Guts:",
+      "french": "Cran:",
+      "bytes": 5
+    },
+    {
+      "id": "2FA43F",
+      "type": "field",
+      "english": "Vitality:",
+      "french": "Vitalité:",
+      "bytes": 9
+    },
+    {
+      "id": "2FA44C",
+      "type": "field",
+      "english": "IQ:",
+      "french": "QI:",
+      "bytes": 3
+    },
+    {
+      "id": "2FA453",
+      "type": "field",
+      "english": "Luck:",
+      "french": "Chan:",
+      "bytes": 5
+    },
+    {
+      "id": "045B4D",
+      "type": "field",
+      "english": "@Press the -A- Button for PSI info.",
+      "french": "@Touche -A- : infos PSI.",
+      "bytes": 35
+    },
+    {
+      "id": "03FB2B",
+      "type": "field",
+      "english": "Register your name, please",
+      "french": "Inscris ton nom, s'il te plaît",
+      "bytes": 31
+    },
+    {
+      "id": "03F090",
+      "type": "field",
+      "english": "Offense",
+      "french": "Attaque",
+      "bytes": 8
+    },
+    {
+      "id": "03F098",
+      "type": "field",
+      "english": "Recover",
+      "french": "Soins",
+      "bytes": 8
+    },
+    {
+      "id": "03F0A0",
+      "type": "field",
+      "english": "Assist",
+      "french": "Aide",
+      "bytes": 7
+    },
+    {
+      "id": "03F0A8",
+      "type": "field",
+      "english": "Other",
+      "french": "Autres",
+      "bytes": 7
+    },
+    {
+      "id": "03F11C",
+      "type": "field",
+      "english": "PP Cost",
+      "french": "Coût PP",
+      "bytes": 7
+    },
+    {
+      "id": "03F124",
+      "type": "field",
+      "english": "To enemy",
+      "french": "Sur l'ennemi",
+      "bytes": 13
+    },
+    {
+      "id": "03F138",
+      "type": "field",
+      "english": "To one enemy",
+      "french": "Sur un ennemi",
+      "bytes": 14
+    },
+    {
+      "id": "03F14C",
+      "type": "field",
+      "english": "to One Enemy",
+      "french": "Sur un ennemi",
+      "bytes": 14
+    },
+    {
+      "id": "03F160",
+      "type": "field",
+      "english": "To row of foes",
+      "french": "Sur une rangée",
+      "bytes": 15
+    },
+    {
+      "id": "03F174",
+      "type": "field",
+      "english": "To all enemies",
+      "french": "Tous les ennemis",
+      "bytes": 17
+    },
+    {
+      "id": "03F188",
+      "type": "field",
+      "english": "To one of us",
+      "french": "Sur un allié",
+      "bytes": 13
+    },
+    {
+      "id": "03F19C",
+      "type": "field",
+      "english": "To one of us",
+      "french": "Sur un allié",
+      "bytes": 13
+    },
+    {
+      "id": "03F1B0",
+      "type": "field",
+      "english": "to One Friend",
+      "french": "Sur un allié",
+      "bytes": 14
+    },
+    {
+      "id": "03F1C4",
+      "type": "field",
+      "english": "To all of us",
+      "french": "Tous nos alliés",
+      "bytes": 16
+    },
+    {
+      "id": "03F1D8",
+      "type": "field",
+      "english": "To all of us",
+      "french": "Tous nos alliés",
+      "bytes": 16
+    },
+    {
+      "id": "0454F2",
+      "type": "field",
+      "english": "To ",
+      "french": "À ",
+      "bytes": 3
+    },
+    {
+      "id": "0454F5",
+      "type": "field",
+      "english": "the Front Row",
+      "french": "ligne avant",
+      "bytes": 13
+    },
+    {
+      "id": "045502",
+      "type": "field",
+      "english": "the Back Row",
+      "french": "rang arrière",
+      "bytes": 13
+    },
+    {
+      "id": "045C1C",
+      "type": "field",
+      "english": "Offense",
+      "french": "Attaque",
+      "bytes": 7
+    },
+    {
+      "id": "045C2C",
+      "type": "field",
+      "english": "  Weapon",
+      "french": "     Arme",
+      "bytes": 10
+    },
+    {
+      "id": "045C37",
+      "type": "field",
+      "english": "      Body",
+      "french": "     Corps",
+      "bytes": 11
+    },
+    {
+      "id": "045C42",
+      "type": "field",
+      "english": "     Arms",
+      "french": "     Bras",
+      "bytes": 10
+    },
+    {
+      "id": "045C4D",
+      "type": "field",
+      "english": "     Other",
+      "french": "    Autres",
+      "bytes": 11
+    },
+    {
+      "id": "045C58",
+      "type": "field",
+      "english": "Weapons",
+      "french": "Armes",
+      "bytes": 8
+    },
+    {
+      "id": "045C60",
+      "type": "field",
+      "english": "Body",
+      "french": "Corps",
+      "bytes": 6
+    },
+    {
+      "id": "045C68",
+      "type": "field",
+      "english": "Arms",
+      "french": "Bras",
+      "bytes": 5
+    },
+    {
+      "id": "045C70",
+      "type": "field",
+      "english": "Others",
+      "french": "Autres",
+      "bytes": 7
+    },
+    {
+      "id": "045C78",
+      "type": "field",
+      "english": "(Nothing) ",
+      "french": "(Rien)",
+      "bytes": 10
+    },
+    {
+      "id": "00FFA2",
+      "type": "field",
+      "english": "None",
+      "french": "Rien",
+      "bytes": 5
+    },
+    {
+      "id": "007FF5",
+      "type": "field",
+      "english": "To:",
+      "french": "À:",
+      "bytes": 4
+    },
+    {
+      "id": "043550",
+      "type": "field",
+      "english": "Use",
+      "french": "Util",
+      "bytes": 5
+    },
+    {
+      "id": "043556",
+      "type": "field",
+      "english": "Give",
+      "french": "Don",
+      "bytes": 5
+    },
+    {
+      "id": "04355C",
+      "type": "field",
+      "english": "Drop",
+      "french": "Jet",
+      "bytes": 5
+    },
+    {
+      "id": "043562",
+      "type": "field",
+      "english": "Help!",
+      "french": "Aide",
+      "bytes": 6
+    },
+    {
+      "id": "045963",
+      "type": "field",
+      "english": "Who?",
+      "french": "Qui ?",
+      "bytes": 6
+    },
+    {
+      "id": "04596D",
+      "type": "field",
+      "english": "Which?",
+      "french": "Lequel ?",
+      "bytes": 9
+    },
+    {
+      "id": "045977",
+      "type": "field",
+      "english": "Where?",
+      "french": "Où ?",
+      "bytes": 7
+    },
+    {
+      "id": "045981",
+      "type": "field",
+      "english": "Whom?",
+      "french": "À qui ?",
+      "bytes": 8
+    },
+    {
+      "id": "04598B",
+      "type": "field",
+      "english": "Where?",
+      "french": "Où ?",
+      "bytes": 7
+    },
+    {
+      "id": "045C10",
+      "type": "field",
+      "english": "Stored Goods",
+      "french": "Réserve",
+      "bytes": 12
+    },
+    {
+      "id": "007FFA",
+      "type": "field",
+      "english": "Call:",
+      "french": "Appel",
+      "bytes": 6
+    },
+    {
+      "id": "155027",
+      "type": "field",
+      "english": "Franklin badge",
+      "french": "Badge Franklin",
+      "bytes": 25
+    },
+    {
+      "id": "15504E",
+      "type": "field",
+      "english": "Teddy bear",
+      "french": "Ours en peluche",
+      "bytes": 25
+    },
+    {
+      "id": "155075",
+      "type": "field",
+      "english": "Super plush bear",
+      "french": "Super ours en peluche",
+      "bytes": 25
+    },
+    {
+      "id": "15509C",
+      "type": "field",
+      "english": "Old bone",
+      "french": "Vieil os",
+      "bytes": 25
+    },
+    {
+      "id": "1550C3",
+      "type": "field",
+      "english": "Broken gadget",
+      "french": "Gadget cassé",
+      "bytes": 25
+    },
+    {
+      "id": "1550EA",
+      "type": "field",
+      "english": "Broken air gun",
+      "french": "Fusil à air cassé",
+      "bytes": 25
+    },
+    {
+      "id": "155111",
+      "type": "field",
+      "english": "Inhaler",
+      "french": "Inhalateur",
+      "bytes": 25
+    },
+    {
+      "id": "155138",
+      "type": "field",
+      "english": "Broken laser",
+      "french": "Laser cassé",
+      "bytes": 25
+    },
+    {
+      "id": "15515F",
+      "type": "field",
+      "english": "Broken iron",
+      "french": "Fer cassé",
+      "bytes": 25
+    },
+    {
+      "id": "155186",
+      "type": "field",
+      "english": "Broken pipe",
+      "french": "Tuyau cassé",
+      "bytes": 25
+    },
+    {
+      "id": "1551AD",
+      "type": "field",
+      "english": "Broken cannon",
+      "french": "Canon cassé",
+      "bytes": 25
+    },
+    {
+      "id": "1551D4",
+      "type": "field",
+      "english": "Broken tube",
+      "french": "Tube cassé",
+      "bytes": 25
+    },
+    {
+      "id": "1551FB",
+      "type": "field",
+      "english": "Broken bazooka",
+      "french": "Bazooka cassé",
+      "bytes": 25
+    },
+    {
+      "id": "155222",
+      "type": "field",
+      "english": "Broken trumpet",
+      "french": "Trompette cassée",
+      "bytes": 25
+    },
+    {
+      "id": "155249",
+      "type": "field",
+      "english": "Broken harmonica",
+      "french": "Harmonica cassé",
+      "bytes": 25
+    },
+    {
+      "id": "155270",
+      "type": "field",
+      "english": "Broken antenna",
+      "french": "Antenne cassée",
+      "bytes": 25
+    },
+    {
+      "id": "155297",
+      "type": "field",
+      "english": "Plastic bat",
+      "french": "Batte en plastique",
+      "bytes": 25
+    },
+    {
+      "id": "1552BE",
+      "type": "field",
+      "english": "Wooden bat",
+      "french": "Batte en bois",
+      "bytes": 25
+    },
+    {
+      "id": "1552E5",
+      "type": "field",
+      "english": "Aluminum bat",
+      "french": "Batte en aluminium",
+      "bytes": 25
+    },
+    {
+      "id": "15530C",
+      "type": "field",
+      "english": "Nail bat",
+      "french": "Batte à clous",
+      "bytes": 25
+    },
+    {
+      "id": "155333",
+      "type": "field",
+      "english": "Lucky bat",
+      "french": "Batte porte-bonheur",
+      "bytes": 25
+    },
+    {
+      "id": "15535A",
+      "type": "field",
+      "english": "Screwball bat",
+      "french": "Batte courbe",
+      "bytes": 25
+    },
+    {
+      "id": "155381",
+      "type": "field",
+      "english": "Slugger bat",
+      "french": "Batte de frappeur",
+      "bytes": 25
+    },
+    {
+      "id": "1553A8",
+      "type": "field",
+      "english": "Magicant bat",
+      "french": "Batte de Magicant",
+      "bytes": 25
+    },
+    {
+      "id": "1553CF",
+      "type": "field",
+      "english": "Hank's bat",
+      "french": "Batte de Hank",
+      "bytes": 25
+    },
+    {
+      "id": "1553F6",
+      "type": "field",
+      "english": "Home-run bat",
+      "french": "Batte de champion",
+      "bytes": 25
+    },
+    {
+      "id": "15541D",
+      "type": "field",
+      "english": "Knit cap",
+      "french": "Bonnet",
+      "bytes": 25
+    },
+    {
+      "id": "155444",
+      "type": "field",
+      "english": "Fry pan",
+      "french": "Poêle",
+      "bytes": 25
+    },
+    {
+      "id": "15546B",
+      "type": "field",
+      "english": "Non-stick pan",
+      "french": "Poêle antiadhésive",
+      "bytes": 25
+    },
+    {
+      "id": "155492",
+      "type": "field",
+      "english": "Iron skillet",
+      "french": "Poêle en fer",
+      "bytes": 25
+    },
+    {
+      "id": "1554B9",
+      "type": "field",
+      "english": "Slap bracelet",
+      "french": "Bracelet claquant",
+      "bytes": 25
+    },
+    {
+      "id": "1554E0",
+      "type": "field",
+      "english": "Thick fry pan",
+      "french": "Poêle épaisse",
+      "bytes": 25
+    },
+    {
+      "id": "155507",
+      "type": "field",
+      "english": "Peter's pan",
+      "french": "Poêle de Peter",
+      "bytes": 25
+    },
+    {
+      "id": "15552E",
+      "type": "field",
+      "english": "Spirit bat",
+      "french": "Batte spirituelle",
+      "bytes": 25
+    },
+    {
+      "id": "155555",
+      "type": "field",
+      "english": "Stellar cannon",
+      "french": "Canon stellaire",
+      "bytes": 25
+    },
+    {
+      "id": "15557C",
+      "type": "field",
+      "english": "Zap gun",
+      "french": "Pistolet électrique",
+      "bytes": 25
+    },
+    {
+      "id": "1555A3",
+      "type": "field",
+      "english": "Stun gun",
+      "french": "Pistolet paralysant",
+      "bytes": 25
+    },
+    {
+      "id": "1555CA",
+      "type": "field",
+      "english": "Air gun",
+      "french": "Fusil à air",
+      "bytes": 25
+    },
+    {
+      "id": "1555F1",
+      "type": "field",
+      "english": "Magnum air gun",
+      "french": "Fusil à air Magnum",
+      "bytes": 25
+    },
+    {
+      "id": "155618",
+      "type": "field",
+      "english": "Zip gun",
+      "french": "Pistolet artisanal",
+      "bytes": 25
+    },
+    {
+      "id": "15563F",
+      "type": "field",
+      "english": "Deluxe fry pan",
+      "french": "Poêle de luxe",
+      "bytes": 25
+    },
+    {
+      "id": "155666",
+      "type": "field",
+      "english": "Extreme cannon",
+      "french": "Canon extrême",
+      "bytes": 25
+    },
+    {
+      "id": "15568D",
+      "type": "field",
+      "english": "Mushroom soup",
+      "french": "Soupe aux champignons",
+      "bytes": 25
+    },
+    {
+      "id": "1556B4",
+      "type": "field",
+      "english": "Hot chocolate",
+      "french": "Chocolat chaud",
+      "bytes": 25
+    },
+    {
+      "id": "1556DB",
+      "type": "field",
+      "english": "Galoshes",
+      "french": "Bottes de pluie",
+      "bytes": 25
+    },
+    {
+      "id": "155702",
+      "type": "field",
+      "english": "Toy rocket kit",
+      "french": "Fusée-jouet en kit",
+      "bytes": 25
+    },
+    {
+      "id": "155729",
+      "type": "field",
+      "english": "Model rocket kit",
+      "french": "Maquette de fusée",
+      "bytes": 25
+    },
+    {
+      "id": "155750",
+      "type": "field",
+      "english": "George's Diary",
+      "french": "Journal de George",
+      "bytes": 25
+    },
+    {
+      "id": "155777",
+      "type": "field",
+      "english": "Butterfly yo-yo",
+      "french": "Yo-yo papillon",
+      "bytes": 25
+    },
+    {
+      "id": "15579E",
+      "type": "field",
+      "english": "Slingshot",
+      "french": "Lance-pierre",
+      "bytes": 25
+    },
+    {
+      "id": "1557EC",
+      "type": "field",
+      "english": "Trick yo-yo",
+      "french": "Yo-yo acrobatique",
+      "bytes": 25
+    },
+    {
+      "id": "155813",
+      "type": "field",
+      "english": "Combat yo-yo",
+      "french": "Yo-yo de combat",
+      "bytes": 25
+    },
+    {
+      "id": "15583A",
+      "type": "field",
+      "english": "Travel charm",
+      "french": "Charme du voyageur",
+      "bytes": 25
+    },
+    {
+      "id": "155861",
+      "type": "field",
+      "english": "Great charm",
+      "french": "Grand charme",
+      "bytes": 25
+    },
+    {
+      "id": "155888",
+      "type": "field",
+      "english": "Crystal charm",
+      "french": "Charme de cristal",
+      "bytes": 25
+    },
+    {
+      "id": "1558AF",
+      "type": "field",
+      "english": "Rain pendant",
+      "french": "Pendentif de pluie",
+      "bytes": 25
+    },
+    {
+      "id": "1558D6",
+      "type": "field",
+      "english": "Flame pendant",
+      "french": "Pendentif de flamme",
+      "bytes": 25
+    },
+    {
+      "id": "1558FD",
+      "type": "field",
+      "english": "Earth pendant",
+      "french": "Pendentif de terre",
+      "bytes": 25
+    },
+    {
+      "id": "155924",
+      "type": "field",
+      "english": "Night pendant",
+      "french": "Pendentif de nuit",
+      "bytes": 25
+    },
+    {
+      "id": "15594B",
+      "type": "field",
+      "english": "Sea pendant",
+      "french": "Pendentif marin",
+      "bytes": 25
+    },
+    {
+      "id": "155972",
+      "type": "field",
+      "english": "Star pendant",
+      "french": "Pendentif étoilé",
+      "bytes": 25
+    },
+    {
+      "id": "155999",
+      "type": "field",
+      "english": "Complex kit",
+      "french": "Kit complexe",
+      "bytes": 25
+    },
+    {
+      "id": "1559C0",
+      "type": "field",
+      "english": "Cheap bracelet",
+      "french": "Bracelet bon marché",
+      "bytes": 25
+    },
+    {
+      "id": "1559E7",
+      "type": "field",
+      "english": "Copper bracelet",
+      "french": "Bracelet de cuivre",
+      "bytes": 25
+    },
+    {
+      "id": "155A0E",
+      "type": "field",
+      "english": "Silver bracelet",
+      "french": "Bracelet d'argent",
+      "bytes": 25
+    },
+    {
+      "id": "155A35",
+      "type": "field",
+      "english": "Gold bracelet",
+      "french": "Bracelet d'or",
+      "bytes": 25
+    },
+    {
+      "id": "155A5C",
+      "type": "field",
+      "english": "Miracle band",
+      "french": "Bracelet miracle",
+      "bytes": 25
+    },
+    {
+      "id": "155A83",
+      "type": "field",
+      "english": "Diamond band",
+      "french": "Bracelet de diamant",
+      "bytes": 25
+    },
+    {
+      "id": "155B1F",
+      "type": "field",
+      "english": "Crumpled paper",
+      "french": "Papier froissé",
+      "bytes": 25
+    },
+    {
+      "id": "155B46",
+      "type": "field",
+      "english": "Baseball cap",
+      "french": "Casquette",
+      "bytes": 25
+    },
+    {
+      "id": "155B6D",
+      "type": "field",
+      "english": "Girl's hat",
+      "french": "Chapeau de fille",
+      "bytes": 25
+    },
+    {
+      "id": "155B94",
+      "type": "field",
+      "english": "Dentures",
+      "french": "Dentier",
+      "bytes": 25
+    },
+    {
+      "id": "155BBB",
+      "type": "field",
+      "english": "Ticket stub",
+      "french": "Talon de billet",
+      "bytes": 25
+    },
+    {
+      "id": "155BE2",
+      "type": "field",
+      "english": "Ribbon",
+      "french": "Ruban",
+      "bytes": 25
+    },
+    {
+      "id": "155C09",
+      "type": "field",
+      "english": "Red ribbon",
+      "french": "Ruban rouge",
+      "bytes": 25
+    },
+    {
+      "id": "155C30",
+      "type": "field",
+      "english": "Goddess ribbon",
+      "french": "Ruban de déesse",
+      "bytes": 25
+    },
+    {
+      "id": "155C57",
+      "type": "field",
+      "english": "Coin of slumber",
+      "french": "Pièce du sommeil",
+      "bytes": 25
+    },
+    {
+      "id": "155C7E",
+      "type": "field",
+      "english": "Coin of defense",
+      "french": "Pièce de défense",
+      "bytes": 25
+    },
+    {
+      "id": "155CA5",
+      "type": "field",
+      "english": "Onyx hook",
+      "french": "Crochet d'onyx",
+      "bytes": 25
+    },
+    {
+      "id": "155CCC",
+      "type": "field",
+      "english": "Last weapon",
+      "french": "Arme ultime",
+      "bytes": 25
+    },
+    {
+      "id": "155CF3",
+      "type": "field",
+      "english": "Shiny coin",
+      "french": "Pièce brillante",
+      "bytes": 25
+    },
+    {
+      "id": "155D1A",
+      "type": "field",
+      "english": "Souvenir coin",
+      "french": "Pièce souvenir",
+      "bytes": 25
+    },
+    {
+      "id": "155D41",
+      "type": "field",
+      "english": "Double burger",
+      "french": "Double hamburger",
+      "bytes": 25
+    },
+    {
+      "id": "155D68",
+      "type": "field",
+      "english": "Cookie",
+      "french": "Biscuit",
+      "bytes": 25
+    },
+    {
+      "id": "155D8F",
+      "type": "field",
+      "english": "Bag of fries",
+      "french": "Sachet de frites",
+      "bytes": 25
+    },
+    {
+      "id": "155DDD",
+      "type": "field",
+      "english": "Boiled egg",
+      "french": "Œuf dur",
+      "bytes": 25
+    },
+    {
+      "id": "155E04",
+      "type": "field",
+      "english": "Fresh egg",
+      "french": "Œuf frais",
+      "bytes": 25
+    },
+    {
+      "id": "155E2B",
+      "type": "field",
+      "english": "Picnic lunch",
+      "french": "Panier-repas",
+      "bytes": 25
+    },
+    {
+      "id": "155E52",
+      "type": "field",
+      "english": "Roasted corn",
+      "french": "Maïs grillé",
+      "bytes": 25
+    },
+    {
+      "id": "155EA0",
+      "type": "field",
+      "english": "Chef's special",
+      "french": "Spécialité du chef",
+      "bytes": 25
+    },
+    {
+      "id": "155EC7",
+      "type": "field",
+      "english": "Large pizza",
+      "french": "Grande pizza",
+      "bytes": 25
+    },
+    {
+      "id": "155EEE",
+      "type": "field",
+      "english": "PSI caramel",
+      "french": "Caramel PSI",
+      "bytes": 25
+    },
+    {
+      "id": "155F15",
+      "type": "field",
+      "english": "Magic truffle",
+      "french": "Truffe magique",
+      "bytes": 25
+    },
+    {
+      "id": "155F3C",
+      "type": "field",
+      "english": "Brain food lunch",
+      "french": "Repas cérébral",
+      "bytes": 25
+    },
+    {
+      "id": "155F63",
+      "type": "field",
+      "english": "Rock candy",
+      "french": "Sucre candi",
+      "bytes": 25
+    },
+    {
+      "id": "155FB1",
+      "type": "field",
+      "english": "Bread roll",
+      "french": "Petit pain",
+      "bytes": 25
+    },
+    {
+      "id": "155FD8",
+      "type": "field",
+      "english": "Medium pizza",
+      "french": "Pizza moyenne",
+      "bytes": 25
+    },
+    {
+      "id": "155FFF",
+      "type": "field",
+      "english": "Skip sandwich",
+      "french": "Sandwich express",
+      "bytes": 25
+    },
+    {
+      "id": "156026",
+      "type": "field",
+      "english": "Can of fruit juice",
+      "french": "Jus de fruits",
+      "bytes": 25
+    },
+    {
+      "id": "15604D",
+      "type": "field",
+      "english": "Peanut cheese`bar",
+      "french": "Barre aux cacahuètes",
+      "bytes": 25
+    },
+    {
+      "id": "156074",
+      "type": "field",
+      "english": "Sports drink",
+      "french": "Boisson énergétique",
+      "bytes": 25
+    },
+    {
+      "id": "15609B",
+      "type": "field",
+      "english": "Life-up cream",
+      "french": "Crème de vie",
+      "bytes": 25
+    },
+    {
+      "id": "1560C2",
+      "type": "field",
+      "english": "Bottle of water",
+      "french": "Bouteille d'eau",
+      "bytes": 25
+    },
+    {
+      "id": "1560E9",
+      "type": "field",
+      "english": "Cold remedy",
+      "french": "Remède contre le rhume",
+      "bytes": 25
+    },
+    {
+      "id": "156110",
+      "type": "field",
+      "english": "Vial of serum",
+      "french": "Fiole de sérum",
+      "bytes": 25
+    },
+    {
+      "id": "156137",
+      "type": "field",
+      "english": "Wisdom capsule",
+      "french": "Capsule de sagesse",
+      "bytes": 25
+    },
+    {
+      "id": "15615E",
+      "type": "field",
+      "english": "Physical capsule",
+      "french": "Capsule de vitalité",
+      "bytes": 25
+    },
+    {
+      "id": "156185",
+      "type": "field",
+      "english": "Speed capsule",
+      "french": "Capsule de vitesse",
+      "bytes": 25
+    },
+    {
+      "id": "1561AC",
+      "type": "field",
+      "english": "Fight capsule",
+      "french": "Capsule de cran",
+      "bytes": 25
+    },
+    {
+      "id": "1561D3",
+      "type": "field",
+      "english": "Force capsule",
+      "french": "Capsule de force",
+      "bytes": 25
+    },
+    {
+      "id": "1561FA",
+      "type": "field",
+      "english": "Ketchup packet",
+      "french": "Sachet de ketchup",
+      "bytes": 25
+    },
+    {
+      "id": "156221",
+      "type": "field",
+      "english": "Friendship ring",
+      "french": "Bague de l'amitié",
+      "bytes": 25
+    },
+    {
+      "id": "156248",
+      "type": "field",
+      "english": "Tin of Cocoa",
+      "french": "Boîte de cacao",
+      "bytes": 25
+    },
+    {
+      "id": "156296",
+      "type": "field",
+      "english": "IC-chip",
+      "french": "Puce électronique",
+      "bytes": 25
+    },
+    {
+      "id": "1562BD",
+      "type": "field",
+      "english": "Jar of hot sauce",
+      "french": "Sauce piquante",
+      "bytes": 25
+    },
+    {
+      "id": "1562E4",
+      "type": "field",
+      "english": "Salt packet",
+      "french": "Sachet de sel",
+      "bytes": 25
+    },
+    {
+      "id": "15630B",
+      "type": "field",
+      "english": "Sugar packet",
+      "french": "Sachet de sucre",
+      "bytes": 25
+    },
+    {
+      "id": "156332",
+      "type": "field",
+      "english": "Jar of delisauce",
+      "french": "Sauce spéciale",
+      "bytes": 25
+    },
+    {
+      "id": "156359",
+      "type": "field",
+      "english": "Wet towel",
+      "french": "Serviette humide",
+      "bytes": 25
+    },
+    {
+      "id": "156380",
+      "type": "field",
+      "english": "Refreshing herb",
+      "french": "Herbe rafraîchissante",
+      "bytes": 25
+    },
+    {
+      "id": "1563A7",
+      "type": "field",
+      "english": "Magic herb",
+      "french": "Herbe magique",
+      "bytes": 25
+    },
+    {
+      "id": "1563CE",
+      "type": "field",
+      "english": "Horn of life",
+      "french": "Cor de vie",
+      "bytes": 25
+    },
+    {
+      "id": "1563F5",
+      "type": "field",
+      "english": "Counter-PSI unit",
+      "french": "Unité anti-PSI",
+      "bytes": 25
+    },
+    {
+      "id": "15641C",
+      "type": "field",
+      "english": "Shield killer",
+      "french": "Brise-bouclier",
+      "bytes": 25
+    },
+    {
+      "id": "15646A",
+      "type": "field",
+      "english": "Heavy bazooka",
+      "french": "Bazooka lourd",
+      "bytes": 25
+    },
+    {
+      "id": "156491",
+      "type": "field",
+      "english": "HP-sucker",
+      "french": "Aspire-PV",
+      "bytes": 25
+    },
+    {
+      "id": "1564B8",
+      "type": "field",
+      "english": "Hungry HP-sucker",
+      "french": "Super aspire-PV",
+      "bytes": 25
+    },
+    {
+      "id": "1564DF",
+      "type": "field",
+      "english": "Super spray",
+      "french": "Super aérosol",
+      "bytes": 25
+    },
+    {
+      "id": "156506",
+      "type": "field",
+      "english": "Slime generator",
+      "french": "Générateur de gel",
+      "bytes": 25
+    },
+    {
+      "id": "15652D",
+      "type": "field",
+      "english": "Flashdark",
+      "french": "Lampe noire",
+      "bytes": 25
+    },
+    {
+      "id": "156554",
+      "type": "field",
+      "english": "Ruler",
+      "french": "Règle",
+      "bytes": 25
+    },
+    {
+      "id": "15657B",
+      "type": "field",
+      "english": "Flea bag",
+      "french": "Sac de puces",
+      "bytes": 25
+    },
+    {
+      "id": "1565A2",
+      "type": "field",
+      "english": "Words of love",
+      "french": "Mots d'amour",
+      "bytes": 25
+    },
+    {
+      "id": "1565C9",
+      "type": "field",
+      "english": "Protractor",
+      "french": "Rapporteur",
+      "bytes": 25
+    },
+    {
+      "id": "1565F0",
+      "type": "field",
+      "english": "Bottle rocket",
+      "french": "Petite fusée",
+      "bytes": 25
+    },
+    {
+      "id": "156617",
+      "type": "field",
+      "english": "Big bottle rocket",
+      "french": "Grande fusée",
+      "bytes": 25
+    },
+    {
+      "id": "15663E",
+      "type": "field",
+      "english": "Multi`bottle rocket",
+      "french": "Salve de fusées",
+      "bytes": 25
+    },
+    {
+      "id": "156665",
+      "type": "field",
+      "english": "Bomb",
+      "french": "Bombe",
+      "bytes": 25
+    },
+    {
+      "id": "15668C",
+      "type": "field",
+      "english": "Super bomb",
+      "french": "Super bombe",
+      "bytes": 25
+    },
+    {
+      "id": "1566B3",
+      "type": "field",
+      "english": "Insecticide spray",
+      "french": "Insecticide",
+      "bytes": 25
+    },
+    {
+      "id": "1566DA",
+      "type": "field",
+      "english": "Rust promoter",
+      "french": "Accélérateur de rouille",
+      "bytes": 25
+    },
+    {
+      "id": "156701",
+      "type": "field",
+      "english": "Rust promoter DX",
+      "french": "Rouille express DX",
+      "bytes": 25
+    },
+    {
+      "id": "156728",
+      "type": "field",
+      "english": "Swear words",
+      "french": "Gros mots",
+      "bytes": 25
+    },
+    {
+      "id": "15674F",
+      "type": "field",
+      "english": "Stone of Origin",
+      "french": "Pierre des origines",
+      "bytes": 25
+    },
+    {
+      "id": "156776",
+      "type": "field",
+      "english": "Poison needle",
+      "french": "Aiguille empoisonnée",
+      "bytes": 25
+    },
+    {
+      "id": "15679D",
+      "type": "field",
+      "english": "Flamethrower",
+      "french": "Lance-flammes",
+      "bytes": 25
+    },
+    {
+      "id": "1567C4",
+      "type": "field",
+      "english": "Real rocket",
+      "french": "Vraie fusée",
+      "bytes": 25
+    },
+    {
+      "id": "1567EB",
+      "type": "field",
+      "english": "Defense shower",
+      "french": "Douche défensive",
+      "bytes": 25
+    },
+    {
+      "id": "156812",
+      "type": "field",
+      "english": "Letter from mom",
+      "french": "Lettre de maman",
+      "bytes": 25
+    },
+    {
+      "id": "156839",
+      "type": "field",
+      "english": "Sudden fight pill",
+      "french": "Pilule de courage",
+      "bytes": 25
+    },
+    {
+      "id": "156860",
+      "type": "field",
+      "english": "Bag of Dragonite",
+      "french": "Sac de Dragonite",
+      "bytes": 25
+    },
+    {
+      "id": "156887",
+      "type": "field",
+      "english": "Defense spray",
+      "french": "Spray défensif",
+      "bytes": 25
+    },
+    {
+      "id": "1568AE",
+      "type": "field",
+      "english": "Piggy nose",
+      "french": "Groin de cochon",
+      "bytes": 25
+    },
+    {
+      "id": "1568D5",
+      "type": "field",
+      "english": "For Sale sign",
+      "french": "Pancarte à vendre",
+      "bytes": 25
+    },
+    {
+      "id": "1568FC",
+      "type": "field",
+      "english": "Bread loaf",
+      "french": "Pain",
+      "bytes": 25
+    },
+    {
+      "id": "156923",
+      "type": "field",
+      "english": "Vial of serum",
+      "french": "Fiole de sérum",
+      "bytes": 25
+    },
+    {
+      "id": "15694A",
+      "type": "field",
+      "english": "Banana",
+      "french": "Banane",
+      "bytes": 25
+    },
+    {
+      "id": "156971",
+      "type": "field",
+      "english": "Letter from Tony",
+      "french": "Lettre de Tony",
+      "bytes": 25
+    },
+    {
+      "id": "156998",
+      "type": "field",
+      "english": "Canary chick",
+      "french": "Bébé canari",
+      "bytes": 25
+    },
+    {
+      "id": "1569BF",
+      "type": "field",
+      "english": "Chicken",
+      "french": "Poulet",
+      "bytes": 25
+    },
+    {
+      "id": "1569E6",
+      "type": "field",
+      "english": "Basement key",
+      "french": "Clé de la cave",
+      "bytes": 25
+    },
+    {
+      "id": "156A0D",
+      "type": "field",
+      "english": "Key to the zoo",
+      "french": "Clé du zoo",
+      "bytes": 25
+    },
+    {
+      "id": "156A34",
+      "type": "field",
+      "english": "Bad key machine",
+      "french": "Machine à clés",
+      "bytes": 25
+    },
+    {
+      "id": "156A5B",
+      "type": "field",
+      "english": "Mouthwash",
+      "french": "Bain de bouche",
+      "bytes": 25
+    },
+    {
+      "id": "156A82",
+      "type": "field",
+      "english": "Trout yogurt",
+      "french": "Yaourt à la truite",
+      "bytes": 25
+    },
+    {
+      "id": "156AA9",
+      "type": "field",
+      "english": "Bread loaf",
+      "french": "Pain",
+      "bytes": 25
+    },
+    {
+      "id": "156AD0",
+      "type": "field",
+      "english": "Bicycle",
+      "french": "Vélo",
+      "bytes": 25
+    },
+    {
+      "id": "156AF7",
+      "type": "field",
+      "english": "ATM card",
+      "french": "Carte bancaire",
+      "bytes": 25
+    },
+    {
+      "id": "156B1E",
+      "type": "field",
+      "english": "Old pass",
+      "french": "Vieux laissez-passer",
+      "bytes": 25
+    },
+    {
+      "id": "156B45",
+      "type": "field",
+      "english": "Noble seed",
+      "french": "Graine noble",
+      "bytes": 25
+    },
+    {
+      "id": "156B6C",
+      "type": "field",
+      "english": "Live Show ticket",
+      "french": "Billet de concert",
+      "bytes": 25
+    },
+    {
+      "id": "156B93",
+      "type": "field",
+      "english": "Receiver phone",
+      "french": "Téléphone récepteur",
+      "bytes": 25
+    },
+    {
+      "id": "156BBA",
+      "type": "field",
+      "english": "Red weed",
+      "french": "Herbe rouge",
+      "bytes": 25
+    },
+    {
+      "id": "156BE1",
+      "type": "field",
+      "english": "Bullhorn",
+      "french": "Mégaphone",
+      "bytes": 25
+    },
+    {
+      "id": "156C08",
+      "type": "field",
+      "english": "Debugger",
+      "french": "Débogueur",
+      "bytes": 25
+    },
+    {
+      "id": "156C2F",
+      "type": "field",
+      "english": "Flight plan A",
+      "french": "Plan de vol A",
+      "bytes": 25
+    },
+    {
+      "id": "156C56",
+      "type": "field",
+      "english": "Flight plan B",
+      "french": "Plan de vol B",
+      "bytes": 25
+    },
+    {
+      "id": "156C7D",
+      "type": "field",
+      "english": "Flight plan C",
+      "french": "Plan de vol C",
+      "bytes": 25
+    },
+    {
+      "id": "156CA4",
+      "type": "field",
+      "english": "Calorie stick",
+      "french": "Barre calorique",
+      "bytes": 25
+    },
+    {
+      "id": "156CCB",
+      "type": "field",
+      "english": "Carton of cream",
+      "french": "Brique de crème",
+      "bytes": 25
+    },
+    {
+      "id": "156CF2",
+      "type": "field",
+      "english": "Plain roll",
+      "french": "Pain nature",
+      "bytes": 25
+    },
+    {
+      "id": "156D19",
+      "type": "field",
+      "english": "Time machine",
+      "french": "Machine temporelle",
+      "bytes": 25
+    },
+    {
+      "id": "156D40",
+      "type": "field",
+      "english": "Key to the manor",
+      "french": "Clé du manoir",
+      "bytes": 25
+    },
+    {
+      "id": "156D67",
+      "type": "field",
+      "english": "Meteorite piece",
+      "french": "Fragment de météorite",
+      "bytes": 25
+    },
+    {
+      "id": "156D8E",
+      "type": "field",
+      "english": "Secret herb",
+      "french": "Herbe secrète",
+      "bytes": 25
+    },
+    {
+      "id": "156DB5",
+      "type": "field",
+      "english": "Neutralizer",
+      "french": "Neutraliseur",
+      "bytes": 25
+    },
+    {
+      "id": "156DDC",
+      "type": "field",
+      "english": "Carton of milk",
+      "french": "Brique de lait",
+      "bytes": 25
+    },
+    {
+      "id": "156E03",
+      "type": "field",
+      "english": "Sprig of parsley",
+      "french": "Brin de persil",
+      "bytes": 25
+    },
+    {
+      "id": "156E2A",
+      "type": "field",
+      "english": "Cheeseburger",
+      "french": "Hamburger au fromage",
+      "bytes": 25
+    },
+    {
+      "id": "156E51",
+      "type": "field",
+      "english": "Crisp apple",
+      "french": "Pomme croquante",
+      "bytes": 25
+    },
+    {
+      "id": "156E78",
+      "type": "field",
+      "english": "Juicy pear",
+      "french": "Poire juteuse",
+      "bytes": 25
+    },
+    {
+      "id": "156E9F",
+      "type": "field",
+      "english": "PSI stone",
+      "french": "Pierre PSI",
+      "bytes": 25
+    },
+    {
+      "id": "156EC6",
+      "type": "field",
+      "english": "Town map",
+      "french": "Plan de la ville",
+      "bytes": 25
+    },
+    {
+      "id": "156EED",
+      "type": "field",
+      "english": "Magic ribbon",
+      "french": "Ruban magique",
+      "bytes": 25
+    },
+    {
+      "id": "156F14",
+      "type": "field",
+      "english": "Magic candy",
+      "french": "Bonbon magique",
+      "bytes": 25
+    },
+    {
+      "id": "156F3B",
+      "type": "field",
+      "english": "Key to the locker",
+      "french": "Clé du casier",
+      "bytes": 25
+    },
+    {
+      "id": "156F62",
+      "type": "field",
+      "english": "Insignificant item",
+      "french": "Objet insignifiant",
+      "bytes": 25
+    },
+    {
+      "id": "156F89",
+      "type": "field",
+      "english": "Magic tart",
+      "french": "Tarte magique",
+      "bytes": 25
+    },
+    {
+      "id": "156FB0",
+      "type": "field",
+      "english": "Tiny ruby",
+      "french": "Petit rubis",
+      "bytes": 25
+    },
+    {
+      "id": "156FD7",
+      "type": "field",
+      "english": "Monkey's love",
+      "french": "Amour de singe",
+      "bytes": 25
+    },
+    {
+      "id": "156FFE",
+      "type": "field",
+      "english": "Eraser eraser",
+      "french": "Efface-effaceur",
+      "bytes": 25
+    },
+    {
+      "id": "157025",
+      "type": "field",
+      "english": "Tendakraut",
+      "french": "Choucroute Tenda",
+      "bytes": 25
+    },
+    {
+      "id": "15704C",
+      "type": "field",
+      "english": "T-rex's bat",
+      "french": "Batte de T-Rex",
+      "bytes": 25
+    },
+    {
+      "id": "157073",
+      "type": "field",
+      "english": "Big league bat",
+      "french": "Batte pro",
+      "bytes": 25
+    },
+    {
+      "id": "15709A",
+      "type": "field",
+      "english": "Ultimate bat",
+      "french": "Batte ultime",
+      "bytes": 25
+    },
+    {
+      "id": "1570C1",
+      "type": "field",
+      "english": "Laser beam",
+      "french": "Rayon laser",
+      "bytes": 25
+    },
+    {
+      "id": "1570E8",
+      "type": "field",
+      "english": "Plasma beam",
+      "french": "Rayon plasma",
+      "bytes": 25
+    },
+    {
+      "id": "15710F",
+      "type": "field",
+      "english": "Diamond band",
+      "french": "Bracelet de diamant",
+      "bytes": 25
+    },
+    {
+      "id": "157136",
+      "type": "field",
+      "english": "Defense ribbon",
+      "french": "Ruban de défense",
+      "bytes": 25
+    },
+    {
+      "id": "15715D",
+      "type": "field",
+      "english": "Talisman ribbon",
+      "french": "Ruban talisman",
+      "bytes": 25
+    },
+    {
+      "id": "157184",
+      "type": "field",
+      "english": "Saturn ribbon",
+      "french": "Ruban Saturne",
+      "bytes": 25
+    },
+    {
+      "id": "1571AB",
+      "type": "field",
+      "english": "Coin of peace",
+      "french": "Pièce de paix",
+      "bytes": 25
+    },
+    {
+      "id": "1571D2",
+      "type": "field",
+      "english": "Rope",
+      "french": "Corde",
+      "bytes": 25
+    },
+    {
+      "id": "1571F9",
+      "type": "field",
+      "english": "Protection coin",
+      "french": "Pièce protectrice",
+      "bytes": 25
+    },
+    {
+      "id": "157220",
+      "type": "field",
+      "english": "Magic coin",
+      "french": "Pièce magique",
+      "bytes": 25
+    },
+    {
+      "id": "157AAE",
+      "type": "field",
+      "english": "Dad",
+      "french": "Papa",
+      "bytes": 5
+    },
+    {
+      "id": "1595E8",
+      "type": "field",
+      "english": "Alarm Ghost",
+      "french": "Le fantôme d'alarme",
+      "bytes": 25
+    },
+    {
+      "id": "159646",
+      "type": "field",
+      "english": "Alligator",
+      "french": "L'alligator",
+      "bytes": 25
+    },
+    {
+      "id": "1596A4",
+      "type": "field",
+      "english": "Medieval Armor",
+      "french": "L'armure médiévale",
+      "bytes": 25
+    },
+    {
+      "id": "1598D8",
+      "type": "field",
+      "english": "Bionic Batty",
+      "french": "La chauve-souris cyborg",
+      "bytes": 25
+    },
+    {
+      "id": "159936",
+      "type": "field",
+      "english": "Bionic Centipede",
+      "french": "Le mille-pattes bionique",
+      "bytes": 25
+    },
+    {
+      "id": "159994",
+      "type": "field",
+      "english": "Bionic Scorpion",
+      "french": "Le scorpion bionique",
+      "bytes": 25
+    },
+    {
+      "id": "159D9E",
+      "type": "field",
+      "english": "Crocodile",
+      "french": "Le crocodile",
+      "bytes": 25
+    },
+    {
+      "id": "159DFC",
+      "type": "field",
+      "english": "Cheerful Crow",
+      "french": "Le corbeau joyeux",
+      "bytes": 25
+    },
+    {
+      "id": "159FD2",
+      "type": "field",
+      "english": "Possessed Doll",
+      "french": "La poupée possédée",
+      "bytes": 25
+    },
+    {
+      "id": "15A498",
+      "type": "field",
+      "english": "Gangster Zombie",
+      "french": "Le zombie gangster",
+      "bytes": 25
+    },
+    {
+      "id": "15A6CC",
+      "type": "field",
+      "english": "New Age Retro Hippie",
+      "french": "Le hippie rétro",
+      "bytes": 25
+    },
+    {
+      "id": "15A7E6",
+      "type": "field",
+      "english": "Haunted Lamp",
+      "french": "La lampe hantée",
+      "bytes": 25
+    },
+    {
+      "id": "15AEE0",
+      "type": "field",
+      "english": "Cursed Pillow",
+      "french": "L'oreiller maudit",
+      "bytes": 25
+    },
+    {
+      "id": "15B0B6",
+      "type": "field",
+      "english": "Dirty Rat",
+      "french": "Le rat crasseux",
+      "bytes": 25
+    },
+    {
+      "id": "15B114",
+      "type": "field",
+      "english": "Rattlesnake",
+      "french": "Le serpent à sonnette",
+      "bytes": 25
+    },
+    {
+      "id": "15B172",
+      "type": "field",
+      "english": "Red Snake",
+      "french": "Le serpent rouge",
+      "bytes": 25
+    },
+    {
+      "id": "15B462",
+      "type": "field",
+      "english": "Frail Snake",
+      "french": "Le serpent frêle",
+      "bytes": 25
+    },
+    {
+      "id": "15B5DA",
+      "type": "field",
+      "english": "Stray Dog",
+      "french": "Le chien errant",
+      "bytes": 25
+    },
+    {
+      "id": "15B8CA",
+      "type": "field",
+      "english": "Nasty Zombie",
+      "french": "Le zombie féroce",
+      "bytes": 25
+    },
+    {
+      "id": "15B986",
+      "type": "field",
+      "english": "Pseudo Zombie",
+      "french": "Le faux zombie",
+      "bytes": 25
+    },
+    {
+      "id": "15BAA0",
+      "type": "field",
+      "english": "Suburban Zombie",
+      "french": "Le zombie de banlieue",
+      "bytes": 25
+    },
+    {
+      "id": "15BCD4",
+      "type": "field",
+      "english": "Guard Dog",
+      "french": "Le chien de garde",
+      "bytes": 25
+    },
+    {
+      "id": "15CFEC",
+      "type": "field",
+      "english": "Spiteful Crow",
+      "french": "Le corbeau hargneux",
+      "bytes": 25
+    },
+    {
+      "id": "0F7656",
+      "type": "field",
+      "english": "PK Fire ",
+      "french": "PK Feu ",
+      "bytes": 9
+    },
+    {
+      "id": "0F766F",
+      "type": "field",
+      "english": "PK Freeze ",
+      "french": "PK Glace ",
+      "bytes": 11
+    },
+    {
+      "id": "0F7688",
+      "type": "field",
+      "english": "PK Thunder ",
+      "french": "PK Foudre ",
+      "bytes": 12
+    },
+    {
+      "id": "0F76A1",
+      "type": "field",
+      "english": "PK Flash ",
+      "french": "PK Éclat ",
+      "bytes": 10
+    },
+    {
+      "id": "0F76BA",
+      "type": "field",
+      "english": "PK Starstorm ",
+      "french": "PK Météores ",
+      "bytes": 14
+    },
+    {
+      "id": "0F76D3",
+      "type": "field",
+      "english": "Lifeup ",
+      "french": "PV+ ",
+      "bytes": 8
+    },
+    {
+      "id": "0F76EC",
+      "type": "field",
+      "english": "Healing ",
+      "french": "Soins ",
+      "bytes": 9
+    },
+    {
+      "id": "0F7705",
+      "type": "field",
+      "english": "Shield ",
+      "french": "Écran ",
+      "bytes": 8
+    },
+    {
+      "id": "0F771E",
+      "type": "field",
+      "english": "PSI Shield ",
+      "french": "Écran PSI ",
+      "bytes": 12
+    },
+    {
+      "id": "0F7737",
+      "type": "field",
+      "english": "Offense up ",
+      "french": "Attaque+ ",
+      "bytes": 12
+    },
+    {
+      "id": "0F7750",
+      "type": "field",
+      "english": "Defense down ",
+      "french": "Défense- ",
+      "bytes": 14
+    },
+    {
+      "id": "0F7769",
+      "type": "field",
+      "english": "Hypnosis ",
+      "french": "Hypnose ",
+      "bytes": 10
+    },
+    {
+      "id": "0F7782",
+      "type": "field",
+      "english": "PSI Magnet ",
+      "french": "PSI Aimant ",
+      "bytes": 12
+    },
+    {
+      "id": "0F779B",
+      "type": "field",
+      "english": "Paralysis ",
+      "french": "Paralysie ",
+      "bytes": 11
+    },
+    {
+      "id": "0F77B4",
+      "type": "field",
+      "english": "Brainshock ",
+      "french": "Confusion ",
+      "bytes": 12
+    },
+    {
+      "id": "0F77CD",
+      "type": "field",
+      "english": "Teleport ",
+      "french": "Téléport ",
+      "bytes": 10
+    },
+    {
+      "id": "0F61CB",
+      "type": "field",
+      "english": "Plain flavor",
+      "french": "Nature",
+      "bytes": 13
+    },
+    {
+      "id": "20FFD5",
+      "type": "field",
+      "english": "Spearmint flavor",
+      "french": "Menthe",
+      "bytes": 17
+    },
+    {
+      "id": "212E04",
+      "type": "field",
+      "english": "Tuna flavor",
+      "french": "Thon",
+      "bytes": 12
+    },
+    {
+      "id": "212E1D",
+      "type": "field",
+      "english": "Mayo flavor",
+      "french": "Mayonnaise",
+      "bytes": 12
+    },
+    {
+      "id": "212E36",
+      "type": "field",
+      "english": "Grape flavor",
+      "french": "Raisin",
+      "bytes": 13
+    },
+    {
+      "id": "375218",
+      "type": "field",
+      "english": "Check",
+      "french": "Voir",
+      "bytes": 6
+    },
+    {
+      "id": "375207",
+      "type": "field",
+      "english": "Throw",
+      "french": "Jeter",
+      "bytes": 6
+    },
+    {
+      "id": "37520D",
+      "type": "field",
+      "english": "Blast",
+      "french": "Tirer",
+      "bytes": 6
+    },
+    {
+      "id": "04C121",
+      "type": "field",
+      "english": "Mono",
+      "french": "Mono",
+      "bytes": 5
+    },
+    {
+      "id": "04C234",
+      "type": "field",
+      "english": "Error...",
+      "french": "Erreur.",
+      "bytes": 9
+    },
+    {
+      "id": "04C284",
+      "type": "field",
+      "english": "Error...",
+      "french": "Erreur.",
+      "bytes": 9
+    },
+    {
+      "id": "04A011",
+      "type": "field",
+      "english": "PSI",
+      "french": "PSI",
+      "bytes": 4
+    },
+    {
+      "id": "2FA38E",
+      "type": "field",
+      "english": "PSI",
+      "french": "PSI",
+      "bytes": 4
+    },
+    {
+      "id": "048037",
+      "type": "field",
+      "english": "I'm ....  It's been a long road getting here...  Soon, I'll be...  Soon, I'll be...  Soon, I'll be...  What will happen to us?  W...what's happening?  My thoughts are being written out on the wall...  or are they?",
+      "french": "Je suis... J'ai fait un long chemin pour arriver ici... Bientôt, je serai... Bientôt, je serai... Qu'allons-nous devenir ? Que se passe-t-il ? Mes pensées s'écrivent sur le mur... Est-ce vrai ?",
+      "bytes": 213
+    },
+    {
+      "id": "045C24",
+      "type": "field",
+      "english": "Defense",
+      "french": "Défense",
+      "bytes": 7
+    },
+    {
+      "id": "38C2E3",
+      "type": "field",
+      "english": "Mary",
+      "french": "Mary",
+      "bytes": 5
+    },
+    {
+      "id": "38C2E8",
+      "type": "field",
+      "english": "Suzy",
+      "french": "Suzy",
+      "bytes": 5
+    },
+    {
+      "id": "38C2ED",
+      "type": "field",
+      "english": "George",
+      "french": "George",
+      "bytes": 7
+    },
+    {
+      "id": "38C2F4",
+      "type": "field",
+      "english": "Maria",
+      "french": "Maria",
+      "bytes": 6
+    },
+    {
+      "id": "38C2FA",
+      "type": "field",
+      "english": "Mimmie",
+      "french": "Mimmie",
+      "bytes": 7
+    },
+    {
+      "id": "38C301",
+      "type": "field",
+      "english": "Minnie",
+      "french": "Minnie",
+      "bytes": 7
+    },
+    {
+      "id": "38C308",
+      "type": "field",
+      "english": "Pippi",
+      "french": "Pippi",
+      "bytes": 6
+    },
+    {
+      "id": "38C30E",
+      "type": "field",
+      "english": "Duncan",
+      "french": "Duncan",
+      "bytes": 7
+    },
+    {
+      "id": "38C315",
+      "type": "field",
+      "english": "Laura",
+      "french": "Laura",
+      "bytes": 6
+    },
+    {
+      "id": "38C31B",
+      "type": "field",
+      "english": "Giygas",
+      "french": "Giygas",
+      "bytes": 7
+    },
+    {
+      "id": "38C322",
+      "type": "field",
+      "english": "Abbott",
+      "french": "Abbott",
+      "bytes": 7
+    },
+    {
+      "id": "38C329",
+      "type": "field",
+      "english": "Nancy",
+      "french": "Nancy",
+      "bytes": 6
+    },
+    {
+      "id": "38C32F",
+      "type": "field",
+      "english": "Ullrich",
+      "french": "Ullrich",
+      "bytes": 8
+    },
+    {
+      "id": "38C337",
+      "type": "field",
+      "english": "Wally",
+      "french": "Wally",
+      "bytes": 6
+    },
+    {
+      "id": "38C33D",
+      "type": "field",
+      "english": "Kelly",
+      "french": "Kelly",
+      "bytes": 6
+    },
+    {
+      "id": "38C343",
+      "type": "field",
+      "english": "Juana",
+      "french": "Juana",
+      "bytes": 6
+    },
+    {
+      "id": "155000",
+      "type": "field",
+      "english": "Null",
+      "french": "Aucun",
+      "bytes": 25
+    },
+    {
+      "id": "1557C5",
+      "type": "field",
+      "english": "Boomerang",
+      "french": "Boomerang",
+      "bytes": 25
+    },
+    {
+      "id": "155AAA",
+      "type": "field",
+      "english": "Removed 1",
+      "french": "Retiré 1",
+      "bytes": 25
+    },
+    {
+      "id": "155AD1",
+      "type": "field",
+      "english": "Removed 2",
+      "french": "Retiré 2",
+      "bytes": 25
+    },
+    {
+      "id": "155AF8",
+      "type": "field",
+      "english": "Removed 3",
+      "french": "Retiré 3",
+      "bytes": 25
+    },
+    {
+      "id": "155DB6",
+      "type": "field",
+      "english": "Hamburger",
+      "french": "Hamburger",
+      "bytes": 25
+    },
+    {
+      "id": "155E79",
+      "type": "field",
+      "english": "Pizza",
+      "french": "Pizza",
+      "bytes": 25
+    },
+    {
+      "id": "155F8A",
+      "type": "field",
+      "english": "Croissant",
+      "french": "Croissant",
+      "bytes": 25
+    },
+    {
+      "id": "15626F",
+      "type": "field",
+      "english": "Ocarina",
+      "french": "Ocarina",
+      "bytes": 25
+    },
+    {
+      "id": "156443",
+      "type": "field",
+      "english": "Bazooka",
+      "french": "Bazooka",
+      "bytes": 25
+    },
+    {
+      "id": "157247",
+      "type": "field",
+      "english": "Skip sandwich DX",
+      "french": "Sandwich vitesse DX",
+      "bytes": 25
+    },
+    {
+      "id": "15726E",
+      "type": "field",
+      "english": "Lucky sandwich",
+      "french": "Sandwich porte-bonheur",
+      "bytes": 25
+    },
+    {
+      "id": "157295",
+      "type": "field",
+      "english": "Pixie's bracelet",
+      "french": "Bracelet de fée",
+      "bytes": 25
+    },
+    {
+      "id": "1572BC",
+      "type": "field",
+      "english": "Cherub's band",
+      "french": "Bracelet de chérubin",
+      "bytes": 25
+    },
+    {
+      "id": "1572E3",
+      "type": "field",
+      "english": "Goddess band",
+      "french": "Bracelet de déesse",
+      "bytes": 25
+    },
+    {
+      "id": "15730A",
+      "type": "field",
+      "english": "Katana",
+      "french": "Katana",
+      "bytes": 25
+    },
+    {
+      "id": "157331",
+      "type": "field",
+      "english": "Silver sword",
+      "french": "Épée d'argent",
+      "bytes": 25
+    },
+    {
+      "id": "157358",
+      "type": "field",
+      "english": "Survival knife",
+      "french": "Couteau de survie",
+      "bytes": 25
+    },
+    {
+      "id": "15737F",
+      "type": "field",
+      "english": "Butter knife",
+      "french": "Couteau à beurre",
+      "bytes": 25
+    },
+    {
+      "id": "1573A6",
+      "type": "field",
+      "english": "Repel ring",
+      "french": "Bague répulsive",
+      "bytes": 25
+    },
+    {
+      "id": "1573CD",
+      "type": "field",
+      "english": "Breadcrumbs",
+      "french": "Miettes de pain",
+      "bytes": 25
+    },
+    {
+      "id": "1573F4",
+      "type": "field",
+      "english": "Phone card",
+      "french": "Carte téléphonique",
+      "bytes": 25
+    },
+    {
+      "id": "15741B",
+      "type": "field",
+      "english": "Big bag",
+      "french": "Grand sac",
+      "bytes": 25
+    },
+    {
+      "id": "157442",
+      "type": "field",
+      "english": "Gang's dagger",
+      "french": "Dague de voyou",
+      "bytes": 25
+    },
+    {
+      "id": "157469",
+      "type": "field",
+      "english": "Tricky shank",
+      "french": "Lame sournoise",
+      "bytes": 25
+    },
+    {
+      "id": "157490",
+      "type": "field",
+      "english": "Wild mushroom",
+      "french": "Champignon sauvage",
+      "bytes": 25
+    },
+    {
+      "id": "1574B7",
+      "type": "field",
+      "english": "Wild mushroom",
+      "french": "Champignon sauvage",
+      "bytes": 25
+    },
+    {
+      "id": "1574DE",
+      "type": "field",
+      "english": "Beef jerky",
+      "french": "Viande séchée",
+      "bytes": 25
+    },
+    {
+      "id": "157505",
+      "type": "field",
+      "english": "Deluxe burger",
+      "french": "Burger de luxe",
+      "bytes": 25
+    },
+    {
+      "id": "15752C",
+      "type": "field",
+      "english": "Spicy jerky",
+      "french": "Viande séchée épicée",
+      "bytes": 25
+    },
+    {
+      "id": "157553",
+      "type": "field",
+      "english": "Luxury jerky",
+      "french": "Viande séchée de luxe",
+      "bytes": 25
+    },
+    {
+      "id": "15757A",
+      "type": "field",
+      "english": "Bottle of DXwater",
+      "french": "Bouteille d'eau DX",
+      "bytes": 25
+    },
+    {
+      "id": "1575A1",
+      "type": "field",
+      "english": "Magic pudding",
+      "french": "Pudding magique",
+      "bytes": 25
+    },
+    {
+      "id": "1575C8",
+      "type": "field",
+      "english": "Rabbit's foot",
+      "french": "Patte de lapin",
+      "bytes": 25
+    },
+    {
+      "id": "1575EF",
+      "type": "field",
+      "english": "Mr. Saturn coin",
+      "french": "Pièce de M. Saturne",
+      "bytes": 25
+    },
+    {
+      "id": "157616",
+      "type": "field",
+      "english": "Cup of coffee",
+      "french": "Tasse de café",
+      "bytes": 25
+    },
+    {
+      "id": "15763D",
+      "type": "field",
+      "english": "Popsicle",
+      "french": "Glace à l'eau",
+      "bytes": 25
+    },
+    {
+      "id": "157664",
+      "type": "field",
+      "english": "Cup of Lifenoodles",
+      "french": "Nouilles de vie",
+      "bytes": 25
+    },
+    {
+      "id": "15768B",
+      "type": "field",
+      "english": "Confiscated weapon",
+      "french": "Arme confisquée",
+      "bytes": 25
+    },
+    {
+      "id": "15789F",
+      "type": "field",
+      "english": "My House",
+      "french": "Ma maison",
+      "bytes": 10
+    },
+    {
+      "id": "1578BE",
+      "type": "field",
+      "english": "Podunk",
+      "french": "Podunk",
+      "bytes": 7
+    },
+    {
+      "id": "1578DD",
+      "type": "field",
+      "english": "Cemetery",
+      "french": "Cimetière",
+      "bytes": 10
+    },
+    {
+      "id": "1578FC",
+      "type": "field",
+      "english": "Zoo",
+      "french": "Zoo",
+      "bytes": 4
+    },
+    {
+      "id": "15791B",
+      "type": "field",
+      "english": "Canary Village",
+      "french": "Village des Canaris",
+      "bytes": 20
+    },
+    {
+      "id": "15793A",
+      "type": "field",
+      "english": "Merrysville",
+      "french": "Merrysville",
+      "bytes": 12
+    },
+    {
+      "id": "157959",
+      "type": "field",
+      "english": "Yucca Desert",
+      "french": "Désert de Yucca",
+      "bytes": 16
+    },
+    {
+      "id": "157978",
+      "type": "field",
+      "english": "Spookane",
+      "french": "Spookane",
+      "bytes": 9
+    },
+    {
+      "id": "157997",
+      "type": "field",
+      "english": "Reindeer",
+      "french": "Reindeer",
+      "bytes": 9
+    },
+    {
+      "id": "1579B6",
+      "type": "field",
+      "english": "Snowman",
+      "french": "Snowman",
+      "bytes": 8
+    },
+    {
+      "id": "1579D5",
+      "type": "field",
+      "english": "Youngtown",
+      "french": "Youngtown",
+      "bytes": 10
+    },
+    {
+      "id": "1579F4",
+      "type": "field",
+      "english": "Swamp",
+      "french": "Mar.",
+      "bytes": 6
+    },
+    {
+      "id": "157A13",
+      "type": "field",
+      "english": "Ellay",
+      "french": "Ellay",
+      "bytes": 6
+    },
+    {
+      "id": "157A32",
+      "type": "field",
+      "english": "Mt. Itoi",
+      "french": "M. Itoi",
+      "bytes": 9
+    },
+    {
+      "id": "157A51",
+      "type": "field",
+      "english": "Itoi Summit",
+      "french": "Sommet d'Itoi",
+      "bytes": 14
+    },
+    {
+      "id": "157ACD",
+      "type": "field",
+      "english": "Mom",
+      "french": "Maman",
+      "bytes": 6
+    },
+    {
+      "id": "157AEC",
+      "type": "field",
+      "english": "Escargo Express",
+      "french": "Escargo Express",
+      "bytes": 16
+    },
+    {
+      "id": "157B0B",
+      "type": "field",
+      "english": "Mach Pizza",
+      "french": "Mach Pizza",
+      "bytes": 11
+    },
+    {
+      "id": "157B2A",
+      "type": "field",
+      "english": "Hint Man",
+      "french": "Conseils",
+      "bytes": 9
+    },
+    {
+      "id": "15958A",
+      "type": "field",
+      "english": "null",
+      "french": "Aucun",
+      "bytes": 25
+    },
+    {
+      "id": "159702",
+      "type": "field",
+      "english": "Bag Lady",
+      "french": "La vagabonde",
+      "bytes": 25
+    },
+    {
+      "id": "159760",
+      "type": "field",
+      "english": "Barbot",
+      "french": "Le Barbot",
+      "bytes": 25
+    },
+    {
+      "id": "1597BE",
+      "type": "field",
+      "english": "Irregular Bear",
+      "french": "L'ours étrange",
+      "bytes": 25
+    },
+    {
+      "id": "15981C",
+      "type": "field",
+      "english": "Territorial Oak",
+      "french": "Le chêne territorial",
+      "bytes": 25
+    },
+    {
+      "id": "15987A",
+      "type": "field",
+      "english": "Big Foot",
+      "french": "Le Bigfoot",
+      "bytes": 25
+    },
+    {
+      "id": "1599F2",
+      "type": "field",
+      "english": "Worse Bison",
+      "french": "Le bison féroce",
+      "bytes": 25
+    },
+    {
+      "id": "159A50",
+      "type": "field",
+      "english": "Black-Blood Member",
+      "french": "Le membre Sang-Noir",
+      "bytes": 25
+    },
+    {
+      "id": "159AAE",
+      "type": "field",
+      "english": "Black-Blood's Boss",
+      "french": "Le chef Sang-Noir",
+      "bytes": 25
+    },
+    {
+      "id": "159B0C",
+      "type": "field",
+      "english": "Shroudley",
+      "french": "Shroudley",
+      "bytes": 25
+    },
+    {
+      "id": "159B6A",
+      "type": "field",
+      "english": "Blue Starman",
+      "french": "Le Starman bleu",
+      "bytes": 25
+    },
+    {
+      "id": "159BC8",
+      "type": "field",
+      "english": "Clumsy Bomber",
+      "french": "Le bombardier maladroit",
+      "bytes": 25
+    },
+    {
+      "id": "159C26",
+      "type": "field",
+      "english": "Groucho",
+      "french": "Groucho",
+      "bytes": 25
+    },
+    {
+      "id": "159C84",
+      "type": "field",
+      "english": "Bad Buffalo",
+      "french": "Le buffle furieux",
+      "bytes": 25
+    },
+    {
+      "id": "159CE2",
+      "type": "field",
+      "english": "Kelly",
+      "french": "Kelly",
+      "bytes": 25
+    },
+    {
+      "id": "159D40",
+      "type": "field",
+      "english": "Wiggly Centipede",
+      "french": "Le mille-pattes ondulant",
+      "bytes": 25
+    },
+    {
+      "id": "159E5A",
+      "type": "field",
+      "english": "Ultra Barbot",
+      "french": "L'Ultra Barbot",
+      "bytes": 25
+    },
+    {
+      "id": "159EB8",
+      "type": "field",
+      "english": "Psycho Truck",
+      "french": "Le camion dément",
+      "bytes": 25
+    },
+    {
+      "id": "159F16",
+      "type": "field",
+      "english": "Psycho Car",
+      "french": "La voiture démente",
+      "bytes": 25
+    },
+    {
+      "id": "159F74",
+      "type": "field",
+      "english": "Pippi",
+      "french": "Pippi",
+      "bytes": 25
+    },
+    {
+      "id": "15A030",
+      "type": "field",
+      "english": "Dr. Distorto",
+      "french": "Dr Distorto",
+      "bytes": 25
+    },
+    {
+      "id": "15A08E",
+      "type": "field",
+      "english": "Dragon",
+      "french": "Le dragon",
+      "bytes": 25
+    },
+    {
+      "id": "15A0EC",
+      "type": "field",
+      "english": "Dust Ball",
+      "french": "La boule de poussière",
+      "bytes": 25
+    },
+    {
+      "id": "15A14A",
+      "type": "field",
+      "english": "Aggravated Eagle",
+      "french": "L'aigle furieux",
+      "bytes": 25
+    },
+    {
+      "id": "15A1A8",
+      "type": "field",
+      "english": "Elephant",
+      "french": "L'éléphant",
+      "bytes": 25
+    },
+    {
+      "id": "15A206",
+      "type": "field",
+      "english": "Hateful Hawk",
+      "french": "Le faucon haineux",
+      "bytes": 25
+    },
+    {
+      "id": "15A264",
+      "type": "field",
+      "english": "Atomic Energy Robot",
+      "french": "Le robot nucléaire",
+      "bytes": 25
+    },
+    {
+      "id": "15A2C2",
+      "type": "field",
+      "english": "Fireball",
+      "french": "La boule de feu",
+      "bytes": 25
+    },
+    {
+      "id": "15A320",
+      "type": "field",
+      "english": "Onyx Fish",
+      "french": "Le poisson d'onyx",
+      "bytes": 25
+    },
+    {
+      "id": "15A37E",
+      "type": "field",
+      "english": "Pesky Fly",
+      "french": "La mouche agaçante",
+      "bytes": 25
+    },
+    {
+      "id": "15A3DC",
+      "type": "field",
+      "english": "Fugitive",
+      "french": "Le fugitif",
+      "bytes": 25
+    },
+    {
+      "id": "15A43A",
+      "type": "field",
+      "english": "Gabilan",
+      "french": "Gabilan",
+      "bytes": 25
+    },
+    {
+      "id": "15A4F6",
+      "type": "field",
+      "english": "Gargoyle",
+      "french": "La gargouille",
+      "bytes": 25
+    },
+    {
+      "id": "15A554",
+      "type": "field",
+      "english": "Smilin' Ghost",
+      "french": "Le fantôme souriant",
+      "bytes": 25
+    },
+    {
+      "id": "15A5B2",
+      "type": "field",
+      "english": "Giga Borg",
+      "french": "Le Giga Borg",
+      "bytes": 25
+    },
+    {
+      "id": "15A610",
+      "type": "field",
+      "english": "Gorilla",
+      "french": "Le gorille",
+      "bytes": 25
+    },
+    {
+      "id": "15A66E",
+      "type": "field",
+      "english": "Grizzly Bear",
+      "french": "Le grizzly",
+      "bytes": 25
+    },
+    {
+      "id": "15A72A",
+      "type": "field",
+      "english": "Hyena",
+      "french": "La hyène",
+      "bytes": 25
+    },
+    {
+      "id": "15A788",
+      "type": "field",
+      "english": "Nancy",
+      "french": "Nancy",
+      "bytes": 25
+    },
+    {
+      "id": "15A844",
+      "type": "field",
+      "english": "Last Starman",
+      "french": "Le dernier Starman",
+      "bytes": 25
+    },
+    {
+      "id": "15A8A2",
+      "type": "field",
+      "english": "Li'l Saucer",
+      "french": "La petite soucoupe",
+      "bytes": 25
+    },
+    {
+      "id": "15A900",
+      "type": "field",
+      "english": "Silver Wolf",
+      "french": "Le loup argenté",
+      "bytes": 25
+    },
+    {
+      "id": "15A95E",
+      "type": "field",
+      "english": "Lynx",
+      "french": "Le lynx",
+      "bytes": 25
+    },
+    {
+      "id": "15A9BC",
+      "type": "field",
+      "english": "Mad Car",
+      "french": "La voiture folle",
+      "bytes": 25
+    },
+    {
+      "id": "15AA1A",
+      "type": "field",
+      "english": "Mad Truck",
+      "french": "Le camion fou",
+      "bytes": 25
+    },
+    {
+      "id": "15AA78",
+      "type": "field",
+      "english": "Magic Snail",
+      "french": "L'escargot magique",
+      "bytes": 25
+    },
+    {
+      "id": "15AAD6",
+      "type": "field",
+      "english": "Mook",
+      "french": "Le Mook",
+      "bytes": 25
+    },
+    {
+      "id": "15AB34",
+      "type": "field",
+      "english": "Maniac Truck",
+      "french": "Le camion maniaque",
+      "bytes": 25
+    },
+    {
+      "id": "15AB92",
+      "type": "field",
+      "english": "Mega Borg",
+      "french": "Le Mega Borg",
+      "bytes": 25
+    },
+    {
+      "id": "15ABF0",
+      "type": "field",
+      "english": "Ullrich",
+      "french": "Ullrich",
+      "bytes": 25
+    },
+    {
+      "id": "15AC4E",
+      "type": "field",
+      "english": "Mook",
+      "french": "Le Mook",
+      "bytes": 25
+    },
+    {
+      "id": "15ACAC",
+      "type": "field",
+      "english": "Mr. Batty",
+      "french": "M. Chauve-souris",
+      "bytes": 25
+    },
+    {
+      "id": "15AD0A",
+      "type": "field",
+      "english": "Oh-Mook",
+      "french": "L'Oh-Mook",
+      "bytes": 25
+    },
+    {
+      "id": "15AD68",
+      "type": "field",
+      "english": "Old Robot",
+      "french": "Le vieux robot",
+      "bytes": 25
+    },
+    {
+      "id": "15ADC6",
+      "type": "field",
+      "english": "Omega Borg",
+      "french": "L'Omega Borg",
+      "bytes": 25
+    },
+    {
+      "id": "15AE24",
+      "type": "field",
+      "english": "Omega Saucer",
+      "french": "La soucoupe Omega",
+      "bytes": 25
+    },
+    {
+      "id": "15AE82",
+      "type": "field",
+      "english": "Papa Swoosh",
+      "french": "Papa Swoosh",
+      "bytes": 25
+    },
+    {
+      "id": "15AF3E",
+      "type": "field",
+      "english": "Polar Bear",
+      "french": "L'ours polaire",
+      "bytes": 25
+    },
+    {
+      "id": "15AF9C",
+      "type": "field",
+      "english": "R7037",
+      "french": "R7037",
+      "bytes": 25
+    },
+    {
+      "id": "15AFFA",
+      "type": "field",
+      "english": "R7038XX",
+      "french": "R7038XX",
+      "bytes": 25
+    },
+    {
+      "id": "15B058",
+      "type": "field",
+      "english": "Raeb Yddet",
+      "french": "L'ours inversé",
+      "bytes": 25
+    },
+    {
+      "id": "15B1D0",
+      "type": "field",
+      "english": "Noose Man",
+      "french": "Le pendu",
+      "bytes": 25
+    },
+    {
+      "id": "15B22E",
+      "type": "field",
+      "english": "Scorpion",
+      "french": "Le scorpion",
+      "bytes": 25
+    },
+    {
+      "id": "15B28C",
+      "type": "field",
+      "english": "Scrapper",
+      "french": "Le bagarreur",
+      "bytes": 25
+    },
+    {
+      "id": "15B2EA",
+      "type": "field",
+      "english": "Seagull",
+      "french": "La mouette",
+      "bytes": 25
+    },
+    {
+      "id": "15B348",
+      "type": "field",
+      "english": "Lone Wolf",
+      "french": "Le loup solitaire",
+      "bytes": 25
+    },
+    {
+      "id": "15B3A6",
+      "type": "field",
+      "english": "Stunk Skunk",
+      "french": "Le putois puant",
+      "bytes": 25
+    },
+    {
+      "id": "15B404",
+      "type": "field",
+      "english": "Sky Yddet",
+      "french": "L'ours du ciel",
+      "bytes": 25
+    },
+    {
+      "id": "15B4C0",
+      "type": "field",
+      "english": "Spider",
+      "french": "L'araignée",
+      "bytes": 25
+    },
+    {
+      "id": "15B51E",
+      "type": "field",
+      "english": "Star Miner",
+      "french": "Le mineur stellaire",
+      "bytes": 25
+    },
+    {
+      "id": "15B57C",
+      "type": "field",
+      "english": "Starman",
+      "french": "Le Starman",
+      "bytes": 25
+    },
+    {
+      "id": "15B638",
+      "type": "field",
+      "english": "Juana",
+      "french": "Juana",
+      "bytes": 25
+    },
+    {
+      "id": "15B696",
+      "type": "field",
+      "english": "Foureyes",
+      "french": "Le binoclard",
+      "bytes": 25
+    },
+    {
+      "id": "15B6F4",
+      "type": "field",
+      "english": "Momma Swoosh",
+      "french": "Maman Swoosh",
+      "bytes": 25
+    },
+    {
+      "id": "15B752",
+      "type": "field",
+      "english": "Swoosh",
+      "french": "Le Swoosh",
+      "bytes": 25
+    },
+    {
+      "id": "15B7B0",
+      "type": "field",
+      "english": "Tarantula",
+      "french": "La tarentule",
+      "bytes": 25
+    },
+    {
+      "id": "15B80E",
+      "type": "field",
+      "english": "Tiger",
+      "french": "Le tigre",
+      "bytes": 25
+    },
+    {
+      "id": "15B86C",
+      "type": "field",
+      "english": "Titanian",
+      "french": "Le Titanien",
+      "bytes": 25
+    },
+    {
+      "id": "15B928",
+      "type": "field",
+      "english": "Old Man Wally",
+      "french": "Le vieux Wally",
+      "bytes": 25
+    },
+    {
+      "id": "15B9E4",
+      "type": "field",
+      "english": "Ravenous Wolf",
+      "french": "Le loup affamé",
+      "bytes": 25
+    },
+    {
+      "id": "15BA42",
+      "type": "field",
+      "english": "Oak",
+      "french": "Le chêne",
+      "bytes": 25
+    },
+    {
+      "id": "15BAFE",
+      "type": "field",
+      "english": "R7038",
+      "french": "R7038",
+      "bytes": 25
+    },
+    {
+      "id": "15BB5C",
+      "type": "field",
+      "english": "Super Energy Robot",
+      "french": "Le super robot nucléaire",
+      "bytes": 25
+    },
+    {
+      "id": "15BBBA",
+      "type": "field",
+      "english": "Giygas",
+      "french": "Giygas",
+      "bytes": 25
+    },
+    {
+      "id": "15BC18",
+      "type": "field",
+      "english": "Rockoyle",
+      "french": "La gargouille de roche",
+      "bytes": 25
+    },
+    {
+      "id": "15BC76",
+      "type": "field",
+      "english": "Mook",
+      "french": "Le Mook",
+      "bytes": 25
+    },
+    {
+      "id": "15BD32",
+      "type": "field",
+      "english": "Titanian",
+      "french": "Le Titanien",
+      "bytes": 25
+    },
+    {
+      "id": "15BD90",
+      "type": "field",
+      "english": "Titanees",
+      "french": "Le Titanéen",
+      "bytes": 25
+    },
+    {
+      "id": "15BDEE",
+      "type": "field",
+      "english": "Primitive Octobot",
+      "french": "L'octorobot primitif",
+      "bytes": 25
+    },
+    {
+      "id": "15BE4C",
+      "type": "field",
+      "english": "Violent Roach",
+      "french": "Le cafard violent",
+      "bytes": 25
+    },
+    {
+      "id": "15BEAA",
+      "type": "field",
+      "english": "Putrid Moldyman",
+      "french": "L'homme moisi putride",
+      "bytes": 25
+    },
+    {
+      "id": "15BF08",
+      "type": "field",
+      "english": "Juana",
+      "french": "Juana",
+      "bytes": 25
+    },
+    {
+      "id": "15BF66",
+      "type": "field",
+      "english": "Dragon",
+      "french": "Le dragon",
+      "bytes": 25
+    },
+    {
+      "id": "15BFC4",
+      "type": "field",
+      "english": "Hyena",
+      "french": "La hyène",
+      "bytes": 25
+    },
+    {
+      "id": "15C022",
+      "type": "field",
+      "english": "Last Starman",
+      "french": "Le dernier Starman",
+      "bytes": 25
+    },
+    {
+      "id": "15C080",
+      "type": "field",
+      "english": "Blue Starman",
+      "french": "Le Starman bleu",
+      "bytes": 25
+    },
+    {
+      "id": "15C0DE",
+      "type": "field",
+      "english": "Oh-Mook",
+      "french": "L'Oh-Mook",
+      "bytes": 25
+    },
+    {
+      "id": "15C13C",
+      "type": "field",
+      "english": "Oh-Mook",
+      "french": "L'Oh-Mook",
+      "bytes": 25
+    },
+    {
+      "id": "15C19A",
+      "type": "field",
+      "english": "Ramblin' Evil Mushroom",
+      "french": "Le champignon maléfique",
+      "bytes": 25
+    },
+    {
+      "id": "15C1F8",
+      "type": "field",
+      "english": "Starman Junior",
+      "french": "Le Starman junior",
+      "bytes": 25
+    },
+    {
+      "id": "15C256",
+      "type": "field",
+      "english": "Cerebrum",
+      "french": "Le cerveau",
+      "bytes": 25
+    },
+    {
+      "id": "15C2B4",
+      "type": "field",
+      "english": "Cerebrum",
+      "french": "Le cerveau",
+      "bytes": 25
+    },
+    {
+      "id": "15C312",
+      "type": "field",
+      "english": "Cerebrum",
+      "french": "Le cerveau",
+      "bytes": 25
+    },
+    {
+      "id": "15C370",
+      "type": "field",
+      "english": "Starman",
+      "french": "Le Starman",
+      "bytes": 25
+    },
+    {
+      "id": "15C3CE",
+      "type": "field",
+      "english": "Groucho",
+      "french": "Groucho",
+      "bytes": 25
+    },
+    {
+      "id": "15C42C",
+      "type": "field",
+      "english": "Trottin' Evil Toadstool",
+      "french": "Le champignon trotteur",
+      "bytes": 25
+    },
+    {
+      "id": "15C48A",
+      "type": "field",
+      "english": "Nancy",
+      "french": "Nancy",
+      "bytes": 25
+    },
+    {
+      "id": "15C4E8",
+      "type": "field",
+      "english": "Ultra Barbot",
+      "french": "L'Ultra Barbot",
+      "bytes": 25
+    },
+    {
+      "id": "15C546",
+      "type": "field",
+      "english": "Maniac Car",
+      "french": "La voiture maniaque",
+      "bytes": 25
+    },
+    {
+      "id": "15C5A4",
+      "type": "field",
+      "english": "Starman",
+      "french": "Le Starman",
+      "bytes": 25
+    },
+    {
+      "id": "15C602",
+      "type": "field",
+      "english": "Starman",
+      "french": "Le Starman",
+      "bytes": 25
+    },
+    {
+      "id": "15C660",
+      "type": "field",
+      "english": "Beautiful UFO",
+      "french": "La belle soucoupe",
+      "bytes": 25
+    },
+    {
+      "id": "15C6BE",
+      "type": "field",
+      "english": "Pogo Punk",
+      "french": "Le punk sauteur",
+      "bytes": 25
+    },
+    {
+      "id": "15C71C",
+      "type": "field",
+      "english": "Tough Guy",
+      "french": "Le dur à cuire",
+      "bytes": 25
+    },
+    {
+      "id": "15C77A",
+      "type": "field",
+      "english": "Mad Taxi",
+      "french": "Le taxi fou",
+      "bytes": 25
+    },
+    {
+      "id": "15C7D8",
+      "type": "field",
+      "english": "Evil Mani-Mani",
+      "french": "Le Mani-Mani maléfique",
+      "bytes": 25
+    },
+    {
+      "id": "15C836",
+      "type": "field",
+      "english": "Mr. Molecule",
+      "french": "M. Molécule",
+      "bytes": 25
+    },
+    {
+      "id": "15C894",
+      "type": "field",
+      "english": "Worthless Protoplasm",
+      "french": "Le protoplasme inutile",
+      "bytes": 25
+    },
+    {
+      "id": "15C8F2",
+      "type": "field",
+      "english": "Sentry Robot",
+      "french": "Le robot sentinelle",
+      "bytes": 25
+    },
+    {
+      "id": "15C950",
+      "type": "field",
+      "english": "Heavily Armed Pokey",
+      "french": "Pokey surarmé",
+      "bytes": 25
+    },
+    {
+      "id": "15C9AE",
+      "type": "field",
+      "english": "Psychic Psycho",
+      "french": "Le dément psychique",
+      "bytes": 25
+    },
+    {
+      "id": "15CA0C",
+      "type": "field",
+      "english": "Major Psychic Psycho",
+      "french": "Le chef dément psychique",
+      "bytes": 25
+    },
+    {
+      "id": "15CA6A",
+      "type": "field",
+      "english": "Mole Playing Rough",
+      "french": "La taupe brutale",
+      "bytes": 25
+    },
+    {
+      "id": "15CAC8",
+      "type": "field",
+      "english": "Gruff Goat",
+      "french": "La chèvre hargneuse",
+      "bytes": 25
+    },
+    {
+      "id": "15CB26",
+      "type": "field",
+      "english": "Clumsy Robot",
+      "french": "Le robot maladroit",
+      "bytes": 25
+    },
+    {
+      "id": "15CB84",
+      "type": "field",
+      "english": "Soul Consuming Flame",
+      "french": "La flamme dévore-âme",
+      "bytes": 25
+    },
+    {
+      "id": "15CBE2",
+      "type": "field",
+      "english": "Demonic Petunia",
+      "french": "Le pétunia démoniaque",
+      "bytes": 25
+    },
+    {
+      "id": "15CC40",
+      "type": "field",
+      "english": "Ranboob",
+      "french": "Ranboob",
+      "bytes": 25
+    },
+    {
+      "id": "15CC9E",
+      "type": "field",
+      "english": "Li'l UFO",
+      "french": "La mini-soucoupe",
+      "bytes": 25
+    },
+    {
+      "id": "15CCFC",
+      "type": "field",
+      "english": "High-class UFO",
+      "french": "La soucoupe de luxe",
+      "bytes": 25
+    },
+    {
+      "id": "15CD5A",
+      "type": "field",
+      "english": "Noose Man",
+      "french": "Le pendu",
+      "bytes": 25
+    },
+    {
+      "id": "15CDB8",
+      "type": "field",
+      "english": "Robo-pump",
+      "french": "La robopompe",
+      "bytes": 25
+    },
+    {
+      "id": "15CE16",
+      "type": "field",
+      "english": "Plain Crocodile",
+      "french": "Le crocodile ordinaire",
+      "bytes": 25
+    },
+    {
+      "id": "15CE74",
+      "type": "field",
+      "english": "Strong Crocodile",
+      "french": "Le crocodile puissant",
+      "bytes": 25
+    },
+    {
+      "id": "15CED2",
+      "type": "field",
+      "english": "Hard Crocodile",
+      "french": "Le crocodile coriace",
+      "bytes": 25
+    },
+    {
+      "id": "15CF30",
+      "type": "field",
+      "english": "Omega Borg",
+      "french": "L'Omega Borg",
+      "bytes": 25
+    },
+    {
+      "id": "15CF8E",
+      "type": "field",
+      "english": "Handsome Tom",
+      "french": "Tom le beau",
+      "bytes": 25
+    },
+    {
+      "id": "15D04A",
+      "type": "field",
+      "english": "my pet",
+      "french": "Mon familier",
+      "bytes": 25
+    },
+    {
+      "id": "15D0A8",
+      "type": "field",
+      "english": "Pippi",
+      "french": "Pippi",
+      "bytes": 25
+    },
+    {
+      "id": "15D106",
+      "type": "field",
+      "english": "EVE",
+      "french": "EVE",
+      "bytes": 25
+    },
+    {
+      "id": "15D164",
+      "type": "field",
+      "english": "oops",
+      "french": "Oups",
+      "bytes": 25
+    },
+    {
+      "id": "15D1C2",
+      "type": "field",
+      "english": "Bubble Monkey",
+      "french": "Le singe à bulles",
+      "bytes": 25
+    },
+    {
+      "id": "15D220",
+      "type": "field",
+      "english": "EVE",
+      "french": "EVE",
+      "bytes": 25
+    },
+    {
+      "id": "15D27E",
+      "type": "field",
+      "english": "Flying Man",
+      "french": "L'homme volant",
+      "bytes": 25
+    },
+    {
+      "id": "15D2DC",
+      "type": "field",
+      "english": "Teddy Bear",
+      "french": "L'ours en peluche",
+      "bytes": 25
+    },
+    {
+      "id": "15D33A",
+      "type": "field",
+      "english": "Super Plush Bear",
+      "french": "Le super ours en peluche",
+      "bytes": 25
+    },
+    {
+      "id": "15D398",
+      "type": "field",
+      "english": "Master Belch",
+      "french": "Maître Rot",
+      "bytes": 25
+    },
+    {
+      "id": "15D3F6",
+      "type": "field",
+      "english": "Brazen Girl",
+      "french": "La fille effrontée",
+      "bytes": 25
+    },
+    {
+      "id": "15D454",
+      "type": "field",
+      "english": "Dept. Store Spook",
+      "french": "Le spectre du magasin",
+      "bytes": 25
+    },
+    {
+      "id": "15D4B2",
+      "type": "field",
+      "english": "[AC]'s Nightmare",
+      "french": "Le cauchemar de [AC]",
+      "bytes": 25
+    },
+    {
+      "id": "15D510",
+      "type": "field",
+      "english": "Mr. Carpainter",
+      "french": "M. Carpainter",
+      "bytes": 25
+    },
+    {
+      "id": "15D56E",
+      "type": "field",
+      "english": "Carbon Dog",
+      "french": "Le chien de carbone",
+      "bytes": 25
+    },
+    {
+      "id": "15D5CC",
+      "type": "field",
+      "english": "Chomposaur",
+      "french": "Le mordosaure",
+      "bytes": 25
+    },
+    {
+      "id": "15D62A",
+      "type": "field",
+      "english": "Titanic Ant",
+      "french": "La fourmi titanesque",
+      "bytes": 25
+    },
+    {
+      "id": "15D688",
+      "type": "field",
+      "english": "Gigantic Ant",
+      "french": "La fourmi géante",
+      "bytes": 25
+    },
+    {
+      "id": "15D6E6",
+      "type": "field",
+      "english": "Shrooom!",
+      "french": "Champiii !",
+      "bytes": 25
+    },
+    {
+      "id": "15D744",
+      "type": "field",
+      "english": "Plague Rat of Doom",
+      "french": "Le rat de peste maudit",
+      "bytes": 25
+    },
+    {
+      "id": "15D7A2",
+      "type": "field",
+      "english": "Mondo Mole",
+      "french": "La taupe géante",
+      "bytes": 25
+    },
+    {
+      "id": "15D800",
+      "type": "field",
+      "english": "Guardian Digger",
+      "french": "La taupe gardienne",
+      "bytes": 25
+    },
+    {
+      "id": "15D85E",
+      "type": "field",
+      "english": "Kraken",
+      "french": "Le kraken",
+      "bytes": 25
+    },
+    {
+      "id": "15D8BC",
+      "type": "field",
+      "english": "Bionic Kraken",
+      "french": "Le kraken bionique",
+      "bytes": 25
+    },
+    {
+      "id": "15D91A",
+      "type": "field",
+      "english": "Shattered Man",
+      "french": "L'homme brisé",
+      "bytes": 25
+    },
+    {
+      "id": "15D978",
+      "type": "field",
+      "english": "Starman Super",
+      "french": "Le super Starman",
+      "bytes": 25
+    },
+    {
+      "id": "15D9D6",
+      "type": "field",
+      "english": "Ghost of Starman",
+      "french": "Le fantôme de Starman",
+      "bytes": 25
+    },
+    {
+      "id": "15DA34",
+      "type": "field",
+      "english": "Starman Deluxe",
+      "french": "Le Starman de luxe",
+      "bytes": 25
+    },
+    {
+      "id": "15DA92",
+      "type": "field",
+      "english": "Electro Specter",
+      "french": "Le spectre électrique",
+      "bytes": 25
+    },
+    {
+      "id": "15DAF0",
+      "type": "field",
+      "english": "Urban Zombie",
+      "french": "Le zombie urbain",
+      "bytes": 25
+    },
+    {
+      "id": "15DB4E",
+      "type": "field",
+      "english": "Diamond Dog",
+      "french": "Le chien de diamant",
+      "bytes": 25
+    },
+    {
+      "id": "15DBAC",
+      "type": "field",
+      "english": "Debug",
+      "french": "Débogage",
+      "bytes": 25
+    },
+    {
+      "id": "15DC0A",
+      "type": "field",
+      "english": "Master Belch",
+      "french": "Maître Rot",
+      "bytes": 25
+    },
+    {
+      "id": "15DC68",
+      "type": "field",
+      "english": "Big Pile of Puke",
+      "french": "Le tas de vomi",
+      "bytes": 25
+    },
+    {
+      "id": "15DCC6",
+      "type": "field",
+      "english": "Master Barf",
+      "french": "Maître Vomi",
+      "bytes": 25
+    },
+    {
+      "id": "15DD24",
+      "type": "field",
+      "english": "Loaded Dice",
+      "french": "Les dés truqués",
+      "bytes": 25
+    },
+    {
+      "id": "15DD82",
+      "type": "field",
+      "english": "Tangoo",
+      "french": "Tangoo",
+      "bytes": 25
+    },
+    {
+      "id": "15DDE0",
+      "type": "field",
+      "english": "Boogey Tent",
+      "french": "La tente hantée",
+      "bytes": 25
+    },
+    {
+      "id": "15DE3E",
+      "type": "field",
+      "english": "Wooly Shambler",
+      "french": "Le rôdeur velu",
+      "bytes": 25
+    },
+    {
+      "id": "15DE9C",
+      "type": "field",
+      "english": "Everdred",
+      "french": "Everdred",
+      "bytes": 25
+    },
+    {
+      "id": "15DEFA",
+      "type": "field",
+      "english": "Electro Specter",
+      "french": "Le spectre électrique",
+      "bytes": 25
+    },
+    {
+      "id": "15DF58",
+      "type": "field",
+      "english": "Thunder and Storm",
+      "french": "Tonnerre et Tempête",
+      "bytes": 25
+    },
+    {
+      "id": "15DFB6",
+      "type": "field",
+      "english": "Frankystein Mark II",
+      "french": "Frankystein II",
+      "bytes": 25
+    },
+    {
+      "id": "15E014",
+      "type": "field",
+      "english": "Evil Mani-Mani",
+      "french": "Le Mani-Mani maléfique",
+      "bytes": 25
+    },
+    {
+      "id": "15E072",
+      "type": "field",
+      "english": "Giygas",
+      "french": "Giygas",
+      "bytes": 25
+    },
+    {
+      "id": "15E0D0",
+      "type": "field",
+      "english": "Clumsy Robot",
+      "french": "Le robot maladroit",
+      "bytes": 25
+    },
+    {
+      "id": "15E12E",
+      "type": "field",
+      "english": "Robo-pump",
+      "french": "La robopompe",
+      "bytes": 25
+    },
+    {
+      "id": "15E18C",
+      "type": "field",
+      "english": "Foppy",
+      "french": "Le Foppy",
+      "bytes": 25
+    },
+    {
+      "id": "15E1EA",
+      "type": "field",
+      "english": "Smilin' Sam",
+      "french": "Sam le souriant",
+      "bytes": 25
+    },
+    {
+      "id": "15E248",
+      "type": "field",
+      "english": "Manly Fish",
+      "french": "Le poisson viril",
+      "bytes": 25
+    },
+    {
+      "id": "15E2A6",
+      "type": "field",
+      "english": "Manly Fish's Brother",
+      "french": "Le frère du poisson",
+      "bytes": 25
+    },
+    {
+      "id": "15E304",
+      "type": "field",
+      "english": "Runaway Dog",
+      "french": "Le chien fugueur",
+      "bytes": 25
+    },
+    {
+      "id": "15E362",
+      "type": "field",
+      "english": "Cave Boy",
+      "french": "L'homme des cavernes",
+      "bytes": 25
+    },
+    {
+      "id": "15E3C0",
+      "type": "field",
+      "english": "Tiny Li'l Ghost",
+      "french": "Le petit fantôme",
+      "bytes": 25
+    },
+    {
+      "id": "15E41E",
+      "type": "field",
+      "english": "Runaway Dog",
+      "french": "Le chien fugueur",
+      "bytes": 25
+    },
+    {
+      "id": "15E47C",
+      "type": "field",
+      "english": "Buzz Buzz",
+      "french": "Buzz Buzz",
+      "bytes": 25
+    },
+    {
+      "id": "15E4DA",
+      "type": "field",
+      "english": "Heavily Armed Pokey",
+      "french": "Pokey surarmé",
+      "bytes": 25
+    },
+    {
+      "id": "15E538",
+      "type": "field",
+      "english": "Heavily Armed Pokey",
+      "french": "Pokey surarmé",
+      "bytes": 25
+    },
+    {
+      "id": "15E596",
+      "type": "field",
+      "english": "Giygas",
+      "french": "Giygas",
+      "bytes": 25
+    },
+    {
+      "id": "15E5F4",
+      "type": "field",
+      "english": "Giygas",
+      "french": "Giygas",
+      "bytes": 25
+    },
+    {
+      "id": "15E652",
+      "type": "field",
+      "english": "Giygas",
+      "french": "Giygas",
+      "bytes": 25
+    },
+    {
+      "id": "15E6B0",
+      "type": "field",
+      "english": "Giygas",
+      "french": "Giygas",
+      "bytes": 25
+    },
+    {
+      "id": "15E70E",
+      "type": "field",
+      "english": "Farm Zombie",
+      "french": "Le zombie fermier",
+      "bytes": 25
+    },
+    {
+      "id": "15E76C",
+      "type": "field",
+      "english": "Criminal Caterpillar",
+      "french": "La chenille criminelle",
+      "bytes": 25
+    },
+    {
+      "id": "15E7CA",
+      "type": "field",
+      "english": "Cerebrum",
+      "french": "Le cerveau",
+      "bytes": 25
+    },
+    {
+      "id": "15E828",
+      "type": "field",
+      "english": "Magic Butterfly",
+      "french": "Le papillon magique",
+      "bytes": 25
+    },
+    {
+      "id": "15E886",
+      "type": "field",
+      "english": "Mini Barf",
+      "french": "Le mini-vomi",
+      "bytes": 25
+    },
+    {
+      "id": "15E8E4",
+      "type": "field",
+      "english": "Master Criminal Worm",
+      "french": "Le ver criminel en chef",
+      "bytes": 25
+    },
+    {
+      "id": "15E942",
+      "type": "field",
+      "english": "Captain Strong",
+      "french": "Le capitaine Strong",
+      "bytes": 25
+    },
+    {
+      "id": "15E9A0",
+      "type": "field",
+      "english": "Giygas",
+      "french": "Giygas",
+      "bytes": 25
+    },
+    {
+      "id": "15E9FE",
+      "type": "field",
+      "english": "Clumsy Robot",
+      "french": "Le robot maladroit",
+      "bytes": 25
+    },
+    {
+      "id": "15F4CF",
+      "type": "field",
+      "english": "Ninten",
+      "french": "Ninten",
+      "bytes": 6
+    },
+    {
+      "id": "15F4F9",
+      "type": "field",
+      "english": "Ana",
+      "french": "Ana",
+      "bytes": 4
+    },
+    {
+      "id": "15F523",
+      "type": "field",
+      "english": "Lloyd",
+      "french": "Lloyd",
+      "bytes": 6
+    },
+    {
+      "id": "15F54D",
+      "type": "field",
+      "english": "Teddy",
+      "french": "Teddy",
+      "bytes": 6
+    },
+    {
+      "id": "15F577",
+      "type": "field",
+      "english": "Mick",
+      "french": "Mick",
+      "bytes": 5
+    },
+    {
+      "id": "15F5A1",
+      "type": "field",
+      "english": "Ribs",
+      "french": "Côtes",
+      "bytes": 6
+    },
+    {
+      "id": "15F4D5",
+      "type": "field",
+      "english": "Ken",
+      "french": "Ken",
+      "bytes": 4
+    },
+    {
+      "id": "15F4FF",
+      "type": "field",
+      "english": "Grace",
+      "french": "Grace",
+      "bytes": 6
+    },
+    {
+      "id": "15F529",
+      "type": "field",
+      "english": "James",
+      "french": "James",
+      "bytes": 6
+    },
+    {
+      "id": "15F553",
+      "type": "field",
+      "english": "Rick",
+      "french": "Rick",
+      "bytes": 5
+    },
+    {
+      "id": "15F57D",
+      "type": "field",
+      "english": "Ringo",
+      "french": "Ringo",
+      "bytes": 6
+    },
+    {
+      "id": "15F5A7",
+      "type": "field",
+      "english": "Pizza",
+      "french": "Pizza",
+      "bytes": 6
+    },
+    {
+      "id": "15F5D1",
+      "type": "field",
+      "english": "Tree",
+      "french": "Orme",
+      "bytes": 5
+    },
+    {
+      "id": "15F4DB",
+      "type": "field",
+      "english": "Zack",
+      "french": "Zack",
+      "bytes": 5
+    },
+    {
+      "id": "15F505",
+      "type": "field",
+      "english": "Emily",
+      "french": "Emily",
+      "bytes": 6
+    },
+    {
+      "id": "15F52F",
+      "type": "field",
+      "english": "Mason",
+      "french": "Mason",
+      "bytes": 6
+    },
+    {
+      "id": "15F559",
+      "type": "field",
+      "english": "Pablo",
+      "french": "Pablo",
+      "bytes": 6
+    },
+    {
+      "id": "15F583",
+      "type": "field",
+      "english": "Tassy",
+      "french": "Tassy",
+      "bytes": 6
+    },
+    {
+      "id": "15F5AD",
+      "type": "field",
+      "english": "Joes",
+      "french": "Joe",
+      "bytes": 5
+    },
+    {
+      "id": "15F5D7",
+      "type": "field",
+      "english": "Chair",
+      "french": "Siège",
+      "bytes": 6
+    },
+    {
+      "id": "15F4E1",
+      "type": "field",
+      "english": "Pete",
+      "french": "Pete",
+      "bytes": 5
+    },
+    {
+      "id": "15F50B",
+      "type": "field",
+      "english": "Kim",
+      "french": "Kim",
+      "bytes": 4
+    },
+    {
+      "id": "15F535",
+      "type": "field",
+      "english": "Kyle",
+      "french": "Kyle",
+      "bytes": 5
+    },
+    {
+      "id": "15F55F",
+      "type": "field",
+      "english": "Wyatt",
+      "french": "Wyatt",
+      "bytes": 6
+    },
+    {
+      "id": "15F589",
+      "type": "field",
+      "english": "Purple",
+      "french": "Prune",
+      "bytes": 6
+    },
+    {
+      "id": "15F5B3",
+      "type": "field",
+      "english": "Soup",
+      "french": "Soupe",
+      "bytes": 6
+    },
+    {
+      "id": "15F5DD",
+      "type": "field",
+      "english": "Ruby",
+      "french": "Rubis",
+      "bytes": 6
+    },
+    {
+      "id": "15F4E7",
+      "type": "field",
+      "english": "Clyde",
+      "french": "Clyde",
+      "bytes": 6
+    },
+    {
+      "id": "15F511",
+      "type": "field",
+      "english": "Megan",
+      "french": "Megan",
+      "bytes": 6
+    },
+    {
+      "id": "15F53B",
+      "type": "field",
+      "english": "Gavin",
+      "french": "Gavin",
+      "bytes": 6
+    },
+    {
+      "id": "15F565",
+      "type": "field",
+      "english": "Mateo",
+      "french": "Mateo",
+      "bytes": 6
+    },
+    {
+      "id": "15F58F",
+      "type": "field",
+      "english": "Bitey",
+      "french": "Crocs",
+      "bytes": 6
+    },
+    {
+      "id": "15F5B9",
+      "type": "field",
+      "english": "Pasta",
+      "french": "Pâtes",
+      "bytes": 6
+    },
+    {
+      "id": "15F5E3",
+      "type": "field",
+      "english": "Stuff",
+      "french": "Truc",
+      "bytes": 6
+    },
+    {
+      "id": "15F4ED",
+      "type": "field",
+      "english": "Mitch",
+      "french": "Mitch",
+      "bytes": 6
+    },
+    {
+      "id": "15F517",
+      "type": "field",
+      "english": "Chloe",
+      "french": "Chloe",
+      "bytes": 6
+    },
+    {
+      "id": "15F541",
+      "type": "field",
+      "english": "Chase",
+      "french": "Chase",
+      "bytes": 6
+    },
+    {
+      "id": "15F56B",
+      "type": "field",
+      "english": "Billy",
+      "french": "Billy",
+      "bytes": 6
+    },
+    {
+      "id": "15F595",
+      "type": "field",
+      "english": "Rex",
+      "french": "Rex",
+      "bytes": 4
+    },
+    {
+      "id": "15F5BF",
+      "type": "field",
+      "english": "Nachos",
+      "french": "Nachos",
+      "bytes": 6
+    },
+    {
+      "id": "15F5E9",
+      "type": "field",
+      "english": "Clay",
+      "french": "Sol",
+      "bytes": 5
+    },
+    {
+      "id": "15F4F3",
+      "type": "field",
+      "english": "Lucky",
+      "french": "Lucky",
+      "bytes": 6
+    },
+    {
+      "id": "15F51D",
+      "type": "field",
+      "english": "Sarah",
+      "french": "Sarah",
+      "bytes": 6
+    },
+    {
+      "id": "15F547",
+      "type": "field",
+      "english": "Dylan",
+      "french": "Dylan",
+      "bytes": 6
+    },
+    {
+      "id": "15F571",
+      "type": "field",
+      "english": "Kevin",
+      "french": "Kevin",
+      "bytes": 6
+    },
+    {
+      "id": "15F59B",
+      "type": "field",
+      "english": "Spot",
+      "french": "Spot",
+      "bytes": 5
+    },
+    {
+      "id": "15F5C5",
+      "type": "field",
+      "english": "Cheese",
+      "french": "Brie",
+      "bytes": 7
+    },
+    {
+      "id": "15F5EF",
+      "type": "field",
+      "english": "Glass",
+      "french": "Verre",
+      "bytes": 6
+    },
+    {
+      "id": "0F763D",
+      "type": "field",
+      "english": "PSI(????)",
+      "french": "PSI(????)",
+      "bytes": 10
+    },
+    {
+      "id": "2FA66C",
+      "type": "dialogue",
+      "old_bytes": 59,
+      "new_bytes": 49,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "2FA6A7",
+      "type": "dialogue",
+      "old_bytes": 44,
+      "new_bytes": 36,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "339A92",
+      "type": "dialogue",
+      "old_bytes": 28,
+      "new_bytes": 18,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "339AAE",
+      "type": "dialogue",
+      "old_bytes": 29,
+      "new_bytes": 22,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "339ACB",
+      "type": "dialogue",
+      "old_bytes": 18,
+      "new_bytes": 17,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "339C02",
+      "type": "dialogue",
+      "old_bytes": 60,
+      "new_bytes": 43,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "339CDD",
+      "type": "dialogue",
+      "old_bytes": 193,
+      "new_bytes": 189,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "339D9E",
+      "type": "dialogue",
+      "old_bytes": 89,
+      "new_bytes": 80,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "339DF7",
+      "type": "dialogue",
+      "old_bytes": 111,
+      "new_bytes": 91,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "339EE7",
+      "type": "dialogue",
+      "old_bytes": 41,
+      "new_bytes": 41,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "339F10",
+      "type": "dialogue",
+      "old_bytes": 57,
+      "new_bytes": 51,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A03A",
+      "type": "dialogue",
+      "old_bytes": 230,
+      "new_bytes": 203,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A184",
+      "type": "dialogue",
+      "old_bytes": 156,
+      "new_bytes": 154,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A220",
+      "type": "dialogue",
+      "old_bytes": 154,
+      "new_bytes": 136,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A2BA",
+      "type": "dialogue",
+      "old_bytes": 134,
+      "new_bytes": 114,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A340",
+      "type": "dialogue",
+      "old_bytes": 68,
+      "new_bytes": 63,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A384",
+      "type": "dialogue",
+      "old_bytes": 196,
+      "new_bytes": 145,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A448",
+      "type": "dialogue",
+      "old_bytes": 79,
+      "new_bytes": 73,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A497",
+      "type": "dialogue",
+      "old_bytes": 224,
+      "new_bytes": 174,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A577",
+      "type": "dialogue",
+      "old_bytes": 321,
+      "new_bytes": 271,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A6B8",
+      "type": "dialogue",
+      "old_bytes": 262,
+      "new_bytes": 244,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A7BE",
+      "type": "dialogue",
+      "old_bytes": 386,
+      "new_bytes": 386,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "33A940",
+      "type": "dialogue",
+      "old_bytes": 46,
+      "new_bytes": 35,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33A96E",
+      "type": "dialogue",
+      "old_bytes": 300,
+      "new_bytes": 274,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33AA9A",
+      "type": "dialogue",
+      "old_bytes": 350,
+      "new_bytes": 268,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33ABF8",
+      "type": "dialogue",
+      "old_bytes": 376,
+      "new_bytes": 284,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33AD70",
+      "type": "dialogue",
+      "old_bytes": 124,
+      "new_bytes": 123,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33ADEC",
+      "type": "dialogue",
+      "old_bytes": 32,
+      "new_bytes": 32,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "33AE0C",
+      "type": "dialogue",
+      "old_bytes": 32,
+      "new_bytes": 24,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33AE2C",
+      "type": "dialogue",
+      "old_bytes": 128,
+      "new_bytes": 128,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "33AEAC",
+      "type": "dialogue",
+      "old_bytes": 132,
+      "new_bytes": 119,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33AF88",
+      "type": "dialogue",
+      "old_bytes": 74,
+      "new_bytes": 69,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33AFD2",
+      "type": "dialogue",
+      "old_bytes": 100,
+      "new_bytes": 100,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "33B036",
+      "type": "dialogue",
+      "old_bytes": 82,
+      "new_bytes": 76,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B088",
+      "type": "dialogue",
+      "old_bytes": 78,
+      "new_bytes": 73,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B0D6",
+      "type": "dialogue",
+      "old_bytes": 68,
+      "new_bytes": 68,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B11A",
+      "type": "dialogue",
+      "old_bytes": 126,
+      "new_bytes": 116,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B198",
+      "type": "dialogue",
+      "old_bytes": 165,
+      "new_bytes": 165,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "33B23D",
+      "type": "dialogue",
+      "old_bytes": 133,
+      "new_bytes": 127,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B2C2",
+      "type": "dialogue",
+      "old_bytes": 83,
+      "new_bytes": 79,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B315",
+      "type": "dialogue",
+      "old_bytes": 33,
+      "new_bytes": 33,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B336",
+      "type": "dialogue",
+      "old_bytes": 127,
+      "new_bytes": 116,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B5CD",
+      "type": "dialogue",
+      "old_bytes": 178,
+      "new_bytes": 178,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "33B67F",
+      "type": "dialogue",
+      "old_bytes": 150,
+      "new_bytes": 148,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B715",
+      "type": "dialogue",
+      "old_bytes": 85,
+      "new_bytes": 76,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B76A",
+      "type": "dialogue",
+      "old_bytes": 15,
+      "new_bytes": 14,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B779",
+      "type": "dialogue",
+      "old_bytes": 13,
+      "new_bytes": 9,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33B786",
+      "type": "dialogue",
+      "old_bytes": 13,
+      "new_bytes": 9,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33BE79",
+      "type": "dialogue",
+      "old_bytes": 41,
+      "new_bytes": 36,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33C256",
+      "type": "dialogue",
+      "old_bytes": 67,
+      "new_bytes": 56,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33C299",
+      "type": "dialogue",
+      "old_bytes": 65,
+      "new_bytes": 65,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33C2DA",
+      "type": "dialogue",
+      "old_bytes": 77,
+      "new_bytes": 76,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33C327",
+      "type": "dialogue",
+      "old_bytes": 62,
+      "new_bytes": 57,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33C365",
+      "type": "dialogue",
+      "old_bytes": 121,
+      "new_bytes": 106,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33C3DE",
+      "type": "dialogue",
+      "old_bytes": 101,
+      "new_bytes": 89,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33C443",
+      "type": "dialogue",
+      "old_bytes": 93,
+      "new_bytes": 78,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33C6E8",
+      "type": "dialogue",
+      "old_bytes": 20,
+      "new_bytes": 20,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33CBDD",
+      "type": "dialogue",
+      "old_bytes": 139,
+      "new_bytes": 136,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33D284",
+      "type": "dialogue",
+      "old_bytes": 40,
+      "new_bytes": 38,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "33ED82",
+      "type": "dialogue",
+      "old_bytes": 27,
+      "new_bytes": 27,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "347960",
+      "type": "dialogue",
+      "old_bytes": 34,
+      "new_bytes": 34,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "356F27",
+      "type": "dialogue",
+      "old_bytes": 53,
+      "new_bytes": 48,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "357AA0",
+      "type": "dialogue",
+      "old_bytes": 144,
+      "new_bytes": 106,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "35A9C3",
+      "type": "dialogue",
+      "old_bytes": 174,
+      "new_bytes": 174,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "35ACB6",
+      "type": "dialogue",
+      "old_bytes": 215,
+      "new_bytes": 178,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "35ADF8",
+      "type": "dialogue",
+      "old_bytes": 148,
+      "new_bytes": 140,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "35AE8C",
+      "type": "dialogue",
+      "old_bytes": 200,
+      "new_bytes": 159,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "35AF54",
+      "type": "dialogue",
+      "old_bytes": 125,
+      "new_bytes": 98,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "35C53A",
+      "type": "dialogue",
+      "old_bytes": 66,
+      "new_bytes": 66,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "35C583",
+      "type": "dialogue",
+      "old_bytes": 20,
+      "new_bytes": 19,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "35C597",
+      "type": "dialogue",
+      "old_bytes": 65,
+      "new_bytes": 65,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "35C5D9",
+      "type": "dialogue",
+      "old_bytes": 291,
+      "new_bytes": 291,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "35C768",
+      "type": "dialogue",
+      "old_bytes": 96,
+      "new_bytes": 96,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "35C7C8",
+      "type": "dialogue",
+      "old_bytes": 289,
+      "new_bytes": 289,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "35C8E9",
+      "type": "dialogue",
+      "old_bytes": 119,
+      "new_bytes": 119,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "35C960",
+      "type": "dialogue",
+      "old_bytes": 28,
+      "new_bytes": 20,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36049C",
+      "type": "dialogue",
+      "old_bytes": 19,
+      "new_bytes": 19,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3604AF",
+      "type": "dialogue",
+      "old_bytes": 213,
+      "new_bytes": 213,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "360584",
+      "type": "dialogue",
+      "old_bytes": 132,
+      "new_bytes": 132,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "360608",
+      "type": "dialogue",
+      "old_bytes": 80,
+      "new_bytes": 65,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "360672",
+      "type": "dialogue",
+      "old_bytes": 235,
+      "new_bytes": 235,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36075D",
+      "type": "dialogue",
+      "old_bytes": 50,
+      "new_bytes": 50,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36078F",
+      "type": "dialogue",
+      "old_bytes": 156,
+      "new_bytes": 156,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36082B",
+      "type": "dialogue",
+      "old_bytes": 70,
+      "new_bytes": 60,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "360871",
+      "type": "dialogue",
+      "old_bytes": 118,
+      "new_bytes": 118,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36090E",
+      "type": "dialogue",
+      "old_bytes": 56,
+      "new_bytes": 56,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "360946",
+      "type": "dialogue",
+      "old_bytes": 107,
+      "new_bytes": 107,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "360AD5",
+      "type": "dialogue",
+      "old_bytes": 200,
+      "new_bytes": 200,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "360C10",
+      "type": "dialogue",
+      "old_bytes": 177,
+      "new_bytes": 165,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "360F7D",
+      "type": "dialogue",
+      "old_bytes": 58,
+      "new_bytes": 58,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "360FB7",
+      "type": "dialogue",
+      "old_bytes": 32,
+      "new_bytes": 32,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "361070",
+      "type": "dialogue",
+      "old_bytes": 239,
+      "new_bytes": 239,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36115F",
+      "type": "dialogue",
+      "old_bytes": 184,
+      "new_bytes": 184,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "361217",
+      "type": "dialogue",
+      "old_bytes": 60,
+      "new_bytes": 47,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3612C8",
+      "type": "dialogue",
+      "old_bytes": 95,
+      "new_bytes": 95,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36137B",
+      "type": "dialogue",
+      "old_bytes": 101,
+      "new_bytes": 101,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3613E0",
+      "type": "dialogue",
+      "old_bytes": 174,
+      "new_bytes": 174,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36148E",
+      "type": "dialogue",
+      "old_bytes": 21,
+      "new_bytes": 21,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "361560",
+      "type": "dialogue",
+      "old_bytes": 70,
+      "new_bytes": 70,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3615A6",
+      "type": "dialogue",
+      "old_bytes": 37,
+      "new_bytes": 33,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3615CB",
+      "type": "dialogue",
+      "old_bytes": 21,
+      "new_bytes": 21,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3615E0",
+      "type": "dialogue",
+      "old_bytes": 126,
+      "new_bytes": 93,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3616AF",
+      "type": "dialogue",
+      "old_bytes": 10,
+      "new_bytes": 10,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3616B9",
+      "type": "dialogue",
+      "old_bytes": 58,
+      "new_bytes": 57,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3616F8",
+      "type": "dialogue",
+      "old_bytes": 61,
+      "new_bytes": 61,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "361735",
+      "type": "dialogue",
+      "old_bytes": 118,
+      "new_bytes": 97,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3617AB",
+      "type": "dialogue",
+      "old_bytes": 136,
+      "new_bytes": 125,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "361833",
+      "type": "dialogue",
+      "old_bytes": 102,
+      "new_bytes": 102,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36189E",
+      "type": "dialogue",
+      "old_bytes": 16,
+      "new_bytes": 13,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3618AE",
+      "type": "dialogue",
+      "old_bytes": 66,
+      "new_bytes": 60,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "361983",
+      "type": "dialogue",
+      "old_bytes": 45,
+      "new_bytes": 39,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3619B0",
+      "type": "dialogue",
+      "old_bytes": 50,
+      "new_bytes": 50,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3619E9",
+      "type": "dialogue",
+      "old_bytes": 29,
+      "new_bytes": 29,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "361A06",
+      "type": "dialogue",
+      "old_bytes": 62,
+      "new_bytes": 62,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "361AD4",
+      "type": "dialogue",
+      "old_bytes": 39,
+      "new_bytes": 35,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "361B55",
+      "type": "dialogue",
+      "old_bytes": 15,
+      "new_bytes": 14,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "361B64",
+      "type": "dialogue",
+      "old_bytes": 154,
+      "new_bytes": 137,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "361BFE",
+      "type": "dialogue",
+      "old_bytes": 34,
+      "new_bytes": 32,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "361C20",
+      "type": "dialogue",
+      "old_bytes": 48,
+      "new_bytes": 41,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "361C50",
+      "type": "dialogue",
+      "old_bytes": 77,
+      "new_bytes": 77,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3675EA",
+      "type": "dialogue",
+      "old_bytes": 48,
+      "new_bytes": 43,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36761A",
+      "type": "dialogue",
+      "old_bytes": 66,
+      "new_bytes": 66,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36765C",
+      "type": "dialogue",
+      "old_bytes": 56,
+      "new_bytes": 55,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3678E0",
+      "type": "dialogue",
+      "old_bytes": 39,
+      "new_bytes": 31,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "367907",
+      "type": "dialogue",
+      "old_bytes": 35,
+      "new_bytes": 31,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "367A28",
+      "type": "dialogue",
+      "old_bytes": 21,
+      "new_bytes": 13,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "367A3D",
+      "type": "dialogue",
+      "old_bytes": 30,
+      "new_bytes": 21,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "367AD2",
+      "type": "dialogue",
+      "old_bytes": 28,
+      "new_bytes": 19,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "367B9A",
+      "type": "dialogue",
+      "old_bytes": 37,
+      "new_bytes": 35,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "367D77",
+      "type": "dialogue",
+      "old_bytes": 25,
+      "new_bytes": 23,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36A934",
+      "type": "dialogue",
+      "old_bytes": 58,
+      "new_bytes": 58,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36A96E",
+      "type": "dialogue",
+      "old_bytes": 107,
+      "new_bytes": 107,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36A9DB",
+      "type": "dialogue",
+      "old_bytes": 17,
+      "new_bytes": 14,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36A9EC",
+      "type": "dialogue",
+      "old_bytes": 71,
+      "new_bytes": 71,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36AA33",
+      "type": "dialogue",
+      "old_bytes": 186,
+      "new_bytes": 186,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36AAED",
+      "type": "dialogue",
+      "old_bytes": 62,
+      "new_bytes": 62,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36AB32",
+      "type": "dialogue",
+      "old_bytes": 43,
+      "new_bytes": 43,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36ABB9",
+      "type": "dialogue",
+      "old_bytes": 67,
+      "new_bytes": 51,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36ABFC",
+      "type": "dialogue",
+      "old_bytes": 167,
+      "new_bytes": 162,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36ACA3",
+      "type": "dialogue",
+      "old_bytes": 47,
+      "new_bytes": 37,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36ACF9",
+      "type": "dialogue",
+      "old_bytes": 131,
+      "new_bytes": 131,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36ADB4",
+      "type": "dialogue",
+      "old_bytes": 34,
+      "new_bytes": 34,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36ADF1",
+      "type": "dialogue",
+      "old_bytes": 335,
+      "new_bytes": 297,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36AF40",
+      "type": "dialogue",
+      "old_bytes": 773,
+      "new_bytes": 773,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36B28A",
+      "type": "dialogue",
+      "old_bytes": 72,
+      "new_bytes": 63,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B2D2",
+      "type": "dialogue",
+      "old_bytes": 81,
+      "new_bytes": 80,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B323",
+      "type": "dialogue",
+      "old_bytes": 55,
+      "new_bytes": 55,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B35A",
+      "type": "dialogue",
+      "old_bytes": 23,
+      "new_bytes": 22,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B371",
+      "type": "dialogue",
+      "old_bytes": 89,
+      "new_bytes": 86,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B3D6",
+      "type": "dialogue",
+      "old_bytes": 45,
+      "new_bytes": 34,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B403",
+      "type": "dialogue",
+      "old_bytes": 85,
+      "new_bytes": 69,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B458",
+      "type": "dialogue",
+      "old_bytes": 59,
+      "new_bytes": 45,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B493",
+      "type": "dialogue",
+      "old_bytes": 152,
+      "new_bytes": 150,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B582",
+      "type": "dialogue",
+      "old_bytes": 111,
+      "new_bytes": 110,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B5F1",
+      "type": "dialogue",
+      "old_bytes": 103,
+      "new_bytes": 87,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B658",
+      "type": "dialogue",
+      "old_bytes": 96,
+      "new_bytes": 92,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B6B8",
+      "type": "dialogue",
+      "old_bytes": 59,
+      "new_bytes": 56,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B6F8",
+      "type": "dialogue",
+      "old_bytes": 29,
+      "new_bytes": 29,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36B715",
+      "type": "dialogue",
+      "old_bytes": 61,
+      "new_bytes": 59,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B752",
+      "type": "dialogue",
+      "old_bytes": 54,
+      "new_bytes": 54,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36B788",
+      "type": "dialogue",
+      "old_bytes": 77,
+      "new_bytes": 77,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "36B7D5",
+      "type": "dialogue",
+      "old_bytes": 151,
+      "new_bytes": 142,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B86C",
+      "type": "dialogue",
+      "old_bytes": 85,
+      "new_bytes": 66,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B8C1",
+      "type": "dialogue",
+      "old_bytes": 50,
+      "new_bytes": 35,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B8F3",
+      "type": "dialogue",
+      "old_bytes": 41,
+      "new_bytes": 35,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B91C",
+      "type": "dialogue",
+      "old_bytes": 40,
+      "new_bytes": 33,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B944",
+      "type": "dialogue",
+      "old_bytes": 43,
+      "new_bytes": 41,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B96F",
+      "type": "dialogue",
+      "old_bytes": 44,
+      "new_bytes": 29,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B99B",
+      "type": "dialogue",
+      "old_bytes": 62,
+      "new_bytes": 43,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36B9D9",
+      "type": "dialogue",
+      "old_bytes": 58,
+      "new_bytes": 52,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36BA13",
+      "type": "dialogue",
+      "old_bytes": 162,
+      "new_bytes": 136,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "36BACB",
+      "type": "dialogue",
+      "old_bytes": 49,
+      "new_bytes": 47,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371CFC",
+      "type": "dialogue",
+      "old_bytes": 55,
+      "new_bytes": 54,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371D56",
+      "type": "dialogue",
+      "old_bytes": 67,
+      "new_bytes": 64,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371D9E",
+      "type": "dialogue",
+      "old_bytes": 43,
+      "new_bytes": 35,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371DC9",
+      "type": "dialogue",
+      "old_bytes": 61,
+      "new_bytes": 52,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371E06",
+      "type": "dialogue",
+      "old_bytes": 52,
+      "new_bytes": 46,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371E63",
+      "type": "dialogue",
+      "old_bytes": 49,
+      "new_bytes": 37,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371EF2",
+      "type": "dialogue",
+      "old_bytes": 53,
+      "new_bytes": 41,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371F27",
+      "type": "dialogue",
+      "old_bytes": 48,
+      "new_bytes": 38,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371F57",
+      "type": "dialogue",
+      "old_bytes": 40,
+      "new_bytes": 40,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "371F7F",
+      "type": "dialogue",
+      "old_bytes": 13,
+      "new_bytes": 10,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371F8C",
+      "type": "dialogue",
+      "old_bytes": 27,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371FA7",
+      "type": "dialogue",
+      "old_bytes": 35,
+      "new_bytes": 32,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371FCA",
+      "type": "dialogue",
+      "old_bytes": 22,
+      "new_bytes": 18,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371FE0",
+      "type": "dialogue",
+      "old_bytes": 23,
+      "new_bytes": 21,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "371FF7",
+      "type": "dialogue",
+      "old_bytes": 32,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372017",
+      "type": "dialogue",
+      "old_bytes": 41,
+      "new_bytes": 40,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372040",
+      "type": "dialogue",
+      "old_bytes": 55,
+      "new_bytes": 53,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372077",
+      "type": "dialogue",
+      "old_bytes": 45,
+      "new_bytes": 30,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3720A4",
+      "type": "dialogue",
+      "old_bytes": 26,
+      "new_bytes": 23,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3720BE",
+      "type": "dialogue",
+      "old_bytes": 78,
+      "new_bytes": 78,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "37210C",
+      "type": "dialogue",
+      "old_bytes": 27,
+      "new_bytes": 23,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372127",
+      "type": "dialogue",
+      "old_bytes": 45,
+      "new_bytes": 38,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372154",
+      "type": "dialogue",
+      "old_bytes": 12,
+      "new_bytes": 12,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372160",
+      "type": "dialogue",
+      "old_bytes": 62,
+      "new_bytes": 29,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37219E",
+      "type": "dialogue",
+      "old_bytes": 33,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3721BF",
+      "type": "dialogue",
+      "old_bytes": 19,
+      "new_bytes": 16,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372215",
+      "type": "dialogue",
+      "old_bytes": 31,
+      "new_bytes": 16,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372234",
+      "type": "dialogue",
+      "old_bytes": 25,
+      "new_bytes": 16,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37224D",
+      "type": "dialogue",
+      "old_bytes": 72,
+      "new_bytes": 59,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372295",
+      "type": "dialogue",
+      "old_bytes": 17,
+      "new_bytes": 13,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3722A6",
+      "type": "dialogue",
+      "old_bytes": 57,
+      "new_bytes": 38,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3722DF",
+      "type": "dialogue",
+      "old_bytes": 37,
+      "new_bytes": 31,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372304",
+      "type": "dialogue",
+      "old_bytes": 13,
+      "new_bytes": 13,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372311",
+      "type": "dialogue",
+      "old_bytes": 38,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372337",
+      "type": "dialogue",
+      "old_bytes": 16,
+      "new_bytes": 15,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372347",
+      "type": "dialogue",
+      "old_bytes": 57,
+      "new_bytes": 42,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372380",
+      "type": "dialogue",
+      "old_bytes": 20,
+      "new_bytes": 16,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372394",
+      "type": "dialogue",
+      "old_bytes": 22,
+      "new_bytes": 18,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3723AA",
+      "type": "dialogue",
+      "old_bytes": 23,
+      "new_bytes": 21,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3723C1",
+      "type": "dialogue",
+      "old_bytes": 25,
+      "new_bytes": 22,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3723DA",
+      "type": "dialogue",
+      "old_bytes": 53,
+      "new_bytes": 46,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37240F",
+      "type": "dialogue",
+      "old_bytes": 51,
+      "new_bytes": 44,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372442",
+      "type": "dialogue",
+      "old_bytes": 16,
+      "new_bytes": 13,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372452",
+      "type": "dialogue",
+      "old_bytes": 26,
+      "new_bytes": 23,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37246C",
+      "type": "dialogue",
+      "old_bytes": 88,
+      "new_bytes": 71,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3724C4",
+      "type": "dialogue",
+      "old_bytes": 18,
+      "new_bytes": 15,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3724D6",
+      "type": "dialogue",
+      "old_bytes": 55,
+      "new_bytes": 45,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37250D",
+      "type": "dialogue",
+      "old_bytes": 40,
+      "new_bytes": 37,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372535",
+      "type": "dialogue",
+      "old_bytes": 54,
+      "new_bytes": 36,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37256B",
+      "type": "dialogue",
+      "old_bytes": 24,
+      "new_bytes": 18,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372583",
+      "type": "dialogue",
+      "old_bytes": 17,
+      "new_bytes": 16,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3725D7",
+      "type": "dialogue",
+      "old_bytes": 31,
+      "new_bytes": 16,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3725F6",
+      "type": "dialogue",
+      "old_bytes": 35,
+      "new_bytes": 24,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372619",
+      "type": "dialogue",
+      "old_bytes": 87,
+      "new_bytes": 77,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372670",
+      "type": "dialogue",
+      "old_bytes": 23,
+      "new_bytes": 23,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372687",
+      "type": "dialogue",
+      "old_bytes": 36,
+      "new_bytes": 36,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3726AB",
+      "type": "dialogue",
+      "old_bytes": 43,
+      "new_bytes": 31,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3726D6",
+      "type": "dialogue",
+      "old_bytes": 47,
+      "new_bytes": 47,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "372705",
+      "type": "dialogue",
+      "old_bytes": 36,
+      "new_bytes": 28,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372729",
+      "type": "dialogue",
+      "old_bytes": 14,
+      "new_bytes": 14,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372737",
+      "type": "dialogue",
+      "old_bytes": 36,
+      "new_bytes": 30,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37275B",
+      "type": "dialogue",
+      "old_bytes": 15,
+      "new_bytes": 11,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37276A",
+      "type": "dialogue",
+      "old_bytes": 11,
+      "new_bytes": 10,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372775",
+      "type": "dialogue",
+      "old_bytes": 21,
+      "new_bytes": 21,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37278A",
+      "type": "dialogue",
+      "old_bytes": 25,
+      "new_bytes": 22,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3727A3",
+      "type": "dialogue",
+      "old_bytes": 56,
+      "new_bytes": 43,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3727DB",
+      "type": "dialogue",
+      "old_bytes": 40,
+      "new_bytes": 40,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372803",
+      "type": "dialogue",
+      "old_bytes": 12,
+      "new_bytes": 12,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37280F",
+      "type": "dialogue",
+      "old_bytes": 42,
+      "new_bytes": 37,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372839",
+      "type": "dialogue",
+      "old_bytes": 27,
+      "new_bytes": 27,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372854",
+      "type": "dialogue",
+      "old_bytes": 28,
+      "new_bytes": 23,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372870",
+      "type": "dialogue",
+      "old_bytes": 41,
+      "new_bytes": 36,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372899",
+      "type": "dialogue",
+      "old_bytes": 12,
+      "new_bytes": 10,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3728A5",
+      "type": "dialogue",
+      "old_bytes": 29,
+      "new_bytes": 23,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3728C2",
+      "type": "dialogue",
+      "old_bytes": 47,
+      "new_bytes": 47,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3728F1",
+      "type": "dialogue",
+      "old_bytes": 14,
+      "new_bytes": 11,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372942",
+      "type": "dialogue",
+      "old_bytes": 17,
+      "new_bytes": 16,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372953",
+      "type": "dialogue",
+      "old_bytes": 25,
+      "new_bytes": 16,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37296C",
+      "type": "dialogue",
+      "old_bytes": 53,
+      "new_bytes": 49,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3729A1",
+      "type": "dialogue",
+      "old_bytes": 32,
+      "new_bytes": 32,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3729C1",
+      "type": "dialogue",
+      "old_bytes": 46,
+      "new_bytes": 43,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3729EF",
+      "type": "dialogue",
+      "old_bytes": 30,
+      "new_bytes": 30,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "372A0D",
+      "type": "dialogue",
+      "old_bytes": 21,
+      "new_bytes": 21,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372A22",
+      "type": "dialogue",
+      "old_bytes": 103,
+      "new_bytes": 103,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "372A89",
+      "type": "dialogue",
+      "old_bytes": 101,
+      "new_bytes": 99,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372AEE",
+      "type": "dialogue",
+      "old_bytes": 122,
+      "new_bytes": 114,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372B68",
+      "type": "dialogue",
+      "old_bytes": 120,
+      "new_bytes": 111,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372BE0",
+      "type": "dialogue",
+      "old_bytes": 53,
+      "new_bytes": 38,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372C15",
+      "type": "dialogue",
+      "old_bytes": 73,
+      "new_bytes": 66,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372C5E",
+      "type": "dialogue",
+      "old_bytes": 77,
+      "new_bytes": 72,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372CAB",
+      "type": "dialogue",
+      "old_bytes": 67,
+      "new_bytes": 65,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372CEE",
+      "type": "dialogue",
+      "old_bytes": 84,
+      "new_bytes": 81,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372D42",
+      "type": "dialogue",
+      "old_bytes": 137,
+      "new_bytes": 127,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372DCB",
+      "type": "dialogue",
+      "old_bytes": 87,
+      "new_bytes": 83,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372E22",
+      "type": "dialogue",
+      "old_bytes": 43,
+      "new_bytes": 40,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372E4D",
+      "type": "dialogue",
+      "old_bytes": 57,
+      "new_bytes": 20,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372E86",
+      "type": "dialogue",
+      "old_bytes": 53,
+      "new_bytes": 27,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372EBB",
+      "type": "dialogue",
+      "old_bytes": 57,
+      "new_bytes": 53,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372EF4",
+      "type": "dialogue",
+      "old_bytes": 29,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372F11",
+      "type": "dialogue",
+      "old_bytes": 30,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372F2F",
+      "type": "dialogue",
+      "old_bytes": 50,
+      "new_bytes": 48,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372F61",
+      "type": "dialogue",
+      "old_bytes": 75,
+      "new_bytes": 68,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372FAC",
+      "type": "dialogue",
+      "old_bytes": 73,
+      "new_bytes": 63,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "372FF5",
+      "type": "dialogue",
+      "old_bytes": 77,
+      "new_bytes": 68,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "373042",
+      "type": "dialogue",
+      "old_bytes": 75,
+      "new_bytes": 75,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "37308D",
+      "type": "dialogue",
+      "old_bytes": 80,
+      "new_bytes": 63,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3730DD",
+      "type": "dialogue",
+      "old_bytes": 81,
+      "new_bytes": 63,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37312E",
+      "type": "dialogue",
+      "old_bytes": 77,
+      "new_bytes": 67,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37317B",
+      "type": "dialogue",
+      "old_bytes": 75,
+      "new_bytes": 75,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3731C6",
+      "type": "dialogue",
+      "old_bytes": 59,
+      "new_bytes": 50,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "373201",
+      "type": "dialogue",
+      "old_bytes": 31,
+      "new_bytes": 31,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "373220",
+      "type": "dialogue",
+      "old_bytes": 60,
+      "new_bytes": 57,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37325C",
+      "type": "dialogue",
+      "old_bytes": 58,
+      "new_bytes": 46,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "373296",
+      "type": "dialogue",
+      "old_bytes": 92,
+      "new_bytes": 86,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3732F2",
+      "type": "dialogue",
+      "old_bytes": 166,
+      "new_bytes": 143,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "373398",
+      "type": "dialogue",
+      "old_bytes": 146,
+      "new_bytes": 127,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37342A",
+      "type": "dialogue",
+      "old_bytes": 94,
+      "new_bytes": 84,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "373488",
+      "type": "dialogue",
+      "old_bytes": 95,
+      "new_bytes": 85,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3734E7",
+      "type": "dialogue",
+      "old_bytes": 95,
+      "new_bytes": 85,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "373546",
+      "type": "dialogue",
+      "old_bytes": 95,
+      "new_bytes": 95,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3735A5",
+      "type": "dialogue",
+      "old_bytes": 131,
+      "new_bytes": 91,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "373628",
+      "type": "dialogue",
+      "old_bytes": 131,
+      "new_bytes": 131,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3736AB",
+      "type": "dialogue",
+      "old_bytes": 131,
+      "new_bytes": 91,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37372E",
+      "type": "dialogue",
+      "old_bytes": 135,
+      "new_bytes": 99,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "3744AD",
+      "type": "dialogue",
+      "old_bytes": 26,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37D031",
+      "type": "dialogue",
+      "old_bytes": 21,
+      "new_bytes": 21,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "37D046",
+      "type": "dialogue",
+      "old_bytes": 59,
+      "new_bytes": 56,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37D081",
+      "type": "dialogue",
+      "old_bytes": 31,
+      "new_bytes": 29,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37D0A0",
+      "type": "dialogue",
+      "old_bytes": 34,
+      "new_bytes": 34,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37D0C2",
+      "type": "dialogue",
+      "old_bytes": 45,
+      "new_bytes": 42,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37D0EF",
+      "type": "dialogue",
+      "old_bytes": 95,
+      "new_bytes": 86,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37D14E",
+      "type": "dialogue",
+      "old_bytes": 63,
+      "new_bytes": 53,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37D18D",
+      "type": "dialogue",
+      "old_bytes": 52,
+      "new_bytes": 49,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37D1C1",
+      "type": "dialogue",
+      "old_bytes": 70,
+      "new_bytes": 63,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37D207",
+      "type": "dialogue",
+      "old_bytes": 65,
+      "new_bytes": 64,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F0D4",
+      "type": "dialogue",
+      "old_bytes": 27,
+      "new_bytes": 27,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F192",
+      "type": "dialogue",
+      "old_bytes": 26,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F373",
+      "type": "dialogue",
+      "old_bytes": 22,
+      "new_bytes": 22,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F389",
+      "type": "dialogue",
+      "old_bytes": 29,
+      "new_bytes": 29,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F3A6",
+      "type": "dialogue",
+      "old_bytes": 28,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F3C2",
+      "type": "dialogue",
+      "old_bytes": 25,
+      "new_bytes": 23,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F3DB",
+      "type": "dialogue",
+      "old_bytes": 26,
+      "new_bytes": 26,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "37F425",
+      "type": "dialogue",
+      "old_bytes": 20,
+      "new_bytes": 19,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F439",
+      "type": "dialogue",
+      "old_bytes": 22,
+      "new_bytes": 21,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F44F",
+      "type": "dialogue",
+      "old_bytes": 24,
+      "new_bytes": 21,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F467",
+      "type": "dialogue",
+      "old_bytes": 33,
+      "new_bytes": 28,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F488",
+      "type": "dialogue",
+      "old_bytes": 35,
+      "new_bytes": 30,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F4AB",
+      "type": "dialogue",
+      "old_bytes": 34,
+      "new_bytes": 30,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F4CD",
+      "type": "dialogue",
+      "old_bytes": 46,
+      "new_bytes": 37,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F4FB",
+      "type": "dialogue",
+      "old_bytes": 32,
+      "new_bytes": 32,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "37F51F",
+      "type": "dialogue",
+      "old_bytes": 27,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F53A",
+      "type": "dialogue",
+      "old_bytes": 24,
+      "new_bytes": 22,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F552",
+      "type": "dialogue",
+      "old_bytes": 24,
+      "new_bytes": 23,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F56A",
+      "type": "dialogue",
+      "old_bytes": 47,
+      "new_bytes": 46,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F599",
+      "type": "dialogue",
+      "old_bytes": 35,
+      "new_bytes": 31,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F5BC",
+      "type": "dialogue",
+      "old_bytes": 37,
+      "new_bytes": 33,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F5E1",
+      "type": "dialogue",
+      "old_bytes": 26,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "37F5FB",
+      "type": "dialogue",
+      "old_bytes": 44,
+      "new_bytes": 44,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "380FBF",
+      "type": "dialogue",
+      "old_bytes": 44,
+      "new_bytes": 44,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "38104C",
+      "type": "dialogue",
+      "old_bytes": 158,
+      "new_bytes": 158,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3810EA",
+      "type": "dialogue",
+      "old_bytes": 39,
+      "new_bytes": 39,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "381111",
+      "type": "dialogue",
+      "old_bytes": 53,
+      "new_bytes": 46,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "381146",
+      "type": "dialogue",
+      "old_bytes": 180,
+      "new_bytes": 180,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3811FA",
+      "type": "dialogue",
+      "old_bytes": 152,
+      "new_bytes": 152,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "381292",
+      "type": "dialogue",
+      "old_bytes": 82,
+      "new_bytes": 80,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "381D38",
+      "type": "dialogue",
+      "old_bytes": 154,
+      "new_bytes": 154,
+      "stable_offsets_padding": true
+    },
+    {
+      "id": "3861B2",
+      "type": "dialogue",
+      "old_bytes": 33,
+      "new_bytes": 33,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "38A32A",
+      "type": "dialogue",
+      "old_bytes": 27,
+      "new_bytes": 26,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "38A345",
+      "type": "dialogue",
+      "old_bytes": 146,
+      "new_bytes": 129,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "38A3D7",
+      "type": "dialogue",
+      "old_bytes": 143,
+      "new_bytes": 130,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "38A466",
+      "type": "dialogue",
+      "old_bytes": 93,
+      "new_bytes": 78,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "38A4C3",
+      "type": "dialogue",
+      "old_bytes": 76,
+      "new_bytes": 71,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "38D12D",
+      "type": "dialogue",
+      "old_bytes": 48,
+      "new_bytes": 46,
+      "stable_offsets_padding": false
+    },
+    {
+      "id": "2F75AB",
+      "type": "compressed_dialogue",
+      "old_bytes": 23,
+      "new_bytes": 23,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F75C2",
+      "type": "compressed_dialogue",
+      "old_bytes": 23,
+      "new_bytes": 23,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F75D9",
+      "type": "compressed_dialogue",
+      "old_bytes": 23,
+      "new_bytes": 23,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F75F0",
+      "type": "compressed_dialogue",
+      "old_bytes": 23,
+      "new_bytes": 23,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7607",
+      "type": "compressed_dialogue",
+      "old_bytes": 29,
+      "new_bytes": 29,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "07C588",
+      "type": "compressed_dialogue",
+      "old_bytes": 22,
+      "new_bytes": 22,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F763C",
+      "type": "compressed_dialogue",
+      "old_bytes": 25,
+      "new_bytes": 25,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7655",
+      "type": "compressed_dialogue",
+      "old_bytes": 25,
+      "new_bytes": 25,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7696",
+      "type": "compressed_dialogue",
+      "old_bytes": 29,
+      "new_bytes": 29,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F76C7",
+      "type": "compressed_dialogue",
+      "old_bytes": 17,
+      "new_bytes": 17,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F76D8",
+      "type": "compressed_dialogue",
+      "old_bytes": 37,
+      "new_bytes": 37,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "07C59E",
+      "type": "compressed_dialogue",
+      "old_bytes": 18,
+      "new_bytes": 18,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "086E02",
+      "type": "compressed_dialogue",
+      "old_bytes": 18,
+      "new_bytes": 18,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "086E2F",
+      "type": "compressed_dialogue",
+      "old_bytes": 14,
+      "new_bytes": 14,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "087EB2",
+      "type": "compressed_dialogue",
+      "old_bytes": 10,
+      "new_bytes": 10,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7A54",
+      "type": "compressed_dialogue",
+      "old_bytes": 18,
+      "new_bytes": 18,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7A66",
+      "type": "compressed_dialogue",
+      "old_bytes": 23,
+      "new_bytes": 23,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7A7D",
+      "type": "compressed_dialogue",
+      "old_bytes": 26,
+      "new_bytes": 26,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7A97",
+      "type": "compressed_dialogue",
+      "old_bytes": 26,
+      "new_bytes": 26,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7AB1",
+      "type": "compressed_dialogue",
+      "old_bytes": 24,
+      "new_bytes": 24,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7ACF",
+      "type": "compressed_dialogue",
+      "old_bytes": 17,
+      "new_bytes": 17,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7AE6",
+      "type": "compressed_dialogue",
+      "old_bytes": 21,
+      "new_bytes": 21,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7B01",
+      "type": "compressed_dialogue",
+      "old_bytes": 16,
+      "new_bytes": 16,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7B17",
+      "type": "compressed_dialogue",
+      "old_bytes": 17,
+      "new_bytes": 17,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7B28",
+      "type": "compressed_dialogue",
+      "old_bytes": 30,
+      "new_bytes": 30,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7B46",
+      "type": "compressed_dialogue",
+      "old_bytes": 30,
+      "new_bytes": 30,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7BA0",
+      "type": "compressed_dialogue",
+      "old_bytes": 31,
+      "new_bytes": 31,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7BBF",
+      "type": "compressed_dialogue",
+      "old_bytes": 32,
+      "new_bytes": 32,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7B64",
+      "type": "compressed_dialogue",
+      "old_bytes": 31,
+      "new_bytes": 31,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "2F7BDF",
+      "type": "compressed_dialogue",
+      "old_bytes": 99,
+      "new_bytes": 99,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "07DCDA",
+      "type": "compressed_dialogue",
+      "old_bytes": 41,
+      "new_bytes": 41,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "07DD03",
+      "type": "compressed_dialogue",
+      "old_bytes": 41,
+      "new_bytes": 41,
+      "commands_and_offsets_preserved": true
+    },
+    {
+      "id": "38AD64",
+      "type": "intro",
+      "old_bytes": 473,
+      "new_bytes": 456
+    },
+    {
+      "id": "38AF3D",
+      "type": "intro",
+      "old_bytes": 40,
+      "new_bytes": 31
+    },
+    {
+      "id": "2F848C",
+      "type": "relocated_dialogue",
+      "offset": "3FF920",
+      "old_bytes": 27,
+      "new_bytes": 31,
+      "original_preserved": true,
+      "internal_refs": [
+        {
+          "offset": "3FF926",
+          "old_target": "2F84A7",
+          "new_target": "3FF940"
+        }
+      ]
+    },
+    {
+      "id": "2F84A7",
+      "type": "relocated_dialogue",
+      "offset": "3FF940",
+      "old_bytes": 15,
+      "new_bytes": 21,
+      "original_preserved": true,
+      "internal_refs": []
+    },
+    {
+      "id": "2F84B6",
+      "type": "relocated_dialogue",
+      "offset": "3FF960",
+      "old_bytes": 16,
+      "new_bytes": 22,
+      "original_preserved": true,
+      "internal_refs": []
+    },
+    {
+      "id": "36002E",
+      "type": "relocated_dialogue",
+      "offset": "31F410",
+      "old_bytes": 456,
+      "new_bytes": 494,
+      "original_preserved": true,
+      "internal_refs": [
+        {
+          "offset": "31F413",
+          "old_target": "36003C",
+          "new_target": "31F41E"
+        },
+        {
+          "offset": "31F41A",
+          "old_target": "3601FC",
+          "new_target": "31F600"
+        },
+        {
+          "offset": "31F548",
+          "old_target": "360147",
+          "new_target": "31F550"
+        },
+        {
+          "offset": "31F54C",
+          "old_target": "360147",
+          "new_target": "31F550"
+        }
+      ]
+    },
+    {
+      "id": "3601FC",
+      "type": "relocated_dialogue",
+      "offset": "31F600",
+      "old_bytes": 672,
+      "new_bytes": 651,
+      "original_preserved": true,
+      "internal_refs": [
+        {
+          "offset": "31F7C0",
+          "old_target": "3603C7",
+          "new_target": "31F7C8"
+        },
+        {
+          "offset": "31F7C4",
+          "old_target": "3603C7",
+          "new_target": "31F7C8"
+        }
+      ]
+    },
+    {
+      "id": "380F4C",
+      "type": "relocated_dialogue",
+      "offset": "31F890",
+      "old_bytes": 115,
+      "new_bytes": 135,
+      "original_preserved": true,
+      "internal_refs": [
+        {
+          "offset": "31F90E",
+          "old_target": "380FEB",
+          "new_target": "31F920"
+        },
+        {
+          "offset": "31F913",
+          "old_target": "380FEB",
+          "new_target": "31F920"
+        }
+      ]
+    },
+    {
+      "id": "380FEB",
+      "type": "relocated_dialogue",
+      "offset": "31F920",
+      "old_bytes": 97,
+      "new_bytes": 106,
+      "original_preserved": true,
+      "internal_refs": []
+    },
+    {
+      "id": "371E94",
+      "type": "relocated_dialogue",
+      "offset": "31F990",
+      "old_bytes": 94,
+      "new_bytes": 120,
+      "original_preserved": true,
+      "internal_refs": [
+        {
+          "offset": "31F9F7",
+          "old_target": "371EE3",
+          "new_target": "31F9FB"
+        }
+      ]
+    },
+    {
+      "id": "371C72",
+      "type": "relocated_dialogue",
+      "offset": "31FA10",
+      "old_bytes": 138,
+      "new_bytes": 132,
+      "original_preserved": true,
+      "internal_refs": [
+        {
+          "offset": "31FA1A",
+          "old_target": "371E94",
+          "new_target": "31F990"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "id": "0BD867",
+      "type": "field",
+      "reason": "capacité réelle insuffisante",
+      "needed": 3,
+      "available": 2,
+      "english": "No",
+      "french": "Non"
+    }
+  ],
+  "telephone_calls": {
+    "region_start": "3FF550",
+    "region_end": "3FF5F5",
+    "routines": [
+      {
+        "id": "papa",
+        "offset": "3FF550",
+        "raw_hex": "19 10 01 0b 01 1b 02 64 f5 ff 00 a4 9f 9e 50 a0 91 a0 91 02 9c 95 50 a0 91 a0 91 50 94 95 50 1c 02 01 02"
+      },
+      {
+        "id": "compte",
+        "offset": "3FF580",
+        "raw_hex": "19 10 01 0b 01 1b 02 8f f5 ff 00 a4 9f 99 02 1c 02 01 02"
+      },
+      {
+        "id": "depenses",
+        "offset": "3FF5A0",
+        "raw_hex": "1d 19 03 1b 02 b8 f5 ff 00 1d 19 02 1b 02 b8 f5 ff 00 a4 a5 50 91 a3 02 a6 9f a5 a3 50 91 a6 95 aa 02"
+      },
+      {
+        "id": "maman",
+        "offset": "3FF5D0",
+        "raw_hex": "19 10 01 0b 01 1b 02 e4 f5 ff 00 a4 91 50 9d 91 9d 91 9e 02 9c 91 50 9d 91 9d 91 9e 50 94 95 50 1c 02 01 02"
+      }
+    ],
+    "calls": [
+      {
+        "block": "35C5D9",
+        "offset": "35C5E3",
+        "original_target": "387A8C",
+        "helper": "papa",
+        "new_target": "3FF550"
+      },
+      {
+        "block": "35C5D9",
+        "offset": "35C622",
+        "original_target": "387A8C",
+        "helper": "compte",
+        "new_target": "3FF580"
+      },
+      {
+        "block": "35C5D9",
+        "offset": "35C644",
+        "original_target": "387AD2",
+        "helper": "depenses",
+        "new_target": "3FF5A0"
+      },
+      {
+        "block": "35C7C8",
+        "offset": "35C8A0",
+        "original_target": "387A8C",
+        "helper": "maman",
+        "new_target": "3FF5D0"
+      }
+    ]
+  },
+  "relocation": {
+    "region_start": "3FF920",
+    "region_end": "3FF9E0",
+    "used_end": "3FF980",
+    "regions": [
+      {
+        "id": "legacy",
+        "start": "3FF920",
+        "end": "3FF9E0",
+        "used_end": "3FF980"
+      },
+      {
+        "id": "podunk",
+        "start": "31F410",
+        "end": "31FAC8",
+        "used_end": "31FAA0"
+      }
+    ],
+    "external_refs": [
+      {
+        "offset": "157B9C",
+        "old_target": "2F848C",
+        "new_target": "3FF920"
+      },
+      {
+        "offset": "368245",
+        "old_target": "2F848C",
+        "new_target": "3FF920"
+      },
+      {
+        "offset": "3691C9",
+        "old_target": "2F848C",
+        "new_target": "3FF920"
+      },
+      {
+        "offset": "36939D",
+        "old_target": "2F848C",
+        "new_target": "3FF920"
+      },
+      {
+        "offset": "157BA8",
+        "old_target": "2F84B6",
+        "new_target": "3FF960"
+      },
+      {
+        "offset": "368251",
+        "old_target": "2F84B6",
+        "new_target": "3FF960"
+      },
+      {
+        "offset": "3693E5",
+        "old_target": "2F84B6",
+        "new_target": "3FF960"
+      },
+      {
+        "offset": "360011",
+        "old_target": "36002E",
+        "new_target": "31F410"
+      },
+      {
+        "offset": "36001B",
+        "old_target": "36002E",
+        "new_target": "31F410"
+      },
+      {
+        "offset": "360025",
+        "old_target": "36002E",
+        "new_target": "31F410"
+      },
+      {
+        "offset": "380F42",
+        "old_target": "380F4C",
+        "new_target": "31F890"
+      },
+      {
+        "offset": "202734",
+        "old_target": "371C72",
+        "new_target": "31FA10"
+      }
+    ],
+    "preserved_original_aliases": [
+      {
+        "offset": "05D358",
+        "target": "360402",
+        "block": "3601FC"
+      },
+      {
+        "offset": "089859",
+        "target": "3603BA",
+        "block": "3601FC"
+      },
+      {
+        "offset": "15F141",
+        "target": "36007F",
+        "block": "36002E"
+      },
+      {
+        "offset": "18BFB0",
+        "target": "3600F9",
+        "block": "36002E"
+      },
+      {
+        "offset": "1A86F3",
+        "target": "360085",
+        "block": "36002E"
+      },
+      {
+        "offset": "1A9D15",
+        "target": "3600F5",
+        "block": "36002E"
+      },
+      {
+        "offset": "1F94D4",
+        "target": "360184",
+        "block": "36002E"
+      },
+      {
+        "offset": "1F9591",
+        "target": "3600FE",
+        "block": "36002E"
+      },
+      {
+        "offset": "1FD4A7",
+        "target": "360081",
+        "block": "36002E"
+      },
+      {
+        "offset": "202CBE",
+        "target": "360300",
+        "block": "3601FC"
+      },
+      {
+        "offset": "202EDE",
+        "target": "360300",
+        "block": "3601FC"
+      },
+      {
+        "offset": "2089A0",
+        "target": "3600C7",
+        "block": "36002E"
+      },
+      {
+        "offset": "20D863",
+        "target": "36018F",
+        "block": "36002E"
+      },
+      {
+        "offset": "20DA15",
+        "target": "360383",
+        "block": "3601FC"
+      },
+      {
+        "offset": "20FDE3",
+        "target": "360300",
+        "block": "3601FC"
+      },
+      {
+        "offset": "2199AC",
+        "target": "360283",
+        "block": "3601FC"
+      },
+      {
+        "offset": "252260",
+        "target": "36006C",
+        "block": "36002E"
+      },
+      {
+        "offset": "298276",
+        "target": "360030",
+        "block": "36002E"
+      },
+      {
+        "offset": "29C0EC",
+        "target": "3600FE",
+        "block": "36002E"
+      },
+      {
+        "offset": "29C6EC",
+        "target": "3600FE",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A28F2",
+        "target": "3600F2",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A2BF6",
+        "target": "3600EA",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A2E34",
+        "target": "3600E6",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A2E36",
+        "target": "3600F6",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A2E38",
+        "target": "3600F6",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A36BA",
+        "target": "360080",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A36BC",
+        "target": "3600F6",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A383A",
+        "target": "360088",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A383C",
+        "target": "3600F6",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A965D",
+        "target": "3600FC",
+        "block": "36002E"
+      },
+      {
+        "offset": "2A9E17",
+        "target": "3600FF",
+        "block": "36002E"
+      },
+      {
+        "offset": "2B8BD9",
+        "target": "381014",
+        "block": "380FEB"
+      },
+      {
+        "offset": "2C27BA",
+        "target": "360287",
+        "block": "3601FC"
+      },
+      {
+        "offset": "2C52F1",
+        "target": "380FEF",
+        "block": "380FEB"
+      },
+      {
+        "offset": "2C5AE8",
+        "target": "3600B6",
+        "block": "36002E"
+      },
+      {
+        "offset": "2C5B59",
+        "target": "360208",
+        "block": "3601FC"
+      },
+      {
+        "offset": "2DB13B",
+        "target": "3600EE",
+        "block": "36002E"
+      },
+      {
+        "offset": "314B3B",
+        "target": "3600FF",
+        "block": "36002E"
+      },
+      {
+        "offset": "337513",
+        "target": "3600FE",
+        "block": "36002E"
+      },
+      {
+        "offset": "340488",
+        "target": "3600F5",
+        "block": "36002E"
+      },
+      {
+        "offset": "341D14",
+        "target": "360048",
+        "block": "36002E"
+      },
+      {
+        "offset": "365693",
+        "target": "360402",
+        "block": "3601FC"
+      },
+      {
+        "offset": "3919DF",
+        "target": "3600F4",
+        "block": "36002E"
+      },
+      {
+        "offset": "391FED",
+        "target": "3600FA",
+        "block": "36002E"
+      },
+      {
+        "offset": "392230",
+        "target": "3600EA",
+        "block": "36002E"
+      },
+      {
+        "offset": "3942FB",
+        "target": "360385",
+        "block": "3601FC"
+      },
+      {
+        "offset": "3965C3",
+        "target": "3600FE",
+        "block": "36002E"
+      },
+      {
+        "offset": "396C02",
+        "target": "3600EC",
+        "block": "36002E"
+      },
+      {
+        "offset": "39AABB",
+        "target": "380F86",
+        "block": "380F4C"
+      },
+      {
+        "offset": "39D0FE",
+        "target": "3600F1",
+        "block": "36002E"
+      },
+      {
+        "offset": "39DA1E",
+        "target": "3601FF",
+        "block": "3601FC"
+      },
+      {
+        "offset": "39DD25",
+        "target": "360244",
+        "block": "3601FC"
+      },
+      {
+        "offset": "39E20A",
+        "target": "3600FA",
+        "block": "36002E"
+      },
+      {
+        "offset": "39F281",
+        "target": "360402",
+        "block": "3601FC"
+      },
+      {
+        "offset": "39FC5A",
+        "target": "3600FC",
+        "block": "36002E"
+      },
+      {
+        "offset": "3A5A79",
+        "target": "3600DB",
+        "block": "36002E"
+      },
+      {
+        "offset": "3A7A26",
+        "target": "36007F",
+        "block": "36002E"
+      },
+      {
+        "offset": "3A7CCC",
+        "target": "380F89",
+        "block": "380F4C"
+      },
+      {
+        "offset": "3A7EC7",
+        "target": "3601F4",
+        "block": "36002E"
+      },
+      {
+        "offset": "3B048F",
+        "target": "3600F8",
+        "block": "36002E"
+      },
+      {
+        "offset": "3B23B9",
+        "target": "36007B",
+        "block": "36002E"
+      },
+      {
+        "offset": "3B38B6",
+        "target": "360460",
+        "block": "3601FC"
+      },
+      {
+        "offset": "3B4E39",
+        "target": "380F4F",
+        "block": "380F4C"
+      },
+      {
+        "offset": "3BAEAD",
+        "target": "3600FF",
+        "block": "36002E"
+      },
+      {
+        "offset": "3CB706",
+        "target": "3600FF",
+        "block": "36002E"
+      },
+      {
+        "offset": "3D675B",
+        "target": "36007F",
+        "block": "36002E"
+      },
+      {
+        "offset": "3E60AE",
+        "target": "380F50",
+        "block": "380F4C"
+      },
+      {
+        "offset": "3E64FB",
+        "target": "3600FE",
+        "block": "36002E"
+      },
+      {
+        "offset": "3E7B25",
+        "target": "3600FA",
+        "block": "36002E"
+      },
+      {
+        "offset": "3EC0E9",
+        "target": "3600B8",
+        "block": "36002E"
+      },
+      {
+        "offset": "3ED6CC",
+        "target": "3600FA",
+        "block": "36002E"
+      },
+      {
+        "offset": "3F38DA",
+        "target": "3600FE",
+        "block": "36002E"
+      },
+      {
+        "offset": "3F3A6A",
+        "target": "360483",
+        "block": "3601FC"
+      },
+      {
+        "offset": "3F3C85",
+        "target": "360450",
+        "block": "3601FC"
+      },
+      {
+        "offset": "3F5539",
+        "target": "3600ED",
+        "block": "36002E"
+      }
+    ]
+  },
+  "font_glyphs": [],
+  "protected_terminators": [
+    {
+      "offset": "04550E",
+      "reference": "0186CE",
+      "preserved": true
+    }
+  ],
+  "translation_sources_sha256": {
+    "appels_telephone_fr.json": "07315cea6825502985b338b93eff46a1d50ca31b7470c821d5a32b12da3fbe26",
+    "dialogues_fr.json": "4ce36985f9a6a393179bdd5fcae14cc93be4ff4e2a86fd992130b3354f935880",
+    "introduction_fr.json": "0a1386cf205b022ae3ce172eed5356ebc1a3ec0a49ee0f21bd6439d172084c16",
+    "menus_objets_fr.json": "b1fcd12939d042a0c4e65312d64ac7a46ac6fbbcf5a9ff6c831839bf0bd33787",
+    "textes_comprimes_fr.json": "5e749c3d72f38395ad2db00c5461a78a9ebaba766cddbce7bc4bef0dd389951b",
+    "textes_relocalises_fr.json": "4ca0fa4f5a01c3488d06d1413b478493fed32e04e596e77a72a073aca45e87dc"
+  },
+  "artifact_stem": "EarthBound_Beginnings_FR_v09",
+  "target_sha256": "b5cc2c833f29d91760535f0c5475e5ac098a616098e00f4e92e7050ae00dc282",
+  "source_rom_unchanged": true,
+  "rom_size": 4194304,
+  "checksum": "85CC",
+  "accepted_count": 1095,
+  "rejected_count": 1,
+  "bytes_changed": 32429,
+  "commands_preserved": true,
+  "telephone_call_arguments_retargeted": true,
+  "ips_roundtrip_passed": true,
+  "runtime_validated": false
+}

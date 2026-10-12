@@ -100,7 +100,7 @@ def apply_ips(source,patch):
         data[offset:offset+size]=raw
     return bytes(data)
 
-def integrate(rom,out,accents=True,version="v08"):
+def integrate(rom,out,accents=True,version="v09"):
     if not re.fullmatch(r"v[0-9]{2,4}",version):raise ValueError("Version invalide : utiliser v07, v08...")
     stem=f"EarthBound_Beginnings_FR_{version}"
     src=rom.read_bytes();header=512 if len(src)%0x8000==512 else 0;original=src[header:]
@@ -240,7 +240,7 @@ def integrate(rom,out,accents=True,version="v08"):
     return report
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('rom',type=Path);p.add_argument('--sortie',type=Path,default=ROOT/'build');p.add_argument('--sans-accents',action='store_true');p.add_argument('--appliquer',type=Path,help='Appliquer un patch IPS existant au lieu de construire la traduction')
-    p.add_argument('--version',default='v08',help='Version des fichiers reconstruits, ex. v07');args=p.parse_args()
+    p.add_argument('--version',default='v09',help='Version des fichiers reconstruits, ex. v07');args=p.parse_args()
     if args.appliquer:
         src=args.rom.read_bytes();header=512 if len(src)%0x8000==512 else 0;src=src[header:]
         if hashlib.sha256(src).hexdigest()!=EXPECTED:raise ValueError('Mauvaise ROM source')

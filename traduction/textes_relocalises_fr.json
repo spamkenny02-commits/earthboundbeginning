@@ -110,6 +110,445 @@
           "french": " attaque !"
         }
       ]
+    },
+    {
+      "id": "36002E",
+      "offset": "36002E",
+      "raw_hex": "06 74 03 3C 00 F6 00 06 20 03 FC 01 F6 00 06 21 03 AF 04 F6 00 06 74 03 84 05 F6 00 06 23 03 08 06 F6 00 70 73 99 A4 99 AA 95 9E 5C 50 79 50 9B 9E 9F A7 50 99 A4 57 A3 50 91 50 9C 9F A4 5C 50 92 A5 A4 50 A9 9F A5 A2 50 A4 9F A7 9E 50 9E 95 95 94 A3 50 A0 A2 9F 9D 99 A3 99 9E 97 50 A9 9F A5 9E 97 50 9D 95 9E 50 9C 99 9B 95 50 A9 9F A5 5E 03 00 70 89 9F A5 50 A3 95 95 5E 5E 5E 10 0F 50 91 50 93 98 99 9C 94 50 98 91 A3 50 A3 A4 A2 91 A9 95 94 50 99 9E A4 9F 50 A4 98 95 50 93 95 9D 95 A4 95 A2 A9 5E 03 00 70 71 9E 94 5C 50 79 57 9D 50 97 9F 99 9E 97 50 A5 A0 50 96 9F A2 50 A2 95 5D 95 9C 95 93 A4 99 9F 9E 50 A3 9F 9F 9E 5E 5E 5E 03 00 70 5E 5E 5E 03 00 70 89 9F A5 50 9D A5 A3 A4 50 98 95 9C A0 51 10 14 00 50 50 80 9C 95 91 A3 95 50 98 95 9C A0 50 9D 95 51 00 19 02 89 95 A3 02 19 02 7E 9F 02 1C 07 02 11 12 09 02 47 01 F6 00 47 01 F6 00 70 7F 98 6F 51 10 14 50 50 89 9F A5 57 9C 9C 50 97 9F 50 A4 98 95 A2 95 50 91 9E 94 50 A3 91 A6 95 50 98 95 A2 6F 03 00 70 73 9F 9D 95 50 92 91 93 9B 50 91 9C 99 A6 95 5C 10 0F 50 91 9E 94 50 A3 A5 A2 95 9C A9 50 A9 9F A5 57 9C 9C 50 92 95 50 91 50 98 95 A2 9F 51 03 00 70 79 96 50 9F 9E 9C A9 50 79 50 A7 91 A3 5C 50 95 A2 5C 50 96 95 95 9C 99 9E 97 50 92 95 A4 A4 95 A2 5C 10 0F 50 79 57 94 5C 50 A5 9D 5C 50 97 9F 50 A7 99 A4 98 50 A9 9F A5 5E 5E 5E 10 1E 50 5A 71 98 95 9D 5A 10 0F 50 5A 93 9F A5 97 98 5A 13 04 23 03 02",
+      "incoming_refs": [
+        "360011",
+        "36001B",
+        "360025"
+      ],
+      "region": "podunk",
+      "interior_policy": "preserve_original_aliases",
+      "evidence": "literal_pointer",
+      "text_fr_segments": [
+        {
+          "offset": 35,
+          "end": 113,
+          "original": "@Citizen, I know it's a lot, but your town needs promising young men like you.",
+          "french": "@Citoyen, je sais que c'est beaucoup, mais notre ville a besoin de jeunes prometteurs comme toi."
+        },
+        {
+          "offset": 115,
+          "end": 126,
+          "original": "@You see...",
+          "french": "@Tu vois..."
+        },
+        {
+          "offset": 128,
+          "end": 167,
+          "original": " a child has strayed into the cemetery.",
+          "french": " une enfant s'est égarée dans le cimetière."
+        },
+        {
+          "offset": 169,
+          "end": 211,
+          "original": "@And, I'm going up for re-election soon...",
+          "french": "@Et je me présente bientôt aux élections..."
+        },
+        {
+          "offset": 213,
+          "end": 217,
+          "original": "@...",
+          "french": "@..."
+        },
+        {
+          "offset": 219,
+          "end": 234,
+          "original": "@You must help!",
+          "french": "@Tu dois nous aider !"
+        },
+        {
+          "offset": 237,
+          "end": 254,
+          "original": "  Please help me!",
+          "french": "  Aide-moi, je t'en prie !"
+        },
+        {
+          "offset": 257,
+          "end": 260,
+          "original": "Yes",
+          "french": "Oui"
+        },
+        {
+          "offset": 263,
+          "end": 265,
+          "original": "No",
+          "french": "Non"
+        },
+        {
+          "offset": 281,
+          "end": 286,
+          "original": "@Oh?!",
+          "french": "@Oh ?!"
+        },
+        {
+          "offset": 288,
+          "end": 319,
+          "original": "  You'll go there and save her?",
+          "french": "  Tu vas aller la sauver ?"
+        },
+        {
+          "offset": 321,
+          "end": 338,
+          "original": "@Come back alive,",
+          "french": "@Reviens vivant,"
+        },
+        {
+          "offset": 340,
+          "end": 369,
+          "original": " and surely you'll be a hero!",
+          "french": " et tu seras un vrai héros !"
+        },
+        {
+          "offset": 371,
+          "end": 406,
+          "original": "@If only I was, er, feeling better,",
+          "french": "@Si seulement je me sentais mieux,"
+        },
+        {
+          "offset": 408,
+          "end": 432,
+          "original": " I'd, um, go with you...",
+          "french": " euh, je viendrais avec toi..."
+        },
+        {
+          "offset": 434,
+          "end": 441,
+          "original": " *Ahem*",
+          "french": " *Hum*"
+        },
+        {
+          "offset": 443,
+          "end": 451,
+          "original": " *cough*",
+          "french": " *tousse*"
+        }
+      ]
+    },
+    {
+      "id": "3601FC",
+      "offset": "3601FC",
+      "raw_hex": "04 74 03 70 7F 98 5C 50 99 A3 50 A4 98 99 A3 50 A4 98 95 50 9C 9F A3 A4 50 97 99 A2 9C 5C 50 80 99 A0 A0 99 6F 03 00 70 87 95 9C 9C 5C 50 A4 98 91 A4 57 A3 50 9A A5 A3 A4 50 97 A2 95 91 A4 51 10 1E 00 50 50 79 50 9B 9E 95 A7 50 A9 9F A5 57 94 50 92 95 50 91 50 A0 A2 9F 9D 99 A3 99 9E 97 50 A9 9F A5 9E 97 50 9D 91 9E 5E 03 00 50 50 5A 71 A0 A0 9C 91 A5 A3 95 5A 50 10 0F 5A 91 A0 A0 9C 91 A5 A3 95 5A 03 00 70 87 98 91 A4 50 91 50 A2 95 9C 99 95 96 5C 50 95 98 5C 50 A0 A2 95 A4 A4 A9 50 80 99 A0 A0 99 6F 03 00 70 7E 9F A7 5C 50 94 9F 9E 57 A4 50 96 9F A2 97 95 A4 50 A4 9F 50 A4 95 9C 9C 50 A9 9F A5 A2 50 9D 9F A4 98 95 A2 50 A4 98 91 A4 50 A4 98 95 50 9D 91 A9 9F A2 50 A2 95 A3 93 A5 95 94 50 A9 9F A5 5E 03 00 70 71 A3 50 96 9F A2 50 A9 9F A5 5C 50 1C 02 01 5E 5E 5E 18 0A 03 00 70 79 57 9C 9C 50 97 99 A6 95 50 A9 9F A5 50 A4 98 99 A3 50 A0 A2 99 AA 95 50 9F 96 50 54 61 60 60 5E 1D 08 64 00 1F 02 74 18 0A 10 3C 03 18 04 1F F1 64 00 EC 03 1F 61 10 0A 18 01 35 70 72 A9 50 A4 98 95 50 A7 91 A9 5C 50 98 95 A2 9F 5E 5E 5E 50 A7 98 99 9C 95 50 A9 9F A5 57 A2 95 50 91 A4 50 99 A4 5C 50 A9 9F A5 50 9B 9E 9F A7 5E 5E 5E 03 00 70 7D 91 A9 92 95 50 A9 9F A5 57 94 50 91 9C A3 9F 50 9C 99 9B 95 50 A4 9F 50 97 9F 50 A3 95 95 50 A7 98 91 A4 57 A3 50 A5 A0 50 91 A4 50 A4 98 95 50 AA 9F 9F 6F 03 00 19 02 89 95 A3 02 19 02 7E 9F 02 1C 07 02 11 12 09 02 C7 03 F6 00 C7 03 F6 00 70 89 95 A3 5C 50 79 50 9B 9E 95 A7 50 A9 9F A5 50 A7 9F A5 9C 94 50 91 97 A2 95 95 50 A4 9F 50 97 9F 51 10 1E 50 50 77 A2 95 91 A4 5C 50 97 A2 95 91 A4 5C 50 97 A2 95 91 A4 51 03 00 70 89 9F A5 50 A2 95 91 9C 9C A9 50 9C 99 9B 95 50 A0 9C 91 A9 99 9E 97 50 97 91 9D 95 A3 50 9C 99 9B 95 50 A4 98 91 A4 5C 50 94 9F 9E 57 A4 50 A9 9F A5 5C 50 19 10 01 1B 04 1C 02 00 5E 03 00 70 7E 9F A7 5C 50 9D 91 9B 95 50 A3 A5 A2 95 50 A4 9F 50 97 95 A4 50 A4 98 95 50 9B 95 A9 50 A4 9F 50 A4 98 95 50 AA 9F 9F 50 96 A2 9F 9D 50 9D A9 50 91 A3 A3 99 A3 A4 91 9E A4 5C 50 71 92 92 9F A4 A4 5E 13 18 04 04 24 03 08 58 06 F6 00 04 03 00 1F 1F 7D 01 06 02",
+      "incoming_refs": [
+        "360038"
+      ],
+      "region": "podunk",
+      "interior_policy": "preserve_original_aliases",
+      "evidence": "Entrée de quête 360038 -> F601FC ; remplace le candidat décalé 3601F7.",
+      "text_fr_segments": [
+        {
+          "offset": 3,
+          "end": 37,
+          "original": "@Oh, is this the lost girl, Pippi?",
+          "french": "@Oh, c'est Pippi, la fille qui avait disparu ?"
+        },
+        {
+          "offset": 39,
+          "end": 64,
+          "original": "@Well, that's just great!",
+          "french": "@Quelle bonne nouvelle !"
+        },
+        {
+          "offset": 67,
+          "end": 107,
+          "original": "  I knew you'd be a promising young man.",
+          "french": "  Je savais que tu étais un jeune plein d'avenir."
+        },
+        {
+          "offset": 109,
+          "end": 122,
+          "original": "  *Applause* ",
+          "french": "  *Bravo* "
+        },
+        {
+          "offset": 124,
+          "end": 134,
+          "original": "*applause*",
+          "french": "*bravo*"
+        },
+        {
+          "offset": 136,
+          "end": 169,
+          "original": "@What a relief, eh, pretty Pippi?",
+          "french": "@Quel soulagement, ma jolie Pippi !"
+        },
+        {
+          "offset": 171,
+          "end": 237,
+          "original": "@Now, don't forget to tell your mother that the mayor rescued you.",
+          "french": "@N'oublie pas de dire à ta maman que c'est le maire qui t'a sauvée."
+        },
+        {
+          "offset": 239,
+          "end": 252,
+          "original": "@As for you, ",
+          "french": "@Quant à toi, "
+        },
+        {
+          "offset": 255,
+          "end": 258,
+          "original": "...",
+          "french": "..."
+        },
+        {
+          "offset": 262,
+          "end": 296,
+          "original": "@I'll give you this prize of $100.",
+          "french": "@Voici ta récompense de 100 dollars."
+        },
+        {
+          "offset": 323,
+          "end": 375,
+          "original": "@By the way, hero... while you're at it, you know...",
+          "french": "@Au fait, héros... tant que tu y es..."
+        },
+        {
+          "offset": 377,
+          "end": 431,
+          "original": "@Maybe you'd also like to go see what's up at the zoo?",
+          "french": "@Veux-tu aussi voir ce qui se passe au zoo ?"
+        },
+        {
+          "offset": 435,
+          "end": 438,
+          "original": "Yes",
+          "french": "Oui"
+        },
+        {
+          "offset": 441,
+          "end": 443,
+          "original": "No",
+          "french": "Non"
+        },
+        {
+          "offset": 459,
+          "end": 494,
+          "original": "@Yes, I knew you would agree to go!",
+          "french": "@Je savais que tu accepterais !"
+        },
+        {
+          "offset": 496,
+          "end": 518,
+          "original": "  Great, great, great!",
+          "french": "  Parfait, parfait, parfait !"
+        },
+        {
+          "offset": 520,
+          "end": 573,
+          "original": "@You really like playing games like that, don't you, ",
+          "french": "@Tu aimes vraiment jouer à ces jeux, hein, "
+        },
+        {
+          "offset": 581,
+          "end": 582,
+          "original": ".",
+          "french": "."
+        },
+        {
+          "offset": 584,
+          "end": 652,
+          "original": "@Now, make sure to get the key to the zoo from my assistant, Abbott.",
+          "french": "@Va chercher la clé du zoo auprès de mon adjoint, Abbott."
+        }
+      ]
+    },
+    {
+      "id": "380F4C",
+      "offset": "380F4C",
+      "raw_hex": "04 20 03 04 7C 03 19 23 40 00 01 01 00 1F 16 40 00 00 70 78 99 51 50 10 0F 79 57 9D 50 80 99 A0 A0 99 5E 03 00 70 79 57 9D 50 9C 9F A3 A4 5E 5E 5E 10 3C 50 89 9F A5 57 A2 95 50 91 50 92 A2 91 A6 95 50 92 9F A9 5C 50 91 A2 95 9E 57 A4 50 A9 9F A5 6F 00 19 02 89 95 A3 02 19 02 7E 9F 02 1C 07 02 11 12 09 02 BF 0F F8 00 EB 0F F8 00 0A EB 0F F8 00",
+      "incoming_refs": [
+        "380F42"
+      ],
+      "region": "podunk",
+      "interior_policy": "preserve_original_aliases",
+      "evidence": "literal_pointer",
+      "text_fr_segments": [
+        {
+          "offset": 18,
+          "end": 23,
+          "original": "@Hi! ",
+          "french": "@Salut ! "
+        },
+        {
+          "offset": 25,
+          "end": 35,
+          "original": "I'm Pippi.",
+          "french": "Je m'appelle Pippi."
+        },
+        {
+          "offset": 37,
+          "end": 49,
+          "original": "@I'm lost...",
+          "french": "@Je suis perdue..."
+        },
+        {
+          "offset": 51,
+          "end": 83,
+          "original": " You're a brave boy, aren't you?",
+          "french": " Tu es courageux, n'est-ce pas ?"
+        },
+        {
+          "offset": 86,
+          "end": 89,
+          "original": "Yes",
+          "french": "Oui"
+        },
+        {
+          "offset": 92,
+          "end": 94,
+          "original": "No",
+          "french": "Non"
+        }
+      ]
+    },
+    {
+      "id": "380FEB",
+      "offset": "380FEB",
+      "raw_hex": "70 89 9F A5 57 A2 95 50 A2 95 91 9C 9C A9 50 92 A2 91 A6 95 5E 03 00 70 80 A2 9F 9D 99 A3 95 50 A7 95 50 93 91 9E 50 9D 95 95 A4 50 91 97 91 99 9E 50 A3 9F 9D 95 A4 99 9D 95 5C 50 9F 9B 91 A9 6F 00 19 02 89 95 A3 02 19 02 7E 9F 02 1C 07 02 11 12 09 02 4C 10 F8 00 11 11 F8 00 0A 11 11 F8 00",
+      "incoming_refs": [
+        "380FB6",
+        "380FBB"
+      ],
+      "region": "podunk",
+      "interior_policy": "preserve_original_aliases",
+      "evidence": "literal_pointer",
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "end": 21,
+          "original": "@You're really brave.",
+          "french": "@Tu es vraiment courageux."
+        },
+        {
+          "offset": 23,
+          "end": 65,
+          "original": "@Promise we can meet again sometime, okay?",
+          "french": "@Promets qu'on se reverra un jour, d'accord ?"
+        },
+        {
+          "offset": 68,
+          "end": 71,
+          "original": "Yes",
+          "french": "Oui"
+        },
+        {
+          "offset": 74,
+          "end": 76,
+          "original": "No",
+          "french": "Non"
+        }
+      ]
+    },
+    {
+      "id": "371E94",
+      "offset": "371E94",
+      "raw_hex": "70 78 9F A7 57 A3 50 A4 98 95 50 73 91 9E 91 A2 A9 6F 03 00 70 71 98 5E 5E 5E 10 0F 50 93 A5 A4 95 50 A0 95 A4 A3 5C 50 91 A2 95 9E 57 A4 50 A4 98 95 A9 6F 00 19 02 89 95 A3 02 19 02 7E 9F 02 1C 07 02 11 12 09 02 60 D2 F8 00 E3 1E F7 00 70 83 A4 A5 A0 99 94 50 98 95 91 94 51 13 02",
+      "incoming_refs": [
+        "371C7C"
+      ],
+      "region": "podunk",
+      "interior_policy": "preserve_original_aliases",
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "end": 18,
+          "original": "@How's the Canary?",
+          "french": "@Comment va le canari ?"
+        },
+        {
+          "offset": 20,
+          "end": 26,
+          "original": "@Ah...",
+          "french": "@Ah..."
+        },
+        {
+          "offset": 28,
+          "end": 52,
+          "original": " cute pets, aren't they?",
+          "french": " ce sont de mignons compagnons, n'est-ce pas ?"
+        },
+        {
+          "offset": 55,
+          "end": 58,
+          "original": "Yes",
+          "french": "Oui"
+        },
+        {
+          "offset": 61,
+          "end": 63,
+          "original": "No",
+          "french": "Non"
+        },
+        {
+          "offset": 79,
+          "end": 92,
+          "original": "@Stupid head!",
+          "french": "@Imbécile !"
+        }
+      ]
+    },
+    {
+      "id": "371C72",
+      "offset": "371C72",
+      "raw_hex": "06 B7 00 F2 1E F7 00 06 5E 03 94 1E F7 00 70 7C 9F 9F 9B 50 96 9F A2 50 A9 9F A5 A2 A3 95 9C 96 5C 50 91 9C 9C 50 A4 98 95 50 91 9E 99 9D 91 9C A3 50 98 91 A6 95 50 95 A3 93 91 A0 95 94 5E 03 00 70 7F 9E 9C A9 50 A4 98 99 A3 50 1C 05 A8 50 99 A3 50 9C 95 96 A4 5E 03 00 70 87 91 9E A4 50 A4 9F 50 92 A5 A9 50 99 A4 6F 00 19 02 89 95 A3 02 19 02 7E 9F 02 1C 07 02 11 12 09 02 FC 1C F7 00 C9 1D F7 00 0A C9 1D F7 00",
+      "incoming_refs": [
+        "202734"
+      ],
+      "region": "podunk",
+      "interior_policy": "preserve_original_aliases",
+      "text_fr_segments": [
+        {
+          "offset": 14,
+          "end": 63,
+          "original": "@Look for yourself, all the animals have escaped.",
+          "french": "@Regarde, les animaux se sont enfuis."
+        },
+        {
+          "offset": 65,
+          "end": 76,
+          "original": "@Only this ",
+          "french": "@Il ne reste que ce "
+        },
+        {
+          "offset": 79,
+          "end": 88,
+          "original": " is left.",
+          "french": "."
+        },
+        {
+          "offset": 90,
+          "end": 106,
+          "original": "@Want to buy it?",
+          "french": "@Tu veux l'acheter ?"
+        },
+        {
+          "offset": 109,
+          "end": 112,
+          "original": "Yes",
+          "french": "Oui"
+        },
+        {
+          "offset": 115,
+          "end": 117,
+          "original": "No",
+          "french": "Non"
+        }
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "legacy",
+      "start": "3FF920",
+      "end": "3FF9E0"
+    },
+    {
+      "id": "podunk",
+      "start": "31F410",
+      "end": "31FAC8"
     }
   ]
 }

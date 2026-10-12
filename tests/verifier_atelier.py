@@ -4,6 +4,7 @@ import copy
 import csv
 import hashlib
 import json
+import shutil
 import sys
 import tempfile
 from pathlib import Path
@@ -84,6 +85,22 @@ def main():
         else:
             raise AssertionError('Audit périmé accepté')
         assert not output.exists()
+
+        # Écriture réelle dans une copie isolée : sauvegarde et plan de déplacement conservés.
+        isolated=Path(folder)/'projet';(isolated/'traduction').mkdir(parents=True)
+        for name in atelier.FILES.values():
+            shutil.copy2(ROOT/'traduction'/name,isolated/'traduction'/name)
+        moved=next(row for row in rows if row['type']=='relocated')
+        moved=copy.deepcopy(moved);moved['francais']='@Essai'
+        write([moved])
+        original_plan=json.loads((isolated/'traduction/textes_relocalises_fr.json').read_text())
+        with patch.object(atelier,'ROOT',isolated):
+            atelier.import_csv(path,apply=True)
+        modified_plan=json.loads((isolated/'traduction/textes_relocalises_fr.json').read_text())
+        for key in original_plan:
+            if key!='blocks':assert original_plan[key]==modified_plan[key]
+        saved=list((isolated/'sauvegardes_import').glob('*/textes_relocalises_fr.json'))
+        assert len(saved)==1 and json.loads(saved[0].read_text())==original_plan
     after = {name: hashlib.sha256((ROOT / 'traduction' / name).read_bytes()).hexdigest()
              for name in atelier.FILES.values()}
     assert before == after, 'Sources modifiées pendant les refus ou l’aller-retour'
