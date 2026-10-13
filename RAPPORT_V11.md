@@ -18,6 +18,16 @@
 
 La fusion a été vérifiée structurellement : aucune collision entre V09 et V10, aucune collision entre les nouveaux blocs V11 et les modifications précédentes. Les 27 nouveaux blocs ont été vérifiés sur la ROM source : limites de longueur respectées, **41 références littérales** pointent vers leurs débuts, aucune référence littérale détectée vers leur intérieur. Cinq autres candidats ont été écartés par prudence à cause de références internes possibles.
 
+## Application automatisée (locale)
+
+L'[outil d'application](traduction/appliquer_v11.py) vérifie l'empreinte de la ROM source et refuse de l'écraser :
+
+```bash
+python traduction/appliquer_v11.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v11.sfc"
+```
+
+Pour une version sans accents, remplacer `accents` par `ascii`.
+
 ## Vérification et reproduction
 
 Le [script de construction](traduction/construire_v11.py) vérifie la ROM d'origine, les textes sources, les pointeurs, les collisions et l'aller-retour IPS. Il reconstruit les patchs à partir des fichiers V09 et V10 présents dans le dépôt :
