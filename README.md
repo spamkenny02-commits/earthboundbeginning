@@ -1,20 +1,24 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V12 (traduction partielle)
+## Version actuelle : V13 (traduction partielle)
 
-La **V12 autonome** reprend toutes les modifications des V09, V10 et V11, avec **18 nouveaux dialogues**. Elle contient donc **95 dialogues supplémentaires depuis V09** (50 + 27 + 18), sans compter les brouillons non intégrés.
+La **V13 autonome** contient les modifications V09, V10, V11, V12 et **141 nouveaux blocs de texte**. Depuis V09, cela représente **236 blocs supplémentaires** (50 + 27 + 18 + 141).
 
-- [Patch V12 avec accents](patches/EarthBound_Beginnings_FR_v12_accents.ips)
-- [Patch V12 sans accents](patches/EarthBound_Beginnings_FR_v12_ascii.ips)
-- [Rapport V12](RAPPORT_V12.md) et [tests automatisés](tests/verifier_fusion_v12.py)
+- [Patch V13 avec accents](patches/EarthBound_Beginnings_FR_v13_accents.ips)
+- [Patch V13 sans accents](patches/EarthBound_Beginnings_FR_v13_ascii.ips)
+- [Rapport V13](RAPPORT_V13.md) et [test GitHub Actions réussi](https://github.com/spamkenny02-commits/earthboundbeginning/actions/runs/38471016747)
 
-**Appliquer un seul patch V12 directement à la ROM USA 1.2 originale, sans passer par V09, V10 ou V11.**
+**Appliquer uniquement V13 directement sur la ROM originale USA 1.2** : les patchs précédents sont inclus.
 
 ```sh
-python traduction/appliquer_v12.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v12.sfc"
+python traduction/appliquer_v13.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v13.sfc"
 ```
 
-Le contrôle de fusion V12 sur GitHub Actions est réussi. **La progression complète en émulateur n'est pas encore validée** et des textes/graphismes anglais subsistent.
+Les **141 textes sources et 196 pointeurs HiROM** ont été contrôlés localement ; les deux variantes IPS ont passé les tests automatisés de non-régression. **Les essais de parcours sous émulateur restent à réaliser.**
+
+## Historique des patchs V10 à V12
+
+La [V12](RAPPORT_V12.md), la [V11](RAPPORT_V11.md) et la [V10](RAPPORT_V10_ADDON.md) restent archivées dans `patches/` pour comparaison et retour arrière. Elles ne sont pas nécessaires à l'installation de V13.
 
 ## Historique V09 et atelier
 
