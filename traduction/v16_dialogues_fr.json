@@ -1,0 +1,848 @@
+{
+  "version": "v16",
+  "base": "v15",
+  "notes": "74 scripts simples multiligne ; textes français à taille fixe, commandes conservées. Les sauts de ligne et pointeurs seront vérifiés sur la ROM USA 1.2.",
+  "entries": [
+    {
+      "id": "33A940",
+      "english": "@<Podunk>\n@Quiet days and beautiful flowers.[13][02]",
+      "translations": [
+        "<Podunk>",
+        "Jours paisibles et jolies fleurs."
+      ],
+      "pointer_refs": [
+        "0F0F33"
+      ]
+    },
+    {
+      "id": "33AD70",
+      "english": "@1st floor: Service Desk\n@2nd floor: Pharmacy\n@3rd floor: Sports and Athletics\n@4th floor: Food Court\n@5th floor: Pets[13][02]",
+      "translations": [
+        "1er : Accueil",
+        "2e : Pharmacie",
+        "3e : Sports",
+        "4e : Restaurant",
+        "5e : Animaux"
+      ],
+      "pointer_refs": [
+        "0F19F6"
+      ]
+    },
+    {
+      "id": "33AF88",
+      "english": "@<Common Rabbit>\n@Scientists around the world agree they're super cute.[13][02]",
+      "translations": [
+        "<Lapin commun>",
+        "Les savants sont tous d'accord : il est adorable."
+      ],
+      "pointer_refs": [
+        "0F1A26"
+      ]
+    },
+    {
+      "id": "33AFD2",
+      "english": "@<Uncommon Tiger>\n@Contrary to popular belief, they change their stripes whenever they get dirty.[13][02]",
+      "translations": [
+        "<Tigre rare>",
+        "On dit qu'il change de rayures quand il se salit."
+      ],
+      "pointer_refs": [
+        "0F1A9D"
+      ]
+    },
+    {
+      "id": "33B036",
+      "english": "@<African Elephant>\n@Of all the animals in this zoo, they're the worst jumpers.[13][02]",
+      "translations": [
+        "<Éléphant>",
+        "Au zoo, c'est le pire en saut."
+      ],
+      "pointer_refs": [
+        "0F1A2A"
+      ]
+    },
+    {
+      "id": "33B088",
+      "english": "@<Common Alligator>\n@They love water, but have a bad habit of running late.[13][02]",
+      "translations": [
+        "<Alligator commun>",
+        "Il aime l'eau, mais arrive toujours en retard."
+      ],
+      "pointer_refs": [
+        "0F197C"
+      ]
+    },
+    {
+      "id": "33B0D6",
+      "english": "@<Giant Panda>\n@One of the pickiest eaters of the animal kingdom.[13][02]",
+      "translations": [
+        "<Panda géant>",
+        "Un des animaux les plus difficiles à nourrir."
+      ],
+      "pointer_refs": [
+        "0F1980"
+      ]
+    },
+    {
+      "id": "33B11A",
+      "english": "@<Humboldt Penguin>\n@Native to Chile and Peru.\n@Not to be confused with the Humble Penguin.\n@They're notorious braggarts.[13][02]",
+      "translations": [
+        "<Manchot Humboldt>",
+        "Vient du Chili et Pérou.",
+        "À ne pas confondre avec le manchot modeste.",
+        "Il aime se vanter."
+      ],
+      "pointer_refs": [
+        "0F1A2E"
+      ]
+    },
+    {
+      "id": "33B198",
+      "english": "@<Eastern Gorilla>\n@Because a gorilla's nose print is as unique as a person's fingerprints,\n@if they commit a crime you can see the evidence all over their face.[13][02]",
+      "translations": [
+        "<Gorille est>",
+        "Son nez est unique, comme nos empreintes.",
+        "S'il commet un crime, la preuve est sur son visage."
+      ],
+      "pointer_refs": [
+        "0F1AA1"
+      ]
+    },
+    {
+      "id": "33B23D",
+      "english": "@<Lesser Flamingo>\n@Their pink coloration is gained from their diets.\n@Research to find other colors of food for them is ongoing.[13][02]",
+      "translations": [
+        "<Flamant nain>",
+        "Sa couleur rose vient de son alimentation.",
+        "On cherche comment sa nourriture changerait sa couleur."
+      ],
+      "pointer_refs": [
+        "0F1A32"
+      ]
+    },
+    {
+      "id": "33B2C2",
+      "english": "@<Spotted Hyena>\n@More closely related to cats than dogs, they love a good joke.[13][02]",
+      "translations": [
+        "<Hyène rayée>",
+        "Plus proche du chat que du chien, elle aime rire."
+      ],
+      "pointer_refs": [
+        "0F1A36"
+      ]
+    },
+    {
+      "id": "33B336",
+      "english": "@Ohoho!\n@You youngsters could learn a thing or two from my grandkids.\n@Remember to cherish every new memory and experience.[13][02]",
+      "translations": [
+        "Hoho !",
+        "Les jeunes devraient écouter mes petits-enfants.",
+        "Chéris chaque souvenir et chaque découverte."
+      ],
+      "pointer_refs": [
+        "203EFA"
+      ]
+    },
+    {
+      "id": "33B5CD",
+      "english": "@My son faked being sick to get out of school.\n@So I faked being sick to get out of work!\n@Seeing how happy he is makes it all worth it.\n@Don't you think I'm a great father?[13][02]",
+      "translations": [
+        "Mon fils a feint d'être malade pour l'école.",
+        "J'ai fait pareil pour éviter le boulot !",
+        "Sa joie vaut bien ce petit mensonge.",
+        "Je suis un bon père, non ?"
+      ],
+      "pointer_refs": [
+        "203F0B"
+      ]
+    },
+    {
+      "id": "33B67F",
+      "english": "@I've heard there are monkeys who can sing!\n@But I've also heard that monkeys can lie.\n@Would a monkey lie about being able to sing, do you think?[13][02]",
+      "translations": [
+        "On dit que des singes savent chanter !",
+        "Mais ils savent aussi mentir.",
+        "Un singe mentirait-il sur son talent de chanteur ?"
+      ],
+      "pointer_refs": [
+        "203F1C"
+      ]
+    },
+    {
+      "id": "33C256",
+      "english": "@Arf arf.\n@(Excuse me. Sometimes dogs just can't resist barking.)[13][02]",
+      "translations": [
+        "Ouaf !",
+        "(Pardon. Un chien doit parfois aboyer.)"
+      ],
+      "pointer_refs": [
+        "204406"
+      ]
+    },
+    {
+      "id": "33CBDD",
+      "english": "@If you need a place to rest your head...\n@and you're not a ghost, zombie, or monster...\n@Come visit us at the cute house to the south![13][02]",
+      "translations": [
+        "Si tu cherches un endroit où dormir...",
+        "si tu n'es ni fantôme ni zombie ni monstre...",
+        "Viens dans la jolie maison au sud !"
+      ],
+      "pointer_refs": [
+        "204B65"
+      ]
+    },
+    {
+      "id": "33D1BD",
+      "english": "@<Youngtown>\n@New beginnings and room to grow![13][02]",
+      "translations": [
+        "<Youngtown>",
+        "Un nouveau départ, de l'avenir !"
+      ],
+      "pointer_refs": [
+        "0F120A"
+      ]
+    },
+    {
+      "id": "33EEAD",
+      "english": "@Sorry to hear that.\n@Please come again sometime.[13][02]",
+      "translations": [
+        "Quel dommage.",
+        "Reviens nous voir un jour."
+      ],
+      "pointer_refs": [
+        "33EE06",
+        "33EE0B"
+      ]
+    },
+    {
+      "id": "349F66",
+      "english": "@Thank you very much.\n@Please visit us again.[13][02]",
+      "translations": [
+        "Merci beaucoup.",
+        "Reviens nous voir."
+      ],
+      "pointer_refs": [
+        "349FD8"
+      ]
+    },
+    {
+      "id": "34A676",
+      "english": "@Hey, kid!\n@How are you doing?[13][02]",
+      "translations": [
+        "Hé, toi !",
+        "Comment ça va ?"
+      ],
+      "pointer_refs": [
+        "34A542"
+      ]
+    },
+    {
+      "id": "34B03D",
+      "english": "@There are many wells east of town.\n@Rumor has it that the sound of another world can be heard from them.[13][02]",
+      "translations": [
+        "Des puits se trouvent à l'est.",
+        "On dit qu'on y entend un autre monde."
+      ],
+      "pointer_refs": [
+        "2062A3"
+      ]
+    },
+    {
+      "id": "34B802",
+      "english": "@Good bye!\n@Be careful.[13][02]",
+      "translations": [
+        "Salut !",
+        "Prudence."
+      ],
+      "pointer_refs": [
+        "34B513"
+      ]
+    },
+    {
+      "id": "34FA3C",
+      "english": "@Are you sure you don't need that?\n@Please consider us next time.[13][02]",
+      "translations": [
+        "Tu n'en veux vraiment pas ?",
+        "Reviens nous voir plus tard."
+      ],
+      "pointer_refs": [
+        "3669B2"
+      ]
+    },
+    {
+      "id": "350FB0",
+      "english": "@The telescopes?\n@Take this elevator to the top of the lookout tower.[13][02]",
+      "translations": [
+        "Télescopes ?",
+        "Prends l'ascenseur vers le sommet de la tour."
+      ],
+      "pointer_refs": [
+        "205F1E"
+      ]
+    },
+    {
+      "id": "350FF8",
+      "english": "@I once saw smoke rising from one of the islands off the coast.\n@I wonder if anyone lives there.\n@I wish I had looked through that telescope...[13][02]",
+      "translations": [
+        "J'ai vu de la fumée sur une île au large.",
+        "Quelqu'un y vit-il ?",
+        "J'aurais dû regarder dans le télescope..."
+      ],
+      "pointer_refs": [
+        "205CCB"
+      ]
+    },
+    {
+      "id": "3518D5",
+      "english": "@Everything's been nuts since black clouds appeared over the mountains...\n@This town and its people have all started to go crazy.[13][02]",
+      "translations": [
+        "Tout va mal depuis les nuages noirs sur les monts...",
+        "La ville et ses habitants deviennent fous."
+      ],
+      "pointer_refs": [
+        "204758"
+      ]
+    },
+    {
+      "id": "351E9B",
+      "english": "@Hey you!\n@You're not with the BB Gang, are you?[13][02]",
+      "translations": [
+        "Hé toi !",
+        "Tu n'es pas du gang BB, hein ?"
+      ],
+      "pointer_refs": [
+        "20499A"
+      ]
+    },
+    {
+      "id": "351F92",
+      "english": "@Time has passed, you are more experienced and hopefully a little wiser...\n@But you are still just a kid.[13][02]",
+      "translations": [
+        "Le temps a passé, tu as appris bien des choses...",
+        "Mais tu es encore un enfant."
+      ],
+      "pointer_refs": [
+        "2049CD"
+      ]
+    },
+    {
+      "id": "351FFE",
+      "english": "@You should go to the Harbor before you head to Mt. Itoi.\n@I mean it.[13][02]",
+      "translations": [
+        "Va au port avant de partir vers le mont Itoi.",
+        "Vraiment."
+      ],
+      "pointer_refs": [
+        "205AAB"
+      ]
+    },
+    {
+      "id": "3521F5",
+      "english": "@While walking in the desert, I saw a cactus with a face!\n@Then I ran for the hills screaming as loud as I could.[13][02]",
+      "translations": [
+        "Dans le désert, j'ai vu un cactus avec un visage !",
+        "J'ai fui en criant à pleins poumons."
+      ],
+      "pointer_refs": [
+        "205B66"
+      ]
+    },
+    {
+      "id": "352934",
+      "english": "@He...\n@...might never come back.[13][02]",
+      "translations": [
+        "Il...",
+        "...il ne reviendra pas."
+      ],
+      "pointer_refs": [
+        "205E96"
+      ]
+    },
+    {
+      "id": "352F62",
+      "english": "@Zombies getting kidnapped...\n@Animals roaming the city streets...\n@All kinds of crazy stuff![13][02]",
+      "translations": [
+        "Des zombies enlevés...",
+        "Des animaux dans les rues...",
+        "Quel monde de fous !"
+      ],
+      "pointer_refs": [
+        "352F55"
+      ]
+    },
+    {
+      "id": "353055",
+      "english": "@How are we going to get the rocks off the train tracks?\n@If we let city hall take care of it, they'll be there well into next year![13][02]",
+      "translations": [
+        "Comment retirer ces rochers des rails ?",
+        "Si la mairie s'en charge, ce sera fait l'an prochain !"
+      ],
+      "pointer_refs": [
+        "353000",
+        "353051"
+      ]
+    },
+    {
+      "id": "353284",
+      "english": "@You know...\n@If it were up to me...\n@I'd probably use a Duncan Factory rocket to blow up the rocks on the tracks.[13][02]",
+      "translations": [
+        "Tu sais...",
+        "Si je décidais...",
+        "Je ferais sauter ces rochers avec une fusée Duncan."
+      ],
+      "pointer_refs": [
+        "35323C",
+        "353280"
+      ]
+    },
+    {
+      "id": "3532FA",
+      "english": "@Duncan Enterprises is trying to open a strip joint in this town...\n@I'm absolutely against it![13][02]",
+      "translations": [
+        "Duncan veut ouvrir un club de strip-tease ici...",
+        "Je m'y oppose totalement !"
+      ],
+      "pointer_refs": [
+        "202CA6"
+      ]
+    },
+    {
+      "id": "3533AC",
+      "english": "@My husband is an important man at Twinkle Elementary.\n@I never pack him a lunch from home.\n@He's so important, he never has time to eat![13][02]",
+      "translations": [
+        "Mon mari est important à l'école Twinkle.",
+        "Je ne lui fais jamais à manger.",
+        "Il est trop occupé pour manger !"
+      ],
+      "pointer_refs": [
+        "202CEA"
+      ]
+    },
+    {
+      "id": "353439",
+      "english": "@I've heard that many scary monsters lurk outside town.\n@I'm so worried about them stealing my money.[13][02]",
+      "translations": [
+        "On dit que des monstres rôdent hors de la ville.",
+        "J'ai peur qu'ils me volent mon argent."
+      ],
+      "pointer_refs": [
+        "202CB7"
+      ]
+    },
+    {
+      "id": "3534A1",
+      "english": "@Don't take me for an ordinary man.\n@Although I am an ordinary man.[13][02]",
+      "translations": [
+        "Ne me crois pas ordinaire.",
+        "Pourtant, je suis ordinaire."
+      ],
+      "pointer_refs": [
+        "202CFB"
+      ]
+    },
+    {
+      "id": "3537DC",
+      "english": "@The railroad tracks have been blocked by gigantic boulders!\n@The train cannot get past.[13][02]",
+      "translations": [
+        "D'énormes rochers bloquent les rails !",
+        "Le train est immobilisé."
+      ],
+      "pointer_refs": [
+        "35375D",
+        "3537D8"
+      ]
+    },
+    {
+      "id": "353837",
+      "english": "@I'd like to be a doctor, and help sick people...\n@And make lots of money doing it.[13][02]",
+      "translations": [
+        "Je veux soigner les gens en étant médecin...",
+        "Et gagner beaucoup d'argent."
+      ],
+      "pointer_refs": [
+        "2027DE"
+      ]
+    },
+    {
+      "id": "353962",
+      "english": "@The hotel in this town isn't any better than the one in Podunk.\n@And yet it's so expensive...[13][02]",
+      "translations": [
+        "L'hôtel d'ici ne vaut pas mieux que celui de Podunk.",
+        "Mais quel prix exorbitant..."
+      ],
+      "pointer_refs": [
+        "202811"
+      ]
+    },
+    {
+      "id": "353C89",
+      "english": "@You're way uglier than me!\n@You remind me of a noodlenoggin![13][02]",
+      "translations": [
+        "Tu es plus laid que moi !",
+        "Tu as une tête de nouille !"
+      ],
+      "pointer_refs": [
+        "353C65",
+        "353C6A"
+      ]
+    },
+    {
+      "id": "353D87",
+      "english": "@The gym teacher made me do extra push-ups again...\n@I'd rather do sit-ups though.[13][02]",
+      "translations": [
+        "Le prof de sport m'a encore donné des pompes...",
+        "Je préfère les abdos."
+      ],
+      "pointer_refs": [
+        "2029FE"
+      ]
+    },
+    {
+      "id": "353E1E",
+      "english": "@How can you get lost in your own school?\n@I just can't believe it.[13][02]",
+      "translations": [
+        "Comment te perdre dans ta propre école ?",
+        "Je n'en reviens pas."
+      ],
+      "pointer_refs": [
+        "202A0F"
+      ]
+    },
+    {
+      "id": "353E64",
+      "english": "@I'm hungry.\n@Let's do lunch.[13][02]",
+      "translations": [
+        "J'ai faim.",
+        "Allons manger."
+      ],
+      "pointer_refs": [
+        "202A20"
+      ]
+    },
+    {
+      "id": "353E84",
+      "english": "@<Don't take me for an ordinary man.>\n@...Is what my Dad likes to say all the time.[13][02]",
+      "translations": [
+        "<Je ne suis pas un homme banal.>",
+        "...C'est ce que mon père répète sans arrêt."
+      ],
+      "pointer_refs": [
+        "202A31"
+      ]
+    },
+    {
+      "id": "353EF7",
+      "english": "@Did you see a strange man in the science lab?\n@Well... I saw him.[13][02]",
+      "translations": [
+        "Tu as vu cet homme bizarre au labo ?",
+        "Eh bien... oui."
+      ],
+      "pointer_refs": [
+        "2028FF"
+      ]
+    },
+    {
+      "id": "353F3C",
+      "english": "@Have you played Super Mario Bros. 7?\n@I'm still stuck on the third one.\n@It's really tough![13][02]",
+      "translations": [
+        "Tu as joué à Super Mario Bros. 7 ?",
+        "Je bloque encore au troisième.",
+        "C'est trop dur !"
+      ],
+      "pointer_refs": [
+        "2028EE"
+      ]
+    },
+    {
+      "id": "3553AF",
+      "english": "@Ride the train...\n@Or you will have a hard time like me.[13][02]",
+      "translations": [
+        "Prends le train.",
+        "Sinon tu auras des ennuis comme moi."
+      ],
+      "pointer_refs": [
+        "202C0D"
+      ]
+    },
+    {
+      "id": "355478",
+      "english": "@I heard on the radio that major panics are breaking out everywhere.\n@I will protect this station no matter what![13][02]",
+      "translations": [
+        "La radio parle de paniques partout dans le pays.",
+        "Je défendrai cette gare coûte que coûte !"
+      ],
+      "pointer_refs": [
+        "202C40"
+      ]
+    },
+    {
+      "id": "36082B",
+      "english": "@Everyone's talking about a girl with special powers.\n@Is that you?[13][02]",
+      "translations": [
+        "On parle d'une fille aux pouvoirs spéciaux.",
+        "C'est toi ?"
+      ],
+      "pointer_refs": [
+        "360798"
+      ]
+    },
+    {
+      "id": "360FD7",
+      "english": "@The room rate at this hotel is so inexpensive...\n@And that's not where it stops being cheap either.[13][02]",
+      "translations": [
+        "Les chambres de cet hôtel coûtent peu...",
+        "Et la qualité aussi !"
+      ],
+      "pointer_refs": [
+        "203713"
+      ]
+    },
+    {
+      "id": "361217",
+      "english": "@I want to thank you again for your help.\n@Pippi is fine.[13][02]",
+      "translations": [
+        "Merci encore pour ton aide.",
+        "Pippi va bien."
+      ],
+      "pointer_refs": [
+        "36107A"
+      ]
+    },
+    {
+      "id": "36137B",
+      "english": "@The Canary Village is northwest from here.\n@It's a nice place to visit and the admission is free![13][02]",
+      "translations": [
+        "Le village des Canaris est au nord-ouest.",
+        "C'est joli, et l'entrée est gratuite !"
+      ],
+      "pointer_refs": [
+        "20327E"
+      ]
+    },
+    {
+      "id": "361AD4",
+      "english": "@Don't be so swellheaded!\n@Ha ha ha![13][02]",
+      "translations": [
+        "Ne sois pas fier !",
+        "Ha ha ha!"
+      ],
+      "pointer_refs": [
+        "361AC7"
+      ]
+    },
+    {
+      "id": "363C72",
+      "english": "@Snowman is a very cold place.\n@Try not to catch one![13][02]",
+      "translations": [
+        "Snowman est une ville glacée.",
+        "Évite le rhume !"
+      ],
+      "pointer_refs": [
+        "363AF7"
+      ]
+    },
+    {
+      "id": "36411D",
+      "english": "@High in the mountains lives an old man.\n@Legends say he hasn't had a cold in three hundred years.[13][02]",
+      "translations": [
+        "Un vieillard vit dans les montagnes.",
+        "Il paraît qu'il n'a pas eu de rhume depuis 300 ans."
+      ],
+      "pointer_refs": [
+        "204329"
+      ]
+    },
+    {
+      "id": "364182",
+      "english": "@The old man on top of the mountain is really friendly.\n@He'll give you as much stuff as you can possibly carry![13][02]",
+      "translations": [
+        "Le vieil homme sur la montagne est très gentil.",
+        "Il donne autant d'objets que tu peux porter !"
+      ],
+      "pointer_refs": [
+        "2043D3"
+      ]
+    },
+    {
+      "id": "364265",
+      "english": "@I wish that I had a bicycle.\n@It'd be so convenient...[13][02]",
+      "translations": [
+        "J'aimerais avoir un vélo.",
+        "Ce serait si pratique..."
+      ],
+      "pointer_refs": [
+        "2043F5"
+      ]
+    },
+    {
+      "id": "36429F",
+      "english": "@I am a man whose existence does not matter.\n@My importance is so small, that I may not be missed should I disappear.[13][02]",
+      "translations": [
+        "Je suis un homme sans importance.",
+        "Si je disparaissais, personne ne le remarquerait."
+      ],
+      "pointer_refs": [
+        "204417"
+      ]
+    },
+    {
+      "id": "364317",
+      "english": "@I've heard that some people have died from catching a cold.\n@Just a cold![13][02]",
+      "translations": [
+        "Certains sont morts d'un simple rhume, paraît-il.",
+        "Un rhume !"
+      ],
+      "pointer_refs": [
+        "204428"
+      ]
+    },
+    {
+      "id": "3645A2",
+      "english": "@I love this town.\n@I wouldn't be caught dead in Spookane!\n@Ha ha![13][02]",
+      "translations": [
+        "J'adore ici.",
+        "Jamais je n'irais à Spookane !",
+        "Haha !"
+      ],
+      "pointer_refs": [
+        "2044B0"
+      ]
+    },
+    {
+      "id": "36462E",
+      "english": "@Hey, pipsqueak!\n@Who said you could talk to me!?[13][02]",
+      "translations": [
+        "Hé, le nabot !",
+        "Qui t'a permis de me parler !?"
+      ],
+      "pointer_refs": [
+        "20455A"
+      ]
+    },
+    {
+      "id": "3646A2",
+      "english": "@This is a restaurant, tra-la-la...\n@A happy restaurant, ha-ha-ha...\n@Are you feeling happy?[13][02]",
+      "translations": [
+        "Voici un restaurant, tra-la-la...",
+        "Un resto joyeux, ha-ha-ha...",
+        "Es-tu heureux ?"
+      ],
+      "pointer_refs": [
+        "20456B",
+        "3539C4"
+      ]
+    },
+    {
+      "id": "364702",
+      "english": "@Hey, waiter...\n@Where's that menu I asked for?[13][02]",
+      "translations": [
+        "Hé, serveur...",
+        "Où est mon menu ?"
+      ],
+      "pointer_refs": [
+        "20457C"
+      ]
+    },
+    {
+      "id": "364750",
+      "english": "@I love life in the city!\n@I look so great in cute dresses![13][02]",
+      "translations": [
+        "J'aime la vie en ville !",
+        "Ces robes me vont si bien !"
+      ],
+      "pointer_refs": [
+        "2045AF"
+      ]
+    },
+    {
+      "id": "36478E",
+      "english": "@Things've gotten mighty dangerous in this town.\n@But it's still a whole lot better than Ellay, that's for sure.[13][02]",
+      "translations": [
+        "Cette ville est devenue très dangereuse.",
+        "Mais c'est toujours mieux qu'Ellay, crois-moi."
+      ],
+      "pointer_refs": [
+        "2045E2"
+      ]
+    },
+    {
+      "id": "36484C",
+      "english": "@Must have got away...\n@Guess I'll go catch some jaywalkers instead.[13][02]",
+      "translations": [
+        "Il a dû filer...",
+        "Je vais verbaliser des piétons à la place."
+      ],
+      "pointer_refs": [
+        "36483F"
+      ]
+    },
+    {
+      "id": "364893",
+      "english": "@He's a swindler!\n@Tell me right away if you see him![13][02]",
+      "translations": [
+        "Quel escroc !",
+        "Préviens-moi si tu le vois !"
+      ],
+      "pointer_refs": [
+        "364843",
+        "364848"
+      ]
+    },
+    {
+      "id": "364913",
+      "english": "@Must have lost her.\n@Couldn't help it...\n@Guess I'll just go and catch some speeders then...[13][02]",
+      "translations": [
+        "Je l'ai perdue.",
+        "Tant pis...",
+        "Je vais plutôt arrêter des chauffards..."
+      ],
+      "pointer_refs": [
+        "364906"
+      ]
+    },
+    {
+      "id": "364AA3",
+      "english": "@Leave me alone!\n@Can't you see I'm incognito?[13][02]",
+      "translations": [
+        "Laisse-moi !",
+        "Je suis incognito, tu vois ?"
+      ],
+      "pointer_refs": [
+        "3649DD"
+      ]
+    },
+    {
+      "id": "364AD4",
+      "english": "@Oof, my stomach's so full.\n@Buuurp![13][02]",
+      "translations": [
+        "Ouf, j'ai trop mangé.",
+        "Rôôôt !"
+      ],
+      "pointer_refs": [
+        "20466A"
+      ]
+    },
+    {
+      "id": "364AFB",
+      "english": "@Please don't dine-and-dash.\n@No offense.[13][02]",
+      "translations": [
+        "Ne pars pas sans payer.",
+        "Sans souci."
+      ],
+      "pointer_refs": [
+        "204648"
+      ]
+    },
+    {
+      "id": "364F04",
+      "english": "@This is a residential area,\n@please keep quiet.[13][02]",
+      "translations": [
+        "Quartier résidentiel :",
+        "silence, merci."
+      ],
+      "pointer_refs": [
+        "2046D0"
+      ]
+    }
+  ]
+}
