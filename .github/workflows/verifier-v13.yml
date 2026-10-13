@@ -1,0 +1,21 @@
+name: Verification patches v13
+on:
+  push:
+    paths:
+      - 'patches/EarthBound_Beginnings_FR_v12_*.ips'
+      - 'patches/EarthBound_Beginnings_FR_v13_*.ips'
+      - 'traduction/v13_dialogues_fr.json'
+      - 'traduction/construire_v13.py'
+      - 'tests/verifier_fusion_v13.py'
+      - '.github/workflows/verifier-v13.yml'
+  workflow_dispatch:
+jobs:
+  verifier-fusion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verifier la conservation de la V12 et les 141 textes
+        run: python tests/verifier_fusion_v13.py
