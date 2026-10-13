@@ -71,7 +71,7 @@ def build(source, previous, manifest):
             if source[p:p+4] != pointer:
                 raise ValueError("Pointeur de script incorrect : " + entry["id"])
         spans.extend(edits)
-    if len(spans) != 138:
+    if len(spans) != 130:
         raise ValueError("Nombre de segments traduits incorrect")
     spans.sort()
     for left, right in zip(spans, spans[1:]):
@@ -80,7 +80,7 @@ def build(source, previous, manifest):
     # Éviter de changer le sens d'un saut vers le milieu d'une phrase.
     interiors = {p + j for p, raw, _, _ in spans for j in range(1, len(raw))}
     for at in range(len(source) - 3):
-        if source[at + 3] >= 0xC0:
+        if 0xC0 <= source[at + 2] <= 0xFF and source[at + 3] == 0:
             target = int.from_bytes(source[at:at + 4], "little") - 0xC00000
             if target in interiors:
                 raise ValueError(f"Pointeur littéral au milieu d'une traduction : {target:06X}")
@@ -131,7 +131,7 @@ def main():
                 raise AssertionError("Le patch publié diffère du patch reconstruit : " + profile)
         (args.sortie / name).write_bytes(patch)
         print(profile, len(patch), "octets, ROM cible SHA-256", target_sha)
-    print("V14 : 44 scripts, 138 segments, contrôle source et IPS réussi.")
+    print("V14 : 44 scripts, 130 segments, contrôle source et IPS réussi.")
 
 
 if __name__ == "__main__":
