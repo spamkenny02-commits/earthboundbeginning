@@ -1,7 +1,7 @@
 {
   "version": "v16",
   "base": "v15",
-  "notes": "74 scripts simples multiligne ; textes français à taille fixe, commandes conservées. Les sauts de ligne et pointeurs seront vérifiés sur la ROM USA 1.2.",
+  "notes": "74 scripts, 168 segments de texte examinés, 11 exclus pour pointeurs intérieurs, 157 traductions sûres candidates. Trois sauts de ligne sur un octet identifiés dans la ROM originale.",
   "entries": [
     {
       "id": "33A940",
@@ -12,7 +12,8 @@
       ],
       "pointer_refs": [
         "0F0F33"
-      ]
+      ],
+      "newline_one_byte_mask": 1
     },
     {
       "id": "33AD70",
@@ -26,7 +27,8 @@
       ],
       "pointer_refs": [
         "0F19F6"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33AF88",
@@ -37,18 +39,20 @@
       ],
       "pointer_refs": [
         "0F1A26"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33AFD2",
       "english": "@<Uncommon Tiger>\n@Contrary to popular belief, they change their stripes whenever they get dirty.[13][02]",
       "translations": [
         "<Tigre rare>",
-        "On dit qu'il change de rayures quand il se salit."
+        "Contrary to popular belief, they change their stripes whenever they get dirty."
       ],
       "pointer_refs": [
         "0F1A9D"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B036",
@@ -59,7 +63,8 @@
       ],
       "pointer_refs": [
         "0F1A2A"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B088",
@@ -70,7 +75,8 @@
       ],
       "pointer_refs": [
         "0F197C"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B0D6",
@@ -81,7 +87,8 @@
       ],
       "pointer_refs": [
         "0F1980"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B11A",
@@ -94,7 +101,8 @@
       ],
       "pointer_refs": [
         "0F1A2E"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B198",
@@ -102,11 +110,12 @@
       "translations": [
         "<Gorille est>",
         "Son nez est unique, comme nos empreintes.",
-        "S'il commet un crime, la preuve est sur son visage."
+        "if they commit a crime you can see the evidence all over their face."
       ],
       "pointer_refs": [
         "0F1AA1"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B23D",
@@ -118,7 +127,8 @@
       ],
       "pointer_refs": [
         "0F1A32"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B2C2",
@@ -129,7 +139,8 @@
       ],
       "pointer_refs": [
         "0F1A36"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B336",
@@ -141,7 +152,8 @@
       ],
       "pointer_refs": [
         "203EFA"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B5CD",
@@ -149,12 +161,13 @@
       "translations": [
         "Mon fils a feint d'être malade pour l'école.",
         "J'ai fait pareil pour éviter le boulot !",
-        "Sa joie vaut bien ce petit mensonge.",
+        "Seeing how happy he is makes it all worth it.",
         "Je suis un bon père, non ?"
       ],
       "pointer_refs": [
         "203F0B"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B67F",
@@ -166,7 +179,8 @@
       ],
       "pointer_refs": [
         "203F1C"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33C256",
@@ -177,7 +191,8 @@
       ],
       "pointer_refs": [
         "204406"
-      ]
+      ],
+      "newline_one_byte_mask": 1
     },
     {
       "id": "33CBDD",
@@ -189,7 +204,8 @@
       ],
       "pointer_refs": [
         "204B65"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33D1BD",
@@ -200,7 +216,8 @@
       ],
       "pointer_refs": [
         "0F120A"
-      ]
+      ],
+      "newline_one_byte_mask": 1
     },
     {
       "id": "33EEAD",
@@ -212,7 +229,8 @@
       "pointer_refs": [
         "33EE06",
         "33EE0B"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "349F66",
@@ -223,7 +241,8 @@
       ],
       "pointer_refs": [
         "349FD8"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "34A676",
@@ -234,7 +253,8 @@
       ],
       "pointer_refs": [
         "34A542"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "34B03D",
@@ -245,7 +265,8 @@
       ],
       "pointer_refs": [
         "2062A3"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "34B802",
@@ -256,7 +277,8 @@
       ],
       "pointer_refs": [
         "34B513"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "34FA3C",
@@ -267,7 +289,8 @@
       ],
       "pointer_refs": [
         "3669B2"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "350FB0",
@@ -278,7 +301,8 @@
       ],
       "pointer_refs": [
         "205F1E"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "350FF8",
@@ -286,11 +310,12 @@
       "translations": [
         "J'ai vu de la fumée sur une île au large.",
         "Quelqu'un y vit-il ?",
-        "J'aurais dû regarder dans le télescope..."
+        "I wish I had looked through that telescope..."
       ],
       "pointer_refs": [
         "205CCB"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "3518D5",
@@ -301,7 +326,8 @@
       ],
       "pointer_refs": [
         "204758"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "351E9B",
@@ -312,7 +338,8 @@
       ],
       "pointer_refs": [
         "20499A"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "351F92",
@@ -323,29 +350,32 @@
       ],
       "pointer_refs": [
         "2049CD"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "351FFE",
       "english": "@You should go to the Harbor before you head to Mt. Itoi.\n@I mean it.[13][02]",
       "translations": [
         "Va au port avant de partir vers le mont Itoi.",
-        "Vraiment."
+        "I mean it."
       ],
       "pointer_refs": [
         "205AAB"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "3521F5",
       "english": "@While walking in the desert, I saw a cactus with a face!\n@Then I ran for the hills screaming as loud as I could.[13][02]",
       "translations": [
-        "Dans le désert, j'ai vu un cactus avec un visage !",
+        "While walking in the desert, I saw a cactus with a face!",
         "J'ai fui en criant à pleins poumons."
       ],
       "pointer_refs": [
         "205B66"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "352934",
@@ -356,7 +386,8 @@
       ],
       "pointer_refs": [
         "205E96"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "352F62",
@@ -368,7 +399,8 @@
       ],
       "pointer_refs": [
         "352F55"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353055",
@@ -380,7 +412,8 @@
       "pointer_refs": [
         "353000",
         "353051"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353284",
@@ -393,7 +426,8 @@
       "pointer_refs": [
         "35323C",
         "353280"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "3532FA",
@@ -404,7 +438,8 @@
       ],
       "pointer_refs": [
         "202CA6"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "3533AC",
@@ -416,7 +451,8 @@
       ],
       "pointer_refs": [
         "202CEA"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353439",
@@ -427,7 +463,8 @@
       ],
       "pointer_refs": [
         "202CB7"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "3534A1",
@@ -438,7 +475,8 @@
       ],
       "pointer_refs": [
         "202CFB"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "3537DC",
@@ -450,7 +488,8 @@
       "pointer_refs": [
         "35375D",
         "3537D8"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353837",
@@ -461,7 +500,8 @@
       ],
       "pointer_refs": [
         "2027DE"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353962",
@@ -472,7 +512,8 @@
       ],
       "pointer_refs": [
         "202811"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353C89",
@@ -484,7 +525,8 @@
       "pointer_refs": [
         "353C65",
         "353C6A"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353D87",
@@ -495,7 +537,8 @@
       ],
       "pointer_refs": [
         "2029FE"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353E1E",
@@ -506,7 +549,8 @@
       ],
       "pointer_refs": [
         "202A0F"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353E64",
@@ -517,7 +561,8 @@
       ],
       "pointer_refs": [
         "202A20"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353E84",
@@ -528,30 +573,33 @@
       ],
       "pointer_refs": [
         "202A31"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353EF7",
       "english": "@Did you see a strange man in the science lab?\n@Well... I saw him.[13][02]",
       "translations": [
-        "Tu as vu cet homme bizarre au labo ?",
+        "Did you see a strange man in the science lab?",
         "Eh bien... oui."
       ],
       "pointer_refs": [
         "2028FF"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "353F3C",
       "english": "@Have you played Super Mario Bros. 7?\n@I'm still stuck on the third one.\n@It's really tough![13][02]",
       "translations": [
-        "Tu as joué à Super Mario Bros. 7 ?",
+        "Have you played Super Mario Bros. 7?",
         "Je bloque encore au troisième.",
         "C'est trop dur !"
       ],
       "pointer_refs": [
         "2028EE"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "3553AF",
@@ -562,7 +610,8 @@
       ],
       "pointer_refs": [
         "202C0D"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "355478",
@@ -573,7 +622,8 @@
       ],
       "pointer_refs": [
         "202C40"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "36082B",
@@ -584,7 +634,8 @@
       ],
       "pointer_refs": [
         "360798"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "360FD7",
@@ -595,7 +646,8 @@
       ],
       "pointer_refs": [
         "203713"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "361217",
@@ -606,18 +658,20 @@
       ],
       "pointer_refs": [
         "36107A"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "36137B",
       "english": "@The Canary Village is northwest from here.\n@It's a nice place to visit and the admission is free![13][02]",
       "translations": [
-        "Le village des Canaris est au nord-ouest.",
+        "The Canary Village is northwest from here.",
         "C'est joli, et l'entrée est gratuite !"
       ],
       "pointer_refs": [
         "20327E"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "361AD4",
@@ -628,7 +682,8 @@
       ],
       "pointer_refs": [
         "361AC7"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "363C72",
@@ -639,18 +694,20 @@
       ],
       "pointer_refs": [
         "363AF7"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "36411D",
       "english": "@High in the mountains lives an old man.\n@Legends say he hasn't had a cold in three hundred years.[13][02]",
       "translations": [
-        "Un vieillard vit dans les montagnes.",
+        "High in the mountains lives an old man.",
         "Il paraît qu'il n'a pas eu de rhume depuis 300 ans."
       ],
       "pointer_refs": [
         "204329"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364182",
@@ -661,7 +718,8 @@
       ],
       "pointer_refs": [
         "2043D3"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364265",
@@ -672,7 +730,8 @@
       ],
       "pointer_refs": [
         "2043F5"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "36429F",
@@ -683,7 +742,8 @@
       ],
       "pointer_refs": [
         "204417"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364317",
@@ -694,7 +754,8 @@
       ],
       "pointer_refs": [
         "204428"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "3645A2",
@@ -706,7 +767,8 @@
       ],
       "pointer_refs": [
         "2044B0"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "36462E",
@@ -717,7 +779,8 @@
       ],
       "pointer_refs": [
         "20455A"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "3646A2",
@@ -730,7 +793,8 @@
       "pointer_refs": [
         "20456B",
         "3539C4"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364702",
@@ -741,7 +805,8 @@
       ],
       "pointer_refs": [
         "20457C"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364750",
@@ -752,18 +817,20 @@
       ],
       "pointer_refs": [
         "2045AF"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "36478E",
       "english": "@Things've gotten mighty dangerous in this town.\n@But it's still a whole lot better than Ellay, that's for sure.[13][02]",
       "translations": [
         "Cette ville est devenue très dangereuse.",
-        "Mais c'est toujours mieux qu'Ellay, crois-moi."
+        "But it's still a whole lot better than Ellay, that's for sure."
       ],
       "pointer_refs": [
         "2045E2"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "36484C",
@@ -774,7 +841,8 @@
       ],
       "pointer_refs": [
         "36483F"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364893",
@@ -786,7 +854,8 @@
       "pointer_refs": [
         "364843",
         "364848"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364913",
@@ -798,7 +867,8 @@
       ],
       "pointer_refs": [
         "364906"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364AA3",
@@ -809,7 +879,8 @@
       ],
       "pointer_refs": [
         "3649DD"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364AD4",
@@ -820,7 +891,8 @@
       ],
       "pointer_refs": [
         "20466A"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364AFB",
@@ -831,7 +903,8 @@
       ],
       "pointer_refs": [
         "204648"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "364F04",
@@ -842,7 +915,65 @@
       ],
       "pointer_refs": [
         "2046D0"
-      ]
+      ],
+      "newline_one_byte_mask": 0
+    }
+  ],
+  "excluded_interior_pointer_segments": [
+    {
+      "id": "33AFD2",
+      "segment_index": 1,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "33B198",
+      "segment_index": 2,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "33B5CD",
+      "segment_index": 2,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "350FF8",
+      "segment_index": 2,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "351FFE",
+      "segment_index": 1,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "3521F5",
+      "segment_index": 0,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "353EF7",
+      "segment_index": 0,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "353F3C",
+      "segment_index": 0,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "36137B",
+      "segment_index": 0,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "36411D",
+      "segment_index": 0,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "36478E",
+      "segment_index": 1,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
     }
   ]
 }
