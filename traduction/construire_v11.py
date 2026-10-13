@@ -152,7 +152,18 @@ def build(source, v09, v10, manifest):
             replacement = b'\x70' + encode(e['fr'], accents) + b'\x13\x02'
             target[pos:pos+len(old)] = replacement.ljust(len(old), b'\x00')
         target = bytes(target)
-        merged = diff_ips(source, target)
+        new_records = []
+        for e in entries:
+            pos, old = original_block(source, e)
+            replacement = b'\x70' + encode(e['fr'], accents) + b'\x13\x02'
+            new_records.append((pos, replacement.ljust(len(old), b'\x00')))
+        new_ips = bytearray(b'PATCH')
+        for pos, raw in sorted(new_records):
+            new_ips.extend(pos.to_bytes(3, 'big'))
+            new_ips.extend(len(raw).to_bytes(2, 'big'))
+            new_ips.extend(raw)
+        new_ips.extend(b'EOF')
+        merged = b'PATCH' + a[5:-3] + b[5:-3] + bytes(new_ips)[5:-3] + b'EOF'
         if apply_ips(source, merged) != target:
             raise AssertionError('Échec vérification aller-retour IPS ' + profile)
         result[profile] = (merged, {
