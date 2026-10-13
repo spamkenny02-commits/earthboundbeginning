@@ -1,0 +1,22 @@
+name: Verification patches v11
+on:
+  push:
+    paths:
+      - 'patches/EarthBound_Beginnings_FR_v09_*.ips'
+      - 'patches/EarthBound_Beginnings_FR_v10_addon_*.ips'
+      - 'patches/EarthBound_Beginnings_FR_v11_*.ips'
+      - 'traduction/v11_nouveaux_dialogues.json'
+      - 'traduction/construire_v11.py'
+      - 'tests/verifier_fusion_v11.py'
+      - '.github/workflows/verifier-v11.yml'
+  workflow_dispatch:
+jobs:
+  verifier-fusion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Tester la fusion IPS sans ROM commerciale
+        run: python tests/verifier_fusion_v11.py
