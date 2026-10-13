@@ -1,6 +1,25 @@
 # EarthBound Beginnings SNES — traduction française
 
-Intégration expérimentale v09 : **1 095 entrées intégrées et contrôlées**, introduction et 16 caractères accentués. Les quatre scènes bloquées de Podunk et le canari utilisent désormais des routines déplacées, avec `Oui / Non` et des phrases naturelles. Les tables de noms et de destinations extraites sont préparées. Un atelier CLI permet l’export et l’import CSV ainsi que la reconstruction vérifiée des deux variantes. Les deux variantes passent les contrôles binaires et les premiers essais depuis une nouvelle partie. Le téléphone est testé par une entrée isolée ; son parcours normal reste à vérifier. **La traduction reste partielle.**
+## Version actuelle : V12 (traduction partielle)
+
+La **V12 autonome** reprend toutes les modifications des V09, V10 et V11, avec **18 nouveaux dialogues**. Elle contient donc **95 dialogues supplémentaires depuis V09** (50 + 27 + 18), sans compter les brouillons non intégrés.
+
+- [Patch V12 avec accents](patches/EarthBound_Beginnings_FR_v12_accents.ips)
+- [Patch V12 sans accents](patches/EarthBound_Beginnings_FR_v12_ascii.ips)
+- [Rapport V12](RAPPORT_V12.md) et [tests automatisés](tests/verifier_fusion_v12.py)
+
+**Appliquer un seul patch V12 directement à la ROM USA 1.2 originale, sans passer par V09, V10 ou V11.**
+
+```sh
+python traduction/appliquer_v12.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v12.sfc"
+```
+
+Le contrôle de fusion V12 sur GitHub Actions est réussi. **La progression complète en émulateur n'est pas encore validée** et des textes/graphismes anglais subsistent.
+
+## Historique V09 et atelier
+
+
+Historique de l'intégration expérimentale v09 : **1 095 entrées intégrées et contrôlées**, introduction et 16 caractères accentués. Les quatre scènes bloquées de Podunk et le canari utilisent désormais des routines déplacées, avec `Oui / Non` et des phrases naturelles. Les tables de noms et de destinations extraites sont préparées. Un atelier CLI permet l’export et l’import CSV ainsi que la reconstruction vérifiée des deux variantes. Les deux variantes passent les contrôles binaires et les premiers essais depuis une nouvelle partie. Le téléphone est testé par une entrée isolée ; son parcours normal reste à vérifier. **La traduction reste partielle.**
 
 La sauvegarde intégrale de la TBL, des textes extraits et du repérage graphique est dans `sauvegardes/atelier_extraction_graphismes_v02.zip`. Décompresser à la racine pour retrouver tout le dossier `atelier/` (les outils et rapports principaux sont également visibles directement).
 
