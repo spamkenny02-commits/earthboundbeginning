@@ -1,0 +1,461 @@
+priorite;score_indicatif;id;anglais;texte_lisible;preuve;pointeurs_litteraux;risques;statut_relecture;traduction_proposee
+haute;111;33DAD6;"@There is a [1C 05 F0] on the ground.
+[1F 02 05][10 14]
+
+@But you can't carry any more.[13][02]";"There is a  on the ground.
+
+
+ But you can't carry any more.";literal_pointer;33D99D,33D9B6,33D9CF,33D9E8,33DA01,33DA1A,33DA33,33DA4C,33DA65,33DA7E,33DA97,33DAB0,33DAC9;;a_verifier;
+haute;111;33DBA3;"@[19 10 01][1B 04][1C 02 00] checked the ground.
+@But none of the mushrooms were ready for picking.[13][02]";"checked the ground.
+ But none of the mushrooms were ready for picking.";literal_pointer;33D994,33D9AD,33D9C6,33D9DF,33D9F8,33DA11,33DA2A,33DA43,33DA5C,33DA75,33DA8E,33DAA7,33DAC0;;a_verifier;
+haute;111;34B16F;"@I heard that my brother died with honor in combat.
+@With all our love, we held a funeral for him, and he was buried in our cemetery.
+@Now I will take his place alongside you.[03][18 04][08 C1 7B F8 00][18 07 02 00 00 00 00][1B 03 80 B2 F4 00][1B 06][0D 01][1B 04][1F C0 05 86 B2 F4 00 A2 B2 F4 00 BE B2 F4 00 DA B2 F4 00 F6 B2 F4 00][1F 00 00 7B][10 B4][1F 03][18 01 35]@(The Flying Man joins you.)[03][18 04][04 4B 02][02]";"I heard that my brother died with honor in combat.
+ With all our love, we held a funeral for him, and he was buried in our cemetery.
+ Now I will take his place alongside you. (The Flying Man joins you.)";literal_pointer;34B0FA,34B101,34B108,34B10F,34B116;;a_verifier;
+haute;111;35055D;"[1F 00 00 6B][10 DC][18 01 35]@(A dull roar begins to rise from the crowd.)
+@We paid to see a trio![10 0F]
+  There aren't three performers here![10 14]
+@B[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o![13][18 04][0A 55 06 F5 00]";"(A dull roar begins to rise from the crowd.)
+ We paid to see a trio!
+  There aren't three performers here!
+ Boooooooo!";literal_pointer;350269,350272,35027B,3502B4,3502BF,3502C8,3502D3,3502DC,3502E7;;a_verifier;
+haute;111;35A925;"[1B 00][06 7F 03 55 A9 F7 00][1B 01][19 19 00 00][1B 04][0B EC][1B 02 B6 C6 C7 00][19 10 01][0D 00]@[1C 02 00] took out the Telephone Card.
+[1F 90][1B 02 70 AA F5 00][1B 05][19 10 01][0D 00]@[1C 02 00] used the Telephone Card.
+[06 8E 03 C3 A9 F5 00][06 8F 03 C3 A9 F5 00][06 90 03 C3 A9 F5 00][06 91 03 C3 A9 F5 00][06 92 03 C3 A9 F5 00][06 93 03 C3 A9 F5 00][0A F2 A9 F5 00]";"took out the Telephone Card.
+  used the Telephone Card.";literal_pointer;203CBC,205AE2,205FFF,2064C7,20651C,2065A4,207176,207198,38A559,38A58C,38A5BF,38A5F2,38A625,38A658,38A68B,38A6BE,38A6F1,38A724;;a_verifier;
+haute;111;35E7AA;"[06 49 00 98 23 C7 00][06 4F 00 98 23 C7 00][0D 01][06 08 00 58 EB F5 00][08 16 EA F5 00]@I could give you a great hint for just $[1C 0A 00 00 00 00].
+@You'd like a hint, wouldn't you?
+[08 4F DD C7 00][11][12][09 02 04 E7 F5 00 30 E8 F5 00][0A 30 E8 F5 00]";"I could give you a great hint for just $.
+ You'd like a hint, wouldn't you?";literal_pointer;070199,35E75C,35E767,35E772,35E780,35E791,35E7A2;;a_verifier;
+haute;105;34B635;"@Do you need anything else from me?
+
+[0A F0 B4 F4 00]";Do you need anything else from me?;literal_pointer;34B55C,34B5FA,34B5FF,34B631,34B682,34B6B1,34B70B,34B7E3,34B7E8,34B7F5;;a_verifier;
+haute;105;351B80;"@Wanna buy it for only [1D 0A FD][1B 04]$[1C 0A 00 00 00 00]?
+[18 0A][19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 42 1C F5 00 BA 1C F5 00][0A BA 1C F5 00]";"Wanna buy it for only $?
+YesNo";literal_pointer;351B04,351B10,351B1C,351B28,351B34;;a_verifier;
+haute;105;354E4B;@C'mon, you gotta at least have SOME allowance, right?[13][02];C'mon, you gotta at least have SOME allowance, right?;literal_pointer;354CF1,354CF6,354D6E,354D73,354DAC,354EEC;;a_verifier;
+haute;105;35EE08;[1F 00 00 04][1A 0C 00 00 C1 00][18 01 08][19 02]PK Beam [8B][02][19 02]PK Beam [8C][02][19 02]PK Beam [8D][02][19 02]PK Beam _[02][19 02]PK Fire [8B][02][19 02]PK Fire [8C][02][19 02]PK Fire [8D][02][19 02]PK Fire _[02][19 02]PK Freeze [8B][02][19 02]PK Freeze [8C][02][19 02]PK Freeze [8D][02][19 02]PK Freeze _[02][19 02]PK Thunder[02][19 02]Thunder [8B] / [8C][02][19 02]Thunder [8D] / _[02][19 02]Thunder Fail[02][19 02]PK Flash [8B][02][19 02]PK Flash [8C][02][19 02]PK Flash [8D][02][19 02]PK Flash _[02][19 02]Starstorm [8B][02][19 02]Starstorm _[02][19 02]Lifeup [8B][02][19 02]Lifeup [8C][02][19 02]Lifeup [8D][02][19 02]Lifeup _[02][19 02]Healing [8B][02][19 02]Healing [8C][02][19 02]Healing [8D][02][19 02]Healing _[02][19 02]Shield [8B][02][19 02]Shield [8E][02][19 02]Shield [8C][02][19 02]Shield _[02][19 02]PSI Shield [8B][02][19 02]PSI Shield [8E][02][19 02]PSI Shield [8C][02][19 02]PSI Shield _[02][19 02]Def. down [8B][02][19 02]Def. down _[02][19 02]Hypnosis [8B][02][19 02]Hypnosis _[02][19 02]PSI Magnet [8B][02][19 02]PSI Magnet _[02][19 02]Paralysis [8B][02][19 02]Paralysis _[02][19 02]Brainshock [8B][02][19 02]Brainshock _[02][19 02]Counter PSI-Unit[02][19 02]HP Sucker[02][19 02]Hungry HP[02][19 02]Shield Killer[02][19 02]Teleport Box[02][19 02]Giygas' Attack[02][19 02]4th D-Slip[02][19 02]Darkness[02][19 02]PSI Block[02][19 02]Shield-off[02][19 02]Sing 1[02][19 02]Sing 2[02][19 02]Sing 3[02][19 02]Sing 4[02][19 02]Sing 5[02][19 02]Sing 6[02][19 02]Sing 7[02][19 02]Sing 8[02][19 02]Sing 9[02][19 02]Sing 10[02][19 02]Sing End[02][1C 0C 03][11][12][09 45 9D F2 F5 00 B0 F2 F5 00 C3 F2 F5 00 D6 F2 F5 00 E9 F2 F5 00 FC F2 F5 00 0F F3 F5 00 22 F3 F5 00 35 F3 F5 00 48 F3 F5 00 5B F3 F5 00 6E F3 F5 00 81 F3 F5 00 94 F3 F5 00 A7 F3 F5 00 BA F3 F5 00 CD F3 F5 00 E0 F3 F5 00 F3 F3 F5 00 06 F4 F5 00 19 F4 F5 00 2C F4 F5 00 3F F4 F5 00 52 F4 F5 00 65 F4 F5 00 78 F4 F5 00 8B F4 F5 00 9E F4 F5 00 B1 F4 F5 00 C4 F4 F5 00 D7 F4 F5 00 EA F4 F5 00 FD F4 F5 00 10 F5 F5 00 23 F5 F5 00 36 F5 F5 00 49 F5 F5 00 5C F5 F5 00 6F F5 F5 00 82 F5 F5 00 95 F5 F5 00 A8 F5 F5 00 BB F5 F5 00 CE F5 F5 00 E1 F5 F5 00 F4 F5 F5 00 07 F6 F5 00 1A F6 F5 00 2D F6 F5 00 40 F6 F5 00 53 F6 F5 00 66 F6 F5 00 79 F6 F5 00 8C F6 F5 00 9F F6 F5 00 B2 F6 F5 00 C5 F6 F5 00 D8 F6 F5 00 EB F6 F5 00 FE F6 F5 00 11 F7 F5 00 24 F7 F5 00 37 F7 F5 00 4A F7 F5 00 5D F7 F5 00 70 F7 F5 00 83 F7 F5 00 96 F7 F5 00 A9 F7 F5 00][0A BC F7 F5 00];PK Beam PK Beam PK Beam PK Beam _PK Fire PK Fire PK Fire PK Fire _PK Freeze PK Freeze PK Freeze PK Freeze _PK ThunderThunder  / Thunder  / _Thunder FailPK Flash PK Flash PK Flash PK Flash _Starstorm Starstorm _Lifeup Lifeup Lifeup Lifeup _Healing Healing Healing Healing _Shield Shield Shield Shield _PSI Shield PSI Shield PSI Shield PSI Shield _Def. down Def. down _Hypnosis Hypnosis _PSI Magnet PSI Magnet _Paralysis Paralysis _Brainshock Brainshock _Counter PSI-UnitHP SuckerHungry HPShield KillerTeleport BoxGiygas' Attack4th D-SlipDarknessPSI BlockShield-offSing 1Sing 2Sing 3Sing 4Sing 5Sing 6Sing 7Sing 8Sing 9Sing 10Sing End;literal_pointer;15D0D4,15D422,35F2A7,35F2BA,35F2CD,35F2E0,35F2F3,35F306,35F319,35F32C,35F33F,35F352,35F365,35F378,35F38B,35F39E,35F3B1,35F3C4,35F3D7,35F3EA,35F3FD,35F410,35F423,35F436,35F449,35F45C,35F46F,35F482,35F495,35F4A8,35F4BB,35F4CE,35F4E1,35F4F4,35F507,35F51A,35F52D,35F540,35F553,35F566,35F579,35F58C,35F59F,35F5B2,35F5C5,35F5D8,35F5EB,35F5FE,35F611,35F624,35F637,35F64A,35F65D,35F670,35F683,35F696,35F6A9,35F6BC,35F6CF,35F6E2,35F6F5,35F708,35F71B,35F72E,35F741,35F754,35F767,35F77A,35F78D,35F7A0,35F7B3;;a_verifier;
+haute;105;37DE51;"[18 06][1C 08 03]Select your option.
+
+[18 02][18 01 07][19 02]Add goods[02][19 02]Important goods[02][19 02]Fill inventory[02][19 02]Clear inventory[02][19 02]Fill storage[02][19 02]Clear storage[02][19 02]Ultimate weapons[02][1C 0C 01][11][12][09 07 0A DF F7 00 41 DF F7 00 C1 E0 F7 00 EC E0 F7 00 91 E1 F7 00 D1 E1 F7 00 F5 E1 F7 00][0A 18 E2 F7 00]";"Select your option.
+
+Add goodsImportant goodsFill inventoryClear inventoryFill storageClear storageUltimate weapons";literal_pointer;37E0B8,37E0E3,37E188,37E20F,37E2C1,37E2EC,37E3A0,3878E7;;a_verifier;
+haute;105;3876D5;[18 01 35][18 06][18 02][1C 04][18 01 38][19 02]Save[02][19 02]Move to area[02][19 02]Level Up[02][19 02]Event Flags[02][19 02]Inflict Status[02][19 02]Enemy Spawn[02][19 02]Party Edit[02][19 02]Enemy Test[02][19 02]Money Edit[02][19 02]PSI Animations[02][19 02]Goods Edit[02][19 02]Hint Test[02][19 02]Sound Test[02][19 02]Melodies[02][19 02]Shop Test[02][19 02]Determiners[02][1C 0C 02][11][12][09 10 FE 77 F8 00 14 78 F8 00 2A 78 F8 00 40 78 F8 00 56 78 F8 00 6C 78 F8 00 82 78 F8 00 98 78 F8 00 AE 78 F8 00 C4 78 F8 00 DA 78 F8 00 F0 78 F8 00 06 79 F8 00 1C 79 F8 00 32 79 F8 00 48 79 F8 00][0A 5E 79 F8 00];SaveMove to areaLevel UpEvent FlagsInflict StatusEnemy SpawnParty EditEnemy TestMoney EditPSI AnimationsGoods EditHint TestSound TestMelodiesShop TestDeterminers;literal_pointer;35EE04,36BC67,37002E,37DF38,37E21B,37E787,37E96A,37EAE6,37FFFB,38356D,3876D1,388701,38896C,389050,389057,389060,38906B,3890EF,38A2E9,38DC8E,38DCBB,38DD04,38DD12,38DD38,38DD44,38F7F6,3901AC,390489,390CE5;;a_verifier;
+haute;105;3897EA;"[18 0A][18 01 35][1C 08 03]Choose your operation.
+
+[18 02][18 01 07][19 02]Max bank account[02][19 02]Max wallet[02][19 02]Edit wallet[02][19 02]Empty wallet[02][1C 0C 01][11][12][09 04 67 98 F8 00 A1 98 F8 00 E4 98 F8 00 5C 99 F8 00][0A 66 99 F8 00]";"Choose your operation.
+
+Max bank accountMax walletEdit walletEmpty wallet";literal_pointer;3878BB,3898DB,389911,389953,3899FB,389A2A;;a_verifier;
+haute;105;38A0DB;[08 5D D1 F8 00][18 01 02][19 02]Learn all[02][19 02]Forget all[02][19 02]Learn 1[02][19 02]Learn 2[02][19 02]Learn 3[02][19 02]Learn 4[02][19 02]Learn 5[02][19 02]Learn 6[02][19 02]Learn 7[02][19 02]Learn 8[02][19 02]Invert[02][1C 0C 02][11][12][09 0B 8D A1 F8 00 9E A1 F8 00 C2 A1 F8 00 D1 A1 F8 00 E0 A1 F8 00 EF A1 F8 00 FE A1 F8 00 0D A2 F8 00 1C A2 F8 00 2B A2 F8 00 3A A2 F8 00][0A E6 A2 F8 00];Learn allForget allLearn 1Learn 2Learn 3Learn 4Learn 5Learn 6Learn 7Learn 8Invert;literal_pointer;387929,38A195,38A1B9,38A1C8,38A1D7,38A1E6,38A1F5,38A204,38A213,38A222,38A231,38A2DD;;a_verifier;
+haute;103;350DFF;"@Great! I'm sure we'll make a great team of punks.
+  Let's go![13][18 04][1F F2 04 00 6F 04][1F 61][18 01 35]@You there, specs...
+@You're not so good at fighting, are you?
+@Rest here for a while and take it easy. [10 0F]All right?[13][18 04][1F F2 04 00 70 04][1F F2 03 00 71 04][1F 61][1F F2 01 00 73 04][1F 61][1F EF 01 00][1F E8 FF][1F EB FF 06][10 1E][1F F2 02 00 2F 00][1F F2 04 00 2F 00][1F 61][1F 00 00 0B][10 FF][10 FF][10 1E][1F 03][18 01 35]@([1C 02 04] joins you.)[13][18 04][04 9C 03][04 44 04][04 98 03][05 86 03][05 88 03][05 89 03][05 8A 03][05 8B 03][05 8C 03][1F F2 01 00 74 04][1F F2 02 00 75 04][1F F2 04 00 76 04][1F 61][1F 61][1F 11 04][1F 12 03][1F EC FF 01][1F 1F 01 00 06][1F 1F 02 00 06][1F 1F 04 00 06][1F 1F 78 01 06][1F F1 52 02 5E 02][1F ED][1F 41 06][19 19 03 01][1B 04][1B 02 8B 0F F5 00][1D 0F 03 01][1D 0E 04 00][0A 72 0F F5 00]";"Great! I'm sure we'll make a great team of punks.
+  Let's go! You there, specs...
+ You're not so good at fighting, are you?
+ Rest here for a while and take it easy. All right? ( joins you.)";literal_pointer;350CB7,350CF7,350D38,350DE6;;a_verifier;
+haute;103;351D12;"[1F 02 05][10 14]
+
+@Wait a minute...[10 0F]
+  You can't carry it,
+  so you can't have it!
+@Boo[10 0F] hoo[10 0F] hoo.
+@Ha,[10 0F] ha,[10 0F] ha...[13][02]";"Wait a minute...
+  You can't carry it,
+  so you can't have it!
+ Boo hoo hoo.
+ Ha, ha, ha...";literal_pointer;351BCB,351C09,351C47,351C81;;a_verifier;
+haute;103;353683;"[04 53 03]@Thank you for your cooperation.
+@In exchange for your time,[10 0F] this [1C 05 EC] is for you.
+[1D 03 FF][1B 02 0D 37 F5 00][1F 02 74][10 3C][18 04][1F 02 66][10 5A][18 01 35][1D 03 FF][1D 0E 00 EC][08 DA DC C7 00][13][08 D2 C4 F5 00][05 53 03][04 52 03][02]";"Thank you for your cooperation.
+ In exchange for your time, this  is for you.";literal_pointer;35352F,353676,35367A,35367F;;a_verifier;
+haute;103;354D77;"@Well, please take a look at the price list.[13]
+[1A 06 06][18 0A][1B 02 4B 4E F5 00][1B 05]@The [1B 06][1B 04][1C 05 00], right?
+[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 E6 4D F5 00 77 4D F5 00][0A 77 4D F5 00]";"Well, please take a look at the price list.
+ The , right?
+YesNo";literal_pointer;354CED,354D6A,354DDD,354DE2;;a_verifier;
+haute;103;3584C9;"@Must be equipped on your arm.
+@It increases your Defense.[02]";"Must be equipped on your arm.
+ It increases your Defense.";literal_pointer;357551,357561,357571,357EC3;;a_verifier;
+haute;103;35D870;"@[1C 01 08]?
+@My little man, out there, saving the world.
+@When did you get to be so brave?
+@I remember when you were still afraid to go to the bathroom alone at night...
+@What? Oh sorry, I wasn't trying to embarrass you, sweetie.
+@Click!  Beep-beep-beep...[13][1F 02 0B][02]";"?
+ My little man, out there, saving the world.
+ When did you get to be so brave?
+ I remember when you were still afraid to go to the bathroom alone at night...
+ What? Oh sorry, I wasn't trying to embarrass you, sweetie.
+ Click!  Beep-beep-beep...";literal_pointer;07CBBB,35D84F,35D853,35D86C;;a_verifier;
+haute;103;367700;"[08 66 77 F6 00]
+
+[1A 0C 40 ED F7 00][1F 02 2F]@[08 C4 77 F6 00] HP of mortal damage
+  to EVE!
+[1A 0C 40 ED F7 00][1F 02 5A]@EVE exploded
+  into pieces![03][02]";"HP of mortal damage
+  to EVE!
+ EVE exploded
+  into pieces!";literal_pointer;15D136,15D250,3691BD,36A7F9;;a_verifier;
+haute;103;36964A;"[1F 1A 45 03 03][10 3C][1F 1B 45 03][1F E5 FF][19 10 01][19 22 00 02 45 03][1F 14 00][1F F1 45 03 51 05][1F 61][18 01 35]@You tried to ignore me,[10 0F]
+  didn't you...
+@I'm so lonesome,[10 0F] out here all by myself.
+@If there's anything I can do for some company,[10 0F] I'll do it.[10 0F]  Here![13][18 04][08 DF A2 F6 00][1F E9 45 03][1F 14 03][1F F1 45 03 52 05][1F 61][10 1E][1F 14 07][1F E8 FF][02]";"You tried to ignore me,
+  didn't you...
+ I'm so lonesome, out here all by myself.
+ If there's anything I can do for some company, I'll do it.  Here!";literal_pointer;3695D9,3695E7,3695F5,369640;;a_verifier;
+haute;103;373C34;"[1F 02 74][10 3C]@(You got
+
+  the [1C 05 4D][1B 01][08 15 3F F7 00].)
+@After you get ten stubs,[10 0F] you can ride the tank!
+@You look so happy about that.
+@Ha ha ha...[13][1B 06][18 07 BA 00 00 00 00][1B 04][0E 00][0F][0D 01][1B 04][09 03 64 40 F7 00 8D 40 F7 00 26 41 F7 00]@Well,[10 0F] it is quite expensive...
+
+  I don't blame you.[13][02]";"(You got
+
+  the .)
+ After you get ten stubs, you can ride the tank!
+ You look so happy about that.
+ Ha ha ha... Well, it is quite expensive...
+
+  I don't blame you.";literal_pointer;373BC1,373BF3,373C18,373C30;;a_verifier;
+haute;103;373D75;"[1F 02 05][10 14]
+
+@Oh?[10 0F] It looks like you have too much to carry.
+@You need space for [1C 0A 00 00 00 00] Ticket stub[08 15 3F F7 00].
+@Here's your money back.[13][1B 06][1B 04][1D 0A 00][1B 04][1D 15 00 00][1B 04][1D 08 00 00][1F 02 74][18 0A][10 1E][02]";"Oh? It looks like you have too much to carry.
+ You need space for  Ticket stub.
+ Here's your money back.";literal_pointer;373B91,373BD0,373C02,373C27;;a_verifier;
+haute;103;37771C;"@You've got altogether too much stuff.
+@So should I buy some of your stuff?
+[02]";"You've got altogether too much stuff.
+ So should I buy some of your stuff?";literal_pointer;366022,366029,366030,366037;;a_verifier;
+haute;98;33DB1C;"@There is a [1C 05 F0] on the ground.
+[1D 21 01][0B 01][1B 03 62 DB F3 00][1D 03 FF][1B 02 7D DB F3 00][1D 0E 00 F0][1F 02 74][10 3C][08 DA DC C7 00][13][18 04][02]";There is a  on the ground.;literal_pointer;33D9A2,33D9BB,33D9D4,33D9ED,33DA06,33DA1F,33DA38,33DA51,33DA6A,33DA83,33DA9C,33DAB5,33DACE;;a_verifier;
+haute;98;351879;@Love and peace,[10 0F] yeah![13][02];Love and peace, yeah!;literal_pointer;3517DC,3517E5,3517F0,351800,351809,351812,35181D,35182D,35186C;;a_verifier;
+haute;98;384CC9;@Oh, is that right?[13][0A B6 4D F8 00];Oh, is that right?;literal_pointer;384BBC,384BC1,384BF7,384BFC,384C6F;;a_verifier;
+haute;98;3886E0;"[1C 08 03]To whom?
+
+[1A 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01][1B 02 D5 76 F8 00][1B 00][18 06][18 02][18 01 0C][19 02]Heal[02][19 02]Unconscious[02][19 02]Petrified[02][19 02]Paralyzed[02][19 02]Nauseated[02][19 02]Poisoned[02][19 02]Sunstroke[02][19 02]Cold[02][19 02]Mushroomized[02][19 02]Possessed[02][19 02]Asthma[02][19 02]Decrease HP[02][19 02]Decrease PP[02][1C 0C 02][11][12][09 0D E5 87 F8 00 13 88 F8 00 3C 88 F8 00 5B 88 F8 00 75 88 F8 00 8F 88 F8 00 A9 88 F8 00 C3 88 F8 00 DD 88 F8 00 F7 88 F8 00 11 89 F8 00 2B 89 F8 00 4A 89 F8 00][0A 69 89 F8 00]";"To whom?
+
+HealUnconsciousPetrifiedParalyzedNauseatedPoisonedSunstrokeColdMushroomizedPossessedAsthmaDecrease HPDecrease PP";literal_pointer;387863,38880A,388833,388852,38886C,388886,3888A0,3888BA,3888D4,3888EE,388908,388922,388941,388960;;a_verifier;
+haute;97;352352;@That girl you brought with you sure was cute.[13][02];That girl you brought with you sure was cute.;literal_pointer;3522E1,3522EA,3522F5,352305;;a_verifier;
+haute;97;3775B7;"@Hi there! What do you need from me?
+[02]";Hi there! What do you need from me?;literal_pointer;36583A,365841,365848,36584F;;a_verifier;
+haute;97;3834B1;"[18 06][1C 08 03]Select an option.
+
+[18 02][18 01 25][19 02]BGM[02][19 02]Sound Effects[02][19 02]SPC Effects[02][1C 0C 01][11][12][09 03 09 35 F8 00 2C 35 F8 00 57 35 F8 00][0A 6A 35 F8 00]";"Select an option.
+
+BGMSound EffectsSPC Effects";literal_pointer;3835BE,3835D5,38386B,387913;;a_verifier;
+haute;95;33FA1B;"@Our home is filled with monsters,[10 0F] mostly ghosts.
+@So now we live life in the great outdoors.[13][02]";"Our home is filled with monsters, mostly ghosts.
+ So now we live life in the great outdoors.";literal_pointer;2048AC,33F9AC,33FA17;;a_verifier;
+haute;95;3480B3;"[06 05 00 CF 81 F4 00][06 72 03 E0 81 F4 00]@Suspicious man...
+@I'll let you pass, if you solve this riddle...
+@(He'll never know what I'm thinking...)[13][02]";"Suspicious man...
+ I'll let you pass, if you solve this riddle...
+ (He'll never know what I'm thinking...)";literal_pointer;2062B4,2062C5,2062D6;;a_verifier;
+haute;95;349FE1;"[07 7F 01][1B 02 24 A0 F4 00]@Please come again.
+@Promise me you'll come again![13][02]";"Please come again.
+ Promise me you'll come again!";literal_pointer;2063F7,349FD3,349FDD;;a_verifier;
+haute;95;34A53B;"[07 35 03][0B 00][1B 02 76 A6 F4 00]@The Ocarina of Hope is finally complete.
+@You can use it to play any melodies you've learned.
+@Do you want it?
+[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 D8 A5 F4 00 20 A6 F4 00][0A 20 A6 F4 00]";"The Ocarina of Hope is finally complete.
+ You can use it to play any melodies you've learned.
+ Do you want it?
+YesNo";literal_pointer;203FA4,34A4F3,34A537;;a_verifier;
+haute;95;34A897;"[06 97 03 05 AA F4 00]@Do you want a friendship ring?
+[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 02 A9 F4 00 D8 A8 F4 00]@...I... had a feeling you'd say that...[13][02]";"Do you want a friendship ring?
+YesNo ...I... had a feeling you'd say that...";literal_pointer;202822,34A803,34A893;;a_verifier;
+haute;95;34B517;"[08 31 E4 C5 00][1B 02 03 B6 F4 00][1D 0C 01 01][18 07 02 00 00 00 00][1B 03 5E B6 F4 00]@What do you want me to store?
+[1C 04][08 56 E4 C5 00][1B 02 35 B6 F4 00][1B 00][1D 0C 00 00][1B 03 B5 B6 F4 00][1B 01][19 19 00 00][1F 02 76]@[08 87 B5 F8 00][1C 05 00]?
+  Don't worry, I'll keep it safe.
+[1B 01][1D 12 00 00][0A AE B5 F4 00]";"What do you want me to store?
+ ?
+  Don't worry, I'll keep it safe.";literal_pointer;34B4E3,34B50A,34B5F6;;a_verifier;
+haute;95;356FD8;"
+
+ <[1C 05 AF]>
+@While okay to eat, its crumbs can be used to mark your trail.
+@Restores about 30 HP when eaten.[13][02]";"<>
+ While okay to eat, its crumbs can be used to mark your trail.
+ Restores about 30 HP when eaten.";literal_pointer;15691F,156ACC,3709ED;;a_verifier;
+haute;95;35DEE2;"@Hello, [1C 01 08]?
+@So, how's the adventure going?
+  Have you done anything exciting lately?
+@...
+@I seeeee...
+@Maybe I shouldn't have asked. Now I'm going to worry!
+@Oh, of course I believe in you, honey!
+@You know how moms are...
+@I'm in the middle of doing the laundry, so I'd better go!
+@Bye! Be careful out there!
+[1F 02 0B]@Click!  Beep-beep-beep...[13][02]";"Hello, ?
+ So, how's the adventure going?
+  Have you done anything exciting lately?
+ ...
+ I seeeee...
+ Maybe I shouldn't have asked. Now I'm going to worry!
+ Oh, of course I believe in you, honey!
+ You know how moms are...
+ I'm in the middle of doing the laundry, so I'd better go!
+ Bye! Be careful out there!
+ Click!  Beep-beep-beep...";literal_pointer;07CF6D,35D857,35D85B;;a_verifier;
+haute;95;35E044;"@[1C 01 08]!
+@I was just thinking of you, sweetie...
+@Why was I thinking about you?
+@I was clipping coupons and I found a two-for-one on your favorite snacks! 
+@They'll be here when you get home.
+@Listen, I have to run.  The girls are helping me put away groceries.
+@Bye!
+[1F 02 0B]  Click!  Beep-beep-beep...[13][02]";"!
+ I was just thinking of you, sweetie...
+ Why was I thinking about you?
+ I was clipping coupons and I found a two-for-one on your favorite snacks! 
+ They'll be here when you get home.
+ Listen, I have to run.  The girls are helping me put away groceries.
+ Bye!
+  Click!  Beep-beep-beep...";literal_pointer;07D05B,35D85F,35D863;;a_verifier;
+haute;95;35E830;"@So you're telling me that you don't want a hint?
+@You're either awfully confident or $[1C 0A 00 00 00 00] is too much to pay.
+@Anyway, a young man like you is very unusual these days.
+@If you happen to need a hint, c'mon back!
+@I'm here all the time...
+[0A B2 C4 F5 00]";"So you're telling me that you don't want a hint?
+ You're either awfully confident or $ is too much to pay.
+ Anyway, a young man like you is very unusual these days.
+ If you happen to need a hint, c'mon back!
+ I'm here all the time...";literal_pointer;0701F7,35E827,35E82C;;a_verifier;
+haute;95;360D7F;"@The curfew has finally been lifted.
+@There's a strange rock-like thing in a mountain cave past here.
+@It's so strange,[10 0F] you should definitely take a look.[13][02]";"The curfew has finally been lifted.
+ There's a strange rock-like thing in a mountain cave past here.
+ It's so strange, you should definitely take a look.";literal_pointer;202AFD,360CED,360CF2;;a_verifier;
+haute;95;360E1F;"@The curfew has been lifted.
+@Although I can't see why travel was ever restricted.[19 10 01][0B 01][1B 02 19 0F F6 00]
+@I heard that you can communicate with Telepathy.
+@Have you heard all of the people talking about you?
+@But you probably don't need to <listen> to them![13][02]";"The curfew has been lifted.
+ Although I can't see why travel was ever restricted.
+ I heard that you can communicate with Telepathy.
+ Have you heard all of the people talking about you?
+ But you probably don't need to <listen> to them!";literal_pointer;202B0E,360D01,360D06;;a_verifier;
+haute;95;369C36;"[1F 02 05][10 14]
+
+@However, you already have too many things to carry.
+@[19 10 01][1B 04][1C 02 00][1B 04] left it.[13][02]";"However, you already have too many things to carry.
+  left it.";literal_pointer;369B0E,369B83,369C10;;a_verifier;
+haute;95;36E876;"@[1C 02 02] hasn't been to school lately,
+@I'm so worried...[13][02]";"hasn't been to school lately,
+ I'm so worried...";literal_pointer;36E818,36E823,36E82E;;a_verifier;
+haute;95;373E48;"[1F 02 05][10 14]
+
+[1B 00]@Oh?[10 0F] It looks like you have too much to carry.
+@You need space for [1C 0A 00 00 00 00] Ticket stub[08 15 3F F7 00].
+@Here's your money back.[13][1B 06][1B 04][1D 0A 00][1B 04][1D 15 00 00][1B 04][1D 08 00 00][1F 02 74][18 0A][10 1E]
+
+[1B 01]@And may I have the stub[08 15 3F F7 00] back,[10 0F] please.[13][02]";"Oh? It looks like you have too much to carry.
+ You need space for  Ticket stub.
+ Here's your money back.
+
+ And may I have the stub back, please.";literal_pointer;373E10,373E1F,373E32;;a_verifier;
+haute;95;37F0EF;"[18 00][10 28][18 01 35]
+
+[1F 62 00]@How could I be defeated[10 3C] by a song like that?[14]
+@I will...[10 1E] sometime...[14]
+@[1C 02 01][10 1E] we SHALL meet again![14]
+@[1C 0D] has retreated![14]
+[1F 02 4A][10 96][18 00]
+[1E 00 01 64][10 0F][1E 00 02 64][10 0F][1E 00 03 64][10 0F][02]";"How could I be defeated by a song like that?
+ I will... sometime...
+  we SHALL meet again!
+  has retreated!";literal_pointer;15BBEA,15E0A2,2C09E6;;a_verifier;
+haute;95;37FB6F;"@Hey, I'm actually from the real world, same as you!
+@Just make with the cash, and with the goods you can dash!
+[02]";"Hey, I'm actually from the real world, same as you!
+ Just make with the cash, and with the goods you can dash!";literal_pointer;365825,36582C,365833;;a_verifier;
+haute;95;37FC92;"@Oh, do you want to sell that
+  [1C 05 00] to me?
+@Sell it for $[1B 04][1C 0A 00 00 00 00]?
+[02]";"Oh, do you want to sell that
+   to me?
+ Sell it for $?";literal_pointer;365D2D,365D34,365D3B;;a_verifier;
+haute;95;37FCD8;"@[1C 02 00] can't equip this.
+@Do you still want it?
+[02]";"can't equip this.
+ Do you still want it?";literal_pointer;365DE5,365DEC,365DF3;;a_verifier;
+haute;95;37FD4F;"@You're carrying waaaaay too much stuff!
+@Come back when you've made some space.[13][02]";"You're carrying waaaaay too much stuff!
+ Come back when you've made some space.";literal_pointer;36600D,366014,36601B;;a_verifier;
+haute;95;37FECE;"@[1C 02 00]'s bag is stuffed full!
+@Do any of your friends want to carry it instead?
+[02]";"'s bag is stuffed full!
+ Do any of your friends want to carry it instead?";literal_pointer;366685,36668C,366693;;a_verifier;
+haute;95;380EBA;"@Thank you for everything.
+@As a token of my gratitude...
+@I wish you luck.[13][02]";"Thank you for everything.
+ As a token of my gratitude...
+ I wish you luck.";literal_pointer;380B2A,380C9C,380DDF;;a_verifier;
+haute;95;3822C3;"[1D 17 01 00 00 00][1B 03 D6 23 F8 00][1D 14 9F 86 01 00][0B 00][1B 03 0F 24 F8 00][08 48 24 F8 00][1B 02 86 21 F8 00][0D 00][1D 17 00 00 00 00][1B 03 55 23 F8 00][1D 07 00 00 00 00][1A 18 00 00 00 00][1B 03 97 23 F8 00]@Your account has been debited
+  $[1C 0A 00 00 00 00].
+@Please take your cash.[03][18 0A][1F 02 74][10 14][02]";"Your account has been debited
+  $.
+ Please take your cash.";literal_pointer;38217E,382393,3823D2;;a_verifier;
+haute;95;386482;"@Peep, peep!
+@(Thank you for reuniting me with my mother!)[13][02]";"Peep, peep!
+ (Thank you for reuniting me with my mother!)";literal_pointer;20246A,202ADB,386458;;a_verifier;
+haute;93;363FFC;"[18 00][18 01 35]
+
+@I am sorry,[10 0F] but you do not have enough money.[13][02]";I am sorry, but you do not have enough money.;literal_pointer;363AD6,363E57,363EC6,363F35,363FA4;doublon_texte;a_verifier;
+haute;91;37769E;"@[1C 02 00] can't equip this.
+@Do you still want to buy it?
+[02]";"can't equip this.
+ Do you still want to buy it?";literal_pointer;365DFA,365E01,365E08,365E0F;doublon_texte;a_verifier;
+haute;91;377785;"@The [1C 05 00]?
+@I can get you $[1B 04][1C 0A 00 00 00 00] for it.
+[02]";"The ?
+ I can get you $ for it.";literal_pointer;366192,366199,3661A0,3661A7;doublon_texte;a_verifier;
+haute;91;3778AB;"@[1C 02 00] is carrying too many things.
+@Does anyone else want to carry it?
+[02]";"is carrying too many things.
+ Does anyone else want to carry it?";literal_pointer;36669A,3666A1,3666A8,3666AF;doublon_texte;a_verifier;
+haute;90;3513E9;"@Hi, [1C 02 04]!
+  How are you doin'?[13][02]";"Hi, !
+  How are you doin'?";literal_pointer;3513AC,3519B1,351ED3,351F2B;;a_verifier;
+haute;90;35E49D;"[0D 00]  We'll deliver it within 3 minutes.
+[04 B4 00][1F D3 01][04 F2 02][0A D3 E4 F5 00]";We'll deliver it within 3 minutes.;literal_pointer;064AE7,35E456,35E476,35E499;;a_verifier;
+haute;90;362BE6;"
+
+@A man from the stars.[14][02]";A man from the stars.;literal_pointer;363141,3631F3,3631F8,363542;;a_verifier;
+haute;90;37F3F5;"[04 5A 03]
+
+@[08 0B 79 EF 00][1C 14 02][0B 01][1B 03 17 F4 F7 00] draw near![03][02]";draw near!;literal_pointer;159614,159672,15972E,15978C,15AB02,15AC7A,15BCA2;texte_court;a_verifier;
+haute;90;386DA1;"@Okay,[10 0F] that's fine.
+[04 3B 04][1F 00 00 04][0A C4 6D F8 00]";Okay, that's fine.;literal_pointer;386D6D,386D72,386D98,386D9D;;a_verifier;
+haute;90;38D24E;@Can I help you?[13][02];Can I help you?;literal_pointer;33FDFA,35174C,36079C,3607A0;;a_verifier;
+haute;89;353647;"@Have you used the Bullhorn?
+[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 83 36 F5 00 83 36 F5 00][0A 83 36 F5 00]";"Have you used the Bullhorn?
+YesNo";literal_pointer;35363A,35363E,353643;;a_verifier;
+haute;89;353B1C;@Any first grader should know how to do a cartwheel,[10 0F] don't you think?[13][02];Any first grader should know how to do a cartwheel, don't you think?;literal_pointer;202998,353ACB,353B18;;a_verifier;
+haute;89;361327;[06 20 03 5E 13 F6 00]@There must be someone controlling the dead...[13][02];There must be someone controlling the dead...;literal_pointer;202327,2023AF,202987;;a_verifier;
+haute;89;3627F1;"
+
+@This creature is a master of many kinds of PSI.[14][02]";This creature is a master of many kinds of PSI.;literal_pointer;36273A,362F66,3634DE;;a_verifier;
+haute;89;36284D;"
+
+@Not only will it attack using PSI, it is a thief![14][02]";Not only will it attack using PSI, it is a thief!;literal_pointer;363087,36308C,3634E6;;a_verifier;
+haute;89;363105;"
+
+@What evil lab manufactured this mobile brain?[14][02]";What evil lab manufactured this mobile brain?;literal_pointer;363137,36313C,3635CE;;a_verifier;
+haute;89;364CD2;@I was thinking of something nice to give you.[13][02];I was thinking of something nice to give you.;literal_pointer;364C58,364C5D,364CB3;;a_verifier;
+haute;89;36EC24;"@Hi there! What do you need?
+[02]";Hi there! What do you need?;literal_pointer;365880,36EBE6,36EC20;;a_verifier;
+haute;89;370000;"
+
+[1C 08 03]Which description do you want?
+     [1F 52 03][12][1B 02 D5 76 F8 00][1B 04][1C 08 03]Description:
+   [1C 05 00].[14][13]
+[18 06][18 07 00 00 00 00 01][1F C0 01 C4 39 C5 00][18 07 01 00 00 00 01][1F C0 01 80 5A F5 00][18 07 02 00 00 00 01][1F C0 01 50 37 C5 00][18 07 03 00 00 00 01][1F C0 01 61 37 C5 00][18 07 04 00 00 00 01][1F C0 01 72 37 C5 00][18 07 05 00 00 00 01][1F C0 01 BC 37 C5 00][18 07 06 00 00 00 01][1F C0 01 09 38 C5 00][18 07 07 00 00 00 01][1F C0 01 94 5B F5 00][18 07 08 00 00 00 01][1F C0 01 4D 38 C5 00][18 07 09 00 00 00 01][1F C0 01 70 38 C5 00][18 07 0A 00 00 00 01][1F C0 01 97 38 C5 00][18 07 0B 00 00 00 01][1F C0 01 BC 38 C5 00][18 07 0C 00 00 00 01][1F C0 01 E0 38 C5 00][18 07 0D 00 00 00 01][1F C0 01 08 39 C5 00][18 07 0E 00 00 00 01][1F C0 01 29 39 C5 00][18 07 0F 00 00 00 01][1F C0 01 60 39 C5 00][18 07 10 00 00 00 01][1F C0 01 8E 39 C5 00][18 07 11 00 00 00 01][1F C0 01 C4 5B F5 00][18 07 12 00 00 00 01][1F C0 01 FE 5B F5 00][18 07 13 00 00 00 01][1F C0 01 76 5C F5 00][18 07 14 00 00 00 01][1F C0 01 A6 5D F5 00][18 07 15 00 00 00 01][1F C0 01 04 3A C5 00][18 07 16 00 00 00 01][1F C0 01 14 3A C5 00][18 07 17 00 00 00 01][1F C0 01 47 3A C5 00][18 07 18 00 00 00 01][1F C0 01 57 3A C5 00][18 07 19 00 00 00 01][1F C0 01 67 3A C5 00][18 07 1A 00 00 00 01][1F C0 01 77 3A C5 00][18 07 1B 00 00 00 01][1F C0 01 9F 3A C5 00][18 07 1C 00 00 00 01][1F C0 01 FB 5D F5 00][18 07 1D 00 00 00 01][1F C0 01 2B 5E F5 00][18 07 1E 00 00 00 01][1F C0 01 A8 5E F5 00][18 07 1F 00 00 00 01][1F C0 01 16 3B C5 00][18 07 20 00 00 00 01][1F C0 01 26 3B C5 00][18 07 21 00 00 00 01][1F C0 01 36 3B C5 00][18 07 22 00 00 00 01][1F C0 01 46 3B C5 00][18 07 23 00 00 00 01][1F C0 01 56 3B C5 00][18 07 24 00 00 00 01][1F C0 01 76 3B C5 00][18 07 25 00 00 00 01][1F C0 01 89 5F F5 00][18 07 26 00 00 00 01][1F C0 01 F0 5F F5 00][18 07 27 00 00 00 01][1F C0 01 A6 3B C5 00][18 07 28 00 00 00 01][1F C0 01 B6 3B C5 00][18 07 29 00 00 00 01][1F C0 01 C6 3B C5 00][18 07 2A 00 00 00 01][1F C0 01 D6 3B C5 00][18 07 2B 00 00 00 01][1F C0 01 E6 3B C5 00][18 07 2C 00 00 00 01][1F C0 01 F6 3B C5 00][18 07 2D 00 00 00 01][1F C0 01 06 3C C5 00][18 07 2E 00 00 00 01][1F C0 01 16 3C C5 00][18 07 2F 00 00 00 01][1F C0 01 26 3C C5 00][18 07 30 00 00 00 01][1F C0 01 5D 61 F5 00][18 07 31 00 00 00 01][1F C0 01 46 3C C5 00][18 07 32 00 00 00 01][1F C0 01 94 61 F5 00][18 07 33 00 00 00 01][1F C0 01 C5 61 F5 00][18 07 34 00 00 00 01][1F C0 01 95 3C C5 00][18 07 35 00 00 00 01][1F C0 01 AF 3C C5 00][18 07 36 00 00 00 01][1F C0 01 C8 3C C5 00][18 07 37 00 00 00 01][1F C0 01 D8 3C C5 00][18 07 38 00 00 00 01][1F C0 01 00 3D C5 00][18 07 39 00 00 00 01][1F C0 01 C1 62 F5 00][18 07 3A 00 00 00 01][1F C0 01 F6 62 F5 00][18 07 3B 00 00 00 01][1F C0 01 60 63 F5 00][18 07 3C 00 00 00 01][1F C0 01 29 63 F5 00][18 07 3D 00 00 00 01][1F C0 01 96 63 F5 00][18 07 3E 00 00 00 01][1F C0 01 DD 63 F5 00][18 07 3F 00 00 00 01][1F C0 01 E6 79 F5 00][18 07 40 00 00 00 01][1F C0 01 4F 3E C5 00][18 07 41 00 00 00 01][1F C0 01 5F 3E C5 00][18 07 42 00 00 00 01][1F C0 01 6F 3E C5 00][18 07 43 00 00 00 01][1F C0 01 7F 3E C5 00][18 07 44 00 00 00 01][1F C0 01 8F 3E C5 00][18 07 45 00 00 00 01][1F C0 01 9F 3E C5 00][18 07 46 00 00 00 01][1F C0 01 AF 3E C5 00][18 07 47 00 00 00 01][1F C0 01 C6 3E C5 00][18 07 48 00 00 00 01][1F C0 01 DD 3E C5 00][18 07 49 00 00 00 01][1F C0 01 30 7B F5 00][18 07 4A 00 00 00 01][1F C0 01 58 3F C5 00][18 07 4B 00 00 00 01][1F C0 01 2F 64 F5 00][18 07 4C 00 00 00 01][1F C0 01 68 64 F5 00][18 07 4D 00 00 00 01][1F C0 01 B7 64 F5 00][18 07 4E 00 00 00 01][1F C0 01 55 40 C5 00][18 07 4F 00 00 00 01][1F C0 01 65 40 C5 00][18 07 50 00 00 00 01][1F C0 01 75 40 C5 00][18 07 51 00 00 00 01][1F C0 01 85 40 C5 00][18 07 52 00 00 00 01][1F C0 01 95 40 C5 00][18 07 53 00 00 00 01][1F C0 01 06 65 F5 00][18 07 54 00 00 00 01][1F C0 01 23 65 F5 00][18 07 55 00 00 00 01][1F C0 01 C5 40 C5 00][18 07 56 00 00 00 01][1F C0 01 D5 40 C5 00][18 07 57 00 00 00 01][1F C0 01 E5 40 C5 00][18 07 58 00 00 00 01][1F C0 01 06 41 C5 00][18 07 59 00 00 00 01][1F C0 01 36 65 F5 00][18 07 5A 00 00 00 01][1F C0 01 8B 65 F5 00][18 07 5B 00 00 00 01][1F C0 01 56 41 C5 00][18 07 5C 00 00 00 01][1F C0 01 6D 41 C5 00][18 07 5D 00 00 00 01][1F C0 01 97 41 C5 00][18 07 5E 00 00 00 01][1F C0 01 CB 41 C5 00][18 07 5F 00 00 00 01][1F C0 01 21 43 C5 00][18 07 60 00 00 00 01][1F C0 01 39 43 C5 00][18 07 61 00 00 00 01][1F C0 01 A4 43 C5 00][18 07 62 00 00 00 01][1F C0 01 DA 43 C5 00][18 07 63 00 00 00 01][1F C0 01 F5 43 C5 00][18 07 64 00 00 00 01][1F C0 01 51 44 C5 00][18 07 65 00 00 00 01][1F C0 01 71 44 C5 00][18 07 66 00 00 00 01][1F C0 01 AF 44 C5 00][18 07 67 00 00 00 01][1F C0 01 C6 44 C5 00][18 07 68 00 00 00 01][1F C0 01 DD 44 C5 00][18 07 69 00 00 00 01][1F C0 01 3E 45 C5 00][18 07 6A 00 00 00 01][1F C0 01 AF 65 F5 00][18 07 6B 00 00 00 01][1F C0 01 B7 45 C5 00][18 07 6C 00 00 00 01][1F C0 01 F7 65 F5 00][18 07 6D 00 00 00 01][1F C0 01 55 67 F5 00][18 07 6E 00 00 00 01][1F C0 01 33 47 C5 00][18 07 6F 00 00 00 01][1F C0 01 5A 47 C5 00][18 07 70 00 00 00 01][1F C0 01 89 47 C5 00][18 07 71 00 00 00 01][1F C0 01 B0 47 C5 00][18 07 72 00 00 00 01][1F C0 01 9B 67 F5 00][18 07 73 00 00 00 01][1F C0 01 D0 67 F5 00][18 07 74 00 00 00 01][1F C0 01 02 68 F5 00][18 07 75 00 00 00 01][1F C0 01 34 68 F5 00][18 07 76 00 00 00 01][1F C0 01 66 68 F5 00][18 07 77 00 00 00 01][1F C0 01 99 68 F5 00][18 07 78 00 00 00 01][1F C0 01 62 48 C5 00][18 07 79 00 00 00 01][1F C0 01 AC 68 F5 00][18 07 7A 00 00 00 01][1F C0 01 CA 68 F5 00][18 07 7B 00 00 00 01][1F C0 01 92 48 C5 00][18 07 7C 00 00 00 01][1F C0 01 A2 48 C5 00][18 07 7D 00 00 00 01][1F C0 01 B2 48 C5 00][18 07 7E 00 00 00 01][1F C0 01 FC 48 C5 00][18 07 7F 00 00 00 01][1F C0 01 52 49 C5 00][18 07 80 00 00 00 01][1F C0 01 79 49 C5 00][18 07 81 00 00 00 01][1F C0 01 42 69 F5 00][18 07 82 00 00 00 01][1F C0 01 FF 49 C5 00][18 07 83 00 00 00 01][1F C0 01 3A 4A C5 00][18 07 84 00 00 00 01][1F C0 01 6C 4A C5 00][18 07 85 00 00 00 01][1F C0 01 A1 4A C5 00][18 07 86 00 00 00 01][1F C0 01 F5 4A C5 00][18 07 87 00 00 00 01][1F C0 01 67 4B C5 00][18 07 88 00 00 00 01][1F C0 01 B0 4B C5 00][18 07 89 00 00 00 01][1F C0 01 8B 69 F5 00][18 07 8A 00 00 00 01][1F C0 01 ED 69 F5 00][18 07 8B 00 00 00 01][1F C0 01 40 6A F5 00][18 07 8C 00 00 00 01][1F C0 01 83 6A F5 00][18 07 8D 00 00 00 01][1F C0 01 BA 6A F5 00][18 07 8E 00 00 00 01][1F C0 01 1D 6B F5 00][18 07 8F 00 00 00 01][1F C0 01 DC 4D C5 00][18 07 90 00 00 00 01][1F C0 01 30 6B F5 00][18 07 91 00 00 00 01][1F C0 01 7A 6E F5 00][18 07 92 00 00 00 01][1F C0 01 54 4E C5 00][18 07 93 00 00 00 01][1F C0 01 5E 6C F5 00][18 07 94 00 00 00 01][1F C0 01 CC 6C F5 00][18 07 95 00 00 00 01][1F C0 01 6E 6D F5 00][18 07 96 00 00 00 01][1F C0 01 A2 4F C5 00][18 07 97 00 00 00 01][1F C0 01 F0 4F C5 00][18 07 98 00 00 00 01][1F C0 01 E9 6D F5 00][18 07 99 00 00 00 01][1F C0 01 FC 6D F5 00][18 07 9A 00 00 00 01][1F C0 01 0F 6E F5 00][18 07 9B 00 00 00 01][1F C0 01 3C 6E F5 00][18 07 9C 00 00 00 01][1F C0 01 4F 51 C5 00][18 07 9D 00 00 00 01][1F C0 01 9F 51 C5 00][18 07 9E 00 00 00 01][1F C0 01 CD 51 C5 00][18 07 9F 00 00 00 01][1F C0 01 EA 51 C5 00][18 07 A0 00 00 00 01][1F C0 01 30 52 C5 00][18 07 A1 00 00 00 01][1F C0 01 8D 52 C5 00][18 07 A2 00 00 00 01][1F C0 01 C4 52 C5 00][18 07 A3 00 00 00 01][1F C0 01 D7 53 C5 00][18 07 A4 00 00 00 01][1F C0 01 09 54 C5 00][18 07 A5 00 00 00 01][1F C0 01 8D 6E F5 00][18 07 A6 00 00 00 01][1F C0 01 6C 54 C5 00][18 07 A7 00 00 00 01][1F C0 01 96 54 C5 00][18 07 A8 00 00 00 01][1F C0 01 B7 6E F5 00][18 07 A9 00 00 00 01][1F C0 01 CF 54 C5 00][18 07 AA 00 00 00 01][1F C0 01 F9 6E F5 00][18 07 AB 00 00 00 01][1F C0 01 27 6F F5 00][18 07 AC 00 00 00 01][1F C0 01 46 55 C5 00][18 07 AD 00 00 00 01][1F C0 01 5C 6F F5 00][18 07 AE 00 00 00 01][1F C0 01 97 6F F5 00][18 07 AF 00 00 00 01][1F C0 01 D8 6F F5 00][18 07 B0 00 00 00 01][1F C0 01 27 56 C5 00][18 07 B1 00 00 00 01][1F C0 01 44 70 F5 00][18 07 B2 00 00 00 01][1F C0 01 97 70 F5 00][18 07 B3 00 00 00 01][1F C0 01 CE 70 F5 00][18 07 B4 00 00 00 01][1F C0 01 0C 71 F5 00][18 07 B5 00 00 00 01][1F C0 01 0B 57 C5 00][18 07 B6 00 00 00 01][1F C0 01 60 71 F5 00][18 07 B7 00 00 00 01][1F C0 01 9B 71 F5 00][18 07 B8 00 00 00 01][1F C0 01 EE 71 F5 00][18 07 B9 00 00 00 01][1F C0 01 36 72 F5 00][18 07 BA 00 00 00 01][1F C0 01 4D 72 F5 00][18 07 BB 00 00 00 01][1F C0 01 64 72 F5 00][18 07 BC 00 00 00 01][1F C0 01 2C 59 C5 00][18 07 BD 00 00 00 01][1F C0 01 72 48 C5 00][18 07 BE 00 00 00 01][1F C0 01 17 64 C5 00][18 07 BF 00 00 00 01][1F C0 01 7E 72 F5 00][18 07 C0 00 00 00 01][1F C0 01 43 59 C5 00][18 07 C1 00 00 00 01][1F C0 01 57 59 C5 00][18 07 C2 00 00 00 01][1F C0 01 A8 59 C5 00][18 07 C3 00 00 00 01][1F C0 01 D9 59 C5 00][18 07 C4 00 00 00 01][1F C0 01 D5 5A C5 00][18 07 C5 00 00 00 01][1F C0 01 21 5B C5 00][18 07 C6 00 00 00 01][1F C0 01 79 5B C5 00][18 07 C7 00 00 00 01][1F C0 01 C1 5B C5 00][18 07 C8 00 00 00 01][1F C0 01 03 5C C5 00][18 07 C9 00 00 00 01][1F C0 01 91 72 F5 00][18 07 CA 00 00 00 01][1F C0 01 CE 5C C5 00][18 07 CB 00 00 00 01][1F C0 01 E9 72 F5 00][18 07 CC 00 00 00 01][1F C0 01 1B 73 F5 00][18 07 CD 00 00 00 01][1F C0 01 82 5D C5 00][18 07 CE 00 00 00 01][1F C0 01 A1 5D C5 00][18 07 CF 00 00 00 01][1F C0 01 C8 5D C5 00][18 07 D0 00 00 00 01][1F C0 01 E0 5D C5 00][18 07 D1 00 00 00 01][1F C0 01 FE 5D C5 00][18 07 D2 00 00 00 01][1F C0 01 28 5E C5 00][18 07 D3 00 00 00 01][1F C0 01 77 5E C5 00][18 07 D4 00 00 00 01][1F C0 01 AB 5E C5 00][18 07 D5 00 00 00 01][1F C0 01 BB 5E C5 00][18 07 D6 00 00 00 01][1F C0 01 F6 5E C5 00][18 07 D7 00 00 00 01][1F C0 01 4D 73 F5 00][18 07 D8 00 00 00 01][1F C0 01 D9 73 F5 00][18 07 D9 00 00 00 01][1F C0 01 9F 3E C5 00][18 07 DA 00 00 00 01][1F C0 01 36 5F C5 00][18 07 DB 00 00 00 01][1F C0 01 5D 5F C5 00][18 07 DC 00 00 00 01][1F C0 01 84 5F C5 00][18 07 DD 00 00 00 01][1F C0 01 82 74 F5 00][18 07 DE 00 00 00 01][1F C0 01 92 74 F5 00][18 07 DF 00 00 00 01][1F C0 01 15 75 F5 00][18 07 E0 00 00 00 01][1F C0 01 37 75 F5 00][18 07 E1 00 00 00 01][1F C0 01 54 60 C5 00][18 07 E2 00 00 00 01][1F C0 01 97 60 C5 00][18 07 E3 00 00 00 01][1F C0 01 47 75 F5 00][18 07 E4 00 00 00 01][1F C0 01 57 75 F5 00][18 07 E5 00 00 00 01][1F C0 01 67 75 F5 00][18 07 E6 00 00 00 01][1F C0 01 77 75 F5 00][18 07 E7 00 00 00 01][1F C0 01 BA 75 F5 00][18 07 E8 00 00 00 01][1F C0 01 E7 75 F5 00][18 07 E9 00 00 00 01][1F C0 01 2F 76 F5 00][18 07 EA 00 00 00 01][1F C0 01 ED 76 F5 00][18 07 EB 00 00 00 01][1F C0 01 61 77 F5 00][18 07 EC 00 00 00 01][1F C0 01 AF 77 F5 00][18 07 ED 00 00 00 01][1F C0 01 04 78 F5 00][18 07 EE 00 00 00 01][1F C0 01 A9 63 C5 00][18 07 EF 00 00 00 01][1F C0 01 17 64 C5 00][18 07 F0 00 00 00 01][1F C0 01 5D 64 C5 00][18 07 F1 00 00 00 01][1F C0 01 D1 64 C5 00][18 07 F2 00 00 00 01][1F C0 01 FF 64 C5 00][18 07 F3 00 00 00 01][1F C0 01 BC 65 C5 00][18 07 F4 00 00 00 01][1F C0 01 D4 65 C5 00][18 07 F5 00 00 00 01][1F C0 01 B7 66 C5 00][18 07 F6 00 00 00 01][1F C0 01 8D 67 C5 00][18 07 F7 00 00 00 01][1F C0 01 DC 67 C5 00][18 07 F8 00 00 00 01][1F C0 01 F4 67 C5 00][18 07 F9 00 00 00 01][1F C0 01 04 68 C5 00][18 07 FA 00 00 00 01][1F C0 01 2E 68 C5 00][18 07 FB 00 00 00 01][1F C0 01 7B 68 C5 00][18 07 FC 00 00 00 01][1F C0 01 92 68 C5 00][18 07 FD 00 00 00 01][1F C0 01 48 78 F5 00]
+[18 07 FE 00 00 00 01][1B 02 00 00 F7 00][1C 08 03]Item [1C 0A FD 00 00 00] non-existent.[14][13]
+[0A 00 00 F7 00]";"Which description do you want?
+     Description:
+   .
+
+Item  non-existent.";literal_pointer;2E6D34,370E3F,370E63;;a_verifier;
+haute;89;37E4AD;[18 04][18 01 08][19 02]Podunk[02][19 02]Cemetary[02][19 02]Zoo[02][19 02]Canary V.[02][19 02]Merrysville[02][19 02]Yucca Desert[02][19 02]Youngtown[02][19 02]Reindeer[02][19 02]Spookane[02][19 02]Rosemary M.[02][19 02]Snowman[02][19 02]Swamp[02][19 02]S. L. Factory[02][19 02]D's Factory[02][19 02]Ellay[02][19 02]Magicant[02][19 02]Mt. Itoi[02][19 02]Lookout Tower[02][19 02]Debug Room[02][19 02]Page 2[02][19 02]Page 3[02][19 02]ENDING TEST[02][1C 0C 03][11][12][09 16 14 E6 F7 00 25 E6 F7 00 36 E6 F7 00 47 E6 F7 00 58 E6 F7 00 69 E6 F7 00 7A E6 F7 00 8B E6 F7 00 9C E6 F7 00 AD E6 F7 00 BE E6 F7 00 CF E6 F7 00 E0 E6 F7 00 F1 E6 F7 00 02 E7 F7 00 13 E7 F7 00 24 E7 F7 00 35 E7 F7 00 46 E7 F7 00 57 E7 F7 00 61 E7 F7 00 6B E7 F7 00][0A 84 E7 F7 00];PodunkCemetaryZooCanary V.MerrysvilleYucca DesertYoungtownReindeerSpookaneRosemary M.SnowmanSwampS. L. FactoryD's FactoryEllayMagicantMt. ItoiLookout TowerDebug RoomPage 2Page 3ENDING TEST;literal_pointer;37E954,37EAD0,387821;;a_verifier;
+haute;89;37FBE2;@That was fun. Do you have to run?[13][02];That was fun. Do you have to run?;literal_pointer;3658DD,3658E4,3658EB;;a_verifier;
+haute;89;37FC06;@Come back again and get some souvenirs.[13][02];Come back again and get some souvenirs.;literal_pointer;365995,36599C,3659A3;;a_verifier;
+haute;89;37FC58;@Okay, so who wants to carry this?[14][02];Okay, so who wants to carry this?;literal_pointer;365BBD,365BC4,365BCB;;a_verifier;
+haute;89;37FD29;"@You don't have quite enough money.
+[02]";You don't have quite enough money.;literal_pointer;365F55,365F5C,365F63;;a_verifier;
+haute;89;37FDF5;"@Your pockets are empty. Sorry, but I don't take air
+[02]";Your pockets are empty. Sorry, but I don't take air;literal_pointer;3662ED,3662F4,3662FB;;a_verifier;
+haute;89;37FF45;"@Sorry, you need to make with more cash for all of those.
+[02]";Sorry, you need to make with more cash for all of those.;literal_pointer;3667F5,3667FC,366803;;a_verifier;
+haute;89;37FF81;"@That's too many! You can't carry all of that.
+[02]";That's too many! You can't carry all of that.;literal_pointer;3668AD,3668B4,3668BB;;a_verifier;
+haute;89;37FFB2;"@Yeah, that would be too many.
+[02]";Yeah, that would be too many.;literal_pointer;366965,36696C,366973;;a_verifier;
+haute;89;383359;@(You shouldn't ride a boat when somebody is unwell.)[13][02];(You shouldn't ride a boat when somebody is unwell.);literal_pointer;3832BF,3832D0,3832E1;;a_verifier;
+haute;89;383571;"  [1F 52 03][12][1B 00][18 07 C0 00 00 00 00][1B 02 BA 35 F8 00][1C 08 03]Options 192 and above crash the game.
+[0A 71 35 F8 00]";Options 192 and above crash the game.;literal_pointer;383523,3835B1,3835C9;;a_verifier;
+haute;88;3516C4;"@Now I'm mad.
+@(Grumble, grumble)[13][18 04][02]";"Now I'm mad.
+ (Grumble, grumble)";literal_pointer;351644,351649,3516A6;;a_verifier;
+haute;87;33D49A;"@Now that the bridge is fixed,[10 0F] I can give more people rides!
+@It's all thanks to you.[13][02]";"Now that the bridge is fixed, I can give more people rides!
+ It's all thanks to you.";literal_pointer;33D2AF,33D47C;;a_verifier;
+haute;87;33EEAD;"@Sorry to hear that.
+@Please come again sometime.[13][02]";"Sorry to hear that.
+ Please come again sometime.";literal_pointer;33EE06,33EE0B;;a_verifier;
+haute;87;33F621;"@Hmm, I dunno.
+@Maybe I'M actually the gloomy one.[13][02]";"Hmm, I dunno.
+ Maybe I'M actually the gloomy one.";literal_pointer;33F5D4,33F5D9;;a_verifier;
+haute;87;33F7B2;"@Here is my first hint:
+@If you think you're supposed to bust the ghosts in the haunted house...
+  you're[10 0F] gravely mistaken.
+@No, there's actually a melody there.[13][18 04][04 35 04][02]";"Here is my first hint:
+ If you think you're supposed to bust the ghosts in the haunted house...
+  you're gravely mistaken.
+ No, there's actually a melody there.";literal_pointer;33F7A4,33F7A9;;a_verifier;
+haute;87;33F9B0;"@Oh, you don't need anyone's help, [10 0F]do you?
+@Fine and dandy, [10 0F]you can color me gone.[13][18 04][1F 02 72][1F 1F 41 00 07][04 37 04][02]";"Oh, you don't need anyone's help, do you?
+ Fine and dandy, you can color me gone.";literal_pointer;33F733,33F738;;a_verifier;
+haute;87;3479FF;"@[1C 0D] felt a question enter [1C 14 01][08 60 E6 C7 00] mind.
+@<Who has lost their tail?>
+[06 28 03 A5 7A F4 00][1D 05 FF 30][1B 02 8D 7A F4 00]@[1C 0D] took out [1C 05 30] and read these words aloud:[0A C5 7A F4 00]";"felt a question enter  mind.
+ <Who has lost their tail?>
+  took out  and read these words aloud:";literal_pointer;3479DE,3479FB;;a_verifier;
+haute;87;348145;"[06 72 03 E0 81 F4 00][18 04][18 01 35]@That's right.
+@The answer is,[10 0F] <two alligators.>
+@Although, I haven't come up with the riddle yet.[13][18 04][04 05 00][04 72 03][1F F1 D4 03 3B 04][1F F1 D5 03 3C 04][1F 61][02]";"That's right.
+ The answer is, <two alligators.>
+ Although, I haven't come up with the riddle yet.";literal_pointer;348137,348141;;a_verifier;
+haute;87;348337;"[08 30 5B F8 00][08 11 83 F4 00][08 C6 84 F4 00][06 2E 03 10 85 F4 00][06 66 03 DC 83 F4 00]@Welcome, [19 10 01][1B 04][1C 02 00].
+@Here in Magicant,[10 0F] everyone is your friend.
+@You can have as much as you like,[10 0F] of whatever you want.
+[04 66 03][0A DC 83 F4 00]";"Welcome, .
+ Here in Magicant, everyone is your friend.
+ You can have as much as you like, of whatever you want.";literal_pointer;34832E,348333;;a_verifier;
+haute;87;3483DC;"@Oh?[10 0F] You want to hear my song?
+@I'm sorry. I don't know why,[10 0F] but I just can't sing.
+@I beg you to learn it, and sing it to me...
+@If I could only sing it again... Something important would happen. [10 1E]I'm sure of it...
+@......[13][02]";"Oh? You want to hear my song?
+ I'm sorry. I don't know why, but I just can't sing.
+ I beg you to learn it, and sing it to me...
+ If I could only sing it again... Something important would happen. I'm sure of it...
+ ......";literal_pointer;348350,3483D8;;a_verifier;
+haute;87;348510;"[1F 07 03]@Please sing the melodies that you have learned to me.[03][04 02 00][08 F4 15 C9 00][1A 0C A7 D3 F8 00][1F EA 6A 00][10 1E][1F 1C 01 0C][1F 1C 02 0C][1F 1C 03 0C][1A 11 04][1B 02 77 85 F4 00][1F 1C 04 0C][1F 00 00 04][18 04][10 0A][1F 00 00 5B][10 FF][10 FF][10 FF][10 FF][10 FF][10 FF][10 FF][1F 00 00 04][1F 1D 01][1F 1D 02][1F 1D 03][1F 1D 04][10 01][18 01 35]@Yes... [10 0F]that was it.
+@That's the song.[13][18 04][1F 00 00 5A][1F 1A 60 01 14][10 FF][10 FF][10 FF][10 FF][10 FF][10 FF][10 64][1F 1B 60 01][18 01 35][1A 0C DA 95 F8 00][1A 0C 34 AA F8 00 1D 03][1A 0C E5 95 F8 00 01]@Oh, Giygas!
+[1A 0C 34 AA F8 00 1B 03][1A 0C E5 95 F8 00 02]@I had loved him as if he were my own child, too...
+[1A 0C 34 AA F8 00 19 03][1A 0C E5 95 F8 00 03]@He would always wag his tail, just like a puppy...
+[1A 0C 34 AA F8 00 17 03][1A 0C E5 95 F8 00 04]@I would sing him a lullaby, but then...
+[1A 0C 34 AA F8 00 15 03][1A 0C E5 95 F8 00 05]@Oh, George!
+[1A 0C 34 AA F8 00 13 03][1A 0C E5 95 F8 00 06]@This is your wife, Maria.
+[1A 0C 34 AA F8 00 11 03][1A 0C E5 95 F8 00 07]@I know you've been waiting...
+[1A 0C 34 AA F8 00 0F 03][1A 0C E5 95 F8 00 08]@I'm on my way to join you in heaven now.[13][18 04][1A 0C 34 AA F8 00 0D 03][1A 0C E5 95 F8 00 09][10 0A][1A 0C 34 AA F8 00 0B 03][1A 0C E5 95 F8 00 0A][10 0A][1A 0C 34 AA F8 00 09 03][1A 0C E5 95 F8 00 0B][10 0A][1A 0C 34 AA F8 00 07 03][1A 0C E5 95 F8 00 0C][10 0A][1A 0C 34 AA F8 00 05 03][1A 0C E5 95 F8 00 0D][10 0A][1A 0C 34 AA F8 00 02 03][1A 0C E5 95 F8 00 0E][10 0A][1A 0C 34 AA F8 00 01 03][1F 15 7D 01 DB 03 01][1F 61][1F E7 7D 01][1F 1F 32 00 06][10 01][1F 12 0B][1F 12 0C][1F 12 0D][1F 12 0E][1F 12 0F][08 41 5B F8 00][1F 14 07][1F EA 7D 01][1A 0C A6 95 F8 00][1F 15 46 00 54 04 01][10 78][1F 1F 46 00 0A][10 FF][1F 61][10 64][1A 0C 34 AA F8 00 22 03][10 14][1A 0C 34 AA F8 00 24 03][10 14][1A 0C 34 AA F8 00 26 03][10 14][1A 0C 34 AA F8 00 28 03][10 14][1A 0C 34 AA F8 00 2A 03][10 14][1A 0C 34 AA F8 00 2C 03][10 14][1A 0C 34 AA F8 00 2E 03][10 14][1A 0C 34 AA F8 00 30 03][10 14][1A 0C 34 AA F8 00 32 03][10 14][1A 0C 34 AA F8 00 34 03][10 14][1A 0C 34 AA F8 00 36 03][10 14][1A 0C 34 AA F8 00 38 03][10 14][1A 0C 34 AA F8 00 3A 03][10 14][1A 0C 34 AA F8 00 3C 03][10 14][1A 0C 34 AA F8 00 3F 03][1F 61][1A 0C 34 AA F8 00 20 3F][1F 61][0A E3 88 F4 00]";"Please sing the melodies that you have learned to me. Yes... that was it.
+ That's the song. Oh, Giygas!
+ I had loved him as if he were my own child, too...
+ He would always wag his tail, just like a puppy...
+ I would sing him a lullaby, but then...
+ Oh, George!
+ This is your wife, Maria.
+ I know you've been waiting...
+ I'm on my way to join you in heaven now.";literal_pointer;348329,348349;;a_verifier;
+haute;87;3492A2;"@You don't trust anyone, do you?
+@Honestly that's for the best, [10 0F]maybe...[13][02]";"You don't trust anyone, do you?
+ Honestly that's for the best, maybe...";literal_pointer;3491DD,3491E2;;a_verifier;
+haute;87;349B23;"@Really?[10 0F]  Unhappiness CAN walk?
+@I had no idea.[0A 5A 9B F4 00]";"Really?  Unhappiness CAN walk?
+ I had no idea.";literal_pointer;349AB7,349ABC;;a_verifier;
+haute;87;349D14;"@Oh, a traveller!
+@Why don't you enjoy a meal at our house?
+@Can you guess what we're having today?
+[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 99 9D F4 00 8D 9E F4 00][0A 8D 9E F4 00]";"Oh, a traveller!
+ Why don't you enjoy a meal at our house?
+ Can you guess what we're having today?
+YesNo";literal_pointer;349CE2,349D10;;a_verifier;
