@@ -2,7 +2,7 @@
   "version": "v14",
   "base": "v13",
   "rom_source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
-  "notes": "Les commandes, marqueurs @ et retours ligne restent aux mêmes offsets. Les chaînes françaises plus courtes sont complétées par des espaces.",
+  "notes": "Les commandes, marqueurs @ et retours ligne restent aux mêmes offsets. Les chaînes françaises plus courtes sont complétées par des espaces. Les sauts de ligne sont encodés selon les octets source 03 00 ou 00 ; masque consigné par script.",
   "entries": [
     {
       "id": "33B3B5",
@@ -15,7 +15,8 @@
       ],
       "pointer_refs": [
         "203E2E"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33B50A",
@@ -27,7 +28,8 @@
       ],
       "pointer_refs": [
         "33B4FD"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33BDAD",
@@ -39,7 +41,8 @@
       ],
       "pointer_refs": [
         "0F1711"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33BF00",
@@ -51,7 +54,8 @@
       ],
       "pointer_refs": [
         "203BDB"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33C72E",
@@ -63,7 +67,8 @@
       ],
       "pointer_refs": [
         "204D63"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33C84A",
@@ -77,7 +82,8 @@
       ],
       "pointer_refs": [
         "20427F"
-      ]
+      ],
+      "newline_one_byte_mask": 1
     },
     {
       "id": "33CA0D",
@@ -89,7 +95,8 @@
       ],
       "pointer_refs": [
         "0F1B5A"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33CAA1",
@@ -101,7 +108,8 @@
       ],
       "pointer_refs": [
         "0F1AC6"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33CB36",
@@ -113,7 +121,8 @@
       ],
       "pointer_refs": [
         "0F1BB2"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33CDD0",
@@ -126,7 +135,8 @@
       ],
       "pointer_refs": [
         "203EE9"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33D1ED",
@@ -139,7 +149,8 @@
       ],
       "pointer_refs": [
         "0F1219"
-      ]
+      ],
+      "newline_one_byte_mask": 5
     },
     {
       "id": "33D4F4",
@@ -153,7 +164,8 @@
       ],
       "pointer_refs": [
         "2060E9"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33D594",
@@ -166,7 +178,8 @@
       ],
       "pointer_refs": [
         "205DA8"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33D84C",
@@ -180,7 +193,8 @@
       ],
       "pointer_refs": [
         "33D69C"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33DBF6",
@@ -194,7 +208,8 @@
       ],
       "pointer_refs": [
         "20646E"
-      ]
+      ],
+      "newline_one_byte_mask": 2
     },
     {
       "id": "33DC88",
@@ -208,7 +223,8 @@
       ],
       "pointer_refs": [
         "33DBF9"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33DDC0",
@@ -221,7 +237,8 @@
       ],
       "pointer_refs": [
         "204B76"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33DE47",
@@ -233,7 +250,8 @@
       ],
       "pointer_refs": [
         "33DDC3"
-      ]
+      ],
+      "newline_one_byte_mask": 1
     },
     {
       "id": "33DF7E",
@@ -244,7 +262,8 @@
       ],
       "pointer_refs": [
         "0F1D51"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E01E",
@@ -256,7 +275,8 @@
       ],
       "pointer_refs": [
         "33DF89"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E1A9",
@@ -267,7 +287,8 @@
       ],
       "pointer_refs": [
         "203BFD"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E22A",
@@ -279,7 +300,8 @@
       ],
       "pointer_refs": [
         "0F0BBA"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E2A6",
@@ -292,7 +314,8 @@
       ],
       "pointer_refs": [
         "0F0B9C"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E36F",
@@ -305,7 +328,8 @@
       ],
       "pointer_refs": [
         "0F09DC"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E472",
@@ -318,7 +342,8 @@
       ],
       "pointer_refs": [
         "0F0BC5"
-      ]
+      ],
+      "newline_one_byte_mask": 2
     },
     {
       "id": "33E5E0",
@@ -330,7 +355,8 @@
       ],
       "pointer_refs": [
         "203FB5"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E67E",
@@ -341,7 +367,8 @@
       ],
       "pointer_refs": [
         "20301A"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E71B",
@@ -352,7 +379,8 @@
       ],
       "pointer_refs": [
         "204092"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E7B4",
@@ -364,7 +392,8 @@
       ],
       "pointer_refs": [
         "0F09A5"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33E80C",
@@ -375,7 +404,8 @@
       ],
       "pointer_refs": [
         "0F0BAB"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33EB7B",
@@ -389,7 +419,8 @@
       ],
       "pointer_refs": [
         "0F1925"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33F4FB",
@@ -401,7 +432,8 @@
       ],
       "pointer_refs": [
         "2048BD"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33F5DD",
@@ -412,7 +444,8 @@
       ],
       "pointer_refs": [
         "33F5D0"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33F621",
@@ -424,7 +457,8 @@
       "pointer_refs": [
         "33F5D4",
         "33F5D9"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33FA1B",
@@ -438,7 +472,8 @@
         "2048AC",
         "33F9AC",
         "33FA17"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33FCE8",
@@ -450,7 +485,8 @@
       ],
       "pointer_refs": [
         "205C21"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "33FE4B",
@@ -462,7 +498,8 @@
       ],
       "pointer_refs": [
         "205C10"
-      ]
+      ],
+      "newline_one_byte_mask": 2
     },
     {
       "id": "347C20",
@@ -474,7 +511,8 @@
       ],
       "pointer_refs": [
         "202F1B"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "347CB3",
@@ -486,7 +524,8 @@
       ],
       "pointer_refs": [
         "347C38"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "347D66",
@@ -497,7 +536,8 @@
       ],
       "pointer_refs": [
         "347C31"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "347DD6",
@@ -508,7 +548,8 @@
       ],
       "pointer_refs": [
         "347C2A"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "348F89",
@@ -519,7 +560,8 @@
       ],
       "pointer_refs": [
         "203E83"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "348FE5",
@@ -530,7 +572,8 @@
       ],
       "pointer_refs": [
         "20447D"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     },
     {
       "id": "34909F",
@@ -543,7 +586,8 @@
       ],
       "pointer_refs": [
         "20623D"
-      ]
+      ],
+      "newline_one_byte_mask": 0
     }
   ]
 }
