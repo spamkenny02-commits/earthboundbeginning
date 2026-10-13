@@ -1,28 +1,24 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V14 (traduction partielle)
+## Version actuelle : V15 (traduction partielle)
 
-La **V14 autonome** reprend toutes les modifications V09–V13 et intègre **130 nouveaux segments français** répartis dans **44 scripts multisegments**. Depuis V09 : **366 segments/blocs supplémentaires** (50 + 27 + 18 + 141 + 130), sans compter les brouillons ni les textes déjà présents dans la V09.
+La **V15 autonome** ajoute **77 segments français dans 32 scripts narratifs** (Snowman, Ellay, Magicant, Spookane). Depuis la V09, les versions successives ont intégré **443 segments/blocs supplémentaires** (50 + 27 + 18 + 141 + 130 + 77). Le jeu reste **partiellement traduit**.
 
-- [Patch V14 avec accents](patches/EarthBound_Beginnings_FR_v14_accents.ips)
-- [Patch V14 sans accents](patches/EarthBound_Beginnings_FR_v14_ascii.ips)
-- [Rapport V14](RAPPORT_V14.md), [manifest](traduction/v14_multisegments_fr.json), [tests V14](tests/verifier_fusion_v14.py)
+- [Patch V15 avec accents](patches/EarthBound_Beginnings_FR_v15_accents.ips)
+- [Patch V15 sans accents](patches/EarthBound_Beginnings_FR_v15_ascii.ips)
+- [Rapport V15](RAPPORT_V15.md), [manifeste](traduction/v15_dialogues_fr.json), [tests](tests/verifier_fusion_v15.py)
 
-**Appliquer uniquement la V14 à la ROM originale USA 1.2**. Ne pas appliquer les anciennes versions auparavant.
+**Appliquer un seul patch V15 directement sur la ROM USA 1.2 originale**, sans appliquer V09 à V14 avant.
 
 ```sh
-python traduction/appliquer_v14.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v14.sfc"
+python traduction/appliquer_v15.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v15.sfc"
 ```
 
-Les 44 scripts originaux et 47 références littérales ont été vérifiés sur la ROM source. Huit segments avec pointeurs intérieurs ont été écartés par prudence. **Les essais de gameplay sous émulateur restent à effectuer.**
+**Contrôles :** 32 scripts et 36 références HiROM vérifiés sur ROM source, 77 segments sans collision V14 ; trois segments exclus à cause de pointeurs intérieurs. [Tests GitHub Actions V15](https://github.com/spamkenny02-commits/earthboundbeginning/actions/workflows/verifier-v15.yml). Les essais complets sous émulateur restent à faire.
 
-## Historique V13 et antérieures
+## Versions précédentes
 
-La [V13](RAPPORT_V13.md), la [V12](RAPPORT_V12.md) et la [V11](RAPPORT_V11.md) sont conservées pour comparaison et retour arrière.
-
-## Historique des patchs V10 à V12
-
-La [V12](RAPPORT_V12.md), la [V11](RAPPORT_V11.md) et la [V10](RAPPORT_V10_ADDON.md) restent archivées dans `patches/` pour comparaison et retour arrière. Elles ne sont pas nécessaires à l'installation de V13.
+Les [V14](RAPPORT_V14.md), [V13](RAPPORT_V13.md), [V12](RAPPORT_V12.md), [V11](RAPPORT_V11.md) et [V10](RAPPORT_V10_ADDON.md) restent archivées dans `patches/` pour comparaison ou retour arrière. **Elles ne sont pas nécessaires à l'installation de V15.**
 
 ## Historique V09 et atelier
 
