@@ -1,0 +1,39 @@
+{
+  "source": "catalogue/catalogue.json",
+  "base": "v09",
+  "avertissement": "Propositions éditoriales uniquement : aucune modification des scripts ou patchs. Ne pas importer directement comme dialogues_fr.json.",
+  "blocks": [
+    {
+      "id": "33DAD6",
+      "english": "@There is a [1C 05 F0] on the ground.\n[1F 02 05][10 14]\n\n@But you can't carry any more.[13][02]",
+      "francais_propose": "@Il y a [1C 05 F0] par terre.\n[1F 02 05][10 14]\n\n@Mais tu ne peux plus rien porter.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Vérifier contexte, noms, longueur, pointeurs et affichage en jeu."
+    },
+    {
+      "id": "33DBA3",
+      "english": "@[19 10 01][1B 04][1C 02 00] checked the ground.\n@But none of the mushrooms were ready for picking.[13][02]",
+      "francais_propose": "@[19 10 01][1B 04][1C 02 00] a examiné le sol.\n@Mais aucun champignon n'était prêt à être cueilli.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Vérifier contexte, noms, longueur, pointeurs et affichage en jeu."
+    },
+    {
+      "id": "34B16F",
+      "english": "@I heard that my brother died with honor in combat.\n@With all our love, we held a funeral for him, and he was buried in our cemetery.\n@Now I will take his place alongside you.[03][18 04][08 C1 7B F8 00][18 07 02 00 00 00 00][1B 03 80 B2 F4 00][1B 06][0D 01][1B 04][1F C0 05 86 B2 F4 00 A2 B2 F4 00 BE B2 F4 00 DA B2 F4 00 F6 B2 F4 00][1F 00 00 7B][10 B4][1F 03][18 01 35]@(The Flying Man joins you.)[03][18 04][04 4B 02][02]",
+      "francais_propose": "@J'ai appris que mon frère était mort avec honneur au combat.\n@Nous lui avons rendu un dernier hommage et l'avons enterré dans notre cimetière.\n@À présent, je prendrai sa place à tes côtés.[03][18 04][08 C1 7B F8 00][18 07 02 00 00 00 00][1B 03 80 B2 F4 00][1B 06][0D 01][1B 04][1F C0 05 86 B2 F4 00 A2 B2 F4 00 BE B2 F4 00 DA B2 F4 00 F6 B2 F4 00][1F 00 00 7B][10 B4][1F 03][18 01 35]@(L'Homme volant rejoint l'équipe.)[03][18 04][04 4B 02][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Vérifier contexte, noms, longueur, pointeurs et affichage en jeu."
+    },
+    {
+      "id": "35A925",
+      "english": "[1B 00][06 7F 03 55 A9 F7 00][1B 01][19 19 00 00][1B 04][0B EC][1B 02 B6 C6 C7 00][19 10 01][0D 00]@[1C 02 00] took out the Telephone Card.\n[1F 90][1B 02 70 AA F5 00][1B 05][19 10 01][0D 00]@[1C 02 00] used the Telephone Card.\n[06 8E 03 C3 A9 F5 00][06 8F 03 C3 A9 F5 00][06 90 03 C3 A9 F5 00][06 91 03 C3 A9 F5 00][06 92 03 C3 A9 F5 00][06 93 03 C3 A9 F5 00][0A F2 A9 F5 00]",
+      "francais_propose": "[1B 00][06 7F 03 55 A9 F7 00][1B 01][19 19 00 00][1B 04][0B EC][1B 02 B6 C6 C7 00][19 10 01][0D 00]@[1C 02 00] sort la carte téléphonique.\n[1F 90][1B 02 70 AA F5 00][1B 05][19 10 01][0D 00]@[1C 02 00] utilise la carte téléphonique.\n[06 8E 03 C3 A9 F5 00][06 8F 03 C3 A9 F5 00][06 90 03 C3 A9 F5 00][06 91 03 C3 A9 F5 00][06 92 03 C3 A9 F5 00][06 93 03 C3 A9 F5 00][0A F2 A9 F5 00]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Vérifier contexte, noms, longueur, pointeurs et affichage en jeu."
+    }
+  ]
+}
