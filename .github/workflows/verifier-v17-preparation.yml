@@ -1,0 +1,23 @@
+name: Verification preparation v17
+on:
+  push:
+    paths:
+      - 'traduction/preparer_v17.py'
+      - 'tests/verifier_preparation_v17.py'
+      - 'traduction/v17_priorites_non_verifiees.json'
+      - '.github/workflows/verifier-v17-preparation.yml'
+  workflow_dispatch:
+jobs:
+  verifier-preparation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Tests de regression V15 et V16 (sans ROM)
+        run: |
+          python tests/verifier_fusion_v15.py
+          python tests/verifier_fusion_v16.py
+      - name: Tests de preparation V17 (ROM synthetique)
+        run: python tests/verifier_preparation_v17.py
