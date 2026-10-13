@@ -1,0 +1,383 @@
+{
+  "version": "v15",
+  "base": "v14",
+  "notes": "32 scripts multisegments, textes français à taille fixe et commandes conservées. Le générateur déduit les retours de ligne de la ROM originale. Certaines expressions et enseignes restent volontairement non traduites.",
+  "entries": [
+    {
+      "id": "33C945",
+      "english": "@Jack's nightly lodging.\n@Rooms available!\n@Can't find a place to stay?\n@Then you don't know Jack![13][02]",
+      "translations": [
+        "Chez Jack, chaque nuit.",
+        "Chambres libres!",
+        "Tu cherches où dormir ?",
+        "Jack a la solution !"
+      ],
+      "pointer_refs": [
+        "0F1B56"
+      ]
+    },
+    {
+      "id": "33C9AA",
+      "english": "@Need a room for the night?\n@Inquire at the yellow house to the south!\n@Tell them Jack sent you![13][02]",
+      "translations": [
+        "Une chambre pour la nuit ?",
+        "Demande à la maison jaune, au sud !",
+        "Dis que Jack t'envoie !"
+      ],
+      "pointer_refs": [
+        "0F1AD1"
+      ]
+    },
+    {
+      "id": "33CA66",
+      "english": "@<Snowman Clinic>\n@If you need care you'll see us there.[13][02]",
+      "translations": [
+        "<Snowman Clinic>",
+        "Besoin de soins ? Viens nous voir !"
+      ],
+      "pointer_refs": [
+        "20416F"
+      ]
+    },
+    {
+      "id": "33CC68",
+      "english": "@Well...\n@The ghosts and animals aren't gone, but things have calmed down a little.\n@I think we should start working on retaking the town.[13][02]",
+      "translations": [
+        "Bon...",
+        "Les fantômes et bêtes sont là, mais le calme revient.",
+        "On devrait tenter de reprendre la ville."
+      ],
+      "pointer_refs": [
+        "203A32"
+      ]
+    },
+    {
+      "id": "33CCF6",
+      "english": "@Ha!  Why the surprised look?\n@Did you think this was a <ghost> town?\n@Because only some ghosts live here.[13][02]",
+      "translations": [
+        "Ha ! Tu sembles surpris !",
+        "Tu croyais à une ville de <fantômes> ?",
+        "Seuls quelques fantômes vivent ici."
+      ],
+      "pointer_refs": [
+        "203EC7"
+      ]
+    },
+    {
+      "id": "33CD64",
+      "english": "@If we can get stuff like the hospital working right again,\n@other people might feel safer returning too.[13][02]",
+      "translations": [
+        "Si on remet l'hôpital en état,",
+        "d'autres gens oseront peut-être revenir."
+      ],
+      "pointer_refs": [
+        "203E50"
+      ]
+    },
+    {
+      "id": "33D23F",
+      "english": "@You go on ahead.\n@I'm gonna pay that pilot in the desert a visit.[13][02]",
+      "translations": [
+        "Passe devant.",
+        "Je vais rendre visite au pilote du désert."
+      ],
+      "pointer_refs": [
+        "2060FA"
+      ]
+    },
+    {
+      "id": "33D49A",
+      "english": "@Now that the bridge is fixed,[10 0F] I can give more people rides!\n@It's all thanks to you.[13][02]",
+      "translations": [
+        "Le pont est réparé,",
+        " je fais plus de trajets !",
+        "C'est grâce à toi."
+      ],
+      "pointer_refs": [
+        "33D2AF",
+        "33D47C"
+      ]
+    },
+    {
+      "id": "33E0F7",
+      "english": "@Lately I've been playing this new game called\n  <EarthBound Beginnings>.\n@It's difficult, but the challenge makes it fun![13][02]",
+      "translations": [
+        "Je joue à un nouveau jeu nommé",
+        "  <EarthBound Beginnings>.",
+        "C'est dur, mais le défi est amusant !"
+      ],
+      "pointer_refs": [
+        "2040F8"
+      ]
+    },
+    {
+      "id": "33E42F",
+      "english": "@Try our new Deluxe Burger!\n@So good it'll make your heart ache![13][02]",
+      "translations": [
+        "Teste le Burger Deluxe !",
+        "Si bon que ton coeur va chavirer !"
+      ],
+      "pointer_refs": [
+        "0F0AD2"
+      ]
+    },
+    {
+      "id": "33E504",
+      "english": "@Life is tough.\n@You'll live longer if you visit your doctor!\n  -Ellay Hospital[13][02]",
+      "translations": [
+        "Vie difficile.",
+        "Pour vivre longtemps, va voir ton médecin !",
+        "  -Hôpital Ellay"
+      ],
+      "pointer_refs": [
+        "0F0BA7"
+      ]
+    },
+    {
+      "id": "33E557",
+      "english": "@(There's some graffiti here.)\n@<No crying until...>\n@(The end is illegible.)[13][02]",
+      "translations": [
+        "(Il y a un graffiti.)",
+        "<Ne pleure pas...>",
+        "(La fin est illisible.)"
+      ],
+      "pointer_refs": [
+        "0F0BB6"
+      ]
+    },
+    {
+      "id": "33E5A8",
+      "english": "@(There's some graffiti here.)\n@<Black Bloods RULE!!>[13][02]",
+      "translations": [
+        "(Il y a un graffiti.)",
+        "<Black Bloods ROIS!>"
+      ],
+      "pointer_refs": [
+        "0F0975"
+      ]
+    },
+    {
+      "id": "33E6BC",
+      "english": "@Near the base of Mt. Itoi, lives a very kind, generous man.\n@I wonder if he's doing okay...[13][02]",
+      "translations": [
+        "Au pied du mont Itoi vit un homme très généreux.",
+        "J'espère qu'il va bien..."
+      ],
+      "pointer_refs": [
+        "2040D6"
+      ]
+    },
+    {
+      "id": "33F442",
+      "english": "@They say you can hear a piano melody coming from inside...\n@Even though the house is empty.[13][02]",
+      "translations": [
+        "On entendrait un air de piano dans cette maison...",
+        "Même si elle est vide."
+      ],
+      "pointer_refs": [
+        "33F435"
+      ]
+    },
+    {
+      "id": "33F96F",
+      "english": "@Oh... [10 0F]You don't have enough money.\n@Sorry, come again.[13][02]",
+      "translations": [
+        "Oh... ",
+        "Tu n'as pas assez d'argent.",
+        "Désolé, à bientôt."
+      ],
+      "pointer_refs": [
+        "33F7AE"
+      ]
+    },
+    {
+      "id": "33FBA1",
+      "english": "@You seem to be having a tough time...\n@I'm so worried...[13][02]",
+      "translations": [
+        "Tu sembles avoir du mal...",
+        "Je m'inquiète..."
+      ],
+      "pointer_refs": [
+        "33FA87"
+      ]
+    },
+    {
+      "id": "3492A2",
+      "english": "@You don't trust anyone, do you?\n@Honestly that's for the best, [10 0F]maybe...[13][02]",
+      "translations": [
+        "Tu ne crois personne, hein ?",
+        "C'est sans doute plus sage, ",
+        "peut..."
+      ],
+      "pointer_refs": [
+        "3491DD",
+        "3491E2"
+      ]
+    },
+    {
+      "id": "349592",
+      "english": "@My! What strange clothing you wear!\n@Surely monsters will come after you with clothes like that on![13][02]",
+      "translations": [
+        "Oh ! Quels drôles d'habits !",
+        "Les monstres vont te poursuivre avec cette tenue !"
+      ],
+      "pointer_refs": [
+        "20642A"
+      ]
+    },
+    {
+      "id": "3495F9",
+      "english": "@I'm so embarrassed...[10 0F] I wish I could crawl into a hole.\n@If only there were holes to crawl into...[13][02]",
+      "translations": [
+        "Quelle honte...",
+        " Je veux me cacher dans un trou.",
+        "S'il y avait un trou où me cacher..."
+      ],
+      "pointer_refs": [
+        "206419"
+      ]
+    },
+    {
+      "id": "349661",
+      "english": "@Are you lost?\n@Just head more to the south.\n@Oh? Sorry... I was directing you to the restroom.\n@If you're looking for Queen Mary's Fountain, it's west of the castle.[13][02]",
+      "translations": [
+        "Tu es perdu ?",
+        "Va plus au sud.",
+        "Oh, pardon... Je parlais des toilettes.",
+        "La fontaine de la reine Mary est à l'ouest du château."
+      ],
+      "pointer_refs": [
+        "20625F"
+      ]
+    },
+    {
+      "id": "349740",
+      "english": "@Don't be silly!\n@There's no exit from a place like Magicant.\n@Ha ha ha...[13][02]",
+      "translations": [
+        "Pas si vite !",
+        "On ne sort pas d'un lieu comme Magicant.",
+        "Ha ha ha..."
+      ],
+      "pointer_refs": [
+        "206391"
+      ]
+    },
+    {
+      "id": "34978E",
+      "english": "@Outside?[10 0F] A world outside!?\n@What do you mean?[13][02]",
+      "translations": [
+        "Dehors ?",
+        " Un monde dehors!?",
+        "Quoi donc ?"
+      ],
+      "pointer_refs": [
+        "2063A2"
+      ]
+    },
+    {
+      "id": "349875",
+      "english": "@Deep in the woods is a guitar player who keeps to himself.\n@Not that bad looking of a man...\n@Quite a poet, too.[13][02]",
+      "translations": [
+        "Un guitariste solitaire vit au fond des bois.",
+        "Il n'est pas si mal, en fait...",
+        "Un poète aussi."
+      ],
+      "pointer_refs": [
+        "2062E7"
+      ]
+    },
+    {
+      "id": "349B90",
+      "english": "@I used to run a musical instrument store,\n  but the Ocarina I ordered never arrived.\n@So I've given up.[13][02]",
+      "translations": [
+        "Je tenais une boutique de musique,",
+        "  mais mon Ocarina n'est jamais arrivé.",
+        "J'ai abandonné."
+      ],
+      "pointer_refs": [
+        "206309"
+      ]
+    },
+    {
+      "id": "348D1A",
+      "english": "@It dwells within the earth, sea, and stars.\n@Do not forget.[13][02]",
+      "translations": [
+        "Elle vit en terre, mer et dans les cieux.",
+        "N'oublie pas."
+      ],
+      "pointer_refs": [
+        "348C71"
+      ]
+    },
+    {
+      "id": "349FE1",
+      "english": "[07 7F 01][1B 02 24 A0 F4 00]@Please come again.\n@Promise me you'll come again![13][02]",
+      "translations": [
+        "Reviens nous voir.",
+        "Promets de revenir !"
+      ],
+      "pointer_refs": [
+        "2063F7",
+        "349FD3",
+        "349FDD"
+      ]
+    },
+    {
+      "id": "33C668",
+      "english": "@Bark ruff\n@[10 0F](One dog's junk might just be your treasure.)[13][02]",
+      "translations": [
+        "Ouaf ouaf",
+        "(Le rebut d'un chien peut être ton trésor.)"
+      ],
+      "pointer_refs": [
+        "33C4A3"
+      ]
+    },
+    {
+      "id": "33BEA2",
+      "english": "@Rubber meets road...\n  wind in my hair...\n@Cruising 'round town, like I don't have a care.[13][02]",
+      "translations": [
+        "Le bitume défile...",
+        "  cheveux au vent...",
+        "Je roule en ville sans aucun souci."
+      ],
+      "pointer_refs": [
+        "2034D1"
+      ]
+    },
+    {
+      "id": "33FCA8",
+      "english": "@Hi there, my name is [1C 02 01].\n@It used to be Buggerror Rosemary.[13][02]",
+      "translations": [
+        "Salut, je m'appelle ",
+        "Avant, c'était Buggerror Rosemary"
+      ],
+      "pointer_refs": [
+        "205C32"
+      ]
+    },
+    {
+      "id": "33F063",
+      "english": "[06 5B 03 CF F0 F3 00]@There was a rockslide near Union Station.\n@The train can't get through until it has been removed.[13][02]",
+      "translations": [
+        "Un éboulement bloque la gare Union.",
+        "Le train est bloqué tant qu'il n'est pas dégagé."
+      ],
+      "pointer_refs": [
+        "20302B"
+      ]
+    },
+    {
+      "id": "33D141",
+      "english": "@Wait, the door is locked so you can't get in?\n@Sorry, I can't seem to grab- err, find the key.\n@Maybe next time...[13][05 72 04][18 00][02]",
+      "translations": [
+        "La porte est close, tu ne peux pas entrer ?",
+        "Désolé, impossible de... euh, trouver la clé.",
+        "Une autre fois..."
+      ],
+      "pointer_refs": [
+        "33CEFF"
+      ]
+    }
+  ]
+}
