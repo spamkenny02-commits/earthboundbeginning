@@ -1,24 +1,24 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V15 (traduction partielle)
+## Version actuelle : V16 (traduction partielle)
 
-La **V15 autonome** ajoute **77 segments français dans 32 scripts narratifs** (Snowman, Ellay, Magicant, Spookane). Depuis la V09, les versions successives ont intégré **443 segments/blocs supplémentaires** (50 + 27 + 18 + 141 + 130 + 77). Le jeu reste **partiellement traduit**.
+La **V16 autonome** reprend toutes les modifications V09–V15 et ajoute **128 segments français dans 63 scripts modifiés**, sur un lot de **100 scripts vérifiés** (236 segments examinés). Depuis la V09 : **571 segments/blocs supplémentaires** cumulés au fil des versions V10–V16 (50 + 27 + 18 + 141 + 130 + 77 + 128), sans les brouillons.
 
-- [Patch V15 avec accents](patches/EarthBound_Beginnings_FR_v15_accents.ips)
-- [Patch V15 sans accents](patches/EarthBound_Beginnings_FR_v15_ascii.ips)
-- [Rapport V15](RAPPORT_V15.md), [manifeste](traduction/v15_dialogues_fr.json), [tests](tests/verifier_fusion_v15.py)
+- [Patch V16 avec accents](patches/EarthBound_Beginnings_FR_v16_accents.ips)
+- [Patch V16 sans accents](patches/EarthBound_Beginnings_FR_v16_ascii.ips)
+- [Rapport V16](RAPPORT_V16.md), [manifeste](traduction/v16_dialogues_fr.json), [tests](tests/verifier_fusion_v16.py)
 
-**Appliquer un seul patch V15 directement sur la ROM USA 1.2 originale**, sans appliquer V09 à V14 avant.
+**Appliquer uniquement V16 directement à la ROM originale USA 1.2**, sans préinstaller V09 à V15.
 
 ```sh
-python traduction/appliquer_v15.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v15.sfc"
+python traduction/appliquer_v16.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v16.sfc"
 ```
 
-**Contrôles :** 32 scripts et 36 références HiROM vérifiés sur ROM source, 77 segments sans collision V14 ; trois segments exclus à cause de pointeurs intérieurs. [Tests GitHub Actions V15](https://github.com/spamkenny02-commits/earthboundbeginning/actions/workflows/verifier-v15.yml). Les essais complets sous émulateur restent à faire.
+**Contrôles :** 100 scripts et 110 pointeurs littéraux vérifiés sur la ROM source ; 13 segments à pointeurs intérieurs exclus et 90 segments déjà modifiés conservés. [CI V16](https://github.com/spamkenny02-commits/earthboundbeginning/actions/workflows/verifier-v16.yml). Le jeu reste partiellement traduit et nécessite des tests complets sous émulateur.
 
 ## Versions précédentes
 
-Les [V14](RAPPORT_V14.md), [V13](RAPPORT_V13.md), [V12](RAPPORT_V12.md), [V11](RAPPORT_V11.md) et [V10](RAPPORT_V10_ADDON.md) restent archivées dans `patches/` pour comparaison ou retour arrière. **Elles ne sont pas nécessaires à l'installation de V15.**
+Les rapports [V15](RAPPORT_V15.md), [V14](RAPPORT_V14.md), [V13](RAPPORT_V13.md), [V12](RAPPORT_V12.md), [V11](RAPPORT_V11.md) et [V10](RAPPORT_V10_ADDON.md) restent disponibles. Les anciens patchs sont archivés dans `patches/`.
 
 ## Historique V09 et atelier
 
