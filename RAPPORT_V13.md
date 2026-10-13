@@ -31,4 +31,4 @@ Pour une variante sans accents, utiliser `--profil ascii`.
 
 Cette passe se concentre sur les **blocs courts qui ne nécessitent pas de relocalisation**. La traduction reste partielle : des dialogues complexes, textes compressés et éléments graphiques anglais subsistent. Les tests automatiques vérifient les structures et les patchs, **pas encore le rendu réel, les embranchements ni un parcours complet sous émulateur**. Aucun émulateur SNES n'était disponible dans l'environnement de test local. La validation de gameplay reste donc ouverte.
 
-Les prochains lots doivent traiter les dialogues multisegments et les blocs longs, avec conservation explicite des pointeurs et tests en jeu avant qualification comme version finale.
+La [checklist de tests sous émulateur](TESTS_V13_A_FAIRE.md) décrit les scènes à valider. Les prochains lots doivent traiter les dialogues multisegments et les blocs longs, avec conservation explicite des pointeurs et tests en jeu avant qualification comme version finale.
