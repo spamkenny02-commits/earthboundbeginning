@@ -20,8 +20,6 @@ TOKEN = re.compile(r'\[([0-9A-F ]+)\]')
 
 
 def controls(text):
-    if ''.join(TOKEN.findall(text)) == text:
-        raise ValueError('Format de commandes invalide')
     tokens = TOKEN.findall(text)
     if ''.join('[' + t + ']' for t in tokens) != text:
         raise ValueError('Commandes ou caractères inattendus : ' + text)
