@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""V16 : patch autonome V15 + 77 segments de 32 scripts narratifs.
+"""V16 : patch autonome V15 + 128 segments de 100 scripts.
 
 Vérifie les scripts et pointeurs contre la ROM USA 1.2, la présence
 d'éventuels pointeurs intérieurs, l'encodage, les longueurs et les
@@ -21,7 +21,7 @@ def build(source, previous, manifest):
     if hashlib.sha256(source).hexdigest() != ROM_SHA:
         raise ValueError("La ROM doit être la version USA 1.2 originale.")
     entries = manifest["entries"]
-    if len(entries) != 100 or len({e["id"] for e in entries}) != 32:
+    if len(entries) != 100 or len({e["id"] for e in entries}) != 100:
         raise ValueError("Manifeste V16 incomplet ou dupliqué")
     spans = []
     for entry in entries:
