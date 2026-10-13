@@ -11,7 +11,7 @@ La V13 comprend **toute la V12** et **141 nouveaux blocs français** (répliques
 
 ## Tests réalisés
 
-1. **ROM source locale (4 Mio) :** SHA-256 conforme. Les **141 textes anglais** ont été relus à leurs offsets et comparés au catalogue par empreinte FNV-1a de toutes les entrées : `801abb83`, identique à la référence. Chaque marqueur de texte a été trouvé à sa place.
+1. **ROM source locale (4 Mio) :** SHA-256 conforme. Les **141 blocs anglais complets, commandes comprises**, ont été comparés octet par octet au catalogue via une empreinte FNV-1a agrégée : `bc54e8f9`, identique à la référence. Le contrôle distinct des 141 segments de texte donne `801abb83`.
 2. **Pointeurs source :** **196 références littérales HiROM** vers les 141 blocs trouvées dans la ROM originale ; aucun bloc du lot n'est sans référence.
 3. **Longueurs :** les 141 traductions tiennent dans les segments originaux. Les espaces inutilisés sont remplis avec le code d'espace `50`. Aucun déplacement des commandes, des débuts de blocs ou des adresses de branches n'est nécessaire pour ce lot.
 4. **Non-régression :** les **3 244 enregistrements IPS V12 avec accents** et **3 139 sans accents** sont conservés à l'identique, sans collision avec les 141 nouveaux segments.
