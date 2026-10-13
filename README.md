@@ -1,20 +1,24 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V13 (traduction partielle)
+## Version actuelle : V14 (traduction partielle)
 
-La **V13 autonome** contient les modifications V09, V10, V11, V12 et **141 nouveaux blocs de texte**. Depuis V09, cela représente **236 blocs supplémentaires** (50 + 27 + 18 + 141).
+La **V14 autonome** reprend toutes les modifications V09–V13 et intègre **130 nouveaux segments français** répartis dans **44 scripts multisegments**. Depuis V09 : **366 segments/blocs supplémentaires** (50 + 27 + 18 + 141 + 130), sans compter les brouillons ni les textes déjà présents dans la V09.
 
-- [Patch V13 avec accents](patches/EarthBound_Beginnings_FR_v13_accents.ips)
-- [Patch V13 sans accents](patches/EarthBound_Beginnings_FR_v13_ascii.ips)
-- [Rapport V13](RAPPORT_V13.md) et [test GitHub Actions réussi](https://github.com/spamkenny02-commits/earthboundbeginning/actions/runs/38471016747)
+- [Patch V14 avec accents](patches/EarthBound_Beginnings_FR_v14_accents.ips)
+- [Patch V14 sans accents](patches/EarthBound_Beginnings_FR_v14_ascii.ips)
+- [Rapport V14](RAPPORT_V14.md), [manifest](traduction/v14_multisegments_fr.json), [tests V14](tests/verifier_fusion_v14.py)
 
-**Appliquer uniquement V13 directement sur la ROM originale USA 1.2** : les patchs précédents sont inclus.
+**Appliquer uniquement la V14 à la ROM originale USA 1.2**. Ne pas appliquer les anciennes versions auparavant.
 
 ```sh
-python traduction/appliquer_v13.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v13.sfc"
+python traduction/appliquer_v14.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v14.sfc"
 ```
 
-Les **141 textes sources et 196 pointeurs HiROM** ont été contrôlés localement ; les deux variantes IPS ont passé les tests automatisés de non-régression. **Les essais de parcours sous émulateur restent à réaliser.**
+Les 44 scripts originaux et 47 références littérales ont été vérifiés sur la ROM source. Huit segments avec pointeurs intérieurs ont été écartés par prudence. **Les essais de gameplay sous émulateur restent à effectuer.**
+
+## Historique V13 et antérieures
+
+La [V13](RAPPORT_V13.md), la [V12](RAPPORT_V12.md) et la [V11](RAPPORT_V11.md) sont conservées pour comparaison et retour arrière.
 
 ## Historique des patchs V10 à V12
 
