@@ -1,14 +1,14 @@
 {
   "version": "v16",
   "base": "v15",
-  "notes": "100 scripts, 236 segments examinés, 13 exclus pour pointeurs intérieurs, 218 segments français modifiés, 5 retours de ligne 00 conservés. Vérification source et IPS requise.",
+  "notes": "100 scripts et 236 segments audités sur la ROM source ; 13 segments exclus pour pointeurs intérieurs, 90 autres conservés tels quels car déjà touchés par V15 ou ses prédécesseurs ; 128 nouveaux segments français sûrs pour V16.",
   "entries": [
     {
       "id": "33A940",
       "english": "@<Podunk>\n@Quiet days and beautiful flowers.[13][02]",
       "translations": [
         "<Podunk>",
-        "Jours paisibles et jolies fleurs."
+        "Quiet days and beautiful flowers."
       ],
       "pointer_refs": [
         "0F0F33"
@@ -19,11 +19,11 @@
       "id": "33AD70",
       "english": "@1st floor: Service Desk\n@2nd floor: Pharmacy\n@3rd floor: Sports and Athletics\n@4th floor: Food Court\n@5th floor: Pets[13][02]",
       "translations": [
-        "1er : Accueil",
-        "2e : Pharmacie",
-        "3e : Sports",
-        "4e : Restaurant",
-        "5e : Animaux"
+        "1st floor: Service Desk",
+        "2nd floor: Pharmacy",
+        "3rd floor: Sports and Athletics",
+        "4th floor: Food Court",
+        "5th floor: Pets"
       ],
       "pointer_refs": [
         "0F19F6"
@@ -34,8 +34,8 @@
       "id": "33AF88",
       "english": "@<Common Rabbit>\n@Scientists around the world agree they're super cute.[13][02]",
       "translations": [
-        "<Lapin commun>",
-        "Les savants sont tous d'accord : il est adorable."
+        "<Common Rabbit>",
+        "Scientists around the world agree they're super cute."
       ],
       "pointer_refs": [
         "0F1A26"
@@ -46,7 +46,7 @@
       "id": "33AFD2",
       "english": "@<Uncommon Tiger>\n@Contrary to popular belief, they change their stripes whenever they get dirty.[13][02]",
       "translations": [
-        "<Tigre rare>",
+        "<Uncommon Tiger>",
         "Contrary to popular belief, they change their stripes whenever they get dirty."
       ],
       "pointer_refs": [
@@ -58,8 +58,8 @@
       "id": "33B036",
       "english": "@<African Elephant>\n@Of all the animals in this zoo, they're the worst jumpers.[13][02]",
       "translations": [
-        "<Éléphant>",
-        "Au zoo, c'est le pire en saut."
+        "<African Elephant>",
+        "Of all the animals in this zoo, they're the worst jumpers."
       ],
       "pointer_refs": [
         "0F1A2A"
@@ -70,8 +70,8 @@
       "id": "33B088",
       "english": "@<Common Alligator>\n@They love water, but have a bad habit of running late.[13][02]",
       "translations": [
-        "<Alligator commun>",
-        "Il aime l'eau, mais arrive toujours en retard."
+        "<Common Alligator>",
+        "They love water, but have a bad habit of running late."
       ],
       "pointer_refs": [
         "0F197C"
@@ -82,8 +82,8 @@
       "id": "33B0D6",
       "english": "@<Giant Panda>\n@One of the pickiest eaters of the animal kingdom.[13][02]",
       "translations": [
-        "<Panda géant>",
-        "Un des animaux les plus difficiles à nourrir."
+        "<Giant Panda>",
+        "One of the pickiest eaters of the animal kingdom."
       ],
       "pointer_refs": [
         "0F1980"
@@ -94,10 +94,10 @@
       "id": "33B11A",
       "english": "@<Humboldt Penguin>\n@Native to Chile and Peru.\n@Not to be confused with the Humble Penguin.\n@They're notorious braggarts.[13][02]",
       "translations": [
-        "<Manchot Humboldt>",
-        "Vient du Chili et Pérou.",
-        "À ne pas confondre avec le manchot modeste.",
-        "Il aime se vanter."
+        "<Humboldt Penguin>",
+        "Native to Chile and Peru.",
+        "Not to be confused with the Humble Penguin.",
+        "They're notorious braggarts."
       ],
       "pointer_refs": [
         "0F1A2E"
@@ -108,8 +108,8 @@
       "id": "33B198",
       "english": "@<Eastern Gorilla>\n@Because a gorilla's nose print is as unique as a person's fingerprints,\n@if they commit a crime you can see the evidence all over their face.[13][02]",
       "translations": [
-        "<Gorille est>",
-        "Son nez est unique, comme nos empreintes.",
+        "<Eastern Gorilla>",
+        "Because a gorilla's nose print is as unique as a person's fingerprints,",
         "if they commit a crime you can see the evidence all over their face."
       ],
       "pointer_refs": [
@@ -121,9 +121,9 @@
       "id": "33B23D",
       "english": "@<Lesser Flamingo>\n@Their pink coloration is gained from their diets.\n@Research to find other colors of food for them is ongoing.[13][02]",
       "translations": [
-        "<Flamant nain>",
-        "Sa couleur rose vient de son alimentation.",
-        "On cherche comment sa nourriture changerait sa couleur."
+        "<Lesser Flamingo>",
+        "Their pink coloration is gained from their diets.",
+        "Research to find other colors of food for them is ongoing."
       ],
       "pointer_refs": [
         "0F1A32"
@@ -134,8 +134,8 @@
       "id": "33B2C2",
       "english": "@<Spotted Hyena>\n@More closely related to cats than dogs, they love a good joke.[13][02]",
       "translations": [
-        "<Hyène rayée>",
-        "Plus proche du chat que du chien, elle aime rire."
+        "<Spotted Hyena>",
+        "More closely related to cats than dogs, they love a good joke."
       ],
       "pointer_refs": [
         "0F1A36"
@@ -146,9 +146,9 @@
       "id": "33B336",
       "english": "@Ohoho!\n@You youngsters could learn a thing or two from my grandkids.\n@Remember to cherish every new memory and experience.[13][02]",
       "translations": [
-        "Hoho !",
-        "Les jeunes devraient écouter mes petits-enfants.",
-        "Chéris chaque souvenir et chaque découverte."
+        "Ohoho!",
+        "You youngsters could learn a thing or two from my grandkids.",
+        "Remember to cherish every new memory and experience."
       ],
       "pointer_refs": [
         "203EFA"
@@ -159,10 +159,10 @@
       "id": "33B5CD",
       "english": "@My son faked being sick to get out of school.\n@So I faked being sick to get out of work!\n@Seeing how happy he is makes it all worth it.\n@Don't you think I'm a great father?[13][02]",
       "translations": [
-        "Mon fils a feint d'être malade pour l'école.",
-        "J'ai fait pareil pour éviter le boulot !",
+        "My son faked being sick to get out of school.",
+        "So I faked being sick to get out of work!",
         "Seeing how happy he is makes it all worth it.",
-        "Je suis un bon père, non ?"
+        "Don't you think I'm a great father?"
       ],
       "pointer_refs": [
         "203F0B"
@@ -173,9 +173,9 @@
       "id": "33B67F",
       "english": "@I've heard there are monkeys who can sing!\n@But I've also heard that monkeys can lie.\n@Would a monkey lie about being able to sing, do you think?[13][02]",
       "translations": [
-        "On dit que des singes savent chanter !",
-        "Mais ils savent aussi mentir.",
-        "Un singe mentirait-il sur son talent de chanteur ?"
+        "I've heard there are monkeys who can sing!",
+        "But I've also heard that monkeys can lie.",
+        "Would a monkey lie about being able to sing, do you think?"
       ],
       "pointer_refs": [
         "203F1C"
@@ -186,8 +186,8 @@
       "id": "33C256",
       "english": "@Arf arf.\n@(Excuse me. Sometimes dogs just can't resist barking.)[13][02]",
       "translations": [
-        "Ouaf !",
-        "(Pardon. Un chien doit parfois aboyer.)"
+        "Arf arf.",
+        "(Excuse me. Sometimes dogs just can't resist barking.)"
       ],
       "pointer_refs": [
         "204406"
@@ -198,9 +198,9 @@
       "id": "33CBDD",
       "english": "@If you need a place to rest your head...\n@and you're not a ghost, zombie, or monster...\n@Come visit us at the cute house to the south![13][02]",
       "translations": [
-        "Si tu cherches un endroit où dormir...",
-        "si tu n'es ni fantôme ni zombie ni monstre...",
-        "Viens dans la jolie maison au sud !"
+        "If you need a place to rest your head...",
+        "and you're not a ghost, zombie, or monster...",
+        "Come visit us at the cute house to the south!"
       ],
       "pointer_refs": [
         "204B65"
@@ -629,8 +629,8 @@
       "id": "36082B",
       "english": "@Everyone's talking about a girl with special powers.\n@Is that you?[13][02]",
       "translations": [
-        "On parle d'une fille aux pouvoirs spéciaux.",
-        "C'est toi ?"
+        "Everyone's talking about a girl with special powers.",
+        "Is that you?"
       ],
       "pointer_refs": [
         "360798"
@@ -653,8 +653,8 @@
       "id": "361217",
       "english": "@I want to thank you again for your help.\n@Pippi is fine.[13][02]",
       "translations": [
-        "Merci encore pour ton aide.",
-        "Pippi va bien."
+        "I want to thank you again for your help.",
+        "Pippi is fine."
       ],
       "pointer_refs": [
         "36107A"
@@ -666,7 +666,7 @@
       "english": "@The Canary Village is northwest from here.\n@It's a nice place to visit and the admission is free![13][02]",
       "translations": [
         "The Canary Village is northwest from here.",
-        "C'est joli, et l'entrée est gratuite !"
+        "It's a nice place to visit and the admission is free!"
       ],
       "pointer_refs": [
         "20327E"
@@ -677,7 +677,7 @@
       "id": "361AD4",
       "english": "@Don't be so swellheaded!\n@Ha ha ha![13][02]",
       "translations": [
-        "Ne sois pas fier !",
+        "Don't be so swellheaded!",
         "Ha ha ha!"
       ],
       "pointer_refs": [
@@ -922,10 +922,10 @@
       "id": "33B3B5",
       "english": "@They're so big!\n@The way they can bite straight through bamboo is kinda scary, huh?\n@What? You don't think pandas are scary?\n@Couldn't you just imagine one coming out of your bedroom closet? *shiver*[13][02]",
       "translations": [
-        "Ils sont gros !",
-        "Ils peuvent croquer le bambou, c'est effrayant !",
-        "Quoi ? Les pandas ne te font pas peur ?",
-        "Imagine-en un sortir de ton placard ! Brr !"
+        "They're so big!",
+        "The way they can bite straight through bamboo is kinda scary, huh?",
+        "What? You don't think pandas are scary?",
+        "Couldn't you just imagine one coming out of your bedroom closet? *shiver*"
       ],
       "pointer_refs": [
         "203E2E"
@@ -936,9 +936,9 @@
       "id": "33B50A",
       "english": "@Have you heard the one about the boxer and the tub of glue?\n@There's no punchline because he got stuck on it!\n@Hurhurhur! Do you get it?[13][02]",
       "translations": [
-        "Tu connais la blague du boxeur et du pot de colle ?",
-        "Pas de chute : il est resté collé !",
-        "Héhéhé ! Tu as compris ?"
+        "Have you heard the one about the boxer and the tub of glue?",
+        "There's no punchline because he got stuck on it!",
+        "Hurhurhur! Do you get it?"
       ],
       "pointer_refs": [
         "33B4FD"
@@ -949,9 +949,9 @@
       "id": "33BF00",
       "english": "@So the guy behind the counter said their teddy bears can protect you in battle?\n@What does that even mean?\n@I just wanna pick out gifts for my niece and nephew![13][02]",
       "translations": [
-        "Le vendeur dit que ses ours en peluche protègent au combat ?",
-        "Ça veut dire quoi ?",
-        "Je veux juste un cadeau pour mon neveu et ma nièce !"
+        "So the guy behind the counter said their teddy bears can protect you in battle?",
+        "What does that even mean?",
+        "I just wanna pick out gifts for my niece and nephew!"
       ],
       "pointer_refs": [
         "203BDB"
@@ -962,9 +962,9 @@
       "id": "33C72E",
       "english": "@They say happiness is being satisfied with what you have.\n@That's why I've decided to collect as much stuff as I possibly can.\n@So far, it's going pretty well.[13][02]",
       "translations": [
-        "Le bonheur, c'est apprécier ce qu'on possède.",
-        "Alors je collectionne tout ce que je peux.",
-        "Jusqu'ici, tout va très bien."
+        "They say happiness is being satisfied with what you have.",
+        "That's why I've decided to collect as much stuff as I possibly can.",
+        "So far, it's going pretty well."
       ],
       "pointer_refs": [
         "204D63"
@@ -975,10 +975,10 @@
       "id": "33CDD0",
       "english": "@I wanted to re-open my business, but...\n@Some really strange guy seems to have done it first?\n@He seems polite, but I don't know how to ask him to leave!\n@What should I do? Crud...[13][02]",
       "translations": [
-        "Je voulais rouvrir ma boutique, mais...",
-        "Un type étrange l'a fait avant moi !",
-        "Il est poli, mais comment lui demander de partir ?",
-        "Que faire ? Zut..."
+        "I wanted to re-open my business, but...",
+        "Some really strange guy seems to have done it first?",
+        "He seems polite, but I don't know how to ask him to leave!",
+        "What should I do? Crud..."
       ],
       "pointer_refs": [
         "203EE9"
@@ -989,9 +989,9 @@
       "id": "33DE47",
       "english": "@Oh, you don't need to worry.\n@What kind of pet owner do you take me for?\n@I made sure there were plenty of air holes.[13][02]",
       "translations": [
-        "Oh, ne t'inquiète pas.",
-        "Tu me prends pour quel genre de maître ?",
-        "J'ai fait assez de trous pour respirer."
+        "Oh, you don't need to worry.",
+        "What kind of pet owner do you take me for?",
+        "I made sure there were plenty of air holes."
       ],
       "pointer_refs": [
         "33DDC3"
@@ -1003,9 +1003,9 @@
       "english": "@<LIVE HOUSE>\n@Live entertainment daily!\n@Open mike every night!\n@Tickets available at the Ellay Department Store.[13][02]",
       "translations": [
         "<LIVE HOUSE>",
-        "Concerts tous les jours !",
-        "Micro ouvert le soir !",
-        "Billets au grand magasin d'Ellay."
+        "Live entertainment daily!",
+        "Open mike every night!",
+        "Tickets available at the Ellay Department Store."
       ],
       "pointer_refs": [
         "0F0BC5"
@@ -1016,9 +1016,9 @@
       "id": "33E5E0",
       "english": "@I just nabbed some Live House tickets from the tool shop.\n@My girl and I are gonna have a fun night out.\n@But... why do they sell tickets in a tool shop?[13][02]",
       "translations": [
-        "J'ai acheté des billets du Live House à l'outillage.",
-        "Ma copine et moi allons bien nous amuser.",
-        "Mais... pourquoi vendre ça à l'outillage ?"
+        "I just nabbed some Live House tickets from the tool shop.",
+        "My girl and I are gonna have a fun night out.",
+        "But... why do they sell tickets in a tool shop?"
       ],
       "pointer_refs": [
         "203FB5"
@@ -1029,8 +1029,8 @@
       "id": "33E67E",
       "english": "@Get out of the way!\n@Can't you see I'm going for a record?[13][02]",
       "translations": [
-        "Pousse-toi !",
-        "Tu vois pas que je vise un record ?"
+        "Get out of the way!",
+        "Can't you see I'm going for a record?"
       ],
       "pointer_refs": [
         "20301A"
@@ -1041,8 +1041,8 @@
       "id": "33E71B",
       "english": "@The biggest problem with having a roommate is when they're a total slob!\n@No matter how hard I try, it's impossible to keep the house clean and tidy.[13][02]",
       "translations": [
-        "Le pire avec un colocataire, c'est qu'il soit crasseux !",
-        "J'ai beau essayer, la maison reste sale."
+        "The biggest problem with having a roommate is when they're a total slob!",
+        "No matter how hard I try, it's impossible to keep the house clean and tidy."
       ],
       "pointer_refs": [
         "204092"
@@ -1053,9 +1053,9 @@
       "id": "33F4FB",
       "english": "@A ghost appeared at my house, too.\n@But, he didn't stay long.\n@He thought my room was too small.[13][02]",
       "translations": [
-        "Un fantôme est venu chez moi.",
-        "Mais il est vite reparti.",
-        "Ma chambre était trop petite."
+        "A ghost appeared at my house, too.",
+        "But, he didn't stay long.",
+        "He thought my room was too small."
       ],
       "pointer_refs": [
         "2048BD"
@@ -1066,8 +1066,8 @@
       "id": "33F5DD",
       "english": "@Yeah, huh.\n@To be honest, I'm not that cheerful a person either.[13][02]",
       "translations": [
-        "Oui, hein.",
-        "En fait, je ne suis pas très joyeux non plus."
+        "Yeah, huh.",
+        "To be honest, I'm not that cheerful a person either."
       ],
       "pointer_refs": [
         "33F5D0"
@@ -1078,8 +1078,8 @@
       "id": "33F621",
       "english": "@Hmm, I dunno.\n@Maybe I'M actually the gloomy one.[13][02]",
       "translations": [
-        "Je sais pas.",
-        "Je suis peut-être le plus triste."
+        "Hmm, I dunno.",
+        "Maybe I'M actually the gloomy one."
       ],
       "pointer_refs": [
         "33F5D4",
@@ -1092,7 +1092,7 @@
       "english": "@To the mailman searching for the address of the Rosemarys' new lease.\n@If you see him, tell him they're much further to the east.\n@La-la-la![13][02]",
       "translations": [
         "To the mailman searching for the address of the Rosemarys' new lease.",
-        "Dis-lui qu'ils ont déménagé bien plus à l'est.",
+        "If you see him, tell him they're much further to the east.",
         "La-la-la!"
       ],
       "pointer_refs": [
@@ -1116,8 +1116,8 @@
       "id": "348F89",
       "english": "@Pull out a Red Weed and place it into the fountain,\n@and it will turn into a Magic Herb.[13][02]",
       "translations": [
-        "Mets une herbe rouge dans la fontaine,",
-        "et deviendra une herbe magique."
+        "Pull out a Red Weed and place it into the fountain,",
+        "and it will turn into a Magic Herb."
       ],
       "pointer_refs": [
         "203E83"
@@ -1153,8 +1153,8 @@
       "id": "36ACA3",
       "english": "@Answer the phone!\n@It could be your father.[13][02]",
       "translations": [
-        "Décroche vite !",
-        "C'est peut-être papa."
+        "Answer the phone!",
+        "It could be your father."
       ],
       "pointer_refs": [
         "36A97F",
@@ -1166,8 +1166,8 @@
       "id": "36B323",
       "english": "@Mimmie and mommy are in trouble, too!\n@Boo hoo hoo![13][02]",
       "translations": [
-        "Mimmie et maman sont en danger !",
-        "Bouh hou !"
+        "Mimmie and mommy are in trouble, too!",
+        "Boo hoo hoo!"
       ],
       "pointer_refs": [
         "36B2DC"
@@ -1315,6 +1315,458 @@
       "id": "36E4E8",
       "segment_index": 0,
       "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    }
+  ],
+  "excluded_prior_patch_segments": [
+    {
+      "id": "33A940",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33AD70",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33AD70",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33AD70",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33AD70",
+      "segment_index": 3,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33AD70",
+      "segment_index": 4,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33AF88",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33AF88",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33AFD2",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B036",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B036",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B088",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B088",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B0D6",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B0D6",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B11A",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B11A",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B11A",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B11A",
+      "segment_index": 3,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B198",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B198",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B23D",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B23D",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B23D",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B2C2",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B2C2",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B336",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B336",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B336",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B5CD",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B5CD",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B5CD",
+      "segment_index": 3,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B67F",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B67F",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B67F",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33C256",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33C256",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33CBDD",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33CBDD",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33CBDD",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "36082B",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "36082B",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "361217",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "361217",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "36137B",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "361AD4",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B3B5",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B3B5",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B3B5",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B3B5",
+      "segment_index": 3,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B50A",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B50A",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33B50A",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33BF00",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33BF00",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33BF00",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33C72E",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33C72E",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33C72E",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33CDD0",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33CDD0",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33CDD0",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33CDD0",
+      "segment_index": 3,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33DE47",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33DE47",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33DE47",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E472",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E472",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E472",
+      "segment_index": 3,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E5E0",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E5E0",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E5E0",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E67E",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E67E",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E71B",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33E71B",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33F4FB",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33F4FB",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33F4FB",
+      "segment_index": 2,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33F5DD",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33F5DD",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33F621",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33F621",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "33FCE8",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "348F89",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "348F89",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "36ACA3",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "36ACA3",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "36B323",
+      "segment_index": 0,
+      "reason": "chevauchement avec IPS V15 cumulatif"
+    },
+    {
+      "id": "36B323",
+      "segment_index": 1,
+      "reason": "chevauchement avec IPS V15 cumulatif"
     }
   ]
 }
