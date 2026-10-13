@@ -1,0 +1,23 @@
+name: Verification patches v16
+on:
+  push:
+    paths:
+      - 'patches/EarthBound_Beginnings_FR_v15_*.ips'
+      - 'patches/EarthBound_Beginnings_FR_v16_*.ips'
+      - 'traduction/v16_dialogues_fr.json'
+      - 'traduction/construire_v16.py'
+      - 'tests/verifier_fusion_v16.py'
+      - '.github/workflows/verifier-v16.yml'
+  workflow_dispatch:
+jobs:
+  verifier-fusion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Tester V15 et V16
+        run: |
+          python tests/verifier_fusion_v15.py
+          python tests/verifier_fusion_v16.py
