@@ -1,0 +1,1102 @@
+{
+  "version": "v17-candidats-controles",
+  "base": "v16",
+  "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "verification": "Audit sur ROM originale: 500 scripts candidats validés (octets, pointeurs littéraux, pas de pointeur intérieur), 259 sans collision avec l'union des deux IPS V16. Sous-lot de 120 classé par complexité des commandes. Pas de validation des pointeurs indirects, ni de gameplay. Traductions encore absentes.",
+  "translated_segments": 0,
+  "entries": [
+    {
+      "id": "34F7C5",
+      "english": "@You don't seem able to carry anything more.\n@Shall I purchase something to create room?\n[02]",
+      "pointer_refs_declared": [
+        "36605A"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F9F1",
+      "english": "@I'm afraid you can't carry anything more.\n@It may be dangerous to try.\n[02]",
+      "pointer_refs_declared": [
+        "3668FA"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EC70",
+      "english": "@I can't buy stuff from you if you have nothing to sell me.\n[02]",
+      "pointer_refs_declared": [
+        "366325"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EDBB",
+      "english": "@Sorry, you don't have enough to pay for all of these.\n[02]",
+      "pointer_refs_declared": [
+        "36682D"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F9B8",
+      "english": "@Sorry, you don't have enough to pay for all of these.\n[02]",
+      "pointer_refs_declared": [
+        "366842"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F0FA",
+      "english": "@I don't think you have anything that you can sell.\n[02]",
+      "pointer_refs_declared": [
+        "36632C"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F617",
+      "english": "@Welcome to our shop!\n  We specialize in weapons.\n[02]",
+      "pointer_refs_declared": [
+        "365872"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F27E",
+      "english": "@You can't carry more than what you have now.\n[02]",
+      "pointer_refs_declared": [
+        "3668EC"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FA80",
+      "english": "@Welcome! Everything is fresh from the farm!\n[02]",
+      "pointer_refs_declared": [
+        "365879"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FD53",
+      "english": "@I'm sorry, but you can't afford that many.\n[02]",
+      "pointer_refs_declared": [
+        "366849"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F87F",
+      "english": "@You don't seem to have anything to sell.\n[02]",
+      "pointer_refs_declared": [
+        "36633A"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FB7D",
+      "english": "@Ah, sorry. You're a little short there.\n[02]",
+      "pointer_refs_declared": [
+        "365FA9"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F3F2",
+      "english": "@Oh... you don't have the money for it.\n[02]",
+      "pointer_refs_declared": [
+        "365F9B"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EA4D",
+      "english": "@Welcome! What do you need from me?\n[02]",
+      "pointer_refs_declared": [
+        "36585D"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EE83",
+      "english": "@Welcome!\n@What can I do for you?\n[02]",
+      "pointer_refs_declared": [
+        "365864"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F1C0",
+      "english": "@What would you like to get next?\n[02]",
+      "pointer_refs_declared": [
+        "36660C"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FD9F",
+      "english": "@What's wrong, changed your mind?\n[02]",
+      "pointer_refs_declared": [
+        "3669B9"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F0D8",
+      "english": "@I'm sure you really need that.\n[02]",
+      "pointer_refs_declared": [
+        "366274"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EB0B",
+      "english": "@Do you want to equip it here?\n[02]",
+      "pointer_refs_declared": [
+        "365CAD"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F2E6",
+      "english": "@Welcome! What would you like?\n[02]",
+      "pointer_refs_declared": [
+        "36586B"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F6F9",
+      "english": "@Do you want to equip it here?\n[02]",
+      "pointer_refs_declared": [
+        "365CC2"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34ED2A",
+      "english": "@Will there be anything else?\n[02]",
+      "pointer_refs_declared": [
+        "36654D"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F47C",
+      "english": "@You're not selling anything?\n[02]",
+      "pointer_refs_declared": [
+        "36627B"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F927",
+      "english": "@Will there be anything else?\n[02]",
+      "pointer_refs_declared": [
+        "366562"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FC17",
+      "english": "@You're not selling anything?\n[02]",
+      "pointer_refs_declared": [
+        "366289"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F1A3",
+      "english": "@Do you want anything else?\n[02]",
+      "pointer_refs_declared": [
+        "366554"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F598",
+      "english": "@You've quite the apettite.\n[02]",
+      "pointer_refs_declared": [
+        "366783"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F5E4",
+      "english": "@You can't carry all those.\n[02]",
+      "pointer_refs_declared": [
+        "3668F3"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FD35",
+      "english": "@You've quite the apettite.\n[02]",
+      "pointer_refs_declared": [
+        "366791"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F23A",
+      "english": "@All of those? Very well.\n[02]",
+      "pointer_refs_declared": [
+        "36677C"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EBBD",
+      "english": "@You can't afford that!\n[02]",
+      "pointer_refs_declared": [
+        "365F8D"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34ED49",
+      "english": "@What can I do for you?\n[02]",
+      "pointer_refs_declared": [
+        "366605"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EF56",
+      "english": "@Do you wanna equip it?\n[02]",
+      "pointer_refs_declared": [
+        "365CB4"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F36D",
+      "english": "@Want to equip it here?\n[02]",
+      "pointer_refs_declared": [
+        "365CBB"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F54A",
+      "english": "@What can I do for you?\n[02]",
+      "pointer_refs_declared": [
+        "366613"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F7AB",
+      "english": "@You can't afford that!\n[02]",
+      "pointer_refs_declared": [
+        "365FA2"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F946",
+      "english": "@What can I do for you?\n[02]",
+      "pointer_refs_declared": [
+        "36661A"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FAF8",
+      "english": "@Want to equip it here?\n[02]",
+      "pointer_refs_declared": [
+        "365CC9"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34ECCF",
+      "english": "@Thank you very much!\n[02]",
+      "pointer_refs_declared": [
+        "366495"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F130",
+      "english": "@I'm not buying that!\n[02]",
+      "pointer_refs_declared": [
+        "3663E4"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F148",
+      "english": "@Thank you very much!\n[02]",
+      "pointer_refs_declared": [
+        "36649C"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F8CC",
+      "english": "@Thank you very much!\n[02]",
+      "pointer_refs_declared": [
+        "3664AA"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F602",
+      "english": "@You want nothing?\n[02]",
+      "pointer_refs_declared": [
+        "3669AB"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F539",
+      "english": "@Anything else?\n[02]",
+      "pointer_refs_declared": [
+        "36655B"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FCD7",
+      "english": "@Anything else?\n[02]",
+      "pointer_refs_declared": [
+        "366569"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EDAA",
+      "english": "@All of these?\n[02]",
+      "pointer_refs_declared": [
+        "366775"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F9A7",
+      "english": "@All of these?\n[02]",
+      "pointer_refs_declared": [
+        "36678A"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FC83",
+      "english": "@Great choice!\n[02]",
+      "pointer_refs_declared": [
+        "3664B1"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F86F",
+      "english": "@As you wish.\n[02]",
+      "pointer_refs_declared": [
+        "366282"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F4E8",
+      "english": "@Thank you!\n[02]",
+      "pointer_refs_declared": [
+        "3664A3"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EC64",
+      "english": "@Oh well.\n[02]",
+      "pointer_refs_declared": [
+        "36626D"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F3E6",
+      "english": "@OK then.\n[02]",
+      "pointer_refs_declared": [
+        "365EE3"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FB71",
+      "english": "@OK then.\n[02]",
+      "pointer_refs_declared": [
+        "365EF1"
+      ],
+      "command_count": 1,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "35277D",
+      "english": "@I heard you stepped on the landmine.\n@I stepped in dog crap once myself...\n@Tell you something else kid...\n  I didn't like it very much either.[13][02]",
+      "pointer_refs_declared": [
+        "35272B"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "33EA5A",
+      "english": "[06 7F 03 55 A9 F7 00]@Oh! That's so kind I almost don't want to- I mean...\n@...Thanks for trying anyway. Truly.\n[02]",
+      "pointer_refs_declared": [
+        "204B9C"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34ED62",
+      "english": "@[1C 02 00] is carrying too many things.\n@Does anyone else want to carry it?\n[02]",
+      "pointer_refs_declared": [
+        "3666BD"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F95F",
+      "english": "@[1C 02 00] is carrying too many things.\n@Does anyone else want to carry it?\n[02]",
+      "pointer_refs_declared": [
+        "3666D2"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34A998",
+      "english": "@You'd better not forget about me, you hear?[10 14]  Never ever.[02]",
+      "pointer_refs_declared": [
+        "34A964",
+        "34AA06"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "33C80F",
+      "english": "@Our frosty weather will warm your heart!\n    <-Snowman>[13][02]",
+      "pointer_refs_declared": [
+        "0F1AD5"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EB54",
+      "english": "@[1C 02 00] can't equip this.\n@Do you still want to buy it?\n[02]",
+      "pointer_refs_declared": [
+        "365E1D"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F742",
+      "english": "@[1C 02 00] can't equip this.\n@Do you still want to buy it?\n[02]",
+      "pointer_refs_declared": [
+        "1F8E62",
+        "365E32"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "348CE4",
+      "english": "@...Though what that means \n  is anyone's guess.\n[05 03 00][02]",
+      "pointer_refs_declared": [
+        "348C78"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F563",
+      "english": "@[1C 02 00] has too much stuff.\n@Can anyone else take it?\n[02]",
+      "pointer_refs_declared": [
+        "3666CB"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FD04",
+      "english": "@[1C 02 00] has too much stuff.\n@Anyone else want it?\n[02]",
+      "pointer_refs_declared": [
+        "3666D9"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "349CAB",
+      "english": "\n\n@You really don't need treatment?\n  Oh, well...[13][02]",
+      "pointer_refs_declared": [
+        "349C58"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EB8B",
+      "english": "@Are you sure you don't need that?[10 0F]\n  Hmmmm...\n[02]",
+      "pointer_refs_declared": [
+        "365ED5"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F779",
+      "english": "@Are you sure you don't need that?[10 0F]\n  Hmmmm...\n[02]",
+      "pointer_refs_declared": [
+        "365EEA"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F4B9",
+      "english": "@I just couldn't take the\n [1C 05 00]\n  from you...\n[02]",
+      "pointer_refs_declared": [
+        "3663EB"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FC54",
+      "english": "@I just couldn't take the\n [1C 05 00]\n  from you...\n[02]",
+      "pointer_refs_declared": [
+        "3663F9"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EA72",
+      "english": "@Thank you very much.\n  Please visit us again![13][02]",
+      "pointer_refs_declared": [
+        "365915"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EEA7",
+      "english": "@Thank you very much.\n  Please visit us again![13][02]",
+      "pointer_refs_declared": [
+        "36591C"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F64A",
+      "english": "@Thank you very much.\n  Please visit us again![13][02]",
+      "pointer_refs_declared": [
+        "36592A"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F004",
+      "english": "@Oh no,[10 0F] you do not have that much money.\n[02]",
+      "pointer_refs_declared": [
+        "365F94"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F3BE",
+      "english": "@[1C 02 00] can't use this.\n@Want it anyway?\n[02]",
+      "pointer_refs_declared": [
+        "365E2B"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34FB49",
+      "english": "@[1C 02 00] can't use this.\n@Want it anyway?\n[02]",
+      "pointer_refs_declared": [
+        "365E39"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F256",
+      "english": "@Oh no,[10 0F] you can't afford that many!\n[02]",
+      "pointer_refs_declared": [
+        "366834"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34ECAE",
+      "english": "@I can't buy the [1C 05 00] from you.\n[02]",
+      "pointer_refs_declared": [
+        "3663DD"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F8AB",
+      "english": "@I can't buy the [1C 05 00] from you.\n[02]",
+      "pointer_refs_declared": [
+        "3663F2"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F6A9",
+      "english": "@Can I help you find\n  something?[14][02]",
+      "pointer_refs_declared": [
+        "365A9A"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "349E8D",
+      "english": "@Why not!?\n  Who even are you?![13][02]",
+      "pointer_refs_declared": [
+        "349D90",
+        "349D95"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EADE",
+      "english": "@You want the\n  [1C 05 00]?\n[02]",
+      "pointer_refs_declared": [
+        "365B3D"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EF29",
+      "english": "@You want the\n  [1C 05 00]?\n[02]",
+      "pointer_refs_declared": [
+        "365B44"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F6CC",
+      "english": "@You want the\n  [1C 05 00]?\n[02]",
+      "pointer_refs_declared": [
+        "365B52"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F34D",
+      "english": "@The [1C 05 00]?\n[02]",
+      "pointer_refs_declared": [
+        "365B4B"
+      ],
+      "command_count": 2,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "354BC7",
+      "english": "@Hi, I'm [1C 02 03].\n@I heard they make Bottle Rockets at the Sweet Little Factory south of here...\n@I wanna launch one really bad![13][02]",
+      "pointer_refs_declared": [
+        "354BB9"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "35312B",
+      "english": "@I heard the curfew in Podunk has been lifted.\n@You know what that means,[10 0F] don't you?\n@We can cross the bridge once more![13][02]",
+      "pointer_refs_declared": [
+        "202C62"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34A3A6",
+      "english": "@If I wanted any physical effort,[10 0F] I'd fix it myself!\n@I want to fix it without even lifting a finger![13][02]",
+      "pointer_refs_declared": [
+        "34A0B7",
+        "34A0C2"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "3531CE",
+      "english": "@I told my kid to study first,[10 0F] then play Nintendo games later.\n@Those are the rules around my house![13][02]",
+      "pointer_refs_declared": [
+        "202C84"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "353909",
+      "english": "@I've heard that in Duncan's Factory up north,[10 0F] they've started building huge rockets.[13][02]",
+      "pointer_refs_declared": [
+        "202800"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "35335C",
+      "english": "@Psst, check it out.[10 0F] I swiped a battery from Duncan's factory north of here.[13][02]",
+      "pointer_refs_declared": [
+        "202CD9"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34B312",
+      "english": "@Here rests the servant eternal to [1C 02 01],\n@the brave soldier, the Flying Man.[13][02]",
+      "pointer_refs_declared": [
+        "207B24"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34B442",
+      "english": "@Here rests the flesh and blood of [1C 02 01],\n@the brave soldier, the Flying Man.[13][02]",
+      "pointer_refs_declared": [
+        "207B68"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34B3AB",
+      "english": "@Here rests the virtuous heart of [1C 02 01],\n@the brave soldier, the Flying Man.[13][02]",
+      "pointer_refs_declared": [
+        "207B46"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "3530DC",
+      "english": "@An awful creature beat me up.\n@If you're going to the station,[10 0F] watch out![13][02]",
+      "pointer_refs_declared": [
+        "202C51"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34B360",
+      "english": "@Here rests the strength within [1C 02 01],\n@the brave soldier, the Flying Man.[13][02]",
+      "pointer_refs_declared": [
+        "207B35"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34B3F8",
+      "english": "@Here rests the deep sorrow of [1C 02 01],\n@the brave soldier, the Flying Man.[13][02]",
+      "pointer_refs_declared": [
+        "207B57"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "353BB8",
+      "english": "@The janitor has the key to the roof... [10 0F]but he won't give it to anyone.[13][02]",
+      "pointer_refs_declared": [
+        "2029A9"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "353B1C",
+      "english": "@Any first grader should know how to do a cartwheel,[10 0F] don't you think?[13][02]",
+      "pointer_refs_declared": [
+        "202998",
+        "353ACB",
+        "353B18"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "3510B9",
+      "english": "[08 8B 10 F5 00]@(The shimmering blue sea stretched toward\n  the horizon.)[13][02]",
+      "pointer_refs_declared": [
+        "0F0714",
+        "3510FD"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "353ACF",
+      "english": "@Show me what you have.\n@You don't have anything dangerous,[10 0F] do you?[13][02]",
+      "pointer_refs_declared": [
+        "353A99",
+        "353A9E"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "3534E7",
+      "english": "@Hey kid, why aren't you at school?\n@You have school,[10 0F] don't you?[13][02]",
+      "pointer_refs_declared": [
+        "202D0C"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "353DDC",
+      "english": "@I heard [1C 05 AE] is popular in big cities.\n@I'd like to taste some.[13][02]",
+      "pointer_refs_declared": [
+        "2029ED"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "351893",
+      "english": "@I dunno,[10 0F] are you sure love isn't budding deep in your hearts?[13][02]",
+      "pointer_refs_declared": [
+        "351870",
+        "351875"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "348F49",
+      "english": "@You're a strange person...[10 1E] but for some reason, I like you.[13][02]",
+      "pointer_refs_declared": [
+        "20622C"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EED7",
+      "english": "@If you're not going to buy anything,[10 0F] maybe just buzz off.[13][02]",
+      "pointer_refs_declared": [
+        "3659D4"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "3541B9",
+      "english": "@I bet [1C 02 03] will be a computer programmer when he grows up.[13][02]",
+      "pointer_refs_declared": [
+        "202B74"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "354821",
+      "english": "@How dare you talk about my wife like that!\n@Go on,[10 0F] scram![13][02]",
+      "pointer_refs_declared": [
+        "354743"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "349260",
+      "english": "@You said <Yes>,[10 0F] but you don't have it. Ah ha ha ha ha...[13][02]",
+      "pointer_refs_declared": [
+        "3491EC"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EE49",
+      "english": "@Are you sure you don't need that?\n@Well,[10 0F] come again.[13][02]",
+      "pointer_refs_declared": [
+        "36699D"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "3521BC",
+      "english": "@You really oughta watch where you're walking.[10 0F] Heh...[13][02]",
+      "pointer_refs_declared": [
+        "205B55"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34F2AE",
+      "english": "@Don't need that,[10 0F] do you?\n@Come see us when you do.[13][02]",
+      "pointer_refs_declared": [
+        "3669A4"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "352882",
+      "english": "@I wish [1C 02 04] would go back to his old, gentle self.[13][02]",
+      "pointer_refs_declared": [
+        "352816"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "354032",
+      "english": "@Has that weakling [1C 02 03] kicked the bucket?[13][02]",
+      "pointer_refs_declared": [
+        "354062",
+        "35406D"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34EFD9",
+      "english": "@Don't need that,[10 0F] do you?[10 0F]\n  Hmmmm...\n[02]",
+      "pointer_refs_declared": [
+        "365EDC"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "34A7D7",
+      "english": "@Anyhow...[10 0F] questions are so ridiculous.[13][02]",
+      "pointer_refs_declared": [
+        "34A7CA"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "352583",
+      "english": "@Forget it. [10 0F]No more drinks on my bill.[13][02]",
+      "pointer_refs_declared": [
+        "352385"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "3535CB",
+      "english": "@Really?[10 0F] This is a respectable survey.[13][02]",
+      "pointer_refs_declared": [
+        "353585",
+        "35358A"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "33D8FC",
+      "english": "@C'mon,[10 0F] this thing isn't even edible![13][02]",
+      "pointer_refs_declared": [
+        "33D6AB"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "353AA2",
+      "english": "@I see.[10 0F] Just don't run in the halls.[13][02]",
+      "pointer_refs_declared": [
+        "353A95"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    },
+    {
+      "id": "3516C4",
+      "english": "@Now I'm mad.\n@(Grumble, grumble)[13][18 04][02]",
+      "pointer_refs_declared": [
+        "351644",
+        "351649",
+        "3516A6"
+      ],
+      "command_count": 3,
+      "status": "a_traduire_et_revalider"
+    }
+  ]
+}
