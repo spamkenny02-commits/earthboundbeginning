@@ -1,0 +1,945 @@
+{
+  "version": "v13",
+  "base": "v12",
+  "kind": "one_text_span_inplace_with_pointers_unchanged",
+  "rom_source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "entries": [
+    {
+      "id": "33B793",
+      "english": "@(I'm a helpful sparrow with narrow advice.)[02]",
+      "english_text": "(I'm a helpful sparrow with narrow advice.)",
+      "fr": "(Je suis un moineau de bon conseil.)",
+      "pointer_refs": [
+        "33B7C7",
+        "33B977"
+      ]
+    },
+    {
+      "id": "33D480",
+      "english": "@...That's not enough![13][18 04][02]",
+      "english_text": "...That's not enough!",
+      "fr": "...Pas assez !",
+      "pointer_refs": [
+        "33D3F5"
+      ]
+    },
+    {
+      "id": "33ED0C",
+      "english": "@(The piano began to play all by itself...)[13][18 04][06 70 04 50 ED F3 00][04 6C 04][04 6D 04][04 6E 04][04 6F 04][04 70 04][04 0B 00][1F 07 03][10 0F][1F 00 00 23][1F 15 C6 01 A8 03 01][10 96][1F 61][1F 21 9E][06 B8 00 7E ED F3 00][18 01 35][04 B8 00][08 2D D1 F8 00][18 04][05 0B 00][02]",
+      "english_text": "(The piano began to play all by itself...)",
+      "fr": "(Le piano jouait tout seul...)",
+      "pointer_refs": [
+        "202888"
+      ]
+    },
+    {
+      "id": "33EF07",
+      "english": "[1F 07 03][10 3C][10 1E][1F 13 01 02][10 0A][1F 13 01 01][10 0A][1F 13 01 08][10 3C][18 01 35]@Thank you very much.[1F 51][13][18 04][1F 23 CC 01][1B 03 5D EF F3 00][1F 1F 58 00 06][05 33 04][05 84 04][04 6F 03][08 FD E9 F3 00][1F 03][02]",
+      "english_text": "Thank you very much.",
+      "fr": "Merci beaucoup.",
+      "pointer_refs": [
+        "33EEFA",
+        "33EF03"
+      ]
+    },
+    {
+      "id": "347F20",
+      "english": "@Right.  Thank you.[13][18 04][04 40 00][05 07 00][1F 02 71][1F 1F 98 00 0A][10 78][02]",
+      "english_text": "Right.  Thank you.",
+      "fr": "D'accord. Merci.",
+      "pointer_refs": [
+        "347F13"
+      ]
+    },
+    {
+      "id": "3481E0",
+      "english": "[06 7F 03 55 A9 F7 00]@See you later.[13][18 04][1F F1 D4 03 3B 04][1F F1 D5 03 3C 04][04 05 00][1F 61][02]",
+      "english_text": "See you later.",
+      "fr": "À plus tard.",
+      "pointer_refs": [
+        "3480BD",
+        "348148"
+      ]
+    },
+    {
+      "id": "3489B3",
+      "english": "[08 30 5B F8 00][08 11 83 F4 00][06 80 01 92 9A F3 00]@I wish I could hear the Queen sing again.[13][02]",
+      "english_text": "I wish I could hear the Queen sing again.",
+      "fr": "J'aimerais réentendre chanter la reine.",
+      "pointer_refs": [
+        "204BCB"
+      ]
+    },
+    {
+      "id": "348B1C",
+      "english": "[08 30 5B F8 00][08 11 83 F4 00][06 80 01 AE 9A F3 00]@The queen isn't feeling very well.[13][02]",
+      "english_text": "The queen isn't feeling very well.",
+      "fr": "La reine ne va pas très bien.",
+      "pointer_refs": [
+        "204C0F"
+      ]
+    },
+    {
+      "id": "349831",
+      "english": "@I tend to think the same way, too.[0A 73 98 F4 00]",
+      "english_text": "I tend to think the same way, too.",
+      "fr": "Je pense pareil, moi aussi.",
+      "pointer_refs": [
+        "349824"
+      ]
+    },
+    {
+      "id": "349A0A",
+      "english": "@That right?  That's too bad.[0A 2C 9A F4 00]",
+      "english_text": "That right?  That's too bad.",
+      "fr": "Ah bon ? Quel dommage.",
+      "pointer_refs": [
+        "349992",
+        "349997"
+      ]
+    },
+    {
+      "id": "349E77",
+      "english": "@Is that so?[0A 88 9E F4 00]",
+      "english_text": "Is that so?",
+      "fr": "Ah bon ?",
+      "pointer_refs": [
+        "349DF9",
+        "349DFE"
+      ]
+    },
+    {
+      "id": "34A4F7",
+      "english": "@If people have not met in the first place, they cannot part![13][02]",
+      "english_text": "If people have not met in the first place, they cannot part!",
+      "fr": "Sans rencontre, pas de séparation !",
+      "pointer_refs": [
+        "34A465",
+        "34A46A"
+      ]
+    },
+    {
+      "id": "34B0C5",
+      "english": "[0E 05][1B 05][08 83 82 F4 00][08 E9 82 F4 00][1B 02 F7 B0 F4 00]@I cannot wait to serve you.[13][02]",
+      "english_text": "I cannot wait to serve you.",
+      "fr": "J'ai hâte de vous servir.",
+      "pointer_refs": [
+        "207926"
+      ]
+    },
+    {
+      "id": "34EAF4",
+      "english": "@Who will carry this?[14][02]",
+      "english_text": "Who will carry this?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365BF5"
+      ]
+    },
+    {
+      "id": "34EBD7",
+      "english": "@You've got altogether too much stuff. You couldn't carry any more.[13][02]",
+      "english_text": "You've got altogether too much stuff. You couldn't carry any more.",
+      "fr": "Tu es trop chargé. Tu ne peux rien porter de plus.",
+      "pointer_refs": [
+        "366045"
+      ]
+    },
+    {
+      "id": "34EC1C",
+      "english": "@What do you have for me?[14][02]",
+      "english_text": "What do you have for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "3660FD"
+      ]
+    },
+    {
+      "id": "34EF15",
+      "english": "@What do you want?[14][02]",
+      "english_text": "What do you want?",
+      "fr": "Que veux-tu ?",
+      "pointer_refs": [
+        "365A8C"
+      ]
+    },
+    {
+      "id": "34EF3F",
+      "english": "@Who will carry this?[14][02]",
+      "english_text": "Who will carry this?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365BFC"
+      ]
+    },
+    {
+      "id": "34F089",
+      "english": "@What are you selling?[14][02]",
+      "english_text": "What are you selling?",
+      "fr": "Que vends-tu ?",
+      "pointer_refs": [
+        "366104"
+      ]
+    },
+    {
+      "id": "34F306",
+      "english": "@Come again![13][02]",
+      "english_text": "Come again!",
+      "fr": "À bientôt !",
+      "pointer_refs": [
+        "365923"
+      ]
+    },
+    {
+      "id": "34F358",
+      "english": "@Who will carry it?[14][02]",
+      "english_text": "Who will carry it?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365C03"
+      ]
+    },
+    {
+      "id": "34F437",
+      "english": "@What have you got for me?[14][02]",
+      "english_text": "What have you got for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "36610B"
+      ]
+    },
+    {
+      "id": "34F6E2",
+      "english": "@Who will carry this?[14][02]",
+      "english_text": "Who will carry this?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365C0A"
+      ]
+    },
+    {
+      "id": "34F820",
+      "english": "@What would you like to sell?[14][02]",
+      "english_text": "What would you like to sell?",
+      "fr": "Que veux-tu vendre ?",
+      "pointer_refs": [
+        "366112"
+      ]
+    },
+    {
+      "id": "34FAAE",
+      "english": "@Come again![13][02]",
+      "english_text": "Come again!",
+      "fr": "À bientôt !",
+      "pointer_refs": [
+        "365931"
+      ]
+    },
+    {
+      "id": "34FAE8",
+      "english": "@Who wants it?[14][02]",
+      "english_text": "Who wants it?",
+      "fr": "Qui en veut ?",
+      "pointer_refs": [
+        "365C11"
+      ]
+    },
+    {
+      "id": "34FBD2",
+      "english": "@What have you got for me?[14][02]",
+      "english_text": "What have you got for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "366119"
+      ]
+    },
+    {
+      "id": "350072",
+      "english": "@Shouldn't you be doing something else right now?[13][02]",
+      "english_text": "Shouldn't you be doing something else right now?",
+      "fr": "Tu n'as rien d'autre à faire ?",
+      "pointer_refs": [
+        "350023"
+      ]
+    },
+    {
+      "id": "3500A5",
+      "english": "[1F 41 05][18 04][1F 15 78 01 57 04 01][10 01][1F EF 78 01][1F E8 FF][1F 61][1F E9 52 02][1F F1 52 02 5A 04][10 01][1F F2 78 01 58 04][1F 61][1F E7 19 00][1F E7 78 01][1F E5 FF][10 0A][18 01 35]@Then go ahead and jam, dudes![03][18 04][1F F2 78 01 5E 04][1F E8 FF][1F EB FF 06][1A 11 01][1B 02 F1 02 F5 00][1D 0D 01 01 02][1B 03 F1 02 F5 00][1A 11 01][1B 00][1D 0D 01 01 03][1B 03 F1 02 F5 00][1A 11 01][1B 02 70 01 F5 00][1D 0D 01 01 02][1B 03 5D 01 F5 00][1D 0D 01 01 03][1B 03 69 01 F5 00][1F 15 01 00 5B 04 01][0A 70 01 F5 00]",
+      "english_text": "Then go ahead and jam, dudes!",
+      "fr": "Alors, jouez, les gars !",
+      "pointer_refs": [
+        "350051"
+      ]
+    },
+    {
+      "id": "3510FA",
+      "english": "[06 B6 03 B9 10 F5 00][08 8B 10 F5 00]@(In the distance, on the island, something sparkled...!)[13][18 04][04 B6 03][04 3E 04][10 14][1F 1F 0D 01 06][10 01][1F 17 F3 03 1A 05 01][1F 02 4B][10 20][10 28][1F 02 58][10 38][10 50][1F 17 9E 03 1C 05 01][1F 15 D2 00 27 05 01][10 58][1F 02 11][10 80][1F 15 F3 00 23 05 01][10 80][10 40][10 58][1F 1F D2 00 06][10 20][10 48][1F 1F F3 00 06][1F 61][1F 15 6A 00 1F 05 01][10 01][1F 41 05][1F EF 6A 00][1F E8 FF][1F 61][10 01][1F ED][1F 1F 6A 00 06][0A F4 11 F5 00]",
+      "english_text": "(In the distance, on the island, something sparkled...!)",
+      "fr": "(Au loin, sur l'île, une lueur brillait !)",
+      "pointer_refs": [
+        "0F0710"
+      ]
+    },
+    {
+      "id": "3512ED",
+      "english": "[06 0A 00 40 13 F5 00]@Going down.[13][18 04][1F 16 58 03 01][1F 00 00 8A][1F 15 B7 01 63 01 01][10 01][1F EF B7 01][1F E8 FF][1F 15 B7 01 47 02 01][1F 61][1F 00 00 8B][10 5A][1F ED][1F E5 FF][1F 1F B7 01 06][04 5E 01][04 0A 00][02]",
+      "english_text": "Going down.",
+      "fr": "On descend.",
+      "pointer_refs": [
+        "205A89"
+      ]
+    },
+    {
+      "id": "3513A7",
+      "english": "[1A 11 04][1B 03 E9 13 F5 00]@Get outta my face, twerps![13][18 04][18 04][1F 23 17 00][1B 02 E0 13 F5 00][02]",
+      "english_text": "Get outta my face, twerps!",
+      "fr": "Dégagez, les morveux !",
+      "pointer_refs": [
+        "204714"
+      ]
+    },
+    {
+      "id": "351548",
+      "english": "[18 01 35]@You don't have enough money, bub.[13][18 04][02]",
+      "english_text": "You don't have enough money, bub.",
+      "fr": "T'as pas assez d'argent, petit.",
+      "pointer_refs": [
+        "3514B4"
+      ]
+    },
+    {
+      "id": "3516AA",
+      "english": "@...That's not enough![13][18 04][02]",
+      "english_text": "...That's not enough!",
+      "fr": "...Pas assez !",
+      "pointer_refs": [
+        "351657"
+      ]
+    },
+    {
+      "id": "3516EE",
+      "english": "[05 AF 03]@Oh, excuse me.[13][18 04][19 10 01][1B 04][19 23 36 02 01 00 00][1B 04][18 07 05 00 00 00 00][0B 00][1B 03 25 17 F5 00][0A 30 17 F5 00]",
+      "english_text": "Oh, excuse me.",
+      "fr": "Oh, pardon.",
+      "pointer_refs": [
+        "351755"
+      ]
+    },
+    {
+      "id": "351741",
+      "english": "@Thanks.[13][02]",
+      "english_text": "Thanks.",
+      "fr": "Merci.",
+      "pointer_refs": [
+        "35175C"
+      ]
+    },
+    {
+      "id": "351A0F",
+      "english": "[1A 11 04][1B 03 09 14 F5 00]@Hey, you![13][18 04][1F 23 17 00][1B 02 35 1A F5 00][02]",
+      "english_text": "Hey, you!",
+      "fr": "Hé, toi !",
+      "pointer_refs": [
+        "204978"
+      ]
+    },
+    {
+      "id": "3526E7",
+      "english": "@Then you can spend another day in there to cool your jets.[13][0A AD 25 F5 00]",
+      "english_text": "Then you can spend another day in there to cool your jets.",
+      "fr": "Alors reste un jour de plus pour te calmer.",
+      "pointer_refs": [
+        "3525F7",
+        "3525FC"
+      ]
+    },
+    {
+      "id": "352728",
+      "english": "[06 AC 03 7D 27 F5 00]@No peeking in the dressing room. You'll be in a world of trouble if you do.[13][02]",
+      "english_text": "No peeking in the dressing room. You'll be in a world of trouble if you do.",
+      "fr": "Ne regarde pas dans la loge. Sinon, gare à toi !",
+      "pointer_refs": [
+        "205C76"
+      ]
+    },
+    {
+      "id": "3528B6",
+      "english": "[06 AC 03 E1 28 F5 00]@Hey, get out of my dressing room![13][02]",
+      "english_text": "Hey, get out of my dressing room!",
+      "fr": "Hé, sors de ma loge !",
+      "pointer_refs": [
+        "205CDC"
+      ]
+    },
+    {
+      "id": "352B6C",
+      "english": "@Hope you sleep well.[13][10 0A][08 38 7A F8 00][1F 00 00 17][1F 21 15][08 7A 7A F8 00][02]",
+      "english_text": "Hope you sleep well.",
+      "fr": "Dors bien.",
+      "pointer_refs": [
+        "352AE5"
+      ]
+    },
+    {
+      "id": "352D77",
+      "english": "@His breathing is rough.[13][04 04 00][13][02]",
+      "english_text": "His breathing is rough.",
+      "fr": "Il respire mal.",
+      "pointer_refs": [
+        "352D4F"
+      ]
+    },
+    {
+      "id": "352D95",
+      "english": "@He looks like he's in pain.[13][05 03 00][05 04 00][13][02]",
+      "english_text": "He looks like he's in pain.",
+      "fr": "Il semble souffrir.",
+      "pointer_refs": [
+        "352D48"
+      ]
+    },
+    {
+      "id": "3542C4",
+      "english": "[18 01 35]@There's a padlock on the door.[13][04 6A 03][18 04][02]",
+      "english_text": "There's a padlock on the door.",
+      "fr": "La porte a un cadenas.",
+      "pointer_refs": [
+        "3542BB"
+      ]
+    },
+    {
+      "id": "354B53",
+      "english": "[04 63 03]@I'm coming out now.[13][18 04][1F E5 FF][10 0A][1F 1F 6A 01 06][1F 17 97 00 5D 02 01][1F 00 00 0C][10 78][10 78][1F 03][04 59 03][04 85 04][02]",
+      "english_text": "I'm coming out now.",
+      "fr": "Je sors maintenant.",
+      "pointer_refs": [
+        "354B46"
+      ]
+    },
+    {
+      "id": "354DE6",
+      "english": "[1B 06][1B 04][1D 0A 00][1B 04][1D 14 00 00 00 00][0B 00][1B 02 C6 4E F5 00][1D 09 00 00][1F 02 0C][18 0A][1B 06][1B 04][1D 03 FF][1B 02 CE 50 F5 00][1D 0E 00 00][10 3C]@Thank you, it's a big help.[03][1B 06][0B 9C][1B 03 F0 4E F5 00][1B 06][0B BF][1B 03 54 50 F5 00][02]",
+      "english_text": "Thank you, it's a big help.",
+      "fr": "Merci, ça m'aide beaucoup.",
+      "pointer_refs": [
+        "354DD9"
+      ]
+    },
+    {
+      "id": "357872",
+      "english": "@This is effective when you have paralysis, or you have been petrified.[02]",
+      "english_text": "This is effective when you have paralysis, or you have been petrified.",
+      "fr": "Efficace contre la paralysie et la pétrification.",
+      "pointer_refs": [
+        "056D39"
+      ]
+    },
+    {
+      "id": "35E4D3",
+      "english": "[1F 02 0B]@(Click!)[13][02]",
+      "english_text": "(Click!)",
+      "fr": "(Clic !)",
+      "pointer_refs": [
+        "064B0C",
+        "35E432",
+        "35E4CF"
+      ]
+    },
+    {
+      "id": "360CC1",
+      "english": "[06 53 04 4C 0D F6 00][06 21 03 DA 0C F6 00]@Beat it.[13][02]",
+      "english_text": "Beat it.",
+      "fr": "Dégage.",
+      "pointer_refs": [
+        "202349",
+        "20313B"
+      ]
+    },
+    {
+      "id": "361327",
+      "english": "[06 20 03 5E 13 F6 00]@There must be someone controlling the dead...[13][02]",
+      "english_text": "There must be someone controlling the dead...",
+      "fr": "Quelqu'un doit contrôler les morts...",
+      "pointer_refs": [
+        "202327",
+        "2023AF",
+        "202987"
+      ]
+    },
+    {
+      "id": "36394F",
+      "english": "[06 6E 03 55 A9 F7 00][18 04][18 01 35]@I can't talk very well without my Dentures.[13][02]",
+      "english_text": "I can't talk very well without my Dentures.",
+      "fr": "Sans mon dentier, je parle très mal.",
+      "pointer_refs": [
+        "363938"
+      ]
+    },
+    {
+      "id": "3639A5",
+      "english": "[06 6E 03 EE 39 F6 00]@Not even I can hold a normal conversation with him like this...[13][02]",
+      "english_text": "Not even I can hold a normal conversation with him like this...",
+      "fr": "Même moi, je ne peux pas lui parler ainsi...",
+      "pointer_refs": [
+        "203955"
+      ]
+    },
+    {
+      "id": "364A58",
+      "english": "[04 85 03][18 0A][1D 08 A7 01][10 14]@Don't run off with it, now![1F 02 74][18 0A][13][18 04][02]",
+      "english_text": "Don't run off with it, now!",
+      "fr": "Ne pars pas avec, hein !",
+      "pointer_refs": [
+        "364A4B"
+      ]
+    },
+    {
+      "id": "365202",
+      "english": "@Please choose a party member.[14][02]",
+      "english_text": "Please choose a party member.",
+      "fr": "Choisis un membre du groupe.",
+      "pointer_refs": [
+        "365BA1"
+      ]
+    },
+    {
+      "id": "3697C7",
+      "english": "@Zzzzzzzzzzzz...[13][02]",
+      "english_text": "Zzzzzzzzzzzz...",
+      "fr": "Zzzzzzzzzzzz...",
+      "pointer_refs": [
+        "205957"
+      ]
+    },
+    {
+      "id": "36EC42",
+      "english": "@Thank you![13][02]",
+      "english_text": "Thank you!",
+      "fr": "Merci !",
+      "pointer_refs": [
+        "365938"
+      ]
+    },
+    {
+      "id": "36ECA3",
+      "english": "@Who will carry this?[14][02]",
+      "english_text": "Who will carry this?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365C18"
+      ]
+    },
+    {
+      "id": "36EDA9",
+      "english": "@What do you have for me?[14][02]",
+      "english_text": "What do you have for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "366120"
+      ]
+    },
+    {
+      "id": "36F02E",
+      "english": "@Need help pickin' something out?[14][02]",
+      "english_text": "Need help pickin' something out?",
+      "fr": "Besoin d'aide pour choisir ?",
+      "pointer_refs": [
+        "365AAF"
+      ]
+    },
+    {
+      "id": "36F06A",
+      "english": "@Who's gonna carry this?[14][02]",
+      "english_text": "Who's gonna carry this?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365C1F"
+      ]
+    },
+    {
+      "id": "36F1A1",
+      "english": "@What ya got for me?[14][02]",
+      "english_text": "What ya got for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "366127"
+      ]
+    },
+    {
+      "id": "36F41C",
+      "english": "@Come again![13][02]",
+      "english_text": "Come again!",
+      "fr": "À bientôt !",
+      "pointer_refs": [
+        "365946"
+      ]
+    },
+    {
+      "id": "36F468",
+      "english": "@Who will carry it?[14][02]",
+      "english_text": "Who will carry it?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365C26"
+      ]
+    },
+    {
+      "id": "36F547",
+      "english": "@What have you got for me?[14][02]",
+      "english_text": "What have you got for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "36612E"
+      ]
+    },
+    {
+      "id": "36F795",
+      "english": "@Need help pickin' something out?[14][02]",
+      "english_text": "Need help pickin' something out?",
+      "fr": "Besoin d'aide pour choisir ?",
+      "pointer_refs": [
+        "365ABD"
+      ]
+    },
+    {
+      "id": "36F7D1",
+      "english": "@Who's gonna carry this?[14][02]",
+      "english_text": "Who's gonna carry this?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365C2D"
+      ]
+    },
+    {
+      "id": "36F908",
+      "english": "@What ya got for me?[14][02]",
+      "english_text": "What ya got for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "366135"
+      ]
+    },
+    {
+      "id": "3775DD",
+      "english": "@Thank you![13][02]",
+      "english_text": "Thank you!",
+      "fr": "Merci !",
+      "pointer_refs": [
+        "3658F2",
+        "3658F9",
+        "365900",
+        "365907"
+      ]
+    },
+    {
+      "id": "37763E",
+      "english": "@Who will carry this?[14][02]",
+      "english_text": "Who will carry this?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365BD2",
+        "365BD9",
+        "365BE0",
+        "365BE7"
+      ]
+    },
+    {
+      "id": "37776A",
+      "english": "@What do you have for me?[14][02]",
+      "english_text": "What do you have for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "3660DA",
+        "3660E1",
+        "3660E8",
+        "3660EF"
+      ]
+    },
+    {
+      "id": "378156",
+      "english": "[06 5B 03 AA 81 F7 00]@There was a rockslide up by Union Station, so the train can't get through.[13][02]",
+      "english_text": "There was a rockslide up by Union Station, so the train can't get through.",
+      "fr": "Un éboulement bloque le train près d'Union Station.",
+      "pointer_refs": [
+        "378081"
+      ]
+    },
+    {
+      "id": "379692",
+      "english": "[1D 09 00 00][18 0A][1F 02 76]@Have a nice stay.[13][0A B3 96 F7 00]",
+      "english_text": "Have a nice stay.",
+      "fr": "Bon séjour !",
+      "pointer_refs": [
+        "37962A"
+      ]
+    },
+    {
+      "id": "37FC30",
+      "english": "@What can I get you?[14][02]",
+      "english_text": "What can I get you?",
+      "fr": "Que désires-tu ?",
+      "pointer_refs": [
+        "365A4D",
+        "365A54",
+        "365A5B"
+      ]
+    },
+    {
+      "id": "37FC58",
+      "english": "@Okay, so who wants to carry this?[14][02]",
+      "english_text": "Okay, so who wants to carry this?",
+      "fr": "Bon, qui va porter ça ?",
+      "pointer_refs": [
+        "365BBD",
+        "365BC4",
+        "365BCB"
+      ]
+    },
+    {
+      "id": "37FDA2",
+      "english": "@Whatcha got for me?[14][02]",
+      "english_text": "Whatcha got for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "3660C5",
+        "3660CC",
+        "3660D3"
+      ]
+    },
+    {
+      "id": "3825DA",
+      "english": "@Who wants to carry this?[14][02]",
+      "english_text": "Who wants to carry this?",
+      "fr": "Qui va porter ça ?",
+      "pointer_refs": [
+        "365C34"
+      ]
+    },
+    {
+      "id": "382711",
+      "english": "@What do you have for me?[14][02]",
+      "english_text": "What do you have for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "36613C"
+      ]
+    },
+    {
+      "id": "3838B8",
+      "english": "@Have a nice day![13][02]",
+      "english_text": "Have a nice day!",
+      "fr": "Bonne journée !",
+      "pointer_refs": [
+        "365962"
+      ]
+    },
+    {
+      "id": "3838E0",
+      "english": "@Which would you like?[14][02]",
+      "english_text": "Which would you like?",
+      "fr": "Lequel veux-tu ?",
+      "pointer_refs": [
+        "365AD2"
+      ]
+    },
+    {
+      "id": "38390C",
+      "english": "@Whose meal is it for?[14][02]",
+      "english_text": "Whose meal is it for?",
+      "fr": "C'est pour qui ?",
+      "pointer_refs": [
+        "365C42"
+      ]
+    },
+    {
+      "id": "383A19",
+      "english": "@What do you have for me?[14][02]",
+      "english_text": "What do you have for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "36614A"
+      ]
+    },
+    {
+      "id": "384CC9",
+      "english": "@Oh, is that right?[13][0A B6 4D F8 00]",
+      "english_text": "Oh, is that right?",
+      "fr": "Ah, vraiment ?",
+      "pointer_refs": [
+        "384BBC",
+        "384BC1",
+        "384BF7",
+        "384BFC",
+        "384C6F"
+      ]
+    },
+    {
+      "id": "384CF0",
+      "english": "@There's no money left in your account.[13][0A B6 4D F8 00]",
+      "english_text": "There's no money left in your account.",
+      "fr": "Ton compte est vide.",
+      "pointer_refs": [
+        "384C08"
+      ]
+    },
+    {
+      "id": "384D1D",
+      "english": "@Ouch, there is not that much money left in your account.  Try again.[13][0A B6 4D F8 00]",
+      "english_text": "Ouch, there is not that much money left in your account.  Try again.",
+      "fr": "Aïe, ton compte n'a pas assez d'argent. Réessaie.",
+      "pointer_refs": [
+        "384C7D"
+      ]
+    },
+    {
+      "id": "386253",
+      "english": "@Now where did she go?[0A BD 62 F8 00]",
+      "english_text": "Now where did she go?",
+      "fr": "Où est-elle passée ?",
+      "pointer_refs": [
+        "386246"
+      ]
+    },
+    {
+      "id": "38639C",
+      "english": "@Oh dear, that's no good.[0A BA 63 F8 00]",
+      "english_text": "Oh dear, that's no good.",
+      "fr": "Oh non, c'est embêtant.",
+      "pointer_refs": [
+        "386365",
+        "38636A"
+      ]
+    },
+    {
+      "id": "3863BC",
+      "english": "[06 B7 00 BF 64 F8 00][1D 05 FF A8][1B 02 5C 64 F8 00][1D 01 FF A8][1F 02 76]@Overjoyed with her reunion, Laura began singing.[13][18 04][04 0B 00][1F 07 03][10 0F][1F 00 00 21][1F 1F 54 01 06][1F 15 A4 00 F1 03 01][10 6E][1F 17 28 00 7E 03 01][10 01][04 B7 00][1F 15 A4 00 A8 03 01][10 96][1F 61][1F 21 42][1F E5 FF][1F 1F A4 00 06][10 01][18 01 35][08 2D D1 F8 00][18 04][05 0B 00][1F E8 FF][02]",
+      "english_text": "Overjoyed with her reunion, Laura began singing.",
+      "fr": "Heureuse de le revoir, Laura se mit à chanter.",
+      "pointer_refs": [
+        "202459",
+        "202ACA"
+      ]
+    },
+    {
+      "id": "386519",
+      "english": "@Thanks![13][02]",
+      "english_text": "Thanks!",
+      "fr": "Merci !",
+      "pointer_refs": [
+        "36590E"
+      ]
+    },
+    {
+      "id": "38657B",
+      "english": "@Which of ya wants it?[14][02]",
+      "english_text": "Which of ya wants it?",
+      "fr": "Qui en veut ?",
+      "pointer_refs": [
+        "365BEE"
+      ]
+    },
+    {
+      "id": "38667B",
+      "english": "@Whatcha got for me?[14][02]",
+      "english_text": "Whatcha got for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "3660F6"
+      ]
+    },
+    {
+      "id": "386D76",
+      "english": "@Let me register your name.[13][08 00 6E F8 00][0A A1 6D F8 00]",
+      "english_text": "Let me register your name.",
+      "fr": "Je vais noter ton nom.",
+      "pointer_refs": [
+        "386D1A",
+        "386D1F"
+      ]
+    },
+    {
+      "id": "387116",
+      "english": "@What are you selling?[02]",
+      "english_text": "What are you selling?",
+      "fr": "Que vends-tu ?",
+      "pointer_refs": [
+        "387306"
+      ]
+    },
+    {
+      "id": "38712D",
+      "english": "@Will there be anything else?[02]",
+      "english_text": "Will there be anything else?",
+      "fr": "Autre chose ?",
+      "pointer_refs": [
+        "3872BD"
+      ]
+    },
+    {
+      "id": "387178",
+      "english": "@This item is still equipped. Do you want to sell it anyway?[02]",
+      "english_text": "This item is still equipped. Do you want to sell it anyway?",
+      "fr": "Cet objet est équipé. Tu veux quand même le vendre ?",
+      "pointer_refs": [
+        "387340"
+      ]
+    },
+    {
+      "id": "3871B5",
+      "english": "@So you're just browsing?[02]",
+      "english_text": "So you're just browsing?",
+      "fr": "Tu regardes seulement ?",
+      "pointer_refs": [
+        "3872F8"
+      ]
+    },
+    {
+      "id": "3871CF",
+      "english": "@So you don't want it after all.[02]",
+      "english_text": "So you don't want it after all.",
+      "fr": "Donc, tu n'en veux plus.",
+      "pointer_refs": [
+        "3872FF"
+      ]
+    },
+    {
+      "id": "3871F0",
+      "english": "@Thanks.[02]",
+      "english_text": "Thanks.",
+      "fr": "Merci.",
+      "pointer_refs": [
+        "3872EC"
+      ]
+    },
+    {
+      "id": "389F4D",
+      "english": "@What do you have for me?[14][02]",
+      "english_text": "What do you have for me?",
+      "fr": "Qu'as-tu pour moi ?",
+      "pointer_refs": [
+        "366151",
+        "366158"
+      ]
+    },
+    {
+      "id": "38A86E",
+      "english": "@The Dragon slumbers.[13][02]",
+      "english_text": "The Dragon slumbers.",
+      "fr": "Le dragon sommeille.",
+      "pointer_refs": [
+        "38A770"
+      ]
+    },
+    {
+      "id": "38D260",
+      "english": "@Hmm...[13][02]",
+      "english_text": "Hmm...",
+      "fr": "Hmm...",
+      "pointer_refs": [
+        "352F5E",
+        "3538D4",
+        "371EDB"
+      ]
+    }
+  ]
+}
