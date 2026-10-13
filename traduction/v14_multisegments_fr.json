@@ -2,7 +2,7 @@
   "version": "v14",
   "base": "v13",
   "rom_source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
-  "notes": "Les commandes, marqueurs @ et retours ligne restent aux mêmes offsets. Les chaînes françaises plus courtes sont complétées par des espaces. Les sauts de ligne sont encodés selon les octets source 03 00 ou 00 ; masque consigné par script.",
+  "notes": "Les commandes, marqueurs @ et retours ligne restent aux mêmes offsets. Les chaînes françaises plus courtes sont complétées par des espaces. Les sauts de ligne sont encodés selon les octets source 03 00 ou 00 ; masque consigné par script. Huit segments avec références littérales vers leur intérieur sont exclus par prudence ; 130 segments intégrables.",
   "entries": [
     {
       "id": "33B3B5",
@@ -104,7 +104,7 @@
       "translations": [
         "N'ose pas ouvrir cette porte !",
         "Ce froid glacial me fait mal aux os.",
-        "Pourquoi suis-je venu dans cet endroit perdu ?"
+        "I don't know why I even came to this forsaken place!"
       ],
       "pointer_refs": [
         "0F1AC6"
@@ -144,7 +144,7 @@
       "translations": [
         "Chez Jack !",
         "Roi du FUN !",
-        "Chambres à la nuit.",
+        "Nightly rates available.",
         "  Entrez donc."
       ],
       "pointer_refs": [
@@ -218,7 +218,7 @@
         "Oh, pardon !",
         "Je débute, je n'ai pas encore de bureau.",
         "Pour l'instant, je travaille par téléphone.",
-        "Pardon pour le dérangement !",
+        "Apologies for the inconvenience!",
         "Tu peux lire les indices gratuits sur les panneaux là-bas."
       ],
       "pointer_refs": [
@@ -232,7 +232,7 @@
       "translations": [
         "Moi ?",
         "Je m'entraîne à emballer des cadeaux.",
-        "Tu peux les ouvrir si tu veux. ",
+        "You can go ahead and open them. ",
         "Ainsi, je pourrai encore m'entraîner !"
       ],
       "pointer_refs": [
@@ -283,7 +283,7 @@
       "english": "@Someday, I hope to play for a full house of high cultured patrons.\n@Until then, the Live House is the only place for my horn.[13][02]",
       "translations": [
         "Un jour, je jouerai devant une salle de fins connaisseurs.",
-        "En attendant, je joue du cor au Live House."
+        "Until then, the Live House is the only place for my horn."
       ],
       "pointer_refs": [
         "203BFD"
@@ -322,7 +322,7 @@
       "english": "[1F 02 6F][10 28][18 01 35]@I already told you!\n@We're not paying protection money for the busted fence out back! \n@The fence should protect us, not the other way around!\n@I don't care what happens to it.[13][18 00][02]",
       "translations": [
         "Je te l'ai dit !",
-        "On ne paiera pas pour protéger la clôture cassée ! ",
+        "We're not paying protection money for the busted fence out back! ",
         "C'est elle qui doit nous protéger, pas l'inverse !",
         "Je m'en fiche complètement."
       ],
@@ -479,7 +479,7 @@
       "id": "33FCE8",
       "english": "@To the mailman searching for the address of the Rosemarys' new lease.\n@If you see him, tell him they're much further to the east.\n@La-la-la![13][02]",
       "translations": [
-        "Au facteur qui cherche la nouvelle adresse des Rosemary.",
+        "To the mailman searching for the address of the Rosemarys' new lease.",
         "Si tu le vois, dis-lui qu'ils habitent bien plus à l'est.",
         "La-la-la!"
       ],
@@ -568,7 +568,7 @@
       "english": "@I am taking this broken earring to the fountain.\n@I bet it'll change into a magic earring.[13][02]",
       "translations": [
         "Je porte cette boucle cassée à la fontaine.",
-        "Je parie qu'elle deviendra magique."
+        "I bet it'll change into a magic earring."
       ],
       "pointer_refs": [
         "20447D"
