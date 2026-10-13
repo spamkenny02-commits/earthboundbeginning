@@ -1,7 +1,7 @@
 {
   "version": "v16",
   "base": "v15",
-  "notes": "74 scripts, 168 segments de texte examinés, 11 exclus pour pointeurs intérieurs, 154 traductions effectivement nouvelles. Trois sauts de ligne sur un octet identifiés dans la ROM originale.",
+  "notes": "100 scripts, 236 segments examinés, 13 exclus pour pointeurs intérieurs, 218 segments français modifiés, 5 retours de ligne 00 conservés. Vérification source et IPS requise.",
   "entries": [
     {
       "id": "33A940",
@@ -996,7 +996,7 @@
       "pointer_refs": [
         "33DDC3"
       ],
-      "newline_one_byte_mask": 0
+      "newline_one_byte_mask": 1
     },
     {
       "id": "33E472",
@@ -1010,7 +1010,7 @@
       "pointer_refs": [
         "0F0BC5"
       ],
-      "newline_one_byte_mask": 0
+      "newline_one_byte_mask": 2
     },
     {
       "id": "33E5E0",
@@ -1091,7 +1091,7 @@
       "id": "33FCE8",
       "english": "@To the mailman searching for the address of the Rosemarys' new lease.\n@If you see him, tell him they're much further to the east.\n@La-la-la![13][02]",
       "translations": [
-        "Au facteur qui cherche la nouvelle adresse des Rosemary.",
+        "To the mailman searching for the address of the Rosemarys' new lease.",
         "Dis-lui qu'ils ont déménagé bien plus à l'est.",
         "La-la-la!"
       ],
@@ -1191,7 +1191,7 @@
       "id": "36E4E8",
       "english": "@You have appeared just like in my dream...\n@The boy in my dream looked just like you.[13][02]",
       "translations": [
-        "Tu es apparu comme dans mon rêve...",
+        "You have appeared just like in my dream...",
         "Le garçon de mon rêve te ressemblait."
       ],
       "pointer_refs": [
@@ -1304,6 +1304,16 @@
     {
       "id": "36478E",
       "segment_index": 1,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "33FCE8",
+      "segment_index": 0,
+      "reason": "pointeur HiROM littéral vers l'intérieur du segment"
+    },
+    {
+      "id": "36E4E8",
+      "segment_index": 0,
       "reason": "pointeur HiROM littéral vers l'intérieur du segment"
     }
   ]
