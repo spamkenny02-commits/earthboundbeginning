@@ -1,7 +1,7 @@
 {
   "source": "catalogue/catalogue.json",
   "base": "v09",
-  "avertissement": "Propositions éditoriales uniquement : aucune modification des scripts ou patchs. Ne pas importer directement comme dialogues_fr.json.",
+  "avertissement": "Brouillon de traduction pour v10, sans réinsertion. Contrôle textuel des commandes, retours à la ligne et marqueurs @ ; ne valide pas la capacité, les branchements, les pointeurs ni l'affichage.",
   "blocks": [
     {
       "id": "33DAD6",
@@ -34,6 +34,198 @@
       "commandes_conservees": true,
       "statut": "brouillon_non_integre",
       "remarque": "Vérifier contexte, noms, longueur, pointeurs et affichage en jeu."
+    },
+    {
+      "id": "33B793",
+      "english": "@(I'm a helpful sparrow with narrow advice.)[02]",
+      "francais_propose": "@(Je suis un moineau serviable qui donne des conseils précis.)[02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33C668",
+      "english": "@Bark ruff\n@[10 0F](One dog's junk might just be your treasure.)[13][02]",
+      "francais_propose": "@Ouaf, ouaf\n@[10 0F](Ce qu'un chien jette peut être ton trésor.)[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33C80F",
+      "english": "@Our frosty weather will warm your heart!\n    <-Snowman>[13][02]",
+      "francais_propose": "@Notre froid glacial vous réchauffera le coeur !\n    <-Snowman>[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33C945",
+      "english": "@Jack's nightly lodging.\n@Rooms available!\n@Can't find a place to stay?\n@Then you don't know Jack![13][02]",
+      "francais_propose": "@Chez Jack, on dort chaque nuit.\n@Chambres disponibles !\n@Tu cherches où dormir ?\n@Demande à Jack ![13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33C9AA",
+      "english": "@Need a room for the night?\n@Inquire at the yellow house to the south!\n@Tell them Jack sent you![13][02]",
+      "francais_propose": "@Besoin d'une chambre pour la nuit ?\n@Renseigne-toi dans la maison jaune au sud !\n@Dis que tu viens de la part de Jack ![13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33CA66",
+      "english": "@<Snowman Clinic>\n@If you need care you'll see us there.[13][02]",
+      "francais_propose": "@<Clinique de Snowman>\n@Besoin de soins ? Nous sommes là ![13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33CC68",
+      "english": "@Well...\n@The ghosts and animals aren't gone, but things have calmed down a little.\n@I think we should start working on retaking the town.[13][02]",
+      "francais_propose": "@Eh bien...\n@Les fantômes et les animaux sont encore là, mais la situation s'est un peu calmée.\n@Je crois qu'on devrait commencer à reprendre la ville.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33CCF6",
+      "english": "@Ha!  Why the surprised look?\n@Did you think this was a <ghost> town?\n@Because only some ghosts live here.[13][02]",
+      "francais_propose": "@Ha ! Pourquoi cet air surpris ?\n@Tu pensais que c'était une ville <fantôme> ?\n@Il n'y a pourtant que quelques fantômes ici.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33CD64",
+      "english": "@If we can get stuff like the hospital working right again,\n@other people might feel safer returning too.[13][02]",
+      "francais_propose": "@Si on arrive à rouvrir l'hôpital,\n@les gens oseront peut-être revenir vivre ici.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33D1BD",
+      "english": "@<Youngtown>\n@New beginnings and room to grow![13][02]",
+      "francais_propose": "@<Youngtown>\n@Un nouveau départ, de la place pour grandir ![13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33D23F",
+      "english": "@You go on ahead.\n@I'm gonna pay that pilot in the desert a visit.[13][02]",
+      "francais_propose": "@Continue sans moi.\n@Je vais rendre visite au pilote dans le désert.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33D49A",
+      "english": "@Now that the bridge is fixed,[10 0F] I can give more people rides!\n@It's all thanks to you.[13][02]",
+      "francais_propose": "@Maintenant que le pont est réparé,[10 0F] je peux transporter plus de monde !\n@Tout ça grâce à toi.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33D8DA",
+      "english": "@Aww...[10 0F]\n  you got my hopes up![13][02]",
+      "francais_propose": "@Oh...[10 0F]\n  tu m'as donné de faux espoirs ![13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33D8FC",
+      "english": "@C'mon,[10 0F] this thing isn't even edible![13][02]",
+      "francais_propose": "@Allons,[10 0F] ça ne se mange même pas ![13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33D925",
+      "english": "@Awww, you're carrying too much. Maybe next time...[13][02]",
+      "francais_propose": "@Oh non, tu portes trop de choses. Une autre fois, peut-être...[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33E0F7",
+      "english": "@Lately I've been playing this new game called\n  <EarthBound Beginnings>.\n@It's difficult, but the challenge makes it fun![13][02]",
+      "francais_propose": "@En ce moment, je joue à un nouveau jeu appelé\n  <EarthBound Beginnings>.\n@Il est difficile, mais c'est ce qui le rend amusant ![13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33E42F",
+      "english": "@Try our new Deluxe Burger!\n@So good it'll make your heart ache![13][02]",
+      "francais_propose": "@Goûtez notre nouveau Burger Deluxe !\n@Si bon que votre coeur en chavirera ![13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33E504",
+      "english": "@Life is tough.\n@You'll live longer if you visit your doctor!\n  -Ellay Hospital[13][02]",
+      "francais_propose": "@La vie est dure.\n@Tu vivras plus longtemps si tu vas voir ton médecin !\n  -Hôpital d'Ellay[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33E557",
+      "english": "@(There's some graffiti here.)\n@<No crying until...>\n@(The end is illegible.)[13][02]",
+      "francais_propose": "@(Il y a un graffiti ici.)\n@<Ne pleure pas avant...>\n@(La fin est illisible.)[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33E6BC",
+      "english": "@Near the base of Mt. Itoi, lives a very kind, generous man.\n@I wonder if he's doing okay...[13][02]",
+      "francais_propose": "@Au pied du mont Itoi vit un homme très gentil et généreux.\n@J'espère qu'il va bien...[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33E9E2",
+      "english": "@There is a problem here.[13][02]",
+      "francais_propose": "@Il y a un problème ici.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33F442",
+      "english": "@They say you can hear a piano melody coming from inside...\n@Even though the house is empty.[13][02]",
+      "francais_propose": "@On dit qu'une mélodie de piano s'échappe de l'intérieur...\n@Même si la maison est vide.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33F4CD",
+      "english": "@The haunted house belongs to the Rosemarys.[13][02]",
+      "francais_propose": "@La maison hantée appartient aux Rosemary.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
+    },
+    {
+      "id": "33F96F",
+      "english": "@Oh... [10 0F]You don't have enough money.\n@Sorry, come again.[13][02]",
+      "francais_propose": "@Oh...[10 0F] Tu n'as pas assez d'argent.\n@Désolé, reviens plus tard.[13][02]",
+      "commandes_conservees": true,
+      "statut": "brouillon_non_integre",
+      "remarque": "Commandes, lignes et marqueurs @ conservés ; longueur, pointeurs et affichage non validés."
     }
   ]
 }
