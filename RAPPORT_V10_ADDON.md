@@ -19,6 +19,13 @@ Empreintes SHA-256 :
 - accents : `21480d84a36e6610221fc548554e1e987d99ce5bae9ab04b0710d4fb6124fc8f`
 - ASCII : `3924d364c21938907c75c916a4bd5075308678e15db2df7324899181e4188f5e`
 
+### Patchs IPS publiés sur GitHub
+
+- [Add-on v10 avec accents](patches/EarthBound_Beginnings_FR_v10_addon_accents.ips)
+- [Add-on v10 sans accents (ASCII)](patches/EarthBound_Beginnings_FR_v10_addon_ascii.ips)
+
+**Attention :** ces fichiers ne contiennent que les 50 dialogues ajoutés. Ils ne remplacent pas le patch v09. Appliquer la v09 puis l'add-on v10 du profil correspondant.
+
 ### Construction
 
 ```bash
