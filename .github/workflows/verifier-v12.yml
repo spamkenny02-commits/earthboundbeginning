@@ -1,0 +1,25 @@
+name: Verification patches v12
+on:
+  push:
+    paths:
+      - 'patches/EarthBound_Beginnings_FR_v11_*.ips'
+      - 'patches/EarthBound_Beginnings_FR_v12_*.ips'
+      - 'traduction/v12_nouveaux_dialogues.json'
+      - 'traduction/construire_v12.py'
+      - 'traduction/construire_v11.py'
+      - 'tests/verifier_fusion_v11.py'
+      - 'tests/verifier_fusion_v12.py'
+      - '.github/workflows/verifier-v12.yml'
+  workflow_dispatch:
+jobs:
+  verifier-fusion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Controle de la V11
+        run: python tests/verifier_fusion_v11.py
+      - name: Controle de la V12
+        run: python tests/verifier_fusion_v12.py
