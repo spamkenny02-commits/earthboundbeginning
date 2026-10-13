@@ -1,7 +1,7 @@
 {
   "version": "v15",
   "base": "v14",
-  "notes": "32 scripts multisegments, textes français à taille fixe et commandes conservées. Le générateur déduit les retours de ligne de la ROM originale. Certaines expressions et enseignes restent volontairement non traduites. Les masques de retours de ligne 00 / 03 00 sont issus d'une lecture directe des octets de la ROM originale.",
+  "notes": "32 scripts multisegments, textes français à taille fixe et commandes conservées. Le générateur déduit les retours de ligne de la ROM originale. Certaines expressions et enseignes restent volontairement non traduites. Les masques de retours de ligne 00 / 03 00 sont issus d'une lecture directe des octets de la ROM originale. Audit source : 32 scripts conformes. Trois segments ont des pointeurs littéraux vers leur intérieur et restent anglais par sécurité. 77 segments français intégrables.",
   "entries": [
     {
       "id": "33C945",
@@ -9,7 +9,7 @@
       "translations": [
         "Chez Jack, chaque nuit.",
         "Chambres libres!",
-        "Tu cherches où dormir ?",
+        "Can't find a place to stay?",
         "Jack a la solution !"
       ],
       "pointer_refs": [
@@ -84,7 +84,7 @@
       "id": "33D23F",
       "english": "@You go on ahead.\n@I'm gonna pay that pilot in the desert a visit.[13][02]",
       "translations": [
-        "Passe devant.",
+        "You go on ahead.",
         "Je vais rendre visite au pilote du désert."
       ],
       "pointer_refs": [
@@ -110,7 +110,7 @@
       "id": "33E0F7",
       "english": "@Lately I've been playing this new game called\n  <EarthBound Beginnings>.\n@It's difficult, but the challenge makes it fun![13][02]",
       "translations": [
-        "Je joue à un nouveau jeu nommé",
+        "Lately I've been playing this new game called",
         "  <EarthBound Beginnings>.",
         "C'est dur, mais le défi est amusant !"
       ],
@@ -410,6 +410,23 @@
         "33CEFF"
       ],
       "newline_one_byte_mask": 0
+    }
+  ],
+  "excluded_interior_pointer_segments": [
+    {
+      "id": "33C945",
+      "segment_index": 2,
+      "reason": "pointeur HiROM littéral vers l'intérieur de la phrase"
+    },
+    {
+      "id": "33D23F",
+      "segment_index": 0,
+      "reason": "pointeur HiROM littéral vers l'intérieur de la phrase"
+    },
+    {
+      "id": "33E0F7",
+      "segment_index": 0,
+      "reason": "pointeur HiROM littéral vers l'intérieur de la phrase"
     }
   ]
 }
