@@ -16,6 +16,10 @@ python traduction/appliquer_v16.py "EarthBound Beginnings (USA) 1.2.sfc" --profi
 
 **Contrôles :** 100 scripts et 110 pointeurs littéraux vérifiés sur la ROM source ; 13 segments à pointeurs intérieurs exclus et 90 segments déjà modifiés conservés. [CI V16](https://github.com/spamkenny02-commits/earthboundbeginning/actions/workflows/verifier-v16.yml). Le jeu reste partiellement traduit et nécessite des tests complets sous émulateur.
 
+## Préparation V17 — sans patch jouable
+
+La V16 reste la dernière version publiée. Une [présélection de 150 scripts anglais non vérifiés](traduction/v17_priorites_non_verifiees.json), un [outil de préparation sur ROM personnelle](traduction/preparer_v17.py), ses [tests synthétiques](tests/verifier_preparation_v17.py) et le [rapport de préparation V17](RAPPORT_V17_PREPARATION.md) sont disponibles. **Aucun segment français V17 n'a encore été intégré et aucun IPS V17 n'a été publié.**
+
 ## Versions précédentes
 
 Les rapports [V15](RAPPORT_V15.md), [V14](RAPPORT_V14.md), [V13](RAPPORT_V13.md), [V12](RAPPORT_V12.md), [V11](RAPPORT_V11.md) et [V10](RAPPORT_V10_ADDON.md) restent disponibles. Les anciens patchs sont archivés dans `patches/`.
