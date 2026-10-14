@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V28 (traduction partielle)
+## Version actuelle : V29 (traduction partielle)
+
+V29 corrige les trois dialogues utilisant boy/girl : **garçon/fille** et **un écolier/une écolière**, avec leurs phrases françaises accordées. Elle conserve la V28 et ses 1 515 ajouts depuis V18 Work.
+
+- [Patch V29 avec accents](patches/EarthBound_Beginnings_FR_v29_accents.ips)
+- [Patch V29 ASCII](patches/EarthBound_Beginnings_FR_v29_ascii.ips)
+- [Rapport V29 et limites](RAPPORT_V29.md)
+- [Constructeur et tests](tools/v29/README_V29.md)
+- [Essais Snes9x](tests/emulation_v29/RAPPORT_EMULATION_V29.md)
+
+Appliquer **un seul IPS V29 directement à la ROM originale USA 1.2**. 12 tests V29 et 4 tests V28 réussis ; parcours Snes9x du début conforme dans les deux profils. Les trois dialogues et la sélection native avec Ana restent à vérifier en jeu. Aucune ROM distribuée.
+
+## Version précédente : V28 (traduction partielle)
 
 V28 ajoute **49 plages françaises dans 49 scripts** à V27, pour **1 515 ajouts depuis V18 Work**.
 

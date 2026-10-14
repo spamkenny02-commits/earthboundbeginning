@@ -1,0 +1,80 @@
+{
+  "base": "V28",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "profiles": {
+    "accents": {
+      "sha256": "59c0d8376b9cdc2a2bf99adf8d67c9e6fd5576758b96ec5cce70902b4ae86836",
+      "target_rom_sha256": "bb4f9bdedaa5ccd5e4d560d8dd9d39db7987e8f84496aacd27642f7a14fd82d0",
+      "additions": 10,
+      "rom_roundtrip": true,
+      "outside_approved_ranges_unchanged": true,
+      "original_routine_preserved": true
+    },
+    "ascii": {
+      "sha256": "dc1704510d094b3ef7229d0c2a2503f3c8cee46b9c6465657351c36ae57275e1",
+      "target_rom_sha256": "36c8ceadf63af8ad2cba944a01b8e44c07c87efc6c6a1ef79b47a56c014ffed4",
+      "additions": 10,
+      "rom_roundtrip": true,
+      "outside_approved_ranges_unchanged": true,
+      "original_routine_preserved": true
+    }
+  },
+  "reservation": [
+    "3FF990",
+    "3FF9E0"
+  ],
+  "routines": [
+    {
+      "offset": "3FF990",
+      "boy": "garçon",
+      "girl": "fille"
+    },
+    {
+      "offset": "3FF9B0",
+      "boy": "un écolier",
+      "girl": "une écolière"
+    }
+  ],
+  "calls": [
+    {
+      "pointer": "33FAA8",
+      "target": "3FF990"
+    },
+    {
+      "pointer": "33FC1F",
+      "target": "3FF990"
+    },
+    {
+      "pointer": "352FE6",
+      "target": "3FF9B0"
+    }
+  ],
+  "text_spans": [
+    {
+      "offset": "33FA8C",
+      "length": 27,
+      "fr": "Oh, tu es adorable, brave "
+    },
+    {
+      "offset": "33FC11",
+      "length": 13,
+      "fr": "Bravo, brave "
+    },
+    {
+      "offset": "33FC23",
+      "length": 9,
+      "fr": "!"
+    },
+    {
+      "offset": "352FD5",
+      "length": 16,
+      "fr": "Tu es donc bien "
+    },
+    {
+      "offset": "352FED",
+      "length": 12,
+      "fr": " pas vrai?"
+    }
+  ],
+  "native_boy_girl_emulator_tested": false
+}
