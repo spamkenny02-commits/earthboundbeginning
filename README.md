@@ -1,24 +1,25 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V16 (traduction partielle)
+## Version actuelle : V17 (traduction partielle)
 
-La **V16 autonome** reprend toutes les modifications V09–V15 et ajoute **128 segments français dans 63 scripts modifiés**, sur un lot de **100 scripts vérifiés** (236 segments examinés). Depuis la V09 : **571 segments/blocs supplémentaires** cumulés au fil des versions V10–V16 (50 + 27 + 18 + 141 + 130 + 77 + 128), sans les brouillons.
+La **V17 autonome** reprend toutes les modifications V09–V16 et ajoute **195 segments français réellement modifiés dans 117 scripts**. Les trois scripts exclus du lot de 120 ne sont pas comptés. Depuis V09, les versions V10–V17 ajoutent **766 segments/blocs** cumulés (50 + 27 + 18 + 141 + 130 + 77 + 128 + 195).
 
-- [Patch V16 avec accents](patches/EarthBound_Beginnings_FR_v16_accents.ips)
-- [Patch V16 sans accents](patches/EarthBound_Beginnings_FR_v16_ascii.ips)
-- [Rapport V16](RAPPORT_V16.md), [manifeste](traduction/v16_dialogues_fr.json), [tests](tests/verifier_fusion_v16.py)
+- [Patch V17 avec accents](patches/EarthBound_Beginnings_FR_v17_accents.ips)
+- [Patch V17 sans accents](patches/EarthBound_Beginnings_FR_v17_ascii.ips)
+- [Rapport V17](RAPPORT_V17.md), [traductions](traduction/v17_traductions_117.json), [constructeur](traduction/construire_v17.py), [tests](tests/verifier_fusion_v17.py)
+- [CI V17](https://github.com/spamkenny02-commits/earthboundbeginning/actions/workflows/verifier-v17.yml)
 
-**Appliquer uniquement V16 directement à la ROM originale USA 1.2**, sans préinstaller V09 à V15.
+**Appliquer uniquement V17 directement à la ROM originale USA 1.2**, sans préinstaller V09 à V16.
 
 ```sh
-python traduction/appliquer_v16.py "EarthBound Beginnings (USA) 1.2.sfc" --profil accents --sortie "EarthBound_Beginnings_FR_v16.sfc"
+python traduction/construire_v17.py "EarthBound Beginnings (USA) 1.2.sfc" --sortie build_v17
 ```
 
-**Contrôles :** 100 scripts et 110 pointeurs littéraux vérifiés sur la ROM source ; 13 segments à pointeurs intérieurs exclus et 90 segments déjà modifiés conservés. [CI V16](https://github.com/spamkenny02-commits/earthboundbeginning/actions/workflows/verifier-v16.yml). Le jeu reste partiellement traduit et nécessite des tests complets sous émulateur.
+**Contrôles :** 117 scripts, 130 références HiROM vers leurs débuts, 195 remplacements, zéro collision avec les enregistrements IPS V16 dans les deux profils. Les contrôles binaires ne remplacent pas un parcours sous émulateur ; le jeu reste partiellement traduit.
 
 ## Versions précédentes
 
-Les rapports [V15](RAPPORT_V15.md), [V14](RAPPORT_V14.md), [V13](RAPPORT_V13.md), [V12](RAPPORT_V12.md), [V11](RAPPORT_V11.md) et [V10](RAPPORT_V10_ADDON.md) restent disponibles. Les anciens patchs sont archivés dans `patches/`.
+Les rapports [V16](RAPPORT_V16.md), [V15](RAPPORT_V15.md), [V14](RAPPORT_V14.md), [V13](RAPPORT_V13.md), [V12](RAPPORT_V12.md), [V11](RAPPORT_V11.md) et [V10](RAPPORT_V10_ADDON.md) restent disponibles. Les anciens patchs sont archivés dans `patches/`.
 
 ## Historique V09 et atelier
 

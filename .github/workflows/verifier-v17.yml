@@ -1,0 +1,25 @@
+name: Verification patches v17
+on:
+  push:
+    paths:
+      - 'patches/EarthBound_Beginnings_FR_v17_*.ips'
+      - 'traduction/v17_*.json'
+      - 'traduction/construire_v17*.py'
+      - 'traduction/test_construire_v17.py'
+      - 'tests/verifier_fusion_v17.py'
+      - '.github/workflows/verifier-v17.yml'
+  workflow_dispatch:
+jobs:
+  verifier-v17:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Tests unitaires V17 (sans ROM)
+        run: python -m unittest discover -s traduction -p test_construire_v17.py -v
+      - name: Tests structurels V16 et V17 (sans ROM)
+        run: |
+          python tests/verifier_fusion_v16.py
+          python tests/verifier_fusion_v17.py
