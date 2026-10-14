@@ -1,6 +1,20 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V21 Work (traduction partielle)
+## Version actuelle : V22 (traduction partielle)
+
+V22 ajoute **185 nouveaux segments** à V21: dialogues de fin de jeu, commerces, Snowman, Youngtown et désert Yucca. Les ajouts V19–V22 représentent **617 segments depuis V18 Work**.
+
+- [Patch V22 avec accents](patches/EarthBound_Beginnings_FR_v22_accents.ips)
+- [Patch V22 ASCII](patches/EarthBound_Beginnings_FR_v22_ascii.ips)
+- [Rapport V22 et limites](RAPPORT_V22.md)
+- [Traductions éditables](tools/v22/translations_v22.tsv)
+- [Constructeur et tests](tools/v22/README_V22.md)
+- [Essais Snes9x et outil de rejeu](tests/emulation_v22/RAPPORT_EMULATION_V22.md)
+
+Appliquer **un seul IPS V22 directement à la ROM originale USA 1.2**. 20 tests V21–V22 réussis; essais Snes9x du début du jeu réussis dans les deux profils. Les nouveaux segments dans leurs zones restent à vérifier en jeu. Aucun fichier ROM distribué.
+
+## Version précédente : V21 Work
+
 
 V21 ajoute **153 nouveaux segments** à V20 et conserve les **119 ajouts V19** et les **160 ajouts V20**: **432 ajouts depuis V18 Work**.
 
