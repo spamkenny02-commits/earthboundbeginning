@@ -1,0 +1,28 @@
+{
+  "version": "v24",
+  "base": "v23",
+  "new_segments": 63,
+  "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "base_records": {
+    "accents": 4820,
+    "ascii": 4715
+  },
+  "new_records": {
+    "accents": 4883,
+    "ascii": 4778
+  },
+  "patch_blobs": {
+    "accents": "9495e52ca8dac996eba9e9399f6fa42007ce4247",
+    "ascii": "5dc56fb62748f9111ace8fafe46ca850d91ff6a4"
+  },
+  "local_rom_tests_on_v20_base": {
+    "passed": 6,
+    "failed": 0
+  },
+  "v23_ips_structural_roundtrip": {
+    "accents": true,
+    "ascii": true
+  },
+  "v23_full_rom_roundtrip_executed": false,
+  "v24_emulator_executed": false
+}
