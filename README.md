@@ -26,6 +26,8 @@ V26 ajoute **175 plages dans 105 scripts**: Snowman, commerces, char du désert,
 
 Appliquer **un seul IPS V26 directement à la ROM originale USA 1.2**. 28 tests locaux réussis; parcours Snes9x du début du jeu conforme dans les deux variantes. Les nouvelles scènes restent à vérifier en jeu. Aucun fichier ROM distribué.
 
+L’[audit dédié boy/girl](tools/boy_girl/RAPPORT_BOY_GIRL.md) confirme trois appels partagés et documente les corrections coordonnées requises; 8 tests binaires réussis, essai natif des deux branches encore à faire.
+
 ## Version précédente : V25
 
 

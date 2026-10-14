@@ -1,0 +1,238 @@
+{
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "base": [
+    "V26",
+    "V27"
+  ],
+  "routine_offset": "387B05",
+  "routine_snes_address": "F87B05",
+  "length": 20,
+  "raw_hex": "19 10 01 0b 02 1b 03 14 7b f8 00 92 9f a9 02 97 99 a2 9c 02",
+  "girl_target": "387B14",
+  "incoming_calls": 3,
+  "profiles": {
+    "v26_accents": {
+      "routine_unchanged": true,
+      "callers": [
+        {
+          "pointer_offset": "33FAA8",
+          "scene": "charming",
+          "texts": [
+            {
+              "offset": "33FA8C",
+              "text": "Oh, quel charmant",
+              "length": 27
+            }
+          ]
+        },
+        {
+          "pointer_offset": "33FC1F",
+          "scene": "brave",
+          "texts": [
+            {
+              "offset": "33FC11",
+              "text": "Quel brave",
+              "length": 13
+            },
+            {
+              "offset": "33FC23",
+              "text": " tu fais!",
+              "length": 9
+            }
+          ]
+        },
+        {
+          "pointer_offset": "352FE6",
+          "scene": "school",
+          "texts": [
+            {
+              "offset": "352FD5",
+              "text": "You are a school",
+              "length": 16
+            },
+            {
+              "offset": "352FED",
+              "text": " aren't you?",
+              "length": 12
+            }
+          ]
+        }
+      ],
+      "modeled_outputs": {
+        "1": "boy",
+        "2": "girl",
+        "3": "boy",
+        "4": "boy"
+      }
+    },
+    "v26_ascii": {
+      "routine_unchanged": true,
+      "callers": [
+        {
+          "pointer_offset": "33FAA8",
+          "scene": "charming",
+          "texts": [
+            {
+              "offset": "33FA8C",
+              "text": "Oh, quel charmant",
+              "length": 27
+            }
+          ]
+        },
+        {
+          "pointer_offset": "33FC1F",
+          "scene": "brave",
+          "texts": [
+            {
+              "offset": "33FC11",
+              "text": "Quel brave",
+              "length": 13
+            },
+            {
+              "offset": "33FC23",
+              "text": " tu fais!",
+              "length": 9
+            }
+          ]
+        },
+        {
+          "pointer_offset": "352FE6",
+          "scene": "school",
+          "texts": [
+            {
+              "offset": "352FD5",
+              "text": "You are a school",
+              "length": 16
+            },
+            {
+              "offset": "352FED",
+              "text": " aren't you?",
+              "length": 12
+            }
+          ]
+        }
+      ],
+      "modeled_outputs": {
+        "1": "boy",
+        "2": "girl",
+        "3": "boy",
+        "4": "boy"
+      }
+    },
+    "v27_accents": {
+      "routine_unchanged": true,
+      "callers": [
+        {
+          "pointer_offset": "33FAA8",
+          "scene": "charming",
+          "texts": [
+            {
+              "offset": "33FA8C",
+              "text": "Oh, quel charmant",
+              "length": 27
+            }
+          ]
+        },
+        {
+          "pointer_offset": "33FC1F",
+          "scene": "brave",
+          "texts": [
+            {
+              "offset": "33FC11",
+              "text": "Quel brave",
+              "length": 13
+            },
+            {
+              "offset": "33FC23",
+              "text": " tu fais!",
+              "length": 9
+            }
+          ]
+        },
+        {
+          "pointer_offset": "352FE6",
+          "scene": "school",
+          "texts": [
+            {
+              "offset": "352FD5",
+              "text": "You are a school",
+              "length": 16
+            },
+            {
+              "offset": "352FED",
+              "text": " aren't you?",
+              "length": 12
+            }
+          ]
+        }
+      ],
+      "modeled_outputs": {
+        "1": "boy",
+        "2": "girl",
+        "3": "boy",
+        "4": "boy"
+      }
+    },
+    "v27_ascii": {
+      "routine_unchanged": true,
+      "callers": [
+        {
+          "pointer_offset": "33FAA8",
+          "scene": "charming",
+          "texts": [
+            {
+              "offset": "33FA8C",
+              "text": "Oh, quel charmant",
+              "length": 27
+            }
+          ]
+        },
+        {
+          "pointer_offset": "33FC1F",
+          "scene": "brave",
+          "texts": [
+            {
+              "offset": "33FC11",
+              "text": "Quel brave",
+              "length": 13
+            },
+            {
+              "offset": "33FC23",
+              "text": " tu fais!",
+              "length": 9
+            }
+          ]
+        },
+        {
+          "pointer_offset": "352FE6",
+          "scene": "school",
+          "texts": [
+            {
+              "offset": "352FD5",
+              "text": "You are a school",
+              "length": 16
+            },
+            {
+              "offset": "352FED",
+              "text": " aren't you?",
+              "length": 12
+            }
+          ]
+        }
+      ],
+      "modeled_outputs": {
+        "1": "boy",
+        "2": "girl",
+        "3": "boy",
+        "4": "boy"
+      }
+    }
+  },
+  "french_lengths": {
+    "garçon": 6,
+    "fille": 5
+  },
+  "native_boy_girl_emulator_tested": false,
+  "rom_modified": false,
+  "semantics_reference": "https://github.com/jeffman/Mother2GbaTranslation/blob/master/tools/ScriptToolGui/m12-codelist.json"
+}
