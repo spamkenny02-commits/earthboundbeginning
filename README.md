@@ -1,6 +1,20 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V22 (traduction partielle)
+## Version actuelle : V23 (traduction partielle)
+
+V23 ajoute **120 nouveaux segments** à V22: hôtels, commerces, soins, banque, canari et indices du journal. Les ajouts V19–V23 représentent **737 segments depuis V18 Work**.
+
+- [Patch V23 avec accents](patches/EarthBound_Beginnings_FR_v23_accents.ips)
+- [Patch V23 ASCII](patches/EarthBound_Beginnings_FR_v23_ascii.ips)
+- [Rapport V23 et limites](RAPPORT_V23.md)
+- [Traductions éditables](tools/v23/translations_v23.tsv)
+- [Constructeur et tests](tools/v23/README_V23.md)
+- [Essais Snes9x](tests/emulation_v23/RAPPORT_EMULATION_V23.md)
+
+Appliquer **un seul IPS V23 directement à la ROM originale USA 1.2**. 20 tests V22–V23 réussis; parcours Snes9x du début du jeu conforme dans les deux profils. Les nouveaux segments dans leurs zones restent à vérifier en jeu. Aucun fichier ROM distribué.
+
+## Version précédente : V22
+
 
 V22 ajoute **185 nouveaux segments** à V21: dialogues de fin de jeu, commerces, Snowman, Youngtown et désert Yucca. Les ajouts V19–V22 représentent **617 segments depuis V18 Work**.
 
