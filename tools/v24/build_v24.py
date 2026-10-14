@@ -1,129 +1,71 @@
-#!/usr/bin/env python3
-"""V24 IPS builder: verified multisegment lines inside pointer-backed scripts.
-
-Requires an original user-owned USA 1.2 ROM; never outputs a ROM.
-"""
+"""Build V24 autonomous IPS from individually audited text spans."""
 import argparse
-import hashlib
 import json
-import sys
 from pathlib import Path
+from audit_v24 import ROOT, audit, commands_preserved
+from build_v19 import encode, read_translations, records, apply, append, sha
 
-ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT / 'tools/v19'))
-from build_v19 import ROM_SHA, SIZE, encode, pointer_index, records, apply, append, sha
+def rendered(french,english):
+    # Preserve indentation and separation around dynamic commands.
+    leading=english[:len(english)-len(english.lstrip(' '))]
+    trailing=english[len(english.rstrip(' ')):]
+    return leading+french+trailing
 
-V23_SHA = {
-    'accents': '583556b9f375eb8e4dcec93a09397c38eef88a78cdf3b4667cd22732b7cedbae',
-    'ascii': '3d9d4920dd85f2de1f6e176ad8a8c311e92e7cc3094e1429300ab3c74170b056',
-}
+def build(rom_path,out,translations_path=None):
+    rom=Path(rom_path).read_bytes()
+    candidates,baselines,occupied,counts=audit(rom)
+    catalog={e['id']:e for e in candidates}
+    translations=read_translations(translations_path or ROOT/'tools/v24/translations_v24.tsv')
+    entries=[]
+    for ident,french in translations.items():
+        if ident not in catalog:
+            raise ValueError('Plage non auditée: '+ident)
+        e=catalog[ident]
+        text=rendered(french,e['english'])
+        if text.strip()==e['english'].strip():
+            raise ValueError('Texte inchangé: '+ident)
+        entries.append({**e,'fr':french,'rendered_fr':text})
+    spans=sorted((int(e['id'],16),int(e['id'],16)+e['text_length']) for e in entries)
+    if any(b>c for (a,b),(c,d) in zip(spans,spans[1:])):
+        raise ValueError('Plages V24 en chevauchement')
+    results={};out=Path(out);out.mkdir(parents=True,exist_ok=True)
+    for profile in ('accents','ascii'):
+        prior=(ROOT/f'patches/EarthBound_Beginnings_FR_v23_{profile}.ips').read_bytes()
+        baseline=baselines[profile];old=records(prior)
+        additions=[];changed=bytearray(len(rom))
+        for e in entries:
+            p=int(e['id'],16);n=e['text_length']
+            if any(occupied[p:p+n]) or any(changed[p:p+n]):
+                raise ValueError('Collision: '+e['id'])
+            payload=encode(e['rendered_fr'],profile)
+            if len(payload)>n:
+                raise ValueError(f"Longueur {e['id']}: {len(payload)}>{n}")
+            padded=payload.ljust(n,b'\x50')
+            if padded==baseline[p:p+n]:
+                raise ValueError('Modification nulle: '+e['id'])
+            additions.append((p,padded));changed[p:p+n]=b'\1'*n
+        ips=append(prior,additions)
+        target=apply(rom,records(ips))
+        if target!=apply(baseline,additions) or records(ips)!=old+additions:
+            raise ValueError('Aller-retour IPS divergent')
+        if any(a!=b for a,b,m in zip(target,baseline,changed) if not m):
+            raise ValueError('Modification hors plages V24')
+        if any(target[p:p+len(b)]!=baseline[p:p+len(b)] for p,b in old):
+            raise ValueError('Régression V23')
+        (out/f'EarthBound_Beginnings_FR_v24_{profile}.ips').write_bytes(ips)
+        results[profile]={
+            'v23_records':len(old),'v24_additions':len(additions),
+            'sha256':sha(ips),'target_rom_sha256':sha(target),
+            'rom_roundtrip':True,'no_prior_regression':True,'outside_additions_unchanged':True,
+        }
+    report={'source_rom_sha256':sha(rom),'base':'v23','audited_candidates':len(candidates),
+            'audit_counts':counts,'new_segments':len(entries),'profiles':results}
+    (ROOT/'tools/v24/v24_dialogues_fr.json').write_text(json.dumps({'version':'v24','entries':entries},ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'tools/v24/validation_v24.json').write_text(json.dumps(report,indent=2)+'\n')
+    return report
 
-
-def load_manifest():
-    m = json.loads((ROOT / 'tools/v24/manifest_v24.json').read_text(encoding='utf-8'))
-    entries = m['entries']
-    if not entries or len({e['id'] for e in entries}) != len(entries):
-        raise ValueError('Manifeste vide ou doublons')
-    return entries
-
-
-def verify_entries(rom, entries, extraction):
-    refs = pointer_index(rom)
-    scripts = {s['id']: s for s in extraction}
-    checked = []
-    for e in entries:
-        ident = e['id']
-        p = int(ident, 16)
-        n = e['text_length']
-        end = p + 1 + n
-        if not (0 <= p < end + 2 <= SIZE):
-            raise ValueError('Limites ROM: ' + ident)
-        if rom[p] != 0x70 or rom[p+1:end] != bytes(ord(c)+48 for c in e['english']):
-            raise ValueError('Texte original différent: ' + ident)
-        if rom[end:end+2].hex() != e['suffix']:
-            raise ValueError('Commande originale différente: ' + ident)
-        if any(q in refs for q in range(p+1, end)):
-            raise ValueError('Pointeur littéral potentiel intérieur: ' + ident)
-        s = scripts[e['script']]
-        start = int(s['id'], 16)
-        if s['evidence'] != 'literal_pointer' or not (start <= p < end <= start+s['length']):
-            raise ValueError('Script parent non attesté: ' + ident)
-        raw = bytes.fromhex(s['raw_hex'])
-        if rom[start:start+s['length']] != raw:
-            raise ValueError('Octets du script parent différents: ' + ident)
-        if s['literal_pointer_offsets'] != e['script_refs']:
-            raise ValueError('Références du script parent différentes: ' + ident)
-        for profile in ('accents', 'ascii'):
-            if len(encode(e['fr'], profile)) > n:
-                raise ValueError('Dépassement de longueur: ' + ident)
-        if e['fr'] == e['english']:
-            raise ValueError('Texte inchangé: ' + ident)
-        checked.append((p, end, e))
-    checked.sort()
-    for (a, b, _), (c, d, _) in zip(checked, checked[1:]):
-        if b > c:
-            raise ValueError(f'Chevauchement interne: {a:06X}/{c:06X}')
-    return checked
-
-
-def build(rom_path, out_dir, *, base_dir=None, expected_base=None):
-    rom = Path(rom_path).read_bytes()
-    if len(rom) != SIZE or sha(rom) != ROM_SHA:
-        raise ValueError('ROM originale USA 1.2 incorrecte')
-    entries = load_manifest()
-    extraction = json.loads((ROOT/'atelier/extraction/dialogues.json').read_text(encoding='utf-8'))
-    checked = verify_entries(rom, entries, extraction)
-    output = {}
-    for profile in ('accents', 'ascii'):
-        base_path = ((Path(base_dir) if base_dir else ROOT/'patches') /
-                     f'EarthBound_Beginnings_FR_v23_{profile}.ips')
-        old_ips = base_path.read_bytes()
-        expected = (expected_base or V23_SHA)[profile]
-        if sha(old_ips) != expected:
-            raise ValueError('IPS de base non conforme: ' + profile)
-        old = records(old_ips)
-        baseline = apply(rom, old)
-        occupied = bytearray(SIZE)
-        for p, payload in old:
-            occupied[p:p+len(payload)] = b'\x01'*len(payload)
-        changed = bytearray(SIZE)
-        additions = []
-        for p, end, e in checked:
-            if any(occupied[p:end]) or any(changed[p:end]):
-                raise ValueError('Collision IPS: ' + e['id'])
-            s = next(s for s in extraction if s['id'] == e['script'])
-            for q in s['literal_pointer_offsets']:
-                q = int(q, 16)
-                if baseline[q:q+4] != rom[q:q+4]:
-                    raise ValueError('Pointeur de script modifié par la base: ' + e['id'])
-            payload = encode(e['fr'], profile).ljust(e['text_length'], b'\x50')
-            additions.append((p+1, payload))
-            changed[p:end] = b'\x01'*(end-p)
-        new_ips = append(old_ips, additions)
-        if records(new_ips) != old+additions or new_ips[:len(old_ips)-3] != old_ips[:-3]:
-            raise ValueError('Structure IPS / préfixe invalide: ' + profile)
-        target = apply(rom, records(new_ips))
-        if target != apply(baseline, additions):
-            raise ValueError('Roundtrip IPS invalide: ' + profile)
-        if any(a != b for a,b,m in zip(target,baseline,changed) if not m):
-            raise ValueError('Modification hors lot: ' + profile)
-        if any(target[p:p+len(data)] != baseline[p:p+len(data)] for p,data in old):
-            raise ValueError('Régression de la base: ' + profile)
-        output[profile] = (new_ips, {
-            'prior_records': len(old), 'new_segments': len(additions),
-            'sha256': sha(new_ips), 'target_rom_sha256': sha(target),
-            'roundtrip': True, 'no_regression': True})
-    out_dir = Path(out_dir)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    for profile,(ips,meta) in output.items():
-        (out_dir/f'EarthBound_Beginnings_FR_v24_{profile}.ips').write_bytes(ips)
-    return {'base':'v23','source_rom_sha256':sha(rom),'new_segments':len(entries),
-            'profiles':{p:v[1] for p,v in output.items()}}
-
-
-if __name__ == '__main__':
-    ap=argparse.ArgumentParser()
-    ap.add_argument('--rom',required=True,type=Path)
-    ap.add_argument('--out',required=True,type=Path)
-    args=ap.parse_args()
-    print(json.dumps(build(args.rom,args.out),indent=2))
+if __name__=='__main__':
+    ap=argparse.ArgumentParser();ap.add_argument('--rom',type=Path,required=True)
+    ap.add_argument('--out',type=Path,default=ROOT/'build_v24')
+    ap.add_argument('--translations',type=Path);a=ap.parse_args()
+    print(json.dumps(build(a.rom,a.out,a.translations),indent=2))

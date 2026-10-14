@@ -1,28 +1,35 @@
 {
-  "version": "v24",
-  "base": "v23",
-  "new_segments": 63,
   "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
-  "base_records": {
-    "accents": 4820,
-    "ascii": 4715
+  "base": "v23",
+  "audited_candidates": 830,
+  "audit_counts": {
+    "unreferenced_script": 95,
+    "changed_commands": 273,
+    "small": 490,
+    "occupied": 1282,
+    "interior_ref": 108,
+    "layout_rejected": 952,
+    "changed_entry_pointer": 10
   },
-  "new_records": {
-    "accents": 4883,
-    "ascii": 4778
-  },
-  "patch_blobs": {
-    "accents": "9495e52ca8dac996eba9e9399f6fa42007ce4247",
-    "ascii": "5dc56fb62748f9111ace8fafe46ca850d91ff6a4"
-  },
-  "local_rom_tests_on_v20_base": {
-    "passed": 6,
-    "failed": 0
-  },
-  "v23_ips_structural_roundtrip": {
-    "accents": true,
-    "ascii": true
-  },
-  "v23_full_rom_roundtrip_executed": false,
-  "v24_emulator_executed": false
+  "new_segments": 213,
+  "profiles": {
+    "accents": {
+      "v23_records": 4820,
+      "v24_additions": 213,
+      "sha256": "de5b86dd9a3cbfe9044eca213dca93c0c4545539dafbe2d17c7ed4b8ec1e0323",
+      "target_rom_sha256": "6d62014f083c6df8dc32cb2d95bbe7de8ed0333e240dc928dbb46a10c647c871",
+      "rom_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true
+    },
+    "ascii": {
+      "v23_records": 4715,
+      "v24_additions": 213,
+      "sha256": "a727b99d2348b2eb80cd15c10c39ca5d4572062fdc355161ef55acf707084eb2",
+      "target_rom_sha256": "65b0c36fbdb428343c73ca2568eb4d0833e3a8fc07084704cd43da0671968c7e",
+      "rom_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true
+    }
+  }
 }

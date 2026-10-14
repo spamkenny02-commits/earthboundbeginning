@@ -1,10 +1,11 @@
-# V24 — textes multisegments (expérimental)
+# V24 — plages de texte avec provenance de script
 
-63 nouvelles traductions sont décrites dans `translations_v24.tsv` et `manifest_v24.json`. Le constructeur lit le catalogue d'extraction `atelier/extraction/dialogues.json`, vérifie le SHA-256 de la ROM originale et de l'IPS V23, contrôle les références HiROM du script parent, les collisions, l'encodage et les commandes, puis produit deux IPS autonomes.
+Depuis la racine du dépôt:
 
 ```sh
-python3 tools/v24/build_v24.py --rom '/chemin/ROM_originale.sfc' --out build_v24
-ROM_PATH='/chemin/ROM_originale.sfc' python3 -m unittest discover -s tools/v24 -p test_v24.py -v
+python3 tools/v24/audit_v24.py --rom '/chemin/original.sfc' --out build_v24/audit.json
+python3 tools/v24/build_v24.py --rom '/chemin/original.sfc' --out build_v24
+ROM_PATH='/chemin/original.sfc' python3 -m unittest discover -s tools/v24 -p test_v24.py -v
 ```
 
-Voir `RAPPORT_V24.md` pour les limites et les tests réellement effectués. Ne jamais distribuer de ROM commerciale.
+Les IDs TSV sont les offsets des premiers octets de texte; ne pas ajouter 1. Conserver les outils V19, le décodeur `traduction/preparer_v17.py`, le catalogue complet et les IPS V23. Le constructeur préserve les espaces source autour des commandes. Consulter `RAPPORT_V24.md` pour les limites. Appliquer un seul IPS autonome V24 directement à la ROM originale USA 1.2.

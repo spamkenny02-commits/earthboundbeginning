@@ -13,4 +13,4 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python3 -m unittest discover -s tools/v24 -p test_v24.py -v
+      - run: python3 -m unittest discover -s tools/v24 -p test_v24_offline.py -v
