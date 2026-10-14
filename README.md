@@ -12,7 +12,7 @@ La V18 Work autonome reprend la V17 publiée et ajoute **168 segments** : 16 dan
 
 **Appliquer un seul IPS V18 Work directement à la ROM originale USA 1.2**, sans préinstaller V17 ou V18. Aucune ROM n'est distribuée.
 
-Contrôles exécutés : reconstruction des deux variantes, décodage indépendant des 152 nouveaux textes, absence de collisions, conservation de la base et de tous les octets hors du nouveau lot, **10 tests réussis**. **Émulation et vérification visuelle non effectuées**; il s'agit d'une version de développement.
+Contrôles exécutés : reconstruction des deux variantes, décodage indépendant des 152 nouveaux textes, absence de collisions, conservation de la base et de tous les octets hors du nouveau lot, **10 tests réussis**. **Premiers essais Snes9x réussis dans les deux variantes** : nouveau jeu, introduction, exploration, premier combat remporté et restauration d'état. [Rapport et limites de couverture](tests/emulation_v18_work/RAPPORT_EMULATION_V18.md). La sauvegarde native et les 168 nouveaux segments dans leurs zones restent à tester; il s'agit d'une version de développement.
 
 ```sh
 python3 tools/v18_work/sources/build_work.py "/chemin/ROM_originale.sfc"
@@ -77,4 +77,5 @@ Guide de l’outil : [traduction/ATELIER.md](traduction/ATELIER.md). Le CSV couv
 L’audit signale les fragments identiques à relire et refuse les rapports périmés. Le catalogue contient encore 2 043 blocs candidats non préparés : leur utilisation, leurs frontières et leur traduction restent à vérifier. Les graphismes et le générique ne sont pas finalisés.
 
 Éditeur local : ouvrir `atelier_fr.html`, charger `traductions.csv`, puis utiliser `Importer_CSV_FR.bat` et `Reconstruire_FR.bat`. Les sources précédentes sont sauvegardées avant chaque import modifiant des fichiers.
+
 
