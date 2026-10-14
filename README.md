@@ -1,6 +1,19 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V31 (traduction partielle)
+## Version actuelle : V32 (traduction partielle)
+
+V32 révise et relocalise **16 autres dialogues**, notamment Mary, Pippi, Lloyd et les livraisons. Les copies comprennent 140 fragments, dont 63 encore anglais dans V31. Les copies V31 et les corrections boy/girl sont conservées.
+
+- [Patch V32 avec accents](patches/EarthBound_Beginnings_FR_v32_accents.ips)
+- [Patch V32 ASCII](patches/EarthBound_Beginnings_FR_v32_ascii.ips)
+- [Rapport V32 et limites](RAPPORT_V32.md)
+- [Sources françaises](tools/v32/dialogues_fr.json)
+- [Constructeur et tests](tools/v32/README_V32.md)
+- [Essais Snes9x et affichage natif](tests/emulation_v32/RAPPORT_EMULATION_V32.md)
+
+Appliquer **un seul IPS V32 directement à la ROM originale USA 1.2**. 13 tests réussis, parcours Snes9x du début conforme dans les deux variantes et quatre copies contrôlées par point d’entrée temporaire. Les déclencheurs narratifs et les anciennes entrées secondaires restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V31 (traduction partielle)
 
 V31 révise et relocalise **16 dialogues complets** : conseils, COMBAT, trésor du chien, asthme, guitariste, appel maternel, médecin et autres échanges. Les copies françaises comprennent 132 fragments, dont 26 encore anglais dans V30. Les choix «Oui / Non» tiennent désormais sans abréviation dans les scripts concernés.
 
