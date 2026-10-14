@@ -1,0 +1,35 @@
+{
+  "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "base": "v23",
+  "audited_candidates": 830,
+  "audit_counts": {
+    "unreferenced_script": 95,
+    "changed_commands": 273,
+    "small": 490,
+    "occupied": 1282,
+    "interior_ref": 108,
+    "layout_rejected": 952,
+    "changed_entry_pointer": 10
+  },
+  "new_segments": 188,
+  "profiles": {
+    "accents": {
+      "v23_records": 4820,
+      "v24_additions": 188,
+      "sha256": "ce541c954c78e6ef988ea5b9c4bc1f3c9ed4e135fbd105a040feb4912cfdf9dc",
+      "target_rom_sha256": "fb0a695b7353d767931d15add27c4a67b251b25fb5191f4aa703f735da298860",
+      "rom_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true
+    },
+    "ascii": {
+      "v23_records": 4715,
+      "v24_additions": 188,
+      "sha256": "9754ae094bcd4217436be5e7a86ef85c30429eed4e8f19376a682431c2860014",
+      "target_rom_sha256": "6371752ac47ed2e0003edd3a372c6b409904ad4a62d69d14d3425f336fbcf7d3",
+      "rom_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true
+    }
+  }
+}

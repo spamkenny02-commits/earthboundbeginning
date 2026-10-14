@@ -1,6 +1,20 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V23 (traduction partielle)
+## Version actuelle : V24 (traduction partielle)
+
+V24 élargit l'audit au catalogue complet et ajoute **188 plages de texte dans 99 scripts**, dont des fragments après commandes dynamiques. Les ajouts V19–V24 représentent **925 plages depuis V18 Work**.
+
+- [Patch V24 avec accents](patches/EarthBound_Beginnings_FR_v24_accents.ips)
+- [Patch V24 ASCII](patches/EarthBound_Beginnings_FR_v24_ascii.ips)
+- [Rapport V24 et limites](RAPPORT_V24.md)
+- [Traductions éditables](tools/v24/translations_v24.tsv)
+- [Audit, constructeur et tests](tools/v24/README_V24.md)
+- [Essais Snes9x](tests/emulation_v24/RAPPORT_EMULATION_V24.md)
+
+Appliquer **un seul IPS V24 directement à la ROM originale USA 1.2**. 22 tests V23–V24 réussis; parcours Snes9x du début du jeu conforme dans les deux profils. Les nouvelles plages dans leurs scènes restent à vérifier en jeu. Aucun fichier ROM distribué.
+
+## Version précédente : V23
+
 
 V23 ajoute **120 nouveaux segments** à V22: hôtels, commerces, soins, banque, canari et indices du journal. Les ajouts V19–V23 représentent **737 segments depuis V18 Work**.
 
