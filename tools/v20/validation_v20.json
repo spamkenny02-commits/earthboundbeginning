@@ -1,0 +1,27 @@
+{
+  "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "base": "v19_local",
+  "new_segments": 160,
+  "profiles": {
+    "accents": {
+      "v19_records": 4202,
+      "v20_additions": 160,
+      "v20_records": 4362,
+      "sha256": "268c7f5f4464989a7c2249905a6ee4cdbc0bc806007be0d1e54035747f4758fd",
+      "target_rom_sha256": "2cefa28d87b96925941604242c4dde66def8c17d7b0d63759b7f48047f545a99",
+      "rom_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true
+    },
+    "ascii": {
+      "v19_records": 4097,
+      "v20_additions": 160,
+      "v20_records": 4257,
+      "sha256": "607cb38e108046b87cce0c021288a9b74b04563270eb124e2d6fe44d35f96907",
+      "target_rom_sha256": "95d69d925482846531f798be225d1630e148f7b2583ebb2799d451f62556dd52",
+      "rom_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true
+    }
+  }
+}

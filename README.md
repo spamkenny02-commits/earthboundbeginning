@@ -1,6 +1,20 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V18 Work (traduction partielle)
+## Version actuelle : V21 Work (traduction partielle)
+
+V21 ajoute **153 nouveaux segments** à V20 et conserve les **119 ajouts V19** et les **160 ajouts V20**: **432 ajouts depuis V18 Work**.
+
+- [Patch V21 avec accents](patches/EarthBound_Beginnings_FR_v21_accents.ips)
+- [Patch V21 ASCII](patches/EarthBound_Beginnings_FR_v21_ascii.ips)
+- [Rapport V21 et limites](RAPPORT_V21.md)
+- [Traductions éditables](tools/v21/translations_v21.tsv)
+- [Constructeur et tests](tools/v21/README_V21.md)
+- [Essais Snes9x](tests/emulation_v21/RAPPORT_EMULATION_V21.md)
+
+Appliquer **un seul IPS V21 à la ROM originale USA 1.2**, sans préinstaller les anciennes versions. 45 tests V18–V21 réussis; essais Snes9x du début du jeu réussis dans les deux profils. Les nouveaux dialogues dans les zones ultérieures restent à vérifier en jeu. Aucune ROM distribuée.
+
+## Version précédente : V18 Work
+
 
 La V18 Work autonome reprend la V17 publiée et ajoute **168 segments** : 16 dans le premier lot V18, puis 152 dans la reprise Work. Les 70 segments de `traduction/v18_brouillons_01.json` sont un lot distinct non intégré et ne sont pas ajoutés à ce compteur.
 
@@ -35,6 +49,12 @@ python traduction/construire_v17.py "EarthBound Beginnings (USA) 1.2.sfc" --sort
 ```
 
 **Contrôles :** 117 scripts, 130 références HiROM vers leurs débuts, 195 remplacements, zéro collision avec les enregistrements IPS V16 dans les deux profils. Les contrôles binaires ne remplacent pas un parcours sous émulateur ; le jeu reste partiellement traduit.
+
+
+
+## Archives de préparation V17
+
+La [présélection historique](traduction/v17_priorites_non_verifiees.json), l'[outil de préparation](traduction/preparer_v17.py), les [tests synthétiques](tests/verifier_preparation_v17.py), leur CI et le [rapport archivé](RAPPORT_V17_PREPARATION.md) sont conservés. Cette préparation est antérieure aux IPS V17 publiés et à la V21 actuelle.
 
 ## Versions précédentes
 

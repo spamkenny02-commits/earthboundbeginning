@@ -4,6 +4,7 @@ from pathlib import Path
 import unittest
 from ips import records, apply, append, sha, ROM_SHA
 from build_work import ROOT, ACCENTS, encode
+IPS_OUT = Path(os.environ.get('V18_WORK_OUT', str(ROOT)))
 
 class IPSChecks(unittest.TestCase):
     def test_literal_and_rle(self):
@@ -68,7 +69,7 @@ class RealROMChecks(unittest.TestCase):
         for profile in ('accents','ascii'):
             with self.subTest(profile=profile):
                 base=interpret((ROOT/'base'/f'EarthBound_Beginnings_FR_v18_{profile}.ips').read_bytes())
-                target=interpret((ROOT/f'EarthBound_Beginnings_FR_v18_work_{profile}.ips').read_bytes())
+                target=interpret((IPS_OUT/f'EarthBound_Beginnings_FR_v18_work_{profile}.ips').read_bytes())
                 allowed=bytearray(len(base))
                 for e in self.entries:
                     start=int(e['id'],16)+1; n=e['text_length']

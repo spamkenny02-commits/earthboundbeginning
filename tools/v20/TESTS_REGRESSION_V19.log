@@ -1,0 +1,20 @@
+test_accent_mapping (test_v19.V19LocalTests.test_accent_mapping) ... ok
+test_append_and_preserve_prefix (test_v19.V19LocalTests.test_append_and_preserve_prefix) ... ok
+test_bad_ips_rejected (test_v19.V19LocalTests.test_bad_ips_rejected) ... ok
+test_duplicate_id_rejected (test_v19.V19LocalTests.test_duplicate_id_rejected) ... ok
+test_encodable_both_profiles (test_v19.V19LocalTests.test_encodable_both_profiles) ... ok
+test_length_against_github_candidate_fixture (test_v19.V19LocalTests.test_length_against_github_candidate_fixture) ... ok
+test_ordinary_ips (test_v19.V19LocalTests.test_ordinary_ips) ... ok
+test_reject_unsupported_glyph (test_v19.V19LocalTests.test_reject_unsupported_glyph) ... ok
+test_rle_ips (test_v19.V19LocalTests.test_rle_ips) ... ok
+test_tab_validation (test_v19.V19LocalTests.test_tab_validation) ... ok
+test_translation_count_and_unique_ids (test_v19.V19LocalTests.test_translation_count_and_unique_ids) ... ok
+test_both_profiles_independent_rom_roundtrip (test_v19_integration.V19ROMIntegration.test_both_profiles_independent_rom_roundtrip) ... ok
+test_excluded_prior_pointer_invalidations (test_v19_integration.V19ROMIntegration.test_excluded_prior_pointer_invalidations) ... ok
+test_literal_pointer_targets_not_rewritten (test_v19_integration.V19ROMIntegration.test_literal_pointer_targets_not_rewritten) ... ok
+test_original_rom_fingerprint (test_v19_integration.V19ROMIntegration.test_original_rom_fingerprint) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.399s
+
+OK
