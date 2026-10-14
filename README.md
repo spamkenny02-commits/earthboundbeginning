@@ -1,6 +1,19 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V30 (traduction partielle)
+## Version actuelle : V31 (traduction partielle)
+
+V31 révise et relocalise **16 dialogues complets** : conseils, COMBAT, trésor du chien, asthme, guitariste, appel maternel, médecin et autres échanges. Les copies françaises comprennent 132 fragments, dont 26 encore anglais dans V30. Les choix «Oui / Non» tiennent désormais sans abréviation dans les scripts concernés.
+
+- [Patch V31 avec accents](patches/EarthBound_Beginnings_FR_v31_accents.ips)
+- [Patch V31 ASCII](patches/EarthBound_Beginnings_FR_v31_ascii.ips)
+- [Rapport V31 et limites](RAPPORT_V31.md)
+- [Sources françaises](tools/v31/dialogues_fr.json)
+- [Constructeur et tests](tools/v31/README_V31.md)
+- [Essais Snes9x et affichage natif](tests/emulation_v31/RAPPORT_EMULATION_V31.md)
+
+Appliquer **un seul IPS V31 directement à la ROM originale USA 1.2**. 12 tests réussis ; parcours Snes9x du début conforme dans les deux variantes et trois dialogues contrôlés par point d'entrée temporaire. Les scènes narratives et les anciennes entrées secondaires restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V30 (traduction partielle)
 
 V30 ajoute **121 fragments français** : 95 dans les dialogues et interfaces du jeu, et 26 dans la boutique de test. Réponses courtes, appels téléphoniques, dépôt bancaire et réveil du dragon. Les corrections boy/girl de V29 sont conservées.
 
