@@ -1,0 +1,16 @@
+name: Verify V30 candidate audit (offline)
+on:
+  push:
+    paths:
+      - 'tools/v30/**'
+      - '.github/workflows/verifier-v30-preparation.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v30 -p 'test_v30_offline.py' -v
