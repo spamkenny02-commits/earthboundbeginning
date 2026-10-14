@@ -1,0 +1,4602 @@
+[
+  {
+    "command": {
+      "frames": 600,
+      "screenshot": "boot_600"
+    },
+    "response": {
+      "image": {
+        "path": "boot_600.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "76197fae6af7247c9c298b7de84f43f7c83860ed974f22036547ab45046025c7"
+      },
+      "frame": 600,
+      "audio_samples": 319798,
+      "elapsed": 0.298
+    }
+  },
+  {
+    "command": {
+      "frames": 1,
+      "buttons": [
+        "Start"
+      ]
+    },
+    "response": {
+      "frame": 601,
+      "audio_samples": 320331,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 300,
+      "screenshot": "title"
+    },
+    "response": {
+      "image": {
+        "path": "title.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "f2434b1bb20aa81b82d2b1e8f89220a862734f147a3c2f7671391d49c517ab81"
+      },
+      "frame": 901,
+      "audio_samples": 480267,
+      "elapsed": 0.125
+    }
+  },
+  {
+    "command": {
+      "frames": 1,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 902,
+      "audio_samples": 480800,
+      "elapsed": 0.0
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "menu"
+    },
+    "response": {
+      "image": {
+        "path": "menu.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "6b6ea316133f8aa796a693655b720b357ee274251840a78f69e40de94e4177ad"
+      },
+      "frame": 1022,
+      "audio_samples": 544775,
+      "elapsed": 0.049
+    }
+  },
+  {
+    "command": {
+      "frames": 900,
+      "screenshot": "title_final"
+    },
+    "response": {
+      "image": {
+        "path": "title_final.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "4e3570175dae5171fed5dd632e02623fac1f844820dbaace91eee12a295d0297"
+      },
+      "frame": 1922,
+      "audio_samples": 1024585,
+      "elapsed": 0.38
+    }
+  },
+  {
+    "command": {
+      "frames": 1,
+      "buttons": [
+        "Start"
+      ]
+    },
+    "response": {
+      "frame": 1923,
+      "audio_samples": 1025118,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "file_select"
+    },
+    "response": {
+      "image": {
+        "path": "file_select.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "4e3570175dae5171fed5dd632e02623fac1f844820dbaace91eee12a295d0297"
+      },
+      "frame": 2043,
+      "audio_samples": 1089093,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 1800,
+      "screenshot": "title_wait"
+    },
+    "response": {
+      "image": {
+        "path": "title_wait.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "4e3570175dae5171fed5dd632e02623fac1f844820dbaace91eee12a295d0297"
+      },
+      "frame": 3843,
+      "audio_samples": 2048712,
+      "elapsed": 0.764
+    }
+  },
+  {
+    "command": {
+      "frames": 5,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 3848,
+      "audio_samples": 2051378,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "newgame"
+    },
+    "response": {
+      "image": {
+        "path": "newgame.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "f517672d793fd29157f04a6a333d1b3487ec1921c2fc793a69bdf3b2ce55f0da"
+      },
+      "frame": 3968,
+      "audio_samples": 2115353,
+      "elapsed": 0.05
+    }
+  },
+  {
+    "command": {
+      "frames": 1,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 3969,
+      "audio_samples": 2115886,
+      "elapsed": 0.0
+    }
+  },
+  {
+    "command": {
+      "frames": 90,
+      "screenshot": "naming"
+    },
+    "response": {
+      "image": {
+        "path": "naming.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "9a8faa6a0bd8a59d8067155d7dc7fa6740b8f26f6ec6dad80dd7dab6fd21dc57"
+      },
+      "frame": 4059,
+      "audio_samples": 2163867,
+      "elapsed": 0.043
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "filemenu"
+    },
+    "response": {
+      "image": {
+        "path": "filemenu.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "9a8faa6a0bd8a59d8067155d7dc7fa6740b8f26f6ec6dad80dd7dab6fd21dc57"
+      },
+      "frame": 4179,
+      "audio_samples": 2227841,
+      "elapsed": 0.057
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4181,
+      "audio_samples": 2228907,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 90,
+      "screenshot": "options"
+    },
+    "response": {
+      "image": {
+        "path": "options.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "050e4c9d6c7292e8827e7ff8e3b7daf6a8b41202cc89ebfd91a416ade4e41c26"
+      },
+      "frame": 4271,
+      "audio_samples": 2276888,
+      "elapsed": 0.046
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4273,
+      "audio_samples": 2277955,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "style"
+    },
+    "response": {
+      "image": {
+        "path": "style.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "e692e89c048d0ef0842b0920715ca9ac209d5aa8893af3c83199875cbea08b64"
+      },
+      "frame": 4333,
+      "audio_samples": 2309942,
+      "elapsed": 0.031
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4335,
+      "audio_samples": 2311008,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "name_1"
+    },
+    "response": {
+      "image": {
+        "path": "name_1.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "379d7fb04306117c1e90f97c8eec540756580e0b5d5e05172605f4def802374b"
+      },
+      "frame": 4395,
+      "audio_samples": 2342996,
+      "elapsed": 0.033
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4397,
+      "audio_samples": 2344062,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "name_input"
+    },
+    "response": {
+      "image": {
+        "path": "name_input.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "379e8f5638a83b250f372de0abf332e659f285bc19ea608ac6cb41d6517f036b"
+      },
+      "frame": 4517,
+      "audio_samples": 2408036,
+      "elapsed": 0.058
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4519,
+      "audio_samples": 2409103,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "letters"
+    },
+    "response": {
+      "image": {
+        "path": "letters.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3b569517a9e65d000e9908006bcdd91a378f25824ad5db1197e485e8117d1a61"
+      },
+      "frame": 4579,
+      "audio_samples": 2441090,
+      "elapsed": 0.032
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4581,
+      "audio_samples": 2442156,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4584,
+      "audio_samples": 2443756,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4586,
+      "audio_samples": 2444822,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4589,
+      "audio_samples": 2446421,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4591,
+      "audio_samples": 2447487,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4594,
+      "audio_samples": 2449087,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4596,
+      "audio_samples": 2450153,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4599,
+      "audio_samples": 2451752,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4601,
+      "audio_samples": 2452819,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4604,
+      "audio_samples": 2454418,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4606,
+      "audio_samples": 2455484,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "default_name"
+    },
+    "response": {
+      "image": {
+        "path": "default_name.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "f20f01fd5fd76468af0b8a9b7bd63681e15de9a12304d74d72e79f2afbe7ef2f"
+      },
+      "frame": 4666,
+      "audio_samples": 2487472,
+      "elapsed": 0.032
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 4668,
+      "audio_samples": 2488538,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4671,
+      "audio_samples": 2490137,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 4673,
+      "audio_samples": 2491203,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4676,
+      "audio_samples": 2492803,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4678,
+      "audio_samples": 2493869,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 90,
+      "screenshot": "name_2"
+    },
+    "response": {
+      "image": {
+        "path": "name_2.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "5702872fb83691b7f5bb315337040a1a97deaabe171347e0bcd03bd0413e24a3"
+      },
+      "frame": 4768,
+      "audio_samples": 2541850,
+      "elapsed": 0.044
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4770,
+      "audio_samples": 2542916,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60
+    },
+    "response": {
+      "frame": 4830,
+      "audio_samples": 2574904,
+      "elapsed": 0.029
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4832,
+      "audio_samples": 2575970,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4835,
+      "audio_samples": 2577569,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4837,
+      "audio_samples": 2578635,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4840,
+      "audio_samples": 2580235,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4842,
+      "audio_samples": 2581301,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4845,
+      "audio_samples": 2582901,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4847,
+      "audio_samples": 2583967,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4850,
+      "audio_samples": 2585566,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 4852,
+      "audio_samples": 2586632,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4855,
+      "audio_samples": 2588232,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4857,
+      "audio_samples": 2589298,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "default_2"
+    },
+    "response": {
+      "image": {
+        "path": "default_2.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "34819c657637cec8b5c31b8dac001cb5a8b1e2f1a755a2843c2ca23a117dbff9"
+      },
+      "frame": 4917,
+      "audio_samples": 2621285,
+      "elapsed": 0.035
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 4919,
+      "audio_samples": 2622351,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4922,
+      "audio_samples": 2623951,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 4924,
+      "audio_samples": 2625017,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 4927,
+      "audio_samples": 2626616,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 4929,
+      "audio_samples": 2627683,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 90,
+      "screenshot": "after_name_2"
+    },
+    "response": {
+      "image": {
+        "path": "after_name_2.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "b07d287873aa06d492b31b1967e7cffd93b67d69a16d28699892888b186809ff"
+      },
+      "frame": 5019,
+      "audio_samples": 2675664,
+      "elapsed": 0.049
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5021,
+      "audio_samples": 2676730,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60
+    },
+    "response": {
+      "frame": 5081,
+      "audio_samples": 2708717,
+      "elapsed": 0.033
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5083,
+      "audio_samples": 2709784,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5086,
+      "audio_samples": 2711383,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5088,
+      "audio_samples": 2712449,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5091,
+      "audio_samples": 2714048,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5093,
+      "audio_samples": 2715115,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5096,
+      "audio_samples": 2716714,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5098,
+      "audio_samples": 2717780,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5101,
+      "audio_samples": 2719380,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5103,
+      "audio_samples": 2720446,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5106,
+      "audio_samples": 2722045,
+      "elapsed": 0.003
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5108,
+      "audio_samples": 2723112,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "default_3"
+    },
+    "response": {
+      "image": {
+        "path": "default_3.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "30ceab51a1e98761e7032c65c0470b04803e5129dbe1a1a87254e0cd5b9afb00"
+      },
+      "frame": 5168,
+      "audio_samples": 2755099,
+      "elapsed": 0.041
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 5170,
+      "audio_samples": 2756165,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5173,
+      "audio_samples": 2757764,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 5175,
+      "audio_samples": 2758831,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5178,
+      "audio_samples": 2760430,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5180,
+      "audio_samples": 2761496,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 90,
+      "screenshot": "after_name_3"
+    },
+    "response": {
+      "image": {
+        "path": "after_name_3.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "53334f4386b3827f800589fe2cae35734420d4ff90c919ef90fc02a435040968"
+      },
+      "frame": 5270,
+      "audio_samples": 2809477,
+      "elapsed": 0.056
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5272,
+      "audio_samples": 2810544,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60
+    },
+    "response": {
+      "frame": 5332,
+      "audio_samples": 2842531,
+      "elapsed": 0.046
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5334,
+      "audio_samples": 2843597,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5337,
+      "audio_samples": 2845197,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5339,
+      "audio_samples": 2846263,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5342,
+      "audio_samples": 2847862,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5344,
+      "audio_samples": 2848928,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5347,
+      "audio_samples": 2850528,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5349,
+      "audio_samples": 2851594,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5352,
+      "audio_samples": 2853193,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5354,
+      "audio_samples": 2854260,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5357,
+      "audio_samples": 2855859,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5359,
+      "audio_samples": 2856925,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "default_4"
+    },
+    "response": {
+      "image": {
+        "path": "default_4.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "83f274aeadae6f263d77ad89eaecb561c8fd82ffb7e58d2a4330fdbdbcffa183"
+      },
+      "frame": 5419,
+      "audio_samples": 2888913,
+      "elapsed": 0.048
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 5421,
+      "audio_samples": 2889979,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5424,
+      "audio_samples": 2891578,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 5426,
+      "audio_samples": 2892644,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5429,
+      "audio_samples": 2894244,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5431,
+      "audio_samples": 2895310,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 90,
+      "screenshot": "after_name_4"
+    },
+    "response": {
+      "image": {
+        "path": "after_name_4.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "dd3e07005194a2056d28a49dc74bbcb9568752f3c0baebe7ef3c7eb1ec751399"
+      },
+      "frame": 5521,
+      "audio_samples": 2943291,
+      "elapsed": 0.05
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5523,
+      "audio_samples": 2944357,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60
+    },
+    "response": {
+      "frame": 5583,
+      "audio_samples": 2976345,
+      "elapsed": 0.037
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5585,
+      "audio_samples": 2977411,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5588,
+      "audio_samples": 2979010,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5590,
+      "audio_samples": 2980076,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5593,
+      "audio_samples": 2981676,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5595,
+      "audio_samples": 2982742,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5598,
+      "audio_samples": 2984342,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5600,
+      "audio_samples": 2985408,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5603,
+      "audio_samples": 2987007,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 5605,
+      "audio_samples": 2988073,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5608,
+      "audio_samples": 2989673,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5610,
+      "audio_samples": 2990739,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "default_5"
+    },
+    "response": {
+      "image": {
+        "path": "default_5.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "b98c5a4c327f8938a12a341df82119fbb273506cc5e39b819684ac7b8c20a9be"
+      },
+      "frame": 5670,
+      "audio_samples": 3022726,
+      "elapsed": 0.037
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 5672,
+      "audio_samples": 3023792,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5675,
+      "audio_samples": 3025392,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 5677,
+      "audio_samples": 3026458,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 3
+    },
+    "response": {
+      "frame": 5680,
+      "audio_samples": 3028057,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5682,
+      "audio_samples": 3029124,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 90,
+      "screenshot": "after_name_5"
+    },
+    "response": {
+      "image": {
+        "path": "after_name_5.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "bd89a266c57be91f2007eeb1088e0f7a14b2f8954271ceac83a4cc6779f62f36"
+      },
+      "frame": 5772,
+      "audio_samples": 3077105,
+      "elapsed": 0.059
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 5774,
+      "audio_samples": 3078171,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 1800,
+      "screenshot": "intro",
+      "save": "intro_checkpoint"
+    },
+    "response": {
+      "image": {
+        "path": "intro.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "8f88fe9c2c546086323b30c00ca34189ca76e3fb657037013ca93bcc4e157728"
+      },
+      "state": "intro_checkpoint.state",
+      "frame": 7574,
+      "audio_samples": 4037790,
+      "elapsed": 1.235
+    }
+  },
+  {
+    "command": {
+      "frames": 7200,
+      "screenshot": "start_room",
+      "save": "room_checkpoint"
+    },
+    "response": {
+      "image": {
+        "path": "start_room.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "52b1683c7dc2b245510a84c8dfccd64df0c096e2f2cdc7e798b333cd0b662b33"
+      },
+      "state": "room_checkpoint.state",
+      "frame": 14774,
+      "audio_samples": 7876269,
+      "elapsed": 4.462
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 14776,
+      "audio_samples": 7877335,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "game_menu"
+    },
+    "response": {
+      "image": {
+        "path": "game_menu.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "0c7b5c36db17eb9de803b871ef756656bd731861ac3d9985993931c0aa2da31b"
+      },
+      "frame": 14836,
+      "audio_samples": 7909322,
+      "elapsed": 0.04
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "B"
+      ]
+    },
+    "response": {
+      "frame": 14838,
+      "audio_samples": 7910389,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 10
+    },
+    "response": {
+      "frame": 14848,
+      "audio_samples": 7915720,
+      "elapsed": 0.006
+    }
+  },
+  {
+    "command": {
+      "frames": 25,
+      "buttons": [
+        "Left"
+      ]
+    },
+    "response": {
+      "frame": 14873,
+      "audio_samples": 7929048,
+      "elapsed": 0.016
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "lamp_encounter",
+      "save": "lamp_checkpoint"
+    },
+    "response": {
+      "image": {
+        "path": "lamp_encounter.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "0e72ec75bfb3e9fa4d1e0edffa9e489fb5bcf1e1840ffa42a7b6ef49785b8a2d"
+      },
+      "state": "lamp_checkpoint.state",
+      "frame": 14993,
+      "audio_samples": 7993023,
+      "elapsed": 0.079
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 14995,
+      "audio_samples": 7994089,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 15
+    },
+    "response": {
+      "frame": 15010,
+      "audio_samples": 8002086,
+      "elapsed": 0.009
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 15012,
+      "audio_samples": 8003152,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 5
+    },
+    "response": {
+      "frame": 15017,
+      "audio_samples": 8005817,
+      "elapsed": 0.003
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 15019,
+      "audio_samples": 8006884,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 5
+    },
+    "response": {
+      "frame": 15024,
+      "audio_samples": 8009549,
+      "elapsed": 0.003
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 15026,
+      "audio_samples": 8010616,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 200,
+      "screenshot": "lamp_check"
+    },
+    "response": {
+      "image": {
+        "path": "lamp_check.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "655b2ad25bd340e08cd29bd1259b7ab48dcfda0146035174d8b0a70dcf2d9b16"
+      },
+      "frame": 15226,
+      "audio_samples": 8117240,
+      "elapsed": 0.121
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "B"
+      ]
+    },
+    "response": {
+      "frame": 15228,
+      "audio_samples": 8118306,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 10
+    },
+    "response": {
+      "frame": 15238,
+      "audio_samples": 8123637,
+      "elapsed": 0.006
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "B"
+      ]
+    },
+    "response": {
+      "frame": 15240,
+      "audio_samples": 8124704,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 10
+    },
+    "response": {
+      "frame": 15250,
+      "audio_samples": 8130035,
+      "elapsed": 0.006
+    }
+  },
+  {
+    "command": {
+      "frames": 10,
+      "buttons": [
+        "Up"
+      ]
+    },
+    "response": {
+      "frame": 15260,
+      "audio_samples": 8135366,
+      "elapsed": 0.006
+    }
+  },
+  {
+    "command": {
+      "frames": 240,
+      "screenshot": "lamp_up"
+    },
+    "response": {
+      "image": {
+        "path": "lamp_up.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "5da9ff0049cdb53608cf085e6d37a0407f7678acb9f40fb784c63a153fa5a734"
+      },
+      "frame": 15500,
+      "audio_samples": 8263315,
+      "elapsed": 0.145
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "B"
+      ]
+    },
+    "response": {
+      "frame": 15502,
+      "audio_samples": 8264382,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 10
+    },
+    "response": {
+      "frame": 15512,
+      "audio_samples": 8269713,
+      "elapsed": 0.006
+    }
+  },
+  {
+    "command": {
+      "frames": 20,
+      "buttons": [
+        "Up"
+      ]
+    },
+    "response": {
+      "frame": 15532,
+      "audio_samples": 8280375,
+      "elapsed": 0.012
+    }
+  },
+  {
+    "command": {
+      "frames": 180,
+      "screenshot": "lamp_touch"
+    },
+    "response": {
+      "image": {
+        "path": "lamp_touch.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "8c99a63a783c4e87236e5e6586f0c0f1e52bdd1b1e89764602644f935a7cd798"
+      },
+      "frame": 15712,
+      "audio_samples": 8376337,
+      "elapsed": 0.115
+    }
+  },
+  {
+    "command": {
+      "frames": 44,
+      "buttons": [
+        "Left"
+      ]
+    },
+    "response": {
+      "frame": 15756,
+      "audio_samples": 8399795,
+      "elapsed": 0.027
+    }
+  },
+  {
+    "command": {
+      "frames": 20,
+      "buttons": [
+        "Up"
+      ]
+    },
+    "response": {
+      "frame": 15776,
+      "audio_samples": 8410457,
+      "elapsed": 0.013
+    }
+  },
+  {
+    "command": {
+      "frames": 30,
+      "buttons": [
+        "Left"
+      ]
+    },
+    "response": {
+      "frame": 15806,
+      "audio_samples": 8426451,
+      "elapsed": 0.019
+    }
+  },
+  {
+    "command": {
+      "frames": 180,
+      "screenshot": "hall"
+    },
+    "response": {
+      "image": {
+        "path": "hall.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "0fcd590394799e8cb32077c93c88ea3a4a1a95177bb248d5a5ee75e9ae447d4a"
+      },
+      "frame": 15986,
+      "audio_samples": 8522413,
+      "elapsed": 0.109
+    }
+  },
+  {
+    "command": {
+      "frames": 8,
+      "buttons": [
+        "Up"
+      ]
+    },
+    "response": {
+      "frame": 15994,
+      "audio_samples": 8526678,
+      "elapsed": 0.005
+    }
+  },
+  {
+    "command": {
+      "frames": 30,
+      "buttons": [
+        "Left"
+      ]
+    },
+    "response": {
+      "frame": 16024,
+      "audio_samples": 8542671,
+      "elapsed": 0.017
+    }
+  },
+  {
+    "command": {
+      "frames": 180,
+      "screenshot": "hall_2"
+    },
+    "response": {
+      "image": {
+        "path": "hall_2.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "52e7063f13d0b277eb81b099cbe76bad7b9e520a7c891b2076178a3c9452fc3a"
+      },
+      "frame": 16204,
+      "audio_samples": 8638633,
+      "elapsed": 0.099
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 16206,
+      "audio_samples": 8639700,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 90,
+      "screenshot": "battle_menu"
+    },
+    "response": {
+      "image": {
+        "path": "battle_menu.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "33595526e9cc9903673bee1bb9300d02afd0b389be78e9ce282c0e0efc358473"
+      },
+      "frame": 16296,
+      "audio_samples": 8687680,
+      "elapsed": 0.051
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 16298,
+      "audio_samples": 8688747,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 45
+    },
+    "response": {
+      "frame": 16343,
+      "audio_samples": 8712737,
+      "elapsed": 0.023
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 16345,
+      "audio_samples": 8713804,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 180,
+      "screenshot": "battle_hit"
+    },
+    "response": {
+      "image": {
+        "path": "battle_hit.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "256a58add027831ae5a51757e4899acef6c24bd4e72633bd02d056944ec1478c"
+      },
+      "frame": 16525,
+      "audio_samples": 8809765,
+      "elapsed": 0.1
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 16527,
+      "audio_samples": 8810832,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_0"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_0.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "ce15c352d872b9447bc08bdc6e366e354bb9e6f91750be2ff70c02aa2b0c9965"
+      },
+      "frame": 16627,
+      "audio_samples": 8864144,
+      "elapsed": 0.058
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 16629,
+      "audio_samples": 8865210,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_1"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_1.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "1682f8d0c8f7edb3fbdc35d5a1894bbd58faf5a96d3c2546e5caa309f924bbae"
+      },
+      "frame": 16729,
+      "audio_samples": 8918522,
+      "elapsed": 0.057
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 16731,
+      "audio_samples": 8919589,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_2"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_2.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "95f466ad3f22d2b403317435c3a85d0db3fa1bcfe306a606c51f9591bedaf8e6"
+      },
+      "frame": 16831,
+      "audio_samples": 8972901,
+      "elapsed": 0.057
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 16833,
+      "audio_samples": 8973967,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_3"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_3.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "82f8f489f67feddd335d672ba5b350d25bbfc0d9e715f96f6aec0361702c0694"
+      },
+      "frame": 16933,
+      "audio_samples": 9027279,
+      "elapsed": 0.056
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 16935,
+      "audio_samples": 9028346,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_4"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_4.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "67e1a489380d3770bd00dd83d2c832278a66c5ba4b1c4d7c0bb2fec574fd416e"
+      },
+      "frame": 17035,
+      "audio_samples": 9081658,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17037,
+      "audio_samples": 9082724,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_5"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_5.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "5cfed9c57ab303d1dabbf9a3d22be0a57bce5cd9831cd356ba20fcc4715e66a5"
+      },
+      "frame": 17137,
+      "audio_samples": 9136036,
+      "elapsed": 0.056
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17139,
+      "audio_samples": 9137102,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_6"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_6.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "69d79130aceb9bed50e10157c58a16ce235e6975592e2b5839354487c9c45f23"
+      },
+      "frame": 17239,
+      "audio_samples": 9190415,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17241,
+      "audio_samples": 9191481,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_7"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_7.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "95df86826ecbec915ebadd07793854d4fcc063ba759a0b21e52400ed6bcc16e2"
+      },
+      "frame": 17341,
+      "audio_samples": 9244793,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17343,
+      "audio_samples": 9245859,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_8"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_8.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "20c0a2c2ab1a37cb06baa28a2d853545ff7e8d3b14cdddead939cb39e05848ee"
+      },
+      "frame": 17443,
+      "audio_samples": 9299172,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17445,
+      "audio_samples": 9300238,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_9"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_9.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "8447d2d22c1c0a6584451345ea0802687a2c8fe5501967bc556f54387241e0fc"
+      },
+      "frame": 17545,
+      "audio_samples": 9353550,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17547,
+      "audio_samples": 9354616,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_10"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_10.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "fc2eb7da8b6f3e606b22ea954e4cc2f9bc181fa62bf87e65abe24a08c84c3005"
+      },
+      "frame": 17647,
+      "audio_samples": 9407928,
+      "elapsed": 0.056
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17649,
+      "audio_samples": 9408995,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_11"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_11.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "312ba1a18f11e185ace1433aa88c4fedac49cc17b45d75db98057bdb88396c65"
+      },
+      "frame": 17749,
+      "audio_samples": 9462307,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17751,
+      "audio_samples": 9463373,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_12"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_12.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "10d28e444e050d36b96721c3f6717e8f47dd1321f9ca391ceeaba700f9174a02"
+      },
+      "frame": 17851,
+      "audio_samples": 9516685,
+      "elapsed": 0.056
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17853,
+      "audio_samples": 9517751,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_13"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_13.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3b850e4959debed44c4fd657c7fb8073a6c77e4e2139cfd55ffbc87122780717"
+      },
+      "frame": 17953,
+      "audio_samples": 9571064,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 17955,
+      "audio_samples": 9572130,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_14"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_14.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "4d4be65677f1f14a4cb84d84c292c042186b5fc82229637c6897d58e6d535b57"
+      },
+      "frame": 18055,
+      "audio_samples": 9625442,
+      "elapsed": 0.056
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18057,
+      "audio_samples": 9626508,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_15"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_15.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "35c10b64b776855b5d2b535e99d05022f93edbc98d70d3d7a52180e8c114437d"
+      },
+      "frame": 18157,
+      "audio_samples": 9679821,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18159,
+      "audio_samples": 9680887,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_16"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_16.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "bd0a7f7b79da9dbef178db13da61d199d7e98b4b021d4e86cba020fe5ef06942"
+      },
+      "frame": 18259,
+      "audio_samples": 9734199,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18261,
+      "audio_samples": 9735265,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_17"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_17.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "dd6aa72f0f0e835fbca46634b564e983b8da32aa8169656416828bb44014e862"
+      },
+      "frame": 18361,
+      "audio_samples": 9788577,
+      "elapsed": 0.058
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18363,
+      "audio_samples": 9789644,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_18"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_18.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "b2c8916cd654efe2438d1b5ac078b31c4a28d494a05f16b12cbb97ef7255e4d6"
+      },
+      "frame": 18463,
+      "audio_samples": 9842956,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18465,
+      "audio_samples": 9844022,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_19"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_19.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "40da83ce487d27bf843a14ae4e0e53c5c6077c627b40b907b0b59b9c56d72dda"
+      },
+      "frame": 18565,
+      "audio_samples": 9897334,
+      "elapsed": 0.054
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18567,
+      "audio_samples": 9898401,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_20"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_20.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "324011e9a792b4af97a1087bf9e3ea2b9b6917b2c362832cdd50c470390bbdf4"
+      },
+      "frame": 18667,
+      "audio_samples": 9951713,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18669,
+      "audio_samples": 9952779,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_21"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_21.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "330680c1c8eca9243c9af94ac17ff37cf4d9080a3c0491700ba3c1c6f48f6090"
+      },
+      "frame": 18769,
+      "audio_samples": 10006091,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18771,
+      "audio_samples": 10007157,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_22"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_22.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "7e2a635f645d2b52db2a26f9b91b4072277ec62c2f5007e904bc165b8faa50e6"
+      },
+      "frame": 18871,
+      "audio_samples": 10060470,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18873,
+      "audio_samples": 10061536,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_23"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_23.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "c9375a77797d3bb717da8337177f6541b5d4ce54cc06d66c6886988684680daa"
+      },
+      "frame": 18973,
+      "audio_samples": 10114848,
+      "elapsed": 0.056
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 18975,
+      "audio_samples": 10115914,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_24"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_24.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "33964372184ad547ce7d4bfd1370b6a4a1793f39536d14b83654123ad998a98c"
+      },
+      "frame": 19075,
+      "audio_samples": 10169227,
+      "elapsed": 0.054
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19077,
+      "audio_samples": 10170293,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_25"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_25.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "f9ef83092932c667278352a2de2b339fa04f1d6467d263d511832471faeb3b3e"
+      },
+      "frame": 19177,
+      "audio_samples": 10223605,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19179,
+      "audio_samples": 10224671,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_26"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_26.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "0c881b300b980a58d4feace09d6444bdb07087c8bb007cc39a7a5b7fa8dba6a1"
+      },
+      "frame": 19279,
+      "audio_samples": 10277984,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19281,
+      "audio_samples": 10279050,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_27"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_27.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "b39ff417274c20e8e77bbeb8e1bd67d07556cf323b752f0647e0bced2ab64fe1"
+      },
+      "frame": 19381,
+      "audio_samples": 10332362,
+      "elapsed": 0.057
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19383,
+      "audio_samples": 10333428,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_28"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_28.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3557fe02d16756522e1f8ccb3a6c4b3ab6383af9df8b47265ca7e5e7c12050cb"
+      },
+      "frame": 19483,
+      "audio_samples": 10386740,
+      "elapsed": 0.056
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19485,
+      "audio_samples": 10387807,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_29"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_29.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "1c0aa5ba0b7b1751e1c647a6ced50bddc7905df572a6260ca79ac359a0525f7c"
+      },
+      "frame": 19585,
+      "audio_samples": 10441119,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19587,
+      "audio_samples": 10442185,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_30"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_30.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "befaa4892e4cbbd9a3378a1133c12ee7fcaae4094fb556ff90c5e607298c4cf6"
+      },
+      "frame": 19687,
+      "audio_samples": 10495497,
+      "elapsed": 0.062
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19689,
+      "audio_samples": 10496563,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_31"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_31.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "7bf830fe37a1652f459cd6754160122b7e8d2fda972f29693d2ffeaa7b7905ae"
+      },
+      "frame": 19789,
+      "audio_samples": 10549876,
+      "elapsed": 0.058
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19791,
+      "audio_samples": 10550942,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_32"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_32.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "5ca3940fac58ec3d2cd79de48a686ff840ef0286e2b68e823471b19f683da24b"
+      },
+      "frame": 19891,
+      "audio_samples": 10604254,
+      "elapsed": 0.06
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19893,
+      "audio_samples": 10605320,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_33"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_33.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "2cbbeef1249170a43854962fa5b19fba628470c70beb9ce23e15a0f05cb891f2"
+      },
+      "frame": 19993,
+      "audio_samples": 10658633,
+      "elapsed": 0.044
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 19995,
+      "audio_samples": 10659699,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_34"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_34.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "192ac20ffcccce134a5119fa534d9cbb5761b209bda2e6315ea6d48291098a05"
+      },
+      "frame": 20095,
+      "audio_samples": 10713011,
+      "elapsed": 0.05
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 20097,
+      "audio_samples": 10714077,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_35"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_35.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+      },
+      "frame": 20197,
+      "audio_samples": 10767389,
+      "elapsed": 0.059
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 20199,
+      "audio_samples": 10768456,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_36"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_36.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "9527336c6f2584ab848a3881c90abec42e6f5ac433f3b62d48b6ecaa9ed43b47"
+      },
+      "frame": 20299,
+      "audio_samples": 10821768,
+      "elapsed": 0.06
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 20301,
+      "audio_samples": 10822834,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_37"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_37.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "c9dbbdf9fc2d8af219011d127a03bce6dbaddfa67f2b868cc06da6da2cc18737"
+      },
+      "frame": 20401,
+      "audio_samples": 10876146,
+      "elapsed": 0.061
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 20403,
+      "audio_samples": 10877213,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_38"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_38.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "7fbaa6251572ca211807c84910fd77246bcde88392e6b227fff5493baf20d85c"
+      },
+      "frame": 20503,
+      "audio_samples": 10930525,
+      "elapsed": 0.067
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 20505,
+      "audio_samples": 10931591,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_39"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_39.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+      },
+      "frame": 20605,
+      "audio_samples": 10984903,
+      "elapsed": 0.067
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 20607,
+      "audio_samples": 10985970,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_40"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_40.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "9527336c6f2584ab848a3881c90abec42e6f5ac433f3b62d48b6ecaa9ed43b47"
+      },
+      "frame": 20707,
+      "audio_samples": 11039282,
+      "elapsed": 0.069
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 20709,
+      "audio_samples": 11040348,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_41"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_41.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "c9dbbdf9fc2d8af219011d127a03bce6dbaddfa67f2b868cc06da6da2cc18737"
+      },
+      "frame": 20809,
+      "audio_samples": 11093660,
+      "elapsed": 0.063
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 20811,
+      "audio_samples": 11094726,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_42"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_42.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+      },
+      "frame": 20911,
+      "audio_samples": 11148039,
+      "elapsed": 0.07
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 20913,
+      "audio_samples": 11149105,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_43"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_43.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "9527336c6f2584ab848a3881c90abec42e6f5ac433f3b62d48b6ecaa9ed43b47"
+      },
+      "frame": 21013,
+      "audio_samples": 11202417,
+      "elapsed": 0.071
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 21015,
+      "audio_samples": 11203483,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_44"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_44.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "c9dbbdf9fc2d8af219011d127a03bce6dbaddfa67f2b868cc06da6da2cc18737"
+      },
+      "frame": 21115,
+      "audio_samples": 11256795,
+      "elapsed": 0.077
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 21117,
+      "audio_samples": 11257862,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "screenshot": "battle_step_45"
+    },
+    "response": {
+      "image": {
+        "path": "battle_step_45.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+      },
+      "frame": 21217,
+      "audio_samples": 11311174,
+      "elapsed": 0.069
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "after_combat",
+      "save": "after_combat"
+    },
+    "response": {
+      "image": {
+        "path": "after_combat.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+      },
+      "state": "after_combat.state",
+      "frame": 21277,
+      "audio_samples": 11343161,
+      "elapsed": 0.042
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "screenshot": "state_forward",
+      "dump_ram": "state_forward"
+    },
+    "response": {
+      "image": {
+        "path": "state_forward.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+      },
+      "ram_file": "state_forward.wram",
+      "frame": 21337,
+      "audio_samples": 11375149,
+      "elapsed": 0.042
+    }
+  },
+  {
+    "command": {
+      "load": "after_combat.state",
+      "frame": 21277,
+      "frames": 60,
+      "screenshot": "state_restored",
+      "dump_ram": "state_restored"
+    },
+    "response": {
+      "image": {
+        "path": "state_restored.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+      },
+      "ram_file": "state_restored.wram",
+      "frame": 21337,
+      "audio_samples": 11407137,
+      "elapsed": 0.047
+    }
+  },
+  {
+    "command": {
+      "frames": 30,
+      "buttons": [
+        "Left"
+      ]
+    },
+    "response": {
+      "frame": 21367,
+      "audio_samples": 11423130,
+      "elapsed": 0.021
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "exit_room"
+    },
+    "response": {
+      "image": {
+        "path": "exit_room.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "78ed599e6417d1fa81c02ad0b052460977d3498a9f1a50d61f1511987436ed69"
+      },
+      "frame": 21487,
+      "audio_samples": 11487105,
+      "elapsed": 0.084
+    }
+  },
+  {
+    "command": {
+      "frames": 75,
+      "buttons": [
+        "Left"
+      ]
+    },
+    "response": {
+      "frame": 21562,
+      "audio_samples": 11527089,
+      "elapsed": 0.041
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "hall_walk"
+    },
+    "response": {
+      "image": {
+        "path": "hall_walk.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "cf527a043bb27a8ccec82c2883a382bbff06f4f97915400dc05981b07e1a94b0"
+      },
+      "frame": 21682,
+      "audio_samples": 11591064,
+      "elapsed": 0.082
+    }
+  },
+  {
+    "command": {
+      "frames": 60,
+      "buttons": [
+        "Left"
+      ]
+    },
+    "response": {
+      "frame": 21742,
+      "audio_samples": 11623051,
+      "elapsed": 0.049
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "stairs"
+    },
+    "response": {
+      "image": {
+        "path": "stairs.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "57c245f4c6a9e24c925324d05fa5894b8e03a7e4670a6f1db54df8923c8d9600"
+      },
+      "frame": 21862,
+      "audio_samples": 11687026,
+      "elapsed": 0.104
+    }
+  },
+  {
+    "command": {
+      "frames": 15,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 21877,
+      "audio_samples": 11695022,
+      "elapsed": 0.011
+    }
+  },
+  {
+    "command": {
+      "frames": 80,
+      "buttons": [
+        "Left"
+      ]
+    },
+    "response": {
+      "frame": 21957,
+      "audio_samples": 11737672,
+      "elapsed": 0.056
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "stairs_2"
+    },
+    "response": {
+      "image": {
+        "path": "stairs_2.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "c92773e5a26b9bb7a7305c7ef6208da3503f281b4452732f02ddcd3524eb15fd"
+      },
+      "frame": 22077,
+      "audio_samples": 11801647,
+      "elapsed": 0.078
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 22177,
+      "audio_samples": 11854959,
+      "elapsed": 0.052
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "living_room"
+    },
+    "response": {
+      "image": {
+        "path": "living_room.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "6ca271668de44f27f921df99fd7692f291707ba6949b2661ed7c9c02c0c97ae7"
+      },
+      "frame": 22297,
+      "audio_samples": 11918934,
+      "elapsed": 0.063
+    }
+  },
+  {
+    "command": {
+      "frames": 45,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 22342,
+      "audio_samples": 11942924,
+      "elapsed": 0.023
+    }
+  },
+  {
+    "command": {
+      "frames": 55,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 22397,
+      "audio_samples": 11972246,
+      "elapsed": 0.034
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "phone_room"
+    },
+    "response": {
+      "image": {
+        "path": "phone_room.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "989e78e5dd96db6834f1d2982504b7c76213cbfb65e9b27fc75d525212bf8374"
+      },
+      "frame": 22517,
+      "audio_samples": 12036220,
+      "elapsed": 0.081
+    }
+  },
+  {
+    "command": {
+      "frames": 20,
+      "buttons": [
+        "Up"
+      ]
+    },
+    "response": {
+      "frame": 22537,
+      "audio_samples": 12046883,
+      "elapsed": 0.013
+    }
+  },
+  {
+    "command": {
+      "frames": 100,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 22637,
+      "audio_samples": 12100195,
+      "elapsed": 0.063
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "phone_find"
+    },
+    "response": {
+      "image": {
+        "path": "phone_find.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "8c4612efe7be79fb360af171bd7cdae532e7cdc420508916ed8a04089fbb9985"
+      },
+      "frame": 22757,
+      "audio_samples": 12164170,
+      "elapsed": 0.078
+    }
+  },
+  {
+    "command": {
+      "frames": 10,
+      "buttons": [
+        "Up"
+      ]
+    },
+    "response": {
+      "frame": 22767,
+      "audio_samples": 12169501,
+      "elapsed": 0.007
+    }
+  },
+  {
+    "command": {
+      "frames": 75,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 22842,
+      "audio_samples": 12209485,
+      "elapsed": 0.049
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "phone_near"
+    },
+    "response": {
+      "image": {
+        "path": "phone_near.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "8c4612efe7be79fb360af171bd7cdae532e7cdc420508916ed8a04089fbb9985"
+      },
+      "frame": 22962,
+      "audio_samples": 12273460,
+      "elapsed": 0.077
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 22964,
+      "audio_samples": 12274526,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "phone_dialogue"
+    },
+    "response": {
+      "image": {
+        "path": "phone_dialogue.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "7416a460b0dafdbae9a0e7d82b6fbc0e30393ea9a74ce7038961cb40d5a96c60"
+      },
+      "frame": 23084,
+      "audio_samples": 12338501,
+      "elapsed": 0.072
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "B"
+      ]
+    },
+    "response": {
+      "frame": 23086,
+      "audio_samples": 12339567,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 10
+    },
+    "response": {
+      "frame": 23096,
+      "audio_samples": 12344898,
+      "elapsed": 0.007
+    }
+  },
+  {
+    "command": {
+      "frames": 35,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 23131,
+      "audio_samples": 12363557,
+      "elapsed": 0.024
+    }
+  },
+  {
+    "command": {
+      "frames": 85,
+      "buttons": [
+        "Right"
+      ]
+    },
+    "response": {
+      "frame": 23216,
+      "audio_samples": 12408873,
+      "elapsed": 0.055
+    }
+  },
+  {
+    "command": {
+      "frames": 120,
+      "screenshot": "phone_route"
+    },
+    "response": {
+      "image": {
+        "path": "phone_route.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "28c7c475d2385586e25fa2a1b46e9bed5a8f14744116a25cf4edec898e681069"
+      },
+      "frame": 23336,
+      "audio_samples": 12472848,
+      "elapsed": 0.076
+    }
+  },
+  {
+    "command": {
+      "frames": 12,
+      "buttons": [
+        "Left"
+      ]
+    },
+    "response": {
+      "frame": 23348,
+      "audio_samples": 12479245,
+      "elapsed": 0.008
+    }
+  },
+  {
+    "command": {
+      "frames": 22,
+      "buttons": [
+        "Up"
+      ]
+    },
+    "response": {
+      "frame": 23370,
+      "audio_samples": 12490974,
+      "elapsed": 0.013
+    }
+  },
+  {
+    "command": {
+      "frames": 10
+    },
+    "response": {
+      "frame": 23380,
+      "audio_samples": 12496305,
+      "elapsed": 0.006
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 23382,
+      "audio_samples": 12497371,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 20
+    },
+    "response": {
+      "frame": 23402,
+      "audio_samples": 12508033,
+      "elapsed": 0.013
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 23404,
+      "audio_samples": 12509100,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 180,
+      "screenshot": "phone_call"
+    },
+    "response": {
+      "image": {
+        "path": "phone_call.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "2b5c23fd74741922e9f9890aa2c82ed672b13ee2916c2e64a0a338f4ee1d4f24"
+      },
+      "frame": 23584,
+      "audio_samples": 12605062,
+      "elapsed": 0.11
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "B"
+      ]
+    },
+    "response": {
+      "frame": 23586,
+      "audio_samples": 12606128,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 10
+    },
+    "response": {
+      "frame": 23596,
+      "audio_samples": 12611459,
+      "elapsed": 0.008
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 23598,
+      "audio_samples": 12612525,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 15
+    },
+    "response": {
+      "frame": 23613,
+      "audio_samples": 12620522,
+      "elapsed": 0.009
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 23615,
+      "audio_samples": 12621588,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 5
+    },
+    "response": {
+      "frame": 23620,
+      "audio_samples": 12624254,
+      "elapsed": 0.003
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 23622,
+      "audio_samples": 12625320,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 5
+    },
+    "response": {
+      "frame": 23627,
+      "audio_samples": 12627986,
+      "elapsed": 0.003
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 23629,
+      "audio_samples": 12629052,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 180,
+      "screenshot": "phone_check"
+    },
+    "response": {
+      "image": {
+        "path": "phone_check.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "f59e4becb2ef93fc144a4918ab4d90bb2e601587726f4f33eda02f51f852ca2a"
+      },
+      "frame": 23809,
+      "audio_samples": 12725014,
+      "elapsed": 0.109
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "B"
+      ]
+    },
+    "response": {
+      "frame": 23811,
+      "audio_samples": 12726080,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 10
+    },
+    "response": {
+      "frame": 23821,
+      "audio_samples": 12731412,
+      "elapsed": 0.006
+    }
+  },
+  {
+    "command": {
+      "frames": 8,
+      "buttons": [
+        "Up"
+      ]
+    },
+    "response": {
+      "frame": 23829,
+      "audio_samples": 12735677,
+      "elapsed": 0.005
+    }
+  },
+  {
+    "command": {
+      "frames": 15
+    },
+    "response": {
+      "frame": 23844,
+      "audio_samples": 12743673,
+      "elapsed": 0.011
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 23846,
+      "audio_samples": 12744740,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 15
+    },
+    "response": {
+      "frame": 23861,
+      "audio_samples": 12752737,
+      "elapsed": 0.009
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 23863,
+      "audio_samples": 12753803,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 5
+    },
+    "response": {
+      "frame": 23868,
+      "audio_samples": 12756468,
+      "elapsed": 0.003
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "Down"
+      ]
+    },
+    "response": {
+      "frame": 23870,
+      "audio_samples": 12757535,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 5
+    },
+    "response": {
+      "frame": 23875,
+      "audio_samples": 12760200,
+      "elapsed": 0.003
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 23877,
+      "audio_samples": 12761266,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 180,
+      "screenshot": "phone_close"
+    },
+    "response": {
+      "image": {
+        "path": "phone_close.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3e2143806e61997e9ff9c441fe26bd4203ae9d87e762c40524f0fb5bd78f2828"
+      },
+      "frame": 24057,
+      "audio_samples": 12857228,
+      "elapsed": 0.108
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "B"
+      ]
+    },
+    "response": {
+      "frame": 24059,
+      "audio_samples": 12858295,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 10
+    },
+    "response": {
+      "frame": 24069,
+      "audio_samples": 12863626,
+      "elapsed": 0.006
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 24071,
+      "audio_samples": 12864692,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 30,
+      "screenshot": "phone_menu_cursor"
+    },
+    "response": {
+      "image": {
+        "path": "phone_menu_cursor.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "a9d1ac36045b694aa3934b3b8108dd08190280ec7af4a07ee1c154922cec7a0e"
+      },
+      "frame": 24101,
+      "audio_samples": 12880686,
+      "elapsed": 0.021
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 24103,
+      "audio_samples": 12881752,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 180,
+      "screenshot": "phone_talk_close"
+    },
+    "response": {
+      "image": {
+        "path": "phone_talk_close.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "699b6b737b8da079c1c55a24a7ee3de8f7a6f1eeb7c14de3503fae68cc0ac248"
+      },
+      "frame": 24283,
+      "audio_samples": 12977714,
+      "elapsed": 0.113
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 24285,
+      "audio_samples": 12978780,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 150,
+      "screenshot": "phone_step_0"
+    },
+    "response": {
+      "image": {
+        "path": "phone_step_0.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "53ab2468cfb81c86811f28ded2fecfe82060d81da9cb950a4fa5aa92c5b9f7fa"
+      },
+      "frame": 24435,
+      "audio_samples": 13058748,
+      "elapsed": 0.095
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 24437,
+      "audio_samples": 13059815,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 150,
+      "screenshot": "phone_step_1"
+    },
+    "response": {
+      "image": {
+        "path": "phone_step_1.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "43e152ffc135c495fe405af7115f2294c9c1c326c422cebf6db144a1dd4e6231"
+      },
+      "frame": 24587,
+      "audio_samples": 13139783,
+      "elapsed": 0.094
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 24589,
+      "audio_samples": 13140849,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 150,
+      "screenshot": "phone_step_2"
+    },
+    "response": {
+      "image": {
+        "path": "phone_step_2.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "04ff9c262461cf40714892e4f4f1a974173f64c473f3d17cceb546c69a17a987"
+      },
+      "frame": 24739,
+      "audio_samples": 13220818,
+      "elapsed": 0.092
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 24741,
+      "audio_samples": 13221884,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 150,
+      "screenshot": "phone_step_3"
+    },
+    "response": {
+      "image": {
+        "path": "phone_step_3.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3f3493c40090fdf64e3aecd26b29e264d0a8803e4a2600c40e624987f5ee457b"
+      },
+      "frame": 24891,
+      "audio_samples": 13301852,
+      "elapsed": 0.09
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 24893,
+      "audio_samples": 13302918,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 150,
+      "screenshot": "phone_step_4"
+    },
+    "response": {
+      "image": {
+        "path": "phone_step_4.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "43e152ffc135c495fe405af7115f2294c9c1c326c422cebf6db144a1dd4e6231"
+      },
+      "frame": 25043,
+      "audio_samples": 13382887,
+      "elapsed": 0.103
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 25045,
+      "audio_samples": 13383953,
+      "elapsed": 0.002
+    }
+  },
+  {
+    "command": {
+      "frames": 150,
+      "screenshot": "phone_step_5"
+    },
+    "response": {
+      "image": {
+        "path": "phone_step_5.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "04ff9c262461cf40714892e4f4f1a974173f64c473f3d17cceb546c69a17a987"
+      },
+      "frame": 25195,
+      "audio_samples": 13463921,
+      "elapsed": 0.09
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 25197,
+      "audio_samples": 13464988,
+      "elapsed": 0.001
+    }
+  },
+  {
+    "command": {
+      "frames": 150,
+      "screenshot": "phone_step_6"
+    },
+    "response": {
+      "image": {
+        "path": "phone_step_6.png",
+        "width": 256,
+        "height": 224,
+        "sha256_rgb": "3f3493c40090fdf64e3aecd26b29e264d0a8803e4a2600c40e624987f5ee457b"
+      },
+      "frame": 25347,
+      "audio_samples": 13544956,
+      "elapsed": 0.097
+    }
+  },
+  {
+    "command": {
+      "frames": 2,
+      "buttons": [
+        "A"
+      ]
+    },
+    "response": {
+      "frame": 25349,
+      "audio_samples": 13546022,
+      "elapsed": 0.001
+    }
+  }
+]
