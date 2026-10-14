@@ -1,0 +1,16 @@
+name: Verify V25 offline
+on:
+  push:
+    paths:
+      - 'tools/v25/**'
+      - '.github/workflows/verifier-v25.yml'
+  workflow_dispatch:
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 -m unittest discover -s tools/v25 -p test_v25_offline.py -v

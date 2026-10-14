@@ -1,6 +1,20 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V24 (traduction partielle)
+## Version actuelle : V25 (traduction partielle)
+
+V25 ajoute **165 plages dans 86 scripts**: école, soins, inventions, appels familiaux, livraisons et scènes d'EVE et Maria. Les ajouts V19–V25 représentent **1 115 plages depuis V18 Work**.
+
+- [Patch V25 avec accents](patches/EarthBound_Beginnings_FR_v25_accents.ips)
+- [Patch V25 ASCII](patches/EarthBound_Beginnings_FR_v25_ascii.ips)
+- [Rapport V25 et limites](RAPPORT_V25.md)
+- [Traductions éditables](tools/v25/translations_v25.tsv)
+- [Audit, constructeur et tests](tools/v25/README_V25.md)
+- [Essais Snes9x](tests/emulation_v25/RAPPORT_EMULATION_V25.md)
+
+Appliquer **un seul IPS V25 directement à la ROM originale USA 1.2**. 28 tests locaux réussis; parcours Snes9x du début du jeu conforme dans les deux profils. Les nouvelles scènes restent à vérifier en jeu. Deux fragments dépendant encore de la routine anglaise boy/girl sont exclus. Aucun fichier ROM distribué.
+
+## Version précédente : V24
+
 
 V24 élargit l'audit au catalogue complet et ajoute **213 plages de texte dans 124 scripts**, dont des fragments après commandes dynamiques. Les ajouts V19–V24 représentent **950 plages depuis V18 Work**.
 
