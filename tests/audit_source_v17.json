@@ -1,0 +1,17 @@
+{
+  "version": "v17-preparation",
+  "rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "source_scripts_examined": 2392,
+  "source_eligible_before_ips": 1627,
+  "source_rejected_interior_pointer": 149,
+  "source_rejected_layout_or_bytes": 501,
+  "source_rejected_no_start_pointer": 115,
+  "source_verified_sample": 500,
+  "source_verified_sample_without_v16_ips_collision": 259,
+  "source_verified_sample_with_v16_ips_collision": 241,
+  "selected_untranslated_scripts": 120,
+  "integrated_french_segments": 0,
+  "v17_ips_published": false,
+  "tests_synthetic_local": "10/10 passed",
+  "tests_ci_run": "https://github.com/spamkenny02-commits/earthboundbeginning/actions/runs/38482185504"
+}
