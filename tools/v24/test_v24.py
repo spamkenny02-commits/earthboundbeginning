@@ -39,6 +39,22 @@ class V24Tests(unittest.TestCase):
         spans=sorted((int(e['id'],16),int(e['id'],16)+1+e['text_length']) for e in self.entries)
         self.assertTrue(all(b<=c for (_,b),(c,_) in zip(spans,spans[1:])))
 
+    def test_extracted_parent_scripts(self):
+        scripts={s['id']:s for s in json.loads((ROOT/'atelier/extraction/dialogues.json').read_text(encoding='utf-8'))}
+        for e in self.entries:
+            with self.subTest(id=e['id']):
+                s=scripts[e['script']]
+                raw=bytes.fromhex(s['raw_hex'])
+                relative=int(e['id'],16)-int(s['id'],16)
+                self.assertGreaterEqual(relative,0)
+                self.assertLess(relative+1+e['text_length']+2,len(raw)+1)
+                self.assertEqual(s['evidence'],'literal_pointer')
+                self.assertEqual(s['literal_pointer_offsets'],e['script_refs'])
+                self.assertEqual(raw[relative],0x70)
+                self.assertEqual(raw[relative+1:relative+1+e['text_length']],
+                                 bytes(ord(c)+48 for c in e['english']))
+                self.assertEqual(raw[relative+1+e['text_length']:relative+3+e['text_length']].hex(),e['suffix'])
+
     def test_original_source(self):
         if self.rom is None:self.skipTest('ROM_PATH absent')
         self.assertEqual(sha(self.rom),ROM_SHA)
