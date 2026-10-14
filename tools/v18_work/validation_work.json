@@ -1,0 +1,26 @@
+{
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "new_segments": 152,
+  "profiles": {
+    "accents": {
+      "base_records": 3931,
+      "added_records": 152,
+      "patch_sha256": "26939d61747b15515538ccfce7abcf09fec44abfc368f18064c7f75c13e5f285",
+      "target_rom_sha256": "4c2e75a59c9d61c53391e9373af60ec655218f0e5eaa29bd6e2f8d3d0140928a",
+      "preserved_base_record_bytes": 58508,
+      "roundtrip": true,
+      "outside_additions_unchanged": true,
+      "commands_and_recorded_pointers_preserved": true
+    },
+    "ascii": {
+      "base_records": 3826,
+      "added_records": 152,
+      "patch_sha256": "ba5cd811c809b312f9ba88bb0c5f8a0791a3a95b10e7f5ece8e5c5b9598b8f2f",
+      "target_rom_sha256": "bfc15ea606accc7caa491b1fd6c1abc575ca8c1e662004566234e2c5efa56310",
+      "preserved_base_record_bytes": 57547,
+      "roundtrip": true,
+      "outside_additions_unchanged": true,
+      "commands_and_recorded_pointers_preserved": true
+    }
+  }
+}

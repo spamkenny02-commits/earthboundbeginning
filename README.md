@@ -1,6 +1,25 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V17 (traduction partielle)
+## Version actuelle : V18 Work (traduction partielle)
+
+La V18 Work autonome reprend la V17 publiée et ajoute **168 segments** : 16 dans le premier lot V18, puis 152 dans la reprise Work. Les 70 segments de `traduction/v18_brouillons_01.json` sont un lot distinct non intégré et ne sont pas ajoutés à ce compteur.
+
+- [Patch V18 Work avec accents](patches/EarthBound_Beginnings_FR_v18_work_accents.ips)
+- [Patch V18 Work sans accents](patches/EarthBound_Beginnings_FR_v18_work_ascii.ips)
+- [Rapport et instructions](tools/v18_work/README_WORK.md)
+- [Constructeur portable](tools/v18_work/sources/build_work.py), [tests](tools/v18_work/sources/test_work.py), [résultats binaires](tools/v18_work/validation_work.json)
+- [16 premières traductions](tools/v18_work/v18_dialogues_fr.json), [152 traductions Work](tools/v18_work/v18_work_dialogues_fr.json)
+
+**Appliquer un seul IPS V18 Work directement à la ROM originale USA 1.2**, sans préinstaller V17 ou V18. Aucune ROM n'est distribuée.
+
+Contrôles exécutés : reconstruction des deux variantes, décodage indépendant des 152 nouveaux textes, absence de collisions, conservation de la base et de tous les octets hors du nouveau lot, **10 tests réussis**. **Émulation et vérification visuelle non effectuées**; il s'agit d'une version de développement.
+
+```sh
+python3 tools/v18_work/sources/build_work.py "/chemin/ROM_originale.sfc"
+ROM_PATH="/chemin/ROM_originale.sfc" python3 -m unittest discover -s tools/v18_work/sources -p test_work.py -v
+```
+
+## Version précédente : V17 (traduction partielle)
 
 La **V17 autonome** reprend toutes les modifications V09–V16 et ajoute **195 segments français réellement modifiés dans 117 scripts**. Les trois scripts exclus du lot de 120 ne sont pas comptés. Depuis V09, les versions V10–V17 ajoutent **766 segments/blocs** cumulés (50 + 27 + 18 + 141 + 130 + 77 + 128 + 195).
 
@@ -58,3 +77,4 @@ Guide de l’outil : [traduction/ATELIER.md](traduction/ATELIER.md). Le CSV couv
 L’audit signale les fragments identiques à relire et refuse les rapports périmés. Le catalogue contient encore 2 043 blocs candidats non préparés : leur utilisation, leurs frontières et leur traduction restent à vérifier. Les graphismes et le générique ne sont pas finalisés.
 
 Éditeur local : ouvrir `atelier_fr.html`, charger `traductions.csv`, puis utiliser `Importer_CSV_FR.bat` et `Reconstruire_FR.bat`. Les sources précédentes sont sauvegardées avant chaque import modifiant des fichiers.
+
