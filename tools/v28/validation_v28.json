@@ -1,0 +1,47 @@
+{
+  "version": "v28",
+  "base": "v27",
+  "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "audited_selected_spans": 93,
+  "excluded_interior_literal_pointers": 43,
+  "excluded_changed_entry_pointer": 1,
+  "new_segments": 49,
+  "scripts": 49,
+  "original_rom_source_spans_verified": 49,
+  "original_rom_script_prefixes_verified": 49,
+  "original_rom_script_entry_refs_present": 49,
+  "original_rom_addon_roundtrip": {
+    "accents": true,
+    "ascii": true
+  },
+  "synthetic_autonomous_ips_roundtrip": {
+    "accents": true,
+    "ascii": true
+  },
+  "profiles": {
+    "accents": {
+      "v27_records": 5549,
+      "v28_additions": 49,
+      "total_records": 5598,
+      "ips_size": 138279,
+      "sha256": "3db0607030f931d5acb020fa7b9f9d6af8d157099bb958a887192edef005fbd9",
+      "git_blob_sha": "c6957f57a601a8a9a994c1949520d6981ecf5120",
+      "addon_sha256": "46a9270cc6cdb203dc2dcada574f1b5c39a1a1ff8d08e4af37785233f34be041",
+      "target_rom_sha256": null,
+      "rom_roundtrip": false
+    },
+    "ascii": {
+      "v27_records": 5444,
+      "v28_additions": 49,
+      "total_records": 5493,
+      "ips_size": 136793,
+      "sha256": "60a70dc688b491c5574d01e86856c3e06646545d46e1838183791ea6c50df7f5",
+      "git_blob_sha": "d5b9d8bd3b684cb7b2ee1e6eee61457dad9b3c25",
+      "addon_sha256": "0646e0767dcdbc8efe3ed099b047f63153aa585e07ddaec281edcc1558c59acf",
+      "target_rom_sha256": null,
+      "rom_roundtrip": false
+    }
+  },
+  "full_v28_rom_roundtrip": "not_executed",
+  "emulator_v28": "not_executed"
+}

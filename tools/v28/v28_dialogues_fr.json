@@ -1,0 +1,634 @@
+{
+  "version": "v28",
+  "base": "v27",
+  "new_segments": 49,
+  "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "entries": [
+    {
+      "id": "33F754",
+      "english": "I can give you up to three hints.",
+      "fr": "Je peux te donner trois indices.",
+      "text_length": 33,
+      "script_id": "33F73C",
+      "script_refs": [
+        "33F72F"
+      ],
+      "script_prefix_hex": "1d14e80300000b001b02adf7f3001d09e803180a1f027670",
+      "source_line": "[1D 14 E8 03 00 00][0B 00][1B 02 AD F7 F3 00][1D 09 E8 03][18 0A][1F 02 76]@I can give you up to three hints."
+    },
+    {
+      "id": "347E44",
+      "english": "Why do you keep insisting on talking to me?",
+      "fr": "Pourquoi tiens-tu tant à me parler?",
+      "text_length": 43,
+      "script_id": "347E37",
+      "script_refs": [
+        "347C23"
+      ],
+      "script_prefix_hex": "040700050800050900050a0070",
+      "source_line": "[04 07 00][05 08 00][05 09 00][05 0A 00]@Why do you keep insisting on talking to me?"
+    },
+    {
+      "id": "348514",
+      "english": "Please sing the melodies that you have learned to me.",
+      "fr": "Chante-moi les mélodies que tu connais.",
+      "text_length": 53,
+      "script_id": "348510",
+      "script_refs": [
+        "348329",
+        "348349"
+      ],
+      "script_prefix_hex": "1f070370",
+      "source_line": "[1F 07 03]@Please sing the melodies that you have learned to me.[03][04 02 00][08 F4 15 C9 00][1A 0C A7 D3 F8 00][1F EA 6A 00][10 1E][1F 1C 01 0C][1F 1C 02 0C][1F 1C 03 0C][1A 11 04][1B 02 77 85 F4 00][1F 1C 04 0C][1F 00 00 04][18 04][10 0A][1F 00 00 5B][10 FF][10 FF][10 FF][10 FF][10 FF][10 FF][10 FF][1F 00 00 04][1F 1D 01][1F 1D 02][1F 1D 03][1F 1D 04][10 01][18 01 35]@Yes... [10 0F]that was it."
+    },
+    {
+      "id": "349928",
+      "english": "So, you've realized what good taste I have...",
+      "fr": "Alors, tu reconnais enfin mon bon goût...",
+      "text_length": 45,
+      "script_id": "34991E",
+      "script_refs": [
+        "3498EF"
+      ],
+      "script_prefix_hex": "0783031b02319af40070",
+      "source_line": "[07 83 03][1B 02 31 9A F4 00]@So, you've realized what good taste I have..."
+    },
+    {
+      "id": "349A35",
+      "english": "Happiness won't just walk into your life on its own.",
+      "fr": "Le bonheur ne vient pas tout seul dans ta vie.",
+      "text_length": 52,
+      "script_id": "349A31",
+      "script_refs": [
+        "349923"
+      ],
+      "script_prefix_hex": "04840370",
+      "source_line": "[04 84 03]@Happiness won't just walk into your life on its own."
+    },
+    {
+      "id": "34A283",
+      "english": "Did you come to stay another night?",
+      "fr": "Tu reviens passer une nuit ici?",
+      "text_length": 35,
+      "script_id": "34A279",
+      "script_refs": [
+        "34A02B"
+      ],
+      "script_prefix_hex": "0734031b0244a3f40070",
+      "source_line": "[07 34 03][1B 02 44 A3 F4 00]@Did you come to stay another night?"
+    },
+    {
+      "id": "34A547",
+      "english": "The Ocarina of Hope is finally complete.",
+      "fr": "L'Ocarina de l'espoir est enfin prêt.",
+      "text_length": 40,
+      "script_id": "34A53B",
+      "script_refs": [
+        "203FA4",
+        "34A4F3",
+        "34A537"
+      ],
+      "script_prefix_hex": "0735030b001b0276a6f40070",
+      "source_line": "[07 35 03][0B 00][1B 02 76 A6 F4 00]@The Ocarina of Hope is finally complete."
+    },
+    {
+      "id": "34B534",
+      "english": "What do you want me to store?",
+      "fr": "Que veux-tu que je garde?",
+      "text_length": 29,
+      "script_id": "34B517",
+      "script_refs": [
+        "34B4E3",
+        "34B50A",
+        "34B5F6"
+      ],
+      "script_prefix_hex": "0831e4c5001b0203b6f4001d0c0101180702000000001b035eb6f40070",
+      "source_line": "[08 31 E4 C5 00][1B 02 03 B6 F4 00][1D 0C 01 01][18 07 02 00 00 00 00][1B 03 5E B6 F4 00]@What do you want me to store?"
+    },
+    {
+      "id": "34B5AF",
+      "english": "Do you have anything else that you wish me to store?",
+      "fr": "As-tu autre chose à me confier?",
+      "text_length": 52,
+      "script_id": "34B5AE",
+      "script_refs": [
+        "34B5AA",
+        "34B6D2"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Do you have anything else that you wish me to store?"
+    },
+    {
+      "id": "34B636",
+      "english": "Do you need anything else from me?",
+      "fr": "As-tu besoin d'autre chose?",
+      "text_length": 34,
+      "script_id": "34B635",
+      "script_refs": [
+        "34B55C",
+        "34B5FA",
+        "34B5FF",
+        "34B631",
+        "34B682",
+        "34B6B1",
+        "34B70B",
+        "34B7E3",
+        "34B7E8",
+        "34B7F5"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Do you need anything else from me?"
+    },
+    {
+      "id": "34F315",
+      "english": "Please visit us again!",
+      "fr": "Reviens nous voir!",
+      "text_length": 22,
+      "script_id": "34F314",
+      "script_refs": [
+        "3659DB"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Please visit us again!"
+    },
+    {
+      "id": "3503C7",
+      "english": "(The crowd becomes restless and upset.)",
+      "fr": "(La foule s'agite et gronde.)",
+      "text_length": 39,
+      "script_id": "3503BD",
+      "script_refs": [
+        "35028B"
+      ],
+      "script_prefix_hex": "1f00006b10dc18013570",
+      "source_line": "[1F 00 00 6B][10 DC][18 01 35]@(The crowd becomes restless and upset.)"
+    },
+    {
+      "id": "350451",
+      "english": "(The crowd becomes restless and upset.)",
+      "fr": "(La foule s'agite et gronde.)",
+      "text_length": 39,
+      "script_id": "350447",
+      "script_refs": [
+        "35029B"
+      ],
+      "script_prefix_hex": "1f00006b10dc18013570",
+      "source_line": "[1F 00 00 6B][10 DC][18 01 35]@(The crowd becomes restless and upset.)"
+    },
+    {
+      "id": "350567",
+      "english": "(A dull roar begins to rise from the crowd.)",
+      "fr": "(Une rumeur monte dans la foule.)",
+      "text_length": 44,
+      "script_id": "35055D",
+      "script_refs": [
+        "350269",
+        "350272",
+        "35027B",
+        "3502B4",
+        "3502BF",
+        "3502C8",
+        "3502D3",
+        "3502DC",
+        "3502E7"
+      ],
+      "script_prefix_hex": "1f00006b10dc18013570",
+      "source_line": "[1F 00 00 6B][10 DC][18 01 35]@(A dull roar begins to rise from the crowd.)"
+    },
+    {
+      "id": "350E00",
+      "english": "Great! I'm sure we'll make a great team of punks.",
+      "fr": "Super! On fera une sacrée équipe de voyous.",
+      "text_length": 49,
+      "script_id": "350DFF",
+      "script_refs": [
+        "350CB7",
+        "350CF7",
+        "350D38",
+        "350DE6"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Great! I'm sure we'll make a great team of punks."
+    },
+    {
+      "id": "3511BC",
+      "english": "(Climb into the rocket?)",
+      "fr": "(Monter dans la fusée?)",
+      "text_length": 24,
+      "script_id": "3511BB",
+      "script_refs": [
+        "205F2F"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@(Climb into the rocket?)"
+    },
+    {
+      "id": "351832",
+      "english": "Hey, you two there.",
+      "fr": "Hé, vous deux!",
+      "text_length": 19,
+      "script_id": "3517D7",
+      "script_refs": [
+        "204769"
+      ],
+      "script_prefix_hex": "1a11021b027918f5001a11021b027918f5001d0d0201021b037918f5001a11021b001d0d0201031b037918f5001a11011b027918f5001a11011b027918f5001d0d0101021b037918f5001a11011b001d0d0101031b037918f50070",
+      "source_line": "[1A 11 02][1B 02 79 18 F5 00][1A 11 02][1B 02 79 18 F5 00][1D 0D 02 01 02][1B 03 79 18 F5 00][1A 11 02][1B 00][1D 0D 02 01 03][1B 03 79 18 F5 00][1A 11 01][1B 02 79 18 F5 00][1A 11 01][1B 02 79 18 F5 00][1D 0D 01 01 02][1B 03 79 18 F5 00][1A 11 01][1B 00][1D 0D 01 01 03][1B 03 79 18 F5 00]@Hey, you two there."
+    },
+    {
+      "id": "35244A",
+      "english": "Hey, you can't drink that!",
+      "fr": "Hé, ne bois pas ça!",
+      "text_length": 26,
+      "script_id": "35240B",
+      "script_refs": [
+        "3523C4"
+      ],
+      "script_prefix_hex": "1804040b001f41051ff17303ed04100a1f157801ee040110011fef78011fe8ff1f61103c180135708495959895955e1318041f154a00ef04011f6118013570",
+      "source_line": "[18 04][04 0B 00][1F 41 05][1F F1 73 03 ED 04][10 0A][1F 15 78 01 EE 04 01][10 01][1F EF 78 01][1F E8 FF][1F 61][10 3C][18 01 35]@Teehee.[13][18 04][1F 15 4A 00 EF 04 01][1F 61][18 01 35]@Hey, you can't drink that!"
+    },
+    {
+      "id": "3525BF",
+      "english": "Now do you regret what you did?",
+      "fr": "Tu regrettes ton geste?",
+      "text_length": 31,
+      "script_id": "3525AD",
+      "script_refs": [
+        "35257F",
+        "352724"
+      ],
+      "script_prefix_hex": "08387af8001f0000121f2138087a7af80070",
+      "source_line": "[08 38 7A F8 00][1F 00 00 12][1F 21 38][08 7A 7A F8 00]@Now do you regret what you did?[1F 51]"
+    },
+    {
+      "id": "352BBC",
+      "english": "Brute strength is not enough to beat 'em.",
+      "fr": "La force brute ne suffit pas.",
+      "text_length": 41,
+      "script_id": "352BB4",
+      "script_refs": [
+        "204A00"
+      ],
+      "script_prefix_hex": "06b203392df50070",
+      "source_line": "[06 B2 03 39 2D F5 00]@Brute strength is not enough to beat 'em."
+    },
+    {
+      "id": "352F0A",
+      "english": "Did you hear about the weird things happening in Podunk?",
+      "fr": "As-tu entendu parler des choses étranges à Podunk?",
+      "text_length": 56,
+      "script_id": "352F09",
+      "script_refs": [
+        "2027BC"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Did you hear about the weird things happening in Podunk?"
+    },
+    {
+      "id": "3535F6",
+      "english": "Do you think the train tickets are too expensive?",
+      "fr": "Tu trouves les billets de train trop chers?",
+      "text_length": 49,
+      "script_id": "3535F5",
+      "script_refs": [
+        "353581"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Do you think the train tickets are too expensive?"
+    },
+    {
+      "id": "353648",
+      "english": "Have you used the Bullhorn?",
+      "fr": "Tu as utilisé le mégaphone?",
+      "text_length": 27,
+      "script_id": "353647",
+      "script_refs": [
+        "35363A",
+        "35363E",
+        "353643"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Have you used the Bullhorn?"
+    },
+    {
+      "id": "35388E",
+      "english": "Have you been to the Sweet Little Factory?",
+      "fr": "Tu as visité la petite usine?",
+      "text_length": 42,
+      "script_id": "35388D",
+      "script_refs": [
+        "2027EF"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Have you been to the Sweet Little Factory?"
+    },
+    {
+      "id": "353C10",
+      "english": "I won the Miss Merrysville pageant.",
+      "fr": "J'ai gagné Miss Merrysville.",
+      "text_length": 35,
+      "script_id": "353C03",
+      "script_refs": [
+        "2029CB"
+      ],
+      "script_prefix_hex": "7079579d5083a5aaa95e50100f",
+      "source_line": "@I'm Suzy. [10 0F]I won the Miss Merrysville pageant."
+    },
+    {
+      "id": "354ACA",
+      "english": "You want to be my friend?",
+      "fr": "Tu veux être mon ami?",
+      "text_length": 25,
+      "script_id": "354AB9",
+      "script_refs": [
+        "354A57"
+      ],
+      "script_prefix_hex": "066303b34bf5001fea96001f1696000170",
+      "source_line": "[06 63 03 B3 4B F5 00][1F EA 96 00][1F 16 96 00 01]@You want to be my friend?"
+    },
+    {
+      "id": "354C4F",
+      "english": "I'm a weird teacher who secretly lives in the school.",
+      "fr": "Je suis un prof bizarre qui vit dans l'école.",
+      "text_length": 53,
+      "script_id": "354C47",
+      "script_refs": [
+        "202BC9"
+      ],
+      "script_prefix_hex": "06a103fa4cf50070",
+      "source_line": "[06 A1 03 FA 4C F5 00]@I'm a weird teacher who secretly lives in the school."
+    },
+    {
+      "id": "354D78",
+      "english": "Well, please take a look at the price list.",
+      "fr": "Regarde donc la liste des prix.",
+      "text_length": 43,
+      "script_id": "354D77",
+      "script_refs": [
+        "354CED",
+        "354D6A",
+        "354DDD",
+        "354DE2"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Well, please take a look at the price list.[13]"
+    },
+    {
+      "id": "35AA74",
+      "english": "Hello and thank you for calling the Hint Union!",
+      "fr": "Bonjour! Ici l'Union des indices!",
+      "text_length": 47,
+      "script_id": "35AA71",
+      "script_refs": [
+        "157B45",
+        "35AA6C"
+      ],
+      "script_prefix_hex": "180670",
+      "source_line": "[18 06]@Hello and thank you for calling the Hint Union!"
+    },
+    {
+      "id": "35BAD6",
+      "english": "In the heart of Downtown Ellay, there's a music venue called the Live House.",
+      "fr": "Au centre d'Ellay, il y a une salle de concert: le Live House.",
+      "text_length": 76,
+      "script_id": "35BABC",
+      "script_refs": [
+        "35ABCC"
+      ],
+      "script_prefix_hex": "0781041b029bb9f500076d031b02d0abf50006980376bdf50070",
+      "source_line": "[07 81 04][1B 02 9B B9 F5 00][07 6D 03][1B 02 D0 AB F5 00][06 98 03 76 BD F5 00]@In the heart of Downtown Ellay, there's a music venue called the Live House."
+    },
+    {
+      "id": "35BD7E",
+      "english": "It seems like you've seen all that the city of Ellay has to offer.",
+      "fr": "On dirait que tu as tout vu de la ville d'Ellay.",
+      "text_length": 66,
+      "script_id": "35BD76",
+      "script_refs": [
+        "35BAD1"
+      ],
+      "script_prefix_hex": "06da00d0abf50070",
+      "source_line": "[06 DA 00 D0 AB F5 00]@It seems like you've seen all that the city of Ellay has to offer."
+    },
+    {
+      "id": "35C2B9",
+      "english": "You sound like quite the musician.",
+      "fr": "Tu as l'air d'un vrai musicien.",
+      "text_length": 34,
+      "script_id": "35C2B8",
+      "script_refs": [
+        "35ABDE"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@You sound like quite the musician.[10 14]  So... what are you doing here?"
+    },
+    {
+      "id": "35E437",
+      "english": "You want one medium pizza?",
+      "fr": "Tu veux une pizza moyenne?",
+      "text_length": 26,
+      "script_id": "35E436",
+      "script_refs": [
+        "064AA1",
+        "35E416"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@You want one medium pizza?"
+    },
+    {
+      "id": "35E45B",
+      "english": "You want one small pizza?",
+      "fr": "Tu veux une petite pizza?",
+      "text_length": 25,
+      "script_id": "35E45A",
+      "script_refs": [
+        "064AB9",
+        "35E412"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@You want one small pizza?"
+    },
+    {
+      "id": "35E47B",
+      "english": "You want one large pizza?",
+      "fr": "Tu veux une grande pizza?",
+      "text_length": 25,
+      "script_id": "35E47A",
+      "script_refs": [
+        "064AD0",
+        "35E41A"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@You want one large pizza?"
+    },
+    {
+      "id": "35E563",
+      "english": "Oh, it looks like you can not carry any more.",
+      "fr": "Oh, tu ne peux plus rien porter.",
+      "text_length": 45,
+      "script_id": "35E55C",
+      "script_refs": [
+        "064C9F",
+        "35E52B"
+      ],
+      "script_prefix_hex": "056a0005b30070",
+      "source_line": "[05 6A 00][05 B3 00]@Oh, it looks like you can not carry any more."
+    },
+    {
+      "id": "35EAA8",
+      "english": "Oh, you don't have any money in your account.",
+      "fr": "Oh, tu n'as pas d'argent sur ton compte.",
+      "text_length": 45,
+      "script_id": "35EAA7",
+      "script_refs": [
+        "072665",
+        "35E70C"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Oh, you don't have any money in your account."
+    },
+    {
+      "id": "360A37",
+      "english": "I have something to give you.",
+      "fr": "J'ai un cadeau pour toi.",
+      "text_length": 29,
+      "script_id": "360A1A",
+      "script_refs": [
+        "360A11"
+      ],
+      "script_prefix_hex": "70809c9591a39550a699a399a4509d9550a39f9d95a4999d955c50100f",
+      "source_line": "@Please visit me sometime, [10 0F]I have something to give you."
+    },
+    {
+      "id": "364802",
+      "english": "Have you seen a man with a slick mustache?",
+      "fr": "As-tu vu un homme à fine moustache?",
+      "text_length": 42,
+      "script_id": "364801",
+      "script_refs": [
+        "204615"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Have you seen a man with a slick mustache?"
+    },
+    {
+      "id": "3648CC",
+      "english": "Have you seen a woman with a big belly?",
+      "fr": "As-tu vu une femme au gros ventre?",
+      "text_length": 39,
+      "script_id": "3648CB",
+      "script_refs": [
+        "20468C"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Have you seen a woman with a big belly?"
+    },
+    {
+      "id": "36E57B",
+      "english": "I must go on a trip to find my Mom, and...",
+      "fr": "Je dois partir retrouver maman, et...",
+      "text_length": 42,
+      "script_id": "36E573",
+      "script_refs": [
+        "36E566"
+      ],
+      "script_prefix_hex": "1d01ff4b1f027670",
+      "source_line": "[1D 01 FF 4B][1F 02 76]@I must go on a trip to find my Mom, and..."
+    },
+    {
+      "id": "36EB51",
+      "english": "Have you been to the haunted house in Spookane?",
+      "fr": "Tu as visité la maison hantée de Spookane?",
+      "text_length": 47,
+      "script_id": "36EB50",
+      "script_refs": [
+        "203CFC"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Have you been to the haunted house in Spookane?"
+    },
+    {
+      "id": "37453A",
+      "english": "How far do you want to advance?",
+      "fr": "Jusqu'où veux-tu avancer?",
+      "text_length": 31,
+      "script_id": "374537",
+      "script_refs": [
+        "058ED2"
+      ],
+      "script_prefix_hex": "1c0803",
+      "source_line": "[1C 08 03]How far do you want to advance?"
+    },
+    {
+      "id": "37D45D",
+      "english": "Now entering the Mislay Triangle.",
+      "fr": "Triangle de Mislay: entrée.",
+      "text_length": 33,
+      "script_id": "37D45C",
+      "script_refs": [
+        "204637"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@Now entering the Mislay Triangle."
+    },
+    {
+      "id": "38244E",
+      "english": "Please enter the amount of your withdrawal.",
+      "fr": "Saisis le montant à retirer.",
+      "text_length": 43,
+      "script_id": "382448",
+      "script_refs": [
+        "3822DE"
+      ],
+      "script_prefix_hex": "08e624f80070",
+      "source_line": "[08 E6 24 F8 00]@Please enter the amount of your withdrawal."
+    },
+    {
+      "id": "384B92",
+      "english": "Did you call me up?",
+      "fr": "Tu m'as appelé?",
+      "text_length": 19,
+      "script_id": "384B8B",
+      "script_refs": [
+        "384B87"
+      ],
+      "script_prefix_hex": "1fe5ff18013570",
+      "source_line": "[1F E5 FF][18 01 35]@Did you call me up?"
+    },
+    {
+      "id": "384BC6",
+      "english": "You need money, don't you?",
+      "fr": "Tu as besoin d'argent?",
+      "text_length": 26,
+      "script_id": "384BC5",
+      "script_refs": [
+        "384BB8"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@You need money, don't you?"
+    },
+    {
+      "id": "384C1B",
+      "english": "Well, how much do you want to withdraw?",
+      "fr": "Alors, combien veux-tu retirer?",
+      "text_length": 39,
+      "script_id": "384C00",
+      "script_refs": [
+        "384BF3"
+      ],
+      "script_prefix_hex": "1d17010000001b03f04cf8001d149f8601000b001b036e4df80070",
+      "source_line": "[1D 17 01 00 00 00][1B 03 F0 4C F8 00][1D 14 9F 86 01 00][0B 00][1B 03 6E 4D F8 00]@Well, how much do you want to withdraw?"
+    },
+    {
+      "id": "38B207",
+      "english": "What do you want me to do?",
+      "fr": "Que veux-tu que je fasse?",
+      "text_length": 26,
+      "script_id": "38B206",
+      "script_refs": [
+        "091839"
+      ],
+      "script_prefix_hex": "70",
+      "source_line": "@What do you want me to do?"
+    }
+  ]
+}
