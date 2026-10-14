@@ -1,0 +1,1854 @@
+{
+  "version": "v30",
+  "entries": [
+    {
+      "id": "33BC21",
+      "english": "Chirp",
+      "text_length": 5,
+      "script_id": "33BA1C",
+      "script_end": "33BC28",
+      "script_english": "[08 86 B7 F3 00]\n@(When you get in a battle with an enemy the world suddenly looks all swirly swirly.)\n@(If you sneak up behind the enemy then the swirly swirl will be green.)\n@(That means you'll get an extra turn at the start of the battle.)\n@(Look out though!)\n@(If an enemy catches you from behind then the spinny swirl will be red.)\n@(Then they get an opening attack on you!)\n@(You should always try to have the advantage when fighting.)\n@(Whew...[10 1E] )\n@(All this talk of swirly spinny swirls is making me dizzy...)\n@Chirp[13][02]",
+      "script_refs": [
+        "33B9C3"
+      ],
+      "prefix": "59030070",
+      "suffix": "1302",
+      "fr": "Cui!",
+      "rendered_fr": "Cui!"
+    },
+    {
+      "id": "33BDA6",
+      "english": "Chirp",
+      "text_length": 5,
+      "script_id": "33BC28",
+      "script_end": "33BDAD",
+      "script_english": "[08 86 B7 F3 00]\n@(I'm a frightened sparrow with scare-ow advice!)\n@(If you see a scary ghost or zombie you can run!)\n@(Just hold the Y button while moving around.)\n@(If you've already been running around a lot, you've most definitely gotten tired.)\n@(This is because you have limited stamina, so run sparrowingly.)\n@(Running away from monsters for too long would be a nasty scenario.)\n@Chirp[13][02]",
+      "script_refs": [
+        "202F4E"
+      ],
+      "prefix": "59030070",
+      "suffix": "1302",
+      "fr": "Cui!",
+      "rendered_fr": "Cui!"
+    },
+    {
+      "id": "33BFA6",
+      "english": "Hey!",
+      "text_length": 4,
+      "script_id": "33BFA5",
+      "script_end": "33C125",
+      "script_english": "@Hey!\n@Have you ever been in combat and taken a BIG hit you thought would K.O. you?\n@But it didn't!\n@Instead, you toughed it out and won with only 1HP?\n@That's FIGHTing spirit, baby!\n@The more FIGHT you have in you, the more likely you are to survive!\n@It also makes it more likely you'll SMAAAASH your enemies with every attack!\n@Man! I get pumped up just thinking about it![13][02]",
+      "script_refs": [
+        "2030C4"
+      ],
+      "prefix": "70",
+      "suffix": "03007078",
+      "fr": "Hé!",
+      "rendered_fr": "Hé!"
+    },
+    {
+      "id": "33C50B",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "33C4A0",
+      "script_end": "33C59D",
+      "script_english": "[06 6B 04 68 C6 F3 00][1D 05 FF 04][1B 02 A2 C5 F3 00]@(You found my treasure!)\n@(Here! I'll swap you for this other junk I dug up! Please!)\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 23 C5 F3 00 28 C6 F3 00][1D 01 FF 04][1D 00 FF 82][18 00][1F 02 76][10 1E][18 01 35]@The [1C 05 04] was traded for a [1C 05 82].\n[18 00][10 14][04 6B 04][18 01 35]@Woof\n@[10 0F](Of course a dog's greatest treasure is a bone!)\n[18 00][02]",
+      "script_refs": [
+        "203BB9"
+      ],
+      "prefix": "03001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "33C560",
+      "english": "Woof",
+      "text_length": 4,
+      "script_id": "33C4A0",
+      "script_end": "33C59D",
+      "script_english": "[06 6B 04 68 C6 F3 00][1D 05 FF 04][1B 02 A2 C5 F3 00]@(You found my treasure!)\n@(Here! I'll swap you for this other junk I dug up! Please!)\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 23 C5 F3 00 28 C6 F3 00][1D 01 FF 04][1D 00 FF 82][18 00][1F 02 76][10 1E][18 01 35]@The [1C 05 04] was traded for a [1C 05 82].\n[18 00][10 14][04 6B 04][18 01 35]@Woof\n@[10 0F](Of course a dog's greatest treasure is a bone!)\n[18 00][02]",
+      "script_refs": [
+        "203BB9"
+      ],
+      "prefix": "18013570",
+      "suffix": "0070100f",
+      "fr": "Ouaf",
+      "rendered_fr": "Ouaf"
+    },
+    {
+      "id": "33C5A3",
+      "english": "Bow-wow",
+      "text_length": 7,
+      "script_id": "33C5A2",
+      "script_end": "33C627",
+      "script_english": "@Bow-wow\n@[10 0F](Long ago, I used to live in Snowman.)\n@(I wonder if anyone ever found the treasure I left buried in the flowerbed...)[13][02]",
+      "script_refs": [
+        "33C4AD"
+      ],
+      "prefix": "70",
+      "suffix": "0070100f",
+      "fr": "Ouaf!",
+      "rendered_fr": "Ouaf!"
+    },
+    {
+      "id": "33C6AD",
+      "english": "Hey!",
+      "text_length": 4,
+      "script_id": "33C6A5",
+      "script_end": "33C6E8",
+      "script_english": "[06 6A 04 E8 C6 F3 00]@Hey!\n@There's an [1C 05 04] in the dirt.\n[1D 03 FF][1B 02 FC C6 F3 00][1D 0E 00 04][08 CF DC C7 00][13][04 6A 04][02]",
+      "script_refs": [
+        "0F1AEF"
+      ],
+      "prefix": "c6f30070",
+      "suffix": "03007084",
+      "fr": "Hé!",
+      "rendered_fr": "Hé!"
+    },
+    {
+      "id": "33CF2A",
+      "english": "Hey... ",
+      "text_length": 7,
+      "script_id": "33CF29",
+      "script_end": "33CF91",
+      "script_english": "@Hey... [19 10 01][1B 04][1C 02 00]...\n@I heard you like [1C 01 04]...\n@Why don't you enter and have some [1C 01 04] with me?[13][1F 02 60][04 72 04][18 00][02]",
+      "script_refs": [
+        "33CF0A"
+      ],
+      "prefix": "70",
+      "suffix": "1910011b",
+      "fr": "Hé...",
+      "rendered_fr": "Hé... "
+    },
+    {
+      "id": "33CFFB",
+      "english": "Hey ",
+      "text_length": 4,
+      "script_id": "33CFFA",
+      "script_end": "33D0A3",
+      "script_english": "@Hey [19 10 01][1B 04][1C 02 00]...\n@Have you seen this amazing rocket?\n@It's so cool, and you're the only one clever enough to help me put it together.\n@Please come help me...[13][1F 02 60][04 72 04][18 00][02]",
+      "script_refs": [
+        "33CF20"
+      ],
+      "prefix": "70",
+      "suffix": "1910011b",
+      "fr": "Hé",
+      "rendered_fr": "Hé "
+    },
+    {
+      "id": "33D322",
+      "english": "Hey,",
+      "text_length": 4,
+      "script_id": "33D2AC",
+      "script_end": "33D3EB",
+      "script_english": "[06 38 04 9A D4 F3 00]@Thank you for paying for the repairs.\n@I wouldn't have expected a kid like you to give me the time of day!\n@Hey,[10 0F] I'll tell you what,[10 0F] if you pay me another $200,\n@I'll repair those torn tracks before the servicemen do.\n@Think I can't do it?\n  I bet'cha I can!\n[18 0A][19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 EB D3 F3 00 DB D3 F3 00]@I see, see...[13][02]",
+      "script_refs": [
+        "2060D8"
+      ],
+      "prefix": "51030070",
+      "suffix": "100f5079",
+      "fr": "Hé,",
+      "rendered_fr": "Hé,"
+    },
+    {
+      "id": "33D3C3",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "33D2AC",
+      "script_end": "33D3EB",
+      "script_english": "[06 38 04 9A D4 F3 00]@Thank you for paying for the repairs.\n@I wouldn't have expected a kid like you to give me the time of day!\n@Hey,[10 0F] I'll tell you what,[10 0F] if you pay me another $200,\n@I'll repair those torn tracks before the servicemen do.\n@Think I can't do it?\n  I bet'cha I can!\n[18 0A][19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 EB D3 F3 00 DB D3 F3 00]@I see, see...[13][02]",
+      "script_refs": [
+        "2060D8"
+      ],
+      "prefix": "180a1902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "33DEC9",
+      "english": "Sorry.",
+      "text_length": 6,
+      "script_id": "33DEC0",
+      "script_end": "33DF7E",
+      "script_english": "[1F 02 6F][10 28][18 01 35]@Sorry.[10 0F] *cough cough*\n  I can't[10 05] *wheeze*[10 05] get out,[10 05] much less[10 05] *wheeze*[10 05] open the door.\n@All those cars and their exhaust are really killing my asthma![10 0F] *wheeze cough*.[13][18 00][02]",
+      "script_refs": [
+        "0F1F5B"
+      ],
+      "prefix": "18013570",
+      "suffix": "100f505a",
+      "fr": "Pardon",
+      "rendered_fr": "Pardon"
+    },
+    {
+      "id": "33F9D5",
+      "english": "do you?",
+      "text_length": 7,
+      "script_id": "33F9B0",
+      "script_end": "33FA16",
+      "script_english": "@Oh, you don't need anyone's help, [10 0F]do you?\n@Fine and dandy, [10 0F]you can color me gone.[13][18 04][1F 02 72][1F 1F 41 00 07][04 37 04][02]",
+      "script_refs": [
+        "33F733",
+        "33F738"
+      ],
+      "prefix": "5c50100f",
+      "suffix": "03007076",
+      "fr": "hein?",
+      "rendered_fr": "hein?"
+    },
+    {
+      "id": "347988",
+      "english": "Wait...",
+      "text_length": 7,
+      "script_id": "347987",
+      "script_end": "3479BF",
+      "script_english": "@Wait...\n@A voice is speaking into\n  [19 10 01][1B 04][1C 02 00]'s mind.[13][02]",
+      "script_refs": [
+        "34796B",
+        "347983"
+      ],
+      "prefix": "70",
+      "suffix": "03007071",
+      "fr": "Minute!",
+      "rendered_fr": "Minute!"
+    },
+    {
+      "id": "349E03",
+      "english": "Enjoy! ",
+      "text_length": 7,
+      "script_id": "349E02",
+      "script_end": "349E72",
+      "script_english": "@Enjoy! [10 1E]Oh, and your bed is ready. Please sleep well.[13][08 F4 79 F8 00][1F 21 1E][08 26 7A F8 00]@Had a good sleep?[1F 51]\n  Have a nice trip![13][02]",
+      "script_refs": [
+        "349DF5"
+      ],
+      "prefix": "70",
+      "suffix": "101e7f98",
+      "fr": "Miam!",
+      "rendered_fr": "Miam! "
+    },
+    {
+      "id": "34A808",
+      "english": "Good,",
+      "text_length": 5,
+      "script_id": "34A807",
+      "script_end": "34A890",
+      "script_english": "@Good,[10 0F] I was worried that you would ask a difficult one.[19 10 01][0B 01][1B 02 90 A8 F4 00]\n@You know...[10 0F] you look so much like Queen Mary.\n@I wonder why?[13][02]",
+      "script_refs": [
+        "34A7CE",
+        "34A7D3"
+      ],
+      "prefix": "70",
+      "suffix": "100f5079",
+      "fr": "Bien,",
+      "rendered_fr": "Bien,"
+    },
+    {
+      "id": "34A8C0",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "34A897",
+      "script_end": "34A902",
+      "script_english": "[06 97 03 05 AA F4 00]@Do you want a friendship ring?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 02 A9 F4 00 D8 A8 F4 00]@...I... had a feeling you'd say that...[13][02]",
+      "script_refs": [
+        "202822",
+        "34A803",
+        "34A893"
+      ],
+      "prefix": "6f001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "34ABFB",
+      "english": "Hello!",
+      "text_length": 6,
+      "script_id": "34ABE8",
+      "script_end": "34AD84",
+      "script_english": "[19 27 09][1B 04][18 07 19 00 00 00 01][1B 03 84 AD F4 00]@Hello!\n@I didn't hear you come in.\n@That guitar playing is so\n  loud...\n@I can't even think.\n@What?[10 0F] I was playing the guitar myself?\n@I should have known...\n@.[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05]\n@The story I will tell you is a real secret.\n@When you become really strong,[10 0F] come see me.\n@You better write this down so you don't forget.\n@I know if I don't write things down,[10 0F] I forget.[13][02]",
+      "script_refs": [
+        "20633C"
+      ],
+      "prefix": "adf40070",
+      "suffix": "03007079",
+      "fr": "Salut!",
+      "rendered_fr": "Salut!"
+    },
+    {
+      "id": "34AC3B",
+      "english": "  loud...",
+      "text_length": 9,
+      "script_id": "34ABE8",
+      "script_end": "34AD84",
+      "script_english": "[19 27 09][1B 04][18 07 19 00 00 00 01][1B 03 84 AD F4 00]@Hello!\n@I didn't hear you come in.\n@That guitar playing is so\n  loud...\n@I can't even think.\n@What?[10 0F] I was playing the guitar myself?\n@I should have known...\n@.[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05]\n@The story I will tell you is a real secret.\n@When you become really strong,[10 0F] come see me.\n@You better write this down so you don't forget.\n@I know if I don't write things down,[10 0F] I forget.[13][02]",
+      "script_refs": [
+        "20633C"
+      ],
+      "prefix": "50a39f00",
+      "suffix": "03007079",
+      "fr": "fort...",
+      "rendered_fr": "  fort..."
+    },
+    {
+      "id": "34AC5D",
+      "english": "What?",
+      "text_length": 5,
+      "script_id": "34ABE8",
+      "script_end": "34AD84",
+      "script_english": "[19 27 09][1B 04][18 07 19 00 00 00 01][1B 03 84 AD F4 00]@Hello!\n@I didn't hear you come in.\n@That guitar playing is so\n  loud...\n@I can't even think.\n@What?[10 0F] I was playing the guitar myself?\n@I should have known...\n@.[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05].[10 05]\n@The story I will tell you is a real secret.\n@When you become really strong,[10 0F] come see me.\n@You better write this down so you don't forget.\n@I know if I don't write things down,[10 0F] I forget.[13][02]",
+      "script_refs": [
+        "20633C"
+      ],
+      "prefix": "5e030070",
+      "suffix": "100f5079",
+      "fr": "Quoi?",
+      "rendered_fr": "Quoi?"
+    },
+    {
+      "id": "350041",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "35001E",
+      "script_end": "350072",
+      "script_english": "[1A 11 04][1B 03 72 00 F5 00]@You want to sing, too?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 A5 00 F5 00 59 00 F5 00]@You're a shy one, huh![13][02]",
+      "script_refs": [
+        "204923"
+      ],
+      "prefix": "6f001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "3513EA",
+      "english": "Hi, ",
+      "text_length": 4,
+      "script_id": "3513E9",
+      "script_end": "351409",
+      "script_english": "@Hi, [1C 02 04]!\n  How are you doin'?[13][02]",
+      "script_refs": [
+        "3513AC",
+        "3519B1",
+        "351ED3",
+        "351F2B"
+      ],
+      "prefix": "70",
+      "suffix": "1c020451",
+      "fr": "Hé,",
+      "rendered_fr": "Hé, "
+    },
+    {
+      "id": "35140A",
+      "english": "Hey ",
+      "text_length": 4,
+      "script_id": "351409",
+      "script_end": "351414",
+      "script_english": "@Hey [1C 02 04]![13][02]",
+      "script_refs": [
+        "35195E",
+        "351A14"
+      ],
+      "prefix": "70",
+      "suffix": "1c020451",
+      "fr": "Hé",
+      "rendered_fr": "Hé "
+    },
+    {
+      "id": "3523B4",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "352382",
+      "script_end": "35240B",
+      "script_english": "[06 8D 03 83 25 F5 00]@Wow, you're so cute.\n@Are you thirsty?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 0B 24 F5 00 CC 23 F5 00]@Oh, you're still a kid?\n@Come back when you're older, then.[13][02]",
+      "script_refs": [
+        "205C54"
+      ],
+      "prefix": "6f001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "353D50",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "353CC9",
+      "script_end": "353D87",
+      "script_english": "@It's too bad that the door to the roof is locked.\n@Maybe you'd like to join me...\n@I was going to sneak out and play my Game Boy.\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 68 3D F5 00 68 3D F5 00]@You don't talk much, do you?[13][02]",
+      "script_refs": [
+        "2029DC"
+      ],
+      "prefix": "5e001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "3542EE",
+      "english": "First,",
+      "text_length": 6,
+      "script_id": "3542ED",
+      "script_end": "3543ED",
+      "script_english": "@First,[10 0F] show me your money.[10 0F]\n  Then I'll treat you.\n[18 0A][1C 04][10 1E][1A 15][0D 00]@Well...[10 0F] [08 3F 7B F8 00],[10 0F] I'll have to bill $[1C 0A 00 00 00 00] for your treatment.\n@This special price was set just for you.\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 ED 43 F5 00 B6 43 F5 00]@Fine, die all on your own.\n  I'll phone a mortician.[13][02]",
+      "script_refs": [
+        "202B96"
+      ],
+      "prefix": "70",
+      "suffix": "100f50a3",
+      "fr": "Avant,",
+      "rendered_fr": "Avant,"
+    },
+    {
+      "id": "354330",
+      "english": "Well...",
+      "text_length": 7,
+      "script_id": "3542ED",
+      "script_end": "3543ED",
+      "script_english": "@First,[10 0F] show me your money.[10 0F]\n  Then I'll treat you.\n[18 0A][1C 04][10 1E][1A 15][0D 00]@Well...[10 0F] [08 3F 7B F8 00],[10 0F] I'll have to bill $[1C 0A 00 00 00 00] for your treatment.\n@This special price was set just for you.\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 ED 43 F5 00 B6 43 F5 00]@Fine, die all on your own.\n  I'll phone a mortician.[13][02]",
+      "script_refs": [
+        "202B96"
+      ],
+      "prefix": "150d0070",
+      "suffix": "100f5008",
+      "fr": "Bon...",
+      "rendered_fr": "Bon..."
+    },
+    {
+      "id": "35439E",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "3542ED",
+      "script_end": "3543ED",
+      "script_english": "@First,[10 0F] show me your money.[10 0F]\n  Then I'll treat you.\n[18 0A][1C 04][10 1E][1A 15][0D 00]@Well...[10 0F] [08 3F 7B F8 00],[10 0F] I'll have to bill $[1C 0A 00 00 00 00] for your treatment.\n@This special price was set just for you.\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 ED 43 F5 00 B6 43 F5 00]@Fine, die all on your own.\n  I'll phone a mortician.[13][02]",
+      "script_refs": [
+        "202B96"
+      ],
+      "prefix": "5e001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "354562",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "3544C9",
+      "script_end": "3545AC",
+      "script_english": "[1A 0C A7 D3 F8 00][06 55 03 7A 45 F5 00]@Of course the door to the roof is locked!\n@We can't have students sneaking out to play games\n  when they should be studying, you know!\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 AC 45 F5 00 7A 45 F5 00]@Say, you should stay a while and have some tea.[13][02]",
+      "script_refs": [
+        "2028AA"
+      ],
+      "prefix": "51001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "35464D",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "3545AC",
+      "script_end": "3546A1",
+      "script_english": "@It's no big deal.\n@The real problem is my wife.\n@She sleeps in until noon each day.\n@She won't even pack me a brown bag lunch!\n@Isn't that just terrible?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 A1 46 F5 00 65 46 F5 00]@A kid like you wouldn't understand the sorrows of life...[13][02]",
+      "script_refs": [
+        "354572"
+      ],
+      "prefix": "6f001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "354733",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "3546A1",
+      "script_end": "354821",
+      "script_english": "@Then, when she does get up,[10 0F] she goes shopping.\n@Luckily,[10 0F] I hid the credit cards from that woman!\n@Don't you think she's a terrible wife?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 21 48 F5 00 4B 47 F5 00]@When she was young,[10 0F] she was very pretty...\n@Come to think of it,[10 0F] she's not that bad after all.\n@Say, how about some tea?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 60 48 F5 00 E5 47 F5 00]@Cherish your elders or you'll be sorry when YOU grow old![13][02]",
+      "script_refs": [
+        "35465D"
+      ],
+      "prefix": "6f001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "3547CD",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "3546A1",
+      "script_end": "354821",
+      "script_english": "@Then, when she does get up,[10 0F] she goes shopping.\n@Luckily,[10 0F] I hid the credit cards from that woman!\n@Don't you think she's a terrible wife?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 21 48 F5 00 4B 47 F5 00]@When she was young,[10 0F] she was very pretty...\n@Come to think of it,[10 0F] she's not that bad after all.\n@Say, how about some tea?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 60 48 F5 00 E5 47 F5 00]@Cherish your elders or you'll be sorry when YOU grow old![13][02]",
+      "script_refs": [
+        "35465D"
+      ],
+      "prefix": "6f001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "354FE0",
+      "english": "  Oh no,",
+      "text_length": 8,
+      "script_id": "354F70",
+      "script_end": "354FFC",
+      "script_english": "[18 01 35]@Alright,[10 0F] listen closely.\n  I need to show you how this works.\n@Whatever you do,[10 0F] don't press the--\n[1F 02 22][10 28]  Oh no,[10 0F] I pressed it![13][18 04][02]",
+      "script_refs": [
+        "354F2A",
+        "354F58"
+      ],
+      "prefix": "02221028",
+      "suffix": "100f5079",
+      "fr": "Zut,",
+      "rendered_fr": "  Zut,"
+    },
+    {
+      "id": "35501B",
+      "english": "Oops!",
+      "text_length": 5,
+      "script_id": "355013",
+      "script_end": "355054",
+      "script_english": "[1D 01 FF 9C][18 01 35]@Oops![10 0F] It's gone into orbit.\n@A success...[10 0F] sort of.[13][02]",
+      "script_refs": [
+        "354F3E",
+        "354F6C"
+      ],
+      "prefix": "18013570",
+      "suffix": "100f5079",
+      "fr": "Oups!",
+      "rendered_fr": "Oups!"
+    },
+    {
+      "id": "355055",
+      "english": "Here,",
+      "text_length": 5,
+      "script_id": "355054",
+      "script_end": "3550CE",
+      "script_english": "@Here,[10 0F] let me show you how this works.\n@Just take this switch and--\n[1F 02 22][10 28]  Oh no![10 0F] I pressed it by mistake![13][1D 01 FF BF][18 04][1F 21 12][02]",
+      "script_refs": [
+        "354E46"
+      ],
+      "prefix": "70",
+      "suffix": "100f509c",
+      "fr": "Tiens",
+      "rendered_fr": "Tiens"
+    },
+    {
+      "id": "3550A0",
+      "english": "  Oh no!",
+      "text_length": 8,
+      "script_id": "355054",
+      "script_end": "3550CE",
+      "script_english": "@Here,[10 0F] let me show you how this works.\n@Just take this switch and--\n[1F 02 22][10 28]  Oh no![10 0F] I pressed it by mistake![13][1D 01 FF BF][18 04][1F 21 12][02]",
+      "script_refs": [
+        "354E46"
+      ],
+      "prefix": "02221028",
+      "suffix": "100f5079",
+      "fr": "Zut!",
+      "rendered_fr": "  Zut!"
+    },
+    {
+      "id": "355369",
+      "english": "Sniff",
+      "text_length": 5,
+      "script_id": "355368",
+      "script_end": "35538E",
+      "script_english": "@Sniff[10 0F]-sniff...\n@Bark!\n@(Scram!)[13][02]",
+      "script_refs": [
+        "3552A9"
+      ],
+      "prefix": "70",
+      "suffix": "100f5da3",
+      "fr": "Snif",
+      "rendered_fr": "Snif"
+    },
+    {
+      "id": "355370",
+      "english": "-sniff...",
+      "text_length": 9,
+      "script_id": "355368",
+      "script_end": "35538E",
+      "script_english": "@Sniff[10 0F]-sniff...\n@Bark!\n@(Scram!)[13][02]",
+      "script_refs": [
+        "3552A9"
+      ],
+      "prefix": "9696100f",
+      "suffix": "03007072",
+      "fr": "-snif...",
+      "rendered_fr": "-snif..."
+    },
+    {
+      "id": "35537C",
+      "english": "Bark!",
+      "text_length": 5,
+      "script_id": "355368",
+      "script_end": "35538E",
+      "script_english": "@Sniff[10 0F]-sniff...\n@Bark!\n@(Scram!)[13][02]",
+      "script_refs": [
+        "3552A9"
+      ],
+      "prefix": "5e030070",
+      "suffix": "03007058",
+      "fr": "Ouaf!",
+      "rendered_fr": "Ouaf!"
+    },
+    {
+      "id": "35589F",
+      "english": "Okay!",
+      "text_length": 5,
+      "script_id": "35587B",
+      "script_end": "35591A",
+      "script_english": "[1F 07 03]@Aiming it at the rock...\n[10 78][1F 00 00 04]@Okay![10 0F] 3-[10 3C]2-[10 3C]1[10 3C] Fire![10 0A][13][18 04][1F 41 05][04 0B 00][1F E5 FF][1F 02 46][1F F1 5F 03 1B 04][10 64][1F EB FF 06][1A 0C 13 AA F8 00 03][1F 21 03][04 5B 03][10 3C][1F 15 E5 00 1C 04 01][1F 02 11][10 46][1F 00 00 6E][1F 1F F5 00 06][1F 15 6A 00 1D 04 01][1F 61][10 64][1F 21 51][04 41 04][1F E8 FF][1F EC FF 01][1F ED][1F 41 06][05 0B 00][02]",
+      "script_refs": [
+        "355935"
+      ],
+      "prefix": "00000470",
+      "suffix": "100f5063",
+      "fr": "Bien!",
+      "rendered_fr": "Bien!"
+    },
+    {
+      "id": "3558B2",
+      "english": " Fire!",
+      "text_length": 6,
+      "script_id": "35587B",
+      "script_end": "35591A",
+      "script_english": "[1F 07 03]@Aiming it at the rock...\n[10 78][1F 00 00 04]@Okay![10 0F] 3-[10 3C]2-[10 3C]1[10 3C] Fire![10 0A][13][18 04][1F 41 05][04 0B 00][1F E5 FF][1F 02 46][1F F1 5F 03 1B 04][10 64][1F EB FF 06][1A 0C 13 AA F8 00 03][1F 21 03][04 5B 03][10 3C][1F 15 E5 00 1C 04 01][1F 02 11][10 46][1F 00 00 6E][1F 1F F5 00 06][1F 15 6A 00 1D 04 01][1F 61][10 64][1F 21 51][04 41 04][1F E8 FF][1F EC FF 01][1F ED][1F 41 06][05 0B 00][02]",
+      "script_refs": [
+        "355935"
+      ],
+      "prefix": "3c61103c",
+      "suffix": "100a1318",
+      "fr": "Feu!",
+      "rendered_fr": " Feu!"
+    },
+    {
+      "id": "35593A",
+      "english": "Only ",
+      "text_length": 5,
+      "script_id": "35591A",
+      "script_end": "355964",
+      "script_english": "[1D 0D 03 01 02][1B 03 39 59 F5 00][1D 0D 03 01 03][1B 03 39 59 F5 00][1A 11 03][1B 03 7B 58 F5 00]@Only [1C 02 03] can use this kind of machinery.[13][02]",
+      "script_refs": [
+        "205B00"
+      ],
+      "prefix": "58f50070",
+      "suffix": "1c020350",
+      "fr": "Seul",
+      "rendered_fr": "Seul "
+    },
+    {
+      "id": "35D138",
+      "english": "Oh, hi ",
+      "text_length": 7,
+      "script_id": "35D137",
+      "script_end": "35D1E2",
+      "script_english": "@Oh, hi [1C 01 08].\n@Minnie speaking.\n [10 0F][10 0F] (Mimmie, brother's on the phone!)\n@She says hello too.\n@She's also waving like you can see her. Ha!\n@Oops... Now she looks mad.\n[02]",
+      "script_refs": [
+        "35D058"
+      ],
+      "prefix": "70",
+      "suffix": "1c01085e",
+      "fr": "Salut",
+      "rendered_fr": "Salut "
+    },
+    {
+      "id": "35D6CE",
+      "english": "Hello!",
+      "text_length": 6,
+      "script_id": "35D6BF",
+      "script_end": "35D804",
+      "script_english": "[05 B5 00][05 85 02][08 2F DE C7 00][18 01 35]@Hello!\n  This is Escargo Express.\n  (hee, ha, he, ha)\n@I just (hee, ha, he, ha) couldn't find your location...\n@...You must be somewhere really strange.  (hee, ha, he, ha)\n@I've decided, honestly, that... I should give up.\n@I'm outta here.  (hee, ha, he, ha)\n@Sometimes this happens, you know?[13][08 54 DE C7 00][08 72 DE C7 00][02]",
+      "script_refs": [
+        "06451B"
+      ],
+      "prefix": "18013570",
+      "suffix": "00505084",
+      "fr": "Salut!",
+      "rendered_fr": "Salut!"
+    },
+    {
+      "id": "35DB1B",
+      "english": "Hey, ",
+      "text_length": 5,
+      "script_id": "35DB1A",
+      "script_end": "35DC4F",
+      "script_english": "@Hey, [1C 01 08]!\n  Oh no, you sound all stuffed-up!\n@Do you have a cold?\n@Listen, I know there are ghosts to fight and bigfoots to catch or whatever...  \n@Please think of your health and get some rest, even if it kills you!\n@Go see a doctor if it doesn't get better, okay?  Bye!\n@Click!  Beep-beep-beep...[13][1F 02 0B][02]",
+      "script_refs": [
+        "07CCED",
+        "35D83F"
+      ],
+      "prefix": "70",
+      "suffix": "1c010851",
+      "fr": "Hé,",
+      "rendered_fr": "Hé, "
+    },
+    {
+      "id": "35DC50",
+      "english": "Hello, ",
+      "text_length": 7,
+      "script_id": "35DC4F",
+      "script_end": "35DDA6",
+      "script_english": "@Hello, [1C 01 08]?\n  What's wrong?  Are you OK?\n@Honey, is your asthma flaring up again?\n@Did you remember to pack an inhaler?\n@If you didn't, go to the drugstore.  Do you have enough money?\n@Am I worrying too much?\n@If adventuring is too tough, stop by home and I'll make you some [1C 01 04].\n@Please take care, [1C 01 08].\n@Click!  Beep-beep-beep...[13][1F 02 0B][02]",
+      "script_refs": [
+        "07CDAF",
+        "35D834"
+      ],
+      "prefix": "70",
+      "suffix": "1c01086f",
+      "fr": "Salut,",
+      "rendered_fr": "Salut, "
+    },
+    {
+      "id": "35DEE3",
+      "english": "Hello, ",
+      "text_length": 7,
+      "script_id": "35DEE2",
+      "script_end": "35E044",
+      "script_english": "@Hello, [1C 01 08]?\n@So, how's the adventure going?\n  Have you done anything exciting lately?\n@...\n@I seeeee...\n@Maybe I shouldn't have asked. Now I'm going to worry!\n@Oh, of course I believe in you, honey!\n@You know how moms are...\n@I'm in the middle of doing the laundry, so I'd better go!\n@Bye! Be careful out there!\n[1F 02 0B]@Click!  Beep-beep-beep...[13][02]",
+      "script_refs": [
+        "07CF6D",
+        "35D857",
+        "35D85B"
+      ],
+      "prefix": "70",
+      "suffix": "1c01086f",
+      "fr": "Salut,",
+      "rendered_fr": "Salut, "
+    },
+    {
+      "id": "35E14D",
+      "english": "Bye!",
+      "text_length": 4,
+      "script_id": "35E044",
+      "script_end": "35E172",
+      "script_english": "@[1C 01 08]!\n@I was just thinking of you, sweetie...\n@Why was I thinking about you?\n@I was clipping coupons and I found a two-for-one on your favorite snacks! \n@They'll be here when you get home.\n@Listen, I have to run.  The girls are helping me put away groceries.\n@Bye!\n[1F 02 0B]  Click!  Beep-beep-beep...[13][02]",
+      "script_refs": [
+        "07D05B",
+        "35D85F",
+        "35D863"
+      ],
+      "prefix": "5e030070",
+      "suffix": "001f020b",
+      "fr": "Ciao",
+      "rendered_fr": "Ciao"
+    },
+    {
+      "id": "35E29D",
+      "english": "Bye!",
+      "text_length": 4,
+      "script_id": "35E172",
+      "script_end": "35E2C2",
+      "script_english": "@[1C 01 08], [1C 01 08], [1C 01 08]!\n@I knew if I said your name three times, I'd get a call from you!\n@Okay, yes.  I'm just teasing...\n@Having a weird mom builds character, I'll have you know!\n@Everyone here is doing well.\n@Hope you're doing alright, too.\n@Well, I better go... I think brunch just caught fire.\n@Bye!\n[1F 02 0B]  Click!  Beep-beep-beep...[13][02]",
+      "script_refs": [
+        "07D103",
+        "35D867"
+      ],
+      "prefix": "5e030070",
+      "suffix": "001f020b",
+      "fr": "Ciao",
+      "rendered_fr": "Ciao"
+    },
+    {
+      "id": "35E5C8",
+      "english": "Hello!",
+      "text_length": 6,
+      "script_id": "35E5B6",
+      "script_end": "35E704",
+      "script_english": "[05 B4 00][05 6A 00][05 B3 00][08 2F DE C7 00][18 01 35]@Hello!\n  This is Mach Pizza.\n (hee, ha, he, ha)\n@...You must be at somewhere really strange, (hee, ha, he, ha)...\n@I couldn't deliver the pizza.\n  The pizza got really cold and hard, and my legs are tired...\n@I am going to give up and go back.\n@...I hope I can find the way home...\n (hee, ha, he, ha)[13][08 54 DE C7 00][08 72 DE C7 00][02]",
+      "script_refs": [
+        "064CF9"
+      ],
+      "prefix": "18013570",
+      "suffix": "00505084",
+      "fr": "Salut!",
+      "rendered_fr": "Salut!"
+    },
+    {
+      "id": "360A99",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "360A5B",
+      "script_end": "360AD5",
+      "script_english": "@By the way...\n@Do you think my...[10 0F] socks are too short?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 B1 0A F6 00 B1 0A F6 00]@You didn't have to answer, cutie.[13][02]",
+      "script_refs": [
+        "360A16",
+        "360A57"
+      ],
+      "prefix": "03001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "360BC6",
+      "english": "What?",
+      "text_length": 5,
+      "script_id": "360B9D",
+      "script_end": "360C10",
+      "script_english": "[06 21 03 FE 0C F6 00]@I forgot to eat lunch today...\n@What?[10 0F] No, I don't want a donut!\n@Yeah,[10 0F] yeah, go play baseball, kid.[13][02]",
+      "script_refs": [
+        "202448",
+        "202657"
+      ],
+      "prefix": "5e030070",
+      "suffix": "100f507e",
+      "fr": "Quoi?",
+      "rendered_fr": "Quoi?"
+    },
+    {
+      "id": "3618F8",
+      "english": "Say...",
+      "text_length": 6,
+      "script_id": "3618F0",
+      "script_end": "361983",
+      "script_english": "[06 20 03 AF 12 F6 00]@Say...\n@You're not honestly thinking of going to the cemetery, are you?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 5C 19 F6 00 5C 19 F6 00]@I thought you were a sensible child.[13][02]",
+      "script_refs": [
+        "202426"
+      ],
+      "prefix": "12f60070",
+      "suffix": "03007089",
+      "fr": "Dis...",
+      "rendered_fr": "Dis..."
+    },
+    {
+      "id": "361944",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "3618F0",
+      "script_end": "361983",
+      "script_english": "[06 20 03 AF 12 F6 00]@Say...\n@You're not honestly thinking of going to the cemetery, are you?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 5C 19 F6 00 5C 19 F6 00]@I thought you were a sensible child.[13][02]",
+      "script_refs": [
+        "202426"
+      ],
+      "prefix": "03001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "3638FF",
+      "english": " got the ",
+      "text_length": 9,
+      "script_id": "3637C9",
+      "script_end": "363912",
+      "script_english": "[1D 01 FF 4C][1F 02 76]@So nice to have my dentures back once more.\n@Your reward?\n@With you I'll share my secret to a long,[10 0F] long life.\n@Gargle often.\n@Gargle proud.\n@Gargle strong.\n@And if you catch a cold,[10 0F] gargling will help you.\n@Here is some mouthwash I concocted myself.\n@Take it!\n[1D 03 FF][1D 0E 00 AD][1F 02 74][10 12][1D 03 FF][1B 03 E6 38 F6 00]@([08 4E E7 C7 00] got the [1C 05 AD].)[13][04 6E 03][02]",
+      "script_refs": [
+        "363946"
+      ],
+      "prefix": "4ee7c700",
+      "suffix": "1c05ad5e",
+      "fr": "obtient",
+      "rendered_fr": " obtient "
+    },
+    {
+      "id": "363A0B",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "3639EE",
+      "script_end": "363A55",
+      "script_english": "[18 0A]@Oh, you want more [1C 05 AD]?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 55 3A F6 00 23 3A F6 00]@Okay, let me know if you want more [1C 05 AD] anytime.[13][02]",
+      "script_refs": [
+        "3639A8"
+      ],
+      "prefix": "03001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "363B2C",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "363AF4",
+      "script_end": "363B6F",
+      "script_english": "[06 6C 03 72 3C F6 00]@By any chance are you on your way to Snowman?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 6F 3B F6 00 44 3B F6 00]@Oh. [10 0F]Well, I had a favor to ask of you.[13][02]",
+      "script_refs": [
+        "20346B"
+      ],
+      "prefix": "6f001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "363B45",
+      "english": "Oh. ",
+      "text_length": 4,
+      "script_id": "363AF4",
+      "script_end": "363B6F",
+      "script_english": "[06 6C 03 72 3C F6 00]@By any chance are you on your way to Snowman?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 6F 3B F6 00 44 3B F6 00]@Oh. [10 0F]Well, I had a favor to ask of you.[13][02]",
+      "script_refs": [
+        "20346B"
+      ],
+      "prefix": "3bf60070",
+      "suffix": "100f8795",
+      "fr": "Ah.",
+      "rendered_fr": "Ah. "
+    },
+    {
+      "id": "3640AB",
+      "english": "Hey,",
+      "text_length": 4,
+      "script_id": "3640AA",
+      "script_end": "36411D",
+      "script_english": "@Hey,[10 0F] that hat you have looks just like the one that [1C 02 02] of Snowman lost.\n@You should go and return it to her.[13][02]",
+      "script_refs": [
+        "364040"
+      ],
+      "prefix": "70",
+      "suffix": "100f50a4",
+      "fr": "Hé,",
+      "rendered_fr": "Hé,"
+    },
+    {
+      "id": "36445D",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "36443B",
+      "script_end": "36448A",
+      "script_english": "@Oh yeah!\n@Are you feelin' it?!\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 8A 44 F6 00 75 44 F6 00]@Fine, be that way.[13][02]",
+      "script_refs": [
+        "20448E"
+      ],
+      "prefix": "51001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "36448B",
+      "english": "Hey!",
+      "text_length": 4,
+      "script_id": "36448A",
+      "script_end": "36452C",
+      "script_english": "@Hey!\n@Wanna hear my song?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 C0 44 F6 00 2C 45 F6 00][1F 07 03][10 80][1F 00 00 19]@The cool boy sang a very... unique song.\n[10 5A]@Not even [19 10 01][1B 04][1C 02 00] could learn this melody.[13][1F 07 03][10 80][1F 03][18 04][02]",
+      "script_refs": [
+        "36446D"
+      ],
+      "prefix": "70",
+      "suffix": "03007087",
+      "fr": "Hé!",
+      "rendered_fr": "Hé!"
+    },
+    {
+      "id": "3644A8",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "36448A",
+      "script_end": "36452C",
+      "script_english": "@Hey!\n@Wanna hear my song?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 C0 44 F6 00 2C 45 F6 00][1F 07 03][10 80][1F 00 00 19]@The cool boy sang a very... unique song.\n[10 5A]@Not even [19 10 01][1B 04][1C 02 00] could learn this melody.[13][1F 07 03][10 80][1F 03][18 04][02]",
+      "script_refs": [
+        "36446D"
+      ],
+      "prefix": "6f001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "364B8A",
+      "english": "Achoo!",
+      "text_length": 6,
+      "script_id": "364B62",
+      "script_end": "364BB0",
+      "script_english": "@A cold's been going around lately...\n@Achoo!\n[19 10 01][19 05 00 01 08]@Argh! [10 0F]This sucks![13][02]",
+      "script_refs": [
+        "20467B"
+      ],
+      "prefix": "5e030070",
+      "suffix": "03001910",
+      "fr": "Atchou",
+      "rendered_fr": "Atchou"
+    },
+    {
+      "id": "364B9B",
+      "english": "Argh! ",
+      "text_length": 6,
+      "script_id": "364B62",
+      "script_end": "364BB0",
+      "script_english": "@A cold's been going around lately...\n@Achoo!\n[19 10 01][19 05 00 01 08]@Argh! [10 0F]This sucks![13][02]",
+      "script_refs": [
+        "20467B"
+      ],
+      "prefix": "00010870",
+      "suffix": "100f8498",
+      "fr": "Aïe!",
+      "rendered_fr": "Aïe! "
+    },
+    {
+      "id": "365096",
+      "english": "Well, ",
+      "text_length": 6,
+      "script_id": "36504E",
+      "script_end": "3650D0",
+      "script_english": "@Have you ever thrown food away when you're carrying too many things?\n@Well, [10 0F]this IS a game, [10 0F]so I guess it can't be helped.[13][02]",
+      "script_refs": [
+        "204703"
+      ],
+      "prefix": "6f030070",
+      "suffix": "100fa498",
+      "fr": "Bref,",
+      "rendered_fr": "Bref, "
+    },
+    {
+      "id": "365159",
+      "english": "Beginning test shop...",
+      "text_length": 22,
+      "script_id": "365158",
+      "script_end": "365171",
+      "script_english": "@Beginning test shop...\n[02]",
+      "script_refs": [
+        "365809"
+      ],
+      "prefix": "70",
+      "suffix": "0002",
+      "fr": "Test de boutique...",
+      "rendered_fr": "Test de boutique..."
+    },
+    {
+      "id": "365172",
+      "english": "Dialogue when exiting after a transaction.",
+      "text_length": 42,
+      "script_id": "365171",
+      "script_end": "36519E",
+      "script_english": "@Dialogue when exiting after a transaction.[13][02]",
+      "script_refs": [
+        "3658C1"
+      ],
+      "prefix": "70",
+      "suffix": "1302",
+      "fr": "Dialogue de sortie après une transaction.",
+      "rendered_fr": "Dialogue de sortie après une transaction."
+    },
+    {
+      "id": "36519F",
+      "english": "Dialogue when exiting after no transaction.",
+      "text_length": 43,
+      "script_id": "36519E",
+      "script_end": "3651CC",
+      "script_english": "@Dialogue when exiting after no transaction.[13][02]",
+      "script_refs": [
+        "365979"
+      ],
+      "prefix": "70",
+      "suffix": "1302",
+      "fr": "Dialogue de sortie sans transaction.",
+      "rendered_fr": "Dialogue de sortie sans transaction."
+    },
+    {
+      "id": "3651CD",
+      "english": "Opening the shop window.",
+      "text_length": 24,
+      "script_id": "3651CC",
+      "script_end": "3651E7",
+      "script_english": "@Opening the shop window.[14][02]",
+      "script_refs": [
+        "365A31"
+      ],
+      "prefix": "70",
+      "suffix": "1402",
+      "fr": "Boutique ouverte.",
+      "rendered_fr": "Boutique ouverte."
+    },
+    {
+      "id": "3651E8",
+      "english": "Selected <",
+      "text_length": 10,
+      "script_id": "3651E7",
+      "script_end": "365202",
+      "script_english": "@Selected <[1C 05 00]> ([1C 0A 00 00 00 00]).\n[02]",
+      "script_refs": [
+        "365AE9"
+      ],
+      "prefix": "70",
+      "suffix": "1c05006e",
+      "fr": "Choix de <",
+      "rendered_fr": "Choix de <"
+    },
+    {
+      "id": "365223",
+      "english": "Should it be equipped now?",
+      "text_length": 26,
+      "script_id": "365222",
+      "script_end": "36523F",
+      "script_english": "@Should it be equipped now?\n[02]",
+      "script_refs": [
+        "365C59"
+      ],
+      "prefix": "70",
+      "suffix": "0002",
+      "fr": "L'équiper maintenant?",
+      "rendered_fr": "L'équiper maintenant?"
+    },
+    {
+      "id": "365240",
+      "english": "Previous equipment is",
+      "text_length": 21,
+      "script_id": "36523F",
+      "script_end": "365283",
+      "script_english": "@Previous equipment is\n  <[1C 05 00]> ([1C 0A 00 00 00 00]).\n@Sell it for $[1B 04][1C 0A 00 00 00 00]?\n[02]",
+      "script_refs": [
+        "365D11"
+      ],
+      "prefix": "70",
+      "suffix": "0050506c",
+      "fr": "Ancien équipement :",
+      "rendered_fr": "Ancien équipement :"
+    },
+    {
+      "id": "36526A",
+      "english": "Sell it for $",
+      "text_length": 13,
+      "script_id": "36523F",
+      "script_end": "365283",
+      "script_english": "@Previous equipment is\n  <[1C 05 00]> ([1C 0A 00 00 00 00]).\n@Sell it for $[1B 04][1C 0A 00 00 00 00]?\n[02]",
+      "script_refs": [
+        "365D11"
+      ],
+      "prefix": "5e030070",
+      "suffix": "1b041c0a",
+      "fr": "Vendre pour $",
+      "rendered_fr": "Vendre pour $"
+    },
+    {
+      "id": "365290",
+      "english": ") is not able to equip the item.",
+      "text_length": 32,
+      "script_id": "365283",
+      "script_end": "3652C5",
+      "script_english": "@[1C 02 00] (P[1C 0A 00 00 00 00]) is not able to equip the item.\n@Purhcase anyway?\n[02]",
+      "script_refs": [
+        "365DC9"
+      ],
+      "prefix": "00000000",
+      "suffix": "03007080",
+      "fr": ") ne peut pas s'en équiper.",
+      "rendered_fr": ") ne peut pas s'en équiper."
+    },
+    {
+      "id": "3652B3",
+      "english": "Purhcase anyway?",
+      "text_length": 16,
+      "script_id": "365283",
+      "script_end": "3652C5",
+      "script_english": "@[1C 02 00] (P[1C 0A 00 00 00 00]) is not able to equip the item.\n@Purhcase anyway?\n[02]",
+      "script_refs": [
+        "365DC9"
+      ],
+      "prefix": "5e030070",
+      "suffix": "0002",
+      "fr": "Acheter?",
+      "rendered_fr": "Acheter?"
+    },
+    {
+      "id": "3652C6",
+      "english": "Cancelled after change of mind.",
+      "text_length": 31,
+      "script_id": "3652C5",
+      "script_end": "3652E8",
+      "script_english": "@Cancelled after change of mind.\n[02]",
+      "script_refs": [
+        "365E81"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Annulé après changement d'avis.",
+      "rendered_fr": "Annulé après changement d'avis."
+    },
+    {
+      "id": "3652E9",
+      "english": "Not enough cash for this item.",
+      "text_length": 30,
+      "script_id": "3652E8",
+      "script_end": "36530A",
+      "script_english": "@Not enough cash for this item.\n[02]",
+      "script_refs": [
+        "365F39"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Pas assez d'argent pour ça.",
+      "rendered_fr": "Pas assez d'argent pour ça."
+    },
+    {
+      "id": "36530B",
+      "english": "The party has too much stuff.",
+      "text_length": 29,
+      "script_id": "36530A",
+      "script_end": "365349",
+      "script_english": "@The party has too much stuff.\n@Sell something to make room?\n[02]",
+      "script_refs": [
+        "365FF1"
+      ],
+      "prefix": "70",
+      "suffix": "03007083",
+      "fr": "L'équipe porte trop d'objets.",
+      "rendered_fr": "L'équipe porte trop d'objets."
+    },
+    {
+      "id": "36532B",
+      "english": "Sell something to make room?",
+      "text_length": 28,
+      "script_id": "36530A",
+      "script_end": "365349",
+      "script_english": "@The party has too much stuff.\n@Sell something to make room?\n[02]",
+      "script_refs": [
+        "365FF1"
+      ],
+      "prefix": "5e030070",
+      "suffix": "0002",
+      "fr": "Vendre pour faire place?",
+      "rendered_fr": "Vendre pour faire place?"
+    },
+    {
+      "id": "36538B",
+      "english": "Cancelled selling.",
+      "text_length": 18,
+      "script_id": "36538A",
+      "script_end": "3653A0",
+      "script_english": "@Cancelled selling.\n[02]",
+      "script_refs": [
+        "366219"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Vente annulée.",
+      "rendered_fr": "Vente annulée."
+    },
+    {
+      "id": "3653A1",
+      "english": "There are no items in your inventory.",
+      "text_length": 37,
+      "script_id": "3653A0",
+      "script_end": "3653C9",
+      "script_english": "@There are no items in your inventory.\n[02]",
+      "script_refs": [
+        "3662D1"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Aucun objet dans l'inventaire.",
+      "rendered_fr": "Aucun objet dans l'inventaire."
+    },
+    {
+      "id": "3653D7",
+      "english": ") cannot be sold.",
+      "text_length": 17,
+      "script_id": "3653C9",
+      "script_end": "3653EB",
+      "script_english": "@<[1C 05 00]> ([1C 0A 00 00 00 00]) cannot be sold.\n[02]",
+      "script_refs": [
+        "366389"
+      ],
+      "prefix": "00000000",
+      "suffix": "030002",
+      "fr": ") invendable.",
+      "rendered_fr": ") invendable."
+    },
+    {
+      "id": "3653EC",
+      "english": "Made a purchase.",
+      "text_length": 16,
+      "script_id": "3653EB",
+      "script_end": "3653FF",
+      "script_english": "@Made a purchase.\n[02]",
+      "script_refs": [
+        "366441"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Achat effectué.",
+      "rendered_fr": "Achat effectué."
+    },
+    {
+      "id": "365443",
+      "english": "Perform another transaction?",
+      "text_length": 28,
+      "script_id": "365442",
+      "script_end": "365461",
+      "script_english": "@Perform another transaction?\n[02]",
+      "script_refs": [
+        "3664F9"
+      ],
+      "prefix": "70",
+      "suffix": "0002",
+      "fr": "Une autre transaction?",
+      "rendered_fr": "Une autre transaction?"
+    },
+    {
+      "id": "365462",
+      "english": "Performing another transaction.",
+      "text_length": 31,
+      "script_id": "365461",
+      "script_end": "365483",
+      "script_english": "@Performing another transaction.\n[02]",
+      "script_refs": [
+        "3665B1"
+      ],
+      "prefix": "70",
+      "suffix": "0002",
+      "fr": "Autre transaction en cours.",
+      "rendered_fr": "Autre transaction en cours."
+    },
+    {
+      "id": "365490",
+      "english": ")'s  inventory is full.",
+      "text_length": 23,
+      "script_id": "365483",
+      "script_end": "3654DA",
+      "script_english": "@[1C 02 00] (P[1C 0A 00 00 00 00])'s  inventory is full.\n@Choose another party member to carry the item?\n[02]",
+      "script_refs": [
+        "366669"
+      ],
+      "prefix": "00000000",
+      "suffix": "03007073",
+      "fr": ") : inventaire plein.",
+      "rendered_fr": ") : inventaire plein."
+    },
+    {
+      "id": "3654AA",
+      "english": "Choose another party member to carry the item?",
+      "text_length": 46,
+      "script_id": "365483",
+      "script_end": "3654DA",
+      "script_english": "@[1C 02 00] (P[1C 0A 00 00 00 00])'s  inventory is full.\n@Choose another party member to carry the item?\n[02]",
+      "script_refs": [
+        "366669"
+      ],
+      "prefix": "5e030070",
+      "suffix": "0002",
+      "fr": "Un autre équipier pour porter cet objet?",
+      "rendered_fr": "Un autre équipier pour porter cet objet?"
+    },
+    {
+      "id": "3654DB",
+      "english": "Buying six or more items.",
+      "text_length": 25,
+      "script_id": "3654DA",
+      "script_end": "3654F7",
+      "script_english": "@Buying six or more items.\n[02]",
+      "script_refs": [
+        "366721"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Achat de 6 objets ou plus",
+      "rendered_fr": "Achat de 6 objets ou plus"
+    },
+    {
+      "id": "3654F8",
+      "english": "Cannot afford this many items.",
+      "text_length": 30,
+      "script_id": "3654F7",
+      "script_end": "365519",
+      "script_english": "@Cannot afford this many items.\n[02]",
+      "script_refs": [
+        "3667D9"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Pas assez d'argent pour tout.",
+      "rendered_fr": "Pas assez d'argent pour tout."
+    },
+    {
+      "id": "36551A",
+      "english": "Not enough inventory space for this many items.",
+      "text_length": 47,
+      "script_id": "365519",
+      "script_end": "36554C",
+      "script_english": "@Not enough inventory space for this many items.\n[02]",
+      "script_refs": [
+        "366891"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Pas assez de place pour tous ces objets.",
+      "rendered_fr": "Pas assez de place pour tous ces objets."
+    },
+    {
+      "id": "36554D",
+      "english": "Chose to purchase zero or pressed B on quantity input.",
+      "text_length": 54,
+      "script_id": "36554C",
+      "script_end": "365586",
+      "script_english": "@Chose to purchase zero or pressed B on quantity input.\n[02]",
+      "script_refs": [
+        "366949"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Quantité nulle choisie ou bouton B pressé.",
+      "rendered_fr": "Quantité nulle choisie ou bouton B pressé."
+    },
+    {
+      "id": "367B88",
+      "english": " I Quit!",
+      "text_length": 8,
+      "script_id": "367B78",
+      "script_end": "367B9A",
+      "script_english": "[18 01 35]@That's it![10 0F] I Quit!\n[18 04][1F 1F 04 00 07][02]",
+      "script_refs": [
+        "367B6E",
+        "367B74"
+      ],
+      "prefix": "a451100f",
+      "suffix": "03001804",
+      "fr": "Je pars",
+      "rendered_fr": " Je pars"
+    },
+    {
+      "id": "369707",
+      "english": "  Here!",
+      "text_length": 7,
+      "script_id": "36964A",
+      "script_end": "36972E",
+      "script_english": "[1F 1A 45 03 03][10 3C][1F 1B 45 03][1F E5 FF][19 10 01][19 22 00 02 45 03][1F 14 00][1F F1 45 03 51 05][1F 61][18 01 35]@You tried to ignore me,[10 0F]\n  didn't you...\n@I'm so lonesome,[10 0F] out here all by myself.\n@If there's anything I can do for some company,[10 0F] I'll do it.[10 0F]  Here![13][18 04][08 DF A2 F6 00][1F E9 45 03][1F 14 03][1F F1 45 03 52 05][1F 61][10 1E][1F 14 07][1F E8 FF][02]",
+      "script_refs": [
+        "3695D9",
+        "3695E7",
+        "3695F5",
+        "369640"
+      ],
+      "prefix": "a45e100f",
+      "suffix": "13180408",
+      "fr": "Voilà",
+      "rendered_fr": "  Voilà"
+    },
+    {
+      "id": "36A2D6",
+      "english": " Here!",
+      "text_length": 6,
+      "script_id": "36A286",
+      "script_end": "36A2F3",
+      "script_english": "@How happy I am that you came all this way!\n@I know what you'd like me to do.[10 0F] Here![13][18 04][08 F4 15 C9 00][1A 0C A7 D3 F8 00][1F 00 00 0C][10 C8][1F 03][02]",
+      "script_refs": [
+        "205946"
+      ],
+      "prefix": "9f5e100f",
+      "suffix": "13180408",
+      "fr": "Voilà",
+      "rendered_fr": " Voilà"
+    },
+    {
+      "id": "36E02B",
+      "english": "But,",
+      "text_length": 4,
+      "script_id": "36DFF6",
+      "script_end": "36E063",
+      "script_english": "@I was on my way to Youngtown to look for my wife.\n@But,[10 0F] without the train running, how can I get there?[13][02]",
+      "script_refs": [
+        "203CC9"
+      ],
+      "prefix": "5e030070",
+      "suffix": "100f50a7",
+      "fr": "Mais",
+      "rendered_fr": "Mais"
+    },
+    {
+      "id": "36E124",
+      "english": "but,",
+      "text_length": 4,
+      "script_id": "36E0EA",
+      "script_end": "36E15D",
+      "script_english": "[1A 11 02][1B 03 5D E1 F6 00]@My daughter, [1C 02 02] has never been a brave girl,\n@but,[10 0F] she has a kind heart,[10 0F] and has secret strength.[13][02]",
+      "script_refs": [
+        "203DC8",
+        "203FE8"
+      ],
+      "prefix": "5c030070",
+      "suffix": "100f50a3",
+      "fr": "mais",
+      "rendered_fr": "mais"
+    },
+    {
+      "id": "36F11C",
+      "english": " do you?",
+      "text_length": 8,
+      "script_id": "36F109",
+      "script_end": "36F134",
+      "script_english": "@Don't need that,[10 0F] do you?[10 0F]\n  Hmmmm...\n[02]",
+      "script_refs": [
+        "365EFF"
+      ],
+      "prefix": "a45c100f",
+      "suffix": "100f0050",
+      "fr": "hein?",
+      "rendered_fr": " hein?"
+    },
+    {
+      "id": "36F883",
+      "english": " do you?",
+      "text_length": 8,
+      "script_id": "36F870",
+      "script_end": "36F89B",
+      "script_english": "@Don't need that,[10 0F] do you?[10 0F]\n  Hmmmm...\n[02]",
+      "script_refs": [
+        "365F0D"
+      ],
+      "prefix": "a45c100f",
+      "suffix": "100f0050",
+      "fr": "hein?",
+      "rendered_fr": " hein?"
+    },
+    {
+      "id": "371ECB",
+      "english": "Yes",
+      "text_length": 3,
+      "script_id": "371E94",
+      "script_end": "371EF2",
+      "script_english": "@How's the Canary?\n@Ah...[10 0F] cute pets, aren't they?\n[19 02]Yes[02][19 02]No[02][1C 07 02][11][12][09 02 60 D2 F8 00 E3 1E F7 00]@Stupid head![13][02]",
+      "script_refs": [
+        "371C7C"
+      ],
+      "prefix": "6f001902",
+      "suffix": "0219027e",
+      "fr": "Oui",
+      "rendered_fr": "Oui"
+    },
+    {
+      "id": "3737FF",
+      "english": "Wait...",
+      "text_length": 7,
+      "script_id": "3737FE",
+      "script_end": "373836",
+      "script_english": "@Wait...\n@A voice is speaking into\n  [19 10 01][1B 04][1C 02 00]'s mind.[13][02]",
+      "script_refs": [
+        "2040A3"
+      ],
+      "prefix": "70",
+      "suffix": "03007071",
+      "fr": "Minute!",
+      "rendered_fr": "Minute!"
+    },
+    {
+      "id": "373A8B",
+      "english": " okay?",
+      "text_length": 6,
+      "script_id": "373A4F",
+      "script_end": "373A93",
+      "script_english": "@That tank is my prized possession.\n@Try not to break it,[10 0F] okay?[13][02]",
+      "script_refs": [
+        "3739C4"
+      ],
+      "prefix": "a45c100f",
+      "suffix": "1302",
+      "fr": "hein?",
+      "rendered_fr": " hein?"
+    },
+    {
+      "id": "37725A",
+      "english": "(Stop!!)",
+      "text_length": 8,
+      "script_id": "377251",
+      "script_end": "37728F",
+      "script_english": "@Ukuu!!\n@(Stop!!)\n@Ukuiikui Kiuuu!\n@(Don't go any further!)[13][02]",
+      "script_refs": [
+        "205E0E"
+      ],
+      "prefix": "51510070",
+      "suffix": "03007085",
+      "fr": "(Halte!)",
+      "rendered_fr": "(Halte!)"
+    },
+    {
+      "id": "378630",
+      "english": "Sob,",
+      "text_length": 4,
+      "script_id": "3785F8",
+      "script_end": "37863F",
+      "script_english": "@I like it without the grown-ups around.\n@Sure I do.\n@Sob,[10 0F] sob...[13][02]",
+      "script_refs": [
+        "20369C"
+      ],
+      "prefix": "5e030070",
+      "suffix": "100f50a3",
+      "fr": "Snf,",
+      "rendered_fr": "Snf,"
+    },
+    {
+      "id": "378636",
+      "english": " sob...",
+      "text_length": 7,
+      "script_id": "3785F8",
+      "script_end": "37863F",
+      "script_english": "@I like it without the grown-ups around.\n@Sure I do.\n@Sob,[10 0F] sob...[13][02]",
+      "script_refs": [
+        "20369C"
+      ],
+      "prefix": "925c100f",
+      "suffix": "1302",
+      "fr": "snif.",
+      "rendered_fr": " snif."
+    },
+    {
+      "id": "378692",
+      "english": "Please,",
+      "text_length": 7,
+      "script_id": "37866C",
+      "script_end": "3786A8",
+      "script_english": "@Please bring our mom and dad back.\n@Please,[10 0F] I beg you![13][02]",
+      "script_refs": [
+        "2035E1"
+      ],
+      "prefix": "5e030070",
+      "suffix": "100f5079",
+      "fr": "Pitié,",
+      "rendered_fr": "Pitié,"
+    },
+    {
+      "id": "378826",
+      "english": "Hello,",
+      "text_length": 6,
+      "script_id": "378819",
+      "script_end": "378941",
+      "script_english": "[18 04][18 01 35][06 13 01 41 89 F7 00]@Hello,[10 0F] [1C 0D].\n@Yes,[10 0F] even though my body is that of a baby,[10 0F] I possess psychic abilities like you.\n@I know the power of Teleportation.\n@With it,[10 0F] you can return to anywhere you've been before.[1F 02 25]\n[18 04][08 84 7B F8 00][1A 0C A7 D3 F8 00][10 1E][18 01 35][1F 02 67]@([1C 02 01][08 89 89 F7 00] learned how to use PSI Teleportation.)[13][18 04][08 81 89 F7 00][10 1E][02]",
+      "script_refs": [
+        "37880B",
+        "378815"
+      ],
+      "prefix": "89f70070",
+      "suffix": "100f501c",
+      "fr": "Salut,",
+      "rendered_fr": "Salut,"
+    },
+    {
+      "id": "378835",
+      "english": "Yes,",
+      "text_length": 4,
+      "script_id": "378819",
+      "script_end": "378941",
+      "script_english": "[18 04][18 01 35][06 13 01 41 89 F7 00]@Hello,[10 0F] [1C 0D].\n@Yes,[10 0F] even though my body is that of a baby,[10 0F] I possess psychic abilities like you.\n@I know the power of Teleportation.\n@With it,[10 0F] you can return to anywhere you've been before.[1F 02 25]\n[18 04][08 84 7B F8 00][1A 0C A7 D3 F8 00][10 1E][18 01 35][1F 02 67]@([1C 02 01][08 89 89 F7 00] learned how to use PSI Teleportation.)[13][18 04][08 81 89 F7 00][10 1E][02]",
+      "script_refs": [
+        "37880B",
+        "378815"
+      ],
+      "prefix": "5e030070",
+      "suffix": "100f5095",
+      "fr": "Oui,",
+      "rendered_fr": "Oui,"
+    },
+    {
+      "id": "37D6D2",
+      "english": "  Tourists welcome.",
+      "text_length": 19,
+      "script_id": "37D6BA",
+      "script_end": "37D6E7",
+      "script_english": "@Oceanview Tower ahead.\n  Tourists welcome.[13][02]",
+      "script_refs": [
+        "0F0A81"
+      ],
+      "prefix": "91945e00",
+      "suffix": "1302",
+      "fr": "Touristes admis.",
+      "rendered_fr": "  Touristes admis."
+    },
+    {
+      "id": "38216F",
+      "english": "Deposit",
+      "text_length": 7,
+      "script_id": "382113",
+      "script_end": "38219D",
+      "script_english": "[0E 00][0D 01]@Welcome to the Automatic Teller Machine.\n@Please select a transaction:\n[19 02]Withdrawal[02][19 02]Deposit[02][1C 07 02][11][12][09 02 C3 22 F8 00 9D 21 F8 00]@Thank you very much.[13][02]",
+      "script_refs": [
+        "062D31"
+      ],
+      "prefix": "9c021902",
+      "suffix": "021c0702",
+      "fr": "Dépôt",
+      "rendered_fr": "Dépôt"
+    },
+    {
+      "id": "3827CC",
+      "english": "Thanks!",
+      "text_length": 7,
+      "script_id": "3827CB",
+      "script_end": "3827D6",
+      "script_english": "@Thanks!\n[02]",
+      "script_refs": [
+        "3664D4"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Merci!",
+      "rendered_fr": "Merci!"
+    },
+    {
+      "id": "383438",
+      "english": "There!",
+      "text_length": 6,
+      "script_id": "383390",
+      "script_end": "38348D",
+      "script_english": "[18 04][04 0B 00][1F 41 05][1F EB 03 06][1F 15 03 00 D7 03 01][1F 61][1F E7 03 00][1F F3 03 00 03][10 3C][1F F4 03 00][18 01 35]@Ah![10 14]  Here's the problem, and it's not too tough to fix.\n@Hang on for a second or two...[03][18 04][10 1E][1F EA 03 00][1F 61][1F 00 00 B3][1F F1 73 00 10 01][1F 61][1F E6 73 00][1F 07 02][10 3C][1F 03][18 01 35]@There!\n@That should do it!\n@Let's fire it right up![03][18 04][1F 07 03][1F 15 6A 00 F9 03 01][10 01][1F EF 6A 00][1F E8 FF][1F 61][1F ED][1F 1F 6A 00 06][02]",
+      "script_refs": [
+        "383325"
+      ],
+      "prefix": "18013570",
+      "suffix": "03007084",
+      "fr": "Voilà!",
+      "rendered_fr": "Voilà!"
+    },
+    {
+      "id": "3853B4",
+      "english": "BOO!!!",
+      "text_length": 6,
+      "script_id": "3853A7",
+      "script_end": "38547F",
+      "script_english": "[07 6D 04][1B 02 88 C5 C7 00][18 01 35]@BOO!!!\n@Haha! Did I scare you?\n@I love a good scare!\n@What's that?[10 0F][10 0F]\n@People want to move back in..?\n@Hmmmm... Okay!\n  I'll clear out.\n@Thanks for the laugh!\n@Later days, pal![13][18 04][05 6D 04][08 FD E9 F3 00][10 01][1F F1 C5 01 7B 02][02]",
+      "script_refs": [
+        "203FC6"
+      ],
+      "prefix": "18013570",
+      "suffix": "03007078",
+      "fr": "BOUH!!",
+      "rendered_fr": "BOUH!!"
+    },
+    {
+      "id": "386704",
+      "english": "Thanks!",
+      "text_length": 7,
+      "script_id": "386703",
+      "script_end": "38670E",
+      "script_english": "@Thanks!\n[02]",
+      "script_refs": [
+        "36648E"
+      ],
+      "prefix": "70",
+      "suffix": "030002",
+      "fr": "Merci!",
+      "rendered_fr": "Merci!"
+    },
+    {
+      "id": "387283",
+      "english": "Good!",
+      "text_length": 5,
+      "script_id": "387282",
+      "script_end": "3872B2",
+      "script_english": "@Good!\n@Thank you for shopping with us today.[13][02]",
+      "script_refs": [
+        "38726F",
+        "387274"
+      ],
+      "prefix": "70",
+      "suffix": "03007084",
+      "fr": "Bien!",
+      "rendered_fr": "Bien!"
+    },
+    {
+      "id": "38A7C6",
+      "english": "The Dragon sensed ",
+      "text_length": 18,
+      "script_id": "38A7C5",
+      "script_end": "38A85B",
+      "script_english": "@The Dragon sensed [1C 02 01]'s presence and awoke.\n[1F 16 72 01 09][18 04][10 1E][18 01 35]@(grumble, rumble)\n@(You must prove your strength to earn my musical note!)[13][18 04][18 04][1F 23 C8 01][1B 02 60 A8 F8 00][02]",
+      "script_refs": [
+        "38A7A0"
+      ],
+      "prefix": "70",
+      "suffix": "1c020157",
+      "fr": "Le dragon sent",
+      "rendered_fr": "Le dragon sent "
+    },
+    {
+      "id": "38A7DB",
+      "english": "'s presence and awoke.",
+      "text_length": 22,
+      "script_id": "38A7C5",
+      "script_end": "38A85B",
+      "script_english": "@The Dragon sensed [1C 02 01]'s presence and awoke.\n[1F 16 72 01 09][18 04][10 1E][18 01 35]@(grumble, rumble)\n@(You must prove your strength to earn my musical note!)[13][18 04][18 04][1F 23 C8 01][1B 02 60 A8 F8 00][02]",
+      "script_refs": [
+        "38A7A0"
+      ],
+      "prefix": "501c0201",
+      "suffix": "03001f16",
+      "fr": "et s'éveille.",
+      "rendered_fr": " et s'éveille."
+    },
+    {
+      "id": "38D674",
+      "english": "  (Go back,",
+      "text_length": 11,
+      "script_id": "38D650",
+      "script_end": "38D695",
+      "script_english": "[18 01 35][1F 02 60]@Wo[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o![10 05][10 0F]\n  (Go back,[10 0F] go back!)\n[18 04][10 01][1F 21 82][02]",
+      "script_refs": [
+        "203889",
+        "2038BC"
+      ],
+      "prefix": "05100f00",
+      "suffix": "100f5097",
+      "fr": "(Recule,",
+      "rendered_fr": "  (Recule,"
+    },
+    {
+      "id": "38D681",
+      "english": " go back!)",
+      "text_length": 10,
+      "script_id": "38D650",
+      "script_end": "38D695",
+      "script_english": "[18 01 35][1F 02 60]@Wo[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o[10 05]o![10 05][10 0F]\n  (Go back,[10 0F] go back!)\n[18 04][10 01][1F 21 82][02]",
+      "script_refs": [
+        "203889",
+        "2038BC"
+      ],
+      "prefix": "9b5c100f",
+      "suffix": "03001804",
+      "fr": "recule!)",
+      "rendered_fr": " recule!)"
+    },
+    {
+      "id": "38D6C8",
+      "english": "  Go back!)",
+      "text_length": 11,
+      "script_id": "38D695",
+      "script_end": "38D6EA",
+      "script_english": "[18 01 35][1F 02 60]@Woooo![10 05][10 0F]  Wooo![10 0F]  Wooooooo!\n@(Go back![10 0F]  Go back!)[13][18 04][1F 15 36 01 5B 00 01][1F 15 36 01 5C 00 01][1F 61][1F 21 82][02]",
+      "script_refs": [
+        "2038CD",
+        "38D644"
+      ],
+      "prefix": "9b51100f",
+      "suffix": "1318041f",
+      "fr": "Recule!)",
+      "rendered_fr": "  Recule!)"
+    },
+    {
+      "id": "38D71D",
+      "english": "  Go back!)",
+      "text_length": 11,
+      "script_id": "38D6EA",
+      "script_end": "38D73F",
+      "script_english": "[18 01 35][1F 02 60]@Woooo![10 05][10 0F]  Wooo![10 0F]  Wooooooo!\n@(Go back![10 0F]  Go back!)[13][18 04][1F 15 36 01 63 00 01][1F 15 36 01 64 00 01][1F 61][1F 21 82][02]",
+      "script_refs": [
+        "20389A",
+        "38D648"
+      ],
+      "prefix": "9b51100f",
+      "suffix": "1318041f",
+      "fr": "Recule!)",
+      "rendered_fr": "  Recule!)"
+    },
+    {
+      "id": "38D772",
+      "english": "  Go back!)",
+      "text_length": 11,
+      "script_id": "38D73F",
+      "script_end": "38D77E",
+      "script_english": "[18 01 35][1F 02 60]@Woooo![10 05][10 0F]  Wooo![10 0F]  Wooooooo!\n@(Go back![10 0F]  Go back!)[02]",
+      "script_refs": [
+        "2038AB",
+        "2038DE",
+        "38D64C"
+      ],
+      "prefix": "9b51100f",
+      "suffix": "02",
+      "fr": "Recule!)",
+      "rendered_fr": "  Recule!)"
+    }
+  ]
+}

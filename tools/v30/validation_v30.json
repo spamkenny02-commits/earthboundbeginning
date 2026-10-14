@@ -1,0 +1,35 @@
+{
+  "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "base": "v29",
+  "audited_candidates": 320,
+  "audit_counts": {
+    "unreferenced_script": 95,
+    "changed_commands": 276,
+    "occupied": 2004,
+    "small": 266,
+    "interior_ref": 106,
+    "layout_rejected": 952,
+    "changed_entry_pointer": 10
+  },
+  "new_segments": 121,
+  "profiles": {
+    "accents": {
+      "v29_records": 5608,
+      "v30_additions": 121,
+      "sha256": "dbaccd952adfe31db296c501c6933e65de38c8a2112c1764bc0998cad0dd9870",
+      "target_rom_sha256": "40e75155ee5149ec6bc89f559c3ce3bd45b6d2f388d76de886fd43b11264d3e5",
+      "rom_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true
+    },
+    "ascii": {
+      "v29_records": 5503,
+      "v30_additions": 121,
+      "sha256": "92c1d2e59cca515e69e956f706306f4f63a031ac3347806dfc36b0451b7cc3d8",
+      "target_rom_sha256": "0426ce66d5a7df88b57f2800c415648bee229a4e62ca8153bbb0fae264c6e035",
+      "rom_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true
+    }
+  }
+}

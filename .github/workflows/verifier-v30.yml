@@ -1,0 +1,17 @@
+name: Verify V30 IPS offline
+on:
+  push:
+    paths:
+      - 'tools/v30/**'
+      - 'patches/EarthBound_Beginnings_FR_v30_*.ips'
+      - '.github/workflows/verifier-v30.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v30 -p test_v30_offline.py -v
