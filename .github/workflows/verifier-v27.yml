@@ -1,0 +1,16 @@
+name: Verify V27 offline
+on:
+  push:
+    paths:
+      - 'tools/v27/**'
+      - '.github/workflows/verifier-v27.yml'
+  workflow_dispatch:
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 -m unittest discover -s tools/v27 -p test_v27_offline.py -v

@@ -1,0 +1,37 @@
+{
+  "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "base": "v26",
+  "new_segments": 176,
+  "scripts": 124,
+  "original_rom_source_span_hashes_verified": 176,
+  "original_rom_parent_script_hashes_verified": 124,
+  "original_rom_script_pointer_refs_verified": 181,
+  "profiles": {
+    "accents": {
+      "v26_records": 5373,
+      "v27_additions": 176,
+      "ips_size": 136149,
+      "ips_git_blob_sha": "3c7c0bcdc2834f9726ba3933f2ea2f5231024369",
+      "synthetic_ips_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true,
+      "sha256": "b48cbe0373f36408d545f8b0ad82e664725d0cf7877fb11c72668135593a27c6",
+      "target_rom_sha256": null,
+      "rom_roundtrip": false
+    },
+    "ascii": {
+      "v26_records": 5268,
+      "v27_additions": 176,
+      "ips_size": 134663,
+      "ips_git_blob_sha": "d6b5dd5632ccc02348937dc417b37e5a9a4d934b",
+      "synthetic_ips_roundtrip": true,
+      "no_prior_regression": true,
+      "outside_additions_unchanged": true,
+      "sha256": "298d3bb4c54b6f1db62e835e952a095b99f69aec80296d92b022092dbbe9011a",
+      "target_rom_sha256": null,
+      "rom_roundtrip": false
+    }
+  },
+  "full_target_rom_roundtrip": "not_executed",
+  "emulator_v27": "not_executed"
+}

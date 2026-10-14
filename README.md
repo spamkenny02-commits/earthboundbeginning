@@ -1,6 +1,19 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V26 (traduction partielle)
+## Version actuelle : V27 (traduction partielle)
+
+V27 ajoute **176 plages françaises dans 124 scripts**, pour **1 466 plages depuis V18 Work**. Les nouvelles zones couvrent notamment commerces, dialogues de retour, banque, panneaux et messages secondaires.
+
+- [Patch V27 avec accents](patches/EarthBound_Beginnings_FR_v27_accents.ips)
+- [Patch V27 ASCII](patches/EarthBound_Beginnings_FR_v27_ascii.ips)
+- [Rapport V27 et limites](RAPPORT_V27.md)
+- [Traductions éditables](tools/v27/translations_v27.tsv)
+- [Constructeur, audit et tests](tools/v27/README_V27.md)
+
+Appliquer **un seul IPS V27 directement à la ROM originale USA 1.2**. Les 176 plages et 124 scripts parents ont été vérifiés sur la ROM originale; les deux IPS ont passé les contrôles structurels et de régression synthétique. **Le roundtrip complet sur ROM et les essais V27 en émulateur restent à effectuer.** Aucune ROM distribuée.
+
+
+## Version précédente : V26 (traduction partielle)
 
 V26 ajoute **175 plages dans 105 scripts**: Snowman, commerces, char du désert, singes et Téléportation. Les ajouts V19–V26 représentent **1 290 plages depuis V18 Work**.
 
