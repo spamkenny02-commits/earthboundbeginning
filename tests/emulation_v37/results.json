@@ -1,0 +1,27 @@
+{
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "profiles": {
+    "accents": {
+      "source_sha256": "6b6b0b241eb56f0e1be446e9b6cd0671bba02cbc90c7797285f8c18403ef1ef2",
+      "commands_replayed": 339,
+      "last_frame": 25803,
+      "screens_changed_from_v18": ["battle_step_30", "battle_step_31"],
+      "stable_reference_screens": true,
+      "returncode": 0
+    },
+    "ascii": {
+      "source_sha256": "7c5138b2eef6a3371bab2f1b83d6cc556ac3a18c42ff1ef99c6c3daf9ed87b93",
+      "commands_replayed": 337,
+      "last_frame": 25803,
+      "screens_changed_from_v18": ["battle_step_30", "battle_step_31"],
+      "stable_reference_screens": true,
+      "returncode": 0
+    }
+  },
+  "critical_probe": {
+    "delays_tested": [0, 1, 2, 3, 4, 5, 7, 9, 12, 16, 24, 32, 48, 64],
+    "captures_per_version": 252,
+    "changed_v37_vs_v36": [],
+    "natural_critical_observed": false
+  }
+}

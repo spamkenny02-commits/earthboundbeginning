@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V36 (traduction partielle)
+## Version actuelle : V37 (traduction partielle)
+
+V37 remplace le graphisme compressé **« SMAAAASH!! »** par **« COUP CRIT! »**. Les vingt tuiles dédiées sont recompressées dans la réserve V36; aucun dialogue ancien n'est recompté.
+
+- [Patch V37 avec accents](patches/EarthBound_Beginnings_FR_v37_accents.ips)
+- [Patch V37 ASCII](patches/EarthBound_Beginnings_FR_v37_ascii.ips)
+- [Rapport V37 et sécurité binaire](RAPPORT_V37.md)
+- [Constructeur, manifeste et aperçu](tools/v37/README_V37.md)
+- [Essais et recherche du déclenchement normal](tests/emulation_v37/RAPPORT_EMULATION_V37.md)
+
+Appliquer **un seul IPS V37 directement à la ROM originale USA 1.2**. 74 tests V37 à V29 et boy/girl sont réussis. Le parcours Snes9x ne présente aucune régression; le déclenchement naturel d'un coup critique reste à obtenir. La tentative `HP` → `PV`, incorrecte à cause de tuiles partagées, a été exclue. Aucune ROM distribuée.
+
+## Version précédente : V36 (traduction partielle)
 
 V36 remplace le graphisme compressé de victoire **« YOU WON! »** par **« VICTOIRE »**. Les 16 tuiles sont recompressées et relocalisées dans une réserve vérifiée ; aucun ancien fragment de dialogue n'est recompté.
 

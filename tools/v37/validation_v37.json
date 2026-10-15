@@ -1,0 +1,72 @@
+{
+  "base": "V36",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "coilsnake_commit": "346cfc753644bc3703b6fc4eaa0a5d6bdcb9bb4a",
+  "new_dialogue_fragments": 0,
+  "scripts_revised": 0,
+  "graphics_translated": 1,
+  "labels": [
+    {
+      "source": "SMAAAASH!!",
+      "french": "COUP CRIT!"
+    }
+  ],
+  "compressed_destination": "177800",
+  "reservation_end": "177FD0",
+  "compressed_length": 1717,
+  "compressed_sha256": "29e905c31f7435d9f8dbe1fd4dd6000753d769df739ad04d3c68ed3f487d3858",
+  "uncompressed_length": 6656,
+  "uncompressed_sha256": "cfc44df7e0dfb39e1b790de051e0cdb4d23ea9613ad107b644c3ee661c6b4ec0",
+  "tiles_replaced": 20,
+  "tile_indexes": [
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377
+  ],
+  "v36_pointer_preserved": true,
+  "hp_to_pv_excluded_shared_tiles": [
+    8,
+    9,
+    24,
+    25
+  ],
+  "v36_payload_owner_verified": true,
+  "other_ips_collisions": 0,
+  "profiles": {
+    "accents": {
+      "sha256": "ce710fbd9e1869aacee7cc9f19f933a249e60e83805ca3c793710458ce29ccfc",
+      "target_rom_sha256": "6b6b0b241eb56f0e1be446e9b6cd0671bba02cbc90c7797285f8c18403ef1ef2",
+      "prior_records_preserved": 6090,
+      "records_added": 1,
+      "controlled_v36_record_replacement": true,
+      "independent_rom_roundtrip": true,
+      "outside_new_payload_unchanged": true
+    },
+    "ascii": {
+      "sha256": "aeb99653aa960e48dbfbf98059bca1ad1fcb4e0657b8933c22b88d0d349eb10d",
+      "target_rom_sha256": "7c5138b2eef6a3371bab2f1b83d6cc556ac3a18c42ff1ef99c6c3daf9ed87b93",
+      "prior_records_preserved": 5985,
+      "records_added": 1,
+      "controlled_v36_record_replacement": true,
+      "independent_rom_roundtrip": true,
+      "outside_new_payload_unchanged": true
+    }
+  }
+}
