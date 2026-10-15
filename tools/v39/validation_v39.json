@@ -1,0 +1,923 @@
+{
+  "base": "V38",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "scripts_revised": 22,
+  "newly_translated_descriptions": 22,
+  "newly_translated_fragments": 32,
+  "already_french_fragments": 0,
+  "source_bank": [
+    "355B94",
+    "357664"
+  ],
+  "item_description_table": [
+    "155023",
+    "1576B2"
+  ],
+  "reservations": [
+    [
+      "32A910",
+      "32AA70"
+    ],
+    [
+      "32AAF0",
+      "32AB70"
+    ],
+    [
+      "32ABE0",
+      "32ADA0"
+    ],
+    [
+      "32ADB0",
+      "32AEA0"
+    ],
+    [
+      "32AEB0",
+      "32B000"
+    ],
+    [
+      "32B010",
+      "32B1B0"
+    ],
+    [
+      "32B1C0",
+      "32B270"
+    ],
+    [
+      "32B280",
+      "32B420"
+    ],
+    [
+      "32B4F0",
+      "32B610"
+    ]
+  ],
+  "source_scripts_preserved": true,
+  "all_active_refs_proven": true,
+  "profiles": {
+    "accents": {
+      "sha256": "4ba54554f95b55f3d74b33acc47d6137aa4347dbe8237c83b0e0a3b48d130f8c",
+      "target_rom_sha256": "36e603dddca6dd902703df048347aab843de182b62664f5de1c86a0382922c45",
+      "prior_records_preserved": 6336,
+      "records_added": 66,
+      "independent_rom_roundtrip": true,
+      "outside_declared_ranges_unchanged": true,
+      "last_reserve": 4,
+      "used_end": "32AFE4",
+      "relocated": [
+        {
+          "id": "355B94",
+          "offset": "32A910",
+          "old_length": 48,
+          "new_length": 54,
+          "fragments": 4
+        },
+        {
+          "id": "355BC4",
+          "offset": "32A948",
+          "old_length": 58,
+          "new_length": 51,
+          "fragments": 4
+        },
+        {
+          "id": "355BFE",
+          "offset": "32A97C",
+          "old_length": 58,
+          "new_length": 63,
+          "fragments": 4
+        },
+        {
+          "id": "355C76",
+          "offset": "32A9BC",
+          "old_length": 69,
+          "new_length": 76,
+          "fragments": 4
+        },
+        {
+          "id": "355E2B",
+          "offset": "32AA08",
+          "old_length": 58,
+          "new_length": 53,
+          "fragments": 4
+        },
+        {
+          "id": "355EA8",
+          "offset": "32AAF0",
+          "old_length": 69,
+          "new_length": 72,
+          "fragments": 3
+        },
+        {
+          "id": "3562C1",
+          "offset": "32AB38",
+          "old_length": 53,
+          "new_length": 54,
+          "fragments": 3
+        },
+        {
+          "id": "3562F6",
+          "offset": "32ABE0",
+          "old_length": 51,
+          "new_length": 52,
+          "fragments": 3
+        },
+        {
+          "id": "356329",
+          "offset": "32AC14",
+          "old_length": 55,
+          "new_length": 57,
+          "fragments": 3
+        },
+        {
+          "id": "356360",
+          "offset": "32AC50",
+          "old_length": 54,
+          "new_length": 55,
+          "fragments": 3
+        },
+        {
+          "id": "356396",
+          "offset": "32AC88",
+          "old_length": 71,
+          "new_length": 62,
+          "fragments": 3
+        },
+        {
+          "id": "3563DD",
+          "offset": "32ACC8",
+          "old_length": 82,
+          "new_length": 78,
+          "fragments": 3
+        },
+        {
+          "id": "35642F",
+          "offset": "32AD18",
+          "old_length": 57,
+          "new_length": 50,
+          "fragments": 4
+        },
+        {
+          "id": "3564B7",
+          "offset": "32AD4C",
+          "old_length": 79,
+          "new_length": 84,
+          "fragments": 4
+        },
+        {
+          "id": "3569ED",
+          "offset": "32ADB0",
+          "old_length": 83,
+          "new_length": 81,
+          "fragments": 3
+        },
+        {
+          "id": "356B30",
+          "offset": "32AE04",
+          "old_length": 55,
+          "new_length": 66,
+          "fragments": 3
+        },
+        {
+          "id": "357097",
+          "offset": "32AE48",
+          "old_length": 55,
+          "new_length": 58,
+          "fragments": 4
+        },
+        {
+          "id": "35710C",
+          "offset": "32AEB0",
+          "old_length": 84,
+          "new_length": 66,
+          "fragments": 4
+        },
+        {
+          "id": "3572E9",
+          "offset": "32AEF4",
+          "old_length": 50,
+          "new_length": 51,
+          "fragments": 4
+        },
+        {
+          "id": "35731B",
+          "offset": "32AF28",
+          "old_length": 50,
+          "new_length": 51,
+          "fragments": 4
+        },
+        {
+          "id": "357577",
+          "offset": "32AF5C",
+          "old_length": 67,
+          "new_length": 75,
+          "fragments": 4
+        },
+        {
+          "id": "35762F",
+          "offset": "32AFA8",
+          "old_length": 53,
+          "new_length": 57,
+          "fragments": 3
+        }
+      ],
+      "entry_refs_rewritten": [
+        {
+          "offset": "155134",
+          "old_target": "355B94",
+          "new_target": "32A910",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3700BD",
+          "old_target": "355B94",
+          "new_target": "32A910",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1552BA",
+          "old_target": "355BC4",
+          "new_target": "32A948",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370149",
+          "old_target": "355BC4",
+          "new_target": "32A948",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1552E1",
+          "old_target": "355BFE",
+          "new_target": "32A97C",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370157",
+          "old_target": "355BFE",
+          "new_target": "32A97C",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155308",
+          "old_target": "355C76",
+          "new_target": "32A9BC",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370165",
+          "old_target": "355C76",
+          "new_target": "32A9BC",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "15548E",
+          "old_target": "355E2B",
+          "new_target": "32AA08",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3701F1",
+          "old_target": "355E2B",
+          "new_target": "32AA08",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1554B5",
+          "old_target": "355EA8",
+          "new_target": "32AAF0",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3701FF",
+          "old_target": "355EA8",
+          "new_target": "32AAF0",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1558D2",
+          "old_target": "3562C1",
+          "new_target": "32AB38",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370379",
+          "old_target": "3562C1",
+          "new_target": "32AB38",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1558F9",
+          "old_target": "3562F6",
+          "new_target": "32ABE0",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370387",
+          "old_target": "3562F6",
+          "new_target": "32ABE0",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155947",
+          "old_target": "356329",
+          "new_target": "32AC14",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3703A3",
+          "old_target": "356329",
+          "new_target": "32AC14",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155920",
+          "old_target": "356360",
+          "new_target": "32AC50",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370395",
+          "old_target": "356360",
+          "new_target": "32AC50",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "15596E",
+          "old_target": "356396",
+          "new_target": "32AC88",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3703B1",
+          "old_target": "356396",
+          "new_target": "32AC88",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155995",
+          "old_target": "3563DD",
+          "new_target": "32ACC8",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3703BF",
+          "old_target": "3563DD",
+          "new_target": "32ACC8",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155B90",
+          "old_target": "35642F",
+          "new_target": "32AD18",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370475",
+          "old_target": "35642F",
+          "new_target": "32AD18",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155BDE",
+          "old_target": "3564B7",
+          "new_target": "32AD4C",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370491",
+          "old_target": "3564B7",
+          "new_target": "32AD4C",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156529",
+          "old_target": "3569ED",
+          "new_target": "32ADB0",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3707E7",
+          "old_target": "3569ED",
+          "new_target": "32ADB0",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156613",
+          "old_target": "356B30",
+          "new_target": "32AE04",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "37083B",
+          "old_target": "356B30",
+          "new_target": "32AE04",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156B41",
+          "old_target": "357097",
+          "new_target": "32AE48",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370A17",
+          "old_target": "357097",
+          "new_target": "32AE48",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156B8F",
+          "old_target": "35710C",
+          "new_target": "32AEB0",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370A33",
+          "old_target": "35710C",
+          "new_target": "32AEB0",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156F10",
+          "old_target": "3572E9",
+          "new_target": "32AEF4",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370B75",
+          "old_target": "3572E9",
+          "new_target": "32AEF4",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156F37",
+          "old_target": "35731B",
+          "new_target": "32AF28",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370B83",
+          "old_target": "35731B",
+          "new_target": "32AF28",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "15732D",
+          "old_target": "357577",
+          "new_target": "32AF5C",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370CEF",
+          "old_target": "357577",
+          "new_target": "32AF5C",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1573A2",
+          "old_target": "35762F",
+          "new_target": "32AFA8",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370D19",
+          "old_target": "35762F",
+          "new_target": "32AFA8",
+          "proof": "parsed_item_display_operand"
+        }
+      ]
+    },
+    "ascii": {
+      "sha256": "dec3ec1943a7f935030ed294775b9b9a96f904fff25561148ea06aa327c2d360",
+      "target_rom_sha256": "5ba7492c8d38b71b57d58b8df945b6ab7e6ca05bab880c2642664786713297f3",
+      "prior_records_preserved": 6231,
+      "records_added": 66,
+      "independent_rom_roundtrip": true,
+      "outside_declared_ranges_unchanged": true,
+      "last_reserve": 4,
+      "used_end": "32AFE4",
+      "relocated": [
+        {
+          "id": "355B94",
+          "offset": "32A910",
+          "old_length": 48,
+          "new_length": 54,
+          "fragments": 4
+        },
+        {
+          "id": "355BC4",
+          "offset": "32A948",
+          "old_length": 58,
+          "new_length": 51,
+          "fragments": 4
+        },
+        {
+          "id": "355BFE",
+          "offset": "32A97C",
+          "old_length": 58,
+          "new_length": 63,
+          "fragments": 4
+        },
+        {
+          "id": "355C76",
+          "offset": "32A9BC",
+          "old_length": 69,
+          "new_length": 76,
+          "fragments": 4
+        },
+        {
+          "id": "355E2B",
+          "offset": "32AA08",
+          "old_length": 58,
+          "new_length": 53,
+          "fragments": 4
+        },
+        {
+          "id": "355EA8",
+          "offset": "32AAF0",
+          "old_length": 69,
+          "new_length": 72,
+          "fragments": 3
+        },
+        {
+          "id": "3562C1",
+          "offset": "32AB38",
+          "old_length": 53,
+          "new_length": 54,
+          "fragments": 3
+        },
+        {
+          "id": "3562F6",
+          "offset": "32ABE0",
+          "old_length": 51,
+          "new_length": 52,
+          "fragments": 3
+        },
+        {
+          "id": "356329",
+          "offset": "32AC14",
+          "old_length": 55,
+          "new_length": 57,
+          "fragments": 3
+        },
+        {
+          "id": "356360",
+          "offset": "32AC50",
+          "old_length": 54,
+          "new_length": 55,
+          "fragments": 3
+        },
+        {
+          "id": "356396",
+          "offset": "32AC88",
+          "old_length": 71,
+          "new_length": 62,
+          "fragments": 3
+        },
+        {
+          "id": "3563DD",
+          "offset": "32ACC8",
+          "old_length": 82,
+          "new_length": 78,
+          "fragments": 3
+        },
+        {
+          "id": "35642F",
+          "offset": "32AD18",
+          "old_length": 57,
+          "new_length": 50,
+          "fragments": 4
+        },
+        {
+          "id": "3564B7",
+          "offset": "32AD4C",
+          "old_length": 79,
+          "new_length": 84,
+          "fragments": 4
+        },
+        {
+          "id": "3569ED",
+          "offset": "32ADB0",
+          "old_length": 83,
+          "new_length": 81,
+          "fragments": 3
+        },
+        {
+          "id": "356B30",
+          "offset": "32AE04",
+          "old_length": 55,
+          "new_length": 66,
+          "fragments": 3
+        },
+        {
+          "id": "357097",
+          "offset": "32AE48",
+          "old_length": 55,
+          "new_length": 58,
+          "fragments": 4
+        },
+        {
+          "id": "35710C",
+          "offset": "32AEB0",
+          "old_length": 84,
+          "new_length": 66,
+          "fragments": 4
+        },
+        {
+          "id": "3572E9",
+          "offset": "32AEF4",
+          "old_length": 50,
+          "new_length": 51,
+          "fragments": 4
+        },
+        {
+          "id": "35731B",
+          "offset": "32AF28",
+          "old_length": 50,
+          "new_length": 51,
+          "fragments": 4
+        },
+        {
+          "id": "357577",
+          "offset": "32AF5C",
+          "old_length": 67,
+          "new_length": 75,
+          "fragments": 4
+        },
+        {
+          "id": "35762F",
+          "offset": "32AFA8",
+          "old_length": 53,
+          "new_length": 57,
+          "fragments": 3
+        }
+      ],
+      "entry_refs_rewritten": [
+        {
+          "offset": "155134",
+          "old_target": "355B94",
+          "new_target": "32A910",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3700BD",
+          "old_target": "355B94",
+          "new_target": "32A910",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1552BA",
+          "old_target": "355BC4",
+          "new_target": "32A948",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370149",
+          "old_target": "355BC4",
+          "new_target": "32A948",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1552E1",
+          "old_target": "355BFE",
+          "new_target": "32A97C",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370157",
+          "old_target": "355BFE",
+          "new_target": "32A97C",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155308",
+          "old_target": "355C76",
+          "new_target": "32A9BC",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370165",
+          "old_target": "355C76",
+          "new_target": "32A9BC",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "15548E",
+          "old_target": "355E2B",
+          "new_target": "32AA08",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3701F1",
+          "old_target": "355E2B",
+          "new_target": "32AA08",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1554B5",
+          "old_target": "355EA8",
+          "new_target": "32AAF0",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3701FF",
+          "old_target": "355EA8",
+          "new_target": "32AAF0",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1558D2",
+          "old_target": "3562C1",
+          "new_target": "32AB38",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370379",
+          "old_target": "3562C1",
+          "new_target": "32AB38",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1558F9",
+          "old_target": "3562F6",
+          "new_target": "32ABE0",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370387",
+          "old_target": "3562F6",
+          "new_target": "32ABE0",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155947",
+          "old_target": "356329",
+          "new_target": "32AC14",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3703A3",
+          "old_target": "356329",
+          "new_target": "32AC14",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155920",
+          "old_target": "356360",
+          "new_target": "32AC50",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370395",
+          "old_target": "356360",
+          "new_target": "32AC50",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "15596E",
+          "old_target": "356396",
+          "new_target": "32AC88",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3703B1",
+          "old_target": "356396",
+          "new_target": "32AC88",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155995",
+          "old_target": "3563DD",
+          "new_target": "32ACC8",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3703BF",
+          "old_target": "3563DD",
+          "new_target": "32ACC8",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155B90",
+          "old_target": "35642F",
+          "new_target": "32AD18",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370475",
+          "old_target": "35642F",
+          "new_target": "32AD18",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "155BDE",
+          "old_target": "3564B7",
+          "new_target": "32AD4C",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370491",
+          "old_target": "3564B7",
+          "new_target": "32AD4C",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156529",
+          "old_target": "3569ED",
+          "new_target": "32ADB0",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "3707E7",
+          "old_target": "3569ED",
+          "new_target": "32ADB0",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156613",
+          "old_target": "356B30",
+          "new_target": "32AE04",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "37083B",
+          "old_target": "356B30",
+          "new_target": "32AE04",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156B41",
+          "old_target": "357097",
+          "new_target": "32AE48",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370A17",
+          "old_target": "357097",
+          "new_target": "32AE48",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156B8F",
+          "old_target": "35710C",
+          "new_target": "32AEB0",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370A33",
+          "old_target": "35710C",
+          "new_target": "32AEB0",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156F10",
+          "old_target": "3572E9",
+          "new_target": "32AEF4",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370B75",
+          "old_target": "3572E9",
+          "new_target": "32AEF4",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "156F37",
+          "old_target": "35731B",
+          "new_target": "32AF28",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370B83",
+          "old_target": "35731B",
+          "new_target": "32AF28",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "15732D",
+          "old_target": "357577",
+          "new_target": "32AF5C",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370CEF",
+          "old_target": "357577",
+          "new_target": "32AF5C",
+          "proof": "parsed_item_display_operand"
+        },
+        {
+          "offset": "1573A2",
+          "old_target": "35762F",
+          "new_target": "32AFA8",
+          "proof": "item_description_table"
+        },
+        {
+          "offset": "370D19",
+          "old_target": "35762F",
+          "new_target": "32AFA8",
+          "proof": "parsed_item_display_operand"
+        }
+      ]
+    }
+  },
+  "new_scene_emulator_tested": false
+}

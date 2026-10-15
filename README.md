@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V38 (traduction partielle)
+## Version actuelle : V39 (traduction partielle)
+
+V39 traduit **22 descriptions d'objets**, soit **32 fragments réellement nouveaux** : armes, protections, tickets et soins. Les 44 références de table et d'affichage sont raccordées aux copies françaises ; les scripts sources et les modifications V38 restent intacts.
+
+- [Patch V39 avec accents](patches/EarthBound_Beginnings_FR_v39_accents.ips)
+- [Patch V39 ASCII](patches/EarthBound_Beginnings_FR_v39_ascii.ips)
+- [Rapport V39](RAPPORT_V39.md)
+- [Traductions, constructeur et tests](tools/v39/README_V39.md)
+- [Régression Snes9x et limites](tests/emulation_v39/RAPPORT_EMULATION_V39.md)
+
+Appliquer **un seul IPS V39 directement à la ROM originale USA 1.2**. 94 tests locaux réussis et parcours normal Snes9x conforme dans les deux profils. L'affichage des nouvelles descriptions par leurs déclencheurs réels reste à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V38 (traduction partielle)
 
 V38 relocalise et traduit **114 descriptions d'ennemis réellement nouvelles**, soit 126 fragments. Les 114 entrées de table et 17 alias de saut sont raccordés aux copies françaises; les anciens scripts et les seize redirections vides sont conservés.
 
