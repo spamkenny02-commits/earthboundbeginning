@@ -1,0 +1,43 @@
+{
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "profiles": {
+    "accents": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "442444c7c563d00f6de92817ebad9b53028cf4c2e0f11ce38f240cb3d388acb6",
+        "save_ram_size": 8192
+      },
+      "commands_replayed": 339,
+      "last_frame": 25803,
+      "screens_match_v18": {
+        "title_final": true,
+        "intro": true,
+        "after_combat": true,
+        "state_restored": true,
+        "game_menu": true
+      },
+      "returncode": 0
+    },
+    "ascii": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "e41472c69bf32c6c57cd66bcff14206d6abb5d177ab1db50fd0b430ff67625e3",
+        "save_ram_size": 8192
+      },
+      "commands_replayed": 337,
+      "last_frame": 25803,
+      "screens_match_v18": {
+        "title_final": true,
+        "intro": true,
+        "after_combat": true,
+        "state_restored": true,
+        "game_menu": true
+      },
+      "returncode": 0
+    }
+  }
+}

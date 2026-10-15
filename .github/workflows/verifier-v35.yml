@@ -1,0 +1,23 @@
+name: Verify V35 IPS offline
+
+on:
+  push:
+    paths:
+      - 'tools/v35/**'
+      - 'patches/EarthBound_Beginnings_FR_v35_*.ips'
+      - '.github/workflows/verifier-v35.yml'
+  pull_request:
+    paths:
+      - 'tools/v35/**'
+      - 'patches/EarthBound_Beginnings_FR_v35_*.ips'
+      - '.github/workflows/verifier-v35.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v35 -p test_v35_offline.py -v

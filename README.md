@@ -1,6 +1,19 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V34 (traduction partielle)
+## Version actuelle : V35 (traduction partielle)
+
+V35 corrige un angle mort des anciens remplacements IPS : **32 fragments anglais réellement nouveaux dans 31 scripts**, dont les choix « Non », deux textes longs, « Maison hantée », plusieurs raccords dynamiques et une indication du labyrinthe des singes. Les copies relocalisées contiennent 141 fragments : 32 nouveaux, 99 déjà français et 10 noms, cris ou signes conservés.
+
+- [Patch V35 avec accents](patches/EarthBound_Beginnings_FR_v35_accents.ips)
+- [Patch V35 ASCII](patches/EarthBound_Beginnings_FR_v35_ascii.ips)
+- [Rapport V35 et limites](RAPPORT_V35.md)
+- [Traductions réellement nouvelles](tools/v35/translations_v35.json)
+- [Constructeur, manifeste et tests](tools/v35/README_V35.md)
+- [Essais Snes9x](tests/emulation_v35/RAPPORT_EMULATION_V35.md)
+
+Appliquer **un seul IPS V35 directement à la ROM originale USA 1.2**. 53 tests V35/V34/V33/V29/boy-girl et le parcours Snes9x de référence dans les deux profils sont réussis. Quatre nouvelles copies sont affichées par un point d'entrée temporaire; leurs déclencheurs narratifs normaux restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V34 (traduction partielle)
 
 V34 nettoie **87 fragments anglais résiduels dans 62 scripts** : raccords autour des noms et objets dynamiques, messages de vente et d'utilisation, réponses courtes et dialogues mixtes. Les cris, noms propres et le langage fictif des singes restent volontairement inchangés et ne sont pas comptés.
 
