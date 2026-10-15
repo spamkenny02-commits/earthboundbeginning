@@ -1,0 +1,112 @@
+{
+  "method": "normal_menu_use_of_naturally_owned_bank_card",
+  "rom_modified_for_probe": false,
+  "wram_modified_for_probe": false,
+  "profiles": {
+    "accents": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "7e25dc453e8b0e22ccae143f5aefb894fa8b0e6ca1bae9db0b2a35fa025fb839",
+        "save_ram_size": 8192
+      },
+      "returncode": 0,
+      "captures": [
+        {
+          "path": "use_card_1.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "06aac156d5ed73abab4c70a2608d4d1a93cd3d64878834b415397d6a0e6b2390"
+        },
+        {
+          "path": "use_card_2.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6966ae70cb44efcc4330e431ed4a3ffaf90d86273769e1a29fdab5b305770624"
+        },
+        {
+          "path": "use_card_3.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "05199c0c2c21430420cafe638b093e22c30da1fb5825bed911508e8a6ee369d5"
+        },
+        {
+          "path": "use_card_4.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6966ae70cb44efcc4330e431ed4a3ffaf90d86273769e1a29fdab5b305770624"
+        },
+        {
+          "path": "use_card_5.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+        },
+        {
+          "path": "use_card_6.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "a813b69b8414014965332c734220bbcd658aceb21a43bae68359eb70aac20a08"
+        }
+      ],
+      "visually_reviewed_full_message": {
+        "file": "card_accents.png",
+        "sha256_rgb": "06aac156d5ed73abab4c70a2608d4d1a93cd3d64878834b415397d6a0e6b2390"
+      }
+    },
+    "ascii": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "e3aa3fa5b41f9a0322468604ceca52592e038da21b0584485606f3d8bcfede4d",
+        "save_ram_size": 8192
+      },
+      "returncode": 0,
+      "captures": [
+        {
+          "path": "use_card_1.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3d00a3e6fd2d2942a7a8d0144a5d296e2f140468445153f27b7f18c199bc69ed"
+        },
+        {
+          "path": "use_card_2.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6966ae70cb44efcc4330e431ed4a3ffaf90d86273769e1a29fdab5b305770624"
+        },
+        {
+          "path": "use_card_3.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "05199c0c2c21430420cafe638b093e22c30da1fb5825bed911508e8a6ee369d5"
+        },
+        {
+          "path": "use_card_4.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6966ae70cb44efcc4330e431ed4a3ffaf90d86273769e1a29fdab5b305770624"
+        },
+        {
+          "path": "use_card_5.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+        },
+        {
+          "path": "use_card_6.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "cfc1b2f553dd39cef975d9709c3209392e3f9df9e91f0b016149c63617fa9767"
+        }
+      ],
+      "visually_reviewed_full_message": {
+        "file": "card_ascii.png",
+        "sha256_rgb": "3d00a3e6fd2d2942a7a8d0144a5d296e2f140468445153f27b7f18c199bc69ed"
+      }
+    }
+  },
+  "reviewed_in_both_profiles": true
+}

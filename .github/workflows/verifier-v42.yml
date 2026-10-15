@@ -1,0 +1,23 @@
+name: Verify V42 IPS offline
+
+on:
+  push:
+    paths:
+      - 'tools/v42/**'
+      - 'patches/EarthBound_Beginnings_FR_v42_*.ips'
+      - '.github/workflows/verifier-v42.yml'
+  pull_request:
+    paths:
+      - 'tools/v42/**'
+      - 'patches/EarthBound_Beginnings_FR_v42_*.ips'
+      - '.github/workflows/verifier-v42.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v42 -p test_v42_offline.py -v

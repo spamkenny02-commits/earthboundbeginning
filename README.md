@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V41 (traduction partielle)
+## Version actuelle : V42 (traduction partielle)
+
+V42 traduit **187 occurrences de fragments dans 100 scripts d'actions hérités**, dont le message d'utilisation de la carte bancaire. Les copies françaises développent les tokens anglais sans modifier le dictionnaire partagé. Les dix références littérales non prouvées et les scripts sources restent intacts.
+
+- [Patch V42 avec accents](patches/EarthBound_Beginnings_FR_v42_accents.ips)
+- [Patch V42 ASCII](patches/EarthBound_Beginnings_FR_v42_ascii.ips)
+- [Rapport V42](RAPPORT_V42.md)
+- [Sources, dictionnaire utilisé et tests](tools/v42/README_V42.md)
+- [Carte bancaire et Parer : preuves Snes9x](tests/emulation_v42/RAPPORT_EMULATION_V42.md)
+
+Appliquer **un seul IPS V42 directement à la ROM originale USA 1.2**. 141 tests locaux réussis et parcours Snes9x conforme dans les deux profils. Carte bancaire et Parer sont relus par leurs commandes normales dans les deux profils ; l'accès et le rendu des 98 autres scripts restent à vérifier. Les menus restent pour la suite. Aucune ROM distribuée.
+
+## Version précédente : V41 (traduction partielle)
 
 V41 ajoute **197 occurrences de fragments français dans 108 scripts** : services, transports, hôtels, banque, objets et passages de l'épilogue. Ces occurrences correspondent à 125 fragments anglais distincts. Les choix Yes/No et les menus sont laissés pour leur passe dédiée.
 
