@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V42 (traduction partielle)
+## Version actuelle : V43 (traduction partielle)
+
+V43 ajoute **102 occurrences de fragments français dans 56 scripts** : combat, objets, réponses de services, variations de statistiques et souvenirs de Maria. Les menus restent pour la suite.
+
+- [Patch V43 avec accents](patches/EarthBound_Beginnings_FR_v43_accents.ips)
+- [Patch V43 ASCII](patches/EarthBound_Beginnings_FR_v43_ascii.ips)
+- [Rapport V43](RAPPORT_V43.md)
+- [Traductions, constructeur et tests](tools/v43/README_V43.md)
+- [Essais Snes9x et limites](tests/emulation_v43/RAPPORT_EMULATION_V43.md)
+
+Appliquer **un seul IPS V43 directement à la ROM originale USA 1.2**. 158 tests locaux réussis et parcours Snes9x conforme dans les deux profils. Deux opérandes antérieurs sont actualisés après preuve ; les autres octets antérieurs et le dictionnaire partagé sont préservés. Le nouveau message de « Voir » est relu sur la première lampe dans les deux profils ; les 55 autres scripts restent à vérifier dans leurs scènes. Aucune ROM distribuée.
+
+## Version précédente : V42 (traduction partielle)
 
 V42 traduit **187 occurrences de fragments dans 100 scripts d'actions hérités**, dont le message d'utilisation de la carte bancaire. Les copies françaises développent les tokens anglais sans modifier le dictionnaire partagé. Les dix références littérales non prouvées et les scripts sources restent intacts.
 

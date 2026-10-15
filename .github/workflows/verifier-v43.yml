@@ -1,0 +1,23 @@
+name: Verify V43 IPS offline
+
+on:
+  push:
+    paths:
+      - 'tools/v43/**'
+      - 'patches/EarthBound_Beginnings_FR_v43_*.ips'
+      - '.github/workflows/verifier-v43.yml'
+  pull_request:
+    paths:
+      - 'tools/v43/**'
+      - 'patches/EarthBound_Beginnings_FR_v43_*.ips'
+      - '.github/workflows/verifier-v43.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v43 -p test_v43_offline.py -v

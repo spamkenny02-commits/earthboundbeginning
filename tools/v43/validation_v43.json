@@ -1,0 +1,3505 @@
+{
+  "base": "V42",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "scripts_revised": 56,
+  "text_spans_in_copies": 166,
+  "newly_translated_fragments": 102,
+  "nonlexical_fragments_adjusted": 12,
+  "already_french_fragments": 0,
+  "dictionary_entries_expanded": 72,
+  "shared_dictionary_modified": false,
+  "unproven_references_preserved": 22,
+  "distinct_new_english_fragments": 91,
+  "dialogue_yes_no_choices_deferred_to_menu_pass": 0,
+  "reservations": [
+    [
+      "292FA0",
+      "293370"
+    ],
+    [
+      "32E260",
+      "32E3F0"
+    ],
+    [
+      "32B020",
+      "32B1A0"
+    ],
+    [
+      "32B290",
+      "32B410"
+    ],
+    [
+      "32CF40",
+      "32D0C0"
+    ],
+    [
+      "32A2D0",
+      "32A440"
+    ],
+    [
+      "32E480",
+      "32E5F0"
+    ],
+    [
+      "32FA20",
+      "32FB90"
+    ],
+    [
+      "32CDE0",
+      "32CF10"
+    ],
+    [
+      "32CC90",
+      "32CDB0"
+    ],
+    [
+      "32ECA0",
+      "32EDC0"
+    ],
+    [
+      "32C9E0",
+      "32CAF0"
+    ],
+    [
+      "32E120",
+      "32E230"
+    ],
+    [
+      "32E950",
+      "32EA60"
+    ],
+    [
+      "32B500",
+      "32B600"
+    ],
+    [
+      "320BA0",
+      "320C80"
+    ],
+    [
+      "32F020",
+      "32F100"
+    ],
+    [
+      "32F910",
+      "32F9F0"
+    ],
+    [
+      "32FE20",
+      "32FEF0"
+    ],
+    [
+      "32A780",
+      "32A840"
+    ],
+    [
+      "32BFD0",
+      "32C090"
+    ],
+    [
+      "32EF20",
+      "32EFE0"
+    ],
+    [
+      "32F130",
+      "32F1F0"
+    ],
+    [
+      "32FBC0",
+      "32FC80"
+    ],
+    [
+      "25F7A0",
+      "25F850"
+    ],
+    [
+      "32CB20",
+      "32CBD0"
+    ],
+    [
+      "32F230",
+      "32F2E0"
+    ],
+    [
+      "32FD40",
+      "32FDF0"
+    ],
+    [
+      "25F490",
+      "25F530"
+    ],
+    [
+      "320830",
+      "3208D0"
+    ],
+    [
+      "32EB50",
+      "32EBF0"
+    ],
+    [
+      "25F9B0",
+      "25FA40"
+    ],
+    [
+      "32B1D0",
+      "32B260"
+    ],
+    [
+      "32EA90",
+      "32EB20"
+    ],
+    [
+      "32EE50",
+      "32EEE0"
+    ]
+  ],
+  "profiles": {
+    "accents": {
+      "sha256": "ef368ec3b3e5a2eaa9acaeb6c67d75611deb04c0a8842f619a0be0ae0aa1df88",
+      "target_rom_sha256": "c25956d1c0d9ee94182d73c6948af436f14fca7b82b9d5ba83200d99e1924fe9",
+      "prior_records_preserved": 7221,
+      "records_added": 180,
+      "relocated": [
+        {
+          "id": "348577",
+          "offset": "292FA0",
+          "old_length": 875,
+          "new_length": 877,
+          "internal_refs": []
+        },
+        {
+          "id": "38F0D0",
+          "offset": "293310",
+          "old_length": 87,
+          "new_length": 87,
+          "internal_refs": []
+        },
+        {
+          "id": "381CC5",
+          "offset": "32E260",
+          "old_length": 66,
+          "new_length": 74,
+          "internal_refs": []
+        },
+        {
+          "id": "34ABAC",
+          "offset": "32E2AC",
+          "old_length": 60,
+          "new_length": 60,
+          "internal_refs": []
+        },
+        {
+          "id": "3609B1",
+          "offset": "32E2E8",
+          "old_length": 58,
+          "new_length": 58,
+          "internal_refs": []
+        },
+        {
+          "id": "2F721E",
+          "offset": "32E324",
+          "old_length": 43,
+          "new_length": 55,
+          "internal_refs": []
+        },
+        {
+          "id": "382355",
+          "offset": "32E35C",
+          "old_length": 66,
+          "new_length": 54,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8D72",
+          "offset": "32E394",
+          "old_length": 45,
+          "new_length": 53,
+          "internal_refs": []
+        },
+        {
+          "id": "34B6D6",
+          "offset": "32B020",
+          "old_length": 57,
+          "new_length": 52,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8D4C",
+          "offset": "32B054",
+          "old_length": 38,
+          "new_length": 50,
+          "internal_refs": [
+            {
+              "offset": "32B081",
+              "old_target": "2F69A1",
+              "new_target": "32CFD8"
+            }
+          ]
+        },
+        {
+          "id": "33F3B6",
+          "offset": "32B088",
+          "old_length": 56,
+          "new_length": 46,
+          "internal_refs": []
+        },
+        {
+          "id": "38DB38",
+          "offset": "32B0B8",
+          "old_length": 34,
+          "new_length": 45,
+          "internal_refs": []
+        },
+        {
+          "id": "38DB7E",
+          "offset": "32B0E8",
+          "old_length": 37,
+          "new_length": 45,
+          "internal_refs": []
+        },
+        {
+          "id": "38DBA3",
+          "offset": "32B118",
+          "old_length": 35,
+          "new_length": 45,
+          "internal_refs": []
+        },
+        {
+          "id": "38DB5A",
+          "offset": "32B148",
+          "old_length": 36,
+          "new_length": 44,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8CAC",
+          "offset": "32B174",
+          "old_length": 27,
+          "new_length": 43,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9AE8",
+          "offset": "32B290",
+          "old_length": 26,
+          "new_length": 43,
+          "internal_refs": []
+        },
+        {
+          "id": "38DB16",
+          "offset": "32B2BC",
+          "old_length": 34,
+          "new_length": 43,
+          "internal_refs": []
+        },
+        {
+          "id": "37D4F8",
+          "offset": "32B2E8",
+          "old_length": 35,
+          "new_length": 42,
+          "internal_refs": []
+        },
+        {
+          "id": "384406",
+          "offset": "32B314",
+          "old_length": 36,
+          "new_length": 42,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E3C",
+          "offset": "32B340",
+          "old_length": 34,
+          "new_length": 39,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9A7E",
+          "offset": "32B368",
+          "old_length": 32,
+          "new_length": 38,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9E05",
+          "offset": "32B390",
+          "old_length": 29,
+          "new_length": 38,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8C3A",
+          "offset": "32B3B8",
+          "old_length": 30,
+          "new_length": 37,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E5E",
+          "offset": "32B3E0",
+          "old_length": 32,
+          "new_length": 37,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E7E",
+          "offset": "32CF40",
+          "old_length": 32,
+          "new_length": 37,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E9E",
+          "offset": "32CF68",
+          "old_length": 32,
+          "new_length": 37,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8AF8",
+          "offset": "32CF90",
+          "old_length": 25,
+          "new_length": 36,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8D17",
+          "offset": "32CFB4",
+          "old_length": 24,
+          "new_length": 35,
+          "internal_refs": []
+        },
+        {
+          "id": "2F69A1",
+          "offset": "32CFD8",
+          "old_length": 25,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8A8C",
+          "offset": "32CFFC",
+          "old_length": 23,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7F1E",
+          "offset": "32D020",
+          "old_length": 20,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F80C4",
+          "offset": "32D044",
+          "old_length": 32,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F814F",
+          "offset": "32D068",
+          "old_length": 24,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8167",
+          "offset": "32D08C",
+          "old_length": 31,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F81A5",
+          "offset": "32A2D0",
+          "old_length": 31,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9A47",
+          "offset": "32A2F4",
+          "old_length": 23,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7FE0",
+          "offset": "32A318",
+          "old_length": 28,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F80AC",
+          "offset": "32A338",
+          "old_length": 24,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8186",
+          "offset": "32A358",
+          "old_length": 31,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8B2F",
+          "offset": "32A378",
+          "old_length": 27,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8BA8",
+          "offset": "32A398",
+          "old_length": 24,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8CFB",
+          "offset": "32A3B8",
+          "old_length": 28,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9ED7",
+          "offset": "32A3D8",
+          "old_length": 29,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7FFC",
+          "offset": "32A3F8",
+          "old_length": 20,
+          "new_length": 31,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8211",
+          "offset": "32A418",
+          "old_length": 21,
+          "new_length": 31,
+          "internal_refs": []
+        },
+        {
+          "id": "2F5777",
+          "offset": "32E480",
+          "old_length": 20,
+          "new_length": 30,
+          "internal_refs": []
+        },
+        {
+          "id": "2F81C4",
+          "offset": "32E4A0",
+          "old_length": 19,
+          "new_length": 30,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8226",
+          "offset": "32E4C0",
+          "old_length": 19,
+          "new_length": 29,
+          "internal_refs": []
+        },
+        {
+          "id": "3843EE",
+          "offset": "32E4E0",
+          "old_length": 24,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7569",
+          "offset": "32E4FC",
+          "old_length": 16,
+          "new_length": 26,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E27",
+          "offset": "32E518",
+          "old_length": 21,
+          "new_length": 26,
+          "internal_refs": []
+        },
+        {
+          "id": "33F37B",
+          "offset": "32E534",
+          "old_length": 29,
+          "new_length": 24,
+          "internal_refs": []
+        },
+        {
+          "id": "384368",
+          "offset": "32E54C",
+          "old_length": 28,
+          "new_length": 24,
+          "internal_refs": []
+        },
+        {
+          "id": "2F84A7",
+          "offset": "32E564",
+          "old_length": 15,
+          "new_length": 21,
+          "internal_refs": []
+        },
+        {
+          "id": "361CA1",
+          "offset": "32E57C",
+          "old_length": 22,
+          "new_length": 21,
+          "internal_refs": []
+        }
+      ],
+      "external_refs_rewritten": [
+        {
+          "offset": "34856F",
+          "old_target": "348577",
+          "new_target": "292FA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34856D",
+            "command_hex": "1b027785f400"
+          }
+        },
+        {
+          "offset": "369409",
+          "old_target": "38F0D0",
+          "new_target": "293310",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369405",
+            "record_hex": "01000400d0f0f8003390c200"
+          }
+        },
+        {
+          "offset": "0910CA",
+          "old_target": "381CC5",
+          "new_target": "32E260",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "0910C9",
+            "command_hex": "0ac51cf800"
+          }
+        },
+        {
+          "offset": "34AB95",
+          "old_target": "34ABAC",
+          "new_target": "32E2AC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34AB93",
+            "command_hex": "1b02acabf400"
+          }
+        },
+        {
+          "offset": "36098A",
+          "old_target": "3609B1",
+          "new_target": "32E2E8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "360988",
+            "command_hex": "1b02b109f600"
+          }
+        },
+        {
+          "offset": "2F7212",
+          "old_target": "2F721E",
+          "new_target": "32E324",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7210",
+            "command_hex": "1b021e72ef00"
+          }
+        },
+        {
+          "offset": "2F721A",
+          "old_target": "2F7221",
+          "new_target": "32E327",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7219",
+            "command_hex": "0a2172ef00"
+          }
+        },
+        {
+          "offset": "3822F2",
+          "old_target": "382355",
+          "new_target": "32E35C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3822F0",
+            "command_hex": "1b035523f800"
+          }
+        },
+        {
+          "offset": "1586B8",
+          "old_target": "2F8D72",
+          "new_target": "32B086",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1586B4",
+            "record_hex": "00010500728def006d8bc200"
+          }
+        },
+        {
+          "offset": "368D61",
+          "old_target": "2F8D72",
+          "new_target": "32B086",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368D5D",
+            "record_hex": "00010500728def006d8bc200"
+          }
+        },
+        {
+          "offset": "259ACB",
+          "old_target": "34B6D6",
+          "new_target": "32B020",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "259AC9",
+            "command_hex": "1b02d6b6f400"
+          }
+        },
+        {
+          "offset": "34B71E",
+          "old_target": "34B6D6",
+          "new_target": "32B020",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B71C",
+            "command_hex": "1b02d6b6f400"
+          }
+        },
+        {
+          "offset": "158A18",
+          "old_target": "2F8D4C",
+          "new_target": "32B054",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A14",
+            "record_hex": "010005004c8def003990c200"
+          }
+        },
+        {
+          "offset": "3690C1",
+          "old_target": "2F8D4C",
+          "new_target": "32B054",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690BD",
+            "record_hex": "010005004c8def009b88c200"
+          }
+        },
+        {
+          "offset": "33F211",
+          "old_target": "33F3B6",
+          "new_target": "32B088",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F20F",
+            "command_hex": "1b02b6f3f300"
+          }
+        },
+        {
+          "offset": "33F280",
+          "old_target": "33F3B6",
+          "new_target": "32B088",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F27E",
+            "command_hex": "1b02b6f3f300"
+          }
+        },
+        {
+          "offset": "33F2EF",
+          "old_target": "33F3B6",
+          "new_target": "32B088",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F2ED",
+            "command_hex": "1b02b6f3f300"
+          }
+        },
+        {
+          "offset": "33F35E",
+          "old_target": "33F3B6",
+          "new_target": "32B088",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F35C",
+            "command_hex": "1b02b6f3f300"
+          }
+        },
+        {
+          "offset": "08F7D3",
+          "old_target": "38DB38",
+          "new_target": "32B2E7",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7D2",
+            "command_hex": "0a38dbf800"
+          }
+        },
+        {
+          "offset": "08F84D",
+          "old_target": "38DB7E",
+          "new_target": "32B174",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F84C",
+            "command_hex": "0a7edbf800"
+          }
+        },
+        {
+          "offset": "08F86C",
+          "old_target": "38DBA3",
+          "new_target": "32B118",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F86B",
+            "command_hex": "0aa3dbf800"
+          }
+        },
+        {
+          "offset": "08F7EF",
+          "old_target": "38DB5A",
+          "new_target": "32B148",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7EE",
+            "command_hex": "0a5adbf800"
+          }
+        },
+        {
+          "offset": "158670",
+          "old_target": "2F8CAC",
+          "new_target": "32B174",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15866C",
+            "record_hex": "01000500ac8cef003390c200"
+          }
+        },
+        {
+          "offset": "368D19",
+          "old_target": "2F8CAC",
+          "new_target": "32B174",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368D15",
+            "record_hex": "01000500ac8cef003390c200"
+          }
+        },
+        {
+          "offset": "25EB84",
+          "old_target": "2F9AE8",
+          "new_target": "32B290",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "25EB82",
+            "command_hex": "1b02e89aef00"
+          }
+        },
+        {
+          "offset": "2F9AC3",
+          "old_target": "2F9AE8",
+          "new_target": "32B290",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F9AC1",
+            "command_hex": "1b02e89aef00"
+          }
+        },
+        {
+          "offset": "08F7B9",
+          "old_target": "38DB16",
+          "new_target": "32B2BC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7B8",
+            "command_hex": "0a16dbf800"
+          }
+        },
+        {
+          "offset": "37D4DF",
+          "old_target": "37D4F8",
+          "new_target": "32B2E8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37D4DD",
+            "command_hex": "1b02f8d4f700"
+          }
+        },
+        {
+          "offset": "365CF3",
+          "old_target": "384406",
+          "new_target": "32E4FC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365CF0",
+            "command_hex": "06f8000644f800"
+          }
+        },
+        {
+          "offset": "1582E0",
+          "old_target": "2F8E3C",
+          "new_target": "32E532",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582DC",
+            "record_hex": "000104003c8eef00d1a3c200"
+          }
+        },
+        {
+          "offset": "368989",
+          "old_target": "2F8E3C",
+          "new_target": "32E532",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368985",
+            "record_hex": "000104003c8eef00d1a3c200"
+          }
+        },
+        {
+          "offset": "157E6C",
+          "old_target": "2F9A7E",
+          "new_target": "32B368",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157E68",
+            "record_hex": "000105007e9aef0021a8c200"
+          }
+        },
+        {
+          "offset": "368515",
+          "old_target": "2F9A7E",
+          "new_target": "32B368",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368511",
+            "record_hex": "000105007e9aef0021a8c200"
+          }
+        },
+        {
+          "offset": "157F8C",
+          "old_target": "2F9E05",
+          "new_target": "32B390",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157F88",
+            "record_hex": "00040500059eef00ef99c200"
+          }
+        },
+        {
+          "offset": "368635",
+          "old_target": "2F9E05",
+          "new_target": "32B390",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368631",
+            "record_hex": "00040500059eef00ef99c200"
+          }
+        },
+        {
+          "offset": "158640",
+          "old_target": "2F8C3A",
+          "new_target": "32B3B8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15863C",
+            "record_hex": "000105003a8cef00ae8ec200"
+          }
+        },
+        {
+          "offset": "368CE9",
+          "old_target": "2F8C3A",
+          "new_target": "32B3B8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368CE5",
+            "record_hex": "000105003a8cef00ae8ec200"
+          }
+        },
+        {
+          "offset": "1582F8",
+          "old_target": "2F8E5E",
+          "new_target": "32B3E0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582F4",
+            "record_hex": "000104005e8eef006ba4c200"
+          }
+        },
+        {
+          "offset": "3689A1",
+          "old_target": "2F8E5E",
+          "new_target": "32B3E0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36899D",
+            "record_hex": "000104005e8eef006ba4c200"
+          }
+        },
+        {
+          "offset": "1583AC",
+          "old_target": "2F8E7E",
+          "new_target": "32CF40",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1583A8",
+            "record_hex": "000404007e8eef0007a5c200"
+          }
+        },
+        {
+          "offset": "368A55",
+          "old_target": "2F8E7E",
+          "new_target": "32CF40",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368A51",
+            "record_hex": "000404007e8eef0007a5c200"
+          }
+        },
+        {
+          "offset": "1582EC",
+          "old_target": "2F8E9E",
+          "new_target": "32CF68",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582E8",
+            "record_hex": "000104009e8eef0022a4c200"
+          }
+        },
+        {
+          "offset": "368995",
+          "old_target": "2F8E9E",
+          "new_target": "32CF68",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368991",
+            "record_hex": "000104009e8eef0022a4c200"
+          }
+        },
+        {
+          "offset": "1585BC",
+          "old_target": "2F8AF8",
+          "new_target": "32CF90",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1585B8",
+            "record_hex": "00010100f88aef009f85c200"
+          }
+        },
+        {
+          "offset": "368C65",
+          "old_target": "2F8AF8",
+          "new_target": "32CF90",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C61",
+            "record_hex": "00010100f88aef009f85c200"
+          }
+        },
+        {
+          "offset": "158A3C",
+          "old_target": "2F8D17",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A38",
+            "record_hex": "01000500178def003990c200"
+          }
+        },
+        {
+          "offset": "2F8CD0",
+          "old_target": "2F8D17",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8CCA",
+            "command_hex": "0903fb8cef00178def00b4c1e500"
+          }
+        },
+        {
+          "offset": "3690E5",
+          "old_target": "2F8D17",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690E1",
+            "record_hex": "01000500178def009b88c200"
+          }
+        },
+        {
+          "offset": "15858C",
+          "old_target": "2F8A8C",
+          "new_target": "32CFFC",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158588",
+            "record_hex": "000101008c8aef009f85c200"
+          }
+        },
+        {
+          "offset": "368C35",
+          "old_target": "2F8A8C",
+          "new_target": "32CFFC",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C31",
+            "record_hex": "000101008c8aef009f85c200"
+          }
+        },
+        {
+          "offset": "3693B5",
+          "old_target": "2F8A8C",
+          "new_target": "32CFFC",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3693B1",
+            "record_hex": "000101008c8aef0076edf700"
+          }
+        },
+        {
+          "offset": "158040",
+          "old_target": "2F7F1E",
+          "new_target": "32D020",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15803C",
+            "record_hex": "010005001e7fef009b88c200"
+          }
+        },
+        {
+          "offset": "3686E9",
+          "old_target": "2F7F1E",
+          "new_target": "32D020",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3686E5",
+            "record_hex": "010005001e7fef009b88c200"
+          }
+        },
+        {
+          "offset": "1580E8",
+          "old_target": "2F80C4",
+          "new_target": "32A358",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580E4",
+            "record_hex": "00040200c480ef002c90c200"
+          }
+        },
+        {
+          "offset": "368791",
+          "old_target": "2F80C4",
+          "new_target": "32A358",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36878D",
+            "record_hex": "00040200c480ef005186c200"
+          }
+        },
+        {
+          "offset": "158118",
+          "old_target": "2F814F",
+          "new_target": "32D068",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158114",
+            "record_hex": "010005004f81ef003390c200"
+          }
+        },
+        {
+          "offset": "3687C1",
+          "old_target": "2F814F",
+          "new_target": "32D068",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687BD",
+            "record_hex": "010005004f81ef003390c200"
+          }
+        },
+        {
+          "offset": "15813C",
+          "old_target": "2F8167",
+          "new_target": "32D08C",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158138",
+            "record_hex": "010005006781ef003390c200"
+          }
+        },
+        {
+          "offset": "3687E5",
+          "old_target": "2F8167",
+          "new_target": "32D08C",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687E1",
+            "record_hex": "010005006781ef003390c200"
+          }
+        },
+        {
+          "offset": "158124",
+          "old_target": "2F81A5",
+          "new_target": "32A378",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158120",
+            "record_hex": "01000500a581ef003390c200"
+          }
+        },
+        {
+          "offset": "3687CD",
+          "old_target": "2F81A5",
+          "new_target": "32A378",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687C9",
+            "record_hex": "01000500a581ef003390c200"
+          }
+        },
+        {
+          "offset": "157E54",
+          "old_target": "2F9A47",
+          "new_target": "32A2F4",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157E50",
+            "record_hex": "01000500479aef0045c1c200"
+          }
+        },
+        {
+          "offset": "3684FD",
+          "old_target": "2F9A47",
+          "new_target": "32A2F4",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3684F9",
+            "record_hex": "01000500479aef0045c1c200"
+          }
+        },
+        {
+          "offset": "158088",
+          "old_target": "2F7FE0",
+          "new_target": "32A318",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158084",
+            "record_hex": "00010100e07fef005186c200"
+          }
+        },
+        {
+          "offset": "368731",
+          "old_target": "2F7FE0",
+          "new_target": "32A318",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36872D",
+            "record_hex": "00010100e07fef005186c200"
+          }
+        },
+        {
+          "offset": "3693C1",
+          "old_target": "2F7FE0",
+          "new_target": "32A318",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3693BD",
+            "record_hex": "00010100e07fef007eedf700"
+          }
+        },
+        {
+          "offset": "1580DC",
+          "old_target": "2F80AC",
+          "new_target": "32A338",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580D8",
+            "record_hex": "00010100ac80ef005186c200"
+          }
+        },
+        {
+          "offset": "368785",
+          "old_target": "2F80AC",
+          "new_target": "32A338",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368781",
+            "record_hex": "00010100ac80ef005186c200"
+          }
+        },
+        {
+          "offset": "158130",
+          "old_target": "2F8186",
+          "new_target": "32A358",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15812C",
+            "record_hex": "010005008681ef003390c200"
+          }
+        },
+        {
+          "offset": "3687D9",
+          "old_target": "2F8186",
+          "new_target": "32A358",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687D5",
+            "record_hex": "010005008681ef003390c200"
+          }
+        },
+        {
+          "offset": "1585D4",
+          "old_target": "2F8B2F",
+          "new_target": "32A378",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1585D0",
+            "record_hex": "000102002f8bef004087c200"
+          }
+        },
+        {
+          "offset": "368C7D",
+          "old_target": "2F8B2F",
+          "new_target": "32A378",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C79",
+            "record_hex": "000102002f8bef004087c200"
+          }
+        },
+        {
+          "offset": "158604",
+          "old_target": "2F8BA8",
+          "new_target": "32A398",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158600",
+            "record_hex": "00010200a88bef005186c200"
+          }
+        },
+        {
+          "offset": "368CAD",
+          "old_target": "2F8BA8",
+          "new_target": "32A398",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368CA9",
+            "record_hex": "00010200a88bef005186c200"
+          }
+        },
+        {
+          "offset": "158A30",
+          "old_target": "2F8CFB",
+          "new_target": "32A3B8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A2C",
+            "record_hex": "01000500fb8cef003990c200"
+          }
+        },
+        {
+          "offset": "2F8CCC",
+          "old_target": "2F8CFB",
+          "new_target": "32A3B8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8CCA",
+            "command_hex": "0903fb8cef00178def00b4c1e500"
+          }
+        },
+        {
+          "offset": "3690D9",
+          "old_target": "2F8CFB",
+          "new_target": "32A3B8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690D5",
+            "record_hex": "01000500fb8cef009b88c200"
+          }
+        },
+        {
+          "offset": "157FD4",
+          "old_target": "2F9ED7",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157FD0",
+            "record_hex": "00040500d79eef00bd95c200"
+          }
+        },
+        {
+          "offset": "36867D",
+          "old_target": "2F9ED7",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368679",
+            "record_hex": "00040500d79eef00bd95c200"
+          }
+        },
+        {
+          "offset": "158094",
+          "old_target": "2F7FFC",
+          "new_target": "32A3F8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158090",
+            "record_hex": "00010200fc7fef005186c200"
+          }
+        },
+        {
+          "offset": "36873D",
+          "old_target": "2F7FFC",
+          "new_target": "32A3F8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368739",
+            "record_hex": "00010200fc7fef005186c200"
+          }
+        },
+        {
+          "offset": "15816C",
+          "old_target": "2F8211",
+          "new_target": "32A418",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158168",
+            "record_hex": "010005001182ef003390c200"
+          }
+        },
+        {
+          "offset": "368815",
+          "old_target": "2F8211",
+          "new_target": "32A418",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368811",
+            "record_hex": "010005001182ef003390c200"
+          }
+        },
+        {
+          "offset": "373221",
+          "old_target": "2F5777",
+          "new_target": "32E480",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373220",
+            "command_hex": "087757ef00"
+          }
+        },
+        {
+          "offset": "158148",
+          "old_target": "2F81C4",
+          "new_target": "32E4A0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158144",
+            "record_hex": "01000500c481ef003390c200"
+          }
+        },
+        {
+          "offset": "3687F1",
+          "old_target": "2F81C4",
+          "new_target": "32E4A0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687ED",
+            "record_hex": "01000500c481ef003390c200"
+          }
+        },
+        {
+          "offset": "158178",
+          "old_target": "2F8226",
+          "new_target": "32E4C0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158174",
+            "record_hex": "010005002682ef003390c200"
+          }
+        },
+        {
+          "offset": "368821",
+          "old_target": "2F8226",
+          "new_target": "32E4C0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36881D",
+            "record_hex": "010005002682ef003390c200"
+          }
+        },
+        {
+          "offset": "365C3B",
+          "old_target": "3843EE",
+          "new_target": "32E4E0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365C38",
+            "command_hex": "06f800ee43f800"
+          }
+        },
+        {
+          "offset": "1587CC",
+          "old_target": "2F7569",
+          "new_target": "32E4FC",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1587C8",
+            "record_hex": "010005006975ef003390c200"
+          }
+        },
+        {
+          "offset": "368E75",
+          "old_target": "2F7569",
+          "new_target": "32E4FC",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368E71",
+            "record_hex": "010005006975ef009b88c200"
+          }
+        },
+        {
+          "offset": "1581FC",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1581F8",
+            "record_hex": "01010400278eef00d89ac200"
+          }
+        },
+        {
+          "offset": "158268",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158264",
+            "record_hex": "01010400278eef00ea9ac200"
+          }
+        },
+        {
+          "offset": "158274",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158270",
+            "record_hex": "01010400278eef007a9bc200"
+          }
+        },
+        {
+          "offset": "158280",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15827C",
+            "record_hex": "01010400278eef002c9cc200"
+          }
+        },
+        {
+          "offset": "15828C",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158288",
+            "record_hex": "01010400278eef00b89cc200"
+          }
+        },
+        {
+          "offset": "158298",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158294",
+            "record_hex": "01010400278eef009da3c200"
+          }
+        },
+        {
+          "offset": "1583F4",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1583F0",
+            "record_hex": "01010400278eef007faac200"
+          }
+        },
+        {
+          "offset": "158400",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1583FC",
+            "record_hex": "01010400278eef00c6aac200"
+          }
+        },
+        {
+          "offset": "15840C",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158408",
+            "record_hex": "01040400278eef000dabc200"
+          }
+        },
+        {
+          "offset": "158418",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158414",
+            "record_hex": "01000400278eef0071abc200"
+          }
+        },
+        {
+          "offset": "158700",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1586FC",
+            "record_hex": "00040500278eef00c690c200"
+          }
+        },
+        {
+          "offset": "3688A5",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3688A1",
+            "record_hex": "01010400278eef00d89ac200"
+          }
+        },
+        {
+          "offset": "368911",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36890D",
+            "record_hex": "01010400278eef00ea9ac200"
+          }
+        },
+        {
+          "offset": "36891D",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368919",
+            "record_hex": "01010400278eef007a9bc200"
+          }
+        },
+        {
+          "offset": "368929",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368925",
+            "record_hex": "01010400278eef002c9cc200"
+          }
+        },
+        {
+          "offset": "368935",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368931",
+            "record_hex": "01010400278eef00b89cc200"
+          }
+        },
+        {
+          "offset": "368941",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36893D",
+            "record_hex": "01010400278eef009da3c200"
+          }
+        },
+        {
+          "offset": "368965",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368961",
+            "record_hex": "01010400278eef0093a1c200"
+          }
+        },
+        {
+          "offset": "368971",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36896D",
+            "record_hex": "01010400278eef00dba1c200"
+          }
+        },
+        {
+          "offset": "36897D",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368979",
+            "record_hex": "01010400278eef0027a2c200"
+          }
+        },
+        {
+          "offset": "368A9D",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368A99",
+            "record_hex": "01010400278eef007faac200"
+          }
+        },
+        {
+          "offset": "368AA9",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368AA5",
+            "record_hex": "01010400278eef00c6aac200"
+          }
+        },
+        {
+          "offset": "368AB5",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368AB1",
+            "record_hex": "01040400278eef000dabc200"
+          }
+        },
+        {
+          "offset": "368AC1",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368ABD",
+            "record_hex": "01000400278eef0071abc200"
+          }
+        },
+        {
+          "offset": "368DA9",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368DA5",
+            "record_hex": "00040500278eef00c690c200"
+          }
+        },
+        {
+          "offset": "36918D",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369189",
+            "record_hex": "00010400278eef00ab95c200"
+          }
+        },
+        {
+          "offset": "33F21C",
+          "old_target": "33F37B",
+          "new_target": "32E534",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F21B",
+            "command_hex": "087bf3f300"
+          }
+        },
+        {
+          "offset": "33F28B",
+          "old_target": "33F37B",
+          "new_target": "32E534",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F28A",
+            "command_hex": "087bf3f300"
+          }
+        },
+        {
+          "offset": "33F2FA",
+          "old_target": "33F37B",
+          "new_target": "32E534",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F2F9",
+            "command_hex": "087bf3f300"
+          }
+        },
+        {
+          "offset": "33F369",
+          "old_target": "33F37B",
+          "new_target": "32E534",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F368",
+            "command_hex": "087bf3f300"
+          }
+        },
+        {
+          "offset": "3658A3",
+          "old_target": "384368",
+          "new_target": "32E54C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3658A0",
+            "command_hex": "06f8006843f800"
+          }
+        },
+        {
+          "offset": "2F8492",
+          "old_target": "2F84A7",
+          "new_target": "32E564",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8490",
+            "command_hex": "1b02a784ef00"
+          }
+        },
+        {
+          "offset": "2F8531",
+          "old_target": "361CA1",
+          "new_target": "32E57C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8530",
+            "command_hex": "0aa11cf600"
+          }
+        }
+      ],
+      "rom_roundtrip": true,
+      "source_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "prior_record_pointer_updates": [
+        {
+          "offset": "259ACB",
+          "old_target": "34B6D6",
+          "new_target": "32B020",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "259AC9",
+            "command_hex": "1b02d6b6f400"
+          }
+        },
+        {
+          "offset": "25EB84",
+          "old_target": "2F9AE8",
+          "new_target": "32B290",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "25EB82",
+            "command_hex": "1b02e89aef00"
+          }
+        }
+      ]
+    },
+    "ascii": {
+      "sha256": "1a41203b0d6021cd8a80fd40099b5aa0a47d64311e7bba4f2d0c73884b73f508",
+      "target_rom_sha256": "47498bca0154e3238be765b5d7dace6c3029b94e4217e096486d675fb7e1cc71",
+      "prior_records_preserved": 7116,
+      "records_added": 180,
+      "relocated": [
+        {
+          "id": "348577",
+          "offset": "292FA0",
+          "old_length": 875,
+          "new_length": 877,
+          "internal_refs": []
+        },
+        {
+          "id": "38F0D0",
+          "offset": "293310",
+          "old_length": 87,
+          "new_length": 87,
+          "internal_refs": []
+        },
+        {
+          "id": "381CC5",
+          "offset": "32E260",
+          "old_length": 66,
+          "new_length": 74,
+          "internal_refs": []
+        },
+        {
+          "id": "34ABAC",
+          "offset": "32E2AC",
+          "old_length": 60,
+          "new_length": 60,
+          "internal_refs": []
+        },
+        {
+          "id": "3609B1",
+          "offset": "32E2E8",
+          "old_length": 58,
+          "new_length": 58,
+          "internal_refs": []
+        },
+        {
+          "id": "2F721E",
+          "offset": "32E324",
+          "old_length": 43,
+          "new_length": 55,
+          "internal_refs": []
+        },
+        {
+          "id": "382355",
+          "offset": "32E35C",
+          "old_length": 66,
+          "new_length": 54,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8D72",
+          "offset": "32E394",
+          "old_length": 45,
+          "new_length": 53,
+          "internal_refs": []
+        },
+        {
+          "id": "34B6D6",
+          "offset": "32B020",
+          "old_length": 57,
+          "new_length": 52,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8D4C",
+          "offset": "32B054",
+          "old_length": 38,
+          "new_length": 50,
+          "internal_refs": [
+            {
+              "offset": "32B081",
+              "old_target": "2F69A1",
+              "new_target": "32CFD8"
+            }
+          ]
+        },
+        {
+          "id": "33F3B6",
+          "offset": "32B088",
+          "old_length": 56,
+          "new_length": 46,
+          "internal_refs": []
+        },
+        {
+          "id": "38DB38",
+          "offset": "32B0B8",
+          "old_length": 34,
+          "new_length": 45,
+          "internal_refs": []
+        },
+        {
+          "id": "38DB7E",
+          "offset": "32B0E8",
+          "old_length": 37,
+          "new_length": 45,
+          "internal_refs": []
+        },
+        {
+          "id": "38DBA3",
+          "offset": "32B118",
+          "old_length": 35,
+          "new_length": 45,
+          "internal_refs": []
+        },
+        {
+          "id": "38DB5A",
+          "offset": "32B148",
+          "old_length": 36,
+          "new_length": 44,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8CAC",
+          "offset": "32B174",
+          "old_length": 27,
+          "new_length": 43,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9AE8",
+          "offset": "32B290",
+          "old_length": 26,
+          "new_length": 43,
+          "internal_refs": []
+        },
+        {
+          "id": "38DB16",
+          "offset": "32B2BC",
+          "old_length": 34,
+          "new_length": 43,
+          "internal_refs": []
+        },
+        {
+          "id": "37D4F8",
+          "offset": "32B2E8",
+          "old_length": 35,
+          "new_length": 42,
+          "internal_refs": []
+        },
+        {
+          "id": "384406",
+          "offset": "32B314",
+          "old_length": 36,
+          "new_length": 42,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E3C",
+          "offset": "32B340",
+          "old_length": 34,
+          "new_length": 39,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9A7E",
+          "offset": "32B368",
+          "old_length": 32,
+          "new_length": 38,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9E05",
+          "offset": "32B390",
+          "old_length": 29,
+          "new_length": 38,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8C3A",
+          "offset": "32B3B8",
+          "old_length": 30,
+          "new_length": 37,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E5E",
+          "offset": "32B3E0",
+          "old_length": 32,
+          "new_length": 37,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E7E",
+          "offset": "32CF40",
+          "old_length": 32,
+          "new_length": 37,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E9E",
+          "offset": "32CF68",
+          "old_length": 32,
+          "new_length": 37,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8AF8",
+          "offset": "32CF90",
+          "old_length": 25,
+          "new_length": 36,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8D17",
+          "offset": "32CFB4",
+          "old_length": 24,
+          "new_length": 35,
+          "internal_refs": []
+        },
+        {
+          "id": "2F69A1",
+          "offset": "32CFD8",
+          "old_length": 25,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8A8C",
+          "offset": "32CFFC",
+          "old_length": 23,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7F1E",
+          "offset": "32D020",
+          "old_length": 20,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F80C4",
+          "offset": "32D044",
+          "old_length": 32,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F814F",
+          "offset": "32D068",
+          "old_length": 24,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8167",
+          "offset": "32D08C",
+          "old_length": 31,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F81A5",
+          "offset": "32A2D0",
+          "old_length": 31,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9A47",
+          "offset": "32A2F4",
+          "old_length": 23,
+          "new_length": 33,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7FE0",
+          "offset": "32A318",
+          "old_length": 28,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F80AC",
+          "offset": "32A338",
+          "old_length": 24,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8186",
+          "offset": "32A358",
+          "old_length": 31,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8B2F",
+          "offset": "32A378",
+          "old_length": 27,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8BA8",
+          "offset": "32A398",
+          "old_length": 24,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8CFB",
+          "offset": "32A3B8",
+          "old_length": 28,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F9ED7",
+          "offset": "32A3D8",
+          "old_length": 29,
+          "new_length": 32,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7FFC",
+          "offset": "32A3F8",
+          "old_length": 20,
+          "new_length": 31,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8211",
+          "offset": "32A418",
+          "old_length": 21,
+          "new_length": 31,
+          "internal_refs": []
+        },
+        {
+          "id": "2F5777",
+          "offset": "32E480",
+          "old_length": 20,
+          "new_length": 30,
+          "internal_refs": []
+        },
+        {
+          "id": "2F81C4",
+          "offset": "32E4A0",
+          "old_length": 19,
+          "new_length": 30,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8226",
+          "offset": "32E4C0",
+          "old_length": 19,
+          "new_length": 29,
+          "internal_refs": []
+        },
+        {
+          "id": "3843EE",
+          "offset": "32E4E0",
+          "old_length": 24,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7569",
+          "offset": "32E4FC",
+          "old_length": 16,
+          "new_length": 26,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8E27",
+          "offset": "32E518",
+          "old_length": 21,
+          "new_length": 26,
+          "internal_refs": []
+        },
+        {
+          "id": "33F37B",
+          "offset": "32E534",
+          "old_length": 29,
+          "new_length": 24,
+          "internal_refs": []
+        },
+        {
+          "id": "384368",
+          "offset": "32E54C",
+          "old_length": 28,
+          "new_length": 24,
+          "internal_refs": []
+        },
+        {
+          "id": "2F84A7",
+          "offset": "32E564",
+          "old_length": 15,
+          "new_length": 21,
+          "internal_refs": []
+        },
+        {
+          "id": "361CA1",
+          "offset": "32E57C",
+          "old_length": 22,
+          "new_length": 21,
+          "internal_refs": []
+        }
+      ],
+      "external_refs_rewritten": [
+        {
+          "offset": "34856F",
+          "old_target": "348577",
+          "new_target": "292FA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34856D",
+            "command_hex": "1b027785f400"
+          }
+        },
+        {
+          "offset": "369409",
+          "old_target": "38F0D0",
+          "new_target": "293310",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369405",
+            "record_hex": "01000400d0f0f8003390c200"
+          }
+        },
+        {
+          "offset": "0910CA",
+          "old_target": "381CC5",
+          "new_target": "32E260",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "0910C9",
+            "command_hex": "0ac51cf800"
+          }
+        },
+        {
+          "offset": "34AB95",
+          "old_target": "34ABAC",
+          "new_target": "32E2AC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34AB93",
+            "command_hex": "1b02acabf400"
+          }
+        },
+        {
+          "offset": "36098A",
+          "old_target": "3609B1",
+          "new_target": "32E2E8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "360988",
+            "command_hex": "1b02b109f600"
+          }
+        },
+        {
+          "offset": "2F7212",
+          "old_target": "2F721E",
+          "new_target": "32E324",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7210",
+            "command_hex": "1b021e72ef00"
+          }
+        },
+        {
+          "offset": "2F721A",
+          "old_target": "2F7221",
+          "new_target": "32E327",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7219",
+            "command_hex": "0a2172ef00"
+          }
+        },
+        {
+          "offset": "3822F2",
+          "old_target": "382355",
+          "new_target": "32E35C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3822F0",
+            "command_hex": "1b035523f800"
+          }
+        },
+        {
+          "offset": "1586B8",
+          "old_target": "2F8D72",
+          "new_target": "32B086",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1586B4",
+            "record_hex": "00010500728def006d8bc200"
+          }
+        },
+        {
+          "offset": "368D61",
+          "old_target": "2F8D72",
+          "new_target": "32B086",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368D5D",
+            "record_hex": "00010500728def006d8bc200"
+          }
+        },
+        {
+          "offset": "259ACB",
+          "old_target": "34B6D6",
+          "new_target": "32B020",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "259AC9",
+            "command_hex": "1b02d6b6f400"
+          }
+        },
+        {
+          "offset": "34B71E",
+          "old_target": "34B6D6",
+          "new_target": "32B020",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B71C",
+            "command_hex": "1b02d6b6f400"
+          }
+        },
+        {
+          "offset": "158A18",
+          "old_target": "2F8D4C",
+          "new_target": "32B054",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A14",
+            "record_hex": "010005004c8def003990c200"
+          }
+        },
+        {
+          "offset": "3690C1",
+          "old_target": "2F8D4C",
+          "new_target": "32B054",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690BD",
+            "record_hex": "010005004c8def009b88c200"
+          }
+        },
+        {
+          "offset": "33F211",
+          "old_target": "33F3B6",
+          "new_target": "32B088",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F20F",
+            "command_hex": "1b02b6f3f300"
+          }
+        },
+        {
+          "offset": "33F280",
+          "old_target": "33F3B6",
+          "new_target": "32B088",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F27E",
+            "command_hex": "1b02b6f3f300"
+          }
+        },
+        {
+          "offset": "33F2EF",
+          "old_target": "33F3B6",
+          "new_target": "32B088",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F2ED",
+            "command_hex": "1b02b6f3f300"
+          }
+        },
+        {
+          "offset": "33F35E",
+          "old_target": "33F3B6",
+          "new_target": "32B088",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F35C",
+            "command_hex": "1b02b6f3f300"
+          }
+        },
+        {
+          "offset": "08F7D3",
+          "old_target": "38DB38",
+          "new_target": "32B2E7",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7D2",
+            "command_hex": "0a38dbf800"
+          }
+        },
+        {
+          "offset": "08F84D",
+          "old_target": "38DB7E",
+          "new_target": "32B174",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F84C",
+            "command_hex": "0a7edbf800"
+          }
+        },
+        {
+          "offset": "08F86C",
+          "old_target": "38DBA3",
+          "new_target": "32B118",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F86B",
+            "command_hex": "0aa3dbf800"
+          }
+        },
+        {
+          "offset": "08F7EF",
+          "old_target": "38DB5A",
+          "new_target": "32B148",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7EE",
+            "command_hex": "0a5adbf800"
+          }
+        },
+        {
+          "offset": "158670",
+          "old_target": "2F8CAC",
+          "new_target": "32B174",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15866C",
+            "record_hex": "01000500ac8cef003390c200"
+          }
+        },
+        {
+          "offset": "368D19",
+          "old_target": "2F8CAC",
+          "new_target": "32B174",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368D15",
+            "record_hex": "01000500ac8cef003390c200"
+          }
+        },
+        {
+          "offset": "25EB84",
+          "old_target": "2F9AE8",
+          "new_target": "32B290",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "25EB82",
+            "command_hex": "1b02e89aef00"
+          }
+        },
+        {
+          "offset": "2F9AC3",
+          "old_target": "2F9AE8",
+          "new_target": "32B290",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F9AC1",
+            "command_hex": "1b02e89aef00"
+          }
+        },
+        {
+          "offset": "08F7B9",
+          "old_target": "38DB16",
+          "new_target": "32B2BC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7B8",
+            "command_hex": "0a16dbf800"
+          }
+        },
+        {
+          "offset": "37D4DF",
+          "old_target": "37D4F8",
+          "new_target": "32B2E8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37D4DD",
+            "command_hex": "1b02f8d4f700"
+          }
+        },
+        {
+          "offset": "365CF3",
+          "old_target": "384406",
+          "new_target": "32E4FC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365CF0",
+            "command_hex": "06f8000644f800"
+          }
+        },
+        {
+          "offset": "1582E0",
+          "old_target": "2F8E3C",
+          "new_target": "32E532",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582DC",
+            "record_hex": "000104003c8eef00d1a3c200"
+          }
+        },
+        {
+          "offset": "368989",
+          "old_target": "2F8E3C",
+          "new_target": "32E532",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368985",
+            "record_hex": "000104003c8eef00d1a3c200"
+          }
+        },
+        {
+          "offset": "157E6C",
+          "old_target": "2F9A7E",
+          "new_target": "32B368",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157E68",
+            "record_hex": "000105007e9aef0021a8c200"
+          }
+        },
+        {
+          "offset": "368515",
+          "old_target": "2F9A7E",
+          "new_target": "32B368",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368511",
+            "record_hex": "000105007e9aef0021a8c200"
+          }
+        },
+        {
+          "offset": "157F8C",
+          "old_target": "2F9E05",
+          "new_target": "32B390",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157F88",
+            "record_hex": "00040500059eef00ef99c200"
+          }
+        },
+        {
+          "offset": "368635",
+          "old_target": "2F9E05",
+          "new_target": "32B390",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368631",
+            "record_hex": "00040500059eef00ef99c200"
+          }
+        },
+        {
+          "offset": "158640",
+          "old_target": "2F8C3A",
+          "new_target": "32B3B8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15863C",
+            "record_hex": "000105003a8cef00ae8ec200"
+          }
+        },
+        {
+          "offset": "368CE9",
+          "old_target": "2F8C3A",
+          "new_target": "32B3B8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368CE5",
+            "record_hex": "000105003a8cef00ae8ec200"
+          }
+        },
+        {
+          "offset": "1582F8",
+          "old_target": "2F8E5E",
+          "new_target": "32B3E0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582F4",
+            "record_hex": "000104005e8eef006ba4c200"
+          }
+        },
+        {
+          "offset": "3689A1",
+          "old_target": "2F8E5E",
+          "new_target": "32B3E0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36899D",
+            "record_hex": "000104005e8eef006ba4c200"
+          }
+        },
+        {
+          "offset": "1583AC",
+          "old_target": "2F8E7E",
+          "new_target": "32CF40",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1583A8",
+            "record_hex": "000404007e8eef0007a5c200"
+          }
+        },
+        {
+          "offset": "368A55",
+          "old_target": "2F8E7E",
+          "new_target": "32CF40",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368A51",
+            "record_hex": "000404007e8eef0007a5c200"
+          }
+        },
+        {
+          "offset": "1582EC",
+          "old_target": "2F8E9E",
+          "new_target": "32CF68",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582E8",
+            "record_hex": "000104009e8eef0022a4c200"
+          }
+        },
+        {
+          "offset": "368995",
+          "old_target": "2F8E9E",
+          "new_target": "32CF68",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368991",
+            "record_hex": "000104009e8eef0022a4c200"
+          }
+        },
+        {
+          "offset": "1585BC",
+          "old_target": "2F8AF8",
+          "new_target": "32CF90",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1585B8",
+            "record_hex": "00010100f88aef009f85c200"
+          }
+        },
+        {
+          "offset": "368C65",
+          "old_target": "2F8AF8",
+          "new_target": "32CF90",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C61",
+            "record_hex": "00010100f88aef009f85c200"
+          }
+        },
+        {
+          "offset": "158A3C",
+          "old_target": "2F8D17",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A38",
+            "record_hex": "01000500178def003990c200"
+          }
+        },
+        {
+          "offset": "2F8CD0",
+          "old_target": "2F8D17",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8CCA",
+            "command_hex": "0903fb8cef00178def00b4c1e500"
+          }
+        },
+        {
+          "offset": "3690E5",
+          "old_target": "2F8D17",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690E1",
+            "record_hex": "01000500178def009b88c200"
+          }
+        },
+        {
+          "offset": "15858C",
+          "old_target": "2F8A8C",
+          "new_target": "32CFFC",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158588",
+            "record_hex": "000101008c8aef009f85c200"
+          }
+        },
+        {
+          "offset": "368C35",
+          "old_target": "2F8A8C",
+          "new_target": "32CFFC",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C31",
+            "record_hex": "000101008c8aef009f85c200"
+          }
+        },
+        {
+          "offset": "3693B5",
+          "old_target": "2F8A8C",
+          "new_target": "32CFFC",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3693B1",
+            "record_hex": "000101008c8aef0076edf700"
+          }
+        },
+        {
+          "offset": "158040",
+          "old_target": "2F7F1E",
+          "new_target": "32D020",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15803C",
+            "record_hex": "010005001e7fef009b88c200"
+          }
+        },
+        {
+          "offset": "3686E9",
+          "old_target": "2F7F1E",
+          "new_target": "32D020",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3686E5",
+            "record_hex": "010005001e7fef009b88c200"
+          }
+        },
+        {
+          "offset": "1580E8",
+          "old_target": "2F80C4",
+          "new_target": "32A358",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580E4",
+            "record_hex": "00040200c480ef002c90c200"
+          }
+        },
+        {
+          "offset": "368791",
+          "old_target": "2F80C4",
+          "new_target": "32A358",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36878D",
+            "record_hex": "00040200c480ef005186c200"
+          }
+        },
+        {
+          "offset": "158118",
+          "old_target": "2F814F",
+          "new_target": "32D068",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158114",
+            "record_hex": "010005004f81ef003390c200"
+          }
+        },
+        {
+          "offset": "3687C1",
+          "old_target": "2F814F",
+          "new_target": "32D068",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687BD",
+            "record_hex": "010005004f81ef003390c200"
+          }
+        },
+        {
+          "offset": "15813C",
+          "old_target": "2F8167",
+          "new_target": "32D08C",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158138",
+            "record_hex": "010005006781ef003390c200"
+          }
+        },
+        {
+          "offset": "3687E5",
+          "old_target": "2F8167",
+          "new_target": "32D08C",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687E1",
+            "record_hex": "010005006781ef003390c200"
+          }
+        },
+        {
+          "offset": "158124",
+          "old_target": "2F81A5",
+          "new_target": "32A378",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158120",
+            "record_hex": "01000500a581ef003390c200"
+          }
+        },
+        {
+          "offset": "3687CD",
+          "old_target": "2F81A5",
+          "new_target": "32A378",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687C9",
+            "record_hex": "01000500a581ef003390c200"
+          }
+        },
+        {
+          "offset": "157E54",
+          "old_target": "2F9A47",
+          "new_target": "32A2F4",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157E50",
+            "record_hex": "01000500479aef0045c1c200"
+          }
+        },
+        {
+          "offset": "3684FD",
+          "old_target": "2F9A47",
+          "new_target": "32A2F4",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3684F9",
+            "record_hex": "01000500479aef0045c1c200"
+          }
+        },
+        {
+          "offset": "158088",
+          "old_target": "2F7FE0",
+          "new_target": "32A318",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158084",
+            "record_hex": "00010100e07fef005186c200"
+          }
+        },
+        {
+          "offset": "368731",
+          "old_target": "2F7FE0",
+          "new_target": "32A318",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36872D",
+            "record_hex": "00010100e07fef005186c200"
+          }
+        },
+        {
+          "offset": "3693C1",
+          "old_target": "2F7FE0",
+          "new_target": "32A318",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3693BD",
+            "record_hex": "00010100e07fef007eedf700"
+          }
+        },
+        {
+          "offset": "1580DC",
+          "old_target": "2F80AC",
+          "new_target": "32A338",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580D8",
+            "record_hex": "00010100ac80ef005186c200"
+          }
+        },
+        {
+          "offset": "368785",
+          "old_target": "2F80AC",
+          "new_target": "32A338",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368781",
+            "record_hex": "00010100ac80ef005186c200"
+          }
+        },
+        {
+          "offset": "158130",
+          "old_target": "2F8186",
+          "new_target": "32A358",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15812C",
+            "record_hex": "010005008681ef003390c200"
+          }
+        },
+        {
+          "offset": "3687D9",
+          "old_target": "2F8186",
+          "new_target": "32A358",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687D5",
+            "record_hex": "010005008681ef003390c200"
+          }
+        },
+        {
+          "offset": "1585D4",
+          "old_target": "2F8B2F",
+          "new_target": "32A378",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1585D0",
+            "record_hex": "000102002f8bef004087c200"
+          }
+        },
+        {
+          "offset": "368C7D",
+          "old_target": "2F8B2F",
+          "new_target": "32A378",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C79",
+            "record_hex": "000102002f8bef004087c200"
+          }
+        },
+        {
+          "offset": "158604",
+          "old_target": "2F8BA8",
+          "new_target": "32A398",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158600",
+            "record_hex": "00010200a88bef005186c200"
+          }
+        },
+        {
+          "offset": "368CAD",
+          "old_target": "2F8BA8",
+          "new_target": "32A398",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368CA9",
+            "record_hex": "00010200a88bef005186c200"
+          }
+        },
+        {
+          "offset": "158A30",
+          "old_target": "2F8CFB",
+          "new_target": "32A3B8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A2C",
+            "record_hex": "01000500fb8cef003990c200"
+          }
+        },
+        {
+          "offset": "2F8CCC",
+          "old_target": "2F8CFB",
+          "new_target": "32A3B8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8CCA",
+            "command_hex": "0903fb8cef00178def00b4c1e500"
+          }
+        },
+        {
+          "offset": "3690D9",
+          "old_target": "2F8CFB",
+          "new_target": "32A3B8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690D5",
+            "record_hex": "01000500fb8cef009b88c200"
+          }
+        },
+        {
+          "offset": "157FD4",
+          "old_target": "2F9ED7",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157FD0",
+            "record_hex": "00040500d79eef00bd95c200"
+          }
+        },
+        {
+          "offset": "36867D",
+          "old_target": "2F9ED7",
+          "new_target": "32A3D8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368679",
+            "record_hex": "00040500d79eef00bd95c200"
+          }
+        },
+        {
+          "offset": "158094",
+          "old_target": "2F7FFC",
+          "new_target": "32A3F8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158090",
+            "record_hex": "00010200fc7fef005186c200"
+          }
+        },
+        {
+          "offset": "36873D",
+          "old_target": "2F7FFC",
+          "new_target": "32A3F8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368739",
+            "record_hex": "00010200fc7fef005186c200"
+          }
+        },
+        {
+          "offset": "15816C",
+          "old_target": "2F8211",
+          "new_target": "32A418",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158168",
+            "record_hex": "010005001182ef003390c200"
+          }
+        },
+        {
+          "offset": "368815",
+          "old_target": "2F8211",
+          "new_target": "32A418",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368811",
+            "record_hex": "010005001182ef003390c200"
+          }
+        },
+        {
+          "offset": "373221",
+          "old_target": "2F5777",
+          "new_target": "32E480",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373220",
+            "command_hex": "087757ef00"
+          }
+        },
+        {
+          "offset": "158148",
+          "old_target": "2F81C4",
+          "new_target": "32E4A0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158144",
+            "record_hex": "01000500c481ef003390c200"
+          }
+        },
+        {
+          "offset": "3687F1",
+          "old_target": "2F81C4",
+          "new_target": "32E4A0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687ED",
+            "record_hex": "01000500c481ef003390c200"
+          }
+        },
+        {
+          "offset": "158178",
+          "old_target": "2F8226",
+          "new_target": "32E4C0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158174",
+            "record_hex": "010005002682ef003390c200"
+          }
+        },
+        {
+          "offset": "368821",
+          "old_target": "2F8226",
+          "new_target": "32E4C0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36881D",
+            "record_hex": "010005002682ef003390c200"
+          }
+        },
+        {
+          "offset": "365C3B",
+          "old_target": "3843EE",
+          "new_target": "32E4E0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365C38",
+            "command_hex": "06f800ee43f800"
+          }
+        },
+        {
+          "offset": "1587CC",
+          "old_target": "2F7569",
+          "new_target": "32E4FC",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1587C8",
+            "record_hex": "010005006975ef003390c200"
+          }
+        },
+        {
+          "offset": "368E75",
+          "old_target": "2F7569",
+          "new_target": "32E4FC",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368E71",
+            "record_hex": "010005006975ef009b88c200"
+          }
+        },
+        {
+          "offset": "1581FC",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1581F8",
+            "record_hex": "01010400278eef00d89ac200"
+          }
+        },
+        {
+          "offset": "158268",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158264",
+            "record_hex": "01010400278eef00ea9ac200"
+          }
+        },
+        {
+          "offset": "158274",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158270",
+            "record_hex": "01010400278eef007a9bc200"
+          }
+        },
+        {
+          "offset": "158280",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15827C",
+            "record_hex": "01010400278eef002c9cc200"
+          }
+        },
+        {
+          "offset": "15828C",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158288",
+            "record_hex": "01010400278eef00b89cc200"
+          }
+        },
+        {
+          "offset": "158298",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158294",
+            "record_hex": "01010400278eef009da3c200"
+          }
+        },
+        {
+          "offset": "1583F4",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1583F0",
+            "record_hex": "01010400278eef007faac200"
+          }
+        },
+        {
+          "offset": "158400",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1583FC",
+            "record_hex": "01010400278eef00c6aac200"
+          }
+        },
+        {
+          "offset": "15840C",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158408",
+            "record_hex": "01040400278eef000dabc200"
+          }
+        },
+        {
+          "offset": "158418",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158414",
+            "record_hex": "01000400278eef0071abc200"
+          }
+        },
+        {
+          "offset": "158700",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1586FC",
+            "record_hex": "00040500278eef00c690c200"
+          }
+        },
+        {
+          "offset": "3688A5",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3688A1",
+            "record_hex": "01010400278eef00d89ac200"
+          }
+        },
+        {
+          "offset": "368911",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36890D",
+            "record_hex": "01010400278eef00ea9ac200"
+          }
+        },
+        {
+          "offset": "36891D",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368919",
+            "record_hex": "01010400278eef007a9bc200"
+          }
+        },
+        {
+          "offset": "368929",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368925",
+            "record_hex": "01010400278eef002c9cc200"
+          }
+        },
+        {
+          "offset": "368935",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368931",
+            "record_hex": "01010400278eef00b89cc200"
+          }
+        },
+        {
+          "offset": "368941",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36893D",
+            "record_hex": "01010400278eef009da3c200"
+          }
+        },
+        {
+          "offset": "368965",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368961",
+            "record_hex": "01010400278eef0093a1c200"
+          }
+        },
+        {
+          "offset": "368971",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36896D",
+            "record_hex": "01010400278eef00dba1c200"
+          }
+        },
+        {
+          "offset": "36897D",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368979",
+            "record_hex": "01010400278eef0027a2c200"
+          }
+        },
+        {
+          "offset": "368A9D",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368A99",
+            "record_hex": "01010400278eef007faac200"
+          }
+        },
+        {
+          "offset": "368AA9",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368AA5",
+            "record_hex": "01010400278eef00c6aac200"
+          }
+        },
+        {
+          "offset": "368AB5",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368AB1",
+            "record_hex": "01040400278eef000dabc200"
+          }
+        },
+        {
+          "offset": "368AC1",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368ABD",
+            "record_hex": "01000400278eef0071abc200"
+          }
+        },
+        {
+          "offset": "368DA9",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368DA5",
+            "record_hex": "00040500278eef00c690c200"
+          }
+        },
+        {
+          "offset": "36918D",
+          "old_target": "2F8E27",
+          "new_target": "32E518",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369189",
+            "record_hex": "00010400278eef00ab95c200"
+          }
+        },
+        {
+          "offset": "33F21C",
+          "old_target": "33F37B",
+          "new_target": "32E534",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F21B",
+            "command_hex": "087bf3f300"
+          }
+        },
+        {
+          "offset": "33F28B",
+          "old_target": "33F37B",
+          "new_target": "32E534",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F28A",
+            "command_hex": "087bf3f300"
+          }
+        },
+        {
+          "offset": "33F2FA",
+          "old_target": "33F37B",
+          "new_target": "32E534",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F2F9",
+            "command_hex": "087bf3f300"
+          }
+        },
+        {
+          "offset": "33F369",
+          "old_target": "33F37B",
+          "new_target": "32E534",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F368",
+            "command_hex": "087bf3f300"
+          }
+        },
+        {
+          "offset": "3658A3",
+          "old_target": "384368",
+          "new_target": "32E54C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3658A0",
+            "command_hex": "06f8006843f800"
+          }
+        },
+        {
+          "offset": "2F8492",
+          "old_target": "2F84A7",
+          "new_target": "32E564",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8490",
+            "command_hex": "1b02a784ef00"
+          }
+        },
+        {
+          "offset": "2F8531",
+          "old_target": "361CA1",
+          "new_target": "32E57C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8530",
+            "command_hex": "0aa11cf600"
+          }
+        }
+      ],
+      "rom_roundtrip": true,
+      "source_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "prior_record_pointer_updates": [
+        {
+          "offset": "259ACB",
+          "old_target": "34B6D6",
+          "new_target": "32B020",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "259AC9",
+            "command_hex": "1b02d6b6f400"
+          }
+        },
+        {
+          "offset": "25EB84",
+          "old_target": "2F9AE8",
+          "new_target": "32B290",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "25EB82",
+            "command_hex": "1b02e89aef00"
+          }
+        }
+      ]
+    }
+  },
+  "new_scenes_naturally_emulator_tested": false
+}

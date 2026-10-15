@@ -1,0 +1,888 @@
+{
+  "method": "normal_first_lamp_battle_check_action",
+  "rom_modified_for_probe": false,
+  "wram_modified_for_probe": false,
+  "profiles": {
+    "accents": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "c25956d1c0d9ee94182d73c6948af436f14fca7b82b9d5ba83200d99e1924fe9",
+        "save_ram_size": 8192
+      },
+      "returncode": 0,
+      "captures": [
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_1.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "15997a36346169eb644dbf7671ccf497b12ba93fdc2c6f26f32ed5c4c3d47053"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_2.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "72f8846dce816fc6411133dc6aae61452d2dff4ed086a601565f03ac2dcc052f"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_3.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "37b62b2127a2249f838fcb54b4b8ee129080ef6e5f56135f3d6229ad6a47422d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_4.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "bbcfcf3ef3c2dff45d72f75db023f65fe861622dccf0a026fb0bcbc11571c5d3"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_5.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b798b81de7e018bd6bf6c98801bb42c41f6883f60998448775d6a59e6a8ec220"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_6.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ac6dc603fedb9d764929f032423cc97783b8bdccca905f246f6d139cc7483160"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_7.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "502f47293678b189f6ef997ed509fe42af59355eefbc9de914181be91cf1c24d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_8.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "9d991e2a9b60c4250cd8ce02d97abfda14bfa385c7b4f797e3a8c276d5cf8801"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_9.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c000af3cf61b164ac889d77437283257ac07a8905aae8135efc0216a22386738"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_10.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "14352f4a3fa5e7b756468e707589e4df77396311cc59361d6b40c5974b7f00df"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_11.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "2e71f83078ce448a6aa271e1ba57669377cb92bca43eec77ff990e48064ea779"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_12.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3213d825b913e7fc566d75695364e7091729db82cacd08b113299fabb2cc9dcb"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_13.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "367f3357bfb4c0b066dd2eb77f661973e904d7098aac61b8d22500b3662597cb"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_14.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "25f5f212a1f896f42dbc4cde4b8f8fb6fc7dcc7c50a4e446ef440173aa579871"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_15.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "608bcfc6c608d14cb77bdfb9906fe6a06c2a2c6927a2525ffd8bfef03a67d2e8"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_16.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "eec68e1bb96dd4e34ad9838822cb26d57e787b77a9121744ad970c2fc4c48f19"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_17.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ce86937653f43bd552bd3b34611750b72edf84c992cbf9f06058fae4634dda98"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_18.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "26d158cc6ebd325d967d74b03547b6256bb4289171c022578849f239bc5ab976"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_19.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "71deec7776dca45a2ce2acfd4ede12002d78b9dc24cf8f9f574a9251daa33f91"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_20.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "2407e4d64011d7cbdf2d1094b2738be111d1f00b724a349a966033a5898191e8"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_21.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d3fb73f286751e8b40b38143937f095fd633bd7fa8c9fbe06ad5a9982dfb00a0"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_22.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "7c14a6563009196c7f45d9164c6f2925839480b4b1baba9bea029f8c060b48ff"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_23.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "2bdc9a240c0af8c640b1e440590df77b5b69da2514df00e1b4cc8c5876b9e5c5"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_24.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "01057757046b188561ae5cbf359220940843ccc299719fa5f91237ca1afee69f"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_25.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "bf9e6b55f164f6c9b8464fc1c415a01d491796c21dedacc4767c3bfeca68deb6"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_26.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "35f2ae50030868a9028643f15fbfb73b29dbc68778dff4c13645d1c9ca28c058"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_27.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "4ecdfcae5480f4619215811743250f5ae69a11e9ed5dc53aa46dba4a1d036fbe"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_28.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ee872f426893f53589279efa9bc7e56030d4a2a8784de1d9513f459185c90730"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_29.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6cc7280ca31972784204ab34808354eb46e7b47a3a79a02a29ebc16d426f277f"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_30.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "fc0581883ce517f7d8cad1fab4b83b769600abfcc1472c378c2217796373d63e"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_31.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "983de7a28cf004970e8ca93c0ca4714a16eb2833952c0a530b248b679a004cf7"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_32.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d3f354abaf51656d15a2eec645f5fa68c15992bd3a1ee2f8f0c04beb6fd30486"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_33.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "4a6968aac6b23aa40d996b15cfd0508491e077be81609ecc618ca18d42f71a31"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_34.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "20e09fd4d645a09edaef7f422751e7ee34baeb7fee0e40a5731220690b1f713e"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_35.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "8f29ecc09503a063fc1ed03b8ca27b46fe8c4dd2661650ecda44ef12aeae4ff0"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_36.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "86a32300eedec4065e675ba22e7ca0603dc533b6f9d879fdf9e2295467007bda"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_37.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "be8e00923c6cb674ca71f59abb574c23a5ed907aa1fa3d7405d55737d5140cc7"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_38.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d12438b7e1ca42e5efe6eb2d74731dabf926365c8fcf29007acc4b28611c008e"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_39.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c4208949bf38d3ea31517eed5d167082e0e8af997eda579c52cc63a27e8d16b8"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_40.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "45ef9fd457d31d98c729bbd6066d7830aa7d849be73146f7b8839adec7002cb2"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_41.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d718fcb55291428f1bb07c37c38ed701320986f6a06c52802a5331d3f4ed745e"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_42.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "9dba86a7a880d7df481d6eb17637325a66dc8b449b922f6511301ecd6512d94c"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_43.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "a05635aa42ed8505d697dad7dca03a132074ec70f497c87a5a12b769daba535a"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_44.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "9a3d48874d873971367bac763023823d4d946d6011eefc364c31ee8bff3658c8"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_45.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b8609b52433bac2f33a4188037b647b0c3ab271b7fa85dcebd5a6bdeded0eecc"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_46.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "e1e0da64ab071c6cbd08b3aa25d53103555a7a54c67c051ac4370b1ef908c6e6"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_47.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "dc1dc5cdc55dcb139b61ffa15784f1d91399558c6833f576fda674545082d891"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_48.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "8f79fedc9bc80a7f035d2ad7c7c0a88ed8d9d7ee5c46437d5d47f75fdc67efc1"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_49.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b8e4dba26b9f83db45090a856b69677a044aa165fb966c1e3913326891089929"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_50.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c269a69531c48c94d48ff389d4171258ae684be23380cb478262242eee622964"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_51.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "70ba7e51eba0ae632b309908dcdc0f81105c37e1e13ea3d610f42933480067ee"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_52.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6bd4dd97972eab5e8f4814295cbfe7f420b868a4452a3af9227a20d2aa0f0c56"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_53.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b1a59cae70f613242e68f14bc3cc21844b30d12273c2e27098e8a6d2ede2282a"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_54.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "2c38eb2a4f6b291ead515db81e14867f59ef9159f591bc3ced7b65a80b7c6b0d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_55.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "9407c557e995c6c53b80e44c213ad9dd06b6f01c7372ab7c3cd812aee6d42d32"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_56.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "18591510ba5552a3e251eda0b242fa31c3f9adba9f5d26d339f612a211c1047b"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_57.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "69b26087a36691f83ffd0827f4b86ab27cc74677dcf27e62cdabf2038d9ff51a"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_58.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "44838c562572846b6a3d38913e5f123b4f1cb6581a43d665844a79ed9f395062"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_59.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b708b42560a099aed2154194d4ab49f5531765e5d97550f0060a96fa6a895212"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_text_60.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "87982b6ac06f941e419d1c0eb6cbaf1089953e7ebfaa1a7d420a45564007d9a4"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_601.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "7d484d4eb05797a57d2a8173d97206ce25b923b26954c82d28aa74fccc213067"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_602.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "808af0a2f124a700e0fd6ba35a3e168466ba8ce69098b5b44f7f118a8f71d0a3"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_603.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "7ff743336b7ebfc0d5f7442b8045a6c2440e976be89b0b2e3bbcb584d7add083"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_604.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b6de344f4a8c7b4c4cbc3c2a144de34560b9a9b5ce93cfe1c0ecba821c4750a1"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_605.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "bb04cdad02221e7be5e49bdae0c7ec3d3f032635a2256b1950b69ed388ce720d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_606.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "45cbda2155fe89bde467b3615d68f735c3509cb1f8ceadc2501f80e90419cd28"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_607.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "90e7ef335af542014773cc33e846d564aa90ce5142f5af91fd7ded4541129d71"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_608.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "f0d63894712a34039a325840f861103d4dda3aeab5f64c560b95b55cc3663fd9"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_609.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "627589803cf56aef5b7400d023e726f210be16a1f17996be90331d9bd1f31b97"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_610.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3007e5da3ae5394db590e4ee779f2941bddd0bf0a524e34d6b29f74b37c5d4bd"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/accents/check_complete_611.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "bf724e8878da067b43c6f397972c68fb75fa48071142aeced5bdaa014ba1670b"
+        }
+      ]
+    },
+    "ascii": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "47498bca0154e3238be765b5d7dace6c3029b94e4217e096486d675fb7e1cc71",
+        "save_ram_size": 8192
+      },
+      "returncode": 0,
+      "captures": [
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_1.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "15997a36346169eb644dbf7671ccf497b12ba93fdc2c6f26f32ed5c4c3d47053"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_2.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "72f8846dce816fc6411133dc6aae61452d2dff4ed086a601565f03ac2dcc052f"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_3.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "37b62b2127a2249f838fcb54b4b8ee129080ef6e5f56135f3d6229ad6a47422d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_4.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "86734ae38af66e116e6d6e9f3a6b9924d7115cf8c37214361767e0e07e9e4a5c"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_5.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "9a459e084df262fb4da33f829d5f7c81dbf0d616f065b177b7458a2f9b98f99d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_6.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "1789feb886c946ceffb63e7b8ac24a436aa91009554121e007067d7107ef6a7f"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_7.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b10ab15a5bd59c85e4d4678bfbf7514f4405ab844b038c1d460892684200a3c1"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_8.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "a50e7df085d880539cee128f88a839a1b2b1c083c695028f4f49204a44a7c2df"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_9.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "1d27596eee91ea0469d087e94b7cdfad2bd979b1102121ff3f96d37304a3ac42"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_10.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "55108943b530a6c9525760e81b439acb38b22521b85b30cd48274db9a2f1ace8"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_11.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "e186ea7bc23bb3a93449604c84280642baf1be62ee0d34b7d7db68b2afde53a1"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_12.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "5e13724a30ea5aa411f6adc30425c758c5343b7375be67620c79ac0822e50456"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_13.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "f64725618d17e4734973162066c2387a37dcb1cc15dace4dbec8a5d3091b814d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_14.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ff9af235e45402d70e82c7c68b69d6f2430e3ca49cfe04214cec3527aba05401"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_15.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "5169b8ea6ec391e5945aa32aaf8d9e4dc42773b9488958451abd6c6f8a5b792d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_16.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6d5c690ceb47903cfa3d21abe41a3f2507b73d71f69918f74962c242fb1b0aa2"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_17.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "0bd24826f7ef355db5918b94e8fb3fd7078ef9fdbbbe49611b6863b978c9e8e3"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_18.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "46d775223cc113520f1b43420c95d0f0b618ead01b4dd86f36c70dcce0020a4d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_19.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6d1e4d91f52c5e9c9cd402244e5df91cc80ccf96d46aad2d857127d7d0017422"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_20.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "a757456ed884171fba12cb71a9ecc01315689b7c12f31692de1ce76bc0ac6d28"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_21.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b2198ae28905fc4feeaa6f5aa411154bdf372ba806bafe847988771e0e85f3c6"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_22.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "38e681b9b92b5e3a5ac2b46da67c160a9d305b860e68da7f9226856dcbe69ee8"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_23.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "2e94d9932f4124a09b3cf98993bc35bd8545ee6f50018f773da29ed11e5da62d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_24.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b0c4903ce04ff2d0ec9be1965c64a94628e4402ad8c97d8712576692f149c746"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_25.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c0dd3e0952d892e992e30580d1a6e768c5f671fd86953c22289341b35554c796"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_26.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ea28554ac2f2e50f10844992652a098d21e3f06f3f47d111632e0dc6797162c7"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_27.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "4ecdfcae5480f4619215811743250f5ae69a11e9ed5dc53aa46dba4a1d036fbe"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_28.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ee872f426893f53589279efa9bc7e56030d4a2a8784de1d9513f459185c90730"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_29.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6cc7280ca31972784204ab34808354eb46e7b47a3a79a02a29ebc16d426f277f"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_30.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "fc0581883ce517f7d8cad1fab4b83b769600abfcc1472c378c2217796373d63e"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_31.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "983de7a28cf004970e8ca93c0ca4714a16eb2833952c0a530b248b679a004cf7"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_32.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d3f354abaf51656d15a2eec645f5fa68c15992bd3a1ee2f8f0c04beb6fd30486"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_33.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ccceca4b83f4bf182ee84c8ee808bc2f7c96bc2ffbd5860d7429cde78f7f692f"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_34.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ad1ded62b8acfb080aea7b7be39b5669f8cb4e6ebef1ebe91089c3699f383858"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_35.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "404285f8f90d0f4a3fafc96dd7de364773bf1f11ddd71ae5d80b2064c69f48f5"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_36.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "fb7ec21baac136780cbfa1fc6c34540bc0996e6e7d3d5c6d666beba49897ea17"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_37.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "9643f07e474febf350751d06f9b6aca784eae805b41a155c3ee5a2727603caa5"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_38.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d599d4d9e10b42aedce9363aae26252e335de0251eb26ccaae382cc560b7a585"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_39.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "e0030ce944142dee8bd6b5f2abb8ca5f4695ab4916d6d19351f57d8fed550f9d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_40.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "0badff977ee977782a75d4a798405ea144a2ed4f33ce603effa8bf0f16881cfb"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_41.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b758d5611abdd580b5934e7728363df4ae06b80678a630e147097ffd45b2b3e3"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_42.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "4415d01a3ed54f3982e0fba5dacaf093941475e2cf98786df40efb57b2c5e7ab"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_43.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "41056a77c6f8c72f01be1219b76e6c3414f3d0cab8cccc95e02a23c044c44255"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_44.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "4c5a32102dfcec39f72a43fbd96280923e587291ab0f753b1ef768f605c4b0e7"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_45.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d00ba150a3b27092de57e37cd0e678529bb9e521c7bd0c42b84e14806c88bc41"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_46.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "98672e5a27e50bb0f7489171a0b01cd53f38a702e6c182166717083211221e38"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_47.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "fb7f6f9b0a5f191a12ce0641e0fe42abbd504ac1330d918dd5bd441cd877562b"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_48.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "e389fc122a6ad802c1662dd1629e43fd3a0256dbbdaf4b1b7f46bd94a6810bc3"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_49.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "1757e08221cb588e03c19807c8fd937f974e3d9b36d815bc5104129de5fb2fd9"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_50.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d109dd1f2ced1ea6def2bbfccc1806ddd304556d5815301463044bd23eaf9872"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_51.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "70ba7e51eba0ae632b309908dcdc0f81105c37e1e13ea3d610f42933480067ee"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_52.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6bd4dd97972eab5e8f4814295cbfe7f420b868a4452a3af9227a20d2aa0f0c56"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_53.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b1a59cae70f613242e68f14bc3cc21844b30d12273c2e27098e8a6d2ede2282a"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_54.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "2c38eb2a4f6b291ead515db81e14867f59ef9159f591bc3ced7b65a80b7c6b0d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_55.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "9407c557e995c6c53b80e44c213ad9dd06b6f01c7372ab7c3cd812aee6d42d32"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_56.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "18591510ba5552a3e251eda0b242fa31c3f9adba9f5d26d339f612a211c1047b"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_57.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "69b26087a36691f83ffd0827f4b86ab27cc74677dcf27e62cdabf2038d9ff51a"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_58.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "44838c562572846b6a3d38913e5f123b4f1cb6581a43d665844a79ed9f395062"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_59.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b708b42560a099aed2154194d4ab49f5531765e5d97550f0060a96fa6a895212"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_text_60.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "87982b6ac06f941e419d1c0eb6cbaf1089953e7ebfaa1a7d420a45564007d9a4"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_601.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "7d484d4eb05797a57d2a8173d97206ce25b923b26954c82d28aa74fccc213067"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_602.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "808af0a2f124a700e0fd6ba35a3e168466ba8ce69098b5b44f7f118a8f71d0a3"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_603.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "7ff743336b7ebfc0d5f7442b8045a6c2440e976be89b0b2e3bbcb584d7add083"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_604.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b6de344f4a8c7b4c4cbc3c2a144de34560b9a9b5ce93cfe1c0ecba821c4750a1"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_605.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "bb04cdad02221e7be5e49bdae0c7ec3d3f032635a2256b1950b69ed388ce720d"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_606.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "45cbda2155fe89bde467b3615d68f735c3509cb1f8ceadc2501f80e90419cd28"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_607.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "90e7ef335af542014773cc33e846d564aa90ce5142f5af91fd7ded4541129d71"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_608.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "abecfe3e93ecd0990091f4b94e06c2b6643c8f713028ebb6edaaf04aed847c35"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_609.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "561288ad92cb1b6d5f2e0feed509bac6eaccec96d4237fe039160a402c1a1e98"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_610.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "71be1c85ac33a1a05fc9d9bde1db0cc80cfb528463162042ae39dbd630f77ebc"
+        },
+        {
+          "path": "/workspace/scratch/a52b6a3f0578/check_v43_full/ascii/check_complete_611.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "fa0c553a1f9a3b6c2da5fb017f1167a5146dd394ebbbc546a61b5cb216977bf0"
+        }
+      ]
+    }
+  },
+  "validated_script": "361CA1",
+  "full_message_capture": "check_text_35",
+  "entrypoint": "normal Voir command, first haunted lamp",
+  "native_new_scripts_verified": 1,
+  "remaining_scripts_not_verified_in_natural_scenes": 55
+}

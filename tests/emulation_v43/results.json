@@ -1,0 +1,51 @@
+{
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "profiles": {
+    "accents": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "c25956d1c0d9ee94182d73c6948af436f14fca7b82b9d5ba83200d99e1924fe9",
+        "save_ram_size": 8192
+      },
+      "commands_replayed": 339,
+      "last_frame": 25803,
+      "screens_changed_from_v18": [
+        "battle_step_30",
+        "battle_step_31"
+      ],
+      "stable_screens": {
+        "title_final": true,
+        "intro": true,
+        "after_combat": true,
+        "state_restored": true,
+        "game_menu": true
+      },
+      "returncode": 0
+    },
+    "ascii": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "47498bca0154e3238be765b5d7dace6c3029b94e4217e096486d675fb7e1cc71",
+        "save_ram_size": 8192
+      },
+      "commands_replayed": 337,
+      "last_frame": 25803,
+      "screens_changed_from_v18": [
+        "battle_step_30",
+        "battle_step_31"
+      ],
+      "stable_screens": {
+        "title_final": true,
+        "intro": true,
+        "after_combat": true,
+        "state_restored": true,
+        "game_menu": true
+      },
+      "returncode": 0
+    }
+  }
+}
