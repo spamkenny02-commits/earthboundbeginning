@@ -1,0 +1,23 @@
+name: Verify V36 IPS offline
+
+on:
+  push:
+    paths:
+      - 'tools/v36/**'
+      - 'patches/EarthBound_Beginnings_FR_v36_*.ips'
+      - '.github/workflows/verifier-v36.yml'
+  pull_request:
+    paths:
+      - 'tools/v36/**'
+      - 'patches/EarthBound_Beginnings_FR_v36_*.ips'
+      - '.github/workflows/verifier-v36.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v36 -p test_v36_offline.py -v

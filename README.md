@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V35 (traduction partielle)
+## Version actuelle : V36 (traduction partielle)
+
+V36 remplace le graphisme compressé de victoire **« YOU WON! »** par **« VICTOIRE »**. Les 16 tuiles sont recompressées et relocalisées dans une réserve vérifiée ; aucun ancien fragment de dialogue n'est recompté.
+
+- [Patch V36 avec accents](patches/EarthBound_Beginnings_FR_v36_accents.ips)
+- [Patch V36 ASCII](patches/EarthBound_Beginnings_FR_v36_ascii.ips)
+- [Rapport V36 et sécurité binaire](RAPPORT_V36.md)
+- [Constructeur, manifeste et aperçu](tools/v36/README_V36.md)
+- [Validation du combat normal sous Snes9x](tests/emulation_v36/RAPPORT_EMULATION_V36.md)
+
+Appliquer **un seul IPS V36 directement à la ROM originale USA 1.2**. 64 tests V36/V35/V34/V33/V29/boy-girl sont réussis. Le premier combat affiche la bannière française dans les deux profils par son déclenchement normal. Aucune ROM distribuée.
+
+## Version précédente : V35 (traduction partielle)
 
 V35 corrige un angle mort des anciens remplacements IPS : **32 fragments anglais réellement nouveaux dans 31 scripts**, dont les choix « Non », deux textes longs, « Maison hantée », plusieurs raccords dynamiques et une indication du labyrinthe des singes. Les copies relocalisées contiennent 141 fragments : 32 nouveaux, 99 déjà français et 10 noms, cris ou signes conservés.
 

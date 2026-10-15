@@ -1,0 +1,41 @@
+{
+  "base": "V35",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "coilsnake_commit": "346cfc753644bc3703b6fc4eaa0a5d6bdcb9bb4a",
+  "new_dialogue_fragments": 0,
+  "scripts_revised": 0,
+  "graphics_translated": 1,
+  "source_label": "YOU WON!",
+  "french_label": "VICTOIRE",
+  "compressed_source_offset": "217EC1",
+  "compressed_destination": "177800",
+  "reservation_end": "177FD0",
+  "compressed_length": 1903,
+  "compressed_sha256": "bc38971e7f9ea944736d346dfe17aa0a389fb91ae22ab1387855515bbf0ade54",
+  "uncompressed_length": 6656,
+  "uncompressed_sha256": "f7cba11ba686f38868fe66933f726acd36a2172516a5d860ef0754e92c46c148",
+  "tiles_replaced": 16,
+  "pointer_instruction": "047C47",
+  "pointer_structure_verified": true,
+  "source_and_v35_reserve_null": true,
+  "no_prior_ips_collision": true,
+  "no_hirom_target_in_reserve": true,
+  "profiles": {
+    "accents": {
+      "sha256": "b8717a595aba9cf6fcec192162191544cb5c538e86a54a05a1cb4292c6c7efd9",
+      "target_rom_sha256": "37bcdd9e34d5995de28943ef777b94360abf5bf3e049c54a11a1e2ca8d6608da",
+      "prior_records_preserved": 6087,
+      "records_added": 3,
+      "independent_rom_roundtrip": true,
+      "outside_declared_ranges_unchanged": true
+    },
+    "ascii": {
+      "sha256": "3dab73807169ffe364374885c0e7b19f1ebe72a149b55c9f30b6ee70758411e4",
+      "target_rom_sha256": "03aaff53805277e25fc267554907cb4488d6f44391d367827ed0a94d98664e30",
+      "prior_records_preserved": 5982,
+      "records_added": 3,
+      "independent_rom_roundtrip": true,
+      "outside_declared_ranges_unchanged": true
+    }
+  }
+}
