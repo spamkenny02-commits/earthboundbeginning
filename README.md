@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V37 (traduction partielle)
+## Version actuelle : V38 (traduction partielle)
+
+V38 relocalise et traduit **114 descriptions d'ennemis réellement nouvelles**, soit 126 fragments. Les 114 entrées de table et 17 alias de saut sont raccordés aux copies françaises; les anciens scripts et les seize redirections vides sont conservés.
+
+- [Patch V38 avec accents](patches/EarthBound_Beginnings_FR_v38_accents.ips)
+- [Patch V38 ASCII](patches/EarthBound_Beginnings_FR_v38_ascii.ips)
+- [Rapport V38 et sécurité binaire](RAPPORT_V38.md)
+- [Traductions, constructeur, manifeste et tests](tools/v38/README_V38.md)
+- [Essais Snes9x](tests/emulation_v38/RAPPORT_EMULATION_V38.md)
+
+Appliquer **un seul IPS V38 directement à la ROM originale USA 1.2**. 89 tests V38 à V29 et boy/girl sont réussis. Le parcours Snes9x ne présente aucune régression. Le premier combat normal permet de sélectionner « Voir », mais n'affiche que le nom de la lampe; le rendu réel des nouvelles descriptions reste donc à obtenir. Aucune ROM distribuée.
+
+## Version précédente : V37 (traduction partielle)
 
 V37 remplace le graphisme compressé **« SMAAAASH!! »** par **« COUP CRIT! »**. Les vingt tuiles dédiées sont recompressées dans la réserve V36; aucun dialogue ancien n'est recompté.
 

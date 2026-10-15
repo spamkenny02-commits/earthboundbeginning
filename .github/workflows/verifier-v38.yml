@@ -1,0 +1,23 @@
+name: Verify V38 IPS offline
+
+on:
+  push:
+    paths:
+      - 'tools/v38/**'
+      - 'patches/EarthBound_Beginnings_FR_v38_*.ips'
+      - '.github/workflows/verifier-v38.yml'
+  pull_request:
+    paths:
+      - 'tools/v38/**'
+      - 'patches/EarthBound_Beginnings_FR_v38_*.ips'
+      - '.github/workflows/verifier-v38.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v38 -p test_v38_offline.py -v

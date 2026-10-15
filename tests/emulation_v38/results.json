@@ -1,0 +1,30 @@
+{
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "profiles": {
+    "accents": {
+      "source_sha256": "fc534f9e4bcacc439e1f1c1b1d307c233175b50cae82eb2617009e1d299a34a7",
+      "commands_replayed": 339,
+      "last_frame": 25803,
+      "screens_changed_from_v18": ["battle_step_30", "battle_step_31"],
+      "stable_reference_screens": true,
+      "returncode": 0
+    },
+    "ascii": {
+      "source_sha256": "a377b13634eb4dca3f7992694fdb7e439714e811d24c78d622ba3dfec878d28c",
+      "commands_replayed": 337,
+      "last_frame": 25803,
+      "screens_changed_from_v18": ["battle_step_30", "battle_step_31"],
+      "stable_reference_screens": true,
+      "returncode": 0
+    }
+  },
+  "description_probe": {
+    "method": "normal_gameplay_to_first_lamp_then_battle_menu_Voir",
+    "temporary_entry_point": false,
+    "profiles_tested": ["accents", "ascii"],
+    "menu_voir_observed": true,
+    "enemy_name_observed": true,
+    "new_description_copy_observed": false,
+    "result": "Voir affiche le nom de la lampe puis le tour continue; la banque V38 n'a pas été affichée."
+  }
+}

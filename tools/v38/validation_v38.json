@@ -1,0 +1,3304 @@
+{
+  "base": "V37",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "scripts_revised": 114,
+  "newly_translated_descriptions": 114,
+  "newly_translated_fragments": 126,
+  "already_french_fragments": 0,
+  "unchanged_empty_alias_scripts": 16,
+  "source_bank": [
+    "361DB7",
+    "3631F2"
+  ],
+  "description_table": [
+    "3633EA",
+    "3635F2"
+  ],
+  "reservations": [
+    [
+      "328A80",
+      "328DE0"
+    ],
+    [
+      "328E90",
+      "329030"
+    ],
+    [
+      "329040",
+      "3292F0"
+    ],
+    [
+      "329390",
+      "3296E0"
+    ],
+    [
+      "3296F0",
+      "329800"
+    ],
+    [
+      "329830",
+      "329C30"
+    ],
+    [
+      "329C40",
+      "329D70"
+    ],
+    [
+      "329D80",
+      "329F50"
+    ],
+    [
+      "32A030",
+      "32A0E0"
+    ],
+    [
+      "32A0F0",
+      "32A450"
+    ],
+    [
+      "32A460",
+      "32A670"
+    ],
+    [
+      "32A770",
+      "32A850"
+    ],
+    [
+      "32A910",
+      "32AA70"
+    ],
+    [
+      "32AAF0",
+      "32AB70"
+    ],
+    [
+      "32ABE0",
+      "32ADA0"
+    ],
+    [
+      "32ADB0",
+      "32AEA0"
+    ],
+    [
+      "32AEB0",
+      "32B000"
+    ],
+    [
+      "32B010",
+      "32B1B0"
+    ],
+    [
+      "32B1C0",
+      "32B270"
+    ],
+    [
+      "32B280",
+      "32B420"
+    ],
+    [
+      "32B4F0",
+      "32B610"
+    ]
+  ],
+  "source_scripts_preserved": true,
+  "all_active_refs_proven": true,
+  "profiles": {
+    "accents": {
+      "sha256": "951b35183a4ccfdd610dc8491d154fe178c027a1b38adb2674d17478a30a9724",
+      "target_rom_sha256": "fc534f9e4bcacc439e1f1c1b1d307c233175b50cae82eb2617009e1d299a34a7",
+      "prior_records_preserved": 6091,
+      "records_added": 245,
+      "independent_rom_roundtrip": true,
+      "outside_declared_ranges_unchanged": true,
+      "last_reserve": 9,
+      "used_end": "32A2B8",
+      "relocated": [
+        {
+          "id": "361DB7",
+          "offset": "328A80",
+          "old_length": 43,
+          "new_length": 43,
+          "fragments": 1
+        },
+        {
+          "id": "361DE2",
+          "offset": "328AAC",
+          "old_length": 42,
+          "new_length": 41,
+          "fragments": 1
+        },
+        {
+          "id": "361E0C",
+          "offset": "328AD8",
+          "old_length": 48,
+          "new_length": 39,
+          "fragments": 1
+        },
+        {
+          "id": "361E3C",
+          "offset": "328B00",
+          "old_length": 54,
+          "new_length": 45,
+          "fragments": 1
+        },
+        {
+          "id": "361E72",
+          "offset": "328B30",
+          "old_length": 25,
+          "new_length": 27,
+          "fragments": 1
+        },
+        {
+          "id": "361E8B",
+          "offset": "328B4C",
+          "old_length": 63,
+          "new_length": 58,
+          "fragments": 1
+        },
+        {
+          "id": "361ECA",
+          "offset": "328B88",
+          "old_length": 51,
+          "new_length": 29,
+          "fragments": 1
+        },
+        {
+          "id": "361EFD",
+          "offset": "328BA8",
+          "old_length": 36,
+          "new_length": 32,
+          "fragments": 1
+        },
+        {
+          "id": "361F21",
+          "offset": "328BC8",
+          "old_length": 35,
+          "new_length": 34,
+          "fragments": 1
+        },
+        {
+          "id": "361F44",
+          "offset": "328BEC",
+          "old_length": 52,
+          "new_length": 50,
+          "fragments": 1
+        },
+        {
+          "id": "361F78",
+          "offset": "328C20",
+          "old_length": 43,
+          "new_length": 44,
+          "fragments": 1
+        },
+        {
+          "id": "361FA3",
+          "offset": "328C4C",
+          "old_length": 36,
+          "new_length": 44,
+          "fragments": 1
+        },
+        {
+          "id": "361FC7",
+          "offset": "328C78",
+          "old_length": 42,
+          "new_length": 47,
+          "fragments": 1
+        },
+        {
+          "id": "361FF1",
+          "offset": "328CA8",
+          "old_length": 47,
+          "new_length": 42,
+          "fragments": 1
+        },
+        {
+          "id": "362020",
+          "offset": "328CD4",
+          "old_length": 72,
+          "new_length": 58,
+          "fragments": 1
+        },
+        {
+          "id": "362068",
+          "offset": "328D10",
+          "old_length": 67,
+          "new_length": 62,
+          "fragments": 1
+        },
+        {
+          "id": "3620AB",
+          "offset": "328D50",
+          "old_length": 50,
+          "new_length": 48,
+          "fragments": 1
+        },
+        {
+          "id": "3620DD",
+          "offset": "328D80",
+          "old_length": 58,
+          "new_length": 60,
+          "fragments": 1
+        },
+        {
+          "id": "362117",
+          "offset": "328E90",
+          "old_length": 43,
+          "new_length": 48,
+          "fragments": 1
+        },
+        {
+          "id": "362142",
+          "offset": "328EC0",
+          "old_length": 36,
+          "new_length": 43,
+          "fragments": 1
+        },
+        {
+          "id": "362166",
+          "offset": "328EEC",
+          "old_length": 28,
+          "new_length": 26,
+          "fragments": 2
+        },
+        {
+          "id": "362182",
+          "offset": "328F08",
+          "old_length": 35,
+          "new_length": 35,
+          "fragments": 1
+        },
+        {
+          "id": "3621A5",
+          "offset": "328F2C",
+          "old_length": 64,
+          "new_length": 62,
+          "fragments": 1
+        },
+        {
+          "id": "3621E5",
+          "offset": "328F6C",
+          "old_length": 35,
+          "new_length": 27,
+          "fragments": 1
+        },
+        {
+          "id": "362208",
+          "offset": "328F88",
+          "old_length": 65,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "362249",
+          "offset": "328FC0",
+          "old_length": 52,
+          "new_length": 54,
+          "fragments": 1
+        },
+        {
+          "id": "362282",
+          "offset": "328FF8",
+          "old_length": 26,
+          "new_length": 25,
+          "fragments": 1
+        },
+        {
+          "id": "36229C",
+          "offset": "329040",
+          "old_length": 45,
+          "new_length": 43,
+          "fragments": 1
+        },
+        {
+          "id": "3622C9",
+          "offset": "32906C",
+          "old_length": 53,
+          "new_length": 47,
+          "fragments": 1
+        },
+        {
+          "id": "3622FE",
+          "offset": "32909C",
+          "old_length": 14,
+          "new_length": 16,
+          "fragments": 1
+        },
+        {
+          "id": "36230C",
+          "offset": "3290AC",
+          "old_length": 45,
+          "new_length": 41,
+          "fragments": 1
+        },
+        {
+          "id": "362339",
+          "offset": "3290D8",
+          "old_length": 44,
+          "new_length": 51,
+          "fragments": 1
+        },
+        {
+          "id": "362365",
+          "offset": "32910C",
+          "old_length": 43,
+          "new_length": 49,
+          "fragments": 1
+        },
+        {
+          "id": "362390",
+          "offset": "329140",
+          "old_length": 29,
+          "new_length": 41,
+          "fragments": 1
+        },
+        {
+          "id": "3623AD",
+          "offset": "32916C",
+          "old_length": 48,
+          "new_length": 46,
+          "fragments": 1
+        },
+        {
+          "id": "3623DD",
+          "offset": "32919C",
+          "old_length": 38,
+          "new_length": 35,
+          "fragments": 1
+        },
+        {
+          "id": "362403",
+          "offset": "3291C0",
+          "old_length": 28,
+          "new_length": 36,
+          "fragments": 2
+        },
+        {
+          "id": "36241F",
+          "offset": "3291E4",
+          "old_length": 62,
+          "new_length": 48,
+          "fragments": 1
+        },
+        {
+          "id": "36245D",
+          "offset": "329214",
+          "old_length": 56,
+          "new_length": 61,
+          "fragments": 1
+        },
+        {
+          "id": "362495",
+          "offset": "329254",
+          "old_length": 43,
+          "new_length": 40,
+          "fragments": 1
+        },
+        {
+          "id": "3624C0",
+          "offset": "32927C",
+          "old_length": 29,
+          "new_length": 25,
+          "fragments": 1
+        },
+        {
+          "id": "3624DD",
+          "offset": "329298",
+          "old_length": 27,
+          "new_length": 47,
+          "fragments": 1
+        },
+        {
+          "id": "3624F8",
+          "offset": "3292C8",
+          "old_length": 26,
+          "new_length": 31,
+          "fragments": 1
+        },
+        {
+          "id": "362512",
+          "offset": "329390",
+          "old_length": 44,
+          "new_length": 54,
+          "fragments": 1
+        },
+        {
+          "id": "36253E",
+          "offset": "3293C8",
+          "old_length": 44,
+          "new_length": 46,
+          "fragments": 1
+        },
+        {
+          "id": "36256A",
+          "offset": "3293F8",
+          "old_length": 52,
+          "new_length": 71,
+          "fragments": 1
+        },
+        {
+          "id": "36259E",
+          "offset": "329440",
+          "old_length": 35,
+          "new_length": 34,
+          "fragments": 1
+        },
+        {
+          "id": "3625C1",
+          "offset": "329464",
+          "old_length": 35,
+          "new_length": 45,
+          "fragments": 1
+        },
+        {
+          "id": "3625E4",
+          "offset": "329494",
+          "old_length": 25,
+          "new_length": 28,
+          "fragments": 1
+        },
+        {
+          "id": "3625FD",
+          "offset": "3294B0",
+          "old_length": 33,
+          "new_length": 33,
+          "fragments": 1
+        },
+        {
+          "id": "36261E",
+          "offset": "3294D4",
+          "old_length": 40,
+          "new_length": 36,
+          "fragments": 1
+        },
+        {
+          "id": "362646",
+          "offset": "3294F8",
+          "old_length": 52,
+          "new_length": 54,
+          "fragments": 1
+        },
+        {
+          "id": "36267A",
+          "offset": "329530",
+          "old_length": 60,
+          "new_length": 55,
+          "fragments": 1
+        },
+        {
+          "id": "3626B6",
+          "offset": "329568",
+          "old_length": 35,
+          "new_length": 29,
+          "fragments": 1
+        },
+        {
+          "id": "3626D9",
+          "offset": "329588",
+          "old_length": 61,
+          "new_length": 73,
+          "fragments": 1
+        },
+        {
+          "id": "362716",
+          "offset": "3295D4",
+          "old_length": 35,
+          "new_length": 40,
+          "fragments": 1
+        },
+        {
+          "id": "36273E",
+          "offset": "3295FC",
+          "old_length": 54,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "362774",
+          "offset": "329634",
+          "old_length": 66,
+          "new_length": 52,
+          "fragments": 1
+        },
+        {
+          "id": "3627B6",
+          "offset": "329668",
+          "old_length": 59,
+          "new_length": 60,
+          "fragments": 1
+        },
+        {
+          "id": "3627F1",
+          "offset": "3296A4",
+          "old_length": 51,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "362824",
+          "offset": "3296F0",
+          "old_length": 41,
+          "new_length": 50,
+          "fragments": 1
+        },
+        {
+          "id": "36284D",
+          "offset": "329724",
+          "old_length": 53,
+          "new_length": 66,
+          "fragments": 1
+        },
+        {
+          "id": "362882",
+          "offset": "329768",
+          "old_length": 54,
+          "new_length": 52,
+          "fragments": 1
+        },
+        {
+          "id": "3628B8",
+          "offset": "32979C",
+          "old_length": 23,
+          "new_length": 24,
+          "fragments": 1
+        },
+        {
+          "id": "3628CF",
+          "offset": "3297B4",
+          "old_length": 35,
+          "new_length": 42,
+          "fragments": 1
+        },
+        {
+          "id": "3628F2",
+          "offset": "329830",
+          "old_length": 47,
+          "new_length": 58,
+          "fragments": 1
+        },
+        {
+          "id": "362921",
+          "offset": "32986C",
+          "old_length": 24,
+          "new_length": 28,
+          "fragments": 1
+        },
+        {
+          "id": "362939",
+          "offset": "329888",
+          "old_length": 50,
+          "new_length": 49,
+          "fragments": 1
+        },
+        {
+          "id": "36296B",
+          "offset": "3298BC",
+          "old_length": 23,
+          "new_length": 27,
+          "fragments": 1
+        },
+        {
+          "id": "362982",
+          "offset": "3298D8",
+          "old_length": 36,
+          "new_length": 32,
+          "fragments": 1
+        },
+        {
+          "id": "3629A6",
+          "offset": "3298F8",
+          "old_length": 26,
+          "new_length": 28,
+          "fragments": 1
+        },
+        {
+          "id": "3629C0",
+          "offset": "329914",
+          "old_length": 39,
+          "new_length": 41,
+          "fragments": 1
+        },
+        {
+          "id": "3629E7",
+          "offset": "329940",
+          "old_length": 40,
+          "new_length": 45,
+          "fragments": 2
+        },
+        {
+          "id": "362A0F",
+          "offset": "329970",
+          "old_length": 67,
+          "new_length": 61,
+          "fragments": 1
+        },
+        {
+          "id": "362A52",
+          "offset": "3299B0",
+          "old_length": 53,
+          "new_length": 49,
+          "fragments": 1
+        },
+        {
+          "id": "362A87",
+          "offset": "3299E4",
+          "old_length": 49,
+          "new_length": 44,
+          "fragments": 2
+        },
+        {
+          "id": "362AB8",
+          "offset": "329A10",
+          "old_length": 64,
+          "new_length": 67,
+          "fragments": 1
+        },
+        {
+          "id": "362AF8",
+          "offset": "329A54",
+          "old_length": 20,
+          "new_length": 16,
+          "fragments": 1
+        },
+        {
+          "id": "362B0C",
+          "offset": "329A64",
+          "old_length": 46,
+          "new_length": 34,
+          "fragments": 1
+        },
+        {
+          "id": "362B3A",
+          "offset": "329A88",
+          "old_length": 42,
+          "new_length": 42,
+          "fragments": 1
+        },
+        {
+          "id": "362B64",
+          "offset": "329AB4",
+          "old_length": 19,
+          "new_length": 18,
+          "fragments": 1
+        },
+        {
+          "id": "362B77",
+          "offset": "329AC8",
+          "old_length": 35,
+          "new_length": 42,
+          "fragments": 1
+        },
+        {
+          "id": "362B9A",
+          "offset": "329AF4",
+          "old_length": 32,
+          "new_length": 41,
+          "fragments": 2
+        },
+        {
+          "id": "362BBA",
+          "offset": "329B20",
+          "old_length": 44,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "362BE6",
+          "offset": "329B58",
+          "old_length": 25,
+          "new_length": 30,
+          "fragments": 1
+        },
+        {
+          "id": "362BFF",
+          "offset": "329B78",
+          "old_length": 39,
+          "new_length": 48,
+          "fragments": 1
+        },
+        {
+          "id": "362C26",
+          "offset": "329BA8",
+          "old_length": 58,
+          "new_length": 69,
+          "fragments": 1
+        },
+        {
+          "id": "362C60",
+          "offset": "329BF0",
+          "old_length": 31,
+          "new_length": 33,
+          "fragments": 1
+        },
+        {
+          "id": "362C7F",
+          "offset": "329C40",
+          "old_length": 38,
+          "new_length": 47,
+          "fragments": 1
+        },
+        {
+          "id": "362CA5",
+          "offset": "329C70",
+          "old_length": 43,
+          "new_length": 40,
+          "fragments": 1
+        },
+        {
+          "id": "362CD0",
+          "offset": "329C98",
+          "old_length": 29,
+          "new_length": 29,
+          "fragments": 1
+        },
+        {
+          "id": "362CED",
+          "offset": "329CB8",
+          "old_length": 21,
+          "new_length": 20,
+          "fragments": 1
+        },
+        {
+          "id": "362D02",
+          "offset": "329CCC",
+          "old_length": 50,
+          "new_length": 45,
+          "fragments": 1
+        },
+        {
+          "id": "362D34",
+          "offset": "329CFC",
+          "old_length": 35,
+          "new_length": 28,
+          "fragments": 1
+        },
+        {
+          "id": "362D57",
+          "offset": "329D18",
+          "old_length": 41,
+          "new_length": 38,
+          "fragments": 1
+        },
+        {
+          "id": "362D80",
+          "offset": "329D80",
+          "old_length": 52,
+          "new_length": 56,
+          "fragments": 1
+        },
+        {
+          "id": "362DB4",
+          "offset": "329DB8",
+          "old_length": 38,
+          "new_length": 29,
+          "fragments": 1
+        },
+        {
+          "id": "362DDA",
+          "offset": "329DD8",
+          "old_length": 45,
+          "new_length": 43,
+          "fragments": 1
+        },
+        {
+          "id": "362E07",
+          "offset": "329E04",
+          "old_length": 35,
+          "new_length": 37,
+          "fragments": 1
+        },
+        {
+          "id": "362E2A",
+          "offset": "329E2C",
+          "old_length": 35,
+          "new_length": 39,
+          "fragments": 1
+        },
+        {
+          "id": "362E4D",
+          "offset": "329E54",
+          "old_length": 26,
+          "new_length": 40,
+          "fragments": 1
+        },
+        {
+          "id": "362E67",
+          "offset": "329E7C",
+          "old_length": 225,
+          "new_length": 203,
+          "fragments": 6
+        },
+        {
+          "id": "362F48",
+          "offset": "32A030",
+          "old_length": 29,
+          "new_length": 31,
+          "fragments": 1
+        },
+        {
+          "id": "362F74",
+          "offset": "32A050",
+          "old_length": 41,
+          "new_length": 38,
+          "fragments": 1
+        },
+        {
+          "id": "362F9D",
+          "offset": "32A078",
+          "old_length": 33,
+          "new_length": 33,
+          "fragments": 1
+        },
+        {
+          "id": "362FBE",
+          "offset": "32A09C",
+          "old_length": 63,
+          "new_length": 55,
+          "fragments": 1
+        },
+        {
+          "id": "362FFD",
+          "offset": "32A0F0",
+          "old_length": 112,
+          "new_length": 85,
+          "fragments": 2
+        },
+        {
+          "id": "363090",
+          "offset": "32A148",
+          "old_length": 62,
+          "new_length": 70,
+          "fragments": 2
+        },
+        {
+          "id": "3630CE",
+          "offset": "32A190",
+          "old_length": 55,
+          "new_length": 58,
+          "fragments": 1
+        },
+        {
+          "id": "363105",
+          "offset": "32A1CC",
+          "old_length": 49,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "36314A",
+          "offset": "32A204",
+          "old_length": 42,
+          "new_length": 56,
+          "fragments": 1
+        },
+        {
+          "id": "363174",
+          "offset": "32A23C",
+          "old_length": 35,
+          "new_length": 45,
+          "fragments": 1
+        },
+        {
+          "id": "363197",
+          "offset": "32A26C",
+          "old_length": 35,
+          "new_length": 27,
+          "fragments": 1
+        },
+        {
+          "id": "3631BA",
+          "offset": "32A288",
+          "old_length": 56,
+          "new_length": 47,
+          "fragments": 1
+        }
+      ],
+      "entry_refs_rewritten": [
+        {
+          "offset": "3633EA",
+          "old_target": "361DB7",
+          "new_target": "328A80",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633EE",
+          "old_target": "361DE2",
+          "new_target": "328AAC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633F2",
+          "old_target": "361E0C",
+          "new_target": "328AD8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633F6",
+          "old_target": "361E3C",
+          "new_target": "328B00",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633FA",
+          "old_target": "361E72",
+          "new_target": "328B30",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633FE",
+          "old_target": "361E8B",
+          "new_target": "328B4C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363402",
+          "old_target": "361ECA",
+          "new_target": "328B88",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363406",
+          "old_target": "361EFD",
+          "new_target": "328BA8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36340A",
+          "old_target": "361F21",
+          "new_target": "328BC8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36340E",
+          "old_target": "361F44",
+          "new_target": "328BEC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363412",
+          "old_target": "361F78",
+          "new_target": "328C20",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363416",
+          "old_target": "361FA3",
+          "new_target": "328C4C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36341A",
+          "old_target": "361FC7",
+          "new_target": "328C78",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36341E",
+          "old_target": "361FF1",
+          "new_target": "328CA8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363422",
+          "old_target": "362020",
+          "new_target": "328CD4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363082",
+          "old_target": "362068",
+          "new_target": "328D10",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "363426",
+          "old_target": "362068",
+          "new_target": "328D10",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36342A",
+          "old_target": "3620AB",
+          "new_target": "328D50",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363146",
+          "old_target": "3620DD",
+          "new_target": "328D80",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36342E",
+          "old_target": "3620DD",
+          "new_target": "328D80",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363432",
+          "old_target": "362117",
+          "new_target": "328E90",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363436",
+          "old_target": "362142",
+          "new_target": "328EC0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36343A",
+          "old_target": "362166",
+          "new_target": "328EEC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36343E",
+          "old_target": "362182",
+          "new_target": "328F08",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363442",
+          "old_target": "3621A5",
+          "new_target": "328F2C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363446",
+          "old_target": "3621E5",
+          "new_target": "328F6C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36344A",
+          "old_target": "362208",
+          "new_target": "328F88",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36344E",
+          "old_target": "362249",
+          "new_target": "328FC0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363456",
+          "old_target": "362282",
+          "new_target": "328FF8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36345A",
+          "old_target": "36229C",
+          "new_target": "329040",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363073",
+          "old_target": "3622C9",
+          "new_target": "32906C",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36345E",
+          "old_target": "3622C9",
+          "new_target": "32906C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363462",
+          "old_target": "3622FE",
+          "new_target": "32909C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363466",
+          "old_target": "36230C",
+          "new_target": "3290AC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36346A",
+          "old_target": "362339",
+          "new_target": "3290D8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36346E",
+          "old_target": "362365",
+          "new_target": "32910C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363472",
+          "old_target": "362390",
+          "new_target": "329140",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363476",
+          "old_target": "3623AD",
+          "new_target": "32916C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36347A",
+          "old_target": "3623DD",
+          "new_target": "32919C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36347E",
+          "old_target": "362403",
+          "new_target": "3291C0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363482",
+          "old_target": "36241F",
+          "new_target": "3291E4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363486",
+          "old_target": "36245D",
+          "new_target": "329214",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36348A",
+          "old_target": "362495",
+          "new_target": "329254",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36348E",
+          "old_target": "3624C0",
+          "new_target": "32927C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363492",
+          "old_target": "3624DD",
+          "new_target": "329298",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363496",
+          "old_target": "3624F8",
+          "new_target": "3292C8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36349A",
+          "old_target": "362512",
+          "new_target": "329390",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36349E",
+          "old_target": "36253E",
+          "new_target": "3293C8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634A2",
+          "old_target": "36256A",
+          "new_target": "3293F8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363078",
+          "old_target": "36259E",
+          "new_target": "329440",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3634A6",
+          "old_target": "36259E",
+          "new_target": "329440",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634AA",
+          "old_target": "3625C1",
+          "new_target": "329464",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634AE",
+          "old_target": "3625E4",
+          "new_target": "329494",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36307D",
+          "old_target": "3625FD",
+          "new_target": "3294B0",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3634B2",
+          "old_target": "3625FD",
+          "new_target": "3294B0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634B6",
+          "old_target": "36261E",
+          "new_target": "3294D4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634BA",
+          "old_target": "362646",
+          "new_target": "3294F8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634BE",
+          "old_target": "36267A",
+          "new_target": "329530",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634C2",
+          "old_target": "3626B6",
+          "new_target": "329568",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634C6",
+          "old_target": "3626D9",
+          "new_target": "329588",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634CA",
+          "old_target": "362716",
+          "new_target": "3295D4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634D2",
+          "old_target": "36273E",
+          "new_target": "3295FC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634D6",
+          "old_target": "362774",
+          "new_target": "329634",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634DA",
+          "old_target": "3627B6",
+          "new_target": "329668",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36273A",
+          "old_target": "3627F1",
+          "new_target": "3296A4",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "362F66",
+          "old_target": "3627F1",
+          "new_target": "3296A4",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3634DE",
+          "old_target": "3627F1",
+          "new_target": "3296A4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634E2",
+          "old_target": "362824",
+          "new_target": "3296F0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363087",
+          "old_target": "36284D",
+          "new_target": "329724",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36308C",
+          "old_target": "36284D",
+          "new_target": "329724",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3634E6",
+          "old_target": "36284D",
+          "new_target": "329724",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634EA",
+          "old_target": "362882",
+          "new_target": "329768",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634EE",
+          "old_target": "3628B8",
+          "new_target": "32979C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634F2",
+          "old_target": "3628CF",
+          "new_target": "3297B4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634F6",
+          "old_target": "3628F2",
+          "new_target": "329830",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634FA",
+          "old_target": "362921",
+          "new_target": "32986C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634FE",
+          "old_target": "362939",
+          "new_target": "329888",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363502",
+          "old_target": "36296B",
+          "new_target": "3298BC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363506",
+          "old_target": "362982",
+          "new_target": "3298D8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36350A",
+          "old_target": "3629A6",
+          "new_target": "3298F8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36350E",
+          "old_target": "3629C0",
+          "new_target": "329914",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363512",
+          "old_target": "3629E7",
+          "new_target": "329940",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363516",
+          "old_target": "362A0F",
+          "new_target": "329970",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36351A",
+          "old_target": "362A52",
+          "new_target": "3299B0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36351E",
+          "old_target": "362A87",
+          "new_target": "3299E4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363522",
+          "old_target": "362AB8",
+          "new_target": "329A10",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363526",
+          "old_target": "362AF8",
+          "new_target": "329A54",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36352A",
+          "old_target": "362B0C",
+          "new_target": "329A64",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36352E",
+          "old_target": "362B3A",
+          "new_target": "329A88",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363532",
+          "old_target": "362B64",
+          "new_target": "329AB4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363536",
+          "old_target": "362B77",
+          "new_target": "329AC8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36353A",
+          "old_target": "362B9A",
+          "new_target": "329AF4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36353E",
+          "old_target": "362BBA",
+          "new_target": "329B20",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363141",
+          "old_target": "362BE6",
+          "new_target": "329B58",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3631F3",
+          "old_target": "362BE6",
+          "new_target": "329B58",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3631F8",
+          "old_target": "362BE6",
+          "new_target": "329B58",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "363542",
+          "old_target": "362BE6",
+          "new_target": "329B58",
+          "proof": "description_table"
+        },
+        {
+          "offset": "362F6B",
+          "old_target": "362BFF",
+          "new_target": "329B78",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "363546",
+          "old_target": "362BFF",
+          "new_target": "329B78",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36306E",
+          "old_target": "362C26",
+          "new_target": "329BA8",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36354A",
+          "old_target": "362C26",
+          "new_target": "329BA8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36354E",
+          "old_target": "362C60",
+          "new_target": "329BF0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363552",
+          "old_target": "362C7F",
+          "new_target": "329C40",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363556",
+          "old_target": "362CA5",
+          "new_target": "329C70",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36355A",
+          "old_target": "362CD0",
+          "new_target": "329C98",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36355E",
+          "old_target": "362CED",
+          "new_target": "329CB8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "362F70",
+          "old_target": "362D02",
+          "new_target": "329CCC",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "363562",
+          "old_target": "362D02",
+          "new_target": "329CCC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363566",
+          "old_target": "362D34",
+          "new_target": "329CFC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36356A",
+          "old_target": "362D57",
+          "new_target": "329D18",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36356E",
+          "old_target": "362D80",
+          "new_target": "329D80",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363572",
+          "old_target": "362DB4",
+          "new_target": "329DB8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363576",
+          "old_target": "362DDA",
+          "new_target": "329DD8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36357A",
+          "old_target": "362E07",
+          "new_target": "329E04",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36357E",
+          "old_target": "362E2A",
+          "new_target": "329E2C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363582",
+          "old_target": "362E4D",
+          "new_target": "329E54",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363586",
+          "old_target": "362E67",
+          "new_target": "329E7C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36358A",
+          "old_target": "362F48",
+          "new_target": "32A030",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36359A",
+          "old_target": "362F74",
+          "new_target": "32A050",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36359E",
+          "old_target": "362F9D",
+          "new_target": "32A078",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635A2",
+          "old_target": "362FBE",
+          "new_target": "32A09C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635A6",
+          "old_target": "362FFD",
+          "new_target": "32A0F0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635C6",
+          "old_target": "363090",
+          "new_target": "32A148",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635CA",
+          "old_target": "3630CE",
+          "new_target": "32A190",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363137",
+          "old_target": "363105",
+          "new_target": "32A1CC",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36313C",
+          "old_target": "363105",
+          "new_target": "32A1CC",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3635CE",
+          "old_target": "363105",
+          "new_target": "32A1CC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635E2",
+          "old_target": "36314A",
+          "new_target": "32A204",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635E6",
+          "old_target": "363174",
+          "new_target": "32A23C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635EA",
+          "old_target": "363197",
+          "new_target": "32A26C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635EE",
+          "old_target": "3631BA",
+          "new_target": "32A288",
+          "proof": "description_table"
+        }
+      ]
+    },
+    "ascii": {
+      "sha256": "8b75cb0b7220a20149dd8a103b90c2d2242b24c430f2c44bf4b9bdd1ab9fd66b",
+      "target_rom_sha256": "a377b13634eb4dca3f7992694fdb7e439714e811d24c78d622ba3dfec878d28c",
+      "prior_records_preserved": 5986,
+      "records_added": 245,
+      "independent_rom_roundtrip": true,
+      "outside_declared_ranges_unchanged": true,
+      "last_reserve": 9,
+      "used_end": "32A2B8",
+      "relocated": [
+        {
+          "id": "361DB7",
+          "offset": "328A80",
+          "old_length": 43,
+          "new_length": 43,
+          "fragments": 1
+        },
+        {
+          "id": "361DE2",
+          "offset": "328AAC",
+          "old_length": 42,
+          "new_length": 41,
+          "fragments": 1
+        },
+        {
+          "id": "361E0C",
+          "offset": "328AD8",
+          "old_length": 48,
+          "new_length": 39,
+          "fragments": 1
+        },
+        {
+          "id": "361E3C",
+          "offset": "328B00",
+          "old_length": 54,
+          "new_length": 45,
+          "fragments": 1
+        },
+        {
+          "id": "361E72",
+          "offset": "328B30",
+          "old_length": 25,
+          "new_length": 27,
+          "fragments": 1
+        },
+        {
+          "id": "361E8B",
+          "offset": "328B4C",
+          "old_length": 63,
+          "new_length": 58,
+          "fragments": 1
+        },
+        {
+          "id": "361ECA",
+          "offset": "328B88",
+          "old_length": 51,
+          "new_length": 29,
+          "fragments": 1
+        },
+        {
+          "id": "361EFD",
+          "offset": "328BA8",
+          "old_length": 36,
+          "new_length": 32,
+          "fragments": 1
+        },
+        {
+          "id": "361F21",
+          "offset": "328BC8",
+          "old_length": 35,
+          "new_length": 34,
+          "fragments": 1
+        },
+        {
+          "id": "361F44",
+          "offset": "328BEC",
+          "old_length": 52,
+          "new_length": 50,
+          "fragments": 1
+        },
+        {
+          "id": "361F78",
+          "offset": "328C20",
+          "old_length": 43,
+          "new_length": 44,
+          "fragments": 1
+        },
+        {
+          "id": "361FA3",
+          "offset": "328C4C",
+          "old_length": 36,
+          "new_length": 44,
+          "fragments": 1
+        },
+        {
+          "id": "361FC7",
+          "offset": "328C78",
+          "old_length": 42,
+          "new_length": 47,
+          "fragments": 1
+        },
+        {
+          "id": "361FF1",
+          "offset": "328CA8",
+          "old_length": 47,
+          "new_length": 42,
+          "fragments": 1
+        },
+        {
+          "id": "362020",
+          "offset": "328CD4",
+          "old_length": 72,
+          "new_length": 58,
+          "fragments": 1
+        },
+        {
+          "id": "362068",
+          "offset": "328D10",
+          "old_length": 67,
+          "new_length": 62,
+          "fragments": 1
+        },
+        {
+          "id": "3620AB",
+          "offset": "328D50",
+          "old_length": 50,
+          "new_length": 48,
+          "fragments": 1
+        },
+        {
+          "id": "3620DD",
+          "offset": "328D80",
+          "old_length": 58,
+          "new_length": 60,
+          "fragments": 1
+        },
+        {
+          "id": "362117",
+          "offset": "328E90",
+          "old_length": 43,
+          "new_length": 48,
+          "fragments": 1
+        },
+        {
+          "id": "362142",
+          "offset": "328EC0",
+          "old_length": 36,
+          "new_length": 43,
+          "fragments": 1
+        },
+        {
+          "id": "362166",
+          "offset": "328EEC",
+          "old_length": 28,
+          "new_length": 26,
+          "fragments": 2
+        },
+        {
+          "id": "362182",
+          "offset": "328F08",
+          "old_length": 35,
+          "new_length": 35,
+          "fragments": 1
+        },
+        {
+          "id": "3621A5",
+          "offset": "328F2C",
+          "old_length": 64,
+          "new_length": 62,
+          "fragments": 1
+        },
+        {
+          "id": "3621E5",
+          "offset": "328F6C",
+          "old_length": 35,
+          "new_length": 27,
+          "fragments": 1
+        },
+        {
+          "id": "362208",
+          "offset": "328F88",
+          "old_length": 65,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "362249",
+          "offset": "328FC0",
+          "old_length": 52,
+          "new_length": 54,
+          "fragments": 1
+        },
+        {
+          "id": "362282",
+          "offset": "328FF8",
+          "old_length": 26,
+          "new_length": 25,
+          "fragments": 1
+        },
+        {
+          "id": "36229C",
+          "offset": "329040",
+          "old_length": 45,
+          "new_length": 43,
+          "fragments": 1
+        },
+        {
+          "id": "3622C9",
+          "offset": "32906C",
+          "old_length": 53,
+          "new_length": 47,
+          "fragments": 1
+        },
+        {
+          "id": "3622FE",
+          "offset": "32909C",
+          "old_length": 14,
+          "new_length": 16,
+          "fragments": 1
+        },
+        {
+          "id": "36230C",
+          "offset": "3290AC",
+          "old_length": 45,
+          "new_length": 41,
+          "fragments": 1
+        },
+        {
+          "id": "362339",
+          "offset": "3290D8",
+          "old_length": 44,
+          "new_length": 51,
+          "fragments": 1
+        },
+        {
+          "id": "362365",
+          "offset": "32910C",
+          "old_length": 43,
+          "new_length": 49,
+          "fragments": 1
+        },
+        {
+          "id": "362390",
+          "offset": "329140",
+          "old_length": 29,
+          "new_length": 41,
+          "fragments": 1
+        },
+        {
+          "id": "3623AD",
+          "offset": "32916C",
+          "old_length": 48,
+          "new_length": 46,
+          "fragments": 1
+        },
+        {
+          "id": "3623DD",
+          "offset": "32919C",
+          "old_length": 38,
+          "new_length": 35,
+          "fragments": 1
+        },
+        {
+          "id": "362403",
+          "offset": "3291C0",
+          "old_length": 28,
+          "new_length": 36,
+          "fragments": 2
+        },
+        {
+          "id": "36241F",
+          "offset": "3291E4",
+          "old_length": 62,
+          "new_length": 48,
+          "fragments": 1
+        },
+        {
+          "id": "36245D",
+          "offset": "329214",
+          "old_length": 56,
+          "new_length": 61,
+          "fragments": 1
+        },
+        {
+          "id": "362495",
+          "offset": "329254",
+          "old_length": 43,
+          "new_length": 40,
+          "fragments": 1
+        },
+        {
+          "id": "3624C0",
+          "offset": "32927C",
+          "old_length": 29,
+          "new_length": 25,
+          "fragments": 1
+        },
+        {
+          "id": "3624DD",
+          "offset": "329298",
+          "old_length": 27,
+          "new_length": 47,
+          "fragments": 1
+        },
+        {
+          "id": "3624F8",
+          "offset": "3292C8",
+          "old_length": 26,
+          "new_length": 31,
+          "fragments": 1
+        },
+        {
+          "id": "362512",
+          "offset": "329390",
+          "old_length": 44,
+          "new_length": 54,
+          "fragments": 1
+        },
+        {
+          "id": "36253E",
+          "offset": "3293C8",
+          "old_length": 44,
+          "new_length": 46,
+          "fragments": 1
+        },
+        {
+          "id": "36256A",
+          "offset": "3293F8",
+          "old_length": 52,
+          "new_length": 71,
+          "fragments": 1
+        },
+        {
+          "id": "36259E",
+          "offset": "329440",
+          "old_length": 35,
+          "new_length": 34,
+          "fragments": 1
+        },
+        {
+          "id": "3625C1",
+          "offset": "329464",
+          "old_length": 35,
+          "new_length": 45,
+          "fragments": 1
+        },
+        {
+          "id": "3625E4",
+          "offset": "329494",
+          "old_length": 25,
+          "new_length": 28,
+          "fragments": 1
+        },
+        {
+          "id": "3625FD",
+          "offset": "3294B0",
+          "old_length": 33,
+          "new_length": 33,
+          "fragments": 1
+        },
+        {
+          "id": "36261E",
+          "offset": "3294D4",
+          "old_length": 40,
+          "new_length": 36,
+          "fragments": 1
+        },
+        {
+          "id": "362646",
+          "offset": "3294F8",
+          "old_length": 52,
+          "new_length": 54,
+          "fragments": 1
+        },
+        {
+          "id": "36267A",
+          "offset": "329530",
+          "old_length": 60,
+          "new_length": 55,
+          "fragments": 1
+        },
+        {
+          "id": "3626B6",
+          "offset": "329568",
+          "old_length": 35,
+          "new_length": 29,
+          "fragments": 1
+        },
+        {
+          "id": "3626D9",
+          "offset": "329588",
+          "old_length": 61,
+          "new_length": 73,
+          "fragments": 1
+        },
+        {
+          "id": "362716",
+          "offset": "3295D4",
+          "old_length": 35,
+          "new_length": 40,
+          "fragments": 1
+        },
+        {
+          "id": "36273E",
+          "offset": "3295FC",
+          "old_length": 54,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "362774",
+          "offset": "329634",
+          "old_length": 66,
+          "new_length": 52,
+          "fragments": 1
+        },
+        {
+          "id": "3627B6",
+          "offset": "329668",
+          "old_length": 59,
+          "new_length": 60,
+          "fragments": 1
+        },
+        {
+          "id": "3627F1",
+          "offset": "3296A4",
+          "old_length": 51,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "362824",
+          "offset": "3296F0",
+          "old_length": 41,
+          "new_length": 50,
+          "fragments": 1
+        },
+        {
+          "id": "36284D",
+          "offset": "329724",
+          "old_length": 53,
+          "new_length": 66,
+          "fragments": 1
+        },
+        {
+          "id": "362882",
+          "offset": "329768",
+          "old_length": 54,
+          "new_length": 52,
+          "fragments": 1
+        },
+        {
+          "id": "3628B8",
+          "offset": "32979C",
+          "old_length": 23,
+          "new_length": 24,
+          "fragments": 1
+        },
+        {
+          "id": "3628CF",
+          "offset": "3297B4",
+          "old_length": 35,
+          "new_length": 42,
+          "fragments": 1
+        },
+        {
+          "id": "3628F2",
+          "offset": "329830",
+          "old_length": 47,
+          "new_length": 58,
+          "fragments": 1
+        },
+        {
+          "id": "362921",
+          "offset": "32986C",
+          "old_length": 24,
+          "new_length": 28,
+          "fragments": 1
+        },
+        {
+          "id": "362939",
+          "offset": "329888",
+          "old_length": 50,
+          "new_length": 49,
+          "fragments": 1
+        },
+        {
+          "id": "36296B",
+          "offset": "3298BC",
+          "old_length": 23,
+          "new_length": 27,
+          "fragments": 1
+        },
+        {
+          "id": "362982",
+          "offset": "3298D8",
+          "old_length": 36,
+          "new_length": 32,
+          "fragments": 1
+        },
+        {
+          "id": "3629A6",
+          "offset": "3298F8",
+          "old_length": 26,
+          "new_length": 28,
+          "fragments": 1
+        },
+        {
+          "id": "3629C0",
+          "offset": "329914",
+          "old_length": 39,
+          "new_length": 41,
+          "fragments": 1
+        },
+        {
+          "id": "3629E7",
+          "offset": "329940",
+          "old_length": 40,
+          "new_length": 45,
+          "fragments": 2
+        },
+        {
+          "id": "362A0F",
+          "offset": "329970",
+          "old_length": 67,
+          "new_length": 61,
+          "fragments": 1
+        },
+        {
+          "id": "362A52",
+          "offset": "3299B0",
+          "old_length": 53,
+          "new_length": 49,
+          "fragments": 1
+        },
+        {
+          "id": "362A87",
+          "offset": "3299E4",
+          "old_length": 49,
+          "new_length": 44,
+          "fragments": 2
+        },
+        {
+          "id": "362AB8",
+          "offset": "329A10",
+          "old_length": 64,
+          "new_length": 67,
+          "fragments": 1
+        },
+        {
+          "id": "362AF8",
+          "offset": "329A54",
+          "old_length": 20,
+          "new_length": 16,
+          "fragments": 1
+        },
+        {
+          "id": "362B0C",
+          "offset": "329A64",
+          "old_length": 46,
+          "new_length": 34,
+          "fragments": 1
+        },
+        {
+          "id": "362B3A",
+          "offset": "329A88",
+          "old_length": 42,
+          "new_length": 42,
+          "fragments": 1
+        },
+        {
+          "id": "362B64",
+          "offset": "329AB4",
+          "old_length": 19,
+          "new_length": 18,
+          "fragments": 1
+        },
+        {
+          "id": "362B77",
+          "offset": "329AC8",
+          "old_length": 35,
+          "new_length": 42,
+          "fragments": 1
+        },
+        {
+          "id": "362B9A",
+          "offset": "329AF4",
+          "old_length": 32,
+          "new_length": 41,
+          "fragments": 2
+        },
+        {
+          "id": "362BBA",
+          "offset": "329B20",
+          "old_length": 44,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "362BE6",
+          "offset": "329B58",
+          "old_length": 25,
+          "new_length": 30,
+          "fragments": 1
+        },
+        {
+          "id": "362BFF",
+          "offset": "329B78",
+          "old_length": 39,
+          "new_length": 48,
+          "fragments": 1
+        },
+        {
+          "id": "362C26",
+          "offset": "329BA8",
+          "old_length": 58,
+          "new_length": 69,
+          "fragments": 1
+        },
+        {
+          "id": "362C60",
+          "offset": "329BF0",
+          "old_length": 31,
+          "new_length": 33,
+          "fragments": 1
+        },
+        {
+          "id": "362C7F",
+          "offset": "329C40",
+          "old_length": 38,
+          "new_length": 47,
+          "fragments": 1
+        },
+        {
+          "id": "362CA5",
+          "offset": "329C70",
+          "old_length": 43,
+          "new_length": 40,
+          "fragments": 1
+        },
+        {
+          "id": "362CD0",
+          "offset": "329C98",
+          "old_length": 29,
+          "new_length": 29,
+          "fragments": 1
+        },
+        {
+          "id": "362CED",
+          "offset": "329CB8",
+          "old_length": 21,
+          "new_length": 20,
+          "fragments": 1
+        },
+        {
+          "id": "362D02",
+          "offset": "329CCC",
+          "old_length": 50,
+          "new_length": 45,
+          "fragments": 1
+        },
+        {
+          "id": "362D34",
+          "offset": "329CFC",
+          "old_length": 35,
+          "new_length": 28,
+          "fragments": 1
+        },
+        {
+          "id": "362D57",
+          "offset": "329D18",
+          "old_length": 41,
+          "new_length": 38,
+          "fragments": 1
+        },
+        {
+          "id": "362D80",
+          "offset": "329D80",
+          "old_length": 52,
+          "new_length": 56,
+          "fragments": 1
+        },
+        {
+          "id": "362DB4",
+          "offset": "329DB8",
+          "old_length": 38,
+          "new_length": 29,
+          "fragments": 1
+        },
+        {
+          "id": "362DDA",
+          "offset": "329DD8",
+          "old_length": 45,
+          "new_length": 43,
+          "fragments": 1
+        },
+        {
+          "id": "362E07",
+          "offset": "329E04",
+          "old_length": 35,
+          "new_length": 37,
+          "fragments": 1
+        },
+        {
+          "id": "362E2A",
+          "offset": "329E2C",
+          "old_length": 35,
+          "new_length": 39,
+          "fragments": 1
+        },
+        {
+          "id": "362E4D",
+          "offset": "329E54",
+          "old_length": 26,
+          "new_length": 40,
+          "fragments": 1
+        },
+        {
+          "id": "362E67",
+          "offset": "329E7C",
+          "old_length": 225,
+          "new_length": 203,
+          "fragments": 6
+        },
+        {
+          "id": "362F48",
+          "offset": "32A030",
+          "old_length": 29,
+          "new_length": 31,
+          "fragments": 1
+        },
+        {
+          "id": "362F74",
+          "offset": "32A050",
+          "old_length": 41,
+          "new_length": 38,
+          "fragments": 1
+        },
+        {
+          "id": "362F9D",
+          "offset": "32A078",
+          "old_length": 33,
+          "new_length": 33,
+          "fragments": 1
+        },
+        {
+          "id": "362FBE",
+          "offset": "32A09C",
+          "old_length": 63,
+          "new_length": 55,
+          "fragments": 1
+        },
+        {
+          "id": "362FFD",
+          "offset": "32A0F0",
+          "old_length": 112,
+          "new_length": 85,
+          "fragments": 2
+        },
+        {
+          "id": "363090",
+          "offset": "32A148",
+          "old_length": 62,
+          "new_length": 70,
+          "fragments": 2
+        },
+        {
+          "id": "3630CE",
+          "offset": "32A190",
+          "old_length": 55,
+          "new_length": 58,
+          "fragments": 1
+        },
+        {
+          "id": "363105",
+          "offset": "32A1CC",
+          "old_length": 49,
+          "new_length": 53,
+          "fragments": 1
+        },
+        {
+          "id": "36314A",
+          "offset": "32A204",
+          "old_length": 42,
+          "new_length": 56,
+          "fragments": 1
+        },
+        {
+          "id": "363174",
+          "offset": "32A23C",
+          "old_length": 35,
+          "new_length": 45,
+          "fragments": 1
+        },
+        {
+          "id": "363197",
+          "offset": "32A26C",
+          "old_length": 35,
+          "new_length": 27,
+          "fragments": 1
+        },
+        {
+          "id": "3631BA",
+          "offset": "32A288",
+          "old_length": 56,
+          "new_length": 47,
+          "fragments": 1
+        }
+      ],
+      "entry_refs_rewritten": [
+        {
+          "offset": "3633EA",
+          "old_target": "361DB7",
+          "new_target": "328A80",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633EE",
+          "old_target": "361DE2",
+          "new_target": "328AAC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633F2",
+          "old_target": "361E0C",
+          "new_target": "328AD8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633F6",
+          "old_target": "361E3C",
+          "new_target": "328B00",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633FA",
+          "old_target": "361E72",
+          "new_target": "328B30",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3633FE",
+          "old_target": "361E8B",
+          "new_target": "328B4C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363402",
+          "old_target": "361ECA",
+          "new_target": "328B88",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363406",
+          "old_target": "361EFD",
+          "new_target": "328BA8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36340A",
+          "old_target": "361F21",
+          "new_target": "328BC8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36340E",
+          "old_target": "361F44",
+          "new_target": "328BEC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363412",
+          "old_target": "361F78",
+          "new_target": "328C20",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363416",
+          "old_target": "361FA3",
+          "new_target": "328C4C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36341A",
+          "old_target": "361FC7",
+          "new_target": "328C78",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36341E",
+          "old_target": "361FF1",
+          "new_target": "328CA8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363422",
+          "old_target": "362020",
+          "new_target": "328CD4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363082",
+          "old_target": "362068",
+          "new_target": "328D10",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "363426",
+          "old_target": "362068",
+          "new_target": "328D10",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36342A",
+          "old_target": "3620AB",
+          "new_target": "328D50",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363146",
+          "old_target": "3620DD",
+          "new_target": "328D80",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36342E",
+          "old_target": "3620DD",
+          "new_target": "328D80",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363432",
+          "old_target": "362117",
+          "new_target": "328E90",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363436",
+          "old_target": "362142",
+          "new_target": "328EC0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36343A",
+          "old_target": "362166",
+          "new_target": "328EEC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36343E",
+          "old_target": "362182",
+          "new_target": "328F08",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363442",
+          "old_target": "3621A5",
+          "new_target": "328F2C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363446",
+          "old_target": "3621E5",
+          "new_target": "328F6C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36344A",
+          "old_target": "362208",
+          "new_target": "328F88",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36344E",
+          "old_target": "362249",
+          "new_target": "328FC0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363456",
+          "old_target": "362282",
+          "new_target": "328FF8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36345A",
+          "old_target": "36229C",
+          "new_target": "329040",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363073",
+          "old_target": "3622C9",
+          "new_target": "32906C",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36345E",
+          "old_target": "3622C9",
+          "new_target": "32906C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363462",
+          "old_target": "3622FE",
+          "new_target": "32909C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363466",
+          "old_target": "36230C",
+          "new_target": "3290AC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36346A",
+          "old_target": "362339",
+          "new_target": "3290D8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36346E",
+          "old_target": "362365",
+          "new_target": "32910C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363472",
+          "old_target": "362390",
+          "new_target": "329140",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363476",
+          "old_target": "3623AD",
+          "new_target": "32916C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36347A",
+          "old_target": "3623DD",
+          "new_target": "32919C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36347E",
+          "old_target": "362403",
+          "new_target": "3291C0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363482",
+          "old_target": "36241F",
+          "new_target": "3291E4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363486",
+          "old_target": "36245D",
+          "new_target": "329214",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36348A",
+          "old_target": "362495",
+          "new_target": "329254",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36348E",
+          "old_target": "3624C0",
+          "new_target": "32927C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363492",
+          "old_target": "3624DD",
+          "new_target": "329298",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363496",
+          "old_target": "3624F8",
+          "new_target": "3292C8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36349A",
+          "old_target": "362512",
+          "new_target": "329390",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36349E",
+          "old_target": "36253E",
+          "new_target": "3293C8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634A2",
+          "old_target": "36256A",
+          "new_target": "3293F8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363078",
+          "old_target": "36259E",
+          "new_target": "329440",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3634A6",
+          "old_target": "36259E",
+          "new_target": "329440",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634AA",
+          "old_target": "3625C1",
+          "new_target": "329464",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634AE",
+          "old_target": "3625E4",
+          "new_target": "329494",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36307D",
+          "old_target": "3625FD",
+          "new_target": "3294B0",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3634B2",
+          "old_target": "3625FD",
+          "new_target": "3294B0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634B6",
+          "old_target": "36261E",
+          "new_target": "3294D4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634BA",
+          "old_target": "362646",
+          "new_target": "3294F8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634BE",
+          "old_target": "36267A",
+          "new_target": "329530",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634C2",
+          "old_target": "3626B6",
+          "new_target": "329568",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634C6",
+          "old_target": "3626D9",
+          "new_target": "329588",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634CA",
+          "old_target": "362716",
+          "new_target": "3295D4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634D2",
+          "old_target": "36273E",
+          "new_target": "3295FC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634D6",
+          "old_target": "362774",
+          "new_target": "329634",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634DA",
+          "old_target": "3627B6",
+          "new_target": "329668",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36273A",
+          "old_target": "3627F1",
+          "new_target": "3296A4",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "362F66",
+          "old_target": "3627F1",
+          "new_target": "3296A4",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3634DE",
+          "old_target": "3627F1",
+          "new_target": "3296A4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634E2",
+          "old_target": "362824",
+          "new_target": "3296F0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363087",
+          "old_target": "36284D",
+          "new_target": "329724",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36308C",
+          "old_target": "36284D",
+          "new_target": "329724",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3634E6",
+          "old_target": "36284D",
+          "new_target": "329724",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634EA",
+          "old_target": "362882",
+          "new_target": "329768",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634EE",
+          "old_target": "3628B8",
+          "new_target": "32979C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634F2",
+          "old_target": "3628CF",
+          "new_target": "3297B4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634F6",
+          "old_target": "3628F2",
+          "new_target": "329830",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634FA",
+          "old_target": "362921",
+          "new_target": "32986C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3634FE",
+          "old_target": "362939",
+          "new_target": "329888",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363502",
+          "old_target": "36296B",
+          "new_target": "3298BC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363506",
+          "old_target": "362982",
+          "new_target": "3298D8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36350A",
+          "old_target": "3629A6",
+          "new_target": "3298F8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36350E",
+          "old_target": "3629C0",
+          "new_target": "329914",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363512",
+          "old_target": "3629E7",
+          "new_target": "329940",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363516",
+          "old_target": "362A0F",
+          "new_target": "329970",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36351A",
+          "old_target": "362A52",
+          "new_target": "3299B0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36351E",
+          "old_target": "362A87",
+          "new_target": "3299E4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363522",
+          "old_target": "362AB8",
+          "new_target": "329A10",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363526",
+          "old_target": "362AF8",
+          "new_target": "329A54",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36352A",
+          "old_target": "362B0C",
+          "new_target": "329A64",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36352E",
+          "old_target": "362B3A",
+          "new_target": "329A88",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363532",
+          "old_target": "362B64",
+          "new_target": "329AB4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363536",
+          "old_target": "362B77",
+          "new_target": "329AC8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36353A",
+          "old_target": "362B9A",
+          "new_target": "329AF4",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36353E",
+          "old_target": "362BBA",
+          "new_target": "329B20",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363141",
+          "old_target": "362BE6",
+          "new_target": "329B58",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3631F3",
+          "old_target": "362BE6",
+          "new_target": "329B58",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3631F8",
+          "old_target": "362BE6",
+          "new_target": "329B58",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "363542",
+          "old_target": "362BE6",
+          "new_target": "329B58",
+          "proof": "description_table"
+        },
+        {
+          "offset": "362F6B",
+          "old_target": "362BFF",
+          "new_target": "329B78",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "363546",
+          "old_target": "362BFF",
+          "new_target": "329B78",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36306E",
+          "old_target": "362C26",
+          "new_target": "329BA8",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36354A",
+          "old_target": "362C26",
+          "new_target": "329BA8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36354E",
+          "old_target": "362C60",
+          "new_target": "329BF0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363552",
+          "old_target": "362C7F",
+          "new_target": "329C40",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363556",
+          "old_target": "362CA5",
+          "new_target": "329C70",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36355A",
+          "old_target": "362CD0",
+          "new_target": "329C98",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36355E",
+          "old_target": "362CED",
+          "new_target": "329CB8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "362F70",
+          "old_target": "362D02",
+          "new_target": "329CCC",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "363562",
+          "old_target": "362D02",
+          "new_target": "329CCC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363566",
+          "old_target": "362D34",
+          "new_target": "329CFC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36356A",
+          "old_target": "362D57",
+          "new_target": "329D18",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36356E",
+          "old_target": "362D80",
+          "new_target": "329D80",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363572",
+          "old_target": "362DB4",
+          "new_target": "329DB8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363576",
+          "old_target": "362DDA",
+          "new_target": "329DD8",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36357A",
+          "old_target": "362E07",
+          "new_target": "329E04",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36357E",
+          "old_target": "362E2A",
+          "new_target": "329E2C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363582",
+          "old_target": "362E4D",
+          "new_target": "329E54",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363586",
+          "old_target": "362E67",
+          "new_target": "329E7C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36358A",
+          "old_target": "362F48",
+          "new_target": "32A030",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36359A",
+          "old_target": "362F74",
+          "new_target": "32A050",
+          "proof": "description_table"
+        },
+        {
+          "offset": "36359E",
+          "old_target": "362F9D",
+          "new_target": "32A078",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635A2",
+          "old_target": "362FBE",
+          "new_target": "32A09C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635A6",
+          "old_target": "362FFD",
+          "new_target": "32A0F0",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635C6",
+          "old_target": "363090",
+          "new_target": "32A148",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635CA",
+          "old_target": "3630CE",
+          "new_target": "32A190",
+          "proof": "description_table"
+        },
+        {
+          "offset": "363137",
+          "old_target": "363105",
+          "new_target": "32A1CC",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "36313C",
+          "old_target": "363105",
+          "new_target": "32A1CC",
+          "proof": "parsed_jump_operand"
+        },
+        {
+          "offset": "3635CE",
+          "old_target": "363105",
+          "new_target": "32A1CC",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635E2",
+          "old_target": "36314A",
+          "new_target": "32A204",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635E6",
+          "old_target": "363174",
+          "new_target": "32A23C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635EA",
+          "old_target": "363197",
+          "new_target": "32A26C",
+          "proof": "description_table"
+        },
+        {
+          "offset": "3635EE",
+          "old_target": "3631BA",
+          "new_target": "32A288",
+          "proof": "description_table"
+        }
+      ]
+    }
+  },
+  "new_scene_emulator_tested": false
+}
