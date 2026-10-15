@@ -1,6 +1,19 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V33 (traduction partielle)
+## Version actuelle : V34 (traduction partielle)
+
+V34 nettoie **87 fragments anglais résiduels dans 62 scripts** : raccords autour des noms et objets dynamiques, messages de vente et d'utilisation, réponses courtes et dialogues mixtes. Les cris, noms propres et le langage fictif des singes restent volontairement inchangés et ne sont pas comptés.
+
+- [Patch V34 avec accents](patches/EarthBound_Beginnings_FR_v34_accents.ips)
+- [Patch V34 ASCII](patches/EarthBound_Beginnings_FR_v34_ascii.ips)
+- [Rapport V34 et limites](RAPPORT_V34.md)
+- [Traductions éditables](tools/v34/translations_v34.tsv)
+- [Constructeur et tests](tools/v34/README_V34.md)
+- [Essais Snes9x](tests/emulation_v34/RAPPORT_EMULATION_V34.md)
+
+Appliquer **un seul IPS V34 directement à la ROM originale USA 1.2**. 16 tests V34, 34 contrôles de régression V33/V29/boy-girl et un parcours Snes9x dans les deux profils sont réussis. Cinq scripts sont inspectés par point d'entrée temporaire ; leurs déclencheurs normaux restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V33 (traduction partielle)
 
 V33 révise et relocalise **58 dialogues et messages** : commerces, hébergements, indices et échanges secondaires. Les copies comprennent 153 fragments, dont 64 encore anglais dans V32. La continuation du dialogue du chien est aussi raccordée depuis la copie V31.
 

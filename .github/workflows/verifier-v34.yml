@@ -1,0 +1,17 @@
+name: Verify V34 IPS offline
+on:
+  push:
+    paths:
+      - 'tools/v34/**'
+      - 'patches/EarthBound_Beginnings_FR_v34_*.ips'
+      - '.github/workflows/verifier-v34.yml'
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v34 -p test_v34_offline.py -v
