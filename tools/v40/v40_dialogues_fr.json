@@ -1,0 +1,3521 @@
+{
+  "version": "v40",
+  "base": "v39",
+  "scripts": [
+    {
+      "id": "35CB6E",
+      "end": "35CB8D",
+      "english": [
+        "@",
+        " isn't petrified."
+      ],
+      "fr": [
+        "@",
+        " ne souffre pas de pétrification."
+      ],
+      "spans": [
+        [
+          5,
+          6
+        ],
+        [
+          9,
+          26
+        ]
+      ],
+      "original_hex": "1b011b0401701c02005099a39e57a450a095a4a299969995945e0ace19c900",
+      "references": [
+        {
+          "offset": "09197F",
+          "target": "35CB6E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "09197E",
+            "command_hex": "0a6ecbf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CB8D",
+      "end": "35CBB5",
+      "english": [
+        "@",
+        " relaxed",
+        "  and took a deep breath."
+      ],
+      "fr": [
+        "@",
+        " se détend",
+        "  et respire profondément."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          13,
+          38
+        ]
+      ],
+      "original_hex": "01701c0d50a2959c91a89594005050919e9450a49f9f9b509150949595a05092a29591a4985e0302",
+      "references": [
+        {
+          "offset": "2F84D5",
+          "target": "35CB8D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F84D4",
+            "command_hex": "0a8dcbf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CBB5",
+      "end": "35CBD5",
+      "english": [
+        "@",
+        " could not turn",
+        "  into ",
+        "!"
+      ],
+      "fr": [
+        "@",
+        " ne peut pas se changer",
+        "  en ",
+        "!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          20,
+          27
+        ],
+        [
+          29,
+          30
+        ]
+      ],
+      "original_hex": "01701c0d50939fa59c94509e9fa450a4a5a29e005050999ea49f501c0e510302",
+      "references": [
+        {
+          "offset": "2F6AB4",
+          "target": "35CBB5",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6AB3",
+            "command_hex": "0ab5cbf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CBD5",
+      "end": "35CBF4",
+      "english": [
+        "@Yikes! ",
+        " turned into",
+        "  ",
+        "!"
+      ],
+      "fr": [
+        "@Au secours! ",
+        " se change en",
+        "  ",
+        "!"
+      ],
+      "spans": [
+        [
+          1,
+          9
+        ],
+        [
+          11,
+          23
+        ],
+        [
+          24,
+          26
+        ],
+        [
+          28,
+          29
+        ]
+      ],
+      "original_hex": "017089999b95a351501c0d50a4a5a29e959450999ea49f0050501c0e510302",
+      "references": [
+        {
+          "offset": "2F6A9A",
+          "target": "35CBD5",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6A99",
+            "command_hex": "0ad5cbf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CBF4",
+      "end": "35CC29",
+      "english": [
+        "@Here is a chance",
+        "  for a surprise opening attack!"
+      ],
+      "fr": [
+        "@Une occasion idéale",
+        "  pour une attaque surprise!"
+      ],
+      "spans": [
+        [
+          1,
+          18
+        ],
+        [
+          19,
+          51
+        ]
+      ],
+      "original_hex": "01707895a2955099a35091509398919e9395005050969fa2509150a3a5a2a0a299a395509fa0959e999e975091a4a491939b510302",
+      "references": [
+        {
+          "offset": "2F78D9",
+          "target": "35CBF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78D8",
+            "command_hex": "0af4cbf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CC4A",
+      "end": "35CC64",
+      "english": [
+        "@Vulnerable to PK Fire!"
+      ],
+      "fr": [
+        "@Vulnérable à PK Feu!"
+      ],
+      "spans": [
+        [
+          1,
+          24
+        ]
+      ],
+      "original_hex": "017086a59c9e95a291929c9550a49f50807b507699a295510302",
+      "references": [
+        {
+          "offset": "2F6A0E",
+          "target": "35CC4A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6A0D",
+            "command_hex": "0a4accf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CC64",
+      "end": "35CC80",
+      "english": [
+        "@Vulnerable to PK Freeze!"
+      ],
+      "fr": [
+        "@Vulnérable à PK Glace!"
+      ],
+      "spans": [
+        [
+          1,
+          26
+        ]
+      ],
+      "original_hex": "017086a59c9e95a291929c9550a49f50807b5076a29595aa95510302",
+      "references": [
+        {
+          "offset": "2F6A25",
+          "target": "35CC64",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6A24",
+            "command_hex": "0a64ccf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CC80",
+      "end": "35CC99",
+      "english": [
+        "@",
+        "'s",
+        "  Offense is ",
+        "!"
+      ],
+      "fr": [
+        "@",
+        "",
+        "  Attaque: ",
+        "!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          22,
+          23
+        ]
+      ],
+      "original_hex": "01701c0e57a30050507f9696959ea3955099a3501c0f510302",
+      "references": [
+        {
+          "offset": "2F69EB",
+          "target": "35CC80",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F69EA",
+            "command_hex": "0a80ccf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CC99",
+      "end": "35CCBC",
+      "english": [
+        "@",
+        " got hurt and collapsed..."
+      ],
+      "fr": [
+        "@",
+        " subit des blessures et s'effondre..."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          30
+        ]
+      ],
+      "original_hex": "01701c0e50979fa45098a5a2a450919e9450939f9c9c91a0a395945e5e5e1f02200302",
+      "references": [
+        {
+          "offset": "2F6C6C",
+          "target": "35CC99",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6C6B",
+            "command_hex": "0a99ccf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CCBC",
+      "end": "35CCE3",
+      "english": [
+        "@",
+        " tried",
+        "  ",
+        "!"
+      ],
+      "fr": [
+        "@",
+        " tente",
+        "  ",
+        "!"
+      ],
+      "spans": [
+        [
+          13,
+          14
+        ],
+        [
+          16,
+          22
+        ],
+        [
+          27,
+          29
+        ],
+        [
+          32,
+          33
+        ]
+      ],
+      "original_hex": "011f41081b026885ef001f0237701c0d50a4a299959400191f1b0450501c120051030a7e85ef00",
+      "references": [
+        {
+          "offset": "2F8544",
+          "target": "35CCBC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8543",
+            "command_hex": "0abcccf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CCE3",
+      "end": "35CD0C",
+      "english": [
+        "@",
+        " lost the battle..."
+      ],
+      "fr": [
+        "@",
+        " perd le combat..."
+      ],
+      "spans": [
+        [
+          14,
+          15
+        ],
+        [
+          20,
+          39
+        ]
+      ],
+      "original_hex": "0106b0030ccdf500100a1f0000077008d7e6c700509c9fa3a450a49895509291a4a49c955e5e5e1402",
+      "references": [
+        {
+          "offset": "2F7A4E",
+          "target": "35CCE3",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7A4D",
+            "command_hex": "0ae3ccf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CD3E",
+      "end": "35CD8C",
+      "english": [
+        "@",
+        " tried",
+        "  to use the ",
+        ".",
+        "@but ",
+        " could not use",
+        "  the ",
+        " very well."
+      ],
+      "fr": [
+        "@",
+        " essaie",
+        "  d'utiliser ",
+        ".",
+        "@Mais ",
+        " ne sait pas bien utiliser",
+        "  ",
+        "."
+      ],
+      "spans": [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          15,
+          28
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          34,
+          39
+        ],
+        [
+          41,
+          55
+        ],
+        [
+          56,
+          62
+        ],
+        [
+          65,
+          76
+        ]
+      ],
+      "original_hex": "01191f1b04701c0d50a4a2999594005050a49f50a5a39550a49895501c05005e03007092a5a4501c0d50939fa59c94509e9fa450a5a395005050a49895501c050050a695a2a950a7959c9c5e0302",
+      "references": [
+        {
+          "offset": "077EB7",
+          "target": "35CD3E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "077EB6",
+            "command_hex": "0a3ecdf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CDB8",
+      "end": "35CDF3",
+      "english": [
+        "@",
+        "'s body was protected",
+        "  by the psychic power shield!"
+      ],
+      "fr": [
+        "@",
+        " est à l'abri",
+        "  derrière un bouclier psychique!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          25
+        ],
+        [
+          27,
+          57
+        ]
+      ],
+      "original_hex": "01701c0e57a350929f94a950a791a350a0a29fa49593a495940300505092a950a4989550a0a3a99398999350a09fa795a250a39899959c94510302",
+      "references": [
+        {
+          "offset": "2F7051",
+          "target": "35CDB8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7050",
+            "command_hex": "0ab8cdf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35CDF3",
+      "end": "35CE10",
+      "english": [
+        "@Vulnerable to PK Thunder!"
+      ],
+      "fr": [
+        "@Vulnérable à PK Foudre!"
+      ],
+      "spans": [
+        [
+          1,
+          27
+        ]
+      ],
+      "original_hex": "017086a59c9e95a291929c9550a49f50807b508498a59e9495a2510302",
+      "references": [
+        {
+          "offset": "2F6A3D",
+          "target": "35CDF3",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6A3C",
+            "command_hex": "0af3cdf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366A3C",
+      "end": "366A86",
+      "english": [
+        "@",
+        ".",
+        "@I owe a great deal to your family line."
+      ],
+      "fr": [
+        "@",
+        ".",
+        "@Je dois beaucoup à ta famille."
+      ],
+      "spans": [
+        [
+          11,
+          12
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          24,
+          64
+        ]
+      ],
+      "original_hex": "180010281801351f620001701c02015e14001a0c5602ef007079509fa79550915097a29591a4509495919c50a49f50a99fa5a25096919d999ca9509c999e955e1418001f620118010e02",
+      "references": [
+        {
+          "offset": "366A0C",
+          "target": "366A3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366A09",
+            "command_hex": "1fc0083c6af600866af600d96af600636bf600fc6bf6005b6cf600db6cf6005a6df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366A86",
+      "end": "366AD9",
+      "english": [
+        "@Your great-grandmother Maria raised me when I was very young."
+      ],
+      "fr": [
+        "@Ton arrière-grand-mère Maria m'a élevé quand j'étais tout petit."
+      ],
+      "spans": [
+        [
+          11,
+          73
+        ]
+      ],
+      "original_hex": "180010281801351f62000170899fa5a25097a29591a45d97a2919e949d9fa49895a2507d91a2999150a29199a39594509d9550a798959e507950a791a350a695a2a950a99fa59e975e1418001f620118010e02",
+      "references": [
+        {
+          "offset": "366A10",
+          "target": "366A86",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366A09",
+            "command_hex": "1fc0083c6af600866af600d96af600636bf600fc6bf6005b6cf600db6cf6005a6df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366AD9",
+      "end": "366B63",
+      "english": [
+        "@But...",
+        "@Her husband George stole vital information from our planet",
+        "  and tried to turn against us..."
+      ],
+      "fr": [
+        "@Mais...",
+        "@Son mari George a volé des informations vitales sur notre planète",
+        "  et a tenté de se retourner contre nous..."
+      ],
+      "spans": [
+        [
+          11,
+          18
+        ],
+        [
+          28,
+          87
+        ],
+        [
+          95,
+          128
+        ]
+      ],
+      "original_hex": "180010281801351f6200017072a5a45e5e5e102803001a0c5602ef00707895a25098a5a392919e945077959fa2979550a3a49f9c9550a699a4919c50999e969fa29d91a4999f9e5096a29f9d509fa5a250a09c919e95a414001a0c5602ef005050919e9450a4a299959450a49f50a4a5a29e50919791999ea3a450a5a35e5e5e1418001f620118010e02",
+      "references": [
+        {
+          "offset": "366A14",
+          "target": "366AD9",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366A09",
+            "command_hex": "1fc0083c6af600866af600d96af600636bf600fc6bf6005b6cf600db6cf6005a6df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366B63",
+      "end": "366BFC",
+      "english": [
+        "@And now,",
+        " their descendant is bent on hindering our plan again, and must be stopped!",
+        "@",
+        "!",
+        "@I am talking about you!"
+      ],
+      "fr": [
+        "@Et maintenant,",
+        " leur descendant veut encore entraver nos plans. Il faut l'arrêter!",
+        "@",
+        "!",
+        "@C'est de toi que je parle!"
+      ],
+      "spans": [
+        [
+          11,
+          20
+        ],
+        [
+          22,
+          97
+        ],
+        [
+          106,
+          107
+        ],
+        [
+          110,
+          111
+        ],
+        [
+          119,
+          143
+        ]
+      ],
+      "original_hex": "180010281801351f62000170719e94509e9fa75c103c50a4989599a2509495a393959e94919ea45099a35092959ea4509f9e5098999e9495a2999e97509fa5a250a09c919e50919791999e5c50919e94509da5a3a450929550a3a49fa0a09594511418061a0c5602ef00701c02015114001a0c5602ef00707950919d50a4919c9b999e975091929fa5a450a99fa5511418001f620118010e02",
+      "references": [
+        {
+          "offset": "366A18",
+          "target": "366B63",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366A09",
+            "command_hex": "1fc0083c6af600866af600d96af600636bf600fc6bf6005b6cf600db6cf6005a6df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366BFC",
+      "end": "366C5B",
+      "english": [
+        "@Now leave! ",
+        "May you perish with the rest of the disgusting Earth people!"
+      ],
+      "fr": [
+        "@Va-t'en! ",
+        "Puisses-tu périr avec tous ces ignobles Terriens!"
+      ],
+      "spans": [
+        [
+          11,
+          23
+        ],
+        [
+          25,
+          85
+        ]
+      ],
+      "original_hex": "180010281801351f620001707e9fa7509c9591a6955150103c7d91a950a99fa550a095a299a39850a799a49850a4989550a295a3a4509f9650a49895509499a397a5a3a4999e97507591a2a49850a0959fa09c95511418001f620118010e02",
+      "references": [
+        {
+          "offset": "366A1C",
+          "target": "366BFC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366A09",
+            "command_hex": "1fc0083c6af600866af600d96af600636bf600fc6bf6005b6cf600db6cf6005a6df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366C5B",
+      "end": "366CDB",
+      "english": [
+        "@Foolish one...",
+        " you cannot do a thing with your meager powers...",
+        "@Powers worthy of a lowly insect."
+      ],
+      "fr": [
+        "@Pauvre insensé...",
+        " tes faibles pouvoirs ne te permettent rien...",
+        "@Des pouvoirs dignes d'un insecte."
+      ],
+      "spans": [
+        [
+          11,
+          26
+        ],
+        [
+          28,
+          77
+        ],
+        [
+          85,
+          118
+        ]
+      ],
+      "original_hex": "180010281801351f62000170769f9f9c99a398509f9e955e5e5e103c50a99fa55093919e9e9fa450949f509150a498999e9750a799a49850a99fa5a2509d95919795a250a09fa795a2a35e5e5e14001a0c5602ef0070809fa795a2a350a79fa2a498a9509f965091509c9fa79ca950999ea39593a45e1418001f620118010e02",
+      "references": [
+        {
+          "offset": "366A20",
+          "target": "366C5B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366A09",
+            "command_hex": "1fc0083c6af600866af600d96af600636bf600fc6bf6005b6cf600db6cf6005a6df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366CDB",
+      "end": "366D5A",
+      "english": [
+        "@",
+        "...",
+        "@You alone,",
+        " I may save you.",
+        "@Just you alone.",
+        "@Board the mothership with me."
+      ],
+      "fr": [
+        "@",
+        "...",
+        "@Toi seul,",
+        " je peux te sauver.",
+        "@Toi seul.",
+        "@Monte à bord du vaisseau mère avec moi."
+      ],
+      "spans": [
+        [
+          11,
+          12
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          26,
+          37
+        ],
+        [
+          39,
+          55
+        ],
+        [
+          63,
+          79
+        ],
+        [
+          87,
+          117
+        ]
+      ],
+      "original_hex": "180010281801351f620001701c02015e5e5e14001a0c5602ef0070899fa550919c9f9e955c103c5079509d91a950a391a69550a99fa55e14001a0c5602ef00707aa5a3a450a99fa550919c9f9e955e14001a0c5602ef0070729f91a29450a49895509d9fa49895a2a39899a050a799a498509d955e1418001f620118010e02",
+      "references": [
+        {
+          "offset": "366A24",
+          "target": "366CDB",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366A09",
+            "command_hex": "1fc0083c6af600866af600d96af600636bf600fc6bf6005b6cf600db6cf6005a6df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366D5A",
+      "end": "366DF1",
+      "english": [
+        "  ......",
+        "@Then fall into a cold,",
+        " deep sleep",
+        "  with your friends,",
+        "  and the other hideous",
+        "  Earth people."
+      ],
+      "fr": [
+        "  ......",
+        "@Alors plonge dans un sommeil",
+        " profond et glacé",
+        "  avec tes amis",
+        "  et tous ces autres",
+        "  horribles Terriens."
+      ],
+      "spans": [
+        [
+          11,
+          19
+        ],
+        [
+          27,
+          50
+        ],
+        [
+          52,
+          63
+        ],
+        [
+          71,
+          91
+        ],
+        [
+          99,
+          122
+        ],
+        [
+          123,
+          138
+        ]
+      ],
+      "original_hex": "180010281801351f62000150505e5e5e5e5e5e14001a0c5602ef00708498959e5096919c9c50999ea49f509150939f9c945c102850949595a050a39c9595a014001a0c5602ef005050a799a49850a99fa5a25096a299959e94a35c14001a0c5602ef005050919e9450a49895509fa49895a250989994959fa5a30050507591a2a49850a0959fa09c955e1404800318001f620118010e02",
+      "references": [
+        {
+          "offset": "366A28",
+          "target": "366D5A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366A09",
+            "command_hex": "1fc0083c6af600866af600d96af600636bf600fc6bf6005b6cf600db6cf6005a6df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366DF1",
+      "end": "366E26",
+      "english": [
+        "@",
+        " started",
+        "  hacking up a storm!"
+      ],
+      "fr": [
+        "@",
+        " se met",
+        "  à tousser très fort!"
+      ],
+      "spans": [
+        [
+          18,
+          19
+        ],
+        [
+          21,
+          29
+        ],
+        [
+          30,
+          51
+        ]
+      ],
+      "original_hex": "1d21030903266ef600396ef6005b6ef60001701c0d50a3a491a2a495940050509891939b999e9750a5a0509150a3a49fa29d510302",
+      "references": [
+        {
+          "offset": "368DD9",
+          "target": "366DF1",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368DD5",
+            "record_hex": "01000500f16df6009b88c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366E26",
+      "end": "366E39",
+      "english": [
+        "@",
+        " is wheezing!"
+      ],
+      "fr": [
+        "@",
+        " a une respiration sifflante!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          17
+        ]
+      ],
+      "original_hex": "01701c0d5099a350a7989595aa999e97510302",
+      "references": [
+        {
+          "offset": "366DF6",
+          "target": "366E26",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366E39",
+      "end": "366E5B",
+      "english": [
+        "@",
+        " is",
+        "  having a coughing fit!"
+      ],
+      "fr": [
+        "@",
+        " a",
+        "  une quinte de toux!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          8,
+          32
+        ]
+      ],
+      "original_hex": "01701c0d5099a30050509891a6999e97509150939fa59798999e97509699a4510302",
+      "references": [
+        {
+          "offset": "366DFA",
+          "target": "366E39",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366E5B",
+      "end": "366E80",
+      "english": [
+        "@",
+        " is",
+        "  trying to catch a breath!"
+      ],
+      "fr": [
+        "@",
+        " essaie",
+        "  de reprendre son souffle!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          8,
+          35
+        ]
+      ],
+      "original_hex": "01701c0d5099a3005050a4a2a9999e9750a49f509391a4939850915092a29591a498510302",
+      "references": [
+        {
+          "offset": "366DFE",
+          "target": "366E5B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366E80",
+      "end": "366F0C",
+      "english": [
+        "@",
+        " launched a ",
+        "  deadly missile!"
+      ],
+      "fr": [
+        "@",
+        " lance un",
+        "  missile mortel!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          21,
+          38
+        ]
+      ],
+      "original_hex": "01701c0d191f1b04509c91a59e93989594509150005050949591949ca9509d99a3a3999c95511f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610041f024610040302",
+      "references": [
+        {
+          "offset": "3691A5",
+          "target": "366E80",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3691A1",
+            "record_hex": "00010200806ef600e3a5c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366F0C",
+      "end": "366F32",
+      "english": [
+        "@",
+        " is humming",
+        "  and meditating!"
+      ],
+      "fr": [
+        "@",
+        " fredonne",
+        "  et médite!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          7,
+          18
+        ],
+        [
+          19,
+          36
+        ]
+      ],
+      "original_hex": "01701f02191c0e5099a35098a59d9d999e97005050919e94509d959499a491a4999e97510302",
+      "references": [
+        {
+          "offset": "369385",
+          "target": "366F0C",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369381",
+            "record_hex": "010005000c6ff6009b88c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366F32",
+      "end": "366F5A",
+      "english": [
+        "@",
+        " is acting",
+        "  a little bit strange."
+      ],
+      "fr": [
+        "@",
+        " se comporte",
+        "  de façon étrange."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          15,
+          38
+        ]
+      ],
+      "original_hex": "01701c0e5099a3509193a4999e9700505091509c99a4a49c95509299a450a3a4a2919e97955e0302",
+      "references": [
+        {
+          "offset": "2F8446",
+          "target": "366F32",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8445",
+            "command_hex": "0a326ff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366F5A",
+      "end": "366F7E",
+      "english": [
+        "@",
+        " felt",
+        "  a little strange..."
+      ],
+      "fr": [
+        "@",
+        " éprouve",
+        "  une drôle de sensation..."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          10,
+          31
+        ]
+      ],
+      "original_hex": "01701c0e5096959ca400505091509c99a4a49c9550a3a4a2919e97955e5e5e1f02530302",
+      "references": [
+        {
+          "offset": "2F6C3B",
+          "target": "366F5A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6C3A",
+            "command_hex": "0a5a6ff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366F7E",
+      "end": "366FA0",
+      "english": [
+        "@",
+        " began to",
+        "  feel strange!"
+      ],
+      "fr": [
+        "@",
+        " commence à",
+        "  se sentir bizarre!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          14,
+          29
+        ]
+      ],
+      "original_hex": "01701c0e50929597919e50a49f0050509695959c50a3a4a2919e9795511f02530302",
+      "references": [
+        {
+          "offset": "2F6B82",
+          "target": "366F7E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6B81",
+            "command_hex": "0a7e6ff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366FA0",
+      "end": "366FBA",
+      "english": [
+        "@",
+        " was",
+        "  petrified!"
+      ],
+      "fr": [
+        "@",
+        " subit",
+        "  une pétrification!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          9,
+          21
+        ]
+      ],
+      "original_hex": "01701c0e50a791a3005050a095a4a29996999594511f02530302",
+      "references": [
+        {
+          "offset": "2F6AC8",
+          "target": "366FA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6AC7",
+            "command_hex": "0aa06ff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366FBA",
+      "end": "366FD7",
+      "english": [
+        "@",
+        " fired the tank!"
+      ],
+      "fr": [
+        "@",
+        " fait feu avec le char!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          8,
+          24
+        ]
+      ],
+      "original_hex": "01701c0d191f1b04509699a2959450a4989550a4919e9b511f02460302",
+      "references": [
+        {
+          "offset": "369379",
+          "target": "366FBA",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369375",
+            "record_hex": "00010500ba6ff60021a8c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "366FD7",
+      "end": "367000",
+      "english": [
+        "@",
+        " tried",
+        "  to turn you to stone!"
+      ],
+      "fr": [
+        "@",
+        " tente",
+        "  de te pétrifier!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          14,
+          37
+        ]
+      ],
+      "original_hex": "011f0219701c0d50a4a2999594005050a49f50a4a5a29e50a99fa550a49f50a3a49f9e955103100102",
+      "references": [
+        {
+          "offset": "368545",
+          "target": "366FD7",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368541",
+            "record_hex": "00010500d76ff600ce89c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367000",
+      "end": "367016",
+      "english": [
+        "@",
+        " played dead!"
+      ],
+      "fr": [
+        "@",
+        " fait le mort!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          20
+        ]
+      ],
+      "original_hex": "011f0219701c0d50a09c91a995945094959194510302",
+      "references": [
+        {
+          "offset": "368E51",
+          "target": "367000",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368E4D",
+            "record_hex": "010005000070f6009b88c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367016",
+      "end": "367038",
+      "english": [
+        "@",
+        " could not",
+        "  see a thing!"
+      ],
+      "fr": [
+        "@",
+        " ne voit",
+        "  plus rien!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          15,
+          29
+        ]
+      ],
+      "original_hex": "01701c0e50939fa59c94509e9fa4005050a39595509150a498999e97511f02530302",
+      "references": [
+        {
+          "offset": "2F6BBC",
+          "target": "367016",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6BBB",
+            "command_hex": "0a1670f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367038",
+      "end": "367058",
+      "english": [
+        "@",
+        " could",
+        "  see once more!"
+      ],
+      "fr": [
+        "@",
+        " peut",
+        "  voir à nouveau!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          11,
+          27
+        ]
+      ],
+      "original_hex": "01701c0e50939fa59c94005050a39595509f9e9395509d9fa295511f02250302",
+      "references": [
+        {
+          "offset": "2F6ED2",
+          "target": "367038",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F6ED1",
+            "command_hex": "0a3870f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367058",
+      "end": "367078",
+      "english": [
+        "@",
+        " sprayed",
+        "  at you!"
+      ],
+      "fr": [
+        "@",
+        " pulvérise",
+        "  un produit sur toi!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          16,
+          25
+        ]
+      ],
+      "original_hex": "011f0219701c0d50a3a0a291a9959400505091a450a99fa5511f024703100102",
+      "references": [
+        {
+          "offset": "368569",
+          "target": "367058",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368565",
+            "record_hex": "000105005870f600eb8ac200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3670C0",
+      "end": "3670ED",
+      "english": [
+        "@Stop singing."
+      ],
+      "fr": [
+        "@Arrête de chanter."
+      ],
+      "spans": [
+        [
+          21,
+          35
+        ]
+      ],
+      "original_hex": "1f0702101e1f0000ba087870f600180135011f62007083a49fa050a3999e97999e975e14180335180018010e02",
+      "references": [
+        {
+          "offset": "3670B2",
+          "target": "3670C0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3670B0",
+            "command_hex": "1b02c070f600"
+          }
+        },
+        {
+          "offset": "3670BC",
+          "target": "3670C0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3670BB",
+            "command_hex": "0ac070f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367127",
+      "end": "367154",
+      "english": [
+        "@STOP singing!"
+      ],
+      "fr": [
+        "@ARRETE de chanter!"
+      ],
+      "spans": [
+        [
+          21,
+          35
+        ]
+      ],
+      "original_hex": "1f0702101e1f0000ba087870f600180135011f62007083847f8050a3999e97999e975114180335180018010e02",
+      "references": [
+        {
+          "offset": "367119",
+          "target": "367127",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367117",
+            "command_hex": "1b022771f600"
+          }
+        },
+        {
+          "offset": "367123",
+          "target": "367127",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367122",
+            "command_hex": "0a2771f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36718E",
+      "end": "3671C4",
+      "english": [
+        "@STOP!",
+        "@Stop the song!"
+      ],
+      "fr": [
+        "@ARRETE!",
+        "@Arrête cette chanson!"
+      ],
+      "spans": [
+        [
+          21,
+          27
+        ],
+        [
+          29,
+          44
+        ]
+      ],
+      "original_hex": "1f0702101e1f0000ba087870f600180135011f62007083847f805114007083a49fa050a4989550a39f9e975114180335180018010e02",
+      "references": [
+        {
+          "offset": "367180",
+          "target": "36718E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36717E",
+            "command_hex": "1b028e71f600"
+          }
+        },
+        {
+          "offset": "36718A",
+          "target": "36718E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367189",
+            "command_hex": "0a8e71f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3671FE",
+      "end": "367238",
+      "english": [
+        "@STOP IT!",
+        "@STOP THAT SONG!"
+      ],
+      "fr": [
+        "@ÇA SUFFIT!",
+        "@ARRETEZ CETTE CHANSON!"
+      ],
+      "spans": [
+        [
+          21,
+          30
+        ],
+        [
+          32,
+          48
+        ]
+      ],
+      "original_hex": "1f0702101e1f0000ba087870f600180135011f62007083847f805079845114007083847f80508478718450837f7e775114180335180018010e02",
+      "references": [
+        {
+          "offset": "3671F0",
+          "target": "3671FE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3671EE",
+            "command_hex": "1b02fe71f600"
+          }
+        },
+        {
+          "offset": "3671FA",
+          "target": "3671FE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3671F9",
+            "command_hex": "0afe71f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367272",
+      "end": "3672CA",
+      "english": [
+        "@You puny little Earth bugs!",
+        "@Shut up, and stop singing!"
+      ],
+      "fr": [
+        "@Misérables vermisseaux terriens!",
+        "@Taisez-vous et cessez de chanter!"
+      ],
+      "spans": [
+        [
+          21,
+          49
+        ],
+        [
+          51,
+          78
+        ]
+      ],
+      "original_hex": "1f0702101e1f0000ba087870f600180135011f620070899fa550a0a59ea9509c99a4a49c95507591a2a4985092a597a3511400708398a5a450a5a05c50919e9450a3a49fa050a3999e97999e975114180335180018010e02",
+      "references": [
+        {
+          "offset": "367264",
+          "target": "367272",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367262",
+            "command_hex": "1b027272f600"
+          }
+        },
+        {
+          "offset": "36726E",
+          "target": "367272",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36726D",
+            "command_hex": "0a7272f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367304",
+      "end": "367335",
+      "english": [
+        "@The SONG",
+        ".",
+        ".",
+        "."
+      ],
+      "fr": [
+        "@La CHANSON",
+        ".",
+        ".",
+        "."
+      ],
+      "spans": [
+        [
+          21,
+          30
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          38,
+          39
+        ]
+      ],
+      "original_hex": "1f0702101e1f0000ba087870f600180135011f62007084989550837f7e77101e5e101e5e101e5e14180335180018010e02",
+      "references": [
+        {
+          "offset": "3672F6",
+          "target": "367304",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3672F4",
+            "command_hex": "1b020473f600"
+          }
+        },
+        {
+          "offset": "367300",
+          "target": "367304",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3672FF",
+            "command_hex": "0a0473f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36736F",
+      "end": "36739F",
+      "english": [
+        "@STOP IT",
+        "!",
+        "!",
+        "!"
+      ],
+      "fr": [
+        "@ARRETEZ",
+        "!",
+        "!",
+        "!"
+      ],
+      "spans": [
+        [
+          21,
+          29
+        ],
+        [
+          31,
+          32
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          37,
+          38
+        ]
+      ],
+      "original_hex": "1f0702101e1f0000ba087870f600180135011f62007083847f80507984101e51101e51101e5114180335180018010e02",
+      "references": [
+        {
+          "offset": "367361",
+          "target": "36736F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36735F",
+            "command_hex": "1b026f73f600"
+          }
+        },
+        {
+          "offset": "36736B",
+          "target": "36736F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36736A",
+            "command_hex": "0a6f73f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367444",
+      "end": "36747D",
+      "english": [
+        "@Stop...",
+        "@Pleeease, stop!"
+      ],
+      "fr": [
+        "@Arrêtez...",
+        "@Pitié, arrêtez!"
+      ],
+      "spans": [
+        [
+          21,
+          29
+        ],
+        [
+          31,
+          47
+        ]
+      ],
+      "original_hex": "1f0702101e1f0000ba087870f600180135011f62007083a49fa05e5e5e140070809c95959591a3955c50a3a49fa05114180335180018010e02",
+      "references": [
+        {
+          "offset": "367436",
+          "target": "367444",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367434",
+            "command_hex": "1b024474f600"
+          }
+        },
+        {
+          "offset": "367440",
+          "target": "367444",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36743F",
+            "command_hex": "0a4474f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367528",
+      "end": "3675E9",
+      "english": [
+        "@",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "@How could I be defeated",
+        " by a song like that?",
+        "@I will...",
+        "  sometime...",
+        "@",
+        "!",
+        "  We SHALL meet again!"
+      ],
+      "fr": [
+        "@",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "@Comment ai-je pu perdre",
+        " à cause de cette chanson?",
+        "@Je vais...",
+        "  un jour...",
+        "@",
+        "!",
+        "  Nous nous REVERRONS!"
+      ],
+      "spans": [
+        [
+          42,
+          43
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          48,
+          49
+        ],
+        [
+          51,
+          52
+        ],
+        [
+          54,
+          55
+        ],
+        [
+          57,
+          58
+        ],
+        [
+          60,
+          61
+        ],
+        [
+          63,
+          64
+        ],
+        [
+          66,
+          67
+        ],
+        [
+          71,
+          95
+        ],
+        [
+          97,
+          118
+        ],
+        [
+          120,
+          130
+        ],
+        [
+          133,
+          146
+        ],
+        [
+          148,
+          149
+        ],
+        [
+          152,
+          153
+        ],
+        [
+          156,
+          178
+        ]
+      ],
+      "original_hex": "1f0702101e1f0000ba1a0cb4f0f7001f023f1c134a4a1a0c2bedf7003c001f0102103c180135011f620070100f5e100f5e100f5e100f5e100f5e100f5e100f5e100f5e100f140070789fa750939fa59c945079509295509495969591a4959410285092a9509150a39f9e97509c999b9550a49891a46f1400707950a7999c9c5e5e5e1028005050a39f9d95a4999d955e5e5e1400701c020151101e0050508795508378717c7c509d9595a450919791999e511405800308f415c900180335180002",
+      "references": [
+        {
+          "offset": "36751A",
+          "target": "367528",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367518",
+            "command_hex": "1b022875f600"
+          }
+        },
+        {
+          "offset": "367524",
+          "target": "367528",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367523",
+            "command_hex": "0a2875f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367766",
+      "end": "36779B",
+      "english": [
+        "@",
+        " attacked",
+        "  EVE!"
+      ],
+      "fr": [
+        "@",
+        " attaque",
+        "  EVE!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          17,
+          23
+        ]
+      ],
+      "original_hex": "011f0219701c0d5091a4a491939b959400505075867551031a0c2bedf70078001f024a101e1f024a101e1f024a101e1f0246101e02",
+      "references": [
+        {
+          "offset": "367701",
+          "target": "367766",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367700",
+            "command_hex": "086677f600"
+          }
+        },
+        {
+          "offset": "36775D",
+          "target": "367766",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36775C",
+            "command_hex": "086677f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36779B",
+      "end": "3677C4",
+      "english": [
+        "@",
+        " HP of damage",
+        "  to EVE!"
+      ],
+      "fr": [
+        "@",
+        " PV de dégâts",
+        "  sur EVE!"
+      ],
+      "spans": [
+        [
+          10,
+          11
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          30,
+          39
+        ]
+      ],
+      "original_hex": "011a0c39edf7001f022e7008c477f600507880509f965094919d919795005050a49f50758675510302",
+      "references": [
+        {
+          "offset": "367762",
+          "target": "36779B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367761",
+            "command_hex": "0a9b77f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3677E9",
+      "end": "36784B",
+      "english": [
+        "@",
+        " greeted everyone politely",
+        "  and left.",
+        "@",
+        "Don't know why, but ",
+        "'s exp increased."
+      ],
+      "fr": [
+        "@",
+        " salue poliment tout le monde",
+        "  et part.",
+        "@",
+        "Sans savoir pourquoi, ",
+        " gagne de l'expérience."
+      ],
+      "spans": [
+        [
+          7,
+          8
+        ],
+        [
+          13,
+          39
+        ],
+        [
+          40,
+          51
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          57,
+          77
+        ],
+        [
+          79,
+          96
+        ]
+      ],
+      "original_hex": "045d0404ad0301701f02191c0d5097a29595a495945095a695a2a99f9e9550a09f9c99a4959ca9005050919e94509c9596a45e0301701f0224749f9e57a4509b9e9fa750a798a95c5092a5a4501c0e57a35095a8a050999e93a29591a395945e0302",
+      "references": [
+        {
+          "offset": "3694E1",
+          "target": "3677E9",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3694DD",
+            "record_hex": "00010500e977f600caeef700"
+          }
+        },
+        {
+          "offset": "369331",
+          "target": "3677EC",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36932D",
+            "record_hex": "00010500ec77f600caeef700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36784B",
+      "end": "367863",
+      "english": [
+        "@",
+        " sang the song!"
+      ],
+      "fr": [
+        "@",
+        " chante la chanson!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          22
+        ]
+      ],
+      "original_hex": "011f021c701c0d50a3919e9750a4989550a39f9e97510302",
+      "references": [
+        {
+          "offset": "369199",
+          "target": "36784B",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369195",
+            "record_hex": "010005004b78f600e5ebf700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367863",
+      "end": "367887",
+      "english": [
+        "@",
+        " tried to",
+        "  clamp ",
+        " in place!"
+      ],
+      "fr": [
+        "@",
+        " essaie de",
+        "  bloquer ",
+        " sur place!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          14,
+          22
+        ],
+        [
+          24,
+          34
+        ]
+      ],
+      "original_hex": "01701c0d50a4a299959450a49f005050939c919da0501c0e50999e50a09c919395510302",
+      "references": [
+        {
+          "offset": "3691E1",
+          "target": "367863",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3691DD",
+            "record_hex": "000101006378f600b88cc200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367887",
+      "end": "3678BE",
+      "english": [
+        "@",
+        " took",
+        "  the ",
+        " out and",
+        "  ",
+        " used it."
+      ],
+      "fr": [
+        "@",
+        " sort",
+        "  ",
+        " et",
+        "  ",
+        " l'utilise."
+      ],
+      "spans": [
+        [
+          9,
+          10
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          27,
+          35
+        ],
+        [
+          37,
+          39
+        ],
+        [
+          41,
+          50
+        ]
+      ],
+      "original_hex": "011d201b03be78f600701c0d50a49f9f9b005050a49895501c0507509fa5a450919e94030050501c0e50a5a395945099a45e0ad678f600",
+      "references": [
+        {
+          "offset": "369181",
+          "target": "367887",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36917D",
+            "record_hex": "010104008778f6007bebf700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3678BE",
+      "end": "3678D6",
+      "english": [
+        "@",
+        " used",
+        "  the ",
+        "."
+      ],
+      "fr": [
+        "@",
+        " utilise",
+        "  ",
+        "."
+      ],
+      "spans": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          18,
+          19
+        ]
+      ],
+      "original_hex": "701c0d50a5a39594005050a49895501c05075e0ad678f600",
+      "references": [
+        {
+          "offset": "36788C",
+          "target": "3678BE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36788A",
+            "command_hex": "1b03be78f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3679E1",
+      "end": "367A28",
+      "english": [
+        "@",
+        " used the Bullhorn!",
+        "@<Your mother is calling for you.>"
+      ],
+      "fr": [
+        "@",
+        " utilise le mégaphone!",
+        "@<Ta mère t'appelle.>"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          26
+        ],
+        [
+          33,
+          67
+        ]
+      ],
+      "original_hex": "011f0219701c0d50a5a3959450a498955072a59c9c989fa29e51031f0254100500706c899fa5a2509d9fa49895a25099a35093919c9c999e9750969fa250a99fa55e6e03101e02",
+      "references": [
+        {
+          "offset": "369301",
+          "target": "3679E1",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3692FD",
+            "record_hex": "00010400e179f600bceff700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367A5B",
+      "end": "367A75",
+      "english": [
+        "@",
+        " used",
+        "  the ",
+        "!"
+      ],
+      "fr": [
+        "@",
+        " utilise",
+        "  ",
+        "!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          23,
+          24
+        ]
+      ],
+      "original_hex": "01701c0d191f1b0450a5a39594005050a49895501c0500510302",
+      "references": [
+        {
+          "offset": "36930D",
+          "target": "367A5B",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369309",
+            "record_hex": "010104005b7af6007db2c200"
+          }
+        },
+        {
+          "offset": "369445",
+          "target": "367A5B",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369441",
+            "record_hex": "000104005b7af6003aaef700"
+          }
+        },
+        {
+          "offset": "36945D",
+          "target": "367A5B",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369459",
+            "record_hex": "000105005b7af600b88cc200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367A75",
+      "end": "367A97",
+      "english": [
+        "@",
+        " let out a",
+        "  strange cry!"
+      ],
+      "fr": [
+        "@",
+        " pousse un",
+        "  cri étrange!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          18,
+          32
+        ]
+      ],
+      "original_hex": "011f0219701c0d509c95a4509fa5a45091005050a3a4a2919e97955093a2a9510302",
+      "references": [
+        {
+          "offset": "369469",
+          "target": "367A75",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369465",
+            "record_hex": "00010500757af600869ec200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367A97",
+      "end": "367ABA",
+      "english": [
+        "@",
+        " breathed",
+        "  fire!"
+      ],
+      "fr": [
+        "@",
+        " crache",
+        "  du feu!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          16
+        ],
+        [
+          17,
+          24
+        ]
+      ],
+      "original_hex": "011f0219701c0d5092a29591a49895940050509699a29551031c1324001f024b100102",
+      "references": [
+        {
+          "offset": "3694A5",
+          "target": "367A97",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3694A1",
+            "record_hex": "00040500977af600bd95c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367BBF",
+      "end": "367BEE",
+      "english": [
+        "@",
+        " activated",
+        "  a suspicious gadget!"
+      ],
+      "fr": [
+        "@",
+        " active",
+        "  un gadget suspect!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          18,
+          40
+        ]
+      ],
+      "original_hex": "011f0219701c0d509193a499a691a495940050509150a3a5a3a09993999fa5a3509791949795a4511f024d03100102",
+      "references": [
+        {
+          "offset": "36933D",
+          "target": "367BBF",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369339",
+            "record_hex": "00010200bf7bf6004087c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367BEE",
+      "end": "367C2B",
+      "english": [
+        "@",
+        " took",
+        "  the ",
+        " out and",
+        "@tied it to her hair."
+      ],
+      "fr": [
+        "@",
+        " sort",
+        "  ",
+        " puis",
+        "@l'attache à ses cheveux."
+      ],
+      "spans": [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          23,
+          31
+        ],
+        [
+          33,
+          54
+        ]
+      ],
+      "original_hex": "191f1b0401701c0d50a49f9f9b005050a49895501c0500509fa5a450919e94030070a49995945099a450a49f509895a250989199a25e1f024403100102",
+      "references": [
+        {
+          "offset": "3693F1",
+          "target": "367BEE",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3693ED",
+            "record_hex": "01000400ee7bf6007db2c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367C31",
+      "end": "367C6C",
+      "english": [
+        "@",
+        " took",
+        "  the ",
+        " out and",
+        "  ",
+        " used it."
+      ],
+      "fr": [
+        "@",
+        " sort",
+        "  ",
+        " et",
+        "  ",
+        " l'utilise."
+      ],
+      "spans": [
+        [
+          9,
+          10
+        ],
+        [
+          16,
+          21
+        ],
+        [
+          22,
+          28
+        ],
+        [
+          31,
+          39
+        ],
+        [
+          41,
+          43
+        ],
+        [
+          45,
+          54
+        ]
+      ],
+      "original_hex": "011d201b036c7cf600701c0d191f1b0450a49f9f9b005050a49895501c0500509fa5a450919e94030050501c0e50a5a395945099a45e0a837cf600",
+      "references": [
+        {
+          "offset": "369415",
+          "target": "367C31",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369411",
+            "record_hex": "01010400317cf6007db2c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367D04",
+      "end": "367D3B",
+      "english": [
+        "@",
+        " threw",
+        "  the ",
+        "!",
+        "@",
+        " became itchy all over!"
+      ],
+      "fr": [
+        "@",
+        " lance",
+        "  ",
+        "!",
+        "@",
+        " a des démangeaisons partout!"
+      ],
+      "spans": [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          27,
+          28
+        ],
+        [
+          30,
+          53
+        ]
+      ],
+      "original_hex": "191f1b0401701c0d50a498a295a7005050a49895501c0500510300701c0e50929593919d955099a49398a950919c9c509fa695a2510302",
+      "references": [
+        {
+          "offset": "369451",
+          "target": "367D04",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36944D",
+            "record_hex": "00010500047df600218fc200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367D3B",
+      "end": "367D5F",
+      "english": [
+        "@",
+        " used",
+        "  the Wicked seed!"
+      ],
+      "fr": [
+        "@",
+        " utilise",
+        "  la graine maléfique!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          13,
+          31
+        ]
+      ],
+      "original_hex": "011f0219701c0d50a5a39594005050a49895508799939b959450a395959451031f024402",
+      "references": [
+        {
+          "offset": "369481",
+          "target": "367D3B",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36947D",
+            "record_hex": "000105003b7df60056a0c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367D5F",
+      "end": "367D77",
+      "english": [
+        "@",
+        "'s last blow!!!"
+      ],
+      "fr": [
+        "@",
+        ": ultime coup!!!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          22
+        ]
+      ],
+      "original_hex": "011f021f701c0d57a3509c91a3a450929c9fa75151510302",
+      "references": [
+        {
+          "offset": "36942D",
+          "target": "367D5F",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369429",
+            "record_hex": "000102005f7df60020eff700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367D91",
+      "end": "367DDC",
+      "english": [
+        "@",
+        " took out a ",
+        " from the bag",
+        "@and ",
+        " ate it."
+      ],
+      "fr": [
+        "@",
+        " sort ",
+        " du sac",
+        "@et ",
+        " le mange."
+      ],
+      "spans": [
+        [
+          14,
+          15
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          32,
+          45
+        ],
+        [
+          55,
+          60
+        ],
+        [
+          62,
+          70
+        ]
+      ],
+      "original_hex": "01191f1b041925001b03ed7df600701c0d50a49f9f9b509fa5a45091501c05815096a29f9d50a498955092919703001d201b03dc7df60070919e94501c0e5091a4955099a45e0a327ef600",
+      "references": [
+        {
+          "offset": "36921D",
+          "target": "367D91",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369219",
+            "record_hex": "01010400917df600b9edf700"
+          }
+        },
+        {
+          "offset": "367E2E",
+          "target": "367DC8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367E2D",
+            "command_hex": "0ac87df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367DED",
+      "end": "367E32",
+      "english": [
+        "@",
+        " took out a ",
+        " from the bag,",
+        "  applied the ",
+        ","
+      ],
+      "fr": [
+        "@",
+        " sort ",
+        " du sac,",
+        "  applique ",
+        ","
+      ],
+      "spans": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          20,
+          34
+        ],
+        [
+          36,
+          50
+        ],
+        [
+          53,
+          54
+        ]
+      ],
+      "original_hex": "1b04701c0d50a49f9f9b509fa5a45091501c05815096a29f9d50a49895509291975c0300505091a0a09c99959450a49895501c05005c03001d201b03dc7df6000ac87df600",
+      "references": [
+        {
+          "offset": "367D9B",
+          "target": "367DED",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367D99",
+            "command_hex": "1b03ed7df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367E5B",
+      "end": "367E96",
+      "english": [
+        "@",
+        " took",
+        "  the ",
+        " out and",
+        "@",
+        " squeezed it."
+      ],
+      "fr": [
+        "@",
+        " sort",
+        "  ",
+        " et",
+        "@",
+        " le presse."
+      ],
+      "spans": [
+        [
+          13,
+          14
+        ],
+        [
+          16,
+          21
+        ],
+        [
+          22,
+          28
+        ],
+        [
+          31,
+          39
+        ],
+        [
+          41,
+          42
+        ],
+        [
+          44,
+          57
+        ]
+      ],
+      "original_hex": "01191f1b041d201b03967ef600701c0d50a49f9f9b005050a49895501c0500509fa5a450919e940300701c0e50a3a1a59595aa95945099a45e0302",
+      "references": [
+        {
+          "offset": "369229",
+          "target": "367E5B",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369225",
+            "record_hex": "010104005b7ef600f6edf700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367EEC",
+      "end": "367F07",
+      "english": [
+        "@",
+        " fired",
+        "  the ",
+        "."
+      ],
+      "fr": [
+        "@",
+        " tire avec",
+        "  ",
+        "."
+      ],
+      "spans": [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "original_hex": "191f1b0401701c0d509699a29594005050a49895501c05005e0302",
+      "references": [
+        {
+          "offset": "367ED9",
+          "target": "367EEC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367ED8",
+            "command_hex": "08ec7ef600"
+          }
+        },
+        {
+          "offset": "367EE3",
+          "target": "367EEC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367EE2",
+            "command_hex": "08ec7ef600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367F27",
+      "end": "367F4B",
+      "english": [
+        "@",
+        " used the ",
+        "!",
+        "@<I love you.>"
+      ],
+      "fr": [
+        "@",
+        " utilise ",
+        "!",
+        "@<Je t'aime.>"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          20,
+          34
+        ]
+      ],
+      "original_hex": "01701c0d50a5a3959450a49895501c058e510301706c79509c9fa69550a99fa55e6e0302",
+      "references": [
+        {
+          "offset": "369475",
+          "target": "367F27",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369471",
+            "record_hex": "00000400277ff6009b88c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367F4B",
+      "end": "367F72",
+      "english": [
+        "@",
+        " used the ",
+        "!",
+        "@<I hate you!>"
+      ],
+      "fr": [
+        "@",
+        " utilise ",
+        "!",
+        "@<Je te déteste!>"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          20,
+          34
+        ]
+      ],
+      "original_hex": "01701c0d50a5a3959450a49895501c0598510301706c79509891a49550a99fa5516e1f02540302",
+      "references": [
+        {
+          "offset": "368A25",
+          "target": "367F4B",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368A21",
+            "record_hex": "000004004b7ff6009b88c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367F72",
+      "end": "367F9F",
+      "english": [
+        "@",
+        " is wondering what she should do today."
+      ],
+      "fr": [
+        "@",
+        " se demande quoi faire aujourd'hui."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          43
+        ]
+      ],
+      "original_hex": "01701c0d5099a350a79f9e9495a2999e9750a79891a450a3989550a3989fa59c9450949f50a49f9491a95e0302",
+      "references": [
+        {
+          "offset": "3694B1",
+          "target": "367F72",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3694AD",
+            "record_hex": "01000500727ff6009b88c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367F9F",
+      "end": "367FE1",
+      "english": [
+        "@",
+        " unleashed",
+        "  a deadly wave of fire!"
+      ],
+      "fr": [
+        "@",
+        " déchaîne",
+        "  une vague de flammes mortelle!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          15,
+          39
+        ]
+      ],
+      "original_hex": "01701c0d50a59e9c9591a39895940050509150949591949ca950a791a695509f96509699a295511f02331c130009101c1f023510181f02341c132400102303100102",
+      "references": [
+        {
+          "offset": "3694BD",
+          "target": "367F9F",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3694B9",
+            "record_hex": "000305009f7ff6006eeef700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "367FE1",
+      "end": "368024",
+      "english": [
+        "@The score was so bad,",
+        "  ",
+        " had to take a second to process it."
+      ],
+      "fr": [
+        "@Le résultat est si mauvais que",
+        "  ",
+        " met un moment à le comprendre."
+      ],
+      "spans": [
+        [
+          1,
+          23
+        ],
+        [
+          25,
+          27
+        ],
+        [
+          29,
+          65
+        ]
+      ],
+      "original_hex": "017084989550a3939fa29550a791a350a39f509291945c030050501c0e5098919450a49f50a4919b95509150a395939f9e9450a49f50a0a29f9395a3a35099a45e0302",
+      "references": [
+        {
+          "offset": "369505",
+          "target": "367FE1",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369501",
+            "record_hex": "00020400e17ff600f18cc200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "368024",
+      "end": "36804C",
+      "english": [
+        "@",
+        " was",
+        "  lost in thought..."
+      ],
+      "fr": [
+        "@",
+        " est",
+        "  en pleine réflexion..."
+      ],
+      "spans": [
+        [
+          10,
+          11
+        ],
+        [
+          13,
+          17
+        ],
+        [
+          18,
+          38
+        ]
+      ],
+      "original_hex": "1d210109014c80f60001701c0d50a791a30050509c9fa3a450999e50a4989fa59798a45e5e5e0302",
+      "references": [
+        {
+          "offset": "3694C9",
+          "target": "368024",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3694C5",
+            "record_hex": "010005002480f6009b88c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36804C",
+      "end": "368065",
+      "english": [
+        "@",
+        " was daydreaming..."
+      ],
+      "fr": [
+        "@",
+        " rêve tout éveillé..."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          23
+        ]
+      ],
+      "original_hex": "01701c0d50a791a3509491a994a295919d999e975e5e5e0302",
+      "references": [
+        {
+          "offset": "368029",
+          "target": "36804C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "368027",
+            "command_hex": "09014c80f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "368065",
+      "end": "368087",
+      "english": [
+        "@",
+        " did",
+        "  something strange."
+      ],
+      "fr": [
+        "@",
+        " fait",
+        "  quelque chose de bizarre."
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          12,
+          32
+        ]
+      ],
+      "original_hex": "011f0219701c0d50949994005050a39f9d95a498999e9750a3a4a2919e97955e0302",
+      "references": [
+        {
+          "offset": "3694D5",
+          "target": "368065",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3694D1",
+            "record_hex": "000105006580f6000df0f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36812D",
+      "end": "368164",
+      "english": [
+        "@",
+        " lifted",
+        "  ",
+        " above her head",
+        "  and threw them!"
+      ],
+      "fr": [
+        "@",
+        " soulève",
+        "  ",
+        " au-dessus de sa tête",
+        "  puis projette sa cible!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          19,
+          34
+        ],
+        [
+          36,
+          53
+        ]
+      ],
+      "original_hex": "011f0219701c0d509c9996a495940050501c0e5091929fa695509895a2509895919403005050919e9450a498a295a750a498959d510302",
+      "references": [
+        {
+          "offset": "369529",
+          "target": "36812D",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369525",
+            "record_hex": "000102002d81f6009f85c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "368164",
+      "end": "36818B",
+      "english": [
+        "@",
+        " spit out a sticky mucus!"
+      ],
+      "fr": [
+        "@",
+        " crache un mucus collant!"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          32
+        ]
+      ],
+      "original_hex": "011f0219701c0d50a3a099a4509fa5a4509150a3a499939ba9509da593a5a3511f025103100102",
+      "references": [
+        {
+          "offset": "2F9CF2",
+          "target": "368164",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F9CF1",
+            "command_hex": "0a6481f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36818B",
+      "end": "3681AB",
+      "english": [
+        "@",
+        " flashed a menacing smile."
+      ],
+      "fr": [
+        "@",
+        " affiche un sourire menaçant."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          30
+        ]
+      ],
+      "original_hex": "01701c0d50969c91a39895945091509d959e9193999e9750a39d999c955e0302",
+      "references": [
+        {
+          "offset": "369535",
+          "target": "36818B",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369531",
+            "record_hex": "010105008b81f600cdf0f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3681AB",
+      "end": "3681C8",
+      "english": [
+        "@",
+        " tried to get away,"
+      ],
+      "fr": [
+        "@",
+        " tente de s'enfuir,"
+      ],
+      "spans": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          26
+        ]
+      ],
+      "original_hex": "011f0219701c0d50a4a299959450a49f509795a45091a791a95c103c02",
+      "references": [
+        {
+          "offset": "3691F9",
+          "target": "3681AB",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3691F5",
+            "record_hex": "01000500ab81f60060eff700"
+          }
+        }
+      ]
+    }
+  ]
+}

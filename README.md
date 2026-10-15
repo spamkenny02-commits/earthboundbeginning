@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V39 (traduction partielle)
+## Version actuelle : V40 (traduction partielle)
+
+V40 traduit **156 fragments nouveaux dans 80 scripts** : messages de combat, états, utilisation d'objets et répliques de Giygas. Les 11 raccords grammaticaux retirés et les 103 fragments neutres conservés ne sont pas ajoutés à ce compteur. Les menus restent pour une passe ultérieure.
+
+- [Patch V40 avec accents](patches/EarthBound_Beginnings_FR_v40_accents.ips)
+- [Patch V40 ASCII](patches/EarthBound_Beginnings_FR_v40_ascii.ips)
+- [Rapport V40](RAPPORT_V40.md)
+- [Traductions, constructeur et tests](tools/v40/README_V40.md)
+- [Régression Snes9x et limites](tests/emulation_v40/RAPPORT_EMULATION_V40.md)
+
+Appliquer **un seul IPS V40 directement à la ROM originale USA 1.2**. 109 tests locaux réussis, références et anciens IPS préservés, parcours Snes9x conforme dans les deux profils. Les nouveaux textes dans leurs scènes réelles restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V39 (traduction partielle)
 
 V39 traduit **22 descriptions d'objets**, soit **32 fragments réellement nouveaux** : armes, protections, tickets et soins. Les 44 références de table et d'affichage sont raccordées aux copies françaises ; les scripts sources et les modifications V38 restent intacts.
 
