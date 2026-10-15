@@ -1,0 +1,104 @@
+{
+  "method": "normal_menu_use_of_naturally_owned_bank_card",
+  "rom_modified_for_probe": false,
+  "wram_modified_for_probe": false,
+  "profiles": {
+    "accents": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "1e42ffc68e5d6ad6cbc058d05589cddeac5199c85b444564f1ff27073d7f9243",
+        "save_ram_size": 8192
+      },
+      "returncode": 0,
+      "captures": [
+        {
+          "path": "use_card_1.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b156bff1aa7ce4eb19720c35ed09b6ffdcb8c33758fb7e7f5feba3d496f7a2de"
+        },
+        {
+          "path": "use_card_2.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+        },
+        {
+          "path": "use_card_3.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "a813b69b8414014965332c734220bbcd658aceb21a43bae68359eb70aac20a08"
+        },
+        {
+          "path": "use_card_4.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c9dbbdf9fc2d8af219011d127a03bce6dbaddfa67f2b868cc06da6da2cc18737"
+        },
+        {
+          "path": "use_card_5.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+        },
+        {
+          "path": "use_card_6.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "a813b69b8414014965332c734220bbcd658aceb21a43bae68359eb70aac20a08"
+        }
+      ]
+    },
+    "ascii": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "8fc0c8800918a2dd8ec4baa05e806641b73986e1ca58ce472b721ff9d8cb9967",
+        "save_ram_size": 8192
+      },
+      "returncode": 0,
+      "captures": [
+        {
+          "path": "use_card_1.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "9a10a39251012e8846d7706a3ea25bfe69fb99e16eecf1aebfaa396414ade306"
+        },
+        {
+          "path": "use_card_2.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+        },
+        {
+          "path": "use_card_3.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "cfc1b2f553dd39cef975d9709c3209392e3f9df9e91f0b016149c63617fa9767"
+        },
+        {
+          "path": "use_card_4.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "e89d1fd8eee2edecea43d355fbfc9da00b140a1f906acaf21ec0569d4028706c"
+        },
+        {
+          "path": "use_card_5.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9"
+        },
+        {
+          "path": "use_card_6.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "cfc1b2f553dd39cef975d9709c3209392e3f9df9e91f0b016149c63617fa9767"
+        }
+      ]
+    }
+  },
+  "observed_result": "Original English bank-card usage message; no new V41 script display validated."
+}

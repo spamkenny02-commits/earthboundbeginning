@@ -1,0 +1,5562 @@
+{
+  "version": "v41",
+  "base": "v40",
+  "scripts": [
+    {
+      "id": "33DAD6",
+      "end": "33DB1C",
+      "english": [
+        "@There is a ",
+        " on the ground.",
+        "@But you can't carry any more."
+      ],
+      "fr": [
+        "@Il y a ",
+        " par terre.",
+        "@Mais tu ne peux plus rien porter."
+      ],
+      "spans": [
+        [
+          0,
+          12
+        ],
+        [
+          15,
+          30
+        ],
+        [
+          38,
+          68
+        ]
+      ],
+      "original_hex": "70849895a2955099a35091501c05f0509f9e50a498955097a29fa59e945e03001f02051014017072a5a450a99fa55093919e57a4509391a2a2a950919ea9509d9fa2955e1302",
+      "references": [
+        {
+          "offset": "33D99D",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33D99B",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33D9B6",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33D9B4",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33D9CF",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33D9CD",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33D9E8",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33D9E6",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33DA01",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33D9FF",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33DA1A",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DA18",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33DA33",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DA31",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33DA4C",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DA4A",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33DA65",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DA63",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33DA7E",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DA7C",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33DA97",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DA95",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33DAB0",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DAAE",
+            "command_hex": "1b02d6daf300"
+          }
+        },
+        {
+          "offset": "33DAC9",
+          "target": "33DAD6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DAC7",
+            "command_hex": "1b02d6daf300"
+          }
+        }
+      ]
+    },
+    {
+      "id": "33DB7D",
+      "end": "33DBA3",
+      "english": [
+        "@But you can't carry any more."
+      ],
+      "fr": [
+        "@Mais tu ne peux plus rien porter."
+      ],
+      "spans": [
+        [
+          6,
+          36
+        ]
+      ],
+      "original_hex": "1f02051014017072a5a450a99fa55093919e57a4509391a2a2a950919ea9509d9fa2955e1302",
+      "references": [
+        {
+          "offset": "33DB4C",
+          "target": "33DB7D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DB4A",
+            "command_hex": "1b027ddbf300"
+          }
+        },
+        {
+          "offset": "33DB67",
+          "target": "33DB7D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33DB65",
+            "command_hex": "1b027ddbf300"
+          }
+        }
+      ]
+    },
+    {
+      "id": "33F22E",
+      "end": "33F276",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1509001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c07021112090276f2f30071f2f3000a98f3f300",
+      "references": [
+        {
+          "offset": "33F18F",
+          "target": "33F22E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F18D",
+            "command_hex": "09042ef2f3009df2f300bff1f3000cf3f300"
+          }
+        },
+        {
+          "offset": "33F26D",
+          "target": "33F271",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F267",
+            "command_hex": "090276f2f30071f2f300"
+          }
+        }
+      ]
+    },
+    {
+      "id": "33F398",
+      "end": "33F3B6",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " c'est dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "references": [
+        {
+          "offset": "33F1A0",
+          "target": "33F398",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F19F",
+            "command_hex": "0a98f3f300"
+          }
+        },
+        {
+          "offset": "33F203",
+          "target": "33F398",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F202",
+            "command_hex": "0a98f3f300"
+          }
+        },
+        {
+          "offset": "33F272",
+          "target": "33F398",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F271",
+            "command_hex": "0a98f3f300"
+          }
+        },
+        {
+          "offset": "33F2E1",
+          "target": "33F398",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F2E0",
+            "command_hex": "0a98f3f300"
+          }
+        },
+        {
+          "offset": "33F350",
+          "target": "33F398",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F34F",
+            "command_hex": "0a98f3f300"
+          }
+        }
+      ]
+    },
+    {
+      "id": "33FB78",
+      "end": "33FBA1",
+      "english": [
+        "@Oh my, you have too many things!"
+      ],
+      "fr": [
+        "@Oh là là, tu portes trop de choses!"
+      ],
+      "spans": [
+        [
+          6,
+          39
+        ]
+      ],
+      "original_hex": "1f0205101401707f98509da95c50a99fa5509891a69550a49f9f509d919ea950a498999e97a3511302",
+      "references": [
+        {
+          "offset": "33FB52",
+          "target": "33FB78",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33FB50",
+            "command_hex": "1b0278fbf300"
+          }
+        }
+      ]
+    },
+    {
+      "id": "347AA5",
+      "end": "347AC5",
+      "english": [
+        "@",
+        " said these words aloud:"
+      ],
+      "fr": [
+        "@",
+        " prononce ces mots à voix haute:"
+      ],
+      "spans": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          27
+        ]
+      ],
+      "original_hex": "701c0d50a391999450a49895a39550a79fa294a350919c9fa5946a0ac57af400",
+      "references": [
+        {
+          "offset": "347A49",
+          "target": "347AA5",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "347A46",
+            "command_hex": "062803a57af400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34808D",
+      "end": "3480B3",
+      "english": [
+        "@But you can't carry any more."
+      ],
+      "fr": [
+        "@Mais tu ne peux plus rien porter."
+      ],
+      "spans": [
+        [
+          6,
+          36
+        ]
+      ],
+      "original_hex": "1f02051014017072a5a450a99fa55093919e57a4509391a2a2a950919ea9509d9fa2955e1302",
+      "references": [
+        {
+          "offset": "348077",
+          "target": "34808D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "348075",
+            "command_hex": "1b028d80f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "348F0D",
+      "end": "348F49",
+      "english": [
+        "@If you can't carry it,",
+        " come back some other time."
+      ],
+      "fr": [
+        "@Si tu ne peux pas le porter,",
+        " reviens plus tard."
+      ],
+      "spans": [
+        [
+          6,
+          29
+        ],
+        [
+          31,
+          58
+        ]
+      ],
+      "original_hex": "1f020510140170799650a99fa55093919e57a4509391a2a2a95099a45c100f50939f9d95509291939b50a39f9d95509fa49895a250a4999d955e1302",
+      "references": [
+        {
+          "offset": "348EE0",
+          "target": "348F0D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "348EDE",
+            "command_hex": "1b020d8ff400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "349193",
+      "end": "3491E6",
+      "english": [
+        "@In that case, could I borrow your ",
+        " for a while?",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Dans ce cas, puis-je emprunter ",
+        " un moment?",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          0,
+          35
+        ],
+        [
+          38,
+          51
+        ],
+        [
+          54,
+          57
+        ],
+        [
+          60,
+          62
+        ]
+      ],
+      "original_hex": "70799e50a49891a4509391a3955c50939fa59c94507950929fa2a29fa750a99fa5a2501c05b150969fa2509150a798999c956f0019028995a30219027e9f021c070211120902e691f400a292f4000aa292f400",
+      "references": [
+        {
+          "offset": "349186",
+          "target": "349193",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349184",
+            "command_hex": "09029391f400f992f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3494B5",
+      "end": "3494F2",
+      "english": [
+        "@You've come for the ",
+        ", right?",
+        "@My gift to you."
+      ],
+      "fr": [
+        "@Tu viens chercher ",
+        ", c'est ça?",
+        "@C'est mon cadeau pour toi."
+      ],
+      "spans": [
+        [
+          0,
+          21
+        ],
+        [
+          24,
+          32
+        ],
+        [
+          34,
+          50
+        ]
+      ],
+      "original_hex": "70899fa557a69550939f9d9550969fa250a49895501c05ed5c50a2999798a46f0300707da950979996a450a49f50a99fa55e13081d95f4000a1b95f400",
+      "references": [
+        {
+          "offset": "349355",
+          "target": "3494B5",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349353",
+            "command_hex": "1b02b594f400"
+          }
+        },
+        {
+          "offset": "3494B1",
+          "target": "3494ED",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3494B0",
+            "command_hex": "0aed94f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34999B",
+      "end": "349A0A",
+      "english": [
+        "@Ok,",
+        " I've got it!",
+        "  From now on, you're Noodlenoggin ",
+        ".",
+        "@It has a pretty cool feeling to it."
+      ],
+      "fr": [
+        "@D'accord,",
+        " j'ai trouvé!",
+        "  Désormais, tu seras Tête-de-nouille ",
+        ".",
+        "@Ça sonne plutôt bien."
+      ],
+      "spans": [
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          21,
+          56
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          67,
+          103
+        ]
+      ],
+      "original_hex": "707f9b5c100a507957a69550979fa45099a451100f505076a29f9d509e9fa7509f9e5c50a99fa557a295507e9f9f949c959e9f9797999e501910011b041c02005e03007079a4509891a3509150a0a295a4a4a950939f9f9c509695959c999e9750a49f5099a45e0482030a2c9af400",
+      "references": [
+        {
+          "offset": "34998E",
+          "target": "34999B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34998C",
+            "command_hex": "09029b99f4000a9af400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "349B23",
+      "end": "349B5A",
+      "english": [
+        "@Really?",
+        "  Unhappiness CAN walk?",
+        "@I had no idea."
+      ],
+      "fr": [
+        "@Vraiment?",
+        "  Le malheur PEUT marcher?",
+        "@Je ne le savais pas."
+      ],
+      "spans": [
+        [
+          0,
+          8
+        ],
+        [
+          10,
+          33
+        ],
+        [
+          35,
+          50
+        ]
+      ],
+      "original_hex": "708295919c9ca96f100f5050859e9891a0a0999e95a3a35073717e50a7919c9b6f0300707950989194509e9f50999495915e0a5a9bf400",
+      "references": [
+        {
+          "offset": "349AB7",
+          "target": "349B23",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349AB1",
+            "command_hex": "0902c09af400239bf400"
+          }
+        },
+        {
+          "offset": "349ABC",
+          "target": "349B23",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349ABB",
+            "command_hex": "0a239bf400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "349C61",
+      "end": "349CAB",
+      "english": [
+        "@Well, you're fine once again."
+      ],
+      "fr": [
+        "@Voilà, tu es de nouveau en forme."
+      ],
+      "spans": [
+        [
+          42,
+          72
+        ]
+      ],
+      "original_hex": "1910011b0019050001011b0119050002011b0119050006011b010d001e0000641e0400641f02251032017087959c9c5c50a99fa557a2955096999e95509f9e939550919791999e5e1302",
+      "references": [
+        {
+          "offset": "349C3F",
+          "target": "349C61",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349C3D",
+            "command_hex": "1b03619cf400"
+          }
+        },
+        {
+          "offset": "349C5D",
+          "target": "349C64",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349C5C",
+            "command_hex": "0a649cf400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "349CAB",
+      "end": "349CDD",
+      "english": [
+        "@You really don't need treatment?",
+        "  Oh, well..."
+      ],
+      "fr": [
+        "@Tu n'as vraiment pas besoin de soins?",
+        "  Bon, tant pis..."
+      ],
+      "spans": [
+        [
+          1,
+          34
+        ],
+        [
+          35,
+          48
+        ]
+      ],
+      "original_hex": "0170899fa550a295919c9ca950949f9e57a4509e95959450a4a29591a49d959ea46f0050507f985c50a7959c9c5e5e5e1302",
+      "references": [
+        {
+          "offset": "349C58",
+          "target": "349CAB",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349C56",
+            "command_hex": "1b02ab9cf400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "349D99",
+      "end": "349E02",
+      "english": [
+        "@Yes, it's ",
+        "!",
+        "@Somehow, I just knew you liked ",
+        "!",
+        "@Do you want some?",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Oui, c'est ",
+        "!",
+        "@Je me doutais bien que tu aimais ",
+        "!",
+        "@Tu en veux?",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          0,
+          11
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          17,
+          49
+        ],
+        [
+          52,
+          53
+        ],
+        [
+          55,
+          73
+        ],
+        [
+          76,
+          79
+        ],
+        [
+          82,
+          84
+        ]
+      ],
+      "original_hex": "708995a35c5099a457a3501c010451030070839f9d95989fa75c5079509aa5a3a4509b9e95a750a99fa5509c999b9594501c010451030070749f50a99fa550a7919ea450a39f9d956f0019028995a30219027e9f021c070211120902029ef400779ef4000a779ef400",
+      "references": [
+        {
+          "offset": "349D8C",
+          "target": "349D99",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349D8A",
+            "command_hex": "0902999df4008d9ef400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34A6C0",
+      "end": "34A6EA",
+      "english": [
+        "@You can't carry it? What a shame!"
+      ],
+      "fr": [
+        "@Tu ne peux pas le porter? Dommage!"
+      ],
+      "spans": [
+        [
+          6,
+          40
+        ]
+      ],
+      "original_hex": "1f020510140170899fa55093919e57a4509391a2a2a95099a46f50879891a4509150a398919d95511302",
+      "references": [
+        {
+          "offset": "34A69C",
+          "target": "34A6C0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34A69A",
+            "command_hex": "1b02c0a6f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34A9D4",
+      "end": "34AA05",
+      "english": [
+        "@Oh... ",
+        "You're carrying too many things."
+      ],
+      "fr": [
+        "@Oh... ",
+        "Tu portes trop de choses."
+      ],
+      "spans": [
+        [
+          6,
+          13
+        ],
+        [
+          15,
+          47
+        ]
+      ],
+      "original_hex": "1f0205101401707f985e5e5e50100f899fa557a295509391a2a2a9999e9750a49f9f509d919ea950a498999e97a35e1302",
+      "references": [
+        {
+          "offset": "34A981",
+          "target": "34A9D4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34A97F",
+            "command_hex": "1b02d4a9f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34B0F7",
+      "end": "34B16F",
+      "english": [
+        "@I am Flying Man.",
+        "  I will stand beside you.",
+        "  It is what I was born to do."
+      ],
+      "fr": [
+        "@Je suis l'Homme volant.",
+        "  Je me battrai à tes côtés.",
+        "  C'est ma raison d'être."
+      ],
+      "spans": [
+        [
+          35,
+          52
+        ],
+        [
+          55,
+          81
+        ],
+        [
+          84,
+          114
+        ]
+      ],
+      "original_hex": "06cc006fb1f40006cd006fb1f40006ce006fb1f40006cf006fb1f40006d0006fb1f400707950919d50769ca9999e97507d919e5e100f0050507950a7999c9c50a3a4919e94509295a399949550a99fa55e100f00505079a45099a350a79891a4507950a791a350929fa29e50a49f50949f5e030a21b2f400",
+      "references": [
+        {
+          "offset": "34B0D5",
+          "target": "34B0F7",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B0D3",
+            "command_hex": "1b02f7b0f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34B603",
+      "end": "34B635",
+      "english": [
+        "@I don't think you have anything to store."
+      ],
+      "fr": [
+        "@Tu n'as rien à déposer, il me semble."
+      ],
+      "spans": [
+        [
+          1,
+          43
+        ]
+      ],
+      "original_hex": "01707950949f9e57a450a498999e9b50a99fa5509891a69550919ea9a498999e9750a49f50a3a49fa2955e03000a35b6f400",
+      "references": [
+        {
+          "offset": "34B51E",
+          "target": "34B603",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B51C",
+            "command_hex": "1b0203b6f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34B65E",
+      "end": "34B686",
+      "english": [
+        "@I'm sorry.",
+        "  My locker is full."
+      ],
+      "fr": [
+        "@Désolé.",
+        "  Mon casier est plein."
+      ],
+      "spans": [
+        [
+          1,
+          12
+        ],
+        [
+          13,
+          33
+        ]
+      ],
+      "original_hex": "017079579d50a39fa2a2a95e0050507da9509c9f939b95a25099a35096a59c9c5e03000a35b6f400",
+      "references": [
+        {
+          "offset": "34B52F",
+          "target": "34B65E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B52D",
+            "command_hex": "1b035eb6f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34B686",
+      "end": "34B6B5",
+      "english": [
+        "@I don't have any of your items stored."
+      ],
+      "fr": [
+        "@Je ne garde aucun objet à toi."
+      ],
+      "spans": [
+        [
+          1,
+          40
+        ]
+      ],
+      "original_hex": "01707950949f9e57a4509891a69550919ea9509f9650a99fa5a25099a4959da350a3a49fa295945e03000a35b6f400",
+      "references": [
+        {
+          "offset": "34B715",
+          "target": "34B686",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B713",
+            "command_hex": "1b0286b6f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34B70F",
+      "end": "34B749",
+      "english": [
+        "@What would you like",
+        "  returned?"
+      ],
+      "fr": [
+        "@Que veux-tu",
+        "  récupérer?"
+      ],
+      "spans": [
+        [
+          19,
+          39
+        ],
+        [
+          40,
+          51
+        ]
+      ],
+      "original_hex": "0e0119141b0286b6f4001d03ff1b02d6b6f40070879891a450a79fa59c9450a99fa5509c999b95005050a295a4a5a29e95946f03000a49b7f400",
+      "references": [
+        {
+          "offset": "34B4E7",
+          "target": "34B70F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B4E1",
+            "command_hex": "090217b5f4000fb7f400"
+          }
+        },
+        {
+          "offset": "34B50E",
+          "target": "34B70F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B508",
+            "command_hex": "090217b5f4000fb7f400"
+          }
+        },
+        {
+          "offset": "34B7DF",
+          "target": "34B70F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B7DD",
+            "command_hex": "09020fb7f40035b6f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "34B749",
+      "end": "34B7EC",
+      "english": [
+        "@",
+        "?",
+        "  Take good care of it.",
+        "@Is there anything else you wish returned?",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@",
+        "?",
+        "  Prends-en bien soin.",
+        "@Veux-tu récupérer autre chose?",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          53,
+          54
+        ],
+        [
+          62,
+          63
+        ],
+        [
+          64,
+          87
+        ],
+        [
+          89,
+          131
+        ],
+        [
+          134,
+          137
+        ],
+        [
+          140,
+          142
+        ]
+      ],
+      "original_hex": "1c0418021a07011b02ecb7f4001b041b001802084ae5c5001b02f9b7f4001b0518030d18001803351b061f02741d13000019190000700887b5f8001c05006f00505084919b9550979f9f94509391a295509f965099a45e03007079a350a49895a29550919ea9a498999e9750959ca39550a99fa550a799a39850a295a4a5a29e95946f0019028995a30219027e9f021c0702111209020fb7f40035b6f4000a35b6f400",
+      "references": [
+        {
+          "offset": "34B745",
+          "target": "34B749",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B744",
+            "command_hex": "0a49b7f400"
+          }
+        },
+        {
+          "offset": "34B7FE",
+          "target": "34B749",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B7FD",
+            "command_hex": "0a49b7f400"
+          }
+        }
+      ]
+    },
+    {
+      "id": "351520",
+      "end": "351543",
+      "english": [
+        "@You can't carry it, kiddo!"
+      ],
+      "fr": [
+        "@Tu ne peux pas le porter, petit!"
+      ],
+      "spans": [
+        [
+          6,
+          33
+        ]
+      ],
+      "original_hex": "1f020510140170899fa55093919e57a4509391a2a2a95099a45c509b9994949f511302",
+      "references": [
+        {
+          "offset": "3514FF",
+          "target": "351520",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3514FD",
+            "command_hex": "1b022015f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "351D12",
+      "end": "351D81",
+      "english": [
+        "@Wait a minute...",
+        "  You can't carry it,",
+        "  so you can't have it!",
+        "@Boo",
+        " hoo",
+        " hoo.",
+        "@Ha,",
+        " ha,",
+        " ha..."
+      ],
+      "fr": [
+        "@Une minute...",
+        "  Tu ne peux pas le porter,",
+        "  donc tu ne peux pas l'avoir!",
+        "@Boo",
+        " hoo",
+        " hoo.",
+        "@Ha,",
+        " ha,",
+        " ha..."
+      ],
+      "spans": [
+        [
+          6,
+          23
+        ],
+        [
+          26,
+          47
+        ],
+        [
+          48,
+          71
+        ],
+        [
+          73,
+          77
+        ],
+        [
+          79,
+          83
+        ],
+        [
+          85,
+          90
+        ],
+        [
+          91,
+          95
+        ],
+        [
+          97,
+          101
+        ],
+        [
+          103,
+          109
+        ]
+      ],
+      "original_hex": "1f020510140170879199a45091509d999ea5a4955e5e5e100f005050899fa55093919e57a4509391a2a2a95099a45c005050a39f50a99fa55093919e57a4509891a6955099a451030070729f9f100f50989f9f100f50989f9f5e007078915c100f5098915c100f5098915e5e5e1302",
+      "references": [
+        {
+          "offset": "167B55",
+          "target": "351D12",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "167B53",
+            "command_hex": "1b02121df500"
+          }
+        },
+        {
+          "offset": "167B91",
+          "target": "351D12",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "167B8F",
+            "command_hex": "1b02121df500"
+          }
+        },
+        {
+          "offset": "167BD5",
+          "target": "351D12",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "167BD3",
+            "command_hex": "1b02121df500"
+          }
+        },
+        {
+          "offset": "167C0D",
+          "target": "351D12",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "167C0B",
+            "command_hex": "1b02121df500"
+          }
+        },
+        {
+          "offset": "351BCB",
+          "target": "351D12",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "351BC9",
+            "command_hex": "1b02121df500"
+          }
+        },
+        {
+          "offset": "351C09",
+          "target": "351D12",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "351C07",
+            "command_hex": "1b02121df500"
+          }
+        },
+        {
+          "offset": "351C47",
+          "target": "351D12",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "351C45",
+            "command_hex": "1b02121df500"
+          }
+        },
+        {
+          "offset": "351C81",
+          "target": "351D12",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "351C7F",
+            "command_hex": "1b02121df500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "352B30",
+      "end": "352B6C",
+      "english": [
+        "@If you can't carry it,",
+        " come back some other time."
+      ],
+      "fr": [
+        "@Si tu ne peux pas le porter,",
+        " reviens plus tard."
+      ],
+      "spans": [
+        [
+          6,
+          29
+        ],
+        [
+          31,
+          58
+        ]
+      ],
+      "original_hex": "1f020510140170799650a99fa55093919e57a4509391a2a2a95099a45c100f50939f9d95509291939b50a39f9d95509fa49895a250a4999d955e1302",
+      "references": [
+        {
+          "offset": "352B03",
+          "target": "352B30",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "352B01",
+            "command_hex": "1b02302bf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35370D",
+      "end": "353758",
+      "english": [
+        "@Oh, you're holding too many things... ",
+        "Please empty your pockets."
+      ],
+      "fr": [
+        "@Oh, tu portes trop de choses... ",
+        "Vide donc tes poches."
+      ],
+      "spans": [
+        [
+          6,
+          45
+        ],
+        [
+          47,
+          73
+        ]
+      ],
+      "original_hex": "1f0205101401707f985c50a99fa557a29550989f9c94999e9750a49f9f509d919ea950a498999e97a35e5e5e50100f809c9591a39550959da0a4a950a99fa5a250a09f939b95a4a35e1302",
+      "references": [
+        {
+          "offset": "3536E1",
+          "target": "35370D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3536DF",
+            "command_hex": "1b020d37f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "354EC6",
+      "end": "354EF0",
+      "english": [
+        "@Oh,",
+        " you don't have enough money."
+      ],
+      "fr": [
+        "@Oh,",
+        " tu n'as pas assez d'argent."
+      ],
+      "spans": [
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          35
+        ]
+      ],
+      "original_hex": "707f985c100f50a99fa550949f9e57a4509891a69550959e9fa59798509d9f9e95a95e03000a4b4ef500",
+      "references": [
+        {
+          "offset": "354DF9",
+          "target": "354EC6",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "354DF7",
+            "command_hex": "1b02c64ef500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3550CE",
+      "end": "355100",
+      "english": [
+        "@Oh?",
+        " You seem to have too much to carry."
+      ],
+      "fr": [
+        "@Oh?",
+        " Tu sembles porter trop de choses."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          48
+        ]
+      ],
+      "original_hex": "1f0205101401707f986f100f50899fa550a395959d50a49f509891a69550a49f9f509da5939850a49f509391a2a2a95e1302",
+      "references": [
+        {
+          "offset": "354E0F",
+          "target": "3550CE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "354E0D",
+            "command_hex": "1b02ce50f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "355215",
+      "end": "355249",
+      "english": [
+        "@But you're carrying too much stuff already."
+      ],
+      "fr": [
+        "@Mais tu portes déjà trop de choses."
+      ],
+      "spans": [
+        [
+          6,
+          50
+        ]
+      ],
+      "original_hex": "1f02051014017072a5a450a99fa557a295509391a2a2a9999e9750a49f9f509da5939850a3a4a5969650919ca2959194a95e1302",
+      "references": [
+        {
+          "offset": "3551CE",
+          "target": "355215",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3551CC",
+            "command_hex": "1b021552f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35564C",
+      "end": "355694",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1510001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209029456f5008f56f5000a2558f500",
+      "references": [
+        {
+          "offset": "35561A",
+          "target": "35564C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "355618",
+            "command_hex": "09044c56f500bb56f5002a57f5009957f500"
+          }
+        },
+        {
+          "offset": "35568B",
+          "target": "35568F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "355685",
+            "command_hex": "09029456f5008f56f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3556BB",
+      "end": "355703",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1519001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209020357f500fe56f5000a2558f500",
+      "references": [
+        {
+          "offset": "35561E",
+          "target": "3556BB",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "355618",
+            "command_hex": "09044c56f500bb56f5002a57f5009957f500"
+          }
+        },
+        {
+          "offset": "3556FA",
+          "target": "3556FE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3556F4",
+            "command_hex": "09020357f500fe56f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35572A",
+      "end": "355772",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1524001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209027257f5006d57f5000a2558f500",
+      "references": [
+        {
+          "offset": "355622",
+          "target": "35572A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "355618",
+            "command_hex": "09044c56f500bb56f5002a57f5009957f500"
+          }
+        },
+        {
+          "offset": "355769",
+          "target": "35576D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "355763",
+            "command_hex": "09027257f5006d57f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "355799",
+      "end": "3557E1",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d150c001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c070211120902e157f500dc57f5000a2558f500",
+      "references": [
+        {
+          "offset": "355626",
+          "target": "355799",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "355618",
+            "command_hex": "09044c56f500bb56f5002a57f5009957f500"
+          }
+        },
+        {
+          "offset": "3557D8",
+          "target": "3557DC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3557D2",
+            "command_hex": "0902e157f500dc57f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "355808",
+      "end": "355825",
+      "english": [
+        "@Have a nice trip!"
+      ],
+      "fr": [
+        "@Bon voyage!"
+      ],
+      "spans": [
+        [
+          9,
+          27
+        ]
+      ],
+      "original_hex": "18001801351f020c01707891a6955091509e99939550a4a299a0511302",
+      "references": [
+        {
+          "offset": "3556A9",
+          "target": "355808",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3556A8",
+            "command_hex": "080858f500"
+          }
+        },
+        {
+          "offset": "355718",
+          "target": "355808",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "355717",
+            "command_hex": "080858f500"
+          }
+        },
+        {
+          "offset": "355787",
+          "target": "355808",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "355786",
+            "command_hex": "080858f500"
+          }
+        },
+        {
+          "offset": "3557F6",
+          "target": "355808",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3557F5",
+            "command_hex": "080858f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "355825",
+      "end": "355843",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " c'est dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "references": [
+        {
+          "offset": "35562D",
+          "target": "355825",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35562C",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "355690",
+          "target": "355825",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35568F",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "3556FF",
+          "target": "355825",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3556FE",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "35576E",
+          "target": "355825",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35576D",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "3557DD",
+          "target": "355825",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3557DC",
+            "command_hex": "0a2558f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "355843",
+      "end": "35587B",
+      "english": [
+        "@I am sorry,",
+        " but you do not have enough money."
+      ],
+      "fr": [
+        "@Désolé,",
+        " mais tu n'as pas assez d'argent."
+      ],
+      "spans": [
+        [
+          6,
+          18
+        ],
+        [
+          20,
+          54
+        ]
+      ],
+      "original_hex": "180018013501707950919d50a39fa2a2a95c100f5092a5a450a99fa550949f509e9fa4509891a69550959e9fa59798509d9f9e95a95e1302",
+      "references": [
+        {
+          "offset": "35569E",
+          "target": "355843",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35569C",
+            "command_hex": "1b024358f500"
+          }
+        },
+        {
+          "offset": "35570D",
+          "target": "355843",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35570B",
+            "command_hex": "1b024358f500"
+          }
+        },
+        {
+          "offset": "35577C",
+          "target": "355843",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35577A",
+            "command_hex": "1b024358f500"
+          }
+        },
+        {
+          "offset": "3557EB",
+          "target": "355843",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3557E9",
+            "command_hex": "1b024358f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35AFD1",
+      "end": "35B00E",
+      "english": [
+        "@And don't forget that old diary. ",
+        "You might need it."
+      ],
+      "fr": [
+        "@Et n'oublie pas ce vieux journal. ",
+        "Tu pourrais en avoir besoin."
+      ],
+      "spans": [
+        [
+          0,
+          34
+        ],
+        [
+          36,
+          54
+        ]
+      ],
+      "original_hex": "70719e9450949f9e57a450969fa29795a450a49891a4509f9c9450949991a2a95e50100f899fa5509d999798a4509e9595945099a45e03000a3ac4f500",
+      "references": [
+        {
+          "offset": "35AFAD",
+          "target": "35AFD1",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35AFAB",
+            "command_hex": "1b02d1aff500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35B1AB",
+      "end": "35B1DA",
+      "english": [
+        "@You should show him that ",
+        " you found."
+      ],
+      "fr": [
+        "@Montre-lui ta trouvaille: ",
+        "."
+      ],
+      "spans": [
+        [
+          0,
+          26
+        ],
+        [
+          29,
+          40
+        ]
+      ],
+      "original_hex": "70899fa550a3989fa59c9450a3989fa75098999d50a49891a4501c059050a99fa550969fa59e945e03000a3ac4f500",
+      "references": [
+        {
+          "offset": "35B13A",
+          "target": "35B1AB",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B138",
+            "command_hex": "1b03abb1f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35C43A",
+      "end": "35C456",
+      "english": [
+        "@That's it for today."
+      ],
+      "fr": [
+        "@C'est tout pour aujourd'hui."
+      ],
+      "spans": [
+        [
+          0,
+          21
+        ]
+      ],
+      "original_hex": "70849891a457a35099a450969fa250a49f9491a95e03000ab2c4f500",
+      "references": [
+        {
+          "offset": "35ACB2",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35ACB1",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35AD64",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35AD63",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35ADF4",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35ADF3",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35AE80",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35AE7F",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35AF27",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35AF26",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35AFB2",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35AFB1",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B00A",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B009",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B107",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B106",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B1A7",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B1A6",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B1D6",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B1D5",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B24C",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B24B",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B39E",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B39D",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B489",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B488",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B584",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B583",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B632",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B631",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B773",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B772",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B877",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B876",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B8F3",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B8F2",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B997",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B996",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35BA27",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35BA26",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35BA79",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35BA78",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35BBF0",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35BBEF",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35BD47",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35BD46",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35BE59",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35BE58",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35BF2D",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35BF2C",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35BF92",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35BF91",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35C00A",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35C009",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35C13E",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35C13D",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35C201",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35C200",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35C2B4",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35C2B3",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35C39C",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35C39B",
+            "command_hex": "0a3ac4f500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "35EC4A",
+      "end": "35EC7C",
+      "english": [
+        "@",
+        " used",
+        "  the ",
+        ".",
+        "@But nothing happened."
+      ],
+      "fr": [
+        "@",
+        " utilise",
+        "  ",
+        ".",
+        "@Mais rien ne se passe."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          26,
+          48
+        ]
+      ],
+      "original_hex": "01701c0d191f1b0450a5a39594005050a49895501c05005e03007072a5a4509e9fa498999e97509891a0a0959e95945e0302",
+      "references": [
+        {
+          "offset": "077DF1",
+          "target": "35EC4A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "077DF0",
+            "command_hex": "0a4aecf500"
+          }
+        }
+      ]
+    },
+    {
+      "id": "360D12",
+      "end": "360D4C",
+      "english": [
+        "@Yeah",
+        "-yeah, we'll get out of the way."
+      ],
+      "fr": [
+        "@Oui",
+        ", oui, on va vous laisser passer."
+      ],
+      "spans": [
+        [
+          7,
+          12
+        ],
+        [
+          14,
+          46
+        ]
+      ],
+      "original_hex": "0649036ab7f3007089959198100a5da99591985c50a795579c9c509795a4509fa5a4509f9650a4989550a791a95e130449030448030a4c0ff600",
+      "references": [
+        {
+          "offset": "360C13",
+          "target": "360D12",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "360C10",
+            "command_hex": "065304120df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "360D4C",
+      "end": "360D7F",
+      "english": [
+        "@Yeah",
+        "-yeah, I'll beat it then."
+      ],
+      "fr": [
+        "@Oui",
+        ", oui, je dégage."
+      ],
+      "spans": [
+        [
+          7,
+          12
+        ],
+        [
+          14,
+          39
+        ]
+      ],
+      "original_hex": "06490379b7f3007089959198100a5da99591985c5079579c9c50929591a45099a450a498959e5e130449030448030a4c0ff600",
+      "references": [
+        {
+          "offset": "360CC4",
+          "target": "360D4C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "360CC1",
+            "command_hex": "0653044c0df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "361D0F",
+      "end": "361D8B",
+      "english": [
+        "@",
+        " saw",
+        "  a present behind the enemy.",
+        "@Inside the present,",
+        "  there was a ",
+        ".",
+        "@",
+        " takes it."
+      ],
+      "fr": [
+        "@",
+        " aperçoit",
+        "  un cadeau derrière l'ennemi.",
+        "@Dans le cadeau,",
+        "  il y a ",
+        ".",
+        "@",
+        " s'en empare."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          9,
+          38
+        ],
+        [
+          43,
+          63
+        ],
+        [
+          68,
+          82
+        ],
+        [
+          85,
+          86
+        ],
+        [
+          99,
+          100
+        ],
+        [
+          103,
+          113
+        ]
+      ],
+      "original_hex": "01701c0d50a391a70050509150a0a295a3959ea450929598999e9450a4989550959e959da95e03001f021070799ea399949550a4989550a0a295a3959ea45c00191f1b045050a49895a29550a791a35091501c05005e03001d03ff1b028b1df6001b04701c020050a4919b95a35099a45e1b041d0e00001f02740302",
+      "references": [
+        {
+          "offset": "2F7DD6",
+          "target": "361D0F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7DD5",
+            "command_hex": "0a0f1df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "363912",
+      "end": "363935",
+      "english": [
+        "@...You have too much junk."
+      ],
+      "fr": [
+        "@...Tu portes trop de bric-à-brac."
+      ],
+      "spans": [
+        [
+          6,
+          33
+        ]
+      ],
+      "original_hex": "1f0205101401705e5e5e899fa5509891a69550a49f9f509da59398509aa59e9b5e1302",
+      "references": [
+        {
+          "offset": "363AAD",
+          "target": "363912",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363AAB",
+            "command_hex": "1b021239f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "363ADA",
+      "end": "363AF4",
+      "english": [
+        "@(Gargle gargle spit)"
+      ],
+      "fr": [
+        "@(Gargarise puis crache)"
+      ],
+      "spans": [
+        [
+          1,
+          22
+        ]
+      ],
+      "original_hex": "0170587791a2979c95509791a2979c9550a3a099a45913180402",
+      "references": [
+        {
+          "offset": "363ACC",
+          "target": "363ADA",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363AB2",
+            "command_hex": "090a00180a1f020c101e1d0effad1f0274103c08dadcc700130ada3af6000ada3af6000afc3ff6000170"
+          }
+        },
+        {
+          "offset": "363AD1",
+          "target": "363ADA",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363AD0",
+            "command_hex": "0ada3af600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "363E05",
+      "end": "363E4D",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1509001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209024d3ef600483ef6000ade3ff600",
+      "references": [
+        {
+          "offset": "363DD5",
+          "target": "363E05",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363DD3",
+            "command_hex": "0904053ef600e33ef600743ef600523ff600"
+          }
+        },
+        {
+          "offset": "363E44",
+          "target": "363E48",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363E3E",
+            "command_hex": "09024d3ef600483ef600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "363E74",
+      "end": "363EBC",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1514001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c070211120902bc3ef600b73ef6000ade3ff600",
+      "references": [
+        {
+          "offset": "363DDD",
+          "target": "363E74",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363DD3",
+            "command_hex": "0904053ef600e33ef600743ef600523ff600"
+          }
+        },
+        {
+          "offset": "363EB3",
+          "target": "363EB7",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363EAD",
+            "command_hex": "0902bc3ef600b73ef600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "363EE3",
+      "end": "363F2B",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1510001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209022b3ff600263ff6000ade3ff600",
+      "references": [
+        {
+          "offset": "363DD9",
+          "target": "363EE3",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363DD3",
+            "command_hex": "0904053ef600e33ef600743ef600523ff600"
+          }
+        },
+        {
+          "offset": "363F22",
+          "target": "363F26",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363F1C",
+            "command_hex": "09022b3ff600263ff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "363FC1",
+      "end": "363FDE",
+      "english": [
+        "@Have a nice trip!"
+      ],
+      "fr": [
+        "@Bon voyage!"
+      ],
+      "spans": [
+        [
+          9,
+          27
+        ]
+      ],
+      "original_hex": "18001801351f020c01707891a6955091509e99939550a4a299a0511302",
+      "references": [
+        {
+          "offset": "363E62",
+          "target": "363FC1",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363E61",
+            "command_hex": "08c13ff600"
+          }
+        },
+        {
+          "offset": "363ED1",
+          "target": "363FC1",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363ED0",
+            "command_hex": "08c13ff600"
+          }
+        },
+        {
+          "offset": "363F40",
+          "target": "363FC1",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363F3F",
+            "command_hex": "08c13ff600"
+          }
+        },
+        {
+          "offset": "363FAF",
+          "target": "363FC1",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363FAE",
+            "command_hex": "08c13ff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "363FDE",
+      "end": "363FFC",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " c'est dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "references": [
+        {
+          "offset": "363DE6",
+          "target": "363FDE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363DE5",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363E49",
+          "target": "363FDE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363E48",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363EB8",
+          "target": "363FDE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363EB7",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363F27",
+          "target": "363FDE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363F26",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363F96",
+          "target": "363FDE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363F95",
+            "command_hex": "0ade3ff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "363FFC",
+      "end": "364034",
+      "english": [
+        "@I am sorry,",
+        " but you do not have enough money."
+      ],
+      "fr": [
+        "@Désolé,",
+        " mais tu n'as pas assez d'argent."
+      ],
+      "spans": [
+        [
+          6,
+          18
+        ],
+        [
+          20,
+          54
+        ]
+      ],
+      "original_hex": "180018013501707950919d50a39fa2a2a95c100f5092a5a450a99fa550949f509e9fa4509891a69550959e9fa59798509d9f9e95a95e1302",
+      "references": [
+        {
+          "offset": "363AD6",
+          "target": "363FFC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363AD5",
+            "command_hex": "0afc3ff600"
+          }
+        },
+        {
+          "offset": "363E57",
+          "target": "363FFC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363E55",
+            "command_hex": "1b02fc3ff600"
+          }
+        },
+        {
+          "offset": "363EC6",
+          "target": "363FFC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363EC4",
+            "command_hex": "1b02fc3ff600"
+          }
+        },
+        {
+          "offset": "363F35",
+          "target": "363FFC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363F33",
+            "command_hex": "1b02fc3ff600"
+          }
+        },
+        {
+          "offset": "363FA4",
+          "target": "363FFC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363FA2",
+            "command_hex": "1b02fc3ff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "364D6D",
+      "end": "364D93",
+      "english": [
+        "@What?",
+        " You don't want them?!"
+      ],
+      "fr": [
+        "@Quoi?",
+        " Tu n'en veux pas?!"
+      ],
+      "spans": [
+        [
+          6,
+          12
+        ],
+        [
+          14,
+          36
+        ]
+      ],
+      "original_hex": "1f020510140170879891a46f100f50899fa550949f9e57a450a7919ea450a498959d6f511302",
+      "references": [
+        {
+          "offset": "364D57",
+          "target": "364D6D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "364D55",
+            "command_hex": "1b026d4df600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "369C36",
+      "end": "369C88",
+      "english": [
+        "@However, you already have too many things to carry.",
+        "@",
+        " left it."
+      ],
+      "fr": [
+        "@Mais tu portes déjà trop de choses.",
+        "@",
+        " laisse l'objet sur place."
+      ],
+      "spans": [
+        [
+          6,
+          58
+        ],
+        [
+          60,
+          61
+        ],
+        [
+          71,
+          80
+        ]
+      ],
+      "original_hex": "1f020510140170789fa795a695a25c50a99fa550919ca2959194a9509891a69550a49f9f509d919ea950a498999e97a350a49f509391a2a2a95e0300701910011b041c02001b04509c9596a45099a45e1302",
+      "references": [
+        {
+          "offset": "369B0E",
+          "target": "369C36",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "369B0C",
+            "command_hex": "1b02369cf600"
+          }
+        },
+        {
+          "offset": "369B83",
+          "target": "369C36",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "369B81",
+            "command_hex": "1b02369cf600"
+          }
+        },
+        {
+          "offset": "369C10",
+          "target": "369C36",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "369C0E",
+            "command_hex": "1b02369cf600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36DDC7",
+      "end": "36DE0F",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d150b001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209020fdef6000adef6000aa0dff600",
+      "references": [
+        {
+          "offset": "36DD97",
+          "target": "36DDC7",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DD95",
+            "command_hex": "0904c7ddf60036def600a5def60014dff600"
+          }
+        },
+        {
+          "offset": "36DE06",
+          "target": "36DE0A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE00",
+            "command_hex": "09020fdef6000adef600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36DE36",
+      "end": "36DE7E",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1514001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209027edef60079def6000aa0dff600",
+      "references": [
+        {
+          "offset": "36DD9B",
+          "target": "36DE36",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DD95",
+            "command_hex": "0904c7ddf60036def600a5def60014dff600"
+          }
+        },
+        {
+          "offset": "36DE75",
+          "target": "36DE79",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE6F",
+            "command_hex": "09027edef60079def600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36DEA5",
+      "end": "36DEED",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1524001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c070211120902eddef600e8def6000aa0dff600",
+      "references": [
+        {
+          "offset": "36DD9F",
+          "target": "36DEA5",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DD95",
+            "command_hex": "0904c7ddf60036def600a5def60014dff600"
+          }
+        },
+        {
+          "offset": "36DEE4",
+          "target": "36DEE8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DEDE",
+            "command_hex": "0902eddef600e8def600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36DF14",
+      "end": "36DF5C",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1530001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209025cdff60057dff6000aa0dff600",
+      "references": [
+        {
+          "offset": "36DDA3",
+          "target": "36DF14",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DD95",
+            "command_hex": "0904c7ddf60036def600a5def60014dff600"
+          }
+        },
+        {
+          "offset": "36DF53",
+          "target": "36DF57",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DF4D",
+            "command_hex": "09025cdff60057dff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36DF83",
+      "end": "36DFA0",
+      "english": [
+        "@Have a nice trip!"
+      ],
+      "fr": [
+        "@Bon voyage!"
+      ],
+      "spans": [
+        [
+          9,
+          27
+        ]
+      ],
+      "original_hex": "18001801351f020c01707891a6955091509e99939550a4a299a0511302",
+      "references": [
+        {
+          "offset": "36DE24",
+          "target": "36DF83",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE23",
+            "command_hex": "0883dff600"
+          }
+        },
+        {
+          "offset": "36DE93",
+          "target": "36DF83",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE92",
+            "command_hex": "0883dff600"
+          }
+        },
+        {
+          "offset": "36DF02",
+          "target": "36DF83",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DF01",
+            "command_hex": "0883dff600"
+          }
+        },
+        {
+          "offset": "36DF71",
+          "target": "36DF83",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DF70",
+            "command_hex": "0883dff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36DFA0",
+      "end": "36DFBE",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " c'est dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "references": [
+        {
+          "offset": "36DDA8",
+          "target": "36DFA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DDA7",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DE0B",
+          "target": "36DFA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE0A",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DE7A",
+          "target": "36DFA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE79",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DEE9",
+          "target": "36DFA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DEE8",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DF58",
+          "target": "36DFA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DF57",
+            "command_hex": "0aa0dff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36DFBE",
+      "end": "36DFF6",
+      "english": [
+        "@I am sorry,",
+        " but you do not have enough money."
+      ],
+      "fr": [
+        "@Désolé,",
+        " mais tu n'as pas assez d'argent."
+      ],
+      "spans": [
+        [
+          6,
+          18
+        ],
+        [
+          20,
+          54
+        ]
+      ],
+      "original_hex": "180018013501707950919d50a39fa2a2a95c100f5092a5a450a99fa550949f509e9fa4509891a69550959e9fa59798509d9f9e95a95e1302",
+      "references": [
+        {
+          "offset": "36DE19",
+          "target": "36DFBE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE17",
+            "command_hex": "1b02bedff600"
+          }
+        },
+        {
+          "offset": "36DE88",
+          "target": "36DFBE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE86",
+            "command_hex": "1b02bedff600"
+          }
+        },
+        {
+          "offset": "36DEF7",
+          "target": "36DFBE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DEF5",
+            "command_hex": "1b02bedff600"
+          }
+        },
+        {
+          "offset": "36DF66",
+          "target": "36DFBE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DF64",
+            "command_hex": "1b02bedff600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "36F42A",
+      "end": "36F44E",
+      "english": [
+        "@Have a nice day!",
+        "  (smile, smile)"
+      ],
+      "fr": [
+        "@Bonne journée!",
+        "  (sourire, sourire)"
+      ],
+      "spans": [
+        [
+          0,
+          17
+        ],
+        [
+          18,
+          34
+        ]
+      ],
+      "original_hex": "707891a6955091509e999395509491a95101505058a39d999c955c50a39d999c95591302",
+      "references": [
+        {
+          "offset": "3659FE",
+          "target": "36F42A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3659FB",
+            "command_hex": "06f5002af4f600"
+          }
+        }
+      ]
+    },
+    {
+      "id": "373A93",
+      "end": "373BC5",
+      "english": [
+        "@Oh,",
+        " do you want a ride in my plane?",
+        "@Which flight plan would you like?",
+        "@The airfare is $",
+        " for that flight.",
+        "@Be sure to save your ticket stubs."
+      ],
+      "fr": [
+        "@Oh,",
+        " tu veux faire un tour dans mon avion?",
+        "@Quel itinéraire veux-tu?",
+        "@Ce vol coûte $",
+        ".",
+        "@Garde bien tes talons de billets."
+      ],
+      "spans": [
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          38
+        ],
+        [
+          40,
+          74
+        ],
+        [
+          89,
+          106
+        ],
+        [
+          127,
+          144
+        ],
+        [
+          186,
+          221
+        ]
+      ],
+      "original_hex": "707f985c100f50949f50a99fa550a7919ea4509150a299949550999e509da950a09c919e956f030070879899939850969c999798a450a09c919e50a79fa59c9450a99fa5509c999b956f13001a0617180a1b02d83cf7001b0570849895509199a29691a2955099a350541b061b041d0a001b041d1500001b041c0a0000000050969fa250a49891a450969c999798a45e03001b061b041d0a001b041d1500001b041d14000000000b001b02103df7001d0900001f0276180a101e70729550a3a5a29550a49f50a391a69550a99fa5a250a499939b95a450a3a4a592a35e0300192009041c3cf700f73bf700c53bf700863bf7000e040d011b001d03ff1b02753df7001d00ff4d1d03ff1b020f3ef7001d00ff4d1d03ff1b021e3ef7001d00ff4d1d03ff1b02313ef7001d00ff4d0a343cf700",
+      "references": [
+        {
+          "offset": "373912",
+          "target": "373A93",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37390F",
+            "command_hex": "065d03933af700"
+          }
+        },
+        {
+          "offset": "373990",
+          "target": "373A93",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37398F",
+            "command_hex": "0a933af700"
+          }
+        },
+        {
+          "offset": "373B82",
+          "target": "373B86",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373B74",
+            "command_hex": "09041c3cf700f73bf700c53bf700863bf700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "373CD8",
+      "end": "373D10",
+      "english": [
+        "@Well,",
+        " it is quite expensive...",
+        "  I don't blame you."
+      ],
+      "fr": [
+        "@Eh bien,",
+        " c'est plutôt cher...",
+        "  Je comprends."
+      ],
+      "spans": [
+        [
+          0,
+          6
+        ],
+        [
+          8,
+          33
+        ],
+        [
+          34,
+          54
+        ]
+      ],
+      "original_hex": "7087959c9c5c100f5099a45099a350a1a599a4955095a8a0959ea399a6955e5e5e0150507950949f9e57a450929c919d9550a99fa55e1302",
+      "references": [
+        {
+          "offset": "373AE6",
+          "target": "373CD8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373AE4",
+            "command_hex": "1b02d83cf700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "373D75",
+      "end": "373E0F",
+      "english": [
+        "@Oh?",
+        " It looks like you have too much to carry.",
+        "@You need space for ",
+        " Ticket stub",
+        ".",
+        "@Here's your money back."
+      ],
+      "fr": [
+        "@Oh?",
+        " Tu portes déjà trop de choses.",
+        "@Il te faut de la place pour ",
+        " talon de billet",
+        ".",
+        "@Je te rembourse."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          54
+        ],
+        [
+          56,
+          76
+        ],
+        [
+          82,
+          94
+        ],
+        [
+          99,
+          100
+        ],
+        [
+          102,
+          126
+        ]
+      ],
+      "original_hex": "1f0205101401707f986f100f5079a4509c9f9f9ba3509c999b9550a99fa5509891a69550a49f9f509da5939850a49f509391a2a2a95e030070899fa5509e95959450a3a091939550969fa2501c0a00000000508499939b95a450a3a4a59208153ff7005e0300707895a29557a350a99fa5a2509d9f9e95a9509291939b5e131b061b041d0a001b041d1500001b041d0800001f0274180a101e02",
+      "references": [
+        {
+          "offset": "373B91",
+          "target": "373D75",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373B8F",
+            "command_hex": "1b02753df700"
+          }
+        },
+        {
+          "offset": "373BD0",
+          "target": "373D75",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373BCE",
+            "command_hex": "1b02753df700"
+          }
+        },
+        {
+          "offset": "373C02",
+          "target": "373D75",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373C00",
+            "command_hex": "1b02753df700"
+          }
+        },
+        {
+          "offset": "373C27",
+          "target": "373D75",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373C25",
+            "command_hex": "1b02753df700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "376D9C",
+      "end": "376DDC",
+      "english": [
+        "@ Ooki...",
+        "@(Oh... ",
+        "You seem to have too much to carry.)"
+      ],
+      "fr": [
+        "@ Ooki...",
+        "@(Oh... ",
+        "Tu portes trop de choses.)"
+      ],
+      "spans": [
+        [
+          6,
+          15
+        ],
+        [
+          16,
+          24
+        ],
+        [
+          26,
+          62
+        ]
+      ],
+      "original_hex": "1f020510140170507f9f9b995e5e5e0070587f985e5e5e50100f899fa550a395959d50a49f509891a69550a49f9f509da5939850a49f509391a2a2a95e591302",
+      "references": [
+        {
+          "offset": "376D83",
+          "target": "376D9C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "376D81",
+            "command_hex": "1b029c6df700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "37828F",
+      "end": "3782D7",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d150c001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c070211120902d782f700d282f7000a6884f700",
+      "references": [
+        {
+          "offset": "37827A",
+          "target": "37828F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378278",
+            "command_hex": "09048f82f700fe82f7006d83f700dc83f700"
+          }
+        },
+        {
+          "offset": "3782CE",
+          "target": "3782D2",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3782C8",
+            "command_hex": "0902d782f700d282f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3782FE",
+      "end": "378346",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d151c001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209024683f7004183f7000a6884f700",
+      "references": [
+        {
+          "offset": "37827E",
+          "target": "3782FE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378278",
+            "command_hex": "09048f82f700fe82f7006d83f700dc83f700"
+          }
+        },
+        {
+          "offset": "37833D",
+          "target": "378341",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378337",
+            "command_hex": "09024683f7004183f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "37836D",
+      "end": "3783B5",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1525001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c070211120902b583f700b083f7000a6884f700",
+      "references": [
+        {
+          "offset": "378282",
+          "target": "37836D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378278",
+            "command_hex": "09048f82f700fe82f7006d83f700dc83f700"
+          }
+        },
+        {
+          "offset": "3783AC",
+          "target": "3783B0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3783A6",
+            "command_hex": "0902b583f700b083f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3783DC",
+      "end": "378424",
+      "english": [
+        "@That'll be $",
+        ", then.",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Cela fera $",
+        ", alors.",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          14,
+          27
+        ],
+        [
+          33,
+          40
+        ],
+        [
+          43,
+          46
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "original_hex": "18001803350110011d1530001b0470849891a4579c9c50929550541c0a000000005c50a498959e5e0019028995a30219027e9f021c0702111209022484f7001f84f7000a6884f700",
+      "references": [
+        {
+          "offset": "378286",
+          "target": "3783DC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378278",
+            "command_hex": "09048f82f700fe82f7006d83f700dc83f700"
+          }
+        },
+        {
+          "offset": "37841B",
+          "target": "37841F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378415",
+            "command_hex": "09022484f7001f84f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "37844B",
+      "end": "378468",
+      "english": [
+        "@Have a nice trip!"
+      ],
+      "fr": [
+        "@Bon voyage!"
+      ],
+      "spans": [
+        [
+          9,
+          27
+        ]
+      ],
+      "original_hex": "18001801351f020c01707891a6955091509e99939550a4a299a0511302",
+      "references": [
+        {
+          "offset": "3782EC",
+          "target": "37844B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3782EB",
+            "command_hex": "084b84f700"
+          }
+        },
+        {
+          "offset": "37835B",
+          "target": "37844B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37835A",
+            "command_hex": "084b84f700"
+          }
+        },
+        {
+          "offset": "3783CA",
+          "target": "37844B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3783C9",
+            "command_hex": "084b84f700"
+          }
+        },
+        {
+          "offset": "378439",
+          "target": "37844B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378438",
+            "command_hex": "084b84f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "378468",
+      "end": "378486",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " c'est dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "references": [
+        {
+          "offset": "37828B",
+          "target": "378468",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37828A",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "3782D3",
+          "target": "378468",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3782D2",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "378342",
+          "target": "378468",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378341",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "3783B1",
+          "target": "378468",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3783B0",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "378420",
+          "target": "378468",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37841F",
+            "command_hex": "0a6884f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "378486",
+      "end": "3784BE",
+      "english": [
+        "@I am sorry,",
+        " but you do not have enough money."
+      ],
+      "fr": [
+        "@Désolé,",
+        " mais tu n'as pas assez d'argent."
+      ],
+      "spans": [
+        [
+          6,
+          18
+        ],
+        [
+          20,
+          54
+        ]
+      ],
+      "original_hex": "180018013501707950919d50a39fa2a2a95c100f5092a5a450a99fa550949f509e9fa4509891a69550959e9fa59798509d9f9e95a95e1302",
+      "references": [
+        {
+          "offset": "3782E1",
+          "target": "378486",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3782DF",
+            "command_hex": "1b028684f700"
+          }
+        },
+        {
+          "offset": "378350",
+          "target": "378486",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37834E",
+            "command_hex": "1b028684f700"
+          }
+        },
+        {
+          "offset": "3783BF",
+          "target": "378486",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3783BD",
+            "command_hex": "1b028684f700"
+          }
+        },
+        {
+          "offset": "37842E",
+          "target": "378486",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37842C",
+            "command_hex": "1b028684f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3795C4",
+      "end": "379606",
+      "english": [
+        "@One night here will cost you",
+        "  $",
+        ". Care to stay?"
+      ],
+      "fr": [
+        "@Une nuit ici te coûtera",
+        "  $",
+        ". Tu restes?"
+      ],
+      "spans": [
+        [
+          6,
+          35
+        ],
+        [
+          36,
+          39
+        ],
+        [
+          45,
+          60
+        ]
+      ],
+      "original_hex": "1d1527001b04707f9e95509e999798a4509895a29550a7999c9c50939fa3a450a99fa5005050541c0a000000005e507391a29550a49f50a3a491a96f000a610fc900",
+      "references": [
+        {
+          "offset": "3795AF",
+          "target": "3795C4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3795AE",
+            "command_hex": "08c495f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3796F3",
+      "end": "379737",
+      "english": [
+        "@One night here will cost you",
+        "  $",
+        ".",
+        "@Care to stay?"
+      ],
+      "fr": [
+        "@Une nuit ici te coûtera",
+        "  $",
+        ".",
+        "@Tu restes?"
+      ],
+      "spans": [
+        [
+          6,
+          35
+        ],
+        [
+          36,
+          39
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          48,
+          62
+        ]
+      ],
+      "original_hex": "1d1541001b04707f9e95509e999798a4509895a29550a7999c9c50939fa3a450a99fa5005050541c0a000000005e0300707391a29550a49f50a3a491a96f000a610fc900",
+      "references": [
+        {
+          "offset": "3796DE",
+          "target": "3796F3",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3796DD",
+            "command_hex": "08f396f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3797F4",
+      "end": "379836",
+      "english": [
+        "@Sleep tight...",
+        "  And don't let the bed bugs bite."
+      ],
+      "fr": [
+        "@Dors bien...",
+        "  Et gare aux punaises de lit."
+      ],
+      "spans": [
+        [
+          9,
+          24
+        ],
+        [
+          26,
+          60
+        ]
+      ],
+      "original_hex": "1d090000180a1f027670839c9595a050a4999798a45e5e5e03005050719e9450949f9e57a4509c95a450a49895509295945092a597a3509299a4955e130a3698f700",
+      "references": [
+        {
+          "offset": "379776",
+          "target": "3797F4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "379775",
+            "command_hex": "08f497f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "379876",
+      "end": "3798BA",
+      "english": [
+        "@One night here will cost you",
+        "  $",
+        ".",
+        "@Care to stay?"
+      ],
+      "fr": [
+        "@Une nuit ici te coûtera",
+        "  $",
+        ".",
+        "@Tu restes?"
+      ],
+      "spans": [
+        [
+          6,
+          35
+        ],
+        [
+          36,
+          39
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          48,
+          62
+        ]
+      ],
+      "original_hex": "1d1564001b04707f9e95509e999798a4509895a29550a7999c9c50939fa3a450a99fa5005050541c0a000000005e0300707391a29550a49f50a3a491a96f000a610fc900",
+      "references": [
+        {
+          "offset": "379861",
+          "target": "379876",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "379860",
+            "command_hex": "087698f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "379977",
+      "end": "3799B9",
+      "english": [
+        "@Sleep tight...",
+        "  And don't let the bed bugs bite."
+      ],
+      "fr": [
+        "@Dors bien...",
+        "  Et gare aux punaises de lit."
+      ],
+      "spans": [
+        [
+          9,
+          24
+        ],
+        [
+          26,
+          60
+        ]
+      ],
+      "original_hex": "1d090000180a1f027670839c9595a050a4999798a45e5e5e03005050719e9450949f9e57a4509c95a450a49895509295945092a597a3509299a4955e130ab999f700",
+      "references": [
+        {
+          "offset": "3798F9",
+          "target": "379977",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3798F8",
+            "command_hex": "087799f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3799F9",
+      "end": "379A3D",
+      "english": [
+        "@One night here will cost you",
+        "  $",
+        ".",
+        "@Care to stay?"
+      ],
+      "fr": [
+        "@Une nuit ici te coûtera",
+        "  $",
+        ".",
+        "@Tu restes?"
+      ],
+      "spans": [
+        [
+          6,
+          35
+        ],
+        [
+          36,
+          39
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          48,
+          62
+        ]
+      ],
+      "original_hex": "1d15a5001b04707f9e95509e999798a4509895a29550a7999c9c50939fa3a450a99fa5005050541c0a000000005e0300707391a29550a49f50a3a491a96f000a610fc900",
+      "references": [
+        {
+          "offset": "3799E4",
+          "target": "3799F9",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3799E3",
+            "command_hex": "08f999f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "379AFA",
+      "end": "379B3C",
+      "english": [
+        "@Sleep tight...",
+        "  And don't let the bed bugs bite."
+      ],
+      "fr": [
+        "@Dors bien...",
+        "  Et gare aux punaises de lit."
+      ],
+      "spans": [
+        [
+          9,
+          24
+        ],
+        [
+          26,
+          60
+        ]
+      ],
+      "original_hex": "1d090000180a1f027670839c9595a050a4999798a45e5e5e03005050719e9450949f9e57a4509c95a450a49895509295945092a597a3509299a4955e130a3c9bf700",
+      "references": [
+        {
+          "offset": "379A7C",
+          "target": "379AFA",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "379A7B",
+            "command_hex": "08fa9af700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "379B7C",
+      "end": "379BC0",
+      "english": [
+        "@One night here will cost you",
+        "  $",
+        ".",
+        "@Care to stay?"
+      ],
+      "fr": [
+        "@Une nuit ici te coûtera",
+        "  $",
+        ".",
+        "@Tu restes?"
+      ],
+      "spans": [
+        [
+          6,
+          35
+        ],
+        [
+          36,
+          39
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          48,
+          62
+        ]
+      ],
+      "original_hex": "1d157d001b04707f9e95509e999798a4509895a29550a7999c9c50939fa3a450a99fa5005050541c0a000000005e0300707391a29550a49f50a3a491a96f000a610fc900",
+      "references": [
+        {
+          "offset": "379B67",
+          "target": "379B7C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "379B66",
+            "command_hex": "087c9bf700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "379C7D",
+      "end": "379CBF",
+      "english": [
+        "@Sleep tight...",
+        "  And don't let the bed bugs bite."
+      ],
+      "fr": [
+        "@Dors bien...",
+        "  Et gare aux punaises de lit."
+      ],
+      "spans": [
+        [
+          9,
+          24
+        ],
+        [
+          26,
+          60
+        ]
+      ],
+      "original_hex": "1d090000180a1f027670839c9595a050a4999798a45e5e5e03005050719e9450949f9e57a4509c95a450a49895509295945092a597a3509299a4955e130abf9cf700",
+      "references": [
+        {
+          "offset": "379BFF",
+          "target": "379C7D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "379BFE",
+            "command_hex": "087d9cf700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "379CFF",
+      "end": "379D43",
+      "english": [
+        "@One night here will cost you",
+        "  $",
+        ".",
+        "@Care to stay?"
+      ],
+      "fr": [
+        "@Une nuit ici te coûtera",
+        "  $",
+        ".",
+        "@Tu restes?"
+      ],
+      "spans": [
+        [
+          6,
+          35
+        ],
+        [
+          36,
+          39
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          48,
+          62
+        ]
+      ],
+      "original_hex": "1d1573001b04707f9e95509e999798a4509895a29550a7999c9c50939fa3a450a99fa5005050541c0a000000005e0300707391a29550a49f50a3a491a96f000a610fc900",
+      "references": [
+        {
+          "offset": "379CEA",
+          "target": "379CFF",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "379CE9",
+            "command_hex": "08ff9cf700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "379E00",
+      "end": "379E55",
+      "english": [
+        "@Sleep tight...",
+        "  And don't let the bed bugs bite."
+      ],
+      "fr": [
+        "@Dors bien...",
+        "  Et gare aux punaises de lit."
+      ],
+      "spans": [
+        [
+          9,
+          24
+        ],
+        [
+          26,
+          60
+        ]
+      ],
+      "original_hex": "1d090000180a1f027670839c9595a050a4999798a45e5e5e03005050719e9450949f9e57a4509c95a450a49895509295945092a597a3509299a4955e1318041001047f011f07031f156a007902011f610a900fc900",
+      "references": [
+        {
+          "offset": "379D82",
+          "target": "379E00",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "379D81",
+            "command_hex": "08009ef700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "379E7D",
+      "end": "379EC1",
+      "english": [
+        "@One night here will cost you",
+        "  $",
+        ".",
+        "@Care to stay?"
+      ],
+      "fr": [
+        "@Une nuit ici te coûtera",
+        "  $",
+        ".",
+        "@Tu restes?"
+      ],
+      "spans": [
+        [
+          6,
+          35
+        ],
+        [
+          36,
+          39
+        ],
+        [
+          45,
+          46
+        ],
+        [
+          48,
+          62
+        ]
+      ],
+      "original_hex": "1d1573001b04707f9e95509e999798a4509895a29550a7999c9c50939fa3a450a99fa5005050541c0a000000005e0300707391a29550a49f50a3a491a96f000a610fc900",
+      "references": [
+        {
+          "offset": "379E68",
+          "target": "379E7D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "379E67",
+            "command_hex": "087d9ef700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "379F7E",
+      "end": "379FD3",
+      "english": [
+        "@Sleep tight...",
+        "  And don't let the bed bugs bite."
+      ],
+      "fr": [
+        "@Dors bien...",
+        "  Et gare aux punaises de lit."
+      ],
+      "spans": [
+        [
+          9,
+          24
+        ],
+        [
+          26,
+          60
+        ]
+      ],
+      "original_hex": "1d090000180a1f027670839c9595a050a4999798a45e5e5e03005050719e9450949f9e57a4509c95a450a49895509295945092a597a3509299a4955e1318041001047f011f07031f156a007902011f610a900fc900",
+      "references": [
+        {
+          "offset": "379F00",
+          "target": "379F7E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "379EFF",
+            "command_hex": "087e9ff700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "37A955",
+      "end": "37A96E",
+      "english": [
+        "@But nothing happened."
+      ],
+      "fr": [
+        "@Mais rien ne se passe."
+      ],
+      "spans": [
+        [
+          1,
+          23
+        ]
+      ],
+      "original_hex": "017072a5a4509e9fa498999e97509891a0a0959e95945e1302",
+      "references": [
+        {
+          "offset": "33EA32",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33EA2F",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "33EA5D",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33EA5A",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "3481E3",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3481E0",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "3517A0",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35179D",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "35A92A",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35A927",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "35CE13",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35CE10",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "35CE3C",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35CE39",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "35CE4E",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35CE4B",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "363952",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36394F",
+            "command_hex": "066e0355a9f700"
+          }
+        },
+        {
+          "offset": "36B718",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36B715",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "36E4BB",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36E4B8",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "3738CB",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3738C8",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "38E2CC",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "38E2C9",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "38E313",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "38E310",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "38E35A",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "38E357",
+            "command_hex": "067f0355a9f700"
+          }
+        },
+        {
+          "offset": "38E39A",
+          "target": "37A955",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "38E397",
+            "command_hex": "067f0355a9f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "37B597",
+      "end": "37B63C",
+      "english": [
+        "  At the summit of Mt. Itoi,",
+        " ",
+        " is reunited with her mother as the rest of the freed people exit the cave."
+      ],
+      "fr": [
+        "  Au sommet du mont Itoi,",
+        " ",
+        " retrouve sa mère tandis que les autres prisonniers libérés quittent la grotte."
+      ],
+      "spans": [
+        [
+          5,
+          33
+        ],
+        [
+          35,
+          36
+        ],
+        [
+          39,
+          114
+        ]
+      ],
+      "original_hex": "105a180113505071a450a4989550a3a59d9d99a4509f96507da45e5079a49f995c1028501c02025099a350a295a59e99a4959450a799a498509895a2509d9fa49895a25091a350a4989550a295a3a4509f9650a498955096a295959450a0959fa09c955095a899a450a49895509391a6955e103c103c101e18041ff179053a051f61101e1ff17b053c051ff17c053b051f61101e1ff178053d051ff17a053e051f61103c02",
+      "references": [
+        {
+          "offset": "37B4AE",
+          "target": "37B597",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37B4AD",
+            "command_hex": "0897b5f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "37B63C",
+      "end": "37B6A8",
+      "english": [
+        "  ",
+        ",",
+        " his health fully recovered,",
+        " is now a popular singer at the Live House."
+      ],
+      "fr": [
+        "  ",
+        ",",
+        " ayant retrouvé toute sa santé,",
+        " est désormais un chanteur apprécié au Live House."
+      ],
+      "spans": [
+        [
+          18,
+          20
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          26,
+          54
+        ],
+        [
+          56,
+          99
+        ]
+      ],
+      "original_hex": "105a1ff172053f051f15580184050118011350501c02045c100f509899a3509895919ca4985096a59c9ca950a295939fa695a295945c100f5099a3509e9fa7509150a09fa0a59c91a250a3999e9795a25091a450a49895507c99a69550789fa5a3955e1078180410f0107802",
+      "references": [
+        {
+          "offset": "37B4C9",
+          "target": "37B63C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37B4C8",
+            "command_hex": "083cb6f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "37B6A8",
+      "end": "37B70A",
+      "english": [
+        "  The abducted grownups return to their children in Youngtown."
+      ],
+      "fr": [
+        "  Les adultes enlevés retrouvent leurs enfants à Youngtown."
+      ],
+      "spans": [
+        [
+          29,
+          91
+        ]
+      ],
+      "original_hex": "105a1ff1690540051ff1670543051ff1660541051ff16c054205180113505084989550919294a593a495945097a29fa79ea5a0a350a295a4a5a29e50a49f50a4989599a2509398999c94a2959e50999e50899fa59e97a49fa79e5e10781804107802",
+      "references": [
+        {
+          "offset": "37B4E4",
+          "target": "37B6A8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37B4E3",
+            "command_hex": "08a8b6f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "37B787",
+      "end": "37B7F6",
+      "english": [
+        "  ",
+        " returns to a hero's welcome at Twinkle Elementary School."
+      ],
+      "fr": [
+        "  ",
+        " reçoit un accueil triomphal à l'école primaire Twinkle."
+      ],
+      "spans": [
+        [
+          41,
+          43
+        ],
+        [
+          46,
+          104
+        ]
+      ],
+      "original_hex": "105a1ff12e0449051ff1580548051ff1590548051ff15b0549051ff15c0549051ff15305470518011350501c020350a295a4a5a29ea350a49f5091509895a29f57a350a7959c939f9d955091a45084a7999e9b9c9550759c959d959ea491a2a9508393989f9f9c5e10781804105a02",
+      "references": [
+        {
+          "offset": "37B51A",
+          "target": "37B787",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37B519",
+            "command_hex": "0887b7f700"
+          }
+        }
+      ]
+    },
+    {
+      "id": "38219D",
+      "end": "382211",
+      "english": [
+        "@Your account will be credited",
+        "  $",
+        "."
+      ],
+      "fr": [
+        "@Ton compte sera crédité de",
+        "  $",
+        "."
+      ],
+      "spans": [
+        [
+          68,
+          98
+        ],
+        [
+          99,
+          102
+        ],
+        [
+          108,
+          109
+        ]
+      ],
+      "original_hex": "1d177f9698001b027c22f80008a224f8001b028621f8000d001d14000000000b001b024622f8001a1a000000001b037c22f8001d0900001d0600000000180a1f0276100a70899fa5a2509193939fa59ea450a7999c9c5092955093a2959499a49594005050541c0a000000005e03000a8621f800",
+      "references": [
+        {
+          "offset": "382182",
+          "target": "38219D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "38217C",
+            "command_hex": "0902c322f8009d21f800"
+          }
+        },
+        {
+          "offset": "382242",
+          "target": "38219D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "382241",
+            "command_hex": "0a9d21f800"
+          }
+        },
+        {
+          "offset": "382278",
+          "target": "38219D",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "382277",
+            "command_hex": "0a9d21f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "38227C",
+      "end": "3822C3",
+      "english": [
+        "@This machine cannot accept a deposit greater than",
+        "  $9,999,999."
+      ],
+      "fr": [
+        "@Ce distributeur refuse les dépôts de plus de",
+        "  $9 999 999."
+      ],
+      "spans": [
+        [
+          0,
+          50
+        ],
+        [
+          51,
+          64
+        ]
+      ],
+      "original_hex": "70849899a3509d919398999e955093919e9e9fa45091939395a0a45091509495a09fa399a45097a29591a495a250a498919e00505054695c6969695c6969695e03000a8621f800",
+      "references": [
+        {
+          "offset": "3821A5",
+          "target": "38227C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3821A3",
+            "command_hex": "1b027c22f800"
+          }
+        },
+        {
+          "offset": "3821CC",
+          "target": "38227C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3821CA",
+            "command_hex": "1b037c22f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "382397",
+      "end": "3823D6",
+      "english": [
+        "@You are not allowed to carry more than",
+        "  $99,999."
+      ],
+      "fr": [
+        "@Tu ne peux pas porter plus de",
+        "  $99 999."
+      ],
+      "spans": [
+        [
+          6,
+          45
+        ],
+        [
+          46,
+          56
+        ]
+      ],
+      "original_hex": "1d060000000070899fa55091a295509e9fa450919c9c9fa7959450a49f509391a2a2a9509d9fa29550a498919e0050505469695c6969695e03000ac322f800",
+      "references": [
+        {
+          "offset": "382304",
+          "target": "382397",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "382302",
+            "command_hex": "1b039723f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "38240F",
+      "end": "382448",
+      "english": [
+        "@You are not allowed to carry more than",
+        "  $99,999."
+      ],
+      "fr": [
+        "@Tu ne peux pas porter plus de",
+        "  $99 999."
+      ],
+      "spans": [
+        [
+          0,
+          39
+        ],
+        [
+          40,
+          50
+        ]
+      ],
+      "original_hex": "70899fa55091a295509e9fa450919c9c9fa7959450a49f509391a2a2a9509d9fa29550a498919e0050505469695c6969695e03000a8621f800",
+      "references": [
+        {
+          "offset": "3822D9",
+          "target": "38240F",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3822D7",
+            "command_hex": "1b030f24f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3843AB",
+      "end": "3843D8",
+      "english": [
+        "@Can I help you find",
+        "  something, ",
+        "?"
+      ],
+      "fr": [
+        "@Puis-je t'aider à trouver",
+        "  quelque chose, ",
+        "?"
+      ],
+      "spans": [
+        [
+          0,
+          20
+        ],
+        [
+          21,
+          34
+        ],
+        [
+          42,
+          43
+        ]
+      ],
+      "original_hex": "7073919e50795098959ca050a99fa55096999e94005050a39f9d95a498999e975c501910011b041c02006f1402",
+      "references": [
+        {
+          "offset": "365ACB",
+          "target": "3843AB",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365AC8",
+            "command_hex": "06f800ab43f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3843D8",
+      "end": "3843EE",
+      "english": [
+        "@You want the",
+        "  ",
+        "?"
+      ],
+      "fr": [
+        "@Tu veux",
+        "  ",
+        "?"
+      ],
+      "spans": [
+        [
+          0,
+          13
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          19,
+          20
+        ]
+      ],
+      "original_hex": "70899fa550a7919ea450a498950050501c05006f0002",
+      "references": [
+        {
+          "offset": "365B83",
+          "target": "3843D8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365B80",
+            "command_hex": "06f800d843f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "38442A",
+      "end": "384453",
+      "english": [
+        "@Can I buy your",
+        "  ",
+        "  for $",
+        "?"
+      ],
+      "fr": [
+        "@Puis-je te racheter",
+        "  ",
+        "  pour $",
+        "?"
+      ],
+      "spans": [
+        [
+          0,
+          15
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          22,
+          29
+        ],
+        [
+          37,
+          38
+        ]
+      ],
+      "original_hex": "7073919e50795092a5a950a99fa5a20050501c0500005050969fa250541b041c0a000000006f030002",
+      "references": [
+        {
+          "offset": "365DAB",
+          "target": "38442A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365DA8",
+            "command_hex": "06f8002a44f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "384453",
+      "end": "384485",
+      "english": [
+        "@",
+        " can't equip this.",
+        "@Do you still desire it?"
+      ],
+      "fr": [
+        "@",
+        " ne peut pas équiper cet objet.",
+        "@Tu le veux quand même?"
+      ],
+      "spans": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          22
+        ],
+        [
+          24,
+          48
+        ]
+      ],
+      "original_hex": "701c02005093919e57a45095a1a599a050a49899a35e030070749f50a99fa550a3a4999c9c509495a399a2955099a46f0002",
+      "references": [
+        {
+          "offset": "365E63",
+          "target": "384453",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365E60",
+            "command_hex": "06f8005344f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "384B1B",
+      "end": "384B8B",
+      "english": [
+        "@(Hearing your soulful cry,",
+        "  the Benevolent Old Man appeared.)"
+      ],
+      "fr": [
+        "@(En entendant ton appel sincère,",
+        "  le vieillard bienveillant apparaît.)"
+      ],
+      "spans": [
+        [
+          5,
+          32
+        ],
+        [
+          35,
+          70
+        ]
+      ],
+      "original_hex": "18041801357058789591a2999e9750a99fa5a250a39fa59c96a59c5093a2a95c100f005050a498955072959e95a69f9c959ea4507f9c94507d919e5091a0a09591a295945e59131fe5ff18041f021a10051f02461f156a00f0030110021f1f6a00061f156b00f003031f610a8b4bf800",
+      "references": [
+        {
+          "offset": "384AB4",
+          "target": "384B1B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "384AB3",
+            "command_hex": "0a1b4bf800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "38626E",
+      "end": "3862BD",
+      "english": [
+        "@...",
+        "@You seem to have forgotten something important about life. How sad."
+      ],
+      "fr": [
+        "@...",
+        "@Tu sembles avoir oublié une chose essentielle sur la vie. Quel dommage."
+      ],
+      "spans": [
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          74
+        ]
+      ],
+      "original_hex": "705e5e5e030070899fa550a395959d50a49f509891a69550969fa2979fa4a4959e50a39f9d95a498999e9750999da09fa2a4919ea45091929fa5a4509c9996955e50789fa750a391945e0abd62f800",
+      "references": [
+        {
+          "offset": "38624A",
+          "target": "38626E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "386244",
+            "command_hex": "09025362f8006e62f800"
+          }
+        },
+        {
+          "offset": "38624F",
+          "target": "38626E",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "38624E",
+            "command_hex": "0a6e62f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "386C0C",
+      "end": "386C58",
+      "english": [
+        "@You must be tired.",
+        "@Why don't you stay here tonight?"
+      ],
+      "fr": [
+        "@Tu dois avoir besoin de repos.",
+        "@Pourquoi ne pas dormir ici ce soir?"
+      ],
+      "spans": [
+        [
+          7,
+          26
+        ],
+        [
+          28,
+          61
+        ]
+      ],
+      "original_hex": "067f01586cf80070899fa5509da5a3a450929550a499a295945e0300708798a950949f9e57a450a99fa550a3a491a9509895a29550a49f9e999798a46f1308f479f8001f212b08267af80002",
+      "references": [
+        {
+          "offset": "386B66",
+          "target": "386C0C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "386B63",
+            "command_hex": "0675030c6cf800"
+          }
+        },
+        {
+          "offset": "386C08",
+          "target": "386C0C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "386C07",
+            "command_hex": "0a0c6cf800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "386CA4",
+      "end": "386D23",
+      "english": [
+        "@I am ",
+        "'s father.",
+        "@I think ",
+        "'s dad might have asked,",
+        "  but did you tell him your name?",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@Je suis le père de ",
+        ".",
+        "@Le père de ",
+        " te l'a peut-être déjà demandé,",
+        "  mais lui as-tu donné ton nom?",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          3,
+          9
+        ],
+        [
+          12,
+          22
+        ],
+        [
+          24,
+          33
+        ],
+        [
+          36,
+          60
+        ],
+        [
+          62,
+          95
+        ],
+        [
+          98,
+          101
+        ],
+        [
+          104,
+          106
+        ]
+      ],
+      "original_hex": "180135707950919d501c020357a3509691a49895a25e0300707950a498999e9b501c020157a350949194509d999798a4509891a6955091a39b95945c0300505092a5a45094999450a99fa550a4959c9c5098999d50a99fa5a2509e919d956f0019028995a30219027e9f021c070211120902236df800766df8000a766df800",
+      "references": [
+        {
+          "offset": "386C8F",
+          "target": "386CA4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "386C8C",
+            "command_hex": "067603a46cf800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "386DA1",
+      "end": "386DC4",
+      "english": [
+        "@Okay,",
+        " that's fine."
+      ],
+      "fr": [
+        "@D'accord,",
+        " ça me va."
+      ],
+      "spans": [
+        [
+          0,
+          6
+        ],
+        [
+          8,
+          21
+        ]
+      ],
+      "original_hex": "707f9b91a95c100f50a49891a457a35096999e955e0300043b041f0000040ac46df800",
+      "references": [
+        {
+          "offset": "386D6D",
+          "target": "386DA1",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "386D6C",
+            "command_hex": "0aa16df800"
+          }
+        },
+        {
+          "offset": "386D72",
+          "target": "386DA1",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "386D71",
+            "command_hex": "0aa16df800"
+          }
+        },
+        {
+          "offset": "386D98",
+          "target": "386DA1",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "386D97",
+            "command_hex": "0aa16df800"
+          }
+        },
+        {
+          "offset": "386D9D",
+          "target": "386DA1",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "386D9C",
+            "command_hex": "0aa16df800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3890FD",
+      "end": "389169",
+      "english": [
+        "@",
+        " broke",
+        "  the ",
+        " into ",
+        "@and started leaving a trail."
+      ],
+      "fr": [
+        "@",
+        " découpe",
+        "  ",
+        " en ",
+        "@puis commence à semer une piste."
+      ],
+      "spans": [
+        [
+          21,
+          22
+        ],
+        [
+          28,
+          34
+        ],
+        [
+          35,
+          41
+        ],
+        [
+          44,
+          50
+        ],
+        [
+          55,
+          84
+        ]
+      ],
+      "original_hex": "011b001d05ffeb1b039491f8001a161b026991f800701c0d191f1b045092a29f9b95005050a49895501c050050999ea49f501c05eb030070919e9450a3a491a2a49594509c9591a6999e97509150a4a291999c5e031f681f0275100a1f02741b011d0f00001b011d0e00eb02",
+      "references": [
+        {
+          "offset": "3890F4",
+          "target": "3890FD",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3890F3",
+            "command_hex": "0afd90f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "389285",
+      "end": "38931C",
+      "english": [
+        "@",
+        " used",
+        "  the ",
+        "!",
+        "@",
+        " sensed a faint memory of his great-grandfather."
+      ],
+      "fr": [
+        "@",
+        " utilise",
+        "  ",
+        "!",
+        "@",
+        " ressent un vague souvenir de son arrière-grand-père."
+      ],
+      "spans": [
+        [
+          8,
+          9
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          21,
+          27
+        ],
+        [
+          30,
+          31
+        ],
+        [
+          69,
+          70
+        ],
+        [
+          73,
+          121
+        ]
+      ],
+      "original_hex": "06a6034292f80001701c0d191f1b0450a5a39594005050a49895501c050051131a11011b001d0d0101031b036c92f8001a11011b026c92f8001d0d0101021b036c92f80001701c020150a3959ea395945091509691999ea4509d959d9fa2a9509f96509899a35097a29591a45d97a2919e949691a49895a25e1318041f50040b00057f0105330406a5031c93f8001f21791f51050b0002",
+      "references": [
+        {
+          "offset": "3693D9",
+          "target": "389285",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3693D5",
+            "record_hex": "010004008592f8003390c200"
+          }
+        }
+      ]
+    },
+    {
+      "id": "389325",
+      "end": "389354",
+      "english": [
+        "@The ocarina played on and on..."
+      ],
+      "fr": [
+        "@L'ocarina continue de jouer sans fin..."
+      ],
+      "spans": [
+        [
+          1,
+          33
+        ]
+      ],
+      "original_hex": "0170849895509f9391a2999e9150a09c91a99594509f9e50919e94509f9e5e5e5e03100a1a0c13aaf800011f410902",
+      "references": [
+        {
+          "offset": "09FEFE",
+          "target": "389325",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "09FEFD",
+            "command_hex": "0a2593f800"
+          }
+        }
+      ]
+    },
+    {
+      "id": "38A2ED",
+      "end": "38A32A",
+      "english": [
+        "@The Magic butterfly made ",
+        " relax."
+      ],
+      "fr": [
+        "@Le papillon magique détend ",
+        "."
+      ],
+      "spans": [
+        [
+          13,
+          39
+        ],
+        [
+          44,
+          51
+        ]
+      ],
+      "original_hex": "1f15b0012200011f611801350170849895507d919799935092a5a4a495a2969ca9509d9194955008d7e6c70050a2959c91a85e1318041ff2b001210002",
+      "references": [
+        {
+          "offset": "06A726",
+          "target": "38A2ED",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "06A725",
+            "command_hex": "0aeda2f800"
+          }
+        }
+      ]
+    }
+  ]
+}
