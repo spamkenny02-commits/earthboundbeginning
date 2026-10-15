@@ -1,0 +1,1366 @@
+{
+  "method": "controlled_first_inventory_slot_then_normal_Objects_Help_menu",
+  "rom_modified_for_probe": false,
+  "inventory_wram_offset": "99F1",
+  "profiles": {
+    "accents": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "36e603dddca6dd902703df048347aab843de182b62664f5de1c86a0382922c45",
+        "save_ram_size": 8192
+      },
+      "items": [
+        {
+          "id": "355B94",
+          "item_id": 7,
+          "captures": [
+            {
+              "path": "355B94_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "af8b472d842d15df2192229f9ee6f06557f92eb507424b571d21cd3cd8d18bc0"
+            },
+            {
+              "path": "355B94_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f3a611b3a02d9acdb69804e9038a2221cf7c9f117c71d03dda70e14bc1b833a2"
+            },
+            {
+              "path": "355B94_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7b99f87f3341bc28d8fdfb1047ce705a58f87c33c353dc5d5292594314d6abc6"
+            },
+            {
+              "path": "355B94_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aac9fa33e34d209ffb99044211f505c83f2c4bc7bca5438936858ec820a49f46"
+            }
+          ]
+        },
+        {
+          "id": "355BC4",
+          "item_id": 17,
+          "captures": [
+            {
+              "path": "355BC4_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3bf0f4c9bf429007156548e4944c281baafc9889e93d526f45931c2d4834451d"
+            },
+            {
+              "path": "355BC4_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9d3fdb3b80bde5e82273beaaa271cb9cda1c9c0cee77a2bc57c540d2dcc177a6"
+            },
+            {
+              "path": "355BC4_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c47283a324c7b13c4ee06451064a0c4779f3b9aa20aaadacad8fa4aa7effc7ff"
+            },
+            {
+              "path": "355BC4_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b406143a45c939dfe8af9f911dd2ef6a93cd67581248436d458d38229b37978f"
+            }
+          ]
+        },
+        {
+          "id": "355BFE",
+          "item_id": 18,
+          "captures": [
+            {
+              "path": "355BFE_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4b6e8feda91d0ee07e8dc613429f8deb4b1208d26492015b876926b49a24af6b"
+            },
+            {
+              "path": "355BFE_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db95d9b5f8073ebc94fd675df07687ca82017d9398b61d03e5ee07b64c624219"
+            },
+            {
+              "path": "355BFE_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "27516927966ef72fbf97a8e2efa283b12390ea3436c071abb00b0b9ed589d594"
+            },
+            {
+              "path": "355BFE_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "433c6512969c4558f2e81869992a1caa3d3771ca4e9b922dfa92eca8b6f8050c"
+            }
+          ]
+        },
+        {
+          "id": "355C76",
+          "item_id": 19,
+          "captures": [
+            {
+              "path": "355C76_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9dfb526d4c5ac121783a0cde52e87e21b864587682286a013731f8c39e99f812"
+            },
+            {
+              "path": "355C76_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "75d3c31625556c8fc8909b0f73cb23e1dc98bc8693635b0a7f40cdd6069f1d5e"
+            },
+            {
+              "path": "355C76_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f6220274a9b63b3abea2abd68e422e311671f3cf6b978c101607fdeb99dc9070"
+            },
+            {
+              "path": "355C76_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3b40c7ab3d5f2c537095573b334588dad5ab324e214a57921ab6ac06cc0ce204"
+            }
+          ]
+        },
+        {
+          "id": "355E2B",
+          "item_id": 29,
+          "captures": [
+            {
+              "path": "355E2B_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8c1e00273e653a6bef1d6e3b5ec35fc698f046a8dd5fc48b8402c9582e84aa00"
+            },
+            {
+              "path": "355E2B_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4b2ac75647cdd2e6f9839eefaa04e8eeea33849a842d4dc9fa7f3c398d9ca475"
+            },
+            {
+              "path": "355E2B_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "47c2d3673cd83ab200ec428236841c211c72930bce8e9240dfbcc0e7f04e4a5e"
+            },
+            {
+              "path": "355E2B_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2bd0983a11803bc6f7ec5b8489a500ef4966741bf444214fdafd020c118c11a6"
+            }
+          ]
+        },
+        {
+          "id": "355EA8",
+          "item_id": 30,
+          "captures": [
+            {
+              "path": "355EA8_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3a3c5cc080cc3e21e28f53afd1e5f5696d263993160959008ca2dda22f275f3b"
+            },
+            {
+              "path": "355EA8_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e366a7b6eabd574302e3e1dca6ed15090deb94c32342c677957543edbaac62d7"
+            },
+            {
+              "path": "355EA8_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a53fa4990851eb3c520d4f9acc23e036a53e6066bd6c6b48337bd9f73e11df1b"
+            },
+            {
+              "path": "355EA8_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0cf96d9c003ead3572810dceeb97df21367573f44423f67abfc56bc8efbf0053"
+            }
+          ]
+        },
+        {
+          "id": "3562C1",
+          "item_id": 57,
+          "captures": [
+            {
+              "path": "3562C1_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fa4f042ad7fc897513f02d651ed69a192bb36c5078e7dbcaab3757b0fe1e1d17"
+            },
+            {
+              "path": "3562C1_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "6da3cf1d6f2dd0cbee397ecc7e94a8601adbca573f4702446d907ede98122488"
+            },
+            {
+              "path": "3562C1_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "22ec1770e252689a15a6c9e36c1e14827e16ead2f550690cda2985696c752a3b"
+            },
+            {
+              "path": "3562C1_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "540910ff6b9a8770e8de6d45cf8521a694c8c87f98685dbfcc6fbb1717c550f7"
+            }
+          ]
+        },
+        {
+          "id": "3562F6",
+          "item_id": 58,
+          "captures": [
+            {
+              "path": "3562F6_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cde7cca69f54dc9420b9e6ee09efb8f1fa67048efddd94a46077ee5d5a12cf0b"
+            },
+            {
+              "path": "3562F6_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9a7528c5b498556f80978cf4666d009c2cdae5ef8394926c1c2840aec2312af8"
+            },
+            {
+              "path": "3562F6_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8891946bbae34d75a1d461ffdaa817ab099ad2aa8f5470a8606c59a011d57dce"
+            },
+            {
+              "path": "3562F6_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3aad4e4d08900be797259169382f460469ae46c5483a8447e82238e5042a88f0"
+            }
+          ]
+        },
+        {
+          "id": "356329",
+          "item_id": 60,
+          "captures": [
+            {
+              "path": "356329_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d2836d391cf30bf1402a02b40a08fa5a03b7c6517e39babbaaec3505d8f4448f"
+            },
+            {
+              "path": "356329_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "eb1a2c66e8ff3840ab8ae3f54d0d034f1c79c10c89e4813f4b01734c51ed9d3f"
+            },
+            {
+              "path": "356329_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f12e46f54261c4aaf90eaedcfd3055a6f571d152fa10336cad14880b7da2ebe0"
+            },
+            {
+              "path": "356329_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aece512b8ae6f2df88d5000f02f2d52d67e0b675071920223bff42377957cc86"
+            }
+          ]
+        },
+        {
+          "id": "356360",
+          "item_id": 59,
+          "captures": [
+            {
+              "path": "356360_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4d2b15278e6fdf6118b3ef7832d21b5ba2a5cbb9aba43770c9b47f2313fa9b2f"
+            },
+            {
+              "path": "356360_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "89e9fd8293236840c06935fba70480458156c00b719a2dbc6ab49ddfa3a0fd8b"
+            },
+            {
+              "path": "356360_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d68fda79fe7d596010f80e221e92ed1ea76812dd88bab0336153615fa8c707cb"
+            },
+            {
+              "path": "356360_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "eeaab77396b3c9e274687ce57716fc5e933b81ed659c3b883604014de335adca"
+            }
+          ]
+        },
+        {
+          "id": "356396",
+          "item_id": 61,
+          "captures": [
+            {
+              "path": "356396_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2d123dd4ff1f69a704280581953fe6a2efe723c7bea2e412a0c81998c3735ed8"
+            },
+            {
+              "path": "356396_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "791e1b85238d451dcc05b7982d8d1476548c02c73e82d393055edcadc2533697"
+            },
+            {
+              "path": "356396_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8a6600f3ec8bd1a6b5da1c8f14e64f035f243a1a38842856c6fcff6589a5c92b"
+            },
+            {
+              "path": "356396_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "50bca758b93dcc986b7152e8cfc065a11f3e3884deafa2d4564ab36e46071406"
+            }
+          ]
+        },
+        {
+          "id": "3563DD",
+          "item_id": 62,
+          "captures": [
+            {
+              "path": "3563DD_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7e60a5c1457713773994a31617bd7e5da285797a721bbc4b6e1483b28c7e2e30"
+            },
+            {
+              "path": "3563DD_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cc7fcc4ec0606b9b8893ca20888fce2ac09b8f02ae8ef9a8a165234866b0bc42"
+            },
+            {
+              "path": "3563DD_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1c6302a74cad102804a4434cf1565f1cdd92610f6c709f1a74abb2fba7dd44c7"
+            },
+            {
+              "path": "3563DD_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d7812423b49a72857ca7b89b911d9881fae672191261be2aeff393d055a0bce6"
+            }
+          ]
+        },
+        {
+          "id": "35642F",
+          "item_id": 75,
+          "captures": [
+            {
+              "path": "35642F_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9b0ce8e3bb8f3d70d90ed0efc882f85999afe7409efceabb9e1486b569fcb95b"
+            },
+            {
+              "path": "35642F_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b5c4afbb95f0606d3b0c8c301bb3564b75a5a9ebcc0c574529685dce154c25dd"
+            },
+            {
+              "path": "35642F_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "305ae85b4c694bcf56d7809a4c1f54d77464a2743e5c27b41b6b07c5a1ecef66"
+            },
+            {
+              "path": "35642F_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ded6d5f9e10a9bd0205b019cd1659847d91977aec384c6719f5e78e141f31340"
+            }
+          ]
+        },
+        {
+          "id": "3564B7",
+          "item_id": 77,
+          "captures": [
+            {
+              "path": "3564B7_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "27528fc736de0a1cfa677cebbaec89f0fd7da783a9d9c88d8b849ed3664b4c42"
+            },
+            {
+              "path": "3564B7_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "414fec1e8d8f642a2d26457c88f0b01ae5fe1a69242059bc55a2626beb22b2a4"
+            },
+            {
+              "path": "3564B7_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b624d098b1b3ab7da84cf4786f2550e14ee151d8cd7438a0603d1ee695949a85"
+            },
+            {
+              "path": "3564B7_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d1431415d4ebc3e180ee3f9a2ae8b5ce8362d7b9d62b8e329422ce88020c2f1"
+            }
+          ]
+        },
+        {
+          "id": "3569ED",
+          "item_id": 138,
+          "captures": [
+            {
+              "path": "3569ED_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f8d6c5e4fd06a7c7334188389798a0fa610403013a0f7690ddb6f2c727edffd4"
+            },
+            {
+              "path": "3569ED_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ad7de5fb0eacba7948b357d6df63798df9db21ea8076738ad83b322fb628ec3b"
+            },
+            {
+              "path": "3569ED_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9b679d7b983a2b4caf0b7b3072b6a8f244c5894f8ca79f4c019b081ac3406334"
+            },
+            {
+              "path": "3569ED_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "047f7150b9c9f33171f89e5c1a1aeb8af76df2e3b1381a2c93924e0f2493c606"
+            }
+          ]
+        },
+        {
+          "id": "356B30",
+          "item_id": 144,
+          "captures": [
+            {
+              "path": "356B30_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5e23679238ae41012dd00fd2b7b3ea6b982cef609fd3b885c100524e4db617d6"
+            },
+            {
+              "path": "356B30_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "dbfc872b6ea44bf64567ad363981aad807aee6c3a289e636e7d25ab3083dbb3f"
+            },
+            {
+              "path": "356B30_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d713cdd69dc4a3a253d5a1506219d15335d38cff836f61817a40be57c3221579"
+            },
+            {
+              "path": "356B30_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "94307b37b06b072c0e7f30fc1e2bae43188da8c7b694bd8ea9a445c63e91a2a5"
+            }
+          ]
+        },
+        {
+          "id": "357097",
+          "item_id": 178,
+          "captures": [
+            {
+              "path": "357097_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "dc7dd38c892caed61d8c8f078e8e0a4d38bd5d46c045722c5627e39c8750d827"
+            },
+            {
+              "path": "357097_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fe836e0c6ac1cd4ac784cfa77bcb7c607f23dccf7690e5a299c09ccacfc97698"
+            },
+            {
+              "path": "357097_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8af6284eb2fcf3b0be42382e2491d1df3abcb5bd04e26812f50c4b340e1219e7"
+            },
+            {
+              "path": "357097_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4acdbbde9e4549e5de0caa8f6fcfc054c748cc37b43f573679eb30a8da323da0"
+            }
+          ]
+        },
+        {
+          "id": "35710C",
+          "item_id": 180,
+          "captures": [
+            {
+              "path": "35710C_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "50b080d167596751360299a7adc2ecb38c43fdccd6a14cb86b9aef8f126d8692"
+            },
+            {
+              "path": "35710C_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2e3e2234d1dbd7035b3c8f1df6d5054cd526c5c783ac9cf6f345f5e4ac641d4d"
+            },
+            {
+              "path": "35710C_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5a64b2e516be5ac0a5b6730ffd41a6cb63cd86c65f054b51d4e8a409e54a86c0"
+            },
+            {
+              "path": "35710C_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9493a13a3afb430b1e3c2da5db0e4e826ae9b9f840f9148b725def8b514558b9"
+            }
+          ]
+        },
+        {
+          "id": "3572E9",
+          "item_id": 203,
+          "captures": [
+            {
+              "path": "3572E9_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1d9473998dfda513bd51f78a0cd392ea1f6e51e75a2533dfe4b1f30ad590f90b"
+            },
+            {
+              "path": "3572E9_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "76eedbade28397b091fd9d3da2a8fcc42f3c53eb06ecec25f612e27dd53d1de2"
+            },
+            {
+              "path": "3572E9_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8c66cf8e748deef9d1faa52a416d6559f97e486c298ccd6ab8011b0e25c6dd1b"
+            },
+            {
+              "path": "3572E9_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5584b321ec16660d3b7f42430fe628337964eb363e4056ebb864ae0879adb747"
+            }
+          ]
+        },
+        {
+          "id": "35731B",
+          "item_id": 204,
+          "captures": [
+            {
+              "path": "35731B_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "02e7e1df0774ddce610b9b2a4af955ce29fec4e7a92d8ba7cae71e8cb70fd588"
+            },
+            {
+              "path": "35731B_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fd6ba57a09ad65a5dc801915fa38df897bcc1d1bf9e7565e23fa5bac8ce92d51"
+            },
+            {
+              "path": "35731B_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b254c31d5b6de6efc47b112220b49b213b7b9c1de592f5c1a02483d2f5835142"
+            },
+            {
+              "path": "35731B_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "6dbcf864847de7f813fee45a83b85c7c114c9dfa9da98404ea9bb8d224eb7706"
+            }
+          ]
+        },
+        {
+          "id": "357577",
+          "item_id": 230,
+          "captures": [
+            {
+              "path": "357577_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5d8dba955b25b9c0d0c69819cfb9db01c6987920189d35d4df2d52dea5f73314"
+            },
+            {
+              "path": "357577_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a68c80bd91801a4dc8da20ff59eee2660d8f44fae2d82301fb90d8d3db0092a9"
+            },
+            {
+              "path": "357577_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "12390e084995f46fc3f1529f0b1763fe584ab94368929264fa27399dd9514c30"
+            },
+            {
+              "path": "357577_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "edab39a291e70ab93cb2eeeb221748e116aaf71b280d5f057d8fe24ac1dc5e1a"
+            }
+          ]
+        },
+        {
+          "id": "35762F",
+          "item_id": 233,
+          "captures": [
+            {
+              "path": "35762F_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b521c872403beb40f2ed394229c0f174e46d57a18b14108156103e06fc1ecdb2"
+            },
+            {
+              "path": "35762F_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c90fe61b673b64195264d601698e0048598aba301fca0249952169ef31a8ebc2"
+            },
+            {
+              "path": "35762F_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ed2d92169b46d6f74ad2170606f4aa92429175b354efc151c559d84f3d3fce1c"
+            },
+            {
+              "path": "35762F_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d1d1b0fbe014d8fb5f9d14b4659f964bf726de4eb4006ec746bbb296a52b2af9"
+            }
+          ]
+        }
+      ],
+      "returncode": 0
+    },
+    "ascii": {
+      "ready": {
+        "ready": true,
+        "core": "Snes9x",
+        "version": "1.63 1bcc369",
+        "source_sha256": "5ba7492c8d38b71b57d58b8df945b6ab7e6ca05bab880c2642664786713297f3",
+        "save_ram_size": 8192
+      },
+      "items": [
+        {
+          "id": "355B94",
+          "item_id": 7,
+          "captures": [
+            {
+              "path": "355B94_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "af8b472d842d15df2192229f9ee6f06557f92eb507424b571d21cd3cd8d18bc0"
+            },
+            {
+              "path": "355B94_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "52299e44605383230dd183ff5144dd5441d3407dd07f7a5b114d106bdea73055"
+            },
+            {
+              "path": "355B94_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7b99f87f3341bc28d8fdfb1047ce705a58f87c33c353dc5d5292594314d6abc6"
+            },
+            {
+              "path": "355B94_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aac9fa33e34d209ffb99044211f505c83f2c4bc7bca5438936858ec820a49f46"
+            }
+          ]
+        },
+        {
+          "id": "355BC4",
+          "item_id": 17,
+          "captures": [
+            {
+              "path": "355BC4_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3bf0f4c9bf429007156548e4944c281baafc9889e93d526f45931c2d4834451d"
+            },
+            {
+              "path": "355BC4_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "714e47a789237303bc7b55014784e96f94f495073a04122b7bee8954e8032fed"
+            },
+            {
+              "path": "355BC4_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c47283a324c7b13c4ee06451064a0c4779f3b9aa20aaadacad8fa4aa7effc7ff"
+            },
+            {
+              "path": "355BC4_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b406143a45c939dfe8af9f911dd2ef6a93cd67581248436d458d38229b37978f"
+            }
+          ]
+        },
+        {
+          "id": "355BFE",
+          "item_id": 18,
+          "captures": [
+            {
+              "path": "355BFE_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4b6e8feda91d0ee07e8dc613429f8deb4b1208d26492015b876926b49a24af6b"
+            },
+            {
+              "path": "355BFE_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5f942e9340d2195a22d3ef856deaaa16058a6cab115caf73c42ce1f1a439d70f"
+            },
+            {
+              "path": "355BFE_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "27516927966ef72fbf97a8e2efa283b12390ea3436c071abb00b0b9ed589d594"
+            },
+            {
+              "path": "355BFE_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "433c6512969c4558f2e81869992a1caa3d3771ca4e9b922dfa92eca8b6f8050c"
+            }
+          ]
+        },
+        {
+          "id": "355C76",
+          "item_id": 19,
+          "captures": [
+            {
+              "path": "355C76_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9dfb526d4c5ac121783a0cde52e87e21b864587682286a013731f8c39e99f812"
+            },
+            {
+              "path": "355C76_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "71c1dd5510da2b940f8ec0efb050479b9fed349573aa0550fcb5325f40376ebf"
+            },
+            {
+              "path": "355C76_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f6220274a9b63b3abea2abd68e422e311671f3cf6b978c101607fdeb99dc9070"
+            },
+            {
+              "path": "355C76_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3b40c7ab3d5f2c537095573b334588dad5ab324e214a57921ab6ac06cc0ce204"
+            }
+          ]
+        },
+        {
+          "id": "355E2B",
+          "item_id": 29,
+          "captures": [
+            {
+              "path": "355E2B_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9c20a328a98558c0f82a6e2b1533a7a92fdf66d3db4a8732b55733322b21ee5e"
+            },
+            {
+              "path": "355E2B_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0ddecb0838638fe68e682129ae2cab3de926dce0be96081fb211725e13ddaa1f"
+            },
+            {
+              "path": "355E2B_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cf5fd0f928f6b4002e9cff67b7fe2ec9ff254b5921675b692936353506f31f18"
+            },
+            {
+              "path": "355E2B_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2e7d30f5349c5964bedabd18fc8d31db64644eae0f6bdabe5c5a2dbc849102fb"
+            }
+          ]
+        },
+        {
+          "id": "355EA8",
+          "item_id": 30,
+          "captures": [
+            {
+              "path": "355EA8_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c7fd6627811a3dcbcfc9c31a799cca888667e5df4d5c2c6fa2e9420b43c661d2"
+            },
+            {
+              "path": "355EA8_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7721befb5c672560497f3e85da5d49ff22572b0c46a722eb9b01b18a747416b4"
+            },
+            {
+              "path": "355EA8_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2d3c2aa72f29c985a721ad288ab043948a7c3cb27d1b42ec9ca5983ac89d83fe"
+            },
+            {
+              "path": "355EA8_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ff4667c25a919f21c41b68fcaf6a0203cdcab3153a9104cdd740c02f8eaa5b2a"
+            }
+          ]
+        },
+        {
+          "id": "3562C1",
+          "item_id": 57,
+          "captures": [
+            {
+              "path": "3562C1_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fa4f042ad7fc897513f02d651ed69a192bb36c5078e7dbcaab3757b0fe1e1d17"
+            },
+            {
+              "path": "3562C1_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "6da3cf1d6f2dd0cbee397ecc7e94a8601adbca573f4702446d907ede98122488"
+            },
+            {
+              "path": "3562C1_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "dae903f614e2528df86fa1956bcd2e62218ed652a60940c6c69e1804be58ca67"
+            },
+            {
+              "path": "3562C1_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "540910ff6b9a8770e8de6d45cf8521a694c8c87f98685dbfcc6fbb1717c550f7"
+            }
+          ]
+        },
+        {
+          "id": "3562F6",
+          "item_id": 58,
+          "captures": [
+            {
+              "path": "3562F6_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cde7cca69f54dc9420b9e6ee09efb8f1fa67048efddd94a46077ee5d5a12cf0b"
+            },
+            {
+              "path": "3562F6_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9a7528c5b498556f80978cf4666d009c2cdae5ef8394926c1c2840aec2312af8"
+            },
+            {
+              "path": "3562F6_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a3295b7847df349c55f67490d8f5147ef7564f550ed52e05f62fe3c90d8cddd3"
+            },
+            {
+              "path": "3562F6_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3aad4e4d08900be797259169382f460469ae46c5483a8447e82238e5042a88f0"
+            }
+          ]
+        },
+        {
+          "id": "356329",
+          "item_id": 60,
+          "captures": [
+            {
+              "path": "356329_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d2836d391cf30bf1402a02b40a08fa5a03b7c6517e39babbaaec3505d8f4448f"
+            },
+            {
+              "path": "356329_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "eb1a2c66e8ff3840ab8ae3f54d0d034f1c79c10c89e4813f4b01734c51ed9d3f"
+            },
+            {
+              "path": "356329_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5dc9e2fa8bc1d5b11d98bc785ac4a46fa0dcb0f71ff12d15831eae9c0aab43ad"
+            },
+            {
+              "path": "356329_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aece512b8ae6f2df88d5000f02f2d52d67e0b675071920223bff42377957cc86"
+            }
+          ]
+        },
+        {
+          "id": "356360",
+          "item_id": 59,
+          "captures": [
+            {
+              "path": "356360_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4d2b15278e6fdf6118b3ef7832d21b5ba2a5cbb9aba43770c9b47f2313fa9b2f"
+            },
+            {
+              "path": "356360_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "89e9fd8293236840c06935fba70480458156c00b719a2dbc6ab49ddfa3a0fd8b"
+            },
+            {
+              "path": "356360_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "36efd90922f212dbd98598a5941aa2ab155c71c4cb851168939b35e988d90075"
+            },
+            {
+              "path": "356360_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "eeaab77396b3c9e274687ce57716fc5e933b81ed659c3b883604014de335adca"
+            }
+          ]
+        },
+        {
+          "id": "356396",
+          "item_id": 61,
+          "captures": [
+            {
+              "path": "356396_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2d123dd4ff1f69a704280581953fe6a2efe723c7bea2e412a0c81998c3735ed8"
+            },
+            {
+              "path": "356396_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "791e1b85238d451dcc05b7982d8d1476548c02c73e82d393055edcadc2533697"
+            },
+            {
+              "path": "356396_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9ee3e2744c51791309551dacfe6744b1a67ff6b58d899adc268ca24f2e90af55"
+            },
+            {
+              "path": "356396_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "50bca758b93dcc986b7152e8cfc065a11f3e3884deafa2d4564ab36e46071406"
+            }
+          ]
+        },
+        {
+          "id": "3563DD",
+          "item_id": 62,
+          "captures": [
+            {
+              "path": "3563DD_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ae95ac98871628c5af1d4f64e68e57c165142b4cb90143db879bd0ae840085f3"
+            },
+            {
+              "path": "3563DD_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "014902c47bcf8c8ed806f53ebcecdb7b46f1fb94b114473abbd06a584ae5f6b8"
+            },
+            {
+              "path": "3563DD_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "84ddb8c03522b71ad4df6bb9e38c39b338cf1bd028d346652326614a093e146b"
+            },
+            {
+              "path": "3563DD_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "51c56e1e3a185cffc4d8611bd37c2aa98fea2f65e0c7222aa4c5d3eaaf24f70b"
+            }
+          ]
+        },
+        {
+          "id": "35642F",
+          "item_id": 75,
+          "captures": [
+            {
+              "path": "35642F_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9b0ce8e3bb8f3d70d90ed0efc882f85999afe7409efceabb9e1486b569fcb95b"
+            },
+            {
+              "path": "35642F_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "952befcbb2611ab86925ef77b1e9f14f540498edc3966927480a4d22536e9ce5"
+            },
+            {
+              "path": "35642F_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "305ae85b4c694bcf56d7809a4c1f54d77464a2743e5c27b41b6b07c5a1ecef66"
+            },
+            {
+              "path": "35642F_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ded6d5f9e10a9bd0205b019cd1659847d91977aec384c6719f5e78e141f31340"
+            }
+          ]
+        },
+        {
+          "id": "3564B7",
+          "item_id": 77,
+          "captures": [
+            {
+              "path": "3564B7_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "27528fc736de0a1cfa677cebbaec89f0fd7da783a9d9c88d8b849ed3664b4c42"
+            },
+            {
+              "path": "3564B7_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2b61852a2bd7f18f6d110482bb13b70d0ab4dc6c198ebf0e4dbefe75a3de34f8"
+            },
+            {
+              "path": "3564B7_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b624d098b1b3ab7da84cf4786f2550e14ee151d8cd7438a0603d1ee695949a85"
+            },
+            {
+              "path": "3564B7_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d1431415d4ebc3e180ee3f9a2ae8b5ce8362d7b9d62b8e329422ce88020c2f1"
+            }
+          ]
+        },
+        {
+          "id": "3569ED",
+          "item_id": 138,
+          "captures": [
+            {
+              "path": "3569ED_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "230fbd0af4481df53a83b4ff2400fcce11188c30cf0d5e731d9e6ea9b9b5a38d"
+            },
+            {
+              "path": "3569ED_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d3c2372c5e73bc74f69de2948cda6241fa2f59b5a3cb20f7e18806d77df45310"
+            },
+            {
+              "path": "3569ED_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9b679d7b983a2b4caf0b7b3072b6a8f244c5894f8ca79f4c019b081ac3406334"
+            },
+            {
+              "path": "3569ED_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "047f7150b9c9f33171f89e5c1a1aeb8af76df2e3b1381a2c93924e0f2493c606"
+            }
+          ]
+        },
+        {
+          "id": "356B30",
+          "item_id": 144,
+          "captures": [
+            {
+              "path": "356B30_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fe846af9645de9ddbbee6b1ce65d00c89142e6ae5a68829176080201c1e2802c"
+            },
+            {
+              "path": "356B30_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fc9eb3bef504f8f4a3a4374ca944f8094590668206f5eb884ca84cabd8f2d84c"
+            },
+            {
+              "path": "356B30_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fe7652aeefa4559c7ee5313c65f7671daf806cdff12c09604c0dd6000d55da77"
+            },
+            {
+              "path": "356B30_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "94307b37b06b072c0e7f30fc1e2bae43188da8c7b694bd8ea9a445c63e91a2a5"
+            }
+          ]
+        },
+        {
+          "id": "357097",
+          "item_id": 178,
+          "captures": [
+            {
+              "path": "357097_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "dc7dd38c892caed61d8c8f078e8e0a4d38bd5d46c045722c5627e39c8750d827"
+            },
+            {
+              "path": "357097_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "136a6556d57e65a7b0e0586b3f0aa39abdc646b8364b5d7755862867e0a89bb9"
+            },
+            {
+              "path": "357097_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8af6284eb2fcf3b0be42382e2491d1df3abcb5bd04e26812f50c4b340e1219e7"
+            },
+            {
+              "path": "357097_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4acdbbde9e4549e5de0caa8f6fcfc054c748cc37b43f573679eb30a8da323da0"
+            }
+          ]
+        },
+        {
+          "id": "35710C",
+          "item_id": 180,
+          "captures": [
+            {
+              "path": "35710C_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "50b080d167596751360299a7adc2ecb38c43fdccd6a14cb86b9aef8f126d8692"
+            },
+            {
+              "path": "35710C_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2e3e2234d1dbd7035b3c8f1df6d5054cd526c5c783ac9cf6f345f5e4ac641d4d"
+            },
+            {
+              "path": "35710C_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5a64b2e516be5ac0a5b6730ffd41a6cb63cd86c65f054b51d4e8a409e54a86c0"
+            },
+            {
+              "path": "35710C_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9493a13a3afb430b1e3c2da5db0e4e826ae9b9f840f9148b725def8b514558b9"
+            }
+          ]
+        },
+        {
+          "id": "3572E9",
+          "item_id": 203,
+          "captures": [
+            {
+              "path": "3572E9_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1d9473998dfda513bd51f78a0cd392ea1f6e51e75a2533dfe4b1f30ad590f90b"
+            },
+            {
+              "path": "3572E9_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "76eedbade28397b091fd9d3da2a8fcc42f3c53eb06ecec25f612e27dd53d1de2"
+            },
+            {
+              "path": "3572E9_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8c66cf8e748deef9d1faa52a416d6559f97e486c298ccd6ab8011b0e25c6dd1b"
+            },
+            {
+              "path": "3572E9_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5584b321ec16660d3b7f42430fe628337964eb363e4056ebb864ae0879adb747"
+            }
+          ]
+        },
+        {
+          "id": "35731B",
+          "item_id": 204,
+          "captures": [
+            {
+              "path": "35731B_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "02e7e1df0774ddce610b9b2a4af955ce29fec4e7a92d8ba7cae71e8cb70fd588"
+            },
+            {
+              "path": "35731B_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fd6ba57a09ad65a5dc801915fa38df897bcc1d1bf9e7565e23fa5bac8ce92d51"
+            },
+            {
+              "path": "35731B_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b254c31d5b6de6efc47b112220b49b213b7b9c1de592f5c1a02483d2f5835142"
+            },
+            {
+              "path": "35731B_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "6dbcf864847de7f813fee45a83b85c7c114c9dfa9da98404ea9bb8d224eb7706"
+            }
+          ]
+        },
+        {
+          "id": "357577",
+          "item_id": 230,
+          "captures": [
+            {
+              "path": "357577_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5d8dba955b25b9c0d0c69819cfb9db01c6987920189d35d4df2d52dea5f73314"
+            },
+            {
+              "path": "357577_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a68c80bd91801a4dc8da20ff59eee2660d8f44fae2d82301fb90d8d3db0092a9"
+            },
+            {
+              "path": "357577_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "12390e084995f46fc3f1529f0b1763fe584ab94368929264fa27399dd9514c30"
+            },
+            {
+              "path": "357577_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "edab39a291e70ab93cb2eeeb221748e116aaf71b280d5f057d8fe24ac1dc5e1a"
+            }
+          ]
+        },
+        {
+          "id": "35762F",
+          "item_id": 233,
+          "captures": [
+            {
+              "path": "35762F_page1.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "bbce5d5cb9f6c44205352d567544938ee1b8a1e8e2e9edfaf57bd05d172404f5"
+            },
+            {
+              "path": "35762F_page2.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "514edf34d245a7d079a6950f36669cefbb13a657f0075ef5861c875cfb4d3a07"
+            },
+            {
+              "path": "35762F_page3.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "dd9de61e6a22fa3c691a2e302f031187749f1219022cc473becef9dd297f17d5"
+            },
+            {
+              "path": "35762F_page4.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2bd7b445af67a565a5875b748298542a3f6385874deafb9671281d32700da96f"
+            }
+          ]
+        }
+      ],
+      "returncode": 0
+    }
+  },
+  "visual_review": {
+    "checked_descriptions_per_profile": 22,
+    "glyphs_and_dynamic_names": "readable",
+    "wrapping_and_pagination": "readable",
+    "clipping_or_garbled_new_description_text_detected": false,
+    "natural_item_acquisition_tested": false,
+    "untranslated_auxiliary_text_detected": [
+      "Use / Eat / Give / Drop / Help!",
+      "Must be equipped on your body.",
+      "Items for Lloyd.",
+      "Ana/Teddy can equip this weapon.",
+      "Can be used many times.",
+      "Damages an enemy when used during battle."
+    ]
+  }
+}

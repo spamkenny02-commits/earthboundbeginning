@@ -13,4 +13,4 @@ ROM_PATH='/chemin/original.sfc' python -m unittest tools/v39/test_v39.py tools/v
 
 Traductions : `translations_v39.json`. Sources et références : `v39_descriptions_fr.json`. Empreintes et implantations : `validation_v39.json`.
 
-Le parcours de régression sous Snes9x ne constitue pas une validation du rendu de ces descriptions. Leurs déclencheurs réels restent à vérifier dans une partie possédant les objets concernés.
+Un contrôle complémentaire affiche les 22 descriptions dans chaque profil via le menu normal Objets → Help!, avec un inventaire temporaire en WRAM. Textes, glyphes et pagination sont relus ; l'acquisition naturelle et l'usage en combat ne sont pas couverts. Voir `tests/emulation_v39/RAPPORT_EMULATION_V39.md` et ses quatre planches de preuve.

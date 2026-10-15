@@ -18,7 +18,7 @@ Les tests V39 vérifient la provenance des octets sources, les références, les
 
 Le parcours normal Snes9x 1.63 est rejoué dans les deux profils jusqu'à l'image 25 803 : titre, introduction, premier combat, après-combat, restauration d'état et menu conformes. Les deux différences de captures avec V18 sont les bannières VICTOIRE déjà attendues depuis V36.
 
-**Limite : les 22 nouvelles descriptions n'ont pas été affichées par leurs déclencheurs réels.** Le parcours de régression ne prouve pas leur mise en page à l'écran. Une partie possédant les objets concernés reste nécessaire.
+**Contrôle d'affichage complémentaire : 22/22 descriptions relues dans chaque profil (44 cas).** Le premier objet de l'inventaire est remplacé temporairement en WRAM ; la ROM V39 reste identique. La description est ouverte par le menu normal Objets → Help!. Accents, noms dynamiques, retours à la ligne et pagination sont lisibles, sans texte nouveau tronqué détecté. L'acquisition naturelle des objets n'est pas testée. Les préambules d'équipement, certaines indications d'usage et les actions du menu sont encore anglais ; ils sont extérieurs au lot V39. Voir les preuves et la méthode dans le rapport Snes9x.
 
 ## Fichiers
 
@@ -28,4 +28,4 @@ Le parcours normal Snes9x 1.63 est rejoué dans les deux profils jusqu'à l'imag
 - [IPS ASCII](patches/EarthBound_Beginnings_FR_v39_ascii.ips)
 - [Régression Snes9x](tests/emulation_v39/RAPPORT_EMULATION_V39.md)
 
-Aucune ROM, aucun état d'émulateur, capture temporaire ou coeur n'est publié.
+Aucune ROM, aucun état d'émulateur ni coeur n'est publié. Quatre planches de captures de contrôle sont conservées comme preuves d'affichage.

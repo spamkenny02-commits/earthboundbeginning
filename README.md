@@ -10,7 +10,7 @@ V39 traduit **22 descriptions d'objets**, soit **32 fragments réellement nouvea
 - [Traductions, constructeur et tests](tools/v39/README_V39.md)
 - [Régression Snes9x et limites](tests/emulation_v39/RAPPORT_EMULATION_V39.md)
 
-Appliquer **un seul IPS V39 directement à la ROM originale USA 1.2**. 94 tests locaux réussis et parcours normal Snes9x conforme dans les deux profils. L'affichage des nouvelles descriptions par leurs déclencheurs réels reste à vérifier. Aucune ROM distribuée.
+Appliquer **un seul IPS V39 directement à la ROM originale USA 1.2**. 94 tests locaux réussis et parcours normal Snes9x conforme dans les deux profils. Les 22 descriptions ont été relues dans chaque profil via Objets → Help!, avec un inventaire de test contrôlé : retours à la ligne, accents et noms dynamiques lisibles. L'acquisition naturelle des objets n'est pas couverte ; des messages annexes restent anglais. Aucune ROM distribuée.
 
 ## Version précédente : V38 (traduction partielle)
 
