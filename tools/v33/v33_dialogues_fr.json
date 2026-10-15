@@ -1,0 +1,2474 @@
+{
+  "version": "v33",
+  "base": "v32",
+  "protected_original_ranges": [
+    [
+      3389980,
+      3390504
+    ],
+    [
+      3390504,
+      3390893
+    ],
+    [
+      3391397,
+      3391781
+    ],
+    [
+      3392672,
+      3392925
+    ],
+    [
+      3392930,
+      3393063
+    ],
+    [
+      3399360,
+      3399550
+    ],
+    [
+      3450887,
+      3451024
+    ],
+    [
+      3451880,
+      3452292
+    ],
+    [
+      3473438,
+      3473522
+    ],
+    [
+      3530466,
+      3530820
+    ],
+    [
+      3541917,
+      3542032
+    ],
+    [
+      3555498,
+      3555613
+    ],
+    [
+      3559502,
+      3559632
+    ],
+    [
+      3658515,
+      3658708
+    ],
+    [
+      3490541,
+      3490797
+    ],
+    [
+      3496059,
+      3496218
+    ],
+    [
+      3383113,
+      3383354
+    ],
+    [
+      3393861,
+      3393962
+    ],
+    [
+      3395747,
+      3395905
+    ],
+    [
+      3400559,
+      3400751
+    ],
+    [
+      3405746,
+      3405919
+    ],
+    [
+      3407080,
+      3407225
+    ],
+    [
+      3441628,
+      3441862
+    ],
+    [
+      3443184,
+      3443484
+    ],
+    [
+      3443538,
+      3443812
+    ],
+    [
+      3491936,
+      3492401
+    ],
+    [
+      3527607,
+      3528383
+    ],
+    [
+      3531458,
+      3531658
+    ],
+    [
+      3532214,
+      3532548
+    ],
+    [
+      3539452,
+      3540124
+    ],
+    [
+      3579060,
+      3579291
+    ],
+    [
+      3645395,
+      3646379
+    ]
+  ],
+  "scripts": [
+    {
+      "id": "33C628",
+      "end": "33C668",
+      "english_script": "@(I understand... [10 0F][10 0F] It's a really good bone. Life is ruff.)[13][02]",
+      "original_hex": "70587950a59e9495a2a3a4919e945e5e5e50100f100f5079a457a3509150a295919c9ca950979f9f9450929f9e955e507c9996955099a350a2a596965e591302",
+      "baseline_hex": {
+        "accents": "70587a9550939f9da0a2959e94a35e5e5e50100f100f5079a457a3509150a295919c9ca950979f9f9450929f9e955e507c9996955099a350a2a596965e591302",
+        "ascii": "70587a9550939f9da0a2959e94a35e5e5e50100f100f5079a457a3509150a295919c9ca950979f9f9450929f9e955e507c9996955099a350a2a596965e591302"
+      },
+      "spans": [
+        [
+          1,
+          18
+        ],
+        [
+          22,
+          62
+        ]
+      ],
+      "fr": [
+        "(Je comprends... ",
+        " C'est un très bon os. Quelle vie de chien!)"
+      ],
+      "entry_refs": [
+        "2929EA",
+        "33C51F"
+      ],
+      "verified_prior_copy_refs": [
+        "2929EA"
+      ],
+      "preserved_aliases": [
+        {
+          "offset": "157787",
+          "target": "33C65A"
+        }
+      ]
+    },
+    {
+      "id": "33CAA1",
+      "end": "33CB36",
+      "english_script": "[1F 02 6F][10 28][18 01 35]@Don't you dare open that door!\n@My bones ache horribly with this frosty weather.\n@I don't know why I even came to this forsaken place![13][18 00][02]",
+      "original_hex": "1f026f102818013570749f9e57a450a99fa5509491a295509fa0959e50a49891a450949f9fa2510300707da950929f9e95a3509193989550989fa2a299929ca950a799a49850a49899a35096a29fa3a4a950a79591a49895a25e0300707950949f9e57a4509b9e9fa750a798a950795095a6959e5093919d9550a49f50a49899a350969fa2a3919b959e50a09c9193955113180002",
+      "baseline_hex": {
+        "accents": "1f026f1028180135707e579fa39550a091a3509fa5a6a299a2509395a4a49550a09fa2a495505103007073955096a29f999450979c919399919c509d9550969199a4509d919c5091a5a8509fa35e5050505050505050505050500300707950949f9e57a4509b9e9fa750a798a950795095a6959e5093919d9550a49f50a49899a350969fa2a3919b959e50a09c9193955113180002",
+        "ascii": "1f026f1028180135707e579fa39550a091a3509fa5a6a299a2509395a4a49550a09fa2a495505103007073955096a29f999450979c919399919c509d9550969199a4509d919c5091a5a8509fa35e5050505050505050505050500300707950949f9e57a4509b9e9fa750a798a950795095a6959e5093919d9550a49f50a49899a350969fa2a3919b959e50a09c9193955113180002"
+      },
+      "spans": [
+        [
+          9,
+          39
+        ],
+        [
+          42,
+          90
+        ],
+        [
+          93,
+          145
+        ]
+      ],
+      "fr": [
+        "N'ouvre surtout pas cette porte!",
+        "Ce froid me fait horriblement mal aux os.",
+        "Pourquoi suis-je venu dans ce trou perdu?!"
+      ],
+      "entry_refs": [
+        "0F1AC6"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0D5752",
+          "target": "33CB1E"
+        }
+      ]
+    },
+    {
+      "id": "33D1ED",
+      "end": "33D23F",
+      "english_script": "@Jack of all stays!\n@Master of FUN!\n@Nightly rates available.\n  Inquire inside.[13][02]",
+      "original_hex": "707a91939b509f9650919c9c50a3a491a9a35100707d91a3a495a2509f965076857e510300707e999798a49ca950a291a495a35091a691999c91929c955e005050799ea1a599a29550999ea39994955e1302",
+      "baseline_hex": {
+        "accents": "70739895aa507a91939b5051505050505050500070829f995094a55076857e505150500300707e999798a49ca950a291a495a35091a691999c91929c955e005050759ea4a295aa50949f9e935e5050501302",
+        "ascii": "70739895aa507a91939b5051505050505050500070829f995094a55076857e505150500300707e999798a49ca950a291a495a35091a691999c91929c955e005050759ea4a295aa50949f9e935e5050501302"
+      },
+      "spans": [
+        [
+          1,
+          19
+        ],
+        [
+          21,
+          35
+        ],
+        [
+          38,
+          62
+        ],
+        [
+          63,
+          80
+        ]
+      ],
+      "fr": [
+        "Chez Jack, on dort bien!",
+        "Le roi de la fête!",
+        "Tarifs à la nuitée.",
+        "  Renseignements à l'intérieur."
+      ],
+      "entry_refs": [
+        "0F1219"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "13A2AF",
+          "target": "33D21F"
+        },
+        {
+          "offset": "141157",
+          "target": "33D21F"
+        }
+      ]
+    },
+    {
+      "id": "33D23F",
+      "end": "33D284",
+      "english_script": "@You go on ahead.\n@I'm gonna pay that pilot in the desert a visit.[13][02]",
+      "original_hex": "70899fa550979f509f9e5091989591945e03007079579d50979f9e9e9150a091a950a49891a450a0999c9fa450999e50a49895509495a395a2a4509150a699a399a45e1302",
+      "baseline_hex": {
+        "accents": "70899fa550979f509f9e5091989591945e0300707a9550a69199a350a2959e94a29550a699a399a4955091a550a0999c9fa4955094a55094b0a395a2a45e50505050501302",
+        "ascii": "70899fa550979f509f9e5091989591945e0300707a9550a69199a350a2959e94a29550a699a399a4955091a550a0999c9fa4955094a5509495a395a2a45e50505050501302"
+      },
+      "spans": [
+        [
+          1,
+          17
+        ],
+        [
+          20,
+          67
+        ]
+      ],
+      "fr": [
+        "Pars devant.",
+        "Je vais rendre visite au pilote du désert."
+      ],
+      "entry_refs": [
+        "2060FA"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0D8155",
+          "target": "33D24F"
+        }
+      ]
+    },
+    {
+      "id": "33DC88",
+      "end": "33DD7F",
+      "english_script": "@Oh, I'm so sorry!\n@I'm new at this, so I haven't rented an office yet.\n@My business is strictly over the phone for now.\n@Apologies for the inconvenience!\n@There are some freebie hints on those signs over there you can look at if you'd like.[13][02]",
+      "original_hex": "707f985c5079579d50a39f50a39fa2a2a95103007079579d509e95a75091a450a49899a35c50a39f5079509891a6959e57a450a2959ea4959450919e509f969699939550a995a45e0300707da95092a5a3999e95a3a35099a350a3a4a29993a49ca9509fa695a250a4989550a0989f9e9550969fa2509e9fa75e03007071a09f9c9f979995a350969fa250a4989550999e939f9ea6959e99959e939551030070849895a2955091a29550a39f9d955096a295959299955098999ea4a3509f9e50a4989fa39550a399979ea3509fa695a250a49895a29550a99fa55093919e509c9f9f9b5091a450999650a99fa55794509c999b955e1302",
+      "baseline_hex": {
+        "accents": "707f985c50a091a2949f9e505150505050500300707a955094b092a5a4955c509a95509e57919950a091a350959e939fa2955094955092a5a29591a55e5050505050505050505050030070809fa5a2509c57999ea3a4919ea45c509a9550a4a291a691999c9c9550a091a250a4b09cb0a0989f9e955e5050505003007071a09f9c9f979995a350969fa250a4989550999e939f9ea6959e99959e93955103007084a550a095a5a8509c99a295509c95a350999e94999395a35097a291a4a599a4a350a3a5a2509c95a350a0919e9e9591a5a8509cb45d9291a35e5050505050505050505050505050505050505050505050505050501302",
+        "ascii": "707f985c50a091a2949f9e505150505050500300707a9550949592a5a4955c509a95509e57919950a091a350959e939fa2955094955092a5a29591a55e5050505050505050505050030070809fa5a2509c57999ea3a4919ea45c509a9550a4a291a691999c9c9550a091a250a4959c95a0989f9e955e5050505003007071a09f9c9f979995a350969fa250a4989550999e939f9ea6959e99959e93955103007084a550a095a5a8509c99a295509c95a350999e94999395a35097a291a4a599a4a350a3a5a2509c95a350a0919e9e9591a5a8509c915d9291a35e5050505050505050505050505050505050505050505050505050501302"
+      },
+      "spans": [
+        [
+          1,
+          18
+        ],
+        [
+          21,
+          72
+        ],
+        [
+          75,
+          122
+        ],
+        [
+          125,
+          157
+        ],
+        [
+          160,
+          245
+        ]
+      ],
+      "fr": [
+        "Oh, je suis vraiment désolé!",
+        "Je débute, alors je n'ai pas encore loué de bureau.",
+        "Pour le moment, je travaille uniquement par téléphone.",
+        "Pardon pour le dérangement!",
+        "Il y a des indices gratuits sur ces panneaux, si tu veux les lire."
+      ],
+      "entry_refs": [
+        "33DBF9"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0B6B3F",
+          "target": "33DD23"
+        },
+        {
+          "offset": "14D4F6",
+          "target": "33DD10"
+        }
+      ]
+    },
+    {
+      "id": "33DDC0",
+      "end": "33DE47",
+      "english_script": "[06 63 04 47 DE F3 00]@Oh me?\n@I'm just practicing wrapping presents.\n@You can go ahead and open them. \n@Then I'll be able to practice even more![13][02]",
+      "original_hex": "06630447def300707f98509d956f03007079579d509aa5a3a450a0a29193a49993999e9750a7a291a0a0999e9750a0a295a3959ea4a35e030070899fa55093919e50979f50919895919450919e94509fa0959e50a498959d5e500300708498959e5079579c9c5092955091929c9550a49f50a0a29193a49993955095a6959e509d9fa295511302",
+      "baseline_hex": {
+        "accents": "06630447def300707d9f99506f500300707a95509d57959ea4a291b69e9550b450959d92919c9c95a2509495a3509391949591a5a85e50030070899fa55093919e50979f50919895919450919e94509fa0959e50a498959d5e5003007071999ea3995c509a9550a09fa5a2a2919950959e939fa295509d57959ea4a291b69e95a2505150501302",
+        "ascii": "06630447def300707d9f99506f500300707a95509d57959ea4a291999e95509150959d92919c9c95a2509495a3509391949591a5a85e50030070899fa55093919e50979f50919895919450919e94509fa0959e50a498959d5e5003007071999ea3995c509a9550a09fa5a2a2919950959e939fa295509d57959ea4a291999e95a2505150501302"
+      },
+      "spans": [
+        [
+          8,
+          14
+        ],
+        [
+          17,
+          55
+        ],
+        [
+          58,
+          90
+        ],
+        [
+          93,
+          133
+        ]
+      ],
+      "fr": [
+        "Moi?",
+        "Je m'entraîne à emballer des cadeaux.",
+        "Tu peux les ouvrir, vas-y. ",
+        "Comme ça, je pourrai m'entraîner encore plus!"
+      ],
+      "entry_refs": [
+        "204B76"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "1B3FFB",
+          "target": "33DE11"
+        }
+      ]
+    },
+    {
+      "id": "33E0F7",
+      "end": "33E174",
+      "english_script": "@Lately I've been playing this new game called\n  <EarthBound Beginnings>.\n@It's difficult, but the challenge makes it fun![13][02]",
+      "original_hex": "707c91a4959ca9507957a695509295959e50a09c91a9999e9750a49899a3509e95a75097919d955093919c9c95940050506c7591a2a498729fa59e9450729597999e9e999e97a36e5e03007079a457a350949996969993a59ca45c5092a5a450a49895509398919c9c959e9795509d919b95a35099a45096a59e511302",
+      "baseline_hex": {
+        "accents": "707c91a4959ca9507957a695509295959e50a09c91a9999e9750a49899a3509e95a75097919d955093919c9c95940050506c7591a2a498729fa59e9450729597999e9e999e97a36e5e030070735795a3a45094a5a25c509d9199a3509c955094b096995095a3a450919da5a3919ea45051505050505050505050501302",
+        "ascii": "707c91a4959ca9507957a695509295959e50a09c91a9999e9750a49899a3509e95a75097919d955093919c9c95940050506c7591a2a498729fa59e9450729597999e9e999e97a36e5e030070735795a3a45094a5a25c509d9199a3509c9550949596995095a3a450919da5a3919ea45051505050505050505050501302"
+      },
+      "spans": [
+        [
+          1,
+          46
+        ],
+        [
+          47,
+          73
+        ],
+        [
+          76,
+          123
+        ]
+      ],
+      "fr": [
+        "En ce moment, je joue à un nouveau jeu appelé",
+        "  <EarthBound Beginnings>.",
+        "Il est difficile, mais c'est ce qui le rend amusant!"
+      ],
+      "entry_refs": [
+        "2040F8"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "1B3179",
+          "target": "33E11F"
+        },
+        {
+          "offset": "1FD5A3",
+          "target": "33E0FB"
+        }
+      ]
+    },
+    {
+      "id": "33E1A9",
+      "end": "33E22A",
+      "english_script": "@Someday, I hope to play for a full house of high cultured patrons.\n@Until then, the Live House is the only place for my horn.[13][02]",
+      "original_hex": "70839f9d959491a95c507950989fa09550a49f50a09c91a950969fa250915096a59c9c50989fa5a395509f9650989997985093a59ca4a5a2959450a091a4a29f9ea35e030070859ea4999c50a498959e5c50a49895507c99a69550789fa5a3955099a350a49895509f9e9ca950a09c91939550969fa2509da950989fa29e5e1302",
+      "baseline_hex": {
+        "accents": "70859e509a9fa5a25c509a95509a9fa595a29199509495a6919ea450a59e9550a3919c9c955094955096999ea350939f9e9e9199a3a395a5a2a35e5050505050505050030070859ea4999c50a498959e5c50a49895507c99a69550789fa5a3955099a350a49895509f9e9ca950a09c91939550969fa2509da950989fa29e5e1302",
+        "ascii": "70859e509a9fa5a25c509a95509a9fa595a29199509495a6919ea450a59e9550a3919c9c955094955096999ea350939f9e9e9199a3a395a5a2a35e5050505050505050030070859ea4999c50a498959e5c50a49895507c99a69550789fa5a3955099a350a49895509f9e9ca950a09c91939550969fa2509da950989fa29e5e1302"
+      },
+      "spans": [
+        [
+          1,
+          67
+        ],
+        [
+          70,
+          127
+        ]
+      ],
+      "fr": [
+        "Un jour, j'espère jouer à guichets fermés devant un public raffiné.",
+        "En attendant, seul le Live House accueille ma trompette."
+      ],
+      "entry_refs": [
+        "203BFD"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0C031C",
+          "target": "33E21F"
+        },
+        {
+          "offset": "0FA943",
+          "target": "33E21F"
+        },
+        {
+          "offset": "14A5D5",
+          "target": "33E21F"
+        },
+        {
+          "offset": "2F39D2",
+          "target": "33E215"
+        }
+      ]
+    },
+    {
+      "id": "347FC5",
+      "end": "34804F",
+      "english_script": "@Don't give me that garbage.\n  There's somebody thinking of you!\n@Just leave me alone,[10 0F] and go back from where you came from![13][18 04][1F 50][1F 21 78][1F 51][02]",
+      "original_hex": "70749f9e57a4509799a695509d9550a49891a4509791a2929197955e005050849895a29557a350a39f9d95929f94a950a498999e9b999e97509f9650a99fa5510300707aa5a3a4509c9591a695509d9550919c9f9e955c100f50919e9450979f509291939b5096a29f9d50a79895a29550a99fa55093919d955096a29f9d511318041f501f21781f5102",
+      "baseline_hex": {
+        "accents": "707e95509d9550a291939f9ea49550a091a350bc915e50505050505000505081a5959ca1a557a59e50a0959ea39550b450a49f995150505050505050505050500300707c9199a3a3955d9d9f9950959e50a09199a85c50100f50919e9450979f509291939b5096a29f9d50a79895a29550a99fa55093919d955096a29f9d511318041f501f21781f5102",
+        "ascii": "707e95509d9550a291939f9ea49550a091a35093915e50505050505000505081a5959ca1a557a59e50a0959ea395509150a49f995150505050505050505050500300707c9199a3a3955d9d9f9950959e50a09199a85c50100f50919e9450979f509291939b5096a29f9d50a79895a29550a99fa55093919d955096a29f9d511318041f501f21781f5102"
+      },
+      "spans": [
+        [
+          1,
+          28
+        ],
+        [
+          29,
+          64
+        ],
+        [
+          67,
+          87
+        ],
+        [
+          89,
+          127
+        ]
+      ],
+      "fr": [
+        "Ne me raconte pas de salades.",
+        "  Il y a quelqu'un qui pense à toi!",
+        "Laisse-moi tranquille,",
+        " et retourne d'où tu viens!"
+      ],
+      "entry_refs": [
+        "347F4D"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "1CE633",
+          "target": "348026"
+        },
+        {
+          "offset": "347FC1",
+          "target": "34804E"
+        }
+      ]
+    },
+    {
+      "id": "3480B3",
+      "end": "348130",
+      "english_script": "[06 05 00 CF 81 F4 00][06 72 03 E0 81 F4 00]@Suspicious man...\n@I'll let you pass, if you solve this riddle...\n@(He'll never know what I'm thinking...)[13][02]",
+      "original_hex": "060500cf81f400067203e081f4007083a5a3a09993999fa5a3509d919e5e5e5e03007079579c9c509c95a450a99fa550a091a3a35c50999650a99fa550a39f9ca69550a49899a350a29994949c955e5e5e030070587895579c9c509e95a695a2509b9e9fa750a79891a45079579d50a498999e9b999e975e5e5e591302",
+      "baseline_hex": {
+        "accents": "060500cf81f400067203e081f40070789f9d9d95509c9fa59398955e5e5e505003007079579c9c509c95a450a99fa550a091a3a35c50999650a99fa550a39f9ca69550a49899a350a29994949c955e5e5e03007058799c509e9550a391a5a291509a919d9199a350939550a1a595509a9550a0959ea3955e5e5e591302",
+        "ascii": "060500cf81f400067203e081f40070789f9d9d95509c9fa59398955e5e5e505003007079579c9c509c95a450a99fa550a091a3a35c50999650a99fa550a39f9ca69550a49899a350a29994949c955e5e5e03007058799c509e9550a391a5a291509a919d9199a350939550a1a595509a9550a0959ea3955e5e5e591302"
+      },
+      "spans": [
+        [
+          15,
+          32
+        ],
+        [
+          35,
+          81
+        ],
+        [
+          84,
+          123
+        ]
+      ],
+      "fr": [
+        "Drôle de bonhomme...",
+        "Je te laisserai passer si tu résous cette énigme...",
+        "(Il ne devinera jamais ce que je pense...)"
+      ],
+      "entry_refs": [
+        "2062B4",
+        "2062C5",
+        "2062D6"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "1016D5",
+          "target": "3480ED"
+        },
+        {
+          "offset": "2BBAD2",
+          "target": "3480FE"
+        },
+        {
+          "offset": "3012D8",
+          "target": "3480B4"
+        },
+        {
+          "offset": "304D56",
+          "target": "3480B4"
+        },
+        {
+          "offset": "3D43DE",
+          "target": "3480FA"
+        }
+      ]
+    },
+    {
+      "id": "348FE5",
+      "end": "349043",
+      "english_script": "@I am taking this broken earring to the fountain.\n@I bet it'll change into a magic earring.[13][02]",
+      "original_hex": "707950919d50a4919b999e9750a49899a35092a29f9b959e509591a2a2999e9750a49f50a4989550969fa59ea491999e5e03007079509295a45099a4579c9c509398919e979550999ea49f5091509d91979993509591a2a2999e975e1302",
+      "baseline_hex": {
+        "accents": "707a9550a09fa2a495509395a4a49550929fa5939c95509391a3a3b09550b4509c9150969f9ea491999e955e505050505003007079509295a45099a4579c9c509398919e979550999ea49f5091509d91979993509591a2a2999e975e1302",
+        "ascii": "707a9550a09fa2a495509395a4a49550929fa5939c95509391a3a395955091509c9150969f9ea491999e955e505050505003007079509295a45099a4579c9c509398919e979550999ea49f5091509d91979993509591a2a2999e975e1302"
+      },
+      "spans": [
+        [
+          1,
+          49
+        ],
+        [
+          52,
+          92
+        ]
+      ],
+      "fr": [
+        "J'apporte cette boucle d'oreille cassée à la fontaine.",
+        "Je parie qu'elle deviendra une boucle d'oreille magique."
+      ],
+      "entry_refs": [
+        "20447D"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0D37D6",
+          "target": "349031"
+        },
+        {
+          "offset": "1130C5",
+          "target": "349031"
+        }
+      ]
+    },
+    {
+      "id": "34A46E",
+      "end": "34A4B8",
+      "english_script": "[07 84 03][1B 02 BD A4 F4 00]@He's a master nicknamer.\n@He's got a real knack for names.[13][04 83 03][02]",
+      "original_hex": "0784031b02bda4f40070789557a35091509d91a3a495a2509e99939b9e919d95a25e030070789557a350979fa4509150a295919c509b9e91939b50969fa2509e919d95a35e1304830302",
+      "baseline_hex": {
+        "accents": "0784031b02bda4f40070789557a35091509d91a3a495a2509e99939b9e919d95a25e030070799c50915094a550a4919c959ea450a09fa5a2509c95a3509e9f9da35e5050501304830302",
+        "ascii": "0784031b02bda4f40070789557a35091509d91a3a495a2509e99939b9e919d95a25e030070799c50915094a550a4919c959ea450a09fa5a2509c95a3509e9f9da35e5050501304830302"
+      },
+      "spans": [
+        [
+          10,
+          34
+        ],
+        [
+          37,
+          69
+        ]
+      ],
+      "fr": [
+        "Il est très fort pour inventer des surnoms.",
+        "Il a vraiment le don pour trouver des noms."
+      ],
+      "entry_refs": [
+        "34A461"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "00F975",
+          "target": "34A47D"
+        }
+      ]
+    },
+    {
+      "id": "34EABB",
+      "end": "34EADE",
+      "english_script": "@Can I help you find\n  something?[14][02]",
+      "original_hex": "7073919e50795098959ca050a99fa55096999e94005050a39f9d95a498999e976f1402",
+      "baseline_hex": {
+        "accents": "7073919e50795098959ca050a99fa55096999e94005050a59e509f929a95a46f501402",
+        "ascii": "7073919e50795098959ca050a99fa55096999e94005050a59e509f929a95a46f501402"
+      },
+      "spans": [
+        [
+          1,
+          20
+        ],
+        [
+          21,
+          33
+        ]
+      ],
+      "fr": [
+        "Tu cherches",
+        "  quelque chose?"
+      ],
+      "entry_refs": [
+        "365A85"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "12EFEB",
+          "target": "34EABE"
+        }
+      ]
+    },
+    {
+      "id": "34EDF4",
+      "end": "34EE49",
+      "english_script": "@I'm afraid you can't carry anything more.\n@At least,[10 0F] I don't think you should.\n[02]",
+      "original_hex": "7079579d509196a291999450a99fa55093919e57a4509391a2a2a950919ea9a498999e97509d9fa2955e03007071a4509c9591a3a45c100f507950949f9e57a450a498999e9b50a99fa550a3989fa59c945e030002",
+      "baseline_hex": {
+        "accents": "7079579d509196a291999450a99fa55093919e57a4509391a2a2a950919ea9a498999e97509d9fa2955e03007071a5509d9f999ea35c100f509a9550a495509c955094b0939f9ea395999c9c955e50505050030002",
+        "ascii": "7079579d509196a291999450a99fa55093919e57a4509391a2a2a950919ea9a498999e97509d9fa2955e03007071a5509d9f999ea35c100f509a9550a495509c95509495939f9ea395999c9c955e50505050030002"
+      },
+      "spans": [
+        [
+          1,
+          42
+        ],
+        [
+          45,
+          54
+        ],
+        [
+          56,
+          82
+        ]
+      ],
+      "fr": [
+        "Tu ne peux plus rien porter, j'en ai peur.",
+        "Du moins,",
+        " je te le déconseille."
+      ],
+      "entry_refs": [
+        "3668E5"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0B2983",
+          "target": "34EE10"
+        }
+      ]
+    },
+    {
+      "id": "34EFA6",
+      "end": "34EFD9",
+      "english_script": "@[1C 02 00] can't use this!\n@Do you still wanna buy it?\n[02]",
+      "original_hex": "701c02005093919e57a450a5a39550a49899a351030070749f50a99fa550a3a4999c9c50a7919e9e915092a5a95099a46f0002",
+      "baseline_hex": {
+        "accents": "701c0200509e9550a095a5a4509c57a5a395a250030070749f50a99fa550a3a4999c9c50a7919e9e915092a5a95099a46f0002",
+        "ascii": "701c0200509e9550a095a5a4509c57a5a395a250030070749f50a99fa550a3a4999c9c50a7919e9e915092a5a95099a46f0002"
+      },
+      "spans": [
+        [
+          4,
+          20
+        ],
+        [
+          23,
+          49
+        ]
+      ],
+      "fr": [
+        " ne peut pas utiliser ça!",
+        "Tu veux quand même l'acheter?"
+      ],
+      "entry_refs": [
+        "365E24"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0B9061",
+          "target": "34EFC2"
+        }
+      ]
+    },
+    {
+      "id": "34F031",
+      "end": "34F089",
+      "english_script": "@You can't carry anything else!\n@Do you want to sell some things that you don't need?\n[02]",
+      "original_hex": "70899fa55093919e57a4509391a2a2a950919ea9a498999e9750959ca39551030070749f50a99fa550a7919ea450a49f50a3959c9c50a39f9d9550a498999e97a350a49891a450a99fa550949f9e57a4509e9595946f0002",
+      "baseline_hex": {
+        "accents": "7084a5509e9550a095a5a850a09ca5a350a299959e50a09fa2a495a2515050030070749f50a99fa550a7919ea450a49f50a3959c9c50a39f9d9550a498999e97a350a49891a450a99fa550949f9e57a4509e9595946f0002",
+        "ascii": "7084a5509e9550a095a5a850a09ca5a350a299959e50a09fa2a495a2515050030070749f50a99fa550a7919ea450a49f50a3959c9c50a39f9d9550a498999e97a350a49891a450a99fa550949f9e57a4509e9595946f0002"
+      },
+      "spans": [
+        [
+          1,
+          31
+        ],
+        [
+          34,
+          86
+        ]
+      ],
+      "fr": [
+        "Tu ne peux plus rien porter!",
+        "Veux-tu vendre des objets dont tu n'as pas besoin?"
+      ],
+      "entry_refs": [
+        "36604C"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0BEDC6",
+          "target": "34F066"
+        },
+        {
+          "offset": "28037F",
+          "target": "34F07F"
+        }
+      ]
+    },
+    {
+      "id": "34F1E3",
+      "end": "34F23A",
+      "english_script": "@It looks like [1C 02 00] can't carry any more stuff.\n@Would someone else like to carry it?\n[02]",
+      "original_hex": "7079a4509c9f9f9ba3509c999b95501c02005093919e57a4509391a2a2a950919ea9509d9fa29550a3a4a596965e030070879fa59c9450a39f9d959f9e9550959ca395509c999b9550a49f509391a2a2a95099a46f0002",
+      "baseline_hex": {
+        "accents": "7079a4509c9f9f9ba3509c999b95501c0200509e9550a095a5a450a09ca5a350a299959e50a09fa2a495a25e505003007081a5959ca1a557a59e50945791a5a4a29550a695a5a4509c9550a09fa2a495a26f5050500002",
+        "ascii": "7079a4509c9f9f9ba3509c999b95501c0200509e9550a095a5a450a09ca5a350a299959e50a09fa2a495a25e505003007081a5959ca1a557a59e50945791a5a4a29550a695a5a4509c9550a09fa2a495a26f5050500002"
+      },
+      "spans": [
+        [
+          1,
+          15
+        ],
+        [
+          18,
+          46
+        ],
+        [
+          49,
+          85
+        ]
+      ],
+      "fr": [
+        "On dirait que ",
+        " ne peut plus rien porter.",
+        "Quelqu'un d'autre peut s'en charger?"
+      ],
+      "entry_refs": [
+        "3666C4"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0B24AB",
+          "target": "34F1F1"
+        }
+      ]
+    },
+    {
+      "id": "34F49C",
+      "end": "34F4B9",
+      "english_script": "@Oh... you've got nothing.\n[02]",
+      "original_hex": "707f985e5e5e50a99fa557a69550979fa4509e9fa498999e975e030002",
+      "baseline_hex": {
+        "accents": "707f985e5e5e50a99fa557a69550979fa4509e9fa498999e975e030002",
+        "ascii": "707f985e5e5e50a99fa557a69550979fa4509e9fa498999e975e030002"
+      },
+      "spans": [
+        [
+          1,
+          26
+        ]
+      ],
+      "fr": [
+        "Oh... tu n'as rien."
+      ],
+      "entry_refs": [
+        "366333"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "26EF5D",
+          "target": "34F4B4"
+        }
+      ]
+    },
+    {
+      "id": "34F5B6",
+      "end": "34F5E4",
+      "english_script": "@I'm sorry, but you can't afford that many.\n[02]",
+      "original_hex": "7079579d50a39fa2a2a95c5092a5a450a99fa55093919e57a4509196969fa29450a49891a4509d919ea95e030002",
+      "baseline_hex": {
+        "accents": "7079579d50a39fa2a2a95c5092a5a450a99fa55093919e57a4509196969fa29450a49891a4509d919ea95e030002",
+        "ascii": "7079579d50a39fa2a2a95c5092a5a450a99fa55093919e57a4509196969fa29450a49891a4509d919ea95e030002"
+      },
+      "spans": [
+        [
+          1,
+          43
+        ]
+      ],
+      "fr": [
+        "Désolé, tu n'as pas assez d'argent pour en acheter autant."
+      ],
+      "entry_refs": [
+        "36683B"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "2FF5BB",
+          "target": "34F5BD"
+        }
+      ]
+    },
+    {
+      "id": "34FC37",
+      "end": "34FC54",
+      "english_script": "@Oh... you've got nothing.\n[02]",
+      "original_hex": "707f985e5e5e50a99fa557a69550979fa4509e9fa498999e975e030002",
+      "baseline_hex": {
+        "accents": "707f985e5e5e50a99fa557a69550979fa4509e9fa498999e975e030002",
+        "ascii": "707f985e5e5e50a99fa557a69550979fa4509e9fa498999e975e030002"
+      },
+      "spans": [
+        [
+          1,
+          26
+        ]
+      ],
+      "fr": [
+        "Oh... tu n'as rien."
+      ],
+      "entry_refs": [
+        "366341"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0B88B4",
+          "target": "34FC41"
+        }
+      ]
+    },
+    {
+      "id": "34FCE8",
+      "end": "34FD04",
+      "english_script": "@What can I help you with?\n[02]",
+      "original_hex": "70879891a45093919e50795098959ca050a99fa550a799a4986f0002",
+      "baseline_hex": {
+        "accents": "70879891a45093919e50795098959ca050a99fa550a799a4986f0002",
+        "ascii": "70879891a45093919e50795098959ca050a99fa550a799a4986f0002"
+      },
+      "spans": [
+        [
+          1,
+          26
+        ]
+      ],
+      "fr": [
+        "Que puis-je faire pour toi?"
+      ],
+      "entry_refs": [
+        "366621"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "231B4D",
+          "target": "34FCFA"
+        }
+      ]
+    },
+    {
+      "id": "34FD81",
+      "end": "34FD9F",
+      "english_script": "@You can't carry all those.\n[02]",
+      "original_hex": "70899fa55093919e57a4509391a2a2a950919c9c50a4989fa3955e030002",
+      "baseline_hex": {
+        "accents": "70899fa55093919e57a4509391a2a2a950919c9c50a4989fa3955e030002",
+        "ascii": "70899fa55093919e57a4509391a2a2a950919c9c50a4989fa3955e030002"
+      },
+      "spans": [
+        [
+          1,
+          27
+        ]
+      ],
+      "fr": [
+        "Tu ne peux pas porter tout ça."
+      ],
+      "entry_refs": [
+        "366901"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "008969",
+          "target": "34FD85"
+        },
+        {
+          "offset": "008A8F",
+          "target": "34FD85"
+        }
+      ]
+    },
+    {
+      "id": "350FF8",
+      "end": "35108B",
+      "english_script": "@I once saw smoke rising from one of the islands off the coast.\n@I wonder if anyone lives there.\n@I wish I had looked through that telescope...[13][02]",
+      "original_hex": "7079509f9e939550a391a750a39d9f9b9550a299a3999e975096a29f9d509f9e95509f9650a498955099a39c919e94a3509f969650a4989550939f91a3a45e0300707950a79f9e9495a250999650919ea99f9e95509c99a695a350a49895a2955e0300707950a799a398507950989194509c9f9f9b959450a498a29fa5979850a49891a450a4959c95a3939fa0955e5e5e1302",
+      "baseline_hex": {
+        "accents": "707a57919950a6a5509495509c915096a59db09550a3a5a250a59e9550b69c955091a5509c91a297955e50505050505050505050505050505050505050505003007081a5959ca1a557a59e50a950a699a45d999c506f50505050505050505050500300707950a799a398507950989194509c9f9f9b959450a498a29fa5979850a49891a450a4959c95a3939fa0955e5e5e1302",
+        "ascii": "707a57919950a6a5509495509c915096a59d959550a3a5a250a59e9550999c955091a5509c91a297955e50505050505050505050505050505050505050505003007081a5959ca1a557a59e50a950a699a45d999c506f50505050505050505050500300707950a799a398507950989194509c9f9f9b959450a498a29fa5979850a49891a450a4959c95a3939fa0955e5e5e1302"
+      },
+      "spans": [
+        [
+          1,
+          63
+        ],
+        [
+          66,
+          97
+        ],
+        [
+          100,
+          145
+        ]
+      ],
+      "fr": [
+        "J'ai vu de la fumée monter d'une île au large.",
+        "Je me demande si quelqu'un y vit.",
+        "Si seulement j'avais regardé dans ce télescope..."
+      ],
+      "entry_refs": [
+        "205CCB"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "34B93D",
+          "target": "351079"
+        }
+      ]
+    },
+    {
+      "id": "3521F5",
+      "end": "352269",
+      "english_script": "@While walking in the desert, I saw a cactus with a face!\n@Then I ran for the hills screaming as loud as I could.[13][02]",
+      "original_hex": "708798999c9550a7919c9b999e9750999e50a49895509495a395a2a45c507950a391a7509150939193a4a5a350a799a49850915096919395510300708498959e507950a2919e50969fa250a498955098999c9ca350a393a295919d999e975091a3509c9fa5945091a3507950939fa59c945e1302",
+      "baseline_hex": {
+        "accents": "708798999c9550a7919c9b999e9750999e50a49895509495a395a2a45c507950a391a7509150939193a4a5a350a799a49850915096919395510300707a5791995096a59950959e5093a299919ea450b450a09c95999ea350a09fa59d9f9ea35e5050505050505050505050505050505050501302",
+        "ascii": "708798999c9550a7919c9b999e9750999e50a49895509495a395a2a45c507950a391a7509150939193a4a5a350a799a49850915096919395510300707a5791995096a59950959e5093a299919ea4509150a09c95999ea350a09fa59d9f9ea35e5050505050505050505050505050505050501302"
+      },
+      "spans": [
+        [
+          1,
+          57
+        ],
+        [
+          60,
+          114
+        ]
+      ],
+      "fr": [
+        "En marchant dans le désert, j'ai vu un cactus avec un visage!",
+        "Alors j'ai pris mes jambes à mon cou en hurlant!"
+      ],
+      "entry_refs": [
+        "205B66"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "211DFB",
+          "target": "352224"
+        },
+        {
+          "offset": "211E6F",
+          "target": "35222E"
+        }
+      ]
+    },
+    {
+      "id": "352958",
+      "end": "352A30",
+      "english_script": "@I heard there's a Super NES game called <EarthBound Beginnings>.\n@I don't exactly know what that means, but it doesn't matter.\n@If you shouldn't judge a book by its cover,[10 0F] then don't judge a game by its title.[13][02]",
+      "original_hex": "707950989591a29450a49895a29557a350915083a5a095a2507e75835097919d955093919c9c9594506c7591a2a498729fa59e9450729597999e9e999e97a36e5e0300707950949f9e57a45095a89193a49ca9509b9e9fa750a79891a450a49891a4509d95919ea35c5092a5a45099a450949f95a39e57a4509d91a4a495a25e030070799650a99fa550a3989fa59c949e57a4509aa5949795509150929f9f9b5092a95099a4a350939fa695a25c100f50a498959e50949f9e57a4509aa594979550915097919d955092a95099a4a350a499a49c955e1302",
+      "baseline_hex": {
+        "accents": "707950989591a29450a49895a29557a350915083a5a095a2507e75835097919d955093919c9c9594506c7591a2a498729fa59e9450729597999e9e999e97a36e5e0300707a95509e9550a39199a350a091a350a4a29fa050939550a1a59550bc9150a695a5a4509499a2955c509d9199a350a095a550999da09fa2a4955e50500300708399509f9e509e9550949f99a450a091a350a39550969995a25091a5a85091a0a091a2959e9395a35c5050100f509e95509aa5979550a091a350a59e509a95a550a091a250a39f9e50a499a4a2955e505050501302",
+        "ascii": "707950989591a29450a49895a29557a350915083a5a095a2507e75835097919d955093919c9c9594506c7591a2a498729fa59e9450729597999e9e999e97a36e5e0300707a95509e9550a39199a350a091a350a4a29fa050939550a1a59550939150a695a5a4509499a2955c509d9199a350a095a550999da09fa2a4955e50500300708399509f9e509e9550949f99a450a091a350a39550969995a25091a5a85091a0a091a2959e9395a35c5050100f509e95509aa5979550a091a350a59e509a95a550a091a250a39f9e50a499a4a2955e505050501302"
+      },
+      "spans": [
+        [
+          1,
+          65
+        ],
+        [
+          68,
+          128
+        ],
+        [
+          131,
+          174
+        ],
+        [
+          176,
+          214
+        ]
+      ],
+      "fr": [
+        "Il paraît qu'il y a un jeu Super NES appelé <EarthBound Beginnings>.",
+        "Je ne sais pas trop ce que ça veut dire, mais peu importe.",
+        "Si on ne juge pas un livre à sa couverture,",
+        " on ne juge pas un jeu à son titre."
+      ],
+      "entry_refs": [
+        "205EA7"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "2D1DA0",
+          "target": "352983"
+        }
+      ]
+    },
+    {
+      "id": "353EF7",
+      "end": "353F3C",
+      "english_script": "@Did you see a strange man in the science lab?\n@Well... I saw him.[13][02]",
+      "original_hex": "7074999450a99fa550a39595509150a3a4a2919e9795509d919e50999e50a4989550a39399959e9395509c91926f03007087959c9c5e5e5e507950a391a75098999d5e1302",
+      "baseline_hex": {
+        "accents": "7074999450a99fa550a39595509150a3a4a2919e9795509d919e50999e50a4989550a39399959e9395509c91926f0300707598509299959e5e5e5e509fa5995e5050501302",
+        "ascii": "7074999450a99fa550a39595509150a3a4a2919e9795509d919e50999e50a4989550a39399959e9395509c91926f0300707598509299959e5e5e5e509fa5995e5050501302"
+      },
+      "spans": [
+        [
+          1,
+          46
+        ],
+        [
+          49,
+          67
+        ]
+      ],
+      "fr": [
+        "Tu as vu un homme étrange dans le labo de sciences?",
+        "Eh bien... moi, je l'ai vu."
+      ],
+      "entry_refs": [
+        "2028FF"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "033AE0",
+          "target": "353F00"
+        }
+      ]
+    },
+    {
+      "id": "353F3C",
+      "end": "353F9C",
+      "english_script": "@Have you played Super Mario Bros. 7?\n@I'm still stuck on the third one.\n@It's really tough![13][02]",
+      "original_hex": "707891a69550a99fa550a09c91a995945083a5a095a2507d91a2999f5072a29fa35e50676f03007079579d50a3a4999c9c50a3a4a5939b509f9e50a4989550a49899a294509f9e955e03007079a457a350a295919c9ca950a49fa59798511302",
+      "baseline_hex": {
+        "accents": "707891a69550a99fa550a09c91a995945083a5a095a2507d91a2999f5072a29fa35e50676f0300707a9550929c9fa1a59550959e939fa2955091a550a4a29f99a399b19d955e505050030070735795a3a450a4a29fa05094a5a2505150501302",
+        "ascii": "707891a69550a99fa550a09c91a995945083a5a095a2507d91a2999f5072a29fa35e50676f0300707a9550929c9fa1a59550959e939fa2955091a550a4a29f99a399959d955e505050030070735795a3a450a4a29fa05094a5a2505150501302"
+      },
+      "spans": [
+        [
+          1,
+          37
+        ],
+        [
+          40,
+          73
+        ],
+        [
+          76,
+          94
+        ]
+      ],
+      "fr": [
+        "Tu as joué à Super Mario Bros. 7?",
+        "Moi, je suis encore bloqué au troisième.",
+        "Il est vraiment dur!"
+      ],
+      "entry_refs": [
+        "2028EE"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "2C0D37",
+          "target": "353F40"
+        }
+      ]
+    },
+    {
+      "id": "35413A",
+      "end": "3541B9",
+      "english_script": "@La-la-laaa...\n@Into the wide blue sky...\n  dandelion fuzz does fly...\n@La-la-laaa!\n@I love music more than anything else![13][02]",
+      "original_hex": "707c915d9c915d9c9191915e5e5e030070799ea49f50a4989550a799949550929ca59550a39ba95e5e5e00505094919e94959c999f9e5096a5aaaa50949f95a350969ca95e5e5e0300707c915d9c915d9c9191915103007079509c9fa695509da5a39993509d9fa29550a498919e50919ea9a498999e9750959ca395511302",
+      "baseline_hex": {
+        "accents": "707c915d9c915d9c9191915e5e5e03007074919ea3509c955097a2919e94509399959c5e5e5e505050500050509c955094a5a695a45094a550a099a3a3959e9c99a450a69f9c950300707c915d9c915d9c9191915103007079509c9fa695509da5a39993509d9fa29550a498919e50919ea9a498999e9750959ca395511302",
+        "ascii": "707c915d9c915d9c9191915e5e5e03007074919ea3509c955097a2919e94509399959c5e5e5e505050500050509c955094a5a695a45094a550a099a3a3959e9c99a450a69f9c950300707c915d9c915d9c9191915103007079509c9fa695509da5a39993509d9fa29550a498919e50919ea9a498999e9750959ca395511302"
+      },
+      "spans": [
+        [
+          1,
+          14
+        ],
+        [
+          17,
+          42
+        ],
+        [
+          43,
+          71
+        ],
+        [
+          74,
+          85
+        ],
+        [
+          88,
+          125
+        ]
+      ],
+      "fr": [
+        "La-la-laaa...",
+        "Dans le grand ciel bleu...",
+        "  vole le duvet des pissenlits...",
+        "La-la-laaa!",
+        "J'aime la musique plus que tout!"
+      ],
+      "entry_refs": [
+        "202B63"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "3EE42D",
+          "target": "3541A1"
+        }
+      ]
+    },
+    {
+      "id": "35EA16",
+      "end": "35EA31",
+      "english_script": "@Hello there, youngster!\n[02]",
+      "original_hex": "7078959c9c9f50a49895a2955c50a99fa59e97a3a495a251030002",
+      "baseline_hex": {
+        "accents": "7078959c9c9f50a49895a2955c50a99fa59e97a3a495a251030002",
+        "ascii": "7078959c9c9f50a49895a2955c50a99fa59e97a3a495a251030002"
+      },
+      "spans": [
+        [
+          1,
+          24
+        ]
+      ],
+      "fr": [
+        "Bonjour, jeune homme!"
+      ],
+      "entry_refs": [
+        "0726B3",
+        "35E7C2",
+        "35EA32"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "093557",
+          "target": "35EA1F"
+        }
+      ]
+    },
+    {
+      "id": "360D7F",
+      "end": "360E1F",
+      "english_script": "@The curfew has finally been lifted.\n@There's a strange rock-like thing in a mountain cave past here.\n@It's so strange,[10 0F] you should definitely take a look.[13][02]",
+      "original_hex": "708498955093a5a29695a7509891a35096999e919c9ca9509295959e509c9996a495945e030070849895a29557a3509150a3a4a2919e979550a29f939b5d9c999b9550a498999e9750999e5091509d9fa59ea491999e509391a69550a091a3a4509895a2955e03007079a457a350a39f50a3a4a2919e97955c100f50a99fa550a3989fa59c9450949596999e99a4959ca950a4919b955091509c9f9f9b5e1302",
+      "baseline_hex": {
+        "accents": "708498955093a5a29695a7509891a35096999e919c9ca9509295959e509c9996a495945e030070799c50a9509150a59e5094a2b89c9550949550a29f939895a25094919ea350a59e955097a29fa4a4955091a55d94959cb45094579993995e50505050505050030070735795a3a450b0a4a2919e97955c5050100f50a99fa550a3989fa59c9450949596999e99a4959ca950a4919b955091509c9f9f9b5e1302",
+        "ascii": "708498955093a5a29695a7509891a35096999e919c9ca9509295959e509c9996a495945e030070799c50a9509150a59e5094a29f9c9550949550a29f939895a25094919ea350a59e955097a29fa4a4955091a55d94959c915094579993995e50505050505050030070735795a3a45095a4a2919e97955c5050100f50a99fa550a3989fa59c9450949596999e99a4959ca950a4919b955091509c9f9f9b5e1302"
+      },
+      "spans": [
+        [
+          1,
+          36
+        ],
+        [
+          39,
+          102
+        ],
+        [
+          105,
+          121
+        ],
+        [
+          123,
+          158
+        ]
+      ],
+      "fr": [
+        "Le couvre-feu est enfin levé.",
+        "Il y a une étrange sorte de rocher dans une grotte, plus loin dans la montagne.",
+        "C'est si étrange,",
+        " tu devrais vraiment y jeter un oeil."
+      ],
+      "entry_refs": [
+        "202AFD",
+        "360CED",
+        "360CF2"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "2746DD",
+          "target": "360DFF"
+        },
+        {
+          "offset": "30DC66",
+          "target": "360D83"
+        }
+      ]
+    },
+    {
+      "id": "360E1F",
+      "end": "360F1B",
+      "english_script": "@The curfew has been lifted.\n@Although I can't see why travel was ever restricted.[19 10 01][0B 01][1B 02 19 0F F6 00]\n@I heard that you can communicate with Telepathy.\n@Have you heard all of the people talking about you?\n@But you probably don't need to <listen> to them![13][02]",
+      "original_hex": "708498955093a5a29695a7509891a3509295959e509c9996a495945e030070719ca4989fa5979850795093919e57a450a3959550a798a950a4a291a6959c50a791a35095a695a250a295a3a4a29993a495945e1910010b011b02190ff6000300707950989591a29450a49891a450a99fa55093919e50939f9d9da59e999391a49550a799a4985084959c95a091a498a95e0300707891a69550a99fa550989591a29450919c9c509f9650a4989550a0959fa09c9550a4919c9b999e975091929fa5a450a99fa56f03007072a5a450a99fa550a0a29f9291929ca950949f9e57a4509e95959450a49f506c9c99a3a4959e6e50a49f50a498959d511302",
+      "baseline_hex": {
+        "accents": "707c9550939fa5a6a2955d9695a5509150b0a4b0509c95a6b05e5050030070719ca4989fa5979850795093919e57a450a3959550a798a950a4a291a6959c50a791a35095a695a250a295a3a4a29993a495945e1910010b011b02190ff6000300707950989591a29450a49891a450a99fa55093919e50939f9d9da59e999391a49550a799a4985084959c95a091a498a95e03007071a35da4a550959ea4959e94a550a49fa5a3509395a35097959ea350a091a29c95a250949550a49f996f50505050505050505003007072a5a450a99fa550a0a29f9291929ca950949f9e57a4509e95959450a49f506c9c99a3a4959e6e50a49f50a498959d511302",
+        "ascii": "707c9550939fa5a6a2955d9695a550915095a495509c95a6955e5050030070719ca4989fa5979850795093919e57a450a3959550a798a950a4a291a6959c50a791a35095a695a250a295a3a4a29993a495945e1910010b011b02190ff6000300707950989591a29450a49891a450a99fa55093919e50939f9d9da59e999391a49550a799a4985084959c95a091a498a95e03007071a35da4a550959ea4959e94a550a49fa5a3509395a35097959ea350a091a29c95a250949550a49f996f50505050505050505003007072a5a450a99fa550a0a29f9291929ca950949f9e57a4509e95959450a49f506c9c99a3a4959e6e50a49f50a498959d511302"
+      },
+      "spans": [
+        [
+          1,
+          28
+        ],
+        [
+          31,
+          83
+        ],
+        [
+          97,
+          145
+        ],
+        [
+          148,
+          199
+        ],
+        [
+          202,
+          250
+        ]
+      ],
+      "fr": [
+        "Le couvre-feu est levé.",
+        "Je n'ai jamais compris pourquoi on nous interdisait de voyager.",
+        "J'ai entendu dire que tu peux communiquer par Télépathie.",
+        "Tu as entendu tous ceux qui parlent de toi?",
+        "Mais tu n'as sans doute pas besoin de les <écouter>!"
+      ],
+      "entry_refs": [
+        "202B0E",
+        "360D01",
+        "360D06"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "20C945",
+          "target": "360E90"
+        },
+        {
+          "offset": "2B94F1",
+          "target": "360E43"
+        },
+        {
+          "offset": "360E79",
+          "target": "360F19"
+        },
+        {
+          "offset": "3E1568",
+          "target": "360EEF"
+        }
+      ]
+    },
+    {
+      "id": "36411D",
+      "end": "364182",
+      "english_script": "@High in the mountains lives an old man.\n@Legends say he hasn't had a cold in three hundred years.[13][02]",
+      "original_hex": "707899979850999e50a49895509d9fa59ea491999ea3509c99a695a350919e509f9c94509d919e5e0300707c9597959e94a350a391a9509895509891a39e57a450989194509150939f9c9450999e50a498a295955098a59e94a2959450a99591a2a35e1302",
+      "baseline_hex": {
+        "accents": "707899979850999e50a49895509d9fa59ea491999ea3509c99a695a350919e509f9c94509d919e5e030070799c50a091a291b6a450a1a557999c509e579150a091a35095a550949550a298a59d95509495a0a599a35063606050919ea35e50505050501302",
+        "ascii": "707899979850999e50a49895509d9fa59ea491999ea3509c99a695a350919e509f9c94509d919e5e030070799c50a091a29199a450a1a557999c509e579150a091a35095a550949550a298a59d95509495a0a599a35063606050919ea35e50505050501302"
+      },
+      "spans": [
+        [
+          1,
+          40
+        ],
+        [
+          43,
+          99
+        ]
+      ],
+      "fr": [
+        "Un vieil homme vit tout en haut des montagnes.",
+        "La légende dit qu'il n'a pas eu de rhume depuis trois cents ans."
+      ],
+      "entry_refs": [
+        "204329"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "170D75",
+          "target": "364141"
+        }
+      ]
+    },
+    {
+      "id": "3641F5",
+      "end": "364265",
+      "english_script": "@You thought I was going to beg for food, didn't you?\n@I wouldn't do that,[10 0F] even though I am ever so hungry.[13][02]",
+      "original_hex": "70899fa550a4989fa59798a4507950a791a350979f999e9750a49f5092959750969fa250969f9f945c509499949e57a450a99fa56f0300707950a79fa59c949e57a450949f50a49891a45c100f5095a6959e50a4989fa59798507950919d5095a695a250a39f5098a59e97a2a95e1302",
+      "baseline_hex": {
+        "accents": "70899fa550a4989fa59798a4507950a791a350979f999e9750a49f5092959750969fa250969f9f945c509499949e57a450a99fa56f0300707a95509e95509695a29199a350a091a350bc91100f509db29d9550a399509a57919950a4a2b1a3509691999d5e5050505050505050501302",
+        "ascii": "70899fa550a4989fa59798a4507950a791a350979f999e9750a49f5092959750969fa250969f9f945c509499949e57a450a99fa56f0300707a95509e95509695a29199a350a091a3509391100f509d959d9550a399509a57919950a4a295a3509691999d5e5050505050505050501302"
+      },
+      "spans": [
+        [
+          1,
+          53
+        ],
+        [
+          56,
+          75
+        ],
+        [
+          77,
+          110
+        ]
+      ],
+      "fr": [
+        "Tu pensais que j'allais mendier de la nourriture, hein?",
+        "Je ne ferais jamais ça,",
+        " même si j'ai terriblement faim."
+      ],
+      "entry_refs": [
+        "2043E4"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "1F5A74",
+          "target": "3641F6"
+        }
+      ]
+    },
+    {
+      "id": "36478E",
+      "end": "364801",
+      "english_script": "@Things've gotten mighty dangerous in this town.\n@But it's still a whole lot better than Ellay, that's for sure.[13][02]",
+      "original_hex": "708498999e97a357a69550979fa4a4959e509d999798a4a95094919e9795a29fa5a350999e50a49899a350a49fa79e5e03007072a5a45099a457a350a3a4999c9c509150a7989f9c95509c9fa4509295a4a495a250a498919e50759c9c91a95c50a49891a457a350969fa250a3a5a2955e1302",
+      "baseline_hex": {
+        "accents": "707395a4a49550a6999c9c955095a3a4509495a6959ea59550a4a2b1a35094919e9795a295a5a3955e5050505050505003007072a5a45099a457a350a3a4999c9c509150a7989f9c95509c9fa4509295a4a495a250a498919e50759c9c91a95c50a49891a457a350969fa250a3a5a2955e1302",
+        "ascii": "707395a4a49550a6999c9c955095a3a4509495a6959ea59550a4a295a35094919e9795a295a5a3955e5050505050505003007072a5a45099a457a350a3a4999c9c509150a7989f9c95509c9fa4509295a4a495a250a498919e50759c9c91a95c50a49891a457a350969fa250a3a5a2955e1302"
+      },
+      "spans": [
+        [
+          1,
+          48
+        ],
+        [
+          51,
+          113
+        ]
+      ],
+      "fr": [
+        "Cette ville est devenue sacrément dangereuse.",
+        "Mais elle vaut encore bien mieux qu'Ellay, ça c'est sûr."
+      ],
+      "entry_refs": [
+        "2045E2"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "3936E2",
+          "target": "3647F2"
+        }
+      ]
+    },
+    {
+      "id": "36964A",
+      "end": "36972E",
+      "english_script": "[1F 1A 45 03 03][10 3C][1F 1B 45 03][1F E5 FF][19 10 01][19 22 00 02 45 03][1F 14 00][1F F1 45 03 51 05][1F 61][18 01 35]@You tried to ignore me,[10 0F]\n  didn't you...\n@I'm so lonesome,[10 0F] out here all by myself.\n@If there's anything I can do for some company,[10 0F] I'll do it.[10 0F]  Here![13][18 04][08 DF A2 F6 00][1F E9 45 03][1F 14 03][1F F1 45 03 52 05][1F 61][10 1E][1F 14 07][1F E8 FF][02]",
+      "original_hex": "1f1a450303103c1f1b45031fe5ff1910011922000245031f14001ff1450351051f6118013570899fa550a4a299959450a49f5099979e9fa295509d955c100f0050509499949e57a450a99fa55e5e5e03007079579d50a39f509c9f9e95a39f9d955c100f509fa5a4509895a29550919c9c5092a9509da9a3959c965e030070799650a49895a29557a350919ea9a498999e9750795093919e50949f50969fa250a39f9d9550939f9da0919ea95c100f5079579c9c50949f5099a45e100f50507895a2955113180408dfa2f6001fe945031f14031ff1450352051f61101e1f14071fe8ff02",
+      "baseline_hex": {
+        "accents": "1f1a450303103c1f1b45031fe5ff1910011922000245031f14001ff1450351051f611801357084a5509d5791a35099979e9fa2b05c5050505050505050100f005050a091a350a6a291995e5e5e50500300707a9550a3a599a350a39950a395a59c5c100f509993995c50a49fa5a450a395a59c5e5050505050505050030070799650a49895a29557a350919ea9a498999e9750795093919e50949f50969fa250a39f9d9550939f9da0919ea95c100f507a95509c95509695a29199100f5050869f999cb413180408dfa2f6001fe945031f14031ff1450352051f61101e1f14071fe8ff02",
+        "ascii": "1f1a450303103c1f1b45031fe5ff1910011922000245031f14001ff1450351051f611801357084a5509d5791a35099979e9fa2955c5050505050505050100f005050a091a350a6a291995e5e5e50500300707a9550a3a599a350a39950a395a59c5c100f509993995c50a49fa5a450a395a59c5e5050505050505050030070799650a49895a29557a350919ea9a498999e9750795093919e50949f50969fa250a39f9d9550939f9da0919ea95c100f507a95509c95509695a29199100f5050869f999c9113180408dfa2f6001fe945031f14031ff1450352051f61101e1f14071fe8ff02"
+      },
+      "spans": [
+        [
+          38,
+          61
+        ],
+        [
+          64,
+          79
+        ],
+        [
+          82,
+          98
+        ],
+        [
+          100,
+          124
+        ],
+        [
+          127,
+          173
+        ],
+        [
+          175,
+          187
+        ],
+        [
+          189,
+          196
+        ]
+      ],
+      "fr": [
+        "Tu as essayé de m'ignorer,",
+        "  n'est-ce pas...",
+        "Je me sens si seul,",
+        " perdu ici sans personne.",
+        "Si je peux faire quelque chose pour avoir de la compagnie,",
+        " je le ferai.",
+        "  Tiens!"
+      ],
+      "entry_refs": [
+        "3695D9",
+        "3695E7",
+        "3695F5",
+        "369640"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "30F6F8",
+          "target": "3696F0"
+        },
+        {
+          "offset": "3695B3",
+          "target": "36972D"
+        },
+        {
+          "offset": "3695BC",
+          "target": "36972D"
+        },
+        {
+          "offset": "3695CB",
+          "target": "36972D"
+        }
+      ]
+    },
+    {
+      "id": "36E4E8",
+      "end": "36E541",
+      "english_script": "@You have appeared just like in my dream...\n@The boy in my dream looked just like you.[13][02]",
+      "original_hex": "70899fa5509891a6955091a0a09591a29594509aa5a3a4509c999b9550999e509da95094a295919d5e5e5e03007084989550929fa950999e509da95094a295919d509c9f9f9b9594509aa5a3a4509c999b9550a99fa55e1302",
+      "baseline_hex": {
+        "accents": "70899fa5509891a6955091a0a09591a29594509aa5a3a4509c999b9550999e509da95094a295919d5e5e5e0300707c95509791a2bc9f9e509495509d9f9e50a2b2a69550a49550a295a3a3959d929c9199a45e505050501302",
+        "ascii": "70899fa5509891a6955091a0a09591a29594509aa5a3a4509c999b9550999e509da95094a295919d5e5e5e0300707c95509791a2939f9e509495509d9f9e50a295a69550a49550a295a3a3959d929c9199a45e505050501302"
+      },
+      "spans": [
+        [
+          1,
+          43
+        ],
+        [
+          46,
+          87
+        ]
+      ],
+      "fr": [
+        "Tu es apparu exactement comme dans mon rêve...",
+        "Le garçon de mon rêve te ressemblait comme deux gouttes d'eau."
+      ],
+      "entry_refs": [
+        "203DB7"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "38F1F0",
+          "target": "36E4F6"
+        }
+      ]
+    },
+    {
+      "id": "36ECBA",
+      "end": "36ECDA",
+      "english_script": "@Do you want to equip it here?\n[02]",
+      "original_hex": "70749f50a99fa550a7919ea450a49f5095a1a599a05099a4509895a2956f0002",
+      "baseline_hex": {
+        "accents": "70749f50a99fa550a7919ea450a49f5095a1a599a05099a4509895a2956f0002",
+        "ascii": "70749f50a99fa550a7919ea450a49f5095a1a599a05099a4509895a2956f0002"
+      },
+      "spans": [
+        [
+          1,
+          30
+        ]
+      ],
+      "fr": [
+        "Tu veux l'équiper ici?"
+      ],
+      "entry_refs": [
+        "365CD0"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "0A1F71",
+          "target": "36ECD0"
+        }
+      ]
+    },
+    {
+      "id": "36F15A",
+      "end": "36F1A1",
+      "english_script": "@You're all full up, dude!\n@Wanna dump some junk on me to make room?\n[02]",
+      "original_hex": "70899fa557a29550919c9c5096a59c9c50a5a05c5094a594955103007087919e9e915094a59da050a39f9d95509aa59e9b509f9e509d9550a49f509d919b9550a29f9f9d6f0002",
+      "baseline_hex": {
+        "accents": "70845795a35094b09ab450939891a297b05c509d95935150505003007087919e9e915094a59da050a39f9d95509aa59e9b509f9e509d9550a49f509d919b9550a29f9f9d6f0002",
+        "ascii": "70845795a35094959a9150939891a297955c509d95935150505003007087919e9e915094a59da050a39f9d95509aa59e9b509f9e509d9550a49f509d919b9550a29f9f9d6f0002"
+      },
+      "spans": [
+        [
+          1,
+          26
+        ],
+        [
+          29,
+          69
+        ]
+      ],
+      "fr": [
+        "Tu es déjà chargé à bloc, mon pote!",
+        "Tu veux me vendre du bazar pour faire de la place?"
+      ],
+      "entry_refs": [
+        "36606F"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "25540A",
+          "target": "36F18E"
+        },
+        {
+          "offset": "2A024A",
+          "target": "36F18E"
+        }
+      ]
+    },
+    {
+      "id": "37429D",
+      "end": "374307",
+      "english_script": "@I am just a pile of bones now.\n@I used to be a nice guy before.\n@So, don't worry, I won't attack you.[13][02]",
+      "original_hex": "707950919d509aa5a3a4509150a0999c95509f9650929f9e95a3509e9fa75e0300707950a5a3959450a49f5092955091509e9993955097a5a9509295969fa2955e030070839f5c50949f9e57a450a79fa2a2a95c507950a79f9e57a45091a4a491939b50a99fa55e1302",
+      "baseline_hex": {
+        "accents": "707a95509e9550a3a599a350a1a557a59e50a491a35094579fa35e5050505003007071a6919ea45c509a57b0a49199a350a59e50a4a9a09550a3a99da0915e5050030070839f5c50949f9e57a450a79fa2a2a95c507950a79f9e57a45091a4a491939b50a99fa55e1302",
+        "ascii": "707a95509e9550a3a599a350a1a557a59e50a491a35094579fa35e5050505003007071a6919ea45c509a5795a49199a350a59e50a4a9a09550a3a99da0915e5050030070839f5c50949f9e57a450a79fa2a2a95c507950a79f9e57a45091a4a491939b50a99fa55e1302"
+      },
+      "spans": [
+        [
+          1,
+          31
+        ],
+        [
+          34,
+          65
+        ],
+        [
+          68,
+          104
+        ]
+      ],
+      "fr": [
+        "Je ne suis plus qu'un tas d'os.",
+        "Avant, j'étais quelqu'un de bien.",
+        "Alors ne t'inquiète pas, je ne t'attaquerai pas."
+      ],
+      "entry_refs": [
+        "205CFE"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "1A8930",
+          "target": "374300"
+        },
+        {
+          "offset": "2D1A36",
+          "target": "3742FE"
+        }
+      ]
+    },
+    {
+      "id": "3744C7",
+      "end": "374536",
+      "english_script": "@Which flight plan would you like?[13][18 01 25][10 01][19 02]Flight plan A[02][19 02]Flight plan B[02][19 02]Flight plan C[02][1C 0C 01][11][09 03 64 40 F7 00 8D 40 F7 00 26 41 F7 00][10 01][18 04][02]",
+      "original_hex": "70879899939850969c999798a450a09c919e50a79fa59c9450a99fa5509c999b956f1318012510011902769c999798a450a09c919e5071021902769c999798a450a09c919e5072021902769c999798a450a09c919e5073021c0c011109036440f7008d40f7002641f7001001180402",
+      "baseline_hex": {
+        "accents": "70879899939850969c999798a450a09c919e50a79fa59c9450a99fa5509c999b956f1318012510011902809c919e50949550a69f9c5071021902809c919e50949550a69f9c5072021902809c919e50949550a69f9c5073021c0c011109036440f7008d40f7002641f7001001180402",
+        "ascii": "70879899939850969c999798a450a09c919e50a79fa59c9450a99fa5509c999b956f1318012510011902809c919e50949550a69f9c5071021902809c919e50949550a69f9c5072021902809c919e50949550a69f9c5073021c0c011109036440f7008d40f7002641f7001001180402"
+      },
+      "spans": [
+        [
+          1,
+          34
+        ],
+        [
+          42,
+          55
+        ],
+        [
+          58,
+          71
+        ],
+        [
+          74,
+          87
+        ]
+      ],
+      "fr": [
+        "Quel plan de vol préfères-tu?",
+        "Plan de vol A",
+        "Plan de vol B",
+        "Plan de vol C"
+      ],
+      "entry_refs": [
+        "3744B0"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "2D2C99",
+          "target": "3744D2"
+        }
+      ]
+    },
+    {
+      "id": "3777BE",
+      "end": "3777FC",
+      "english_script": "@I can't buy stuff from you if you have nothing to sell me.\n[02]",
+      "original_hex": "70795093919e57a45092a5a950a3a4a596965096a29f9d50a99fa550999650a99fa5509891a695509e9fa498999e9750a49f50a3959c9c509d955e030002",
+      "baseline_hex": {
+        "accents": "70795093919e57a45092a5a950a3a4a596965096a29f9d50a99fa550999650a99fa5509891a695509e9fa498999e9750a49f50a3959c9c509d955e030002",
+        "ascii": "70795093919e57a45092a5a950a3a4a596965096a29f9d50a99fa550999650a99fa5509891a695509e9fa498999e9750a49f50a3959c9c509d955e030002"
+      },
+      "spans": [
+        [
+          1,
+          59
+        ]
+      ],
+      "fr": [
+        "Je ne peux rien t'acheter si tu n'as rien à vendre."
+      ],
+      "entry_refs": [
+        "366302",
+        "366309",
+        "366310",
+        "366317"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "29428D",
+          "target": "3777CF"
+        }
+      ]
+    },
+    {
+      "id": "37807E",
+      "end": "378156",
+      "english_script": "[06 39 03 56 81 F7 00]@With the tracks ruined, the train has stopped running.\n@The whole world is ending!\n@Quit with all the pesky questions, will ya?\n@Geez, you're persistent. You're gonna make me cry with all your questions.[13][02]",
+      "original_hex": "0639035681f700708799a49850a4989550a4a291939ba350a2a5999e95945c50a4989550a4a291999e509891a350a3a49fa0a0959450a2a59e9e999e975e03007084989550a7989f9c9550a79fa29c945099a350959e94999e975103007081a599a450a799a49850919c9c50a4989550a095a39ba950a1a595a3a4999f9ea35c50a7999c9c50a9916f030070779595aa5c50a99fa557a29550a095a2a399a3a4959ea45e50899fa557a29550979f9e9e91509d919b95509d955093a2a950a799a49850919c9c50a99fa5a250a1a595a3a4999f9ea35e1302",
+      "baseline_hex": {
+        "accents": "0639035681f700707c95a350a69f9995a350a39f9ea4509192b69db095a35c509c9550a4a291999e509e9550a29fa59c9550a09ca5a35e50505050505050030070735795a3a4509c915096999e5094a5509d9f9e9495515050505003007081a599a450a799a49850919c9c50a4989550a095a39ba950a1a595a3a4999f9ea35c50a7999c9c50a9916f03007084a550999ea399a3a495a350a6a291999d959ea45e50849fa5a495a350a495a350a1a595a3a4999f9ea350a69f9ea4509d9550969199a29550a09c95a5a295a25e5050505050505050501302",
+        "ascii": "0639035681f700707c95a350a69f9995a350a39f9ea4509192999d9595a35c509c9550a4a291999e509e9550a29fa59c9550a09ca5a35e50505050505050030070735795a3a4509c915096999e5094a5509d9f9e9495515050505003007081a599a450a799a49850919c9c50a4989550a095a39ba950a1a595a3a4999f9ea35c50a7999c9c50a9916f03007084a550999ea399a3a495a350a6a291999d959ea45e50849fa5a495a350a495a350a1a595a3a4999f9ea350a69f9ea4509d9550969199a29550a09c95a5a295a25e5050505050505050501302"
+      },
+      "spans": [
+        [
+          8,
+          62
+        ],
+        [
+          65,
+          91
+        ],
+        [
+          94,
+          137
+        ],
+        [
+          140,
+          214
+        ]
+      ],
+      "fr": [
+        "Les rails sont détruits, alors le train ne circule plus.",
+        "C'est la fin du monde!",
+        "Arrête avec toutes tes questions agaçantes, tu veux?",
+        "Tu es vraiment tenace. Tu vas me faire pleurer avec tes questions."
+      ],
+      "entry_refs": [
+        "20697A"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "1FD490",
+          "target": "3780FB"
+        },
+        {
+          "offset": "31262B",
+          "target": "37807F"
+        },
+        {
+          "offset": "3EED9B",
+          "target": "3780F5"
+        }
+      ]
+    },
+    {
+      "id": "37853B",
+      "end": "37859E",
+      "english_script": "@Let's see...\n@Two plus three equals five, eight minus four equals four.\n@I study all the time.[13][02]",
+      "original_hex": "707c95a457a350a395955e5e5e03007084a79f50a09ca5a350a498a295955095a1a5919ca3509699a6955c5095999798a4509d999ea5a350969fa5a25095a1a5919ca350969fa5a25e0300707950a3a4a594a950919c9c50a4989550a4999d955e1302",
+      "baseline_hex": {
+        "accents": "70869fa99f9ea35e5e5e50505003007084a79f50a09ca5a350a498a295955095a1a5919ca3509699a6955c5095999798a4509d999ea5a350969fa5a25095a1a5919ca350969fa5a25e0300707a57b0a4a594999550a3919ea35091a2a2b2a45e501302",
+        "ascii": "70869fa99f9ea35e5e5e50505003007084a79f50a09ca5a350a498a295955095a1a5919ca3509699a6955c5095999798a4509d999ea5a350969fa5a25095a1a5919ca350969fa5a25e0300707a5795a4a594999550a3919ea35091a2a295a45e501302"
+      },
+      "spans": [
+        [
+          1,
+          13
+        ],
+        [
+          16,
+          73
+        ],
+        [
+          76,
+          97
+        ]
+      ],
+      "fr": [
+        "Voyons...",
+        "Deux plus trois font cinq, huit moins quatre font quatre.",
+        "J'étudie tout le temps."
+      ],
+      "entry_refs": [
+        "2036BE"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "279AD9",
+          "target": "378579"
+        }
+      ]
+    },
+    {
+      "id": "37D51B",
+      "end": "37D552",
+      "english_script": "@West: Spookane Downtown\n  East: Spookane Residential[13][02]",
+      "original_hex": "708795a3a46a5083a09f9f9b919e9550749fa79ea49fa79e0050507591a3a46a5083a09f9f9b919e95508295a39994959ea499919c1302",
+      "baseline_hex": {
+        "accents": "707fa595a3a46a5073959ea4a2955083a09f9f9b919e95500050507591a3a46a5083a09f9f9b919e95508295a39994959ea499919c1302",
+        "ascii": "707fa595a3a46a5073959ea4a2955083a09f9f9b919e95500050507591a3a46a5083a09f9f9b919e95508295a39994959ea499919c1302"
+      },
+      "spans": [
+        [
+          1,
+          24
+        ],
+        [
+          25,
+          53
+        ]
+      ],
+      "fr": [
+        "Ouest: centre de Spookane",
+        "  Est: quartier résidentiel de Spookane"
+      ],
+      "entry_refs": [
+        "0F0448"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "3CC7FB",
+          "target": "37D541"
+        }
+      ]
+    },
+    {
+      "id": "37FDF5",
+      "end": "37FE2C",
+      "english_script": "@Your pockets are empty. Sorry, but I don't take air\n[02]",
+      "original_hex": "70899fa5a250a09f939b95a4a35091a29550959da0a4a95e50839fa2a2a95c5092a5a4507950949f9e57a450a4919b95509199a2030002",
+      "baseline_hex": {
+        "accents": "70899fa5a250a09f939b95a4a35091a29550959da0a4a95e50839fa2a2a95c5092a5a4507950949f9e57a450a4919b95509199a2030002",
+        "ascii": "70899fa5a250a09f939b95a4a35091a29550959da0a4a95e50839fa2a2a95c5092a5a4507950949f9e57a450a4919b95509199a2030002"
+      },
+      "spans": [
+        [
+          1,
+          52
+        ]
+      ],
+      "fr": [
+        "Tes poches sont vides. Désolé, je n'achète pas de l'air."
+      ],
+      "entry_refs": [
+        "3662ED",
+        "3662F4",
+        "3662FB"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "27EC4D",
+          "target": "37FDFF"
+        },
+        {
+          "offset": "27EE4D",
+          "target": "37FDFF"
+        },
+        {
+          "offset": "27F04D",
+          "target": "37FDFF"
+        },
+        {
+          "offset": "27F24D",
+          "target": "37FDFF"
+        },
+        {
+          "offset": "2DA0B7",
+          "target": "37FE06"
+        }
+      ]
+    },
+    {
+      "id": "37FECE",
+      "end": "37FF1E",
+      "english_script": "@[1C 02 00]'s bag is stuffed full!\n@Do any of your friends want to carry it instead?\n[02]",
+      "original_hex": "701c020057a3509291975099a350a3a4a5969695945096a59c9c51030070749f50919ea9509f9650a99fa5a25096a299959e94a350a7919ea450a49f509391a2a2a95099a450999ea3a49591946f0002",
+      "baseline_hex": {
+        "accents": "701c02009150a39f9e50a3919350a09c95999e5150505050505050030070749f50919ea9509f9650a99fa5a25096a299959e94a350a7919ea450a49f509391a2a2a95099a450999ea3a49591946f0002",
+        "ascii": "701c02009150a39f9e50a3919350a09c95999e5150505050505050030070749f50919ea9509f9650a99fa5a25096a299959e94a350a7919ea450a49f509391a2a2a95099a450999ea3a49591946f0002"
+      },
+      "spans": [
+        [
+          4,
+          27
+        ],
+        [
+          30,
+          78
+        ]
+      ],
+      "fr": [
+        " n'a plus de place dans son sac!",
+        "Un de tes amis peut le porter à sa place?"
+      ],
+      "entry_refs": [
+        "366685",
+        "36668C",
+        "366693"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "3EEAD8",
+          "target": "37FF00"
+        }
+      ]
+    },
+    {
+      "id": "380B7C",
+      "end": "380BD3",
+      "english_script": "@If you find some, buy some for me, please.\n@I'll give you something nice in return.[13][02]",
+      "original_hex": "70799650a99fa55096999e9450a39f9d955c5092a5a950a39f9d9550969fa2509d955c50a09c9591a3955e03007079579c9c509799a69550a99fa550a39f9d95a498999e97509e99939550999e50a295a4a5a29e5e1302",
+      "baseline_hex": {
+        "accents": "70799650a99fa55096999e9450a39f9d955c5092a5a950a39f9d9550969fa2509d955c50a09c9591a3955e03007079579c9c509799a69550a99fa550a39f9d95a498999e97509e99939550999e50a295a4a5a29e5e1302",
+        "ascii": "70799650a99fa55096999e9450a39f9d955c5092a5a950a39f9d9550969fa2509d955c50a09c9591a3955e03007079579c9c509799a69550a99fa550a39f9d95a498999e97509e99939550999e50a295a4a5a29e5e1302"
+      },
+      "spans": [
+        [
+          1,
+          43
+        ],
+        [
+          46,
+          85
+        ]
+      ],
+      "fr": [
+        "Si tu en trouves, achètes-en pour moi, s'il te plaît.",
+        "Je te donnerai quelque chose de sympa en échange."
+      ],
+      "entry_refs": [
+        "380B6F"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "18CA91",
+          "target": "380B83"
+        },
+        {
+          "offset": "2AE358",
+          "target": "380B84"
+        },
+        {
+          "offset": "3BCBF0",
+          "target": "380B84"
+        },
+        {
+          "offset": "2B85AF",
+          "target": "380B80"
+        },
+        {
+          "offset": "3C066D",
+          "target": "380BA9"
+        },
+        {
+          "offset": "3DEB5B",
+          "target": "380BB5"
+        }
+      ]
+    },
+    {
+      "id": "380CFA",
+      "end": "380DDC",
+      "english_script": "[1D 01 FF AE][1F 02 76][04 9F 03][04 81 04]@Oh, it looks so good! [10 0F]Thank you!\n@As a token of my gratitude, I'll share some information I heard.\n@Near the summit of Mt. Itoi...\n@Deep in the lake, there lies a fantastic robot.\n@I think it still works.[13][02]",
+      "original_hex": "1d01ffae1f0276049f03048104707f985c5099a4509c9f9f9ba350a39f50979f9f945150100f8498919e9b50a99fa55103007071a3509150a49f9b959e509f96509da95097a291a499a4a594955c5079579c9c50a39891a29550a39f9d9550999e969fa29d91a4999f9e507950989591a2945e0300707e9591a250a4989550a3a59d9d99a4509f96507da45e5079a49f995e5e5e030070749595a050999e50a49895509c919b955c50a49895a295509c9995a350915096919ea491a3a4999350a29f929fa45e0300707950a498999e9b5099a450a3a4999c9c50a79fa29ba35e1302",
+      "baseline_hex": {
+        "accents": "1d01ffae1f0276049f03048104707a9550a695a5a85091a5a3a3995095a3a391a995a250100f7d95a293995150505050030070809fa5a250a49550a2959d95a2939995a25c509a9550a69199a350a49550a291939f9ea495a250939550a1a595509a57919950959ea4959e94a55e50505050500300707e9591a250a4989550a3a59d9d99a4509f96507da45e5079a49f995e5e5e030070749595a050999e50a49895509c919b955c50a49895a295509c9995a350915096919ea491a3a4999350a29f929fa45e030070bf9150949f99a450959e939fa295509d91a2939895a25e1302",
+        "ascii": "1d01ffae1f0276049f03048104707a9550a695a5a85091a5a3a3995095a3a391a995a250100f7d95a293995150505050030070809fa5a250a49550a2959d95a2939995a25c509a9550a69199a350a49550a291939f9ea495a250939550a1a595509a57919950959ea4959e94a55e50505050500300707e9591a250a4989550a3a59d9d99a4509f96507da45e5079a49f995e5e5e030070749595a050999e50a49895509c919b955c50a49895a295509c9995a350915096919ea491a3a4999350a29f929fa45e030070739150949f99a450959e939fa295509d91a2939895a25e1302"
+      },
+      "spans": [
+        [
+          14,
+          36
+        ],
+        [
+          38,
+          48
+        ],
+        [
+          51,
+          115
+        ],
+        [
+          118,
+          148
+        ],
+        [
+          151,
+          198
+        ],
+        [
+          201,
+          224
+        ]
+      ],
+      "fr": [
+        "Oh, ça a l'air délicieux! ",
+        "Merci!",
+        "Pour te remercier, je vais te dire ce que j'ai entendu.",
+        "Près du sommet du mont Itoi...",
+        "Un fabuleux robot repose au fond du lac.",
+        "Je crois qu'il fonctionne encore."
+      ],
+      "entry_refs": [
+        "380CAB"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "1A8ED0",
+          "target": "380DB1"
+        },
+        {
+          "offset": "2CD297",
+          "target": "380D86"
+        },
+        {
+          "offset": "3F3EAA",
+          "target": "380DA1"
+        }
+      ]
+    },
+    {
+      "id": "380DF7",
+      "end": "380E3A",
+      "english_script": "@I look just like Able, but I am Baker.\n@I also want to try [1C 05 AE].[13][02]",
+      "original_hex": "7079509c9f9f9b509aa5a3a4509c999b955071929c955c5092a5a4507950919d5072919b95a25e0300707950919ca39f50a7919ea450a49f50a4a2a9501c05ae5e1302",
+      "baseline_hex": {
+        "accents": "7079509c9f9f9b509aa5a3a4509c999b955071929c955c5092a5a4507950919d5072919b95a25e0300707a9550a695a5a85095a3a391a995a2505050501c05ae5e1302",
+        "ascii": "7079509c9f9f9b509aa5a3a4509c999b955071929c955c5092a5a4507950919d5072919b95a25e0300707a9550a695a5a85095a3a391a995a2505050501c05ae5e1302"
+      },
+      "spans": [
+        [
+          1,
+          39
+        ],
+        [
+          42,
+          61
+        ],
+        [
+          64,
+          65
+        ]
+      ],
+      "fr": [
+        "Je ressemble à Able, mais je suis Baker.",
+        "Moi aussi, je veux goûter à ",
+        "."
+      ],
+      "entry_refs": [
+        "380DE9",
+        "380DF3"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "3F4454",
+          "target": "380E15"
+        }
+      ]
+    },
+    {
+      "id": "380EBA",
+      "end": "380F09",
+      "english_script": "@Thank you for everything.\n@As a token of my gratitude...\n@I wish you luck.[13][02]",
+      "original_hex": "708498919e9b50a99fa550969fa25095a695a2a9a498999e975e03007071a3509150a49f9b959e509f96509da95097a291a499a4a594955e5e5e0300707950a799a39850a99fa5509ca5939b5e1302",
+      "baseline_hex": {
+        "accents": "708498919e9b50a99fa550969fa25095a695a2a9a498999e975e030070809fa5a250a49550a2959d95a2939995a25e5e5e505050505050505050030070729f9e9e95509398919e93955e5050501302",
+        "ascii": "708498919e9b50a99fa550969fa25095a695a2a9a498999e975e030070809fa5a250a49550a2959d95a2939995a25e5e5e505050505050505050030070729f9e9e95509398919e93955e5050501302"
+      },
+      "spans": [
+        [
+          1,
+          26
+        ],
+        [
+          29,
+          58
+        ],
+        [
+          61,
+          77
+        ]
+      ],
+      "fr": [
+        "Merci pour tout.",
+        "Pour te remercier...",
+        "Je te souhaite bonne chance."
+      ],
+      "entry_refs": [
+        "380B2A",
+        "380C9C",
+        "380DDF"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "3B5B1F",
+          "target": "380EC9"
+        }
+      ]
+    },
+    {
+      "id": "381DEE",
+      "end": "381E4F",
+      "english_script": "@Put your faith in ol' Sawbones Benny.\n@He'll cut high prices.\n@He'll cut your problems away![13][02]",
+      "original_hex": "7080a5a450a99fa5a250969199a49850999e509f9c57508391a7929f9e95a35072959e9ea95e0300707895579c9c5093a5a4509899979850a0a2999395a35e0300707895579c9c5093a5a450a99fa5a250a0a29f929c959da35091a791a9511302",
+      "baseline_hex": {
+        "accents": "70769199a495a350939f9e9699919e93955091a550a49fa59299925072959e9ea95e50505050030070799c50a491999c9c95509c95a350a0a299a85e5050500300707895579c9c5093a5a450a99fa5a250a0a29f929c959da35091a791a9511302",
+        "ascii": "70769199a495a350939f9e9699919e93955091a550a49fa59299925072959e9ea95e50505050030070799c50a491999c9c95509c95a350a0a299a85e5050500300707895579c9c5093a5a450a99fa5a250a0a29f929c959da35091a791a9511302"
+      },
+      "spans": [
+        [
+          1,
+          38
+        ],
+        [
+          41,
+          63
+        ],
+        [
+          66,
+          95
+        ]
+      ],
+      "fr": [
+        "Fais confiance au vieux toubib Benny.",
+        "Il taille dans les prix.",
+        "Il taille aussi dans tes soucis!"
+      ],
+      "entry_refs": [
+        "0F008E"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "2D1AD4",
+          "target": "381E30"
+        }
+      ]
+    },
+    {
+      "id": "381F38",
+      "end": "38201D",
+      "english_script": "@Need the perfect get-well soon gift?\n@Whether it's flowers or a fruit basket,\n  our partnership with the Reindeer Market will provide!\n@Sweet thoughts for your loved ones.\n@Peace of mind for you.\n@Both lead to good health.[13][02]",
+      "original_hex": "707e95959450a4989550a095a2969593a4509795a45da7959c9c50a39f9f9e50979996a46f030070879895a49895a25099a457a350969c9fa795a2a3509fa250915096a2a599a4509291a39b95a45c030050509fa5a250a091a2a49e95a2a39899a050a799a49850a49895508295999e949595a2507d91a29b95a450a7999c9c50a0a29fa69994955103007083a79595a450a4989fa59798a4a350969fa250a99fa5a2509c9fa69594509f9e95a35e00708095919395509f96509d999e9450969fa250a99fa55e030070729fa498509c95919450a49f50979f9f94509895919ca4985e1302",
+      "baseline_hex": {
+        "accents": "70859e509391949591a550949550929f9e50a2b0a491929c99a3a3959d959ea46f5050505003007081a557999c50a357919799a3a39550949550969c95a5a2a3509fa55094955096a2a599a4a35c50030050509e9fa4a29550a091a2a4959e91a29991a45091a69593509c95509d91a29398b0509495508295999e949595a25150505050505050505003007083a79595a450a4989fa59798a4a350969fa250a99fa5a2509c9fa69594509f9e95a35e00708095919395509f96509d999e9450969fa250a99fa55e0300707c95a3509495a5a850969f9ea45094a5509299959e5e5050501302",
+        "ascii": "70859e509391949591a550949550929f9e50a295a491929c99a3a3959d959ea46f5050505003007081a557999c50a357919799a3a39550949550969c95a5a2a3509fa55094955096a2a599a4a35c50030050509e9fa4a29550a091a2a4959e91a29991a45091a69593509c95509d91a2939895509495508295999e949595a25150505050505050505003007083a79595a450a4989fa59798a4a350969fa250a99fa5a2509c9fa69594509f9e95a35e00708095919395509f96509d999e9450969fa250a99fa55e0300707c95a3509495a5a850969f9ea45094a5509299959e5e5050501302"
+      },
+      "spans": [
+        [
+          1,
+          37
+        ],
+        [
+          40,
+          79
+        ],
+        [
+          81,
+          137
+        ],
+        [
+          140,
+          175
+        ],
+        [
+          177,
+          199
+        ],
+        [
+          202,
+          227
+        ]
+      ],
+      "fr": [
+        "Tu cherches le cadeau idéal pour souhaiter un bon rétablissement?",
+        "Des fleurs ou une corbeille de fruits,",
+        "  notre partenaire, le marché de Reindeer, a ce qu'il te faut!",
+        "De tendres pensées pour tes proches.",
+        "La tranquillité d'esprit pour toi.",
+        "Tout cela contribue à une bonne santé."
+      ],
+      "entry_refs": [
+        "0F15AC"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "255A4D",
+          "target": "381FCC"
+        },
+        {
+          "offset": "2A088D",
+          "target": "381FCC"
+        },
+        {
+          "offset": "2CC844",
+          "target": "381FFB"
+        }
+      ]
+    },
+    {
+      "id": "3820D2",
+      "end": "382113",
+      "english_script": "@This is not a hotel.\n  Staying for the night is not permitted.[13][02]",
+      "original_hex": "70849899a35099a3509e9fa4509150989fa4959c5e00505083a491a9999e9750969fa250a49895509e999798a45099a3509e9fa450a095a29d99a4a495945e1302",
+      "baseline_hex": {
+        "accents": "708091a350a59e5098b8a4959c509993995e50505000505083a491a9999e9750969fa250a49895509e999798a45099a3509e9fa450a095a29d99a4a495945e1302",
+        "ascii": "708091a350a59e50989fa4959c509993995e50505000505083a491a9999e9750969fa250a49895509e999798a45099a3509e9fa450a095a29d99a4a495945e1302"
+      },
+      "spans": [
+        [
+          1,
+          21
+        ],
+        [
+          22,
+          63
+        ]
+      ],
+      "fr": [
+        "Ce n'est pas un hôtel.",
+        "  Il est interdit de passer la nuit ici."
+      ],
+      "entry_refs": [
+        "0F13CE"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "3A8496",
+          "target": "3820FF"
+        }
+      ]
+    },
+    {
+      "id": "3824E6",
+      "end": "382519",
+      "english_script": "@Your account currently shows a balance of $[1C 01 07].\n[02]",
+      "original_hex": "70899fa5a2509193939fa59ea45093a5a2a2959ea49ca950a3989fa7a350915092919c919e9395509f9650541c01075e030002",
+      "baseline_hex": {
+        "accents": "70899fa5a2509193939fa59ea45093a5a2a2959ea49ca950a3989fa7a350915092919c919e9395509f9650541c01075e030002",
+        "ascii": "70899fa5a2509193939fa59ea45093a5a2a2959ea49ca950a3989fa7a350915092919c919e9395509f9650541c01075e030002"
+      },
+      "spans": [
+        [
+          1,
+          44
+        ],
+        [
+          47,
+          48
+        ]
+      ],
+      "fr": [
+        "Le solde actuel de ton compte est de ",
+        "$."
+      ],
+      "entry_refs": [
+        "382449",
+        "3824A3"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "3A4063",
+          "target": "3824FB"
+        }
+      ]
+    },
+    {
+      "id": "382567",
+      "end": "3825AD",
+      "english_script": "@I recommend the hot chocolate.\n  It comes with little marshmallows.[13][02]",
+      "original_hex": "707950a295939f9d9d959e9450a4989550989fa45093989f939f9c91a4955e00505079a450939f9d95a350a799a498509c99a4a49c95509d91a2a3989d919c9c9fa7a35e1302",
+      "baseline_hex": {
+        "accents": "707950a295939f9d9d959e9450a4989550989fa45093989f939f9c91a4955e00505071a69593509495a350a095a499a4a3509d91a2a3989d919c9c9fa7a35e50505050501302",
+        "ascii": "707950a295939f9d9d959e9450a4989550989fa45093989f939f9c91a4955e00505071a69593509495a350a095a499a4a3509d91a2a3989d919c9c9fa7a35e50505050501302"
+      },
+      "spans": [
+        [
+          1,
+          31
+        ],
+        [
+          32,
+          68
+        ]
+      ],
+      "fr": [
+        "Je te recommande le chocolat chaud.",
+        "  Il est servi avec de petites guimauves."
+      ],
+      "entry_refs": [
+        "365A0C"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "3CA9CB",
+          "target": "382583"
+        }
+      ]
+    },
+    {
+      "id": "3828E3",
+      "end": "382908",
+      "english_script": "@That's too many for you to carry.\n[02]",
+      "original_hex": "70849891a457a350a49f9f509d919ea950969fa250a99fa550a49f509391a2a2a95e030002",
+      "baseline_hex": {
+        "accents": "70849891a457a350a49f9f509d919ea950969fa250a99fa550a49f509391a2a2a95e030002",
+        "ascii": "70849891a457a350a49f9f509d919ea950969fa250a99fa550a49f509391a2a2a95e030002"
+      },
+      "spans": [
+        [
+          1,
+          34
+        ]
+      ],
+      "fr": [
+        "Tu ne peux pas en porter autant."
+      ],
+      "entry_refs": [
+        "366924"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "001CAD",
+          "target": "382900"
+        }
+      ]
+    },
+    {
+      "id": "3844A7",
+      "end": "3844C5",
+      "english_script": "@You can't afford the cost!\n[02]",
+      "original_hex": "70899fa55093919e57a4509196969fa29450a4989550939fa3a451030002",
+      "baseline_hex": {
+        "accents": "70899fa55093919e57a4509196969fa29450a4989550939fa3a451030002",
+        "ascii": "70899fa55093919e57a4509196969fa29450a4989550939fa3a451030002"
+      },
+      "spans": [
+        [
+          1,
+          27
+        ]
+      ],
+      "fr": [
+        "Tu n'as pas assez d'argent!"
+      ],
+      "entry_refs": [
+        "365FD3"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "2B937E",
+          "target": "3844B4"
+        }
+      ]
+    },
+    {
+      "id": "3867CD",
+      "end": "3867EE",
+      "english_script": "@Sorry, ya don't got the cash.\n[02]",
+      "original_hex": "70839fa2a2a95c50a99150949f9e57a450979fa450a49895509391a3985e030002",
+      "baseline_hex": {
+        "accents": "70839fa2a2a95c50a99150949f9e57a450979fa450a49895509391a3985e030002",
+        "ascii": "70839fa2a2a95c50a99150949f9e57a450979fa450a49895509391a3985e030002"
+      },
+      "spans": [
+        [
+          1,
+          30
+        ]
+      ],
+      "fr": [
+        "Désolé, t'as pas assez de sous."
+      ],
+      "entry_refs": [
+        "366826"
+      ],
+      "verified_prior_copy_refs": [],
+      "preserved_aliases": [
+        {
+          "offset": "26B36B",
+          "target": "3867E0"
+        }
+      ]
+    }
+  ]
+}

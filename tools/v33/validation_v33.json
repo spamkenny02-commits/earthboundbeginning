@@ -1,0 +1,1681 @@
+{
+  "base": "V32",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "scripts": 58,
+  "text_spans": 153,
+  "reservations": [
+    [
+      "258DC0",
+      "259400"
+    ],
+    [
+      "25C210",
+      "25C820"
+    ],
+    [
+      "32B620",
+      "32BC20"
+    ],
+    [
+      "228820",
+      "228D60"
+    ],
+    [
+      "32D530",
+      "32DA20"
+    ]
+  ],
+  "profiles": {
+    "accents": {
+      "sha256": "59ea8098610065e21db7007238f48c9bc727afbfc3f7b65b8c26aee94604bd6f",
+      "target_rom_sha256": "b8d79f0c5baade77e52e4ebab2fded9f65e2d8c38ecd221a2a47242234c3ac0c",
+      "additions": 138,
+      "used_end": "32D820",
+      "rom_roundtrip": true,
+      "original_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "relocated": [
+        {
+          "id": "33C628",
+          "offset": "258DC0",
+          "old_length": 64,
+          "new_length": 68,
+          "internal_refs": []
+        },
+        {
+          "id": "33CAA1",
+          "offset": "258E10",
+          "old_length": 149,
+          "new_length": 134,
+          "internal_refs": []
+        },
+        {
+          "id": "33D1ED",
+          "offset": "258EA0",
+          "old_length": 82,
+          "new_length": 101,
+          "internal_refs": []
+        },
+        {
+          "id": "33D23F",
+          "offset": "258F10",
+          "old_length": 69,
+          "new_length": 60,
+          "internal_refs": []
+        },
+        {
+          "id": "33DC88",
+          "offset": "258F50",
+          "old_length": 247,
+          "new_length": 241,
+          "internal_refs": []
+        },
+        {
+          "id": "33DDC0",
+          "offset": "259050",
+          "old_length": 135,
+          "new_length": 132,
+          "internal_refs": []
+        },
+        {
+          "id": "33E0F7",
+          "offset": "2590E0",
+          "old_length": 125,
+          "new_length": 130,
+          "internal_refs": []
+        },
+        {
+          "id": "33E1A9",
+          "offset": "259170",
+          "old_length": 129,
+          "new_length": 129,
+          "internal_refs": []
+        },
+        {
+          "id": "347FC5",
+          "offset": "259200",
+          "old_length": 138,
+          "new_length": 131,
+          "internal_refs": []
+        },
+        {
+          "id": "3480B3",
+          "offset": "259290",
+          "old_length": 125,
+          "new_length": 136,
+          "internal_refs": []
+        },
+        {
+          "id": "348FE5",
+          "offset": "259320",
+          "old_length": 94,
+          "new_length": 116,
+          "internal_refs": []
+        },
+        {
+          "id": "34A46E",
+          "offset": "25C210",
+          "old_length": 74,
+          "new_length": 104,
+          "internal_refs": []
+        },
+        {
+          "id": "34EABB",
+          "offset": "25C280",
+          "old_length": 35,
+          "new_length": 31,
+          "internal_refs": []
+        },
+        {
+          "id": "34EDF4",
+          "offset": "25C2A0",
+          "old_length": 85,
+          "new_length": 82,
+          "internal_refs": []
+        },
+        {
+          "id": "34EFA6",
+          "offset": "25C300",
+          "old_length": 51,
+          "new_length": 63,
+          "internal_refs": []
+        },
+        {
+          "id": "34F031",
+          "offset": "25C340",
+          "old_length": 88,
+          "new_length": 84,
+          "internal_refs": []
+        },
+        {
+          "id": "34F1E3",
+          "offset": "25C3A0",
+          "old_length": 87,
+          "new_length": 85,
+          "internal_refs": []
+        },
+        {
+          "id": "34F49C",
+          "offset": "25C400",
+          "old_length": 29,
+          "new_length": 23,
+          "internal_refs": []
+        },
+        {
+          "id": "34F5B6",
+          "offset": "25C420",
+          "old_length": 46,
+          "new_length": 62,
+          "internal_refs": []
+        },
+        {
+          "id": "34FC37",
+          "offset": "25C460",
+          "old_length": 29,
+          "new_length": 23,
+          "internal_refs": []
+        },
+        {
+          "id": "34FCE8",
+          "offset": "25C480",
+          "old_length": 28,
+          "new_length": 30,
+          "internal_refs": []
+        },
+        {
+          "id": "34FD81",
+          "offset": "25C4A0",
+          "old_length": 30,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "350FF8",
+          "offset": "25C4D0",
+          "old_length": 147,
+          "new_length": 137,
+          "internal_refs": []
+        },
+        {
+          "id": "3521F5",
+          "offset": "25C560",
+          "old_length": 116,
+          "new_length": 115,
+          "internal_refs": []
+        },
+        {
+          "id": "352958",
+          "offset": "25C5E0",
+          "old_length": 216,
+          "new_length": 215,
+          "internal_refs": []
+        },
+        {
+          "id": "353EF7",
+          "offset": "25C6C0",
+          "old_length": 69,
+          "new_length": 84,
+          "internal_refs": []
+        },
+        {
+          "id": "353F3C",
+          "offset": "25C720",
+          "old_length": 96,
+          "new_length": 102,
+          "internal_refs": []
+        },
+        {
+          "id": "35413A",
+          "offset": "25C790",
+          "old_length": 127,
+          "new_length": 128,
+          "internal_refs": []
+        },
+        {
+          "id": "35EA16",
+          "offset": "32B620",
+          "old_length": 27,
+          "new_length": 25,
+          "internal_refs": []
+        },
+        {
+          "id": "360D7F",
+          "offset": "32B640",
+          "old_length": 160,
+          "new_length": 173,
+          "internal_refs": []
+        },
+        {
+          "id": "360E1F",
+          "offset": "32B6F0",
+          "old_length": 252,
+          "new_length": 264,
+          "internal_refs": [
+            {
+              "offset": "32B751",
+              "old_target": "360F19",
+              "new_target": "32B7F6"
+            }
+          ]
+        },
+        {
+          "id": "36411D",
+          "offset": "32B800",
+          "old_length": 101,
+          "new_length": 116,
+          "internal_refs": []
+        },
+        {
+          "id": "3641F5",
+          "offset": "32B880",
+          "old_length": 112,
+          "new_length": 118,
+          "internal_refs": []
+        },
+        {
+          "id": "36478E",
+          "offset": "32B900",
+          "old_length": 115,
+          "new_length": 107,
+          "internal_refs": []
+        },
+        {
+          "id": "36964A",
+          "offset": "32B970",
+          "old_length": 228,
+          "new_length": 251,
+          "internal_refs": []
+        },
+        {
+          "id": "36E4E8",
+          "offset": "32BA70",
+          "old_length": 89,
+          "new_length": 114,
+          "internal_refs": []
+        },
+        {
+          "id": "36ECBA",
+          "offset": "32BAF0",
+          "old_length": 32,
+          "new_length": 25,
+          "internal_refs": []
+        },
+        {
+          "id": "36F15A",
+          "offset": "32BB10",
+          "old_length": 71,
+          "new_length": 91,
+          "internal_refs": []
+        },
+        {
+          "id": "37429D",
+          "offset": "32BB70",
+          "old_length": 106,
+          "new_length": 121,
+          "internal_refs": []
+        },
+        {
+          "id": "3744C7",
+          "offset": "228820",
+          "old_length": 111,
+          "new_length": 107,
+          "internal_refs": []
+        },
+        {
+          "id": "3777BE",
+          "offset": "228890",
+          "old_length": 62,
+          "new_length": 55,
+          "internal_refs": []
+        },
+        {
+          "id": "37807E",
+          "offset": "2288D0",
+          "old_length": 216,
+          "new_length": 215,
+          "internal_refs": []
+        },
+        {
+          "id": "37853B",
+          "offset": "2289B0",
+          "old_length": 99,
+          "new_length": 98,
+          "internal_refs": []
+        },
+        {
+          "id": "37D51B",
+          "offset": "228A20",
+          "old_length": 55,
+          "new_length": 68,
+          "internal_refs": []
+        },
+        {
+          "id": "37FDF5",
+          "offset": "228A70",
+          "old_length": 55,
+          "new_length": 60,
+          "internal_refs": []
+        },
+        {
+          "id": "37FECE",
+          "offset": "228AB0",
+          "old_length": 80,
+          "new_length": 82,
+          "internal_refs": []
+        },
+        {
+          "id": "380B7C",
+          "offset": "228B10",
+          "old_length": 87,
+          "new_length": 108,
+          "internal_refs": []
+        },
+        {
+          "id": "380CFA",
+          "offset": "228B80",
+          "old_length": 226,
+          "new_length": 220,
+          "internal_refs": []
+        },
+        {
+          "id": "380DF7",
+          "offset": "228C60",
+          "old_length": 67,
+          "new_length": 78,
+          "internal_refs": []
+        },
+        {
+          "id": "380EBA",
+          "offset": "228CB0",
+          "old_length": 79,
+          "new_length": 73,
+          "internal_refs": []
+        },
+        {
+          "id": "381DEE",
+          "offset": "32D530",
+          "old_length": 97,
+          "new_length": 102,
+          "internal_refs": []
+        },
+        {
+          "id": "381F38",
+          "offset": "32D5A0",
+          "old_length": 229,
+          "new_length": 289,
+          "internal_refs": []
+        },
+        {
+          "id": "3820D2",
+          "offset": "32D6D0",
+          "old_length": 65,
+          "new_length": 66,
+          "internal_refs": []
+        },
+        {
+          "id": "3824E6",
+          "offset": "32D720",
+          "old_length": 51,
+          "new_length": 46,
+          "internal_refs": []
+        },
+        {
+          "id": "382567",
+          "offset": "32D750",
+          "old_length": 70,
+          "new_length": 80,
+          "internal_refs": []
+        },
+        {
+          "id": "3828E3",
+          "offset": "32D7A0",
+          "old_length": 37,
+          "new_length": 36,
+          "internal_refs": []
+        },
+        {
+          "id": "3844A7",
+          "offset": "32D7D0",
+          "old_length": 30,
+          "new_length": 31,
+          "internal_refs": []
+        },
+        {
+          "id": "3867CD",
+          "offset": "32D7F0",
+          "old_length": 33,
+          "new_length": 35,
+          "internal_refs": []
+        }
+      ],
+      "entry_refs_rewritten": [
+        {
+          "offset": "2929EA",
+          "old_target": "33C628",
+          "new_target": "258DC0"
+        },
+        {
+          "offset": "0F1AC6",
+          "old_target": "33CAA1",
+          "new_target": "258E10"
+        },
+        {
+          "offset": "0F1219",
+          "old_target": "33D1ED",
+          "new_target": "258EA0"
+        },
+        {
+          "offset": "2060FA",
+          "old_target": "33D23F",
+          "new_target": "258F10"
+        },
+        {
+          "offset": "33DBF9",
+          "old_target": "33DC88",
+          "new_target": "258F50"
+        },
+        {
+          "offset": "204B76",
+          "old_target": "33DDC0",
+          "new_target": "259050"
+        },
+        {
+          "offset": "2040F8",
+          "old_target": "33E0F7",
+          "new_target": "2590E0"
+        },
+        {
+          "offset": "203BFD",
+          "old_target": "33E1A9",
+          "new_target": "259170"
+        },
+        {
+          "offset": "347F4D",
+          "old_target": "347FC5",
+          "new_target": "259200"
+        },
+        {
+          "offset": "2062B4",
+          "old_target": "3480B3",
+          "new_target": "259290"
+        },
+        {
+          "offset": "2062C5",
+          "old_target": "3480B3",
+          "new_target": "259290"
+        },
+        {
+          "offset": "2062D6",
+          "old_target": "3480B3",
+          "new_target": "259290"
+        },
+        {
+          "offset": "20447D",
+          "old_target": "348FE5",
+          "new_target": "259320"
+        },
+        {
+          "offset": "34A461",
+          "old_target": "34A46E",
+          "new_target": "25C210"
+        },
+        {
+          "offset": "365A85",
+          "old_target": "34EABB",
+          "new_target": "25C280"
+        },
+        {
+          "offset": "3668E5",
+          "old_target": "34EDF4",
+          "new_target": "25C2A0"
+        },
+        {
+          "offset": "365E24",
+          "old_target": "34EFA6",
+          "new_target": "25C300"
+        },
+        {
+          "offset": "36604C",
+          "old_target": "34F031",
+          "new_target": "25C340"
+        },
+        {
+          "offset": "3666C4",
+          "old_target": "34F1E3",
+          "new_target": "25C3A0"
+        },
+        {
+          "offset": "366333",
+          "old_target": "34F49C",
+          "new_target": "25C400"
+        },
+        {
+          "offset": "36683B",
+          "old_target": "34F5B6",
+          "new_target": "25C420"
+        },
+        {
+          "offset": "366341",
+          "old_target": "34FC37",
+          "new_target": "25C460"
+        },
+        {
+          "offset": "366621",
+          "old_target": "34FCE8",
+          "new_target": "25C480"
+        },
+        {
+          "offset": "366901",
+          "old_target": "34FD81",
+          "new_target": "25C4A0"
+        },
+        {
+          "offset": "205CCB",
+          "old_target": "350FF8",
+          "new_target": "25C4D0"
+        },
+        {
+          "offset": "205B66",
+          "old_target": "3521F5",
+          "new_target": "25C560"
+        },
+        {
+          "offset": "205EA7",
+          "old_target": "352958",
+          "new_target": "25C5E0"
+        },
+        {
+          "offset": "2028FF",
+          "old_target": "353EF7",
+          "new_target": "25C6C0"
+        },
+        {
+          "offset": "2028EE",
+          "old_target": "353F3C",
+          "new_target": "25C720"
+        },
+        {
+          "offset": "202B63",
+          "old_target": "35413A",
+          "new_target": "25C790"
+        },
+        {
+          "offset": "0726B3",
+          "old_target": "35EA16",
+          "new_target": "32B620"
+        },
+        {
+          "offset": "35E7C2",
+          "old_target": "35EA16",
+          "new_target": "32B620"
+        },
+        {
+          "offset": "35EA32",
+          "old_target": "35EA16",
+          "new_target": "32B620"
+        },
+        {
+          "offset": "202AFD",
+          "old_target": "360D7F",
+          "new_target": "32B640"
+        },
+        {
+          "offset": "360CED",
+          "old_target": "360D7F",
+          "new_target": "32B640"
+        },
+        {
+          "offset": "360CF2",
+          "old_target": "360D7F",
+          "new_target": "32B640"
+        },
+        {
+          "offset": "202B0E",
+          "old_target": "360E1F",
+          "new_target": "32B6F0"
+        },
+        {
+          "offset": "360D01",
+          "old_target": "360E1F",
+          "new_target": "32B6F0"
+        },
+        {
+          "offset": "360D06",
+          "old_target": "360E1F",
+          "new_target": "32B6F0"
+        },
+        {
+          "offset": "204329",
+          "old_target": "36411D",
+          "new_target": "32B800"
+        },
+        {
+          "offset": "2043E4",
+          "old_target": "3641F5",
+          "new_target": "32B880"
+        },
+        {
+          "offset": "2045E2",
+          "old_target": "36478E",
+          "new_target": "32B900"
+        },
+        {
+          "offset": "3695D9",
+          "old_target": "36964A",
+          "new_target": "32B970"
+        },
+        {
+          "offset": "3695E7",
+          "old_target": "36964A",
+          "new_target": "32B970"
+        },
+        {
+          "offset": "3695F5",
+          "old_target": "36964A",
+          "new_target": "32B970"
+        },
+        {
+          "offset": "369640",
+          "old_target": "36964A",
+          "new_target": "32B970"
+        },
+        {
+          "offset": "203DB7",
+          "old_target": "36E4E8",
+          "new_target": "32BA70"
+        },
+        {
+          "offset": "365CD0",
+          "old_target": "36ECBA",
+          "new_target": "32BAF0"
+        },
+        {
+          "offset": "36606F",
+          "old_target": "36F15A",
+          "new_target": "32BB10"
+        },
+        {
+          "offset": "205CFE",
+          "old_target": "37429D",
+          "new_target": "32BB70"
+        },
+        {
+          "offset": "3744B0",
+          "old_target": "3744C7",
+          "new_target": "228820"
+        },
+        {
+          "offset": "366302",
+          "old_target": "3777BE",
+          "new_target": "228890"
+        },
+        {
+          "offset": "366309",
+          "old_target": "3777BE",
+          "new_target": "228890"
+        },
+        {
+          "offset": "366310",
+          "old_target": "3777BE",
+          "new_target": "228890"
+        },
+        {
+          "offset": "366317",
+          "old_target": "3777BE",
+          "new_target": "228890"
+        },
+        {
+          "offset": "20697A",
+          "old_target": "37807E",
+          "new_target": "2288D0"
+        },
+        {
+          "offset": "2036BE",
+          "old_target": "37853B",
+          "new_target": "2289B0"
+        },
+        {
+          "offset": "0F0448",
+          "old_target": "37D51B",
+          "new_target": "228A20"
+        },
+        {
+          "offset": "3662ED",
+          "old_target": "37FDF5",
+          "new_target": "228A70"
+        },
+        {
+          "offset": "3662F4",
+          "old_target": "37FDF5",
+          "new_target": "228A70"
+        },
+        {
+          "offset": "3662FB",
+          "old_target": "37FDF5",
+          "new_target": "228A70"
+        },
+        {
+          "offset": "366685",
+          "old_target": "37FECE",
+          "new_target": "228AB0"
+        },
+        {
+          "offset": "36668C",
+          "old_target": "37FECE",
+          "new_target": "228AB0"
+        },
+        {
+          "offset": "366693",
+          "old_target": "37FECE",
+          "new_target": "228AB0"
+        },
+        {
+          "offset": "380B6F",
+          "old_target": "380B7C",
+          "new_target": "228B10"
+        },
+        {
+          "offset": "380CAB",
+          "old_target": "380CFA",
+          "new_target": "228B80"
+        },
+        {
+          "offset": "380DE9",
+          "old_target": "380DF7",
+          "new_target": "228C60"
+        },
+        {
+          "offset": "380DF3",
+          "old_target": "380DF7",
+          "new_target": "228C60"
+        },
+        {
+          "offset": "380B2A",
+          "old_target": "380EBA",
+          "new_target": "228CB0"
+        },
+        {
+          "offset": "380C9C",
+          "old_target": "380EBA",
+          "new_target": "228CB0"
+        },
+        {
+          "offset": "380DDF",
+          "old_target": "380EBA",
+          "new_target": "228CB0"
+        },
+        {
+          "offset": "0F008E",
+          "old_target": "381DEE",
+          "new_target": "32D530"
+        },
+        {
+          "offset": "0F15AC",
+          "old_target": "381F38",
+          "new_target": "32D5A0"
+        },
+        {
+          "offset": "0F13CE",
+          "old_target": "3820D2",
+          "new_target": "32D6D0"
+        },
+        {
+          "offset": "382449",
+          "old_target": "3824E6",
+          "new_target": "32D720"
+        },
+        {
+          "offset": "3824A3",
+          "old_target": "3824E6",
+          "new_target": "32D720"
+        },
+        {
+          "offset": "365A0C",
+          "old_target": "382567",
+          "new_target": "32D750"
+        },
+        {
+          "offset": "366924",
+          "old_target": "3828E3",
+          "new_target": "32D7A0"
+        },
+        {
+          "offset": "365FD3",
+          "old_target": "3844A7",
+          "new_target": "32D7D0"
+        },
+        {
+          "offset": "366826",
+          "old_target": "3867CD",
+          "new_target": "32D7F0"
+        }
+      ]
+    },
+    "ascii": {
+      "sha256": "7c0e811a5baebb55ee869e9efbbee9291af5adab3ca6005498e64ea13d485881",
+      "target_rom_sha256": "102316d7bd527c462904578d319af804e3382bb4d3a1da5f904fa6442f25fb08",
+      "additions": 138,
+      "used_end": "32D820",
+      "rom_roundtrip": true,
+      "original_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "relocated": [
+        {
+          "id": "33C628",
+          "offset": "258DC0",
+          "old_length": 64,
+          "new_length": 68,
+          "internal_refs": []
+        },
+        {
+          "id": "33CAA1",
+          "offset": "258E10",
+          "old_length": 149,
+          "new_length": 134,
+          "internal_refs": []
+        },
+        {
+          "id": "33D1ED",
+          "offset": "258EA0",
+          "old_length": 82,
+          "new_length": 101,
+          "internal_refs": []
+        },
+        {
+          "id": "33D23F",
+          "offset": "258F10",
+          "old_length": 69,
+          "new_length": 60,
+          "internal_refs": []
+        },
+        {
+          "id": "33DC88",
+          "offset": "258F50",
+          "old_length": 247,
+          "new_length": 241,
+          "internal_refs": []
+        },
+        {
+          "id": "33DDC0",
+          "offset": "259050",
+          "old_length": 135,
+          "new_length": 132,
+          "internal_refs": []
+        },
+        {
+          "id": "33E0F7",
+          "offset": "2590E0",
+          "old_length": 125,
+          "new_length": 130,
+          "internal_refs": []
+        },
+        {
+          "id": "33E1A9",
+          "offset": "259170",
+          "old_length": 129,
+          "new_length": 129,
+          "internal_refs": []
+        },
+        {
+          "id": "347FC5",
+          "offset": "259200",
+          "old_length": 138,
+          "new_length": 131,
+          "internal_refs": []
+        },
+        {
+          "id": "3480B3",
+          "offset": "259290",
+          "old_length": 125,
+          "new_length": 136,
+          "internal_refs": []
+        },
+        {
+          "id": "348FE5",
+          "offset": "259320",
+          "old_length": 94,
+          "new_length": 116,
+          "internal_refs": []
+        },
+        {
+          "id": "34A46E",
+          "offset": "25C210",
+          "old_length": 74,
+          "new_length": 104,
+          "internal_refs": []
+        },
+        {
+          "id": "34EABB",
+          "offset": "25C280",
+          "old_length": 35,
+          "new_length": 31,
+          "internal_refs": []
+        },
+        {
+          "id": "34EDF4",
+          "offset": "25C2A0",
+          "old_length": 85,
+          "new_length": 82,
+          "internal_refs": []
+        },
+        {
+          "id": "34EFA6",
+          "offset": "25C300",
+          "old_length": 51,
+          "new_length": 63,
+          "internal_refs": []
+        },
+        {
+          "id": "34F031",
+          "offset": "25C340",
+          "old_length": 88,
+          "new_length": 84,
+          "internal_refs": []
+        },
+        {
+          "id": "34F1E3",
+          "offset": "25C3A0",
+          "old_length": 87,
+          "new_length": 85,
+          "internal_refs": []
+        },
+        {
+          "id": "34F49C",
+          "offset": "25C400",
+          "old_length": 29,
+          "new_length": 23,
+          "internal_refs": []
+        },
+        {
+          "id": "34F5B6",
+          "offset": "25C420",
+          "old_length": 46,
+          "new_length": 62,
+          "internal_refs": []
+        },
+        {
+          "id": "34FC37",
+          "offset": "25C460",
+          "old_length": 29,
+          "new_length": 23,
+          "internal_refs": []
+        },
+        {
+          "id": "34FCE8",
+          "offset": "25C480",
+          "old_length": 28,
+          "new_length": 30,
+          "internal_refs": []
+        },
+        {
+          "id": "34FD81",
+          "offset": "25C4A0",
+          "old_length": 30,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "350FF8",
+          "offset": "25C4D0",
+          "old_length": 147,
+          "new_length": 137,
+          "internal_refs": []
+        },
+        {
+          "id": "3521F5",
+          "offset": "25C560",
+          "old_length": 116,
+          "new_length": 115,
+          "internal_refs": []
+        },
+        {
+          "id": "352958",
+          "offset": "25C5E0",
+          "old_length": 216,
+          "new_length": 215,
+          "internal_refs": []
+        },
+        {
+          "id": "353EF7",
+          "offset": "25C6C0",
+          "old_length": 69,
+          "new_length": 84,
+          "internal_refs": []
+        },
+        {
+          "id": "353F3C",
+          "offset": "25C720",
+          "old_length": 96,
+          "new_length": 102,
+          "internal_refs": []
+        },
+        {
+          "id": "35413A",
+          "offset": "25C790",
+          "old_length": 127,
+          "new_length": 128,
+          "internal_refs": []
+        },
+        {
+          "id": "35EA16",
+          "offset": "32B620",
+          "old_length": 27,
+          "new_length": 25,
+          "internal_refs": []
+        },
+        {
+          "id": "360D7F",
+          "offset": "32B640",
+          "old_length": 160,
+          "new_length": 173,
+          "internal_refs": []
+        },
+        {
+          "id": "360E1F",
+          "offset": "32B6F0",
+          "old_length": 252,
+          "new_length": 264,
+          "internal_refs": [
+            {
+              "offset": "32B751",
+              "old_target": "360F19",
+              "new_target": "32B7F6"
+            }
+          ]
+        },
+        {
+          "id": "36411D",
+          "offset": "32B800",
+          "old_length": 101,
+          "new_length": 116,
+          "internal_refs": []
+        },
+        {
+          "id": "3641F5",
+          "offset": "32B880",
+          "old_length": 112,
+          "new_length": 118,
+          "internal_refs": []
+        },
+        {
+          "id": "36478E",
+          "offset": "32B900",
+          "old_length": 115,
+          "new_length": 107,
+          "internal_refs": []
+        },
+        {
+          "id": "36964A",
+          "offset": "32B970",
+          "old_length": 228,
+          "new_length": 251,
+          "internal_refs": []
+        },
+        {
+          "id": "36E4E8",
+          "offset": "32BA70",
+          "old_length": 89,
+          "new_length": 114,
+          "internal_refs": []
+        },
+        {
+          "id": "36ECBA",
+          "offset": "32BAF0",
+          "old_length": 32,
+          "new_length": 25,
+          "internal_refs": []
+        },
+        {
+          "id": "36F15A",
+          "offset": "32BB10",
+          "old_length": 71,
+          "new_length": 91,
+          "internal_refs": []
+        },
+        {
+          "id": "37429D",
+          "offset": "32BB70",
+          "old_length": 106,
+          "new_length": 121,
+          "internal_refs": []
+        },
+        {
+          "id": "3744C7",
+          "offset": "228820",
+          "old_length": 111,
+          "new_length": 107,
+          "internal_refs": []
+        },
+        {
+          "id": "3777BE",
+          "offset": "228890",
+          "old_length": 62,
+          "new_length": 55,
+          "internal_refs": []
+        },
+        {
+          "id": "37807E",
+          "offset": "2288D0",
+          "old_length": 216,
+          "new_length": 215,
+          "internal_refs": []
+        },
+        {
+          "id": "37853B",
+          "offset": "2289B0",
+          "old_length": 99,
+          "new_length": 98,
+          "internal_refs": []
+        },
+        {
+          "id": "37D51B",
+          "offset": "228A20",
+          "old_length": 55,
+          "new_length": 68,
+          "internal_refs": []
+        },
+        {
+          "id": "37FDF5",
+          "offset": "228A70",
+          "old_length": 55,
+          "new_length": 60,
+          "internal_refs": []
+        },
+        {
+          "id": "37FECE",
+          "offset": "228AB0",
+          "old_length": 80,
+          "new_length": 82,
+          "internal_refs": []
+        },
+        {
+          "id": "380B7C",
+          "offset": "228B10",
+          "old_length": 87,
+          "new_length": 108,
+          "internal_refs": []
+        },
+        {
+          "id": "380CFA",
+          "offset": "228B80",
+          "old_length": 226,
+          "new_length": 220,
+          "internal_refs": []
+        },
+        {
+          "id": "380DF7",
+          "offset": "228C60",
+          "old_length": 67,
+          "new_length": 78,
+          "internal_refs": []
+        },
+        {
+          "id": "380EBA",
+          "offset": "228CB0",
+          "old_length": 79,
+          "new_length": 73,
+          "internal_refs": []
+        },
+        {
+          "id": "381DEE",
+          "offset": "32D530",
+          "old_length": 97,
+          "new_length": 102,
+          "internal_refs": []
+        },
+        {
+          "id": "381F38",
+          "offset": "32D5A0",
+          "old_length": 229,
+          "new_length": 289,
+          "internal_refs": []
+        },
+        {
+          "id": "3820D2",
+          "offset": "32D6D0",
+          "old_length": 65,
+          "new_length": 66,
+          "internal_refs": []
+        },
+        {
+          "id": "3824E6",
+          "offset": "32D720",
+          "old_length": 51,
+          "new_length": 46,
+          "internal_refs": []
+        },
+        {
+          "id": "382567",
+          "offset": "32D750",
+          "old_length": 70,
+          "new_length": 80,
+          "internal_refs": []
+        },
+        {
+          "id": "3828E3",
+          "offset": "32D7A0",
+          "old_length": 37,
+          "new_length": 36,
+          "internal_refs": []
+        },
+        {
+          "id": "3844A7",
+          "offset": "32D7D0",
+          "old_length": 30,
+          "new_length": 31,
+          "internal_refs": []
+        },
+        {
+          "id": "3867CD",
+          "offset": "32D7F0",
+          "old_length": 33,
+          "new_length": 35,
+          "internal_refs": []
+        }
+      ],
+      "entry_refs_rewritten": [
+        {
+          "offset": "2929EA",
+          "old_target": "33C628",
+          "new_target": "258DC0"
+        },
+        {
+          "offset": "0F1AC6",
+          "old_target": "33CAA1",
+          "new_target": "258E10"
+        },
+        {
+          "offset": "0F1219",
+          "old_target": "33D1ED",
+          "new_target": "258EA0"
+        },
+        {
+          "offset": "2060FA",
+          "old_target": "33D23F",
+          "new_target": "258F10"
+        },
+        {
+          "offset": "33DBF9",
+          "old_target": "33DC88",
+          "new_target": "258F50"
+        },
+        {
+          "offset": "204B76",
+          "old_target": "33DDC0",
+          "new_target": "259050"
+        },
+        {
+          "offset": "2040F8",
+          "old_target": "33E0F7",
+          "new_target": "2590E0"
+        },
+        {
+          "offset": "203BFD",
+          "old_target": "33E1A9",
+          "new_target": "259170"
+        },
+        {
+          "offset": "347F4D",
+          "old_target": "347FC5",
+          "new_target": "259200"
+        },
+        {
+          "offset": "2062B4",
+          "old_target": "3480B3",
+          "new_target": "259290"
+        },
+        {
+          "offset": "2062C5",
+          "old_target": "3480B3",
+          "new_target": "259290"
+        },
+        {
+          "offset": "2062D6",
+          "old_target": "3480B3",
+          "new_target": "259290"
+        },
+        {
+          "offset": "20447D",
+          "old_target": "348FE5",
+          "new_target": "259320"
+        },
+        {
+          "offset": "34A461",
+          "old_target": "34A46E",
+          "new_target": "25C210"
+        },
+        {
+          "offset": "365A85",
+          "old_target": "34EABB",
+          "new_target": "25C280"
+        },
+        {
+          "offset": "3668E5",
+          "old_target": "34EDF4",
+          "new_target": "25C2A0"
+        },
+        {
+          "offset": "365E24",
+          "old_target": "34EFA6",
+          "new_target": "25C300"
+        },
+        {
+          "offset": "36604C",
+          "old_target": "34F031",
+          "new_target": "25C340"
+        },
+        {
+          "offset": "3666C4",
+          "old_target": "34F1E3",
+          "new_target": "25C3A0"
+        },
+        {
+          "offset": "366333",
+          "old_target": "34F49C",
+          "new_target": "25C400"
+        },
+        {
+          "offset": "36683B",
+          "old_target": "34F5B6",
+          "new_target": "25C420"
+        },
+        {
+          "offset": "366341",
+          "old_target": "34FC37",
+          "new_target": "25C460"
+        },
+        {
+          "offset": "366621",
+          "old_target": "34FCE8",
+          "new_target": "25C480"
+        },
+        {
+          "offset": "366901",
+          "old_target": "34FD81",
+          "new_target": "25C4A0"
+        },
+        {
+          "offset": "205CCB",
+          "old_target": "350FF8",
+          "new_target": "25C4D0"
+        },
+        {
+          "offset": "205B66",
+          "old_target": "3521F5",
+          "new_target": "25C560"
+        },
+        {
+          "offset": "205EA7",
+          "old_target": "352958",
+          "new_target": "25C5E0"
+        },
+        {
+          "offset": "2028FF",
+          "old_target": "353EF7",
+          "new_target": "25C6C0"
+        },
+        {
+          "offset": "2028EE",
+          "old_target": "353F3C",
+          "new_target": "25C720"
+        },
+        {
+          "offset": "202B63",
+          "old_target": "35413A",
+          "new_target": "25C790"
+        },
+        {
+          "offset": "0726B3",
+          "old_target": "35EA16",
+          "new_target": "32B620"
+        },
+        {
+          "offset": "35E7C2",
+          "old_target": "35EA16",
+          "new_target": "32B620"
+        },
+        {
+          "offset": "35EA32",
+          "old_target": "35EA16",
+          "new_target": "32B620"
+        },
+        {
+          "offset": "202AFD",
+          "old_target": "360D7F",
+          "new_target": "32B640"
+        },
+        {
+          "offset": "360CED",
+          "old_target": "360D7F",
+          "new_target": "32B640"
+        },
+        {
+          "offset": "360CF2",
+          "old_target": "360D7F",
+          "new_target": "32B640"
+        },
+        {
+          "offset": "202B0E",
+          "old_target": "360E1F",
+          "new_target": "32B6F0"
+        },
+        {
+          "offset": "360D01",
+          "old_target": "360E1F",
+          "new_target": "32B6F0"
+        },
+        {
+          "offset": "360D06",
+          "old_target": "360E1F",
+          "new_target": "32B6F0"
+        },
+        {
+          "offset": "204329",
+          "old_target": "36411D",
+          "new_target": "32B800"
+        },
+        {
+          "offset": "2043E4",
+          "old_target": "3641F5",
+          "new_target": "32B880"
+        },
+        {
+          "offset": "2045E2",
+          "old_target": "36478E",
+          "new_target": "32B900"
+        },
+        {
+          "offset": "3695D9",
+          "old_target": "36964A",
+          "new_target": "32B970"
+        },
+        {
+          "offset": "3695E7",
+          "old_target": "36964A",
+          "new_target": "32B970"
+        },
+        {
+          "offset": "3695F5",
+          "old_target": "36964A",
+          "new_target": "32B970"
+        },
+        {
+          "offset": "369640",
+          "old_target": "36964A",
+          "new_target": "32B970"
+        },
+        {
+          "offset": "203DB7",
+          "old_target": "36E4E8",
+          "new_target": "32BA70"
+        },
+        {
+          "offset": "365CD0",
+          "old_target": "36ECBA",
+          "new_target": "32BAF0"
+        },
+        {
+          "offset": "36606F",
+          "old_target": "36F15A",
+          "new_target": "32BB10"
+        },
+        {
+          "offset": "205CFE",
+          "old_target": "37429D",
+          "new_target": "32BB70"
+        },
+        {
+          "offset": "3744B0",
+          "old_target": "3744C7",
+          "new_target": "228820"
+        },
+        {
+          "offset": "366302",
+          "old_target": "3777BE",
+          "new_target": "228890"
+        },
+        {
+          "offset": "366309",
+          "old_target": "3777BE",
+          "new_target": "228890"
+        },
+        {
+          "offset": "366310",
+          "old_target": "3777BE",
+          "new_target": "228890"
+        },
+        {
+          "offset": "366317",
+          "old_target": "3777BE",
+          "new_target": "228890"
+        },
+        {
+          "offset": "20697A",
+          "old_target": "37807E",
+          "new_target": "2288D0"
+        },
+        {
+          "offset": "2036BE",
+          "old_target": "37853B",
+          "new_target": "2289B0"
+        },
+        {
+          "offset": "0F0448",
+          "old_target": "37D51B",
+          "new_target": "228A20"
+        },
+        {
+          "offset": "3662ED",
+          "old_target": "37FDF5",
+          "new_target": "228A70"
+        },
+        {
+          "offset": "3662F4",
+          "old_target": "37FDF5",
+          "new_target": "228A70"
+        },
+        {
+          "offset": "3662FB",
+          "old_target": "37FDF5",
+          "new_target": "228A70"
+        },
+        {
+          "offset": "366685",
+          "old_target": "37FECE",
+          "new_target": "228AB0"
+        },
+        {
+          "offset": "36668C",
+          "old_target": "37FECE",
+          "new_target": "228AB0"
+        },
+        {
+          "offset": "366693",
+          "old_target": "37FECE",
+          "new_target": "228AB0"
+        },
+        {
+          "offset": "380B6F",
+          "old_target": "380B7C",
+          "new_target": "228B10"
+        },
+        {
+          "offset": "380CAB",
+          "old_target": "380CFA",
+          "new_target": "228B80"
+        },
+        {
+          "offset": "380DE9",
+          "old_target": "380DF7",
+          "new_target": "228C60"
+        },
+        {
+          "offset": "380DF3",
+          "old_target": "380DF7",
+          "new_target": "228C60"
+        },
+        {
+          "offset": "380B2A",
+          "old_target": "380EBA",
+          "new_target": "228CB0"
+        },
+        {
+          "offset": "380C9C",
+          "old_target": "380EBA",
+          "new_target": "228CB0"
+        },
+        {
+          "offset": "380DDF",
+          "old_target": "380EBA",
+          "new_target": "228CB0"
+        },
+        {
+          "offset": "0F008E",
+          "old_target": "381DEE",
+          "new_target": "32D530"
+        },
+        {
+          "offset": "0F15AC",
+          "old_target": "381F38",
+          "new_target": "32D5A0"
+        },
+        {
+          "offset": "0F13CE",
+          "old_target": "3820D2",
+          "new_target": "32D6D0"
+        },
+        {
+          "offset": "382449",
+          "old_target": "3824E6",
+          "new_target": "32D720"
+        },
+        {
+          "offset": "3824A3",
+          "old_target": "3824E6",
+          "new_target": "32D720"
+        },
+        {
+          "offset": "365A0C",
+          "old_target": "382567",
+          "new_target": "32D750"
+        },
+        {
+          "offset": "366924",
+          "old_target": "3828E3",
+          "new_target": "32D7A0"
+        },
+        {
+          "offset": "365FD3",
+          "old_target": "3844A7",
+          "new_target": "32D7D0"
+        },
+        {
+          "offset": "366826",
+          "old_target": "3867CD",
+          "new_target": "32D7F0"
+        }
+      ]
+    }
+  },
+  "new_scene_emulator_tested": false
+}
