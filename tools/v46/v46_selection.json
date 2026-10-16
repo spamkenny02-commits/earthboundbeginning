@@ -1,0 +1,2851 @@
+{
+  "version": "V46-preparation",
+  "base_commit": "4e628ac94b5f3004cbe87aa1646bef11f94c9467",
+  "count": 100,
+  "menu_excluded": true,
+  "entries": [
+    {
+      "id": "339A92",
+      "offset": "339A92",
+      "snes": "F39A92",
+      "length": 28,
+      "source": "script_candidate",
+      "text_en": "@What are you waiting for?[13][02]",
+      "raw_hex": "70 87 98 91 A4 50 91 A2 95 50 A9 9F A5 50 A7 91 99 A4 99 9E 97 50 96 9F A2 6F 13 02",
+      "literal_pointer_offsets": [
+        "3489C0"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@What are you waiting for?",
+          "french": "@Qu'attends-tu ?"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "339AAE",
+      "offset": "339AAE",
+      "snes": "F39AAE",
+      "length": 29,
+      "source": "script_candidate",
+      "text_en": "@You know what you must do.[13][02]",
+      "raw_hex": "70 89 9F A5 50 9B 9E 9F A7 50 A7 98 91 A4 50 A9 9F A5 50 9D A5 A3 A4 50 94 9F 5E 13 02",
+      "literal_pointer_offsets": [
+        "348B29"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@You know what you must do.",
+          "french": "@Tu sais quoi faire."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "339ACB",
+      "offset": "339ACB",
+      "snes": "F39ACB",
+      "length": 18,
+      "source": "script_candidate",
+      "text_en": "@She is waiting.[13][02]",
+      "raw_hex": "70 83 98 95 50 99 A3 50 A7 91 99 A4 99 9E 97 5E 13 02",
+      "literal_pointer_offsets": [
+        "348B5F"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@She is waiting.",
+          "french": "@Elle t'attend."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "339C02",
+      "offset": "339C02",
+      "snes": "F39C02",
+      "length": 60,
+      "source": "script_candidate",
+      "text_en": "@(The sound of a running vacuum cleaner can be heard...)[13][18 00][02]",
+      "raw_hex": "70 58 84 98 95 50 A3 9F A5 9E 94 50 9F 96 50 91 50 A2 A5 9E 9E 99 9E 97 50 A6 91 93 A5 A5 9D 50 93 9C 95 91 9E 95 A2 50 93 91 9E 50 92 95 50 98 95 91 A2 94 5E 5E 5E 59 13 18 00 02",
+      "literal_pointer_offsets": [
+        "339B7A"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@(The sound of a running vacuum cleaner can be heard...)",
+          "french": "@(On entend un aspirateur en marche...)"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "339DF7",
+      "offset": "339DF7",
+      "snes": "F39DF7",
+      "length": 111,
+      "source": "script_candidate",
+      "text_en": "[1F 02 6F][10 28][18 01 35]@Why are you knocking on strangers' doors?[03][00]@Didn't your mother teach you not to talk to strangers?[13][18 00][02]",
+      "raw_hex": "1F 02 6F 10 28 18 01 35 70 87 98 A9 50 91 A2 95 50 A9 9F A5 50 9B 9E 9F 93 9B 99 9E 97 50 9F 9E 50 A3 A4 A2 91 9E 97 95 A2 A3 57 50 94 9F 9F A2 A3 6F 03 00 70 74 99 94 9E 57 A4 50 A9 9F A5 A2 50 9D 9F A4 98 95 A2 50 A4 95 91 93 98 50 A9 9F A5 50 9E 9F A4 50 A4 9F 50 A4 91 9C 9B 50 A4 9F 50 A3 A4 A2 91 9E 97 95 A2 A3 6F 13 18 00 02",
+      "literal_pointer_offsets": [
+        "0F1DF3"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 8,
+          "original": "@Why are you knocking on strangers' doors?",
+          "french": "@Pourquoi frapper chez des inconnus ?"
+        },
+        {
+          "offset": 52,
+          "original": "@Didn't your mother teach you not to talk to strangers?",
+          "french": "@Ta mère ne t'a pas dit de t'en méfier ?"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "339EE7",
+      "offset": "339EE7",
+      "snes": "F39EE7",
+      "length": 41,
+      "source": "script_candidate",
+      "text_en": "[1F 02 6F][10 28][18 01 35]@Hahaha...[03][00]@N-no one's home![13][18 00][02]",
+      "raw_hex": "1F 02 6F 10 28 18 01 35 70 78 91 98 91 98 91 5E 5E 5E 03 00 70 7E 5D 9E 9F 50 9F 9E 95 57 A3 50 98 9F 9D 95 51 13 18 00 02",
+      "literal_pointer_offsets": [
+        "0F1055"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 8,
+          "original": "@Hahaha...",
+          "french": "@Hahaha..."
+        },
+        {
+          "offset": 20,
+          "original": "@N-no one's home!",
+          "french": "@P-personne ici !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "339F10",
+      "offset": "339F10",
+      "snes": "F39F10",
+      "length": 57,
+      "source": "script_candidate",
+      "text_en": "[1F 02 6F][10 28][18 01 35]@Oh, don't mind me.[03][00]@I'm a real nowhere man.[13][18 00][02]",
+      "raw_hex": "1F 02 6F 10 28 18 01 35 70 7F 98 5C 50 94 9F 9E 57 A4 50 9D 99 9E 94 50 9D 95 5E 03 00 70 79 57 9D 50 91 50 A2 95 91 9C 50 9E 9F A7 98 95 A2 95 50 9D 91 9E 5E 13 18 00 02",
+      "literal_pointer_offsets": [
+        "0F0A85"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 8,
+          "original": "@Oh, don't mind me.",
+          "french": "@Oh, laisse-moi."
+        },
+        {
+          "offset": 29,
+          "original": "@I'm a real nowhere man.",
+          "french": "@Je ne suis personne."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33A220",
+      "offset": "33A220",
+      "snes": "F3A220",
+      "length": 154,
+      "source": "script_candidate",
+      "text_en": "[1F 02 6F][10 28][18 01 35][06 5B 03 BA A2 F3 00]@The trains still aren't running, huh?[03][00]@I wonder what's wrong...[03][00]@I can't sleep without hearing the train whistles in the distance...[13][18 00][02]",
+      "raw_hex": "1F 02 6F 10 28 18 01 35 06 5B 03 BA A2 F3 00 70 84 98 95 50 A4 A2 91 99 9E A3 50 A3 A4 99 9C 9C 50 91 A2 95 9E 57 A4 50 A2 A5 9E 9E 99 9E 97 5C 50 98 A5 98 6F 03 00 70 79 50 A7 9F 9E 94 95 A2 50 A7 98 91 A4 57 A3 50 A7 A2 9F 9E 97 5E 5E 5E 03 00 70 79 50 93 91 9E 57 A4 50 A3 9C 95 95 A0 50 A7 99 A4 98 9F A5 A4 50 98 95 91 A2 99 9E 97 50 A4 98 95 50 A4 A2 91 99 9E 50 A7 98 99 A3 A4 9C 95 A3 50 99 9E 50 A4 98 95 50 94 99 A3 A4 91 9E 93 95 5E 5E 5E 13 18 00 02",
+      "literal_pointer_offsets": [
+        "0F1BE9"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 15,
+          "original": "@The trains still aren't running, huh?",
+          "french": "@Les trains ne roulent toujours pas ?"
+        },
+        {
+          "offset": 55,
+          "original": "@I wonder what's wrong...",
+          "french": "@Que se passe-t-il donc ?"
+        },
+        {
+          "offset": 82,
+          "original": "@I can't sleep without hearing the train whistles in the distance...",
+          "french": "@Sans leur sifflet au loin, impossible de dormir..."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33A2BA",
+      "offset": "33A2BA",
+      "snes": "F3A2BA",
+      "length": 134,
+      "source": "script_candidate",
+      "text_en": "@The sweet sound of a train whistle in the distance soothes my soul.[03][00]@With the trains running again, I can finally sleep soundly.[13][18 00][02]",
+      "raw_hex": "70 84 98 95 50 A3 A7 95 95 A4 50 A3 9F A5 9E 94 50 9F 96 50 91 50 A4 A2 91 99 9E 50 A7 98 99 A3 A4 9C 95 50 99 9E 50 A4 98 95 50 94 99 A3 A4 91 9E 93 95 50 A3 9F 9F A4 98 95 A3 50 9D A9 50 A3 9F A5 9C 5E 03 00 70 87 99 A4 98 50 A4 98 95 50 A4 A2 91 99 9E A3 50 A2 A5 9E 9E 99 9E 97 50 91 97 91 99 9E 5C 50 79 50 93 91 9E 50 96 99 9E 91 9C 9C A9 50 A3 9C 95 95 A0 50 A3 9F A5 9E 94 9C A9 5E 13 18 00 02",
+      "literal_pointer_offsets": [
+        "33A22B"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@The sweet sound of a train whistle in the distance soothes my soul.",
+          "french": "@Le doux sifflet d'un train au loin apaise mon âme."
+        },
+        {
+          "offset": 70,
+          "original": "@With the trains running again, I can finally sleep soundly.",
+          "french": "@Les trains roulent à nouveau. Je peux enfin bien dormir."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33A384",
+      "offset": "33A384",
+      "snes": "F3A384",
+      "length": 196,
+      "source": "script_candidate",
+      "text_en": "@So, there's a band I like to listen to...[03][00]@They have this song that goes <yeah, yeah, yeah>... or something like that.[03][00]@Now that I think about it, it's nothing really worth talking about...[13][18 00][02]",
+      "raw_hex": "70 83 9F 5C 50 A4 98 95 A2 95 57 A3 50 91 50 92 91 9E 94 50 79 50 9C 99 9B 95 50 A4 9F 50 9C 99 A3 A4 95 9E 50 A4 9F 5E 5E 5E 03 00 70 84 98 95 A9 50 98 91 A6 95 50 A4 98 99 A3 50 A3 9F 9E 97 50 A4 98 91 A4 50 97 9F 95 A3 50 6C A9 95 91 98 5C 50 A9 95 91 98 5C 50 A9 95 91 98 6E 5E 5E 5E 50 9F A2 50 A3 9F 9D 95 A4 98 99 9E 97 50 9C 99 9B 95 50 A4 98 91 A4 5E 03 00 70 7E 9F A7 50 A4 98 91 A4 50 79 50 A4 98 99 9E 9B 50 91 92 9F A5 A4 50 99 A4 5C 50 99 A4 57 A3 50 9E 9F A4 98 99 9E 97 50 A2 95 91 9C 9C A9 50 A7 9F A2 A4 98 50 A4 91 9C 9B 99 9E 97 50 91 92 9F A5 A4 5E 5E 5E 13 18 00 02",
+      "literal_pointer_offsets": [
+        "33A377"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@So, there's a band I like to listen to...",
+          "french": "@Il y a un groupe que j'aime bien..."
+        },
+        {
+          "offset": 44,
+          "original": "@They have this song that goes <yeah, yeah, yeah>... or something like that.",
+          "french": "@Une chanson fait <yeah, yeah, yeah>... enfin, je crois."
+        },
+        {
+          "offset": 122,
+          "original": "@Now that I think about it, it's nothing really worth talking about...",
+          "french": "@À bien y penser, ça n'a pas grand intérêt..."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33A7BE",
+      "offset": "33A7BE",
+      "snes": "F3A7BE",
+      "length": 386,
+      "source": "script_candidate",
+      "text_en": "@Oops!(bump) Excuse me![03][00]@I'm kinda of... (ugh) ...stuck in this corner.[03][00]@A little while ago I... (dang it) noticed this mushroom on my head.[03][00]@After that, walking where I wanted to go got really difficult.[03][00]@The strange guy downstairs in the lobby wanted to buy it, [03][00]  but the doctor said we should just treat it like athlete's foot![03][00]@Who do I trust?  I'm having a hard time here![13][02]",
+      "raw_hex": "70 7F 9F A0 A3 51 58 92 A5 9D A0 59 50 75 A8 93 A5 A3 95 50 9D 95 51 03 00 70 79 57 9D 50 9B 99 9E 94 91 50 9F 96 5E 5E 5E 50 58 A5 97 98 59 50 5E 5E 5E A3 A4 A5 93 9B 50 99 9E 50 A4 98 99 A3 50 93 9F A2 9E 95 A2 5E 03 00 70 71 50 9C 99 A4 A4 9C 95 50 A7 98 99 9C 95 50 91 97 9F 50 79 5E 5E 5E 50 58 94 91 9E 97 50 99 A4 59 50 9E 9F A4 99 93 95 94 50 A4 98 99 A3 50 9D A5 A3 98 A2 9F 9F 9D 50 9F 9E 50 9D A9 50 98 95 91 94 5E 03 00 70 71 96 A4 95 A2 50 A4 98 91 A4 5C 50 A7 91 9C 9B 99 9E 97 50 A7 98 95 A2 95 50 79 50 A7 91 9E A4 95 94 50 A4 9F 50 97 9F 50 97 9F A4 50 A2 95 91 9C 9C A9 50 94 99 96 96 99 93 A5 9C A4 5E 03 00 70 84 98 95 50 A3 A4 A2 91 9E 97 95 50 97 A5 A9 50 94 9F A7 9E A3 A4 91 99 A2 A3 50 99 9E 50 A4 98 95 50 9C 9F 92 92 A9 50 A7 91 9E A4 95 94 50 A4 9F 50 92 A5 A9 50 99 A4 5C 50 03 00 50 50 92 A5 A4 50 A4 98 95 50 94 9F 93 A4 9F A2 50 A3 91 99 94 50 A7 95 50 A3 98 9F A5 9C 94 50 9A A5 A3 A4 50 A4 A2 95 91 A4 50 99 A4 50 9C 99 9B 95 50 91 A4 98 9C 95 A4 95 57 A3 50 96 9F 9F A4 51 03 00 70 87 98 9F 50 94 9F 50 79 50 A4 A2 A5 A3 A4 6F 50 50 79 57 9D 50 98 91 A6 99 9E 97 50 91 50 98 91 A2 94 50 A4 99 9D 95 50 98 95 A2 95 51 13 02",
+      "literal_pointer_offsets": [
+        "203BA8"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Oops!(bump) Excuse me!",
+          "french": "@Oups ! (Boum) Pardon !"
+        },
+        {
+          "offset": 25,
+          "original": "@I'm kinda of... (ugh) ...stuck in this corner.",
+          "french": "@Je suis... (argh) ...coincé dans ce coin."
+        },
+        {
+          "offset": 74,
+          "original": "@A little while ago I... (dang it) noticed this mushroom on my head.",
+          "french": "@Tout à l'heure, j'ai... (zut) vu ce champignon sur ma tête."
+        },
+        {
+          "offset": 144,
+          "original": "@After that, walking where I wanted to go got really difficult.",
+          "french": "@Depuis, j'ai du mal à marcher dans la bonne direction."
+        },
+        {
+          "offset": 209,
+          "original": "@The strange guy downstairs in the lobby wanted to buy it, ",
+          "french": "@Le drôle de type à l'accueil veut l'acheter,"
+        },
+        {
+          "offset": 270,
+          "original": "  but the doctor said we should just treat it like athlete's foot!",
+          "french": "  mais le médecin dit de le traiter comme une mycose !"
+        },
+        {
+          "offset": 338,
+          "original": "@Who do I trust?  I'm having a hard time here!",
+          "french": "@Qui croire ? Je suis bien embêté !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33A940",
+      "offset": "33A940",
+      "snes": "F3A940",
+      "length": 46,
+      "source": "script_candidate",
+      "text_en": "@<Podunk>[00]@Quiet days and beautiful flowers.[13][02]",
+      "raw_hex": "70 6C 80 9F 94 A5 9E 9B 6E 00 70 81 A5 99 95 A4 50 94 91 A9 A3 50 91 9E 94 50 92 95 91 A5 A4 99 96 A5 9C 50 96 9C 9F A7 95 A2 A3 5E 13 02",
+      "literal_pointer_offsets": [
+        "0F0F33"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@<Podunk>",
+          "french": "@<Podunk>"
+        },
+        {
+          "offset": 10,
+          "original": "@Quiet days and beautiful flowers.",
+          "french": "@Paix et belles fleurs."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33AA9A",
+      "offset": "33AA9A",
+      "snes": "F3AA9A",
+      "length": 350,
+      "source": "script_candidate",
+      "text_en": "@Say, have you ever tried out the condiments here with your food?[03][00]@It's really quite incredible![03][00]@They automatically sprinkle on your food when you eat, almost like magic![03][00]@If the condiment goes well with what you're eating,[03][00]  then you'll get a BIG boost to your health recovered![03][00]@Why don't you give it a try? They're easy on the wallet, too![13][02]",
+      "raw_hex": "70 83 91 A9 5C 50 98 91 A6 95 50 A9 9F A5 50 95 A6 95 A2 50 A4 A2 99 95 94 50 9F A5 A4 50 A4 98 95 50 93 9F 9E 94 99 9D 95 9E A4 A3 50 98 95 A2 95 50 A7 99 A4 98 50 A9 9F A5 A2 50 96 9F 9F 94 6F 03 00 70 79 A4 57 A3 50 A2 95 91 9C 9C A9 50 A1 A5 99 A4 95 50 99 9E 93 A2 95 94 99 92 9C 95 51 03 00 70 84 98 95 A9 50 91 A5 A4 9F 9D 91 A4 99 93 91 9C 9C A9 50 A3 A0 A2 99 9E 9B 9C 95 50 9F 9E 50 A9 9F A5 A2 50 96 9F 9F 94 50 A7 98 95 9E 50 A9 9F A5 50 95 91 A4 5C 50 91 9C 9D 9F A3 A4 50 9C 99 9B 95 50 9D 91 97 99 93 51 03 00 70 79 96 50 A4 98 95 50 93 9F 9E 94 99 9D 95 9E A4 50 97 9F 95 A3 50 A7 95 9C 9C 50 A7 99 A4 98 50 A7 98 91 A4 50 A9 9F A5 57 A2 95 50 95 91 A4 99 9E 97 5C 03 00 50 50 A4 98 95 9E 50 A9 9F A5 57 9C 9C 50 97 95 A4 50 91 50 72 79 77 50 92 9F 9F A3 A4 50 A4 9F 50 A9 9F A5 A2 50 98 95 91 9C A4 98 50 A2 95 93 9F A6 95 A2 95 94 51 03 00 70 87 98 A9 50 94 9F 9E 57 A4 50 A9 9F A5 50 97 99 A6 95 50 99 A4 50 91 50 A4 A2 A9 6F 50 84 98 95 A9 57 A2 95 50 95 91 A3 A9 50 9F 9E 50 A4 98 95 50 A7 91 9C 9C 95 A4 5C 50 A4 9F 9F 51 13 02",
+      "literal_pointer_offsets": [
+        "2036AD"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Say, have you ever tried out the condiments here with your food?",
+          "french": "@As-tu déjà essayé les condiments avec tes plats ?"
+        },
+        {
+          "offset": 67,
+          "original": "@It's really quite incredible!",
+          "french": "@C'est vraiment incroyable !"
+        },
+        {
+          "offset": 99,
+          "original": "@They automatically sprinkle on your food when you eat, almost like magic!",
+          "french": "@Ils assaisonnent tes plats tout seuls, comme par magie !"
+        },
+        {
+          "offset": 175,
+          "original": "@If the condiment goes well with what you're eating,",
+          "french": "@Si le condiment va bien avec ton plat,"
+        },
+        {
+          "offset": 229,
+          "original": "  then you'll get a BIG boost to your health recovered!",
+          "french": "  tu récupères BEAUCOUP plus de PV !"
+        },
+        {
+          "offset": 286,
+          "original": "@Why don't you give it a try? They're easy on the wallet, too!",
+          "french": "@Essaie donc ! En plus, ça ne coûte pas cher !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33ADEC",
+      "offset": "33ADEC",
+      "snes": "F3ADEC",
+      "length": 32,
+      "source": "script_candidate",
+      "text_en": "@All pets must remain outside.[13][02]",
+      "raw_hex": "70 71 9C 9C 50 A0 95 A4 A3 50 9D A5 A3 A4 50 A2 95 9D 91 99 9E 50 9F A5 A4 A3 99 94 95 5E 13 02",
+      "literal_pointer_offsets": [
+        "0F1DBF"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@All pets must remain outside.",
+          "french": "@Les animaux restent dehors."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33AE2C",
+      "offset": "33AE2C",
+      "snes": "F3AE2C",
+      "length": 128,
+      "source": "script_candidate",
+      "text_en": "[06 21 03 3A AE F3 00][06 74 03 AC AE F3 00]@Hrmm... Would you mind speaking to me from across the desk?[03][00]@Otherwise, it just doesn't feel very... mayorial.[13][02]",
+      "raw_hex": "06 21 03 3A AE F3 00 06 74 03 AC AE F3 00 70 78 A2 9D 9D 5E 5E 5E 50 87 9F A5 9C 94 50 A9 9F A5 50 9D 99 9E 94 50 A3 A0 95 91 9B 99 9E 97 50 A4 9F 50 9D 95 50 96 A2 9F 9D 50 91 93 A2 9F A3 A3 50 A4 98 95 50 94 95 A3 9B 6F 03 00 70 7F A4 98 95 A2 A7 99 A3 95 5C 50 99 A4 50 9A A5 A3 A4 50 94 9F 95 A3 9E 57 A4 50 96 95 95 9C 50 A6 95 A2 A9 5E 5E 5E 50 9D 91 A9 9F A2 99 91 9C 5E 13 02",
+      "literal_pointer_offsets": [
+        "36002A"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 14,
+          "original": "@Hrmm... Would you mind speaking to me from across the desk?",
+          "french": "@Hmm... Tu peux me parler de l'autre côté du bureau ?"
+        },
+        {
+          "offset": 76,
+          "original": "@Otherwise, it just doesn't feel very... mayorial.",
+          "french": "@Sinon, je n'ai pas vraiment l'air... d'un maire."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33AF88",
+      "offset": "33AF88",
+      "snes": "F3AF88",
+      "length": 74,
+      "source": "script_candidate",
+      "text_en": "@<Common Rabbit>[03][00]@Scientists around the world agree they're super cute.[13][02]",
+      "raw_hex": "70 6C 73 9F 9D 9D 9F 9E 50 82 91 92 92 99 A4 6E 03 00 70 83 93 99 95 9E A4 99 A3 A4 A3 50 91 A2 9F A5 9E 94 50 A4 98 95 50 A7 9F A2 9C 94 50 91 97 A2 95 95 50 A4 98 95 A9 57 A2 95 50 A3 A5 A0 95 A2 50 93 A5 A4 95 5E 13 02",
+      "literal_pointer_offsets": [
+        "0F1A26"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@<Common Rabbit>",
+          "french": "@<Lapin commun>"
+        },
+        {
+          "offset": 18,
+          "original": "@Scientists around the world agree they're super cute.",
+          "french": "@Les savants du monde entier le trouvent adorable."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33AFD2",
+      "offset": "33AFD2",
+      "snes": "F3AFD2",
+      "length": 100,
+      "source": "script_candidate",
+      "text_en": "@<Uncommon Tiger>[03][00]@Contrary to popular belief, they change their stripes whenever they get dirty.[13][02]",
+      "raw_hex": "70 6C 85 9E 93 9F 9D 9D 9F 9E 50 84 99 97 95 A2 6E 03 00 70 73 9F 9E A4 A2 91 A2 A9 50 A4 9F 50 A0 9F A0 A5 9C 91 A2 50 92 95 9C 99 95 96 5C 50 A4 98 95 A9 50 93 98 91 9E 97 95 50 A4 98 95 99 A2 50 A3 A4 A2 99 A0 95 A3 50 A7 98 95 9E 95 A6 95 A2 50 A4 98 95 A9 50 97 95 A4 50 94 99 A2 A4 A9 5E 13 02",
+      "literal_pointer_offsets": [
+        "0F1A9D"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@<Uncommon Tiger>",
+          "french": "@<Tigre rare>"
+        },
+        {
+          "offset": 19,
+          "original": "@Contrary to popular belief, they change their stripes whenever they get dirty.",
+          "french": "@Il change de rayures quand elles sont sales."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33B088",
+      "offset": "33B088",
+      "snes": "F3B088",
+      "length": 78,
+      "source": "script_candidate",
+      "text_en": "@<Common Alligator>[03][00]@They love water, but have a bad habit of running late.[13][02]",
+      "raw_hex": "70 6C 73 9F 9D 9D 9F 9E 50 71 9C 9C 99 97 91 A4 9F A2 6E 03 00 70 84 98 95 A9 50 9C 9F A6 95 50 A7 91 A4 95 A2 5C 50 92 A5 A4 50 98 91 A6 95 50 91 50 92 91 94 50 98 91 92 99 A4 50 9F 96 50 A2 A5 9E 9E 99 9E 97 50 9C 91 A4 95 5E 13 02",
+      "literal_pointer_offsets": [
+        "0F197C"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@<Common Alligator>",
+          "french": "@<Alligator commun>"
+        },
+        {
+          "offset": 21,
+          "original": "@They love water, but have a bad habit of running late.",
+          "french": "@Il adore l'eau, mais il arrive souvent en retard."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33B0D6",
+      "offset": "33B0D6",
+      "snes": "F3B0D6",
+      "length": 68,
+      "source": "script_candidate",
+      "text_en": "@<Giant Panda>[03][00]@One of the pickiest eaters of the animal kingdom.[13][02]",
+      "raw_hex": "70 6C 77 99 91 9E A4 50 80 91 9E 94 91 6E 03 00 70 7F 9E 95 50 9F 96 50 A4 98 95 50 A0 99 93 9B 99 95 A3 A4 50 95 91 A4 95 A2 A3 50 9F 96 50 A4 98 95 50 91 9E 99 9D 91 9C 50 9B 99 9E 97 94 9F 9D 5E 13 02",
+      "literal_pointer_offsets": [
+        "0F1980"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@<Giant Panda>",
+          "french": "@<Panda géant>"
+        },
+        {
+          "offset": 16,
+          "original": "@One of the pickiest eaters of the animal kingdom.",
+          "french": "@L'un des mangeurs les plus difficiles qui soient."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33B198",
+      "offset": "33B198",
+      "snes": "F3B198",
+      "length": 165,
+      "source": "script_candidate",
+      "text_en": "@<Eastern Gorilla>[03][00]@Because a gorilla's nose print is as unique as a person's fingerprints,[03][00]@if they commit a crime you can see the evidence all over their face.[13][02]",
+      "raw_hex": "70 6C 75 91 A3 A4 95 A2 9E 50 77 9F A2 99 9C 9C 91 6E 03 00 70 72 95 93 91 A5 A3 95 50 91 50 97 9F A2 99 9C 9C 91 57 A3 50 9E 9F A3 95 50 A0 A2 99 9E A4 50 99 A3 50 91 A3 50 A5 9E 99 A1 A5 95 50 91 A3 50 91 50 A0 95 A2 A3 9F 9E 57 A3 50 96 99 9E 97 95 A2 A0 A2 99 9E A4 A3 5C 03 00 70 99 96 50 A4 98 95 A9 50 93 9F 9D 9D 99 A4 50 91 50 93 A2 99 9D 95 50 A9 9F A5 50 93 91 9E 50 A3 95 95 50 A4 98 95 50 95 A6 99 94 95 9E 93 95 50 91 9C 9C 50 9F A6 95 A2 50 A4 98 95 99 A2 50 96 91 93 95 5E 13 02",
+      "literal_pointer_offsets": [
+        "0F1AA1"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@<Eastern Gorilla>",
+          "french": "@Gorille de l'Est"
+        },
+        {
+          "offset": 20,
+          "original": "@Because a gorilla's nose print is as unique as a person's fingerprints,",
+          "french": "@L'empreinte de son nez est unique, comme celle d'un doigt."
+        },
+        {
+          "offset": 94,
+          "original": "@if they commit a crime you can see the evidence all over their face.",
+          "french": "@S'il commet un crime, les preuves sont sur son visage."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33B315",
+      "offset": "33B315",
+      "snes": "F3B315",
+      "length": 33,
+      "source": "script_candidate",
+      "text_en": "@The allegrators are my favrut![13][02]",
+      "raw_hex": "70 84 98 95 50 91 9C 9C 95 97 A2 91 A4 9F A2 A3 50 91 A2 95 50 9D A9 50 96 91 A6 A2 A5 A4 51 13 02",
+      "literal_pointer_offsets": [
+        "203E1D"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@The allegrators are my favrut!",
+          "french": "@Les alligators, mes préférés !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33B5CD",
+      "offset": "33B5CD",
+      "snes": "F3B5CD",
+      "length": 178,
+      "source": "script_candidate",
+      "text_en": "@My son faked being sick to get out of school.[03][00]@So I faked being sick to get out of work![03][00]@Seeing how happy he is makes it all worth it.[03][00]@Don't you think I'm a great father?[13][02]",
+      "raw_hex": "70 7D A9 50 A3 9F 9E 50 96 91 9B 95 94 50 92 95 99 9E 97 50 A3 99 93 9B 50 A4 9F 50 97 95 A4 50 9F A5 A4 50 9F 96 50 A3 93 98 9F 9F 9C 5E 03 00 70 83 9F 50 79 50 96 91 9B 95 94 50 92 95 99 9E 97 50 A3 99 93 9B 50 A4 9F 50 97 95 A4 50 9F A5 A4 50 9F 96 50 A7 9F A2 9B 51 03 00 70 83 95 95 99 9E 97 50 98 9F A7 50 98 91 A0 A0 A9 50 98 95 50 99 A3 50 9D 91 9B 95 A3 50 99 A4 50 91 9C 9C 50 A7 9F A2 A4 98 50 99 A4 5E 03 00 70 74 9F 9E 57 A4 50 A9 9F A5 50 A4 98 99 9E 9B 50 79 57 9D 50 91 50 97 A2 95 91 A4 50 96 91 A4 98 95 A2 6F 13 02",
+      "literal_pointer_offsets": [
+        "203F0B"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@My son faked being sick to get out of school.",
+          "french": "@Mon fils joue au malade pour rater l'école."
+        },
+        {
+          "offset": 48,
+          "original": "@So I faked being sick to get out of work!",
+          "french": "@J'ai fait pareil pour éviter le travail !"
+        },
+        {
+          "offset": 92,
+          "original": "@Seeing how happy he is makes it all worth it.",
+          "french": "@Le voir heureux en valait la peine."
+        },
+        {
+          "offset": 140,
+          "original": "@Don't you think I'm a great father?",
+          "french": "@Je suis un super papa, non ?"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33B715",
+      "offset": "33B715",
+      "snes": "F3B715",
+      "length": 85,
+      "source": "script_candidate",
+      "text_en": "  (Something is carved here.)[03][00]@It's a better world when you're loved.  I love you.[13][02]",
+      "raw_hex": "50 50 58 83 9F 9D 95 A4 98 99 9E 97 50 99 A3 50 93 91 A2 A6 95 94 50 98 95 A2 95 5E 59 03 00 70 79 A4 57 A3 50 91 50 92 95 A4 A4 95 A2 50 A7 9F A2 9C 94 50 A7 98 95 9E 50 A9 9F A5 57 A2 95 50 9C 9F A6 95 94 5E 50 50 79 50 9C 9F A6 95 50 A9 9F A5 5E 13 02",
+      "literal_pointer_offsets": [
+        "0F198F"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "  (Something is carved here.)",
+          "french": "  (Une inscription.)"
+        },
+        {
+          "offset": 31,
+          "original": "@It's a better world when you're loved.  I love you.",
+          "french": "@Le monde est meilleur quand on est aimé. Je t'aime."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33B76A",
+      "offset": "33B76A",
+      "snes": "F3B76A",
+      "length": 15,
+      "source": "script_candidate",
+      "text_en": "@Standing by.[13][02]",
+      "raw_hex": "70 83 A4 91 9E 94 99 9E 97 50 92 A9 5E 13 02",
+      "literal_pointer_offsets": [
+        "202B1F",
+        "360D15"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Standing by.",
+          "french": "@En attente."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33B779",
+      "offset": "33B779",
+      "snes": "F3B779",
+      "length": 13,
+      "source": "script_candidate",
+      "text_en": "@All clear.[13][02]",
+      "raw_hex": "70 71 9C 9C 50 93 9C 95 91 A2 5E 13 02",
+      "literal_pointer_offsets": [
+        "202B30",
+        "360D4F"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@All clear.",
+          "french": "@R.A.S."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33B786",
+      "offset": "33B786",
+      "snes": "F3B786",
+      "length": 13,
+      "source": "script_candidate",
+      "text_en": "@Chirp Chirp[02]",
+      "raw_hex": "70 73 98 99 A2 A0 50 73 98 99 A2 A0 02",
+      "literal_pointer_offsets": [
+        "33B7C1",
+        "33B971",
+        "33B9CC",
+        "33BA1D",
+        "33BC29"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Chirp Chirp",
+          "french": "@Cui-cui"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33BE79",
+      "offset": "33BE79",
+      "snes": "F3BE79",
+      "length": 41,
+      "source": "script_candidate",
+      "text_en": "@(Rocks have blocked the train tracks.)[13][02]",
+      "raw_hex": "70 58 82 9F 93 9B A3 50 98 91 A6 95 50 92 9C 9F 93 9B 95 94 50 A4 98 95 50 A4 A2 91 99 9E 50 A4 A2 91 93 9B A3 5E 59 13 02",
+      "literal_pointer_offsets": [
+        "202E60"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@(Rocks have blocked the train tracks.)",
+          "french": "@(Des rochers bloquent les rails.)"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33C443",
+      "offset": "33C443",
+      "snes": "F3C443",
+      "length": 93,
+      "source": "script_candidate",
+      "text_en": "@A shopping experience that can't be beat![03][00]  Our local department store across the street![13][02]",
+      "raw_hex": "70 71 50 A3 98 9F A0 A0 99 9E 97 50 95 A8 A0 95 A2 99 95 9E 93 95 50 A4 98 91 A4 50 93 91 9E 57 A4 50 92 95 50 92 95 91 A4 51 03 00 50 50 7F A5 A2 50 9C 9F 93 91 9C 50 94 95 A0 91 A2 A4 9D 95 9E A4 50 A3 A4 9F A2 95 50 91 93 A2 9F A3 A3 50 A4 98 95 50 A3 A4 A2 95 95 A4 51 13 02",
+      "literal_pointer_offsets": [
+        "0F1F66"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@A shopping experience that can't be beat!",
+          "french": "@Pour des achats imbattables,"
+        },
+        {
+          "offset": 44,
+          "original": "  Our local department store across the street!",
+          "french": "  visitez notre grand magasin juste en face !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33C6E8",
+      "offset": "33C6E8",
+      "snes": "F3C6E8",
+      "length": 20,
+      "source": "script_candidate",
+      "text_en": "@No problem here.[03][00][02]",
+      "raw_hex": "70 7E 9F 50 A0 A2 9F 92 9C 95 9D 50 98 95 A2 95 5E 03 00 02",
+      "literal_pointer_offsets": [
+        "33C6A8"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@No problem here.",
+          "french": "@Rien à signaler."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33D284",
+      "offset": "33D284",
+      "snes": "F3D284",
+      "length": 40,
+      "source": "script_candidate",
+      "text_en": "@My little Pippi is such a brave girl![13][02]",
+      "raw_hex": "70 7D A9 50 9C 99 A4 A4 9C 95 50 80 99 A0 A0 99 50 99 A3 50 A3 A5 93 98 50 91 50 92 A2 91 A6 95 50 97 99 A2 9C 51 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@My little Pippi is such a brave girl!",
+          "french": "@Ma petite Pippi est si courageuse !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "33ED82",
+      "offset": "33ED82",
+      "snes": "F3ED82",
+      "length": 27,
+      "source": "script_candidate",
+      "text_en": "[06 6F 03 C7 A5 F8 00][1F 02 0B][10 14]@Beeeep...[13][1F 02 0B][02]",
+      "raw_hex": "06 6F 03 C7 A5 F8 00 1F 02 0B 10 14 70 72 95 95 95 95 A0 5E 5E 5E 13 1F 02 0B 02",
+      "literal_pointer_offsets": [
+        "2025AD"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 12,
+          "original": "@Beeeep...",
+          "french": "@Biiiip..."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "347960",
+      "offset": "347960",
+      "snes": "F47960",
+      "length": 34,
+      "source": "script_candidate",
+      "text_en": "[18 04][18 01 35][01][07 2E 03][1B 02 87 79 F4 00]@No problem here.[13][02]",
+      "raw_hex": "18 04 18 01 35 01 07 2E 03 1B 02 87 79 F4 00 70 7E 9F 50 A0 A2 9F 92 9C 95 9D 50 98 95 A2 95 5E 13 02",
+      "literal_pointer_offsets": [
+        "20328F",
+        "2032B1"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 15,
+          "original": "@No problem here.",
+          "french": "@Rien à signaler."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "356F27",
+      "offset": "356F27",
+      "snes": "F56F27",
+      "length": 53,
+      "source": "script_candidate",
+      "text_en": "[01] <[1C 05 AB]>[03][00]@A key to unlock the main gate to the Zoo.[13][02]",
+      "raw_hex": "01 50 6C 1C 05 AB 6E 03 00 70 71 50 9B 95 A9 50 A4 9F 50 A5 9E 9C 9F 93 9B 50 A4 98 95 50 9D 91 99 9E 50 97 91 A4 95 50 A4 9F 50 A4 98 95 50 8A 9F 9F 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 1,
+          "original": " <",
+          "french": " <"
+        },
+        {
+          "offset": 6,
+          "original": ">",
+          "french": ">"
+        },
+        {
+          "offset": 9,
+          "original": "@A key to unlock the main gate to the Zoo.",
+          "french": "@Une clé pour ouvrir la porte du zoo."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "357AA0",
+      "offset": "357AA0",
+      "snes": "F57AA0",
+      "length": 144,
+      "source": "script_candidate",
+      "text_en": "[01] <[1C 05 CA]>[03][00]@A handy town map. It can be used in Podunk, as well as other towns.[03][00]@You can view the map quickly, simply by pressing the X button.[13][02]",
+      "raw_hex": "01 50 6C 1C 05 CA 6E 03 00 70 71 50 98 91 9E 94 A9 50 A4 9F A7 9E 50 9D 91 A0 5E 50 79 A4 50 93 91 9E 50 92 95 50 A5 A3 95 94 50 99 9E 50 80 9F 94 A5 9E 9B 5C 50 91 A3 50 A7 95 9C 9C 50 91 A3 50 9F A4 98 95 A2 50 A4 9F A7 9E A3 5E 03 00 70 89 9F A5 50 93 91 9E 50 A6 99 95 A7 50 A4 98 95 50 9D 91 A0 50 A1 A5 99 93 9B 9C A9 5C 50 A3 99 9D A0 9C A9 50 92 A9 50 A0 A2 95 A3 A3 99 9E 97 50 A4 98 95 50 88 50 92 A5 A4 A4 9F 9E 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 1,
+          "original": " <",
+          "french": " <"
+        },
+        {
+          "offset": 6,
+          "original": ">",
+          "french": ">"
+        },
+        {
+          "offset": 9,
+          "original": "@A handy town map. It can be used in Podunk, as well as other towns.",
+          "french": "@Un plan pratique de Podunk et des autres villes."
+        },
+        {
+          "offset": 79,
+          "original": "@You can view the map quickly, simply by pressing the X button.",
+          "french": "@Pour voir le plan rapidement, appuie sur X."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35A9C3",
+      "offset": "35A9C3",
+      "snes": "F5A9C3",
+      "length": 174,
+      "source": "script_candidate",
+      "text_en": "[08 E5 C4 F5 00][06 8E 03 33 AA F5 00][06 8F 03 33 AA F5 00][06 90 03 33 AA F5 00][06 91 03 33 AA F5 00][06 92 03 33 AA F5 00][06 93 03 33 AA F5 00]@The credit limit of the Telephone Card has been reached.[03][00][1B 01][1D 0F 00 00]@[19 10 01][1B 04][1C 02 00] grabbed the telephone.[03][00][1F 02 0B][1B 06][09 05 D9 C5 F5 00 17 D8 F5 00 5D CE F5 00 1C 4A C6 00 71 AA F5 00][02]",
+      "raw_hex": "08 E5 C4 F5 00 06 8E 03 33 AA F5 00 06 8F 03 33 AA F5 00 06 90 03 33 AA F5 00 06 91 03 33 AA F5 00 06 92 03 33 AA F5 00 06 93 03 33 AA F5 00 70 84 98 95 50 93 A2 95 94 99 A4 50 9C 99 9D 99 A4 50 9F 96 50 A4 98 95 50 84 95 9C 95 A0 98 9F 9E 95 50 73 91 A2 94 50 98 91 A3 50 92 95 95 9E 50 A2 95 91 93 98 95 94 5E 03 00 1B 01 1D 0F 00 00 70 19 10 01 1B 04 1C 02 00 50 97 A2 91 92 92 95 94 50 A4 98 95 50 A4 95 9C 95 A0 98 9F 9E 95 5E 03 00 1F 02 0B 1B 06 09 05 D9 C5 F5 00 17 D8 F5 00 5D CE F5 00 1C 4A C6 00 71 AA F5 00 02",
+      "literal_pointer_offsets": [
+        "35A997",
+        "35A99E",
+        "35A9A5",
+        "35A9AC",
+        "35A9B3",
+        "35A9BA"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 47,
+          "original": "@The credit limit of the Telephone Card has been reached.",
+          "french": "@La carte téléphonique n'a plus de crédit."
+        },
+        {
+          "offset": 112,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 121,
+          "original": " grabbed the telephone.",
+          "french": " décroche le téléphone."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35ACB6",
+      "offset": "35ACB6",
+      "snes": "F5ACB6",
+      "length": 215,
+      "source": "script_candidate",
+      "text_en": "@Everyone's in an uproar about a missing girl around your age.[03][00]@Not to mention the zombies swarming around the town graveyard![03][00]@If you're feeling heroic, that's probably where you oughta sneak in.[03][00][1D 05 FF 12][1B 02 8D AD F5 00][0A 3A C4 F5 00]",
+      "raw_hex": "70 75 A6 95 A2 A9 9F 9E 95 57 A3 50 99 9E 50 91 9E 50 A5 A0 A2 9F 91 A2 50 91 92 9F A5 A4 50 91 50 9D 99 A3 A3 99 9E 97 50 97 99 A2 9C 50 91 A2 9F A5 9E 94 50 A9 9F A5 A2 50 91 97 95 5E 03 00 70 7E 9F A4 50 A4 9F 50 9D 95 9E A4 99 9F 9E 50 A4 98 95 50 AA 9F 9D 92 99 95 A3 50 A3 A7 91 A2 9D 99 9E 97 50 91 A2 9F A5 9E 94 50 A4 98 95 50 A4 9F A7 9E 50 97 A2 91 A6 95 A9 91 A2 94 51 03 00 70 79 96 50 A9 9F A5 57 A2 95 50 96 95 95 9C 99 9E 97 50 98 95 A2 9F 99 93 5C 50 A4 98 91 A4 57 A3 50 A0 A2 9F 92 91 92 9C A9 50 A7 98 95 A2 95 50 A9 9F A5 50 9F A5 97 98 A4 91 50 A3 9E 95 91 9B 50 99 9E 5E 03 00 1D 05 FF 12 1B 02 8D AD F5 00 0A 3A C4 F5 00",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Everyone's in an uproar about a missing girl around your age.",
+          "french": "@Une fille de ton âge a disparu. Tout le monde s'affole !"
+        },
+        {
+          "offset": 64,
+          "original": "@Not to mention the zombies swarming around the town graveyard!",
+          "french": "@Et des zombies envahissent le cimetière de la ville !"
+        },
+        {
+          "offset": 129,
+          "original": "@If you're feeling heroic, that's probably where you oughta sneak in.",
+          "french": "@Si tu te sens brave, va donc y jeter un oeil."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35AE8C",
+      "offset": "35AE8C",
+      "snes": "F5AE8C",
+      "length": 200,
+      "source": "script_candidate",
+      "text_en": "@So the mayor wants you to see what's going on at the Zoo? Hmm.[03][00]@To get to the zoo, take the dirt path northeast of town.[03][00]@Don't go east, though. The entrance to Merrysville is still blocked.[03][00][0A 3A C4 F5 00]",
+      "raw_hex": "70 83 9F 50 A4 98 95 50 9D 91 A9 9F A2 50 A7 91 9E A4 A3 50 A9 9F A5 50 A4 9F 50 A3 95 95 50 A7 98 91 A4 57 A3 50 97 9F 99 9E 97 50 9F 9E 50 91 A4 50 A4 98 95 50 8A 9F 9F 6F 50 78 9D 9D 5E 03 00 70 84 9F 50 97 95 A4 50 A4 9F 50 A4 98 95 50 AA 9F 9F 5C 50 A4 91 9B 95 50 A4 98 95 50 94 99 A2 A4 50 A0 91 A4 98 50 9E 9F A2 A4 98 95 91 A3 A4 50 9F 96 50 A4 9F A7 9E 5E 03 00 70 74 9F 9E 57 A4 50 97 9F 50 95 91 A3 A4 5C 50 A4 98 9F A5 97 98 5E 50 84 98 95 50 95 9E A4 A2 91 9E 93 95 50 A4 9F 50 7D 95 A2 A2 A9 A3 A6 99 9C 9C 95 50 99 A3 50 A3 A4 99 9C 9C 50 92 9C 9F 93 9B 95 94 5E 03 00 0A 3A C4 F5 00",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@So the mayor wants you to see what's going on at the Zoo? Hmm.",
+          "french": "@Le maire veut que tu enquêtes au zoo ? Hmm."
+        },
+        {
+          "offset": 65,
+          "original": "@To get to the zoo, take the dirt path northeast of town.",
+          "french": "@Pour aller au zoo, prends le chemin au nord-est."
+        },
+        {
+          "offset": 124,
+          "original": "@Don't go east, though. The entrance to Merrysville is still blocked.",
+          "french": "@Pas à l'est : l'accès à Merrysville est encore bloqué."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35AF54",
+      "offset": "35AF54",
+      "snes": "F5AF54",
+      "length": 125,
+      "source": "script_candidate",
+      "text_en": "@Have you spoken to the policemen to the east of the Zoo?[03][00]@You should talk to them, and have a look around.[03][00][1D 05 FF 30][1B 02 D1 AF F5 00][0A 3A C4 F5 00]",
+      "raw_hex": "70 78 91 A6 95 50 A9 9F A5 50 A3 A0 9F 9B 95 9E 50 A4 9F 50 A4 98 95 50 A0 9F 9C 99 93 95 9D 95 9E 50 A4 9F 50 A4 98 95 50 95 91 A3 A4 50 9F 96 50 A4 98 95 50 8A 9F 9F 6F 03 00 70 89 9F A5 50 A3 98 9F A5 9C 94 50 A4 91 9C 9B 50 A4 9F 50 A4 98 95 9D 5C 50 91 9E 94 50 98 91 A6 95 50 91 50 9C 9F 9F 9B 50 91 A2 9F A5 9E 94 5E 03 00 1D 05 FF 30 1B 02 D1 AF F5 00 0A 3A C4 F5 00",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Have you spoken to the policemen to the east of the Zoo?",
+          "french": "@As-tu parlé aux policiers à l'est du zoo ?"
+        },
+        {
+          "offset": 59,
+          "original": "@You should talk to them, and have a look around.",
+          "french": "@Parle-leur et regarde les environs."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35C53A",
+      "offset": "35C53A",
+      "snes": "F5C53A",
+      "length": 66,
+      "source": "script_candidate",
+      "text_en": "[18 0A][1D 14 01 00 00 00][1B 03 83 C5 F5 00]@[19 10 01][1B 04][1C 02 00] grabbed the telephone.[03][00][1F 02 0B][1D 09 01 00][18 0A][1A 0A][1B 02 7C C5 F5 00][02]",
+      "raw_hex": "18 0A 1D 14 01 00 00 00 1B 03 83 C5 F5 00 70 19 10 01 1B 04 1C 02 00 50 97 A2 91 92 92 95 94 50 A4 98 95 50 A4 95 9C 95 A0 98 9F 9E 95 5E 03 00 1F 02 0B 1D 09 01 00 18 0A 1A 0A 1B 02 7C C5 F5 00 02",
+      "literal_pointer_offsets": [
+        "203CB8",
+        "205ADE",
+        "205FFB",
+        "2064C3",
+        "206518",
+        "2065A0",
+        "207172",
+        "207194",
+        "38A548",
+        "38A57B",
+        "38A5AE",
+        "38A5E1",
+        "38A614",
+        "38A647",
+        "38A67A",
+        "38A6AD",
+        "38A6E0",
+        "38A713"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 14,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 23,
+          "original": " grabbed the telephone.",
+          "french": " décroche le téléphone."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35C583",
+      "offset": "35C583",
+      "snes": "F5C583",
+      "length": 20,
+      "source": "script_candidate",
+      "text_en": "@Not enough money.[13][02]",
+      "raw_hex": "70 7E 9F A4 50 95 9E 9F A5 97 98 50 9D 9F 9E 95 A9 5E 13 02",
+      "literal_pointer_offsets": [
+        "35C544"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Not enough money.",
+          "french": "@Manque d’argent."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35C597",
+      "offset": "35C597",
+      "snes": "F5C597",
+      "length": 65,
+      "source": "script_candidate",
+      "text_en": "@[19 10 01][1B 04][1C 02 00] grabbed the telephone.[03][00][1F 02 0B][1A 0A][1B 00][07 B0 02][1B 02 CC C5 F5 00][04 C9 00][04 C8 00][1B 01][1B 02 D8 C5 F5 00][02]",
+      "raw_hex": "70 19 10 01 1B 04 1C 02 00 50 97 A2 91 92 92 95 94 50 A4 98 95 50 A4 95 9C 95 A0 98 9F 9E 95 5E 03 00 1F 02 0B 1A 0A 1B 00 07 B0 02 1B 02 CC C5 F5 00 04 C9 00 04 C8 00 1B 01 1B 02 D8 C5 F5 00 02",
+      "literal_pointer_offsets": [
+        "2032D3",
+        "204208",
+        "2050E8",
+        "20514E",
+        "205390",
+        "205CED",
+        "206C99",
+        "20757F",
+        "20796A",
+        "207D11",
+        "38A537",
+        "38A56A",
+        "38A59D",
+        "38A5D0",
+        "38A603",
+        "38A636",
+        "38A669",
+        "38A69C",
+        "38A6CF",
+        "38A702"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 9,
+          "original": " grabbed the telephone.",
+          "french": " décroche le téléphone."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35C5D9",
+      "offset": "35C5D9",
+      "snes": "F5C5D9",
+      "length": 291,
+      "source": "script_candidate",
+      "text_en": "@This is [08 8C 7A F8 00] dad.[03][00][06 39 04 7C C9 F5 00][1D 24 01][1B 02 97 C6 F5 00][1B 04]@I've transferred $[1C 0A 00 00 00 00][00]  into [08 8C 7A F8 00] account.[03][00]@Taking away what [08 D2 7A F8 00] spent, you should now[00]  have $[1C 01 07] in the bank.[03][00]@Spend your money wisely.[03][00][1D 24 02]@Well, the next level requires...[03][00][0E 01][0D 01][1D 19 00][1B 03 68 C7 F5 00][19 10 00][1B 02 68 C7 F5 00][0D 00][19 18 00][1B 02 FC C6 F5 00][01]@[1B 04][1C 0A 00 00 00 00] exp for [1B 04][1C 02 00].[03][00][0F][0A BC C6 F5 00]",
+      "raw_hex": "70 84 98 99 A3 50 99 A3 50 08 8C 7A F8 00 50 94 91 94 5E 03 00 06 39 04 7C C9 F5 00 1D 24 01 1B 02 97 C6 F5 00 1B 04 70 79 57 A6 95 50 A4 A2 91 9E A3 96 95 A2 A2 95 94 50 54 1C 0A 00 00 00 00 00 50 50 99 9E A4 9F 50 08 8C 7A F8 00 50 91 93 93 9F A5 9E A4 5E 03 00 70 84 91 9B 99 9E 97 50 91 A7 91 A9 50 A7 98 91 A4 50 08 D2 7A F8 00 50 A3 A0 95 9E A4 5C 50 A9 9F A5 50 A3 98 9F A5 9C 94 50 9E 9F A7 00 50 50 98 91 A6 95 50 54 1C 01 07 50 99 9E 50 A4 98 95 50 92 91 9E 9B 5E 03 00 70 83 A0 95 9E 94 50 A9 9F A5 A2 50 9D 9F 9E 95 A9 50 A7 99 A3 95 9C A9 5E 03 00 1D 24 02 70 87 95 9C 9C 5C 50 A4 98 95 50 9E 95 A8 A4 50 9C 95 A6 95 9C 50 A2 95 A1 A5 99 A2 95 A3 5E 5E 5E 03 00 0E 01 0D 01 1D 19 00 1B 03 68 C7 F5 00 19 10 00 1B 02 68 C7 F5 00 0D 00 19 18 00 1B 02 FC C6 F5 00 01 70 1B 04 1C 0A 00 00 00 00 50 95 A8 A0 50 96 9F A2 50 1B 04 1C 02 00 5E 03 00 0F 0A BC C6 F5 00",
+      "literal_pointer_offsets": [
+        "157AC9",
+        "35AA5C"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@This is ",
+          "french": "@Ici "
+        },
+        {
+          "offset": 14,
+          "original": " dad.",
+          "french": "."
+        },
+        {
+          "offset": 39,
+          "original": "@I've transferred $",
+          "french": "@J’ai versé $"
+        },
+        {
+          "offset": 65,
+          "original": "  into ",
+          "french": "  pour "
+        },
+        {
+          "offset": 77,
+          "original": " account.",
+          "french": "."
+        },
+        {
+          "offset": 88,
+          "original": "@Taking away what ",
+          "french": "@Après ce que "
+        },
+        {
+          "offset": 111,
+          "original": " spent, you should now",
+          "french": " dépensé, il reste"
+        },
+        {
+          "offset": 134,
+          "original": "  have $",
+          "french": "  $"
+        },
+        {
+          "offset": 145,
+          "original": " in the bank.",
+          "french": " en banque."
+        },
+        {
+          "offset": 160,
+          "original": "@Spend your money wisely.",
+          "french": "@Dépense avec prudence."
+        },
+        {
+          "offset": 190,
+          "original": "@Well, the next level requires...",
+          "french": "@Pour le prochain niveau..."
+        },
+        {
+          "offset": 259,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 268,
+          "original": " exp for ",
+          "french": " EXP : "
+        },
+        {
+          "offset": 282,
+          "original": ".",
+          "french": "."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35C768",
+      "offset": "35C768",
+      "snes": "F5C768",
+      "length": 96,
+      "source": "script_candidate",
+      "text_en": "@By the way, what do you need?[00][19 02]Record[02][19 02]Nothing, really[02][1C 07 02][11][12][09 02 C8 C7 F5 00 B1 C7 F5 00]@Good luck.[03][00][08 60 C9 F5 00][13][1F 02 0B][02]",
+      "raw_hex": "70 72 A9 50 A4 98 95 50 A7 91 A9 5C 50 A7 98 91 A4 50 94 9F 50 A9 9F A5 50 9E 95 95 94 6F 00 19 02 82 95 93 9F A2 94 02 19 02 7E 9F A4 98 99 9E 97 5C 50 A2 95 91 9C 9C A9 02 1C 07 02 11 12 09 02 C8 C7 F5 00 B1 C7 F5 00 70 77 9F 9F 94 50 9C A5 93 9B 5E 03 00 08 60 C9 F5 00 13 1F 02 0B 02",
+      "literal_pointer_offsets": [
+        "35C6C3",
+        "35C6CC"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@By the way, what do you need?",
+          "french": "@De quoi as-tu besoin ?"
+        },
+        {
+          "offset": 33,
+          "original": "Record",
+          "french": "Sauver"
+        },
+        {
+          "offset": 42,
+          "original": "Nothing, really",
+          "french": "Rien, merci"
+        },
+        {
+          "offset": 73,
+          "original": "@Good luck.",
+          "french": "@Bon vent !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35C7C8",
+      "offset": "35C7C8",
+      "snes": "F5C7C8",
+      "length": 289,
+      "source": "script_candidate",
+      "text_en": "[19 26 00][07 B0 02][1B 02 D7 C7 F5 00][04 C9 00][04 C8 00][1F B0]@OK...  Actually, I was thinking of going to sleep now, too.[03][00]@I've made a record of your battles so far.[03][00]@Good night.[00][19 02]Continue[02][19 02]Rest[02][1C 07 02][11][12][09 02 75 C8 F5 00 E9 C8 F5 00]@You've got a great work ethic, just like [08 8C 7A F8 00] mother.[03][00]@But, I don't think it's good to work too hard.[03][00][08 60 C9 F5 00][13][1F 02 0B][02]",
+      "raw_hex": "19 26 00 07 B0 02 1B 02 D7 C7 F5 00 04 C9 00 04 C8 00 1F B0 70 7F 7B 5E 5E 5E 50 50 71 93 A4 A5 91 9C 9C A9 5C 50 79 50 A7 91 A3 50 A4 98 99 9E 9B 99 9E 97 50 9F 96 50 97 9F 99 9E 97 50 A4 9F 50 A3 9C 95 95 A0 50 9E 9F A7 5C 50 A4 9F 9F 5E 03 00 70 79 57 A6 95 50 9D 91 94 95 50 91 50 A2 95 93 9F A2 94 50 9F 96 50 A9 9F A5 A2 50 92 91 A4 A4 9C 95 A3 50 A3 9F 50 96 91 A2 5E 03 00 70 77 9F 9F 94 50 9E 99 97 98 A4 5E 00 19 02 73 9F 9E A4 99 9E A5 95 02 19 02 82 95 A3 A4 02 1C 07 02 11 12 09 02 75 C8 F5 00 E9 C8 F5 00 70 89 9F A5 57 A6 95 50 97 9F A4 50 91 50 97 A2 95 91 A4 50 A7 9F A2 9B 50 95 A4 98 99 93 5C 50 9A A5 A3 A4 50 9C 99 9B 95 50 08 8C 7A F8 00 50 9D 9F A4 98 95 A2 5E 03 00 70 72 A5 A4 5C 50 79 50 94 9F 9E 57 A4 50 A4 98 99 9E 9B 50 99 A4 57 A3 50 97 9F 9F 94 50 A4 9F 50 A7 9F A2 9B 50 A4 9F 9F 50 98 91 A2 94 5E 03 00 08 60 C9 F5 00 13 1F 02 0B 02",
+      "literal_pointer_offsets": [
+        "35C7A9"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 20,
+          "original": "@OK...  Actually, I was thinking of going to sleep now, too.",
+          "french": "@D'accord... Je pensais aussi aller dormir."
+        },
+        {
+          "offset": 82,
+          "original": "@I've made a record of your battles so far.",
+          "french": "@J'ai sauvegardé tous tes combats."
+        },
+        {
+          "offset": 127,
+          "original": "@Good night.",
+          "french": "@Bonne nuit."
+        },
+        {
+          "offset": 142,
+          "original": "Continue",
+          "french": "Suite"
+        },
+        {
+          "offset": 153,
+          "original": "Rest",
+          "french": "Dodo"
+        },
+        {
+          "offset": 173,
+          "original": "@You've got a great work ethic, just like ",
+          "french": "@Tu travailles dur, comme "
+        },
+        {
+          "offset": 220,
+          "original": " mother.",
+          "french": "."
+        },
+        {
+          "offset": 230,
+          "original": "@But, I don't think it's good to work too hard.",
+          "french": "@Mais ne te fatigue pas trop."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35C8E9",
+      "offset": "35C8E9",
+      "snes": "F5C8E9",
+      "length": 119,
+      "source": "script_candidate",
+      "text_en": "@We're a great team, aren't we?[03][00]@Well, you should turn the power OFF instead of just pressing RESET.[03][00]@All right?[13][1F 50][13][02]",
+      "raw_hex": "70 87 95 57 A2 95 50 91 50 97 A2 95 91 A4 50 A4 95 91 9D 5C 50 91 A2 95 9E 57 A4 50 A7 95 6F 03 00 70 87 95 9C 9C 5C 50 A9 9F A5 50 A3 98 9F A5 9C 94 50 A4 A5 A2 9E 50 A4 98 95 50 A0 9F A7 95 A2 50 7F 76 76 50 99 9E A3 A4 95 91 94 50 9F 96 50 9A A5 A3 A4 50 A0 A2 95 A3 A3 99 9E 97 50 82 75 83 75 84 5E 03 00 70 71 9C 9C 50 A2 99 97 98 A4 6F 13 1F 50 13 02",
+      "literal_pointer_offsets": [
+        "35C871"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@We're a great team, aren't we?",
+          "french": "@On fait une belle équipe !"
+        },
+        {
+          "offset": 33,
+          "original": "@Well, you should turn the power OFF instead of just pressing RESET.",
+          "french": "@Éteins la console plutôt que d'appuyer sur RESET."
+        },
+        {
+          "offset": 103,
+          "original": "@All right?",
+          "french": "@D'accord ?"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "35C960",
+      "offset": "35C960",
+      "snes": "F5C960",
+      "length": 28,
+      "source": "script_candidate",
+      "text_en": "@(Click! Beep-beep-beep...)[02]",
+      "raw_hex": "70 58 73 9C 99 93 9B 51 50 72 95 95 A0 5D 92 95 95 A0 5D 92 95 95 A0 5E 5E 5E 59 02",
+      "literal_pointer_offsets": [
+        "35C7BF",
+        "35C8E0",
+        "35CB22"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@(Click! Beep-beep-beep...)",
+          "french": "@(Clac ! Biiiip...)"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36049C",
+      "offset": "36049C",
+      "snes": "F6049C",
+      "length": 19,
+      "source": "script_candidate",
+      "text_en": "[1F 02 05][10 14][01]@...Or not.[13][02]",
+      "raw_hex": "1F 02 05 10 14 01 70 5E 5E 5E 7F A2 50 9E 9F A4 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 6,
+          "original": "@...Or not.",
+          "french": "@...Ou pas."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3604AF",
+      "offset": "3604AF",
+      "snes": "F604AF",
+      "length": 213,
+      "source": "script_candidate",
+      "text_en": "[19 10 01][0B 01][1B 02 0C AE F3 00]@Why, if it isn't our hero, [1C 02 01]![03][00]@You have tiger droppings all over your clothes, you know.[03][00]@Oh, I'm just kidding![03][00]@Sorry, I don't have anything to give you this time...[03][00]@Run along, kid. Ha ha ha![13][02]",
+      "raw_hex": "19 10 01 0B 01 1B 02 0C AE F3 00 70 87 98 A9 5C 50 99 96 50 99 A4 50 99 A3 9E 57 A4 50 9F A5 A2 50 98 95 A2 9F 5C 50 1C 02 01 51 03 00 70 89 9F A5 50 98 91 A6 95 50 A4 99 97 95 A2 50 94 A2 9F A0 A0 99 9E 97 A3 50 91 9C 9C 50 9F A6 95 A2 50 A9 9F A5 A2 50 93 9C 9F A4 98 95 A3 5C 50 A9 9F A5 50 9B 9E 9F A7 5E 03 00 70 7F 98 5C 50 79 57 9D 50 9A A5 A3 A4 50 9B 99 94 94 99 9E 97 51 03 00 70 83 9F A2 A2 A9 5C 50 79 50 94 9F 9E 57 A4 50 98 91 A6 95 50 91 9E A9 A4 98 99 9E 97 50 A4 9F 50 97 99 A6 95 50 A9 9F A5 50 A4 98 99 A3 50 A4 99 9D 95 5E 5E 5E 03 00 70 82 A5 9E 50 91 9C 9F 9E 97 5C 50 9B 99 94 5E 50 78 91 50 98 91 50 98 91 51 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 11,
+          "original": "@Why, if it isn't our hero, ",
+          "french": "@Mais c'est notre héros, "
+        },
+        {
+          "offset": 42,
+          "original": "!",
+          "french": "!"
+        },
+        {
+          "offset": 45,
+          "original": "@You have tiger droppings all over your clothes, you know.",
+          "french": "@Tu as de la crotte de tigre sur tes habits."
+        },
+        {
+          "offset": 105,
+          "original": "@Oh, I'm just kidding!",
+          "french": "@Oh, je plaisante !"
+        },
+        {
+          "offset": 129,
+          "original": "@Sorry, I don't have anything to give you this time...",
+          "french": "@Désolé, je n'ai rien à te donner cette fois..."
+        },
+        {
+          "offset": 185,
+          "original": "@Run along, kid. Ha ha ha!",
+          "french": "@File, petit. Ha ha ha !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "360584",
+      "offset": "360584",
+      "snes": "F60584",
+      "length": 132,
+      "source": "script_candidate",
+      "text_en": "@Come back alive,[10 0F] and surely you'll be a hero![03][00]@If only I was, er, feeling better,[10 0F] I'd, um, go with you...[10 1E] *Ahem*[10 0F] *cough*[13][02]",
+      "raw_hex": "70 73 9F 9D 95 50 92 91 93 9B 50 91 9C 99 A6 95 5C 10 0F 50 91 9E 94 50 A3 A5 A2 95 9C A9 50 A9 9F A5 57 9C 9C 50 92 95 50 91 50 98 95 A2 9F 51 03 00 70 79 96 50 9F 9E 9C A9 50 79 50 A7 91 A3 5C 50 95 A2 5C 50 96 95 95 9C 99 9E 97 50 92 95 A4 A4 95 A2 5C 10 0F 50 79 57 94 5C 50 A5 9D 5C 50 97 9F 50 A7 99 A4 98 50 A9 9F A5 5E 5E 5E 10 1E 50 5A 71 98 95 9D 5A 10 0F 50 5A 93 9F A5 97 98 5A 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Come back alive,",
+          "french": "@Reviens vivant,"
+        },
+        {
+          "offset": 19,
+          "original": " and surely you'll be a hero!",
+          "french": " et tu seras un héros !"
+        },
+        {
+          "offset": 50,
+          "original": "@If only I was, er, feeling better,",
+          "french": "@Si je me sentais mieux,"
+        },
+        {
+          "offset": 87,
+          "original": " I'd, um, go with you...",
+          "french": " je viendrais aussi..."
+        },
+        {
+          "offset": 113,
+          "original": " *Ahem*",
+          "french": " *Hum*"
+        },
+        {
+          "offset": 122,
+          "original": " *cough*",
+          "french": " *toux*"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "360608",
+      "offset": "360608",
+      "snes": "F60608",
+      "length": 80,
+      "source": "script_candidate",
+      "text_en": "@Citizen, I know it's a lot, but your town needs promising young men like you.[13][02]",
+      "raw_hex": "70 73 99 A4 99 AA 95 9E 5C 50 79 50 9B 9E 9F A7 50 99 A4 57 A3 50 91 50 9C 9F A4 5C 50 92 A5 A4 50 A9 9F A5 A2 50 A4 9F A7 9E 50 9E 95 95 94 A3 50 A0 A2 9F 9D 99 A3 99 9E 97 50 A9 9F A5 9E 97 50 9D 95 9E 50 9C 99 9B 95 50 A9 9F A5 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Citizen, I know it's a lot, but your town needs promising young men like you.",
+          "french": "@Citoyen, notre ville a besoin de jeunes prometteurs comme toi."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "360672",
+      "offset": "360672",
+      "snes": "F60672",
+      "length": 235,
+      "source": "script_candidate",
+      "text_en": "@(Hee Hee Hee...)[00]@(I am the noisy mouse.)[03][00]@(Some buildings you can enter, some you cannot.)[03][00]@(If the door is round, or has a...)[03][00]@[10 0F][10 0F](Hee Hee Hee!)[00]@(I'm just pulling your leg!)[03][00]@(You'll just knock politely if you can't enter.)[13][02]",
+      "raw_hex": "70 58 78 95 95 50 78 95 95 50 78 95 95 5E 5E 5E 59 00 70 58 79 50 91 9D 50 A4 98 95 50 9E 9F 99 A3 A9 50 9D 9F A5 A3 95 5E 59 03 00 70 58 83 9F 9D 95 50 92 A5 99 9C 94 99 9E 97 A3 50 A9 9F A5 50 93 91 9E 50 95 9E A4 95 A2 5C 50 A3 9F 9D 95 50 A9 9F A5 50 93 91 9E 9E 9F A4 5E 59 03 00 70 58 79 96 50 A4 98 95 50 94 9F 9F A2 50 99 A3 50 A2 9F A5 9E 94 5C 50 9F A2 50 98 91 A3 50 91 5E 5E 5E 59 03 00 70 10 0F 10 0F 58 78 95 95 50 78 95 95 50 78 95 95 51 59 00 70 58 79 57 9D 50 9A A5 A3 A4 50 A0 A5 9C 9C 99 9E 97 50 A9 9F A5 A2 50 9C 95 97 51 59 03 00 70 58 89 9F A5 57 9C 9C 50 9A A5 A3 A4 50 9B 9E 9F 93 9B 50 A0 9F 9C 99 A4 95 9C A9 50 99 96 50 A9 9F A5 50 93 91 9E 57 A4 50 95 9E A4 95 A2 5E 59 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@(Hee Hee Hee...)",
+          "french": "@(Hi hi hi...)"
+        },
+        {
+          "offset": 18,
+          "original": "@(I am the noisy mouse.)",
+          "french": "@(La souris bruyante.)"
+        },
+        {
+          "offset": 44,
+          "original": "@(Some buildings you can enter, some you cannot.)",
+          "french": "@(Certains bâtiments sont ouverts, d'autres non.)"
+        },
+        {
+          "offset": 95,
+          "original": "@(If the door is round, or has a...)",
+          "french": "@(Si la porte est ronde, ou...)"
+        },
+        {
+          "offset": 133,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 138,
+          "original": "(Hee Hee Hee!)",
+          "french": "(Hi hi hi !)"
+        },
+        {
+          "offset": 153,
+          "original": "@(I'm just pulling your leg!)",
+          "french": "@(Je te taquine !)"
+        },
+        {
+          "offset": 184,
+          "original": "@(You'll just knock politely if you can't enter.)",
+          "french": "@(Si tu ne peux pas entrer, tu frappes poliment.)"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36075D",
+      "offset": "36075D",
+      "snes": "F6075D",
+      "length": 50,
+      "source": "script_candidate",
+      "text_en": "[06 74 03 8F 07 F6 00]@I have a secret to share with you later.[13][02]",
+      "raw_hex": "06 74 03 8F 07 F6 00 70 79 50 98 91 A6 95 50 91 50 A3 95 93 A2 95 A4 50 A4 9F 50 A3 98 91 A2 95 50 A7 99 A4 98 50 A9 9F A5 50 9C 91 A4 95 A2 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "original": "@I have a secret to share with you later.",
+          "french": "@Je te dirai un secret plus tard."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36078F",
+      "offset": "36078F",
+      "snes": "F6078F",
+      "length": 156,
+      "source": "script_candidate",
+      "text_en": "[19 10 01][09 04 A4 07 F6 00 2B 08 F6 00 4E D2 F8 00 4E D2 F8 00]@Everyone's talking about a girl with special powers. Have you heard about her?[03][00]@I bet she'd be a great help to you on your journey.[13][02]",
+      "raw_hex": "19 10 01 09 04 A4 07 F6 00 2B 08 F6 00 4E D2 F8 00 4E D2 F8 00 70 75 A6 95 A2 A9 9F 9E 95 57 A3 50 A4 91 9C 9B 99 9E 97 50 91 92 9F A5 A4 50 91 50 97 99 A2 9C 50 A7 99 A4 98 50 A3 A0 95 93 99 91 9C 50 A0 9F A7 95 A2 A3 5E 50 78 91 A6 95 50 A9 9F A5 50 98 95 91 A2 94 50 91 92 9F A5 A4 50 98 95 A2 6F 03 00 70 79 50 92 95 A4 50 A3 98 95 57 94 50 92 95 50 91 50 97 A2 95 91 A4 50 98 95 9C A0 50 A4 9F 50 A9 9F A5 50 9F 9E 50 A9 9F A5 A2 50 9A 9F A5 A2 9E 95 A9 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 21,
+          "original": "@Everyone's talking about a girl with special powers. Have you heard about her?",
+          "french": "@Tout le monde parle d'une fille aux pouvoirs étranges. Tu la connais ?"
+        },
+        {
+          "offset": 102,
+          "original": "@I bet she'd be a great help to you on your journey.",
+          "french": "@Elle pourrait bien t'aider dans ton voyage."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36082B",
+      "offset": "36082B",
+      "snes": "F6082B",
+      "length": 70,
+      "source": "script_candidate",
+      "text_en": "@Everyone's talking about a girl with special powers.[03][00]@Is that you?[13][02]",
+      "raw_hex": "70 75 A6 95 A2 A9 9F 9E 95 57 A3 50 A4 91 9C 9B 99 9E 97 50 91 92 9F A5 A4 50 91 50 97 99 A2 9C 50 A7 99 A4 98 50 A3 A0 95 93 99 91 9C 50 A0 9F A7 95 A2 A3 5E 03 00 70 79 A3 50 A4 98 91 A4 50 A9 9F A5 6F 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Everyone's talking about a girl with special powers.",
+          "french": "@On parle d'une fille aux pouvoirs étranges."
+        },
+        {
+          "offset": 55,
+          "original": "@Is that you?",
+          "french": "@C'est toi ?"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "360871",
+      "offset": "360871",
+      "snes": "F60871",
+      "length": 118,
+      "source": "script_candidate",
+      "text_en": "[06 21 03 E7 08 F6 00][06 22 03 46 09 F6 00][06 24 03 0E 09 F6 00]@I am Abbott, the town mayor...[10 1E]'s assistant.[03][00]@Not Mr. Mayor himself.[03][00][1F 16 65 00 03]@He's over there.[13][02]",
+      "raw_hex": "06 21 03 E7 08 F6 00 06 22 03 46 09 F6 00 06 24 03 0E 09 F6 00 70 79 50 91 9D 50 71 92 92 9F A4 A4 5C 50 A4 98 95 50 A4 9F A7 9E 50 9D 91 A9 9F A2 5E 5E 5E 10 1E 57 A3 50 91 A3 A3 99 A3 A4 91 9E A4 5E 03 00 70 7E 9F A4 50 7D A2 5E 50 7D 91 A9 9F A2 50 98 99 9D A3 95 9C 96 5E 03 00 1F 16 65 00 03 70 78 95 57 A3 50 9F A6 95 A2 50 A4 98 95 A2 95 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 21,
+          "original": "@I am Abbott, the town mayor...",
+          "french": "@Je suis Abbott,"
+        },
+        {
+          "offset": 54,
+          "original": "'s assistant.",
+          "french": " son adjoint."
+        },
+        {
+          "offset": 69,
+          "original": "@Not Mr. Mayor himself.",
+          "french": "@Pas le maire lui-même."
+        },
+        {
+          "offset": 99,
+          "original": "@He's over there.",
+          "french": "@Il est là-bas."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36090E",
+      "offset": "36090E",
+      "snes": "F6090E",
+      "length": 56,
+      "source": "script_candidate",
+      "text_en": "@This key will open the zoo's gate.[10 14] Here you are.[0A 83 09 F6 00]",
+      "raw_hex": "70 84 98 99 A3 50 9B 95 A9 50 A7 99 9C 9C 50 9F A0 95 9E 50 A4 98 95 50 AA 9F 9F 57 A3 50 97 91 A4 95 5E 10 14 50 78 95 A2 95 50 A9 9F A5 50 91 A2 95 5E 0A 83 09 F6 00",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@This key will open the zoo's gate.",
+          "french": "@Cette clé ouvre la porte du zoo."
+        },
+        {
+          "offset": 37,
+          "original": " Here you are.",
+          "french": " La voici."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "360946",
+      "offset": "360946",
+      "snes": "F60946",
+      "length": 107,
+      "source": "script_candidate",
+      "text_en": "@These Keys to the zoo are a dime a dozen.  Have another one.[03][00][1D 03 FF][1B 02 B1 09 F6 00][1F 02 74][10 3C][18 04][1F 02 66][10 5A][18 01 35][1D 03 FF][1D 0E 00 AB][08 DA DC C7 00][13][04 22 03][05 45 03][02]",
+      "raw_hex": "70 84 98 95 A3 95 50 7B 95 A9 A3 50 A4 9F 50 A4 98 95 50 AA 9F 9F 50 91 A2 95 50 91 50 94 99 9D 95 50 91 50 94 9F AA 95 9E 5E 50 50 78 91 A6 95 50 91 9E 9F A4 98 95 A2 50 9F 9E 95 5E 03 00 1D 03 FF 1B 02 B1 09 F6 00 1F 02 74 10 3C 18 04 1F 02 66 10 5A 18 01 35 1D 03 FF 1D 0E 00 AB 08 DA DC C7 00 13 04 22 03 05 45 03 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@These Keys to the zoo are a dime a dozen.  Have another one.",
+          "french": "@Des clés du zoo, on en a plein. En voici une autre."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "360AD5",
+      "offset": "360AD5",
+      "snes": "F60AD5",
+      "length": 200,
+      "source": "script_candidate",
+      "text_en": "[1F 66 01 1E 00 00 00 00][1F 21 23][06 21 03 EA 0C F6 00]@Proclamation by the Town's Mayor says...[03][00]@<No one may pass until the Zoo case is solved.>[03][00]@A real <one-way> attitude if you ask me.[03][00]@I don't have to like it,[10 0F] just enforce it.[13][02]",
+      "raw_hex": "1F 66 01 1E 00 00 00 00 1F 21 23 06 21 03 EA 0C F6 00 70 80 A2 9F 93 9C 91 9D 91 A4 99 9F 9E 50 92 A9 50 A4 98 95 50 84 9F A7 9E 57 A3 50 7D 91 A9 9F A2 50 A3 91 A9 A3 5E 5E 5E 03 00 70 6C 7E 9F 50 9F 9E 95 50 9D 91 A9 50 A0 91 A3 A3 50 A5 9E A4 99 9C 50 A4 98 95 50 8A 9F 9F 50 93 91 A3 95 50 99 A3 50 A3 9F 9C A6 95 94 5E 6E 03 00 70 71 50 A2 95 91 9C 50 6C 9F 9E 95 5D A7 91 A9 6E 50 91 A4 A4 99 A4 A5 94 95 50 99 96 50 A9 9F A5 50 91 A3 9B 50 9D 95 5E 03 00 70 79 50 94 9F 9E 57 A4 50 98 91 A6 95 50 A4 9F 50 9C 99 9B 95 50 99 A4 5C 10 0F 50 9A A5 A3 A4 50 95 9E 96 9F A2 93 95 50 99 A4 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 18,
+          "original": "@Proclamation by the Town's Mayor says...",
+          "french": "@Le maire a proclamé..."
+        },
+        {
+          "offset": 61,
+          "original": "@<No one may pass until the Zoo case is solved.>",
+          "french": "@<Passage fermé tant que le zoo est en danger.>"
+        },
+        {
+          "offset": 111,
+          "original": "@A real <one-way> attitude if you ask me.",
+          "french": "@Quel esprit <fermé>, à mon avis."
+        },
+        {
+          "offset": 154,
+          "original": "@I don't have to like it,",
+          "french": "@Ça ne me plaît pas,"
+        },
+        {
+          "offset": 181,
+          "original": " just enforce it.",
+          "french": " mais j'obéis."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "360F7D",
+      "offset": "360F7D",
+      "snes": "F60F7D",
+      "length": 58,
+      "source": "script_candidate",
+      "text_en": "[06 20 03 B7 0F F6 00]@Are the zombies going to take over our town too?[13][02]",
+      "raw_hex": "06 20 03 B7 0F F6 00 70 71 A2 95 50 A4 98 95 50 AA 9F 9D 92 99 95 A3 50 97 9F 99 9E 97 50 A4 9F 50 A4 91 9B 95 50 9F A6 95 A2 50 9F A5 A2 50 A4 9F A7 9E 50 A4 9F 9F 6F 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "original": "@Are the zombies going to take over our town too?",
+          "french": "@Les zombies vont-ils aussi envahir notre ville ?"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "360FB7",
+      "offset": "360FB7",
+      "snes": "F60FB7",
+      "length": 32,
+      "source": "script_candidate",
+      "text_en": "@Oh hey! The zombies are gone![13][02]",
+      "raw_hex": "70 7F 98 50 98 95 A9 51 50 84 98 95 50 AA 9F 9D 92 99 95 A3 50 91 A2 95 50 97 9F 9E 95 51 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Oh hey! The zombies are gone!",
+          "french": "@Oh ! Les zombies sont partis!"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361070",
+      "offset": "361070",
+      "snes": "F61070",
+      "length": 239,
+      "source": "script_candidate",
+      "text_en": "[06 9F 02 84 D2 F3 00][06 74 03 17 12 F6 00][06 20 03 5F 11 F6 00]@Oh, what can I do?[00]@What should I do?[03][00]@Where can I go?[00]@Who can I see?[03][00]@What should I do?[00]@What should I do?[03][00]@My little Pippi is gone.[03][00]@If you're going to Podunk...[03][00]@Please tell the Mayor.[03][00]@Oh[10 0F] me,[10 0F] oh[10 0F] my![13][02]",
+      "raw_hex": "06 9F 02 84 D2 F3 00 06 74 03 17 12 F6 00 06 20 03 5F 11 F6 00 70 7F 98 5C 50 A7 98 91 A4 50 93 91 9E 50 79 50 94 9F 6F 00 70 87 98 91 A4 50 A3 98 9F A5 9C 94 50 79 50 94 9F 6F 03 00 70 87 98 95 A2 95 50 93 91 9E 50 79 50 97 9F 6F 00 70 87 98 9F 50 93 91 9E 50 79 50 A3 95 95 6F 03 00 70 87 98 91 A4 50 A3 98 9F A5 9C 94 50 79 50 94 9F 6F 00 70 87 98 91 A4 50 A3 98 9F A5 9C 94 50 79 50 94 9F 6F 03 00 70 7D A9 50 9C 99 A4 A4 9C 95 50 80 99 A0 A0 99 50 99 A3 50 97 9F 9E 95 5E 03 00 70 79 96 50 A9 9F A5 57 A2 95 50 97 9F 99 9E 97 50 A4 9F 50 80 9F 94 A5 9E 9B 5E 5E 5E 03 00 70 80 9C 95 91 A3 95 50 A4 95 9C 9C 50 A4 98 95 50 7D 91 A9 9F A2 5E 03 00 70 7F 98 10 0F 50 9D 95 5C 10 0F 50 9F 98 10 0F 50 9D A9 51 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 21,
+          "original": "@Oh, what can I do?",
+          "french": "@Oh, que faire ?"
+        },
+        {
+          "offset": 41,
+          "original": "@What should I do?",
+          "french": "@Que faire ?"
+        },
+        {
+          "offset": 61,
+          "original": "@Where can I go?",
+          "french": "@Où aller ?"
+        },
+        {
+          "offset": 78,
+          "original": "@Who can I see?",
+          "french": "@Qui voir ?"
+        },
+        {
+          "offset": 95,
+          "original": "@What should I do?",
+          "french": "@Que faire ?"
+        },
+        {
+          "offset": 114,
+          "original": "@What should I do?",
+          "french": "@Que faire ?"
+        },
+        {
+          "offset": 134,
+          "original": "@My little Pippi is gone.",
+          "french": "@Ma Pippi a disparu."
+        },
+        {
+          "offset": 161,
+          "original": "@If you're going to Podunk...",
+          "french": "@Si tu vas à Podunk..."
+        },
+        {
+          "offset": 192,
+          "original": "@Please tell the Mayor.",
+          "french": "@Préviens le maire."
+        },
+        {
+          "offset": 217,
+          "original": "@Oh",
+          "french": "@Oh"
+        },
+        {
+          "offset": 222,
+          "original": " me,",
+          "french": " là,"
+        },
+        {
+          "offset": 228,
+          "original": " oh",
+          "french": " oh"
+        },
+        {
+          "offset": 233,
+          "original": " my!",
+          "french": " là!"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36115F",
+      "offset": "36115F",
+      "snes": "F6115F",
+      "length": 184,
+      "source": "script_candidate",
+      "text_en": "@Oh my, little Pippi! You're back and safe![03][00]@Thank you for finding her,[00]  [1C 02 01]![03][00]@By the way, the Town Mayor is waiting for you...[03][00]@Pippi, go with [1C 02 01], and help straighten this out.[13][02]",
+      "raw_hex": "70 7F 98 50 9D A9 5C 50 9C 99 A4 A4 9C 95 50 80 99 A0 A0 99 51 50 89 9F A5 57 A2 95 50 92 91 93 9B 50 91 9E 94 50 A3 91 96 95 51 03 00 70 84 98 91 9E 9B 50 A9 9F A5 50 96 9F A2 50 96 99 9E 94 99 9E 97 50 98 95 A2 5C 00 50 50 1C 02 01 51 03 00 70 72 A9 50 A4 98 95 50 A7 91 A9 5C 50 A4 98 95 50 84 9F A7 9E 50 7D 91 A9 9F A2 50 99 A3 50 A7 91 99 A4 99 9E 97 50 96 9F A2 50 A9 9F A5 5E 5E 5E 03 00 70 80 99 A0 A0 99 5C 50 97 9F 50 A7 99 A4 98 50 1C 02 01 5C 50 91 9E 94 50 98 95 9C A0 50 A3 A4 A2 91 99 97 98 A4 95 9E 50 A4 98 99 A3 50 9F A5 A4 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Oh my, little Pippi! You're back and safe!",
+          "french": "@Ma petite Pippi ! Tu es saine et sauve !"
+        },
+        {
+          "offset": 45,
+          "original": "@Thank you for finding her,",
+          "french": "@Merci de l'avoir retrouvée"
+        },
+        {
+          "offset": 73,
+          "original": "  ",
+          "french": "  "
+        },
+        {
+          "offset": 78,
+          "original": "!",
+          "french": "!"
+        },
+        {
+          "offset": 81,
+          "original": "@By the way, the Town Mayor is waiting for you...",
+          "french": "@Au fait, le maire t'attend..."
+        },
+        {
+          "offset": 132,
+          "original": "@Pippi, go with ",
+          "french": "@Pippi, va avec "
+        },
+        {
+          "offset": 151,
+          "original": ", and help straighten this out.",
+          "french": " pour régler tout ça."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361217",
+      "offset": "361217",
+      "snes": "F61217",
+      "length": 60,
+      "source": "script_candidate",
+      "text_en": "@I want to thank you again for your help.[03][00]@Pippi is fine.[13][02]",
+      "raw_hex": "70 79 50 A7 91 9E A4 50 A4 9F 50 A4 98 91 9E 9B 50 A9 9F A5 50 91 97 91 99 9E 50 96 9F A2 50 A9 9F A5 A2 50 98 95 9C A0 5E 03 00 70 80 99 A0 A0 99 50 99 A3 50 96 99 9E 95 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@I want to thank you again for your help.",
+          "french": "@Encore merci pour ton aide."
+        },
+        {
+          "offset": 43,
+          "original": "@Pippi is fine.",
+          "french": "@Pippi va bien."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3612C8",
+      "offset": "3612C8",
+      "snes": "F612C8",
+      "length": 95,
+      "source": "script_candidate",
+      "text_en": "[06 20 03 AF 12 F6 00]@You didn't come from the cemetery to the south, did you?[03][00]@Please tell me you didn't![13][02]",
+      "raw_hex": "06 20 03 AF 12 F6 00 70 89 9F A5 50 94 99 94 9E 57 A4 50 93 9F 9D 95 50 96 A2 9F 9D 50 A4 98 95 50 93 95 9D 95 A4 95 A2 A9 50 A4 9F 50 A4 98 95 50 A3 9F A5 A4 98 5C 50 94 99 94 50 A9 9F A5 6F 03 00 70 80 9C 95 91 A3 95 50 A4 95 9C 9C 50 9D 95 50 A9 9F A5 50 94 99 94 9E 57 A4 51 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "original": "@You didn't come from the cemetery to the south, did you?",
+          "french": "@Tu ne viens pas du cimetière au sud, j'espère ?"
+        },
+        {
+          "offset": 66,
+          "original": "@Please tell me you didn't!",
+          "french": "@Dis-moi que non !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36137B",
+      "offset": "36137B",
+      "snes": "F6137B",
+      "length": 101,
+      "source": "script_candidate",
+      "text_en": "@The Canary Village is northwest from here.[03][00]@It's a nice place to visit and the admission is free![13][02]",
+      "raw_hex": "70 84 98 95 50 73 91 9E 91 A2 A9 50 86 99 9C 9C 91 97 95 50 99 A3 50 9E 9F A2 A4 98 A7 95 A3 A4 50 96 A2 9F 9D 50 98 95 A2 95 5E 03 00 70 79 A4 57 A3 50 91 50 9E 99 93 95 50 A0 9C 91 93 95 50 A4 9F 50 A6 99 A3 99 A4 50 91 9E 94 50 A4 98 95 50 91 94 9D 99 A3 A3 99 9F 9E 50 99 A3 50 96 A2 95 95 51 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@The Canary Village is northwest from here.",
+          "french": "@Le Village des Canaris est au nord-ouest."
+        },
+        {
+          "offset": 45,
+          "original": "@It's a nice place to visit and the admission is free!",
+          "french": "@La visite est agréable et l'entrée gratuite !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3613E0",
+      "offset": "3613E0",
+      "snes": "F613E0",
+      "length": 174,
+      "source": "script_candidate",
+      "text_en": "[06 20 03 8E 14 F6 00]@Animals have suddenly turned violent,[03][00]@and the dead have come back as zombies to attack us... What can be done?[03][00]@I'm so scared I can hardly breathe... (gasp gasp)[13][02]",
+      "raw_hex": "06 20 03 8E 14 F6 00 70 71 9E 99 9D 91 9C A3 50 98 91 A6 95 50 A3 A5 94 94 95 9E 9C A9 50 A4 A5 A2 9E 95 94 50 A6 99 9F 9C 95 9E A4 5C 03 00 70 91 9E 94 50 A4 98 95 50 94 95 91 94 50 98 91 A6 95 50 93 9F 9D 95 50 92 91 93 9B 50 91 A3 50 AA 9F 9D 92 99 95 A3 50 A4 9F 50 91 A4 A4 91 93 9B 50 A5 A3 5E 5E 5E 50 87 98 91 A4 50 93 91 9E 50 92 95 50 94 9F 9E 95 6F 03 00 70 79 57 9D 50 A3 9F 50 A3 93 91 A2 95 94 50 79 50 93 91 9E 50 98 91 A2 94 9C A9 50 92 A2 95 91 A4 98 95 5E 5E 5E 50 58 97 91 A3 A0 50 97 91 A3 A0 59 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "original": "@Animals have suddenly turned violent,",
+          "french": "@Les animaux sont devenus violents,"
+        },
+        {
+          "offset": 47,
+          "original": "@and the dead have come back as zombies to attack us... What can be done?",
+          "french": "@et les morts reviennent en zombies nous attaquer... Que faire ?"
+        },
+        {
+          "offset": 122,
+          "original": "@I'm so scared I can hardly breathe... (gasp gasp)",
+          "french": "@J'ai si peur que je respire à peine... (halète)"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36148E",
+      "offset": "36148E",
+      "snes": "F6148E",
+      "length": 21,
+      "source": "script_candidate",
+      "text_en": "@You're so awesome![13][02]",
+      "raw_hex": "70 89 9F A5 57 A2 95 50 A3 9F 50 91 A7 95 A3 9F 9D 95 51 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@You're so awesome!",
+          "french": "@Tu es formidable !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361560",
+      "offset": "361560",
+      "snes": "F61560",
+      "length": 70,
+      "source": "script_candidate",
+      "text_en": "@There is no cure for zombies![10 1E][01]  A[10 0F]A[10 0F]A[10 0F]A[10 0F]AAAHHH![10 0F][18 04][1F F1 1A 00 FA 04][04 42 03][10 B4][02]",
+      "raw_hex": "70 84 98 95 A2 95 50 99 A3 50 9E 9F 50 93 A5 A2 95 50 96 9F A2 50 AA 9F 9D 92 99 95 A3 51 10 1E 01 50 50 71 10 0F 71 10 0F 71 10 0F 71 10 0F 71 71 71 78 78 78 51 10 0F 18 04 1F F1 1A 00 FA 04 04 42 03 10 B4 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@There is no cure for zombies!",
+          "french": "@Les zombies sont incurables!"
+        },
+        {
+          "offset": 33,
+          "original": "  A",
+          "french": "  A"
+        },
+        {
+          "offset": 38,
+          "original": "A",
+          "french": "A"
+        },
+        {
+          "offset": 41,
+          "original": "A",
+          "french": "A"
+        },
+        {
+          "offset": 44,
+          "original": "A",
+          "french": "A"
+        },
+        {
+          "offset": 47,
+          "original": "AAAHHH!",
+          "french": "AAAHHH!"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3615A6",
+      "offset": "3615A6",
+      "snes": "F615A6",
+      "length": 37,
+      "source": "script_candidate",
+      "text_en": "@It's amazing you made it this far.[13][02]",
+      "raw_hex": "70 79 A4 57 A3 50 91 9D 91 AA 99 9E 97 50 A9 9F A5 50 9D 91 94 95 50 99 A4 50 A4 98 99 A3 50 96 91 A2 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@It's amazing you made it this far.",
+          "french": "@Bravo d'être arrivé jusqu'ici."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3615CB",
+      "offset": "3615CB",
+      "snes": "F615CB",
+      "length": 21,
+      "source": "script_candidate",
+      "text_en": "@It was dreadful...[13][02]",
+      "raw_hex": "70 79 A4 50 A7 91 A3 50 94 A2 95 91 94 96 A5 9C 5E 5E 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@It was dreadful...",
+          "french": "@C'était affreux..."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3615E0",
+      "offset": "3615E0",
+      "snes": "F615E0",
+      "length": 126,
+      "source": "script_candidate",
+      "text_en": "@It's convenient that the cash machine is next to the Service Counter,[03][00]  but why should I care? I don't have a card for it.[13][02]",
+      "raw_hex": "70 79 A4 57 A3 50 93 9F 9E A6 95 9E 99 95 9E A4 50 A4 98 91 A4 50 A4 98 95 50 93 91 A3 98 50 9D 91 93 98 99 9E 95 50 99 A3 50 9E 95 A8 A4 50 A4 9F 50 A4 98 95 50 83 95 A2 A6 99 93 95 50 73 9F A5 9E A4 95 A2 5C 03 00 50 50 92 A5 A4 50 A7 98 A9 50 A3 98 9F A5 9C 94 50 79 50 93 91 A2 95 6F 50 79 50 94 9F 9E 57 A4 50 98 91 A6 95 50 91 50 93 91 A2 94 50 96 9F A2 50 99 A4 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@It's convenient that the cash machine is next to the Service Counter,",
+          "french": "@Le distributeur est près du comptoir. Pratique,"
+        },
+        {
+          "offset": 72,
+          "original": "  but why should I care? I don't have a card for it.",
+          "french": "  mais je n'ai pas de carte. À quoi bon ?"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3616AF",
+      "offset": "3616AF",
+      "snes": "F616AF",
+      "length": 10,
+      "source": "script_candidate",
+      "text_en": "@Hum.[0A F3 16 F6 00]",
+      "raw_hex": "70 78 A5 9D 5E 0A F3 16 F6 00",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Hum.",
+          "french": "@Hum."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3616B9",
+      "offset": "3616B9",
+      "snes": "F616B9",
+      "length": 58,
+      "source": "script_candidate",
+      "text_en": "@The chicks at the Canary Village have lovely voices.[0A F3 16 F6 00]",
+      "raw_hex": "70 84 98 95 50 93 98 99 93 9B A3 50 91 A4 50 A4 98 95 50 73 91 9E 91 A2 A9 50 86 99 9C 9C 91 97 95 50 98 91 A6 95 50 9C 9F A6 95 9C A9 50 A6 9F 99 93 95 A3 5E 0A F3 16 F6 00",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@The chicks at the Canary Village have lovely voices.",
+          "french": "@Les petits du Village des Canaris chantent si bien."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3616F8",
+      "offset": "3616F8",
+      "snes": "F616F8",
+      "length": 61,
+      "source": "script_candidate",
+      "text_en": "@I really admire the gentleman who lives in Canary Village.[13][02]",
+      "raw_hex": "70 79 50 A2 95 91 9C 9C A9 50 91 94 9D 99 A2 95 50 A4 98 95 50 97 95 9E A4 9C 95 9D 91 9E 50 A7 98 9F 50 9C 99 A6 95 A3 50 99 9E 50 73 91 9E 91 A2 A9 50 86 99 9C 9C 91 97 95 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@I really admire the gentleman who lives in Canary Village.",
+          "french": "@J'admire beaucoup ce monsieur du Village des Canaris."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361735",
+      "offset": "361735",
+      "snes": "F61735",
+      "length": 118,
+      "source": "script_candidate",
+      "text_en": "[06 21 03 AF 12 F6 00]@I hear they locked the zoo up to keep any more animals from escaping.[03][00]@They've all gone berserk, you see...[13][02]",
+      "raw_hex": "06 21 03 AF 12 F6 00 70 79 50 98 95 91 A2 50 A4 98 95 A9 50 9C 9F 93 9B 95 94 50 A4 98 95 50 AA 9F 9F 50 A5 A0 50 A4 9F 50 9B 95 95 A0 50 91 9E A9 50 9D 9F A2 95 50 91 9E 99 9D 91 9C A3 50 96 A2 9F 9D 50 95 A3 93 91 A0 99 9E 97 5E 03 00 70 84 98 95 A9 57 A6 95 50 91 9C 9C 50 97 9F 9E 95 50 92 95 A2 A3 95 A2 9B 5C 50 A9 9F A5 50 A3 95 95 5E 5E 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "original": "@I hear they locked the zoo up to keep any more animals from escaping.",
+          "french": "@Le zoo est fermé pour empêcher les animaux de s'enfuir."
+        },
+        {
+          "offset": 79,
+          "original": "@They've all gone berserk, you see...",
+          "french": "@Ils sont tous devenus fous..."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3617AB",
+      "offset": "3617AB",
+      "snes": "F617AB",
+      "length": 136,
+      "source": "script_candidate",
+      "text_en": "@To Eat, you'll find a bread loaf stale,[03][00]  but with its Crumbs you can mark your trail![03][00]@Do you think I talk too much?[03][00]@Well, do I?[13][02]",
+      "raw_hex": "70 84 9F 50 75 91 A4 5C 50 A9 9F A5 57 9C 9C 50 96 99 9E 94 50 91 50 92 A2 95 91 94 50 9C 9F 91 96 50 A3 A4 91 9C 95 5C 03 00 50 50 92 A5 A4 50 A7 99 A4 98 50 99 A4 A3 50 73 A2 A5 9D 92 A3 50 A9 9F A5 50 93 91 9E 50 9D 91 A2 9B 50 A9 9F A5 A2 50 A4 A2 91 99 9C 51 03 00 70 74 9F 50 A9 9F A5 50 A4 98 99 9E 9B 50 79 50 A4 91 9C 9B 50 A4 9F 9F 50 9D A5 93 98 6F 03 00 70 87 95 9C 9C 5C 50 94 9F 50 79 6F 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@To Eat, you'll find a bread loaf stale,",
+          "french": "@Le pain rassis n'est pas bon à manger,"
+        },
+        {
+          "offset": 42,
+          "original": "  but with its Crumbs you can mark your trail!",
+          "french": "  mais ses miettes marquent ton chemin !"
+        },
+        {
+          "offset": 90,
+          "original": "@Do you think I talk too much?",
+          "french": "@Tu trouves que je parle trop?"
+        },
+        {
+          "offset": 122,
+          "original": "@Well, do I?",
+          "french": "@Alors ?"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361833",
+      "offset": "361833",
+      "snes": "F61833",
+      "length": 102,
+      "source": "script_candidate",
+      "text_en": "[19 10 01][0B 01][1B 02 9E 18 F6 00]@Hey [1C 02 01], how's your asthma?[03][00]@Mine has gotten better, but car exhaust still sets it off.[13][02]",
+      "raw_hex": "19 10 01 0B 01 1B 02 9E 18 F6 00 70 78 95 A9 50 1C 02 01 5C 50 98 9F A7 57 A3 50 A9 9F A5 A2 50 91 A3 A4 98 9D 91 6F 03 00 70 7D 99 9E 95 50 98 91 A3 50 97 9F A4 A4 95 9E 50 92 95 A4 A4 95 A2 5C 50 92 A5 A4 50 93 91 A2 50 95 A8 98 91 A5 A3 A4 50 A3 A4 99 9C 9C 50 A3 95 A4 A3 50 99 A4 50 9F 96 96 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 11,
+          "original": "@Hey ",
+          "french": "@Dis "
+        },
+        {
+          "offset": 19,
+          "original": ", how's your asthma?",
+          "french": ", et ton asthme ?"
+        },
+        {
+          "offset": 41,
+          "original": "@Mine has gotten better, but car exhaust still sets it off.",
+          "french": "@Le mien va mieux, mais les gaz d'échappement me gênent."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36189E",
+      "offset": "36189E",
+      "snes": "F6189E",
+      "length": 16,
+      "source": "script_candidate",
+      "text_en": "@I'm starving.[13][02]",
+      "raw_hex": "70 79 57 9D 50 A3 A4 91 A2 A6 99 9E 97 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@I'm starving.",
+          "french": "@J'ai faim!"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3618AE",
+      "offset": "3618AE",
+      "snes": "F618AE",
+      "length": 66,
+      "source": "script_candidate",
+      "text_en": "@Has the little girl who strayed into the cemetery been rescued?[13][02]",
+      "raw_hex": "70 78 91 A3 50 A4 98 95 50 9C 99 A4 A4 9C 95 50 97 99 A2 9C 50 A7 98 9F 50 A3 A4 A2 91 A9 95 94 50 99 9E A4 9F 50 A4 98 95 50 93 95 9D 95 A4 95 A2 A9 50 92 95 95 9E 50 A2 95 A3 93 A5 95 94 6F 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Has the little girl who strayed into the cemetery been rescued?",
+          "french": "@La petite fille perdue au cimetière a-t-elle été sauvée ?"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361983",
+      "offset": "361983",
+      "snes": "F61983",
+      "length": 45,
+      "source": "script_candidate",
+      "text_en": "@The town mayor is looking for a brave man.[13][02]",
+      "raw_hex": "70 84 98 95 50 A4 9F A7 9E 50 9D 91 A9 9F A2 50 99 A3 50 9C 9F 9F 9B 99 9E 97 50 96 9F A2 50 91 50 92 A2 91 A6 95 50 9D 91 9E 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@The town mayor is looking for a brave man.",
+          "french": "@Le maire cherche un homme courageux."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3619B0",
+      "offset": "3619B0",
+      "snes": "F619B0",
+      "length": 50,
+      "source": "script_candidate",
+      "text_en": "@The receptionist at City Hall[01]  is so gorgeous.[13][02]",
+      "raw_hex": "70 84 98 95 50 A2 95 93 95 A0 A4 99 9F 9E 99 A3 A4 50 91 A4 50 73 99 A4 A9 50 78 91 9C 9C 01 50 50 99 A3 50 A3 9F 50 97 9F A2 97 95 9F A5 A3 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@The receptionist at City Hall",
+          "french": "@L'hôtesse de la mairie"
+        },
+        {
+          "offset": 31,
+          "original": "  is so gorgeous.",
+          "french": "  est superbe."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3619E9",
+      "offset": "3619E9",
+      "snes": "F619E9",
+      "length": 29,
+      "source": "script_candidate",
+      "text_en": "@Zombie![13][08 E2 19 F6 00][1B 03 00 1A F6 00][04 66 00][1F 1E 23 00 07][02]",
+      "raw_hex": "70 8A 9F 9D 92 99 95 51 13 08 E2 19 F6 00 1B 03 00 1A F6 00 04 66 00 1F 1E 23 00 07 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Zombie!",
+          "french": "@Zombie!"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361A06",
+      "offset": "361A06",
+      "snes": "F61A06",
+      "length": 62,
+      "source": "script_candidate",
+      "text_en": "@Ha-ha...[00]  You shall become a Zombieeee![13][08 E2 19 F6 00][1B 03 3E 1A F6 00][04 67 00][1F 1E 24 00 07][02]",
+      "raw_hex": "70 78 91 5D 98 91 5E 5E 5E 00 50 50 89 9F A5 50 A3 98 91 9C 9C 50 92 95 93 9F 9D 95 50 91 50 8A 9F 9D 92 99 95 95 95 95 51 13 08 E2 19 F6 00 1B 03 3E 1A F6 00 04 67 00 1F 1E 24 00 07 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Ha-ha...",
+          "french": "@Ha ha..."
+        },
+        {
+          "offset": 10,
+          "original": "  You shall become a Zombieeee!",
+          "french": "  Tu vas devenir un zombieee !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361AD4",
+      "offset": "361AD4",
+      "snes": "F61AD4",
+      "length": 39,
+      "source": "script_candidate",
+      "text_en": "@Don't be so swellheaded![03][00]@Ha ha ha![13][02]",
+      "raw_hex": "70 74 9F 9E 57 A4 50 92 95 50 A3 9F 50 A3 A7 95 9C 9C 98 95 91 94 95 94 51 03 00 70 78 91 50 98 91 50 98 91 51 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@Don't be so swellheaded!",
+          "french": "@Pas la grosse tête !"
+        },
+        {
+          "offset": 27,
+          "original": "@Ha ha ha!",
+          "french": "@Ha ha ha!"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361B55",
+      "offset": "361B55",
+      "snes": "F61B55",
+      "length": 15,
+      "source": "script_candidate",
+      "text_en": "[06 7C 03 64 1B F6 00]@Hmmm.[13][02]",
+      "raw_hex": "06 7C 03 64 1B F6 00 70 78 9D 9D 9D 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "original": "@Hmmm.",
+          "french": "@Hmm."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361B64",
+      "offset": "361B64",
+      "snes": "F61B64",
+      "length": 154,
+      "source": "script_candidate",
+      "text_en": "@I'm so happy![03][00]@Here, to show my gratitude, take this gift.[03][00]@This shiny badge will guard you.[10 0F] Keep it safe![03][00][1D 03 FF][1B 02 FE 1B F6 00][1F 02 74][10 3C][18 04][1F 02 66][10 5A][18 01 35][1D 03 FF][1D 0E 00 01][08 DA DC C7 00][13][05 7C 03][02]",
+      "raw_hex": "70 79 57 9D 50 A3 9F 50 98 91 A0 A0 A9 51 03 00 70 78 95 A2 95 5C 50 A4 9F 50 A3 98 9F A7 50 9D A9 50 97 A2 91 A4 99 A4 A5 94 95 5C 50 A4 91 9B 95 50 A4 98 99 A3 50 97 99 96 A4 5E 03 00 70 84 98 99 A3 50 A3 98 99 9E A9 50 92 91 94 97 95 50 A7 99 9C 9C 50 97 A5 91 A2 94 50 A9 9F A5 5E 10 0F 50 7B 95 95 A0 50 99 A4 50 A3 91 96 95 51 03 00 1D 03 FF 1B 02 FE 1B F6 00 1F 02 74 10 3C 18 04 1F 02 66 10 5A 18 01 35 1D 03 FF 1D 0E 00 01 08 DA DC C7 00 13 05 7C 03 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@I'm so happy!",
+          "french": "@Quelle joie !"
+        },
+        {
+          "offset": 16,
+          "original": "@Here, to show my gratitude, take this gift.",
+          "french": "@Voici un cadeau pour te remercier."
+        },
+        {
+          "offset": 62,
+          "original": "@This shiny badge will guard you.",
+          "french": "@Ce joli badge te protégera."
+        },
+        {
+          "offset": 97,
+          "original": " Keep it safe!",
+          "french": " Garde-le !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361BFE",
+      "offset": "361BFE",
+      "snes": "F61BFE",
+      "length": 34,
+      "source": "script_candidate",
+      "text_en": "[1F 02 05][10 14][01]@Oh... [10 0F]Maybe later then.[13][02]",
+      "raw_hex": "1F 02 05 10 14 01 70 7F 98 5E 5E 5E 50 10 0F 7D 91 A9 92 95 50 9C 91 A4 95 A2 50 A4 98 95 9E 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 6,
+          "original": "@Oh... ",
+          "french": "@Oh... "
+        },
+        {
+          "offset": 15,
+          "original": "Maybe later then.",
+          "french": "Une autre fois."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361C20",
+      "offset": "361C20",
+      "snes": "F61C20",
+      "length": 48,
+      "source": "script_candidate",
+      "text_en": "@I guess you already have a special someone...[13][02]",
+      "raw_hex": "70 79 50 97 A5 95 A3 A3 50 A9 9F A5 50 91 9C A2 95 91 94 A9 50 98 91 A6 95 50 91 50 A3 A0 95 93 99 91 9C 50 A3 9F 9D 95 9F 9E 95 5E 5E 5E 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@I guess you already have a special someone...",
+          "french": "@Tu as déjà quelqu'un dans ton coeur..."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "361C50",
+      "offset": "361C50",
+      "snes": "F61C50",
+      "length": 77,
+      "source": "script_candidate",
+      "text_en": "@My![10 0F] You are that snot-nosed [19 10 01][1B 04][1C 02 00] who sat next to me in kindergarten![13][02]",
+      "raw_hex": "70 7D A9 51 10 0F 50 89 9F A5 50 91 A2 95 50 A4 98 91 A4 50 A3 9E 9F A4 5D 9E 9F A3 95 94 50 19 10 01 1B 04 1C 02 00 50 A7 98 9F 50 A3 91 A4 50 9E 95 A8 A4 50 A4 9F 50 9D 95 50 99 9E 50 9B 99 9E 94 95 A2 97 91 A2 A4 95 9E 51 13 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 0,
+          "original": "@My!",
+          "french": "@Oh!"
+        },
+        {
+          "offset": 6,
+          "original": " You are that snot-nosed ",
+          "french": " Tu es le morveux "
+        },
+        {
+          "offset": 39,
+          "original": " who sat next to me in kindergarten!",
+          "french": " assis près de moi en maternelle !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3675EA",
+      "offset": "3675EA",
+      "snes": "F675EA",
+      "length": 48,
+      "source": "script_candidate",
+      "text_en": "[01]@The Franklin Badge bounced back the beam![1F 02 5D][03][02]",
+      "raw_hex": "01 70 84 98 95 50 76 A2 91 9E 9B 9C 99 9E 50 72 91 94 97 95 50 92 9F A5 9E 93 95 94 50 92 91 93 9B 50 A4 98 95 50 92 95 91 9D 51 1F 02 5D 03 02",
+      "literal_pointer_offsets": [
+        "2F7161"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 1,
+          "original": "@The Franklin Badge bounced back the beam!",
+          "french": "@Le badge Franklin renvoie le rayon !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36761A",
+      "offset": "36761A",
+      "snes": "F6761A",
+      "length": 66,
+      "source": "script_candidate",
+      "text_en": "[18 06][1F 00 00 05][00]              [1C 08 02][00][10 78][06 5D 04 57 76 F6 00][03][00]@[08 D7 E6 C7 00] gained [1C 0F] exp[08 AD 8F EF 00][05 5D 04][14][02]",
+      "raw_hex": "18 06 1F 00 00 05 00 50 50 50 50 50 50 50 50 50 50 50 50 50 50 1C 08 02 00 10 78 06 5D 04 57 76 F6 00 03 00 70 08 D7 E6 C7 00 50 97 91 99 9E 95 94 50 1C 0F 50 95 A8 A0 08 AD 8F EF 00 05 5D 04 14 02",
+      "literal_pointer_offsets": [
+        "2F79D8"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "original": "              ",
+          "french": "              "
+        },
+        {
+          "offset": 36,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 42,
+          "original": " gained ",
+          "french": " gagne "
+        },
+        {
+          "offset": 52,
+          "original": " exp",
+          "french": " EXP"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36765C",
+      "offset": "36765C",
+      "snes": "F6765C",
+      "length": 56,
+      "source": "script_candidate",
+      "text_en": "[18 06][1F 00 00 B8][00]              [1C 08 02][00][10 78][03][00]@[08 D7 E6 C7 00] gained [1C 0F] exp[08 AD 8F EF 00][14][02]",
+      "raw_hex": "18 06 1F 00 00 B8 00 50 50 50 50 50 50 50 50 50 50 50 50 50 50 1C 08 02 00 10 78 03 00 70 08 D7 E6 C7 00 50 97 91 99 9E 95 94 50 1C 0F 50 95 A8 A0 08 AD 8F EF 00 14 02",
+      "literal_pointer_offsets": [
+        "2F7A15"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 7,
+          "original": "              ",
+          "french": "              "
+        },
+        {
+          "offset": 29,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 35,
+          "original": " gained ",
+          "french": " gagne "
+        },
+        {
+          "offset": 45,
+          "original": " exp",
+          "french": " EXP"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "3678E0",
+      "offset": "3678E0",
+      "snes": "F678E0",
+      "length": 39,
+      "source": "script_candidate",
+      "text_en": "[01]@[1C 0E] could breathe normally again![1F 02 25][03][02]",
+      "raw_hex": "01 70 1C 0E 50 93 9F A5 9C 94 50 92 A2 95 91 A4 98 95 50 9E 9F A2 9D 91 9C 9C A9 50 91 97 91 99 9E 51 1F 02 25 03 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 1,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 4,
+          "original": " could breathe normally again!",
+          "french": " respire normalement !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "367907",
+      "offset": "367907",
+      "snes": "F67907",
+      "length": 35,
+      "source": "script_candidate",
+      "text_en": "[01]@[1C 0E] couldn't[00]  stop coughing![1F 02 53][03][02]",
+      "raw_hex": "01 70 1C 0E 50 93 9F A5 9C 94 9E 57 A4 00 50 50 A3 A4 9F A0 50 93 9F A5 97 98 99 9E 97 51 1F 02 53 03 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 1,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 4,
+          "original": " couldn't",
+          "french": " tousse"
+        },
+        {
+          "offset": 14,
+          "original": "  stop coughing!",
+          "french": "  sans arrêt !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "367A28",
+      "offset": "367A28",
+      "snes": "F67A28",
+      "length": 21,
+      "source": "script_candidate",
+      "text_en": "[01]@[1C 0E] was convinced![03][02]",
+      "raw_hex": "01 70 1C 0E 50 A7 91 A3 50 93 9F 9E A6 99 9E 93 95 94 51 03 02",
+      "literal_pointer_offsets": [],
+      "text_fr_segments": [
+        {
+          "offset": 1,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 4,
+          "original": " was convinced!",
+          "french": " cède !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "367AD2",
+      "offset": "367AD2",
+      "snes": "F67AD2",
+      "length": 28,
+      "source": "script_candidate",
+      "text_en": "[01]@[1C 0D] is[00]  challenging you![03][02]",
+      "raw_hex": "01 70 1C 0D 50 99 A3 00 50 50 93 98 91 9C 9C 95 9E 97 99 9E 97 50 A9 9F A5 51 03 02",
+      "literal_pointer_offsets": [
+        "159ADA"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 1,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 4,
+          "original": " is",
+          "french": " te"
+        },
+        {
+          "offset": 8,
+          "original": "  challenging you!",
+          "french": "  défie !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "367B9A",
+      "offset": "367B9A",
+      "snes": "F67B9A",
+      "length": 37,
+      "source": "script_candidate",
+      "text_en": "[01]@[1C 0D] has [00]  forfeited the battle![03][10 3C][02]",
+      "raw_hex": "01 70 1C 0D 50 98 91 A3 50 00 50 50 96 9F A2 96 95 99 A4 95 94 50 A4 98 95 50 92 91 A4 A4 9C 95 51 03 10 3C 02",
+      "literal_pointer_offsets": [
+        "369319"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 1,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 4,
+          "original": " has ",
+          "french": " a "
+        },
+        {
+          "offset": 10,
+          "original": "  forfeited the battle!",
+          "french": "  abandonné le combat !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "367D77",
+      "offset": "367D77",
+      "snes": "F67D77",
+      "length": 25,
+      "source": "script_candidate",
+      "text_en": "[05 3D 04][01]@[1C 0E] is exhausted.[1F 02 21][02]",
+      "raw_hex": "05 3D 04 01 70 1C 0E 50 99 A3 50 95 A8 98 91 A5 A3 A4 95 94 5E 1F 02 21 02",
+      "literal_pointer_offsets": [
+        "37F5FE"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 4,
+          "original": "@",
+          "french": "@"
+        },
+        {
+          "offset": 7,
+          "original": " is exhausted.",
+          "french": " est à bout."
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36A934",
+      "offset": "36A934",
+      "snes": "F6A934",
+      "length": 58,
+      "source": "script_candidate",
+      "text_en": "[1F E5 FF][1F 16 0A 00 03][1F 1A 0A 00 03][10 3C][1F 1B 0A 00][1F E8 FF][18 01 35]@Brother![13][18 04][1F E5 FF][1F F1 0A 00 E7 03][10 64][1F 67 02][1F E8 FF][04 87 04][02]",
+      "raw_hex": "1F E5 FF 1F 16 0A 00 03 1F 1A 0A 00 03 10 3C 1F 1B 0A 00 1F E8 FF 18 01 35 70 72 A2 9F A4 98 95 A2 51 13 18 04 1F E5 FF 1F F1 0A 00 E7 03 10 64 1F 67 02 1F E8 FF 04 87 04 02",
+      "literal_pointer_offsets": [
+        "36A8EC"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 25,
+          "original": "@Brother!",
+          "french": "@Frérot !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    },
+    {
+      "id": "36A96E",
+      "offset": "36A96E",
+      "snes": "F6A96E",
+      "length": 107,
+      "source": "script_candidate",
+      "text_en": "[06 1C 03 EC A9 F6 00][06 1B 03 DB A9 F6 00][06 F1 02 A3 AC F6 00][08 FC AB F6 00][03][18 04][1F E5 FF][04 F1 02][1F F1 08 00 28 00][10 1E][1F 1A 07 00 03][10 3C][1F 1B 07 00][10 0A][18 01 35][01]@Oh, the telephone![10 14]  [1C 02 01], please get it![13][04 07 00][02]",
+      "raw_hex": "06 1C 03 EC A9 F6 00 06 1B 03 DB A9 F6 00 06 F1 02 A3 AC F6 00 08 FC AB F6 00 03 18 04 1F E5 FF 04 F1 02 1F F1 08 00 28 00 10 1E 1F 1A 07 00 03 10 3C 1F 1B 07 00 10 0A 18 01 35 01 70 7F 98 5C 50 A4 98 95 50 A4 95 9C 95 A0 98 9F 9E 95 51 10 14 50 50 1C 02 01 5C 50 A0 9C 95 91 A3 95 50 97 95 A4 50 99 A4 51 13 04 07 00 02",
+      "literal_pointer_offsets": [
+        "202228"
+      ],
+      "text_fr_segments": [
+        {
+          "offset": 60,
+          "original": "@Oh, the telephone!",
+          "french": "@Le téléphone !"
+        },
+        {
+          "offset": 81,
+          "original": "  ",
+          "french": "  "
+        },
+        {
+          "offset": 86,
+          "original": ", please get it!",
+          "french": ", décroche !"
+        }
+      ],
+      "origin": "existing_draft_promoted_to_v46_preparation",
+      "integration_status": "not_integrated_not_validated"
+    }
+  ]
+}
