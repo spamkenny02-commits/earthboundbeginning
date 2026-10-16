@@ -1,0 +1,25 @@
+{
+  "version": "v52",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "text_runs_revised": 15,
+  "new_text_fragments": 16,
+  "prior_french_fragments_preserved": 1,
+  "contexts_revised": 6,
+  "literal_reference_operands_rewritten": 0,
+  "shared_dictionary_modified": false,
+  "natural_scene_access_verified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "19a82d58b9c2d15d43ac96ba4f57e315b1a732f7b1e27964d4a6a5d71693cbf8",
+      "target_rom_sha256": "103a193d9a3bcf086f6427dbee0201231df9fc858d777d6d34404cdad7d16cd7",
+      "records_added": 30,
+      "prior_records_preserved": 8317
+    },
+    "ascii": {
+      "sha256": "fee9067aa3e78638d8a4b578e97c3eefd78712fe7583f2c3844ab976273ec7fc",
+      "target_rom_sha256": "437a08d98f0844337cfb3b50476731d079694ecceb876a33cfd39e86d28fd35b",
+      "records_added": 30,
+      "prior_records_preserved": 8212
+    }
+  }
+}
