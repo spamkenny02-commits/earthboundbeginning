@@ -1,3 +1,5 @@
+> Reprise avec ROM : les 100 candidats ont été audités. 98 étaient déjà modifiés, les deux autres avaient un brouillon identique. Ce document décrit la préparation historique ; voir [le rapport V46 final](RAPPORT_V46.md) pour les intégrations et tests réellement effectués.
+
 # V46 — état de préparation
 
 État de référence relu sur `main` : **V45**, commit `4e628ac94b5f3004cbe87aa1646bef11f94c9467`.

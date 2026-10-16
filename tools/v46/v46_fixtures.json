@@ -1,0 +1,835 @@
+{
+  "version": "v46",
+  "base": "v45",
+  "reserve": [
+    "25F490",
+    "25F530"
+  ],
+  "helper": "32A780",
+  "audit_preparation": {
+    "selected": 100,
+    "already_modified": 98,
+    "identical_drafts": 2,
+    "new_integrations_from_preparation": 0,
+    "entries": [
+      {
+        "id": "339A92",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "339AAE",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "339ACB",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "339C02",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "339DF7",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "339EE7",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "339F10",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33A220",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33A2BA",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33A384",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33A7BE",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33A940",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33AA9A",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33ADEC",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33AE2C",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33AF88",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33AFD2",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33B088",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33B0D6",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33B198",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33B315",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33B5CD",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33B715",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33B76A",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33B779",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33B786",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33BE79",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33C443",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33C6E8",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33D284",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "33ED82",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "347960",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "356F27",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "357AA0",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35A9C3",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35ACB6",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35AE8C",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35AF54",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35C53A",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35C583",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35C597",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35C5D9",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35C768",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35C7C8",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35C8E9",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "35C960",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36049C",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3604AF",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "360584",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "360608",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "360672",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36075D",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36078F",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36082B",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "360871",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36090E",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "360946",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "360AD5",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "360F7D",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "360FB7",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361070",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36115F",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361217",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3612C8",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36137B",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3613E0",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36148E",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361560",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3615A6",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3615CB",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3615E0",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3616AF",
+        "status": "identical_french_draft"
+      },
+      {
+        "id": "3616B9",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3616F8",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361735",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3617AB",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361833",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36189E",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3618AE",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361983",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3619B0",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3619E9",
+        "status": "identical_french_draft"
+      },
+      {
+        "id": "361A06",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361AD4",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361B55",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361B64",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361BFE",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361C20",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "361C50",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3675EA",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36761A",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36765C",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "3678E0",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "367907",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "367A28",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "367AD2",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "367B9A",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "367D77",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36A934",
+        "status": "already_modified_by_prior_versions"
+      },
+      {
+        "id": "36A96E",
+        "status": "already_modified_by_prior_versions"
+      }
+    ]
+  },
+  "profiles": {
+    "accents": {
+      "contexts": [
+        {
+          "id": "butterfly",
+          "start": "252544",
+          "pointer": "25256E",
+          "replacement": null,
+          "end": "25257D",
+          "baseline_hex": "1f15b0012200011f6118013501707c9550a091a0999c9c9f9e509d919799a1a5955094b0a4959e945008d7e6c7005e1318041ff2b001210002",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "25256D",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "id": "defeat",
+          "start": "32A5E4",
+          "pointer": "32A5F4",
+          "replacement": " : défaite...",
+          "text_offset": "32A5F8",
+          "text_capacity": 18,
+          "end": "32A60C",
+          "baseline_hex": "0106b0030ccdf500100a1f0000077008d7e6c70050a095a294509c9550939f9d9291a45e5e5e1402",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "32A5F3",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "50a095a294509c9550939f9d9291a45e5e5e"
+        },
+        {
+          "id": "put_back",
+          "start": "33C6FC",
+          "pointer": "33C716",
+          "replacement": " : retour de ",
+          "text_offset": "33C71A",
+          "text_capacity": 14,
+          "end": "33C72E",
+          "baseline_hex": "7084a5509e5791a350a091a350949550a09c9193955e03007008d7e6c70050a2959d95a450505050505050501c05045e1302",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33C715",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "50a2959d95a45050505050505050"
+        },
+        {
+          "id": "mary",
+          "start": "3488E3",
+          "pointer": "3488FA",
+          "replacement": null,
+          "end": "3489B3",
+          "baseline_hex": "1801357071a0a2b1a35091a69f99a250a6a55050505008d7e6c7005c0300707d91a2a9509499a3a091a2a5a45094919ea350a59e9550929fa5a2a291a3a1a5955e5050505050500300707d91979993919ea450a35795969691bc915091a6959350959c9c955e505050505050500300707d91979993919ea45c50a59e509d99a29197955e5e5e505003001f070370859e509d99a2919795509eb0509495509c9150939f9ea39399959e9395509495507d91a299915e1318041a0c13aaf800071f0000041f21481f681926001d01ff5302",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3488F9",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "id": "experience_first",
+          "start": "36761A",
+          "pointer": "367640",
+          "replacement": " : + ",
+          "text_offset": "367644",
+          "text_capacity": 8,
+          "end": "36765C",
+          "baseline_hex": "18061f0000050050505050505050505050505050501c0802001078065d045776f60003007008d7e6c700509791979e9550501c0f5075888008ad8fef00055d041402",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36763F",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "509791979e955050"
+        },
+        {
+          "id": "experience_again",
+          "start": "36765C",
+          "pointer": "36767B",
+          "replacement": " : + ",
+          "text_offset": "36767F",
+          "text_capacity": 7,
+          "end": "367693",
+          "baseline_hex": "18061f0000b80050505050505050505050505050501c080200107803007008d7e6c700509791979e95501c0f5075888008ad8fef001402",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36767A",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "509791979e9550"
+        },
+        {
+          "id": "door",
+          "start": "36B715",
+          "pointer": "36B72E",
+          "replacement": " : porte ouverte.",
+          "text_offset": "36B732",
+          "text_capacity": 17,
+          "end": "36B750",
+          "baseline_hex": "067f039cf7f200191900001b041b000baa1b0252b7f6007008d7e6c700509fa5a6a299a4509c9150a09fa2a4955e131f0277046c001f1e10000602",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36B72D",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "509fa5a6a299a4509c9150a09fa2a4955e"
+        }
+      ],
+      "foods": [
+        {
+          "id": "35ECD5",
+          "end": "35ECFA",
+          "original_hex": "017008d7e6c700191f1b045091a495005050a49895501c050008faecf5001f024410010302",
+          "spans": [
+            [
+              1,
+              2
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              16,
+              22
+            ]
+          ],
+          "english": [
+            "@",
+            " ate",
+            "  the "
+          ],
+          "fr": [
+            "@Objet consommé par ",
+            " :",
+            "  "
+          ],
+          "references": [
+            {
+              "offset": "097C7C",
+              "old_target": "35ECD5",
+              "proof": {
+                "kind": "parsed_command_operand",
+                "command": "097C7B",
+                "command_hex": "0ad5ecf500"
+              }
+            }
+          ]
+        },
+        {
+          "id": "097BAB",
+          "end": "097BC4",
+          "original_hex": "01701c0d191f1b045016660015951c05005e1f024403100102",
+          "spans": [
+            [
+              1,
+              2
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              17,
+              18
+            ]
+          ],
+          "english": [
+            "@",
+            " ate",
+            "  the ",
+            "."
+          ],
+          "fr": [
+            "@Objet consommé par ",
+            " :",
+            "  ",
+            "."
+          ],
+          "references": [
+            {
+              "offset": "097B87",
+              "old_target": "097BAB",
+              "proof": {
+                "kind": "parsed_command_operand",
+                "command": "097B85",
+                "command_hex": "1b03ab7bc900"
+              }
+            },
+            {
+              "offset": "3890F9",
+              "old_target": "097BAB",
+              "proof": {
+                "kind": "parsed_command_operand",
+                "command": "3890F8",
+                "command_hex": "0aab7bc900"
+              }
+            }
+          ]
+        }
+      ],
+      "food_group_callback_preserved_hex": "1910011b040e010f0d011d19001b032eedf5001910001d0d0001021b032eedf5001910001d0d0001031b032eedf5000a01edf5000d011b04090549edf50049edf50030f0f2003cf0f2003cf0f200025e0250a49f9795a49895a25e0250a49f9795a49895a25e02"
+    },
+    "ascii": {
+      "contexts": [
+        {
+          "id": "butterfly",
+          "start": "252544",
+          "pointer": "25256E",
+          "replacement": null,
+          "end": "25257D",
+          "baseline_hex": "1f15b0012200011f6118013501707c9550a091a0999c9c9f9e509d919799a1a595509495a4959e945008d7e6c7005e1318041ff2b001210002",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "25256D",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "id": "defeat",
+          "start": "32A5E4",
+          "pointer": "32A5F4",
+          "replacement": " : défaite...",
+          "text_offset": "32A5F8",
+          "text_capacity": 18,
+          "end": "32A60C",
+          "baseline_hex": "0106b0030ccdf500100a1f0000077008d7e6c70050a095a294509c9550939f9d9291a45e5e5e1402",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "32A5F3",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "50a095a294509c9550939f9d9291a45e5e5e"
+        },
+        {
+          "id": "put_back",
+          "start": "33C6FC",
+          "pointer": "33C716",
+          "replacement": " : retour de ",
+          "text_offset": "33C71A",
+          "text_capacity": 14,
+          "end": "33C72E",
+          "baseline_hex": "7084a5509e5791a350a091a350949550a09c9193955e03007008d7e6c70050a2959d95a450505050505050501c05045e1302",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33C715",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "50a2959d95a45050505050505050"
+        },
+        {
+          "id": "mary",
+          "start": "3488E3",
+          "pointer": "3488FA",
+          "replacement": null,
+          "end": "3489B3",
+          "baseline_hex": "1801357071a0a295a35091a69f99a250a6a55050505008d7e6c7005c0300707d91a2a9509499a3a091a2a5a45094919ea350a59e9550929fa5a2a291a3a1a5955e5050505050500300707d91979993919ea450a3579596969193915091a6959350959c9c955e505050505050500300707d91979993919ea45c50a59e509d99a29197955e5e5e505003001f070370859e509d99a2919795509e95509495509c9150939f9ea39399959e9395509495507d91a299915e1318041a0c13aaf800071f0000041f21481f681926001d01ff5302",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3488F9",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "id": "experience_first",
+          "start": "36761A",
+          "pointer": "367640",
+          "replacement": " : + ",
+          "text_offset": "367644",
+          "text_capacity": 8,
+          "end": "36765C",
+          "baseline_hex": "18061f0000050050505050505050505050505050501c0802001078065d045776f60003007008d7e6c700509791979e9550501c0f5075888008ad8fef00055d041402",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36763F",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "509791979e955050"
+        },
+        {
+          "id": "experience_again",
+          "start": "36765C",
+          "pointer": "36767B",
+          "replacement": " : + ",
+          "text_offset": "36767F",
+          "text_capacity": 7,
+          "end": "367693",
+          "baseline_hex": "18061f0000b80050505050505050505050505050501c080200107803007008d7e6c700509791979e95501c0f5075888008ad8fef001402",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36767A",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "509791979e9550"
+        },
+        {
+          "id": "door",
+          "start": "36B715",
+          "pointer": "36B72E",
+          "replacement": " : porte ouverte.",
+          "text_offset": "36B732",
+          "text_capacity": 17,
+          "end": "36B750",
+          "baseline_hex": "067f039cf7f200191900001b041b000baa1b0252b7f6007008d7e6c700509fa5a6a299a4509c9150a09fa2a4955e131f0277046c001f1e10000602",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36B72D",
+            "command_hex": "08d7e6c700"
+          },
+          "old_text_hex": "509fa5a6a299a4509c9150a09fa2a4955e"
+        }
+      ],
+      "foods": [
+        {
+          "id": "35ECD5",
+          "end": "35ECFA",
+          "original_hex": "017008d7e6c700191f1b045091a495005050a49895501c050008faecf5001f024410010302",
+          "spans": [
+            [
+              1,
+              2
+            ],
+            [
+              11,
+              15
+            ],
+            [
+              16,
+              22
+            ]
+          ],
+          "english": [
+            "@",
+            " ate",
+            "  the "
+          ],
+          "fr": [
+            "@Objet consommé par ",
+            " :",
+            "  "
+          ],
+          "references": [
+            {
+              "offset": "097C7C",
+              "old_target": "35ECD5",
+              "proof": {
+                "kind": "parsed_command_operand",
+                "command": "097C7B",
+                "command_hex": "0ad5ecf500"
+              }
+            }
+          ]
+        },
+        {
+          "id": "097BAB",
+          "end": "097BC4",
+          "original_hex": "01701c0d191f1b045016660015951c05005e1f024403100102",
+          "spans": [
+            [
+              1,
+              2
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              17,
+              18
+            ]
+          ],
+          "english": [
+            "@",
+            " ate",
+            "  the ",
+            "."
+          ],
+          "fr": [
+            "@Objet consommé par ",
+            " :",
+            "  ",
+            "."
+          ],
+          "references": [
+            {
+              "offset": "097B87",
+              "old_target": "097BAB",
+              "proof": {
+                "kind": "parsed_command_operand",
+                "command": "097B85",
+                "command_hex": "1b03ab7bc900"
+              }
+            },
+            {
+              "offset": "3890F9",
+              "old_target": "097BAB",
+              "proof": {
+                "kind": "parsed_command_operand",
+                "command": "3890F8",
+                "command_hex": "0aab7bc900"
+              }
+            }
+          ]
+        }
+      ],
+      "food_group_callback_preserved_hex": "1910011b040e010f0d011d19001b032eedf5001910001d0d0001021b032eedf5001910001d0d0001031b032eedf5000a01edf5000d011b04090549edf50049edf50030f0f2003cf0f2003cf0f200025e0250a49f9795a49895a25e0250a49f9795a49895a25e02"
+    }
+  }
+}

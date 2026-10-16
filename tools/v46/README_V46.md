@@ -1,26 +1,16 @@
-# V46 — préparation de lot texte
+# V46 — audit de préparation et corrections intégrées
 
-Base vérifiée : V45 (`4e628ac94b5f3004cbe87aa1646bef11f94c9467`) sur `main`.
+La préparation de 100 entrées est conservée dans `v46_selection.json` à titre historique. **Elle ne sert pas d'entrée de traduction au constructeur final** : 98 sources ont déjà été modifiées et les deux autres brouillons sont identiques. Voir `audit_preparation_v46.json`.
 
-## État
+Le lot final traduit deux messages de consommation et corrige sept contextes français pour les noms de groupes. Il réutilise la routine française V45, conserve les commandes et les suffixes français déjà raccordés, puis ajoute 17 enregistrements aux IPS V45. Les menus restent exclus.
 
-Le catalogue contient 345 entrées à l'état `draft`. Après exclusion des menus, des entrées V45 et des traductions dont un segment dépasse déjà sa longueur source, 229 candidats restent disponibles. Un premier lot cohérent de **100 scripts** est préparé pour V46.
+```sh
+python tools/v46/build_v46.py --rom '/chemin/original.sfc' --out patches
+ROM_PATH='/chemin/original.sfc' python tools/v46/run_regressions.py
+python -m unittest discover -s tools/v46 -p test_v46_offline.py -v
+python -m unittest discover -s tools/v46 -p test_v46_prep.py -v
+```
 
-Ces 100 traductions existaient déjà dans le catalogue sous forme de brouillons. Elles sont donc comptées ici comme **scripts préparés/promus**, et non comme 100 traductions nouvellement rédigées pendant cette exécution. Aucun bloc n'est déclaré intégré à la ROM.
+`contexts_v46.json` déclare les sept contextes et leurs cinq formulations révisées. `v46_fixtures.json` conserve les sources, les preuves et l'audit. `validation_v46.json` contient les empreintes et les écritures. Le constructeur vérifie l'empreinte de la ROM, les IPS V45, les références et la réserve. Les IPS conservent tous les anciens enregistrements ; seules les plages explicitement déclarées peuvent remplacer leurs octets.
 
-## Sécurité
-
-- Les commandes et octets de contrôle restent séparés des segments français.
-- Les pointeurs littéraux sont conservés dans la sélection mais ne sont pas réécrits ici.
-- Le lot est limité aux segments dont la traduction tient dans la longueur du segment source ; cela ne prouve pas l'absence de collisions avec les réserves de la ROM.
-- Les menus et les choix de menu restent volontairement hors de cette passe.
-
-## Blocage d'intégration
-
-La ROM USA 1.2 et le cœur Snes9x indiqués dans la demande ne sont pas présents dans l'environnement d'exécution actuel. Ils ne sont pas non plus distribués dans le dépôt. Il est donc impossible de reconstruire honnêtement les IPS V46, de contrôler les réserves/collisions HiROM sur la ROM réelle ou d'effectuer un test émulateur ici.
-
-Aucun IPS V46, aucune ROM et aucune capture de jeu ne sont donc annoncés.
-
-## Suite
-
-Dès que la ROM privée est de nouveau accessible à l'environnement de travail, le constructeur V46 devra reparser chaque script contre la ROM SHA-256 épinglée, prouver chaque opérande de pointeur avant réécriture, allouer les relocalisations dans les réserves libres, reconstruire accents/ASCII, appliquer les IPS indépendamment, exécuter les régressions et les scènes natives, puis seulement publier V46 sur `main`.
+229 tests locaux, dont 22 V46. Les contrôles hors ROM sont répartis entre les workflows V46 et V46-prep. Le [rapport Snes9x](../../tests/emulation_v46/RAPPORT_EMULATION_V46.md) distingue le parcours normal et l'inventaire de fixture. Les scènes tardives et les groupes multiples ne sont pas revendiqués comme testés en situation naturelle.

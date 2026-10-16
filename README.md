@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V45 (traduction partielle)
+## Version actuelle : V46 (traduction partielle)
+
+V46 traduit **deux messages de consommation** et corrige **sept contextes français** encore liés aux noms de groupes anglais. L'audit du lot préparatoire a retrouvé 98 sources déjà modifiées et deux brouillons identiques : ces 100 entrées ne sont pas comptées comme nouvelles intégrations.
+
+- [Patch V46 avec accents](patches/EarthBound_Beginnings_FR_v46_accents.ips)
+- [Patch V46 ASCII](patches/EarthBound_Beginnings_FR_v46_ascii.ips)
+- [Rapport V46](RAPPORT_V46.md)
+- [Sources et tests](tools/v46/README_V46.md)
+- [Essais Snes9x](tests/emulation_v46/RAPPORT_EMULATION_V46.md)
+
+Appliquer **un seul IPS V46 directement à la ROM originale USA 1.2**. 229 tests locaux réussis. Le menu Eat affiche le nouveau texte avec un pain de fixture ; l'EXP est relue dans le parcours normal. Les scènes tardives et les groupes multiples restent à vérifier. Les menus restent pour la suite. Aucune ROM distribuée.
+
+## Version précédente : V45 (traduction partielle)
 
 V45 ajoute **20 fragments français dans six messages et sept sous-routines privées** : inventaire plein, abandon d'objet, fuite et variations d'attaque/défense. Les raccords V44 déjà présents dans le dialogue de sélection sont conservés dans les nouvelles copies.
 

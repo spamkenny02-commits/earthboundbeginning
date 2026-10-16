@@ -1,0 +1,267 @@
+{
+  "base": "V45",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "newly_translated_food_messages": 2,
+  "existing_french_contexts_corrected": 7,
+  "existing_phrasings_revised": 5,
+  "preparation_entries_newly_integrated": 0,
+  "shared_dictionary_modified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "e36cb4dfa942ff25a56df4522c6367694233b07c99819ee26edcf69d883c1817",
+      "target_rom_sha256": "7a8d1993d8d7875ded1ae02a16859bde3861fa5f43cb883c35dbb78c96510072",
+      "records_added": 17,
+      "foods": [
+        {
+          "id": "35ECD5",
+          "offset": "25F490",
+          "new_length": 50,
+          "internal_refs": [
+            {
+              "offset": "25F4A6",
+              "old_target": "07E6D7",
+              "new_target": "32A780"
+            }
+          ]
+        },
+        {
+          "id": "097BAB",
+          "offset": "25F4C4",
+          "new_length": 43,
+          "internal_refs": []
+        }
+      ],
+      "references_rewritten": [
+        {
+          "offset": "25256E",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "25256D",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "32A5F4",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "32A5F3",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "33C716",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33C715",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "3488FA",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3488F9",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "367640",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36763F",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "36767B",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36767A",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "36B72E",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36B72D",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "097C7C",
+          "old_target": "35ECD5",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "097C7B",
+            "command_hex": "0ad5ecf500"
+          },
+          "new_target": "25F490"
+        },
+        {
+          "offset": "097B87",
+          "old_target": "097BAB",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "097B85",
+            "command_hex": "1b03ab7bc900"
+          },
+          "new_target": "25F4C4"
+        },
+        {
+          "offset": "3890F9",
+          "old_target": "097BAB",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3890F8",
+            "command_hex": "0aab7bc900"
+          },
+          "new_target": "25F4C4"
+        }
+      ],
+      "outside_declared_ranges_unchanged": true
+    },
+    "ascii": {
+      "sha256": "c6ab726d75f3feedf2a46e17cf2f199a79cb73c91b3edad24b41e8e0d17383ee",
+      "target_rom_sha256": "d451c0d20133675aafa1f2e3df3c834456a0626d38b55e415b18dd9cbf929c02",
+      "records_added": 17,
+      "foods": [
+        {
+          "id": "35ECD5",
+          "offset": "25F490",
+          "new_length": 50,
+          "internal_refs": [
+            {
+              "offset": "25F4A6",
+              "old_target": "07E6D7",
+              "new_target": "32A780"
+            }
+          ]
+        },
+        {
+          "id": "097BAB",
+          "offset": "25F4C4",
+          "new_length": 43,
+          "internal_refs": []
+        }
+      ],
+      "references_rewritten": [
+        {
+          "offset": "25256E",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "25256D",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "32A5F4",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "32A5F3",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "33C716",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33C715",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "3488FA",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3488F9",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "367640",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36763F",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "36767B",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36767A",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "36B72E",
+          "old_target": "07E6D7",
+          "new_target": "32A780",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36B72D",
+            "command_hex": "08d7e6c700"
+          }
+        },
+        {
+          "offset": "097C7C",
+          "old_target": "35ECD5",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "097C7B",
+            "command_hex": "0ad5ecf500"
+          },
+          "new_target": "25F490"
+        },
+        {
+          "offset": "097B87",
+          "old_target": "097BAB",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "097B85",
+            "command_hex": "1b03ab7bc900"
+          },
+          "new_target": "25F4C4"
+        },
+        {
+          "offset": "3890F9",
+          "old_target": "097BAB",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3890F8",
+            "command_hex": "0aab7bc900"
+          },
+          "new_target": "25F4C4"
+        }
+      ],
+      "outside_declared_ranges_unchanged": true
+    }
+  }
+}

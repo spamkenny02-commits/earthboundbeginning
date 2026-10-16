@@ -9,10 +9,11 @@ class V46Prep(unittest.TestCase):
         self.assertEqual(self.d["count"],100)
         ids=[e["id"] for e in self.d["entries"]]
         self.assertEqual(len(ids),len(set(ids)))
-    def test_french_segments_nonempty_and_fit_source(self):
+    def test_text_segments_and_neutral_padding_fit_source(self):
         for e in self.d["entries"]:
             for s in e["text_fr_segments"]:
-                self.assertTrue(s["french"].strip(),e["id"])
+                if s["original"].strip(): self.assertTrue(s["french"].strip(),e["id"])
+                else: self.assertEqual(s["french"],s["original"],e["id"])
                 self.assertLessEqual(len(s["french"].replace("Œ","Oe").replace("œ","oe")),len(s["original"]),e["id"])
     def test_metadata_present(self):
         for e in self.d["entries"]:
