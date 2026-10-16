@@ -1,0 +1,1157 @@
+{
+  "version": "v47",
+  "base": "v46",
+  "dictionary": {},
+  "scripts": [
+    {
+      "id": "33F398",
+      "end": "33F3B6",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " quel dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "baseline_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "33F272",
+          "target": "33F398",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F271",
+            "command_hex": "0a98f3f300"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "34B686",
+      "end": "34B6B5",
+      "english": [
+        "@I don't have any of your items stored."
+      ],
+      "fr": [
+        "@Je n'ai aucun objet à toi en dépôt."
+      ],
+      "spans": [
+        [
+          1,
+          40
+        ]
+      ],
+      "original_hex": "01707950949f9e57a4509891a69550919ea9509f9650a99fa5a25099a4959da350a3a49fa295945e03000a35b6f400",
+      "baseline_hex": "01707950949f9e57a4509891a69550919ea9509f9650a99fa5a25099a4959da350a3a49fa295945e03000a35b6f400",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "34B715",
+          "target": "34B686",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B713",
+            "command_hex": "1b0286b6f400"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "34B749",
+      "end": "34B7EC",
+      "english": [
+        "@",
+        "?",
+        "  Take good care of it.",
+        "@Is there anything else you wish returned?",
+        "Yes",
+        "No"
+      ],
+      "fr": [
+        "@",
+        "?",
+        "  Prends-en soin.",
+        "@Veux-tu récupérer autre chose?",
+        "Yes",
+        "No"
+      ],
+      "spans": [
+        [
+          53,
+          54
+        ],
+        [
+          62,
+          63
+        ],
+        [
+          64,
+          87
+        ],
+        [
+          89,
+          131
+        ],
+        [
+          134,
+          137
+        ],
+        [
+          140,
+          142
+        ]
+      ],
+      "original_hex": "1c0418021a07011b02ecb7f4001b041b001802084ae5c5001b02f9b7f4001b0518030d18001803351b061f02741d13000019190000700887b5f8001c05006f00505084919b9550979f9f94509391a295509f965099a45e03007079a350a49895a29550919ea9a498999e9750959ca39550a99fa550a799a39850a295a4a5a29e95946f0019028995a30219027e9f021c0702111209020fb7f40035b6f4000a35b6f400",
+      "baseline_hex": "1c0418021a07011b02ecb7f4001b041b001802084ae5c5001b02f9b7f4001b0518030d18001803351b061f02741d13000019190000700887b5f8001c05006f00505084919b9550979f9f94509391a295509f965099a45e03007079a350a49895a29550919ea9a498999e9750959ca39550a99fa550a799a39850a295a4a5a29e95946f0019028995a30219027e9f021c0702111209020fb7f40035b6f4000a35b6f400",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "34B745",
+          "target": "34B749",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B744",
+            "command_hex": "0a49b7f400"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "350059",
+      "end": "350072",
+      "english": [
+        "@You're a shy one, huh!"
+      ],
+      "fr": [
+        "@Tu es timide, hein!"
+      ],
+      "spans": [
+        [
+          0,
+          23
+        ]
+      ],
+      "original_hex": "70899fa557a295509150a398a9509f9e955c5098a598511302",
+      "baseline_hex": "70899fa557a295509150a398a9509f9e955c5098a598511302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "350055",
+          "target": "350059",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35004F",
+            "command_hex": "0902a500f5005900f500"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [
+        {
+          "offset": "3EE553",
+          "target": "35005A",
+          "raw_hex": "5a00f500"
+        },
+        {
+          "offset": "15DFA1",
+          "target": "35005C",
+          "raw_hex": "5c00f500"
+        },
+        {
+          "offset": "15D5B3",
+          "target": "35005D",
+          "raw_hex": "5d00f500"
+        },
+        {
+          "offset": "15CB6F",
+          "target": "350065",
+          "raw_hex": "6500f500"
+        },
+        {
+          "offset": "3C6980",
+          "target": "350069",
+          "raw_hex": "6900f500"
+        },
+        {
+          "offset": "15D845",
+          "target": "35006E",
+          "raw_hex": "6e00f500"
+        },
+        {
+          "offset": "15DB93",
+          "target": "35006F",
+          "raw_hex": "6f00f500"
+        },
+        {
+          "offset": "15D7EB",
+          "target": "350070",
+          "raw_hex": "7000f500"
+        }
+      ],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "355825",
+      "end": "355843",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " quel dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "baseline_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "355690",
+          "target": "355825",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35568F",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "3556FF",
+          "target": "355825",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3556FE",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "35576E",
+          "target": "355825",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35576D",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "3557DD",
+          "target": "355825",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3557DC",
+            "command_hex": "0a2558f500"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "35C43A",
+      "end": "35C456",
+      "english": [
+        "@That's it for today."
+      ],
+      "fr": [
+        "@Ce sera tout pour aujourd'hui."
+      ],
+      "spans": [
+        [
+          0,
+          21
+        ]
+      ],
+      "original_hex": "70849891a457a35099a450969fa250a49f9491a95e03000ab2c4f500",
+      "baseline_hex": "70849891a457a35099a450969fa250a49f9491a95e03000ab2c4f500",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "35B00A",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B009",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B1D6",
+          "target": "35C43A",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B1D5",
+            "command_hex": "0a3ac4f500"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "3603C7",
+      "end": "36049C",
+      "english": [
+        "@Yes, I knew you would agree to go!",
+        "  Great, great, great!",
+        "@You really like playing games like that, don't you, ",
+        ".",
+        "@Now, make sure to get the key to the zoo from my assistant, Abbott."
+      ],
+      "fr": [
+        "@Je savais que tu accepterais!",
+        "  Super, super, super!",
+        "@Tu aimes vraiment jouer, pas vrai, ",
+        ".",
+        "@Prends la clé du zoo chez mon assistant, Abbott."
+      ],
+      "spans": [
+        [
+          0,
+          35
+        ],
+        [
+          37,
+          59
+        ],
+        [
+          61,
+          114
+        ],
+        [
+          122,
+          123
+        ],
+        [
+          125,
+          193
+        ]
+      ],
+      "original_hex": "708995a35c5079509b9e95a750a99fa550a79fa59c94509197a2959550a49f50979f51101e505077a29591a45c5097a29591a45c5097a29591a451030070899fa550a295919c9ca9509c999b9550a09c91a9999e975097919d95a3509c999b9550a49891a45c50949f9e57a450a99fa55c501910011b041c02005e0300707e9fa75c509d919b9550a3a5a29550a49f509795a450a49895509b95a950a49f50a4989550aa9f9f5096a29f9d509da95091a3a399a3a4919ea45c507192929fa4a45e131804042403085806f6000403001f1f7d010602",
+      "baseline_hex": "708995a35c5079509b9e95a750a99fa550a79fa59c94509197a2959550a49f50979f51101e505077a29591a45c5097a29591a45c5097a29591a451030070899fa550a295919c9ca9509c999b9550a09c91a9999e975097919d95a3509c999b9550a49891a45c50949f9e57a450a99fa55c501910011b041c02005e0300707e9fa75c509d919b9550a3a5a29550a49f509795a450a49895509b95a950a49f50a4989550aa9f9f5096a29f9d509da95091a3a399a3a4919ea45c507192929fa4a45e131804042403085806f6000403001f1f7d010602",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "3603BF",
+          "target": "3603C7",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3603BD",
+            "command_hex": "0902c703f600c703f600"
+          }
+        },
+        {
+          "offset": "3603C3",
+          "target": "3603C7",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3603BD",
+            "command_hex": "0902c703f600c703f600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [
+        {
+          "offset": "05D358",
+          "target": "360402",
+          "raw_hex": "0204f600"
+        },
+        {
+          "offset": "365693",
+          "target": "360402",
+          "raw_hex": "0204f600"
+        },
+        {
+          "offset": "39F281",
+          "target": "360402",
+          "raw_hex": "0204f600"
+        },
+        {
+          "offset": "3F3C85",
+          "target": "360450",
+          "raw_hex": "5004f600"
+        },
+        {
+          "offset": "3B38B6",
+          "target": "360460",
+          "raw_hex": "6004f600"
+        },
+        {
+          "offset": "3F3A6A",
+          "target": "360483",
+          "raw_hex": "8304f600"
+        }
+      ],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "363FDE",
+      "end": "363FFC",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " quel dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "baseline_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "363E49",
+          "target": "363FDE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363E48",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363EB8",
+          "target": "363FDE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363EB7",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363F27",
+          "target": "363FDE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363F26",
+            "command_hex": "0ade3ff600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "366E26",
+      "end": "366E39",
+      "english": [
+        "@",
+        " is wheezing!"
+      ],
+      "fr": [
+        "@",
+        " respire en sifflant!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          17
+        ]
+      ],
+      "original_hex": "01701c0d5099a350a7989595aa999e97510302",
+      "baseline_hex": "01701c0d5099a350a7989595aa999e97510302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "366DF6",
+          "target": "366E26",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "366E39",
+      "end": "366E5B",
+      "english": [
+        "@",
+        " is",
+        "  having a coughing fit!"
+      ],
+      "fr": [
+        "@",
+        " subit",
+        "  une quinte de toux!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          8,
+          32
+        ]
+      ],
+      "original_hex": "01701c0d5099a30050509891a6999e97509150939fa59798999e97509699a4510302",
+      "baseline_hex": "01701c0d5099a30050509891a6999e97509150939fa59798999e97509699a4510302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "366DFA",
+          "target": "366E39",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "366E5B",
+      "end": "366E80",
+      "english": [
+        "@",
+        " is",
+        "  trying to catch a breath!"
+      ],
+      "fr": [
+        "@",
+        " essaie",
+        "  de reprendre son souffle!"
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          8,
+          35
+        ]
+      ],
+      "original_hex": "01701c0d5099a3005050a4a2a9999e9750a49f509391a4939850915092a29591a498510302",
+      "baseline_hex": "01701c0d5099a3005050a4a2a9999e9750a49f509391a4939850915092a29591a498510302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "366DFE",
+          "target": "366E5B",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "3678BE",
+      "end": "3678D6",
+      "english": [
+        "@",
+        " used",
+        "  the ",
+        "."
+      ],
+      "fr": [
+        "@",
+        " utilise",
+        "  ",
+        "."
+      ],
+      "spans": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          18,
+          19
+        ]
+      ],
+      "original_hex": "701c0d50a5a39594005050a49895501c05075e0ad678f600",
+      "baseline_hex": "701c0d50a5a39594005050a49895501c05075e0ad678f600",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "36788C",
+          "target": "3678BE",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36788A",
+            "command_hex": "1b03be78f600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "367DC8",
+      "end": "367DDC",
+      "english": [
+        "@and ",
+        " ate it."
+      ],
+      "fr": [
+        "@et ",
+        " le mange."
+      ],
+      "spans": [
+        [
+          0,
+          5
+        ],
+        [
+          7,
+          15
+        ]
+      ],
+      "original_hex": "70919e94501c0e5091a4955099a45e0a327ef600",
+      "baseline_hex": "70919e94501c0e5091a4955099a45e0a327ef600",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "367E2E",
+          "target": "367DC8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367E2D",
+            "command_hex": "0ac87df600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "367DED",
+      "end": "367E32",
+      "english": [
+        "@",
+        " took out a ",
+        " from the bag,",
+        "  applied the ",
+        ","
+      ],
+      "fr": [
+        "@",
+        " sort du sac: ",
+        "",
+        "  et applique: ",
+        ","
+      ],
+      "spans": [
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          20,
+          34
+        ],
+        [
+          36,
+          50
+        ],
+        [
+          53,
+          54
+        ]
+      ],
+      "original_hex": "1b04701c0d50a49f9f9b509fa5a45091501c05815096a29f9d50a49895509291975c0300505091a0a09c99959450a49895501c05005c03001d201b03dc7df6000ac87df600",
+      "baseline_hex": "1b04701c0d50a49f9f9b509fa5a45091501c05815096a29f9d50a49895509291975c0300505091a0a09c99959450a49895501c05005c03001d201b03dc7df6000ac87df600",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "367D9B",
+          "target": "367DED",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367D99",
+            "command_hex": "1b03ed7df600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "36804C",
+      "end": "368065",
+      "english": [
+        "@",
+        " was daydreaming..."
+      ],
+      "fr": [
+        "@",
+        " a la tête ailleurs..."
+      ],
+      "spans": [
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          23
+        ]
+      ],
+      "original_hex": "01701c0d50a791a3509491a994a295919d999e975e5e5e0302",
+      "baseline_hex": "01701c0d50a791a3509491a994a295919d999e975e5e5e0302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "368029",
+          "target": "36804C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "368027",
+            "command_hex": "09014c80f600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "36DFA0",
+      "end": "36DFBE",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " quel dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "baseline_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "36DE0B",
+          "target": "36DFA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE0A",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DE7A",
+          "target": "36DFA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE79",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DEE9",
+          "target": "36DFA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DEE8",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DF58",
+          "target": "36DFA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DF57",
+            "command_hex": "0aa0dff600"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "373CD8",
+      "end": "373D10",
+      "english": [
+        "@Well,",
+        " it is quite expensive...",
+        "  I don't blame you."
+      ],
+      "fr": [
+        "@Oui,",
+        " c'est assez cher...",
+        "  Je comprends."
+      ],
+      "spans": [
+        [
+          0,
+          6
+        ],
+        [
+          8,
+          33
+        ],
+        [
+          34,
+          54
+        ]
+      ],
+      "original_hex": "7087959c9c5c100f5099a45099a350a1a599a4955095a8a0959ea399a6955e5e5e0150507950949f9e57a450929c919d9550a99fa55e1302",
+      "baseline_hex": "7087959c9c5c100f5099a45099a350a1a599a4955095a8a0959ea399a6955e5e5e0150507950949f9e57a450929c919d9550a99fa55e1302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "373AE6",
+          "target": "373CD8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373AE4",
+            "command_hex": "1b02d83cf700"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "373D75",
+      "end": "373E0F",
+      "english": [
+        "@Oh?",
+        " It looks like you have too much to carry.",
+        "@You need space for ",
+        " Ticket stub",
+        ".",
+        "@Here's your money back."
+      ],
+      "fr": [
+        "@Oh?",
+        " Tu portes trop de choses.",
+        "@Il faut de la place pour ",
+        " ticket",
+        ".",
+        "@Voici ton remboursement."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          54
+        ],
+        [
+          56,
+          76
+        ],
+        [
+          82,
+          94
+        ],
+        [
+          99,
+          100
+        ],
+        [
+          102,
+          126
+        ]
+      ],
+      "original_hex": "1f0205101401707f986f100f5079a4509c9f9f9ba3509c999b9550a99fa5509891a69550a49f9f509da5939850a49f509391a2a2a95e030070899fa5509e95959450a3a091939550969fa2501c0a00000000508499939b95a450a3a4a59208153ff7005e0300707895a29557a350a99fa5a2509d9f9e95a9509291939b5e131b061b041d0a001b041d1500001b041d0800001f0274180a101e02",
+      "baseline_hex": "1f0205101401707f986f100f5079a4509c9f9f9ba3509c999b9550a99fa5509891a69550a49f9f509da5939850a49f509391a2a2a95e030070899fa5509e95959450a3a091939550969fa2501c0a00000000508499939b95a450a3a4a59208153ff7005e0300707895a29557a350a99fa5a2509d9f9e95a9509291939b5e131b061b041d0a001b041d1500001b041d0800001f0274180a101e02",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "373B91",
+          "target": "373D75",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373B8F",
+            "command_hex": "1b02753df700"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "378468",
+      "end": "378486",
+      "english": [
+        "@Oh,",
+        " that's too bad."
+      ],
+      "fr": [
+        "@Oh,",
+        " quel dommage."
+      ],
+      "spans": [
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "original_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "baseline_hex": "180018013501707f985c100f50a49891a457a350a49f9f509291945e1302",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "3782D3",
+          "target": "378468",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3782D2",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "378342",
+          "target": "378468",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378341",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "3783B1",
+          "target": "378468",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3783B0",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "378420",
+          "target": "378468",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37841F",
+            "command_hex": "0a6884f700"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "38227C",
+      "end": "3822C3",
+      "english": [
+        "@This machine cannot accept a deposit greater than",
+        "  $9,999,999."
+      ],
+      "fr": [
+        "@Cette machine refuse les dépôts de plus de",
+        "  9 999 999 $."
+      ],
+      "spans": [
+        [
+          0,
+          50
+        ],
+        [
+          51,
+          64
+        ]
+      ],
+      "original_hex": "70849899a3509d919398999e955093919e9e9fa45091939395a0a45091509495a09fa399a45097a29591a495a250a498919e00505054695c6969695c6969695e03000a8621f800",
+      "baseline_hex": "70849899a3509d919398999e955093919e9e9fa45091939395a0a45091509495a09fa399a45097a29591a495a250a498919e00505054695c6969695c6969695e03000a8621f800",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "3821A5",
+          "target": "38227C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3821A3",
+            "command_hex": "1b027c22f800"
+          }
+        },
+        {
+          "offset": "3821CC",
+          "target": "38227C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3821CA",
+            "command_hex": "1b037c22f800"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    },
+    {
+      "id": "3891E0",
+      "end": "389220",
+      "english": [
+        "@",
+        " used",
+        "  the ",
+        "!"
+      ],
+      "fr": [
+        "@",
+        " utilise",
+        "  ",
+        "!"
+      ],
+      "spans": [
+        [
+          15,
+          16
+        ],
+        [
+          22,
+          27
+        ],
+        [
+          28,
+          34
+        ],
+        [
+          37,
+          38
+        ]
+      ],
+      "original_hex": "06a6034292f800065c042092f80001701c0d191f1b0450a5a39594005050a49895501c05005113062e036c92f80018041f50057f011f21e81f681926001f5102",
+      "baseline_hex": "06a6034292f800065c042092f80001701c0d191f1b0450a5a39594005050a49895501c05005113062e036c92f80018041f50057f011f21e81f681926001f5102",
+      "source_pointer_updates_preserved": [],
+      "dictionary_codes": [],
+      "references": [
+        {
+          "offset": "3691ED",
+          "target": "3891E0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3691E9",
+            "record_hex": "01000400e091f8003390c200"
+          }
+        }
+      ],
+      "preserved_unproven_refs": [],
+      "private_helper": false,
+      "preserved_original_helper_refs": []
+    }
+  ],
+  "prior_pointer_repairs": {
+    "accents": [],
+    "ascii": []
+  }
+}

@@ -1,0 +1,23 @@
+name: Verify V47 IPS offline
+
+on:
+  push:
+    paths:
+      - 'tools/v47/**'
+      - 'patches/EarthBound_Beginnings_FR_v47_*.ips'
+      - '.github/workflows/verifier-v47.yml'
+  pull_request:
+    paths:
+      - 'tools/v47/**'
+      - 'patches/EarthBound_Beginnings_FR_v47_*.ips'
+      - '.github/workflows/verifier-v47.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v47 -p test_v47_offline.py -v

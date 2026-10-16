@@ -1,0 +1,1121 @@
+{
+  "base": "V46",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "scripts_revised": 21,
+  "private_helper_scripts": 0,
+  "text_spans_in_copies": 60,
+  "newly_translated_fragments": 34,
+  "onomatopoeia_characters_adjusted": 0,
+  "nonlexical_fragments_adjusted": 4,
+  "already_french_fragments": 0,
+  "dictionary_entries_expanded": 0,
+  "shared_dictionary_modified": false,
+  "unproven_references_preserved": 14,
+  "distinct_new_english_fragments": 28,
+  "dialogue_yes_no_choices_deferred_to_menu_pass": 2,
+  "reservations": [
+    [
+      "32EF10",
+      "32EFF0"
+    ],
+    [
+      "32F120",
+      "32F200"
+    ],
+    [
+      "32FBB0",
+      "32FC90"
+    ],
+    [
+      "32CB10",
+      "32CBE0"
+    ],
+    [
+      "32F220",
+      "32F2F0"
+    ],
+    [
+      "32FD30",
+      "32FE00"
+    ],
+    [
+      "320820",
+      "3208E0"
+    ],
+    [
+      "32EB40",
+      "32EC00"
+    ],
+    [
+      "32B1C0",
+      "32B270"
+    ],
+    [
+      "32EA80",
+      "32EB30"
+    ],
+    [
+      "32EE40",
+      "32EEF0"
+    ],
+    [
+      "32F060",
+      "32F110"
+    ],
+    [
+      "32BF10",
+      "32BFB0"
+    ],
+    [
+      "3209F0",
+      "320A80"
+    ],
+    [
+      "32C0F0",
+      "32C180"
+    ],
+    [
+      "32E8A0",
+      "32E930"
+    ],
+    [
+      "320900",
+      "320980"
+    ],
+    [
+      "320B00",
+      "320B80"
+    ],
+    [
+      "32E060",
+      "32E0E0"
+    ],
+    [
+      "32FCA0",
+      "32FD20"
+    ],
+    [
+      "32FF60",
+      "32FFE0"
+    ]
+  ],
+  "profiles": {
+    "accents": {
+      "sha256": "4ca8fb5d031ff1a54da81bdb7e01a6cfe01982b36df7ebb7363cce850b95ec73",
+      "target_rom_sha256": "47ee58a09b4efa1c6b07061c4cd9d65cf72e2131d2233e8929360dd64219a6c4",
+      "prior_records_preserved": 7584,
+      "records_added": 55,
+      "relocated": [
+        {
+          "id": "3603C7",
+          "offset": "32EF10",
+          "old_length": 213,
+          "new_length": 172,
+          "internal_refs": []
+        },
+        {
+          "id": "34B749",
+          "offset": "32F120",
+          "old_length": 163,
+          "new_length": 146,
+          "internal_refs": []
+        },
+        {
+          "id": "373D75",
+          "offset": "32FBB0",
+          "old_length": 154,
+          "new_length": 140,
+          "internal_refs": []
+        },
+        {
+          "id": "38227C",
+          "offset": "32FC3C",
+          "old_length": 71,
+          "new_length": 65,
+          "internal_refs": []
+        },
+        {
+          "id": "3891E0",
+          "offset": "32CB10",
+          "old_length": 64,
+          "new_length": 63,
+          "internal_refs": []
+        },
+        {
+          "id": "367DED",
+          "offset": "32CB50",
+          "old_length": 69,
+          "new_length": 58,
+          "internal_refs": [
+            {
+              "offset": "32CB86",
+              "old_target": "367DC8",
+              "new_target": "320838"
+            }
+          ]
+        },
+        {
+          "id": "373CD8",
+          "offset": "32CB8C",
+          "old_length": 56,
+          "new_length": 45,
+          "internal_refs": []
+        },
+        {
+          "id": "34B686",
+          "offset": "32F220",
+          "old_length": 47,
+          "new_length": 44,
+          "internal_refs": []
+        },
+        {
+          "id": "366E5B",
+          "offset": "32F24C",
+          "old_length": 37,
+          "new_length": 41,
+          "internal_refs": []
+        },
+        {
+          "id": "35C43A",
+          "offset": "32F278",
+          "old_length": 28,
+          "new_length": 38,
+          "internal_refs": []
+        },
+        {
+          "id": "366E39",
+          "offset": "32F2A0",
+          "old_length": 34,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "33F398",
+          "offset": "32F2C4",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "355825",
+          "offset": "32FD30",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "363FDE",
+          "offset": "32FD4C",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "36804C",
+          "offset": "32FD68",
+          "old_length": 25,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "36DFA0",
+          "offset": "32FD84",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "378468",
+          "offset": "32FDA0",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "366E26",
+          "offset": "32FDBC",
+          "old_length": 19,
+          "new_length": 27,
+          "internal_refs": []
+        },
+        {
+          "id": "3678BE",
+          "offset": "32FDD8",
+          "old_length": 24,
+          "new_length": 23,
+          "internal_refs": []
+        },
+        {
+          "id": "350059",
+          "offset": "320820",
+          "old_length": 25,
+          "new_length": 22,
+          "internal_refs": []
+        },
+        {
+          "id": "367DC8",
+          "offset": "320838",
+          "old_length": 20,
+          "new_length": 21,
+          "internal_refs": []
+        }
+      ],
+      "external_refs_rewritten": [
+        {
+          "offset": "3603BF",
+          "old_target": "3603C7",
+          "new_target": "32EF10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3603BD",
+            "command_hex": "0902c703f600c703f600"
+          }
+        },
+        {
+          "offset": "3603C3",
+          "old_target": "3603C7",
+          "new_target": "32EF10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3603BD",
+            "command_hex": "0902c703f600c703f600"
+          }
+        },
+        {
+          "offset": "34B745",
+          "old_target": "34B749",
+          "new_target": "32F120",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B744",
+            "command_hex": "0a49b7f400"
+          }
+        },
+        {
+          "offset": "373B91",
+          "old_target": "373D75",
+          "new_target": "32FBB0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373B8F",
+            "command_hex": "1b02753df700"
+          }
+        },
+        {
+          "offset": "3821A5",
+          "old_target": "38227C",
+          "new_target": "32FC3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3821A3",
+            "command_hex": "1b027c22f800"
+          }
+        },
+        {
+          "offset": "3821CC",
+          "old_target": "38227C",
+          "new_target": "32FC3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3821CA",
+            "command_hex": "1b037c22f800"
+          }
+        },
+        {
+          "offset": "3691ED",
+          "old_target": "3891E0",
+          "new_target": "32CB10",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3691E9",
+            "record_hex": "01000400e091f8003390c200"
+          }
+        },
+        {
+          "offset": "367D9B",
+          "old_target": "367DED",
+          "new_target": "32CB50",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367D99",
+            "command_hex": "1b03ed7df600"
+          }
+        },
+        {
+          "offset": "373AE6",
+          "old_target": "373CD8",
+          "new_target": "32CB8C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373AE4",
+            "command_hex": "1b02d83cf700"
+          }
+        },
+        {
+          "offset": "34B715",
+          "old_target": "34B686",
+          "new_target": "32F220",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B713",
+            "command_hex": "1b0286b6f400"
+          }
+        },
+        {
+          "offset": "366DFE",
+          "old_target": "366E5B",
+          "new_target": "32F24C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        },
+        {
+          "offset": "35B00A",
+          "old_target": "35C43A",
+          "new_target": "32F278",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B009",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B1D6",
+          "old_target": "35C43A",
+          "new_target": "32F278",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B1D5",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "366DFA",
+          "old_target": "366E39",
+          "new_target": "32F2A0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        },
+        {
+          "offset": "33F272",
+          "old_target": "33F398",
+          "new_target": "32F2C4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F271",
+            "command_hex": "0a98f3f300"
+          }
+        },
+        {
+          "offset": "355690",
+          "old_target": "355825",
+          "new_target": "32FD30",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35568F",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "3556FF",
+          "old_target": "355825",
+          "new_target": "32FD30",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3556FE",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "35576E",
+          "old_target": "355825",
+          "new_target": "32FD30",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35576D",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "3557DD",
+          "old_target": "355825",
+          "new_target": "32FD30",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3557DC",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "363E49",
+          "old_target": "363FDE",
+          "new_target": "32FD4C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363E48",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363EB8",
+          "old_target": "363FDE",
+          "new_target": "32FD4C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363EB7",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363F27",
+          "old_target": "363FDE",
+          "new_target": "32FD4C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363F26",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "368029",
+          "old_target": "36804C",
+          "new_target": "32FD68",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "368027",
+            "command_hex": "09014c80f600"
+          }
+        },
+        {
+          "offset": "36DE0B",
+          "old_target": "36DFA0",
+          "new_target": "32FD84",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE0A",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DE7A",
+          "old_target": "36DFA0",
+          "new_target": "32FD84",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE79",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DEE9",
+          "old_target": "36DFA0",
+          "new_target": "32FD84",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DEE8",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DF58",
+          "old_target": "36DFA0",
+          "new_target": "32FD84",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DF57",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "3782D3",
+          "old_target": "378468",
+          "new_target": "32FDA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3782D2",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "378342",
+          "old_target": "378468",
+          "new_target": "32FDA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378341",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "3783B1",
+          "old_target": "378468",
+          "new_target": "32FDA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3783B0",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "378420",
+          "old_target": "378468",
+          "new_target": "32FDA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37841F",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "366DF6",
+          "old_target": "366E26",
+          "new_target": "32FDBC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        },
+        {
+          "offset": "36788C",
+          "old_target": "3678BE",
+          "new_target": "32FDD8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36788A",
+            "command_hex": "1b03be78f600"
+          }
+        },
+        {
+          "offset": "350055",
+          "old_target": "350059",
+          "new_target": "320820",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35004F",
+            "command_hex": "0902a500f5005900f500"
+          }
+        }
+      ],
+      "prior_pointer_repairs": [],
+      "rom_roundtrip": true,
+      "source_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "prior_record_pointer_updates": []
+    },
+    "ascii": {
+      "sha256": "7aee36235ebd8e6fae420bee4bc97ba0a335bf265e11be605d238bcea68f7cf0",
+      "target_rom_sha256": "3cc1df1cb36811878fdcd70af79d457f64d507b7649e4fd776ecacf235c6a64e",
+      "prior_records_preserved": 7479,
+      "records_added": 55,
+      "relocated": [
+        {
+          "id": "3603C7",
+          "offset": "32EF10",
+          "old_length": 213,
+          "new_length": 172,
+          "internal_refs": []
+        },
+        {
+          "id": "34B749",
+          "offset": "32F120",
+          "old_length": 163,
+          "new_length": 146,
+          "internal_refs": []
+        },
+        {
+          "id": "373D75",
+          "offset": "32FBB0",
+          "old_length": 154,
+          "new_length": 140,
+          "internal_refs": []
+        },
+        {
+          "id": "38227C",
+          "offset": "32FC3C",
+          "old_length": 71,
+          "new_length": 65,
+          "internal_refs": []
+        },
+        {
+          "id": "3891E0",
+          "offset": "32CB10",
+          "old_length": 64,
+          "new_length": 63,
+          "internal_refs": []
+        },
+        {
+          "id": "367DED",
+          "offset": "32CB50",
+          "old_length": 69,
+          "new_length": 58,
+          "internal_refs": [
+            {
+              "offset": "32CB86",
+              "old_target": "367DC8",
+              "new_target": "320838"
+            }
+          ]
+        },
+        {
+          "id": "373CD8",
+          "offset": "32CB8C",
+          "old_length": 56,
+          "new_length": 45,
+          "internal_refs": []
+        },
+        {
+          "id": "34B686",
+          "offset": "32F220",
+          "old_length": 47,
+          "new_length": 44,
+          "internal_refs": []
+        },
+        {
+          "id": "366E5B",
+          "offset": "32F24C",
+          "old_length": 37,
+          "new_length": 41,
+          "internal_refs": []
+        },
+        {
+          "id": "35C43A",
+          "offset": "32F278",
+          "old_length": 28,
+          "new_length": 38,
+          "internal_refs": []
+        },
+        {
+          "id": "366E39",
+          "offset": "32F2A0",
+          "old_length": 34,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "33F398",
+          "offset": "32F2C4",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "355825",
+          "offset": "32FD30",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "363FDE",
+          "offset": "32FD4C",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "36804C",
+          "offset": "32FD68",
+          "old_length": 25,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "36DFA0",
+          "offset": "32FD84",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "378468",
+          "offset": "32FDA0",
+          "old_length": 30,
+          "new_length": 28,
+          "internal_refs": []
+        },
+        {
+          "id": "366E26",
+          "offset": "32FDBC",
+          "old_length": 19,
+          "new_length": 27,
+          "internal_refs": []
+        },
+        {
+          "id": "3678BE",
+          "offset": "32FDD8",
+          "old_length": 24,
+          "new_length": 23,
+          "internal_refs": []
+        },
+        {
+          "id": "350059",
+          "offset": "320820",
+          "old_length": 25,
+          "new_length": 22,
+          "internal_refs": []
+        },
+        {
+          "id": "367DC8",
+          "offset": "320838",
+          "old_length": 20,
+          "new_length": 21,
+          "internal_refs": []
+        }
+      ],
+      "external_refs_rewritten": [
+        {
+          "offset": "3603BF",
+          "old_target": "3603C7",
+          "new_target": "32EF10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3603BD",
+            "command_hex": "0902c703f600c703f600"
+          }
+        },
+        {
+          "offset": "3603C3",
+          "old_target": "3603C7",
+          "new_target": "32EF10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3603BD",
+            "command_hex": "0902c703f600c703f600"
+          }
+        },
+        {
+          "offset": "34B745",
+          "old_target": "34B749",
+          "new_target": "32F120",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B744",
+            "command_hex": "0a49b7f400"
+          }
+        },
+        {
+          "offset": "373B91",
+          "old_target": "373D75",
+          "new_target": "32FBB0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373B8F",
+            "command_hex": "1b02753df700"
+          }
+        },
+        {
+          "offset": "3821A5",
+          "old_target": "38227C",
+          "new_target": "32FC3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3821A3",
+            "command_hex": "1b027c22f800"
+          }
+        },
+        {
+          "offset": "3821CC",
+          "old_target": "38227C",
+          "new_target": "32FC3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3821CA",
+            "command_hex": "1b037c22f800"
+          }
+        },
+        {
+          "offset": "3691ED",
+          "old_target": "3891E0",
+          "new_target": "32CB10",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3691E9",
+            "record_hex": "01000400e091f8003390c200"
+          }
+        },
+        {
+          "offset": "367D9B",
+          "old_target": "367DED",
+          "new_target": "32CB50",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "367D99",
+            "command_hex": "1b03ed7df600"
+          }
+        },
+        {
+          "offset": "373AE6",
+          "old_target": "373CD8",
+          "new_target": "32CB8C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373AE4",
+            "command_hex": "1b02d83cf700"
+          }
+        },
+        {
+          "offset": "34B715",
+          "old_target": "34B686",
+          "new_target": "32F220",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34B713",
+            "command_hex": "1b0286b6f400"
+          }
+        },
+        {
+          "offset": "366DFE",
+          "old_target": "366E5B",
+          "new_target": "32F24C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        },
+        {
+          "offset": "35B00A",
+          "old_target": "35C43A",
+          "new_target": "32F278",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B009",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "35B1D6",
+          "old_target": "35C43A",
+          "new_target": "32F278",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35B1D5",
+            "command_hex": "0a3ac4f500"
+          }
+        },
+        {
+          "offset": "366DFA",
+          "old_target": "366E39",
+          "new_target": "32F2A0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        },
+        {
+          "offset": "33F272",
+          "old_target": "33F398",
+          "new_target": "32F2C4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "33F271",
+            "command_hex": "0a98f3f300"
+          }
+        },
+        {
+          "offset": "355690",
+          "old_target": "355825",
+          "new_target": "32FD30",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35568F",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "3556FF",
+          "old_target": "355825",
+          "new_target": "32FD30",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3556FE",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "35576E",
+          "old_target": "355825",
+          "new_target": "32FD30",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35576D",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "3557DD",
+          "old_target": "355825",
+          "new_target": "32FD30",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3557DC",
+            "command_hex": "0a2558f500"
+          }
+        },
+        {
+          "offset": "363E49",
+          "old_target": "363FDE",
+          "new_target": "32FD4C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363E48",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363EB8",
+          "old_target": "363FDE",
+          "new_target": "32FD4C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363EB7",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "363F27",
+          "old_target": "363FDE",
+          "new_target": "32FD4C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "363F26",
+            "command_hex": "0ade3ff600"
+          }
+        },
+        {
+          "offset": "368029",
+          "old_target": "36804C",
+          "new_target": "32FD68",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "368027",
+            "command_hex": "09014c80f600"
+          }
+        },
+        {
+          "offset": "36DE0B",
+          "old_target": "36DFA0",
+          "new_target": "32FD84",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE0A",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DE7A",
+          "old_target": "36DFA0",
+          "new_target": "32FD84",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DE79",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DEE9",
+          "old_target": "36DFA0",
+          "new_target": "32FD84",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DEE8",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "36DF58",
+          "old_target": "36DFA0",
+          "new_target": "32FD84",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36DF57",
+            "command_hex": "0aa0dff600"
+          }
+        },
+        {
+          "offset": "3782D3",
+          "old_target": "378468",
+          "new_target": "32FDA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3782D2",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "378342",
+          "old_target": "378468",
+          "new_target": "32FDA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "378341",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "3783B1",
+          "old_target": "378468",
+          "new_target": "32FDA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3783B0",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "378420",
+          "old_target": "378468",
+          "new_target": "32FDA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37841F",
+            "command_hex": "0a6884f700"
+          }
+        },
+        {
+          "offset": "366DF6",
+          "old_target": "366E26",
+          "new_target": "32FDBC",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "366DF4",
+            "command_hex": "0903266ef600396ef6005b6ef600"
+          }
+        },
+        {
+          "offset": "36788C",
+          "old_target": "3678BE",
+          "new_target": "32FDD8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36788A",
+            "command_hex": "1b03be78f600"
+          }
+        },
+        {
+          "offset": "350055",
+          "old_target": "350059",
+          "new_target": "320820",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35004F",
+            "command_hex": "0902a500f5005900f500"
+          }
+        }
+      ],
+      "prior_pointer_repairs": [],
+      "rom_roundtrip": true,
+      "source_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "prior_record_pointer_updates": []
+    }
+  },
+  "new_scenes_naturally_emulator_tested": false
+}

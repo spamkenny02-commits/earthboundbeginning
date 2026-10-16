@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V46 (traduction partielle)
+## Version actuelle : V47 (traduction partielle)
+
+V47 ajoute **34 fragments traduits dans 21 scripts** : services, zoo, asthme, distraction et utilisation d'objets. Les menus restent pour la suite.
+
+- [Patch V47 avec accents](patches/EarthBound_Beginnings_FR_v47_accents.ips)
+- [Patch V47 ASCII](patches/EarthBound_Beginnings_FR_v47_ascii.ips)
+- [Rapport V47](RAPPORT_V47.md)
+- [Sources et tests](tools/v47/README_V47.md)
+- [Essais Snes9x et captures](tests/emulation_v47/RAPPORT_EMULATION_V47.md)
+
+Appliquer **un seul IPS V47 directement à la ROM originale USA 1.2**. 247 tests locaux réussis. Le parcours normal conserve les 212 captures V46 ; huit scripts sont relus par appel contrôlé dans les deux variantes. Leur accès naturel et les 13 autres scripts restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V46 (traduction partielle)
 
 V46 traduit **deux messages de consommation** et corrige **sept contextes français** encore liés aux noms de groupes anglais. L'audit du lot préparatoire a retrouvé 98 sources déjà modifiées et deux brouillons identiques : ces 100 entrées ne sont pas comptées comme nouvelles intégrations.
 
