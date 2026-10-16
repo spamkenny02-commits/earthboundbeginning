@@ -1,0 +1,804 @@
+{
+  "method": "parsed_command_reachability_from_remake_npc_and_current_action_roots",
+  "baseline": "V53",
+  "natural_scene_reachability_proven": false,
+  "selected_menu_blocks": 85,
+  "unselected_groups": [
+    {
+      "offset": "063732",
+      "end": "063747",
+      "options": [
+        "Pick-up",
+        "Delivery"
+      ],
+      "contexts": [
+        "06372D"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "167AAD",
+      "end": "167AB9",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "1679C0"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "167B04",
+      "end": "167B10",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "167AE0"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "167CCB",
+      "end": "167CD7",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "167CA0"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "167E11",
+      "end": "167E1D",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "167D90"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "167F19",
+      "end": "167F25",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "167E90"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "16F896",
+      "end": "16F8A2",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "16F800"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "16F958",
+      "end": "16F964",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "16F920"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "16F9E5",
+      "end": "16F9F1",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "16F9A0"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "16FA3A",
+      "end": "16FA46",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "16FA20"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "16FAB6",
+      "end": "16FAC2",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "16FA90"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "16FB17",
+      "end": "16FB23",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "16FB00"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "16FB69",
+      "end": "16FB75",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "16FB50"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "24D550",
+      "end": "24D55C",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "24D4A0"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "2929D3",
+      "end": "2929DF",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "292960"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "292E56",
+      "end": "292E62",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "292E30"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "31F535",
+      "end": "31F541",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "31F410",
+        "31F41E"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "31F7AD",
+      "end": "31F7B9",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "31F600"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "33F13F",
+      "end": "33F182",
+      "options": [
+        "Reindeer[C8][C8][C8][C8][C8][C8][C8]`$9&",
+        "Snowman[C8][C8][C8][C8][C8][C8][CB]$11&",
+        "Merrysville[C8][C8][C8][C8][C8][C8]$25&"
+      ],
+      "contexts": [
+        "33F0CF"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "3555CB",
+      "end": "35560D",
+      "options": [
+        "Reindeer[C8][C8][C8][C8][C8][C8][C8]`$16&",
+        "Spookane[C8][C8][C8][C8][C8][C8][CA]$25&",
+        "Snowman[C8][C8][C8][C8][C8][C8][CB]$36&"
+      ],
+      "contexts": [
+        "355558"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "35C787",
+      "end": "35C7A2",
+      "options": [
+        "Sauver",
+        "Rien, merci    "
+      ],
+      "contexts": [
+        "35C768"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "35C854",
+      "end": "35C866",
+      "options": [
+        "Suite   ",
+        "Dodo"
+      ],
+      "contexts": [
+        "35C7C8",
+        "35C7D7"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "363D86",
+      "end": "363DC8",
+      "options": [
+        "Spookane[C8][C8][C8][C8][C8][C8][CA]$9&",
+        "Merrysville[C8][C8][C8][C8][C8][C8]$16&",
+        "Snowman[C8][C8][C8][C8][C8][C8][CB]$20&"
+      ],
+      "contexts": [
+        "363D16"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "36B7AE",
+      "end": "36B7C1",
+      "options": [
+        "Dépôt",
+        "Retirer "
+      ],
+      "contexts": [
+        "36B788",
+        "36B7AE"
+      ],
+      "first_interior_target": "36B7B9",
+      "guarded": false
+    },
+    {
+      "offset": "36B88E",
+      "end": "36B89A",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "36B86C"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "36BA7B",
+      "end": "36BA87",
+      "options": [
+        "Oui",
+        "Non"
+      ],
+      "contexts": [
+        "36BA13"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "37821A",
+      "end": "378274",
+      "options": [
+        "Merrysville[C8][C8][C8][C8][C8][C8]$12&",
+        "Reindeer[C8][C8][C8][C8][C8][C8][C8]`$28&",
+        "Spookane[C8][C8][C8][C8][C8][C8][CA]$37&",
+        "Snowman[C8][C8][C8][C8][C8][C8][CB]$48&"
+      ],
+      "contexts": [
+        "3781AA"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "37B99C",
+      "end": "37B9A9",
+      "options": [
+        "Buy",
+        "Sell"
+      ],
+      "contexts": [
+        "37B994",
+        "37B99C"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "37BBAE",
+      "end": "37BBC4",
+      "options": [
+        "Just one",
+        "Multiple"
+      ],
+      "contexts": [
+        "37BB9A"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "37DE6F",
+      "end": "37DEE2",
+      "options": [
+        "Add goods",
+        "Important goods",
+        "Fill inventory",
+        "Clear inventory",
+        "Fill storage",
+        "Clear storage",
+        "Ultimate weapons"
+      ],
+      "contexts": [
+        "37DE51"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "37DF45",
+      "end": "37DFF3",
+      "options": [
+        "Debugger",
+        "GGF's Diary",
+        "Canary Chick",
+        "Bread",
+        "Zoo Key",
+        "Ocarina",
+        "Onyx Hook",
+        "Girl's Hat",
+        "Live Show Ticket",
+        "Trout Yogurt",
+        "Ticket Stub",
+        "Flight A",
+        "Flight B",
+        "Flight C"
+      ],
+      "contexts": [
+        "37DF41"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "37E117",
+      "end": "37E12A",
+      "options": [
+        "All",
+        "Individual"
+      ],
+      "contexts": [
+        "37E0EC"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "37E4B2",
+      "end": "37E5B0",
+      "options": [
+        "Podunk",
+        "Cemetary",
+        "Zoo",
+        "Canary V.",
+        "Merrysville",
+        "Yucca Desert",
+        "Youngtown",
+        "Reindeer",
+        "Spookane",
+        "Rosemary M.",
+        "Snowman",
+        "Swamp",
+        "S. L. Factory",
+        "D's Factory",
+        "Ellay",
+        "Magicant",
+        "Mt. Itoi",
+        "Lookout Tower",
+        "Debug Room",
+        "Page 2",
+        "Page 3",
+        "ENDING TEST"
+      ],
+      "contexts": [
+        "37E4AD"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "37E790",
+      "end": "37E843",
+      "options": [
+        "Pippi Coffin",
+        "Town Hall",
+        "Queen Mary",
+        "School Roof",
+        "Sanctuary",
+        "Swamp Cabin",
+        "Island",
+        "Big Building",
+        "Reindeer House",
+        "Garrickson",
+        "Monkey Cave",
+        "Live House",
+        "Page 1",
+        "Page 3"
+      ],
+      "contexts": [
+        "37E78B"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "37E973",
+      "end": "37E9E9",
+      "options": [
+        "Doll",
+        "Pet Store",
+        "Laura",
+        "Zoo Office",
+        "Piano",
+        "Cactus",
+        "Dragon",
+        "George's Lab",
+        "EVE",
+        "Gravestone",
+        "Page 1",
+        "Page 2"
+      ],
+      "contexts": [
+        "37E96E"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "3834CD",
+      "end": "3834F1",
+      "options": [
+        "BGM",
+        "Sound Effects",
+        "SPC Effects"
+      ],
+      "contexts": [
+        "3834B1"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "3835E6",
+      "end": "383778",
+      "options": [
+        "1. Play normally",
+        "2. Quick fade out",
+        "3. Fade out",
+        "7. Dec. vol. slightly",
+        "8. Restore orig. vol.",
+        "9. Disable ch. 0",
+        "10. Disable ch. 1",
+        "11. Disable ch. 2",
+        "12. Disable ch. 3",
+        "13. Disable ch. 4",
+        "14. Disable ch. 5",
+        "15. Emphasize ch. 0",
+        "16. Emphasize ch. 1",
+        "17. Emphasize ch. 2",
+        "18. Emphasize ch. 3",
+        "19. Emphasize ch. 4",
+        "20. Emphasize ch. 5",
+        "21. Inc. overall pitch",
+        "23. Dec. vol. strongly"
+      ],
+      "contexts": [
+        "3835E3"
+      ],
+      "first_interior_target": "383685",
+      "guarded": false
+    },
+    {
+      "offset": "3876E1",
+      "end": "3877B2",
+      "options": [
+        "Save",
+        "Move to area",
+        "Level Up",
+        "Event Flags",
+        "Inflict Status",
+        "Enemy Spawn",
+        "Party Edit",
+        "Enemy Test",
+        "Money Edit",
+        "PSI Animations",
+        "Goods Edit",
+        "Hint Test",
+        "Sound Test",
+        "Melodies",
+        "Shop Test",
+        "Determiners"
+      ],
+      "contexts": [
+        "3876D5"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "38870E",
+      "end": "3887A5",
+      "options": [
+        "Heal",
+        "Unconscious",
+        "Petrified",
+        "Paralyzed",
+        "Nauseated",
+        "Poisoned",
+        "Sunstroke",
+        "Cold",
+        "Mushroomized",
+        "Possessed",
+        "Asthma",
+        "Decrease HP",
+        "Decrease PP"
+      ],
+      "contexts": [
+        "3886E0"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "388E90",
+      "end": "388E9F",
+      "options": [
+        "Add",
+        "Remove"
+      ],
+      "contexts": [
+        "388E75"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "388EBA",
+      "end": "388F5B",
+      "options": [
+        "Ninten",
+        "Ana",
+        "Lloyd",
+        "Teddy",
+        "Pippi",
+        "Picky",
+        "Mick",
+        "Tony",
+        "Bubble Monkey",
+        "E.V.E.",
+        "Flying Man 1",
+        "Flying Man 2",
+        "Flying Man 3",
+        "Flying Man 4",
+        "Flying Man 5"
+      ],
+      "contexts": [
+        "388EB3"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "38980E",
+      "end": "38984B",
+      "options": [
+        "Max bank account",
+        "Max wallet",
+        "Edit wallet",
+        "Empty wallet"
+      ],
+      "contexts": [
+        "3897EA"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "38A0E3",
+      "end": "38A155",
+      "options": [
+        "Learn all",
+        "Forget all",
+        "Learn 1",
+        "Learn 2",
+        "Learn 3",
+        "Learn 4",
+        "Learn 5",
+        "Learn 6",
+        "Learn 7",
+        "Learn 8",
+        "Invert"
+      ],
+      "contexts": [
+        "38A0DB"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    },
+    {
+      "offset": "38DC59",
+      "end": "38DC73",
+      "options": [
+        "Whole team",
+        "One member"
+      ],
+      "contexts": [
+        "38DC3E"
+      ],
+      "first_interior_target": null,
+      "guarded": false
+    }
+  ],
+  "selected_context_paths": {
+    "064946": "35CE5D@35CE95",
+    "0649B7": "35CE5D@35CE9C",
+    "07DD4F": "37BAE1@37BAE7",
+    "257C10": "33F0CF@33F18F",
+    "257D34": "349148@349186",
+    "257F0C": "349D14@349D8C",
+    "259AF0": "259ABC@259AEB",
+    "25A3CC": "355558@35561A",
+    "25A414": "355558@35561E",
+    "25A45C": "355558@355622",
+    "25A4A4": "355558@355626",
+    "25AED0": "363D16@363DD5",
+    "25AF18": "363D16@363DDD",
+    "25AF60": "363D16@363DD9",
+    "25D290": "3781AA@37827A",
+    "25D2D8": "3781AA@37827E",
+    "25D320": "3781AA@378282",
+    "25D368": "3781AA@378286",
+    "320D10": "NPC:878:9",
+    "32CDE0": "349FE1@349FE6",
+    "32ED10": "167AE0@167B17",
+    "33B482": "NPC:430:9",
+    "33B970": "NPC:230:9",
+    "33EDA8": "NPC:573:9",
+    "33F1BF": "33F0CF@33F197",
+    "33F29D": "33F0CF@33F193",
+    "33F327": "32FCE0@32FCE9",
+    "33F560": "NPC:592:9",
+    "33F656": "NPC:591:9",
+    "347E37": "347C20@347C23",
+    "347EAA": "347E37@347EA6",
+    "349148": "NPC:497:9",
+    "3497C1": "NPC:994:9",
+    "34991E": "3498EA@3498EF",
+    "349A31": "34991E@349923",
+    "349D14": "349CDD@349CE2",
+    "34A0A7": "32CDE0@32CE54",
+    "34A0C6": "34A0A7@34A0AE",
+    "34A279": "32CDE0@32CDE7",
+    "34A410": "NPC:997:9",
+    "34A53B": "NPC:451:9",
+    "34A75E": "NPC:975:9",
+    "34B490": "NPC:1002:9",
+    "34B4F0": "34B635@34B65A",
+    "34B5AE": "34B517@34B5AA",
+    "350B12": "251F0C@251F14",
+    "350CA4": "251EB0@251ED9",
+    "350CE4": "32FFCC@32FFD7",
+    "350D25": "251F78@251F98",
+    "350DD3": "251F9C@251FBB",
+    "3511BB": "NPC:926:9",
+    "351414": "NPC:564:9",
+    "351604": "25E028@25E038",
+    "3517D7": "NPC:568:9",
+    "351AC4": "351A3E@351A42",
+    "351B80": "351AC4@351B04",
+    "351D81": "NPC:600:9",
+    "3525AD": "35240B@35257F",
+    "352AA1": "352A30@352A33",
+    "352F09": "NPC:91:9",
+    "35352C": "NPC:172:9",
+    "3535F5": "35352C@353581",
+    "353647": "3535F5@35363A",
+    "35388D": "NPC:94:9",
+    "353A1F": "NPC:108:9",
+    "353C03": "NPC:122:9",
+    "3546A1": "16F800@16F8A9",
+    "35474B": "3546A1@354747",
+    "354AB9": "354A54@354A57",
+    "354C47": "NPC:152:9",
+    "354CFA": "354C47@354C4A",
+    "354DB7": "329330@329339",
+    "35C97C": "35C5D9@35C5F1",
+    "35E3E2": "25BDD0@25BDE9",
+    "3614A3": "NPC:26:9",
+    "361509": "320964@32097B",
+    "36168F": "32FCC0@32FCDA",
+    "361A94": "320B00@320B29",
+    "361AFB": "361A94@361ACB",
+    "363F52": "363D16@363DE1",
+    "364801": "NPC:548:9",
+    "3648CB": "NPC:555:9",
+    "3649DA": "NPC:543:9",
+    "364BB0": "NPC:556:9",
+    "36A2F3": "NPC:836:9",
+    "36A35C": "36A2F3@36A32E",
+    "36A336": "36A2F3@36A332"
+  }
+}

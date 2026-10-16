@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V53 (traduction partielle)
+## Version actuelle : V54 (premier lot de menus)
+
+V54 traduit **169 occurrences de libellés dans 85 blocs de menus** : 81 blocs Oui/Non, deux menus Déposer/Retirer, Soigner/Dormir et Petite/Moyenne/Grande pour les pizzas. Les curseurs, réponses et annulations sont comparés à V53 dans l'émulateur. La traduction reste partielle ; les menus de transport et d'autres écrans restent à examiner.
+
+- [Patch V54 avec accents](patches/EarthBound_Beginnings_FR_v54_accents.ips)
+- [Patch V54 ASCII](patches/EarthBound_Beginnings_FR_v54_ascii.ips)
+- [Rapport V54](RAPPORT_V54.md)
+- [Sources et tests](tools/v54/README_V54.md)
+- [Essais Snes9x et captures](tests/emulation_v54/RAPPORT_EMULATION_V54.md)
+
+Appliquer **un seul IPS V54 directement à la ROM originale USA 1.2**. 407 tests locaux réussis. Les 212 captures du parcours normal sont identiques à V53. Pour 14 scénarios contrôlés dans chaque variante, les images après sélection sont identiques à celles de V53. Cela ne valide pas tous les déclenchements naturels des 85 blocs. Aucune ROM distribuée.
+
+## Version précédente : V53 (traduction partielle)
 
 V53 traite **les trois dialogues protégés restants par leurs entrées de personnage** : maison hantée, adieux et ascenseur. Elle traduit aussi le préfixe de confirmation d'achat « Objet: ». La table des personnages est vérifiée par dix références du moteur. Les anciennes entrées intérieures restent intactes ; certains chemins secondaires peuvent encore afficher l'anglais. Les menus restent pour la suite.
 

@@ -1,0 +1,1748 @@
+{
+  "method": "controlled_bank_card_routing_comparing_original_and_translated_menu_selections",
+  "rom_modified_for_probe": true,
+  "wram_modified_for_probe": false,
+  "pointer_slot": "368B51",
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "natural_scene_access_verified": false,
+  "versions": {
+    "53": {
+      "accents": {
+        "house_yes": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "26f268605ffd3d8fa5b3ff71d554579638ff0da26f7f7f5e87f4a192b686f4aa",
+          "target": "320D10",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/house_yes/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "09608716761662beb2acd238ba1faae500bc6bf9cfcff8862b32feea32bf8255"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/house_yes/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "09608716761662beb2acd238ba1faae500bc6bf9cfcff8862b32feea32bf8255"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/house_yes/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "446a017048d249cedb2bc593b749b1d58643e7c1d9b2245097ef980efe9cb411"
+            }
+          }
+        },
+        "house_no": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "26f268605ffd3d8fa5b3ff71d554579638ff0da26f7f7f5e87f4a192b686f4aa",
+          "target": "320D10",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/house_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "09608716761662beb2acd238ba1faae500bc6bf9cfcff8862b32feea32bf8255"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/house_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "075d41622f13d06c0d1b321b7c54a802f5d0844b96916ca6255841184b8d9a98"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/house_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cfdf89c8129f09f6d6ab6b7bf5ebf1cabb32c605bf322b73c4cc39e27245b142"
+            }
+          }
+        },
+        "house_cancel": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "26f268605ffd3d8fa5b3ff71d554579638ff0da26f7f7f5e87f4a192b686f4aa",
+          "target": "320D10",
+          "navigation": [],
+          "confirmation": "B",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/house_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "09608716761662beb2acd238ba1faae500bc6bf9cfcff8862b32feea32bf8255"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/house_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "09608716761662beb2acd238ba1faae500bc6bf9cfcff8862b32feea32bf8255"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/house_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cfdf89c8129f09f6d6ab6b7bf5ebf1cabb32c605bf322b73c4cc39e27245b142"
+            }
+          }
+        },
+        "storage_deposit": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "bf5eba33a529875e5b028a71dba4afdb386c9357bf901bed191ef4a84444b3ad",
+          "target": "34B490",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/storage_deposit/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c3235d55e398bf6da62c90744975e13125b11cb11db71324822d43ae358cd099"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/storage_deposit/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c3235d55e398bf6da62c90744975e13125b11cb11db71324822d43ae358cd099"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/storage_deposit/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "434d96bf607e38b62ad9e64a0cd6823a5d4f1921604b55007a280a26bcf6422a"
+            }
+          }
+        },
+        "storage_withdraw": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "bf5eba33a529875e5b028a71dba4afdb386c9357bf901bed191ef4a84444b3ad",
+          "target": "34B490",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/storage_withdraw/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c3235d55e398bf6da62c90744975e13125b11cb11db71324822d43ae358cd099"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/storage_withdraw/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4a520f43534562d83be364115ae115e8f7557b3b90ab5ed20958cdbfa923b6ce"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/storage_withdraw/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f1ccb129b198d3cc58663c6a06a98eb8f6b657bd5420a969492e935a0a41b49a"
+            }
+          }
+        },
+        "storage_repeat": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "be0e2faca4d8c048e5475eb2357cd23750bfc961aac3561d2a8ac63831ebe1b8",
+          "target": "34B4F0",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/storage_repeat/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c7024b2d40239978dafe63a519a258ea282f4ae776b0c2d71b7d9971358ea7b7"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/storage_repeat/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "95231c53e7dacfeddb42ace619b4b958ad68759d1dc969e9af0e6afb7d02ea9f"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/storage_repeat/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0e6c847dd1061fbdfb845206e098495ebfc7ac77faa968463fefbe391cc85e06"
+            }
+          }
+        },
+        "rest_heal": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "e86cbe1b1033aa2dc44b3d92a09f0b2adddd0c3d8f3bb0bd1b501fe9a4ac861b",
+          "target": "352AA1",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/rest_heal/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db7315657b908cef9011724b1bddb1fad1f5069861264c24b1ee32b1b9b09200"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/rest_heal/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db7315657b908cef9011724b1bddb1fad1f5069861264c24b1ee32b1b9b09200"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/rest_heal/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a3f7d10e1960936901e93995e63a48b2c48b6550838a205f7b090198f0d7577d"
+            }
+          }
+        },
+        "rest_sleep": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "e86cbe1b1033aa2dc44b3d92a09f0b2adddd0c3d8f3bb0bd1b501fe9a4ac861b",
+          "target": "352AA1",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/rest_sleep/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db7315657b908cef9011724b1bddb1fad1f5069861264c24b1ee32b1b9b09200"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/rest_sleep/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ec14380897c55e35716b61d42d77463d743c3781da91765b74b36401eceb21fc"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/rest_sleep/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1065f3b8eefb7acf832c4af6a1f250f9bc961f3c75dd8eba37fca4f157dd447a"
+            }
+          }
+        },
+        "pizza_small": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "90ff62f66f73048038bd44e24a0d5052ad48cf0a0674329206d43c8bff0a9085",
+          "target": "35E3C3",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_small/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7c91bdee1092cff73abd5771a0dd42eb461e070b05dc0f8a74f78e028842e0d4"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_small/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7c91bdee1092cff73abd5771a0dd42eb461e070b05dc0f8a74f78e028842e0d4"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_small/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "feed76708e9db92a64d4c75a73ff3d59a16687855524bfdd3347434514bf0246"
+            }
+          }
+        },
+        "pizza_medium": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "90ff62f66f73048038bd44e24a0d5052ad48cf0a0674329206d43c8bff0a9085",
+          "target": "35E3C3",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_medium/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7c91bdee1092cff73abd5771a0dd42eb461e070b05dc0f8a74f78e028842e0d4"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_medium/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "6675e4c208d4c97598628d9f43f6b21f3239f1d558741aad8809e59b9d5b866c"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_medium/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "299cf02d684d257282e46dce897ac10536c067bfc60d9ec0e8c2e0314b327755"
+            }
+          }
+        },
+        "pizza_large": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "90ff62f66f73048038bd44e24a0d5052ad48cf0a0674329206d43c8bff0a9085",
+          "target": "35E3C3",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_large/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7c91bdee1092cff73abd5771a0dd42eb461e070b05dc0f8a74f78e028842e0d4"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_large/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "107a0fd14986e35d6b2bbbe8725561d9d60496645e3ba987e187166dfd540371"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_large/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a5d9f1efda76c6e19bfeacc7252945b0bef13d71a4a5409975fdb95b6048026b"
+            }
+          }
+        },
+        "pizza_cancel": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "90ff62f66f73048038bd44e24a0d5052ad48cf0a0674329206d43c8bff0a9085",
+          "target": "35E3C3",
+          "navigation": [],
+          "confirmation": "B",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7c91bdee1092cff73abd5771a0dd42eb461e070b05dc0f8a74f78e028842e0d4"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7c91bdee1092cff73abd5771a0dd42eb461e070b05dc0f8a74f78e028842e0d4"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/pizza_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a0cdd1a84333a38d998768b044484fbae176aacfcb2cdfa36284810d4ca39b00"
+            }
+          }
+        },
+        "payment_no": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "49bec06bb669c8cbc49b9ccd55f48e18f566e5da45bdf2e666431f475628075a",
+          "target": "35E4E9",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/payment_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b9366175a1fe8d0645b1b25e499df1ffc7f873e00006f0891cc6139efcfe6cc9"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/payment_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "af84fdeb00113ab794b224181617bf01924a2c29efc05b1b7f7e41577cf73ed4"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/payment_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "03ad720d5e3c13fe1f0c490e164f2de60ff569101740a5f59cf5332705932e03"
+            }
+          }
+        },
+        "shop_no": {
+          "base_rom_sha256": "ccbbfa2e3ba0f2ecbf942083005de39c932f4c76f628af5b17ef035bbf4d9648",
+          "fixture_rom_sha256": "547e3fd30423fb0b84743e1e3d7d4226bf0bdcb677b1ffdba97e731199acfc70",
+          "target": "354D77",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/shop_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "457d799788a13c3e478ef3a7f904a524b72a9e53ba7f23502e78e4fd3cc89d9b"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/shop_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a2fd6ddde934ec09b45414cd3f57acc247ea827e6e544594551461ee1c479938"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/accents/shop_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5ecca032e192f68f6610c4cc00ef8f047eae1565fd01ec0034076821a4375d2d"
+            }
+          }
+        }
+      },
+      "ascii": {
+        "house_yes": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "96a289b28bd7c48ef0c67a9f43c7c00be3ba88fbd3cdd60229289406800121d3",
+          "target": "320D10",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/house_yes/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7ced9199a6e91c76085e7619e17827b618346294e0d1b61ba974002db104fec3"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/house_yes/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7ced9199a6e91c76085e7619e17827b618346294e0d1b61ba974002db104fec3"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/house_yes/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ffbf15171e5a709d853448d17f5e19e662c009e77227bf3ec8d1b14184682c67"
+            }
+          }
+        },
+        "house_no": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "96a289b28bd7c48ef0c67a9f43c7c00be3ba88fbd3cdd60229289406800121d3",
+          "target": "320D10",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/house_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7ced9199a6e91c76085e7619e17827b618346294e0d1b61ba974002db104fec3"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/house_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0e81343463cc360f46f4a0815ae0751491f0b93d489800223af85a9dafc81504"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/house_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "34a3902efbdb9157e4c5edad641e727455df2be25b88de4ea9128263d1bf4f38"
+            }
+          }
+        },
+        "house_cancel": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "96a289b28bd7c48ef0c67a9f43c7c00be3ba88fbd3cdd60229289406800121d3",
+          "target": "320D10",
+          "navigation": [],
+          "confirmation": "B",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/house_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7ced9199a6e91c76085e7619e17827b618346294e0d1b61ba974002db104fec3"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/house_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7ced9199a6e91c76085e7619e17827b618346294e0d1b61ba974002db104fec3"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/house_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "34a3902efbdb9157e4c5edad641e727455df2be25b88de4ea9128263d1bf4f38"
+            }
+          }
+        },
+        "storage_deposit": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "af1c2987c355e8ed6eff1e4e91b1e25e335e7bdabc3650ffe0bae7005054e06e",
+          "target": "34B490",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/storage_deposit/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ffed4fad373538b7b09f168ec52bb5e05c7928b19740cd22efe41c862c23835e"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/storage_deposit/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ffed4fad373538b7b09f168ec52bb5e05c7928b19740cd22efe41c862c23835e"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/storage_deposit/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7fe13f8821f4e619e0e5d2b4038a733063fcca2189c36f4b3ab1151a06b5e898"
+            }
+          }
+        },
+        "storage_withdraw": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "af1c2987c355e8ed6eff1e4e91b1e25e335e7bdabc3650ffe0bae7005054e06e",
+          "target": "34B490",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/storage_withdraw/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ffed4fad373538b7b09f168ec52bb5e05c7928b19740cd22efe41c862c23835e"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/storage_withdraw/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "bcb2cb79e0c5b13e1493082d36bdd58f5358f5056532fb3661cbcd4d40a7da3b"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/storage_withdraw/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "486d24bf6a2b09aaa9d2313401647e39a92abed7a57cea6168cc5a8255b77731"
+            }
+          }
+        },
+        "storage_repeat": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "c48c62582975cb64fb6fa8130c1f87bff2f436f0962b8ab8b9068e88c2d197f3",
+          "target": "34B4F0",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/storage_repeat/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a0aa0c948106b0714007860b62a1da2608887ef0520bc678f3374a98bcf70be0"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/storage_repeat/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "71a3153f2b2a4d9b2e3df55db68dfcb4189cb4d52ee368ea5842fb0307ec9e7b"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/storage_repeat/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9f525639ed3855ea24b0daa87d456f2389ad9a7daacdd298cf77e6ec127a2ee4"
+            }
+          }
+        },
+        "rest_heal": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "c8ba41ffc83542c6a6aebdd33b47bb36567b79514d02b6afa365f43ae99c090f",
+          "target": "352AA1",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/rest_heal/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8b3bd4d4f619db1d14898214ab4ea607591a496a79001760bc77f361e59d76a4"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/rest_heal/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8b3bd4d4f619db1d14898214ab4ea607591a496a79001760bc77f361e59d76a4"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/rest_heal/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1188dea3efee0ede3b0809cff12af135fa11e39beb805099b606d442a825620a"
+            }
+          }
+        },
+        "rest_sleep": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "c8ba41ffc83542c6a6aebdd33b47bb36567b79514d02b6afa365f43ae99c090f",
+          "target": "352AA1",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/rest_sleep/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8b3bd4d4f619db1d14898214ab4ea607591a496a79001760bc77f361e59d76a4"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/rest_sleep/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e83e8165aa499fd75c8d303fb35e28a27949400343b65f6bf347b7baacf13749"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/rest_sleep/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7670d10eae1155303fc8a5ce1802dd6e4398c193a201731c4935760c9dc01262"
+            }
+          }
+        },
+        "pizza_small": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "b037d0a09fbb652dbda66275f04d9af05c86fa533b23454aa16c6763f38a5dc6",
+          "target": "35E3C3",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_small/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9aaaa6aa7fcffa2a2c3c0890edabddc9bdf21ef8766f46b07e30359196ccb910"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_small/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9aaaa6aa7fcffa2a2c3c0890edabddc9bdf21ef8766f46b07e30359196ccb910"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_small/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c41fb0aca6d5c32c729f972402454ca61d225fe2adc6933cd11e51e5fec6eeb7"
+            }
+          }
+        },
+        "pizza_medium": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "b037d0a09fbb652dbda66275f04d9af05c86fa533b23454aa16c6763f38a5dc6",
+          "target": "35E3C3",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_medium/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9aaaa6aa7fcffa2a2c3c0890edabddc9bdf21ef8766f46b07e30359196ccb910"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_medium/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2f0ed43cd8051f0b40984fdd7c63ec5ac3a9334973f0d1a3a37ebde11368c194"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_medium/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f4f5f8b3137bf22aa211e9f4e5ab05e934c393a202918d020f18354100a7add2"
+            }
+          }
+        },
+        "pizza_large": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "b037d0a09fbb652dbda66275f04d9af05c86fa533b23454aa16c6763f38a5dc6",
+          "target": "35E3C3",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_large/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9aaaa6aa7fcffa2a2c3c0890edabddc9bdf21ef8766f46b07e30359196ccb910"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_large/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ec92ac89c6fc48e054bb8bdcc0bf3b8e5cf74e6b6634adf230ceac8ec2077442"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_large/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "81d7a7e1aefb73ed8422f421dfa23fc748bac259ed9f3fcb85adf669eea5e496"
+            }
+          }
+        },
+        "pizza_cancel": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "b037d0a09fbb652dbda66275f04d9af05c86fa533b23454aa16c6763f38a5dc6",
+          "target": "35E3C3",
+          "navigation": [],
+          "confirmation": "B",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9aaaa6aa7fcffa2a2c3c0890edabddc9bdf21ef8766f46b07e30359196ccb910"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9aaaa6aa7fcffa2a2c3c0890edabddc9bdf21ef8766f46b07e30359196ccb910"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/pizza_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e11c65287b129f7f7a2d38e544a9ea13de6eb8e2ab27e1636e744577ddf38c3a"
+            }
+          }
+        },
+        "payment_no": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "629cf543c6b03d3ace76ba41555b538b9563a4748c5319cfa172f5ca20a6f07e",
+          "target": "35E4E9",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/payment_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "30460a63a513eff220b76635a35065279774458bcd6def3aa16aad38a20524ce"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/payment_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8e5bea5ff132b90aae38dde7a583307c84e01f7f76f0301ad1dc2c450a55de7d"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/payment_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "bc86e001a07b87818f6a72470c8c51697bd3c3f741cd89566d40ff6134b0eec4"
+            }
+          }
+        },
+        "shop_no": {
+          "base_rom_sha256": "18a6813b82fc768d7b4b0d981e84805b98323093e4e7952fea1e973659338884",
+          "fixture_rom_sha256": "8f93d7ee0ea5b72e388327503f427bb7bb362fe3ca6d25d7d9699df10fb02e23",
+          "target": "354D77",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/shop_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c01a8b7a59fa98594dc64c9e03751ee381f8e04192211f1168ed7fda4c49b217"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/shop_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "be3a39b4a42586b24f02bfcb3ae741f4a81ab6b2fd79fbba9c66f22b92d5443e"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v53/ascii/shop_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "da2d1d2abf9b4d8b21df8925553793a892fb251e13573b3a38b1eb13249314b0"
+            }
+          }
+        }
+      }
+    },
+    "54": {
+      "accents": {
+        "house_yes": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "dc9531833d52d360bfc5ea8806db67df7023dcc90dbf5ad66eaefe7deaefadb3",
+          "target": "320D10",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/house_yes/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "22a6299058465c64ee5460094522454d493d2e0bb78065bb685bf6e4b1c2b776"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/house_yes/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "22a6299058465c64ee5460094522454d493d2e0bb78065bb685bf6e4b1c2b776"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/house_yes/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "446a017048d249cedb2bc593b749b1d58643e7c1d9b2245097ef980efe9cb411"
+            }
+          }
+        },
+        "house_no": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "dc9531833d52d360bfc5ea8806db67df7023dcc90dbf5ad66eaefe7deaefadb3",
+          "target": "320D10",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/house_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "22a6299058465c64ee5460094522454d493d2e0bb78065bb685bf6e4b1c2b776"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/house_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "34f040b62b6f0dfb918aa71dc0d373aced1aa1bb3a05c911dd449d8a764f9f4a"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/house_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cfdf89c8129f09f6d6ab6b7bf5ebf1cabb32c605bf322b73c4cc39e27245b142"
+            }
+          }
+        },
+        "house_cancel": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "dc9531833d52d360bfc5ea8806db67df7023dcc90dbf5ad66eaefe7deaefadb3",
+          "target": "320D10",
+          "navigation": [],
+          "confirmation": "B",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/house_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "22a6299058465c64ee5460094522454d493d2e0bb78065bb685bf6e4b1c2b776"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/house_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "22a6299058465c64ee5460094522454d493d2e0bb78065bb685bf6e4b1c2b776"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/house_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cfdf89c8129f09f6d6ab6b7bf5ebf1cabb32c605bf322b73c4cc39e27245b142"
+            }
+          }
+        },
+        "storage_deposit": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "de208771ffce77106391b657f48a0c0901ba5254276be5ecfa8f28554649835b",
+          "target": "34B490",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/storage_deposit/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f106e330b5d805e0177fac81b54a6be01be110ef991d3a4702aa5ccfc395db05"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/storage_deposit/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f106e330b5d805e0177fac81b54a6be01be110ef991d3a4702aa5ccfc395db05"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/storage_deposit/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "434d96bf607e38b62ad9e64a0cd6823a5d4f1921604b55007a280a26bcf6422a"
+            }
+          }
+        },
+        "storage_withdraw": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "de208771ffce77106391b657f48a0c0901ba5254276be5ecfa8f28554649835b",
+          "target": "34B490",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/storage_withdraw/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f106e330b5d805e0177fac81b54a6be01be110ef991d3a4702aa5ccfc395db05"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/storage_withdraw/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5fad3c7873adcc0b86eb78152c6c9dccfd7c7c9068b22680eb6edf53b3ccdb27"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/storage_withdraw/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f1ccb129b198d3cc58663c6a06a98eb8f6b657bd5420a969492e935a0a41b49a"
+            }
+          }
+        },
+        "storage_repeat": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "839a75de2e10fffaec256c980c2a7567a05dbef1dbcf194fe842ee274e8def1d",
+          "target": "34B4F0",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/storage_repeat/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c1407bc3c6e7242408b8bc92bf542b3d3933a9af1856019d518ea4d4c9c24e66"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/storage_repeat/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "84465e4be84ea6cf6f44b21b5c98c139c22a9dd1000b754dd9cfff577fe4f892"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/storage_repeat/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0e6c847dd1061fbdfb845206e098495ebfc7ac77faa968463fefbe391cc85e06"
+            }
+          }
+        },
+        "rest_heal": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "35f16532086fc63f9342ff415bbd44a7bae6e058f1efa2003fd2d1bc5e2429db",
+          "target": "352AA1",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/rest_heal/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4448966e22a09099a4f34e4be108360084200e0e17b595302b4f8190ffd12e99"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/rest_heal/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4448966e22a09099a4f34e4be108360084200e0e17b595302b4f8190ffd12e99"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/rest_heal/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a3f7d10e1960936901e93995e63a48b2c48b6550838a205f7b090198f0d7577d"
+            }
+          }
+        },
+        "rest_sleep": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "35f16532086fc63f9342ff415bbd44a7bae6e058f1efa2003fd2d1bc5e2429db",
+          "target": "352AA1",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/rest_sleep/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4448966e22a09099a4f34e4be108360084200e0e17b595302b4f8190ffd12e99"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/rest_sleep/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "213f8454aaf5e392ce0457ed7941669dec67388420893a906f40d325b3b04c89"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/rest_sleep/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1065f3b8eefb7acf832c4af6a1f250f9bc961f3c75dd8eba37fca4f157dd447a"
+            }
+          }
+        },
+        "pizza_small": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "b3305157ef72ba7d1408f3965cdb2ad9bb2c9c4050bcb68d4808c326be47cf36",
+          "target": "35E3C3",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_small/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e9d81c17397df895be74207f53ea6331bfa7a4d2037f145365fc9634a7ddf033"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_small/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e9d81c17397df895be74207f53ea6331bfa7a4d2037f145365fc9634a7ddf033"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_small/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "feed76708e9db92a64d4c75a73ff3d59a16687855524bfdd3347434514bf0246"
+            }
+          }
+        },
+        "pizza_medium": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "b3305157ef72ba7d1408f3965cdb2ad9bb2c9c4050bcb68d4808c326be47cf36",
+          "target": "35E3C3",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_medium/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e9d81c17397df895be74207f53ea6331bfa7a4d2037f145365fc9634a7ddf033"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_medium/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fd42daf5502f9c142ab1187122c19bd57794efe763e59a884f24044e079ef0e1"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_medium/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "299cf02d684d257282e46dce897ac10536c067bfc60d9ec0e8c2e0314b327755"
+            }
+          }
+        },
+        "pizza_large": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "b3305157ef72ba7d1408f3965cdb2ad9bb2c9c4050bcb68d4808c326be47cf36",
+          "target": "35E3C3",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_large/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e9d81c17397df895be74207f53ea6331bfa7a4d2037f145365fc9634a7ddf033"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_large/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "465c113dca376a68dd36594322513387e3e1cbf6f8113fb1d96ce1d0e86c3087"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_large/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a5d9f1efda76c6e19bfeacc7252945b0bef13d71a4a5409975fdb95b6048026b"
+            }
+          }
+        },
+        "pizza_cancel": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "b3305157ef72ba7d1408f3965cdb2ad9bb2c9c4050bcb68d4808c326be47cf36",
+          "target": "35E3C3",
+          "navigation": [],
+          "confirmation": "B",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e9d81c17397df895be74207f53ea6331bfa7a4d2037f145365fc9634a7ddf033"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e9d81c17397df895be74207f53ea6331bfa7a4d2037f145365fc9634a7ddf033"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/pizza_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a0cdd1a84333a38d998768b044484fbae176aacfcb2cdfa36284810d4ca39b00"
+            }
+          }
+        },
+        "payment_no": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "6f9f126defba377175d37abfb01807cd3f4477caa7bed569d71492ac17266bb6",
+          "target": "35E4E9",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/payment_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "62d0c8c8f42090af2fde3e7e6be91ad7528e5b7e1469f8cc70f68fe2f8b0dec8"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/payment_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "590165a2dae512acfac150b9e19229c6e07087a35f13d97485bf690077434c71"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/payment_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "03ad720d5e3c13fe1f0c490e164f2de60ff569101740a5f59cf5332705932e03"
+            }
+          }
+        },
+        "shop_no": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "5e34c9d47ffd206f01058df11dc50be5facea5e6d9673efa87822461064c17a3",
+          "target": "354D77",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/shop_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f8ce5d7ae9df74d2fa827d039509bce11ef950dce1b68869ab8918e55adf7924"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/shop_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2c2837d6c366a853c4c863faa86f97044095ee81d512334447686fe203d53312"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/accents/shop_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5ecca032e192f68f6610c4cc00ef8f047eae1565fd01ec0034076821a4375d2d"
+            }
+          }
+        }
+      },
+      "ascii": {
+        "house_yes": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "b55c278833e75c0b29c104f16955d156e737f1c6eaff9e8c530b65f491c8b16d",
+          "target": "320D10",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/house_yes/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a96f795bb8ac1b428681fe13c14d94ba0a4bebf7a53221f106ef448ad40868eb"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/house_yes/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a96f795bb8ac1b428681fe13c14d94ba0a4bebf7a53221f106ef448ad40868eb"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/house_yes/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ffbf15171e5a709d853448d17f5e19e662c009e77227bf3ec8d1b14184682c67"
+            }
+          }
+        },
+        "house_no": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "b55c278833e75c0b29c104f16955d156e737f1c6eaff9e8c530b65f491c8b16d",
+          "target": "320D10",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/house_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a96f795bb8ac1b428681fe13c14d94ba0a4bebf7a53221f106ef448ad40868eb"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/house_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f85ad3cfc6e910c883d5b4cfb7d7acd0bb859d8cd1cf78d889af85dd69b97b36"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/house_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "34a3902efbdb9157e4c5edad641e727455df2be25b88de4ea9128263d1bf4f38"
+            }
+          }
+        },
+        "house_cancel": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "b55c278833e75c0b29c104f16955d156e737f1c6eaff9e8c530b65f491c8b16d",
+          "target": "320D10",
+          "navigation": [],
+          "confirmation": "B",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/house_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a96f795bb8ac1b428681fe13c14d94ba0a4bebf7a53221f106ef448ad40868eb"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/house_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a96f795bb8ac1b428681fe13c14d94ba0a4bebf7a53221f106ef448ad40868eb"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/house_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "34a3902efbdb9157e4c5edad641e727455df2be25b88de4ea9128263d1bf4f38"
+            }
+          }
+        },
+        "storage_deposit": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "a32dddee73c54cac34414e310edb8be4bc6654a6a91ea83481bc57e175065312",
+          "target": "34B490",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/storage_deposit/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cc37e6c3f5bee855d36ea696fe2b26568669a134276872334ee0336eba777d82"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/storage_deposit/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cc37e6c3f5bee855d36ea696fe2b26568669a134276872334ee0336eba777d82"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/storage_deposit/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7fe13f8821f4e619e0e5d2b4038a733063fcca2189c36f4b3ab1151a06b5e898"
+            }
+          }
+        },
+        "storage_withdraw": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "a32dddee73c54cac34414e310edb8be4bc6654a6a91ea83481bc57e175065312",
+          "target": "34B490",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/storage_withdraw/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cc37e6c3f5bee855d36ea696fe2b26568669a134276872334ee0336eba777d82"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/storage_withdraw/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "43ebcad0693e123d2f5da06d9bf748c1bf96ff7f09c55d52aaabbe3055cc3024"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/storage_withdraw/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "486d24bf6a2b09aaa9d2313401647e39a92abed7a57cea6168cc5a8255b77731"
+            }
+          }
+        },
+        "storage_repeat": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "d769e77341fdcfcda730aa107cb8a9539dc5ef46819e8830dada8d88727503d8",
+          "target": "34B4F0",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/storage_repeat/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b600997f1f2de7ae8bd6a1049b3564e885644489e44f509cfe9cc9fa064c68b9"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/storage_repeat/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "850a3ea49912320adf8c59b568aca032e0f2f69d8f03a821b44cbbacd2c9f80c"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/storage_repeat/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9f525639ed3855ea24b0daa87d456f2389ad9a7daacdd298cf77e6ec127a2ee4"
+            }
+          }
+        },
+        "rest_heal": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "64642dcdbad1ad53ab1a14a8becb9765e32bc640d84587a0256bfb0754da9f63",
+          "target": "352AA1",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/rest_heal/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e5472f8b47f804322ba3904a61aedfdc5d510d7bb615bd63e049d647cbd1a225"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/rest_heal/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e5472f8b47f804322ba3904a61aedfdc5d510d7bb615bd63e049d647cbd1a225"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/rest_heal/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1188dea3efee0ede3b0809cff12af135fa11e39beb805099b606d442a825620a"
+            }
+          }
+        },
+        "rest_sleep": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "64642dcdbad1ad53ab1a14a8becb9765e32bc640d84587a0256bfb0754da9f63",
+          "target": "352AA1",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/rest_sleep/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e5472f8b47f804322ba3904a61aedfdc5d510d7bb615bd63e049d647cbd1a225"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/rest_sleep/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0c6125419eaf32e60b7b999ef09f7ca109e2cefb97c05fee5cec9cd479aed269"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/rest_sleep/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7670d10eae1155303fc8a5ce1802dd6e4398c193a201731c4935760c9dc01262"
+            }
+          }
+        },
+        "pizza_small": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "d183e652d49329f0d302e4616c15e6c3286b5a72f1114247e0462ea0d9aa9388",
+          "target": "35E3C3",
+          "navigation": [],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_small/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "17ea12b9342cc92c887e96240ec30f27ec537a085c470ca45ab6c83b3bd6f5c6"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_small/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "17ea12b9342cc92c887e96240ec30f27ec537a085c470ca45ab6c83b3bd6f5c6"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_small/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c41fb0aca6d5c32c729f972402454ca61d225fe2adc6933cd11e51e5fec6eeb7"
+            }
+          }
+        },
+        "pizza_medium": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "d183e652d49329f0d302e4616c15e6c3286b5a72f1114247e0462ea0d9aa9388",
+          "target": "35E3C3",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_medium/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "17ea12b9342cc92c887e96240ec30f27ec537a085c470ca45ab6c83b3bd6f5c6"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_medium/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a6f572d8d3545a47506b32cb5db78328e23b7e3ce34fd0bce3446938007f08f5"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_medium/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f4f5f8b3137bf22aa211e9f4e5ab05e934c393a202918d020f18354100a7add2"
+            }
+          }
+        },
+        "pizza_large": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "d183e652d49329f0d302e4616c15e6c3286b5a72f1114247e0462ea0d9aa9388",
+          "target": "35E3C3",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_large/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "17ea12b9342cc92c887e96240ec30f27ec537a085c470ca45ab6c83b3bd6f5c6"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_large/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "222275c69e940e074478c017b0074e6609614117a671a17d3522a190dda0dcd8"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_large/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "81d7a7e1aefb73ed8422f421dfa23fc748bac259ed9f3fcb85adf669eea5e496"
+            }
+          }
+        },
+        "pizza_cancel": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "d183e652d49329f0d302e4616c15e6c3286b5a72f1114247e0462ea0d9aa9388",
+          "target": "35E3C3",
+          "navigation": [],
+          "confirmation": "B",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "17ea12b9342cc92c887e96240ec30f27ec537a085c470ca45ab6c83b3bd6f5c6"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "17ea12b9342cc92c887e96240ec30f27ec537a085c470ca45ab6c83b3bd6f5c6"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/pizza_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e11c65287b129f7f7a2d38e544a9ea13de6eb8e2ab27e1636e744577ddf38c3a"
+            }
+          }
+        },
+        "payment_no": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "548620beb0a8f27458ca0e4f2b2ac30035ae552856f0496344bba3fd9d6c49d1",
+          "target": "35E4E9",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/payment_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "29981860f02bde38c336c2048c302f62433e8215f0d846f595a0b64f86628cff"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/payment_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "339aed0a4f96793e3d3cee2fc2072e695bcee7e4f7f85b17c9ddabd6b0da9772"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/payment_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "bc86e001a07b87818f6a72470c8c51697bd3c3f741cd89566d40ff6134b0eec4"
+            }
+          }
+        },
+        "shop_no": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "c7cadd1138aa09e8b0e47c81813c0b2e14e5a30fa8492aa464b613248c136ca4",
+          "target": "354D77",
+          "navigation": [
+            "Right"
+          ],
+          "confirmation": "A",
+          "only_pointer_operand_changed": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/shop_no/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7cc9599ae64db10bbf5a0880cff19a6902e3e302772f6f8e58810fa3f566b782"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/shop_no/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5e2b345880ef229e7bab71be1c8d124fa91c963792b9969b0fd8790ec4fde0aa"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v54/v54/ascii/shop_no/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "da2d1d2abf9b4d8b21df8925553793a892fb251e13573b3a38b1eb13249314b0"
+            }
+          }
+        }
+      }
+    }
+  },
+  "result_images_identical_to_v53": {
+    "accents": {
+      "house_yes": true,
+      "house_no": true,
+      "house_cancel": true,
+      "storage_deposit": true,
+      "storage_withdraw": true,
+      "storage_repeat": true,
+      "rest_heal": true,
+      "rest_sleep": true,
+      "pizza_small": true,
+      "pizza_medium": true,
+      "pizza_large": true,
+      "pizza_cancel": true,
+      "payment_no": true,
+      "shop_no": true
+    },
+    "ascii": {
+      "house_yes": true,
+      "house_no": true,
+      "house_cancel": true,
+      "storage_deposit": true,
+      "storage_withdraw": true,
+      "storage_repeat": true,
+      "rest_heal": true,
+      "rest_sleep": true,
+      "pizza_small": true,
+      "pizza_medium": true,
+      "pizza_large": true,
+      "pizza_cancel": true,
+      "payment_no": true,
+      "shop_no": true
+    }
+  }
+}
