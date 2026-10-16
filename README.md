@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V52 (traduction partielle)
+## Version actuelle : V53 (traduction partielle)
+
+V53 traite **les trois dialogues protégés restants par leurs entrées de personnage** : maison hantée, adieux et ascenseur. Elle traduit aussi le préfixe de confirmation d'achat « Objet: ». La table des personnages est vérifiée par dix références du moteur. Les anciennes entrées intérieures restent intactes ; certains chemins secondaires peuvent encore afficher l'anglais. Les menus restent pour la suite.
+
+- [Patch V53 avec accents](patches/EarthBound_Beginnings_FR_v53_accents.ips)
+- [Patch V53 ASCII](patches/EarthBound_Beginnings_FR_v53_ascii.ips)
+- [Rapport V53](RAPPORT_V53.md)
+- [Sources et tests](tools/v53/README_V53.md)
+- [Essais Snes9x et captures](tests/emulation_v53/RAPPORT_EMULATION_V53.md)
+
+Appliquer **un seul IPS V53 directement à la ROM originale USA 1.2**. 386 tests locaux réussis. Les 212 captures du parcours normal sont identiques à V52 ; quatre lectures contrôlées par variante vérifient les ajouts. Déclenchements naturels et embranchements complets restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V52 (traduction partielle)
 
 V52 ajoute **16 fragments dans six contextes** : scène du club d'Ellay, appel du père, commande de pizza et réponses de paiement. « Amour et paix, ouais! » passe en français tout en conservant ses anciennes entrées intérieures. Le décompte inclut deux onomatopées. Les menus restent pour la suite.
 

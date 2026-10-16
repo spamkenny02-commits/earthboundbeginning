@@ -1,0 +1,91 @@
+{
+  "npc_table_offset": "2021A8",
+  "record_size": 17,
+  "text_fields": [
+    9,
+    13
+  ],
+  "schema_source": "https://github.com/pk-hack/CoilSnake/blob/346cfc753644bc3703b6fc4eaa0a5d6bdcb9bb4a/coilsnake/assets/structures/eb.yml",
+  "engine_references_source": "https://github.com/pk-hack/CoilSnake/blob/346cfc753644bc3703b6fc4eaa0a5d6bdcb9bb4a/coilsnake/modules/eb/ExpandedTablesModule.py",
+  "pointer_format_source": "https://github.com/pk-hack/CoilSnake/blob/346cfc753644bc3703b6fc4eaa0a5d6bdcb9bb4a/coilsnake/util/eb/pointer.py",
+  "engine_references": [
+    {
+      "kind": "asm",
+      "offset": "0023E5"
+    },
+    {
+      "kind": "asm",
+      "offset": "0131CA"
+    },
+    {
+      "kind": "asm",
+      "offset": "01327F"
+    },
+    {
+      "kind": "asm",
+      "offset": "01332F"
+    },
+    {
+      "kind": "asm",
+      "offset": "01B20B"
+    },
+    {
+      "kind": "asm",
+      "offset": "0464C1"
+    },
+    {
+      "kind": "asm",
+      "offset": "046831"
+    },
+    {
+      "kind": "asm",
+      "offset": "046930"
+    },
+    {
+      "kind": "xl",
+      "offset": "00C32E"
+    },
+    {
+      "kind": "xl",
+      "offset": "01AD77"
+    }
+  ],
+  "entries": [
+    {
+      "id": "33F3EE",
+      "mode": "npc_copy",
+      "slot": "205BFF",
+      "fr": "@Tu connais la maison hantée de Spookane?",
+      "prior_pointer_updates": []
+    },
+    {
+      "id": "3609EB",
+      "mode": "npc_copy",
+      "slot": "202877",
+      "fr": "@Il est temps de se dire adieu...",
+      "prior_pointer_updates": [
+        {
+          "offset": "360A16",
+          "old_target": "360A5B",
+          "new_target": "16F920",
+          "version": 35
+        }
+      ]
+    },
+    {
+      "id": "350000",
+      "mode": "npc_copy",
+      "slot": "205A9A",
+      "fr": "@On monte!",
+      "prior_pointer_updates": []
+    },
+    {
+      "id": "354DB2",
+      "mode": "text_jump",
+      "context": "354D77",
+      "end": "354DB7",
+      "fr": "@Objet: ",
+      "prior_pointer_updates": []
+    }
+  ]
+}
