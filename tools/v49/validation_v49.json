@@ -1,0 +1,30 @@
+{
+  "version": "v49",
+  "base": "v48",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "text_spans_translated": 211,
+  "lexical_spans_translated": 207,
+  "distinct_english_fragments": 198,
+  "contexts_revised": 84,
+  "script_addresses_changed": false,
+  "shared_dictionary_modified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "5d9e3cf5c8ef06d95a2ae337b76fce2edb69c4c797a0a6e727737e574bfb73b1",
+      "target_rom_sha256": "2feec37147f752b652e75321263478a2beea8e3fbedf56dbded9debf0756a577",
+      "records_added": 211,
+      "prior_records_preserved": 8006,
+      "rom_roundtrip": true,
+      "outside_text_unchanged": true
+    },
+    "ascii": {
+      "sha256": "33aaa7ef567cf6c434e89af5a464171c60bebc8333f417f5db05d94ba33f18f1",
+      "target_rom_sha256": "14e65ce3b94a1c8db273ca356dc557139174178af655e0daf87626a7544e5395",
+      "records_added": 211,
+      "prior_records_preserved": 7901,
+      "rom_roundtrip": true,
+      "outside_text_unchanged": true
+    }
+  },
+  "natural_scene_access_verified": false
+}

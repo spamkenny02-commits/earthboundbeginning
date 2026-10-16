@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V48 (traduction partielle)
+## Version actuelle : V49 (traduction partielle)
+
+V49 traduit **207 fragments lexicaux et quatre liaisons ou ponctuations dans 84 contextes** déjà partiellement français : Magicant, indices, école, appels, objets et chalet. Les segments communs sont dédoublonnés. Vingt et un segments visés par une adresse intérieure restent à examiner ; les menus restent pour la suite.
+
+- [Patch V49 avec accents](patches/EarthBound_Beginnings_FR_v49_accents.ips)
+- [Patch V49 ASCII](patches/EarthBound_Beginnings_FR_v49_ascii.ips)
+- [Rapport V49](RAPPORT_V49.md)
+- [Sources et tests](tools/v49/README_V49.md)
+- [Essais Snes9x et captures](tests/emulation_v49/RAPPORT_EMULATION_V49.md)
+
+Appliquer **un seul IPS V49 directement à la ROM originale USA 1.2**. 292 tests locaux réussis. Le parcours normal conserve les 212 captures V48 ; treize contextes sont relus par appel contrôlé dans les deux variantes. Les déclenchements naturels et embranchements restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V48 (traduction partielle)
 
 V48 ajoute **66 fragments traduits dans 40 scripts et quatre routines privées**, plus deux corrections « Chacun ». Les phrases communes des descriptions d'objets passent en français : équipement, PV récupérés et usage unique ou répété. Les menus restent pour la suite.
 
