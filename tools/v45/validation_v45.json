@@ -1,0 +1,705 @@
+{
+  "base": "V44",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "scripts_revised": 13,
+  "private_helper_scripts": 7,
+  "text_spans_in_copies": 36,
+  "newly_translated_fragments": 20,
+  "onomatopoeia_characters_adjusted": 0,
+  "nonlexical_fragments_adjusted": 6,
+  "already_french_fragments": 0,
+  "dictionary_entries_expanded": 28,
+  "shared_dictionary_modified": false,
+  "unproven_references_preserved": 0,
+  "distinct_new_english_fragments": 18,
+  "dialogue_yes_no_choices_deferred_to_menu_pass": 4,
+  "reservations": [
+    [
+      "32F910",
+      "32F9F0"
+    ],
+    [
+      "32FE20",
+      "32FEF0"
+    ],
+    [
+      "32A780",
+      "32A840"
+    ],
+    [
+      "32BFD0",
+      "32C090"
+    ],
+    [
+      "32EF20",
+      "32EFE0"
+    ],
+    [
+      "32F130",
+      "32F1F0"
+    ],
+    [
+      "32FBC0",
+      "32FC80"
+    ],
+    [
+      "25F7A0",
+      "25F850"
+    ],
+    [
+      "32CB20",
+      "32CBD0"
+    ],
+    [
+      "32F230",
+      "32F2E0"
+    ],
+    [
+      "32FD40",
+      "32FDF0"
+    ],
+    [
+      "25F490",
+      "25F530"
+    ],
+    [
+      "320830",
+      "3208D0"
+    ],
+    [
+      "32EB50",
+      "32EBF0"
+    ],
+    [
+      "25F9B0",
+      "25FA40"
+    ],
+    [
+      "32B1D0",
+      "32B260"
+    ],
+    [
+      "32EA90",
+      "32EB20"
+    ],
+    [
+      "32EE50",
+      "32EEE0"
+    ]
+  ],
+  "profiles": {
+    "accents": {
+      "sha256": "9eaf5f1c58b9e9f80c4b0a7ae8d43cf898d472d4f6b31b7e3d8742457bf42e75",
+      "target_rom_sha256": "f5a31ddb0e13935c7d2a118ab6bedc2987dbf73d79167d03a4db82fcbf092089",
+      "prior_records_preserved": 7548,
+      "records_added": 19,
+      "relocated": [
+        {
+          "id": "2F7C73",
+          "offset": "32F910",
+          "old_length": 133,
+          "new_length": 190,
+          "internal_refs": [
+            {
+              "offset": "32F918",
+              "old_target": "07E6D7",
+              "new_target": "32A780"
+            },
+            {
+              "offset": "32F97A",
+              "old_target": "2F7D0F",
+              "new_target": "32FE20"
+            },
+            {
+              "offset": "32F97E",
+              "old_target": "2F7CB4",
+              "new_target": "32F982"
+            },
+            {
+              "offset": "32F9B8",
+              "old_target": "2F7CF8",
+              "new_target": "32A81C"
+            },
+            {
+              "offset": "32F9BC",
+              "old_target": "2F7CED",
+              "new_target": "32F9C0"
+            },
+            {
+              "offset": "32F9CA",
+              "old_target": "2F7C89",
+              "new_target": "32F944"
+            }
+          ]
+        },
+        {
+          "id": "2F7D0F",
+          "offset": "32FE20",
+          "old_length": 116,
+          "new_length": 131,
+          "internal_refs": [
+            {
+              "offset": "32FE3E",
+              "old_target": "2F7CB4",
+              "new_target": "32F982"
+            },
+            {
+              "offset": "32FE9A",
+              "old_target": "2F7CB4",
+              "new_target": "32F982"
+            },
+            {
+              "offset": "32FE9F",
+              "old_target": "2F7CB4",
+              "new_target": "32F982"
+            }
+          ]
+        },
+        {
+          "id": "37BD9B",
+          "offset": "32FEA4",
+          "old_length": 67,
+          "new_length": 67,
+          "internal_refs": [
+            {
+              "offset": "32FEB2",
+              "old_target": "37BDEE",
+              "new_target": "32A7F0"
+            },
+            {
+              "offset": "32FEB9",
+              "old_target": "37BDEE",
+              "new_target": "32A7F0"
+            }
+          ]
+        },
+        {
+          "id": "07E6D7",
+          "offset": "32A780",
+          "old_length": 55,
+          "new_length": 55,
+          "internal_refs": [
+            {
+              "offset": "32A792",
+              "old_target": "07E70E",
+              "new_target": "32BFF0"
+            },
+            {
+              "offset": "32A7A0",
+              "old_target": "07E70E",
+              "new_target": "32BFF0"
+            },
+            {
+              "offset": "32A7AE",
+              "old_target": "07E70E",
+              "new_target": "32BFF0"
+            },
+            {
+              "offset": "32A7B3",
+              "old_target": "07E6E1",
+              "new_target": "32A78A"
+            }
+          ]
+        },
+        {
+          "id": "2F84F3",
+          "offset": "32A7B8",
+          "old_length": 30,
+          "new_length": 53,
+          "internal_refs": [
+            {
+              "offset": "32A7BB",
+              "old_target": "07E6D7",
+              "new_target": "32A780"
+            }
+          ]
+        },
+        {
+          "id": "37BDEE",
+          "offset": "32A7F0",
+          "old_length": 42,
+          "new_length": 42,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7CF8",
+          "offset": "32A81C",
+          "old_length": 23,
+          "new_length": 34,
+          "internal_refs": [
+            {
+              "offset": "32A82F",
+              "old_target": "07E74E",
+              "new_target": "32C02C"
+            }
+          ]
+        },
+        {
+          "id": "07E735",
+          "offset": "32BFD0",
+          "old_length": 19,
+          "new_length": 30,
+          "internal_refs": [
+            {
+              "offset": "32BFDB",
+              "old_target": "07E748",
+              "new_target": "32C00C"
+            }
+          ]
+        },
+        {
+          "id": "07E70E",
+          "offset": "32BFF0",
+          "old_length": 27,
+          "new_length": 27,
+          "internal_refs": [
+            {
+              "offset": "32BFF6",
+              "old_target": "07E729",
+              "new_target": "32C038"
+            },
+            {
+              "offset": "32BFFA",
+              "old_target": "07E729",
+              "new_target": "32C038"
+            },
+            {
+              "offset": "32BFFE",
+              "old_target": "07E72A",
+              "new_target": "32C01C"
+            },
+            {
+              "offset": "32C002",
+              "old_target": "07E735",
+              "new_target": "32BFD0"
+            },
+            {
+              "offset": "32C006",
+              "old_target": "07E735",
+              "new_target": "32BFD0"
+            }
+          ]
+        },
+        {
+          "id": "07E748",
+          "offset": "32C00C",
+          "old_length": 6,
+          "new_length": 15,
+          "internal_refs": []
+        },
+        {
+          "id": "07E72A",
+          "offset": "32C01C",
+          "old_length": 11,
+          "new_length": 13,
+          "internal_refs": []
+        },
+        {
+          "id": "07E74E",
+          "offset": "32C02C",
+          "old_length": 10,
+          "new_length": 10,
+          "internal_refs": [
+            {
+              "offset": "32C02F",
+              "old_target": "07E6D7",
+              "new_target": "32A780"
+            }
+          ]
+        },
+        {
+          "id": "07E729",
+          "offset": "32C038",
+          "old_length": 1,
+          "new_length": 1,
+          "internal_refs": []
+        }
+      ],
+      "external_refs_rewritten": [
+        {
+          "offset": "2F7C19",
+          "old_target": "2F7C73",
+          "new_target": "32F910",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7C17",
+            "command_hex": "1b02737cef00"
+          }
+        },
+        {
+          "offset": "2F7DD1",
+          "old_target": "2F7D0F",
+          "new_target": "32FE20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7DD0",
+            "command_hex": "0a0f7def00"
+          }
+        },
+        {
+          "offset": "320BB4",
+          "old_target": "2F7D0F",
+          "new_target": "32FE20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "320BB3",
+            "command_hex": "0a0f7def00"
+          }
+        },
+        {
+          "offset": "37BC77",
+          "old_target": "37BD9B",
+          "new_target": "32FEA4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37BC76",
+            "command_hex": "089bbdf700"
+          }
+        },
+        {
+          "offset": "158880",
+          "old_target": "2F84F3",
+          "new_target": "32A7B8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15887C",
+            "record_hex": "01000500f384ef003990c200"
+          }
+        },
+        {
+          "offset": "368F29",
+          "old_target": "2F84F3",
+          "new_target": "32A7B8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368F25",
+            "record_hex": "01000500f384ef009b88c200"
+          }
+        }
+      ],
+      "prior_pointer_repairs": [],
+      "rom_roundtrip": true,
+      "source_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "prior_record_pointer_updates": [
+        {
+          "offset": "320BB4",
+          "old_target": "2F7D0F",
+          "new_target": "32FE20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "320BB3",
+            "command_hex": "0a0f7def00"
+          }
+        }
+      ]
+    },
+    "ascii": {
+      "sha256": "8f9c9b3a1c4ee12d789843ade2c8095370ba5f33d7a0ec2d8495f8fd88de2434",
+      "target_rom_sha256": "4d9c2c96fa297594306265e51f2a8e2d8d5f4a6ab8537f6ff93dc63fefb6b12b",
+      "prior_records_preserved": 7443,
+      "records_added": 19,
+      "relocated": [
+        {
+          "id": "2F7C73",
+          "offset": "32F910",
+          "old_length": 133,
+          "new_length": 190,
+          "internal_refs": [
+            {
+              "offset": "32F918",
+              "old_target": "07E6D7",
+              "new_target": "32A780"
+            },
+            {
+              "offset": "32F97A",
+              "old_target": "2F7D0F",
+              "new_target": "32FE20"
+            },
+            {
+              "offset": "32F97E",
+              "old_target": "2F7CB4",
+              "new_target": "32F982"
+            },
+            {
+              "offset": "32F9B8",
+              "old_target": "2F7CF8",
+              "new_target": "32A81C"
+            },
+            {
+              "offset": "32F9BC",
+              "old_target": "2F7CED",
+              "new_target": "32F9C0"
+            },
+            {
+              "offset": "32F9CA",
+              "old_target": "2F7C89",
+              "new_target": "32F944"
+            }
+          ]
+        },
+        {
+          "id": "2F7D0F",
+          "offset": "32FE20",
+          "old_length": 116,
+          "new_length": 131,
+          "internal_refs": [
+            {
+              "offset": "32FE3E",
+              "old_target": "2F7CB4",
+              "new_target": "32F982"
+            },
+            {
+              "offset": "32FE9A",
+              "old_target": "2F7CB4",
+              "new_target": "32F982"
+            },
+            {
+              "offset": "32FE9F",
+              "old_target": "2F7CB4",
+              "new_target": "32F982"
+            }
+          ]
+        },
+        {
+          "id": "37BD9B",
+          "offset": "32FEA4",
+          "old_length": 67,
+          "new_length": 67,
+          "internal_refs": [
+            {
+              "offset": "32FEB2",
+              "old_target": "37BDEE",
+              "new_target": "32A7F0"
+            },
+            {
+              "offset": "32FEB9",
+              "old_target": "37BDEE",
+              "new_target": "32A7F0"
+            }
+          ]
+        },
+        {
+          "id": "07E6D7",
+          "offset": "32A780",
+          "old_length": 55,
+          "new_length": 55,
+          "internal_refs": [
+            {
+              "offset": "32A792",
+              "old_target": "07E70E",
+              "new_target": "32BFF0"
+            },
+            {
+              "offset": "32A7A0",
+              "old_target": "07E70E",
+              "new_target": "32BFF0"
+            },
+            {
+              "offset": "32A7AE",
+              "old_target": "07E70E",
+              "new_target": "32BFF0"
+            },
+            {
+              "offset": "32A7B3",
+              "old_target": "07E6E1",
+              "new_target": "32A78A"
+            }
+          ]
+        },
+        {
+          "id": "2F84F3",
+          "offset": "32A7B8",
+          "old_length": 30,
+          "new_length": 53,
+          "internal_refs": [
+            {
+              "offset": "32A7BB",
+              "old_target": "07E6D7",
+              "new_target": "32A780"
+            }
+          ]
+        },
+        {
+          "id": "37BDEE",
+          "offset": "32A7F0",
+          "old_length": 42,
+          "new_length": 42,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7CF8",
+          "offset": "32A81C",
+          "old_length": 23,
+          "new_length": 34,
+          "internal_refs": [
+            {
+              "offset": "32A82F",
+              "old_target": "07E74E",
+              "new_target": "32C02C"
+            }
+          ]
+        },
+        {
+          "id": "07E735",
+          "offset": "32BFD0",
+          "old_length": 19,
+          "new_length": 30,
+          "internal_refs": [
+            {
+              "offset": "32BFDB",
+              "old_target": "07E748",
+              "new_target": "32C00C"
+            }
+          ]
+        },
+        {
+          "id": "07E70E",
+          "offset": "32BFF0",
+          "old_length": 27,
+          "new_length": 27,
+          "internal_refs": [
+            {
+              "offset": "32BFF6",
+              "old_target": "07E729",
+              "new_target": "32C038"
+            },
+            {
+              "offset": "32BFFA",
+              "old_target": "07E729",
+              "new_target": "32C038"
+            },
+            {
+              "offset": "32BFFE",
+              "old_target": "07E72A",
+              "new_target": "32C01C"
+            },
+            {
+              "offset": "32C002",
+              "old_target": "07E735",
+              "new_target": "32BFD0"
+            },
+            {
+              "offset": "32C006",
+              "old_target": "07E735",
+              "new_target": "32BFD0"
+            }
+          ]
+        },
+        {
+          "id": "07E748",
+          "offset": "32C00C",
+          "old_length": 6,
+          "new_length": 15,
+          "internal_refs": []
+        },
+        {
+          "id": "07E72A",
+          "offset": "32C01C",
+          "old_length": 11,
+          "new_length": 13,
+          "internal_refs": []
+        },
+        {
+          "id": "07E74E",
+          "offset": "32C02C",
+          "old_length": 10,
+          "new_length": 10,
+          "internal_refs": [
+            {
+              "offset": "32C02F",
+              "old_target": "07E6D7",
+              "new_target": "32A780"
+            }
+          ]
+        },
+        {
+          "id": "07E729",
+          "offset": "32C038",
+          "old_length": 1,
+          "new_length": 1,
+          "internal_refs": []
+        }
+      ],
+      "external_refs_rewritten": [
+        {
+          "offset": "2F7C19",
+          "old_target": "2F7C73",
+          "new_target": "32F910",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7C17",
+            "command_hex": "1b02737cef00"
+          }
+        },
+        {
+          "offset": "2F7DD1",
+          "old_target": "2F7D0F",
+          "new_target": "32FE20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7DD0",
+            "command_hex": "0a0f7def00"
+          }
+        },
+        {
+          "offset": "320BB4",
+          "old_target": "2F7D0F",
+          "new_target": "32FE20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "320BB3",
+            "command_hex": "0a0f7def00"
+          }
+        },
+        {
+          "offset": "37BC77",
+          "old_target": "37BD9B",
+          "new_target": "32FEA4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37BC76",
+            "command_hex": "089bbdf700"
+          }
+        },
+        {
+          "offset": "158880",
+          "old_target": "2F84F3",
+          "new_target": "32A7B8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "15887C",
+            "record_hex": "01000500f384ef003990c200"
+          }
+        },
+        {
+          "offset": "368F29",
+          "old_target": "2F84F3",
+          "new_target": "32A7B8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368F25",
+            "record_hex": "01000500f384ef009b88c200"
+          }
+        }
+      ],
+      "prior_pointer_repairs": [],
+      "rom_roundtrip": true,
+      "source_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "prior_record_pointer_updates": [
+        {
+          "offset": "320BB4",
+          "old_target": "2F7D0F",
+          "new_target": "32FE20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "320BB3",
+            "command_hex": "0a0f7def00"
+          }
+        }
+      ]
+    }
+  },
+  "new_scenes_naturally_emulator_tested": false
+}

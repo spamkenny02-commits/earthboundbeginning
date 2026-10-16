@@ -1,0 +1,42 @@
+{
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "method": "controlled_guard_description_routing",
+  "rom_modified_for_probe": true,
+  "wram_modified_for_probe": false,
+  "pointer_slot": "368275",
+  "natural_access_to_target_actions_verified": false,
+  "profiles": {
+    "accents": {
+      "2F84F3": {
+        "base_rom_sha256": "f5a31ddb0e13935c7d2a118ab6bedc2987dbf73d79167d03a4db82fcbf092089",
+        "fixture_rom_sha256": "984a7389d6081e44afbe5a0b3c3ae2f033f4ea07d1aef7c1800fac2bcc51377f",
+        "new_target": "32A7B8",
+        "only_pointer_operand_changed": true,
+        "returncode": 0,
+        "selected_capture": {
+          "path": "text_500.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "8231a6eb1624ab105c836e471c2e0e527f8ef9f0c528a107e8320def97bdae14"
+        },
+        "proof": "proofs/flee_accents.png"
+      }
+    },
+    "ascii": {
+      "2F84F3": {
+        "base_rom_sha256": "4d9c2c96fa297594306265e51f2a8e2d8d5f4a6ab8537f6ff93dc63fefb6b12b",
+        "fixture_rom_sha256": "52d8b541aa2232120a4df760380bf14fe0f66dd9996e1989f4f230c5348e9c68",
+        "new_target": "32A7B8",
+        "only_pointer_operand_changed": true,
+        "returncode": 0,
+        "selected_capture": {
+          "path": "text_500.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "8ef1a7008a1f93a74767bb052c7d16a9de32e633f83e2aa20ac32d95edf42c69"
+        },
+        "proof": "proofs/flee_ascii.png"
+      }
+    }
+  }
+}

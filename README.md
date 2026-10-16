@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V44 (traduction partielle)
+## Version actuelle : V45 (traduction partielle)
+
+V45 ajoute **20 fragments français dans six messages et sept sous-routines privées** : inventaire plein, abandon d'objet, fuite et variations d'attaque/défense. Les raccords V44 déjà présents dans le dialogue de sélection sont conservés dans les nouvelles copies.
+
+- [Patch V45 avec accents](patches/EarthBound_Beginnings_FR_v45_accents.ips)
+- [Patch V45 ASCII](patches/EarthBound_Beginnings_FR_v45_ascii.ips)
+- [Rapport V45](RAPPORT_V45.md)
+- [Sources et tests](tools/v45/README_V45.md)
+- [Essais Snes9x et captures](tests/emulation_v45/RAPPORT_EMULATION_V45.md)
+
+Appliquer **un seul IPS V45 directement à la ROM originale USA 1.2**. 207 tests locaux réussis et parcours normal Snes9x conforme. Les dialogues d'inventaire et de fuite sont relus par routage contrôlé ; les notifications de statistiques restent à vérifier dans leur scène. Les menus restent pour la suite. Aucune ROM distribuée.
+
+## Version précédente : V44 (traduction partielle)
 
 V44 ajoute **93 fragments français dans 46 scripts de messages et six routines grammaticales privées** : combat, inventaire, services, Laura et Pippi. Elle corrige aussi **14 pointeurs V43** touchés par une collision entre la fin d'un script et l'entrée du suivant. Les menus restent pour la suite.
 
