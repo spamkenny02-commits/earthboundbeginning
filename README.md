@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V50 (traduction partielle)
+## Version actuelle : V51 (traduction partielle)
+
+V51 traduit **24 fragments auparavant protégés, dans 21 contextes** : trésor, fantômes, indices, montagne, pizza et descriptions d'objets. Des sauts vers des copies françaises conservent les anciennes entrées intérieures. Quatre des 28 fragments examinés restent reportés. Les menus restent pour la suite.
+
+- [Patch V51 avec accents](patches/EarthBound_Beginnings_FR_v51_accents.ips)
+- [Patch V51 ASCII](patches/EarthBound_Beginnings_FR_v51_ascii.ips)
+- [Rapport V51](RAPPORT_V51.md)
+- [Sources et tests](tools/v51/README_V51.md)
+- [Essais Snes9x et captures](tests/emulation_v51/RAPPORT_EMULATION_V51.md)
+
+Appliquer **un seul IPS V51 directement à la ROM originale USA 1.2**. 335 tests locaux réussis. Les 212 captures du parcours normal sont identiques à V50 ; 26 lectures contrôlées sont effectuées dans chaque variante. Les déclenchements naturels et les parcours entrant à l'intérieur des anciens textes restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V50 (traduction partielle)
 
 V50 ajoute **46 fragments dans 29 contextes** et quatre petites routines privées pour « sa tête » et « son niveau max. ». Les 21 protections V49 sont auditées et conservées ; sept autres segments sont reportés. Les menus restent pour la suite.
 
