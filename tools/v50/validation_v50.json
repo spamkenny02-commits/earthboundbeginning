@@ -1,0 +1,108 @@
+{
+  "version": "v50",
+  "base": "v49",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "text_spans_translated": 46,
+  "lexical_spans_translated": 46,
+  "distinct_english_fragments": 41,
+  "contexts_revised": 29,
+  "main_script_addresses_changed": false,
+  "private_grammar_copies": 4,
+  "grammar_call_operands_changed": 2,
+  "shared_dictionary_modified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "bdcef09644a4580b60495011c9119d1f6ab81c41bd707f757294394e9ad426bd",
+      "target_rom_sha256": "070fb68a9a6359093c44dc32d8f75f74d8744f7a9e8a934b5b4680934e4fe394",
+      "records_added": 52,
+      "prior_records_preserved": 8217,
+      "rom_roundtrip": true,
+      "outside_declared_ranges_unchanged": true,
+      "grammar_copies": [
+        {
+          "id": "07E660",
+          "offset": "251E00",
+          "length": 11,
+          "internal_refs": [
+            {
+              "offset": "251E04",
+              "old_target": "07E66B",
+              "new_target": "251E0C"
+            }
+          ]
+        },
+        {
+          "id": "07E66B",
+          "offset": "251E0C",
+          "length": 3,
+          "internal_refs": []
+        },
+        {
+          "id": "35C758",
+          "offset": "251E10",
+          "length": 12,
+          "internal_refs": [
+            {
+              "offset": "251E14",
+              "old_target": "35C764",
+              "new_target": "251E1C"
+            }
+          ]
+        },
+        {
+          "id": "35C764",
+          "offset": "251E1C",
+          "length": 4,
+          "internal_refs": []
+        }
+      ]
+    },
+    "ascii": {
+      "sha256": "40b0d2619cf2c7fe5ac19e61bba5d81e26f25be831d441e24f1eb482ceafb49e",
+      "target_rom_sha256": "aa7b2e11023ed8769c3118ba7020ab9dfa343e03269c0a701e59a8feaaca8cf0",
+      "records_added": 52,
+      "prior_records_preserved": 8112,
+      "rom_roundtrip": true,
+      "outside_declared_ranges_unchanged": true,
+      "grammar_copies": [
+        {
+          "id": "07E660",
+          "offset": "251E00",
+          "length": 11,
+          "internal_refs": [
+            {
+              "offset": "251E04",
+              "old_target": "07E66B",
+              "new_target": "251E0C"
+            }
+          ]
+        },
+        {
+          "id": "07E66B",
+          "offset": "251E0C",
+          "length": 3,
+          "internal_refs": []
+        },
+        {
+          "id": "35C758",
+          "offset": "251E10",
+          "length": 12,
+          "internal_refs": [
+            {
+              "offset": "251E14",
+              "old_target": "35C764",
+              "new_target": "251E1C"
+            }
+          ]
+        },
+        {
+          "id": "35C764",
+          "offset": "251E1C",
+          "length": 4,
+          "internal_refs": []
+        }
+      ]
+    }
+  },
+  "natural_scene_access_verified": false
+}

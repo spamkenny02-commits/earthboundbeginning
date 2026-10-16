@@ -1,0 +1,23 @@
+name: Verify V50 IPS offline
+
+on:
+  push:
+    paths:
+      - 'tools/v50/**'
+      - 'patches/EarthBound_Beginnings_FR_v50_*.ips'
+      - '.github/workflows/verifier-v50.yml'
+  pull_request:
+    paths:
+      - 'tools/v50/**'
+      - 'patches/EarthBound_Beginnings_FR_v50_*.ips'
+      - '.github/workflows/verifier-v50.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v50 -p test_v50_offline.py -v
