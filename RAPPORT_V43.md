@@ -1,5 +1,7 @@
 # V43 — combat, services et Maria
 
+**Correctif V44 :** un audit ultérieur a identifié 14 pointeurs de cette version visant une fin de copie au lieu de l’entrée du script contigu. Ils sont corrigés dans la [V44](RAPPORT_V44.md), avec des tests supplémentaires de destination. Utiliser désormais le patch V44.
+
 Base publiée : V42 (`17591d5`). **56 scripts, 102 nouvelles occurrences de fragments français**, soit 91 fragments anglais distincts. Les copies contiennent 166 plages textuelles : 102 traductions, 12 ajustements d'espacement avant « ! » et 52 marqueurs ou signes conservés. Les 12 ajustements ne sont pas comptés comme traductions nouvelles.
 
 Le lot couvre des actions et réactions de combat, l'utilisation d'objets, plusieurs réponses de services et boutiques, les variations de statistiques et les souvenirs de Maria concernant Giygas et George. Aucun menu ou choix Yes/No n'est modifié. Deux candidats uniquement référencés par l'ancienne table d'actions ont été écartés.

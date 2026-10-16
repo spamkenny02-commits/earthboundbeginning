@@ -1,0 +1,3547 @@
+{
+  "base": "V43",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "scripts_revised": 52,
+  "private_helper_scripts": 6,
+  "text_spans_in_copies": 152,
+  "newly_translated_fragments": 93,
+  "onomatopoeia_characters_adjusted": 7,
+  "nonlexical_fragments_adjusted": 13,
+  "already_french_fragments": 0,
+  "dictionary_entries_expanded": 36,
+  "shared_dictionary_modified": false,
+  "unproven_references_preserved": 15,
+  "distinct_new_english_fragments": 85,
+  "dialogue_yes_no_choices_deferred_to_menu_pass": 12,
+  "reservations": [
+    [
+      "32FA20",
+      "32FB90"
+    ],
+    [
+      "32CDE0",
+      "32CF10"
+    ],
+    [
+      "32CC90",
+      "32CDB0"
+    ],
+    [
+      "32ECA0",
+      "32EDC0"
+    ],
+    [
+      "32C9E0",
+      "32CAF0"
+    ],
+    [
+      "32E120",
+      "32E230"
+    ],
+    [
+      "32E950",
+      "32EA60"
+    ],
+    [
+      "32B500",
+      "32B600"
+    ],
+    [
+      "320BA0",
+      "320C80"
+    ],
+    [
+      "32F020",
+      "32F100"
+    ],
+    [
+      "32F910",
+      "32F9F0"
+    ],
+    [
+      "32FE20",
+      "32FEF0"
+    ],
+    [
+      "32A780",
+      "32A840"
+    ],
+    [
+      "32BFD0",
+      "32C090"
+    ],
+    [
+      "32EF20",
+      "32EFE0"
+    ],
+    [
+      "32F130",
+      "32F1F0"
+    ],
+    [
+      "32FBC0",
+      "32FC80"
+    ],
+    [
+      "25F7A0",
+      "25F850"
+    ],
+    [
+      "32CB20",
+      "32CBD0"
+    ],
+    [
+      "32F230",
+      "32F2E0"
+    ],
+    [
+      "32FD40",
+      "32FDF0"
+    ],
+    [
+      "25F490",
+      "25F530"
+    ],
+    [
+      "320830",
+      "3208D0"
+    ],
+    [
+      "32EB50",
+      "32EBF0"
+    ],
+    [
+      "25F9B0",
+      "25FA40"
+    ],
+    [
+      "32B1D0",
+      "32B260"
+    ],
+    [
+      "32EA90",
+      "32EB20"
+    ],
+    [
+      "32EE50",
+      "32EEE0"
+    ]
+  ],
+  "profiles": {
+    "accents": {
+      "sha256": "61c460bfdec70d3a0eb1c7d1c6ead4a06aa31b2e04a7262a4b8fe9626ea474eb",
+      "target_rom_sha256": "ea71a0248a026eb802b335aafcb4e80025c9a86fb21e7e9b8df731c1eec3e808",
+      "prior_records_preserved": 7401,
+      "records_added": 147,
+      "relocated": [
+        {
+          "id": "373E48",
+          "offset": "32FA20",
+          "old_length": 205,
+          "new_length": 210,
+          "internal_refs": []
+        },
+        {
+          "id": "34A0ED",
+          "offset": "32FAF4",
+          "old_length": 163,
+          "new_length": 152,
+          "internal_refs": []
+        },
+        {
+          "id": "34A024",
+          "offset": "32CDE0",
+          "old_length": 131,
+          "new_length": 129,
+          "internal_refs": []
+        },
+        {
+          "id": "3504D1",
+          "offset": "32CE64",
+          "old_length": 139,
+          "new_length": 123,
+          "internal_refs": []
+        },
+        {
+          "id": "3862FA",
+          "offset": "32CC90",
+          "old_length": 116,
+          "new_length": 115,
+          "internal_refs": []
+        },
+        {
+          "id": "35EBD8",
+          "offset": "32CD04",
+          "old_length": 114,
+          "new_length": 111,
+          "internal_refs": [
+            {
+              "offset": "32CD4A",
+              "old_target": "07E602",
+              "new_target": "320BB8"
+            },
+            {
+              "offset": "32CD5C",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "380FEB",
+          "offset": "32ECA0",
+          "old_length": 97,
+          "new_length": 109,
+          "internal_refs": []
+        },
+        {
+          "id": "34A902",
+          "offset": "32ED10",
+          "old_length": 97,
+          "new_length": 91,
+          "internal_refs": []
+        },
+        {
+          "id": "35E704",
+          "offset": "32ED6C",
+          "old_length": 82,
+          "new_length": 77,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7192",
+          "offset": "32C9E0",
+          "old_length": 34,
+          "new_length": 59,
+          "internal_refs": [
+            {
+              "offset": "32C9FF",
+              "old_target": "07E602",
+              "new_target": "320BB8"
+            }
+          ]
+        },
+        {
+          "id": "2F7C42",
+          "offset": "32CA1C",
+          "old_length": 49,
+          "new_length": 59,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7D83",
+          "offset": "32CA58",
+          "old_length": 59,
+          "new_length": 57,
+          "internal_refs": []
+        },
+        {
+          "id": "2F835C",
+          "offset": "32CA94",
+          "old_length": 46,
+          "new_length": 54,
+          "internal_refs": [
+            {
+              "offset": "32CAA7",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "36E541",
+          "offset": "32E120",
+          "old_length": 50,
+          "new_length": 54,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8A52",
+          "offset": "32E158",
+          "old_length": 29,
+          "new_length": 47,
+          "internal_refs": [
+            {
+              "offset": "32E16B",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F8026",
+          "offset": "32E188",
+          "old_length": 37,
+          "new_length": 46,
+          "internal_refs": [
+            {
+              "offset": "32E1A0",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F804B",
+          "offset": "32E1B8",
+          "old_length": 34,
+          "new_length": 46,
+          "internal_refs": [
+            {
+              "offset": "32E1CE",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F9C02",
+          "offset": "32E1E8",
+          "old_length": 46,
+          "new_length": 46,
+          "internal_refs": [
+            {
+              "offset": "32E1FA",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "367694",
+          "offset": "32E950",
+          "old_length": 35,
+          "new_length": 43,
+          "internal_refs": [
+            {
+              "offset": "32E965",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F8B65",
+          "offset": "32E97C",
+          "old_length": 36,
+          "new_length": 42,
+          "internal_refs": [
+            {
+              "offset": "32E991",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F8239",
+          "offset": "32E9A8",
+          "old_length": 35,
+          "new_length": 39,
+          "internal_refs": [
+            {
+              "offset": "32E9BB",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F83CA",
+          "offset": "32E9D0",
+          "old_length": 35,
+          "new_length": 36,
+          "internal_refs": [
+            {
+              "offset": "32E9E6",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "38DBE3",
+          "offset": "32E9F4",
+          "old_length": 32,
+          "new_length": 36,
+          "internal_refs": []
+        },
+        {
+          "id": "38DC20",
+          "offset": "32EA18",
+          "old_length": 30,
+          "new_length": 36,
+          "internal_refs": []
+        },
+        {
+          "id": "2F794B",
+          "offset": "32EA3C",
+          "old_length": 33,
+          "new_length": 35,
+          "internal_refs": [
+            {
+              "offset": "32EA45",
+              "old_target": "2F7970",
+              "new_target": "320C08"
+            },
+            {
+              "offset": "32EA49",
+              "old_target": "2F797F",
+              "new_target": "320BE0"
+            }
+          ]
+        },
+        {
+          "id": "38B50E",
+          "offset": "32B500",
+          "old_length": 29,
+          "new_length": 35,
+          "internal_refs": []
+        },
+        {
+          "id": "38DBC6",
+          "offset": "32B524",
+          "old_length": 29,
+          "new_length": 35,
+          "internal_refs": []
+        },
+        {
+          "id": "2F790B",
+          "offset": "32B548",
+          "old_length": 32,
+          "new_length": 34,
+          "internal_refs": [
+            {
+              "offset": "32B551",
+              "old_target": "2F792E",
+              "new_target": "320C30"
+            },
+            {
+              "offset": "32B555",
+              "old_target": "2F793C",
+              "new_target": "320BF4"
+            }
+          ]
+        },
+        {
+          "id": "2F798F",
+          "offset": "32B56C",
+          "old_length": 34,
+          "new_length": 34,
+          "internal_refs": [
+            {
+              "offset": "32B571",
+              "old_target": "2F79B1",
+              "new_target": "32F05C"
+            },
+            {
+              "offset": "32B575",
+              "old_target": "2F79B6",
+              "new_target": "320C40"
+            },
+            {
+              "offset": "32B579",
+              "old_target": "2F79C6",
+              "new_target": "320C1C"
+            }
+          ]
+        },
+        {
+          "id": "38DC03",
+          "offset": "32B590",
+          "old_length": 29,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "387B3F",
+          "offset": "32B5B4",
+          "old_length": 31,
+          "new_length": 33,
+          "internal_refs": [
+            {
+              "offset": "32B5B9",
+              "old_target": "387B5E",
+              "new_target": "320C60"
+            },
+            {
+              "offset": "32B5C2",
+              "old_target": "387B71",
+              "new_target": "320C70"
+            }
+          ]
+        },
+        {
+          "id": "35CC29",
+          "offset": "32B5D8",
+          "old_length": 33,
+          "new_length": 31,
+          "internal_refs": [
+            {
+              "offset": "32B5EF",
+              "old_target": "2F798F",
+              "new_target": "32B56C"
+            }
+          ]
+        },
+        {
+          "id": "2F7DBE",
+          "offset": "320BA0",
+          "old_length": 23,
+          "new_length": 24,
+          "internal_refs": []
+        },
+        {
+          "id": "07E602",
+          "offset": "320BB8",
+          "old_length": 20,
+          "new_length": 20,
+          "internal_refs": [
+            {
+              "offset": "320BBD",
+              "old_target": "07E613",
+              "new_target": "320BC9"
+            },
+            {
+              "offset": "320BC1",
+              "old_target": "07E616",
+              "new_target": "32F048"
+            },
+            {
+              "offset": "320BC5",
+              "old_target": "07E61A",
+              "new_target": "32F050"
+            }
+          ]
+        },
+        {
+          "id": "07E66E",
+          "offset": "320BCC",
+          "old_length": 20,
+          "new_length": 20,
+          "internal_refs": [
+            {
+              "offset": "320BD1",
+              "old_target": "07E67F",
+              "new_target": "320BDD"
+            },
+            {
+              "offset": "320BD5",
+              "old_target": "07E682",
+              "new_target": "32F054"
+            },
+            {
+              "offset": "320BD9",
+              "old_target": "07E685",
+              "new_target": "32F058"
+            }
+          ]
+        },
+        {
+          "id": "2F797F",
+          "offset": "320BE0",
+          "old_length": 16,
+          "new_length": 18,
+          "internal_refs": []
+        },
+        {
+          "id": "2F793C",
+          "offset": "320BF4",
+          "old_length": 15,
+          "new_length": 17,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7970",
+          "offset": "320C08",
+          "old_length": 15,
+          "new_length": 17,
+          "internal_refs": []
+        },
+        {
+          "id": "2F79C6",
+          "offset": "320C1C",
+          "old_length": 17,
+          "new_length": 17,
+          "internal_refs": []
+        },
+        {
+          "id": "2F792E",
+          "offset": "320C30",
+          "old_length": 14,
+          "new_length": 16,
+          "internal_refs": []
+        },
+        {
+          "id": "2F79B6",
+          "offset": "320C40",
+          "old_length": 16,
+          "new_length": 16,
+          "internal_refs": []
+        },
+        {
+          "id": "37F417",
+          "offset": "320C50",
+          "old_length": 14,
+          "new_length": 15,
+          "internal_refs": []
+        },
+        {
+          "id": "387B5E",
+          "offset": "320C60",
+          "old_length": 19,
+          "new_length": 15,
+          "internal_refs": []
+        },
+        {
+          "id": "387B71",
+          "offset": "320C70",
+          "old_length": 19,
+          "new_length": 15,
+          "internal_refs": []
+        },
+        {
+          "id": "35EB4D",
+          "offset": "32F020",
+          "old_length": 11,
+          "new_length": 14,
+          "internal_refs": []
+        },
+        {
+          "id": "35ED4B",
+          "offset": "32F030",
+          "old_length": 11,
+          "new_length": 11,
+          "internal_refs": []
+        },
+        {
+          "id": "35ED56",
+          "offset": "32F03C",
+          "old_length": 11,
+          "new_length": 11,
+          "internal_refs": []
+        },
+        {
+          "id": "07E616",
+          "offset": "32F048",
+          "old_length": 4,
+          "new_length": 5,
+          "internal_refs": []
+        },
+        {
+          "id": "07E61A",
+          "offset": "32F050",
+          "old_length": 3,
+          "new_length": 3,
+          "internal_refs": []
+        },
+        {
+          "id": "07E682",
+          "offset": "32F054",
+          "old_length": 3,
+          "new_length": 3,
+          "internal_refs": []
+        },
+        {
+          "id": "07E685",
+          "offset": "32F058",
+          "old_length": 4,
+          "new_length": 3,
+          "internal_refs": []
+        },
+        {
+          "id": "2F79B1",
+          "offset": "32F05C",
+          "old_length": 5,
+          "new_length": 3,
+          "internal_refs": []
+        }
+      ],
+      "external_refs_rewritten": [
+        {
+          "offset": "373E10",
+          "old_target": "373E48",
+          "new_target": "32FA20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373E0F",
+            "command_hex": "08483ef700"
+          }
+        },
+        {
+          "offset": "373E1F",
+          "old_target": "373E48",
+          "new_target": "32FA20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373E1E",
+            "command_hex": "08483ef700"
+          }
+        },
+        {
+          "offset": "373E32",
+          "old_target": "373E48",
+          "new_target": "32FA20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373E31",
+            "command_hex": "08483ef700"
+          }
+        },
+        {
+          "offset": "1BE575",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE574",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BE676",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE675",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BE761",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE760",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BE85A",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE859",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BE94F",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE94E",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BEA3E",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BEA3D",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BEB35",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BEB34",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BEC2B",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BEC2A",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "349FE6",
+          "old_target": "34A024",
+          "new_target": "32CDE0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349FE4",
+            "command_hex": "1b0224a0f400"
+          }
+        },
+        {
+          "offset": "34A020",
+          "old_target": "34A024",
+          "new_target": "32CDE0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34A01F",
+            "command_hex": "0a24a0f400"
+          }
+        },
+        {
+          "offset": "3502AB",
+          "old_target": "3504D1",
+          "new_target": "32CE64",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3502A9",
+            "command_hex": "1b03d104f500"
+          }
+        },
+        {
+          "offset": "3861D6",
+          "old_target": "3862FA",
+          "new_target": "32CC90",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3861D3",
+            "command_hex": "06b700fa62f800"
+          }
+        },
+        {
+          "offset": "077E34",
+          "old_target": "35EBD8",
+          "new_target": "32CD04",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "077E33",
+            "command_hex": "0ad8ebf500"
+          }
+        },
+        {
+          "offset": "380FB6",
+          "old_target": "380FEB",
+          "new_target": "32ECA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "380FB0",
+            "command_hex": "0902bf0ff800eb0ff800"
+          }
+        },
+        {
+          "offset": "380FBB",
+          "old_target": "380FEB",
+          "new_target": "32ECA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "380FBA",
+            "command_hex": "0aeb0ff800"
+          }
+        },
+        {
+          "offset": "167B17",
+          "old_target": "34A902",
+          "new_target": "32ED10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "167B15",
+            "command_hex": "090202a9f4001f7bd600"
+          }
+        },
+        {
+          "offset": "34A8D0",
+          "old_target": "34A902",
+          "new_target": "32ED10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34A8CE",
+            "command_hex": "090202a9f400d8a8f400"
+          }
+        },
+        {
+          "offset": "070310",
+          "old_target": "35E704",
+          "new_target": "32ED6C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "07030F",
+            "command_hex": "0a04e7f500"
+          }
+        },
+        {
+          "offset": "35E823",
+          "old_target": "35E704",
+          "new_target": "32ED6C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35E821",
+            "command_hex": "090204e7f50030e8f500"
+          }
+        },
+        {
+          "offset": "15873C",
+          "old_target": "2F7192",
+          "new_target": "32C9E0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158738",
+            "record_hex": "010005009271ef004290c200"
+          }
+        },
+        {
+          "offset": "368DE5",
+          "old_target": "2F7192",
+          "new_target": "32C9E0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368DE1",
+            "record_hex": "010005009271ef009b88c200"
+          }
+        },
+        {
+          "offset": "2F7C26",
+          "old_target": "2F7C42",
+          "new_target": "32CA1C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7C24",
+            "command_hex": "1b03427cef00"
+          }
+        },
+        {
+          "offset": "2F7D76",
+          "old_target": "2F7D83",
+          "new_target": "32CA58",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7D74",
+            "command_hex": "0902837def00b47cef00"
+          }
+        },
+        {
+          "offset": "158508",
+          "old_target": "2F835C",
+          "new_target": "32CA94",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158504",
+            "record_hex": "000105005c83ef002c8bc200"
+          }
+        },
+        {
+          "offset": "368BB1",
+          "old_target": "2F835C",
+          "new_target": "32CA94",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368BAD",
+            "record_hex": "000105005c83ef002c8bc200"
+          }
+        },
+        {
+          "offset": "36E4C9",
+          "old_target": "36E541",
+          "new_target": "32E120",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36E4C7",
+            "command_hex": "1b0341e5f600"
+          }
+        },
+        {
+          "offset": "158574",
+          "old_target": "2F8A52",
+          "new_target": "32E158",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158570",
+            "record_hex": "00010100528aef00cb86c200"
+          }
+        },
+        {
+          "offset": "368C1D",
+          "old_target": "2F8A52",
+          "new_target": "32E158",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C19",
+            "record_hex": "00010100528aef00cb86c200"
+          }
+        },
+        {
+          "offset": "1580AC",
+          "old_target": "2F8026",
+          "new_target": "32E188",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580A8",
+            "record_hex": "000101002680ef005186c200"
+          }
+        },
+        {
+          "offset": "368755",
+          "old_target": "2F8026",
+          "new_target": "32E188",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368751",
+            "record_hex": "000101002680ef005186c200"
+          }
+        },
+        {
+          "offset": "1580B8",
+          "old_target": "2F804B",
+          "new_target": "32E1B8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580B4",
+            "record_hex": "000101004b80ef005186c200"
+          }
+        },
+        {
+          "offset": "368761",
+          "old_target": "2F804B",
+          "new_target": "32E1B8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36875D",
+            "record_hex": "000101004b80ef005186c200"
+          }
+        },
+        {
+          "offset": "157EE4",
+          "old_target": "2F9C02",
+          "new_target": "32E1E8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157EE0",
+            "record_hex": "00010500029cef006d8bc200"
+          }
+        },
+        {
+          "offset": "36858D",
+          "old_target": "2F9C02",
+          "new_target": "32E1E8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368589",
+            "record_hex": "00010500029cef006d8bc200"
+          }
+        },
+        {
+          "offset": "369325",
+          "old_target": "367694",
+          "new_target": "32E950",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369321",
+            "record_hex": "000101009476f6009f85c200"
+          }
+        },
+        {
+          "offset": "1585EC",
+          "old_target": "2F8B65",
+          "new_target": "32E97C",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1585E8",
+            "record_hex": "00010200658bef009f85c200"
+          }
+        },
+        {
+          "offset": "368C95",
+          "old_target": "2F8B65",
+          "new_target": "32E97C",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C91",
+            "record_hex": "00010200658bef009f85c200"
+          }
+        },
+        {
+          "offset": "158184",
+          "old_target": "2F8239",
+          "new_target": "32E9A8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158180",
+            "record_hex": "010005003982ef003390c200"
+          }
+        },
+        {
+          "offset": "36882D",
+          "old_target": "2F8239",
+          "new_target": "32E9A8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368829",
+            "record_hex": "010005003982ef003390c200"
+          }
+        },
+        {
+          "offset": "15852C",
+          "old_target": "2F83CA",
+          "new_target": "32E9D0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158528",
+            "record_hex": "00010500ca83ef003b8ec200"
+          }
+        },
+        {
+          "offset": "368BD5",
+          "old_target": "2F83CA",
+          "new_target": "32E9D0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368BD1",
+            "record_hex": "00010500ca83ef00069fc200"
+          }
+        },
+        {
+          "offset": "2F7AE1",
+          "old_target": "38DBE3",
+          "new_target": "32E9F4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7AE0",
+            "command_hex": "0ae3dbf800"
+          }
+        },
+        {
+          "offset": "2F7B12",
+          "old_target": "38DC20",
+          "new_target": "32EA18",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7B11",
+            "command_hex": "0a20dcf800"
+          }
+        },
+        {
+          "offset": "2F78A5",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78A4",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "2F78B2",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78B1",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "2F78C1",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78C0",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "2F78D2",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78D1",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F3EF",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F3EE",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F432",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F431",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F448",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F447",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F45E",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F45D",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "07D948",
+          "old_target": "38B50E",
+          "new_target": "32B500",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "07D947",
+            "command_hex": "0a0eb5f800"
+          }
+        },
+        {
+          "offset": "380411",
+          "old_target": "38B50E",
+          "new_target": "32B500",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "380410",
+            "command_hex": "080eb5f800"
+          }
+        },
+        {
+          "offset": "380480",
+          "old_target": "38B50E",
+          "new_target": "32B500",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "38047F",
+            "command_hex": "080eb5f800"
+          }
+        },
+        {
+          "offset": "3804EF",
+          "old_target": "38B50E",
+          "new_target": "32B500",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3804EE",
+            "command_hex": "080eb5f800"
+          }
+        },
+        {
+          "offset": "2F7ACA",
+          "old_target": "38DBC6",
+          "new_target": "32B524",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7AC9",
+            "command_hex": "0ac6dbf800"
+          }
+        },
+        {
+          "offset": "2F785B",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F785A",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "2F7869",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7868",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "2F787C",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F787B",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "2F788E",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F788D",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F0D7",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F0D6",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F195",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F194",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F379",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F378",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F38F",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F38E",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F3AC",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F3AB",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F3C8",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F3C7",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F3FB",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F3FA",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "2F78FD",
+          "old_target": "2F798F",
+          "new_target": "32B56C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78FC",
+            "command_hex": "088f79ef00"
+          }
+        },
+        {
+          "offset": "2F7AFC",
+          "old_target": "38DC03",
+          "new_target": "32B590",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7AFB",
+            "command_hex": "0a03dcf800"
+          }
+        },
+        {
+          "offset": "24D4F7",
+          "old_target": "387B3F",
+          "new_target": "32B5B4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "24D4F6",
+            "command_hex": "083f7bf800"
+          }
+        },
+        {
+          "offset": "35433B",
+          "old_target": "387B3F",
+          "new_target": "32B5B4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35433A",
+            "command_hex": "083f7bf800"
+          }
+        },
+        {
+          "offset": "2F78F8",
+          "old_target": "35CC29",
+          "new_target": "32B5D8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78F7",
+            "command_hex": "0a29ccf500"
+          }
+        },
+        {
+          "offset": "2F7D36",
+          "old_target": "2F7DBE",
+          "new_target": "320BA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7D34",
+            "command_hex": "1b02be7def00"
+          }
+        },
+        {
+          "offset": "37F406",
+          "old_target": "37F417",
+          "new_target": "320C50",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F404",
+            "command_hex": "1b0317f4f700"
+          }
+        },
+        {
+          "offset": "35EB3D",
+          "old_target": "35EB4D",
+          "new_target": "32F020",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35EB3B",
+            "command_hex": "1b034debf500"
+          }
+        },
+        {
+          "offset": "35ED3C",
+          "old_target": "35ED4B",
+          "new_target": "32F030",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35ED32",
+            "command_hex": "090549edf50049edf5004bedf50056edf50056edf500"
+          }
+        },
+        {
+          "offset": "35ED40",
+          "old_target": "35ED56",
+          "new_target": "32F03C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35ED32",
+            "command_hex": "090549edf50049edf5004bedf50056edf50056edf500"
+          }
+        },
+        {
+          "offset": "35ED44",
+          "old_target": "35ED56",
+          "new_target": "32F03C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35ED32",
+            "command_hex": "090549edf50049edf5004bedf50056edf50056edf500"
+          }
+        }
+      ],
+      "prior_pointer_repairs": [
+        {
+          "offset": "08F7D3",
+          "original_target": "38DB38",
+          "old_target": "32B2E7",
+          "new_target": "32B0B8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7D2",
+            "command_hex": "0ae7b2f200"
+          }
+        },
+        {
+          "offset": "08F84D",
+          "original_target": "38DB7E",
+          "old_target": "32B174",
+          "new_target": "32B0E8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F84C",
+            "command_hex": "0a74b1f200"
+          }
+        },
+        {
+          "offset": "1580E8",
+          "original_target": "2F80C4",
+          "old_target": "32A358",
+          "new_target": "32D044",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580E4",
+            "record_hex": "0004020058a3f2002c90c200"
+          }
+        },
+        {
+          "offset": "158124",
+          "original_target": "2F81A5",
+          "old_target": "32A378",
+          "new_target": "32A2D0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158120",
+            "record_hex": "0100050078a3f2003390c200"
+          }
+        },
+        {
+          "offset": "1582E0",
+          "original_target": "2F8E3C",
+          "old_target": "32E532",
+          "new_target": "32B340",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582DC",
+            "record_hex": "0001040032e5f200d1a3c200"
+          }
+        },
+        {
+          "offset": "1586B8",
+          "original_target": "2F8D72",
+          "old_target": "32B086",
+          "new_target": "32E394",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1586B4",
+            "record_hex": "0001050086b0f2006d8bc200"
+          }
+        },
+        {
+          "offset": "158A3C",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A38",
+            "record_hex": "01000500d8a3f2003990c200"
+          }
+        },
+        {
+          "offset": "2F8CD0",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8CCA",
+            "command_hex": "0903b8a3f200d8a3f200b4c1e500"
+          }
+        },
+        {
+          "offset": "365CF3",
+          "original_target": "384406",
+          "old_target": "32E4FC",
+          "new_target": "32B314",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365CF0",
+            "command_hex": "06f800fce4f200"
+          }
+        },
+        {
+          "offset": "368791",
+          "original_target": "2F80C4",
+          "old_target": "32A358",
+          "new_target": "32D044",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36878D",
+            "record_hex": "0004020058a3f2005186c200"
+          }
+        },
+        {
+          "offset": "3687CD",
+          "original_target": "2F81A5",
+          "old_target": "32A378",
+          "new_target": "32A2D0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687C9",
+            "record_hex": "0100050078a3f2003390c200"
+          }
+        },
+        {
+          "offset": "368989",
+          "original_target": "2F8E3C",
+          "old_target": "32E532",
+          "new_target": "32B340",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368985",
+            "record_hex": "0001040032e5f200d1a3c200"
+          }
+        },
+        {
+          "offset": "368D61",
+          "original_target": "2F8D72",
+          "old_target": "32B086",
+          "new_target": "32E394",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368D5D",
+            "record_hex": "0001050086b0f2006d8bc200"
+          }
+        },
+        {
+          "offset": "3690E5",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690E1",
+            "record_hex": "01000500d8a3f2009b88c200"
+          }
+        }
+      ],
+      "rom_roundtrip": true,
+      "source_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "prior_record_pointer_updates": [
+        {
+          "offset": "167B17",
+          "old_target": "34A902",
+          "new_target": "32ED10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "167B15",
+            "command_hex": "090202a9f4001f7bd600"
+          }
+        },
+        {
+          "offset": "37F432",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F431",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F448",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F447",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F45E",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F45D",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "24D4F7",
+          "old_target": "387B3F",
+          "new_target": "32B5B4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "24D4F6",
+            "command_hex": "083f7bf800"
+          }
+        },
+        {
+          "offset": "08F7D3",
+          "original_target": "38DB38",
+          "old_target": "32B2E7",
+          "new_target": "32B0B8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7D2",
+            "command_hex": "0ae7b2f200"
+          }
+        },
+        {
+          "offset": "08F84D",
+          "original_target": "38DB7E",
+          "old_target": "32B174",
+          "new_target": "32B0E8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F84C",
+            "command_hex": "0a74b1f200"
+          }
+        },
+        {
+          "offset": "1580E8",
+          "original_target": "2F80C4",
+          "old_target": "32A358",
+          "new_target": "32D044",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580E4",
+            "record_hex": "0004020058a3f2002c90c200"
+          }
+        },
+        {
+          "offset": "158124",
+          "original_target": "2F81A5",
+          "old_target": "32A378",
+          "new_target": "32A2D0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158120",
+            "record_hex": "0100050078a3f2003390c200"
+          }
+        },
+        {
+          "offset": "1582E0",
+          "original_target": "2F8E3C",
+          "old_target": "32E532",
+          "new_target": "32B340",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582DC",
+            "record_hex": "0001040032e5f200d1a3c200"
+          }
+        },
+        {
+          "offset": "1586B8",
+          "original_target": "2F8D72",
+          "old_target": "32B086",
+          "new_target": "32E394",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1586B4",
+            "record_hex": "0001050086b0f2006d8bc200"
+          }
+        },
+        {
+          "offset": "158A3C",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A38",
+            "record_hex": "01000500d8a3f2003990c200"
+          }
+        },
+        {
+          "offset": "2F8CD0",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8CCA",
+            "command_hex": "0903b8a3f200d8a3f200b4c1e500"
+          }
+        },
+        {
+          "offset": "365CF3",
+          "original_target": "384406",
+          "old_target": "32E4FC",
+          "new_target": "32B314",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365CF0",
+            "command_hex": "06f800fce4f200"
+          }
+        },
+        {
+          "offset": "368791",
+          "original_target": "2F80C4",
+          "old_target": "32A358",
+          "new_target": "32D044",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36878D",
+            "record_hex": "0004020058a3f2005186c200"
+          }
+        },
+        {
+          "offset": "3687CD",
+          "original_target": "2F81A5",
+          "old_target": "32A378",
+          "new_target": "32A2D0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687C9",
+            "record_hex": "0100050078a3f2003390c200"
+          }
+        },
+        {
+          "offset": "368989",
+          "original_target": "2F8E3C",
+          "old_target": "32E532",
+          "new_target": "32B340",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368985",
+            "record_hex": "0001040032e5f200d1a3c200"
+          }
+        },
+        {
+          "offset": "368D61",
+          "original_target": "2F8D72",
+          "old_target": "32B086",
+          "new_target": "32E394",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368D5D",
+            "record_hex": "0001050086b0f2006d8bc200"
+          }
+        },
+        {
+          "offset": "3690E5",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690E1",
+            "record_hex": "01000500d8a3f2009b88c200"
+          }
+        }
+      ]
+    },
+    "ascii": {
+      "sha256": "5be339f6abb9557c458f517254e824fc0b1e7446a1b3259c1cc42b1f1a41518e",
+      "target_rom_sha256": "6915e835835937fc8522232fa714b95c16ae93d73bab8d2922502e1658154450",
+      "prior_records_preserved": 7296,
+      "records_added": 147,
+      "relocated": [
+        {
+          "id": "373E48",
+          "offset": "32FA20",
+          "old_length": 205,
+          "new_length": 210,
+          "internal_refs": []
+        },
+        {
+          "id": "34A0ED",
+          "offset": "32FAF4",
+          "old_length": 163,
+          "new_length": 152,
+          "internal_refs": []
+        },
+        {
+          "id": "34A024",
+          "offset": "32CDE0",
+          "old_length": 131,
+          "new_length": 129,
+          "internal_refs": []
+        },
+        {
+          "id": "3504D1",
+          "offset": "32CE64",
+          "old_length": 139,
+          "new_length": 123,
+          "internal_refs": []
+        },
+        {
+          "id": "3862FA",
+          "offset": "32CC90",
+          "old_length": 116,
+          "new_length": 115,
+          "internal_refs": []
+        },
+        {
+          "id": "35EBD8",
+          "offset": "32CD04",
+          "old_length": 114,
+          "new_length": 111,
+          "internal_refs": [
+            {
+              "offset": "32CD4A",
+              "old_target": "07E602",
+              "new_target": "320BB8"
+            },
+            {
+              "offset": "32CD5C",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "380FEB",
+          "offset": "32ECA0",
+          "old_length": 97,
+          "new_length": 109,
+          "internal_refs": []
+        },
+        {
+          "id": "34A902",
+          "offset": "32ED10",
+          "old_length": 97,
+          "new_length": 91,
+          "internal_refs": []
+        },
+        {
+          "id": "35E704",
+          "offset": "32ED6C",
+          "old_length": 82,
+          "new_length": 77,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7192",
+          "offset": "32C9E0",
+          "old_length": 34,
+          "new_length": 59,
+          "internal_refs": [
+            {
+              "offset": "32C9FF",
+              "old_target": "07E602",
+              "new_target": "320BB8"
+            }
+          ]
+        },
+        {
+          "id": "2F7C42",
+          "offset": "32CA1C",
+          "old_length": 49,
+          "new_length": 59,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7D83",
+          "offset": "32CA58",
+          "old_length": 59,
+          "new_length": 57,
+          "internal_refs": []
+        },
+        {
+          "id": "2F835C",
+          "offset": "32CA94",
+          "old_length": 46,
+          "new_length": 54,
+          "internal_refs": [
+            {
+              "offset": "32CAA7",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "36E541",
+          "offset": "32E120",
+          "old_length": 50,
+          "new_length": 54,
+          "internal_refs": []
+        },
+        {
+          "id": "2F8A52",
+          "offset": "32E158",
+          "old_length": 29,
+          "new_length": 47,
+          "internal_refs": [
+            {
+              "offset": "32E16B",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F8026",
+          "offset": "32E188",
+          "old_length": 37,
+          "new_length": 46,
+          "internal_refs": [
+            {
+              "offset": "32E1A0",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F804B",
+          "offset": "32E1B8",
+          "old_length": 34,
+          "new_length": 46,
+          "internal_refs": [
+            {
+              "offset": "32E1CE",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F9C02",
+          "offset": "32E1E8",
+          "old_length": 46,
+          "new_length": 46,
+          "internal_refs": [
+            {
+              "offset": "32E1FA",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "367694",
+          "offset": "32E950",
+          "old_length": 35,
+          "new_length": 43,
+          "internal_refs": [
+            {
+              "offset": "32E965",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F8B65",
+          "offset": "32E97C",
+          "old_length": 36,
+          "new_length": 42,
+          "internal_refs": [
+            {
+              "offset": "32E991",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F8239",
+          "offset": "32E9A8",
+          "old_length": 35,
+          "new_length": 39,
+          "internal_refs": [
+            {
+              "offset": "32E9BB",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "2F83CA",
+          "offset": "32E9D0",
+          "old_length": 35,
+          "new_length": 36,
+          "internal_refs": [
+            {
+              "offset": "32E9E6",
+              "old_target": "07E66E",
+              "new_target": "320BCC"
+            }
+          ]
+        },
+        {
+          "id": "38DBE3",
+          "offset": "32E9F4",
+          "old_length": 32,
+          "new_length": 36,
+          "internal_refs": []
+        },
+        {
+          "id": "38DC20",
+          "offset": "32EA18",
+          "old_length": 30,
+          "new_length": 36,
+          "internal_refs": []
+        },
+        {
+          "id": "2F794B",
+          "offset": "32EA3C",
+          "old_length": 33,
+          "new_length": 35,
+          "internal_refs": [
+            {
+              "offset": "32EA45",
+              "old_target": "2F7970",
+              "new_target": "320C08"
+            },
+            {
+              "offset": "32EA49",
+              "old_target": "2F797F",
+              "new_target": "320BE0"
+            }
+          ]
+        },
+        {
+          "id": "38B50E",
+          "offset": "32B500",
+          "old_length": 29,
+          "new_length": 35,
+          "internal_refs": []
+        },
+        {
+          "id": "38DBC6",
+          "offset": "32B524",
+          "old_length": 29,
+          "new_length": 35,
+          "internal_refs": []
+        },
+        {
+          "id": "2F790B",
+          "offset": "32B548",
+          "old_length": 32,
+          "new_length": 34,
+          "internal_refs": [
+            {
+              "offset": "32B551",
+              "old_target": "2F792E",
+              "new_target": "320C30"
+            },
+            {
+              "offset": "32B555",
+              "old_target": "2F793C",
+              "new_target": "320BF4"
+            }
+          ]
+        },
+        {
+          "id": "2F798F",
+          "offset": "32B56C",
+          "old_length": 34,
+          "new_length": 34,
+          "internal_refs": [
+            {
+              "offset": "32B571",
+              "old_target": "2F79B1",
+              "new_target": "32F05C"
+            },
+            {
+              "offset": "32B575",
+              "old_target": "2F79B6",
+              "new_target": "320C40"
+            },
+            {
+              "offset": "32B579",
+              "old_target": "2F79C6",
+              "new_target": "320C1C"
+            }
+          ]
+        },
+        {
+          "id": "38DC03",
+          "offset": "32B590",
+          "old_length": 29,
+          "new_length": 34,
+          "internal_refs": []
+        },
+        {
+          "id": "387B3F",
+          "offset": "32B5B4",
+          "old_length": 31,
+          "new_length": 33,
+          "internal_refs": [
+            {
+              "offset": "32B5B9",
+              "old_target": "387B5E",
+              "new_target": "320C60"
+            },
+            {
+              "offset": "32B5C2",
+              "old_target": "387B71",
+              "new_target": "320C70"
+            }
+          ]
+        },
+        {
+          "id": "35CC29",
+          "offset": "32B5D8",
+          "old_length": 33,
+          "new_length": 31,
+          "internal_refs": [
+            {
+              "offset": "32B5EF",
+              "old_target": "2F798F",
+              "new_target": "32B56C"
+            }
+          ]
+        },
+        {
+          "id": "2F7DBE",
+          "offset": "320BA0",
+          "old_length": 23,
+          "new_length": 24,
+          "internal_refs": []
+        },
+        {
+          "id": "07E602",
+          "offset": "320BB8",
+          "old_length": 20,
+          "new_length": 20,
+          "internal_refs": [
+            {
+              "offset": "320BBD",
+              "old_target": "07E613",
+              "new_target": "320BC9"
+            },
+            {
+              "offset": "320BC1",
+              "old_target": "07E616",
+              "new_target": "32F048"
+            },
+            {
+              "offset": "320BC5",
+              "old_target": "07E61A",
+              "new_target": "32F050"
+            }
+          ]
+        },
+        {
+          "id": "07E66E",
+          "offset": "320BCC",
+          "old_length": 20,
+          "new_length": 20,
+          "internal_refs": [
+            {
+              "offset": "320BD1",
+              "old_target": "07E67F",
+              "new_target": "320BDD"
+            },
+            {
+              "offset": "320BD5",
+              "old_target": "07E682",
+              "new_target": "32F054"
+            },
+            {
+              "offset": "320BD9",
+              "old_target": "07E685",
+              "new_target": "32F058"
+            }
+          ]
+        },
+        {
+          "id": "2F797F",
+          "offset": "320BE0",
+          "old_length": 16,
+          "new_length": 18,
+          "internal_refs": []
+        },
+        {
+          "id": "2F793C",
+          "offset": "320BF4",
+          "old_length": 15,
+          "new_length": 17,
+          "internal_refs": []
+        },
+        {
+          "id": "2F7970",
+          "offset": "320C08",
+          "old_length": 15,
+          "new_length": 17,
+          "internal_refs": []
+        },
+        {
+          "id": "2F79C6",
+          "offset": "320C1C",
+          "old_length": 17,
+          "new_length": 17,
+          "internal_refs": []
+        },
+        {
+          "id": "2F792E",
+          "offset": "320C30",
+          "old_length": 14,
+          "new_length": 16,
+          "internal_refs": []
+        },
+        {
+          "id": "2F79B6",
+          "offset": "320C40",
+          "old_length": 16,
+          "new_length": 16,
+          "internal_refs": []
+        },
+        {
+          "id": "37F417",
+          "offset": "320C50",
+          "old_length": 14,
+          "new_length": 15,
+          "internal_refs": []
+        },
+        {
+          "id": "387B5E",
+          "offset": "320C60",
+          "old_length": 19,
+          "new_length": 15,
+          "internal_refs": []
+        },
+        {
+          "id": "387B71",
+          "offset": "320C70",
+          "old_length": 19,
+          "new_length": 15,
+          "internal_refs": []
+        },
+        {
+          "id": "35EB4D",
+          "offset": "32F020",
+          "old_length": 11,
+          "new_length": 14,
+          "internal_refs": []
+        },
+        {
+          "id": "35ED4B",
+          "offset": "32F030",
+          "old_length": 11,
+          "new_length": 11,
+          "internal_refs": []
+        },
+        {
+          "id": "35ED56",
+          "offset": "32F03C",
+          "old_length": 11,
+          "new_length": 11,
+          "internal_refs": []
+        },
+        {
+          "id": "07E616",
+          "offset": "32F048",
+          "old_length": 4,
+          "new_length": 5,
+          "internal_refs": []
+        },
+        {
+          "id": "07E61A",
+          "offset": "32F050",
+          "old_length": 3,
+          "new_length": 3,
+          "internal_refs": []
+        },
+        {
+          "id": "07E682",
+          "offset": "32F054",
+          "old_length": 3,
+          "new_length": 3,
+          "internal_refs": []
+        },
+        {
+          "id": "07E685",
+          "offset": "32F058",
+          "old_length": 4,
+          "new_length": 3,
+          "internal_refs": []
+        },
+        {
+          "id": "2F79B1",
+          "offset": "32F05C",
+          "old_length": 5,
+          "new_length": 3,
+          "internal_refs": []
+        }
+      ],
+      "external_refs_rewritten": [
+        {
+          "offset": "373E10",
+          "old_target": "373E48",
+          "new_target": "32FA20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373E0F",
+            "command_hex": "08483ef700"
+          }
+        },
+        {
+          "offset": "373E1F",
+          "old_target": "373E48",
+          "new_target": "32FA20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373E1E",
+            "command_hex": "08483ef700"
+          }
+        },
+        {
+          "offset": "373E32",
+          "old_target": "373E48",
+          "new_target": "32FA20",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "373E31",
+            "command_hex": "08483ef700"
+          }
+        },
+        {
+          "offset": "1BE575",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE574",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BE676",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE675",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BE761",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE760",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BE85A",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE859",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BE94F",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BE94E",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BEA3E",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BEA3D",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BEB35",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BEB34",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "1BEC2B",
+          "old_target": "34A0ED",
+          "new_target": "32FAF4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "1BEC2A",
+            "command_hex": "0aeda0f400"
+          }
+        },
+        {
+          "offset": "349FE6",
+          "old_target": "34A024",
+          "new_target": "32CDE0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "349FE4",
+            "command_hex": "1b0224a0f400"
+          }
+        },
+        {
+          "offset": "34A020",
+          "old_target": "34A024",
+          "new_target": "32CDE0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34A01F",
+            "command_hex": "0a24a0f400"
+          }
+        },
+        {
+          "offset": "3502AB",
+          "old_target": "3504D1",
+          "new_target": "32CE64",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3502A9",
+            "command_hex": "1b03d104f500"
+          }
+        },
+        {
+          "offset": "3861D6",
+          "old_target": "3862FA",
+          "new_target": "32CC90",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3861D3",
+            "command_hex": "06b700fa62f800"
+          }
+        },
+        {
+          "offset": "077E34",
+          "old_target": "35EBD8",
+          "new_target": "32CD04",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "077E33",
+            "command_hex": "0ad8ebf500"
+          }
+        },
+        {
+          "offset": "380FB6",
+          "old_target": "380FEB",
+          "new_target": "32ECA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "380FB0",
+            "command_hex": "0902bf0ff800eb0ff800"
+          }
+        },
+        {
+          "offset": "380FBB",
+          "old_target": "380FEB",
+          "new_target": "32ECA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "380FBA",
+            "command_hex": "0aeb0ff800"
+          }
+        },
+        {
+          "offset": "167B17",
+          "old_target": "34A902",
+          "new_target": "32ED10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "167B15",
+            "command_hex": "090202a9f4001f7bd600"
+          }
+        },
+        {
+          "offset": "34A8D0",
+          "old_target": "34A902",
+          "new_target": "32ED10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "34A8CE",
+            "command_hex": "090202a9f400d8a8f400"
+          }
+        },
+        {
+          "offset": "070310",
+          "old_target": "35E704",
+          "new_target": "32ED6C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "07030F",
+            "command_hex": "0a04e7f500"
+          }
+        },
+        {
+          "offset": "35E823",
+          "old_target": "35E704",
+          "new_target": "32ED6C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35E821",
+            "command_hex": "090204e7f50030e8f500"
+          }
+        },
+        {
+          "offset": "15873C",
+          "old_target": "2F7192",
+          "new_target": "32C9E0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158738",
+            "record_hex": "010005009271ef004290c200"
+          }
+        },
+        {
+          "offset": "368DE5",
+          "old_target": "2F7192",
+          "new_target": "32C9E0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368DE1",
+            "record_hex": "010005009271ef009b88c200"
+          }
+        },
+        {
+          "offset": "2F7C26",
+          "old_target": "2F7C42",
+          "new_target": "32CA1C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7C24",
+            "command_hex": "1b03427cef00"
+          }
+        },
+        {
+          "offset": "2F7D76",
+          "old_target": "2F7D83",
+          "new_target": "32CA58",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7D74",
+            "command_hex": "0902837def00b47cef00"
+          }
+        },
+        {
+          "offset": "158508",
+          "old_target": "2F835C",
+          "new_target": "32CA94",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158504",
+            "record_hex": "000105005c83ef002c8bc200"
+          }
+        },
+        {
+          "offset": "368BB1",
+          "old_target": "2F835C",
+          "new_target": "32CA94",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368BAD",
+            "record_hex": "000105005c83ef002c8bc200"
+          }
+        },
+        {
+          "offset": "36E4C9",
+          "old_target": "36E541",
+          "new_target": "32E120",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "36E4C7",
+            "command_hex": "1b0341e5f600"
+          }
+        },
+        {
+          "offset": "158574",
+          "old_target": "2F8A52",
+          "new_target": "32E158",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158570",
+            "record_hex": "00010100528aef00cb86c200"
+          }
+        },
+        {
+          "offset": "368C1D",
+          "old_target": "2F8A52",
+          "new_target": "32E158",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C19",
+            "record_hex": "00010100528aef00cb86c200"
+          }
+        },
+        {
+          "offset": "1580AC",
+          "old_target": "2F8026",
+          "new_target": "32E188",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580A8",
+            "record_hex": "000101002680ef005186c200"
+          }
+        },
+        {
+          "offset": "368755",
+          "old_target": "2F8026",
+          "new_target": "32E188",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368751",
+            "record_hex": "000101002680ef005186c200"
+          }
+        },
+        {
+          "offset": "1580B8",
+          "old_target": "2F804B",
+          "new_target": "32E1B8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580B4",
+            "record_hex": "000101004b80ef005186c200"
+          }
+        },
+        {
+          "offset": "368761",
+          "old_target": "2F804B",
+          "new_target": "32E1B8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36875D",
+            "record_hex": "000101004b80ef005186c200"
+          }
+        },
+        {
+          "offset": "157EE4",
+          "old_target": "2F9C02",
+          "new_target": "32E1E8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "157EE0",
+            "record_hex": "00010500029cef006d8bc200"
+          }
+        },
+        {
+          "offset": "36858D",
+          "old_target": "2F9C02",
+          "new_target": "32E1E8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368589",
+            "record_hex": "00010500029cef006d8bc200"
+          }
+        },
+        {
+          "offset": "369325",
+          "old_target": "367694",
+          "new_target": "32E950",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "369321",
+            "record_hex": "000101009476f6009f85c200"
+          }
+        },
+        {
+          "offset": "1585EC",
+          "old_target": "2F8B65",
+          "new_target": "32E97C",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1585E8",
+            "record_hex": "00010200658bef009f85c200"
+          }
+        },
+        {
+          "offset": "368C95",
+          "old_target": "2F8B65",
+          "new_target": "32E97C",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368C91",
+            "record_hex": "00010200658bef009f85c200"
+          }
+        },
+        {
+          "offset": "158184",
+          "old_target": "2F8239",
+          "new_target": "32E9A8",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158180",
+            "record_hex": "010005003982ef003390c200"
+          }
+        },
+        {
+          "offset": "36882D",
+          "old_target": "2F8239",
+          "new_target": "32E9A8",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368829",
+            "record_hex": "010005003982ef003390c200"
+          }
+        },
+        {
+          "offset": "15852C",
+          "old_target": "2F83CA",
+          "new_target": "32E9D0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158528",
+            "record_hex": "00010500ca83ef003b8ec200"
+          }
+        },
+        {
+          "offset": "368BD5",
+          "old_target": "2F83CA",
+          "new_target": "32E9D0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368BD1",
+            "record_hex": "00010500ca83ef00069fc200"
+          }
+        },
+        {
+          "offset": "2F7AE1",
+          "old_target": "38DBE3",
+          "new_target": "32E9F4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7AE0",
+            "command_hex": "0ae3dbf800"
+          }
+        },
+        {
+          "offset": "2F7B12",
+          "old_target": "38DC20",
+          "new_target": "32EA18",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7B11",
+            "command_hex": "0a20dcf800"
+          }
+        },
+        {
+          "offset": "2F78A5",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78A4",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "2F78B2",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78B1",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "2F78C1",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78C0",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "2F78D2",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78D1",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F3EF",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F3EE",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F432",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F431",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F448",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F447",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F45E",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F45D",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "07D948",
+          "old_target": "38B50E",
+          "new_target": "32B500",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "07D947",
+            "command_hex": "0a0eb5f800"
+          }
+        },
+        {
+          "offset": "380411",
+          "old_target": "38B50E",
+          "new_target": "32B500",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "380410",
+            "command_hex": "080eb5f800"
+          }
+        },
+        {
+          "offset": "380480",
+          "old_target": "38B50E",
+          "new_target": "32B500",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "38047F",
+            "command_hex": "080eb5f800"
+          }
+        },
+        {
+          "offset": "3804EF",
+          "old_target": "38B50E",
+          "new_target": "32B500",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "3804EE",
+            "command_hex": "080eb5f800"
+          }
+        },
+        {
+          "offset": "2F7ACA",
+          "old_target": "38DBC6",
+          "new_target": "32B524",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7AC9",
+            "command_hex": "0ac6dbf800"
+          }
+        },
+        {
+          "offset": "2F785B",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F785A",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "2F7869",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7868",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "2F787C",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F787B",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "2F788E",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F788D",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F0D7",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F0D6",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F195",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F194",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F379",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F378",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F38F",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F38E",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F3AC",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F3AB",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F3C8",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F3C7",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "37F3FB",
+          "old_target": "2F790B",
+          "new_target": "32B548",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F3FA",
+            "command_hex": "080b79ef00"
+          }
+        },
+        {
+          "offset": "2F78FD",
+          "old_target": "2F798F",
+          "new_target": "32B56C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78FC",
+            "command_hex": "088f79ef00"
+          }
+        },
+        {
+          "offset": "2F7AFC",
+          "old_target": "38DC03",
+          "new_target": "32B590",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7AFB",
+            "command_hex": "0a03dcf800"
+          }
+        },
+        {
+          "offset": "24D4F7",
+          "old_target": "387B3F",
+          "new_target": "32B5B4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "24D4F6",
+            "command_hex": "083f7bf800"
+          }
+        },
+        {
+          "offset": "35433B",
+          "old_target": "387B3F",
+          "new_target": "32B5B4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35433A",
+            "command_hex": "083f7bf800"
+          }
+        },
+        {
+          "offset": "2F78F8",
+          "old_target": "35CC29",
+          "new_target": "32B5D8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F78F7",
+            "command_hex": "0a29ccf500"
+          }
+        },
+        {
+          "offset": "2F7D36",
+          "old_target": "2F7DBE",
+          "new_target": "320BA0",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F7D34",
+            "command_hex": "1b02be7def00"
+          }
+        },
+        {
+          "offset": "37F406",
+          "old_target": "37F417",
+          "new_target": "320C50",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F404",
+            "command_hex": "1b0317f4f700"
+          }
+        },
+        {
+          "offset": "35EB3D",
+          "old_target": "35EB4D",
+          "new_target": "32F020",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35EB3B",
+            "command_hex": "1b034debf500"
+          }
+        },
+        {
+          "offset": "35ED3C",
+          "old_target": "35ED4B",
+          "new_target": "32F030",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35ED32",
+            "command_hex": "090549edf50049edf5004bedf50056edf50056edf500"
+          }
+        },
+        {
+          "offset": "35ED40",
+          "old_target": "35ED56",
+          "new_target": "32F03C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35ED32",
+            "command_hex": "090549edf50049edf5004bedf50056edf50056edf500"
+          }
+        },
+        {
+          "offset": "35ED44",
+          "old_target": "35ED56",
+          "new_target": "32F03C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "35ED32",
+            "command_hex": "090549edf50049edf5004bedf50056edf50056edf500"
+          }
+        }
+      ],
+      "prior_pointer_repairs": [
+        {
+          "offset": "08F7D3",
+          "original_target": "38DB38",
+          "old_target": "32B2E7",
+          "new_target": "32B0B8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7D2",
+            "command_hex": "0ae7b2f200"
+          }
+        },
+        {
+          "offset": "08F84D",
+          "original_target": "38DB7E",
+          "old_target": "32B174",
+          "new_target": "32B0E8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F84C",
+            "command_hex": "0a74b1f200"
+          }
+        },
+        {
+          "offset": "1580E8",
+          "original_target": "2F80C4",
+          "old_target": "32A358",
+          "new_target": "32D044",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580E4",
+            "record_hex": "0004020058a3f2002c90c200"
+          }
+        },
+        {
+          "offset": "158124",
+          "original_target": "2F81A5",
+          "old_target": "32A378",
+          "new_target": "32A2D0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158120",
+            "record_hex": "0100050078a3f2003390c200"
+          }
+        },
+        {
+          "offset": "1582E0",
+          "original_target": "2F8E3C",
+          "old_target": "32E532",
+          "new_target": "32B340",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582DC",
+            "record_hex": "0001040032e5f200d1a3c200"
+          }
+        },
+        {
+          "offset": "1586B8",
+          "original_target": "2F8D72",
+          "old_target": "32B086",
+          "new_target": "32E394",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1586B4",
+            "record_hex": "0001050086b0f2006d8bc200"
+          }
+        },
+        {
+          "offset": "158A3C",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A38",
+            "record_hex": "01000500d8a3f2003990c200"
+          }
+        },
+        {
+          "offset": "2F8CD0",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8CCA",
+            "command_hex": "0903b8a3f200d8a3f200b4c1e500"
+          }
+        },
+        {
+          "offset": "365CF3",
+          "original_target": "384406",
+          "old_target": "32E4FC",
+          "new_target": "32B314",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365CF0",
+            "command_hex": "06f800fce4f200"
+          }
+        },
+        {
+          "offset": "368791",
+          "original_target": "2F80C4",
+          "old_target": "32A358",
+          "new_target": "32D044",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36878D",
+            "record_hex": "0004020058a3f2005186c200"
+          }
+        },
+        {
+          "offset": "3687CD",
+          "original_target": "2F81A5",
+          "old_target": "32A378",
+          "new_target": "32A2D0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687C9",
+            "record_hex": "0100050078a3f2003390c200"
+          }
+        },
+        {
+          "offset": "368989",
+          "original_target": "2F8E3C",
+          "old_target": "32E532",
+          "new_target": "32B340",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368985",
+            "record_hex": "0001040032e5f200d1a3c200"
+          }
+        },
+        {
+          "offset": "368D61",
+          "original_target": "2F8D72",
+          "old_target": "32B086",
+          "new_target": "32E394",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368D5D",
+            "record_hex": "0001050086b0f2006d8bc200"
+          }
+        },
+        {
+          "offset": "3690E5",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690E1",
+            "record_hex": "01000500d8a3f2009b88c200"
+          }
+        }
+      ],
+      "rom_roundtrip": true,
+      "source_scripts_preserved": true,
+      "outside_declared_ranges_unchanged": true,
+      "prior_record_pointer_updates": [
+        {
+          "offset": "167B17",
+          "old_target": "34A902",
+          "new_target": "32ED10",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "167B15",
+            "command_hex": "090202a9f4001f7bd600"
+          }
+        },
+        {
+          "offset": "37F432",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F431",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F448",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F447",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "37F45E",
+          "old_target": "2F794B",
+          "new_target": "32EA3C",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "37F45D",
+            "command_hex": "084b79ef00"
+          }
+        },
+        {
+          "offset": "24D4F7",
+          "old_target": "387B3F",
+          "new_target": "32B5B4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "24D4F6",
+            "command_hex": "083f7bf800"
+          }
+        },
+        {
+          "offset": "08F7D3",
+          "original_target": "38DB38",
+          "old_target": "32B2E7",
+          "new_target": "32B0B8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F7D2",
+            "command_hex": "0ae7b2f200"
+          }
+        },
+        {
+          "offset": "08F84D",
+          "original_target": "38DB7E",
+          "old_target": "32B174",
+          "new_target": "32B0E8",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "08F84C",
+            "command_hex": "0a74b1f200"
+          }
+        },
+        {
+          "offset": "1580E8",
+          "original_target": "2F80C4",
+          "old_target": "32A358",
+          "new_target": "32D044",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1580E4",
+            "record_hex": "0004020058a3f2002c90c200"
+          }
+        },
+        {
+          "offset": "158124",
+          "original_target": "2F81A5",
+          "old_target": "32A378",
+          "new_target": "32A2D0",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158120",
+            "record_hex": "0100050078a3f2003390c200"
+          }
+        },
+        {
+          "offset": "1582E0",
+          "original_target": "2F8E3C",
+          "old_target": "32E532",
+          "new_target": "32B340",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1582DC",
+            "record_hex": "0001040032e5f200d1a3c200"
+          }
+        },
+        {
+          "offset": "1586B8",
+          "original_target": "2F8D72",
+          "old_target": "32B086",
+          "new_target": "32E394",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "1586B4",
+            "record_hex": "0001050086b0f2006d8bc200"
+          }
+        },
+        {
+          "offset": "158A3C",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "legacy_battle_action_description",
+            "record": "158A38",
+            "record_hex": "01000500d8a3f2003990c200"
+          }
+        },
+        {
+          "offset": "2F8CD0",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "2F8CCA",
+            "command_hex": "0903b8a3f200d8a3f200b4c1e500"
+          }
+        },
+        {
+          "offset": "365CF3",
+          "original_target": "384406",
+          "old_target": "32E4FC",
+          "new_target": "32B314",
+          "proof": {
+            "kind": "parsed_command_operand",
+            "command": "365CF0",
+            "command_hex": "06f800fce4f200"
+          }
+        },
+        {
+          "offset": "368791",
+          "original_target": "2F80C4",
+          "old_target": "32A358",
+          "new_target": "32D044",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "36878D",
+            "record_hex": "0004020058a3f2005186c200"
+          }
+        },
+        {
+          "offset": "3687CD",
+          "original_target": "2F81A5",
+          "old_target": "32A378",
+          "new_target": "32A2D0",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3687C9",
+            "record_hex": "0100050078a3f2003390c200"
+          }
+        },
+        {
+          "offset": "368989",
+          "original_target": "2F8E3C",
+          "old_target": "32E532",
+          "new_target": "32B340",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368985",
+            "record_hex": "0001040032e5f200d1a3c200"
+          }
+        },
+        {
+          "offset": "368D61",
+          "original_target": "2F8D72",
+          "old_target": "32B086",
+          "new_target": "32E394",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "368D5D",
+            "record_hex": "0001050086b0f2006d8bc200"
+          }
+        },
+        {
+          "offset": "3690E5",
+          "original_target": "2F8D17",
+          "old_target": "32A3D8",
+          "new_target": "32CFB4",
+          "proof": {
+            "kind": "battle_action_description",
+            "record": "3690E1",
+            "record_hex": "01000500d8a3f2009b88c200"
+          }
+        }
+      ]
+    }
+  },
+  "new_scenes_naturally_emulator_tested": false
+}

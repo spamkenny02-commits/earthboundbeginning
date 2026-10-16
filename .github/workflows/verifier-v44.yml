@@ -1,0 +1,23 @@
+name: Verify V44 IPS offline
+
+on:
+  push:
+    paths:
+      - 'tools/v44/**'
+      - 'patches/EarthBound_Beginnings_FR_v44_*.ips'
+      - '.github/workflows/verifier-v44.yml'
+  pull_request:
+    paths:
+      - 'tools/v44/**'
+      - 'patches/EarthBound_Beginnings_FR_v44_*.ips'
+      - '.github/workflows/verifier-v44.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v44 -p test_v44_offline.py -v

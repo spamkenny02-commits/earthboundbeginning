@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V43 (traduction partielle)
+## Version actuelle : V44 (traduction partielle)
+
+V44 ajoute **93 fragments français dans 46 scripts de messages et six routines grammaticales privées** : combat, inventaire, services, Laura et Pippi. Elle corrige aussi **14 pointeurs V43** touchés par une collision entre la fin d'un script et l'entrée du suivant. Les menus restent pour la suite.
+
+- [Patch V44 avec accents](patches/EarthBound_Beginnings_FR_v44_accents.ips)
+- [Patch V44 ASCII](patches/EarthBound_Beginnings_FR_v44_ascii.ips)
+- [Rapport V44 et corrections](RAPPORT_V44.md)
+- [Traductions, constructeur et tests](tools/v44/README_V44.md)
+- [Essais Snes9x et captures](tests/emulation_v44/RAPPORT_EMULATION_V44.md)
+
+Appliquer **un seul IPS V44 directement à la ROM originale USA 1.2**. 181 tests locaux réussis. Le parcours normal Snes9x est conforme dans les deux profils ; dix messages sont relus dans chaque profil avec un routage de combat contrôlé. Leur accès naturel et les scènes tardives restent à vérifier. Aucune ROM distribuée.
+
+## Version précédente : V43 (traduction partielle)
 
 V43 ajoute **102 occurrences de fragments français dans 56 scripts** : combat, objets, réponses de services, variations de statistiques et souvenirs de Maria. Les menus restent pour la suite.
 
