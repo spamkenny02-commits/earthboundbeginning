@@ -1,0 +1,2566 @@
+{
+  "method": "controlled_bank_card_routing_comparing_original_and_translated_menu_selections",
+  "rom_modified_for_probe": true,
+  "wram_modified_for_probe": false,
+  "pointer_slot": "368B51",
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "natural_scene_access_verified": false,
+  "versions": {
+    "54": {
+      "accents": {
+        "podunk_0": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "3326aed296251fcb9c71a8185c670672ab03ed8bdaf2b1f346a8590a94448e18",
+          "target": "33F0CF",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a8c4fc1898dfa597ff505b582a01cb7c8ad4f6e5bc3f6f617bb0ffcc9155e49c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a8c4fc1898dfa597ff505b582a01cb7c8ad4f6e5bc3f6f617bb0ffcc9155e49c"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ba182c8eb106a18362734c1525b5940f09a62f144a2ac6010e0d8d2d41c482d0"
+            }
+          }
+        },
+        "podunk_1": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "3326aed296251fcb9c71a8185c670672ab03ed8bdaf2b1f346a8590a94448e18",
+          "target": "33F0CF",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a8c4fc1898dfa597ff505b582a01cb7c8ad4f6e5bc3f6f617bb0ffcc9155e49c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f5918edc5165d8c6bc7d405898fd4dd8707c4fce37906e9aa7bad665d65af733"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ad0a276fba6e2c93fc8c514a8084ad91b0dba4cb6516a90dbe9eb773821bfe41"
+            }
+          }
+        },
+        "podunk_2": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "3326aed296251fcb9c71a8185c670672ab03ed8bdaf2b1f346a8590a94448e18",
+          "target": "33F0CF",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a8c4fc1898dfa597ff505b582a01cb7c8ad4f6e5bc3f6f617bb0ffcc9155e49c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fa3a39d2603b2ef9b6aa04cd93ccd3498b5527ec3cc362119c0304ac59a85365"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9329cc97b0107567aea4d5fb786a3b797e5a69e38100794d93f04bdf4bc1e765"
+            }
+          }
+        },
+        "podunk_3": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "66003f26002683bd43690e78f726ecfd148b29e4d3d15f75989db6a7112df66e",
+          "target": "33F0CF",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b88653e4cfee7cc936c8281b74d35a2f38ad18ae2f4e0ad72d1661972f05ad79"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b9a54818f25f0be7f0f9384ae01836b41d7a0c5b50892763d3caf7e7a56099f4"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b9f8dcec7d4edc60c6317611ded455cdc9c5ad49610afc78a8c96838129fd3fe"
+            }
+          }
+        },
+        "merry_0": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "2bcf5c788157c134357f29d88a03db97161ca7d5861eb735dd900cee98fcfa38",
+          "target": "355558",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b825b4f8b4cb8b5ae3ebf2b439874a152ebaf79fc1c02b0fa612ce7f6aa7f3b5"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b825b4f8b4cb8b5ae3ebf2b439874a152ebaf79fc1c02b0fa612ce7f6aa7f3b5"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d8a84daeca93415bb27f66989138f00399b506cb113feda463e01faaaffe5ea"
+            }
+          }
+        },
+        "merry_1": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "2bcf5c788157c134357f29d88a03db97161ca7d5861eb735dd900cee98fcfa38",
+          "target": "355558",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b825b4f8b4cb8b5ae3ebf2b439874a152ebaf79fc1c02b0fa612ce7f6aa7f3b5"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "66ba39d030af8b74c9489d9bc91006083d2fa03e27715cecc46dcc63d8e52ddd"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0226a504d783e392ddafa17df083ada9d3dd9a95824095842cf44dfe4a8ddb2f"
+            }
+          }
+        },
+        "merry_2": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "2bcf5c788157c134357f29d88a03db97161ca7d5861eb735dd900cee98fcfa38",
+          "target": "355558",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b825b4f8b4cb8b5ae3ebf2b439874a152ebaf79fc1c02b0fa612ce7f6aa7f3b5"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1c648cb13d2f000713329ab990e40fb7bb83f4934ed913f0afc270f78c196825"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "6ecb990c5b09e6b01a98967f6158673e2708d0a5abc9bccfb1ef5ee6f00156c7"
+            }
+          }
+        },
+        "merry_3": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "3c692e45e624ec2a3dead26bf931f98e39db5b602fa1e7b90ea49146b4bb9d12",
+          "target": "355558",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0637d4eb1c487d7244f6697d1d7f530f1f67c81822f88adec4356faa0d1bd2c7"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4f8489129d0418734153f57bec51a1dc5434d0d89a8e7309ab7d807a30f1f4cf"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8310a520feed3b42c5591c9650e49a7499493b65e70ec27fae336f4228c8f927"
+            }
+          }
+        },
+        "reindeer_0": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "e70af3a112c3e959cbe06d8be9daba8588b2adc338b1882a0f0a184ccc4498d8",
+          "target": "363D16",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7fedc7b25ba19dbc2b536e94487637bfcc86b25709d454322b5789d8db900b39"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7fedc7b25ba19dbc2b536e94487637bfcc86b25709d454322b5789d8db900b39"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ba182c8eb106a18362734c1525b5940f09a62f144a2ac6010e0d8d2d41c482d0"
+            }
+          }
+        },
+        "reindeer_1": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "e70af3a112c3e959cbe06d8be9daba8588b2adc338b1882a0f0a184ccc4498d8",
+          "target": "363D16",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7fedc7b25ba19dbc2b536e94487637bfcc86b25709d454322b5789d8db900b39"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2f0455010c1157fd5c9ea36e5217ea9cd2d01e0c9b5c8277b31690cd7f9aaa53"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d8a84daeca93415bb27f66989138f00399b506cb113feda463e01faaaffe5ea"
+            }
+          }
+        },
+        "reindeer_2": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "e70af3a112c3e959cbe06d8be9daba8588b2adc338b1882a0f0a184ccc4498d8",
+          "target": "363D16",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7fedc7b25ba19dbc2b536e94487637bfcc86b25709d454322b5789d8db900b39"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cdaeb3b7d76e71d04e00e27904860389de8c8e86032fe0d1fea0414bf5bb4da2"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "40d2f81cf55e4731034335eec650f5cbc05b66d40f64b8fddace7a88e3f696ca"
+            }
+          }
+        },
+        "reindeer_3": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "323022b6b91e1a8ce348ccf63cb4b80f119edc9836d171bc8510fa8e1a15fde7",
+          "target": "363D16",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "05ba6d0d13a07b8906ce408283ef136796704074ed283c2cb77abe0c6c69b977"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5efeb56b561e384f5189bdc53fe2937248df0830f49e16c8ca5c2e0759bf0405"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cb10abae66e30fa954f267b18a63f8c1832447fb25c88d47cbaee2f72a27b2ae"
+            }
+          }
+        },
+        "snowman_0": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "caf01c314166f3390cb0c27cb0f43e5f313628176f9c78cd3e0dbac99ef72a9d",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48e853095a44a63c88763aca542e839b86f286e0f740ae9db199e11efaaba3dd"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48e853095a44a63c88763aca542e839b86f286e0f740ae9db199e11efaaba3dd"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aa5455c84222c9e6301fab3f48c43296e3064c3102c513073a8ac52373de0ef9"
+            }
+          }
+        },
+        "snowman_1": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "caf01c314166f3390cb0c27cb0f43e5f313628176f9c78cd3e0dbac99ef72a9d",
+          "target": "3781AA",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48e853095a44a63c88763aca542e839b86f286e0f740ae9db199e11efaaba3dd"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1abef8897d40e0ef9f93588cc633a95457039f1d5001d432a07c5ed217dc6e95"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "de6a91328ca4e0cb68201b753e272bd8bb794436c8e0edb563ab08fdf95efe57"
+            }
+          }
+        },
+        "snowman_2": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "caf01c314166f3390cb0c27cb0f43e5f313628176f9c78cd3e0dbac99ef72a9d",
+          "target": "3781AA",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48e853095a44a63c88763aca542e839b86f286e0f740ae9db199e11efaaba3dd"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e64ef5a1d3878ef52c3dcd971f31fe8c8cd52e2ef9c869ceb4e933cf87520af8"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c9cdce9c58dccfc7210f81ebac1e3963b5e80a6233d6e4ab7702f54e5dc6a5b9"
+            }
+          }
+        },
+        "snowman_3": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "caf01c314166f3390cb0c27cb0f43e5f313628176f9c78cd3e0dbac99ef72a9d",
+          "target": "3781AA",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48e853095a44a63c88763aca542e839b86f286e0f740ae9db199e11efaaba3dd"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a46391206a4be1db0c9adb6e2c5a3f006ceacd7371e7474a402c7b0c65ab2065"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1eb3bc60300a898fee45a71d182cac8989a26592b38c38d3d3c8de226b107a89"
+            }
+          }
+        },
+        "podunk_cancel": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "3326aed296251fcb9c71a8185c670672ab03ed8bdaf2b1f346a8590a94448e18",
+          "target": "33F0CF",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a8c4fc1898dfa597ff505b582a01cb7c8ad4f6e5bc3f6f617bb0ffcc9155e49c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a8c4fc1898dfa597ff505b582a01cb7c8ad4f6e5bc3f6f617bb0ffcc9155e49c"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/podunk_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d509b792b31ec5dd7f868ae7c5f4d069b77680e5608c6d56a9750d732601964d"
+            }
+          }
+        },
+        "merry_cancel": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "2bcf5c788157c134357f29d88a03db97161ca7d5861eb735dd900cee98fcfa38",
+          "target": "355558",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b825b4f8b4cb8b5ae3ebf2b439874a152ebaf79fc1c02b0fa612ce7f6aa7f3b5"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b825b4f8b4cb8b5ae3ebf2b439874a152ebaf79fc1c02b0fa612ce7f6aa7f3b5"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/merry_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d509b792b31ec5dd7f868ae7c5f4d069b77680e5608c6d56a9750d732601964d"
+            }
+          }
+        },
+        "reindeer_cancel": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "e70af3a112c3e959cbe06d8be9daba8588b2adc338b1882a0f0a184ccc4498d8",
+          "target": "363D16",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7fedc7b25ba19dbc2b536e94487637bfcc86b25709d454322b5789d8db900b39"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7fedc7b25ba19dbc2b536e94487637bfcc86b25709d454322b5789d8db900b39"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/reindeer_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d509b792b31ec5dd7f868ae7c5f4d069b77680e5608c6d56a9750d732601964d"
+            }
+          }
+        },
+        "snowman_cancel": {
+          "base_rom_sha256": "3b2dc6de20032a2d5c627e18aee7131441cc0ec1dc32f182e3e770bab0c6a1cd",
+          "fixture_rom_sha256": "caf01c314166f3390cb0c27cb0f43e5f313628176f9c78cd3e0dbac99ef72a9d",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48e853095a44a63c88763aca542e839b86f286e0f740ae9db199e11efaaba3dd"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48e853095a44a63c88763aca542e839b86f286e0f740ae9db199e11efaaba3dd"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/accents/snowman_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d509b792b31ec5dd7f868ae7c5f4d069b77680e5608c6d56a9750d732601964d"
+            }
+          }
+        }
+      },
+      "ascii": {
+        "podunk_0": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "812fd8a7abc70d284ebce39c493512fc86976d496fd9d16a9bb809668ed4ab4e",
+          "target": "33F0CF",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "533842b2ffc0d0ca1aa1010f867e93007399cda3fee6deae1f732aeaee309949"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "533842b2ffc0d0ca1aa1010f867e93007399cda3fee6deae1f732aeaee309949"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "92beaa0ae139859e4fae2d4e0a5a843c87bde641e8342ce5a5ce796172ff012b"
+            }
+          }
+        },
+        "podunk_1": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "812fd8a7abc70d284ebce39c493512fc86976d496fd9d16a9bb809668ed4ab4e",
+          "target": "33F0CF",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "533842b2ffc0d0ca1aa1010f867e93007399cda3fee6deae1f732aeaee309949"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "5f0b3019468d322676f43d70a44a665274f4dab3cae368b2155e817d51dd20aa"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e15118217f29fe657b7362453584c582fbc9dd4904b7a33384faa77b6a4bf751"
+            }
+          }
+        },
+        "podunk_2": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "812fd8a7abc70d284ebce39c493512fc86976d496fd9d16a9bb809668ed4ab4e",
+          "target": "33F0CF",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "533842b2ffc0d0ca1aa1010f867e93007399cda3fee6deae1f732aeaee309949"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "34e42e303c36bce1732fca7b838048c97ec583e203b007d15bda6b4973b63fe0"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c676412036654ff5438737f96142f2735b7704a9bc192ad30681344fa9d9b7c6"
+            }
+          }
+        },
+        "podunk_3": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "10364377e25abc54134aa0af139154a72617dee0697a10020e89a2808780a54d",
+          "target": "33F0CF",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "96a32444ee29e9e767563b42f4b6a12b966c9c2214888b1e7b2ee197fd16a8b2"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b6fb6c2c4c4b604750008be874fe12836873786da055a39e032768daa427ba9e"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "79b809b8bc2b213b2c31a832345e54fe2145749125b9f0c000f34b8d0a8cf2cd"
+            }
+          }
+        },
+        "merry_0": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "73c89c9ca7d047c65db4c8f091c145296136d8fa64c904782db1d249b7eaaa08",
+          "target": "355558",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aebc4e06caee49c017cc3e3d4366333336ccc897f4c4462ff14eae7fc3e991d9"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aebc4e06caee49c017cc3e3d4366333336ccc897f4c4462ff14eae7fc3e991d9"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c8cef289e177a64ca38ee4cb47569e8b8706f2bce16559a22f2b37205a2548f1"
+            }
+          }
+        },
+        "merry_1": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "73c89c9ca7d047c65db4c8f091c145296136d8fa64c904782db1d249b7eaaa08",
+          "target": "355558",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aebc4e06caee49c017cc3e3d4366333336ccc897f4c4462ff14eae7fc3e991d9"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4c40c8de3d4102cb80b5d6b282d50eb0d0c157b373578888cf8f9911024ca476"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "31c338c70e9b8c83d5d1d4d75045c35998ec239d7a46e53cde9573614fb40160"
+            }
+          }
+        },
+        "merry_2": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "73c89c9ca7d047c65db4c8f091c145296136d8fa64c904782db1d249b7eaaa08",
+          "target": "355558",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aebc4e06caee49c017cc3e3d4366333336ccc897f4c4462ff14eae7fc3e991d9"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "af522289187378b1f394610df15bd5b1418260ac1bfc975df62209215345a1f8"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7736f9efab406b1e33e7a3123facf7a1990778838c9e171c172b63487ed0069f"
+            }
+          }
+        },
+        "merry_3": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "e56f2cb3a001e530daacca41f0846d5ab62a604973fcc7ecc54ae3623e8232a6",
+          "target": "355558",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "bd6d41d27b591e27995cf05ba659bc88b71f203318694ba705361969f304a7ea"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0535631e291bc8d72b94949b6cf6ef700148a51889b2eba6d02a546ecbed9b58"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "078f159c1fdd783bd203f986e24623b2b7876f3497d8b3805f30a15704d43a72"
+            }
+          }
+        },
+        "reindeer_0": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "9183dbe8fe8573bdda5c909c0cb4cee45c0422dfe5aa932cfe375f92bd946217",
+          "target": "363D16",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48c52899da5baf9058a808d7d29ba3b3a45565c5be7bafd7e7cb3536d1bdc16c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48c52899da5baf9058a808d7d29ba3b3a45565c5be7bafd7e7cb3536d1bdc16c"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "92beaa0ae139859e4fae2d4e0a5a843c87bde641e8342ce5a5ce796172ff012b"
+            }
+          }
+        },
+        "reindeer_1": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "9183dbe8fe8573bdda5c909c0cb4cee45c0422dfe5aa932cfe375f92bd946217",
+          "target": "363D16",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48c52899da5baf9058a808d7d29ba3b3a45565c5be7bafd7e7cb3536d1bdc16c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "acffc7189665ef80e3871d902bb5e8810c6f0c59d5fde7e1ce77f1b1c26ab6eb"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c8cef289e177a64ca38ee4cb47569e8b8706f2bce16559a22f2b37205a2548f1"
+            }
+          }
+        },
+        "reindeer_2": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "9183dbe8fe8573bdda5c909c0cb4cee45c0422dfe5aa932cfe375f92bd946217",
+          "target": "363D16",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48c52899da5baf9058a808d7d29ba3b3a45565c5be7bafd7e7cb3536d1bdc16c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4c126cd6bd87be27f09b4591739bf5527c2e4f8acb7f32803e65615665ef6c45"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "23ef9b51b5a1d8abcd6b6ecda39d2f1d4122d54cc03e8f69aa67c62fa0f24a48"
+            }
+          }
+        },
+        "reindeer_3": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "dc669a30ec06b4cdca2ed8ffe5dc92acf50add3d69d0c7aeff9d5bc5cb9cc0e7",
+          "target": "363D16",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e67c92e072cfb1b79f8a1aa39777c130c5320a01e2c23ec6b984215cc0846d3b"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c4c4ea78ce930f7d6680c563f1fd9333a996929e386b5bc43cd22401a033ed9d"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a1f9cab83b6691437d32e883d8aa64901e16105ef753c762ba095234c36beba2"
+            }
+          }
+        },
+        "snowman_0": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "02a4c2b0d25ba3a49ed7302dbe10e9add2edb256aff2659173ca8f55ccf01ab2",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aa78340be6e39cdda172dea63feb952244765f14f145a2e320f60e37ecc1a2fc"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aa78340be6e39cdda172dea63feb952244765f14f145a2e320f60e37ecc1a2fc"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8cea05bae887a40d302bebef81908bc0835cc3b1b2a268725be170ec6287029b"
+            }
+          }
+        },
+        "snowman_1": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "02a4c2b0d25ba3a49ed7302dbe10e9add2edb256aff2659173ca8f55ccf01ab2",
+          "target": "3781AA",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aa78340be6e39cdda172dea63feb952244765f14f145a2e320f60e37ecc1a2fc"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7331f3cb00e32fa23823786de9dc206d33cde7e6bc06a5f9405a9f976e19a7ed"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9059a1d74aa260102b5d1fb6af9528fa46c9fe22efb667072c86566a607faf37"
+            }
+          }
+        },
+        "snowman_2": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "02a4c2b0d25ba3a49ed7302dbe10e9add2edb256aff2659173ca8f55ccf01ab2",
+          "target": "3781AA",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aa78340be6e39cdda172dea63feb952244765f14f145a2e320f60e37ecc1a2fc"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7e2657507dd19e569d28f63264815b3e3ee35a6f52c8daa14ac76b9d57f1b59d"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "06998b0b3cff95fd4d98451e1973ffbc3169a10ccdc8151446876cd5f5dcd68d"
+            }
+          }
+        },
+        "snowman_3": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "02a4c2b0d25ba3a49ed7302dbe10e9add2edb256aff2659173ca8f55ccf01ab2",
+          "target": "3781AA",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aa78340be6e39cdda172dea63feb952244765f14f145a2e320f60e37ecc1a2fc"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "025f5ea1a697bc2fc5be5db034cea207c9a9ccffe4d2bee363c25aaf5a94b266"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "437727c58ab13f30fffb8bb6737e8beb91af6cdb6a316315c1cba6f8f75d4ec1"
+            }
+          }
+        },
+        "podunk_cancel": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "812fd8a7abc70d284ebce39c493512fc86976d496fd9d16a9bb809668ed4ab4e",
+          "target": "33F0CF",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "533842b2ffc0d0ca1aa1010f867e93007399cda3fee6deae1f732aeaee309949"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "533842b2ffc0d0ca1aa1010f867e93007399cda3fee6deae1f732aeaee309949"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/podunk_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1e29c0e8d44014310a040b729e767aa4b8f0cd408bf0c727b29522d7163d0e86"
+            }
+          }
+        },
+        "merry_cancel": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "73c89c9ca7d047c65db4c8f091c145296136d8fa64c904782db1d249b7eaaa08",
+          "target": "355558",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aebc4e06caee49c017cc3e3d4366333336ccc897f4c4462ff14eae7fc3e991d9"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aebc4e06caee49c017cc3e3d4366333336ccc897f4c4462ff14eae7fc3e991d9"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/merry_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1e29c0e8d44014310a040b729e767aa4b8f0cd408bf0c727b29522d7163d0e86"
+            }
+          }
+        },
+        "reindeer_cancel": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "9183dbe8fe8573bdda5c909c0cb4cee45c0422dfe5aa932cfe375f92bd946217",
+          "target": "363D16",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48c52899da5baf9058a808d7d29ba3b3a45565c5be7bafd7e7cb3536d1bdc16c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "48c52899da5baf9058a808d7d29ba3b3a45565c5be7bafd7e7cb3536d1bdc16c"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/reindeer_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1e29c0e8d44014310a040b729e767aa4b8f0cd408bf0c727b29522d7163d0e86"
+            }
+          }
+        },
+        "snowman_cancel": {
+          "base_rom_sha256": "597c067e34cb80173b6c8581966da2073dd897e21d272d9f149ac072860212bc",
+          "fixture_rom_sha256": "02a4c2b0d25ba3a49ed7302dbe10e9add2edb256aff2659173ca8f55ccf01ab2",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aa78340be6e39cdda172dea63feb952244765f14f145a2e320f60e37ecc1a2fc"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "aa78340be6e39cdda172dea63feb952244765f14f145a2e320f60e37ecc1a2fc"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v54/ascii/snowman_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1e29c0e8d44014310a040b729e767aa4b8f0cd408bf0c727b29522d7163d0e86"
+            }
+          }
+        }
+      }
+    },
+    "55": {
+      "accents": {
+        "podunk_0": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "60f82a3789b421cd1dd556804003299db6582550dadd125125ef4ac807f46392",
+          "target": "33F0CF",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d93dc0d1e4e74ebc655588b45a59e978629eef231cc2514062eff7eead8339a1"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d93dc0d1e4e74ebc655588b45a59e978629eef231cc2514062eff7eead8339a1"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ba182c8eb106a18362734c1525b5940f09a62f144a2ac6010e0d8d2d41c482d0"
+            }
+          }
+        },
+        "podunk_1": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "60f82a3789b421cd1dd556804003299db6582550dadd125125ef4ac807f46392",
+          "target": "33F0CF",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d93dc0d1e4e74ebc655588b45a59e978629eef231cc2514062eff7eead8339a1"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7374bda83f9b096babc7d4f161cb79432afc0218c8668b4353ffc46da656e4fb"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ad0a276fba6e2c93fc8c514a8084ad91b0dba4cb6516a90dbe9eb773821bfe41"
+            }
+          }
+        },
+        "podunk_2": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "60f82a3789b421cd1dd556804003299db6582550dadd125125ef4ac807f46392",
+          "target": "33F0CF",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d93dc0d1e4e74ebc655588b45a59e978629eef231cc2514062eff7eead8339a1"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fe8bde460323374a8b7518c3840c45f441468c32a612f9d26bcc8d9d455fecb7"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "9329cc97b0107567aea4d5fb786a3b797e5a69e38100794d93f04bdf4bc1e765"
+            }
+          }
+        },
+        "podunk_3": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "7f99ab8cbd56f6664d9e18bc88e4f4738db73a1dad36576fbdd35350b58e9cd6",
+          "target": "33F0CF",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2129b073d760599cd1515b2f6ddb44aab1fa4234cc9be43e5c26eb2bf84963cc"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0645add388d97c592e2a369bef50b1175464d67a3999be1dc9515cd7b39ae2c1"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "b9f8dcec7d4edc60c6317611ded455cdc9c5ad49610afc78a8c96838129fd3fe"
+            }
+          }
+        },
+        "merry_0": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "9b754a9cb62699b98c66bfb0127fb166e909f7ea2c197cf8699df538f7898d26",
+          "target": "355558",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7b377760c6d8b9703177432d787a3853858a746218b8525a50c48eec9bfdb447"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7b377760c6d8b9703177432d787a3853858a746218b8525a50c48eec9bfdb447"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d8a84daeca93415bb27f66989138f00399b506cb113feda463e01faaaffe5ea"
+            }
+          }
+        },
+        "merry_1": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "9b754a9cb62699b98c66bfb0127fb166e909f7ea2c197cf8699df538f7898d26",
+          "target": "355558",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7b377760c6d8b9703177432d787a3853858a746218b8525a50c48eec9bfdb447"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cd02c54eda742ccd2869cff3b28881523753319426cc82bf5631be8bc34cbdd7"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0226a504d783e392ddafa17df083ada9d3dd9a95824095842cf44dfe4a8ddb2f"
+            }
+          }
+        },
+        "merry_2": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "9b754a9cb62699b98c66bfb0127fb166e909f7ea2c197cf8699df538f7898d26",
+          "target": "355558",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7b377760c6d8b9703177432d787a3853858a746218b8525a50c48eec9bfdb447"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ca3a9c4fb6de81667dcd6407333c63ff8c6aff583dd7077feaf2296985999618"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "6ecb990c5b09e6b01a98967f6158673e2708d0a5abc9bccfb1ef5ee6f00156c7"
+            }
+          }
+        },
+        "merry_3": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "2cffbcb3739b4f7ae733eadab31719dd23d9b49af98d2e972300f8e04256551d",
+          "target": "355558",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "4725a63661d4d62f57b6701ce0aed38096443b350e32a7c190dc74573c14ff27"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0c526fac45931c7f75592286762ee0ab94ac2301075bfa66d3b0bbfe768d5822"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8310a520feed3b42c5591c9650e49a7499493b65e70ec27fae336f4228c8f927"
+            }
+          }
+        },
+        "reindeer_0": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "919487d0286a7dbfe8c6d7f6122af9b0e2917fdb5049bcbda92ed9066f8178a3",
+          "target": "363D16",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a311184ed57a05ecdf9f0a25daaabb20da67a760608fa6b06d76402de8429981"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a311184ed57a05ecdf9f0a25daaabb20da67a760608fa6b06d76402de8429981"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ba182c8eb106a18362734c1525b5940f09a62f144a2ac6010e0d8d2d41c482d0"
+            }
+          }
+        },
+        "reindeer_1": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "919487d0286a7dbfe8c6d7f6122af9b0e2917fdb5049bcbda92ed9066f8178a3",
+          "target": "363D16",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a311184ed57a05ecdf9f0a25daaabb20da67a760608fa6b06d76402de8429981"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8eeb98bcef073c43b4f5473c17646b78a3b4258e958ece0569b348c716b19740"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d8a84daeca93415bb27f66989138f00399b506cb113feda463e01faaaffe5ea"
+            }
+          }
+        },
+        "reindeer_2": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "919487d0286a7dbfe8c6d7f6122af9b0e2917fdb5049bcbda92ed9066f8178a3",
+          "target": "363D16",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a311184ed57a05ecdf9f0a25daaabb20da67a760608fa6b06d76402de8429981"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2b36fc13153b0a63af1283d31b023a3700c01abe9dad0b4c8dc909ae8587e509"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "40d2f81cf55e4731034335eec650f5cbc05b66d40f64b8fddace7a88e3f696ca"
+            }
+          }
+        },
+        "reindeer_3": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "c183c96472f9b91114ef768573bd5c73000801fe43d6bb2050dbc500ed6fe5b2",
+          "target": "363D16",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d32aa0b8c52098a5d143fd7dfdbd7a31096f18ff58036f5311b73915eb2da839"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "25e559c8638b6e07211f340d30890b002e2c0cf5c228688460247a56f4027fa5"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "cb10abae66e30fa954f267b18a63f8c1832447fb25c88d47cbaee2f72a27b2ae"
+            }
+          }
+        },
+        "snowman_0": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "f4a7e1cb9fcdbc0be67ce2d409654f71ed8278ac7e483ccf56c619ce5d3c127e",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db07a6c472cc5233be2795edbd6dc6e2758836185537bd7facb9e6c5e2b4b37f"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db07a6c472cc5233be2795edbd6dc6e2758836185537bd7facb9e6c5e2b4b37f"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7e28309b9bf01b51fb3301af1cd9e9842ad67fcd9b9477399bda2ea20b57e0fe"
+            }
+          }
+        },
+        "snowman_1": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "f4a7e1cb9fcdbc0be67ce2d409654f71ed8278ac7e483ccf56c619ce5d3c127e",
+          "target": "3781AA",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db07a6c472cc5233be2795edbd6dc6e2758836185537bd7facb9e6c5e2b4b37f"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "ecd93f4fbaacbe2825b41320515dc2cd380bd4ef448caf9ce5d36cdc3432e925"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e0a17d51e5a7bd47a3f8b830f50d31ded595232d34bd03c94a282b865e85386a"
+            }
+          }
+        },
+        "snowman_2": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "f4a7e1cb9fcdbc0be67ce2d409654f71ed8278ac7e483ccf56c619ce5d3c127e",
+          "target": "3781AA",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db07a6c472cc5233be2795edbd6dc6e2758836185537bd7facb9e6c5e2b4b37f"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "0352de6517852d461f2b74aabd1cf22e15c46d75684f1e48ab87b56ad3f20062"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "841b9fccf4a16c9984061689ed21b28f243022c80378914deca46f581642d052"
+            }
+          }
+        },
+        "snowman_3": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "f4a7e1cb9fcdbc0be67ce2d409654f71ed8278ac7e483ccf56c619ce5d3c127e",
+          "target": "3781AA",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db07a6c472cc5233be2795edbd6dc6e2758836185537bd7facb9e6c5e2b4b37f"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "f7e08a9b659233fd5f85f630b2aa028e4dccdbf7599d40082b16e4f7861bf8b0"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "17fc3c2b5bc8707ba56bd27773e172358cd237dab58634a6d4547f391020c872"
+            }
+          }
+        },
+        "podunk_cancel": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "60f82a3789b421cd1dd556804003299db6582550dadd125125ef4ac807f46392",
+          "target": "33F0CF",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d93dc0d1e4e74ebc655588b45a59e978629eef231cc2514062eff7eead8339a1"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d93dc0d1e4e74ebc655588b45a59e978629eef231cc2514062eff7eead8339a1"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/podunk_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d509b792b31ec5dd7f868ae7c5f4d069b77680e5608c6d56a9750d732601964d"
+            }
+          }
+        },
+        "merry_cancel": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "9b754a9cb62699b98c66bfb0127fb166e909f7ea2c197cf8699df538f7898d26",
+          "target": "355558",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7b377760c6d8b9703177432d787a3853858a746218b8525a50c48eec9bfdb447"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7b377760c6d8b9703177432d787a3853858a746218b8525a50c48eec9bfdb447"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/merry_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d509b792b31ec5dd7f868ae7c5f4d069b77680e5608c6d56a9750d732601964d"
+            }
+          }
+        },
+        "reindeer_cancel": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "919487d0286a7dbfe8c6d7f6122af9b0e2917fdb5049bcbda92ed9066f8178a3",
+          "target": "363D16",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a311184ed57a05ecdf9f0a25daaabb20da67a760608fa6b06d76402de8429981"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a311184ed57a05ecdf9f0a25daaabb20da67a760608fa6b06d76402de8429981"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/reindeer_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d509b792b31ec5dd7f868ae7c5f4d069b77680e5608c6d56a9750d732601964d"
+            }
+          }
+        },
+        "snowman_cancel": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "f4a7e1cb9fcdbc0be67ce2d409654f71ed8278ac7e483ccf56c619ce5d3c127e",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db07a6c472cc5233be2795edbd6dc6e2758836185537bd7facb9e6c5e2b4b37f"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "db07a6c472cc5233be2795edbd6dc6e2758836185537bd7facb9e6c5e2b4b37f"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/accents/snowman_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d509b792b31ec5dd7f868ae7c5f4d069b77680e5608c6d56a9750d732601964d"
+            }
+          }
+        }
+      },
+      "ascii": {
+        "podunk_0": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "1b7ef24ffb6e33c580352054d0a20e942815e1ca5a79a0e57ddaa43886e35613",
+          "target": "33F0CF",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "49faa88df06fe488f4ab345841087cc081a22a357e39958b894be20680982027"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "49faa88df06fe488f4ab345841087cc081a22a357e39958b894be20680982027"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "92beaa0ae139859e4fae2d4e0a5a843c87bde641e8342ce5a5ce796172ff012b"
+            }
+          }
+        },
+        "podunk_1": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "1b7ef24ffb6e33c580352054d0a20e942815e1ca5a79a0e57ddaa43886e35613",
+          "target": "33F0CF",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "49faa88df06fe488f4ab345841087cc081a22a357e39958b894be20680982027"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "2a99a1f2af2ab19332296b308fcc49fcd898aa76e9a884209b40f2c2224aa977"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "e15118217f29fe657b7362453584c582fbc9dd4904b7a33384faa77b6a4bf751"
+            }
+          }
+        },
+        "podunk_2": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "1b7ef24ffb6e33c580352054d0a20e942815e1ca5a79a0e57ddaa43886e35613",
+          "target": "33F0CF",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "49faa88df06fe488f4ab345841087cc081a22a357e39958b894be20680982027"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "777b51c9411a548118a7f394a209969fbc7699cf322d836f81b0ee19ba31c32e"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c676412036654ff5438737f96142f2735b7704a9bc192ad30681344fa9d9b7c6"
+            }
+          }
+        },
+        "podunk_3": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "49fb3c4ac7be46d20f9eae09e2aba39f98588adcd661c697bf06a28fcf5bcf53",
+          "target": "33F0CF",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fc4eabb310895e7e7d5fdf950517e257a5db808e0528d005b76576ecb90e9f53"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "bca6d4289039d2c7f14b539ac9e10e57d814f12875cd785d4a4882a97359594e"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "79b809b8bc2b213b2c31a832345e54fe2145749125b9f0c000f34b8d0a8cf2cd"
+            }
+          }
+        },
+        "merry_0": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "182f43989b4a7ed01a08376433251f6b238086a622c3b4474f4681e48ee9210d",
+          "target": "355558",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "141651cdab7c00fcad0181fdf7cfb263f91f201e14d8cfe2da1e595e6594bc98"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "141651cdab7c00fcad0181fdf7cfb263f91f201e14d8cfe2da1e595e6594bc98"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c8cef289e177a64ca38ee4cb47569e8b8706f2bce16559a22f2b37205a2548f1"
+            }
+          }
+        },
+        "merry_1": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "182f43989b4a7ed01a08376433251f6b238086a622c3b4474f4681e48ee9210d",
+          "target": "355558",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "141651cdab7c00fcad0181fdf7cfb263f91f201e14d8cfe2da1e595e6594bc98"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fcfd46f0b1126635f0e2ce690a3ff53281b78527b24b01a55436c071a482bd5a"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "31c338c70e9b8c83d5d1d4d75045c35998ec239d7a46e53cde9573614fb40160"
+            }
+          }
+        },
+        "merry_2": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "182f43989b4a7ed01a08376433251f6b238086a622c3b4474f4681e48ee9210d",
+          "target": "355558",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "141651cdab7c00fcad0181fdf7cfb263f91f201e14d8cfe2da1e595e6594bc98"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "961b9a8e47373e9cb1b734bb514b2591817ae5b7f80d6aa983377843ef13a1fb"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7736f9efab406b1e33e7a3123facf7a1990778838c9e171c172b63487ed0069f"
+            }
+          }
+        },
+        "merry_3": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "add5769eb68d19170d3e448132327e2fdf3ea119e71b637836959cd7b876a912",
+          "target": "355558",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fe5f142785070fd1931c1feefdeeb32d1554869956f9a487073430c1fcf3c163"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "88c91ee1b9fafa1fb39eb91710f0ce1aee7e71ca13fbe6f1230d42691b240a64"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "078f159c1fdd783bd203f986e24623b2b7876f3497d8b3805f30a15704d43a72"
+            }
+          }
+        },
+        "reindeer_0": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "abff0add317fbd8533413f4159c3fe2f439832558b3df89bae8ebbc7e8b0e672",
+          "target": "363D16",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d50202449ef78de106dc416a33413ba19075422e06b0678bc57a099e3453e06"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d50202449ef78de106dc416a33413ba19075422e06b0678bc57a099e3453e06"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "92beaa0ae139859e4fae2d4e0a5a843c87bde641e8342ce5a5ce796172ff012b"
+            }
+          }
+        },
+        "reindeer_1": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "abff0add317fbd8533413f4159c3fe2f439832558b3df89bae8ebbc7e8b0e672",
+          "target": "363D16",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d50202449ef78de106dc416a33413ba19075422e06b0678bc57a099e3453e06"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "907af5593e126471e45fb8ae3faafa4d3cb75ae135de513b99700b5336b304a3"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "c8cef289e177a64ca38ee4cb47569e8b8706f2bce16559a22f2b37205a2548f1"
+            }
+          }
+        },
+        "reindeer_2": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "abff0add317fbd8533413f4159c3fe2f439832558b3df89bae8ebbc7e8b0e672",
+          "target": "363D16",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d50202449ef78de106dc416a33413ba19075422e06b0678bc57a099e3453e06"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "edeaf92b1dea43914966920d183410ec39623cbc93c599054bddc07183f8421b"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "23ef9b51b5a1d8abcd6b6ecda39d2f1d4122d54cc03e8f69aa67c62fa0f24a48"
+            }
+          }
+        },
+        "reindeer_3": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "db91955abf49be4b1673bc3779c9e470cda9ce487187068fcfc5adf0ac74cf9f",
+          "target": "363D16",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": true,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "026921f5abb9da7029fea7483e9adc0259f08b17f4f529215bf9cf37e296620d"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "7e23eb7334068959bd13e3d5082a14a108bcb3f5146e2acd1010ea9e71c1c0ae"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "a1f9cab83b6691437d32e883d8aa64901e16105ef753c762ba095234c36beba2"
+            }
+          }
+        },
+        "snowman_0": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "72d3c5bdcad5ee9607e7b724b388ae943e52fb36f124de3179c5f4c5ac38631f",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_0/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3b84d3a0a6c08f3ebf14d3a3f40bbaf2727bf4112312469f5d26989d7d281b1c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_0/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3b84d3a0a6c08f3ebf14d3a3f40bbaf2727bf4112312469f5d26989d7d281b1c"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_0/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "137d2d0d58efdaa4ab702dda4338635888edeae4c2a23ef0ba9dbf289cad2ea0"
+            }
+          }
+        },
+        "snowman_1": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "72d3c5bdcad5ee9607e7b724b388ae943e52fb36f124de3179c5f4c5ac38631f",
+          "target": "3781AA",
+          "navigation": [
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_1/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3b84d3a0a6c08f3ebf14d3a3f40bbaf2727bf4112312469f5d26989d7d281b1c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_1/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "390b6115d1c1feb371ba140be54d65ea5d4829db17c6671e8eac28c1688a1e3b"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_1/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "35e9d638591a9aa3b2d1a77981066c117a7a7c0dd399fe4a0991dbcef688f2b8"
+            }
+          }
+        },
+        "snowman_2": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "72d3c5bdcad5ee9607e7b724b388ae943e52fb36f124de3179c5f4c5ac38631f",
+          "target": "3781AA",
+          "navigation": [
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_2/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3b84d3a0a6c08f3ebf14d3a3f40bbaf2727bf4112312469f5d26989d7d281b1c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_2/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "25e8424cbddae9eb337cb0e3d7ba10347f7052dc6c43d9fb7654878a516561f0"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_2/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "8ad16d79aabd2265a3cc3d90ca3f2b60321f3d1df1da895e8a1ecacc328bef1e"
+            }
+          }
+        },
+        "snowman_3": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "72d3c5bdcad5ee9607e7b724b388ae943e52fb36f124de3179c5f4c5ac38631f",
+          "target": "3781AA",
+          "navigation": [
+            "Down",
+            "Down",
+            "Down"
+          ],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_3/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3b84d3a0a6c08f3ebf14d3a3f40bbaf2727bf4112312469f5d26989d7d281b1c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_3/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "d5744a9e4970e9f9926332a6e6a3453e03d601d7bd0bad57953e21b11aa65cc1"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_3/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "fc41281d2af174c24ddba3272e06b3ec51abf6299793105066c2047e7b756d32"
+            }
+          }
+        },
+        "podunk_cancel": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "1b7ef24ffb6e33c580352054d0a20e942815e1ca5a79a0e57ddaa43886e35613",
+          "target": "33F0CF",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "49faa88df06fe488f4ab345841087cc081a22a357e39958b894be20680982027"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "49faa88df06fe488f4ab345841087cc081a22a357e39958b894be20680982027"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/podunk_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1e29c0e8d44014310a040b729e767aa4b8f0cd408bf0c727b29522d7163d0e86"
+            }
+          }
+        },
+        "merry_cancel": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "182f43989b4a7ed01a08376433251f6b238086a622c3b4474f4681e48ee9210d",
+          "target": "355558",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "141651cdab7c00fcad0181fdf7cfb263f91f201e14d8cfe2da1e595e6594bc98"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "141651cdab7c00fcad0181fdf7cfb263f91f201e14d8cfe2da1e595e6594bc98"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/merry_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1e29c0e8d44014310a040b729e767aa4b8f0cd408bf0c727b29522d7163d0e86"
+            }
+          }
+        },
+        "reindeer_cancel": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "abff0add317fbd8533413f4159c3fe2f439832558b3df89bae8ebbc7e8b0e672",
+          "target": "363D16",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d50202449ef78de106dc416a33413ba19075422e06b0678bc57a099e3453e06"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3d50202449ef78de106dc416a33413ba19075422e06b0678bc57a099e3453e06"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/reindeer_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1e29c0e8d44014310a040b729e767aa4b8f0cd408bf0c727b29522d7163d0e86"
+            }
+          }
+        },
+        "snowman_cancel": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "72d3c5bdcad5ee9607e7b724b388ae943e52fb36f124de3179c5f4c5ac38631f",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "B",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_cancel/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3b84d3a0a6c08f3ebf14d3a3f40bbaf2727bf4112312469f5d26989d7d281b1c"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_cancel/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3b84d3a0a6c08f3ebf14d3a3f40bbaf2727bf4112312469f5d26989d7d281b1c"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55/v55/ascii/snowman_cancel/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1e29c0e8d44014310a040b729e767aa4b8f0cd408bf0c727b29522d7163d0e86"
+            }
+          }
+        }
+      }
+    }
+  }
+}

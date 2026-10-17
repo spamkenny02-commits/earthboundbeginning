@@ -1,6 +1,19 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V54 (premier lot de menus)
+## Version actuelle : V55 (menus de transport)
+
+V55 traduit **16 lignes de destination** dans quatre contextes de guichet, avec tarifs et noms de ville conservés, ainsi que deux phrases d'achat du billet. Les lignes sont alignées sur 128 pixels. La traduction reste partielle.
+
+- [Patch V55 avec accents](patches/EarthBound_Beginnings_FR_v55_accents.ips)
+- [Patch V55 ASCII](patches/EarthBound_Beginnings_FR_v55_ascii.ips)
+- [Rapport V55](RAPPORT_V55.md)
+- [Sources et tests](tools/v55/README_V55.md)
+- [Essais Snes9x et captures](tests/emulation_v55/RAPPORT_EMULATION_V55.md)
+- [Avancement estimé : environ 80 %](AVANCEMENT.md), estimation qualitative du travail restant.
+
+Appliquer **un seul IPS V55 directement à la ROM originale USA 1.2**. 430 tests locaux réussis, 212 captures du parcours de référence identiques à V54 et 40 comparaisons de réponses de transport réussies. Les essais contrôlés ne valident pas tous les accès naturels ni les voyages. Aucune ROM distribuée.
+
+## Version précédente : V54 (premier lot de menus)
 
 V54 traduit **169 occurrences de libellés dans 85 blocs de menus** : 81 blocs Oui/Non, deux menus Déposer/Retirer, Soigner/Dormir et Petite/Moyenne/Grande pour les pizzas. Les curseurs, réponses et annulations sont comparés à V53 dans l'émulateur. La traduction reste partielle ; les menus de transport et d'autres écrans restent à examiner.
 

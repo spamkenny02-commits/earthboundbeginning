@@ -1,0 +1,76 @@
+{
+  "method": "controlled_bank_card_routing_comparing_original_and_translated_menu_selections",
+  "rom_modified_for_probe": true,
+  "wram_modified_for_probe": false,
+  "pointer_slot": "368B51",
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "natural_scene_access_verified": false,
+  "versions": {
+    "55": {
+      "accents": {
+        "snowman_intro": {
+          "base_rom_sha256": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+          "fixture_rom_sha256": "f4a7e1cb9fcdbc0be67ce2d409654f71ed8278ac7e483ccf56c619ce5d3c127e",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55_intro/v55/accents/snowman_intro/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "324e567028065eb83f233299684257aa7a53c666aa3e1a33fb7b5a8cec6e00d4"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55_intro/v55/accents/snowman_intro/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "1221da7e6521b7c2845481e5dc67596b4dd7283b9fc88e27b5c7d3fd17d4bd43"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55_intro/v55/accents/snowman_intro/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "994abd905bee238a5fc0bedc5229442dab530a0c0c541b399a4c9710dbe15a91"
+            }
+          }
+        }
+      },
+      "ascii": {
+        "snowman_intro": {
+          "base_rom_sha256": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9",
+          "fixture_rom_sha256": "72d3c5bdcad5ee9607e7b724b388ae943e52fb36f124de3179c5f4c5ac38631f",
+          "target": "3781AA",
+          "navigation": [],
+          "confirmation": "A",
+          "only_declared_routing_and_optional_gate_changed": true,
+          "optional_gate_forced": false,
+          "returncode": 0,
+          "captures": {
+            "menu": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55_intro/v55/ascii/snowman_intro/menu.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "eb81a3d0bd2788f77f00dafcb1f8a1d7207e8c628b4d472d56b47ff8548eea4f"
+            },
+            "selected": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55_intro/v55/ascii/snowman_intro/selected.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "3e21346c6544db1e50867cdfb30b2510eea56980296986723cca42a1da5f3557"
+            },
+            "result": {
+              "path": "/workspace/scratch/a52b6a3f0578/display_v55_intro/v55/ascii/snowman_intro/result.png",
+              "width": 256,
+              "height": 224,
+              "sha256_rgb": "782a57495306d5fa9d5f10c2e9bbe5a9fdcae032a0f06d1feedeb9a104848cd9"
+            }
+          }
+        }
+      }
+    }
+  }
+}
