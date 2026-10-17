@@ -1,0 +1,6923 @@
+{
+  "baseline": "v55",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "baseline_sha256": {
+    "accents": "c202b08cf07f2bafea82c1812cd379ebbfdd30bd0048366101ed28ac47d952e9",
+    "ascii": "f0b4496324994b56ba0105a54d54d933073ff3f151ff8e6895fbd2810bfb58c9"
+  },
+  "natural_scene_access_verified": false,
+  "language_classification_verified": false,
+  "excludes_already_modified_spans": true,
+  "excluded_root": "3508F4",
+  "seed_count": 648,
+  "visited_roots": 3033,
+  "unchanged_nonmenu_spans": [
+    {
+      "offset": "05BB76",
+      "end": "05BB88",
+      "text": "@Hello, may I take your order?",
+      "contexts": [
+        "05BB76"
+      ]
+    },
+    {
+      "offset": "05BB89",
+      "end": "05BB97",
+      "text": "  (smile, smile)",
+      "contexts": [
+        "05BB76"
+      ]
+    },
+    {
+      "offset": "05BB9A",
+      "end": "05BBA1",
+      "text": "@Thank you very much.",
+      "contexts": [
+        "05BB9A"
+      ]
+    },
+    {
+      "offset": "05BBA2",
+      "end": "05BBB0",
+      "text": "  (smile, smile)",
+      "contexts": [
+        "05BB9A"
+      ]
+    },
+    {
+      "offset": "05BBB2",
+      "end": "05BBBD",
+      "text": "@Have a nice day!",
+      "contexts": [
+        "05BBB2"
+      ]
+    },
+    {
+      "offset": "05BBBE",
+      "end": "05BBCC",
+      "text": "  (smile, smile)",
+      "contexts": [
+        "05BBB2"
+      ]
+    },
+    {
+      "offset": "05BBCE",
+      "end": "05BBDA",
+      "text": "@What can I get for you?",
+      "contexts": [
+        "05BBCE"
+      ]
+    },
+    {
+      "offset": "05BBE4",
+      "end": "05BBF0",
+      "text": "@Who is going to take this?",
+      "contexts": [
+        "05BBE4"
+      ]
+    },
+    {
+      "offset": "05BBF2",
+      "end": "05BBF8",
+      "text": "@Please come again.",
+      "contexts": [
+        "05BBF2"
+      ]
+    },
+    {
+      "offset": "05BBFB",
+      "end": "05BC0A",
+      "text": "@Whoops!  You don't have enough money.",
+      "contexts": [
+        "05BBFB"
+      ]
+    },
+    {
+      "offset": "05BC0D",
+      "end": "05BC21",
+      "text": "@Ooops! You already have too much stuff.",
+      "contexts": [
+        "05BC0D"
+      ]
+    },
+    {
+      "offset": "05BC23",
+      "end": "05BC2A",
+      "text": "@Thank you very much.",
+      "contexts": [
+        "05BC23"
+      ]
+    },
+    {
+      "offset": "05BC3C",
+      "end": "05BC4A",
+      "text": "@Do you have any other orders?",
+      "contexts": [
+        "05BC3C"
+      ]
+    },
+    {
+      "offset": "05BC50",
+      "end": "05BC5D",
+      "text": " seems to have too many things.",
+      "contexts": [
+        "05BC4C"
+      ]
+    },
+    {
+      "offset": "05BC5F",
+      "end": "05BC6E",
+      "text": "@Does someone else want to carry it?",
+      "contexts": [
+        "05BC4C"
+      ]
+    },
+    {
+      "offset": "0637C1",
+      "end": "0637CB",
+      "text": "  Do you need anything else?",
+      "contexts": [
+        "063790",
+        "06379F"
+      ]
+    },
+    {
+      "offset": "0637F2",
+      "end": "0637FE",
+      "text": "@Select an item.",
+      "contexts": [
+        "0637E8"
+      ]
+    },
+    {
+      "offset": "063821",
+      "end": "06382B",
+      "text": "  Do you need anything else?",
+      "contexts": [
+        "0637E8"
+      ]
+    },
+    {
+      "offset": "063852",
+      "end": "06385E",
+      "text": "@Select an item.",
+      "contexts": [
+        "063848"
+      ]
+    },
+    {
+      "offset": "063888",
+      "end": "0638A8",
+      "text": "@Just to confirm, you're expecting delivery of the",
+      "contexts": [
+        "063888",
+        "063848"
+      ]
+    },
+    {
+      "offset": "0638CD",
+      "end": "0638D0",
+      "text": "  and ",
+      "contexts": [
+        "063888",
+        "063848"
+      ]
+    },
+    {
+      "offset": "0638D6",
+      "end": "0638E1",
+      "text": "@Is that correct?",
+      "contexts": [
+        "063888",
+        "063848",
+        "0638D4"
+      ]
+    },
+    {
+      "offset": "06391B",
+      "end": "06392B",
+      "text": "@We're not storing any of ",
+      "contexts": [
+        "063916"
+      ]
+    },
+    {
+      "offset": "06392E",
+      "end": "063937",
+      "text": "'s stuff right now.",
+      "contexts": [
+        "063916"
+      ]
+    },
+    {
+      "offset": "063943",
+      "end": "063951",
+      "text": "@Well, please start over again.",
+      "contexts": [
+        "06393E"
+      ]
+    },
+    {
+      "offset": "063BA9",
+      "end": "063BB5",
+      "text": "@What can I do for you?",
+      "contexts": [
+        "063BA1"
+      ]
+    },
+    {
+      "offset": "063BB7",
+      "end": "063BBF",
+      "text": "@What do you need?",
+      "contexts": [
+        "063BB7"
+      ]
+    },
+    {
+      "offset": "063BD5",
+      "end": "063BDA",
+      "text": "@Come again.",
+      "contexts": [
+        "063BC1"
+      ]
+    },
+    {
+      "offset": "063BDC",
+      "end": "063BE2",
+      "text": "@Please come again.",
+      "contexts": [
+        "063BDC"
+      ]
+    },
+    {
+      "offset": "063BE4",
+      "end": "063BEA",
+      "text": "@Well, come again.",
+      "contexts": [
+        "063BE4"
+      ]
+    },
+    {
+      "offset": "063BF3",
+      "end": "063C05",
+      "text": "@You want us to store something for you?",
+      "contexts": [
+        "063BEC"
+      ]
+    },
+    {
+      "offset": "063C07",
+      "end": "063C28",
+      "text": "@We'll send someone over immediately to pick it up.",
+      "contexts": [
+        "063BEC"
+      ]
+    },
+    {
+      "offset": "063C2A",
+      "end": "063C3F",
+      "text": "@Well, I'll pick it up personally.",
+      "contexts": [
+        "063C2A"
+      ]
+    },
+    {
+      "offset": "063C40",
+      "end": "063C4A",
+      "text": "  Who am I?",
+      "contexts": [
+        "063C2A"
+      ]
+    },
+    {
+      "offset": "063C4B",
+      "end": "063C57",
+      "text": "  I'm the president!",
+      "contexts": [
+        "063C2A"
+      ]
+    },
+    {
+      "offset": "063C60",
+      "end": "063C69",
+      "text": "@I'm very sorry.",
+      "contexts": [
+        "063C59"
+      ]
+    },
+    {
+      "offset": "063C6A",
+      "end": "063C83",
+      "text": "  Our storage lockers are all full right now.",
+      "contexts": [
+        "063C59"
+      ]
+    },
+    {
+      "offset": "063C86",
+      "end": "063C8B",
+      "text": "@I'm sorry.",
+      "contexts": [
+        "063C86"
+      ]
+    },
+    {
+      "offset": "063C8C",
+      "end": "063CA5",
+      "text": "  Our storage lockers are all full right now.",
+      "contexts": [
+        "063C86"
+      ]
+    },
+    {
+      "offset": "063CAF",
+      "end": "063CD6",
+      "text": "@You would like us to deliver something?  We can deliver up to three things.",
+      "contexts": [
+        "063CA8"
+      ]
+    },
+    {
+      "offset": "063CD8",
+      "end": "063CE8",
+      "text": "@Please select the goods you want.",
+      "contexts": [
+        "063CA8"
+      ]
+    },
+    {
+      "offset": "063CEA",
+      "end": "063D11",
+      "text": "@You would like us to deliver something?  We can deliver up to three things.",
+      "contexts": [
+        "063CEA"
+      ]
+    },
+    {
+      "offset": "063D13",
+      "end": "063D23",
+      "text": "@Please select the goods you want.",
+      "contexts": [
+        "063CEA"
+      ]
+    },
+    {
+      "offset": "063D2C",
+      "end": "063D3E",
+      "text": "@We'll send someone over right away!",
+      "contexts": [
+        "063D25"
+      ]
+    },
+    {
+      "offset": "063D40",
+      "end": "063D51",
+      "text": "@I'll come and help you personally!",
+      "contexts": [
+        "063D40"
+      ]
+    },
+    {
+      "offset": "063DEA",
+      "end": "063DED",
+      "text": "@Hello!",
+      "contexts": [
+        "063DE3"
+      ]
+    },
+    {
+      "offset": "063DEE",
+      "end": "063DFF",
+      "text": "  This is Escargo Express.",
+      "contexts": [
+        "063DE3"
+      ]
+    },
+    {
+      "offset": "063E01",
+      "end": "063E2C",
+      "text": "@I'm very sorry, but all our delivery people are out, serving other customers.",
+      "contexts": [
+        "063DE3"
+      ]
+    },
+    {
+      "offset": "063E2E",
+      "end": "063E47",
+      "text": "@We can't take any delivery orders right now.",
+      "contexts": [
+        "063DE3"
+      ]
+    },
+    {
+      "offset": "063E49",
+      "end": "063E58",
+      "text": "@Please call back a little later.",
+      "contexts": [
+        "063DE3"
+      ]
+    },
+    {
+      "offset": "063E5A",
+      "end": "063E71",
+      "text": "@Hello, you have reached Escargo Express.",
+      "contexts": [
+        "063E5A"
+      ]
+    },
+    {
+      "offset": "063E73",
+      "end": "063E96",
+      "text": "@All of our staff members are currently out of the office.",
+      "contexts": [
+        "063E5A"
+      ]
+    },
+    {
+      "offset": "063E98",
+      "end": "063EA0",
+      "text": "@Please call again.",
+      "contexts": [
+        "063E5A"
+      ]
+    },
+    {
+      "offset": "063EA1",
+      "end": "063EAE",
+      "text": "  This is a recording.",
+      "contexts": [
+        "063E5A"
+      ]
+    },
+    {
+      "offset": "0645F6",
+      "end": "0645FE",
+      "text": "@(Click!)",
+      "contexts": [
+        "0645F2"
+      ]
+    },
+    {
+      "offset": "064946",
+      "end": "064968",
+      "text": "@Are you calling about the delivery of the <Pencil Eraser>?",
+      "contexts": [
+        "064946"
+      ]
+    },
+    {
+      "offset": "064983",
+      "end": "06498F",
+      "text": "@Oh, that's not what you want?",
+      "contexts": [
+        "064974",
+        "064983"
+      ]
+    },
+    {
+      "offset": "064996",
+      "end": "0649A6",
+      "text": "@We'll send someone right away.",
+      "contexts": [
+        "064996"
+      ]
+    },
+    {
+      "offset": "0649B7",
+      "end": "0649C8",
+      "text": "@This is about the delivery of the <",
+      "contexts": [
+        "0649B7"
+      ]
+    },
+    {
+      "offset": "0649E8",
+      "end": "0649F4",
+      "text": "@Oh, that's not what you want?",
+      "contexts": [
+        "0649D9",
+        "0649E8"
+      ]
+    },
+    {
+      "offset": "0649FB",
+      "end": "064A0B",
+      "text": "@We'll send someone right away.",
+      "contexts": [
+        "0649FB"
+      ]
+    },
+    {
+      "offset": "06BEF9",
+      "end": "06BF0A",
+      "text": "@(There's no response.)",
+      "contexts": [
+        "06BEF9"
+      ]
+    },
+    {
+      "offset": "06FB6E",
+      "end": "06FB90",
+      "text": "@The Suporma sang the song <Ode to Orange Kid.>",
+      "contexts": [
+        "06FB6D"
+      ]
+    },
+    {
+      "offset": "06FB92",
+      "end": "06FBB3",
+      "text": "@As soon as it finished, the machine broke down.",
+      "contexts": [
+        "06FB6D"
+      ]
+    },
+    {
+      "offset": "06FBB6",
+      "end": "06FBE8",
+      "text": "@By using the Insignificant Present, you had a very fruitful experience",
+      "contexts": [
+        "06FBB5"
+      ]
+    },
+    {
+      "offset": "06FBEA",
+      "end": "06FC18",
+      "text": "@that cannot be understood by someone who does not use something insignificant.",
+      "contexts": [
+        "06FBB5"
+      ]
+    },
+    {
+      "offset": "06FC95",
+      "end": "06FC9B",
+      "text": "@(Dear ",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FCA0",
+      "end": "06FCAB",
+      "text": "  How are you?",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FCAD",
+      "end": "06FCD1",
+      "text": "@Since you left home on your journey, things have changed around here.",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FCD3",
+      "end": "06FCF1",
+      "text": "@For example, I don't have as much laundry.",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FCF3",
+      "end": "06FD05",
+      "text": "@Also, we don't seem to eat ",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD08",
+      "end": "06FD16",
+      "text": " as much as we used to.",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD18",
+      "end": "06FD46",
+      "text": "@I heard that you defeated some universal evil character--what was it,",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD48",
+      "end": "06FD5A",
+      "text": "@Googi, or something like that?",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD5C",
+      "end": "06FD6B",
+      "text": "@Well, that sounds really great!",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD6C",
+      "end": "06FD8C",
+      "text": "  I want to hear all the details, so hurry home, okay?",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD8E",
+      "end": "06FD96",
+      "text": "@Tracy, ",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD99",
+      "end": "06FDA5",
+      "text": " and I are waiting for you.",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FDA7",
+      "end": "06FDB0",
+      "text": "@                                Love,",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FDB1",
+      "end": "06FDBC",
+      "text": "                                  Mama)",
+      "contexts": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FDBF",
+      "end": "06FDC5",
+      "text": "@(Dear ",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FDCA",
+      "end": "06FDDD",
+      "text": "  Everything's really going great here.",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FDDF",
+      "end": "06FE02",
+      "text": "@I wish I could have gone with you on your adventure, even just part of the way,",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FE04",
+      "end": "06FE25",
+      "text": "@but instead I'm sitting here, waiting for you in Winters.",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FE27",
+      "end": "06FE57",
+      "text": "@I want to see you again as soon as possible.  I can't wait to see your cheerful face.",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FE59",
+      "end": "06FE82",
+      "text": "@I bet your glasses are dirty... If you come back, I'll clean them for you!",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FE84",
+      "end": "06FE98",
+      "text": "@Like I said, I'm waiting for you.",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FE9A",
+      "end": "06FEAA",
+      "text": "@                        Yours truly,",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FEAB",
+      "end": "06FEB6",
+      "text": "                                   Tony ",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FEB9",
+      "end": "06FED4",
+      "text": "@P.S.  Don't show this letter to anyone!)",
+      "contexts": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FED7",
+      "end": "06FEDD",
+      "text": "@(Dear ",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FEE2",
+      "end": "06FEED",
+      "text": "  How are you doing?",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FEEE",
+      "end": "06FEF4",
+      "text": "  I'm fine.",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FEF6",
+      "end": "06FEFE",
+      "text": "@I fine too!",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF00",
+      "end": "06FF07",
+      "text": "@So are me!",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF09",
+      "end": "06FF10",
+      "text": "@Me also!",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF12",
+      "end": "06FF1A",
+      "text": "@Me okay.",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF1C",
+      "end": "06FF3D",
+      "text": "@Please come and play with us again at the Polestar Preschool.",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF3F",
+      "end": "06FF64",
+      "text": "@Oh yeah, one more thing, bring us some presents ...if you have any.",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF66",
+      "end": "06FF77",
+      "text": "@                           Sincerely,",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF78",
+      "end": "06FF85",
+      "text": "               Your friends at the",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF86",
+      "end": "06FF99",
+      "text": "               Polestar Preschool)",
+      "contexts": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "072398",
+      "end": "0723AC",
+      "text": "@Well, I want to thank you for all the times",
+      "contexts": [
+        "072398"
+      ]
+    },
+    {
+      "offset": "0723AE",
+      "end": "0723DA",
+      "text": "@that you used the hint shop.  It's been a while since I first saw you...",
+      "contexts": [
+        "072398"
+      ]
+    },
+    {
+      "offset": "0723DC",
+      "end": "0723EE",
+      "text": "@This is my final day in business.",
+      "contexts": [
+        "072398"
+      ]
+    },
+    {
+      "offset": "072407",
+      "end": "072411",
+      "text": "@Well, so long kid,",
+      "contexts": [
+        "072398"
+      ]
+    },
+    {
+      "offset": "072412",
+      "end": "07241F",
+      "text": "  No, no... Master ",
+      "contexts": [
+        "072398"
+      ]
+    },
+    {
+      "offset": "072425",
+      "end": "07242F",
+      "text": "@See you again,",
+      "contexts": [
+        "072398"
+      ]
+    },
+    {
+      "offset": "072430",
+      "end": "07243E",
+      "text": "  if fate allows it.",
+      "contexts": [
+        "072398"
+      ]
+    },
+    {
+      "offset": "075929",
+      "end": "075931",
+      "text": "@Beeeep...",
+      "contexts": [
+        "075929"
+      ]
+    },
+    {
+      "offset": "07C6F5",
+      "end": "07C6F7",
+      "text": "@The ",
+      "contexts": [
+        "07C6F1"
+      ]
+    },
+    {
+      "offset": "07C6FA",
+      "end": "07C703",
+      "text": " can't be used here.",
+      "contexts": [
+        "07C6F1"
+      ]
+    },
+    {
+      "offset": "07C802",
+      "end": "07C810",
+      "text": "@There is only one seat,",
+      "contexts": [
+        "07C802"
+      ]
+    },
+    {
+      "offset": "07C812",
+      "end": "07C821",
+      "text": " so you can't ride the bike now.",
+      "contexts": [
+        "07C802"
+      ]
+    },
+    {
+      "offset": "07D95D",
+      "end": "07D963",
+      "text": " takes it.",
+      "contexts": [
+        "07D958"
+      ]
+    },
+    {
+      "offset": "07D971",
+      "end": "07D979",
+      "text": " added the",
+      "contexts": [
+        "07D967"
+      ]
+    },
+    {
+      "offset": "07D981",
+      "end": "07D983",
+      "text": " to ",
+      "contexts": [
+        "07D967"
+      ]
+    },
+    {
+      "offset": "07D988",
+      "end": "07D98D",
+      "text": "'s stuff.",
+      "contexts": [
+        "07D967"
+      ]
+    },
+    {
+      "offset": "07D9B9",
+      "end": "07D9BC",
+      "text": " got",
+      "contexts": [
+        "07D9AE"
+      ]
+    },
+    {
+      "offset": "07D9C6",
+      "end": "07D9CD",
+      "text": " dollars.",
+      "contexts": [
+        "07D9AE"
+      ]
+    },
+    {
+      "offset": "07DA10",
+      "end": "07DA22",
+      "text": " dug around in the trash can.",
+      "contexts": [
+        "07DA0C"
+      ]
+    },
+    {
+      "offset": "07DA26",
+      "end": "07DA31",
+      "text": "@Well, let's see here...",
+      "contexts": [
+        "07DA23"
+      ]
+    },
+    {
+      "offset": "07DA34",
+      "end": "07DA56",
+      "text": "@There was just plain ol' garbage in the trash can.",
+      "contexts": [
+        "07DA33"
+      ]
+    },
+    {
+      "offset": "07DA5C",
+      "end": "07DA67",
+      "text": " opened the chest.",
+      "contexts": [
+        "07DA58"
+      ]
+    },
+    {
+      "offset": "07DA6A",
+      "end": "07DA7A",
+      "text": "@WHOAAAAAAAAAAH!",
+      "contexts": [
+        "07DA68"
+      ]
+    },
+    {
+      "offset": "07DA7D",
+      "end": "07DA8D",
+      "text": "@But the chest was empty.",
+      "contexts": [
+        "07DA7C"
+      ]
+    },
+    {
+      "offset": "07DA93",
+      "end": "07DAA0",
+      "text": " opened the casket.",
+      "contexts": [
+        "07DA8F"
+      ]
+    },
+    {
+      "offset": "07DAA3",
+      "end": "07DAB4",
+      "text": "@TAAAAAH-DAAAAAH!",
+      "contexts": [
+        "07DAA1"
+      ]
+    },
+    {
+      "offset": "07DAB7",
+      "end": "07DAC9",
+      "text": "@But the casket was empty.",
+      "contexts": [
+        "07DAB6"
+      ]
+    },
+    {
+      "offset": "07E67F",
+      "end": "07E681",
+      "text": "his",
+      "contexts": [
+        "07E66E",
+        "07E67F"
+      ]
+    },
+    {
+      "offset": "07E682",
+      "end": "07E684",
+      "text": "her",
+      "contexts": [
+        "07E682"
+      ]
+    },
+    {
+      "offset": "07E685",
+      "end": "07E688",
+      "text": "its",
+      "contexts": [
+        "07E685"
+      ]
+    },
+    {
+      "offset": "07E72F",
+      "end": "07E731",
+      "text": " and ",
+      "contexts": [
+        "07E72A"
+      ]
+    },
+    {
+      "offset": "07E735",
+      "end": "07E737",
+      "text": " and ",
+      "contexts": [
+        "07E735"
+      ]
+    },
+    {
+      "offset": "07E742",
+      "end": "07E747",
+      "text": "his friends",
+      "contexts": [
+        "07E735"
+      ]
+    },
+    {
+      "offset": "07E748",
+      "end": "07E74D",
+      "text": "her friends",
+      "contexts": [
+        "07E748"
+      ]
+    },
+    {
+      "offset": "088009",
+      "end": "088027",
+      "text": "@(The bubble monkey took a piece of bubble gum,",
+      "contexts": [
+        "088000"
+      ]
+    },
+    {
+      "offset": "088029",
+      "end": "08803F",
+      "text": "@chewed it and started blowing.)",
+      "contexts": [
+        "088000"
+      ]
+    },
+    {
+      "offset": "088086",
+      "end": "08809C",
+      "text": " chewed a piece of bubble gum,",
+      "contexts": [
+        "08807D"
+      ]
+    },
+    {
+      "offset": "08809E",
+      "end": "0880B7",
+      "text": " but it wasn't as satisfying as food.",
+      "contexts": [
+        "08807D"
+      ]
+    },
+    {
+      "offset": "08FB26",
+      "end": "08FB43",
+      "text": "@I understand you guys are already claiming to be heroes.",
+      "contexts": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FB45",
+      "end": "08FB6C",
+      "text": "@Well, it is a gazillion years too early for you to oppose Giygas!",
+      "contexts": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FB6E",
+      "end": "08FB95",
+      "text": "@You must feel pretty stupid to keep fighting without even knowing",
+      "contexts": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FB97",
+      "end": "08FBA0",
+      "text": "@what Giygas looks like!",
+      "contexts": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FBA2",
+      "end": "08FBC9",
+      "text": "@If you were to ever see Giygas, you'd be so petrified with fear,",
+      "contexts": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FBCB",
+      "end": "08FBDF",
+      "text": "@you'd never be able to run away!",
+      "contexts": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FBE1",
+      "end": "08FBF2",
+      "text": "@...That's how scary it is!",
+      "contexts": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FBF4",
+      "end": "08FC12",
+      "text": "@So, do you want me to turn off the <Devil's Machine?>",
+      "contexts": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FC14",
+      "end": "08FC26",
+      "text": "@Well, prepare to be amazed!",
+      "contexts": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "097B8F",
+      "end": "097B92",
+      "text": " took",
+      "contexts": [
+        "097B6B"
+      ]
+    },
+    {
+      "offset": "097B93",
+      "end": "097B95",
+      "text": "  the ",
+      "contexts": [
+        "097B6B"
+      ]
+    },
+    {
+      "offset": "097B98",
+      "end": "097B9C",
+      "text": " out and",
+      "contexts": [
+        "097B6B"
+      ]
+    },
+    {
+      "offset": "097BA1",
+      "end": "097BA6",
+      "text": " ate it.",
+      "contexts": [
+        "097B6B"
+      ]
+    },
+    {
+      "offset": "097BD6",
+      "end": "097BD9",
+      "text": " took",
+      "contexts": [
+        "097BC4"
+      ]
+    },
+    {
+      "offset": "097BDA",
+      "end": "097BDC",
+      "text": "  the ",
+      "contexts": [
+        "097BC4"
+      ]
+    },
+    {
+      "offset": "097BE6",
+      "end": "097BED",
+      "text": "  used it on",
+      "contexts": [
+        "097BC4"
+      ]
+    },
+    {
+      "offset": "097BF3",
+      "end": "097BF5",
+      "text": " and",
+      "contexts": [
+        "097BC4"
+      ]
+    },
+    {
+      "offset": "097BFA",
+      "end": "097BFF",
+      "text": " ate it.",
+      "contexts": [
+        "097BC4"
+      ]
+    },
+    {
+      "offset": "097C0A",
+      "end": "097C0D",
+      "text": " took",
+      "contexts": [
+        "097C06"
+      ]
+    },
+    {
+      "offset": "097C0E",
+      "end": "097C10",
+      "text": "  the ",
+      "contexts": [
+        "097C06"
+      ]
+    },
+    {
+      "offset": "097C19",
+      "end": "097C22",
+      "text": "@and used it on",
+      "contexts": [
+        "097C06"
+      ]
+    },
+    {
+      "offset": "097C23",
+      "end": "097C25",
+      "text": "  the ",
+      "contexts": [
+        "097C06"
+      ]
+    },
+    {
+      "offset": "097C40",
+      "end": "097C43",
+      "text": " took",
+      "contexts": [
+        "097C30"
+      ]
+    },
+    {
+      "offset": "097C44",
+      "end": "097C46",
+      "text": "  the ",
+      "contexts": [
+        "097C30"
+      ]
+    },
+    {
+      "offset": "097C4B",
+      "end": "097C4E",
+      "text": "@and ",
+      "contexts": [
+        "097C30"
+      ]
+    },
+    {
+      "offset": "097C50",
+      "end": "097C58",
+      "text": " drank it.",
+      "contexts": [
+        "097C30"
+      ]
+    },
+    {
+      "offset": "097C67",
+      "end": "097C6D",
+      "text": " drank",
+      "contexts": [
+        "097C5F"
+      ]
+    },
+    {
+      "offset": "097C6E",
+      "end": "097C70",
+      "text": "  the ",
+      "contexts": [
+        "097C5F"
+      ]
+    },
+    {
+      "offset": "097CD2",
+      "end": "097CDB",
+      "text": " sprinkled",
+      "contexts": [
+        "097CCA"
+      ]
+    },
+    {
+      "offset": "097CDC",
+      "end": "097CDE",
+      "text": "  the ",
+      "contexts": [
+        "097CCA"
+      ]
+    },
+    {
+      "offset": "097CE1",
+      "end": "097CE4",
+      "text": " over ",
+      "contexts": [
+        "097CCA"
+      ]
+    },
+    {
+      "offset": "097CE9",
+      "end": "097CED",
+      "text": " head.",
+      "contexts": [
+        "097CCA"
+      ]
+    },
+    {
+      "offset": "097CEF",
+      "end": "097CF8",
+      "text": "@Yoicks!! ",
+      "contexts": [
+        "097CCA"
+      ]
+    },
+    {
+      "offset": "097CFA",
+      "end": "097CFF",
+      "text": " turned",
+      "contexts": [
+        "097CCA"
+      ]
+    },
+    {
+      "offset": "097D00",
+      "end": "097D1F",
+      "text": "  into a gigantic, fire-breathing dragon!",
+      "contexts": [
+        "097CCA"
+      ]
+    },
+    {
+      "offset": "097F02",
+      "end": "097F04",
+      "text": " used ",
+      "contexts": [
+        "097EFA"
+      ]
+    },
+    {
+      "offset": "097F07",
+      "end": "097F09",
+      "text": " and ",
+      "contexts": [
+        "097EFA"
+      ]
+    },
+    {
+      "offset": "097F0E",
+      "end": "097F14",
+      "text": " teeth",
+      "contexts": [
+        "097EFA"
+      ]
+    },
+    {
+      "offset": "097F16",
+      "end": "097F2B",
+      "text": "@were white and breath was fresh!",
+      "contexts": [
+        "097EFA"
+      ]
+    },
+    {
+      "offset": "097F2D",
+      "end": "097F37",
+      "text": "@The brightness of",
+      "contexts": [
+        "097EFA"
+      ]
+    },
+    {
+      "offset": "097F3C",
+      "end": "097F43",
+      "text": "'s teeth",
+      "contexts": [
+        "097EFA"
+      ]
+    },
+    {
+      "offset": "097F45",
+      "end": "097F54",
+      "text": "@made the enemy scared!",
+      "contexts": [
+        "097EFA"
+      ]
+    },
+    {
+      "offset": "097F92",
+      "end": "097F98",
+      "text": " threw",
+      "contexts": [
+        "097F8A"
+      ]
+    },
+    {
+      "offset": "097F99",
+      "end": "097F9B",
+      "text": "  the ",
+      "contexts": [
+        "097F8A"
+      ]
+    },
+    {
+      "offset": "097FA1",
+      "end": "097FA3",
+      "text": "@The ",
+      "contexts": [
+        "097F8A"
+      ]
+    },
+    {
+      "offset": "097FA6",
+      "end": "097FA8",
+      "text": " is",
+      "contexts": [
+        "097F8A"
+      ]
+    },
+    {
+      "offset": "097FA9",
+      "end": "097FB0",
+      "text": "  biting!",
+      "contexts": [
+        "097F8A"
+      ]
+    },
+    {
+      "offset": "09EE83",
+      "end": "09EE8D",
+      "text": "@<It hurts,",
+      "contexts": [
+        "09EE7F"
+      ]
+    },
+    {
+      "offset": "09EEA3",
+      "end": "09EEAC",
+      "text": "@<...I'm h...",
+      "contexts": [
+        "09EE9F"
+      ]
+    },
+    {
+      "offset": "09EEAE",
+      "end": "09EEB2",
+      "text": " a...",
+      "contexts": [
+        "09EE9F"
+      ]
+    },
+    {
+      "offset": "09EEB4",
+      "end": "09EEB7",
+      "text": " p...",
+      "contexts": [
+        "09EE9F"
+      ]
+    },
+    {
+      "offset": "09EEB9",
+      "end": "09EEBC",
+      "text": " p...",
+      "contexts": [
+        "09EE9F"
+      ]
+    },
+    {
+      "offset": "09EEBE",
+      "end": "09EEC2",
+      "text": " y...>",
+      "contexts": [
+        "09EE9F"
+      ]
+    },
+    {
+      "offset": "09EED1",
+      "end": "09EED9",
+      "text": "friends...>",
+      "contexts": [
+        "09EEC7"
+      ]
+    },
+    {
+      "offset": "09EEE2",
+      "end": "09EEEE",
+      "text": "@<...It hurts,",
+      "contexts": [
+        "09EEDE"
+      ]
+    },
+    {
+      "offset": "09EEF0",
+      "end": "09EEFB",
+      "text": " ...it hurts...>",
+      "contexts": [
+        "09EEDE"
+      ]
+    },
+    {
+      "offset": "09EFC3",
+      "end": "09EFC7",
+      "text": "go... ",
+      "contexts": [
+        "09EFB9"
+      ]
+    },
+    {
+      "offset": "09EFC9",
+      "end": "09EFCC",
+      "text": "b... ",
+      "contexts": [
+        "09EFB9"
+      ]
+    },
+    {
+      "offset": "09EFCE",
+      "end": "09EFD1",
+      "text": "a... ",
+      "contexts": [
+        "09EFB9"
+      ]
+    },
+    {
+      "offset": "09EFD3",
+      "end": "09EFD6",
+      "text": "c...",
+      "contexts": [
+        "09EFB9"
+      ]
+    },
+    {
+      "offset": "09EFD8",
+      "end": "09EFDC",
+      "text": "k...>",
+      "contexts": [
+        "09EFB9"
+      ]
+    },
+    {
+      "offset": "09EFFA",
+      "end": "09EFFE",
+      "text": "@<I ",
+      "contexts": [
+        "09EFF6"
+      ]
+    },
+    {
+      "offset": "09F000",
+      "end": "09F005",
+      "text": "feel...",
+      "contexts": [
+        "09EFF6"
+      ]
+    },
+    {
+      "offset": "09F007",
+      "end": "09F00B",
+      "text": " g...",
+      "contexts": [
+        "09EFF6"
+      ]
+    },
+    {
+      "offset": "09F00D",
+      "end": "09F010",
+      "text": " o...",
+      "contexts": [
+        "09EFF6"
+      ]
+    },
+    {
+      "offset": "09F012",
+      "end": "09F015",
+      "text": " o...",
+      "contexts": [
+        "09EFF6"
+      ]
+    },
+    {
+      "offset": "09F017",
+      "end": "09F01B",
+      "text": " d...>",
+      "contexts": [
+        "09EFF6"
+      ]
+    },
+    {
+      "offset": "09F024",
+      "end": "09F030",
+      "text": "@<...I'm so sad...",
+      "contexts": [
+        "09F020"
+      ]
+    },
+    {
+      "offset": "09F056",
+      "end": "09F05D",
+      "text": "@<  Ah, ",
+      "contexts": [
+        "09F052"
+      ]
+    },
+    {
+      "offset": "09F05F",
+      "end": "09F066",
+      "text": " Grrr, ",
+      "contexts": [
+        "09F052"
+      ]
+    },
+    {
+      "offset": "09F068",
+      "end": "09F06F",
+      "text": " Ohhh...>",
+      "contexts": [
+        "09F052"
+      ]
+    },
+    {
+      "offset": "09F078",
+      "end": "09F08B",
+      "text": "@<Argh...  Yaaagh!...>",
+      "contexts": [
+        "09F074"
+      ]
+    },
+    {
+      "offset": "09F094",
+      "end": "09F0A0",
+      "text": "@<It's not right...",
+      "contexts": [
+        "09F090"
+      ]
+    },
+    {
+      "offset": "09F0A2",
+      "end": "09F0A9",
+      "text": " not right...",
+      "contexts": [
+        "09F090"
+      ]
+    },
+    {
+      "offset": "09F0AB",
+      "end": "09F0B3",
+      "text": " not right...>",
+      "contexts": [
+        "09F090"
+      ]
+    },
+    {
+      "offset": "09F0BF",
+      "end": "09F0C6",
+      "text": " prayed",
+      "contexts": [
+        "09F0B8"
+      ]
+    },
+    {
+      "offset": "09F0C7",
+      "end": "09F0D8",
+      "text": "  from bottom of her heart!",
+      "contexts": [
+        "09F0B8"
+      ]
+    },
+    {
+      "offset": "09F0DF",
+      "end": "09F0F4",
+      "text": "@<...Please give us strength,",
+      "contexts": [
+        "09F0B8"
+      ]
+    },
+    {
+      "offset": "09F0F6",
+      "end": "09F105",
+      "text": "@if it is possible...",
+      "contexts": [
+        "09F0B8"
+      ]
+    },
+    {
+      "offset": "09F106",
+      "end": "09F10E",
+      "text": "  Please...>",
+      "contexts": [
+        "09F0B8"
+      ]
+    },
+    {
+      "offset": "09F11E",
+      "end": "09F12E",
+      "text": "  Somebody... help us...>",
+      "contexts": [
+        "09F0B8"
+      ]
+    },
+    {
+      "offset": "09F13B",
+      "end": "09F142",
+      "text": " prayed",
+      "contexts": [
+        "09F134"
+      ]
+    },
+    {
+      "offset": "09F143",
+      "end": "09F154",
+      "text": "  from bottom of her heart!",
+      "contexts": [
+        "09F134"
+      ]
+    },
+    {
+      "offset": "09F15B",
+      "end": "09F170",
+      "text": "@<...Please give us strength!",
+      "contexts": [
+        "09F134"
+      ]
+    },
+    {
+      "offset": "09F172",
+      "end": "09F186",
+      "text": "@Anyone who can hear our plea....",
+      "contexts": [
+        "09F134"
+      ]
+    },
+    {
+      "offset": "09F187",
+      "end": "09F190",
+      "text": "  Help us...>",
+      "contexts": [
+        "09F134"
+      ]
+    },
+    {
+      "offset": "09F19D",
+      "end": "09F1A4",
+      "text": " prayed",
+      "contexts": [
+        "09F196"
+      ]
+    },
+    {
+      "offset": "09F1A5",
+      "end": "09F1B6",
+      "text": "  from bottom of her heart!",
+      "contexts": [
+        "09F196"
+      ]
+    },
+    {
+      "offset": "09F1BD",
+      "end": "09F1D2",
+      "text": "@<...Please give us strength!",
+      "contexts": [
+        "09F196"
+      ]
+    },
+    {
+      "offset": "09F1D4",
+      "end": "09F1E2",
+      "text": "@Speed this prayer",
+      "contexts": [
+        "09F196"
+      ]
+    },
+    {
+      "offset": "09F1E3",
+      "end": "09F1F7",
+      "text": "  to all the people of the earth.>",
+      "contexts": [
+        "09F196"
+      ]
+    },
+    {
+      "offset": "09F204",
+      "end": "09F20B",
+      "text": " prayed",
+      "contexts": [
+        "09F1FD"
+      ]
+    },
+    {
+      "offset": "09F20C",
+      "end": "09F21D",
+      "text": "  from bottom of her heart!",
+      "contexts": [
+        "09F1FD"
+      ]
+    },
+    {
+      "offset": "09F224",
+      "end": "09F239",
+      "text": "@<...Please give us strength!",
+      "contexts": [
+        "09F1FD"
+      ]
+    },
+    {
+      "offset": "09F23B",
+      "end": "09F24E",
+      "text": "@Anyone who can hear our plea...",
+      "contexts": [
+        "09F1FD"
+      ]
+    },
+    {
+      "offset": "09F24F",
+      "end": "09F258",
+      "text": "  Help us...>",
+      "contexts": [
+        "09F1FD"
+      ]
+    },
+    {
+      "offset": "09F265",
+      "end": "09F26C",
+      "text": " prayed",
+      "contexts": [
+        "09F25E"
+      ]
+    },
+    {
+      "offset": "09F26D",
+      "end": "09F27E",
+      "text": "  from bottom of her heart!",
+      "contexts": [
+        "09F25E"
+      ]
+    },
+    {
+      "offset": "09F285",
+      "end": "09F297",
+      "text": "@<...Please grant us power!",
+      "contexts": [
+        "09F25E"
+      ]
+    },
+    {
+      "offset": "09F299",
+      "end": "09F2AC",
+      "text": "@Anyone who can hear our plea...",
+      "contexts": [
+        "09F25E"
+      ]
+    },
+    {
+      "offset": "09F2AD",
+      "end": "09F2B6",
+      "text": "  Help us...>",
+      "contexts": [
+        "09F25E"
+      ]
+    },
+    {
+      "offset": "09F2C3",
+      "end": "09F2CA",
+      "text": " prayed",
+      "contexts": [
+        "09F2BC"
+      ]
+    },
+    {
+      "offset": "09F2CB",
+      "end": "09F2DC",
+      "text": "  from bottom of her heart!",
+      "contexts": [
+        "09F2BC"
+      ]
+    },
+    {
+      "offset": "09F2E3",
+      "end": "09F2FB",
+      "text": "@<...Please grant us strength!",
+      "contexts": [
+        "09F2BC"
+      ]
+    },
+    {
+      "offset": "09F2FD",
+      "end": "09F310",
+      "text": "@Anyone who can hear our plea...",
+      "contexts": [
+        "09F2BC"
+      ]
+    },
+    {
+      "offset": "09F311",
+      "end": "09F31F",
+      "text": "  We ask for this...>",
+      "contexts": [
+        "09F2BC"
+      ]
+    },
+    {
+      "offset": "09F32C",
+      "end": "09F333",
+      "text": " prayed",
+      "contexts": [
+        "09F325"
+      ]
+    },
+    {
+      "offset": "09F334",
+      "end": "09F345",
+      "text": "  from bottom of her heart!",
+      "contexts": [
+        "09F325"
+      ]
+    },
+    {
+      "offset": "09F34C",
+      "end": "09F35E",
+      "text": "@<...Please grant us power!",
+      "contexts": [
+        "09F325"
+      ]
+    },
+    {
+      "offset": "09F360",
+      "end": "09F36E",
+      "text": "@Speed this prayer",
+      "contexts": [
+        "09F325"
+      ]
+    },
+    {
+      "offset": "09F36F",
+      "end": "09F383",
+      "text": "  to all the people of the earth...>",
+      "contexts": [
+        "09F325"
+      ]
+    },
+    {
+      "offset": "09F390",
+      "end": "09F397",
+      "text": " prayed",
+      "contexts": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F398",
+      "end": "09F3A9",
+      "text": "  from bottom of her heart!",
+      "contexts": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F3B0",
+      "end": "09F3BB",
+      "text": "@<I can't think of",
+      "contexts": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F3BC",
+      "end": "09F3C6",
+      "text": "  anyone else...",
+      "contexts": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F3C8",
+      "end": "09F3D6",
+      "text": "@...Someone, anyone...",
+      "contexts": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F3D7",
+      "end": "09F3E4",
+      "text": "  ...please help us.>",
+      "contexts": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F3F3",
+      "end": "09F3FA",
+      "text": " prayed",
+      "contexts": [
+        "09F3EC"
+      ]
+    },
+    {
+      "offset": "09F3FB",
+      "end": "09F40C",
+      "text": "  from the bottom of her heart!",
+      "contexts": [
+        "09F3EC"
+      ]
+    },
+    {
+      "offset": "09F413",
+      "end": "09F426",
+      "text": "@<Someone... can you hear me?!",
+      "contexts": [
+        "09F3EC"
+      ]
+    },
+    {
+      "offset": "09F428",
+      "end": "09F43C",
+      "text": "@Please, give us strength!>",
+      "contexts": [
+        "09F3EC"
+      ]
+    },
+    {
+      "offset": "09F89F",
+      "end": "09F8A3",
+      "text": " put",
+      "contexts": [
+        "09F897"
+      ]
+    },
+    {
+      "offset": "09F8A4",
+      "end": "09F8A6",
+      "text": "  the ",
+      "contexts": [
+        "09F897"
+      ]
+    },
+    {
+      "offset": "09F8A9",
+      "end": "09F8AB",
+      "text": " on ",
+      "contexts": [
+        "09F897"
+      ]
+    },
+    {
+      "offset": "09F8B0",
+      "end": "09F8B5",
+      "text": " nose!",
+      "contexts": [
+        "09F897"
+      ]
+    },
+    {
+      "offset": "09F8BD",
+      "end": "09F8C8",
+      "text": " searched for the",
+      "contexts": [
+        "09F897"
+      ]
+    },
+    {
+      "offset": "09F8C9",
+      "end": "09F8DC",
+      "text": "  smell of the magic truffle.",
+      "contexts": [
+        "09F897"
+      ]
+    },
+    {
+      "offset": "09F8FD",
+      "end": "09F90D",
+      "text": "@(It must be a little further ",
+      "contexts": [
+        "09F897"
+      ]
+    },
+    {
+      "offset": "09F937",
+      "end": "09F944",
+      "text": "@(It must be right here!)",
+      "contexts": [
+        "09F936"
+      ]
+    },
+    {
+      "offset": "09F947",
+      "end": "09F96E",
+      "text": "@(It is around here somewhere, but you can't pinpoint the exact location.)",
+      "contexts": [
+        "09F946"
+      ]
+    },
+    {
+      "offset": "09F971",
+      "end": "09F98E",
+      "text": "@(The Truffle doesn't seem to be around here.)",
+      "contexts": [
+        "09F970"
+      ]
+    },
+    {
+      "offset": "09F990",
+      "end": "09F994",
+      "text": "up.)",
+      "contexts": [
+        "09F990"
+      ]
+    },
+    {
+      "offset": "09F995",
+      "end": "09F99D",
+      "text": "up and right.)",
+      "contexts": [
+        "09F995"
+      ]
+    },
+    {
+      "offset": "09F99E",
+      "end": "09F9A3",
+      "text": "right.)",
+      "contexts": [
+        "09F99E"
+      ]
+    },
+    {
+      "offset": "09F9A4",
+      "end": "09F9AC",
+      "text": "down and right.)",
+      "contexts": [
+        "09F9A4"
+      ]
+    },
+    {
+      "offset": "09F9AD",
+      "end": "09F9B1",
+      "text": "down.)",
+      "contexts": [
+        "09F9AD"
+      ]
+    },
+    {
+      "offset": "09F9B2",
+      "end": "09F9BC",
+      "text": "down and left.)",
+      "contexts": [
+        "09F9B2"
+      ]
+    },
+    {
+      "offset": "09F9BD",
+      "end": "09F9C3",
+      "text": "left.)",
+      "contexts": [
+        "09F9BD"
+      ]
+    },
+    {
+      "offset": "09F9C4",
+      "end": "09F9CE",
+      "text": "up and left.)",
+      "contexts": [
+        "09F9C4"
+      ]
+    },
+    {
+      "offset": "09FA37",
+      "end": "09FA3A",
+      "text": " used",
+      "contexts": [
+        "09F9F3"
+      ]
+    },
+    {
+      "offset": "09FA3B",
+      "end": "09FA3D",
+      "text": "  the ",
+      "contexts": [
+        "09F9F3"
+      ]
+    },
+    {
+      "offset": "09FA43",
+      "end": "09FA56",
+      "text": "@A customer is heading this way.",
+      "contexts": [
+        "09F9F3"
+      ]
+    },
+    {
+      "offset": "09FA7C",
+      "end": "09FA7F",
+      "text": " used",
+      "contexts": [
+        "09FA74"
+      ]
+    },
+    {
+      "offset": "09FA80",
+      "end": "09FA82",
+      "text": "  the ",
+      "contexts": [
+        "09FA74"
+      ]
+    },
+    {
+      "offset": "09FA88",
+      "end": "09FAB7",
+      "text": "@Wait!  Someone is already heading this way.  Wait for them to get here first.",
+      "contexts": [
+        "09FA74"
+      ]
+    },
+    {
+      "offset": "09FAB9",
+      "end": "09FADF",
+      "text": "@For a long time, this <For Sale> sign has been useful...",
+      "contexts": [
+        "09FAB9"
+      ]
+    },
+    {
+      "offset": "09FAE1",
+      "end": "09FB0D",
+      "text": "@Now, it is old, its message made unreadable by the passage of time.",
+      "contexts": [
+        "09FAB9"
+      ]
+    },
+    {
+      "offset": "09FB0F",
+      "end": "09FB26",
+      "text": "@It has now lost its effectiveness.",
+      "contexts": [
+        "09FAB9"
+      ]
+    },
+    {
+      "offset": "09FB28",
+      "end": "09FB32",
+      "text": "@Thank you, sign.",
+      "contexts": [
+        "09FAB9"
+      ]
+    },
+    {
+      "offset": "09FB33",
+      "end": "09FB41",
+      "text": "  Good bye, sign.",
+      "contexts": [
+        "09FAB9"
+      ]
+    },
+    {
+      "offset": "09FBA0",
+      "end": "09FBC2",
+      "text": "@(If you get this message, it means that something is wrong.)",
+      "contexts": [
+        "09FB9F"
+      ]
+    },
+    {
+      "offset": "09FD60",
+      "end": "09FD80",
+      "text": "@If you are not feeling well, you should not ride a bicycle.",
+      "contexts": [
+        "09FD60"
+      ]
+    },
+    {
+      "offset": "2F725E",
+      "end": "2F7262",
+      "text": " lost",
+      "contexts": [
+        "2F725A"
+      ]
+    },
+    {
+      "offset": "2F7263",
+      "end": "2F727D",
+      "text": "  his mind by wolfing down <Fly Honey>!",
+      "contexts": [
+        "2F725A"
+      ]
+    },
+    {
+      "offset": "2F7485",
+      "end": "2F748C",
+      "text": "@Pokey used ",
+      "contexts": [
+        "2F745F"
+      ]
+    },
+    {
+      "offset": "2F7490",
+      "end": "2F749B",
+      "text": "  as a shield!",
+      "contexts": [
+        "2F745F"
+      ]
+    },
+    {
+      "offset": "2F749E",
+      "end": "2F74AE",
+      "text": "@Pokey played dead!",
+      "contexts": [
+        "2F749D"
+      ]
+    },
+    {
+      "offset": "2F74B1",
+      "end": "2F74BF",
+      "text": "@Pokey pretended",
+      "contexts": [
+        "2F74B0"
+      ]
+    },
+    {
+      "offset": "2F74C0",
+      "end": "2F74C7",
+      "text": "  to cry!",
+      "contexts": [
+        "2F74B0"
+      ]
+    },
+    {
+      "offset": "2F74CA",
+      "end": "2F74DA",
+      "text": "@Pokey apologized",
+      "contexts": [
+        "2F74C9"
+      ]
+    },
+    {
+      "offset": "2F74DB",
+      "end": "2F74E4",
+      "text": "  profusely!",
+      "contexts": [
+        "2F74C9"
+      ]
+    },
+    {
+      "offset": "2F74E7",
+      "end": "2F74EE",
+      "text": "@Pokey thought",
+      "contexts": [
+        "2F74E6"
+      ]
+    },
+    {
+      "offset": "2F74EF",
+      "end": "2F74F8",
+      "text": "  to himself!",
+      "contexts": [
+        "2F74E6"
+      ]
+    },
+    {
+      "offset": "2F74FB",
+      "end": "2F7505",
+      "text": "@Pokey acted",
+      "contexts": [
+        "2F74FA"
+      ]
+    },
+    {
+      "offset": "2F7506",
+      "end": "2F7512",
+      "text": "  all innocent!",
+      "contexts": [
+        "2F74FA"
+      ]
+    },
+    {
+      "offset": "2F7515",
+      "end": "2F7521",
+      "text": "@Pokey smiled",
+      "contexts": [
+        "2F7514"
+      ]
+    },
+    {
+      "offset": "2F7522",
+      "end": "2F752E",
+      "text": "  insincerely!",
+      "contexts": [
+        "2F7514"
+      ]
+    },
+    {
+      "offset": "2F7531",
+      "end": "2F753E",
+      "text": "@Pokey complained",
+      "contexts": [
+        "2F7530"
+      ]
+    },
+    {
+      "offset": "2F753F",
+      "end": "2F7542",
+      "text": "  to ",
+      "contexts": [
+        "2F7530"
+      ]
+    },
+    {
+      "offset": "2F7549",
+      "end": "2F7554",
+      "text": "@Pokey tried to",
+      "contexts": [
+        "2F7548"
+      ]
+    },
+    {
+      "offset": "2F7555",
+      "end": "2F7567",
+      "text": "  edge closer to the enemy!",
+      "contexts": [
+        "2F7548"
+      ]
+    },
+    {
+      "offset": "2F9D1B",
+      "end": "2F9D21",
+      "text": " spewed",
+      "contexts": [
+        "2F9D14"
+      ]
+    },
+    {
+      "offset": "2F9D22",
+      "end": "2F9D37",
+      "text": "  <Fly Honey> out of his mouth!",
+      "contexts": [
+        "2F9D14"
+      ]
+    },
+    {
+      "offset": "2F9F9F",
+      "end": "2F9FB6",
+      "text": "@(The Exit Mouse cannot do its job",
+      "contexts": [
+        "2F9F9F"
+      ]
+    },
+    {
+      "offset": "2F9FB8",
+      "end": "2F9FE0",
+      "text": "@unless it is in a hole, cave, or some place with an exit!)",
+      "contexts": [
+        "2F9F9F"
+      ]
+    },
+    {
+      "offset": "2F9FE2",
+      "end": "2FA000",
+      "text": "@(At this point in time, the mouse is fast asleep.)",
+      "contexts": [
+        "2F9FE2"
+      ]
+    },
+    {
+      "offset": "2FA002",
+      "end": "2FA027",
+      "text": "@You shouldn't let the mouse go until the pizza has arrived.",
+      "contexts": [
+        "2FA002"
+      ]
+    },
+    {
+      "offset": "2FA029",
+      "end": "2FA05C",
+      "text": "@If you release the mouse now, it might be stepped on by the approaching customer.",
+      "contexts": [
+        "2FA029"
+      ]
+    },
+    {
+      "offset": "2FA05E",
+      "end": "2FA07C",
+      "text": "@So... it's not a good idea to release the mouse now.",
+      "contexts": [
+        "2FA029"
+      ]
+    },
+    {
+      "offset": "2FA07E",
+      "end": "2FA09F",
+      "text": "@Please stick around until Escargo Express arrives.",
+      "contexts": [
+        "2FA07E"
+      ]
+    },
+    {
+      "offset": "2FA0A1",
+      "end": "2FA0B6",
+      "text": "@So... do not use the Exit Mouse!",
+      "contexts": [
+        "2FA07E"
+      ]
+    },
+    {
+      "offset": "2FA0B7",
+      "end": "2FA0DA",
+      "text": "@For some reason, the exit mouse isn't being agreeable.",
+      "contexts": [
+        "2FA0B7"
+      ]
+    },
+    {
+      "offset": "2FA0E2",
+      "end": "2FA0F3",
+      "text": " read the hieroglyphs.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA0F5",
+      "end": "2FA121",
+      "text": "@<To fight against the invaders, we built this pyramid fortress.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA123",
+      "end": "2FA142",
+      "text": "@However, our efforts were futile, and we lost.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA144",
+      "end": "2FA16F",
+      "text": "@Nonetheless, our pyramid was protected by the gods of Scaraba.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA171",
+      "end": "2FA19A",
+      "text": "@The invaders will be reborn every millennium and will attack again.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA19C",
+      "end": "2FA1D4",
+      "text": "@Even now, the invaders hide beyond space and time and build their evil stronghold.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA1D6",
+      "end": "2FA206",
+      "text": "@A place out of time is beyond the Dark, and is even farther beyond the Lost Underworld.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA208",
+      "end": "2FA22B",
+      "text": "@The Deep Darkness is shrouded, it is without light.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA22D",
+      "end": "2FA237",
+      "text": "@Only one with the ",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA23A",
+      "end": "2FA247",
+      "text": " can pierce the dark.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA249",
+      "end": "2FA260",
+      "text": "@The Sphinx now watches over everything,",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA262",
+      "end": "2FA27F",
+      "text": "@waiting for the coming of a truly brave hero.",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA294",
+      "end": "2FA2A9",
+      "text": "@Dance in front of the Sphinx!>",
+      "contexts": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA2B5",
+      "end": "2FA2C7",
+      "text": "@This town is not shown on the map.",
+      "contexts": [
+        "2FA2B5"
+      ]
+    },
+    {
+      "offset": "33CF9A",
+      "end": "33CFA2",
+      "text": "...  Oh ",
+      "contexts": [
+        "33CF91"
+      ]
+    },
+    {
+      "offset": "33D404",
+      "end": "33D40F",
+      "text": "@Ohohohoho!",
+      "contexts": [
+        "33D3EB"
+      ]
+    },
+    {
+      "offset": "33D6BC",
+      "end": "33D6C7",
+      "text": "...pffhaha!",
+      "contexts": [
+        "33D6B4"
+      ]
+    },
+    {
+      "offset": "33DC44",
+      "end": "33DC55",
+      "text": "@*psst psst psst*",
+      "contexts": [
+        "33DBF6"
+      ]
+    },
+    {
+      "offset": "33F96F",
+      "end": "33F976",
+      "text": "@Oh... ",
+      "contexts": [
+        "33F96F"
+      ]
+    },
+    {
+      "offset": "33FE98",
+      "end": "33FEA3",
+      "text": "  la-la-la?",
+      "contexts": [
+        "33FE4B"
+      ]
+    },
+    {
+      "offset": "348605",
+      "end": "348611",
+      "text": "@Oh, Giygas!",
+      "contexts": [
+        "348510"
+      ]
+    },
+    {
+      "offset": "3486E3",
+      "end": "3486EF",
+      "text": "@Oh, George!",
+      "contexts": [
+        "348699"
+      ]
+    },
+    {
+      "offset": "34A344",
+      "end": "34A351",
+      "text": "  PLACEHOLDER",
+      "contexts": [
+        "34A344"
+      ]
+    },
+    {
+      "offset": "34A352",
+      "end": "34A386",
+      "text": "  You've fixed the spoon, but initially refused him.",
+      "contexts": [
+        "34A344"
+      ]
+    },
+    {
+      "offset": "34A388",
+      "end": "34A3A3",
+      "text": "  This should never happen.",
+      "contexts": [
+        "34A344"
+      ]
+    },
+    {
+      "offset": "34A60B",
+      "end": "34A615",
+      "text": "@Ha ha ha.",
+      "contexts": [
+        "34A5D8"
+      ]
+    },
+    {
+      "offset": "34A647",
+      "end": "34A651",
+      "text": "@Ha ha ha.",
+      "contexts": [
+        "34A620"
+      ]
+    },
+    {
+      "offset": "34AF75",
+      "end": "34AF7D",
+      "text": "@Lalala,",
+      "contexts": [
+        "34AD84"
+      ]
+    },
+    {
+      "offset": "34FADF",
+      "end": "34FAE2",
+      "text": "@A ",
+      "contexts": [
+        "34FADF"
+      ]
+    },
+    {
+      "offset": "350423",
+      "end": "350425",
+      "text": "@B",
+      "contexts": [
+        "35041F"
+      ]
+    },
+    {
+      "offset": "350427",
+      "end": "350428",
+      "text": "o",
+      "contexts": [
+        "35041F"
+      ]
+    },
+    {
+      "offset": "35042A",
+      "end": "35042B",
+      "text": "o",
+      "contexts": [
+        "35041F"
+      ]
+    },
+    {
+      "offset": "35042D",
+      "end": "35042E",
+      "text": "o",
+      "contexts": [
+        "35041F"
+      ]
+    },
+    {
+      "offset": "350430",
+      "end": "350431",
+      "text": "o",
+      "contexts": [
+        "35041F"
+      ]
+    },
+    {
+      "offset": "350433",
+      "end": "350434",
+      "text": "o",
+      "contexts": [
+        "35041F"
+      ]
+    },
+    {
+      "offset": "350436",
+      "end": "350437",
+      "text": "o",
+      "contexts": [
+        "35041F"
+      ]
+    },
+    {
+      "offset": "350439",
+      "end": "35043A",
+      "text": "o",
+      "contexts": [
+        "35041F"
+      ]
+    },
+    {
+      "offset": "35043C",
+      "end": "35043E",
+      "text": "o!",
+      "contexts": [
+        "35041F"
+      ]
+    },
+    {
+      "offset": "3504AD",
+      "end": "3504AF",
+      "text": "@B",
+      "contexts": [
+        "3504A9"
+      ]
+    },
+    {
+      "offset": "3504B1",
+      "end": "3504B2",
+      "text": "o",
+      "contexts": [
+        "3504A9"
+      ]
+    },
+    {
+      "offset": "3504B4",
+      "end": "3504B5",
+      "text": "o",
+      "contexts": [
+        "3504A9"
+      ]
+    },
+    {
+      "offset": "3504B7",
+      "end": "3504B8",
+      "text": "o",
+      "contexts": [
+        "3504A9"
+      ]
+    },
+    {
+      "offset": "3504BA",
+      "end": "3504BB",
+      "text": "o",
+      "contexts": [
+        "3504A9"
+      ]
+    },
+    {
+      "offset": "3504BD",
+      "end": "3504BE",
+      "text": "o",
+      "contexts": [
+        "3504A9"
+      ]
+    },
+    {
+      "offset": "3504C0",
+      "end": "3504C1",
+      "text": "o",
+      "contexts": [
+        "3504A9"
+      ]
+    },
+    {
+      "offset": "3504C3",
+      "end": "3504C4",
+      "text": "o",
+      "contexts": [
+        "3504A9"
+      ]
+    },
+    {
+      "offset": "3504C6",
+      "end": "3504C8",
+      "text": "o!",
+      "contexts": [
+        "3504A9"
+      ]
+    },
+    {
+      "offset": "3505D8",
+      "end": "3505DA",
+      "text": "@B",
+      "contexts": [
+        "35055D"
+      ]
+    },
+    {
+      "offset": "3505DC",
+      "end": "3505DD",
+      "text": "o",
+      "contexts": [
+        "35055D"
+      ]
+    },
+    {
+      "offset": "3505DF",
+      "end": "3505E0",
+      "text": "o",
+      "contexts": [
+        "35055D"
+      ]
+    },
+    {
+      "offset": "3505E2",
+      "end": "3505E3",
+      "text": "o",
+      "contexts": [
+        "35055D"
+      ]
+    },
+    {
+      "offset": "3505E5",
+      "end": "3505E6",
+      "text": "o",
+      "contexts": [
+        "35055D"
+      ]
+    },
+    {
+      "offset": "3505E8",
+      "end": "3505E9",
+      "text": "o",
+      "contexts": [
+        "35055D"
+      ]
+    },
+    {
+      "offset": "3505EB",
+      "end": "3505EC",
+      "text": "o",
+      "contexts": [
+        "35055D"
+      ]
+    },
+    {
+      "offset": "3505EE",
+      "end": "3505EF",
+      "text": "o",
+      "contexts": [
+        "35055D"
+      ]
+    },
+    {
+      "offset": "3505F1",
+      "end": "3505F3",
+      "text": "o!",
+      "contexts": [
+        "35055D"
+      ]
+    },
+    {
+      "offset": "351AC4",
+      "end": "351AC8",
+      "text": "@Hee",
+      "contexts": [
+        "351AC4"
+      ]
+    },
+    {
+      "offset": "351ACA",
+      "end": "351ACE",
+      "text": " hee",
+      "contexts": [
+        "351AC4"
+      ]
+    },
+    {
+      "offset": "351AD0",
+      "end": "351AD7",
+      "text": " hee...",
+      "contexts": [
+        "351AC4"
+      ]
+    },
+    {
+      "offset": "351CFE",
+      "end": "351D02",
+      "text": "@Ha,",
+      "contexts": [
+        "351CCD"
+      ]
+    },
+    {
+      "offset": "351D04",
+      "end": "351D08",
+      "text": " ha,",
+      "contexts": [
+        "351CCD"
+      ]
+    },
+    {
+      "offset": "351D0A",
+      "end": "351D10",
+      "text": " ha...",
+      "contexts": [
+        "351CCD"
+      ]
+    },
+    {
+      "offset": "351E2A",
+      "end": "351E2E",
+      "text": "@Ha.",
+      "contexts": [
+        "351DE1"
+      ]
+    },
+    {
+      "offset": "35210F",
+      "end": "352115",
+      "text": "@Oh...",
+      "contexts": [
+        "352046"
+      ]
+    },
+    {
+      "offset": "352432",
+      "end": "35243A",
+      "text": "@Teehee.",
+      "contexts": [
+        "35240B"
+      ]
+    },
+    {
+      "offset": "3552C0",
+      "end": "3552C2",
+      "text": "@G",
+      "contexts": [
+        "355249"
+      ]
+    },
+    {
+      "offset": "3552C4",
+      "end": "3552C5",
+      "text": "r",
+      "contexts": [
+        "355249"
+      ]
+    },
+    {
+      "offset": "3552C7",
+      "end": "3552C8",
+      "text": "r",
+      "contexts": [
+        "355249"
+      ]
+    },
+    {
+      "offset": "3552CA",
+      "end": "3552CB",
+      "text": "r",
+      "contexts": [
+        "355249"
+      ]
+    },
+    {
+      "offset": "3552CD",
+      "end": "3552CE",
+      "text": "r",
+      "contexts": [
+        "355249"
+      ]
+    },
+    {
+      "offset": "3552D0",
+      "end": "3552D1",
+      "text": "r",
+      "contexts": [
+        "355249"
+      ]
+    },
+    {
+      "offset": "35B9A2",
+      "end": "35B9A9",
+      "text": "@Hmm...",
+      "contexts": [
+        "35B99B"
+      ]
+    },
+    {
+      "offset": "35B9D0",
+      "end": "35B9D5",
+      "text": "@Oh! ",
+      "contexts": [
+        "35B99B"
+      ]
+    },
+    {
+      "offset": "35EDC8",
+      "end": "35EDF0",
+      "text": "Starting Debug battle for PSI testing...",
+      "contexts": [
+        "35EDC1"
+      ]
+    },
+    {
+      "offset": "361149",
+      "end": "36114C",
+      "text": "@Oh",
+      "contexts": [
+        "361070"
+      ]
+    },
+    {
+      "offset": "361154",
+      "end": "361157",
+      "text": " oh",
+      "contexts": [
+        "361070"
+      ]
+    },
+    {
+      "offset": "361581",
+      "end": "361584",
+      "text": "  A",
+      "contexts": [
+        "361560"
+      ]
+    },
+    {
+      "offset": "361586",
+      "end": "361587",
+      "text": "A",
+      "contexts": [
+        "361560"
+      ]
+    },
+    {
+      "offset": "361589",
+      "end": "36158A",
+      "text": "A",
+      "contexts": [
+        "361560"
+      ]
+    },
+    {
+      "offset": "36158C",
+      "end": "36158D",
+      "text": "A",
+      "contexts": [
+        "361560"
+      ]
+    },
+    {
+      "offset": "36158F",
+      "end": "361596",
+      "text": "AAAHHH!",
+      "contexts": [
+        "361560"
+      ]
+    },
+    {
+      "offset": "3616AF",
+      "end": "3616B4",
+      "text": "@Hum.",
+      "contexts": [
+        "3616AF"
+      ]
+    },
+    {
+      "offset": "3619E9",
+      "end": "3619F1",
+      "text": "@Zombie!",
+      "contexts": [
+        "3619E9"
+      ]
+    },
+    {
+      "offset": "361C04",
+      "end": "361C0B",
+      "text": "@Oh... ",
+      "contexts": [
+        "361BFE"
+      ]
+    },
+    {
+      "offset": "363789",
+      "end": "36378E",
+      "text": "@Mmm,",
+      "contexts": [
+        "363782"
+      ]
+    },
+    {
+      "offset": "363790",
+      "end": "36379D",
+      "text": " hmm meh heh,",
+      "contexts": [
+        "363782"
+      ]
+    },
+    {
+      "offset": "36379F",
+      "end": "3637A4",
+      "text": " hmm,",
+      "contexts": [
+        "363782"
+      ]
+    },
+    {
+      "offset": "3637A6",
+      "end": "3637B1",
+      "text": " heh mehah,",
+      "contexts": [
+        "363782"
+      ]
+    },
+    {
+      "offset": "3637B3",
+      "end": "3637B9",
+      "text": " hmmm,",
+      "contexts": [
+        "363782"
+      ]
+    },
+    {
+      "offset": "3637BB",
+      "end": "3637C7",
+      "text": " heh hmmumm!",
+      "contexts": [
+        "363782"
+      ]
+    },
+    {
+      "offset": "365287",
+      "end": "36528A",
+      "text": " (P",
+      "contexts": [
+        "365283"
+      ]
+    },
+    {
+      "offset": "365487",
+      "end": "36548A",
+      "text": " (P",
+      "contexts": [
+        "365483"
+      ]
+    },
+    {
+      "offset": "3697C7",
+      "end": "3697D7",
+      "text": "@Zzzzzzzzzzzz...",
+      "contexts": [
+        "3697C7"
+      ]
+    },
+    {
+      "offset": "36A487",
+      "end": "36A48B",
+      "text": "@Oh ",
+      "contexts": [
+        "36A477"
+      ]
+    },
+    {
+      "offset": "37BE28",
+      "end": "37BE2C",
+      "text": " to ",
+      "contexts": [
+        "37BE28"
+      ]
+    },
+    {
+      "offset": "37DE56",
+      "end": "37DE69",
+      "text": "Select your option.",
+      "contexts": [
+        "37DE51"
+      ]
+    },
+    {
+      "offset": "37DF15",
+      "end": "37DF24",
+      "text": "Select an item.",
+      "contexts": [
+        "37DF0A"
+      ]
+    },
+    {
+      "offset": "37E0CA",
+      "end": "37E0DB",
+      "text": "Inventory filled.",
+      "contexts": [
+        "37E0C1"
+      ]
+    },
+    {
+      "offset": "37E0F5",
+      "end": "37E116",
+      "text": "What items do you want to remove?",
+      "contexts": [
+        "37E0EC"
+      ]
+    },
+    {
+      "offset": "37E19B",
+      "end": "37E1AE",
+      "text": "Storage filled with",
+      "contexts": [
+        "37E191"
+      ]
+    },
+    {
+      "offset": "37E1AF",
+      "end": "37E1C5",
+      "text": "   upper-tier weapons.",
+      "contexts": [
+        "37E191"
+      ]
+    },
+    {
+      "offset": "37E1DB",
+      "end": "37E1EB",
+      "text": "Storage cleared.",
+      "contexts": [
+        "37E1D1"
+      ]
+    },
+    {
+      "offset": "37E204",
+      "end": "37E20D",
+      "text": "Equipped!",
+      "contexts": [
+        "37E1F5"
+      ]
+    },
+    {
+      "offset": "37FFD9",
+      "end": "37FFEE",
+      "text": "Select an Event Flag.",
+      "contexts": [
+        "37FFD3"
+      ]
+    },
+    {
+      "offset": "381870",
+      "end": "381876",
+      "text": " tried",
+      "contexts": [
+        "38186A"
+      ]
+    },
+    {
+      "offset": "3834B6",
+      "end": "3834C7",
+      "text": "Select an option.",
+      "contexts": [
+        "3834B1"
+      ]
+    },
+    {
+      "offset": "383516",
+      "end": "383521",
+      "text": "Which song?",
+      "contexts": [
+        "383509"
+      ]
+    },
+    {
+      "offset": "383539",
+      "end": "38354C",
+      "text": "Which sound effect?",
+      "contexts": [
+        "38352C"
+      ]
+    },
+    {
+      "offset": "383589",
+      "end": "3835AE",
+      "text": "Options 192 and above crash the game.",
+      "contexts": [
+        "383571"
+      ]
+    },
+    {
+      "offset": "3866BE",
+      "end": "3866C4",
+      "text": "@Ah...",
+      "contexts": [
+        "3866BE"
+      ]
+    },
+    {
+      "offset": "38680E",
+      "end": "386814",
+      "text": "@Oh...",
+      "contexts": [
+        "38680E"
+      ]
+    },
+    {
+      "offset": "38796D",
+      "end": "387973",
+      "text": "Up: +1",
+      "contexts": [
+        "387969"
+      ]
+    },
+    {
+      "offset": "387977",
+      "end": "387980",
+      "text": "Left: +10",
+      "contexts": [
+        "387969"
+      ]
+    },
+    {
+      "offset": "387984",
+      "end": "38798C",
+      "text": "Down: -1",
+      "contexts": [
+        "387969"
+      ]
+    },
+    {
+      "offset": "387990",
+      "end": "38799A",
+      "text": "Right: -10",
+      "contexts": [
+        "387969"
+      ]
+    },
+    {
+      "offset": "387AAD",
+      "end": "387AB1",
+      "text": "Your",
+      "contexts": [
+        "387AA2"
+      ]
+    },
+    {
+      "offset": "387AB5",
+      "end": "387AB7",
+      "text": "'s",
+      "contexts": [
+        "387AB2"
+      ]
+    },
+    {
+      "offset": "387B2B",
+      "end": "387B2E",
+      "text": "you",
+      "contexts": [
+        "387B19"
+      ]
+    },
+    {
+      "offset": "387B2F",
+      "end": "387B36",
+      "text": "you all",
+      "contexts": [
+        "387B2F"
+      ]
+    },
+    {
+      "offset": "387B37",
+      "end": "387B3E",
+      "text": "you two",
+      "contexts": [
+        "387B37"
+      ]
+    },
+    {
+      "offset": "3886E3",
+      "end": "3886EB",
+      "text": "To whom?",
+      "contexts": [
+        "3886E0"
+      ]
+    },
+    {
+      "offset": "388E78",
+      "end": "388E8F",
+      "text": "What do you want to do?",
+      "contexts": [
+        "388E75"
+      ]
+    },
+    {
+      "offset": "38902E",
+      "end": "389041",
+      "text": "Which party member?",
+      "contexts": [
+        "389022"
+      ]
+    },
+    {
+      "offset": "38908E",
+      "end": "38909B",
+      "text": " was removed.",
+      "contexts": [
+        "38905B"
+      ]
+    },
+    {
+      "offset": "3890A5",
+      "end": "3890C4",
+      "text": "You can't have a party of zero!",
+      "contexts": [
+        "3890A2"
+      ]
+    },
+    {
+      "offset": "3890C9",
+      "end": "3890EB",
+      "text": "The game will freeze if you do so.",
+      "contexts": [
+        "3890A2"
+      ]
+    },
+    {
+      "offset": "3897F2",
+      "end": "389808",
+      "text": "Choose your operation.",
+      "contexts": [
+        "3897EA"
+      ]
+    },
+    {
+      "offset": "38986F",
+      "end": "389884",
+      "text": "You now have $9999999",
+      "contexts": [
+        "389867"
+      ]
+    },
+    {
+      "offset": "389885",
+      "end": "389894",
+      "text": "   in the bank.",
+      "contexts": [
+        "389867"
+      ]
+    },
+    {
+      "offset": "3898A9",
+      "end": "3898BC",
+      "text": "You now have $99999",
+      "contexts": [
+        "3898A1"
+      ]
+    },
+    {
+      "offset": "3898BD",
+      "end": "3898CF",
+      "text": "   in your wallet.",
+      "contexts": [
+        "3898A1"
+      ]
+    },
+    {
+      "offset": "3898EC",
+      "end": "3898FE",
+      "text": "Input your amount:",
+      "contexts": [
+        "3898E4"
+      ]
+    },
+    {
+      "offset": "389927",
+      "end": "389935",
+      "text": "You now have $",
+      "contexts": [
+        "3898E4"
+      ]
+    },
+    {
+      "offset": "38993D",
+      "end": "38994F",
+      "text": "   in your wallet.",
+      "contexts": [
+        "3898E4"
+      ]
+    },
+    {
+      "offset": "3899CC",
+      "end": "3899DE",
+      "text": "You are now broke!",
+      "contexts": [
+        "3899BF"
+      ]
+    },
+    {
+      "offset": "3899DF",
+      "end": "3899F7",
+      "text": "   Your wallet is empty!",
+      "contexts": [
+        "3899BF"
+      ]
+    },
+    {
+      "offset": "38B52B",
+      "end": "38B52D",
+      "text": "a ",
+      "contexts": [
+        "38B52B"
+      ]
+    },
+    {
+      "offset": "38B52E",
+      "end": "38B531",
+      "text": "an ",
+      "contexts": [
+        "38B52E"
+      ]
+    },
+    {
+      "offset": "38B532",
+      "end": "38B537",
+      "text": "some ",
+      "contexts": [
+        "38B532"
+      ]
+    },
+    {
+      "offset": "38B538",
+      "end": "38B53C",
+      "text": "the ",
+      "contexts": [
+        "38B538"
+      ]
+    },
+    {
+      "offset": "38B53E",
+      "end": "38B540",
+      "text": "A ",
+      "contexts": [
+        "38B53E"
+      ]
+    },
+    {
+      "offset": "38B541",
+      "end": "38B544",
+      "text": "An ",
+      "contexts": [
+        "38B541"
+      ]
+    },
+    {
+      "offset": "38B545",
+      "end": "38B54A",
+      "text": "Some ",
+      "contexts": [
+        "38B545"
+      ]
+    },
+    {
+      "offset": "38B54B",
+      "end": "38B54F",
+      "text": "The ",
+      "contexts": [
+        "38B54B"
+      ]
+    },
+    {
+      "offset": "38D231",
+      "end": "38D24C",
+      "text": "  ...the ship that sails...",
+      "contexts": [
+        "38D1B0"
+      ]
+    },
+    {
+      "offset": "38D260",
+      "end": "38D267",
+      "text": "@Hmm...",
+      "contexts": [
+        "38D260"
+      ]
+    },
+    {
+      "offset": "38D947",
+      "end": "38D962",
+      "text": "@Working through the night,",
+      "contexts": [
+        "38D93F"
+      ]
+    },
+    {
+      "offset": "38D968",
+      "end": "38D972",
+      "text": " assembled",
+      "contexts": [
+        "38D93F"
+      ]
+    },
+    {
+      "offset": "38D973",
+      "end": "38D979",
+      "text": "  the ",
+      "contexts": [
+        "38D93F"
+      ]
+    },
+    {
+      "offset": "38D97F",
+      "end": "38D99B",
+      "text": "@After being assembled, the ",
+      "contexts": [
+        "38D93F"
+      ]
+    },
+    {
+      "offset": "38D99E",
+      "end": "38D9A5",
+      "text": " became",
+      "contexts": [
+        "38D93F"
+      ]
+    },
+    {
+      "offset": "38D9AF",
+      "end": "38D9B1",
+      "text": "s.",
+      "contexts": [
+        "38D93F"
+      ]
+    },
+    {
+      "offset": "38DC41",
+      "end": "38DC58",
+      "text": "Who will be leveled up?",
+      "contexts": [
+        "38DC3E"
+      ]
+    },
+    {
+      "offset": "38DCA7",
+      "end": "38DCB7",
+      "text": "Team leveled up.",
+      "contexts": [
+        "38DC87"
+      ]
+    },
+    {
+      "offset": "38DCC9",
+      "end": "38DCEF",
+      "text": "Which party member will be leveled up?",
+      "contexts": [
+        "38DCC4"
+      ]
+    },
+    {
+      "offset": "38DD1F",
+      "end": "38DD34",
+      "text": "Character leveled up.",
+      "contexts": [
+        "38DCC4"
+      ]
+    },
+    {
+      "offset": "38DD4B",
+      "end": "38DD5D",
+      "text": "Select your level.",
+      "contexts": [
+        "38DD48"
+      ]
+    },
+    {
+      "offset": "390179",
+      "end": "390189",
+      "text": "Enemies enabled.",
+      "contexts": [
+        "39016B"
+      ]
+    },
+    {
+      "offset": "390194",
+      "end": "3901A5",
+      "text": "Enemies disabled.",
+      "contexts": [
+        "390191"
+      ]
+    },
+    {
+      "offset": "3901B3",
+      "end": "3901C5",
+      "text": "Which Enemy Group?",
+      "contexts": [
+        "3901B0"
+      ]
+    },
+    {
+      "offset": "39043A",
+      "end": "390442",
+      "text": "@Item ID",
+      "contexts": [
+        "390437"
+      ]
+    }
+  ],
+  "paths": {
+    "36AD83": "NPC:2:9",
+    "36B28A": "NPC:4:9;NPC:5:9;NPC:113:9",
+    "36A9EC": "NPC:6:9",
+    "36A96E": "NPC:7:9",
+    "36ADB4": "NPC:8:9",
+    "36B35A": "NPC:9:9;NPC:10:9;NPC:112:9",
+    "36B493": "NPC:11:9;NPC:139:9;NPC:1422:9",
+    "36ACF9": "NPC:12:9",
+    "36B6F8": "NPC:16:9",
+    "36B715": "NPC:16:13",
+    "36B582": "NPC:18:9",
+    "361070": "NPC:19:9;NPC:80:9",
+    "361253": "NPC:20:9",
+    "3612C8": "NPC:21:9",
+    "361327": "NPC:22:9;NPC:30:9;NPC:118:9",
+    "360C10": "NPC:23:9;NPC:71:9",
+    "360CC1": "NPC:24:9;NPC:234:9",
+    "360F7D": "NPC:25:9",
+    "3614A3": "NPC:26:9",
+    "3619B0": "NPC:27:9;NPC:85:9",
+    "361983": "NPC:28:9;NPC:72:9",
+    "36165E": "NPC:29:9;NPC:129:9",
+    "361833": "NPC:31:9",
+    "3613E0": "NPC:32:9",
+    "361735": "NPC:33:9;NPC:232:9",
+    "3618AE": "NPC:34:9",
+    "3619E9": "NPC:35:9",
+    "361A06": "NPC:36:9",
+    "16F9A0": "NPC:37:9",
+    "360AE0": "NPC:38:9;NPC:69:9;NPC:88:9",
+    "24D250": "NPC:39:9;NPC:70:9",
+    "33ED82": "NPC:60:9",
+    "3655AA": "NPC:86:9",
+    "36559E": "NPC:89:9",
+    "365592": "NPC:90:9",
+    "352F09": "NPC:91:9",
+    "352FC3": "NPC:92:9",
+    "353837": "NPC:93:9",
+    "35388D": "NPC:94:9",
+    "353909": "NPC:95:9",
+    "353962": "NPC:96:9",
+    "167AE0": "NPC:97:9",
+    "3539C3": "NPC:98:9",
+    "36075D": "NPC:99:9",
+    "360000": "NPC:100:9;NPC:215:9",
+    "360871": "NPC:101:9",
+    "329300": "NPC:102:9",
+    "33ED0C": "NPC:103:9",
+    "3539C9": "NPC:104:9",
+    "167E90": "NPC:105:9",
+    "3539E3": "NPC:106:9",
+    "353A04": "NPC:107:9",
+    "353A1F": "NPC:108:9",
+    "25C720": "NPC:109:9",
+    "25C6C0": "NPC:110:9",
+    "353EDA": "NPC:111:9",
+    "353B7F": "NPC:116:9",
+    "353B65": "NPC:117:9",
+    "353B1C": "NPC:119:9",
+    "353BB8": "NPC:120:9",
+    "355100": "NPC:121:9",
+    "353C03": "NPC:122:9",
+    "167D90": "NPC:123:9",
+    "353DDC": "NPC:124:9",
+    "353D87": "NPC:125:9",
+    "353E1E": "NPC:126:9",
+    "353E64": "NPC:127:9",
+    "353E84": "NPC:128:9",
+    "32B640": "NPC:140:9",
+    "32B6F0": "NPC:141:9",
+    "33B76A": "NPC:142:9",
+    "33B779": "NPC:143:9",
+    "353F9C": "NPC:144:9",
+    "353FED": "NPC:145:9",
+    "25C790": "NPC:146:9",
+    "3541B9": "NPC:147:9",
+    "3541F5": "NPC:148:9",
+    "24D4A0": "NPC:149:9",
+    "354A31": "NPC:150:9",
+    "354BB3": "NPC:151:9",
+    "354C47": "NPC:152:9",
+    "354097": "NPC:153:9",
+    "35405D": "NPC:154:9",
+    "355249": "NPC:155:9",
+    "3553AF": "NPC:156:9",
+    "355447": "NPC:157:9",
+    "3554EC": "NPC:158:9",
+    "355478": "NPC:159:9",
+    "3530DC": "NPC:160:9",
+    "35312B": "NPC:161:9",
+    "3531A9": "NPC:162:9",
+    "3531CE": "NPC:163:9",
+    "353237": "NPC:164:9",
+    "3532FA": "NPC:165:9",
+    "353439": "NPC:166:9",
+    "35335C": "NPC:168:9",
+    "3533AC": "NPC:169:9",
+    "3534A1": "NPC:170:9",
+    "3534E7": "NPC:171:9",
+    "35352C": "NPC:172:9",
+    "353758": "NPC:173:9",
+    "352FFB": "NPC:174:9",
+    "361A68": "NPC:176:9",
+    "33BE79": "NPC:191:9",
+    "347C20": "NPC:202:9",
+    "36B788": "NPC:204:9",
+    "292680": "NPC:205:9",
+    "33EABF": "NPC:207:9",
+    "355964": "NPC:212:9",
+    "3617AB": "NPC:213:9;NPC:233:9",
+    "36792A": "NPC:214:9",
+    "33E67E": "NPC:217:9",
+    "33F063": "NPC:218:9",
+    "33ABF8": "NPC:223:9",
+    "167800": "NPC:225:9",
+    "3615E0": "NPC:226:9",
+    "2927F0": "NPC:227:9",
+    "33B7C0": "NPC:229:9",
+    "33B970": "NPC:230:9",
+    "33A96E": "NPC:231:9",
+    "348C64": "NPC:237:9",
+    "36137B": "NPC:253:9",
+    "347960": "NPC:254:9;NPC:256:9",
+    "361A44": "NPC:254:13",
+    "35C597": "NPC:258:9;NPC:487:9;NPC:711:9;NPC:717:9;NPC:751:9;NPC:892:9;NPC:1128:9;NPC:1262:9;NPC:1321:9;NPC:1376:9",
+    "360672": "NPC:280:9",
+    "16FA90": "NPC:282:9",
+    "33BEA2": "NPC:288:9",
+    "3655F8": "NPC:296:9",
+    "33AA9A": "NPC:316:9",
+    "2289B0": "NPC:317:9",
+    "36103E": "NPC:321:9",
+    "360FD7": "NPC:322:9",
+    "34831F": "NPC:352:9;NPC:635:9",
+    "3639A5": "NPC:356:9",
+    "363782": "NPC:357:9",
+    "363935": "NPC:357:13",
+    "33CC68": "NPC:369:9",
+    "3656D0": "NPC:389:9",
+    "33A7BE": "NPC:391:9",
+    "292960": "NPC:392:9",
+    "33BF00": "NPC:394:9",
+    "259170": "NPC:396:9",
+    "33A6B8": "NPC:397:9",
+    "33A577": "NPC:398:9",
+    "33A497": "NPC:399:9",
+    "369845": "NPC:400:9",
+    "3699C8": "NPC:401:9",
+    "369991": "NPC:403:9;NPC:426:9",
+    "3699F6": "NPC:404:9",
+    "35C53A": "NPC:407:9;NPC:861:9;NPC:938:9;NPC:1010:9;NPC:1015:9;NPC:1023:9;NPC:1201:9;NPC:1203:9",
+    "35A925": "NPC:407:13;NPC:861:13;NPC:938:13;NPC:1010:13;NPC:1015:13;NPC:1023:13;NPC:1201:13;NPC:1203:13",
+    "32BA70": "NPC:422:9",
+    "3650D7": "NPC:427:9",
+    "33B315": "NPC:428:9",
+    "33B3B5": "NPC:429:9",
+    "33B482": "NPC:430:9",
+    "33CD64": "NPC:431:9",
+    "348F89": "NPC:434:9",
+    "33ECDD": "NPC:436:9",
+    "33EA2F": "NPC:436:13",
+    "3650D0": "NPC:437:9",
+    "33CCF6": "NPC:438:9",
+    "36511E": "NPC:439:9",
+    "33CDD0": "NPC:440:9",
+    "33B336": "NPC:441:9",
+    "33B5CD": "NPC:442:9",
+    "33B67F": "NPC:443:9",
+    "16FED0": "NPC:444:9",
+    "3656C4": "NPC:445:9;NPC:806:9",
+    "34A53B": "NPC:451:9",
+    "33E5E0": "NPC:452:9",
+    "355195": "NPC:459:9",
+    "33E71B": "NPC:465:9",
+    "369A42": "NPC:467:9;NPC:468:9",
+    "33E6BC": "NPC:469:9",
+    "33E174": "NPC:470:9",
+    "2590E0": "NPC:471:9",
+    "33CA66": "NPC:478:9",
+    "33C84A": "NPC:494:9",
+    "349148": "NPC:497:9",
+    "365610": "NPC:498:9",
+    "364034": "NPC:502:9",
+    "32B800": "NPC:504:9",
+    "365604": "NPC:505:9",
+    "3655EC": "NPC:508:9",
+    "36AD8E": "NPC:513:9",
+    "364182": "NPC:514:9",
+    "32B880": "NPC:515:9",
+    "364265": "NPC:516:9",
+    "33C256": "NPC:517:9",
+    "36429F": "NPC:518:9",
+    "364317": "NPC:519:9",
+    "364364": "NPC:520:9",
+    "36A7FE": "NPC:521:9",
+    "3643D4": "NPC:522:9",
+    "36440F": "NPC:523:9",
+    "33C7D2": "NPC:523:13",
+    "259320": "NPC:524:9",
+    "16FB00": "NPC:525:9",
+    "364550": "NPC:526:9",
+    "3645A2": "NPC:527:9",
+    "16FBF0": "NPC:529:9",
+    "36462E": "NPC:537:9",
+    "3646A2": "NPC:538:9",
+    "364702": "NPC:539:9",
+    "364734": "NPC:540:9",
+    "364662": "NPC:541:9",
+    "364750": "NPC:542:9",
+    "3649DA": "NPC:543:9",
+    "3697D9": "NPC:544:9",
+    "32B900": "NPC:545:9",
+    "364801": "NPC:548:9",
+    "36565E": "NPC:549:9",
+    "364AFB": "NPC:551:9",
+    "364B27": "NPC:552:9",
+    "364AD4": "NPC:553:9",
+    "364B62": "NPC:554:9",
+    "3648CB": "NPC:555:9",
+    "364BB0": "NPC:556:9",
+    "364E41": "NPC:557:9",
+    "364E47": "NPC:557:13",
+    "364E88": "NPC:558:9",
+    "364F04": "NPC:559:9",
+    "364F37": "NPC:560:9",
+    "16FC30": "NPC:561:9",
+    "24D350": "NPC:562:9",
+    "3513A7": "NPC:563:9",
+    "351414": "NPC:564:9",
+    "351584": "NPC:565:9",
+    "351752": "NPC:566:9",
+    "35179D": "NPC:566:13",
+    "3518D5": "NPC:567:9",
+    "3517D7": "NPC:568:9",
+    "36980F": "NPC:569:9",
+    "33EDA8": "NPC:573:9",
+    "33FDF2": "NPC:574:9",
+    "33FDA3": "NPC:575:9",
+    "33FD79": "NPC:585:9",
+    "33FA7D": "NPC:586:9",
+    "33FA1B": "NPC:587:9",
+    "33F4FB": "NPC:588:9",
+    "33F4CD": "NPC:589:9",
+    "33F656": "NPC:591:9",
+    "33F560": "NPC:592:9",
+    "292E30": "NPC:594:9",
+    "351959": "NPC:595:9",
+    "3519AC": "NPC:596:9",
+    "351A3E": "NPC:598:9",
+    "351A0F": "NPC:599:9",
+    "351D81": "NPC:600:9",
+    "351E9B": "NPC:601:9",
+    "351ECE": "NPC:602:9",
+    "351F26": "NPC:603:9",
+    "351F92": "NPC:604:9",
+    "352BB4": "NPC:607:9",
+    "33CBDD": "NPC:628:9",
+    "259050": "NPC:629:9",
+    "33CEF4": "NPC:631:9",
+    "33EA5A": "NPC:631:13",
+    "3489B3": "NPC:634:9",
+    "25B680": "NPC:637:9",
+    "348B1C": "NPC:638:9",
+    "25B7C0": "NPC:657:9",
+    "33C72E": "NPC:658:9",
+    "3656B8": "NPC:799:9;NPC:805:9;NPC:808:9",
+    "36A2F3": "NPC:836:9",
+    "36A286": "NPC:837:9",
+    "3697C7": "NPC:838:9",
+    "3512ED": "NPC:856:9",
+    "320D5C": "NPC:857:9",
+    "167C50": "NPC:858:9",
+    "352046": "NPC:859:9",
+    "35591A": "NPC:863:9",
+    "35217B": "NPC:866:9",
+    "352155": "NPC:867:9",
+    "3521BC": "NPC:868:9",
+    "25C560": "NPC:869:9",
+    "352289": "NPC:870:9",
+    "352269": "NPC:871:9",
+    "361C50": "NPC:875:9",
+    "320D10": "NPC:878:9",
+    "33FE4B": "NPC:879:9",
+    "24D9E0": "NPC:880:9",
+    "33FCA8": "NPC:881:9",
+    "3522DC": "NPC:882:9",
+    "167CA0": "NPC:883:9",
+    "352811": "NPC:884:9",
+    "352728": "NPC:885:9",
+    "25C4D0": "NPC:890:9",
+    "3528B6": "NPC:891:9",
+    "32BB70": "NPC:893:9",
+    "369549": "NPC:901:9",
+    "33D594": "NPC:903:9",
+    "16FD50": "NPC:907:9",
+    "16FD90": "NPC:910:9",
+    "352934": "NPC:917:9",
+    "25C5E0": "NPC:918:9",
+    "352A30": "NPC:920:9",
+    "352BAB": "NPC:922:9",
+    "352B96": "NPC:923:9",
+    "352DDA": "NPC:924:9",
+    "350FB0": "NPC:925:9",
+    "3511BB": "NPC:926:9",
+    "365628": "NPC:931:9",
+    "365634": "NPC:932:9",
+    "365640": "NPC:933:9",
+    "365652": "NPC:934:9",
+    "365670": "NPC:935:9",
+    "365125": "NPC:936:9",
+    "365694": "NPC:939:9",
+    "36567C": "NPC:941:9",
+    "365688": "NPC:942:9",
+    "3656A0": "NPC:944:9",
+    "3656AC": "NPC:950:9",
+    "1679C0": "NPC:951:9",
+    "33D4F4": "NPC:952:9",
+    "258F10": "NPC:953:9",
+    "33DDB8": "NPC:954:9",
+    "33D991": "NPC:955:9",
+    "33D9AA": "NPC:956:9",
+    "33D9C3": "NPC:957:9",
+    "33D9DC": "NPC:958:9",
+    "33D9F5": "NPC:959:9",
+    "33DA0E": "NPC:960:9",
+    "33DA27": "NPC:962:9",
+    "33DA40": "NPC:963:9",
+    "33DA59": "NPC:965:9",
+    "33DA72": "NPC:966:9",
+    "33DA8B": "NPC:967:9",
+    "33DAA4": "NPC:968:9",
+    "33DABD": "NPC:969:9",
+    "348D59": "NPC:970:9",
+    "348F49": "NPC:971:9",
+    "34909F": "NPC:972:9",
+    "349043": "NPC:973:9",
+    "349661": "NPC:974:9",
+    "34A75E": "NPC:975:9",
+    "34AA0C": "NPC:976:9",
+    "34AAB7": "NPC:976:13",
+    "34B00A": "NPC:977:9",
+    "34B03D": "NPC:978:9",
+    "259290": "NPC:979:9;NPC:980:9;NPC:981:9",
+    "348130": "NPC:979:13;NPC:980:13;NPC:981:13",
+    "349875": "NPC:982:9",
+    "34A6EA": "NPC:983:9",
+    "349B90": "NPC:984:9",
+    "349BFC": "NPC:985:9",
+    "349CDD": "NPC:986:9",
+    "292C80": "NPC:987:9",
+    "3655B6": "NPC:989:9",
+    "3655C8": "NPC:990:9",
+    "3655DA": "NPC:991:9",
+    "349740": "NPC:992:9",
+    "34978E": "NPC:993:9",
+    "3497C1": "NPC:994:9",
+    "3498EA": "NPC:995:9",
+    "349B5C": "NPC:996:9",
+    "34A410": "NPC:997:9",
+    "349FE1": "NPC:998:9",
+    "34970C": "NPC:999:9",
+    "3495F9": "NPC:1000:9",
+    "349592": "NPC:1001:9",
+    "34B490": "NPC:1002:9",
+    "34907A": "NPC:1003:9",
+    "33DBF6": "NPC:1005:9",
+    "36561C": "NPC:1008:9",
+    "347B21": "NPC:1013:9;NPC:1016:9;NPC:1017:9;NPC:1018:9;NPC:1019:9;NPC:1021:9",
+    "33E9B0": "NPC:1022:9",
+    "347BE5": "NPC:1024:9;NPC:1025:9;NPC:1026:9;NPC:1027:9;NPC:1028:9;NPC:1029:9;NPC:1030:9",
+    "2288D0": "NPC:1081:9",
+    "363CAA": "NPC:1082:9",
+    "369F60": "NPC:1150:9",
+    "263B90": "NPC:1157:9",
+    "34B0A9": "NPC:1313:9",
+    "34B0B0": "NPC:1314:9",
+    "34B0B7": "NPC:1315:9",
+    "34B0BE": "NPC:1316:9",
+    "34B0C5": "NPC:1317:9",
+    "34B312": "NPC:1347:9",
+    "34B360": "NPC:1348:9",
+    "34B3AB": "NPC:1349:9",
+    "34B3F8": "NPC:1350:9",
+    "34B442": "NPC:1351:9",
+    "3559FD": "NPC:1408:9",
+    "36AD04": "NPC:1421:9",
+    "33DD7F": "NPC:1514:9",
+    "077EFF": "ACTION:368211;ACTION:36827D;ACTION:368AED;ACTION:368D45;ACTION:368D51;ACTION:368D8D;ACTION:368D99;ACTION:368ED1;ACTION:368F01;ACTION:368F0D;ACTION:368F19",
+    "251820": "ACTION:36821D",
+    "077DF0": "ACTION:368229",
+    "077EB6": "ACTION:368235",
+    "3FF920": "ACTION:368241;ACTION:3691C5;ACTION:369399",
+    "3FF960": "ACTION:36824D;ACTION:3693E1",
+    "2F8530": "ACTION:368259",
+    "25A7BC": "ACTION:368265",
+    "25A7A0": "ACTION:368271",
+    "2F8543": "ACTION:368289;ACTION:368295;ACTION:3682A1;ACTION:3682AD;ACTION:3682B9;ACTION:3682C5;ACTION:3682D1;ACTION:3682DD;ACTION:3682E9;ACTION:3682F5;ACTION:368301;ACTION:36830D;ACTION:368319;ACTION:368325;ACTION:368331;ACTION:36833D;ACTION:368349;ACTION:368355;ACTION:368361;ACTION:36836D;ACTION:368379;ACTION:368385;ACTION:368391;ACTION:36839D;ACTION:3683A9;ACTION:3683B5;ACTION:3683C1;ACTION:3683CD;ACTION:3683D9;ACTION:3683E5;ACTION:3683F1;ACTION:3683FD;ACTION:368409;ACTION:368415;ACTION:368421;ACTION:36842D;ACTION:368439;ACTION:368445;ACTION:368451;ACTION:36845D;ACTION:368469;ACTION:368475;ACTION:368481;ACTION:36848D;ACTION:368499;ACTION:3684A5;ACTION:3684B1;ACTION:3684BD;ACTION:3684C9;ACTION:3684D5;ACTION:3684E1;ACTION:3684ED;ACTION:3690F9;ACTION:369105;ACTION:369111;ACTION:36911D;ACTION:369129;ACTION:369135;ACTION:369141;ACTION:36914D;ACTION:369159;ACTION:369165;ACTION:369171;ACTION:369231;ACTION:36923D;ACTION:369249;ACTION:369279;ACTION:369285;ACTION:369291;ACTION:36929D;ACTION:3692A9;ACTION:3692B5;ACTION:3692C1;ACTION:3692CD;ACTION:3692D9;ACTION:3692E5;ACTION:3692F1;ACTION:369345;ACTION:369351;ACTION:369369;ACTION:3694E9;ACTION:3694F5",
+    "32A2F4": "ACTION:3684F9",
+    "25EB28": "ACTION:368505",
+    "32B368": "ACTION:368511",
+    "25EB54": "ACTION:36851D",
+    "25EB7C": "ACTION:368529",
+    "25EBB8": "ACTION:368535",
+    "32C688": "ACTION:368541",
+    "25EBE0": "ACTION:36854D",
+    "25EC18": "ACTION:368559",
+    "32C704": "ACTION:368565",
+    "25EDA0": "ACTION:368571",
+    "25EDCC": "ACTION:36857D",
+    "32E1E8": "ACTION:368589",
+    "25EDF8": "ACTION:368595;ACTION:368D2D",
+    "25EE20": "ACTION:3685A1",
+    "25EE5C": "ACTION:3685AD",
+    "25EE94": "ACTION:3685B9",
+    "25EEC8": "ACTION:3685C5",
+    "2F9CF1": "ACTION:3685D1",
+    "2F9D14": "ACTION:3685DD",
+    "25EEF8": "ACTION:3685E9",
+    "25F0D0": "ACTION:3685F5",
+    "25F104": "ACTION:368601",
+    "25F13C": "ACTION:36860D",
+    "25F15C": "ACTION:368619",
+    "25F188": "ACTION:368625",
+    "32B390": "ACTION:368631",
+    "25F1B8": "ACTION:36863D",
+    "25F1E4": "ACTION:368649",
+    "25F3F0": "ACTION:368655",
+    "25F41C": "ACTION:368661",
+    "25F448": "ACTION:36866D",
+    "32A3D8": "ACTION:368679",
+    "252074": "ACTION:368685",
+    "2520E0": "ACTION:368691",
+    "252100": "ACTION:36869D;ACTION:3693A5",
+    "252130": "ACTION:3686A9",
+    "252580": "ACTION:3686B5",
+    "2525AC": "ACTION:3686C1",
+    "2525D8": "ACTION:3686CD",
+    "2528F0": "ACTION:3686D9",
+    "32D020": "ACTION:3686E5",
+    "252918": "ACTION:3686F1",
+    "25294C": "ACTION:3686FD",
+    "252980": "ACTION:368709",
+    "2529AC": "ACTION:368715",
+    "2529EC": "ACTION:368721",
+    "32A318": "ACTION:36872D;ACTION:3693BD",
+    "32A3F8": "ACTION:368739",
+    "258010": "ACTION:368745;ACTION:368D39",
+    "32E188": "ACTION:368751",
+    "32E1B8": "ACTION:36875D",
+    "258038": "ACTION:368769",
+    "258060": "ACTION:368775",
+    "32A338": "ACTION:368781",
+    "32D044": "ACTION:36878D",
+    "258088": "ACTION:368799",
+    "2580F0": "ACTION:3687A5",
+    "258118": "ACTION:3687B1",
+    "32D068": "ACTION:3687BD",
+    "32A2D0": "ACTION:3687C9",
+    "32A358": "ACTION:3687D5",
+    "32D08C": "ACTION:3687E1",
+    "32E4A0": "ACTION:3687ED",
+    "258148": "ACTION:3687F9",
+    "258168": "ACTION:368805",
+    "32A418": "ACTION:368811",
+    "32E4C0": "ACTION:36881D",
+    "32E9A8": "ACTION:368829",
+    "258190": "ACTION:368835",
+    "2581CC": "ACTION:368841",
+    "2581F4": "ACTION:36884D",
+    "259D60": "ACTION:368859",
+    "097B6B": "ACTION:368865;ACTION:368871;ACTION:36887D;ACTION:368889;ACTION:368895;ACTION:3688AD;ACTION:3688B9;ACTION:3688C5;ACTION:3688D1;ACTION:3688DD;ACTION:3688E9;ACTION:3688F5;ACTION:368901;ACTION:368949;ACTION:368955;ACTION:368DBD;ACTION:3693F9;ACTION:36950D;ACTION:369519",
+    "32E518": "ACTION:3688A1;ACTION:36890D;ACTION:368919;ACTION:368925;ACTION:368931;ACTION:36893D;ACTION:368961;ACTION:36896D;ACTION:368979;ACTION:368A99;ACTION:368AA5;ACTION:368AB1;ACTION:368ABD;ACTION:368DA5;ACTION:369189",
+    "32B340": "ACTION:368985",
+    "32CF68": "ACTION:368991",
+    "32B3E0": "ACTION:36899D",
+    "251BA0": "ACTION:3689A9;ACTION:3689D9",
+    "32E8D0": "ACTION:3689B5",
+    "252414": "ACTION:3689C1",
+    "25F7A0": "ACTION:3689CD",
+    "251C10": "ACTION:3689E5;ACTION:3689F1;ACTION:368A2D",
+    "32F070": "ACTION:3689FD",
+    "32F0B8": "ACTION:368A09",
+    "25C9A0": "ACTION:368A15",
+    "32E680": "ACTION:368A21",
+    "097EFA": "ACTION:368A39",
+    "32BF20": "ACTION:368A45",
+    "32CF40": "ACTION:368A51",
+    "097CCA": "ACTION:368A5D",
+    "32E8B0": "ACTION:368A69;ACTION:368A75;ACTION:368A81;ACTION:368A8D",
+    "32EE50": "ACTION:368AC9",
+    "2519A0": "ACTION:368AD5",
+    "097F72": "ACTION:368AE1",
+    "09F897": "ACTION:368AF9",
+    "09F9F3": "ACTION:368B05",
+    "251854": "ACTION:368B11",
+    "251890": "ACTION:368B1D",
+    "09FB9F": "ACTION:368B29",
+    "2519EC": "ACTION:368B35",
+    "251C90": "ACTION:368B41",
+    "2518BC": "ACTION:368B4D",
+    "251908": "ACTION:368B59",
+    "25C9D4": "ACTION:368B65",
+    "251934": "ACTION:368B71",
+    "259D88": "ACTION:368B7D",
+    "259DB0": "ACTION:368B89",
+    "25A640": "ACTION:368B95",
+    "25A670": "ACTION:368BA1",
+    "32CA94": "ACTION:368BAD",
+    "25A690": "ACTION:368BB9",
+    "25A6BC": "ACTION:368BC5",
+    "32E9D0": "ACTION:368BD1",
+    "25A6E4": "ACTION:368BDD",
+    "25A760": "ACTION:368BE9",
+    "25B460": "ACTION:368BF5",
+    "25B490": "ACTION:368C01",
+    "25B4B4": "ACTION:368C0D",
+    "32E158": "ACTION:368C19",
+    "25B4DC": "ACTION:368C25",
+    "32CFFC": "ACTION:368C31;ACTION:3693B1",
+    "25BE60": "ACTION:368C3D",
+    "25BE84": "ACTION:368C49",
+    "25BEA4": "ACTION:368C55",
+    "32CF90": "ACTION:368C61",
+    "25BEC8": "ACTION:368C6D",
+    "32A378": "ACTION:368C79",
+    "25BF60": "ACTION:368C85",
+    "32E97C": "ACTION:368C91",
+    "25BF84": "ACTION:368C9D",
+    "32A398": "ACTION:368CA9",
+    "25BFB0": "ACTION:368CB5",
+    "32C148": "ACTION:368CC1",
+    "25C060": "ACTION:368CCD",
+    "25C094": "ACTION:368CD9",
+    "32B3B8": "ACTION:368CE5",
+    "25C0C0": "ACTION:368CF1",
+    "25C0EC": "ACTION:368CFD",
+    "25C160": "ACTION:368D09",
+    "32B174": "ACTION:368D15",
+    "2F8CC7": "ACTION:368D21",
+    "32E394": "ACTION:368D5D",
+    "25C888": "ACTION:368D69",
+    "2F72F6": "ACTION:368D75",
+    "251FF0": "ACTION:368D81",
+    "25C860": "ACTION:368DB1",
+    "097C7B": "ACTION:368DC9",
+    "32C340": "ACTION:368DD5",
+    "32C9E0": "ACTION:368DE1",
+    "251CE4": "ACTION:368DED",
+    "251D04": "ACTION:368DF9",
+    "251CC0": "ACTION:368E05",
+    "2F720C": "ACTION:368E11",
+    "2F725A": "ACTION:368E1D",
+    "09FEFD": "ACTION:368E29",
+    "25F6C0": "ACTION:368E35",
+    "2F745F": "ACTION:368E41",
+    "32C6AC": "ACTION:368E4D",
+    "2F74B0": "ACTION:368E59",
+    "2F74C9": "ACTION:368E65",
+    "32E4FC": "ACTION:368E71",
+    "25201C": "ACTION:368E7D",
+    "2F7591": "ACTION:368E89",
+    "25204C": "ACTION:368E95",
+    "097F8A": "ACTION:368EA1;ACTION:368EAD",
+    "2FA0DC": "ACTION:368EB9",
+    "2FA2AB": "ACTION:368EC5",
+    "25CAB8": "ACTION:368EDD",
+    "25CB38": "ACTION:368EE9;ACTION:369021;ACTION:36902D",
+    "08FB1B": "ACTION:368EF5",
+    "32A7B8": "ACTION:368F25",
+    "2F84D4": "ACTION:368F31",
+    "06FB6D": "ACTION:368F3D",
+    "06FBB5": "ACTION:368F49",
+    "32B1D0": "ACTION:368F55",
+    "320860": "ACTION:368F61",
+    "320894": "ACTION:368F6D",
+    "32BF64": "ACTION:368F79",
+    "06FC94": "ACTION:368F85",
+    "06FDBE": "ACTION:368F91",
+    "06FED6": "ACTION:368F9D",
+    "25CA60": "ACTION:368FA9",
+    "09F0B8": "ACTION:368FB5",
+    "09F134": "ACTION:368FC1",
+    "09F196": "ACTION:368FCD",
+    "09F1FD": "ACTION:368FD9",
+    "09F25E": "ACTION:368FE5",
+    "09F2BC": "ACTION:368FF1",
+    "09F325": "ACTION:368FFD",
+    "09F389": "ACTION:369009",
+    "09F3EC": "ACTION:369015",
+    "25CAE0": "ACTION:369039;ACTION:369045;ACTION:369051",
+    "25EAC0": "ACTION:36905D;ACTION:369069;ACTION:369075",
+    "09EE2F": "ACTION:369081",
+    "2F8F91": "ACTION:36908D",
+    "32E8F0": "ACTION:369099;ACTION:3690A5",
+    "09EE68": "ACTION:3690B1",
+    "32B054": "ACTION:3690BD",
+    "25C184": "ACTION:3690C9",
+    "32A3B8": "ACTION:3690D5",
+    "32CFB4": "ACTION:3690E1",
+    "25C1B4": "ACTION:3690ED",
+    "32DD50": "ACTION:36917D",
+    "32DD0C": "ACTION:369195",
+    "32C510": "ACTION:3691A1",
+    "3676B7": "ACTION:3691AD",
+    "367700": "ACTION:3691B9",
+    "36A7F5": "ACTION:3691D1",
+    "32DD28": "ACTION:3691DD",
+    "32CB10": "ACTION:3691E9",
+    "32E874": "ACTION:3691F5",
+    "058000": "ACTION:369201",
+    "3890F3": "ACTION:36920D",
+    "32DFB4": "ACTION:369219",
+    "32E610": "ACTION:369225",
+    "3669FD": "ACTION:369255;ACTION:369261;ACTION:36926D",
+    "32DDF0": "ACTION:3692FD",
+    "32DE30": "ACTION:369309;ACTION:369441;ACTION:369459",
+    "367B9A": "ACTION:369315",
+    "32E950": "ACTION:369321",
+    "32DCA3": "ACTION:36932D",
+    "32DE94": "ACTION:369339",
+    "388970": "ACTION:36935D",
+    "32C664": "ACTION:369375",
+    "32C59C": "ACTION:369381",
+    "38D1B0": "ACTION:36938D",
+    "3737B5": "ACTION:3693C9",
+    "252470": "ACTION:3693D5",
+    "32DEC0": "ACTION:3693ED",
+    "293310": "ACTION:369405",
+    "32DEFC": "ACTION:369411",
+    "367C8A": "ACTION:36941D",
+    "32DF98": "ACTION:369429",
+    "36775C": "ACTION:369435",
+    "32DF30": "ACTION:36944D",
+    "32DE4C": "ACTION:369465",
+    "32E65C": "ACTION:369471",
+    "32DF6C": "ACTION:36947D",
+    "367ED8": "ACTION:369489",
+    "367EE2": "ACTION:369495",
+    "32DE70": "ACTION:3694A1",
+    "32E6AC": "ACTION:3694AD",
+    "32E6D8": "ACTION:3694B9",
+    "32E76C": "ACTION:3694C5",
+    "32E7B4": "ACTION:3694D1",
+    "32DCA0": "ACTION:3694DD",
+    "32E724": "ACTION:369501",
+    "32E7E0": "ACTION:369525",
+    "32E850": "ACTION:369531",
+    "3681E7": "ACTION:36953D",
+    "3876CE": "058000@058001",
+    "25A5EC": "077DF0@077DF1",
+    "32A60C": "077EB6@077EB7",
+    "097C30": "097B6B@097B76",
+    "097BC4": "097B6B@097B7F",
+    "25F4C4": "097B6B@097B87",
+    "25F490": "097C7B@097C7C",
+    "07E66E": "097CCA@097CE5",
+    "097F84": "097F72@097F7A",
+    "088000": "097F72@097F7F",
+    "09EE7F": "09EE2F@09EE34",
+    "09EE9F": "09EE2F@09EE38",
+    "09EEC7": "09EE2F@09EE3C",
+    "09EEDE": "09EE2F@09EE40",
+    "09EF00": "09EE2F@09EE44",
+    "09EFB9": "09EE2F@09EE48",
+    "09EFE1": "09EE2F@09EE4C",
+    "09EFF6": "09EE2F@09EE50",
+    "09F020": "09EE2F@09EE54",
+    "09F042": "09EE2F@09EE58",
+    "09F052": "09EE2F@09EE5C",
+    "09F074": "09EE2F@09EE60",
+    "09F090": "09EE2F@09EE64",
+    "09F970": "09F897@09F8E2",
+    "09F946": "09F897@09F8EC",
+    "09F936": "09F897@09F8F6",
+    "09F990": "09F897@09F914",
+    "09F995": "09F897@09F918",
+    "09F99E": "09F897@09F91C",
+    "09F9A4": "09F897@09F920",
+    "09F9AD": "09F897@09F924",
+    "09F9B2": "09F897@09F928",
+    "09F9BD": "09F897@09F92C",
+    "09F9C4": "09F897@09F930",
+    "09FAB9": "09F9F3@09F9F6",
+    "07C6F1": "09F9F3@09FA04",
+    "07DD8D": "09F9F3@09FA09",
+    "09FA74": "09F9F3@09FA0F",
+    "09FB43": "09F9F3@09FA5E",
+    "09FB4D": "09F9F3@09FA62",
+    "09FB57": "09F9F3@09FA66",
+    "25250C": "09FEFD@09FEFE",
+    "33D49A": "1679C0@1679C3",
+    "33D3EB": "1679C0@167AC0",
+    "167AC8": "1679C0@167AC4",
+    "34AA05": "167AE0@167AE3",
+    "32ED10": "167AE0@167B17",
+    "167B1F": "167AE0@167B1B",
+    "352583": "167CA0@167CA3",
+    "35240B": "167CA0@167CDE",
+    "167CE6": "167CA0@167CE2",
+    "167E2C": "167D90@167E24",
+    "167F34": "167E90@167E99",
+    "16F800": "167E90@167F2C",
+    "3612AF": "16F9A0@16F9A3",
+    "16FA00": "16F9A0@16F9F8",
+    "363C72": "16FA90@16FA93",
+    "363B6F": "16FA90@16FAC9",
+    "16FAD1": "16FA90@16FACD",
+    "16FB50": "16FB00@16FB2A",
+    "16FB32": "16FB00@16FB2E",
+    "07C588": "16FED0@16FED5",
+    "16FF0E": "16FED0@16FF02",
+    "33E9FD": "16FED0@16FF0A",
+    "378156": "2288D0@2288D3",
+    "360CFE": "24D250@24D253",
+    "32B5B4": "24D4A0@24D4F7",
+    "3543ED": "24D4A0@24D563",
+    "24D56B": "24D4A0@24D567",
+    "09FD5A": "251934@25193A",
+    "09FD60": "251934@251948",
+    "389242": "252470@252473",
+    "38926C": "252470@25249B",
+    "38931C": "252470@2524FE",
+    "33DE47": "259050@259053",
+    "3481CF": "259290@259293",
+    "3481E0": "259290@25929A",
+    "385B30": "25B680@25B681",
+    "348311": "25B680@25B686",
+    "339A85": "25B680@25B68D",
+    "339ACB": "25B7C0@25B7CD",
+    "25B865": "25B7C0@25B7D4",
+    "0935B1": "25C9D4@25C9FE",
+    "32B290": "25EB7C@25EB84",
+    "2F9F9F": "25F6C0@25F6C7",
+    "2F9FE2": "25F6C0@25F6CE",
+    "2FA002": "25F6C0@25F6D7",
+    "2FA07E": "25F6C0@25F6E0",
+    "2FA029": "25F6C0@25F6F2",
+    "2FA0B7": "25F6C0@25F72F",
+    "07DE60": "25F6C0@25F782",
+    "369E9E": "263B90@263B95",
+    "369F3B": "263B90@263BA6",
+    "0915F4": "263B90@263BCE",
+    "369D9B": "263B90@263BE1",
+    "38D12D": "263B90@263C11",
+    "33B786": "292680@292681",
+    "33C668": "292960@292963",
+    "292A80": "292960@29296D",
+    "2929EE": "292960@2929E6",
+    "258DC0": "292960@2929EA",
+    "34AD84": "292C80@292C8E",
+    "350072": "292E30@292E35",
+    "3500A5": "292E30@292E69",
+    "292E71": "292E30@292E6D",
+    "32E324": "2F720C@2F7212",
+    "32E327": "2F720C@2F721A",
+    "2F749D": "2F745F@2F7464",
+    "2F74E6": "2F745F@2F7470",
+    "2F74FA": "2F745F@2F7474",
+    "2F7514": "2F745F@2F7478",
+    "2F7530": "2F745F@2F747C",
+    "2F7548": "2F745F@2F7480",
+    "32A490": "2F84D4@2F84D5",
+    "32E57C": "2F8530@2F8531",
+    "32A5BC": "2F8543@2F8544",
+    "32E828": "2F9CF1@2F9CF2",
+    "2FA2B5": "2FA2AB@2FA2B0",
+    "3203B4": "320D10@320D3B",
+    "351350": "320D5C@320D5F",
+    "35135D": "320D5C@320D66",
+    "3512B2": "320D5C@320D76",
+    "360A1A": "329300@329326",
+    "16F920": "329300@32932B",
+    "32A780": "32A7B8@32A7BB",
+    "32CFD8": "32B054@32B081",
+    "32B7F6": "32B6F0@32B751",
+    "32C378": "32C340@32C345",
+    "32C39C": "32C340@32C349",
+    "32C3BC": "32C340@32C34D",
+    "320BB8": "32C9E0@32C9FF",
+    "320BCC": "32CA94@32CAA7",
+    "389220": "32CB10@32CB1A",
+    "32DD80": "32DD50@32DD55",
+    "3678D6": "32DD50@32DD7C",
+    "367C6C": "32DEFC@32DF01",
+    "367C83": "32DEFC@32DF2C",
+    "32DFF4": "32DFB4@32DFBE",
+    "367DDC": "32DFB4@32DFDB",
+    "367E32": "32DFB4@32DFF0",
+    "367E96": "32E610@32E619",
+    "32E798": "32E76C@32E771",
+    "320E90": "33B482@33B4EC",
+    "33B793": "33B7C0@33B7C7",
+    "320EA4": "33B970@33B9B2",
+    "33C7E7": "33C7D2@33C7D9",
+    "33D141": "33CEF4@33CEFF",
+    "33CF29": "33CEF4@33CF0A",
+    "33CF91": "33CEF4@33CF15",
+    "33CFFA": "33CEF4@33CF20",
+    "24D7D0": "33CEF4@33CF25",
+    "33D640": "33D594@33D597",
+    "33DBA3": "33D991@33D994",
+    "257BA0": "33D991@33D99D",
+    "33DB1C": "33D991@33D9A2",
+    "258F50": "33DBF6@33DBF9",
+    "251C2C": "33DD7F@33DD85",
+    "33DDB3": "33DD7F@33DD91",
+    "32F79C": "33EA2F@33EA32",
+    "251B80": "33EA2F@33EA42",
+    "32EEA0": "33EA2F@33EA47",
+    "33ED0B": "33ECDD@33ECE0",
+    "33ECEE": "33ECDD@33ECE5",
+    "33ED50": "33ED0C@33ED3D",
+    "33ED7E": "33ED0C@33ED6D",
+    "38A5C7": "33ED82@33ED85",
+    "33EEE6": "33EDA8@33EDAB",
+    "320EB8": "33EDA8@33EDF1",
+    "33F0CF": "33F063@33F066",
+    "32A728": "33F560@33F5BF",
+    "32A73C": "33F656@33F71E",
+    "33FBDD": "33FA7D@33FA80",
+    "33FBA1": "33FA7D@33FA87",
+    "3FF990": "33FA7D@33FAA8",
+    "257C78": "33FA7D@33FB52",
+    "07DCDA": "33FA7D@33FB6D",
+    "33FE00": "33FDF2@33FDF5",
+    "38D24E": "33FDF2@33FDFA",
+    "347987": "347960@34796B",
+    "347B41": "347B21@347B33",
+    "07D90D": "347BE5@347C02",
+    "07D894": "347BE5@347C12",
+    "347E37": "347C20@347C23",
+    "347DD6": "347C20@347C2A",
+    "347D66": "347C20@347C31",
+    "347CB3": "347C20@347C38",
+    "348145": "348130@348137",
+    "348332": "34831F@348324",
+    "348510": "34831F@348329",
+    "339A92": "3489B3@3489C0",
+    "339AAE": "348B1C@348B29",
+    "348D1A": "348C64@348C71",
+    "348CE4": "348C64@348C78",
+    "348EF7": "348D59@348D5C",
+    "348E72": "348D59@348DD3",
+    "348E31": "348D59@348E19",
+    "348EAE": "348D59@348E2D",
+    "35C5F5": "34907A@34909B",
+    "349343": "349148@34914F",
+    "32B4A8": "349148@349175",
+    "32B4BC": "3497C1@349813",
+    "34991E": "3498EA@3498EF",
+    "349B5A": "3498EA@34991A",
+    "257E80": "349BFC@349C3F",
+    "257ED0": "349BFC@349C58",
+    "257E83": "349BFC@349C5D",
+    "349D14": "349CDD@349CE2",
+    "32CDE0": "349FE1@349FE6",
+    "32C454": "34A410@34A450",
+    "34A676": "34A53B@34A542",
+    "32C468": "34A53B@34A5BA",
+    "32C47C": "34A75E@34A7B9",
+    "34AA65": "34AA0C@34AA0F",
+    "34AA91": "34AA0C@34AA16",
+    "34AAD1": "34AAB7@34AAC3",
+    "34B0C7": "34B0A9@34B0AC",
+    "348283": "34B0C5@34B0CA",
+    "3482E9": "34B0C5@34B0CF",
+    "2599C0": "34B0C5@34B0D5",
+    "329FD4": "34B490@34B4CA",
+    "32E5C8": "3511BB@3511D6",
+    "351340": "3512ED@3512F0",
+    "3513E9": "3513A7@3513AC",
+    "3513E0": "3513A7@3513D6",
+    "32E5DC": "351414@35148C",
+    "25E028": "351584@3515EE",
+    "3516EE": "351752@351755",
+    "351741": "351752@35175C",
+    "35174B": "351752@351763",
+    "3517B7": "35179D@3517AE",
+    "32EBCC": "35179D@3517B3",
+    "351879": "3517D7@3517DC",
+    "2528A4": "3517D7@35185B",
+    "351409": "351959@35195E",
+    "3519A3": "351959@351999",
+    "351A06": "3519AC@3519FC",
+    "351A35": "351A0F@351A2B",
+    "351AC4": "351A3E@351A42",
+    "351E70": "351D81@351D86",
+    "252B30": "351D81@351DC3",
+    "351F1D": "351ECE@351F13",
+    "351F89": "351F26@351F7F",
+    "387A38": "352046@3520FF",
+    "387A7A": "352046@35210B",
+    "352352": "3522DC@3522E1",
+    "35277D": "352728@35272B",
+    "352882": "352811@352816",
+    "167D30": "3528B6@3528B9",
+    "352AA1": "352A30@352A33",
+    "352AEE": "352A30@352A3A",
+    "352BA6": "352B96@352B99",
+    "352D39": "352BB4@352BB7",
+    "352D38": "352BB4@352D27",
+    "352D1F": "352BB4@352D34",
+    "252B58": "352F09@352F44",
+    "3FF9B0": "352FC3@352FE6",
+    "353055": "352FFB@353000",
+    "353284": "353237@35323C",
+    "353683": "35352C@35352F",
+    "35358E": "35352C@353545",
+    "252B6C": "35352C@353570",
+    "3537DC": "353758@35375D",
+    "252BB8": "35388D@3538BA",
+    "252BCC": "353A1F@353A84",
+    "25B3D0": "353C03@353C50",
+    "353FDE": "353F9C@353FA1",
+    "354032": "35405D@354062",
+    "167E50": "354097@35409C",
+    "354A54": "354A31@354A34",
+    "354BC7": "354BB3@354BB9",
+    "32D0E0": "354BB3@354BBE",
+    "354CFA": "354C47@354C4A",
+    "25F4F0": "354C47@354CDC",
+    "355163": "355100@355105",
+    "25A3A0": "355195@3551CE",
+    "355368": "355249@3552A9",
+    "35538E": "355249@355364",
+    "355558": "3554EC@3554EF",
+    "355939": "35591A@355921",
+    "24D5B0": "35591A@355935",
+    "3559C8": "355964@3559BF",
+    "355A09": "3559FD@355A01",
+    "35AA70": "35A925@35A96A",
+    "35A9C3": "35A925@35A997",
+    "35A9F2": "35A925@35A9BF",
+    "35C583": "35C53A@35C544",
+    "35C57C": "35C53A@35C577",
+    "35C5CC": "35C597@35C5C5",
+    "35C5D8": "35C597@35C5D3",
+    "31F410": "360000@360011",
+    "33AE2C": "360000@36002A",
+    "36078F": "36075D@360760",
+    "16F8F0": "360871@360874",
+    "360946": "360871@36087B",
+    "36090E": "360871@360882",
+    "360CEA": "360AE0@360AE3",
+    "25ADA0": "360C10@360C13",
+    "25ADDC": "360CC1@360CC4",
+    "360CDA": "360CC1@360CCB",
+    "360FB7": "360F7D@360F80",
+    "33D284": "361070@361073",
+    "361217": "361070@36107A",
+    "36115F": "361070@361081",
+    "361296": "361253@361256",
+    "36135E": "361327@36132A",
+    "36148E": "3613E0@3613E3",
+    "3615CB": "3614A3@3614A6",
+    "25FD90": "3614A3@3614D8",
+    "3616F8": "36165E@361664",
+    "32FCC0": "36165E@361676",
+    "36189E": "361833@36183A",
+    "3619E2": "3619E9@3619F3",
+    "361A00": "3619E9@3619F9",
+    "361A3E": "361A06@361A37",
+    "361A63": "361A44@361A49",
+    "361A60": "361A44@361A52",
+    "3479BF": "361A44@361A64",
+    "320B00": "361A68@361A69",
+    "363989": "363782@363785",
+    "36394F": "363935@363938",
+    "3637C9": "363935@363946",
+    "16FA20": "3639A5@3639A8",
+    "363D16": "363CAA@363CAD",
+    "364044": "364034@364039",
+    "24D2E0": "364034@364040",
+    "320AB8": "364801@36482E",
+    "320ACC": "3648CB@3648F5",
+    "364AA3": "3649DA@3649DD",
+    "328E10": "3649DA@364A3A",
+    "328E24": "364BB0@364C43",
+    "364E5C": "364E47@364E4E",
+    "37BA93": "365592@365596",
+    "37B994": "36559E@3655A2",
+    "32BC84": "3669FD@366A0C",
+    "32BCC8": "3669FD@366A10",
+    "32BD20": "3669FD@366A14",
+    "32BDBC": "3669FD@366A18",
+    "32BE58": "3669FD@366A1C",
+    "32C190": "3669FD@366A20",
+    "32C214": "3669FD@366A24",
+    "32C29C": "3669FD@366A28",
+    "32DC40": "367700@367701",
+    "3677C4": "367700@367711",
+    "32DC74": "36775C@367762",
+    "367963": "36792A@367959",
+    "32E640": "367ED8@367ED9",
+    "35FBA5": "367ED8@367EDE",
+    "35FBBB": "367EE2@367EE8",
+    "3697F0": "3697D9@3697E6",
+    "369826": "36980F@36981C",
+    "369947": "369845@369889",
+    "369BAF": "369A42@369A45",
+    "369B3A": "369A42@369AC1",
+    "25B038": "369A42@369B0E",
+    "328E38": "36A2F3@36A31D",
+    "36A84A": "36A7FE@36A83F",
+    "36A85E": "36A7FE@36A858",
+    "36A9DB": "36A96E@36A978",
+    "36ACA3": "36A96E@36A97F",
+    "36ABFC": "36A96E@36A984",
+    "36AB2B": "36A9EC@36A9F1",
+    "36AAED": "36A9EC@36A9F8",
+    "36AB32": "36A9EC@36AA03",
+    "36AA33": "36A9EC@36AA13",
+    "36AA90": "36A9EC@36AA2F",
+    "36ADA3": "36ACF9@36AD0C",
+    "38DF9C": "36ACF9@36AD29",
+    "36AD7C": "36ACF9@36AD77",
+    "36ADD6": "36ADB4@36ADB7",
+    "36ADF1": "36ADB4@36ADBE",
+    "36B2D2": "36B28A@36B28D",
+    "36B371": "36B35A@36B35D",
+    "36B52B": "36B493@36B519",
+    "36B532": "36B493@36B525",
+    "36B5F1": "36B582@36B585",
+    "36B714": "36B6F8@36B6FB",
+    "36B752": "36B715@36B728",
+    "36B7D5": "36B788@36B7C8",
+    "36B9D9": "36B788@36B7CC",
+    "36BACB": "36B788@36B7D1",
+    "388A6B": "388970@388976",
+    "388986": "388970@38897F",
+    "388996": "388970@388988",
+    "388AD1": "388970@38898D",
+    "251B00": "3890F3@3890F4",
+    "3FF940": "3FF920@3FF926",
+    "3876D5": "3876CE@3876D1",
+    "097C5F": "097C30@097C34",
+    "097C06": "097BC4@097BCC",
+    "35ECFA": "25F490@25F4B7",
+    "07E67F": "07E66E@07E673",
+    "07E682": "07E66E@07E677",
+    "07E685": "07E66E@07E67B",
+    "08807D": "097F84@097F85",
+    "08824A": "088000@088045",
+    "07DDE7": "07DD8D@07DD92",
+    "33D480": "33D3EB@33D3F5",
+    "34A998": "34AA05@34AA06",
+    "3203DC": "32ED10@32ED4D",
+    "3525AD": "35240B@35257F",
+    "3546A1": "16F800@16F8A9",
+    "16F8B1": "16F800@16F8AD",
+    "363C19": "363B6F@363BDD",
+    "16FB84": "16FB50@16FB7C",
+    "36452C": "16FB50@16FB80",
+    "06BEF9": "07C588@07C58B",
+    "33EA2E": "33E9FD@33EA02",
+    "3781AA": "378156@378159",
+    "360F1B": "360CFE@360D0E",
+    "320C60": "32B5B4@32B5B9",
+    "320C70": "32B5B4@32B5C2",
+    "354416": "3543ED@3543FE",
+    "35447F": "3543ED@354406",
+    "3543F7": "3543ED@354412",
+    "07C802": "09FD5A@09FD5B",
+    "34831E": "348311@348316",
+    "09992F": "07DE60@07DE6A",
+    "387AA2": "369E9E@369EA3",
+    "09162B": "0915F4@091600",
+    "091625": "0915F4@09160D",
+    "0915F6": "0915F4@091627",
+    "369E5E": "369D9B@369E32",
+    "38D15D": "38D12D@38D156",
+    "3502F1": "3500A5@350113",
+    "350170": "3500A5@350137",
+    "35015D": "3500A5@350142",
+    "350169": "3500A5@35014D",
+    "2F8568": "32A5BC@32A5C2",
+    "2F857E": "32A5BC@32A5DF",
+    "320D45": "3203B4@3203C1",
+    "16F973": "16F920@16F96B",
+    "32BFF0": "32A780@32A792",
+    "32A78A": "32A780@32A7B3",
+    "320BC9": "320BB8@320BBD",
+    "32F048": "320BB8@320BC1",
+    "32F050": "320BB8@320BC5",
+    "320BDD": "320BCC@320BD1",
+    "32F054": "320BCC@320BD5",
+    "32F058": "320BCC@320BD9",
+    "32DFDF": "32DFF4@32E026",
+    "33B4F6": "320E90@320E9D",
+    "33B9BC": "320EA4@320EB1",
+    "091A91": "33D640@33D66A",
+    "33D6B4": "33D640@33D670",
+    "364D93": "33D640@33D675",
+    "33D8DA": "33D640@33D67C",
+    "33D7A9": "33D640@33D68C",
+    "33D84C": "33D640@33D69C",
+    "33D8FC": "33D640@33D6AB",
+    "33DB62": "33DB1C@33DB43",
+    "257BE4": "33DB1C@33DB4C",
+    "251C44": "33DDB3@33DDB4",
+    "38A50F": "38A5C7@38A5C8",
+    "33EDFB": "320EB8@320EC5",
+    "32E430": "33F0CF@33F140",
+    "33F5C9": "32A728@32A735",
+    "33F728": "32A73C@32A749",
+    "33FC54": "33FBDD@33FBE0",
+    "320B30": "33FBDD@33FBE5",
+    "3FF9A2": "3FF990@3FF997",
+    "07DC85": "07DCDA@07DCDD",
+    "07DD03": "07DCDA@07DCE3",
+    "07D907": "347B41@347B80",
+    "07D92A": "347B41@347B85",
+    "07D8EE": "347B41@347B8D",
+    "07D947": "347B41@347B94",
+    "347BBF": "347B41@347B9D",
+    "07D8D9": "347B41@347BAA",
+    "07D958": "347B41@347BB3",
+    "07DA0C": "07D90D@07D917",
+    "07DA58": "07D90D@07D91E",
+    "07DA8F": "07D90D@07D925",
+    "07D8E6": "07D894@07D8B7",
+    "32B480": "347E37@347E91",
+    "348337": "348332@348333",
+    "292FA0": "348510@34856F",
+    "2594A8": "348510@348667",
+    "348EDB": "348E72@348EAA",
+    "257CF8": "348EAE@348EE0",
+    "35C697": "35C5F5@35C5FA",
+    "3FF580": "35C5F5@35C622",
+    "3FF5A0": "35C5F5@35C644",
+    "35C768": "35C5F5@35C6C3",
+    "35C6FC": "35C5F5@35C6D7",
+    "35C6BC": "35C5F5@35C6F8",
+    "3494F2": "349343@34934A",
+    "257D84": "349343@349355",
+    "3493F6": "349343@34939D",
+    "34951D": "349343@3493ED",
+    "3494B0": "349343@3493F2",
+    "34917F": "32B4A8@32B4B5",
+    "34981D": "32B4BC@32B4C9",
+    "349A31": "34991E@349923",
+    "32C040": "34991E@34997D",
+    "32C068": "349D14@349D7B",
+    "34A279": "32CDE0@32CDE7",
+    "3203C8": "32CDE0@32CE43",
+    "34A45A": "32C454@32C461",
+    "34A5C4": "32C468@32C475",
+    "34A7C3": "32C47C@32C489",
+    "34AB18": "34AAD1@34AB00",
+    "34AB58": "34AAD1@34AB14",
+    "3482C0": "348283@34828A",
+    "3482C1": "348283@348291",
+    "3482C9": "348283@34829B",
+    "3482D1": "348283@3482A5",
+    "3482D9": "348283@3482AF",
+    "3482E1": "348283@3482B9",
+    "348310": "3482E9@3482EE",
+    "34B16F": "2599C0@2599C3",
+    "34B221": "2599C0@259A38",
+    "34B4DC": "329FD4@329FE9",
+    "3511E0": "32E5C8@32E5D5",
+    "351496": "32E5DC@32E5E9",
+    "351604": "25E028@25E038",
+    "351725": "3516EE@35171C",
+    "351730": "3516EE@351721",
+    "25BDB0": "351879@35187A",
+    "351865": "2528A4@2528B1",
+    "38B551": "351AC4@351AF0",
+    "351B80": "351AC4@351B04",
+    "2528B8": "351AC4@351B62",
+    "351DCD": "252B30@252B3D",
+    "38D8B6": "387A38@387A49",
+    "387B84": "387A7A@387A7B",
+    "32A680": "352AA1@352ACC",
+    "352F4E": "252B58@252B65",
+    "3FF9C6": "3FF9B0@3FF9B7",
+    "259C6C": "353683@3536E1",
+    "35C4D2": "353683@353702",
+    "35357A": "252B6C@252B79",
+    "3538C4": "252BB8@252BC5",
+    "353A8E": "252BCC@252BD9",
+    "353C5A": "25B3D0@25B3DD",
+    "354125": "167E50@167E55",
+    "354AB9": "354A54@354A57",
+    "37A3AB": "32D0E0@32D0E3",
+    "25F504": "354CFA@354D59",
+    "354CE6": "25F4F0@25F4FD",
+    "3553A0": "35538E@355396",
+    "32C8D0": "355558@3555CC",
+    "3559FC": "3559C8@3559D4",
+    "3559F6": "3559C8@3559EA",
+    "3559CD": "3559C8@3559F8",
+    "355A14": "355A09@355A0E",
+    "355A2C": "355A09@355A23",
+    "355A3D": "355A09@355A33",
+    "355A78": "355A09@355A56",
+    "35C4E5": "35A9C3@35A9C4",
+    "35AA33": "35A9C3@35A9CB",
+    "35C5D9": "35A9C3@35AA5C",
+    "35D817": "35A9C3@35AA60",
+    "35CE5D": "35A9C3@35AA64",
+    "064A1C": "35A9C3@35AA68",
+    "35AA71": "35A9C3@35AA6C",
+    "31F41E": "31F410@31F413",
+    "31F600": "31F410@31F41A",
+    "3604AF": "31F410@31F421",
+    "360584": "31F410@31F428",
+    "360608": "31F410@31F42F",
+    "31F550": "31F410@31F548",
+    "33AE3A": "33AE2C@33AE2F",
+    "33AEAC": "33AE2C@33AE36",
+    "3607A4": "36078F@360794",
+    "36082B": "36078F@360798",
+    "32E2E8": "360946@36098A",
+    "360983": "36090E@360942",
+    "360F4C": "25ADA0@25ADD6",
+    "3614E2": "25FD90@25FD9D",
+    "36168F": "32FCC0@32FCDA",
+    "3479D9": "3479BF@3479CB",
+    "361A94": "320B00@320B29",
+    "3638E6": "3637C9@3638F4",
+    "07E74E": "3637C9@3638FB",
+    "363A55": "16FA20@16FA4D",
+    "16FA55": "16FA20@16FA51",
+    "32F360": "363D16@363D87",
+    "364838": "320AB8@320AC5",
+    "3648FF": "320ACC@320AD9",
+    "364A44": "328E10@328E1D",
+    "364C4D": "328E24@328E31",
+    "365805": "37BA93@37BA98",
+    "37BAA1": "37BA93@37BA9D",
+    "37B9BD": "37B994@37B9B0",
+    "37B9C7": "37B994@37B9B4",
+    "37B9D1": "37B994@37B9B9",
+    "3677DA": "3677C4@3677C9",
+    "3677DF": "3677C4@3677CD",
+    "3677E4": "3677C4@3677D1",
+    "38BA70": "367963@367967",
+    "369C88": "369BAF@369BB2",
+    "36A327": "328E38@328E45",
+    "36AB5D": "36AAED@36AAF0",
+    "387A5B": "36AA33@36AAD9",
+    "36ADB3": "36ADA3@36ADA6",
+    "38A52E": "36ADD6@36ADDD",
+    "36ADED": "36ADD6@36ADE6",
+    "36AF40": "36ADF1@36AEE2",
+    "36AFB8": "36ADF1@36AF16",
+    "36B403": "36B2D2@36B2D5",
+    "36B323": "36B2D2@36B2DC",
+    "36B3CA": "36B371@36B374",
+    "36B553": "36B52B@36B542",
+    "36B766": "36B752@36B758",
+    "05E431": "36B7D5@36B7D6",
+    "36B8C1": "36B7D5@36B7DC",
+    "36B91C": "36B7D5@36B7ED",
+    "05E456": "36B7D5@36B80F",
+    "36B8F3": "36B7D5@36B815",
+    "36B96F": "36B7D5@36B821",
+    "38B56C": "36B7D5@36B830",
+    "36B86C": "36B7D5@36B85F",
+    "36B944": "36B9D9@36B9DF",
+    "36B99B": "36B9D9@36B9E8",
+    "36BA13": "36B9D9@36BA09",
+    "36BAFC": "36BACB@36BAD8",
+    "3889B4": "388996@38899B",
+    "3889C4": "388996@3889B6",
+    "388B57": "388996@3889BB",
+    "389194": "251B00@251B09",
+    "389169": "251B00@251B11",
+    "3877FE": "3876D5@3877B9",
+    "387814": "3876D5@3877BD",
+    "38782A": "3876D5@3877C1",
+    "387840": "3876D5@3877C5",
+    "387856": "3876D5@3877C9",
+    "38786C": "3876D5@3877CD",
+    "387882": "3876D5@3877D1",
+    "387898": "3876D5@3877D5",
+    "3878AE": "3876D5@3877D9",
+    "3878C4": "3876D5@3877DD",
+    "3878DA": "3876D5@3877E1",
+    "3878F0": "3876D5@3877E5",
+    "387906": "3876D5@3877E9",
+    "38791C": "3876D5@3877ED",
+    "387932": "3876D5@3877F1",
+    "387948": "3876D5@3877F5",
+    "38795E": "3876D5@3877FA",
+    "35ED2E": "35ECFA@35ED09",
+    "35ED01": "35ECFA@35ED2A",
+    "32ED57": "3203DC@3203E9",
+    "252B44": "3525AD@3525E2",
+    "25B3E4": "3546A1@354732",
+    "32C4B0": "3781AA@3781E0",
+    "3544A7": "35447F@354487",
+    "3544B4": "35447F@35448B",
+    "3544BD": "35447F@354497",
+    "387AB2": "387AA2@387AA9",
+    "38D1AF": "38D15D@38D160",
+    "35032F": "3502F1@3502F6",
+    "35031C": "3502F1@350301",
+    "350328": "3502F1@35030C",
+    "3501DB": "350170@350175",
+    "350335": "350170@35017E",
+    "3501C8": "350170@3501AD",
+    "3501D4": "350170@3501B8",
+    "38186A": "2F8568@2F8569",
+    "381887": "2F857E@2F857F",
+    "33F442": "320D45@320D4C",
+    "33F4A1": "320D45@320D50",
+    "32C038": "32BFF0@32BFF6",
+    "32C01C": "32BFF0@32BFFE",
+    "32BFD0": "32BFF0@32C002",
+    "33B50A": "33B4F6@33B4FD",
+    "33B597": "33B4F6@33B501",
+    "292490": "33B9BC@33B9C3",
+    "33B9CB": "33B9BC@33B9C7",
+    "091ABB": "091A91@091A9C",
+    "091ABA": "091A91@091AA5",
+    "091A95": "091A91@091AB6",
+    "33D95A": "33D6B4@33D70B",
+    "33D925": "33D6B4@33D759",
+    "364DD0": "364D93@364D9A",
+    "364DF9": "364D93@364DA0",
+    "364E00": "364D93@364DA4",
+    "364E07": "364D93@364DA8",
+    "364E0E": "364D93@364DAC",
+    "364E15": "364D93@364DB5",
+    "33EE0F": "33EDFB@33EE02",
+    "33EEAD": "33EDFB@33EE06",
+    "33F155": "32E430@32E44A",
+    "33F5DD": "33F5C9@33F5D0",
+    "33F621": "33F5C9@33F5D4",
+    "33F73C": "33F728@33F72F",
+    "33F9B0": "33F728@33F733",
+    "33FC0E": "320B30@320B56",
+    "07DC97": "07DC85@07DC8C",
+    "07D9CF": "07D907@07D908",
+    "07D9FC": "07D92A@07D92D",
+    "07DA23": "07D92A@07D934",
+    "07DA68": "07D92A@07D93B",
+    "07DAA1": "07D92A@07D942",
+    "07D9AE": "07D8EE@07D8FF",
+    "32B500": "07D947@07D948",
+    "320A00": "347BBF@347BC0",
+    "07D967": "07D8D9@07D8DA",
+    "347E9B": "32B480@32B48D",
+    "3484C6": "348337@348342",
+    "25B560": "348337@348350",
+    "385B41": "292FA0@293243",
+    "3488E3": "292FA0@293309",
+    "348699": "2594A8@2594D9",
+    "3FF58F": "3FF580@3FF587",
+    "3FF5B8": "3FF5A0@3FF5A5",
+    "35C7C8": "35C768@35C7A9",
+    "35C7B1": "35C768@35C7AD",
+    "35C960": "35C768@35C7BF",
+    "251E10": "35C6FC@35C71E",
+    "34951B": "257D84@257DC9",
+    "34944A": "3493F6@349403",
+    "349539": "34951D@349526",
+    "349591": "34951D@349535",
+    "257DC8": "3494B0@3494B1",
+    "257D34": "34917F@349186",
+    "3492F9": "34917F@34918A",
+    "349831": "34981D@349824",
+    "349859": "34981D@349828",
+    "32C054": "349A31@349AA2",
+    "349987": "32C040@32C04D",
+    "349D85": "32C068@32C075",
+    "34A344": "34A279@34A27E",
+    "32C440": "34A279@34A2A8",
+    "32CE4D": "3203C8@3203D5",
+    "25C210": "34A45A@34A461",
+    "34A4F7": "34A45A@34A465",
+    "34A5D8": "34A5C4@34A5CB",
+    "34A620": "34A5C4@34A5CF",
+    "34A7D7": "34A7C3@34A7CA",
+    "292BE0": "34A7C3@34A7CE",
+    "32E2AC": "34AB58@34AB95",
+    "348298": "3482C1@3482C5",
+    "3482A2": "3482C9@3482CD",
+    "3482AC": "3482D1@3482D5",
+    "3482B6": "3482D9@3482DD",
+    "387BC1": "34B16F@34B224",
+    "34B280": "34B16F@34B231",
+    "34B286": "34B16F@34B23E",
+    "34B2A2": "34B16F@34B242",
+    "34B2BE": "34B16F@34B246",
+    "34B2DA": "34B16F@34B24A",
+    "34B2F6": "34B16F@34B24E",
+    "34B517": "34B4DC@34B4E3",
+    "259ABC": "34B4DC@34B4E7",
+    "34B81C": "34B4DC@34B4EC",
+    "3511F4": "3511E0@3511E7",
+    "3512B1": "3511E0@3511EB",
+    "3514AA": "351496@35149D",
+    "351571": "351496@3514A1",
+    "252890": "351604@35162F",
+    "35173B": "351725@35172C",
+    "351891": "25BDB0@25BDCA",
+    "351893": "351865@351870",
+    "38B52B": "38B551@38B557",
+    "38B52E": "38B551@38B55B",
+    "38B532": "38B551@38B55F",
+    "38B538": "38B551@38B563",
+    "38B53D": "38B551@38B567",
+    "2528CC": "351B80@351BA8",
+    "351B6C": "2528B8@2528C5",
+    "351DE1": "351DCD@351DD4",
+    "351E4D": "351DCD@351DD8",
+    "068650": "38D8B6@38D8BB",
+    "38D901": "38D8B6@38D8EE",
+    "38D920": "38D8B6@38D8F8",
+    "387BC0": "387B84@387B8D",
+    "387BBA": "387B84@387B9D",
+    "387B86": "387B84@387BBC",
+    "352ADA": "32A680@32A694",
+    "352F62": "352F4E@352F55",
+    "352F5D": "352F4E@352F59",
+    "38D260": "352F4E@352F5E",
+    "3535F5": "35357A@353581",
+    "3535CB": "35357A@353585",
+    "3538D8": "3538C4@3538CB",
+    "3538D3": "3538C4@3538CF",
+    "353AA2": "353A8E@353A95",
+    "353ACF": "353A8E@353A99",
+    "353C6E": "353C5A@353C61",
+    "353C89": "353C5A@353C65",
+    "25B40C": "354AB9@354B35",
+    "07DA33": "37A3AB@37A3D7",
+    "354D63": "25F504@25F511",
+    "354D77": "354CE6@354CED",
+    "354E4B": "354CE6@354CF1",
+    "3555E2": "32C8D0@32C8EB",
+    "35C522": "35C4E5@35C4E8",
+    "35C526": "35C4E5@35C4F2",
+    "35C52A": "35C4E5@35C4FC",
+    "35C52E": "35C4E5@35C506",
+    "35C532": "35C4E5@35C510",
+    "35C536": "35C4E5@35C51A",
+    "3FF550": "35C5D9@35C5E3",
+    "35C97C": "35C5D9@35C5F1",
+    "263690": "35D817@35D820",
+    "35D974": "35D817@35D829",
+    "35DC4F": "35D817@35D834",
+    "35DB1A": "35D817@35D83F",
+    "35DDA6": "35D817@35D846",
+    "35D870": "35D817@35D84F",
+    "24D0C0": "35D817@35D857",
+    "35E044": "35D817@35D85F",
+    "35E172": "35D817@35D867",
+    "075929": "35CE5D@35CE60",
+    "25BAA0": "35CE5D@35CE67",
+    "063958": "35CE5D@35CE6E",
+    "064946": "35CE5D@35CE95",
+    "0649B7": "35CE5D@35CE9C",
+    "35CEAA": "35CE5D@35CEA1",
+    "06372D": "35CE5D@35CEA6",
+    "35E38A": "064A1C@064A1D",
+    "35C456": "35AA71@35AAE3",
+    "35E756": "35AA71@35AB19",
+    "35E761": "35AA71@35AB20",
+    "35E76C": "35AA71@35AB27",
+    "35E777": "35AA71@35AB2E",
+    "35E788": "35AA71@35AB35",
+    "35E799": "35AA71@35AB3C",
+    "35ABE7": "35AA71@35AB45",
+    "35ACB6": "35AA71@35AB4E",
+    "35ADF8": "35AA71@35AB57",
+    "35AE8C": "35AA71@35AB60",
+    "35AF54": "35AA71@35AB69",
+    "35B00E": "35AA71@35AB72",
+    "35ABC0": "35AA71@35AB79",
+    "35B48D": "35AA71@35AB90",
+    "35B636": "35AA71@35AB97",
+    "35B87B": "35AA71@35ABBC",
+    "35B8F7": "35AA71@35ABC5",
+    "35BABC": "35AA71@35ABCC",
+    "35BE5D": "35AA71@35ABD5",
+    "35C2B8": "35AA71@35ABDE",
+    "35C3A0": "35AA71@35ABE3",
+    "31F7C8": "31F600@31F7C0",
+    "360658": "31F600@31F87E",
+    "33AE0C": "3604AF@3604B6",
+    "361560": "3614E2@3614E9",
+    "3614F1": "3614E2@3614ED",
+    "320964": "3614E2@3614F2",
+    "25FDB8": "36168F@361691",
+    "3479FF": "3479D9@3479DE",
+    "25FDCC": "361A94@361AB6",
+    "07E6D7": "07E74E@07E751",
+    "363AD5": "363A55@363AA4",
+    "25AE84": "363A55@363AAD",
+    "25AEB0": "363A55@363ACC",
+    "363D9B": "32F360@32F37A",
+    "36484C": "364838@36483F",
+    "364893": "364838@364843",
+    "364913": "3648FF@364906",
+    "364974": "3648FF@36490A",
+    "364A58": "364A44@364A4B",
+    "364A88": "364A44@364A4F",
+    "364C61": "364C4D@364C54",
+    "364CD2": "364C4D@364C58",
+    "365158": "365805@365809",
+    "371F57": "365805@365810",
+    "372311": "365805@365817",
+    "372705": "365805@36581E",
+    "37FB6F": "365805@365825",
+    "3775B7": "365805@36583A",
+    "3864E2": "365805@365856",
+    "34EA4D": "365805@36585D",
+    "34EE83": "365805@365864",
+    "34F2E6": "365805@36586B",
+    "34F617": "365805@365872",
+    "34FA80": "365805@365879",
+    "36EC24": "365805@365880",
+    "36EFAE": "365805@365887",
+    "36F3FA": "365805@36588E",
+    "36F715": "365805@365895",
+    "382519": "365805@36589C",
+    "32E54C": "365805@3658A3",
+    "38386F": "365805@3658AA",
+    "389E97": "365805@3658B1",
+    "365A2D": "37BAA1@37BAA2",
+    "3656DC": "37BAA1@37BAA9",
+    "37BAFF": "37BAA1@37BAAF",
+    "37BB15": "37BAA1@37BABA",
+    "37BB9A": "37BAA1@37BAC1",
+    "37BAD1": "37BAA1@37BAC8",
+    "37BAE1": "37BAA1@37BACD",
+    "37B9E7": "37B9BD@37B9BE",
+    "37BA17": "37B9C7@37B9C8",
+    "37B9DE": "37B9D1@37B9D4",
+    "365975": "37B9D1@37B9D9",
+    "36A35C": "36A327@36A32E",
+    "36A336": "36A327@36A332",
+    "328E4C": "36A327@36A41B",
+    "36AAF4": "36AB5D@36AB60",
+    "36ABB9": "36AB5D@36ABA7",
+    "07DCCF": "36AB5D@36ABB0",
+    "36B245": "36AF40@36B240",
+    "36B458": "36B403@36B434",
+    "36B3D6": "36B3CA@36B3CD",
+    "05E453": "05E431@05E43A",
+    "05E455": "05E431@05E449",
+    "05E433": "05E431@05E44F",
+    "05E499": "05E456@05E45D",
+    "05E584": "05E456@05E463",
+    "05E58B": "05E456@05E467",
+    "05E592": "05E456@05E46B",
+    "05E599": "05E456@05E46F",
+    "05E48E": "05E456@05E478",
+    "36B7AE": "36B8F3@36B912",
+    "38B53E": "38B56C@38B572",
+    "38B541": "38B56C@38B576",
+    "38B545": "38B56C@38B57A",
+    "38B54B": "38B56C@38B57E",
+    "38B550": "38B56C@38B582",
+    "36BAB5": "36BA13@36BA1C",
+    "05E54A": "36BA13@36BA27",
+    "36BAC2": "36BA13@36BA2D",
+    "36BB0F": "36BAFC@36BB03",
+    "3889E2": "3889C4@3889C9",
+    "3889F2": "3889C4@3889E4",
+    "388B13": "3889C4@3889E9",
+    "387961": "3877FE@38780B",
+    "37E4AD": "387814@387821",
+    "38DC3E": "38782A@387837",
+    "37FFD3": "387840@38784D",
+    "3886E0": "387856@387863",
+    "39016B": "38786C@387879",
+    "388E75": "387882@38788F",
+    "3901B0": "387898@3878A5",
+    "3897EA": "3878AE@3878BB",
+    "35EDC1": "3878C4@3878D1",
+    "37DE51": "3878DA@3878E7",
+    "35AB40": "3878F0@3878FD",
+    "3834B1": "387906@387913",
+    "38A0DB": "38791C@387929",
+    "390CDA": "387932@38793F",
+    "390437": "387948@387955",
+    "35ED49": "35ED2E@35ED34",
+    "32F030": "35ED2E@35ED3C",
+    "32F03C": "35ED2E@35ED40",
+    "34A963": "32ED57@32ED5E",
+    "34A8D8": "32ED57@32ED62",
+    "3525EC": "252B44@252B51",
+    "35473C": "25B3E4@25B3F1",
+    "3781FF": "32C4B0@32C4CC",
+    "3544BC": "3544B4@3544B6",
+    "350246": "3501DB@3501E0",
+    "350379": "3501DB@3501E9",
+    "350233": "3501DB@350218",
+    "35023F": "3501DB@350223",
+    "350373": "350335@35033A",
+    "350360": "350335@350345",
+    "35036C": "350335@350350",
+    "32C00C": "32BFD0@32BFDB",
+    "33D98F": "33D95A@33D963",
+    "33D989": "33D95A@33D979",
+    "33D95C": "33D95A@33D98B",
+    "364DF8": "364DD0@364DF2",
+    "33EE2B": "33EE0F@33EE19",
+    "33EE30": "33EE0F@33EE27",
+    "251620": "33F155@33F156",
+    "33F7AD": "33F73C@33F746",
+    "33F8DB": "33F73C@33F798",
+    "33F85F": "33F73C@33F79F",
+    "24D930": "33F73C@33F7A4",
+    "32FCA0": "33FC0E@33FC32",
+    "07DA7C": "07D9CF@07D9E0",
+    "07DAB6": "07D9CF@07D9E7",
+    "32E910": "320A00@320A0B",
+    "347F47": "347E9B@347EA2",
+    "347EAA": "347E9B@347EA6",
+    "32B494": "347E9B@347F02",
+    "3484CE": "3484C6@3484C9",
+    "35C7D7": "35C7C8@35C7D0",
+    "35C875": "35C7C8@35C86D",
+    "35C8E9": "35C7C8@35C871",
+    "3FF5D0": "35C7C8@35C8A0",
+    "251E1C": "251E10@251E14",
+    "32A6D4": "257D34@257D64",
+    "349873": "349831@349855",
+    "349AAC": "32C054@32C061",
+    "257DD0": "349987@34998E",
+    "349A0A": "349987@349992",
+    "257F0C": "349D85@349D8C",
+    "349E8D": "349D85@349D90",
+    "34A2B2": "32C440@32C44D",
+    "34A0A7": "32CE4D@32CE54",
+    "34A238": "32CE4D@32CE58",
+    "34A4BD": "25C210@25C215",
+    "34A697": "34A5D8@34A617",
+    "34A671": "34A5D8@34A61C",
+    "34A890": "292BE0@292C21",
+    "387BD7": "387BC1@387BD2",
+    "387BE1": "387BC1@387BDC",
+    "387BEB": "387BC1@387BE6",
+    "387BF5": "387BC1@387BF0",
+    "387BFF": "387BC1@387BFA",
+    "387C09": "387BC1@387C04",
+    "387C13": "387BC1@387C0E",
+    "387C1D": "387BC1@387C18",
+    "387C27": "387BC1@387C22",
+    "387C31": "387BC1@387C2C",
+    "387C3B": "387BC1@387C36",
+    "387C45": "387BC1@387C40",
+    "387C4F": "387BC1@387C4A",
+    "259A3C": "34B517@34B51E",
+    "259A6C": "34B517@34B52F",
+    "34B635": "34B517@34B55C",
+    "34B6B5": "34B517@34B568",
+    "38B587": "34B517@34B577",
+    "34B5AE": "34B517@34B5AA",
+    "259A94": "259ABC@259AC2",
+    "32B020": "259ABC@259ACB",
+    "259AF0": "259ABC@259AEB",
+    "351548": "3514AA@3514B4",
+    "259B88": "3514AA@3514FF",
+    "351639": "252890@25289D",
+    "351BB2": "2528CC@2528D9",
+    "167B50": "351B6C@351B73",
+    "351CBA": "351B6C@351B77",
+    "38D93F": "38D901@38D91C",
+    "352AFE": "352ADA@352AE1",
+    "352B6C": "352ADA@352AE5",
+    "252B90": "3535F5@353629",
+    "354B3F": "25B40C@25B419",
+    "329330": "354D77@354DB3",
+    "32EE00": "3555E2@3555E3",
+    "3FF564": "3FF550@3FF557",
+    "25F52C": "35C97C@35C9B7",
+    "063DE3": "063958@063959",
+    "0645F2": "063958@06395E",
+    "32A00C": "064946@06496A",
+    "32A698": "0649B7@0649CF",
+    "07DC7F": "35CEAA@35CED0",
+    "0639C9": "35CEAA@35CED6",
+    "35D04B": "35CEAA@35CEDE",
+    "063BA1": "06372D@06372E",
+    "063761": "06372D@06374E",
+    "063790": "06372D@063752",
+    "063BC1": "06372D@063757",
+    "32EB50": "35E38A@35E3A8",
+    "32EA90": "35E38A@35E3B3",
+    "35E3C3": "35E38A@35E3BF",
+    "35E7AA": "35E756@35E75C",
+    "25A5C8": "35ABE7@35ACB2",
+    "35AD8D": "35ACB6@35AD5F",
+    "25A558": "35AF54@35AFAD",
+    "35B028": "35B00E@35B011",
+    "35B250": "35B00E@35B024",
+    "35B49B": "35B48D@35B492",
+    "35B588": "35B48D@35B497",
+    "35B64D": "35B636@35B63B",
+    "35B777": "35B636@35B644",
+    "35ABB7": "35B636@35B649",
+    "320900": "35B8F7@35B91B",
+    "35B99B": "35BABC@35BAC1",
+    "35ABD0": "35BABC@35BACA",
+    "35BD76": "35BABC@35BAD1",
+    "35BBF4": "35BABC@35BB27",
+    "35BD4B": "35BABC@35BBD7",
+    "35BBEC": "35BABC@35BBE0",
+    "35BBEF": "35BABC@35BBE8",
+    "35BE86": "35BE5D@35BE62",
+    "35BF31": "35BE5D@35BE6B",
+    "35BF96": "35BE5D@35BE74",
+    "35C142": "35BE5D@35BE7D",
+    "35C205": "35BE5D@35BE82",
+    "35C4B2": "35C3A0@35C452",
+    "361509": "320964@32097B",
+    "36169B": "25FDB8@25FDC5",
+    "251E00": "3479FF@347A1D",
+    "257CA4": "3479FF@347A49",
+    "347A8D": "3479FF@347A53",
+    "347AC5": "3479FF@347A84",
+    "361AC0": "25FDCC@25FDD9",
+    "07E70E": "07E6D7@07E6E9",
+    "07E6E1": "07E6D7@07E70A",
+    "25AFE0": "363AD5@363AD6",
+    "32BED0": "363D9B@363D9C",
+    "364E20": "364C61@364CC2",
+    "364D02": "364C61@364CCD",
+    "05BB76": "389E97@389E98",
+    "3651CC": "365A2D@365A31",
+    "371FA7": "365A2D@365A38",
+    "372380": "365A2D@365A3F",
+    "37275B": "365A2D@365A46",
+    "37FC30": "365A2D@365A4D",
+    "377605": "365A2D@365A62",
+    "386541": "365A2D@365A7E",
+    "25C280": "365A2D@365A85",
+    "34EF15": "365A2D@365A8C",
+    "34F33E": "365A2D@365A93",
+    "34F6A9": "365A2D@365A9A",
+    "34FAD0": "365A2D@365AA1",
+    "36EC6A": "365A2D@365AA8",
+    "36F02E": "365A2D@365AAF",
+    "36F44E": "365A2D@365AB6",
+    "36F795": "365A2D@365ABD",
+    "3825AD": "365A2D@365AC4",
+    "252C10": "365A2D@365ACB",
+    "3838E0": "365A2D@365AD2",
+    "389EA9": "365A2D@365AD9",
+    "365793": "3656DC@3656DF",
+    "3657A1": "3656DC@3656E6",
+    "3657A5": "3656DC@3656ED",
+    "3657A9": "3656DC@3656F4",
+    "3657AD": "3656DC@3656FB",
+    "3657B1": "3656DC@365702",
+    "3657B5": "3656DC@365709",
+    "3657B9": "3656DC@365710",
+    "3657BD": "3656DC@365717",
+    "3657C1": "3656DC@36571E",
+    "3657C5": "3656DC@365725",
+    "3657C9": "3656DC@36572C",
+    "3657CD": "3656DC@365733",
+    "3657D1": "3656DC@36573A",
+    "3657D5": "3656DC@365741",
+    "3657DD": "3656DC@365748",
+    "3657D9": "3656DC@36574F",
+    "3657E1": "3656DC@365756",
+    "3657E5": "3656DC@36575D",
+    "3657E9": "3656DC@365764",
+    "3657ED": "3656DC@36576B",
+    "3657F1": "3656DC@365772",
+    "3657F5": "3656DC@365779",
+    "3657F9": "3656DC@365780",
+    "3657FD": "3656DC@365787",
+    "365801": "3656DC@36578E",
+    "37BB0C": "37BAFF@37BB02",
+    "365FED": "37BB15@37BB16",
+    "05E24B": "37BB9A@37BB9B",
+    "37BD22": "37BB9A@37BBA1",
+    "365AE5": "37BB9A@37BBA8",
+    "37BBD8": "37BB9A@37BBCB",
+    "37BBE2": "37BB9A@37BBCF",
+    "37BBEC": "37BB9A@37BBD4",
+    "36643D": "37BAD1@37BAD2",
+    "3664F5": "37BAE1@37BAE2",
+    "07DD4F": "37BAE1@37BAE7",
+    "07DD5E": "37BAE1@37BAEC",
+    "37BA43": "37B9E7@37B9F5",
+    "37BA6B": "37B9E7@37BA00",
+    "37BA33": "37B9E7@37BA0E",
+    "37BA89": "37BA17@37BA1E",
+    "37BD3B": "37BA17@37BA23",
+    "3658BD": "37B9DE@37B9DF",
+    "36519E": "365975@365979",
+    "371F8C": "365975@365980",
+    "372347": "365975@365987",
+    "372737": "365975@36598E",
+    "37FC06": "365975@365995",
+    "3775EA": "365975@3659AA",
+    "386523": "365975@3659C6",
+    "34EAA2": "365975@3659CD",
+    "34EED7": "365975@3659D4",
+    "34F314": "365975@3659DB",
+    "34F67A": "365975@3659E2",
+    "34FABC": "365975@3659E9",
+    "36EC4F": "365975@3659F0",
+    "36F007": "365975@3659F7",
+    "25B254": "365975@3659FE",
+    "36F76E": "365975@365A05",
+    "32D750": "365975@365A0C",
+    "384396": "365975@365A13",
+    "3838CB": "365975@365A1A",
+    "389EA3": "365975@365A21",
+    "36A425": "328E4C@328E59",
+    "05E4C2": "05E499@05E4BB",
+    "35EC7C": "05E54A@05E54B",
+    "388A05": "3889F2@3889F7",
+    "388BB1": "3889F2@3889FC",
+    "37E614": "37E4AD@37E5B7",
+    "37E625": "37E4AD@37E5BB",
+    "37E636": "37E4AD@37E5BF",
+    "37E647": "37E4AD@37E5C3",
+    "37E658": "37E4AD@37E5C7",
+    "37E669": "37E4AD@37E5CB",
+    "37E67A": "37E4AD@37E5CF",
+    "37E68B": "37E4AD@37E5D3",
+    "37E69C": "37E4AD@37E5D7",
+    "37E6AD": "37E4AD@37E5DB",
+    "37E6BE": "37E4AD@37E5DF",
+    "37E6CF": "37E4AD@37E5E3",
+    "37E6E0": "37E4AD@37E5E7",
+    "37E6F1": "37E4AD@37E5EB",
+    "37E702": "37E4AD@37E5EF",
+    "37E713": "37E4AD@37E5F3",
+    "37E724": "37E4AD@37E5F7",
+    "37E735": "37E4AD@37E5FB",
+    "37E746": "37E4AD@37E5FF",
+    "37E757": "37E4AD@37E603",
+    "37E761": "37E4AD@37E607",
+    "37E76B": "37E4AD@37E60B",
+    "37E784": "37E4AD@37E610",
+    "38DC87": "38DC3E@38DC7A",
+    "38DCC4": "38DC3E@38DC7E",
+    "38DD41": "38DC3E@38DC83",
+    "387969": "37FFD3@37FFF0",
+    "3887E5": "3886E0@3887AC",
+    "388813": "3886E0@3887B0",
+    "38883C": "3886E0@3887B4",
+    "38885B": "3886E0@3887B8",
+    "388875": "3886E0@3887BC",
+    "38888F": "3886E0@3887C0",
+    "3888A9": "3886E0@3887C4",
+    "3888C3": "3886E0@3887C8",
+    "3888DD": "3886E0@3887CC",
+    "3888F7": "3886E0@3887D0",
+    "388911": "3886E0@3887D4",
+    "38892B": "3886E0@3887D8",
+    "38894A": "3886E0@3887DC",
+    "388969": "3886E0@3887E1",
+    "390191": "39016B@390172",
+    "3901A8": "39016B@39018D",
+    "388EB3": "388E75@388EA6",
+    "389022": "388E75@388EAA",
+    "38904D": "388E75@388EAF",
+    "389867": "3897EA@389852",
+    "3898A1": "3897EA@389856",
+    "3898E4": "3897EA@38985A",
+    "38995C": "3897EA@38985E",
+    "389966": "3897EA@389863",
+    "35EE03": "35EDC1@35EDF9",
+    "37DF0A": "37DE51@37DEE9",
+    "37DF41": "37DE51@37DEED",
+    "37E0C1": "37DE51@37DEF1",
+    "37E0EC": "37DE51@37DEF5",
+    "37E191": "37DE51@37DEF9",
+    "37E1D1": "37DE51@37DEFD",
+    "37E1F5": "37DE51@37DF01",
+    "37E218": "37DE51@37DF06",
+    "383509": "3834B1@3834F8",
+    "38352C": "3834B1@3834FC",
+    "383557": "3834B1@383500",
+    "38356A": "3834B1@383505",
+    "38A18D": "38A0DB@38A15C",
+    "38A19E": "38A0DB@38A160",
+    "38A1C2": "38A0DB@38A164",
+    "38A1D1": "38A0DB@38A168",
+    "38A1E0": "38A0DB@38A16C",
+    "38A1EF": "38A0DB@38A170",
+    "38A1FE": "38A0DB@38A174",
+    "38A20D": "38A0DB@38A178",
+    "38A21C": "38A0DB@38A17C",
+    "38A22B": "38A0DB@38A180",
+    "38A23A": "38A0DB@38A184",
+    "38A2E6": "38A0DB@38A189",
+    "365586": "390CDA@390CDE",
+    "390486": "390437@390455",
+    "257FA0": "34A963@34A981",
+    "352600": "3525EC@3525F3",
+    "3526E7": "3525EC@3525F7",
+    "354821": "35473C@354743",
+    "35474B": "35473C@354747",
+    "25B3F8": "35473C@3547CC",
+    "32C4D0": "3781FF@378202",
+    "35055D": "350246@350269",
+    "3503BD": "350246@35028B",
+    "350447": "350246@35029B",
+    "32CE64": "350246@3502AB",
+    "35099B": "350246@3502EC",
+    "3503B7": "350379@35037E",
+    "3503A4": "350379@350389",
+    "3503B0": "350379@350394",
+    "33F16A": "251620@251639",
+    "33F96F": "33F7AD@33F7AE",
+    "33FC4C": "32FCA0@32FCBA",
+    "252448": "32E910@32E914",
+    "259200": "347F47@347F4D",
+    "34804E": "347F47@347FC1",
+    "347F0C": "32B494@32B4A1",
+    "3484D6": "3484CE@3484D1",
+    "3FF5E4": "3FF5D0@3FF5D7",
+    "257D6E": "32A6D4@32A6E1",
+    "349AC0": "349AAC@349AB3",
+    "257E3C": "349AAC@349AB7",
+    "349A2C": "257DD0@257E36",
+    "258260": "257F0C@257F54",
+    "34A2C6": "34A2B2@34A2B9",
+    "34A30E": "34A2B2@34A2BD",
+    "34A0C6": "34A0A7@34A0AE",
+    "34A3A6": "34A0A7@34A0B7",
+    "32C07C": "34A0A7@34A172",
+    "34A274": "34A238@34A270",
+    "257F74": "34A697@34A69C",
+    "34A695": "34A671@34A672",
+    "34B4F0": "34B635@34B65A",
+    "32CC10": "34B5AE@34B5E5",
+    "34B7EC": "259AF0@259AF9",
+    "34B7F9": "259AF0@259B0A",
+    "258274": "259AF0@259B69",
+    "35164D": "351639@351640",
+    "3516C4": "351639@351644",
+    "167BD0": "351BB2@351BB9",
+    "259BB4": "167B50@167B55",
+    "351CCD": "167B50@167B6A",
+    "259C30": "352AFE@352B03",
+    "353633": "252B90@252B9D",
+    "354B53": "354B3F@354B46",
+    "354B94": "354B3F@354B4A",
+    "354DB7": "329330@329339",
+    "3555F8": "32EE00@32EE1A",
+    "35C9C1": "25F52C@25F539",
+    "063E5A": "063DE3@063DE6",
+    "064974": "32A00C@32A019",
+    "0649D9": "32A698@32A6A5",
+    "35D06E": "35D04B@35D050",
+    "35D0C2": "35D04B@35D054",
+    "35D137": "35D04B@35D058",
+    "35D1E2": "35D04B@35D05C",
+    "35D234": "35D04B@35D060",
+    "35D2F5": "35D04B@35D065",
+    "063BB7": "063BA1@063BA5",
+    "063786": "063761@06376E",
+    "063BEC": "063761@063773",
+    "06390C": "063790@063796",
+    "063CA8": "063790@06379B",
+    "063756": "063790@0637AE",
+    "0637E8": "063790@0637DB",
+    "063888": "063790@0637DF",
+    "063BE4": "063BC1@063BC4",
+    "063BDC": "063BC1@063BD1",
+    "064A92": "32EA90@32EAE1",
+    "25BDD0": "35E3C3@35E3C4",
+    "072398": "35E7AA@35E7AD",
+    "35EB58": "35E7AA@35E7BD",
+    "32B620": "35E7AA@35E7C2",
+    "32ED6C": "35E7AA@35E823",
+    "35E830": "35E7AA@35E827",
+    "35B03F": "35B028@35B02D",
+    "35B10B": "35B028@35B036",
+    "35B1DA": "35B028@35B03B",
+    "35B25E": "35B250@35B255",
+    "35B3A2": "35B250@35B25A",
+    "320934": "35B64D@35B737",
+    "35B954": "320900@32092D",
+    "35BA2B": "35B99B@35B99E",
+    "35BA7D": "35B99B@35BA22",
+    "259460": "35BBF4@35BC26",
+    "25DFF4": "35BF31@35BF5E",
+    "35C00E": "35BF96@35C005",
+    "25A880": "35C205@35C24D",
+    "25FDA4": "361509@36150B",
+    "3616AF": "36169B@3616A2",
+    "3616B9": "36169B@3616A6",
+    "251E0C": "251E00@251E04",
+    "361AD4": "361AC0@361AC7",
+    "361AFB": "361AC0@361ACB",
+    "07E729": "07E70E@07E714",
+    "07E72A": "07E70E@07E71C",
+    "07E735": "07E70E@07E720",
+    "363DB3": "32BED0@32BEEC",
+    "25B014": "364D02@364D57",
+    "05BBCE": "389EA9@389EAA",
+    "36530A": "365FED@365FF1",
+    "3720BE": "365FED@365FF8",
+    "37246C": "365FED@365FFF",
+    "372839": "365FED@366006",
+    "37FD4F": "365FED@36600D",
+    "37771C": "365FED@366022",
+    "386633": "365FED@36603E",
+    "34EBD7": "365FED@366045",
+    "25C340": "365FED@36604C",
+    "34F41C": "365FED@366053",
+    "34F7C5": "365FED@36605A",
+    "34FBA8": "365FED@366061",
+    "36ED81": "365FED@366068",
+    "32BB10": "365FED@36606F",
+    "36F52C": "365FED@366076",
+    "36F8C1": "365FED@36607D",
+    "3826B9": "365FED@366084",
+    "3844C5": "365FED@36608B",
+    "3839C6": "365FED@366092",
+    "389F47": "365FED@366099",
+    "365F35": "37BD22@37BD23",
+    "37BCD2": "37BD22@37BD28",
+    "3651E7": "365AE5@365AE9",
+    "371FCA": "365AE5@365AF0",
+    "372394": "365AE5@365AF7",
+    "37276A": "365AE5@365AFE",
+    "37FC46": "365AE5@365B05",
+    "377628": "365AE5@365B1A",
+    "386564": "365AE5@365B36",
+    "34EADE": "365AE5@365B3D",
+    "34EF29": "365AE5@365B44",
+    "34F34D": "365AE5@365B4B",
+    "34F6CC": "365AE5@365B52",
+    "34FADF": "365AE5@365B59",
+    "36EC8D": "365AE5@365B60",
+    "36F051": "365AE5@365B67",
+    "36F45D": "365AE5@365B6E",
+    "36F7B8": "365AE5@365B75",
+    "3825C4": "365AE5@365B7C",
+    "252C48": "365AE5@365B83",
+    "16FEB0": "365AE5@365B8A",
+    "389EAF": "365AE5@365B91",
+    "37BBF1": "37BBD8@37BBD9",
+    "37BFBA": "37BBE2@37BBE3",
+    "37BCF9": "37BBEC@37BBED",
+    "3653EB": "36643D@366441",
+    "3721BF": "36643D@366448",
+    "372583": "36643D@36644F",
+    "3728F1": "36643D@366456",
+    "37FE46": "36643D@36645D",
+    "37781D": "36643D@366472",
+    "386703": "36643D@36648E",
+    "34ECCF": "36643D@366495",
+    "34F148": "36643D@36649C",
+    "34F4E8": "36643D@3664A3",
+    "34F8CC": "36643D@3664AA",
+    "34FC83": "36643D@3664B1",
+    "36EE5C": "36643D@3664B8",
+    "36F25E": "36643D@3664BF",
+    "36F5E4": "36643D@3664C6",
+    "36F9C5": "36643D@3664CD",
+    "3827CB": "36643D@3664D4",
+    "3845B2": "36643D@3664DB",
+    "383ACC": "36643D@3664E2",
+    "38A000": "36643D@3664E9",
+    "365442": "3664F5@3664F9",
+    "372215": "3664F5@366500",
+    "3725D7": "3664F5@366507",
+    "372942": "3664F5@36650E",
+    "37FE95": "3664F5@366515",
+    "377873": "3664F5@36652A",
+    "386751": "3664F5@366546",
+    "34ED2A": "3664F5@36654D",
+    "34F1A3": "3664F5@366554",
+    "34F539": "3664F5@36655B",
+    "34F927": "3664F5@366562",
+    "34FCD7": "3664F5@366569",
+    "36EEB2": "3664F5@366570",
+    "36F2B8": "3664F5@366577",
+    "36F635": "3664F5@36657E",
+    "36FA1F": "3664F5@366585",
+    "382819": "3664F5@36658C",
+    "38460A": "3664F5@366593",
+    "383B22": "3664F5@36659A",
+    "38A00C": "3664F5@3665A1",
+    "32A6AC": "07DD4F@07DD50",
+    "07DD68": "07DD5E@07DD63",
+    "37BA61": "37BA43@37BA54",
+    "3662CD": "37BA89@37BA8A",
+    "3660A5": "37BD3B@37BD3C",
+    "37BED3": "37BD3B@37BD41",
+    "37BFB9": "37BD3B@37BD47",
+    "37BD91": "37BD3B@37BD56",
+    "36615D": "37BD3B@37BD5B",
+    "37BD78": "37BD3B@37BD6B",
+    "37BD87": "37BD3B@37BD6F",
+    "365171": "3658BD@3658C1",
+    "371F7F": "3658BD@3658C8",
+    "372337": "3658BD@3658CF",
+    "372729": "3658BD@3658D6",
+    "37FBE2": "3658BD@3658DD",
+    "3775DD": "3658BD@3658F2",
+    "386519": "3658BD@36590E",
+    "34EA72": "3658BD@365915",
+    "34EEA7": "3658BD@36591C",
+    "34F306": "3658BD@365923",
+    "34F64A": "3658BD@36592A",
+    "34FAAE": "3658BD@365931",
+    "36EC42": "3658BD@365938",
+    "36EFD4": "3658BD@36593F",
+    "36F41C": "3658BD@365946",
+    "36F73B": "3658BD@36594D",
+    "382550": "3658BD@365954",
+    "384384": "3658BD@36595B",
+    "3838B8": "3658BD@365962",
+    "389E9D": "3658BD@365969",
+    "25A8F0": "34F314@34F32D",
+    "05BBB2": "389EA3@389EA4",
+    "36A477": "36A425@36A42C",
+    "36A434": "36A425@36A430",
+    "36A4E7": "36A425@36A473",
+    "05E5A0": "35EC7C@35EC7E",
+    "05E5A7": "35EC7C@35EC82",
+    "05E5AE": "35EC7C@35EC86",
+    "05E5B5": "35EC7C@35EC8A",
+    "05E579": "35EC7C@35EC93",
+    "388A9A": "388A05@388A08",
+    "09B11E": "388A05@388A64",
+    "37E78B": "37E757@37E758",
+    "37E96E": "37E761@37E762",
+    "38A0C2": "37E76B@37E76C",
+    "38DD48": "38DC87@38DC88",
+    "388FA3": "388EB3@388F62",
+    "388FAB": "388EB3@388F66",
+    "388FB3": "388EB3@388F6A",
+    "388FBB": "388EB3@388F6E",
+    "388FC3": "388EB3@388F72",
+    "388FCB": "388EB3@388F76",
+    "388FD3": "388EB3@388F7A",
+    "388FDB": "388EB3@388F7E",
+    "388FE3": "388EB3@388F82",
+    "388FEB": "388EB3@388F86",
+    "388FF3": "388EB3@388F8A",
+    "388FFB": "388EB3@388F8E",
+    "389003": "388EB3@388F92",
+    "38900B": "388EB3@388F96",
+    "389013": "388EB3@388F9A",
+    "38901B": "388EB3@388F9F",
+    "3890A2": "389022@389027",
+    "38905B": "389022@389044",
+    "38996D": "389867@389868",
+    "3899FF": "389867@389898",
+    "389978": "3898E4@389918",
+    "3899BF": "38995C@38995D",
+    "37E037": "37DF41@37DFFA",
+    "37E040": "37DF41@37DFFE",
+    "37E049": "37DF41@37E002",
+    "37E052": "37DF41@37E006",
+    "37E05B": "37DF41@37E00A",
+    "37E064": "37DF41@37E00E",
+    "37E06D": "37DF41@37E012",
+    "37E076": "37DF41@37E016",
+    "37E07F": "37DF41@37E01A",
+    "37E088": "37DF41@37E01E",
+    "37E091": "37DF41@37E022",
+    "37E09A": "37DF41@37E026",
+    "37E0A3": "37DF41@37E02A",
+    "37E0AC": "37DF41@37E02E",
+    "37E0B5": "37DF41@37E033",
+    "37E2C5": "37E0C1@37E0DE",
+    "37E13E": "37E0EC@37E131",
+    "37E17B": "37E0EC@37E135",
+    "37E187": "37E0EC@37E13A",
+    "37E381": "37E191@37E1C8",
+    "37E2D8": "37E1D1@37E1EC",
+    "37E3A4": "37E1F5@37E1F6",
+    "383571": "383509@383523",
+    "3835CD": "38352C@38354E",
+    "3835E3": "383557@383561",
+    "38A24B": "38A23A@38A23F",
+    "38A24E": "38A23A@38A247",
+    "352648": "352600@35263F",
+    "352693": "352600@352644",
+    "3547D6": "25B3F8@25B405",
+    "378212": "32C4D0@32C4EC",
+    "350655": "35055D@3505F7",
+    "25DFC0": "3503BD@3503F1",
+    "2588B0": "350447@35047B",
+    "3509DF": "35099B@3509CA",
+    "350A2C": "35099B@3509DB",
+    "32BEB0": "33F16A@33F16B",
+    "387B19": "33FC4C@33FC4D",
+    "347F20": "347F0C@347F13",
+    "347C3C": "347F0C@347F17",
+    "3484DE": "3484D6@3484D9",
+    "3491E6": "257D6E@257D75",
+    "3492A2": "257D6E@257D79",
+    "257F5E": "258260@25826D",
+    "3879F4": "34A2C6@34A2C7",
+    "387A26": "34A2C6@34A2CF",
+    "34A17C": "32C07C@32C089",
+    "34A3A4": "34A274@34A275",
+    "329FF0": "34B4F0@34B4F1",
+    "34B5EF": "32CC10@32CC1D",
+    "259B73": "258274@258281",
+    "3516AA": "35164D@351657",
+    "353647": "353633@35363A",
+    "25F518": "354DB7@354DC8",
+    "251640": "3555F8@3555F9",
+    "35C9D5": "35C9C1@35C9C8",
+    "35CB36": "35C9C1@35C9CC",
+    "064996": "064974@06497B",
+    "064983": "064974@06497F",
+    "0649FB": "0649D9@0649E0",
+    "0649E8": "0649D9@0649E4",
+    "063C59": "063786@063787",
+    "063C2A": "063BEC@063BEF",
+    "063D54": "06390C@06390D",
+    "063CEA": "063CA8@063CAB",
+    "063916": "0637E8@0637EE",
+    "063848": "0637E8@06383B",
+    "0638D4": "063888@0638B8",
+    "0638F8": "063888@0638EB",
+    "06393E": "063888@0638EF",
+    "35E423": "064A92@064A93",
+    "35E3E2": "25BDD0@25BDE9",
+    "35EAA7": "32ED6C@32ED74",
+    "25A5A0": "35B10B@35B13A",
+    "35B770": "320934@320960",
+    "35BC72": "259460@2594A3",
+    "35BF8F": "25DFF4@25E022",
+    "259E80": "35C00E@35C065",
+    "35C28F": "25A880@25A8B8",
+    "361515": "25FDA4@25FDB1",
+    "3616F3": "3616AF@3616B5",
+    "320A90": "361AFB@361B37",
+    "07E748": "07E735@07E73E",
+    "2517A0": "363DB3@363DB4",
+    "05BC0D": "389F47@389F48",
+    "3652E8": "365F35@365F39",
+    "3720A4": "365F35@365F40",
+    "372452": "365F35@365F47",
+    "37280F": "365F35@365F4E",
+    "37FD29": "365F35@365F55",
+    "377702": "365F35@365F6A",
+    "38661C": "365F35@365F86",
+    "34EBBD": "365F35@365F8D",
+    "34F004": "365F35@365F94",
+    "34F3F2": "365F35@365F9B",
+    "34F7AB": "365F35@365FA2",
+    "34FB7D": "365F35@365FA9",
+    "36ED67": "365F35@365FB0",
+    "36F134": "365F35@365FB7",
+    "36F502": "365F35@365FBE",
+    "36F89B": "365F35@365FC5",
+    "38269F": "365F35@365FCC",
+    "32D7D0": "365F35@365FD3",
+    "3839B0": "365F35@365FDA",
+    "389F41": "365F35@365FE1",
+    "05BBDC": "389EAF@389EB0",
+    "37BC04": "37BBF1@37BBF8",
+    "37BC1B": "37BBF1@37BC00",
+    "37BFD8": "37BFBA@37BFC9",
+    "366945": "37BFBA@37BFCE",
+    "365E7D": "37BCF9@37BCFA",
+    "05BC23": "38A000@38A001",
+    "05BC3C": "38A00C@38A00D",
+    "07DD5A": "32A6AC@32A6B9",
+    "3665AD": "37BA61@37BA62",
+    "37B99C": "37BA61@37BA67",
+    "3653A0": "3662CD@3662D1",
+    "372160": "3662CD@3662D8",
+    "372535": "3662CD@3662DF",
+    "3728A5": "3662CD@3662E6",
+    "228A70": "3662CD@3662ED",
+    "228890": "3662CD@366302",
+    "3866C7": "3662CD@36631E",
+    "34EC70": "3662CD@366325",
+    "34F0FA": "3662CD@36632C",
+    "25C400": "3662CD@366333",
+    "34F87F": "3662CD@36633A",
+    "25C460": "3662CD@366341",
+    "36EDFD": "3662CD@366348",
+    "36F210": "3662CD@36634F",
+    "36F598": "3662CD@366356",
+    "36F977": "3662CD@36635D",
+    "38276C": "3662CD@366364",
+    "384561": "3662CD@36636B",
+    "383A6D": "3662CD@366372",
+    "389FA1": "3662CD@366379",
+    "365349": "3660A5@3660A9",
+    "37210C": "3660A5@3660B0",
+    "3724C4": "3660A5@3660B7",
+    "372854": "3660A5@3660BE",
+    "37FDA2": "3660A5@3660C5",
+    "37776A": "3660A5@3660DA",
+    "38667B": "3660A5@3660F6",
+    "34EC1C": "3660A5@3660FD",
+    "34F089": "3660A5@366104",
+    "34F437": "3660A5@36610B",
+    "34F820": "3660A5@366112",
+    "34FBD2": "3660A5@366119",
+    "36EDA9": "3660A5@366120",
+    "36F1A1": "3660A5@366127",
+    "36F547": "3660A5@36612E",
+    "36F908": "3660A5@366135",
+    "382711": "3660A5@36613C",
+    "38450C": "3660A5@366143",
+    "383A19": "3660A5@36614A",
+    "389F4D": "3660A5@366151",
+    "37BF1B": "37BED3@37BEDA",
+    "37BEB7": "37BED3@37BEE0",
+    "37BEBE": "37BED3@37BEE4",
+    "37BEC5": "37BED3@37BEE8",
+    "37BECC": "37BED3@37BEEC",
+    "37BF10": "37BED3@37BEF5",
+    "366385": "37BD91@37BD92",
+    "365363": "36615D@366161",
+    "372127": "36615D@366168",
+    "3724D6": "36615D@36616F",
+    "372870": "36615D@366176",
+    "37FDB8": "36615D@36617D",
+    "377785": "36615D@366192",
+    "386691": "36615D@3661AE",
+    "34EC37": "36615D@3661B5",
+    "34F0A1": "36615D@3661BC",
+    "34F453": "36615D@3661C3",
+    "34F83F": "36615D@3661CA",
+    "34FBEE": "36615D@3661D1",
+    "36EDC4": "36615D@3661D8",
+    "36F1B7": "36615D@3661DF",
+    "36F563": "36615D@3661E6",
+    "36F91E": "36615D@3661ED",
+    "38272C": "36615D@3661F4",
+    "384528": "36615D@3661FB",
+    "383A34": "36615D@366202",
+    "389F68": "36615D@366209",
+    "05E392": "37BD78@37BD79",
+    "37B985": "37BD78@37BD7E",
+    "366215": "37BD87@37BD88",
+    "05BB9A": "389E9D@389E9E",
+    "34F33C": "25A8F0@25A8FC",
+    "36A6E3": "36A477@36A6DA",
+    "099D92": "09B11E@09B125",
+    "37E887": "37E78B@37E84A",
+    "37E898": "37E78B@37E84E",
+    "37E8A9": "37E78B@37E852",
+    "37E8BA": "37E78B@37E856",
+    "37E8CB": "37E78B@37E85A",
+    "37E8DC": "37E78B@37E85E",
+    "37E8ED": "37E78B@37E862",
+    "37E8FE": "37E78B@37E866",
+    "37E90F": "37E78B@37E86A",
+    "37E920": "37E78B@37E86E",
+    "37E931": "37E78B@37E872",
+    "37E942": "37E78B@37E876",
+    "37E953": "37E78B@37E87A",
+    "37E95D": "37E78B@37E87E",
+    "37E967": "37E78B@37E883",
+    "37EA25": "37E96E@37E9F0",
+    "37EA36": "37E96E@37E9F4",
+    "37EA47": "37E96E@37E9F8",
+    "37EA58": "37E96E@37E9FC",
+    "37EA69": "37E96E@37EA00",
+    "37EA7A": "37E96E@37EA04",
+    "37EA8B": "37E96E@37EA08",
+    "37EA9C": "37E96E@37EA0C",
+    "37EAAD": "37E96E@37EA10",
+    "37EABE": "37E96E@37EA14",
+    "37EACF": "37E96E@37EA18",
+    "37EAD9": "37E96E@37EA1C",
+    "37EAE3": "37E96E@37EA21",
+    "389A15": "3899FF@389A07",
+    "389A21": "3899FF@389A0C",
+    "389987": "389978@389983",
+    "37E2D7": "37E2C5@37E2CA",
+    "37E145": "37E13E@37E141",
+    "37E2F0": "37E17B@37E17E",
+    "37E39E": "37E381@37E390",
+    "37E2EA": "37E2D8@37E2DD",
+    "37E3AB": "37E3A4@37E3A7",
+    "3835BA": "383571@383582",
+    "3837D0": "3835E3@38377F",
+    "3837D8": "3835E3@383783",
+    "3837E0": "3835E3@383787",
+    "3837E8": "3835E3@38378B",
+    "3837F0": "3835E3@38378F",
+    "3837F8": "3835E3@383793",
+    "383800": "3835E3@383797",
+    "383808": "3835E3@38379B",
+    "383810": "3835E3@38379F",
+    "383818": "3835E3@3837A3",
+    "383820": "3835E3@3837A7",
+    "383828": "3835E3@3837AB",
+    "383830": "3835E3@3837AF",
+    "383838": "3835E3@3837B3",
+    "383840": "3835E3@3837B7",
+    "383848": "3835E3@3837BB",
+    "383850": "3835E3@3837BF",
+    "383858": "3835E3@3837C3",
+    "383860": "3835E3@3837C7",
+    "383868": "3835E3@3837CC",
+    "38A25F": "38A24B@38A253",
+    "38A262": "38A24B@38A25B",
+    "25B8E0": "3547D6@3547DD",
+    "3547E5": "3547D6@3547E1",
+    "32C8B0": "378212@37821B",
+    "3506B1": "350655@35067B",
+    "3506A0": "350655@350686",
+    "3506AB": "350655@350691",
+    "35041F": "25DFC0@25DFEF",
+    "3504A9": "2588B0@2588DC",
+    "350A4E": "350A2C@350A40",
+    "33F182": "32BEB0@32BECC",
+    "387B2F": "387B19@387B1E",
+    "387B37": "387B19@387B27",
+    "3484E6": "3484DE@3484E1",
+    "349260": "3491E6@3491EC",
+    "349E02": "257F5E@257F65",
+    "349E77": "257F5E@257F69",
+    "387A1D": "3879F4@387A11",
+    "34A190": "34A17C@34A183",
+    "34A1EA": "34A17C@34A187",
+    "34B503": "329FF0@32A005",
+    "252BA4": "353647@353665",
+    "354DD2": "25F518@25F525",
+    "35560D": "251640@251659",
+    "35CA21": "35CB36@35CB6A",
+    "063C86": "063C59@063C5C",
+    "35D35A": "063D54@063D55",
+    "063D25": "0638F8@0638F9",
+    "064650": "06393E@06393F",
+    "06379F": "06393E@063954",
+    "35E4D3": "35E423@35E432",
+    "329FB0": "35E3E2@35E3EB",
+    "32F020": "35EAA7@35EB3D",
+    "35BD43": "35BC72@35BD37",
+    "35BD46": "35BC72@35BD3F",
+    "35C0AF": "259E80@259EC2",
+    "3615A6": "361515@36151C",
+    "361524": "361515@361520",
+    "361733": "3616F3@3616F4",
+    "361B41": "320A90@320A9D",
+    "363DC8": "2517A0@2517B9",
+    "05BBFB": "389F41@389F42",
+    "365B9D": "37BC04@37BC07",
+    "37BE9B": "37BC04@37BC0C",
+    "37BD03": "37BC1B@37BC24",
+    "37BD2C": "37BC1B@37BC2F",
+    "05E25B": "37BC1B@37BC34",
+    "05E26A": "37BC1B@37BC39",
+    "37BCD6": "37BC1B@37BC3F",
+    "05E3A5": "37BC1B@37BC4A",
+    "365C55": "37BC1B@37BC56",
+    "37BC73": "37BC1B@37BC66",
+    "37BFF1": "37BFD8@37BFDE",
+    "36554C": "366945@366949",
+    "372304": "366945@366950",
+    "3726D6": "366945@366957",
+    "372A0D": "366945@36695E",
+    "37FFB2": "366945@366965",
+    "377962": "366945@36697A",
+    "38680E": "366945@366996",
+    "34EE49": "366945@36699D",
+    "34F2AE": "366945@3669A4",
+    "34F602": "366945@3669AB",
+    "34FA3C": "366945@3669B2",
+    "34FD9F": "366945@3669B9",
+    "36EFA1": "366945@3669C0",
+    "36F3CC": "366945@3669C7",
+    "36F700": "366945@3669CE",
+    "36FB33": "366945@3669D5",
+    "382908": "366945@3669DC",
+    "3846DC": "366945@3669E3",
+    "383C0B": "366945@3669EA",
+    "38A0B5": "366945@3669F1",
+    "3652C5": "365E7D@365E81",
+    "372077": "365E7D@365E88",
+    "372442": "365E7D@365E8F",
+    "372803": "365E7D@365E96",
+    "37FD08": "365E7D@365E9D",
+    "3776D5": "365E7D@365EB2",
+    "3865FD": "365E7D@365ECE",
+    "34EB8B": "365E7D@365ED5",
+    "34EFD9": "365E7D@365EDC",
+    "34F3E6": "365E7D@365EE3",
+    "34F779": "365E7D@365EEA",
+    "34FB71": "365E7D@365EF1",
+    "36ED3A": "365E7D@365EF8",
+    "36F109": "365E7D@365EFF",
+    "16FCC0": "365E7D@365F06",
+    "36F870": "365E7D@365F0D",
+    "382675": "365E7D@365F14",
+    "384485": "365E7D@365F1B",
+    "3839A4": "365E7D@365F22",
+    "389F3B": "365E7D@365F29",
+    "365461": "3665AD@3665B1",
+    "372234": "3665AD@3665B8",
+    "3725F6": "3665AD@3665BF",
+    "372953": "3665AD@3665C6",
+    "37FEB2": "3665AD@3665CD",
+    "377892": "3665AD@3665E2",
+    "386762": "3665AD@3665FE",
+    "34ED49": "3665AD@366605",
+    "34F1C0": "3665AD@36660C",
+    "34F54A": "3665AD@366613",
+    "34F946": "3665AD@36661A",
+    "25C480": "3665AD@366621",
+    "36EED1": "3665AD@366628",
+    "36F2D5": "3665AD@36662F",
+    "36F646": "3665AD@366636",
+    "36FA3C": "3665AD@36663D",
+    "382838": "3665AD@366644",
+    "38461B": "3665AD@36664B",
+    "383B41": "3665AD@366652",
+    "38A012": "3665AD@366659",
+    "3653C9": "366385@366389",
+    "37219E": "366385@366390",
+    "37256B": "366385@366397",
+    "3728C2": "366385@36639E",
+    "37FE2C": "366385@3663A5",
+    "3777FC": "366385@3663BA",
+    "3866E3": "366385@3663D6",
+    "34ECAE": "366385@3663DD",
+    "34F130": "366385@3663E4",
+    "34F4B9": "366385@3663EB",
+    "34F8AB": "366385@3663F2",
+    "34FC54": "366385@3663F9",
+    "36EE3B": "366385@366400",
+    "36F246": "366385@366407",
+    "36F5B5": "366385@36640E",
+    "36F9AD": "366385@366415",
+    "3827AA": "366385@36641C",
+    "38458B": "366385@366423",
+    "383AAB": "366385@36642A",
+    "389FDF": "366385@366431",
+    "37B990": "37B985@37B988",
+    "36538A": "366215@366219",
+    "372154": "366215@366220",
+    "37250D": "366215@366227",
+    "372899": "366215@36622E",
+    "37FDE2": "366215@366235",
+    "3777B2": "366215@36624A",
+    "3866BE": "366215@366266",
+    "34EC64": "366215@36626D",
+    "34F0D8": "366215@366274",
+    "34F47C": "366215@36627B",
+    "34F86F": "366215@366282",
+    "34FC17": "366215@366289",
+    "36EDF1": "366215@366290",
+    "36F1EE": "366215@366297",
+    "36F58C": "366215@36629E",
+    "36F955": "366215@3662A5",
+    "382759": "366215@3662AC",
+    "38454F": "366215@3662B3",
+    "383A61": "366215@3662BA",
+    "389F95": "366215@3662C1",
+    "389996": "389987@389992",
+    "37E175": "37E145@37E14C",
+    "37E158": "37E145@37E154",
+    "37E305": "37E2F0@37E2F1",
+    "37E304": "37E2F0@37E2F7",
+    "37E3F0": "37E3AB@37E3B2",
+    "37E3BE": "37E3AB@37E3BA",
+    "38A273": "38A25F@38A267",
+    "38A276": "38A25F@38A26F",
+    "378232": "32C8B0@32C8CC",
+    "3506EC": "3506B1@3506B6",
+    "3506DB": "3506B1@3506C1",
+    "3506E6": "3506B1@3506CC",
+    "3505FC": "350A4E@350AB3",
+    "251F50": "350A4E@350AEB",
+    "33F1A4": "33F182@33F185",
+    "257C10": "33F182@33F18F",
+    "33F29D": "33F182@33F193",
+    "33F1BF": "33F182@33F197",
+    "33F30C": "33F182@33F19B",
+    "257C58": "33F182@33F1A0",
+    "3484EE": "3484E6@3484E9",
+    "349E88": "349E77@349E84",
+    "34B802": "34B503@34B513",
+    "35366F": "252BA4@252BB1",
+    "354DE6": "354DD2@354DD9",
+    "355631": "35560D@355610",
+    "25A3CC": "35560D@35561A",
+    "25A414": "35560D@35561E",
+    "25A45C": "35560D@355622",
+    "25A4A4": "35560D@355626",
+    "25A504": "35560D@35562D",
+    "32EAE8": "35D35A@35D363",
+    "063D40": "063D25@063D28",
+    "064671": "064650@06465D",
+    "35E403": "329FB0@329FCD",
+    "25A8BC": "35C0AF@35C106",
+    "361B55": "361B41@361B48",
+    "361C20": "361B41@361B4C",
+    "363DEA": "363DC8@363DCB",
+    "25AED0": "363DC8@363DD5",
+    "25AF60": "363DC8@363DD9",
+    "25AF18": "363DC8@363DDD",
+    "363F52": "363DC8@363DE1",
+    "25AFC0": "363DC8@363DE6",
+    "365202": "365B9D@365BA1",
+    "371FE0": "365B9D@365BA8",
+    "3723AA": "365B9D@365BAF",
+    "372775": "365B9D@365BB6",
+    "37FC58": "365B9D@365BBD",
+    "37763E": "365B9D@365BD2",
+    "38657B": "365B9D@365BEE",
+    "34EAF4": "365B9D@365BF5",
+    "34EF3F": "365B9D@365BFC",
+    "34F358": "365B9D@365C03",
+    "34F6E2": "365B9D@365C0A",
+    "34FAE8": "365B9D@365C11",
+    "36ECA3": "365B9D@365C18",
+    "36F06A": "365B9D@365C1F",
+    "36F468": "365B9D@365C26",
+    "36F7D1": "365B9D@365C2D",
+    "3825DA": "365B9D@365C34",
+    "32E4E0": "365B9D@365C3B",
+    "38390C": "365B9D@365C42",
+    "389EB5": "365B9D@365C49",
+    "366665": "37BD03@37BD05",
+    "37BCCA": "37BD2C@37BD37",
+    "05E269": "05E25B@05E262",
+    "05E387": "37BCD6@37BCD7",
+    "365DC5": "37BCD6@37BCDC",
+    "365222": "365C55@365C59",
+    "371FF7": "365C55@365C60",
+    "3723C1": "365C55@365C67",
+    "37278A": "365C55@365C6E",
+    "37FC7C": "365C55@365C75",
+    "377655": "365C55@365C8A",
+    "386593": "365C55@365CA6",
+    "34EB0B": "365C55@365CAD",
+    "34EF56": "365C55@365CB4",
+    "34F36D": "365C55@365CBB",
+    "34F6F9": "365C55@365CC2",
+    "34FAF8": "365C55@365CC9",
+    "32BAF0": "365C55@365CD0",
+    "36F084": "365C55@365CD7",
+    "36F47D": "365C55@365CDE",
+    "36F7EB": "365C55@365CE5",
+    "3825F5": "365C55@365CEC",
+    "32B314": "365C55@365CF3",
+    "383924": "365C55@365CFA",
+    "389EBB": "365C55@365D01",
+    "32FEA4": "37BC73@37BC77",
+    "37BE28": "37BC73@37BC84",
+    "05E36E": "37BC73@37BC93",
+    "365D0D": "37BC73@37BC9E",
+    "37BCBB": "37BC73@37BCAE",
+    "37C005": "37BFF1@37BFFC",
+    "36671D": "37BFF1@37C001",
+    "37C014": "37BFF1@37C010",
+    "05BBF2": "389F3B@389F3C",
+    "3899A5": "389996@3899A1",
+    "37E16F": "37E158@37E160",
+    "37E352": "37E305@37E30C",
+    "37E275": "37E305@37E312",
+    "37E27C": "37E305@37E316",
+    "37E283": "37E305@37E31A",
+    "37E28A": "37E305@37E31E",
+    "37E342": "37E305@37E327",
+    "37E3D5": "37E3BE@37E3C6",
+    "38A287": "38A273@38A27B",
+    "38A28A": "38A273@38A283",
+    "32E410": "378232@378233",
+    "3508D2": "3506EC@3506FA",
+    "350753": "3506EC@35071D",
+    "350742": "3506EC@350728",
+    "35074D": "3506EC@350733",
+    "350B09": "251F50@251F73",
+    "32EDE0": "33F1A4@33F1A5",
+    "32A6C0": "257C10@257C3A",
+    "32A700": "33F29D@33F2C7",
+    "320ECC": "33F1BF@33F1E9",
+    "32FCE0": "33F30C@33F31B",
+    "3484F6": "3484EE@3484F1",
+    "349EB3": "349E88@349E89",
+    "259CAC": "354DE6@354DF9",
+    "259CD8": "354DE6@354E0F",
+    "354EF0": "354DE6@354E3C",
+    "355054": "354DE6@354E46",
+    "32F340": "355631@355632",
+    "258288": "25A3CC@25A3F6",
+    "25829C": "25A414@25A43E",
+    "2593A0": "25A45C@25A486",
+    "2593B4": "25A4A4@25A4CE",
+    "256FA4": "32EAE8@32EAED",
+    "35E45A": "35E403@35E412",
+    "35E436": "35E403@35E416",
+    "35E47A": "35E403@35E41A",
+    "35C13B": "25A8BC@25A8EC",
+    "361B64": "361B55@361B58",
+    "2515A0": "363DEA@363DEB",
+    "2593C8": "25AED0@25AEFA",
+    "259F80": "25AF60@25AF8A",
+    "2593DC": "25AF18@25AF42",
+    "320AA4": "363F52@363F7C",
+    "05BBE4": "389EB5@389EB6",
+    "365483": "366665@366669",
+    "37224D": "366665@366670",
+    "372619": "366665@366677",
+    "37296C": "366665@36667E",
+    "228AB0": "366665@366685",
+    "3778AB": "366665@36669A",
+    "38677A": "366665@3666B6",
+    "34ED62": "366665@3666BD",
+    "25C3A0": "366665@3666C4",
+    "34F563": "366665@3666CB",
+    "34F95F": "366665@3666D2",
+    "34FD04": "366665@3666D9",
+    "36EEEA": "366665@3666E0",
+    "36F2EF": "366665@3666E7",
+    "36F65F": "366665@3666EE",
+    "36FA56": "366665@3666F5",
+    "382851": "366665@3666FC",
+    "384631": "366665@366703",
+    "383B54": "366665@36670A",
+    "38A02C": "366665@366711",
+    "365283": "365DC5@365DC9",
+    "372040": "365DC5@365DD0",
+    "37240F": "365DC5@365DD7",
+    "3727DB": "365DC5@365DDE",
+    "37FCD8": "365DC5@365DE5",
+    "37769E": "365DC5@365DFA",
+    "3865CE": "365DC5@365E16",
+    "34EB54": "365DC5@365E1D",
+    "25C300": "365DC5@365E24",
+    "34F3BE": "365DC5@365E2B",
+    "34F742": "365DC5@365E32",
+    "34FB49": "365DC5@365E39",
+    "36ED03": "365DC5@365E40",
+    "36F0DB": "365DC5@365E47",
+    "36F4CE": "365DC5@365E4E",
+    "36F842": "365DC5@365E55",
+    "38263E": "365DC5@365E5C",
+    "252C8C": "365DC5@365E63",
+    "38396D": "365DC5@365E6A",
+    "389F04": "365DC5@365E71",
+    "32A7F0": "32FEA4@32FEB2",
+    "37BDDE": "32FEA4@32FED2",
+    "37BDE2": "32FEA4@32FED6",
+    "37BDE6": "32FEA4@32FEDA",
+    "37BDEA": "32FEA4@32FEDE",
+    "37BE68": "37BE28@37BE31",
+    "37BE4C": "37BE28@37BE37",
+    "37BE53": "37BE28@37BE3B",
+    "37BE5A": "37BE28@37BE3F",
+    "37BE61": "37BE28@37BE43",
+    "36523F": "365D0D@365D11",
+    "372017": "365D0D@365D18",
+    "3723DA": "365D0D@365D1F",
+    "3727A3": "365D0D@365D26",
+    "37FC92": "365D0D@365D2D",
+    "377675": "365D0D@365D42",
+    "3865A5": "365D0D@365D5E",
+    "34EB2B": "365D0D@365D65",
+    "34EF6F": "365D0D@365D6C",
+    "34F386": "365D0D@365D73",
+    "34F719": "365D0D@365D7A",
+    "34FB11": "365D0D@365D81",
+    "36ECDA": "365D0D@365D88",
+    "36F0A5": "365D0D@365D8F",
+    "36F496": "365D0D@365D96",
+    "36F80C": "365D0D@365D9D",
+    "382615": "365D0D@365DA4",
+    "252C5C": "365D0D@365DAB",
+    "383944": "365D0D@365DB2",
+    "389EDB": "365D0D@365DB9",
+    "05E37A": "37BCBB@37BCC1",
+    "3654DA": "36671D@366721",
+    "372295": "36671D@366728",
+    "372670": "36671D@36672F",
+    "3729A1": "36671D@366736",
+    "37FF1E": "36671D@36673D",
+    "3778F3": "36671D@366752",
+    "3867BC": "36671D@36676E",
+    "34EDAA": "36671D@366775",
+    "34F23A": "36671D@36677C",
+    "34F598": "36671D@366783",
+    "34F9A7": "36671D@36678A",
+    "34FD35": "36671D@366791",
+    "36EF32": "36671D@366798",
+    "36F354": "36671D@36679F",
+    "36F694": "36671D@3667A6",
+    "36FABB": "36671D@3667AD",
+    "382899": "36671D@3667B4",
+    "384679": "36671D@3667BB",
+    "383B9C": "36671D@3667C2",
+    "38A032": "36671D@3667C9",
+    "37C035": "37C014@37C01B",
+    "37C100": "37C014@37C026",
+    "36688D": "37C014@37C02B",
+    "3899B4": "3899A5@3899B0",
+    "37E380": "37E352@37E374",
+    "37E3F1": "37E3D5@37E3DA",
+    "37E412": "37E3D5@37E3DE",
+    "37E433": "37E3D5@37E3E2",
+    "37E454": "37E3D5@37E3E6",
+    "38A29B": "38A287@38A28F",
+    "38A29E": "38A287@38A297",
+    "378249": "32E410@32E42B",
+    "350913": "3508D2@3508DD",
+    "350902": "3508D2@3508E8",
+    "35090D": "3508D2@3508F3",
+    "350919": "350753@35075F",
+    "3507B2": "350753@35077C",
+    "3507A1": "350753@350787",
+    "3507AC": "350753@350792",
+    "251F0C": "350B09@350B0C",
+    "33F1BA": "32EDE0@32EDFA",
+    "257C44": "32A6C0@32A6CD",
+    "33F2D1": "32A700@32A70D",
+    "33F1F3": "320ECC@320ED9",
+    "33F327": "32FCE0@32FCE9",
+    "3484FE": "3484F6@3484F9",
+    "354F14": "354EF0@354F0B",
+    "354F42": "354EF0@354F10",
+    "355647": "32F340@32F35A",
+    "25A400": "258288@258295",
+    "25A448": "25829C@2582A9",
+    "25A490": "2593A0@2593AD",
+    "25A4D8": "2593B4@2593C1",
+    "32EED8": "256FA4@256FA8",
+    "35E49D": "35E45A@35E476",
+    "361BFE": "361B64@361BC9",
+    "363E00": "2515A0@2515BA",
+    "25AF04": "2593C8@2593D5",
+    "25AF94": "259F80@259F8D",
+    "25AF4C": "2593DC@2593E9",
+    "363F86": "320AA4@320AB1",
+    "05BC4C": "38A02C@38A02D",
+    "37BE18": "32A7F0@32A805",
+    "37BE1C": "32A7F0@32A809",
+    "37BE20": "32A7F0@32A80D",
+    "37BE24": "32A7F0@32A811",
+    "37BE7F": "37BE68@37BE6A",
+    "37BE86": "37BE68@37BE6E",
+    "37BE8D": "37BE68@37BE72",
+    "37BE94": "37BE68@37BE76",
+    "37C062": "37C035@37C048",
+    "3667D5": "37C035@37C058",
+    "365519": "36688D@366891",
+    "3722DF": "36688D@366898",
+    "3726AB": "36688D@36689F",
+    "3729EF": "36688D@3668A6",
+    "37FF81": "36688D@3668AD",
+    "37793D": "36688D@3668C2",
+    "3867EE": "36688D@3668DE",
+    "25C2A0": "36688D@3668E5",
+    "34F27E": "36688D@3668EC",
+    "34F5E4": "36688D@3668F3",
+    "34F9F1": "36688D@3668FA",
+    "25C4A0": "36688D@366901",
+    "36EF7C": "36688D@366908",
+    "36F39D": "36688D@36690F",
+    "36F6E2": "36688D@366916",
+    "36FB04": "36688D@36691D",
+    "32D7A0": "36688D@366924",
+    "3846B2": "36688D@36692B",
+    "383BE6": "36688D@366932",
+    "38A077": "36688D@366939",
+    "38A2AF": "38A29B@38A2A3",
+    "38A2B2": "38A29B@38A2AB",
+    "2515C0": "378249@37824A",
+    "350954": "350919@35091E",
+    "350943": "350919@350929",
+    "35094E": "350919@350934",
+    "35095A": "3507B2@3507BE",
+    "350811": "3507B2@3507DB",
+    "350800": "3507B2@3507E6",
+    "35080B": "3507B2@3507F1",
+    "350B12": "251F0C@251F14",
+    "33F189": "33F1BA@33F1BB",
+    "33F276": "257C44@257C4B",
+    "257C53": "257C44@257C4F",
+    "33F2E5": "33F2D1@33F2D8",
+    "33F2E0": "33F2D1@33F2DC",
+    "33F207": "33F1F3@33F1FA",
+    "33F202": "33F1F3@33F1FE",
+    "32A714": "33F327@33F336",
+    "34850F": "3484FE@348503",
+    "354F70": "354F14@354F2A",
+    "354FFC": "354F14@354F34",
+    "355013": "354F14@354F3E",
+    "355614": "355647@355648",
+    "355694": "25A400@25A407",
+    "25A40F": "25A400@25A40B",
+    "355703": "25A448@25A44F",
+    "25A457": "25A448@25A453",
+    "355772": "25A490@25A497",
+    "25A49F": "25A490@25A49B",
+    "3557E1": "25A4D8@25A4DF",
+    "25A4E7": "25A4D8@25A4E3",
+    "363DCF": "363E00@363E01",
+    "363E4D": "25AF04@25AF0B",
+    "25AF13": "25AF04@25AF0F",
+    "363F2B": "25AF94@25AF9B",
+    "25AFA3": "25AF94@25AF9F",
+    "363EBC": "25AF4C@25AF53",
+    "25AF5B": "25AF4C@25AF57",
+    "363F9A": "363F86@363F8D",
+    "363F95": "363F86@363F91",
+    "37C079": "37C062@37C06C",
+    "3654F7": "3667D5@3667D9",
+    "3722A6": "3667D5@3667E0",
+    "372687": "3667D5@3667E7",
+    "3729C1": "3667D5@3667EE",
+    "37FF45": "3667D5@3667F5",
+    "377904": "3667D5@36680A",
+    "32D7F0": "3667D5@366826",
+    "34EDBB": "3667D5@36682D",
+    "34F256": "3667D5@366834",
+    "25C420": "3667D5@36683B",
+    "34F9B8": "3667D5@366842",
+    "34FD53": "3667D5@366849",
+    "36EF43": "3667D5@366850",
+    "36F36C": "3667D5@366857",
+    "36F6B4": "3667D5@36685E",
+    "36FAD3": "3667D5@366865",
+    "3828AA": "3667D5@36686C",
+    "38468A": "3667D5@366873",
+    "383BAD": "3667D5@36687A",
+    "38A040": "3667D5@366881",
+    "38A2C3": "38A2AF@38A2B7",
+    "38A2C6": "38A2AF@38A2BF",
+    "37825F": "2515C0@2515DA",
+    "350995": "35095A@35095F",
+    "350984": "35095A@35096A",
+    "35098F": "35095A@350975",
+    "350851": "350811@35081E",
+    "350842": "350811@350829",
+    "35084C": "350811@350834",
+    "32CC24": "350B12@350B4D",
+    "32B088": "33F276@33F280",
+    "32E534": "33F276@33F28B",
+    "3894D4": "33F276@33F299",
+    "389523": "33F2E5@33F308",
+    "389433": "33F207@33F22A",
+    "33F340": "32A714@32A721",
+    "25A524": "355694@35569E",
+    "25A4EC": "355694@3556A9",
+    "3884BE": "355694@3556B7",
+    "388540": "355703@355726",
+    "3885EC": "355772@355795",
+    "388450": "3557E1@355804",
+    "25AFA8": "363E4D@363E62",
+    "389D9B": "363E4D@363E70",
+    "389D23": "363F2B@363F4E",
+    "389DF5": "363EBC@363EDF",
+    "389C63": "363F9A@363FBD",
+    "38A2D7": "38A2C3@38A2CB",
+    "38A2DA": "38A2C3@38A2D3",
+    "2517C0": "37825F@378260",
+    "350889": "350851@350856",
+    "35087A": "350851@350861",
+    "350884": "350851@35086C",
+    "350B57": "32CC24@32CC31",
+    "38DED0": "3894D4@3894D5",
+    "38DEE5": "3894D4@3894F2",
+    "38DF26": "3894D4@389511",
+    "38DEEE": "3894D4@389516",
+    "38DF08": "3894D4@38951E",
+    "33F354": "33F340@33F347",
+    "33F34F": "33F340@33F34B",
+    "378274": "2517C0@2517D9",
+    "3508C1": "350889@35088E",
+    "3508B2": "350889@350899",
+    "3508BC": "350889@3508A4",
+    "350B6B": "350B57@350B5E",
+    "350B85": "350B57@350B62",
+    "389354": "33F354@33F377",
+    "25D290": "378274@37827A",
+    "25D2D8": "378274@37827E",
+    "25D320": "378274@378282",
+    "25D368": "378274@378286",
+    "32F3F0": "378274@37828B",
+    "350B9F": "350B6B@350B81",
+    "259F94": "25D290@25D2BA",
+    "259FA8": "25D2D8@25D302",
+    "259FBC": "25D320@25D34A",
+    "3203A0": "25D368@25D392",
+    "251EE0": "350B9F@350BB3",
+    "25D2C4": "259F94@259FA1",
+    "25D30C": "259FA8@259FB5",
+    "25D354": "259FBC@259FC9",
+    "25D39C": "3203A0@3203AD",
+    "350BD1": "251EE0@251F07",
+    "3782D7": "25D2C4@25D2CB",
+    "25D2D3": "25D2C4@25D2CF",
+    "378346": "25D30C@25D313",
+    "25D31B": "25D30C@25D317",
+    "3783B5": "25D354@25D35B",
+    "25D363": "25D354@25D35F",
+    "378424": "25D39C@25D3A3",
+    "25D3AB": "25D39C@25D3A7",
+    "350F8C": "350BD1@350BE0",
+    "32FF9C": "350BD1@350BF0",
+    "32F410": "3782D7@3782E1",
+    "25D3B0": "3782D7@3782EC",
+    "38547F": "3782D7@3782FA",
+    "3854F7": "378346@378369",
+    "3855B7": "3783B5@3783D8",
+    "3856A0": "378424@378447",
+    "350C17": "32FF9C@32FFC6",
+    "320590": "350C17@350C1A",
+    "350C29": "320590@3205A3",
+    "25BE0C": "350C29@350C51",
+    "350C58": "25BE0C@25BE14",
+    "251EB0": "350C58@350C7A",
+    "350CA4": "251EB0@251ED9",
+    "32CC38": "350CA4@350CA6",
+    "350CB0": "32CC38@32CC45",
+    "350DFF": "350CB0@350CB7",
+    "350CBF": "350CB0@350CBB",
+    "32FFCC": "350CB0@350CDC",
+    "350F8B": "350DFF@350F7A",
+    "350F72": "350DFF@350F87",
+    "350CE4": "32FFCC@32FFD7",
+    "32CC4C": "350CE4@350CE6",
+    "350CF0": "32CC4C@32CC59",
+    "350CFF": "350CF0@350CFB",
+    "251F78": "350CF0@350D0B",
+    "350D25": "251F78@251F98",
+    "32E5A0": "350D25@350D27",
+    "350D31": "32E5A0@32E5AD",
+    "350D40": "350D31@350D3C",
+    "25BDF0": "350D31@350D52",
+    "350D6A": "25BDF0@25BE07",
+    "251F9C": "350D6A@350DB8",
+    "350DD3": "251F9C@251FBB",
+    "32E5B4": "350DD3@350DD5",
+    "350DDF": "32E5B4@32E5C1",
+    "350DEE": "350DDF@350DEA"
+  }
+}

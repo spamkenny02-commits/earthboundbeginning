@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V55 (menus de transport)
+## Version actuelle : V56 (textes avant les menus)
+
+V56 reprend **22 zones de texte, soit 24 fragments** : journal, réparations, PSI, vélo, poubelles, coffres, cercueils, absence de réponse et rires. Deux anciennes copies du message « But nothing happened. » sont corrigées ; l'usage normal de Télépathie affiche désormais « Mais rien ne se passe. ».
+
+- [Patch V56 avec accents](patches/EarthBound_Beginnings_FR_v56_accents.ips)
+- [Patch V56 ASCII](patches/EarthBound_Beginnings_FR_v56_ascii.ips)
+- [Rapport V56](RAPPORT_V56.md)
+- [Sources et tests](tools/v56/README_V56.md)
+- [Essais et captures](tests/emulation_v56/RAPPORT_EMULATION_V56.md)
+
+Appliquer **un seul IPS V56 directement à la ROM originale USA 1.2**. 451 tests réussis, 212 captures du parcours de référence identiques à V55 et 60 essais d'affichage. La traduction reste partielle. Priorité aux textes ; les menus viendront ensuite. Aucune ROM distribuée.
+
+## Version précédente : V55 (menus de transport)
 
 V55 traduit **16 lignes de destination** dans quatre contextes de guichet, avec tarifs et noms de ville conservés, ainsi que deux phrases d'achat du billet. Les lignes sont alignées sur 128 pixels. La traduction reste partielle.
 
