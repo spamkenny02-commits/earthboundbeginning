@@ -1,0 +1,239 @@
+{
+  "profile": "ascii",
+  "patch_version": "v61",
+  "base_rom_sha256": "e3451a28b9162a2dbcd0071622777c36a7ceb1c61d913940368e7be7b6726766",
+  "method": "synthetic_script_original_equality_handler_and_read_only_wram",
+  "wram_written_directly_by_tester": false,
+  "register_initialization": "Two temporary callbacks return constants through the original 1A 0C engine; no natural inventory scene is claimed",
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "cases": {
+    "equal_byte": {
+      "left": 5,
+      "right": 5,
+      "expected_result": 1,
+      "registers_read": {
+        "window_head": 1,
+        "window_focus": 53,
+        "window_index": 2,
+        "window_base": "86F4",
+        "working_memory": 1,
+        "argument_memory": 1
+      },
+      "result_verified": true,
+      "returncode": 0,
+      "payload_hex": "01708295a3a59ca491a46a501a0c000ef3810d001a0c200ef3811a210d001c0a00000000506b50a3a599a495509ca5955e1302",
+      "constant_return_callbacks": [
+        {
+          "offset": "330E00",
+          "hex": "c230a905008506a9000085086b"
+        },
+        {
+          "offset": "330E20",
+          "hex": "c230a905008506a9000085086b"
+        }
+      ],
+      "fixture_sha256": "c5bdd6cd85ec1e4b294447ae7eb04358411b0fe20d091579e92b7f54c1798da2",
+      "capture": {
+        "image": {
+          "path": "/workspace/scratch/a52b6a3f0578/v62_probe_final/ascii/equal_byte/result.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "568e83c8a4eae118760c14dbf0780f60a0d870d0c0419ecb0507a87f4c86b78a"
+        },
+        "frame": 430,
+        "audio_samples": 229243,
+        "elapsed": 0.184
+      }
+    },
+    "different_byte": {
+      "left": 5,
+      "right": 7,
+      "expected_result": 0,
+      "registers_read": {
+        "window_head": 1,
+        "window_focus": 53,
+        "window_index": 2,
+        "window_base": "86F4",
+        "working_memory": 0,
+        "argument_memory": 0
+      },
+      "result_verified": true,
+      "returncode": 0,
+      "payload_hex": "01708295a3a59ca491a46a501a0c000ef3810d001a0c200ef3811a210d001c0a00000000506b50a3a599a495509ca5955e1302",
+      "constant_return_callbacks": [
+        {
+          "offset": "330E00",
+          "hex": "c230a905008506a9000085086b"
+        },
+        {
+          "offset": "330E20",
+          "hex": "c230a907008506a9000085086b"
+        }
+      ],
+      "fixture_sha256": "f9b1fbf275c0fc5a4ed86f165a9853159d10616478a4ab01f9aeda460d25cbbd",
+      "capture": {
+        "image": {
+          "path": "/workspace/scratch/a52b6a3f0578/v62_probe_final/ascii/different_byte/result.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "33cb68b3ddec52bfc1046f82cc3155e116dc419c6a7ecc945ca7d9c5d0ab6491"
+        },
+        "frame": 430,
+        "audio_samples": 229243,
+        "elapsed": 0.179
+      }
+    },
+    "equal_32bit": {
+      "left": 305419896,
+      "right": 305419896,
+      "expected_result": 1,
+      "registers_read": {
+        "window_head": 1,
+        "window_focus": 53,
+        "window_index": 2,
+        "window_base": "86F4",
+        "working_memory": 1,
+        "argument_memory": 1
+      },
+      "result_verified": true,
+      "returncode": 0,
+      "payload_hex": "01708295a3a59ca491a46a501a0c000ef3810d001a0c200ef3811a210d001c0a00000000506b50a3a599a495509ca5955e1302",
+      "constant_return_callbacks": [
+        {
+          "offset": "330E00",
+          "hex": "c230a978568506a9341285086b"
+        },
+        {
+          "offset": "330E20",
+          "hex": "c230a978568506a9341285086b"
+        }
+      ],
+      "fixture_sha256": "82b7fb757998ed267f390720a4c1efddee147ca77ab46d49d62b31026aae1bd6",
+      "capture": {
+        "image": {
+          "path": "/workspace/scratch/a52b6a3f0578/v62_probe_final/ascii/equal_32bit/result.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "568e83c8a4eae118760c14dbf0780f60a0d870d0c0419ecb0507a87f4c86b78a"
+        },
+        "frame": 430,
+        "audio_samples": 229243,
+        "elapsed": 0.175
+      }
+    },
+    "different_high_word": {
+      "left": 1,
+      "right": 65537,
+      "expected_result": 0,
+      "registers_read": {
+        "window_head": 1,
+        "window_focus": 53,
+        "window_index": 2,
+        "window_base": "86F4",
+        "working_memory": 0,
+        "argument_memory": 0
+      },
+      "result_verified": true,
+      "returncode": 0,
+      "payload_hex": "01708295a3a59ca491a46a501a0c000ef3810d001a0c200ef3811a210d001c0a00000000506b50a3a599a495509ca5955e1302",
+      "constant_return_callbacks": [
+        {
+          "offset": "330E00",
+          "hex": "c230a901008506a9000085086b"
+        },
+        {
+          "offset": "330E20",
+          "hex": "c230a901008506a9010085086b"
+        }
+      ],
+      "fixture_sha256": "1ef711c0c8767ddd20a03c058962c2413fa7875e0348e8f2f6294b982269d9c3",
+      "capture": {
+        "image": {
+          "path": "/workspace/scratch/a52b6a3f0578/v62_probe_final/ascii/different_high_word/result.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "33cb68b3ddec52bfc1046f82cc3155e116dc419c6a7ecc945ca7d9c5d0ab6491"
+        },
+        "frame": 430,
+        "audio_samples": 229243,
+        "elapsed": 0.205
+      }
+    },
+    "different_low_word": {
+      "left": 65538,
+      "right": 65537,
+      "expected_result": 0,
+      "registers_read": {
+        "window_head": 1,
+        "window_focus": 53,
+        "window_index": 2,
+        "window_base": "86F4",
+        "working_memory": 0,
+        "argument_memory": 0
+      },
+      "result_verified": true,
+      "returncode": 0,
+      "payload_hex": "01708295a3a59ca491a46a501a0c000ef3810d001a0c200ef3811a210d001c0a00000000506b50a3a599a495509ca5955e1302",
+      "constant_return_callbacks": [
+        {
+          "offset": "330E00",
+          "hex": "c230a902008506a9010085086b"
+        },
+        {
+          "offset": "330E20",
+          "hex": "c230a901008506a9010085086b"
+        }
+      ],
+      "fixture_sha256": "0ddcc4bea94bd58bc21778db3c8fd7ff6d6af6d6ff618d09689084e940625ba4",
+      "capture": {
+        "image": {
+          "path": "/workspace/scratch/a52b6a3f0578/v62_probe_final/ascii/different_low_word/result.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "33cb68b3ddec52bfc1046f82cc3155e116dc419c6a7ecc945ca7d9c5d0ab6491"
+        },
+        "frame": 430,
+        "audio_samples": 229243,
+        "elapsed": 0.178
+      }
+    },
+    "equal_zero": {
+      "left": 0,
+      "right": 0,
+      "expected_result": 1,
+      "registers_read": {
+        "window_head": 1,
+        "window_focus": 53,
+        "window_index": 2,
+        "window_base": "86F4",
+        "working_memory": 1,
+        "argument_memory": 1
+      },
+      "result_verified": true,
+      "returncode": 0,
+      "payload_hex": "01708295a3a59ca491a46a501a0c000ef3810d001a0c200ef3811a210d001c0a00000000506b50a3a599a495509ca5955e1302",
+      "constant_return_callbacks": [
+        {
+          "offset": "330E00",
+          "hex": "c230a900008506a9000085086b"
+        },
+        {
+          "offset": "330E20",
+          "hex": "c230a900008506a9000085086b"
+        }
+      ],
+      "fixture_sha256": "0543f93a749f1c32e599a720f60825da52f69480a375555a1ebd289d390f3a78",
+      "capture": {
+        "image": {
+          "path": "/workspace/scratch/a52b6a3f0578/v62_probe_final/ascii/equal_zero/result.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "568e83c8a4eae118760c14dbf0780f60a0d870d0c0419ecb0507a87f4c86b78a"
+        },
+        "frame": 430,
+        "audio_samples": 229243,
+        "elapsed": 0.181
+      }
+    }
+  }
+}

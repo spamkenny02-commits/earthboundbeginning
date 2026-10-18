@@ -1,4 +1,4 @@
-# Suite des textes après V61
+# Suite des textes après audit V62
 
 Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit pas un dénominateur de couverture.
 
@@ -17,11 +17,13 @@ Pour toute nouvelle copie, utiliser le stockage protégé de `tools/v57/safe_sto
 
 ## Prochains lots vers 100 %
 
-1. V61 corrige l’article de confirmation `34FADF`, la préposition `37BE28` et trois huées temporisées. Lever les deux routines `37C079` et `37C100`, non lues sur le code inconnu `1A 21`, avec preuve de la longueur et du rôle de cette commande avant de modifier le parseur.
+1. V61 corrige les derniers fragments courts repérés. V62 lève les routines `37C079` et `37C100` : `1A 21` est une comparaison 32 bits sans opérande, prouvée dans le moteur et testée en émulateur. Elles n’exposent aucun nouveau texte. Examiner maintenant les accès calculés et les opérations naturelles d’inventaire, de services et de combat.
 2. Classer les anciennes entrées intérieures conservées, avec preuve de leurs vrais appelants ; traiter celles accessibles par un parcours naturel. Une occurrence littérale de pointeur peut aussi être un faux positif dans des données : ne pas la réécrire sans preuve.
 3. Examiner les réponses calculées d’inventaire, de services et de combat hors graphe de l’audit ; comparer les branches avec plusieurs membres et des inventaires pleins/vides.
 4. Relire un parcours complet, les branches optionnelles et le générique avant de certifier la fin des textes visibles.
 
 Les modèles dormants d’EarthBound et les outils de débogage doivent être identifiés séparément ; leur présence binaire ne prouve pas un texte visible dans Mother 1. Les 292 candidats de l’audit V61 n’incluent pas le générique dans son format spécifique et ne mesurent pas un pourcentage.
 
-V61 : 4 681 segments hors menus examinés depuis 648 graines et 4 364 références de commandes. Aucune arête analysée ne rentre dans les plages anglaises conservées des lots V51–V53/V56–V59. Cela ne couvre ni les deux routines non lues ni les appelants calculés ou assembleur. Aucun mot anglais fréquent signalé dans les segments modifiés par le filtre de recherche ; ce filtre ne prouve pas la langue de tous les textes.
+V61 : 4 681 segments hors menus examinés depuis 648 graines et 4 364 références de commandes. Aucune arête analysée ne rentre dans les plages anglaises conservées des lots V51–V53/V56–V59. V62 couvre désormais ces deux routines, avec six débuts et onze références supplémentaires ; les appelants calculés ou assembleur restent hors du graphe. Aucun mot anglais fréquent signalé dans les segments modifiés par le filtre de recherche ; ce filtre ne prouve pas la langue de tous les textes.
+
+V62 : 648 graines, 3 341 débuts de script, 4 375 références et zéro racine bloquée dans le graphe connu, pour les deux profils. Les 4 681 segments hors menus et les 292 candidats inchangés restent identiques. Cette étape ne modifie pas les IPS V61 et ne certifie pas les parcours naturels ni 100 % des textes visibles.

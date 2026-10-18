@@ -1,0 +1,36 @@
+{
+  "version": "v62",
+  "kind": "analysis_and_validation",
+  "input_patch_version": "v61",
+  "new_ips_created": false,
+  "published_rom_modified": false,
+  "new_text_fragments": 0,
+  "blocked_roots_resolved": 2,
+  "verified_local_tests": 575,
+  "synthetic_emulator_runs": 12,
+  "all_emulator_results_verified": true,
+  "nonmenu_text_spans_examined": 4681,
+  "seed_count": 648,
+  "visited_roots": 3341,
+  "parsed_edges": 4375,
+  "unparsed_roots": [],
+  "natural_inventory_operations_verified": false,
+  "computed_callers_covered": false,
+  "text_completion_percent": null,
+  "text_completion_target_percent": 100,
+  "text_target_certified": false,
+  "input_profiles": {
+    "accents": {
+      "sha256": "3f251a0faa2b84326e408f90ea69f18bb627c629c1ed5bd205f1c2d4717c5761",
+      "target_rom_sha256": "95287d6a1272582fa6b5687ce9ac3bf2637b0da657bd6433093fba60a904016d",
+      "records_added": 20,
+      "prior_records_preserved": 8838
+    },
+    "ascii": {
+      "sha256": "ecd34de93157bc91c7e795649591284ad6f7fabf74271e16b16b2ffd915c393e",
+      "target_rom_sha256": "e3451a28b9162a2dbcd0071622777c36a7ceb1c61d913940368e7be7b6726766",
+      "records_added": 20,
+      "prior_records_preserved": 8733
+    }
+  }
+}

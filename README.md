@@ -1,5 +1,15 @@
 # EarthBound Beginnings SNES — traduction française
 
+## Audit actuel : V62 (patch de jeu V61 inchangé)
+
+Les deux routines bloquées sur `1A 21` sont désormais lues entièrement, avec preuve du handler et douze essais d’émulateur. 575 tests passent. L’audit n’a plus de racine non analysée dans son graphe connu ; les accès calculés et la relecture naturelle restent à vérifier. Aucun texte supplémentaire n’est exposé par ces routines et aucun nouvel IPS n’est nécessaire.
+
+- [Rapport V62](RAPPORT_V62.md)
+- [Preuve, parseur et audit](tools/v62/README_V62.md)
+- [Essais et captures](tests/emulation_v62/RAPPORT_EMULATION_V62.md)
+
+Les liens V61 ci-dessous restent les patchs à appliquer.
+
 ## Version actuelle : V61 (fragments courts et huées)
 
 V61 corrige **deux fragments courts et trois huées temporisées**, à taille constante. 564 tests passent, 212 captures de référence sont identiques à V60 et dix comparaisons contrôlées ne changent que le texte. L’audit des anciennes entrées conservées est enregistré avec ses limites.
