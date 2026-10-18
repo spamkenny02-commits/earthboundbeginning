@@ -1,0 +1,82 @@
+{
+  "version": "v64",
+  "base": "v61",
+  "edits": [
+    {
+      "context": "0680A6",
+      "offset": "0680B0",
+      "end": "0680C0",
+      "english": "@Please insert your ATM card.",
+      "french": "@Mets ta carte.",
+      "profiles": {
+        "accents": {
+          "baseline_hex": "1538999e17ab160e71847d509316735e",
+          "replacement_hex": "707d95a4a350a491509391a2a4955e50",
+          "trailing_padding_bytes": 1
+        },
+        "ascii": {
+          "baseline_hex": "1538999e17ab160e71847d509316735e",
+          "replacement_hex": "707d95a4a350a491509391a2a4955e50",
+          "trailing_padding_bytes": 1
+        }
+      }
+    },
+    {
+      "context": "382448",
+      "offset": "38247B",
+      "end": "382486",
+      "english": "@Balance: $",
+      "french": "@Solde : $",
+      "profiles": {
+        "accents": {
+          "baseline_hex": "7072919c919e93956a5054",
+          "replacement_hex": "70839f9c9495506a505450",
+          "trailing_padding_bytes": 1
+        },
+        "ascii": {
+          "baseline_hex": "7072919c919e93956a5054",
+          "replacement_hex": "70839f9c9495506a505450",
+          "trailing_padding_bytes": 1
+        }
+      }
+    },
+    {
+      "context": "3824A2",
+      "offset": "3824A7",
+      "end": "3824D0",
+      "english": "@Please enter the amount of your deposit.",
+      "french": "@Saisis le montant de ton dépôt.",
+      "profiles": {
+        "accents": {
+          "baseline_hex": "70809c9591a39550959ea495a250a4989550919d9fa59ea4509f9650a99fa5a2509495a09fa399a45e",
+          "replacement_hex": "70839199a399a3509c95509d9f9ea4919ea450949550a49f9e5094b0a0b8a45e505050505050505050",
+          "trailing_padding_bytes": 9
+        },
+        "ascii": {
+          "baseline_hex": "70809c9591a39550959ea495a250a4989550919d9fa59ea4509f9650a99fa5a2509495a09fa399a45e",
+          "replacement_hex": "70839199a399a3509c95509d9f9ea4919ea450949550a49f9e509495a09fa45e505050505050505050",
+          "trailing_padding_bytes": 9
+        }
+      }
+    },
+    {
+      "context": "3824A2",
+      "offset": "3824D2",
+      "end": "3824DD",
+      "english": "@Balance: $",
+      "french": "@Solde : $",
+      "profiles": {
+        "accents": {
+          "baseline_hex": "7072919c919e93956a5054",
+          "replacement_hex": "70839f9c9495506a505450",
+          "trailing_padding_bytes": 1
+        },
+        "ascii": {
+          "baseline_hex": "7072919c919e93956a5054",
+          "replacement_hex": "70839f9c9495506a505450",
+          "trailing_padding_bytes": 1
+        }
+      }
+    }
+  ]
+}
