@@ -1,0 +1,1104 @@
+{
+  "method": "natural",
+  "rom_modified_for_probe": false,
+  "wram_modified_for_probe": false,
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "versions": {
+    "56": {
+      "accents": {
+        "eat_card": {
+          "base_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "fixture_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/eat_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.045
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/eat_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b9bd1ab602498e5746c51d48c95fadffbe8dfd2e01fe13cb457ed07d4f421d35"
+              },
+              "frame": 264,
+              "audio_samples": 140744,
+              "elapsed": 0.037
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/eat_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b9bd1ab602498e5746c51d48c95fadffbe8dfd2e01fe13cb457ed07d4f421d35"
+              },
+              "frame": 414,
+              "audio_samples": 220713,
+              "elapsed": 0.084
+            }
+          ]
+        },
+        "give_card_to_self": {
+          "base_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "fixture_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/give_card_to_self/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.056
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/give_card_to_self/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.036
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/give_card_to_self/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "659db27e17e164fd17b3f3001af3c5718b891b9e569782bdb6e63d70887b7b59"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.035
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/give_card_to_self/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "112056fb69015a25b81cbcef5a21e19c96169e1c7f3e14af78868de59afdad42"
+              },
+              "frame": 412,
+              "audio_samples": 219646,
+              "elapsed": 0.037
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/give_card_to_self/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "5fc229b40b588ac7e450ac8e9740a19bc08680beeb3b0e65ac3bae663290b492"
+              },
+              "frame": 562,
+              "audio_samples": 299615,
+              "elapsed": 0.086
+            }
+          ]
+        },
+        "drop_card": {
+          "base_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "fixture_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/drop_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.045
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/drop_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.036
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/drop_card/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "d129138e0536782d5b9ee864d7f8a529a2b6622d4fba965281805f00c8a387ac"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.036
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/drop_card/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "66a374df213c7bcd7daff58c35660cb56a03ea511c97850cb044d1fea0c4ab62"
+              },
+              "frame": 412,
+              "audio_samples": 219647,
+              "elapsed": 0.038
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/drop_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "275f94237151f2e6f71a8b8ff393bac790a826075b97d77d17280119a0a196a1"
+              },
+              "frame": 562,
+              "audio_samples": 299615,
+              "elapsed": 0.089
+            }
+          ]
+        },
+        "help_card": {
+          "base_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "fixture_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/help_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.04
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/help_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.037
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/help_card/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "d129138e0536782d5b9ee864d7f8a529a2b6622d4fba965281805f00c8a387ac"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.037
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/help_card/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "a383e58393fb57e21d5b65ad03e8cbe615dd82a071f9583a689d034ba0677047"
+              },
+              "frame": 412,
+              "audio_samples": 219646,
+              "elapsed": 0.036
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/help_card/step_4.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "c042d5975db78dd813348faa5d20fc71e59c3317c70489f08dd83885f7f8dcd9"
+              },
+              "frame": 486,
+              "audio_samples": 259097,
+              "elapsed": 0.037
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/help_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "c042d5975db78dd813348faa5d20fc71e59c3317c70489f08dd83885f7f8dcd9"
+              },
+              "frame": 636,
+              "audio_samples": 339066,
+              "elapsed": 0.085
+            }
+          ]
+        },
+        "use_card": {
+          "base_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "fixture_rom_sha256": "0e0f1c2b0f8141b282b9b7984b419dc1bca409439a6f04021a212f2e3be1e3a0",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/use_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "512cb0687ee365a0ce09bab65cfabf3892d6ccce0344e95ff1f898102887851c"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.041
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/accents/use_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "39ef5172842646a0a3da4edb8d3518346825d90998a0c947b32794968e935e48"
+              },
+              "frame": 340,
+              "audio_samples": 181262,
+              "elapsed": 0.089
+            }
+          ]
+        }
+      },
+      "ascii": {
+        "eat_card": {
+          "base_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "fixture_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/eat_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.039
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/eat_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b9bd1ab602498e5746c51d48c95fadffbe8dfd2e01fe13cb457ed07d4f421d35"
+              },
+              "frame": 264,
+              "audio_samples": 140744,
+              "elapsed": 0.036
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/eat_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b9bd1ab602498e5746c51d48c95fadffbe8dfd2e01fe13cb457ed07d4f421d35"
+              },
+              "frame": 414,
+              "audio_samples": 220713,
+              "elapsed": 0.085
+            }
+          ]
+        },
+        "give_card_to_self": {
+          "base_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "fixture_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/give_card_to_self/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.04
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/give_card_to_self/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.035
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/give_card_to_self/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "541af2fd0c4ebbd76d8014884971ec1c53fa3e3bbc83cbfdbc74dd54a3d05eae"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.036
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/give_card_to_self/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "112056fb69015a25b81cbcef5a21e19c96169e1c7f3e14af78868de59afdad42"
+              },
+              "frame": 412,
+              "audio_samples": 219646,
+              "elapsed": 0.038
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/give_card_to_self/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "5fc229b40b588ac7e450ac8e9740a19bc08680beeb3b0e65ac3bae663290b492"
+              },
+              "frame": 562,
+              "audio_samples": 299615,
+              "elapsed": 0.089
+            }
+          ]
+        },
+        "drop_card": {
+          "base_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "fixture_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/drop_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.04
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/drop_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.038
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/drop_card/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "d129138e0536782d5b9ee864d7f8a529a2b6622d4fba965281805f00c8a387ac"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.035
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/drop_card/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "66a374df213c7bcd7daff58c35660cb56a03ea511c97850cb044d1fea0c4ab62"
+              },
+              "frame": 412,
+              "audio_samples": 219647,
+              "elapsed": 0.039
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/drop_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "275f94237151f2e6f71a8b8ff393bac790a826075b97d77d17280119a0a196a1"
+              },
+              "frame": 562,
+              "audio_samples": 299615,
+              "elapsed": 0.085
+            }
+          ]
+        },
+        "help_card": {
+          "base_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "fixture_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/help_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.039
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/help_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.036
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/help_card/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "d129138e0536782d5b9ee864d7f8a529a2b6622d4fba965281805f00c8a387ac"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.035
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/help_card/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "a383e58393fb57e21d5b65ad03e8cbe615dd82a071f9583a689d034ba0677047"
+              },
+              "frame": 412,
+              "audio_samples": 219646,
+              "elapsed": 0.035
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/help_card/step_4.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "c042d5975db78dd813348faa5d20fc71e59c3317c70489f08dd83885f7f8dcd9"
+              },
+              "frame": 486,
+              "audio_samples": 259097,
+              "elapsed": 0.035
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/help_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "c042d5975db78dd813348faa5d20fc71e59c3317c70489f08dd83885f7f8dcd9"
+              },
+              "frame": 636,
+              "audio_samples": 339066,
+              "elapsed": 0.093
+            }
+          ]
+        },
+        "use_card": {
+          "base_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "fixture_rom_sha256": "94b1f3a10a17f69b804f7e2687779c50942b4151d853490e69e8dc8cae1dee36",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/use_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "431d8b24150ed6cfe11c6bdff56d2a5f5433b2ba6499dc458fb8f61ecfbaec0d"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.043
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v56/ascii/use_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b80f8fb4bb8cc4ad05b74f58b82b6c4a318a5e3e0c2b6a535d28dded71c9dfca"
+              },
+              "frame": 340,
+              "audio_samples": 181262,
+              "elapsed": 0.086
+            }
+          ]
+        }
+      }
+    },
+    "57": {
+      "accents": {
+        "eat_card": {
+          "base_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "fixture_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/eat_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.043
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/eat_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "edc7574e89249faa6c659eb26aebb146c877fd85fa179f458b16a592a0a32730"
+              },
+              "frame": 264,
+              "audio_samples": 140744,
+              "elapsed": 0.038
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/eat_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "edc7574e89249faa6c659eb26aebb146c877fd85fa179f458b16a592a0a32730"
+              },
+              "frame": 414,
+              "audio_samples": 220713,
+              "elapsed": 0.087
+            }
+          ]
+        },
+        "give_card_to_self": {
+          "base_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "fixture_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/give_card_to_self/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.041
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/give_card_to_self/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.037
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/give_card_to_self/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "659db27e17e164fd17b3f3001af3c5718b891b9e569782bdb6e63d70887b7b59"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.035
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/give_card_to_self/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "a6e17beb135e4a1b36882f6c0c42c7244ef2cf922902188a2137cc491ac86acf"
+              },
+              "frame": 412,
+              "audio_samples": 219646,
+              "elapsed": 0.039
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/give_card_to_self/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "578dafcef38bc2b5dba22f66a903610252e7e19797b709e109030820af59c045"
+              },
+              "frame": 562,
+              "audio_samples": 299615,
+              "elapsed": 0.144
+            }
+          ]
+        },
+        "drop_card": {
+          "base_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "fixture_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/drop_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.042
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/drop_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.052
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/drop_card/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "d129138e0536782d5b9ee864d7f8a529a2b6622d4fba965281805f00c8a387ac"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.06
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/drop_card/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "66a374df213c7bcd7daff58c35660cb56a03ea511c97850cb044d1fea0c4ab62"
+              },
+              "frame": 412,
+              "audio_samples": 219647,
+              "elapsed": 0.064
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/drop_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "275f94237151f2e6f71a8b8ff393bac790a826075b97d77d17280119a0a196a1"
+              },
+              "frame": 562,
+              "audio_samples": 299615,
+              "elapsed": 0.146
+            }
+          ]
+        },
+        "help_card": {
+          "base_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "fixture_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/help_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.04
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/help_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.049
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/help_card/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "d129138e0536782d5b9ee864d7f8a529a2b6622d4fba965281805f00c8a387ac"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.035
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/help_card/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "a383e58393fb57e21d5b65ad03e8cbe615dd82a071f9583a689d034ba0677047"
+              },
+              "frame": 412,
+              "audio_samples": 219646,
+              "elapsed": 0.046
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/help_card/step_4.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "c042d5975db78dd813348faa5d20fc71e59c3317c70489f08dd83885f7f8dcd9"
+              },
+              "frame": 486,
+              "audio_samples": 259097,
+              "elapsed": 0.037
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/help_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "c042d5975db78dd813348faa5d20fc71e59c3317c70489f08dd83885f7f8dcd9"
+              },
+              "frame": 636,
+              "audio_samples": 339066,
+              "elapsed": 0.158
+            }
+          ]
+        },
+        "use_card": {
+          "base_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "fixture_rom_sha256": "db05ae36cab850603a130e79aec319c0fde8970792a1a419843b1761011e69ed",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/use_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "512cb0687ee365a0ce09bab65cfabf3892d6ccce0344e95ff1f898102887851c"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.04
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/accents/use_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "39ef5172842646a0a3da4edb8d3518346825d90998a0c947b32794968e935e48"
+              },
+              "frame": 340,
+              "audio_samples": 181262,
+              "elapsed": 0.086
+            }
+          ]
+        }
+      },
+      "ascii": {
+        "eat_card": {
+          "base_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "fixture_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/eat_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.043
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/eat_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "f9bdd8114f83ed822af3e1946f0de4cbe6b68444ae5358f6dc1fee6091305c41"
+              },
+              "frame": 264,
+              "audio_samples": 140744,
+              "elapsed": 0.038
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/eat_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "f9bdd8114f83ed822af3e1946f0de4cbe6b68444ae5358f6dc1fee6091305c41"
+              },
+              "frame": 414,
+              "audio_samples": 220713,
+              "elapsed": 0.088
+            }
+          ]
+        },
+        "give_card_to_self": {
+          "base_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "fixture_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/give_card_to_self/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.043
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/give_card_to_self/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.038
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/give_card_to_self/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "541af2fd0c4ebbd76d8014884971ec1c53fa3e3bbc83cbfdbc74dd54a3d05eae"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.037
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/give_card_to_self/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "50543e64da5857d9a0a1214f8dc46ce6b967c4d0776bc27a7990656c2e28299d"
+              },
+              "frame": 412,
+              "audio_samples": 219646,
+              "elapsed": 0.038
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/give_card_to_self/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "4537d960ba39407095a2aa1fbc7b3956a6894bc5fdc999d5225b963046a04fcc"
+              },
+              "frame": 562,
+              "audio_samples": 299615,
+              "elapsed": 0.094
+            }
+          ]
+        },
+        "drop_card": {
+          "base_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "fixture_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/drop_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.04
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/drop_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.036
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/drop_card/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "d129138e0536782d5b9ee864d7f8a529a2b6622d4fba965281805f00c8a387ac"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.043
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/drop_card/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "66a374df213c7bcd7daff58c35660cb56a03ea511c97850cb044d1fea0c4ab62"
+              },
+              "frame": 412,
+              "audio_samples": 219647,
+              "elapsed": 0.05
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/drop_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "275f94237151f2e6f71a8b8ff393bac790a826075b97d77d17280119a0a196a1"
+              },
+              "frame": 562,
+              "audio_samples": 299615,
+              "elapsed": 0.129
+            }
+          ]
+        },
+        "help_card": {
+          "base_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "fixture_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/help_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "1b9dd6f34c7cc1b02c488d6dfd761d4f358bc5960cff9c7eb60030e78bed8d17"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.048
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/help_card/step_1.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b28967df51bf2af4bac8b472adef711acd29c27b27978c3be89327214ed2ea26"
+              },
+              "frame": 264,
+              "audio_samples": 140745,
+              "elapsed": 0.041
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/help_card/step_2.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "d129138e0536782d5b9ee864d7f8a529a2b6622d4fba965281805f00c8a387ac"
+              },
+              "frame": 338,
+              "audio_samples": 180195,
+              "elapsed": 0.039
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/help_card/step_3.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "a383e58393fb57e21d5b65ad03e8cbe615dd82a071f9583a689d034ba0677047"
+              },
+              "frame": 412,
+              "audio_samples": 219646,
+              "elapsed": 0.06
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/help_card/step_4.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "c042d5975db78dd813348faa5d20fc71e59c3317c70489f08dd83885f7f8dcd9"
+              },
+              "frame": 486,
+              "audio_samples": 259097,
+              "elapsed": 0.049
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/help_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "c042d5975db78dd813348faa5d20fc71e59c3317c70489f08dd83885f7f8dcd9"
+              },
+              "frame": 636,
+              "audio_samples": 339066,
+              "elapsed": 0.094
+            }
+          ]
+        },
+        "use_card": {
+          "base_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "fixture_rom_sha256": "9ef44ddcc5474795d6d295c819d099617eacf646956707e9a9e46eeacc94fa76",
+          "only_declared_routing_changed": true,
+          "returncode": 0,
+          "captures": [
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/use_card/step_0.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "431d8b24150ed6cfe11c6bdff56d2a5f5433b2ba6499dc458fb8f61ecfbaec0d"
+              },
+              "frame": 190,
+              "audio_samples": 101293,
+              "elapsed": 0.044
+            },
+            {
+              "image": {
+                "path": "/workspace/scratch/a52b6a3f0578/v57_natural/v57/ascii/use_card/response.png",
+                "width": 256,
+                "height": 224,
+                "sha256_rgb": "b80f8fb4bb8cc4ad05b74f58b82b6c4a318a5e3e0c2b6a535d28dded71c9dfca"
+              },
+              "frame": 340,
+              "audio_samples": 181262,
+              "elapsed": 0.088
+            }
+          ]
+        }
+      }
+    }
+  }
+}

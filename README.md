@@ -1,6 +1,19 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V56 (textes avant les menus)
+## Version actuelle : V57 (textes d’objets et d’inventaire)
+
+V57 reprend **37 zones, soit 63 fragments modifiés** dans 23 contextes : nourriture, boissons, réception et rangement des objets, refus d’utilisation, vélo, pancarte, Souris de sortie et inventaire. Les noms et quantités dynamiques sont conservés.
+
+- [Patch V57 avec accents](patches/EarthBound_Beginnings_FR_v57_accents.ips)
+- [Patch V57 ASCII](patches/EarthBound_Beginnings_FR_v57_ascii.ips)
+- [Rapport V57](RAPPORT_V57.md)
+- [Sources et tests](tools/v57/README_V57.md)
+- [Essais et captures](tests/emulation_v57/RAPPORT_EMULATION_V57.md)
+- [Textes restant à examiner](RESTANT_TEXTES.md)
+
+Appliquer **un seul IPS V57 directement à la ROM originale USA 1.2**. 480 tests réussis, 212 captures de référence identiques à V56 et 66 essais d’affichage. La traduction reste partielle : l’objectif de 85 % des textes n’est pas certifié. Priorité aux textes, puis aux menus. Aucune ROM distribuée.
+
+## Version précédente : V56 (textes avant les menus)
 
 V56 reprend **22 zones de texte, soit 24 fragments** : journal, réparations, PSI, vélo, poubelles, coffres, cercueils, absence de réponse et rires. Deux anciennes copies du message « But nothing happened. » sont corrigées ; l'usage normal de Télépathie affiche désormais « Mais rien ne se passe. ».
 
