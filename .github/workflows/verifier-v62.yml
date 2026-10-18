@@ -1,0 +1,21 @@
+name: Verify V62 audit offline
+
+on:
+  push:
+    paths:
+      - 'tools/v62/**'
+      - '.github/workflows/verifier-v62.yml'
+  pull_request:
+    paths:
+      - 'tools/v62/**'
+      - '.github/workflows/verifier-v62.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v62 -p test_v62_offline.py -v
