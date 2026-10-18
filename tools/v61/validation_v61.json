@@ -1,0 +1,26 @@
+{
+  "version": "v61",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "short_lexical_fragments": 2,
+  "timed_boo_scenes": 3,
+  "modified_glyph_fragments": 20,
+  "contexts_revised": 5,
+  "new_allocations": 0,
+  "pointer_operands_rewritten": 0,
+  "commands_preserved": true,
+  "natural_branch_access_verified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "3f251a0faa2b84326e408f90ea69f18bb627c629c1ed5bd205f1c2d4717c5761",
+      "target_rom_sha256": "95287d6a1272582fa6b5687ce9ac3bf2637b0da657bd6433093fba60a904016d",
+      "records_added": 20,
+      "prior_records_preserved": 8838
+    },
+    "ascii": {
+      "sha256": "ecd34de93157bc91c7e795649591284ad6f7fabf74271e16b16b2ffd915c393e",
+      "target_rom_sha256": "e3451a28b9162a2dbcd0071622777c36a7ceb1c61d913940368e7be7b6726766",
+      "records_added": 20,
+      "prior_records_preserved": 8733
+    }
+  }
+}
