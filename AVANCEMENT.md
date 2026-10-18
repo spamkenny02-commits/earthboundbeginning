@@ -15,3 +15,5 @@ V58 : 33 fragments modifiés dans des modèles hérités d’objets et de recher
 V59 : 61 fragments de boutiques et livraisons traduits ; 537 tests, 118 lectures isolées, 212 captures identiques à V58. Un checkpoint Git précède la publication. Objectif utilisateur : 100 % des textes, puis menus ; aucun taux exhaustif certifié.
 
 V60 : 21 intitulés du générique traduits, 42 noms/mentions inchangés, hauteur de 1 680 pixels conservée. 554 tests, 212 captures de référence identiques à V59 et reconstitution statique avec la police réelle. Checkpoint Git séparé. Une fin de partie complète et les accès restants empêchent encore de certifier 100 % des textes.
+
+V61 : deux fragments courts et trois huées corrigés (20 fragments de glyphes, cinq contextes). 564 tests et 212 captures identiques à V60 ; dix comparaisons contrôlées changent uniquement le texte. Audit de 4 681 segments hors menus : aucun appel analysé vers les anciennes plages conservées, deux routines non lues et 292 candidats inchangés à qualifier. 100 % du jeu reste non certifié.

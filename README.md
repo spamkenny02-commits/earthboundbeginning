@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V60 (générique textuel)
+## Version actuelle : V61 (fragments courts et huées)
+
+V61 corrige **deux fragments courts et trois huées temporisées**, à taille constante. 564 tests passent, 212 captures de référence sont identiques à V60 et dix comparaisons contrôlées ne changent que le texte. L’audit des anciennes entrées conservées est enregistré avec ses limites.
+
+- [Patch V61 avec accents](patches/EarthBound_Beginnings_FR_v61_accents.ips)
+- [Patch V61 ASCII](patches/EarthBound_Beginnings_FR_v61_ascii.ips)
+- [Rapport V61](RAPPORT_V61.md)
+- [Sources, tests et audit](tools/v61/README_V61.md)
+- [Affichage et captures](tests/emulation_v61/RAPPORT_EMULATION_V61.md)
+
+Appliquer **un seul IPS V61 directement à la ROM originale USA 1.2**. Objectif : 100 % des textes visibles, puis les menus. La couverture complète reste à certifier. Un checkpoint Git séparé protège chaque gros lot. Aucune ROM distribuée.
+
+## Version précédente : V60 (générique textuel)
 
 V60 traduit **21 intitulés du générique** et conserve les 42 noms/mentions, les espacements et le nom dynamique du joueur. 554 tests passent et 212 captures du parcours de référence sont identiques à V59. Le générique est relu avec la police réelle en reconstitution statique ; sa lecture complète en émulateur reste à vérifier.
 
