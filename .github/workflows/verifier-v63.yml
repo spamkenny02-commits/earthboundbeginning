@@ -1,0 +1,24 @@
+name: Verify V63 live text evidence
+
+on:
+  push:
+    paths:
+      - 'tools/v63/**'
+      - 'tests/emulation_v63/**'
+      - '.github/workflows/verifier-v63.yml'
+  pull_request:
+    paths:
+      - 'tools/v63/**'
+      - 'tests/emulation_v63/**'
+      - '.github/workflows/verifier-v63.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v62 -p test_v62_offline.py -v
+      - run: python3 -m unittest discover -s tools/v63 -p 'test*.py' -v

@@ -1,4 +1,4 @@
-# Suite des textes après audit V62
+# Suite des textes après audit V63
 
 Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit pas un dénominateur de couverture.
 
@@ -27,3 +27,5 @@ Les modèles dormants d’EarthBound et les outils de débogage doivent être id
 V61 : 4 681 segments hors menus examinés depuis 648 graines et 4 364 références de commandes. Aucune arête analysée ne rentre dans les plages anglaises conservées des lots V51–V53/V56–V59. V62 couvre désormais ces deux routines, avec six débuts et onze références supplémentaires ; les appelants calculés ou assembleur restent hors du graphe. Aucun mot anglais fréquent signalé dans les segments modifiés par le filtre de recherche ; ce filtre ne prouve pas la langue de tous les textes.
 
 V62 : 648 graines, 3 341 débuts de script, 4 375 références et zéro racine bloquée dans le graphe connu, pour les deux profils. Les 4 681 segments hors menus et les 292 candidats inchangés restent identiques. Cette étape ne modifie pas les IPS V61 et ne certifie pas les parcours naturels ni 100 % des textes visibles.
+
+V63 : premier lot de lectures en jeu au-delà du graphe statique. Sept parcours de carte bancaire et Télépathie, dans les deux profils (14 essais, 10 488 images), confirment les messages français de consommation, don à soi, refus de jeter, aide et échec PSI. Les traces et leurs limites sont dans `RAPPORT_V63.md`. Aucun texte corrigé ni nouvel IPS. Poursuivre avec les services, les autres objets, le combat et les configurations à plusieurs personnages/inventaires pleins ; ce premier lot n'épuise pas les accès calculés. Les commandes anglaises du menu d'action sont réservées à la phase menus.

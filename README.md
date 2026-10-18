@@ -1,6 +1,13 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Audit actuel : V62 (patch de jeu V61 inchangé)
+## Audit actuel : V63 (patch de jeu V61 inchangé)
+
+Les accès de texte sont désormais observés en jeu, au-delà du graphe statique. Sept parcours d'inventaire et de PSI passent dans les deux profils : 14 essais, 10 488 images échantillonnées et 14 captures relues. Les messages de ce lot sont français ; aucun nouvel IPS n'est nécessaire. Les autres branches calculées et le parcours complet restent à vérifier.
+
+- [Rapport V63 et captures](RAPPORT_V63.md)
+- [Méthode et reproduction](tools/v63/README_V63.md)
+
+## Audit précédent : V62 (patch de jeu V61 inchangé)
 
 Les deux routines bloquées sur `1A 21` sont désormais lues entièrement, avec preuve du handler et douze essais d’émulateur. 575 tests passent. L’audit n’a plus de racine non analysée dans son graphe connu ; les accès calculés et la relecture naturelle restent à vérifier. Aucun texte supplémentaire n’est exposé par ces routines et aucun nouvel IPS n’est nécessaire.
 

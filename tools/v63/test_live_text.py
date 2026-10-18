@@ -14,4 +14,27 @@ class LiveTextTests(unittest.TestCase):
     def test_invalid_capture_is_rejected(self):
         with self.assertRaises(ValueError):current_pointer(self.memory(10))
         with self.assertRaises(ValueError):current_pointer(self.memory(1)[:-1])
+
+class EvidenceTests(unittest.TestCase):
+    def test_published_traces_are_consistent(self):
+        import collections,json
+        from pathlib import Path
+        root=Path(__file__).resolve().parents[2]
+        expected={'use_card','eat_card','give_card_to_self','drop_card','help_card','telepathy','help_card_description'}
+        for profile in ('accents','ascii'):
+            report=json.loads((root/f'tests/emulation_v63/results_{profile}.json').read_text())
+            self.assertEqual(set(report['cases']),expected)
+            self.assertFalse(report['rom_modified_for_probe']);self.assertFalse(report['wram_written_by_probe'])
+            for case in report['cases'].values():
+                counts=collections.Counter();events=case['events'];n=case['sampled_frames']
+                self.assertEqual(case['returncode'],0)
+                self.assertTrue(events)
+                self.assertLessEqual(events[-1]['frame'],n)
+                for i,event in enumerate(events):
+                    stop=events[i+1]['frame'] if i+1<len(events) else n+1
+                    self.assertGreater(stop,event['frame'])
+                    if event['pointer']:counts[event['pointer']['rom_offset']]+=stop-event['frame']
+                self.assertEqual(dict(counts),case['pointer_frame_counts'])
+                self.assertTrue((root/case['capture']['path']).is_file())
+
 if __name__=='__main__':unittest.main()
