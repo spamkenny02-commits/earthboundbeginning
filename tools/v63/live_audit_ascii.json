@@ -1,0 +1,305 @@
+{
+  "version": "v63",
+  "profile": "ascii",
+  "input_patch": "v61",
+  "new_ips": false,
+  "rom_sha256": "e3451a28b9162a2dbcd0071622777c36a7ceb1c61d913940368e7be7b6726766",
+  "comparison": "Sampled next-byte cursors versus successfully parsed V62 script intervals (including end cursors)",
+  "frame_sampling_is_exhaustive": false,
+  "outside_cursor_is_new_english_text": false,
+  "natural_controller_routes_from_saved_state": true,
+  "full_game_text_completion_certified": false,
+  "cases": {
+    "use_card": {
+      "sampled_frames": 580,
+      "unique_rom_cursors": 71,
+      "cursors_outside_v62_parsed_intervals": 0,
+      "outside_cursor_groups": []
+    },
+    "eat_card": {
+      "sampled_frames": 654,
+      "unique_rom_cursors": 34,
+      "cursors_outside_v62_parsed_intervals": 34,
+      "outside_cursor_groups": [
+        {
+          "first": "330EE5",
+          "last": "330F06",
+          "sampled_cursors": [
+            "330EE5",
+            "330EE6",
+            "330EE7",
+            "330EE8",
+            "330EE9",
+            "330EEA",
+            "330EEB",
+            "330EEC",
+            "330EEE",
+            "330EEF",
+            "330EF0",
+            "330EF1",
+            "330EF2",
+            "330EF3",
+            "330EF4",
+            "330EF5",
+            "330EF6",
+            "330EF7",
+            "330EF8",
+            "330EF9",
+            "330EFA",
+            "330EFB",
+            "330EFC",
+            "330EFD",
+            "330EFE",
+            "330EFF",
+            "330F00",
+            "330F01",
+            "330F02",
+            "330F03",
+            "330F04",
+            "330F05",
+            "330F06"
+          ]
+        },
+        {
+          "first": "38E7C0",
+          "last": "38E7C0",
+          "sampled_cursors": [
+            "38E7C0"
+          ]
+        }
+      ]
+    },
+    "give_card_to_self": {
+      "sampled_frames": 802,
+      "unique_rom_cursors": 43,
+      "cursors_outside_v62_parsed_intervals": 40,
+      "outside_cursor_groups": [
+        {
+          "first": "07E401",
+          "last": "07E404",
+          "sampled_cursors": [
+            "07E401",
+            "07E404"
+          ]
+        },
+        {
+          "first": "07E42B",
+          "last": "07E42B",
+          "sampled_cursors": [
+            "07E42B"
+          ]
+        },
+        {
+          "first": "330B11",
+          "last": "330B42",
+          "sampled_cursors": [
+            "330B11",
+            "330B12",
+            "330B13",
+            "330B14",
+            "330B15",
+            "330B16",
+            "330B17",
+            "330B18",
+            "330B19",
+            "330B1A",
+            "330B1B",
+            "330B1C",
+            "330B26",
+            "330B27",
+            "330B28",
+            "330B29",
+            "330B2A",
+            "330B2B",
+            "330B2C",
+            "330B2D",
+            "330B2E",
+            "330B2F",
+            "330B30",
+            "330B31",
+            "330B32",
+            "330B33",
+            "330B34",
+            "330B35",
+            "330B36",
+            "330B37",
+            "330B38",
+            "330B39",
+            "330B3A",
+            "330B3B",
+            "330B3C",
+            "330B41",
+            "330B42"
+          ]
+        }
+      ]
+    },
+    "drop_card": {
+      "sampled_frames": 802,
+      "unique_rom_cursors": 28,
+      "cursors_outside_v62_parsed_intervals": 28,
+      "outside_cursor_groups": [
+        {
+          "first": "320A51",
+          "last": "320A6E",
+          "sampled_cursors": [
+            "320A51",
+            "320A52",
+            "320A53",
+            "320A54",
+            "320A55",
+            "320A56",
+            "320A57",
+            "320A58",
+            "320A59",
+            "320A5A",
+            "320A5B",
+            "320A5C",
+            "320A5D",
+            "320A5E",
+            "320A5F",
+            "320A60",
+            "320A61",
+            "320A62",
+            "320A63",
+            "320A64",
+            "320A65",
+            "320A66",
+            "320A67",
+            "320A68",
+            "320A69",
+            "320A6C",
+            "320A6D",
+            "320A6E"
+          ]
+        }
+      ]
+    },
+    "help_card": {
+      "sampled_frames": 876,
+      "unique_rom_cursors": 5,
+      "cursors_outside_v62_parsed_intervals": 5,
+      "outside_cursor_groups": [
+        {
+          "first": "357046",
+          "last": "35704C",
+          "sampled_cursors": [
+            "357046",
+            "357047",
+            "35704A",
+            "35704B",
+            "35704C"
+          ]
+        }
+      ]
+    },
+    "telepathy": {
+      "sampled_frames": 580,
+      "unique_rom_cursors": 38,
+      "cursors_outside_v62_parsed_intervals": 24,
+      "outside_cursor_groups": [
+        {
+          "first": "2552A1",
+          "last": "2552B7",
+          "sampled_cursors": [
+            "2552A1",
+            "2552A2",
+            "2552A3",
+            "2552A4",
+            "2552A5",
+            "2552A6",
+            "2552A7",
+            "2552A8",
+            "2552A9",
+            "2552AA",
+            "2552AB",
+            "2552AC",
+            "2552AD",
+            "2552AE",
+            "2552AF",
+            "2552B0",
+            "2552B1",
+            "2552B2",
+            "2552B3",
+            "2552B4",
+            "2552B5",
+            "2552B6",
+            "2552B7"
+          ]
+        },
+        {
+          "first": "37A96D",
+          "last": "37A96D",
+          "sampled_cursors": [
+            "37A96D"
+          ]
+        }
+      ]
+    },
+    "help_card_description": {
+      "sampled_frames": 950,
+      "unique_rom_cursors": 52,
+      "cursors_outside_v62_parsed_intervals": 52,
+      "outside_cursor_groups": [
+        {
+          "first": "357046",
+          "last": "35707C",
+          "sampled_cursors": [
+            "357046",
+            "357047",
+            "35704A",
+            "35704B",
+            "35704C",
+            "35704E",
+            "35704F",
+            "357050",
+            "357051",
+            "357052",
+            "357053",
+            "357054",
+            "357055",
+            "357056",
+            "357057",
+            "357058",
+            "357059",
+            "35705A",
+            "35705B",
+            "35705C",
+            "35705D",
+            "35705E",
+            "35705F",
+            "357060",
+            "357061",
+            "357062",
+            "357063",
+            "357064",
+            "357065",
+            "357066",
+            "357067",
+            "357068",
+            "357069",
+            "35706A",
+            "35706B",
+            "35706C",
+            "35706D",
+            "35706E",
+            "35706F",
+            "357070",
+            "357071",
+            "357072",
+            "357073",
+            "357074",
+            "357075",
+            "357076",
+            "357077",
+            "357078",
+            "357079",
+            "35707A",
+            "35707B",
+            "35707C"
+          ]
+        }
+      ]
+    }
+  }
+}
