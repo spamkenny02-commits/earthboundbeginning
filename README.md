@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V57 (textes d’objets et d’inventaire)
+## Version actuelle : V58 (textes de transformation et de recherche)
+
+V58 traduit **33 fragments dans 20 zones** : transformation, dentifrice, recherche de truffes et huit directions. Ces modèles hérités sont vérifiés en lecture contrôlée ; leurs accès naturels dans le portage restent à établir.
+
+- [Patch V58 avec accents](patches/EarthBound_Beginnings_FR_v58_accents.ips)
+- [Patch V58 ASCII](patches/EarthBound_Beginnings_FR_v58_ascii.ips)
+- [Rapport V58](RAPPORT_V58.md)
+- [Sources et tests](tools/v58/README_V58.md)
+- [Affichage et captures](tests/emulation_v58/RAPPORT_EMULATION_V58.md)
+
+Appliquer **un seul IPS V58 directement à la ROM originale USA 1.2**. 511 tests réussis, 212 captures de référence identiques à V57 et 28 lectures contrôlées. La traduction reste partielle ; l’objectif de 85 % des textes n’est pas certifié. Les textes restent prioritaires, les menus suivent. Aucune ROM distribuée.
+
+## Version précédente : V57 (textes d’objets et d’inventaire)
 
 V57 reprend **37 zones, soit 63 fragments modifiés** dans 23 contextes : nourriture, boissons, réception et rangement des objets, refus d’utilisation, vélo, pancarte, Souris de sortie et inventaire. Les noms et quantités dynamiques sont conservés.
 

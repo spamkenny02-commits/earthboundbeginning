@@ -1,0 +1,34 @@
+{
+  "version": "v58",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "text_runs_revised": 20,
+  "new_text_fragments": 33,
+  "retained_text_fragments": 1,
+  "prior_french_fragments_preserved": 0,
+  "contexts_revised": 14,
+  "literal_reference_operands_rewritten": 0,
+  "shared_dictionary_modified": false,
+  "private_possessive_calls_redirected": 3,
+  "existing_v50_grammar_helpers_reused": [
+    "251E0C",
+    "251E1C"
+  ],
+  "sprite_groups_protected": 464,
+  "sprite_frames_protected": 4177,
+  "new_copies_in_original_padding": true,
+  "natural_scene_access_verified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "446f14b5695a9bd086ce33293c1a1ea694cc1c8335e09a9bfbe05b9e66dbb1d9",
+      "target_rom_sha256": "e574366edae09fb0e70849978aaea7006123699a070ff2a356d9361ac085997f",
+      "records_added": 40,
+      "prior_records_preserved": 8679
+    },
+    "ascii": {
+      "sha256": "c95eda144079ff491fce3c2c7f12d11566e7bd3574486ecf67416a1017393389",
+      "target_rom_sha256": "14baec4c34c6eeeff617f4e12c6ff13556e880f157dba893ae2070ebe1fe9d56",
+      "records_added": 40,
+      "prior_records_preserved": 8574
+    }
+  }
+}

@@ -1,0 +1,1597 @@
+{
+  "storage": {
+    "padding_bounds": [
+      "328A70",
+      "331000"
+    ],
+    "sprite_groups": 464,
+    "sprite_frames": 4177,
+    "baseline_sprite_sha256": {
+      "accents": "17127823cc216ad11cbb611b120286eea0ca073d9390368aba3633bbf7999cae",
+      "ascii": "1710046fd82c64792de534d08b7dd0eabe58ddd3ee8f07ac63031bb2b5f8f559"
+    }
+  },
+  "version": "v58",
+  "base": "v57",
+  "edits": [
+    {
+      "offset": "097CD2",
+      "end": "097CED",
+      "context": "097CCA",
+      "fr": [
+        " saupoudre",
+        " ",
+        " sur ",
+        " tête."
+      ],
+      "already_french_spans": [],
+      "possessive_call": true,
+      "profiles": {
+        "accents": {
+          "baseline_hex": "17f4a2999e9b9c95940015951c050015cf50086ee6c7005017295e",
+          "english_or_prior_french": [
+            " sprinkled",
+            "  the ",
+            " over ",
+            " head."
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "17f4a2999e9b9c95940015951c050015cf50086ee6c7005017295e",
+          "english_or_prior_french": [
+            " sprinkled",
+            "  the ",
+            " over ",
+            " head."
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330D08",
+      "capacity": 36
+    },
+    {
+      "offset": "097CEF",
+      "end": "097D1F",
+      "context": "097CCA",
+      "fr": [
+        "@Oh là là! ",
+        " se transforme",
+        " en un énorme dragon cracheur de feu!"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "70899f15faa35151501c0d50173c95940050160b915097999716dc99935c509699a2955d9215b6168a94a291979f9e51",
+          "english_or_prior_french": [
+            "@Yoicks!! ",
+            " turned",
+            "  into a gigantic, fire-breathing dragon!"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "70899f15faa35151501c0d50173c95940050160b915097999716dc99935c509699a2955d9215b6168a94a291979f9e51",
+          "english_or_prior_french": [
+            "@Yoicks!! ",
+            " turned",
+            "  into a gigantic, fire-breathing dragon!"
+          ]
+        }
+      },
+      "interior_targets": [
+        "097CFD"
+      ],
+      "copy_offset": "330550",
+      "capacity": 70
+    },
+    {
+      "offset": "097EFB",
+      "end": "097F14",
+      "context": "097EFA",
+      "fr": [
+        "@",
+        " utilise ",
+        " : ",
+        " dentition"
+      ],
+      "already_french_spans": [],
+      "possessive_call": true,
+      "profiles": {
+        "accents": {
+          "baseline_hex": "701c0d191f1b0416ac1c05001504086ee6c70050a49595a498",
+          "english_or_prior_french": [
+            "@",
+            " used ",
+            " and ",
+            " teeth"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "701c0d191f1b0416ac1c05001504086ee6c70050a49595a498",
+          "english_or_prior_french": [
+            "@",
+            " used ",
+            " and ",
+            " teeth"
+          ]
+        }
+      },
+      "interior_targets": [
+        "097F02",
+        "097F03",
+        "097F0A",
+        "097F0C"
+      ],
+      "copy_offset": "330CB4",
+      "capacity": 42
+    },
+    {
+      "offset": "097F16",
+      "end": "097F2B",
+      "context": "097EFA",
+      "fr": [
+        "@est blanche, et l'haleine fraîche!"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "70178c50a79899a415af9216829815c49617519851",
+          "english_or_prior_french": [
+            "@were white and breath was fresh!"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "70178c50a79899a415af9216829815c49617519851",
+          "english_or_prior_french": [
+            "@were white and breath was fresh!"
+          ]
+        }
+      },
+      "interior_targets": [
+        "097F28"
+      ],
+      "copy_offset": "330CE0",
+      "capacity": 40
+    },
+    {
+      "offset": "097F2D",
+      "end": "097F43",
+      "context": "097EFA",
+      "fr": [
+        "@Le sourire de",
+        " ",
+        ""
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "151492a215bb160915860050501c0d1539a49595a498",
+          "english_or_prior_french": [
+            "@The brightness of",
+            "  ",
+            "'s teeth"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "151492a215bb160915860050501c0d1539a49595a498",
+          "english_or_prior_french": [
+            "@The brightness of",
+            "  ",
+            "'s teeth"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330468",
+      "capacity": 23
+    },
+    {
+      "offset": "097F45",
+      "end": "097F54",
+      "context": "097EFA",
+      "fr": [
+        "@effraie l'ennemi!"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "709d919415151742a950a316709451",
+          "english_or_prior_french": [
+            "@made the enemy scared!"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "709d919415151742a950a316709451",
+          "english_or_prior_french": [
+            "@made the enemy scared!"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330480",
+      "capacity": 23
+    },
+    {
+      "offset": "09F89F",
+      "end": "09F8B5",
+      "context": "09F897",
+      "fr": [
+        " place",
+        " ",
+        " sur ",
+        " nez!"
+      ],
+      "already_french_spans": [],
+      "possessive_call": true,
+      "grammar_helper": "son",
+      "profiles": {
+        "accents": {
+          "baseline_hex": "50a0a5a40015951c050016bc086ee6c7001758a39551",
+          "english_or_prior_french": [
+            " put",
+            "  the ",
+            " on ",
+            " nose!"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "50a0a5a40015951c050016bc086ee6c7001758a39551",
+          "english_or_prior_french": [
+            " put",
+            "  the ",
+            " on ",
+            " nose!"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330D2C",
+      "capacity": 31
+    },
+    {
+      "offset": "09F8BD",
+      "end": "09F8DC",
+      "context": "09F897",
+      "fr": [
+        " cherche l'odeur",
+        " de la truffe magique."
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "50a315ea16e694150f1647005050a39d167f15099d17be16efa596969c955e",
+          "english_or_prior_french": [
+            " searched for the",
+            "  smell of the magic truffle."
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "50a315ea16e694150f1647005050a39d167f15099d17be16efa596969c955e",
+          "english_or_prior_french": [
+            " searched for the",
+            "  smell of the magic truffle."
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "3305D0",
+      "capacity": 44
+    },
+    {
+      "offset": "09F8FD",
+      "end": "09F90D",
+      "context": "09F897",
+      "fr": [
+        "@(Encore un peu plus loin "
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "17d4a416cb164291155f96a5a215be50",
+          "english_or_prior_french": [
+            "@(It must be a little further "
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "17d4a416cb164291155f96a5a215be50",
+          "english_or_prior_french": [
+            "@(It must be a little further "
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330D4C",
+      "capacity": 31
+    },
+    {
+      "offset": "09F937",
+      "end": "09F944",
+      "context": "09F936",
+      "fr": [
+        "@(Ça doit être ici!)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "17d4a416cb15bd15dc16ca5159",
+          "english_or_prior_french": [
+            "@(It must be right here!)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "17d4a416cb15bd15dc16ca5159",
+          "english_or_prior_french": [
+            "@(It must be right here!)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330434",
+      "capacity": 25
+    },
+    {
+      "offset": "09F947",
+      "end": "09F96E",
+      "context": "09F946",
+      "fr": [
+        "@(C'est dans les environs, mais impossible de savoir où exactement.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "17d4a4160015ab16ca15d9a716ca15c7a9156ea0999ea09f999e153695a8179d175393155e5e59",
+          "english_or_prior_french": [
+            "@(It is around here somewhere, but you can't pinpoint the exact location.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "17d4a4160015ab16ca15d9a716ca15c7a9156ea0999ea09f999e153695a8179d175393155e5e59",
+          "english_or_prior_french": [
+            "@(It is around here somewhere, but you can't pinpoint the exact location.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330504",
+      "capacity": 73
+    },
+    {
+      "offset": "09F971",
+      "end": "09F98E",
+      "context": "09F970",
+      "fr": [
+        "@(La truffe ne semble pas être dans les environs.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "1773955084a2a596969c9516339515e716679d150c929515ab16ca5e59",
+          "english_or_prior_french": [
+            "@(The Truffle doesn't seem to be around here.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "1773955084a2a596969c9516339515e716679d150c929515ab16ca5e59",
+          "english_or_prior_french": [
+            "@(The Truffle doesn't seem to be around here.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330598",
+      "capacity": 55
+    },
+    {
+      "offset": "09F990",
+      "end": "09F995",
+      "context": "09F990",
+      "fr": [
+        "en haut.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "a5a05e5902",
+          "english_or_prior_french": [
+            "up.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "a5a05e5902",
+          "english_or_prior_french": [
+            "up.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330314",
+      "capacity": 15
+    },
+    {
+      "offset": "09F995",
+      "end": "09F99E",
+      "context": "09F995",
+      "fr": [
+        "en haut à droite.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "a5a016b8163c5e5902",
+          "english_or_prior_french": [
+            "up and right.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "a5a016b8163c5e5902",
+          "english_or_prior_french": [
+            "up and right.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330D6C",
+      "capacity": 24
+    },
+    {
+      "offset": "09F99E",
+      "end": "09F9A4",
+      "context": "09F99E",
+      "fr": [
+        "à droite.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "a215bb5e5902",
+          "english_or_prior_french": [
+            "right.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "a215bb5e5902",
+          "english_or_prior_french": [
+            "right.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "3304C8",
+      "capacity": 16
+    },
+    {
+      "offset": "09F9A4",
+      "end": "09F9AD",
+      "context": "09F9A4",
+      "fr": [
+        "en bas à droite.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "179f16b8163c5e5902",
+          "english_or_prior_french": [
+            "down and right.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "179f16b8163c5e5902",
+          "english_or_prior_french": [
+            "down and right.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330498",
+      "capacity": 23
+    },
+    {
+      "offset": "09F9AD",
+      "end": "09F9B2",
+      "context": "09F9AD",
+      "fr": [
+        "en bas.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "179f5e5902",
+          "english_or_prior_french": [
+            "down.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "179f5e5902",
+          "english_or_prior_french": [
+            "down.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330324",
+      "capacity": 14
+    },
+    {
+      "offset": "09F9B2",
+      "end": "09F9BD",
+      "context": "09F9B2",
+      "fr": [
+        "en bas à gauche.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "179f15049c9596a45e5902",
+          "english_or_prior_french": [
+            "down and left.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "179f15049c9596a45e5902",
+          "english_or_prior_french": [
+            "down and left.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "3304B0",
+      "capacity": 23
+    },
+    {
+      "offset": "09F9BD",
+      "end": "09F9C4",
+      "context": "09F9BD",
+      "fr": [
+        "à gauche.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "9c9596a45e5902",
+          "english_or_prior_french": [
+            "left.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "9c9596a45e5902",
+          "english_or_prior_french": [
+            "left.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330304",
+      "capacity": 16
+    },
+    {
+      "offset": "09F9C4",
+      "end": "09F9CF",
+      "context": "09F9C4",
+      "fr": [
+        "en haut à gauche.)"
+      ],
+      "already_french_spans": [],
+      "profiles": {
+        "accents": {
+          "baseline_hex": "a5a015049c9596a45e5902",
+          "english_or_prior_french": [
+            "up and left.)"
+          ]
+        },
+        "ascii": {
+          "baseline_hex": "a5a015049c9596a45e5902",
+          "english_or_prior_french": [
+            "up and left.)"
+          ]
+        }
+      },
+      "interior_targets": [],
+      "copy_offset": "330450",
+      "capacity": 24
+    }
+  ],
+  "contexts": {
+    "097CCA": {
+      "accents": {
+        "end": "097D21",
+        "baseline_hex": "01701c0d191f1b0417f4a2999e9b9c95940015951c050015cf50086ee6c7005017295e030070899f15faa35151501c0d50173c95940050160b915097999716dc99935c509699a2955d9215b6168a94a291979f9e510302"
+      },
+      "ascii": {
+        "end": "097D21",
+        "baseline_hex": "01701c0d191f1b0417f4a2999e9b9c95940015951c050015cf50086ee6c7005017295e030070899f15faa35151501c0d50173c95940050160b915097999716dc99935c509699a2955d9215b6168a94a291979f9e510302"
+      }
+    },
+    "097EFA": {
+      "accents": {
+        "end": "097F56",
+        "baseline_hex": "01701c0d191f1b0416ac1c05001504086ee6c70050a49595a498030070178c50a79899a415af9216829815c496175198510300151492a215bb160915860050501c0d1539a49595a4980300709d919415151742a950a3167094510302"
+      },
+      "ascii": {
+        "end": "097F56",
+        "baseline_hex": "01701c0d191f1b0416ac1c05001504086ee6c70050a49595a498030070178c50a79899a415af9216829815c496175198510300151492a215bb160915860050501c0d1539a49595a4980300709d919415151742a950a3167094510302"
+      }
+    },
+    "09F897": {
+      "accents": {
+        "end": "09F936",
+        "baseline_hex": "01701c0d191f1b0450a0a5a40015951c050016bc086ee6c7001758a395511f02730300701c0d50a315ea16e694150f1647005050a39d167f15099d17be16efa596969c955e03001fd11b0270f9c9001b000b011b0346f9c9001b010b0a1b0336f9c9001b010117d4a416cb164291155f96a5a215be501fc009ff7ec70090f9c90095f9c9009ef9c900a4f9c900adf9c900b2f9c900bdf9c900c4f9c9001302"
+      },
+      "ascii": {
+        "end": "09F936",
+        "baseline_hex": "01701c0d191f1b0450a0a5a40015951c050016bc086ee6c7001758a395511f02730300701c0d50a315ea16e694150f1647005050a39d167f15099d17be16efa596969c955e03001fd11b0270f9c9001b000b011b0346f9c9001b010b0a1b0336f9c9001b010117d4a416cb164291155f96a5a215be501fc009ff7ec70090f9c90095f9c9009ef9c900a4f9c900adf9c900b2f9c900bdf9c900c4f9c9001302"
+      }
+    },
+    "09F936": {
+      "accents": {
+        "end": "09F946",
+        "baseline_hex": "0117d4a416cb15bd15dc16ca51591302"
+      },
+      "ascii": {
+        "end": "09F946",
+        "baseline_hex": "0117d4a416cb15bd15dc16ca51591302"
+      }
+    },
+    "09F946": {
+      "accents": {
+        "end": "09F970",
+        "baseline_hex": "0117d4a4160015ab16ca15d9a716ca15c7a9156ea0999ea09f999e153695a8179d175393155e5e591302"
+      },
+      "ascii": {
+        "end": "09F970",
+        "baseline_hex": "0117d4a4160015ab16ca15d9a716ca15c7a9156ea0999ea09f999e153695a8179d175393155e5e591302"
+      }
+    },
+    "09F970": {
+      "accents": {
+        "end": "09F990",
+        "baseline_hex": "011773955084a2a596969c9516339515e716679d150c929515ab16ca5e591302"
+      },
+      "ascii": {
+        "end": "09F990",
+        "baseline_hex": "011773955084a2a596969c9516339515e716679d150c929515ab16ca5e591302"
+      }
+    },
+    "09F990": {
+      "accents": {
+        "end": "09F995",
+        "baseline_hex": "a5a05e5902"
+      },
+      "ascii": {
+        "end": "09F995",
+        "baseline_hex": "a5a05e5902"
+      }
+    },
+    "09F995": {
+      "accents": {
+        "end": "09F99E",
+        "baseline_hex": "a5a016b8163c5e5902"
+      },
+      "ascii": {
+        "end": "09F99E",
+        "baseline_hex": "a5a016b8163c5e5902"
+      }
+    },
+    "09F99E": {
+      "accents": {
+        "end": "09F9A4",
+        "baseline_hex": "a215bb5e5902"
+      },
+      "ascii": {
+        "end": "09F9A4",
+        "baseline_hex": "a215bb5e5902"
+      }
+    },
+    "09F9A4": {
+      "accents": {
+        "end": "09F9AD",
+        "baseline_hex": "179f16b8163c5e5902"
+      },
+      "ascii": {
+        "end": "09F9AD",
+        "baseline_hex": "179f16b8163c5e5902"
+      }
+    },
+    "09F9AD": {
+      "accents": {
+        "end": "09F9B2",
+        "baseline_hex": "179f5e5902"
+      },
+      "ascii": {
+        "end": "09F9B2",
+        "baseline_hex": "179f5e5902"
+      }
+    },
+    "09F9B2": {
+      "accents": {
+        "end": "09F9BD",
+        "baseline_hex": "179f15049c9596a45e5902"
+      },
+      "ascii": {
+        "end": "09F9BD",
+        "baseline_hex": "179f15049c9596a45e5902"
+      }
+    },
+    "09F9BD": {
+      "accents": {
+        "end": "09F9C4",
+        "baseline_hex": "9c9596a45e5902"
+      },
+      "ascii": {
+        "end": "09F9C4",
+        "baseline_hex": "9c9596a45e5902"
+      }
+    },
+    "09F9C4": {
+      "accents": {
+        "end": "09F9CF",
+        "baseline_hex": "a5a015049c9596a45e5902"
+      },
+      "ascii": {
+        "end": "09F9CF",
+        "baseline_hex": "a5a015049c9596a45e5902"
+      }
+    }
+  },
+  "reserves": [
+    [
+      "330504",
+      "330600"
+    ],
+    [
+      "330CB4",
+      "330D84"
+    ],
+    [
+      "330434",
+      "3304E3"
+    ],
+    [
+      "330304",
+      "33038D"
+    ],
+    [
+      "330784",
+      "330800"
+    ],
+    [
+      "330D88",
+      "330DFF"
+    ],
+    [
+      "330114",
+      "330183"
+    ],
+    [
+      "33071C",
+      "330782"
+    ],
+    [
+      "330604",
+      "330668"
+    ],
+    [
+      "330390",
+      "3303EF"
+    ],
+    [
+      "32CD74",
+      "32CDCD"
+    ],
+    [
+      "32A8A8",
+      "32A8FD"
+    ],
+    [
+      "330270",
+      "3302C5"
+    ],
+    [
+      "330804",
+      "330857"
+    ],
+    [
+      "32C934",
+      "32C986"
+    ],
+    [
+      "32F1B4",
+      "32F202"
+    ],
+    [
+      "32B430",
+      "32B47D"
+    ],
+    [
+      "33019C",
+      "3301E7"
+    ],
+    [
+      "3306D0",
+      "330718"
+    ],
+    [
+      "32DD98",
+      "32DDDE"
+    ],
+    [
+      "32F39C",
+      "32F3E2"
+    ],
+    [
+      "32EFBC",
+      "32EFFF"
+    ],
+    [
+      "32E3CC",
+      "32E40E"
+    ],
+    [
+      "32BBEC",
+      "32BC2D"
+    ],
+    [
+      "32C0AC",
+      "32C0ED"
+    ],
+    [
+      "32C988",
+      "32C9C9"
+    ],
+    [
+      "32CACC",
+      "32CB0D"
+    ],
+    [
+      "32CEE0",
+      "32CF20"
+    ],
+    [
+      "329D40",
+      "329D7F"
+    ],
+    [
+      "329340",
+      "32937D"
+    ],
+    [
+      "32AB94",
+      "32ABD1"
+    ],
+    [
+      "32AA40",
+      "32AA7C"
+    ],
+    [
+      "32C814",
+      "32C850"
+    ],
+    [
+      "32F9D0",
+      "32FA0C"
+    ],
+    [
+      "32AA80",
+      "32AABB"
+    ],
+    [
+      "330234",
+      "33026D"
+    ],
+    [
+      "330858",
+      "330890"
+    ],
+    [
+      "32C7DC",
+      "32C811"
+    ],
+    [
+      "33066C",
+      "3306A1"
+    ],
+    [
+      "32A874",
+      "32A8A6"
+    ],
+    [
+      "32FCF0",
+      "32FD22"
+    ],
+    [
+      "330200",
+      "330232"
+    ],
+    [
+      "32AABC",
+      "32AAED"
+    ],
+    [
+      "32F304",
+      "32F333"
+    ],
+    [
+      "32E02C",
+      "32E05A"
+    ],
+    [
+      "32EC5C",
+      "32EC88"
+    ],
+    [
+      "3302D4",
+      "3302FF"
+    ],
+    [
+      "330408",
+      "330432"
+    ],
+    [
+      "328DBC",
+      "328DE5"
+    ],
+    [
+      "329C14",
+      "329C3D"
+    ],
+    [
+      "32E218",
+      "32E241"
+    ],
+    [
+      "32C3E8",
+      "32C410"
+    ],
+    [
+      "32EC30",
+      "32EC58"
+    ],
+    [
+      "33001C",
+      "330044"
+    ],
+    [
+      "32C414",
+      "32C43A"
+    ],
+    [
+      "32C864",
+      "32C88A"
+    ],
+    [
+      "3297E0",
+      "329805"
+    ],
+    [
+      "32A438",
+      "32A45D"
+    ],
+    [
+      "32AE84",
+      "32AEA9"
+    ],
+    [
+      "330C8C",
+      "330CB1"
+    ],
+    [
+      "330FB8",
+      "330FDD"
+    ],
+    [
+      "32B408",
+      "32B42C"
+    ],
+    [
+      "32CBBC",
+      "32CBE0"
+    ],
+    [
+      "32EC04",
+      "32EC28"
+    ],
+    [
+      "32FF0C",
+      "32FF30"
+    ],
+    [
+      "329F80",
+      "329FA3"
+    ],
+    [
+      "32D500",
+      "32D523"
+    ],
+    [
+      "32A65C",
+      "32A67E"
+    ],
+    [
+      "32CBE4",
+      "32CC06"
+    ],
+    [
+      "32AFE4",
+      "32B005"
+    ],
+    [
+      "32B25C",
+      "32B27D"
+    ],
+    [
+      "32EDBC",
+      "32EDDD"
+    ],
+    [
+      "32FEE8",
+      "32FF09"
+    ],
+    [
+      "32D0B0",
+      "32D0D0"
+    ],
+    [
+      "32F8D8",
+      "32F8F8"
+    ],
+    [
+      "330FE0",
+      "331000"
+    ],
+    [
+      "329F60",
+      "329F7F"
+    ],
+    [
+      "32BEF0",
+      "32BF0F"
+    ],
+    [
+      "32E91C",
+      "32E93B"
+    ],
+    [
+      "328DE8",
+      "328E06"
+    ],
+    [
+      "32AB74",
+      "32AB92"
+    ],
+    [
+      "32C4F0",
+      "32C50E"
+    ],
+    [
+      "32A840",
+      "32A85D"
+    ],
+    [
+      "32B4D0",
+      "32B4ED"
+    ],
+    [
+      "32CC60",
+      "32CC7D"
+    ],
+    [
+      "32EEE0",
+      "32EEFD"
+    ],
+    [
+      "32F6EC",
+      "32F709"
+    ],
+    [
+      "328E70",
+      "328E8C"
+    ],
+    [
+      "329014",
+      "329030"
+    ],
+    [
+      "32BFB4",
+      "32BFD0"
+    ],
+    [
+      "32C168",
+      "32C184"
+    ],
+    [
+      "32CF24",
+      "32CF40"
+    ],
+    [
+      "32E104",
+      "32E120"
+    ],
+    [
+      "32E244",
+      "32E260"
+    ],
+    [
+      "32E464",
+      "32E480"
+    ],
+    [
+      "32E894",
+      "32E8B0"
+    ],
+    [
+      "32EA74",
+      "32EA90"
+    ],
+    [
+      "32EB20",
+      "32EB3C"
+    ],
+    [
+      "32F004",
+      "32F020"
+    ],
+    [
+      "32FB8C",
+      "32FBA8"
+    ],
+    [
+      "3304E4",
+      "330500"
+    ],
+    [
+      "330E14",
+      "330E2F"
+    ],
+    [
+      "32C090",
+      "32C0A9"
+    ],
+    [
+      "32E0D4",
+      "32E0ED"
+    ],
+    [
+      "330C70",
+      "330C89"
+    ],
+    [
+      "32A2B8",
+      "32A2D0"
+    ],
+    [
+      "32A768",
+      "32A780"
+    ],
+    [
+      "32B1B8",
+      "32B1D0"
+    ],
+    [
+      "32B5F8",
+      "32B610"
+    ],
+    [
+      "32EE38",
+      "32EE50"
+    ],
+    [
+      "32F204",
+      "32F21C"
+    ],
+    [
+      "32FE08",
+      "32FE20"
+    ],
+    [
+      "3300B0",
+      "3300C7"
+    ],
+    [
+      "3301E8",
+      "3301FF"
+    ],
+    [
+      "32C8F0",
+      "32C906"
+    ],
+    [
+      "32EE20",
+      "32EE36"
+    ],
+    [
+      "32FC80",
+      "32FC96"
+    ],
+    [
+      "32FDF0",
+      "32FE06"
+    ],
+    [
+      "329F48",
+      "329F5D"
+    ],
+    [
+      "32B1A0",
+      "32B1B5"
+    ],
+    [
+      "330984",
+      "330999"
+    ],
+    [
+      "32A750",
+      "32A764"
+    ],
+    [
+      "32C490",
+      "32C4A4"
+    ],
+    [
+      "32C91C",
+      "32C930"
+    ],
+    [
+      "32C9CC",
+      "32C9E0"
+    ],
+    [
+      "32E93C",
+      "32E950"
+    ],
+    [
+      "32EC8C",
+      "32ECA0"
+    ],
+    [
+      "32F0FC",
+      "32F110"
+    ],
+    [
+      "32F8FC",
+      "32F910"
+    ],
+    [
+      "330048",
+      "33005C"
+    ],
+    [
+      "3306B8",
+      "3306CC"
+    ],
+    [
+      "32A6E8",
+      "32A6FB"
+    ],
+    [
+      "32EA60",
+      "32EA73"
+    ],
+    [
+      "3306A4",
+      "3306B7"
+    ],
+    [
+      "32BFA0",
+      "32BFB2"
+    ],
+    [
+      "32F2E0",
+      "32F2F2"
+    ],
+    [
+      "3292E8",
+      "3292F9"
+    ],
+    [
+      "3296DC",
+      "3296ED"
+    ],
+    [
+      "32981C",
+      "32982D"
+    ],
+    [
+      "32A0D4",
+      "32A0E5"
+    ],
+    [
+      "32C88C",
+      "32C89D"
+    ],
+    [
+      "32DA10",
+      "32DA21"
+    ],
+    [
+      "32EBF0",
+      "32EC01"
+    ],
+    [
+      "32F380",
+      "32F391"
+    ],
+    [
+      "32FFDC",
+      "32FFED"
+    ],
+    [
+      "330E00",
+      "330E11"
+    ],
+    [
+      "32B010",
+      "32B020"
+    ],
+    [
+      "32B280",
+      "32B290"
+    ],
+    [
+      "32B4F0",
+      "32B500"
+    ],
+    [
+      "32BF10",
+      "32BF20"
+    ],
+    [
+      "32C0F0",
+      "32C100"
+    ],
+    [
+      "32CC80",
+      "32CC90"
+    ],
+    [
+      "32CDD0",
+      "32CDE0"
+    ],
+    [
+      "32DDE0",
+      "32DDF0"
+    ],
+    [
+      "32E0F0",
+      "32E100"
+    ],
+    [
+      "32E450",
+      "32E460"
+    ],
+    [
+      "32E5F0",
+      "32E600"
+    ],
+    [
+      "32EB40",
+      "32EB50"
+    ],
+    [
+      "32F060",
+      "32F070"
+    ],
+    [
+      "32FA10",
+      "32FA20"
+    ],
+    [
+      "328A70",
+      "328A7F"
+    ],
+    [
+      "32A020",
+      "32A02F"
+    ],
+    [
+      "32EF00",
+      "32EF0E"
+    ],
+    [
+      "32F2F4",
+      "32F302"
+    ],
+    [
+      "32FF44",
+      "32FF52"
+    ],
+    [
+      "330104",
+      "330112"
+    ],
+    [
+      "328E60",
+      "328E6D"
+    ],
+    [
+      "32FF34",
+      "32FF41"
+    ],
+    [
+      "329034",
+      "329040"
+    ],
+    [
+      "329FA4",
+      "329FB0"
+    ],
+    [
+      "32A860",
+      "32A86C"
+    ],
+    [
+      "32ABD4",
+      "32ABE0"
+    ],
+    [
+      "32B614",
+      "32B620"
+    ],
+    [
+      "32B874",
+      "32B880"
+    ],
+    [
+      "32BAE4",
+      "32BAF0"
+    ],
+    [
+      "32C854",
+      "32C860"
+    ],
+    [
+      "32C8A4",
+      "32C8B0"
+    ],
+    [
+      "32D0D4",
+      "32D0E0"
+    ],
+    [
+      "32D524",
+      "32D530"
+    ],
+    [
+      "32D6C4",
+      "32D6D0"
+    ],
+    [
+      "32D714",
+      "32D720"
+    ],
+    [
+      "32D7C4",
+      "32D7D0"
+    ],
+    [
+      "32D814",
+      "32D820"
+    ],
+    [
+      "32DA24",
+      "32DA30"
+    ],
+    [
+      "32E594",
+      "32E5A0"
+    ],
+    [
+      "32E604",
+      "32E610"
+    ],
+    [
+      "32F114",
+      "32F120"
+    ],
+    [
+      "32F334",
+      "32F340"
+    ],
+    [
+      "32F3E4",
+      "32F3F0"
+    ],
+    [
+      "32FD24",
+      "32FD30"
+    ],
+    [
+      "32FF54",
+      "32FF60"
+    ],
+    [
+      "330074",
+      "330080"
+    ],
+    [
+      "330010",
+      "33001B"
+    ],
+    [
+      "33008C",
+      "330097"
+    ],
+    [
+      "3300A4",
+      "3300AF"
+    ],
+    [
+      "3302C8",
+      "3302D3"
+    ],
+    [
+      "330098",
+      "3300A2"
+    ],
+    [
+      "3303F8",
+      "330402"
+    ],
+    [
+      "330060",
+      "330069"
+    ],
+    [
+      "330190",
+      "330199"
+    ],
+    [
+      "328E08",
+      "328E10"
+    ],
+    [
+      "329388",
+      "329390"
+    ],
+    [
+      "329810",
+      "329818"
+    ],
+    [
+      "32A0E8",
+      "32A0F0"
+    ],
+    [
+      "32A908",
+      "32A910"
+    ],
+    [
+      "32ADA8",
+      "32ADB0"
+    ],
+    [
+      "32B7F8",
+      "32B800"
+    ],
+    [
+      "32B8F8",
+      "32B900"
+    ],
+    [
+      "32C188",
+      "32C190"
+    ],
+    [
+      "32C4A8",
+      "32C4B0"
+    ],
+    [
+      "32CC08",
+      "32CC10"
+    ],
+    [
+      "32D598",
+      "32D5A0"
+    ],
+    [
+      "32FC98",
+      "32FCA0"
+    ],
+    [
+      "32FFF4",
+      "32FFFC"
+    ],
+    [
+      "330FAC",
+      "330FB4"
+    ]
+  ]
+}
