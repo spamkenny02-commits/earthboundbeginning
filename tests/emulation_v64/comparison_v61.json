@@ -1,0 +1,342 @@
+{
+  "accents": {
+    "paired_captures": 11,
+    "identical_captures": 6,
+    "controller_steps_identical_in_all_three_routes": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "atm_insert_card",
+        "page": "page_00",
+        "before_rgb_sha256": "72941fd08ecd28977d58f761512e2b990d952d072aa14c7a0b19fac8f7c77f7f",
+        "after_rgb_sha256": "cfc9aaf9468ec1ed7edd8d26e26b686b8bd6c798bbfcf54d46fca64c7269201f",
+        "changed_pixels": 308,
+        "bbox": [
+          111,
+          18,
+          236,
+          29
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_insert_card/page_00.png",
+        "before_png_sha256": "25fae91995660289a26409e3c6e76015159ce4315394c6ecdad6a8df05c92b96",
+        "after_path": "tests/emulation_v64/accents/atm_insert_card/page_00.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_00",
+        "before_rgb_sha256": "c7026d872df1a49eab08c860c2ef24fbd5e7a1d6962dc7b5a1b34a57b0a00569",
+        "after_rgb_sha256": "c7026d872df1a49eab08c860c2ef24fbd5e7a1d6962dc7b5a1b34a57b0a00569",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_deposit_one/page_00.png",
+        "before_png_sha256": "5672f57f7f04959b118ac91c725b30f44292df4c28c4b3c7b2752ed3cdb1ff82",
+        "after_path": "tests/emulation_v64/accents/atm_deposit_one/page_00.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_01",
+        "before_rgb_sha256": "dea8d95cb1a26407d791b524c143322d4c688aad58a155ebb66f80bcd23c7741",
+        "after_rgb_sha256": "dea8d95cb1a26407d791b524c143322d4c688aad58a155ebb66f80bcd23c7741",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_deposit_one/page_01.png",
+        "before_png_sha256": "33ba8f91400825a3b57612713b5b16f38acd4abfe06726774dc01835461fc313",
+        "after_path": "tests/emulation_v64/accents/atm_deposit_one/page_01.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_02",
+        "before_rgb_sha256": "b8e6964ab70741611ab814515e0f355ed2d9882380481b1a2e8c76b0dd9e4e82",
+        "after_rgb_sha256": "b8e6964ab70741611ab814515e0f355ed2d9882380481b1a2e8c76b0dd9e4e82",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_deposit_one/page_02.png",
+        "before_png_sha256": "7c7c4b5fbc444a72bffdf6886b4eb9b5d1695f2a7be03cf1346228fa9230f375",
+        "after_path": "tests/emulation_v64/accents/atm_deposit_one/page_02.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_03",
+        "before_rgb_sha256": "7722e61f07d725d1aa6f8fbd06a662f4a4b885cc49fdb844a926bc8de1a2a31f",
+        "after_rgb_sha256": "25cb0dc4ec156e75d21771135bee2f21b63d76893f6708cddf5a44579314838e",
+        "changed_pixels": 482,
+        "bbox": [
+          110,
+          34,
+          227,
+          61
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_deposit_one/page_03.png",
+        "before_png_sha256": "3b6ff53e6f000400533e5368c43129da0895b9f64c93b4c3b363a2a115c8f141",
+        "after_path": "tests/emulation_v64/accents/atm_deposit_one/page_03.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_04",
+        "before_rgb_sha256": "867c7e1f7f4648773ff692fb97665958c685f6f6ef9bdcfe009692b150acb852",
+        "after_rgb_sha256": "dd8ad343d38a89568d008b8d3e3936826e7b0e5f7a31505f1744f484a98c281b",
+        "changed_pixels": 251,
+        "bbox": [
+          110,
+          18,
+          165,
+          44
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_deposit_one/page_04.png",
+        "before_png_sha256": "fae03355c652c44b0c11f5a9c8b99b5ee74281ca5988bd236c4658e07f54f518",
+        "after_path": "tests/emulation_v64/accents/atm_deposit_one/page_04.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_05",
+        "before_rgb_sha256": "bf14e6a8796bd56cd5c5b22be7a07754c808f931fdc1b3659bed2599497df62d",
+        "after_rgb_sha256": "3323c4dc612164ae30432e6ebdd67d82000a3a74dde3fcfb4403a279729d53c4",
+        "changed_pixels": 120,
+        "bbox": [
+          110,
+          18,
+          160,
+          28
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_deposit_one/page_05.png",
+        "before_png_sha256": "e22291ad6dccbad6ee9d1d6a56e7deec504e5863e6e299acd4816445d6a5726d",
+        "after_path": "tests/emulation_v64/accents/atm_deposit_one/page_05.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_06",
+        "before_rgb_sha256": "e4a394552c4507679d9e5b38e7961e721f42d34634b0acf63d709682179e20c7",
+        "after_rgb_sha256": "e4a394552c4507679d9e5b38e7961e721f42d34634b0acf63d709682179e20c7",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_deposit_one/page_06.png",
+        "before_png_sha256": "507622e792d7e932cc77ae42ba166f879dd2e4ad8bc7dd91711e8899ec70dc08",
+        "after_path": "tests/emulation_v64/accents/atm_deposit_one/page_06.png"
+      },
+      {
+        "case": "atm_withdrawal_prompt",
+        "page": "page_00",
+        "before_rgb_sha256": "87681bd967eba2ca1e822a0918d0308eda39a66c422b8992f91613de77535cba",
+        "after_rgb_sha256": "87681bd967eba2ca1e822a0918d0308eda39a66c422b8992f91613de77535cba",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_withdrawal_prompt/page_00.png",
+        "before_png_sha256": "ea67c1c17c93add6fc61786c30a5a24a79cf418da602bf88eb216719cb16e5e1",
+        "after_path": "tests/emulation_v64/accents/atm_withdrawal_prompt/page_00.png"
+      },
+      {
+        "case": "atm_withdrawal_prompt",
+        "page": "page_01",
+        "before_rgb_sha256": "b0bc59ebbb3985a5d7d3f86e0b1264413075d7cc72e46bed4d35b5db2aa495ec",
+        "after_rgb_sha256": "b0bc59ebbb3985a5d7d3f86e0b1264413075d7cc72e46bed4d35b5db2aa495ec",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_withdrawal_prompt/page_01.png",
+        "before_png_sha256": "b37e5048ae6359b08cd30803b1e3403353bc96ebdf74c194dfb83c00bd0266e4",
+        "after_path": "tests/emulation_v64/accents/atm_withdrawal_prompt/page_01.png"
+      },
+      {
+        "case": "atm_withdrawal_prompt",
+        "page": "page_02",
+        "before_rgb_sha256": "8171aba3d0428a495d1173dfd5e3bcb133d263aca6b8314412d940feea8e0927",
+        "after_rgb_sha256": "997e66129b04492e21aeebf36dd1a7c3133110e98a4777b24a59d5d39a83e1d3",
+        "changed_pixels": 120,
+        "bbox": [
+          110,
+          34,
+          160,
+          44
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/accents/atm_withdrawal_prompt/page_02.png",
+        "before_png_sha256": "9d871cf53356b4349eedbe2554b2530776323757496f985288dacee175809ff9",
+        "after_path": "tests/emulation_v64/accents/atm_withdrawal_prompt/page_02.png"
+      }
+    ]
+  },
+  "ascii": {
+    "paired_captures": 11,
+    "identical_captures": 6,
+    "controller_steps_identical_in_all_three_routes": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "atm_insert_card",
+        "page": "page_00",
+        "before_rgb_sha256": "705acbc53de65416c98e52b42ed1b0a5e61c9a6fdfcdd970fea43e313b911cf8",
+        "after_rgb_sha256": "80f27490f8ac6b54234b0c0094ea104066bca1af83a730c11ddc17dc87f584ae",
+        "changed_pixels": 308,
+        "bbox": [
+          111,
+          18,
+          236,
+          29
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_insert_card/page_00.png",
+        "before_png_sha256": "e5075cb686a8c4158c9e3588451817d86a5714cb3ccc914cb4ad72e976d5597e",
+        "after_path": "tests/emulation_v64/ascii/atm_insert_card/page_00.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_00",
+        "before_rgb_sha256": "374293d9ae0612b498575b63f3efdec78be6ee90ceff0bd398405f73b3fe8ab6",
+        "after_rgb_sha256": "374293d9ae0612b498575b63f3efdec78be6ee90ceff0bd398405f73b3fe8ab6",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_deposit_one/page_00.png",
+        "before_png_sha256": "edc0183be5d5310c38e9e7cdaa5e94c29203bf018f4285ad0b54c0e4ae4450d1",
+        "after_path": "tests/emulation_v64/ascii/atm_deposit_one/page_00.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_01",
+        "before_rgb_sha256": "f05084eff88d2ecf5a1b8f93b05b1068be26e9a51f402af2210da1e5c30cc0c5",
+        "after_rgb_sha256": "f05084eff88d2ecf5a1b8f93b05b1068be26e9a51f402af2210da1e5c30cc0c5",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_deposit_one/page_01.png",
+        "before_png_sha256": "91da4bb226c632e1144222bc90059d32a080063dc4e75deb76e66fc0afb50f67",
+        "after_path": "tests/emulation_v64/ascii/atm_deposit_one/page_01.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_02",
+        "before_rgb_sha256": "8726fa21ad20e7d2b93454e92f307f2c79e321795e2035362bf403f24a89b09a",
+        "after_rgb_sha256": "8726fa21ad20e7d2b93454e92f307f2c79e321795e2035362bf403f24a89b09a",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_deposit_one/page_02.png",
+        "before_png_sha256": "5949c845fc8a19ff04b97e27821666678b99d06c4be0de46d600a6bb7bfb3348",
+        "after_path": "tests/emulation_v64/ascii/atm_deposit_one/page_02.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_03",
+        "before_rgb_sha256": "473570a66674d79374552936084fdbde059654d848b3e7bad749a24ce92f4fd9",
+        "after_rgb_sha256": "34f551b883e33a254bceb04efbc58c83a6d1d12c16f0687391c42a054fd9983c",
+        "changed_pixels": 477,
+        "bbox": [
+          110,
+          34,
+          227,
+          61
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_deposit_one/page_03.png",
+        "before_png_sha256": "e1b2a75c017ea2134724cae91f1be559f3a8c23c36842d1cfb99710419b2ae71",
+        "after_path": "tests/emulation_v64/ascii/atm_deposit_one/page_03.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_04",
+        "before_rgb_sha256": "2390b5efe4a6d0801207e55066b030f5129554332545fecea19a335de0ae0c3a",
+        "after_rgb_sha256": "7c080dd3aa3c396b7d4755c14945f7a62edbea6a8e2262f02f272b946f611a8c",
+        "changed_pixels": 246,
+        "bbox": [
+          110,
+          18,
+          165,
+          44
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_deposit_one/page_04.png",
+        "before_png_sha256": "53f10cd6e3eb44a5f9cf62df28c456dd448517563bde7b1789e006490d6c286e",
+        "after_path": "tests/emulation_v64/ascii/atm_deposit_one/page_04.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_05",
+        "before_rgb_sha256": "97ca7ffb63117988865372c631cd02a305f6f3be5c90488b10b65ecac87318e2",
+        "after_rgb_sha256": "894384897be7fa39a20c6fbe2b4dada63153f05c38f077d20529622bc51be2af",
+        "changed_pixels": 120,
+        "bbox": [
+          110,
+          18,
+          160,
+          28
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_deposit_one/page_05.png",
+        "before_png_sha256": "b1f35b6afb4f0286ffed4020cc9e66157bd1da5f2c04f3572b2de8e7a0af63c7",
+        "after_path": "tests/emulation_v64/ascii/atm_deposit_one/page_05.png"
+      },
+      {
+        "case": "atm_deposit_one",
+        "page": "page_06",
+        "before_rgb_sha256": "4c39d71f4c9d2038e6d36f07e467864b449d7666c6d9d5fae8f8d56b66fe41dc",
+        "after_rgb_sha256": "4c39d71f4c9d2038e6d36f07e467864b449d7666c6d9d5fae8f8d56b66fe41dc",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_deposit_one/page_06.png",
+        "before_png_sha256": "8e1c852c2c8f4a09a4e8df34f4f19cbf16ec8910d1929665716208254a64135d",
+        "after_path": "tests/emulation_v64/ascii/atm_deposit_one/page_06.png"
+      },
+      {
+        "case": "atm_withdrawal_prompt",
+        "page": "page_00",
+        "before_rgb_sha256": "3bdd490a6e0e7ccd597b103860f624d0933ab9af5b8db9a42178c0a9aa4e7144",
+        "after_rgb_sha256": "3bdd490a6e0e7ccd597b103860f624d0933ab9af5b8db9a42178c0a9aa4e7144",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_withdrawal_prompt/page_00.png",
+        "before_png_sha256": "6e640c56100f4c5937455aba7bcb604d830d42ee159840d793e1f213e6732e60",
+        "after_path": "tests/emulation_v64/ascii/atm_withdrawal_prompt/page_00.png"
+      },
+      {
+        "case": "atm_withdrawal_prompt",
+        "page": "page_01",
+        "before_rgb_sha256": "b77b311ef6be5371aec41dcf8af4904dd644460c1b43c03c1270a7be52ac4733",
+        "after_rgb_sha256": "b77b311ef6be5371aec41dcf8af4904dd644460c1b43c03c1270a7be52ac4733",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_withdrawal_prompt/page_01.png",
+        "before_png_sha256": "efcd297b5f68ba844b86f02d4ea12375320a6e42ed23b00c4a80700f6e9ff84c",
+        "after_path": "tests/emulation_v64/ascii/atm_withdrawal_prompt/page_01.png"
+      },
+      {
+        "case": "atm_withdrawal_prompt",
+        "page": "page_02",
+        "before_rgb_sha256": "91510871e011099d90eba8453c3290bb57aab6c4a5da3ec2e16091c52e1bc651",
+        "after_rgb_sha256": "93ddf31b8c3bc54c3b5ca3a17df55c328b9b2e66df74890f9ccfe7bfc10200b3",
+        "changed_pixels": 120,
+        "bbox": [
+          110,
+          34,
+          160,
+          44
+        ],
+        "only_text_window_changed": true,
+        "before_path": "tests/emulation_v64/reference_v61/ascii/atm_withdrawal_prompt/page_02.png",
+        "before_png_sha256": "191222586bd113339e9df22e7b3c444d96a0582dae01ba124da855a877e78b86",
+        "after_path": "tests/emulation_v64/ascii/atm_withdrawal_prompt/page_02.png"
+      }
+    ]
+  }
+}

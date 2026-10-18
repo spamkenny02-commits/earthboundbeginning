@@ -1,0 +1,555 @@
+{
+  "version": "v64",
+  "profile": "ascii",
+  "rom_sha256": "ceb5d870f2e6d4418f7de7b60fc545e981c745efac1766e6ce5c3f3dea8b39f9",
+  "npc_bindings": [
+    {
+      "npc_row": 61,
+      "talk_operand": "2025BE",
+      "check_operand": "2025C2"
+    },
+    {
+      "npc_row": 259,
+      "talk_operand": "2032E4",
+      "check_operand": "2032E8"
+    },
+    {
+      "npc_row": 286,
+      "talk_operand": "2034AF",
+      "check_operand": "2034B3"
+    },
+    {
+      "npc_row": 302,
+      "talk_operand": "2035BF",
+      "check_operand": "2035C3"
+    },
+    {
+      "npc_row": 406,
+      "talk_operand": "203CA7",
+      "check_operand": "203CAB"
+    },
+    {
+      "npc_row": 488,
+      "talk_operand": "204219",
+      "check_operand": "20421D"
+    },
+    {
+      "npc_row": 506,
+      "talk_operand": "20434B",
+      "check_operand": "20434F"
+    },
+    {
+      "npc_row": 611,
+      "talk_operand": "204A44",
+      "check_operand": "204A48"
+    },
+    {
+      "npc_row": 716,
+      "talk_operand": "20513D",
+      "check_operand": "205141"
+    },
+    {
+      "npc_row": 750,
+      "talk_operand": "20537F",
+      "check_operand": "205383"
+    },
+    {
+      "npc_row": 937,
+      "talk_operand": "205FEA",
+      "check_operand": "205FEE"
+    },
+    {
+      "npc_row": 940,
+      "talk_operand": "20601D",
+      "check_operand": "206021"
+    },
+    {
+      "npc_row": 1009,
+      "talk_operand": "2064B2",
+      "check_operand": "2064B6"
+    },
+    {
+      "npc_row": 1014,
+      "talk_operand": "206507",
+      "check_operand": "20650B"
+    },
+    {
+      "npc_row": 1127,
+      "talk_operand": "206C88",
+      "check_operand": "206C8C"
+    },
+    {
+      "npc_row": 1206,
+      "talk_operand": "2071C7",
+      "check_operand": "2071CB"
+    },
+    {
+      "npc_row": 1320,
+      "talk_operand": "207959",
+      "check_operand": "20795D"
+    }
+  ],
+  "roots": [
+    "0680A6",
+    "0680C2"
+  ],
+  "nodes": [
+    {
+      "root": "0680A6",
+      "end": "0680C2",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "0680B0",
+          "end": "0680C0",
+          "text": "@Mets ta carte. "
+        }
+      ]
+    },
+    {
+      "root": "0680C2",
+      "end": "0680C7",
+      "in_v62_graph": false,
+      "spans": []
+    },
+    {
+      "root": "062D30",
+      "end": "062D35",
+      "in_v62_graph": false,
+      "spans": []
+    },
+    {
+      "root": "35CE10",
+      "end": "35CE39",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "35CE25",
+          "end": "35CE37",
+          "text": "@Rien.            "
+        }
+      ]
+    },
+    {
+      "root": "382113",
+      "end": "38219D",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "382117",
+          "end": "382140",
+          "text": "@Bienvenue au distributeur automatique.  "
+        },
+        {
+          "offset": "382142",
+          "end": "38215F",
+          "text": "@Choisissez une operation:   "
+        },
+        {
+          "offset": "382162",
+          "end": "38216C",
+          "text": "Retrait   "
+        },
+        {
+          "offset": "38216F",
+          "end": "382176",
+          "text": "Depot  "
+        },
+        {
+          "offset": "382186",
+          "end": "38219B",
+          "text": "@Merci beaucoup.     "
+        }
+      ]
+    },
+    {
+      "root": "32F79C",
+      "end": "32F7B6",
+      "in_v62_graph": true,
+      "spans": [
+        {
+          "offset": "32F79D",
+          "end": "32F7B4",
+          "text": "@Mais rien ne se passe."
+        }
+      ]
+    },
+    {
+      "root": "0680DC",
+      "end": "0680E2",
+      "in_v62_graph": false,
+      "spans": []
+    },
+    {
+      "root": "3822C3",
+      "end": "382353",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "382308",
+          "end": "382326",
+          "text": "@Votre compte a ete debite    "
+        },
+        {
+          "offset": "382327",
+          "end": "38232A",
+          "text": "  $"
+        },
+        {
+          "offset": "382330",
+          "end": "382331",
+          "text": "."
+        },
+        {
+          "offset": "382333",
+          "end": "38234A",
+          "text": "@Prenez votre argent.  "
+        }
+      ]
+    },
+    {
+      "root": "32D8F0",
+      "end": "32D961",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "32D934",
+          "end": "32D94F",
+          "text": "@Ton compte sera credite de"
+        },
+        {
+          "offset": "32D950",
+          "end": "32D953",
+          "text": "  $"
+        },
+        {
+          "offset": "32D959",
+          "end": "32D95A",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "root": "3823D6",
+      "end": "38240F",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "3823D6",
+          "end": "382408",
+          "text": "@Le solde de ton compte est actuellement nul.     "
+        }
+      ]
+    },
+    {
+      "root": "32D9E0",
+      "end": "32DA10",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "32D9E0",
+          "end": "32D9FE",
+          "text": "@Tu ne peux pas porter plus de"
+        },
+        {
+          "offset": "32D9FF",
+          "end": "32DA09",
+          "text": "  $99 999."
+        }
+      ]
+    },
+    {
+      "root": "382448",
+      "end": "38248F",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "38244D",
+          "end": "382479",
+          "text": "@Saisis le montant a retirer.               "
+        },
+        {
+          "offset": "38247B",
+          "end": "382486",
+          "text": "@Solde : $ "
+        }
+      ]
+    },
+    {
+      "root": "382186",
+      "end": "38219D",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "382186",
+          "end": "38219B",
+          "text": "@Merci beaucoup.     "
+        }
+      ]
+    },
+    {
+      "root": "32E35C",
+      "end": "32E392",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "32E35C",
+          "end": "32E38B",
+          "text": "@Le montant demande depasse le solde du compte."
+        }
+      ]
+    },
+    {
+      "root": "32D9A8",
+      "end": "32D9DE",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "32D9AE",
+          "end": "32D9CC",
+          "text": "@Tu ne peux pas porter plus de"
+        },
+        {
+          "offset": "32D9CD",
+          "end": "32D9D7",
+          "text": "  $99 999."
+        }
+      ]
+    },
+    {
+      "root": "32D964",
+      "end": "32D9A6",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "32D964",
+          "end": "32D991",
+          "text": "@Ce distributeur refuse les depots de plus de"
+        },
+        {
+          "offset": "32D992",
+          "end": "32D99F",
+          "text": "  $9 999 999."
+        }
+      ]
+    },
+    {
+      "root": "3824A2",
+      "end": "3824E6",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "3824A7",
+          "end": "3824D0",
+          "text": "@Saisis le montant de ton depot.         "
+        },
+        {
+          "offset": "3824D2",
+          "end": "3824DD",
+          "text": "@Solde : $ "
+        }
+      ]
+    },
+    {
+      "root": "382246",
+      "end": "38227C",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "382246",
+          "end": "382275",
+          "text": "@Tu n'as pas assez d'argent pour ce depot.     "
+        }
+      ]
+    },
+    {
+      "root": "32D720",
+      "end": "32D74E",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "32D720",
+          "end": "32D746",
+          "text": "@Le solde actuel de ton compte est de "
+        },
+        {
+          "offset": "32D749",
+          "end": "32D74B",
+          "text": "$."
+        }
+      ]
+    },
+    {
+      "root": "38248F",
+      "end": "3824A2",
+      "in_v62_graph": false,
+      "spans": [
+        {
+          "offset": "382495",
+          "end": "382496",
+          "text": "&"
+        },
+        {
+          "offset": "38249A",
+          "end": "38249D",
+          "text": "$  "
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "context": "0680A6",
+      "operand": "0680AC",
+      "target": "062D30"
+    },
+    {
+      "context": "0680C2",
+      "operand": "0680C3",
+      "target": "35CE10"
+    },
+    {
+      "context": "062D30",
+      "operand": "062D31",
+      "target": "382113"
+    },
+    {
+      "context": "35CE10",
+      "operand": "35CE13",
+      "target": "32F79C"
+    },
+    {
+      "context": "35CE10",
+      "operand": "35CE21",
+      "target": "0680DC"
+    },
+    {
+      "context": "382113",
+      "operand": "38217E",
+      "target": "3822C3"
+    },
+    {
+      "context": "382113",
+      "operand": "382182",
+      "target": "32D8F0"
+    },
+    {
+      "context": "0680DC",
+      "operand": "0680DD",
+      "target": "062D30"
+    },
+    {
+      "context": "3822C3",
+      "operand": "3822CB",
+      "target": "3823D6"
+    },
+    {
+      "context": "3822C3",
+      "operand": "3822D9",
+      "target": "32D9E0"
+    },
+    {
+      "context": "3822C3",
+      "operand": "3822DE",
+      "target": "382448"
+    },
+    {
+      "context": "3822C3",
+      "operand": "3822E4",
+      "target": "382186"
+    },
+    {
+      "context": "3822C3",
+      "operand": "3822F2",
+      "target": "32E35C"
+    },
+    {
+      "context": "3822C3",
+      "operand": "382304",
+      "target": "32D9A8"
+    },
+    {
+      "context": "32D8F0",
+      "operand": "32D8F8",
+      "target": "32D964"
+    },
+    {
+      "context": "32D8F0",
+      "operand": "32D8FD",
+      "target": "3824A2"
+    },
+    {
+      "context": "32D8F0",
+      "operand": "32D903",
+      "target": "382186"
+    },
+    {
+      "context": "32D8F0",
+      "operand": "32D913",
+      "target": "382246"
+    },
+    {
+      "context": "32D8F0",
+      "operand": "32D91F",
+      "target": "32D964"
+    },
+    {
+      "context": "32D8F0",
+      "operand": "32D95D",
+      "target": "382186"
+    },
+    {
+      "context": "3823D6",
+      "operand": "38240B",
+      "target": "382186"
+    },
+    {
+      "context": "32D9E0",
+      "operand": "32DA0C",
+      "target": "382186"
+    },
+    {
+      "context": "382448",
+      "operand": "382449",
+      "target": "32D720"
+    },
+    {
+      "context": "382448",
+      "operand": "38248B",
+      "target": "38248F"
+    },
+    {
+      "context": "32E35C",
+      "operand": "32E38E",
+      "target": "3822C3"
+    },
+    {
+      "context": "32D9A8",
+      "operand": "32D9DA",
+      "target": "3822C3"
+    },
+    {
+      "context": "32D964",
+      "operand": "32D9A2",
+      "target": "382186"
+    },
+    {
+      "context": "3824A2",
+      "operand": "3824A3",
+      "target": "32D720"
+    },
+    {
+      "context": "3824A2",
+      "operand": "3824E2",
+      "target": "38248F"
+    },
+    {
+      "context": "382246",
+      "operand": "382278",
+      "target": "32D8F0"
+    }
+  ],
+  "unparsed_roots": [],
+  "assembly_or_computed_callers_exhaustively_covered": false,
+  "natural_access_verified": false
+}

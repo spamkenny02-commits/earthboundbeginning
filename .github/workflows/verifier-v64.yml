@@ -1,0 +1,28 @@
+name: Verify V64 service patch offline
+
+on:
+  push:
+    paths:
+      - 'tools/v64/**'
+      - 'tests/emulation_v64/**'
+      - 'tests/emulation_v18_work/libretro_runner.py'
+      - 'patches/*v64*'
+      - '.github/workflows/verifier-v64.yml'
+  pull_request:
+    paths:
+      - 'tools/v64/**'
+      - 'tests/emulation_v64/**'
+      - 'patches/*v64*'
+      - '.github/workflows/verifier-v64.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v64 -p test_v64_offline.py -v
+      - run: python3 -m pip install Pillow
+      - run: python3 tools/v64/verify_display.py

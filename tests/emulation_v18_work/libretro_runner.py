@@ -20,7 +20,7 @@ INPUT=C.CFUNCTYPE(C.c_int16,C.c_uint,C.c_uint,C.c_uint,C.c_uint)
 BUTTONS={'B':0,'Y':1,'Select':2,'Start':3,'Up':4,'Down':5,'Left':6,'Right':7,'A':8,'X':9,'L':10,'R':11}
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--core',type=Path,required=True);ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);a=ap.parse_args();a.out.mkdir(parents=True,exist_ok=True)
+    ap=argparse.ArgumentParser();ap.add_argument('--core',type=Path,required=True);ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--history-every',type=int,default=1);a=ap.parse_args();assert a.history_every>=1;a.out.mkdir(parents=True,exist_ok=True)
     lib=C.CDLL(str(a.core.resolve()));latest={};frame=0;pressed=set();options={};pixel=2;audio_frames=0;history=[]
     directory=str(a.out.resolve()).encode()
     @ENV
@@ -105,7 +105,9 @@ def main():
                 response['ram_hex']=C.string_at(ptr+off,size).hex(' ')
             if command.get('dump_ram'):
                 ptr=lib.retro_get_memory_data(2);p=a.out/(command['dump_ram']+'.wram');p.write_bytes(C.string_at(ptr,lib.retro_get_memory_size(2)));response['ram_file']=str(p.resolve())
-            response.update(frame=frame,audio_samples=audio_frames,elapsed=round(time.monotonic()-t,3));history.append({'command':command,'response':response});(a.out/'history.json').write_text(json.dumps(history,indent=2));send(response)
+            response.update(frame=frame,audio_samples=audio_frames,elapsed=round(time.monotonic()-t,3));history.append({'command':command,'response':response})
+            if len(history)%a.history_every==0 or any(k in command for k in ('screenshot','save','quit')):(a.out/'history.json').write_text(json.dumps(history,indent=2))
+            send(response)
             if command.get('quit'):break
     finally:lib.retro_unload_game();lib.retro_deinit()
 if __name__=='__main__':main()

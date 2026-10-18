@@ -1,4 +1,4 @@
-# Suite des textes après audit V63
+# Suite des textes après V64
 
 Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit pas un dénominateur de couverture.
 
@@ -29,3 +29,5 @@ V61 : 4 681 segments hors menus examinés depuis 648 graines et 4 364 référenc
 V62 : 648 graines, 3 341 débuts de script, 4 375 références et zéro racine bloquée dans le graphe connu, pour les deux profils. Les 4 681 segments hors menus et les 292 candidats inchangés restent identiques. Cette étape ne modifie pas les IPS V61 et ne certifie pas les parcours naturels ni 100 % des textes visibles.
 
 V63 : premier lot de lectures en jeu au-delà du graphe statique. Sept parcours de carte bancaire et Télépathie, dans les deux profils (14 essais, 10 488 images), confirment les messages français de consommation, don à soi, refus de jeter, aide et échec PSI. Les traces et leurs limites sont dans `RAPPORT_V63.md`. Aucun texte corrigé ni nouvel IPS. Poursuivre avec les services, les autres objets, le combat et les configurations à plusieurs personnages/inventaires pleins ; ce premier lot n'épuise pas les accès calculés. Les commandes anglaises du menu d'action sont réservées à la phase menus.
+
+V64 : quatre fragments bancaires traduits à taille fixe. Les racines ATM originales `0680A6`/`0680C2`, liées à 17 NPC mais écartées par les anciennes graines, sont maintenant suivies explicitement (20 scripts, 30 références). 26 essais contrôlés, 122 captures et 22 comparaisons V61/V64 vérifient les services ; les entrées ont été forcées, pas atteintes naturellement sur la carte. Restent en priorité : retrait sur compte positif, dépôt/retrait d'un objet autorisé au stockage, inventaires pleins, autres commerçants et parcours naturels. Les essais de téléphone ne couvrent pas toutes les conversations jusqu'au raccrochage. V64 ne certifie pas la fin des textes.

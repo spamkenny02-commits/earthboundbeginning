@@ -19,7 +19,7 @@ class Session:
    assert self.fixture[:0x368B51]==self.data[:0x368B51] and self.fixture[0x368B55:]==self.data[0x368B55:]
   prove(self.fixture)
   self.rom.write_bytes(self.fixture);self.err=(self.out/'stderr.log').open('w')
-  self.proc=subprocess.Popen([sys.executable,str(ROOT/'tests/emulation_v18_work/libretro_runner.py'),'--rom',str(self.rom),'--core',str(core.resolve()),'--out',str(self.out)],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=self.err,text=True)
+  self.proc=subprocess.Popen([sys.executable,str(ROOT/'tests/emulation_v18_work/libretro_runner.py'),'--rom',str(self.rom),'--core',str(core.resolve()),'--out',str(self.out),'--history-every','120'],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=self.err,text=True)
   self.events=[];self.counts=collections.Counter();self.frame=0;self.last=None;self.commands=[];assert self.read()['source_sha256']==b.sha(self.fixture)
  def read(self):
   while True:

@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Audit actuel : V63 (patch de jeu V61 inchangé)
+## Version actuelle : V64 (services et distributeur)
+
+Quatre fragments bancaires encore anglais sont traduits. Les anciennes entrées du distributeur sont auditées ; 26 essais contrôlés de services et 122 captures vérifient les deux profils. 585 tests passent, et les 22 comparaisons V61/V64 ne changent que la fenêtre de texte. Les accès naturels et d'autres branches restent à vérifier.
+
+- [Patch V64 avec accents](patches/EarthBound_Beginnings_FR_v64_accents.ips)
+- [Patch V64 ASCII](patches/EarthBound_Beginnings_FR_v64_ascii.ips)
+- [Rapport V64 et captures](RAPPORT_V64.md)
+- [Sources, essais et reproduction](tools/v64/README_V64.md)
+
+Appliquer **un seul IPS V64 directement à la ROM originale USA 1.2**. Textes d'abord, menus ensuite ; couverture complète non certifiée.
+
+## Audit précédent : V63 (sans patch)
 
 Les accès de texte sont désormais observés en jeu, au-delà du graphe statique. Sept parcours d'inventaire et de PSI passent dans les deux profils : 14 essais, 10 488 images échantillonnées et 14 captures relues. Les messages de ce lot sont français ; aucun nouvel IPS n'est nécessaire. Les autres branches calculées et le parcours complet restent à vérifier.
 
@@ -15,9 +26,9 @@ Les deux routines bloquées sur `1A 21` sont désormais lues entièrement, avec 
 - [Preuve, parseur et audit](tools/v62/README_V62.md)
 - [Essais et captures](tests/emulation_v62/RAPPORT_EMULATION_V62.md)
 
-Les liens V61 ci-dessous restent les patchs à appliquer.
+V61 reste disponible ci-dessous pour comparaison ; V64 est désormais le patch recommandé.
 
-## Version actuelle : V61 (fragments courts et huées)
+## Version précédente : V61 (fragments courts et huées)
 
 V61 corrige **deux fragments courts et trois huées temporisées**, à taille constante. 564 tests passent, 212 captures de référence sont identiques à V60 et dix comparaisons contrôlées ne changent que le texte. L’audit des anciennes entrées conservées est enregistré avec ses limites.
 
