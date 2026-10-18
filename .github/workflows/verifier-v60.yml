@@ -1,0 +1,23 @@
+name: Verify V60 IPS offline
+
+on:
+  push:
+    paths:
+      - 'tools/v60/**'
+      - 'patches/EarthBound_Beginnings_FR_v60_*.ips'
+      - '.github/workflows/verifier-v60.yml'
+  pull_request:
+    paths:
+      - 'tools/v60/**'
+      - 'patches/EarthBound_Beginnings_FR_v60_*.ips'
+      - '.github/workflows/verifier-v60.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v60 -p test_v60_offline.py -v
