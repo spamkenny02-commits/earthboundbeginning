@@ -1,6 +1,18 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V58 (textes de transformation et de recherche)
+## Version actuelle : V59 (boutiques et livraisons)
+
+V59 traduit **61 fragments dans 59 zones** : boutiques, consignes, confirmations de livraison et réponses téléphoniques. 537 tests passent, 212 captures sont identiques à V58 et 118 lectures isolées vérifient le rendu. Les accès naturels des services hérités restent à établir.
+
+- [Patch V59 avec accents](patches/EarthBound_Beginnings_FR_v59_accents.ips)
+- [Patch V59 ASCII](patches/EarthBound_Beginnings_FR_v59_ascii.ips)
+- [Rapport V59](RAPPORT_V59.md)
+- [Sources et tests](tools/v59/README_V59.md)
+- [Affichage et captures](tests/emulation_v59/RAPPORT_EMULATION_V59.md)
+
+Appliquer **un seul IPS V59 directement à la ROM originale USA 1.2**. Objectif : terminer les textes avant les menus ; 100 % n’est pas encore certifié. Aucune ROM distribuée.
+
+## Version précédente : V58 (textes de transformation et de recherche)
 
 V58 traduit **33 fragments dans 20 zones** : transformation, dentifrice, recherche de truffes et huit directions. Ces modèles hérités sont vérifiés en lecture contrôlée ; leurs accès naturels dans le portage restent à établir.
 

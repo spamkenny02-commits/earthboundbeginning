@@ -9,8 +9,8 @@ from pathlib import Path
 import argparse
 ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'tools/v58'));import build_v58 as b
-ap=argparse.ArgumentParser();ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);args=ap.parse_args()
-s=args.rom.read_bytes();assert b.sha(s)==b.ROM_SHA;bases={p:b.apply(s,b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v58_{p}.ips').read_bytes())) for p in ('accents','ascii')};base=bases['accents'];d=b.dictionary_from_rom(s)
+ap=argparse.ArgumentParser();ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--version',type=int,default=58);args=ap.parse_args()
+s=args.rom.read_bytes();assert b.sha(s)==b.ROM_SHA;bases={p:b.apply(s,b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v{args.version}_{p}.ips').read_bytes())) for p in ('accents','ascii')};base=bases['accents'];d=b.dictionary_from_rom(s)
 # Current relocated script starts, used only to recognize NPC entry destinations.
 copies=set()
 for f in (ROOT/'tools').glob('v*/validation*json'):
@@ -20,7 +20,7 @@ for f in (ROOT/'tools').glob('v*/validation*json'):
   if not isinstance(p,dict):continue
   for e in p.get('relocated',[]):
    if 'offset' in e:copies.add(int(e['offset'],16))
-for v in range(51,59):
+for v in range(51,args.version+1):
  for e in json.load(open(ROOT/f'tools/v{v}/v{v}_fixtures.json'))['edits']:copies.add(int(e['copy_offset'],16))
 seeds={};
 for row in range(1584):
@@ -50,5 +50,5 @@ while queue:
   if 0<t<len(base):
    if t not in paths:paths[t]=f'{r:06X}@{q:06X}'
    queue.append(t)
-args.out.write_text(json.dumps({'baseline':'v58','source_sha256':b.sha(s),'baseline_sha256':{p:b.sha(v) for p,v in bases.items()},'natural_scene_access_verified':False,'language_classification_verified':False,'excludes_already_modified_spans':True,'excluded_root':'3508F4','seed_count':len(seeds),'visited_roots':len(seen),'unchanged_nonmenu_spans':list(sorted(texts.values(),key=lambda e:e['offset'])),'paths':{f'{k:06X}':v for k,v in paths.items()}},ensure_ascii=False,indent=2))
+args.out.write_text(json.dumps({'baseline':f'v{args.version}','source_sha256':b.sha(s),'baseline_sha256':{p:b.sha(v) for p,v in bases.items()},'natural_scene_access_verified':False,'language_classification_verified':False,'excludes_already_modified_spans':True,'excluded_root':'3508F4','seed_count':len(seeds),'visited_roots':len(seen),'unchanged_nonmenu_spans':list(sorted(texts.values(),key=lambda e:e['offset'])),'paths':{f'{k:06X}':v for k,v in paths.items()}},ensure_ascii=False,indent=2))
 for e in sorted(texts.values(),key=lambda e:e['offset']):print(e['offset'],e['end'],repr(e['text']),e['contexts'][:2])

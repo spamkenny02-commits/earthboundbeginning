@@ -1,4 +1,4 @@
-# Suite des textes après V58
+# Suite des textes après V59
 
 Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit pas un dénominateur de couverture.
 
@@ -6,9 +6,11 @@ Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit p
 - Autres confirmations/refus d'inventaire et accès calculés : Télépathie en V56, consommation et don en V57 ont révélé des résidus hors audit automatique.
 - Anciennes entrées intérieures conservées par V51–V56 : vérifier les branches naturelles, qui peuvent encore afficher leurs copies anglaises.
 - Générique textuel `17FBE8` : rôles à traduire, noms propres à conserver, police spécifique à vérifier. Voir `atelier/graphismes/REPERAGE.md`.
-- Services hérités (`05BBxx`, `063xxx`, etc.) : accessibilité naturelle incertaine ; ne pas les compter automatiquement comme des dialogues manquants du scénario.
+- V59 traduit 61 fragments de boutiques, consignes et livraisons (`05BBxx`, `063xxx`, `064xxx`). Les accès naturels et les anciennes entrées intérieures conservées restent à vérifier.
 - Relecture d'un parcours naturel complet et des branches optionnelles avant certification d'une couverture globale.
 
-Libellés de menus, noms d'objets/PSI et inscriptions graphiques : phase suivante. Les 85 % sont une cible non certifiée ; les 80 % précédents estimaient qualitativement le travail global.
+Libellés de menus, noms d'objets/PSI et inscriptions graphiques : phase suivante. L’objectif est désormais 100 % des textes, sans taux certifié. Les anciens 80 % estimaient qualitativement le travail global.
+
+Audit V59 : 312 fragments candidats inchangés restent à qualifier, y compris noms, onomatopées, héritage et débogage. Ils ne mesurent pas la couverture du scénario.
 
 Pour toute nouvelle copie, utiliser le stockage protégé de `tools/v57/safe_storage.py`. Les trous nuls de banque 25 contiennent des pixels et ne doivent plus servir de réserve.

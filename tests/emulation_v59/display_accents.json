@@ -1,0 +1,2546 @@
+{
+  "method": "isolated_entry_copy_with_temporary_return_and_wait",
+  "profile": "accents",
+  "wram_modified_by_tester": false,
+  "base_rom_sha256": "1d857759d97810986939dcef3d2409a05cd25054fb0e1e440d0e29433965dc76",
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "cases": {
+    "05BB76": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "15f9cdb39685e715679e031cf41a166589a67b4360fb25e0d303a5cf80ec953f",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "010876bbc5001302"
+        },
+        {
+          "offset": "330663",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BB76/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "0617d383a25e86b9350420bfc57a709a6a4bbfe906eb88946da4da02f04c40b0"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.081
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BB76/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "0617d383a25e86b9350420bfc57a709a6a4bbfe906eb88946da4da02f04c40b0"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.203
+        }
+      ]
+    },
+    "05BB89": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "f76aa49e8dce7598abdc1c44c626db97e3877b4656cd7bc00db328ca11687c09",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "010889bbc5001302"
+        },
+        {
+          "offset": "32F3D7",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BB89/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4929f0e04eff13bd62608008a5e8fbf69dbb2884d4c411ecb4919e5d6fb3c331"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.088
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BB89/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4929f0e04eff13bd62608008a5e8fbf69dbb2884d4c411ecb4919e5d6fb3c331"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.252
+        }
+      ]
+    },
+    "05BB9A": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "ffa2c5452b8f4b69db6f89fe62def98d578b6be1b2ad5f0cac00c2dc99fef768",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01089abbc5001302"
+        },
+        {
+          "offset": "32CEF0",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BB9A/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "e110fb5ab6cf0828715c2b52792f6ba8c04aaa61b691ff74afd77a288b46a869"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.073
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BB9A/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "e110fb5ab6cf0828715c2b52792f6ba8c04aaa61b691ff74afd77a288b46a869"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.252
+        }
+      ]
+    },
+    "05BBA2": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "8b45fcf031cb956da763eb9e7a8d7d15f940e62ca5bd4dcbddb934a967ce8a82",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108a2bbc5001302"
+        },
+        {
+          "offset": "32EFF7",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBA2/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4929f0e04eff13bd62608008a5e8fbf69dbb2884d4c411ecb4919e5d6fb3c331"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.114
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBA2/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4929f0e04eff13bd62608008a5e8fbf69dbb2884d4c411ecb4919e5d6fb3c331"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.242
+        }
+      ]
+    },
+    "05BBB2": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "7e5cc2c5b5e2ac4cd1f0d9a2ac2354b253c203cf258b711a5f079e886b83ee62",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108b2bbc5001302"
+        },
+        {
+          "offset": "32934F",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBB2/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "082f54217f5d60142c54380eae539422df11f9748fd4359c089ac9e8af2701fb"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.107
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBB2/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "082f54217f5d60142c54380eae539422df11f9748fd4359c089ac9e8af2701fb"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.239
+        }
+      ]
+    },
+    "05BBBE": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "556e65f654444d10665f595183c47726c76e75bb64a777deb5eb3abe2bf48196",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108bebbc5001302"
+        },
+        {
+          "offset": "32E407",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBBE/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4929f0e04eff13bd62608008a5e8fbf69dbb2884d4c411ecb4919e5d6fb3c331"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.133
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBBE/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4929f0e04eff13bd62608008a5e8fbf69dbb2884d4c411ecb4919e5d6fb3c331"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.367
+        }
+      ]
+    },
+    "05BBCE": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "fa52e962cdd868751783ed7cce148874c256e40a12c0157a310f02b6504930f4",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108cebbc5001302"
+        },
+        {
+          "offset": "32CAF6",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBCE/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "73953dce8e1b53fa2e81a6965cd39df84098c539b915b6b0e6e30b40a402ba6a"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.072
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBCE/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "73953dce8e1b53fa2e81a6965cd39df84098c539b915b6b0e6e30b40a402ba6a"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.206
+        }
+      ]
+    },
+    "05BBE4": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "4d637b461817d194ee58b379519291f02246a5ac9ff8891d289174ad2629dee5",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108e4bbc5001302"
+        },
+        {
+          "offset": "32CDC6",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBE4/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "9abdeb5946786a6bdf4c849d55a66dc1314b4befeff6fe3ad5e5223b4090f44c"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.08
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBE4/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "9abdeb5946786a6bdf4c849d55a66dc1314b4befeff6fe3ad5e5223b4090f44c"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.218
+        }
+      ]
+    },
+    "05BBF2": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "4e9bdd3ffdb30f92f2a45281598461221be66c67f83a1544fe82995d42e3ce70",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108f2bbc5001302"
+        },
+        {
+          "offset": "32BC23",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBF2/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "0f96643bc02d2bc72f914ad9c7ed54852ea7b9a5000dabb46058471e5795fba0"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.071
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBF2/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "0f96643bc02d2bc72f914ad9c7ed54852ea7b9a5000dabb46058471e5795fba0"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.2
+        }
+      ]
+    },
+    "05BBFB": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "8bce98379bdf5882d72034dbd9bd9c4b93c7f5f4561e733ae622141f1fcaa38a",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108fbbbc5001302"
+        },
+        {
+          "offset": "33017E",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBFB/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "94ea8c55d823ef6f36e06d79e912d5c0bd2e242bda6dccbd3e61176656548bb4"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.075
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BBFB/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "94ea8c55d823ef6f36e06d79e912d5c0bd2e242bda6dccbd3e61176656548bb4"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.2
+        }
+      ]
+    },
+    "05BC0D": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "5786e46ba380273c747bfd1a3f2d554eecbf8ccda06ef70a17eba8d2857e8772",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01080dbcc5001302"
+        },
+        {
+          "offset": "330DF7",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC0D/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "6df22616370ebabcc629cb5bf1f6dc4ffb6fa8c79b08ef147e00325c8e2d770f"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.075
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC0D/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "6df22616370ebabcc629cb5bf1f6dc4ffb6fa8c79b08ef147e00325c8e2d770f"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.364
+        }
+      ]
+    },
+    "05BC23": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "f325d2eb272a4f7a1e0e683aa7153805f8b519e1f1ff068b059fa83334853db0",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "010823bcc5001302"
+        },
+        {
+          "offset": "32CF08",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC23/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "e110fb5ab6cf0828715c2b52792f6ba8c04aaa61b691ff74afd77a288b46a869"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.128
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC23/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "e110fb5ab6cf0828715c2b52792f6ba8c04aaa61b691ff74afd77a288b46a869"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.398
+        }
+      ]
+    },
+    "05BC3C": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "7365f7de9735100ffaaa42cad135f3905285f09f3383cab3e8dbcadc3403a494",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01083cbcc5001302"
+        },
+        {
+          "offset": "330386",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC3C/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "30067f7511d8db594e2c5348e2dcad04dd80ef2139ef24d56478b06f485c465c"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.072
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC3C/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "30067f7511d8db594e2c5348e2dcad04dd80ef2139ef24d56478b06f485c465c"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.295
+        }
+      ]
+    },
+    "05BC50": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "ec3e4ebf3eb573772aa558beb96dce72bfac4e8c6d43109898aafca0bac3abc0",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "010850bcc5001302"
+        },
+        {
+          "offset": "3303E7",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC50/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "a2d144e2c35362a14026ac8757e63cc66c46dc48bc42e2beb6c9c1f45c8cd2b3"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.077
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC50/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "a2d144e2c35362a14026ac8757e63cc66c46dc48bc42e2beb6c9c1f45c8cd2b3"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.37
+        }
+      ]
+    },
+    "05BC5F": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "83ee4c0e5360658a8ba3092862aac9c82cfb9dca162c90d05bf6f92833b2c2c0",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01085fbcc5001302"
+        },
+        {
+          "offset": "330852",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC5F/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "d002c5445f4bd27c563c4606663e40e3d6e3f6ed698346e994c2e997353bc2c5"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.132
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/05BC5F/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "d002c5445f4bd27c563c4606663e40e3d6e3f6ed698346e994c2e997353bc2c5"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.395
+        }
+      ]
+    },
+    "0637C1": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "bb9c19c945105893c6a65e5ff955f4380c48156fb30884880215050b6af36289",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108c137c6001302"
+        },
+        {
+          "offset": "32F1F6",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0637C1/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "efc5609aec5f9e2ad118c2792729a7703b5bbc412232e3c3613c42f64943cab2"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.074
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0637C1/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "efc5609aec5f9e2ad118c2792729a7703b5bbc412232e3c3613c42f64943cab2"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.206
+        }
+      ]
+    },
+    "0637F2": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "5003139ae99529f10306b4ee6c0945f89850302247beaad3b79bb52214a7bcc0",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108f237c6001302"
+        },
+        {
+          "offset": "33070D",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0637F2/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "eb1b6ef367ebdf99cbedfe722f34f28dac963d8941313a62e1f8d94d40cd3678"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.078
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0637F2/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "eb1b6ef367ebdf99cbedfe722f34f28dac963d8941313a62e1f8d94d40cd3678"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.238
+        }
+      ]
+    },
+    "063821": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "0419d52c092e4db2af3fbd16892a6208c1dbc9bc6f6af05b5ab3f0221f13aa64",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01082138c6001302"
+        },
+        {
+          "offset": "32B472",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063821/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "efc5609aec5f9e2ad118c2792729a7703b5bbc412232e3c3613c42f64943cab2"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.075
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063821/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "efc5609aec5f9e2ad118c2792729a7703b5bbc412232e3c3613c42f64943cab2"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.211
+        }
+      ]
+    },
+    "063852": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "d50613a02bd72efcbaa285f9aeed09c4c5c8e0fea569175c994f22128be98faa",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01085238c6001302"
+        },
+        {
+          "offset": "32DDD5",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063852/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "eb1b6ef367ebdf99cbedfe722f34f28dac963d8941313a62e1f8d94d40cd3678"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.079
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063852/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "eb1b6ef367ebdf99cbedfe722f34f28dac963d8941313a62e1f8d94d40cd3678"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.24
+        }
+      ]
+    },
+    "063888": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "660fb3b916af4c7248f3ec0386d7b6e5b1f7be4c721747e54e1635b939629b3f",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01088838c6001302"
+        },
+        {
+          "offset": "330DC9",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063888/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "6d8ece2ec0de5f0f7862365f067cc914ff0b9b0157fc049b9a242070410dde27"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.082
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063888/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "725a83c8954041afa274d32c3630a6e8d4c2f01e7c55f76c0835dcc25b231713"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.231
+        }
+      ]
+    },
+    "0638CD": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "c91e8d179e51f89389ad084b39ce6d9c5c00b933352ce7db47efa5319642b54e",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108cd38c6001302"
+        },
+        {
+          "offset": "329D77",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0638CD/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "acba101a97d9e47d2c6ca93087e68a61e64f6cc2ca65393738e2bafdfdad87bf"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.115
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0638CD/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "acba101a97d9e47d2c6ca93087e68a61e64f6cc2ca65393738e2bafdfdad87bf"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.276
+        }
+      ]
+    },
+    "0638D6": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "c01ee6cca58c546a2e301b944ab06c4ef28876edb705b73ee385518b6c086176",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108d638c6001302"
+        },
+        {
+          "offset": "329363",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0638D6/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "79f24fefa8e5986417aafbc9282cd61680702de5f420d8ba99b1fef96082fd75"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.083
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0638D6/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "79f24fefa8e5986417aafbc9282cd61680702de5f420d8ba99b1fef96082fd75"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.208
+        }
+      ]
+    },
+    "06391B": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "7a4d0fb382161b8eec71079ec6a838b89f4f68cc4c1e9ec3da7887c36b181cde",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01081b39c6001302"
+        },
+        {
+          "offset": "32EFDC",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/06391B/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4eb8a806856eb2cd8bcae4d660dab705c8c7cf82d6bb2a696455c3bacb94405a"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.076
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/06391B/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4eb8a806856eb2cd8bcae4d660dab705c8c7cf82d6bb2a696455c3bacb94405a"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.231
+        }
+      ]
+    },
+    "06392E": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "e82d39852024c9d3a8d294ad40694302aaca7820b12412fad1ff4222e6358730",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01082e39c6001302"
+        },
+        {
+          "offset": "329D50",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/06392E/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "68ec9d5e811e3ef28a8604941fa60ec676098f3e01e328ae18dd299dd9f08ac7"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.069
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/06392E/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "68ec9d5e811e3ef28a8604941fa60ec676098f3e01e328ae18dd299dd9f08ac7"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.197
+        }
+      ]
+    },
+    "063943": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "1abb9a5503022f344fc1623daf766f20acd5d2827410cd6888fa642f34f3ee52",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01084339c6001302"
+        },
+        {
+          "offset": "3301DE",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063943/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "f9274589be7e2a41e7623bf4718e2be6ba62a3030eee8556efca965c9548bbb9"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.071
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063943/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "f9274589be7e2a41e7623bf4718e2be6ba62a3030eee8556efca965c9548bbb9"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.203
+        }
+      ]
+    },
+    "063BA9": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "03ef5d58c0efa1b5a3387afe5494b20a1e22294cee0f64258d0b8bacafc07c3a",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108a93bc6001302"
+        },
+        {
+          "offset": "33077D",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BA9/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "edd572a5afb477b2651434ed9a3f2ce09bf117bf63d1aa16d33d7c2ba2039d6f"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.086
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BA9/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "edd572a5afb477b2651434ed9a3f2ce09bf117bf63d1aa16d33d7c2ba2039d6f"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.227
+        }
+      ]
+    },
+    "063BB7": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "cde9a7263ca61d44b11b73330fd1a4c1378d826f8afe5636b626002990d4b1a0",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108b73bc6001302"
+        },
+        {
+          "offset": "32A8F6",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BB7/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "b274abc8c75fd858f47658d7561787da1463aeb64a1c4dc6502c0ffecb853d3b"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.075
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BB7/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "b274abc8c75fd858f47658d7561787da1463aeb64a1c4dc6502c0ffecb853d3b"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.202
+        }
+      ]
+    },
+    "063BD5": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "fd1ac4ea34ecc5cf8951e2ad4b7e0400d9009f287d32d4cde02450b6458728ce",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108d53bc6001302"
+        },
+        {
+          "offset": "32C0E3",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BD5/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "0f96643bc02d2bc72f914ad9c7ed54852ea7b9a5000dabb46058471e5795fba0"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.071
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BD5/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "0f96643bc02d2bc72f914ad9c7ed54852ea7b9a5000dabb46058471e5795fba0"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.214
+        }
+      ]
+    },
+    "063BDC": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "aec9c22ae4d7a1d6a2bfe8178094e1c8fcc0cda057d7a444debec703116adc30",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108dc3bc6001302"
+        },
+        {
+          "offset": "32C9BF",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BDC/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "0f96643bc02d2bc72f914ad9c7ed54852ea7b9a5000dabb46058471e5795fba0"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.071
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BDC/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "0f96643bc02d2bc72f914ad9c7ed54852ea7b9a5000dabb46058471e5795fba0"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.211
+        }
+      ]
+    },
+    "063BE4": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "a77a3fe895a76d82ca6ee1e6699ac641489185833ad6740cc1b3c2e5cf232424",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108e43bc6001302"
+        },
+        {
+          "offset": "32CB07",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BE4/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "2c65b4371a5b6988d3fe3e13126944936aaae994887ed767dffd440386d6886a"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.125
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BE4/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "2c65b4371a5b6988d3fe3e13126944936aaae994887ed767dffd440386d6886a"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.219
+        }
+      ]
+    },
+    "063BF3": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "56914ec5a5a4879f2adfd3fbcbfd45c5737dc6ede9b11310b01e169e94799cbd",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108f33bc6001302"
+        },
+        {
+          "offset": "3306F3",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BF3/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4996ac3b99c8f4587a4318bcecaacdbe12246eda50d09c0d48c3abe13526fed6"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.081
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063BF3/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "4996ac3b99c8f4587a4318bcecaacdbe12246eda50d09c0d48c3abe13526fed6"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.25
+        }
+      ]
+    },
+    "063C07": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "beff11b5f2880aa030189371179de1a0cabcd1539a637be05422259c91bf7ced",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108073cc6001302"
+        },
+        {
+          "offset": "32CDA7",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C07/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "8ef3da8bc126dfc46e56b60ba1a0709534a03ad6a7d363ba7082adf1d77384ed"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.09
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C07/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "c6265f4e97a09c91249d6ed2f553ded647f77f68f13aefe7f4fb360a288dde69"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.278
+        }
+      ]
+    },
+    "063C2A": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "784ff77cbc701f92358024d037773818d273a992b0ba223383a8b60912f30395",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01082a3cc6001302"
+        },
+        {
+          "offset": "32F3BE",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C2A/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "dce62ec77fe314a12c11bbc252947b3ea7fd928c4460a7118171f5cf91f527e8"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.072
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C2A/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "dce62ec77fe314a12c11bbc252947b3ea7fd928c4460a7118171f5cf91f527e8"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.317
+        }
+      ]
+    },
+    "063C40": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "25a3378cb495e7d845b3616f7edb96acd383443948515c2e10ea093a6a4e272a",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108403cc6001302"
+        },
+        {
+          "offset": "32ABA1",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C40/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "22fd3cde3c6bf31a1a1bba2b1ffb8c6376af5d4e76236adbc6d22bde8fd8b352"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.072
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C40/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "22fd3cde3c6bf31a1a1bba2b1ffb8c6376af5d4e76236adbc6d22bde8fd8b352"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.245
+        }
+      ]
+    },
+    "063C4B": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "836f59084c69ec9cb95e7c4d77644d0db779f1d02c784391b3d4a17e08734beb",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01084b3cc6001302"
+        },
+        {
+          "offset": "329376",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C4B/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "9e2b8d474db463692a916dae93bea0c837fe9e3a56145d9407ed1eafd42d5168"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.073
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C4B/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "9e2b8d474db463692a916dae93bea0c837fe9e3a56145d9407ed1eafd42d5168"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.251
+        }
+      ]
+    },
+    "063C60": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "204ad72e83fbb430bbaf805d5e096324fa75fbdf33497486962a5618811bd42e",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108603cc6001302"
+        },
+        {
+          "offset": "329D68",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C60/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "021d6004d4c24fccf1747e29da966ab94a163fc255288e8fc3943398dbccebfb"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.072
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C60/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "021d6004d4c24fccf1747e29da966ab94a163fc255288e8fc3943398dbccebfb"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.249
+        }
+      ]
+    },
+    "063C6A": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "447001d05a7c98ba3e3a1a7d5cdc64023999835a164058a261420db9b87a4108",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01086a3cc6001302"
+        },
+        {
+          "offset": "32DDBB",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C6A/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "5d70909479df11d44bcfbbd95104f1d36e4020fba4a01d6cc62a6fe53679e620"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.132
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C6A/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "5d70909479df11d44bcfbbd95104f1d36e4020fba4a01d6cc62a6fe53679e620"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.391
+        }
+      ]
+    },
+    "063C86": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "57cfbb41d5a58fe2ea97767cd2e3585b0487bfbc175cc29e079c0e9444a1a376",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108863cc6001302"
+        },
+        {
+          "offset": "3303C4",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C86/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "3ce5790a4447acdac2f7409769fe7b8de7ba6a7aea63d30bb8cb3870f0fd8cb3"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.101
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063C86/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "913dc38537b7998ea2530c32aec977a0926dd6b18ff89f1ccebdebd305ceca74"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.208
+        }
+      ]
+    },
+    "063CAF": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "bef55fab238eca2ffd6c5fb1fa27e8161f8fe7d46468bbd273b065914181a2a4",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108af3cc6001302"
+        },
+        {
+          "offset": "330152",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063CAF/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "cf8c87866d1a73ae864a76b9ea802084f1f3ebc2a0d84b9db5ea01a6b8a20134"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.071
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063CAF/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "9e88bd9864a9f089f96b7e4c6654c91fd5ceda32359703aa832fce60029bec0b"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.201
+        }
+      ]
+    },
+    "063CD8": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "be5973461e44d4274bdd76f2c71a796c88df62ca0260f86274f6f29158f23c11",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108d83cc6001302"
+        },
+        {
+          "offset": "32BC0B",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063CD8/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "288db840bfffa1851dd19719eae9a7ddbe65f5cf69f6b30d6dbd4f1d0084ba28"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.123
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063CD8/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "288db840bfffa1851dd19719eae9a7ddbe65f5cf69f6b30d6dbd4f1d0084ba28"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.377
+        }
+      ]
+    },
+    "063CEA": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "125c5742d65b942024e8bf8186358e09aad8154c021b2ceaefff1cdc8101761b",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108ea3cc6001302"
+        },
+        {
+          "offset": "33075A",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063CEA/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "cf8c87866d1a73ae864a76b9ea802084f1f3ebc2a0d84b9db5ea01a6b8a20134"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.088
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063CEA/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "9e88bd9864a9f089f96b7e4c6654c91fd5ceda32359703aa832fce60029bec0b"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.362
+        }
+      ]
+    },
+    "063D13": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "d6956695359f02d15ed91f04e3e2e9e8298d4c102ed81ffda7e84d9d5d8e14f9",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108133dc6001302"
+        },
+        {
+          "offset": "32C0CB",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063D13/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "288db840bfffa1851dd19719eae9a7ddbe65f5cf69f6b30d6dbd4f1d0084ba28"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.126
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063D13/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "288db840bfffa1851dd19719eae9a7ddbe65f5cf69f6b30d6dbd4f1d0084ba28"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.374
+        }
+      ]
+    },
+    "063D2C": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "e6c9af97f34a07018c2ae94010604372bc142c63357afd317f1c45f009e01d74",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01082c3dc6001302"
+        },
+        {
+          "offset": "330297",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063D2C/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "862a6a5b2fc6097a1aa75cb8b8f3da6d000a6ebb61d7fe660f3156bb0447dad9"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.082
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063D2C/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "862a6a5b2fc6097a1aa75cb8b8f3da6d000a6ebb61d7fe660f3156bb0447dad9"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.229
+        }
+      ]
+    },
+    "063D40": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "6f041564d0660317e904e672c7f0ea683c4eec1375a3104d77daf54a9005d79a",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108403dc6001302"
+        },
+        {
+          "offset": "32C981",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063D40/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "7ec689d19028aeb34e28fd37fb9a01019b87feda2f3e618ff44d6d51eab4202e"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.074
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063D40/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "7ec689d19028aeb34e28fd37fb9a01019b87feda2f3e618ff44d6d51eab4202e"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.223
+        }
+      ]
+    },
+    "063DEA": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "9caab558a2102ece59e523fc9370b0a02e0735cfaec73669d326bc13efc144a3",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108ea3dc6001302"
+        },
+        {
+          "offset": "32C9A7",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063DEA/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "fc887ac727d4f0328625d36d9276c930ec83eaebf847a351dcb7b73956520f50"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.073
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063DEA/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "fc887ac727d4f0328625d36d9276c930ec83eaebf847a351dcb7b73956520f50"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.202
+        }
+      ]
+    },
+    "063E01": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "74d09905d3963362b6c46684e35d856e72c9d646b1e12d8fde031fd1e5b43ecc",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108013ec6001302"
+        },
+        {
+          "offset": "33063A",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E01/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "1d51d2325a5cb5452cdb9e4281222eb62080660fe0733bfd9713ab4d26cb61c8"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.13
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E01/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "ce7af93af710d0a33f2a79915c70b3a9bb58cc2757d4139684e6d70ec6f51616"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.361
+        }
+      ]
+    },
+    "063E2E": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "93fa3385fa48525f988a59fec7fe490784f7330974651ba7b5f322d4705cbdfc",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01082e3ec6001302"
+        },
+        {
+          "offset": "3307C9",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E2E/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "194e19b9b5118966b5cc2046065eb176144f59d414e98de7e7a789e7a01b3d8c"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.122
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E2E/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "2f31498471f06471d691f9b1f7a5a3a3fc02d3823795243f9ee5e3c613e655b3"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.307
+        }
+      ]
+    },
+    "063E49": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "2d5631f2304cad97c4546545900e93e50cefbeedce27238b53e3af6d2ec3c761",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108493ec6001302"
+        },
+        {
+          "offset": "3302C0",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E49/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "dce90e5fb08622ab9dece4ece7dd3a4de78750fdadc13a9e0afaa74040dcb957"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.071
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E49/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "dce90e5fb08622ab9dece4ece7dd3a4de78750fdadc13a9e0afaa74040dcb957"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.202
+        }
+      ]
+    },
+    "063E5A": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "1fdf8c3360bc6b0cd74a04439e9154ac64a08281c96b8fe8223eab2f71ddc50d",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01085a3ec6001302"
+        },
+        {
+          "offset": "3307F9",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E5A/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "3073d05d3b72fc5f3c5f2acf2c7a37c8ecd7d5e4c1d0b7a340509cb772e4e6a9"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.076
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E5A/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "3073d05d3b72fc5f3c5f2acf2c7a37c8ecd7d5e4c1d0b7a340509cb772e4e6a9"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.22
+        }
+      ]
+    },
+    "063E73": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "1e7d79cf5f9574c8e640881b9d66ac022fa752d86fed14cfb088b64cad7affda",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108733ec6001302"
+        },
+        {
+          "offset": "32A8D7",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E73/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "997db30bc01ed13a789053eb31c14655f8b6f754d9e2c52ed274f2ff7445480d"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.126
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E73/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "997db30bc01ed13a789053eb31c14655f8b6f754d9e2c52ed274f2ff7445480d"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.366
+        }
+      ]
+    },
+    "063E98": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "60ed95856d230de09a322b0fa8ebbb0ac1970b7688568b48a96df191de7c5a5a",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108983ec6001302"
+        },
+        {
+          "offset": "32CADF",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E98/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "149d46987aa7885f11e4c12d57b2f154692f02cec8a9d1476432986381482dd1"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.071
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063E98/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "149d46987aa7885f11e4c12d57b2f154692f02cec8a9d1476432986381482dd1"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.288
+        }
+      ]
+    },
+    "063EA1": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "1fcab55506b3cf41c6f657dca23baeac17feb1c295c10293a1021353a841560c",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108a13ec6001302"
+        },
+        {
+          "offset": "32E3EC",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063EA1/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "3fa50ec5e8776c550fa3ccee864dae609858619ee71873c10e0355dd0b88feb4"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.13
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/063EA1/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "3fa50ec5e8776c550fa3ccee864dae609858619ee71873c10e0355dd0b88feb4"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.383
+        }
+      ]
+    },
+    "0645F6": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "16408f74f2f7e89f8acb46fe9615d86aebe19197b3124b1d9c354f0bd1d4ce42",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108f645c6001302"
+        },
+        {
+          "offset": "32CF18",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0645F6/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "c83997db74620de7c1a87064f5047792c77fc98b6a8e7e12a177a66db654b7cc"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.072
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0645F6/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "c83997db74620de7c1a87064f5047792c77fc98b6a8e7e12a177a66db654b7cc"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.213
+        }
+      ]
+    },
+    "064946": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "d8f0f850cac11ebbbbd9d696190ff1a4578c85d3b413a099c1153a1bacdb2869",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01084649c6001302"
+        },
+        {
+          "offset": "330367",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/064946/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "359b68104a2a1f455c56b9d4f780eabac3afa1e9c07bbe8b96de2ef09deaf0ef"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.092
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/064946/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "c2f8c7d08e8b1ff5392d00a94ad82a675d661ef68df363877f824e76b8014316"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.361
+        }
+      ]
+    },
+    "064983": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "1332ea5ef13359fbf01c87ab82a32eb70cd696d8d2478b5f8f00cf31cef551d3",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01088349c6001302"
+        },
+        {
+          "offset": "32F1D9",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/064983/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "a073578aa16d6c3aa822fd5ae4ed74012609ecb07716d4682ad41edef2d51a1f"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.101
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/064983/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "a073578aa16d6c3aa822fd5ae4ed74012609ecb07716d4682ad41edef2d51a1f"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.258
+        }
+      ]
+    },
+    "064996": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "7806f3d51b6e096e44846b565890be2cccacb55468043f2e60badae089173f22",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "01089649c6001302"
+        },
+        {
+          "offset": "33082B",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/064996/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "88bbe10c197ceee916acb283a6994c5a00ff29d4a12f58969327784097ee2289"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.115
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/064996/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "88bbe10c197ceee916acb283a6994c5a00ff29d4a12f58969327784097ee2289"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.257
+        }
+      ]
+    },
+    "0649B7": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "48891d8468fb8630a049f722382ee61023c4f6e9c4afe5920db561926b07c0a1",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108b749c6001302"
+        },
+        {
+          "offset": "3301C0",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0649B7/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "9bbd49ab825954c00afbf3397cf5174f9ebd04960f01fdc62d991cd574c70370"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.077
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0649B7/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "9bbd49ab825954c00afbf3397cf5174f9ebd04960f01fdc62d991cd574c70370"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.209
+        }
+      ]
+    },
+    "0649E8": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "28cdbafda6c6238dc8ee5678716a79e6c5192dfd4e90b06a0dae8df5c7cac210",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108e849c6001302"
+        },
+        {
+          "offset": "32B455",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0649E8/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "a073578aa16d6c3aa822fd5ae4ed74012609ecb07716d4682ad41edef2d51a1f"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.077
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0649E8/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "a073578aa16d6c3aa822fd5ae4ed74012609ecb07716d4682ad41edef2d51a1f"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.204
+        }
+      ]
+    },
+    "0649FB": {
+      "returncode": 0,
+      "entry_and_copy_payload_unchanged": true,
+      "fixture_sha256": "24cde42d1eaf1992ff9b4727a05d2678927c8846a64abb90f2c13f8db0e426b6",
+      "temporary_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "0108fb49c6001302"
+        },
+        {
+          "offset": "32C95B",
+          "hex": "0200000000"
+        }
+      ],
+      "captures": [
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0649FB/early.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "88bbe10c197ceee916acb283a6994c5a00ff29d4a12f58969327784097ee2289"
+          },
+          "frame": 220,
+          "audio_samples": 117287,
+          "elapsed": 0.074
+        },
+        {
+          "image": {
+            "path": "/workspace/scratch/a52b6a3f0578/v59_display/accents/0649FB/response.png",
+            "width": 256,
+            "height": 224,
+            "sha256_rgb": "88bbe10c197ceee916acb283a6994c5a00ff29d4a12f58969327784097ee2289"
+          },
+          "frame": 520,
+          "audio_samples": 277224,
+          "elapsed": 0.204
+        }
+      ]
+    }
+  }
+}
