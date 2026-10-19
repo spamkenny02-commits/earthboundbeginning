@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V64 (services et distributeur)
+## Version actuelle : V65 (stockage et récupération)
+
+Deux confirmations de stockage encore partiellement anglaises sont corrigées. Les cycles dépôt/retrait bancaire et achat/dépôt/récupération sont vérifiés dans les deux profils. 593 tests passent ; 84 captures sont relues et 40 comparaisons avec V64 ne changent que la fenêtre de texte. Les essais sont contrôlés et ne certifient pas les accès naturels sur la carte.
+
+- [Patch V65 avec accents](patches/EarthBound_Beginnings_FR_v65_accents.ips)
+- [Patch V65 ASCII](patches/EarthBound_Beginnings_FR_v65_ascii.ips)
+- [Rapport V65 et captures](RAPPORT_V65.md)
+- [Sources et reproduction](tools/v65/README_V65.md)
+
+Appliquer **un seul IPS V65 directement à la ROM originale USA 1.2**. Textes d'abord, menus ensuite ; couverture complète non certifiée.
+
+## Version précédente : V64 (services et distributeur)
 
 Quatre fragments bancaires encore anglais sont traduits. Les anciennes entrées du distributeur sont auditées ; 26 essais contrôlés de services et 122 captures vérifient les deux profils. 585 tests passent, et les 22 comparaisons V61/V64 ne changent que la fenêtre de texte. Les accès naturels et d'autres branches restent à vérifier.
 

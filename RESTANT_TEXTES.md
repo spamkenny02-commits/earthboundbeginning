@@ -1,4 +1,4 @@
-# Suite des textes après V64
+# Suite des textes après V65
 
 Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit pas un dénominateur de couverture.
 
@@ -31,3 +31,5 @@ V62 : 648 graines, 3 341 débuts de script, 4 375 références et zéro racine b
 V63 : premier lot de lectures en jeu au-delà du graphe statique. Sept parcours de carte bancaire et Télépathie, dans les deux profils (14 essais, 10 488 images), confirment les messages français de consommation, don à soi, refus de jeter, aide et échec PSI. Les traces et leurs limites sont dans `RAPPORT_V63.md`. Aucun texte corrigé ni nouvel IPS. Poursuivre avec les services, les autres objets, le combat et les configurations à plusieurs personnages/inventaires pleins ; ce premier lot n'épuise pas les accès calculés. Les commandes anglaises du menu d'action sont réservées à la phase menus.
 
 V64 : quatre fragments bancaires traduits à taille fixe. Les racines ATM originales `0680A6`/`0680C2`, liées à 17 NPC mais écartées par les anciennes graines, sont maintenant suivies explicitement (20 scripts, 30 références). 26 essais contrôlés, 122 captures et 22 comparaisons V61/V64 vérifient les services ; les entrées ont été forcées, pas atteintes naturellement sur la carte. Restent en priorité : retrait sur compte positif, dépôt/retrait d'un objet autorisé au stockage, inventaires pleins, autres commerçants et parcours naturels. Les essais de téléphone ne couvrent pas toutes les conversations jusqu'au raccrochage. V64 ne certifie pas la fin des textes.
+
+V65 lève deux points de cette liste : retrait sur compte positif et cycle achat/dépôt/récupération d'un objet autorisé sont exécutés dans les deux profils. Deux confirmations contenant encore « The » sont corrigées. Sept anciennes copies de stockage sont relocalisées hors de la banque 25, conservée à l'identique ; sprites et commandes restent ceux de V64. Six essais, 84 captures, 40 comparaisons limitées au texte. La piste « you have » du soigneur `24D4A0` est un faux positif de paramètres, confirmé par les frontières de commandes et le rendu. Poursuivre avec les inventaires/réserves pleins, plusieurs personnages, autres services et accès naturels.

@@ -1,0 +1,486 @@
+{
+  "accents": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "paired_captures": 20,
+    "comparisons": [
+      {
+        "page": "page_00",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_00.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_00.png",
+        "before_png_sha256": "0923e754634079af5c4c1487babbc3217ea6678a0a3f369d438bdc592cb32fcd",
+        "before_rgb_sha256": "5bf932eaf40bd3f43664be8966bae0f811a0f9e91d75a7863729315db569b8c0",
+        "after_rgb_sha256": "5bf932eaf40bd3f43664be8966bae0f811a0f9e91d75a7863729315db569b8c0",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_01",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_01.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_01.png",
+        "before_png_sha256": "16deb29c8ba12fc705365ec830a091e226a65d642f32ab54f78eff3f7a122d19",
+        "before_rgb_sha256": "832c363501c101a70c061e631aebb0c80ec7f696914c93672f28ad3d9920a28f",
+        "after_rgb_sha256": "832c363501c101a70c061e631aebb0c80ec7f696914c93672f28ad3d9920a28f",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_02",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_02.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_02.png",
+        "before_png_sha256": "bbbcc3dbaa4a65d075fc0a448d7aff1c3d045822026a08a1b78b1546c65ebf4f",
+        "before_rgb_sha256": "c13ae1e822abe9eadc1d5fe418df1dfd38921a23c8c9851cf76a37bed825f3a0",
+        "after_rgb_sha256": "c13ae1e822abe9eadc1d5fe418df1dfd38921a23c8c9851cf76a37bed825f3a0",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_03",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_03.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_03.png",
+        "before_png_sha256": "b64ef9cbc1f12270ffc8c42a404a46d85387fd5d6fb29d0d4a72b7c955a20063",
+        "before_rgb_sha256": "85724287abfa195c028a2755a62ddf737bad973de9fd5261856b688fdf4f2bf6",
+        "after_rgb_sha256": "85724287abfa195c028a2755a62ddf737bad973de9fd5261856b688fdf4f2bf6",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_04",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_04.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_04.png",
+        "before_png_sha256": "c72b5a2404473a6a0cdcfe44ad75572358b5140d8155e0f148ce189ad190f2e6",
+        "before_rgb_sha256": "b933a9875cf1b10a32a63f6a0424bdfaaf4600d444bfb62b724a0ed13604c78c",
+        "after_rgb_sha256": "b933a9875cf1b10a32a63f6a0424bdfaaf4600d444bfb62b724a0ed13604c78c",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_05",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_05.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_05.png",
+        "before_png_sha256": "ed7f0f9c8131c24dae173dc42b9c523e12a4c0daabc07c83197c95584ab854af",
+        "before_rgb_sha256": "712fd80acbd5701f9ef2ed5cc136828f850b662f053b393cde44235f89903891",
+        "after_rgb_sha256": "712fd80acbd5701f9ef2ed5cc136828f850b662f053b393cde44235f89903891",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_06",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_06.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_06.png",
+        "before_png_sha256": "3c4d7be0ab03ffde8d83bc5aafcf2c49b99bc5ffb1057420fb72416c34d2b6c0",
+        "before_rgb_sha256": "447d32f99cf770c0e4e88e00a278ab63e4fcddc11451939ef89a390323a104f0",
+        "after_rgb_sha256": "447d32f99cf770c0e4e88e00a278ab63e4fcddc11451939ef89a390323a104f0",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_07",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_07.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_07.png",
+        "before_png_sha256": "a66ec63fd29f68d9906a74b1d1351106d2e0fc561f4407bb7333141bf4300dc6",
+        "before_rgb_sha256": "b6a9391a7be22a6ff8238d3936b991ae62d0387207b55c985f6bd6c312488c3f",
+        "after_rgb_sha256": "b6a9391a7be22a6ff8238d3936b991ae62d0387207b55c985f6bd6c312488c3f",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_08",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_08.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_08.png",
+        "before_png_sha256": "b69b3273707bcb90b12c71d9100152594ca66a06af19ebc74ca00d102a374e51",
+        "before_rgb_sha256": "d5c8dab97693f01133371b5f914a794c0f97ce97a1e010ab26b16c59a0eb4ca4",
+        "after_rgb_sha256": "d5c8dab97693f01133371b5f914a794c0f97ce97a1e010ab26b16c59a0eb4ca4",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_09",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_09.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_09.png",
+        "before_png_sha256": "101a4e38a979b7813800ca933d0244b2c9dabd2cc60effe4cc73f6006301c9c4",
+        "before_rgb_sha256": "f3026994404b2ca5e664864bc936b3acad7d39ff8fce033087ab9ba771a0a32e",
+        "after_rgb_sha256": "f3026994404b2ca5e664864bc936b3acad7d39ff8fce033087ab9ba771a0a32e",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_10",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_10.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_10.png",
+        "before_png_sha256": "941ff15a305ed56f5233e3eb015a667a09f600436ba3bb5df77ebb9b0df3827e",
+        "before_rgb_sha256": "9d77f6594572cec6eb0d37ffcf708380b5adbf7afea3c046ae87578002f0c6dd",
+        "after_rgb_sha256": "9d77f6594572cec6eb0d37ffcf708380b5adbf7afea3c046ae87578002f0c6dd",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_11",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_11.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_11.png",
+        "before_png_sha256": "43798bd1cf4ad805d53b89aaa9c44acb9df5937e7e2ce33b26f09644e427fc77",
+        "before_rgb_sha256": "0468b2b29266778ae41a902f8a7904f55aeea4402540651557bc82c1cca4d846",
+        "after_rgb_sha256": "4bbfc462155668e55daa13bdaa9c4637562c88b950959fbd9497311f9ba65ece",
+        "changed_pixels": 967,
+        "bbox": [
+          105,
+          18,
+          235,
+          61
+        ],
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_12",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_12.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_12.png",
+        "before_png_sha256": "5d6d2f07e19a4786f1b1045a8c4b0a7b2d13398ad57ee8437c2872a1eb932938",
+        "before_rgb_sha256": "9c04df37b7c47fc4b0a2e3df31c0d565c487f0e32cffefdb59c98e5e51c41e7b",
+        "after_rgb_sha256": "9c04df37b7c47fc4b0a2e3df31c0d565c487f0e32cffefdb59c98e5e51c41e7b",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_13",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_13.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_13.png",
+        "before_png_sha256": "98c8decd2376c5abdad8b35633a001d480dfcf5cb79325c17eef0750f2a0a97b",
+        "before_rgb_sha256": "69f45c8d810cbed109c21ff8990d0f4ca1cabb93605298b8f79cda8bae62dcf8",
+        "after_rgb_sha256": "69f45c8d810cbed109c21ff8990d0f4ca1cabb93605298b8f79cda8bae62dcf8",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_14",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_14.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_14.png",
+        "before_png_sha256": "56d5e5cef5916eac3b4feb4cfb9cfeeaf4f50fe0c04827a9fa4489f401eec311",
+        "before_rgb_sha256": "00867afa99219bac0ba4c321f867edeffd2d4033c1170942708f42b56185b491",
+        "after_rgb_sha256": "00867afa99219bac0ba4c321f867edeffd2d4033c1170942708f42b56185b491",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_15",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_15.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_15.png",
+        "before_png_sha256": "cf6796117067314ca51c65665ca769e59392d9323a3f9c83946de9057c8af2b4",
+        "before_rgb_sha256": "b9cb060e48c20918a86f839826325d3b528f3e62a02611b3137827dd66f4f7b0",
+        "after_rgb_sha256": "b9cb060e48c20918a86f839826325d3b528f3e62a02611b3137827dd66f4f7b0",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_16",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_16.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_16.png",
+        "before_png_sha256": "0cfc168c0091bad4f34db6ba0d4af1ee6903a8f070f9a875cb9d669527e120a5",
+        "before_rgb_sha256": "79b190e136f148d949d34678ef65c2ba27bd5a2baf4373a8474b11621ce54d7f",
+        "after_rgb_sha256": "79b190e136f148d949d34678ef65c2ba27bd5a2baf4373a8474b11621ce54d7f",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_17",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_17.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_17.png",
+        "before_png_sha256": "0b877c14c9514a8cbacfb8195f3f749697b090e2e3796edc7f83f007f848da13",
+        "before_rgb_sha256": "7561be062222ae554d5fb638800208fd4726d825072e82d224148f2832fb8a22",
+        "after_rgb_sha256": "d3db3e63a59b31cfd09d9390a904d0d366caaab5b9294c15f172f3f0b7e35ef5",
+        "changed_pixels": 300,
+        "bbox": [
+          110,
+          34,
+          240,
+          69
+        ],
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_18",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_18.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_18.png",
+        "before_png_sha256": "c5271ca73e624ff1cff957357b2161f32f74a8d775e07a12a18ff09db53a0789",
+        "before_rgb_sha256": "82da95736f44f09682c4f3c436f334ee5609539c726c721a333d706bf11e3997",
+        "after_rgb_sha256": "82da95736f44f09682c4f3c436f334ee5609539c726c721a333d706bf11e3997",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_19",
+        "before_path": "tests/emulation_v65/reference_v64/accents/page_19.png",
+        "after_path": "tests/emulation_v65/accents/buy_store_retrieve/page_19.png",
+        "before_png_sha256": "32633e56129aeb58fd23adba53ef8c920f748b1434c4cc8579a1ce2acf73261a",
+        "before_rgb_sha256": "56144d2b83f9af9231bc7a0c796fe86a168154a18778adf6d2261f951f06e46b",
+        "after_rgb_sha256": "56144d2b83f9af9231bc7a0c796fe86a168154a18778adf6d2261f951f06e46b",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      }
+    ]
+  },
+  "ascii": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "paired_captures": 20,
+    "comparisons": [
+      {
+        "page": "page_00",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_00.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_00.png",
+        "before_png_sha256": "d82d8a26d930297b414d03b286fc4a74885a7ca4ea2433f5872d7cd4306d352e",
+        "before_rgb_sha256": "58e8916d4f5cdc2c3787326fc78dbae17128f9f383d764c760b1f9fd8a0dd679",
+        "after_rgb_sha256": "58e8916d4f5cdc2c3787326fc78dbae17128f9f383d764c760b1f9fd8a0dd679",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_01",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_01.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_01.png",
+        "before_png_sha256": "422c710264dd78b065a3a9ab960a976424ad72b24d7014ae4d618a3a03643a93",
+        "before_rgb_sha256": "27012ad2efdeecf1f9f97f6ca3dff17f40f9a908d2b3eff603fe3b6a485f8da3",
+        "after_rgb_sha256": "27012ad2efdeecf1f9f97f6ca3dff17f40f9a908d2b3eff603fe3b6a485f8da3",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_02",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_02.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_02.png",
+        "before_png_sha256": "81221260d52d610971ceb58f14fe47ce6931c14501cc677418cfca620e06011c",
+        "before_rgb_sha256": "963d45d85a41e7840ee04febc148be040e321ceace52ca669c4000a2935fd58b",
+        "after_rgb_sha256": "963d45d85a41e7840ee04febc148be040e321ceace52ca669c4000a2935fd58b",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_03",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_03.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_03.png",
+        "before_png_sha256": "87d9ed145999acd82d48a3c9ae7427ffef5bba7999d0c51fc8f4bda0f45d1f7a",
+        "before_rgb_sha256": "9f6867046e82a36cec996cf488219083b78d6d916eeecd342b2b6646c3331cda",
+        "after_rgb_sha256": "9f6867046e82a36cec996cf488219083b78d6d916eeecd342b2b6646c3331cda",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_04",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_04.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_04.png",
+        "before_png_sha256": "10b3bf7523731fe0eb6b5d853f67562ea08ea05dfe224acd008df794ff739789",
+        "before_rgb_sha256": "5837e76d893af5111f7a1ac06fffd5223f5e77ebb6eff1c1964f84554ef1a112",
+        "after_rgb_sha256": "5837e76d893af5111f7a1ac06fffd5223f5e77ebb6eff1c1964f84554ef1a112",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_05",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_05.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_05.png",
+        "before_png_sha256": "6ba58c503d5b14aae460419c2fa876bf569aeb2ec0c120ac6c1d10191e71bf37",
+        "before_rgb_sha256": "e0d1f541f5821138b5241ac5aa47e8da0ea64a51065d21a9155ca96c2898cafd",
+        "after_rgb_sha256": "e0d1f541f5821138b5241ac5aa47e8da0ea64a51065d21a9155ca96c2898cafd",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_06",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_06.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_06.png",
+        "before_png_sha256": "b6bc0a7ee46c414d19f86a755fceb09df9d7893d4445dabaf980a5be020edd4b",
+        "before_rgb_sha256": "4425f51b503ac26ad3881b1ffada380af6d781d76b25ac00c4b684e4edaa40bc",
+        "after_rgb_sha256": "4425f51b503ac26ad3881b1ffada380af6d781d76b25ac00c4b684e4edaa40bc",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_07",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_07.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_07.png",
+        "before_png_sha256": "98a0fd3609edacdd0df1012e2a9f6605d2e4f38588ea21f8a8d06df225dd71e6",
+        "before_rgb_sha256": "9f0075085767a9d078b20af5015185f98344988f01fa454c02f1e59f325d023e",
+        "after_rgb_sha256": "9f0075085767a9d078b20af5015185f98344988f01fa454c02f1e59f325d023e",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_08",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_08.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_08.png",
+        "before_png_sha256": "208c52d4c3ed1626ea218db3f28b10cf6232bad494e29bebcb8f21e524ba3c7a",
+        "before_rgb_sha256": "3da9c5938470615b49ac3f8ddc9bc29111f6f0ba158595c4142e09ff59298598",
+        "after_rgb_sha256": "3da9c5938470615b49ac3f8ddc9bc29111f6f0ba158595c4142e09ff59298598",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_09",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_09.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_09.png",
+        "before_png_sha256": "b29bf8fb5ef154b675db52807dcefc6b31383b5736955e02fac030e20e687116",
+        "before_rgb_sha256": "8a4c4a4adf0a83f0f05204a9b1e919918fac4e388f5c9a05a40c78a07c78fdc8",
+        "after_rgb_sha256": "8a4c4a4adf0a83f0f05204a9b1e919918fac4e388f5c9a05a40c78a07c78fdc8",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_10",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_10.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_10.png",
+        "before_png_sha256": "2e2196092bc41c27efb506b74baa41fb545141c0765bed30da05220086c6158a",
+        "before_rgb_sha256": "1d515139ff7e1b9e7ac5492dc70482aad06a1d923b1feb5e6f4b048bbca5ae1a",
+        "after_rgb_sha256": "1d515139ff7e1b9e7ac5492dc70482aad06a1d923b1feb5e6f4b048bbca5ae1a",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_11",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_11.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_11.png",
+        "before_png_sha256": "b8a102a006063c4af93d211218129951caec527f9604584227a9bac22a9da786",
+        "before_rgb_sha256": "70fbd7617cac4a386e8b5513d7afa01f18db8a6c371e771d4e8f649ae712311d",
+        "after_rgb_sha256": "d6f17bcf687f5b6eda1d447c5c0b183dfba335c767256aa62d212c3500a82782",
+        "changed_pixels": 963,
+        "bbox": [
+          105,
+          18,
+          235,
+          61
+        ],
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_12",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_12.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_12.png",
+        "before_png_sha256": "da6a45e65e7b402ba3149820f120250dd8d0133afc5b0eea37b7663ac124f7c2",
+        "before_rgb_sha256": "78107d969f04563c1b33c6e51c68cecd34d92d1146517422d0eec86bfed4a865",
+        "after_rgb_sha256": "78107d969f04563c1b33c6e51c68cecd34d92d1146517422d0eec86bfed4a865",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_13",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_13.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_13.png",
+        "before_png_sha256": "48dba2cc3353dcd9c5aecbb90e2ad85e56e48280b2f192e3bd49aa7726427d2a",
+        "before_rgb_sha256": "e7e9064db253acf97858d2a191ec803e50849c05cee8258efcf8456b634bc04b",
+        "after_rgb_sha256": "e7e9064db253acf97858d2a191ec803e50849c05cee8258efcf8456b634bc04b",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_14",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_14.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_14.png",
+        "before_png_sha256": "abd7af75cfadcc3c8019370f731650d92b0075537a16d8fbd0f2a0006a0be5f9",
+        "before_rgb_sha256": "1b49423d7a5b749d0efcd79e619d385778bb5d61133e2b863a45acd065766a70",
+        "after_rgb_sha256": "1b49423d7a5b749d0efcd79e619d385778bb5d61133e2b863a45acd065766a70",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_15",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_15.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_15.png",
+        "before_png_sha256": "06f77a25065c909d6b96f3382fd35616a350e6adb427da130ae22a29cc0add8d",
+        "before_rgb_sha256": "b57e1ed3c0d2621e85a4475bbedf1f6174848a011e0e7b2d6a9cd5afc81e5cdd",
+        "after_rgb_sha256": "b57e1ed3c0d2621e85a4475bbedf1f6174848a011e0e7b2d6a9cd5afc81e5cdd",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_16",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_16.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_16.png",
+        "before_png_sha256": "b2b28ea5b7c76e4514668167ce326bdfe590284ed05341524651d0b21a65eb53",
+        "before_rgb_sha256": "6ff4b2f98755859a829cb9c37d2cacd53f295e1087da223c0e9a4adc48334c64",
+        "after_rgb_sha256": "6ff4b2f98755859a829cb9c37d2cacd53f295e1087da223c0e9a4adc48334c64",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_17",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_17.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_17.png",
+        "before_png_sha256": "215978e229d53e2afe52a7405b77757996e7b7c2706dc94692e8b53b014e7e67",
+        "before_rgb_sha256": "41e6138e5b9ee3679ce19ff2e4effd569af603c03ca4362ea19a99ac79e9005c",
+        "after_rgb_sha256": "0869b9ac1659acea50e9d379467ca95fdbaf8494cd3192d3ced5572c216911de",
+        "changed_pixels": 296,
+        "bbox": [
+          110,
+          34,
+          240,
+          69
+        ],
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_18",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_18.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_18.png",
+        "before_png_sha256": "b372189929cac49bec2cce357bf0abebfdd00f83b36ec1c0793e2121ea7c8f23",
+        "before_rgb_sha256": "fddeacdc3da92e916968bfb2667a1bec3d6cfb9e5add58ee9fc392f7f63612b6",
+        "after_rgb_sha256": "fddeacdc3da92e916968bfb2667a1bec3d6cfb9e5add58ee9fc392f7f63612b6",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "page": "page_19",
+        "before_path": "tests/emulation_v65/reference_v64/ascii/page_19.png",
+        "after_path": "tests/emulation_v65/ascii/buy_store_retrieve/page_19.png",
+        "before_png_sha256": "b6e0b72fc36e3d7053a68a54b93abce978e0565166c4727dbe033c23b2fcf0db",
+        "before_rgb_sha256": "dc5ce577d1784e32baeca1f60a634af8b4a912dc18eaca8cb9ad4009bf74ca0c",
+        "after_rgb_sha256": "dc5ce577d1784e32baeca1f60a634af8b4a912dc18eaca8cb9ad4009bf74ca0c",
+        "changed_pixels": 0,
+        "bbox": null,
+        "only_text_window_changed": true
+      }
+    ]
+  }
+}

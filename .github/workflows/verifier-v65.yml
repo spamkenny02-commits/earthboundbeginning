@@ -1,0 +1,27 @@
+name: Verify V65 storage patch offline
+
+on:
+  push:
+    paths:
+      - 'tools/v65/**'
+      - 'tests/emulation_v65/**'
+      - 'patches/*v65*'
+      - '.github/workflows/verifier-v65.yml'
+  pull_request:
+    paths:
+      - 'tools/v65/**'
+      - 'tests/emulation_v65/**'
+      - 'patches/*v65*'
+      - '.github/workflows/verifier-v65.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v65 -p test_v65_offline.py -v
+      - run: python3 -m pip install Pillow
+      - run: python3 tools/v65/verify_display.py
