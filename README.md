@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V65 (stockage et récupération)
+## Version actuelle : V66 (téléphone et Escargo Express)
+
+Le sélecteur de service encore anglais « Pick-up / Delivery » devient « Déposer / Retirer ». Douze essais dans les deux profils vérifient les fins d'appel, les refus et les deux choix Escargo : 178 captures relues et 48 comparaisons V65/V66 limitées au texte. Les appels sont contrôlés, pas atteints naturellement sur la carte ; les transferts par coursier restent à vérifier.
+
+- [Patch V66 avec accents](patches/EarthBound_Beginnings_FR_v66_accents.ips)
+- [Patch V66 ASCII](patches/EarthBound_Beginnings_FR_v66_ascii.ips)
+- [Rapport V66 et captures](RAPPORT_V66.md)
+- [Sources et reproduction](tools/v66/README_V66.md)
+
+Appliquer **un seul IPS V66 directement à la ROM originale USA 1.2**. Textes d'abord, menus ensuite ; couverture complète non certifiée.
+
+## Version précédente : V65 (stockage et récupération)
 
 Deux confirmations de stockage encore partiellement anglaises sont corrigées. Les cycles dépôt/retrait bancaire et achat/dépôt/récupération sont vérifiés dans les deux profils. 593 tests passent ; 84 captures sont relues et 40 comparaisons avec V64 ne changent que la fenêtre de texte. Les essais sont contrôlés et ne certifient pas les accès naturels sur la carte.
 
@@ -37,7 +48,7 @@ Les deux routines bloquées sur `1A 21` sont désormais lues entièrement, avec 
 - [Preuve, parseur et audit](tools/v62/README_V62.md)
 - [Essais et captures](tests/emulation_v62/RAPPORT_EMULATION_V62.md)
 
-V61 reste disponible ci-dessous pour comparaison ; V64 est désormais le patch recommandé.
+V61 reste disponible ci-dessous pour comparaison ; V66 est désormais le patch recommandé.
 
 ## Version précédente : V61 (fragments courts et huées)
 

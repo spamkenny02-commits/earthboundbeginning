@@ -1,0 +1,468 @@
+{
+  "accents": {
+    "case": "mom_pickup",
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_00.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_00.png",
+        "before_png_sha256": "2514733bddb8e1dd96d90d55dbcecf85d047120b60a304ef3c33c268a9ecbcdf",
+        "before_rgb_sha256": "f2f82cadc85e5c09e0325005a649f8dc949dcc1ec1f76d6a08c0b68d44777301",
+        "after_rgb_sha256": "f2f82cadc85e5c09e0325005a649f8dc949dcc1ec1f76d6a08c0b68d44777301",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_01.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_01.png",
+        "before_png_sha256": "48762d24ddc53743a52e4b09cb930caeea1fdd289e9be347fd79a0aa30a62ccf",
+        "before_rgb_sha256": "2164583cea0d203156027c02162d4b8fe6ee191f75567ee055f93c61f13c46f0",
+        "after_rgb_sha256": "2164583cea0d203156027c02162d4b8fe6ee191f75567ee055f93c61f13c46f0",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_02.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_02.png",
+        "before_png_sha256": "c6c10c4864874ce97fbe33f986c79a5b46cbf66836c6b7448b195040f8787975",
+        "before_rgb_sha256": "b60098866042e37c369d80e42b46fd41cb9da3a1e3f084df96d3fee297c4414f",
+        "after_rgb_sha256": "b60098866042e37c369d80e42b46fd41cb9da3a1e3f084df96d3fee297c4414f",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_03.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_03.png",
+        "before_png_sha256": "155e1e33d12d1402686ed1e593d10dbaa261df83f19c13f3f63a3156af703d61",
+        "before_rgb_sha256": "d013c6aa9bb2143a3b9630e42c809d543d9fdd81597a7eec859bddfd7adae99b",
+        "after_rgb_sha256": "d013c6aa9bb2143a3b9630e42c809d543d9fdd81597a7eec859bddfd7adae99b",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_04.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_04.png",
+        "before_png_sha256": "0b85635e9d86e7317c422acb9bcce0e84c6911a92600e0a4d0c9dbd3a59f2136",
+        "before_rgb_sha256": "aea4eff7b5ab9fdfbc623e8d1258cfdb35e76db376b1531545a58153789acf3f",
+        "after_rgb_sha256": "aea4eff7b5ab9fdfbc623e8d1258cfdb35e76db376b1531545a58153789acf3f",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_05.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_05.png",
+        "before_png_sha256": "e5a04902bf37db119f1c075324f7588cfb81e5f1344a7f599abde94c64b54caa",
+        "before_rgb_sha256": "17cffc0c9a59aa45d02d07717aeac827ce924836f574bc139124637e23aad2c7",
+        "after_rgb_sha256": "17cffc0c9a59aa45d02d07717aeac827ce924836f574bc139124637e23aad2c7",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_06.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_06.png",
+        "before_png_sha256": "dd2427ad6b16022700875120d62a65ac172f4877db3e0e937044254695685712",
+        "before_rgb_sha256": "080e6dbfca51e4e1598d09b4c0592cf4331533b138584e7dd76c2fd2fa533b0d",
+        "after_rgb_sha256": "080e6dbfca51e4e1598d09b4c0592cf4331533b138584e7dd76c2fd2fa533b0d",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_07.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_07.png",
+        "before_png_sha256": "3a0f832dbff9391b9de920969bcdc3aa862c8bed221683a3eeee311976955843",
+        "before_rgb_sha256": "b69cac506dc3aa1d3c34d45795028fc6c2e0fcd74b0ca7e5f8ae912b115d1193",
+        "after_rgb_sha256": "b69cac506dc3aa1d3c34d45795028fc6c2e0fcd74b0ca7e5f8ae912b115d1193",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_08.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_08.png",
+        "before_png_sha256": "20f3754fb9573518dd3f2ac1c3613bfefe1b58d7f57f4a462bfe0a5e2aa0e514",
+        "before_rgb_sha256": "06a510182b15fdb7078b263ac1f0ba56e8451e80e316e4508343d5608e4558c0",
+        "after_rgb_sha256": "06a510182b15fdb7078b263ac1f0ba56e8451e80e316e4508343d5608e4558c0",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_09.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_09.png",
+        "before_png_sha256": "e2c6340978ba262a7808384b8387ff7201a82444bf3d8df37d9cf2e3742155f5",
+        "before_rgb_sha256": "5fd9abcccd37ea77aadd4b95e979aa91333521ecef72cd5e26938785c4bff009",
+        "after_rgb_sha256": "5fd9abcccd37ea77aadd4b95e979aa91333521ecef72cd5e26938785c4bff009",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_10.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_10.png",
+        "before_png_sha256": "251aec6064d9c4aea36ef75e5aa950552a6746fe4297ff0b8007df7eb022c6c7",
+        "before_rgb_sha256": "68ca53add2c16e8660d32d3015fdbd9f6f58240c293ec6c9a663e18c5ba74f15",
+        "after_rgb_sha256": "68ca53add2c16e8660d32d3015fdbd9f6f58240c293ec6c9a663e18c5ba74f15",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_11.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_11.png",
+        "before_png_sha256": "915f23d9e895fd1e81483d8df58c5ae783122e4e2ddd8e066b754770834978b1",
+        "before_rgb_sha256": "faeadcc9033eb23765a84024e8f4208fe0debefa3af00919421e257047f15131",
+        "after_rgb_sha256": "faeadcc9033eb23765a84024e8f4208fe0debefa3af00919421e257047f15131",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_12.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_12.png",
+        "before_png_sha256": "cbccc4d51e60386bb6830c237b1b3702577a1fa1c31dcf1c00146dd7e2fa5d6d",
+        "before_rgb_sha256": "fbb8b76126aab548649607ec6727e159727f5823a2487526fb73e53bbafd63c8",
+        "after_rgb_sha256": "fbb8b76126aab548649607ec6727e159727f5823a2487526fb73e53bbafd63c8",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_13.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_13.png",
+        "before_png_sha256": "ee1bf57c5bee65426db32f62874679f6375dd2b63b61e438e0232705d9b2dc87",
+        "before_rgb_sha256": "8b8ec4925f46cf97e15c046938bee6393674e5c54006ab30d27d2973903bd293",
+        "after_rgb_sha256": "8b8ec4925f46cf97e15c046938bee6393674e5c54006ab30d27d2973903bd293",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_14.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_14.png",
+        "before_png_sha256": "e897036dafcb96b10d1ac5ea527b92010a33a32c649763a38bc26332aa67437a",
+        "before_rgb_sha256": "3c44993fec9918901e344e23de3d2e34a765b3bedd921bc4893d35441a8d94ca",
+        "after_rgb_sha256": "3c44993fec9918901e344e23de3d2e34a765b3bedd921bc4893d35441a8d94ca",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_15.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_15.png",
+        "before_png_sha256": "48b7049e39912a13f60798b5bafd97f64c1d59512c34123c6672fc35559e0937",
+        "before_rgb_sha256": "9282ddbf7528de0ddc2b5ba28f6462de7b905804788d0749ce74d396d714c44b",
+        "after_rgb_sha256": "9282ddbf7528de0ddc2b5ba28f6462de7b905804788d0749ce74d396d714c44b",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_16.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_16.png",
+        "before_png_sha256": "4baba7b8277f04a5a203339888bcb74dc17781bcd144acf32cbadcf5c6a8cf97",
+        "before_rgb_sha256": "25553421dbc41ff71e148cd0aaba3c08267c2f0953925f563d376b9ddb511570",
+        "after_rgb_sha256": "25553421dbc41ff71e148cd0aaba3c08267c2f0953925f563d376b9ddb511570",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_17.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_17.png",
+        "before_png_sha256": "f04b718156069068fe25e1baea76273d3f81d6467eed314687f58c3883eecac3",
+        "before_rgb_sha256": "67e42b4733f0f57553acb9ae245ce712a84b8747d800e042af8e9c929246de76",
+        "after_rgb_sha256": "67e42b4733f0f57553acb9ae245ce712a84b8747d800e042af8e9c929246de76",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_18.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_18.png",
+        "before_png_sha256": "6f0c2422eb9c9698a6afafc6b0b4b4716e4e9e75ba28470770db52689528ca3a",
+        "before_rgb_sha256": "6b6af3cc9a333f7315b399e2ef90203138dd1be12861f15fea5689fca539edef",
+        "after_rgb_sha256": "6b6af3cc9a333f7315b399e2ef90203138dd1be12861f15fea5689fca539edef",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_19.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_19.png",
+        "before_png_sha256": "3fc5c823407664a65c0a7e7d6cb74f345178b22d21bdce2603aaac54538d715c",
+        "before_rgb_sha256": "d4926e42300bfab60e9b69fecffa0483634caad93f213b2d86c9b9c754b94683",
+        "after_rgb_sha256": "f7a3cfffe902d5618349331f7ffc600d36489c739a50024283aa3f77296796b7",
+        "bbox": [
+          121,
+          50,
+          221,
+          61
+        ],
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_20.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_20.png",
+        "before_png_sha256": "ca8be165382c2b1652e55dceacf7f1ad903f72a754211262286bdaf7259d9597",
+        "before_rgb_sha256": "6d89733d6fe0a43df74060c490c39995feacf07bd06c820a2c4a45e9541297e7",
+        "after_rgb_sha256": "6d89733d6fe0a43df74060c490c39995feacf07bd06c820a2c4a45e9541297e7",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_21.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_21.png",
+        "before_png_sha256": "64ac82f56c7973e179a7de8b526fb8bc0aebaae25b4dd5bc758da99c07d9bcf5",
+        "before_rgb_sha256": "a8736391ab4d587a0239514fab74812a5de3503304735ea727f33450149ff2c5",
+        "after_rgb_sha256": "a8736391ab4d587a0239514fab74812a5de3503304735ea727f33450149ff2c5",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_22.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_22.png",
+        "before_png_sha256": "f7b6a947c49c42addf24f03474a8c0858346d55e0311247dfab92144a73fc270",
+        "before_rgb_sha256": "7b31559e21d854d7c9914e78a6f4d5cd415f0051dede4408a1a8ddbf3f579def",
+        "after_rgb_sha256": "7b31559e21d854d7c9914e78a6f4d5cd415f0051dede4408a1a8ddbf3f579def",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/accents/mom_pickup/page_23.png",
+        "after_path": "tests/emulation_v66/accents/mom_pickup/page_23.png",
+        "before_png_sha256": "d354d852d12d2b2050f524ba4eb99a227fbb4a59a0d9b73af61205ed001d7cbd",
+        "before_rgb_sha256": "87d5f3e355d7fcb574d8bc48bc050296f61cc482a29138039cc265dfda2c9a47",
+        "after_rgb_sha256": "87d5f3e355d7fcb574d8bc48bc050296f61cc482a29138039cc265dfda2c9a47",
+        "bbox": null,
+        "only_text_window_changed": true
+      }
+    ]
+  },
+  "ascii": {
+    "case": "mom_delivery",
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_00.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_00.png",
+        "before_png_sha256": "ecf5cfaacbe5f41b8c7b75c0d316cde59385963734eeb0335215d2495e83b7bd",
+        "before_rgb_sha256": "a4800ed98713ee670e20f528ab3a5d78bc7df39e58e9581f42cf9d5ae5ca25db",
+        "after_rgb_sha256": "a4800ed98713ee670e20f528ab3a5d78bc7df39e58e9581f42cf9d5ae5ca25db",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_01.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_01.png",
+        "before_png_sha256": "d61b90fd8a92442f3f888141f99edff2d5b4fae57e12c80f1fe663dd18b5ea95",
+        "before_rgb_sha256": "61513faead6d46d4e2d86f4d4a20afc216b051bed9fb7a05035a7ccc41ec1783",
+        "after_rgb_sha256": "61513faead6d46d4e2d86f4d4a20afc216b051bed9fb7a05035a7ccc41ec1783",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_02.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_02.png",
+        "before_png_sha256": "563e0467ce37e9d57df88666bb35c59dcca9c4060fef49720295721cdf8eabfd",
+        "before_rgb_sha256": "d2ef157fcdbe991c147da1c593ce20fd3c8494bf521b4dbef4956565a741ce20",
+        "after_rgb_sha256": "d2ef157fcdbe991c147da1c593ce20fd3c8494bf521b4dbef4956565a741ce20",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_03.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_03.png",
+        "before_png_sha256": "c56143e495387bb1290ed66373cf344f8f91863e772fd5f2656c12ccfbda33a4",
+        "before_rgb_sha256": "4250b788eeab5cdcca2245d60cb041f7dfb2c305fb528b65b5964b034ebf4988",
+        "after_rgb_sha256": "4250b788eeab5cdcca2245d60cb041f7dfb2c305fb528b65b5964b034ebf4988",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_04.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_04.png",
+        "before_png_sha256": "c0169f1c71c8fc9f46a2eba3b4a0091f19c98d80260d5252180dcfc6ec11551f",
+        "before_rgb_sha256": "aa146230f07d7b6611e7e8ab813af1801e92dccc7580a6bb3f0a2a3670b07df7",
+        "after_rgb_sha256": "aa146230f07d7b6611e7e8ab813af1801e92dccc7580a6bb3f0a2a3670b07df7",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_05.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_05.png",
+        "before_png_sha256": "b9d8518083f621e63ddae74242e22a3556078e7cbb752ff792ec29464caaa30b",
+        "before_rgb_sha256": "9d6c0e83a303fe6c108566746b1d25981f248cbd134c0347a720f3f754a6c3b1",
+        "after_rgb_sha256": "9d6c0e83a303fe6c108566746b1d25981f248cbd134c0347a720f3f754a6c3b1",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_06.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_06.png",
+        "before_png_sha256": "b38c6b4571b0bf72798d3872ef784e12ea139237a2afd151c0ccb992818c279a",
+        "before_rgb_sha256": "cb470f8284d86e208445218bab7d1c7f7d7135e1c2e4d0caf855a1f7eb6776d7",
+        "after_rgb_sha256": "cb470f8284d86e208445218bab7d1c7f7d7135e1c2e4d0caf855a1f7eb6776d7",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_07.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_07.png",
+        "before_png_sha256": "6d83c72d73060132f7eb5bbb9f4e4d73d4e23be41f852b2b30b9389335cdfe78",
+        "before_rgb_sha256": "1a617a4adda8e684a91ca37c3e9d0e57ee340871a58bac4a9fcd076c4525b54e",
+        "after_rgb_sha256": "1a617a4adda8e684a91ca37c3e9d0e57ee340871a58bac4a9fcd076c4525b54e",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_08.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_08.png",
+        "before_png_sha256": "6ed92dcb71b38b18eac789fad5f81ace8e07c467924bf1a6e8dbff374e66421d",
+        "before_rgb_sha256": "161095e07dedb302eaeb2b65a2038fe54870bd91f2da8dfb69c66a9690f9bd66",
+        "after_rgb_sha256": "161095e07dedb302eaeb2b65a2038fe54870bd91f2da8dfb69c66a9690f9bd66",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_09.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_09.png",
+        "before_png_sha256": "6b674c336bbedd656605a3ea83f1242b7838524241146db772ae76872ece6d56",
+        "before_rgb_sha256": "e601a6d28da441ce860c123f50cd97558e96ecdf68e427a0ad599b19a287ff88",
+        "after_rgb_sha256": "e601a6d28da441ce860c123f50cd97558e96ecdf68e427a0ad599b19a287ff88",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_10.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_10.png",
+        "before_png_sha256": "e5f2ba406614bd472bea889e7931e74a2a9dfd85c0f0a136c403154b8b613411",
+        "before_rgb_sha256": "cfdb3c7360c9724a40e7be624b3e890f0dcb0c7c44aa2d03625df07537485a01",
+        "after_rgb_sha256": "cfdb3c7360c9724a40e7be624b3e890f0dcb0c7c44aa2d03625df07537485a01",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_11.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_11.png",
+        "before_png_sha256": "73866ad8b3204a66dfd2e4ecba3887ce5e14593807fdaa3f6ab49a044d4337e0",
+        "before_rgb_sha256": "6f74f161835bb416c1067d2dcb62c5102d101f84f2159c56cc1813ed1f65b045",
+        "after_rgb_sha256": "6f74f161835bb416c1067d2dcb62c5102d101f84f2159c56cc1813ed1f65b045",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_12.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_12.png",
+        "before_png_sha256": "fce26d5c649123044d98d1b9c819b0c421983588fe6840366ac46db56f34d2f2",
+        "before_rgb_sha256": "0ba75a36567d6cf968c16e1a6139880315441527a2477fe4ef9672fa5162afcf",
+        "after_rgb_sha256": "0ba75a36567d6cf968c16e1a6139880315441527a2477fe4ef9672fa5162afcf",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_13.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_13.png",
+        "before_png_sha256": "2ea9cec00e6c8a1a0a40f96e0451b44f24f0752515f52f59d693c3b333ea693c",
+        "before_rgb_sha256": "b803783a9e14390772bccbe4c5bbbeb9db6bde6816823790598598af3a205fc7",
+        "after_rgb_sha256": "b803783a9e14390772bccbe4c5bbbeb9db6bde6816823790598598af3a205fc7",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_14.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_14.png",
+        "before_png_sha256": "08373d2b1eb6364e07ad29aed2c51d454d2ceed48f03a3d653cc456cf55b0098",
+        "before_rgb_sha256": "15104a2f9b2510e4d205bd20255dbc945c3f34e5a4543ffec4c6e93f100479fb",
+        "after_rgb_sha256": "15104a2f9b2510e4d205bd20255dbc945c3f34e5a4543ffec4c6e93f100479fb",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_15.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_15.png",
+        "before_png_sha256": "2552147cedd446ea0b98c11228c42788d3c72f2b6d809a43dab7fe2ecadda2b5",
+        "before_rgb_sha256": "68efc743395bcbffca25b8e94b32c8d52885d543d183a307e714e6ef0da49c55",
+        "after_rgb_sha256": "68efc743395bcbffca25b8e94b32c8d52885d543d183a307e714e6ef0da49c55",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_16.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_16.png",
+        "before_png_sha256": "943b0ccc5ce4c3b539ab96be2442f02b9fc5de22bab3372ba1b5a0fc5e815a09",
+        "before_rgb_sha256": "a0e21d4ffa38b78ce08311ba64790c4cc29cb151881c4b27d6ccedd90c914a0e",
+        "after_rgb_sha256": "a0e21d4ffa38b78ce08311ba64790c4cc29cb151881c4b27d6ccedd90c914a0e",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_17.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_17.png",
+        "before_png_sha256": "439f322697fd73759c07540f1c8419bb22c24625ebfb7fdfa7e843764814902b",
+        "before_rgb_sha256": "18e5cbfbe84173d7574de0abc753023c1ca3070cf9ca639c79ae33cda325851d",
+        "after_rgb_sha256": "18e5cbfbe84173d7574de0abc753023c1ca3070cf9ca639c79ae33cda325851d",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_18.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_18.png",
+        "before_png_sha256": "30ef5c40ef2bd5354ca486d40e1c98eb788d09cf84e866ffded395d50a9ef404",
+        "before_rgb_sha256": "7aecd7fa655bc14b4ccaef0ec0f7319107ae6dd6bae620e54a6c8b659dae6830",
+        "after_rgb_sha256": "7aecd7fa655bc14b4ccaef0ec0f7319107ae6dd6bae620e54a6c8b659dae6830",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_19.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_19.png",
+        "before_png_sha256": "91123e5a7cc2f14fb458f270cd2eda59c239a9af3f1827c4d76b90a1f4ddee70",
+        "before_rgb_sha256": "7f41cfda41da0395bc605c32f4a4304db8bb45a992d9cdd98794d8f3e7199d82",
+        "after_rgb_sha256": "76b9b50f201b59708be0a13d8b243352f7153d2d9590ca2b3452741aefe91574",
+        "bbox": [
+          121,
+          50,
+          221,
+          61
+        ],
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_20.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_20.png",
+        "before_png_sha256": "e53b008f584e9b12be9c203f58f6ad2e71541009349971ceabc57ad46ccb5d80",
+        "before_rgb_sha256": "71579730f81bdadf4f41247b47416ac9741bd854eeef9e26790af1c2f7657a56",
+        "after_rgb_sha256": "71579730f81bdadf4f41247b47416ac9741bd854eeef9e26790af1c2f7657a56",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_21.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_21.png",
+        "before_png_sha256": "d1d9da25dcbc7033a3f1c4b902cf92f552dbb07d895c8a3acff323ef02c7165b",
+        "before_rgb_sha256": "c118d58bf685b231aea822b522b393e520a866c793742d3b7704b17dd6e78cf7",
+        "after_rgb_sha256": "c118d58bf685b231aea822b522b393e520a866c793742d3b7704b17dd6e78cf7",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_22.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_22.png",
+        "before_png_sha256": "13bc92ba52196de57001ed809cbd203effe98535c7bcad7e5be9fe9af9eb34aa",
+        "before_rgb_sha256": "c8bfa37afe96e0ccdd806638aa8cb8b09862c5b2b4e632fcb74afdccb80d9ae1",
+        "after_rgb_sha256": "c8bfa37afe96e0ccdd806638aa8cb8b09862c5b2b4e632fcb74afdccb80d9ae1",
+        "bbox": null,
+        "only_text_window_changed": true
+      },
+      {
+        "before_path": "tests/emulation_v66/reference_v65/ascii/mom_delivery/page_23.png",
+        "after_path": "tests/emulation_v66/ascii/mom_delivery/page_23.png",
+        "before_png_sha256": "b4aea671d8ad953e475d60a148bb372131c529f97fc9dc1ed728462414ff1ed2",
+        "before_rgb_sha256": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9",
+        "after_rgb_sha256": "3985cd87737b0dce0ffdefff9c7bdaab5b8b1045d80c08c0eb5d736d42a2fba9",
+        "bbox": null,
+        "only_text_window_changed": true
+      }
+    ]
+  }
+}

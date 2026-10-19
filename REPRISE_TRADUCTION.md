@@ -1,6 +1,10 @@
-# Reprise — après V65 stockage
+# Reprise — après V66 téléphone
 
-V65 est terminée pour le lot décrit dans `RAPPORT_V65.md` et `tools/v65/README_V65.md`. Consulter le dernier état Git et ne pas écraser les modifications d'une autre exécution. Les IPS actuels sont V65 ; V62/V63 n'ont pas d'IPS. Priorité utilisateur : 100 % des textes visibles, services et accès calculés, puis menus. Main est autorisée ; sauvegarder chaque gros lot.
+V66 ajoute deux traductions à taille fixe : sélecteur Escargo `063734` / `06373E`, « Pick-up / Delivery » → « Déposer / Retirer ». Les IPS actuels sont V66. Voir `RAPPORT_V66.md` et `tools/v66/README_V66.md`. Douze essais principaux, 178 captures relues, 36 204 images échantillonnées et 48 comparaisons avec V65 (deux paires changent, seulement le sélecteur). Checkpoint `work/v66-services` : `e3c3ec3aef576884747a5d817c907fe07884d0a2`.
+
+Les fins d'appel Papa sans sauvegarde (gratuit/payant), le refus du téléphone sans argent, le refus bancaire de 2 $ sur compte de 1 $, Maman puis les deux choix Escargo sont maintenant contrôlés dans les deux profils. Les appels sont forcés comme en V65 : pas de nouvel accès naturel prouvé. Escargo demande un coursier au dépôt et indique une réserve vide au retrait ; son arrivée et les transferts restent à tester. Attention : ouvrir le sélecteur avec A en page 19, puis Droite+A en page 20 pour choisir réellement Retirer. L'ancienne exploration anticipait Droite et n'est pas une preuve de retrait.
+
+V65 est terminée pour le lot décrit dans `RAPPORT_V65.md` et `tools/v65/README_V65.md`. Consulter le dernier état Git et ne pas écraser les modifications d'une autre exécution. V62/V63 n'ont pas d'IPS. Priorité utilisateur : 100 % des textes visibles, services et accès calculés, puis menus. Main est autorisée ; sauvegarder chaque gros lot.
 
 ## Ce qui est validé
 
@@ -29,7 +33,7 @@ Les menus d'action Use/Eat/Give/Drop/Help! restent pour la phase menus. 100 % de
 Racine : `/workspace/scratch/a52b6a3f0578`, dépôt `earthboundbeginning`.
 
 - ROM : `upload/EarthBound Beginnings (USA) 1.2(2).sfc`, SHA256 `e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c`.
-- Cœur : `/workspace/scratch/96ddda3e7189/emutest/snes9x_libretro.so`, SHA256 `826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210`.
+- Cœur retrouvé : `/workspace/scratch/cbfe63ce8ac4/emulator/snes9x_libretro.so`, SHA256 `826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210`. L'ancien chemin `96ddda3e7189` n'existe plus.
 - États : `emulation_v41/{accents,ascii}/after_combat.state`.
 - Runner : `tests/emulation_v18_work/libretro_runner.py` ; `--history-every 120` accélère l'échantillonnage sans perdre les commandes du journal final.
 - Assembleur original : `v62_analysis/ebsrc`, Herringway/ebsrc révision `68aec5c39e67f3ef4f0be138ee58c1ba0cc33d62`.

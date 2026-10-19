@@ -1,0 +1,42 @@
+{
+  "base": "v65",
+  "context": "063732",
+  "profiles": {
+    "accents": [
+      {
+        "offset": "063734",
+        "end": "06373B",
+        "english": "Pick-up",
+        "french": "Déposer",
+        "baseline_hex": "8099939b5da5a0",
+        "replacement_hex": "74b0a09fa395a2"
+      },
+      {
+        "offset": "06373E",
+        "end": "063746",
+        "english": "Delivery",
+        "french": "Retirer",
+        "baseline_hex": "74959c99a695a2a9",
+        "replacement_hex": "8295a499a295a250"
+      }
+    ],
+    "ascii": [
+      {
+        "offset": "063734",
+        "end": "06373B",
+        "english": "Pick-up",
+        "french": "Déposer",
+        "baseline_hex": "8099939b5da5a0",
+        "replacement_hex": "7495a09fa395a2"
+      },
+      {
+        "offset": "06373E",
+        "end": "063746",
+        "english": "Delivery",
+        "french": "Retirer",
+        "baseline_hex": "74959c99a695a2a9",
+        "replacement_hex": "8295a499a295a250"
+      }
+    ]
+  }
+}
