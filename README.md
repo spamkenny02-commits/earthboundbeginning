@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V73 (hébergement)
+## Version actuelle : V74 (revente)
+
+Neuf plages anglaises du service de revente traduites, dont quatre choix Oui/Non, et deux formulations françaises améliorées. Quatre scénarios dans les deux profils : vente à 29 $ avec inventaire final, refus de l'offre, carte protégée et sortie. 56 captures relues, 56 comparaisons limitées au texte et 24 tests ciblés réussis. Entrée du service forcée ; branche d'objet équipé et parcours naturel restent à vérifier. Les menus d'action restent à traduire : pas de 100 % certifié.
+
+- [Patch V74 avec accents](patches/EarthBound_Beginnings_FR_v74_accents.ips)
+- [Patch V74 ASCII](patches/EarthBound_Beginnings_FR_v74_ascii.ips)
+- [Rapport V74 et limites](RAPPORT_V74.md)
+- [Sources et reproduction V74](tools/v74/README_V74.md)
+
+Appliquer **un seul IPS V74 directement à la ROM originale USA 1.2**. Les sections suivantes conservent l'historique.
+
+## Version précédente : V73 (hébergement)
 
 Huit plages traduites dans le service d'hébergement du PNJ 898, dont « Oui/Non ». Refus, repos et conversation suivante vérifiés dans les deux profils : 40 captures relues, 40 comparaisons limitées au texte et 20 tests ciblés réussis. L'entrée est contrôlée ; le repos et le changement de pièce sont exécutés par le jeu. Onze autres candidats anglais ont été repérés dans des racines personnalisées omises par l'ancien filtre : traduction complète non certifiée.
 

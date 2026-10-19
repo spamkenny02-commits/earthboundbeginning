@@ -1,5 +1,7 @@
 # Avancement estimé
 
+V74 : neuf plages anglaises du service de revente traduites, quatre choix Oui/Non et deux formulations françaises améliorées. Vente native à 29 $ et inventaire final vérifiés, ainsi que refus et carte protégée, dans les deux profils : 56 captures/comparaisons, 24 tests ciblés. Accès forcé, branche équipée non affichée, menus et parcours complet restants. Le canari `3861D3` est le prochain candidat concret ; aucun pourcentage exhaustif.
+
 V73 : huit plages d'hébergement traduites, dont Oui/Non ; refus, repos et retour vérifiés dans les deux profils, 40 comparaisons limitées au texte et 20 tests ciblés réussis. Le relevé de racines personnalisées oublié par l'ancien filtre identifie onze autres candidats anglais, dont un service de retour d'objets prioritaire. Aucun taux exhaustif ni achèvement des textes n'est déduit de l'ancien graphe.
 
 V72 : réserve après coursier et reliquats vérifiés dans les deux profils, depuis des états privés chaînés (12 sessions, 174 captures contrôlées, 36 captures clés relues). Aucun nouveau texte anglais, IPS V71 inchangés. Les autres branches de services, menus et parcours complet restent à terminer ; ces preuves ne fournissent pas un taux exhaustif.

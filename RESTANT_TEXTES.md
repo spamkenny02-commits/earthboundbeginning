@@ -1,4 +1,6 @@
-# Suite des textes après V73 (hébergement)
+# Suite des textes après V74 (revente)
+
+V74 traite le service `387221`/PNJ 87 : neuf fragments anglais, deux formulations françaises, quatre sélecteurs Oui/Non. Vente effective à 29 $ avec inventaire final, refus et carte protégée vérifiés dans les deux profils, 56 captures/comparaisons. La branche d'objet équipé reste statiquement vérifiée seulement ; l'entrée du service est forcée. **Prochain lot concret : canari `3861D3`/PNJ 291**, puis Pippi `386B63`/319 et mines `3738F8`/210. Le relevé V73 demeure historique : ne plus considérer sa ligne `387221` comme non traitée. Menus d'action toujours anglais ; aucun taux global certifié. Voir `RAPPORT_V74.md`. Les paragraphes suivants sont historiques.
 
 V73 traduit huit plages du service `37899B`/PNJ 898, avec les choix Oui/Non, et vérifie refus, repos et conversation suivante dans les deux profils. **Prochain lot : service de retour d'objets `387221`/PNJ 87 encore anglais.** Le relevé `tools/v73/custom_npc_roots_v73.json` contient onze candidats dans les racines personnalisées directes `36BB00–3F0000`, omises par l'ancien filtre. Puis traiter canari `3861D3`, Pippi `386B63`, mines `3738F8` et les autres candidats avec leurs appelants. Ce relevé n'est pas récursif et ne prouve pas leur accès naturel ; ses nombres ne sont pas un taux de traduction. Les contrôles acquis de V68–V72 ne sont pas à répéter sans raison nouvelle.
 

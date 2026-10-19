@@ -1,4 +1,16 @@
-# Reprise — V73, hébergement et nouvelles racines candidates
+# Reprise — V74, revente validée
+
+V74 est le patch actuel : service complet `387221`, PNJ 87 champ 9, opérande `202778` inchangé. Neuf fragments anglais traduits, deux formulations françaises améliorées. Quatre définitions « Non » en stockage protégé (44 octets), 15 enregistrements ajoutés. Voir `RAPPORT_V74.md` et `tools/v74/README_V74.md`.
+
+Quatre scénarios par profil, 56 captures relues et comparées V73/V74, 30 différences textuelles seulement, 12 044 images échantillonnées ; 24 tests ciblés V74/V73/V65 réussis. Vente d'une Fiole : offre 29 $, portefeuille 20 → 49 $, inventaire final carte seule. Refus de l'offre : dialogue et argent vérifiés, inventaire non rouvert. Carte protégée et sortie vérifiées. Entrée forcée par carte bancaire ; don préparatoire natif déclaré, aucune écriture directe WRAM. Branche équipée seulement contrôlée statiquement. Pas d'accès naturel certifié.
+
+**Prochaine priorité : canari `3861D3`/PNJ 291**, puis Pippi `386B63`/319 et autres lignes de `tools/v73/custom_npc_roots_v73.json`, sauf `387221` désormais traité. Ne pas refaire les audits acquis sans raison. Menus `Use/Eat/Give/Drop/Help!` encore anglais ; autres personnages, limites de coursier et parcours naturel complet restent à vérifier. Aucun 100 %.
+
+Sauvegardes locales initiales `a6cd3ef`, `61fbc28`, branches `work/v74-resale-local`, `work/v74-resale-polish-local`. Checkpoint validé : `work/v74-resale-validated`. Sorties privées : `/workspace/scratch/98c4eaa3ef23/validated_v74`, référence `/workspace/scratch/98c4eaa3ef23/reference_v73_resale`. Les deux répertoires `v74_explore` et `v74_sale_explore` sont exploratoires.
+
+Dépendances **actuelles V74** : l'ancien répertoire `60defd300f2e` et les états V33 ne sont plus disponibles. ROM récupérée auprès du fichier utilisateur et vérifiée : `/workspace/scratch/98c4eaa3ef23/private_v74/EarthBound Beginnings (USA) 1.2(1).sfc`, SHA256 `e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c`. Cœur : `/workspace/scratch/c267dac1e2c1/emulator/snes9x_libretro_standard.so`, SHA256 `826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210`. États utilisés : `/workspace/scratch/98c4eaa3ef23/reference_v71_lodging/{accents,ascii}/accept/handoff.state` (post-repos : Ninten, 30 PV, 10 PP, 20 $, carte). Leurs empreintes figurent dans les résultats V74. Ne jamais les présenter comme les états V33. Ne rien publier de ces dépendances. Les paragraphes suivants sont historiques, y compris les anciens chemins.
+
+## Historique V73
 
 V73 est le patch actuel : huit plages du service `37899B` (PNJ 898, opérande `205D53`) traduites, dont Oui/Non. Sept remplacements fixes et un pont de définition de « Non » : saut de cinq octets à `378A32` vers onze octets protégés à `330200`, retour à `378A37`. Les commandes dépliées, branches, scripts de repos, sprites, banque 25 et pointeur PNJ sont préservés. Voir `RAPPORT_V73.md` et `tools/v73/README_V73.md`.
 

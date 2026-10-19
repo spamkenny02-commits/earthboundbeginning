@@ -1,0 +1,17 @@
+name: Verify V74 resale translation offline
+on:
+  push:
+    paths: ['tools/v74/**', 'tests/emulation_v74/**', 'patches/*v74*', '.github/workflows/verifier-v74.yml']
+  pull_request:
+    paths: ['tools/v74/**', 'tests/emulation_v74/**', 'patches/*v74*', '.github/workflows/verifier-v74.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install Pillow
+      - run: python3 -m unittest discover -s tools/v74 -v
+      - run: python3 tools/v74/verify_display.py
