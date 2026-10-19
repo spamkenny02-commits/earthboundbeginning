@@ -1,4 +1,12 @@
-# Reprise — V71, coursier de dépôt Escargo traduit
+# Reprise — audit V72 de la réserve après coursier
+
+V72 est un audit sans nouvel IPS : **V71 reste le patch actuel**. Voir `RAPPORT_V72.md` et `tools/v72/README_V72.md`. Après dépôt, la réserve contient bien Fiole + sagesse + vitalité. Après livraison de deux objets sur trois, vitalité reste seule ; après livraison d'un sur deux, sagesse reste seule. Ces trois cas sont vérifiés dans les deux profils à partir d'états privés sauvegardés après le départ du coursier : six chaînes, 12 sessions, 174 captures contrôlées, 36 captures clés relues et 10 tests ciblés réussis.
+
+La phase suivante recharge exactement l'état de passage et appelle `34B490`. Après dépôt, aucune opération intermédiaire ; après livraison partielle, retrait natif d'un Badge Franklin de l'inventaire pour libérer une case, sans toucher à la réserve ni au reliquat. Le téléphone initial et l'accès au stockage sont forcés ; le coursier arrive par le mécanisme normal. Les empreintes de passage sont publiées, pas les états. Les six touches d'accès après livraison partielle sont nécessaires ; avec un sac plein, même le bon accès refuse d'ouvrir la réserve. Ne pas compter ces premiers essais comme une lecture de reliquat.
+
+Sorties privées retenues : `/workspace/scratch/98c4eaa3ef23/validated_v72_free_slot`. Les sorties `v72_explore` et `validated_v72` sont exploratoires et non publiées. Checkpoint validé : `work/v72-courier-storage`. Ne pas refaire ces trois contrôles sans nouvelle modification qui les justifie.
+
+Prochain lot concret : branches de coursier sur réserve pleine et limite de trois objets, ou autres enseignes/hôtels pour chercher le prochain anglais réellement affiché. Les cas à plusieurs personnages restent non vérifiés. Ensuite menus d'action et libellés longs tronqués dans certaines listes à deux colonnes ; parcours naturel complet et générique restent nécessaires. Aucun 100 % certifié. Les paragraphes suivants sont historiques.
 
 V71 est le patch actuel : 32 plages traduites en place, commandes, sprites et banque 25 préservés. Voir `RAPPORT_V71.md` et `tools/v71/README_V71.md`. Le wrapper privé accorde trois objets puis appelle le téléphone complet `35C597` ; Maman puis Déposer sont choisis à la manette. Après 600 images, le mécanisme normal du jeu fait arriver le coursier, jamais appelé directement par le test. Le téléphone initial reste artificiel.
 

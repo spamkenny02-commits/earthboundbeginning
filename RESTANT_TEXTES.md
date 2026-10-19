@@ -1,4 +1,6 @@
-# Suite des textes après V71 (dépôt Escargo)
+# Suite des textes après audit V72 (IPS V71)
+
+V72 clôt le contrôle concret de la réserve après coursier dans les deux profils : trois objets déposés présents, vitalité restante après livraison de deux sur trois, sagesse restante après livraison d'un sur deux. États privés chaînés ; après livraison partielle, une case est libérée par retrait natif d'un Badge sans toucher à la réserve. Aucun nouvel anglais : pas d'IPS V72. Voir `RAPPORT_V72.md`. Prochain reste utile : réserve pleine/limite de trois côté coursier, autres enseignes et hôtels, autres personnages ; puis menus d'action et noms longs tronqués dans les fenêtres à deux colonnes. Ne pas répéter l'audit des reliquats sans nouvelle raison.
 
 V71 traduit 32 plages du coursier de dépôt, réellement arrivé après commande contrôlée. Dépôt de trois objets relu jusqu'à l'inventaire final ; les confirmations d'un objet, refus de paiement/argent, protection de la carte et reprise de sélection sont documentés séparément. Voir `RAPPORT_V71.md`. Prochain reste concret : réouvrir la réserve après dépôt, puis vérifier le reliquat d'une livraison partielle. Les réponses du coursier sur réserve pleine et limite de trois objets sont traduites statiquement mais leur affichage reste à valider. Ne pas compter les tentatives privées de fermeture A/B comme des preuves d'inventaire.
 

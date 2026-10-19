@@ -1,0 +1,17 @@
+name: Verify V72 linked courier storage audit
+on:
+  push:
+    paths: ['tools/v72/**', 'tests/emulation_v72/**', '.github/workflows/verifier-v72.yml']
+  pull_request:
+    paths: ['tools/v72/**', 'tests/emulation_v72/**', '.github/workflows/verifier-v72.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v72 -v
+      - run: python3 -m pip install Pillow
+      - run: python3 tools/v72/verify_display.py

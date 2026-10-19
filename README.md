@@ -1,5 +1,12 @@
 # EarthBound Beginnings SNES — traduction française
 
+## Dernier audit : V72 (IPS V71 inchangés)
+
+La réserve est rouverte depuis l'état laissé par le coursier : les trois objets déposés sont présents ; les capsules non livrées restent en réserve après une livraison partielle. Vérifié dans les deux profils, sur six chaînes et 12 sessions : 174 captures contrôlées, 36 captures clés relues, 10 tests ciblés réussis. La préparation et les accès contrôlés sont déclarés ; aucun nouvel anglais dans ce lot.
+
+- [Rapport V72 et limites](RAPPORT_V72.md)
+- [Sources et reproduction V72](tools/v72/README_V72.md)
+
 ## Version actuelle : V71 (coursier de dépôt Escargo)
 
 32 plages encore anglaises traduites : présentation, frais, choix des objets, confirmations et refus. Douze essais, 218 comparaisons limitées au texte, 134 captures du coursier/inventaire relues et 25 tests ciblés réussis. Le dépôt de trois objets est vérifié jusqu'à l'inventaire final ; les autres essais documentent les dialogues. Le téléphone initial est contrôlé, puis le coursier arrive par le mécanisme du jeu. La couverture complète reste à valider.
