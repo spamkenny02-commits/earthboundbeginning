@@ -1,5 +1,7 @@
 # Avancement estimé
 
+V70 : 24 plages du livreur traduites ; douze essais, 338 comparaisons dont 92 changements limités au texte, 116 captures du coursier et des inventaires relues. Arrivée du coursier native après téléphone initial contrôlé. Les services et menus ont encore des cas concrets à traiter ; aucun nouveau taux exhaustif n'est déduit de ces résultats.
+
 Environ **80 %**, avec une fourchette indicative de **75 à 85 %**.
 
 Cette estimation qualitative porte sur le travail restant pour une traduction utilisable et vérifiée : textes intégrés, menus et graphismes relus, puis validation d'un parcours naturel complet. Elle ne mesure pas le pourcentage des chaînes de la ROM traduites. Les copies anciennes, textes hérités, alias et scripts inutilisés empêchent de donner un dénominateur fiable ; additionner les lots successifs compterait certains textes plusieurs fois.

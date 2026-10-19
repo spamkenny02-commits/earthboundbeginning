@@ -1,0 +1,441 @@
+{
+  "base": "v67",
+  "profiles": {
+    "accents": [
+      {
+        "context": "0642A3",
+        "offset": "0642AB",
+        "end": "0642BE",
+        "english": "@I'm from Escargo Express!!",
+        "french": "@Escargo Express !",
+        "baseline_hex": "7016cf152b75a316ee979f5075a816afa35151",
+        "replacement_hex": "7075a39391a2979f5075a8a0a295a3a3505150"
+      },
+      {
+        "context": "0642A3",
+        "offset": "0642C0",
+        "end": "0642CF",
+        "english": "@I'm here to deliver your",
+        "french": "@Vos objets :",
+        "baseline_hex": "7016cf158d169194951683a21523a2",
+        "replacement_hex": "70869fa3509f929a95a4a3506a5050"
+      },
+      {
+        "context": "0642A3",
+        "offset": "0642F6",
+        "end": "0642F9",
+        "english": "  and ",
+        "french": "et ",
+        "baseline_hex": "501504",
+        "replacement_hex": "95a450"
+      },
+      {
+        "context": "0642A3",
+        "offset": "064306",
+        "end": "064314",
+        "english": "@Your charge is $18.",
+        "french": "@Frais : 18 $.",
+        "baseline_hex": "7016fb939891a29716465461685e",
+        "replacement_hex": "7076a29199a3506a50616850545e"
+      },
+      {
+        "context": "0642A3",
+        "offset": "064315",
+        "end": "064326",
+        "english": "  You can pay for this, right?",
+        "french": " Tu peux payer ?",
+        "baseline_hex": "15969315a2a091a9150fa416555c163c6f",
+        "replacement_hex": "5084a550a095a5a850a091a995a2506f50"
+      },
+      {
+        "context": "0642A3",
+        "offset": "064339",
+        "end": "06434F",
+        "english": "@Well, I need to take these things back then.",
+        "french": "@Je ramène ces objets.",
+        "baseline_hex": "154879509e95153316451647a3951610158515259e5e",
+        "replacement_hex": "707a9550a2919db19e95509395a3509f929a95a4a35e"
+      },
+      {
+        "context": "0642A3",
+        "offset": "064351",
+        "end": "064358",
+        "english": "@Is that OK?",
+        "french": "@Ça va?",
+        "baseline_hex": "707915fc7f7b6f",
+        "replacement_hex": "70bf9150a6916f"
+      },
+      {
+        "context": "0642A3",
+        "offset": "06436A",
+        "end": "06437A",
+        "english": "@Hmmm, what should I do?",
+        "french": "@Que faire ?",
+        "baseline_hex": "70789d9d9d5c50174b15ce1551949f6f",
+        "replacement_hex": "7081a59550969199a295506f50505050"
+      },
+      {
+        "context": "0642A3",
+        "offset": "06437C",
+        "end": "064390",
+        "english": "@You actually don't have any money, right?",
+        "french": "@Tu es sans argent ?",
+        "baseline_hex": "1511179da515d8a91513171b17bf16ae5c163c6f",
+        "replacement_hex": "7084a55095a350a3919ea35091a297959ea4506f"
+      },
+      {
+        "context": "0643A7",
+        "offset": "0643A7",
+        "end": "0643AC",
+        "english": "@Okay.",
+        "french": "@OK.",
+        "baseline_hex": "707f17345e",
+        "replacement_hex": "707f7b5e50"
+      },
+      {
+        "context": "0643A7",
+        "offset": "0643AD",
+        "end": "0643BB",
+        "english": "  Call us again later.",
+        "french": " Rappelle-nous",
+        "baseline_hex": "50507315bfa5a3155b509c16415e",
+        "replacement_hex": "508291a0a0959c9c955d9e9fa5a3"
+      },
+      {
+        "context": "06442F",
+        "offset": "06442F",
+        "end": "06443A",
+        "english": "@Oh, you have too many things.",
+        "french": "@Sac plein.",
+        "baseline_hex": "16f35c150d15a7159ba35e",
+        "replacement_hex": "7083919350a09c95999e5e"
+      },
+      {
+        "context": "06442F",
+        "offset": "06443B",
+        "end": "06444C",
+        "english": "  Please call us again later.",
+        "french": " Rappelle-nous.",
+        "baseline_hex": "50508016a215fe50a5a3155b509c16415e",
+        "replacement_hex": "508291a0a0959c9c955d9e9fa5a35e5050"
+      },
+      {
+        "context": "06445F",
+        "offset": "06445F",
+        "end": "06446D",
+        "english": "@I don't think you can carry everything.",
+        "french": "@Trop chargé.",
+        "baseline_hex": "154715b1157516d0a915d2159b5e",
+        "replacement_hex": "7084a29fa050939891a297b05e50"
+      },
+      {
+        "context": "06445F",
+        "offset": "064473",
+        "end": "06447D",
+        "english": "@Well,  I'll leave just",
+        "french": "@Je livre",
+        "baseline_hex": "154815419c17ae5017a5",
+        "replacement_hex": "707a95509c99a6a29550"
+      },
+      {
+        "context": "06445F",
+        "offset": "06447E",
+        "end": "064480",
+        "english": "  the ",
+        "french": "  ",
+        "baseline_hex": "1595",
+        "replacement_hex": "5050"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644A0",
+        "end": "0644AE",
+        "english": "@I don't think you can carry everything.",
+        "french": "@Trop chargé.",
+        "baseline_hex": "154715b1157516d0a915d2159b5e",
+        "replacement_hex": "7084a29fa050939891a297b05e50"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644B4",
+        "end": "0644C0",
+        "english": "@Well, I'll leave just",
+        "french": "@Je livre",
+        "baseline_hex": "1548791727509c17ae5017a5",
+        "replacement_hex": "707a95509c99a6a295505050"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644C1",
+        "end": "0644C3",
+        "english": "  the ",
+        "french": "  ",
+        "baseline_hex": "1595",
+        "replacement_hex": "5050"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644C7",
+        "end": "0644CA",
+        "english": "  and",
+        "french": " et",
+        "baseline_hex": "5016b8",
+        "replacement_hex": "5095a4"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644CE",
+        "end": "0644D0",
+        "english": " the ",
+        "french": "  ",
+        "baseline_hex": "1518",
+        "replacement_hex": "5050"
+      },
+      {
+        "context": "0644E3",
+        "offset": "0644E3",
+        "end": "064502",
+        "english": "@Ah, I see...  You don't have enough money.  Call us again later.",
+        "french": "@Pas assez d'argent. Rappelle.",
+        "baseline_hex": "70719817fb17a1151750891520161815a050507315bfa5a3155b509c16415e",
+        "replacement_hex": "708091a35091a3a395aa50945791a297959ea45e508291a0a0959c9c955e50"
+      },
+      {
+        "context": "064600",
+        "offset": "06460F",
+        "end": "06461A",
+        "english": "@OK, here we are.",
+        "french": "@Tiens.",
+        "baseline_hex": "707f7b5c158da79517615e",
+        "replacement_hex": "708499959ea35e50505050"
+      },
+      {
+        "context": "064600",
+        "offset": "06461B",
+        "end": "064620",
+        "english": "  Thank you!",
+        "french": "Merci",
+        "baseline_hex": "5050157c51",
+        "replacement_hex": "7d95a29399"
+      }
+    ],
+    "ascii": [
+      {
+        "context": "0642A3",
+        "offset": "0642AB",
+        "end": "0642BE",
+        "english": "@I'm from Escargo Express!!",
+        "french": "@Escargo Express !",
+        "baseline_hex": "7016cf152b75a316ee979f5075a816afa35151",
+        "replacement_hex": "7075a39391a2979f5075a8a0a295a3a3505150"
+      },
+      {
+        "context": "0642A3",
+        "offset": "0642C0",
+        "end": "0642CF",
+        "english": "@I'm here to deliver your",
+        "french": "@Vos objets :",
+        "baseline_hex": "7016cf158d169194951683a21523a2",
+        "replacement_hex": "70869fa3509f929a95a4a3506a5050"
+      },
+      {
+        "context": "0642A3",
+        "offset": "0642F6",
+        "end": "0642F9",
+        "english": "  and ",
+        "french": "et ",
+        "baseline_hex": "501504",
+        "replacement_hex": "95a450"
+      },
+      {
+        "context": "0642A3",
+        "offset": "064306",
+        "end": "064314",
+        "english": "@Your charge is $18.",
+        "french": "@Frais : 18 $.",
+        "baseline_hex": "7016fb939891a29716465461685e",
+        "replacement_hex": "7076a29199a3506a50616850545e"
+      },
+      {
+        "context": "0642A3",
+        "offset": "064315",
+        "end": "064326",
+        "english": "  You can pay for this, right?",
+        "french": " Tu peux payer ?",
+        "baseline_hex": "15969315a2a091a9150fa416555c163c6f",
+        "replacement_hex": "5084a550a095a5a850a091a995a2506f50"
+      },
+      {
+        "context": "0642A3",
+        "offset": "064339",
+        "end": "06434F",
+        "english": "@Well, I need to take these things back then.",
+        "french": "@Je ramène ces objets.",
+        "baseline_hex": "154879509e95153316451647a3951610158515259e5e",
+        "replacement_hex": "707a9550a2919d959e95509395a3509f929a95a4a35e"
+      },
+      {
+        "context": "0642A3",
+        "offset": "064351",
+        "end": "064358",
+        "english": "@Is that OK?",
+        "french": "@Ça va?",
+        "baseline_hex": "707915fc7f7b6f",
+        "replacement_hex": "70739150a6916f"
+      },
+      {
+        "context": "0642A3",
+        "offset": "06436A",
+        "end": "06437A",
+        "english": "@Hmmm, what should I do?",
+        "french": "@Que faire ?",
+        "baseline_hex": "70789d9d9d5c50174b15ce1551949f6f",
+        "replacement_hex": "7081a59550969199a295506f50505050"
+      },
+      {
+        "context": "0642A3",
+        "offset": "06437C",
+        "end": "064390",
+        "english": "@You actually don't have any money, right?",
+        "french": "@Tu es sans argent ?",
+        "baseline_hex": "1511179da515d8a91513171b17bf16ae5c163c6f",
+        "replacement_hex": "7084a55095a350a3919ea35091a297959ea4506f"
+      },
+      {
+        "context": "0643A7",
+        "offset": "0643A7",
+        "end": "0643AC",
+        "english": "@Okay.",
+        "french": "@OK.",
+        "baseline_hex": "707f17345e",
+        "replacement_hex": "707f7b5e50"
+      },
+      {
+        "context": "0643A7",
+        "offset": "0643AD",
+        "end": "0643BB",
+        "english": "  Call us again later.",
+        "french": " Rappelle-nous",
+        "baseline_hex": "50507315bfa5a3155b509c16415e",
+        "replacement_hex": "508291a0a0959c9c955d9e9fa5a3"
+      },
+      {
+        "context": "06442F",
+        "offset": "06442F",
+        "end": "06443A",
+        "english": "@Oh, you have too many things.",
+        "french": "@Sac plein.",
+        "baseline_hex": "16f35c150d15a7159ba35e",
+        "replacement_hex": "7083919350a09c95999e5e"
+      },
+      {
+        "context": "06442F",
+        "offset": "06443B",
+        "end": "06444C",
+        "english": "  Please call us again later.",
+        "french": " Rappelle-nous.",
+        "baseline_hex": "50508016a215fe50a5a3155b509c16415e",
+        "replacement_hex": "508291a0a0959c9c955d9e9fa5a35e5050"
+      },
+      {
+        "context": "06445F",
+        "offset": "06445F",
+        "end": "06446D",
+        "english": "@I don't think you can carry everything.",
+        "french": "@Trop chargé.",
+        "baseline_hex": "154715b1157516d0a915d2159b5e",
+        "replacement_hex": "7084a29fa050939891a297955e50"
+      },
+      {
+        "context": "06445F",
+        "offset": "064473",
+        "end": "06447D",
+        "english": "@Well,  I'll leave just",
+        "french": "@Je livre",
+        "baseline_hex": "154815419c17ae5017a5",
+        "replacement_hex": "707a95509c99a6a29550"
+      },
+      {
+        "context": "06445F",
+        "offset": "06447E",
+        "end": "064480",
+        "english": "  the ",
+        "french": "  ",
+        "baseline_hex": "1595",
+        "replacement_hex": "5050"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644A0",
+        "end": "0644AE",
+        "english": "@I don't think you can carry everything.",
+        "french": "@Trop chargé.",
+        "baseline_hex": "154715b1157516d0a915d2159b5e",
+        "replacement_hex": "7084a29fa050939891a297955e50"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644B4",
+        "end": "0644C0",
+        "english": "@Well, I'll leave just",
+        "french": "@Je livre",
+        "baseline_hex": "1548791727509c17ae5017a5",
+        "replacement_hex": "707a95509c99a6a295505050"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644C1",
+        "end": "0644C3",
+        "english": "  the ",
+        "french": "  ",
+        "baseline_hex": "1595",
+        "replacement_hex": "5050"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644C7",
+        "end": "0644CA",
+        "english": "  and",
+        "french": " et",
+        "baseline_hex": "5016b8",
+        "replacement_hex": "5095a4"
+      },
+      {
+        "context": "0644A0",
+        "offset": "0644CE",
+        "end": "0644D0",
+        "english": " the ",
+        "french": "  ",
+        "baseline_hex": "1518",
+        "replacement_hex": "5050"
+      },
+      {
+        "context": "0644E3",
+        "offset": "0644E3",
+        "end": "064502",
+        "english": "@Ah, I see...  You don't have enough money.  Call us again later.",
+        "french": "@Pas assez d'argent. Rappelle.",
+        "baseline_hex": "70719817fb17a1151750891520161815a050507315bfa5a3155b509c16415e",
+        "replacement_hex": "708091a35091a3a395aa50945791a297959ea45e508291a0a0959c9c955e50"
+      },
+      {
+        "context": "064600",
+        "offset": "06460F",
+        "end": "06461A",
+        "english": "@OK, here we are.",
+        "french": "@Tiens.",
+        "baseline_hex": "707f7b5c158da79517615e",
+        "replacement_hex": "708499959ea35e50505050"
+      },
+      {
+        "context": "064600",
+        "offset": "06461B",
+        "end": "064620",
+        "english": "  Thank you!",
+        "french": "Merci",
+        "baseline_hex": "5050157c51",
+        "replacement_hex": "7d95a29399"
+      }
+    ]
+  }
+}

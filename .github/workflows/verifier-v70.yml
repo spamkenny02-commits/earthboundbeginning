@@ -1,0 +1,17 @@
+name: Verify V70 courier translation offline
+on:
+  push:
+    paths: ['tools/v70/**', 'tests/emulation_v70/**', 'patches/*v70*', '.github/workflows/verifier-v70.yml']
+  pull_request:
+    paths: ['tools/v70/**', 'tests/emulation_v70/**', 'patches/*v70*', '.github/workflows/verifier-v70.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v70 -v
+      - run: python3 -m pip install Pillow
+      - run: python3 tools/v70/verify_display.py

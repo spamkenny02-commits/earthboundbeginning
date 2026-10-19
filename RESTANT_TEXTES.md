@@ -1,4 +1,6 @@
-# Suite des textes après audit V69 (IPS V67)
+# Suite des textes après V70 (livraison Escargo)
+
+V70 corrige 24 plages du coursier dont l'arrivée normale après commande exposait encore de l'anglais. Voir `RAPPORT_V70.md`. Six scénarios dans les deux profils sont validés ; le téléphone initial est forcé. Prochains restes concrets : coursier de dépôt, reliquat après livraison partielle, sac entièrement plein (tentative non concluante exclue), plusieurs personnages. Ne pas répéter les audits de réserve V68/V69 sans nouvelle raison. Les menus d'action encore anglais restent ensuite prioritaires.
 
 Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit pas un dénominateur de couverture.
 

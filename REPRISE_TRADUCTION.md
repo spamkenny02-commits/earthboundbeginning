@@ -1,4 +1,12 @@
-# Reprise — après audit V69 de la réserve pleine
+# Reprise — V70, livraison Escargo traduite
+
+V70 est le patch actuel : 24 plages du coursier traduites en place, sans allocation ni changement des commandes. Voir `RAPPORT_V70.md` et `tools/v70/README_V70.md`. Douze essais valides, 338 comparaisons V67/V70 dont 92 changements uniquement textuels ; 116 captures de coursier/inventaire relues. Les autres preuves V69 ci-dessous restent historiques.
+
+Le téléphone complet `35C597` est appelé par une fixture privée ; après commande à la manette et attente de 600 images, le coursier arrive par le mécanisme du jeu, sans appel forcé à sa racine `0642A3`. Six cas dans chaque profil : trois objets, sans argent, refus de paiement/retour accepté, retour refusé/nouvelle réponse, deux places libres, une place libre. Frais 18 $ au total, pas par objet. Préparations natives déclarées, aucune écriture directe WRAM.
+
+Prochain reste concret : coursier de dépôt, ou vérifier le reliquat après livraison partielle, puis sac totalement plein et autres personnages. Le cas exploratoire `no_room` n'a pas atteint le dialogue attendu et est exclu des preuves ; ne pas le compter. Le probe public conserve seulement les six cas valides. Les sorties privées principales sont `/workspace/scratch/98c4eaa3ef23/validated_v70`, références `/workspace/scratch/98c4eaa3ef23/reference_v67_courier`. La tentative exclue reste uniquement dans les sorties privées.
+
+Checkpoint initial distant `work/v70-courier` : `80752c2d8a885c370cec00d659282b85e3cc0e78` ; checkpoint validé `work/v70-courier-validated`. Le code de décompression `b.spans_fr` reconnaît les commandes dictionnaire comme texte ; ne pas utiliser les seuls fragments littéraux du parseur pour conclure à l'absence d'anglais. Les menus Use/Eat/Give/Drop/Help! et certains chevauchements de fenêtres préexistants restent à traiter. 100 % non certifié.
 
 V69 est un audit sans nouveau patch : les IPS V67 restent actuels. Voir `RAPPORT_V69.md`. Réserve pleine relue sur quatre pages, 10 + 10 + 10 + 6 = 36 Fioles ; dépôt refusé, retrait normal puis redépôt normal et nouveau refus. Six sessions, 50 captures, 10 676 images échantillonnées. Checkpoint `work/v69-full-storage` : `56bbfdd78971750717a258712ac1105b5fe4c716`.
 

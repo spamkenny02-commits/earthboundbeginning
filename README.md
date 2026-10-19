@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Dernier audit : V69 (patch de jeu V67 inchangé)
+## Version actuelle : V70 (livreur Escargo)
+
+24 plages encore anglaises traduites : présentation, frais, refus et livraisons partielles. Douze essais, 338 comparaisons V67/V70 limitées au texte, 116 captures du coursier et des inventaires relues. Le téléphone est forcé par le test ; le coursier arrive ensuite par le mécanisme normal du jeu. Les validations ne certifient pas une traduction complète.
+
+- [Patch V70 avec accents](patches/EarthBound_Beginnings_FR_v70_accents.ips)
+- [Patch V70 ASCII](patches/EarthBound_Beginnings_FR_v70_ascii.ips)
+- [Rapport et limites V70](RAPPORT_V70.md)
+- [Sources et reproduction V70](tools/v70/README_V70.md)
+
+Appliquer **un seul IPS V70 directement à la ROM originale USA 1.2**. Les sections suivantes conservent l'historique ; V67 n'est plus le patch actuel.
+
+## Audit précédent : V69 (patch de jeu V67 inchangé)
 
 Réserve pleine vérifiée dans les deux profils : quatre pages et 36 objets relus, dépôt refusé, retrait puis redépôt réussis, nouveau refus de dépôt. Six sessions et 50 captures relues ; préparation native privée explicitement déclarée. Aucun nouveau texte anglais dans ce lot, donc pas de nouvel IPS. Les autres configurations et les accès naturels restent à vérifier.
 
@@ -14,7 +25,7 @@ Retrait sur inventaire plein refusé en français, puis récupération du même 
 - [Rapport V68 et captures](RAPPORT_V68.md)
 - [Sources et reproduction](tools/v68/README_V68.md)
 
-## Version actuelle : V67 (quantités en boutique)
+## Version précédente : V67 (quantités en boutique)
 
 « Just one / Multiple » devient « Un seul / En lot ». Achat simple/en lot, refus faute d'argent et d'espace, stockage vide et soins acceptés sont vérifiés dans les deux profils : 14 essais, 86 captures relues et 86 comparaisons V66/V67 limitées au texte. Les entrées et préparations d'inventaire sont contrôlées, pas naturelles.
 
