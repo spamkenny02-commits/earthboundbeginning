@@ -1,5 +1,7 @@
 # Avancement estimé
 
+V73 : huit plages d'hébergement traduites, dont Oui/Non ; refus, repos et retour vérifiés dans les deux profils, 40 comparaisons limitées au texte et 20 tests ciblés réussis. Le relevé de racines personnalisées oublié par l'ancien filtre identifie onze autres candidats anglais, dont un service de retour d'objets prioritaire. Aucun taux exhaustif ni achèvement des textes n'est déduit de l'ancien graphe.
+
 V72 : réserve après coursier et reliquats vérifiés dans les deux profils, depuis des états privés chaînés (12 sessions, 174 captures contrôlées, 36 captures clés relues). Aucun nouveau texte anglais, IPS V71 inchangés. Les autres branches de services, menus et parcours complet restent à terminer ; ces preuves ne fournissent pas un taux exhaustif.
 
 V71 : 32 plages du coursier de dépôt traduites ; dépôt de trois objets vérifié jusqu'à l'inventaire final, autres confirmations et refus relus dans les deux profils. Réouverture de la réserve après passage du coursier et reliquat d'une livraison partielle restent concrets à vérifier. Les menus et le parcours complet restent à finir ; aucun nouveau taux exhaustif.

@@ -1,0 +1,17 @@
+name: Verify V73 lodging translation offline
+on:
+  push:
+    paths: ['tools/v73/**', 'tests/emulation_v73/**', 'patches/*v73*', '.github/workflows/verifier-v73.yml']
+  pull_request:
+    paths: ['tools/v73/**', 'tests/emulation_v73/**', 'patches/*v73*', '.github/workflows/verifier-v73.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v73 -v
+      - run: python3 -m pip install Pillow
+      - run: python3 tools/v73/verify_display.py

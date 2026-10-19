@@ -1,5 +1,16 @@
 # EarthBound Beginnings SNES — traduction française
 
+## Version actuelle : V73 (hébergement)
+
+Huit plages traduites dans le service d'hébergement du PNJ 898, dont « Oui/Non ». Refus, repos et conversation suivante vérifiés dans les deux profils : 40 captures relues, 40 comparaisons limitées au texte et 20 tests ciblés réussis. L'entrée est contrôlée ; le repos et le changement de pièce sont exécutés par le jeu. Onze autres candidats anglais ont été repérés dans des racines personnalisées omises par l'ancien filtre : traduction complète non certifiée.
+
+- [Patch V73 avec accents](patches/EarthBound_Beginnings_FR_v73_accents.ips)
+- [Patch V73 ASCII](patches/EarthBound_Beginnings_FR_v73_ascii.ips)
+- [Rapport V73 et limites](RAPPORT_V73.md)
+- [Sources et reproduction V73](tools/v73/README_V73.md)
+
+Appliquer **un seul IPS V73 directement à la ROM originale USA 1.2**. Les sections suivantes conservent l'historique.
+
 ## Dernier audit : V72 (IPS V71 inchangés)
 
 La réserve est rouverte depuis l'état laissé par le coursier : les trois objets déposés sont présents ; les capsules non livrées restent en réserve après une livraison partielle. Vérifié dans les deux profils, sur six chaînes et 12 sessions : 174 captures contrôlées, 36 captures clés relues, 10 tests ciblés réussis. La préparation et les accès contrôlés sont déclarés ; aucun nouvel anglais dans ce lot.
@@ -7,7 +18,7 @@ La réserve est rouverte depuis l'état laissé par le coursier : les trois obje
 - [Rapport V72 et limites](RAPPORT_V72.md)
 - [Sources et reproduction V72](tools/v72/README_V72.md)
 
-## Version actuelle : V71 (coursier de dépôt Escargo)
+## Version précédente : V71 (coursier de dépôt Escargo)
 
 32 plages encore anglaises traduites : présentation, frais, choix des objets, confirmations et refus. Douze essais, 218 comparaisons limitées au texte, 134 captures du coursier/inventaire relues et 25 tests ciblés réussis. Le dépôt de trois objets est vérifié jusqu'à l'inventaire final ; les autres essais documentent les dialogues. Le téléphone initial est contrôlé, puis le coursier arrive par le mécanisme du jeu. La couverture complète reste à valider.
 

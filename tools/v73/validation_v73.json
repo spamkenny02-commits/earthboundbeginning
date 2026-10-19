@@ -1,0 +1,25 @@
+{
+  "version": "v73",
+  "input_patch_version": "v71",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "changed_text_spans": 8,
+  "native_commands_preserved_after_expanding_menu_bridge": true,
+  "npc_pointers_rewritten": 0,
+  "menu_definition_bridge_bytes": 5,
+  "new_allocated_bytes": 11,
+  "bank25_unchanged": true,
+  "sprites_preserved_against": "v71",
+  "natural_scene_access_verified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "849f17f6bb7c115be2ce671611da4bae557647c25e72572f1bda9141581e3459",
+      "target_rom_sha256": "5cbc419bc4b7a02017eb5361afa049f7d11d22f5747a07b7b1698115b46d7577",
+      "records_added": 9
+    },
+    "ascii": {
+      "sha256": "12594efae377c46a70bab92f38057468c55d4cc15e42b02e53936dd05310c310",
+      "target_rom_sha256": "8ea67eae21c4acc377041702964f08052c6a9099611b035507d6ebe5ea871f23",
+      "records_added": 9
+    }
+  }
+}

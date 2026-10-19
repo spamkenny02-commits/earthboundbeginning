@@ -1,4 +1,12 @@
-# Reprise — audit V72 de la réserve après coursier
+# Reprise — V73, hébergement et nouvelles racines candidates
+
+V73 est le patch actuel : huit plages du service `37899B` (PNJ 898, opérande `205D53`) traduites, dont Oui/Non. Sept remplacements fixes et un pont de définition de « Non » : saut de cinq octets à `378A32` vers onze octets protégés à `330200`, retour à `378A37`. Les commandes dépliées, branches, scripts de repos, sprites, banque 25 et pointeur PNJ sont préservés. Voir `RAPPORT_V73.md` et `tools/v73/README_V73.md`.
+
+Trois essais dans chaque profil : refus, acceptation et conversation après repos depuis l'état privé de l'acceptation. L'entrée complète est forcée par carte bancaire ; aucun flag ni PV préparé par l'outil. Le jeu exécute le repos et le changement de pièce ; PV observés 18 → 30, PP 10 inchangés. Pas de preuve de rencontre naturelle du PNJ. 40 captures relues, 40 comparaisons dont 18 changements uniquement textuels, 9 296 images échantillonnées et 20 tests ciblés réussis. Sorties privées : `/workspace/scratch/98c4eaa3ef23/validated_v73`, référence `/workspace/scratch/98c4eaa3ef23/reference_v71_lodging`. L'exploration `v73_explore` est privée.
+
+**Prochaine priorité concrète : `387221`, champ 9 du PNJ 87, service de retour d'objets encore anglais.** Lire ensuite `tools/v73/custom_npc_roots_v73.json` : 181 racines directes de `[36BB00,3F0000)` examinées, 11 candidats après V73. Autres pistes : `3861D3`/PNJ 291 (canari), `386B63`/319 (Pippi), `3738F8`/210 (mines), dialogues et sélecteurs. Ce relevé n'est pas une fermeture récursive ni une preuve d'accès naturel/classification linguistique. L'ancien filtre NPC `330000–36BB00` et copies connues omettait ces racines ; ne plus conclure à l'exhaustivité à partir de son graphe sans erreur.
+
+Checkpoint initial distant `work/v73-lodging` : `460ed6283742df76ecc2e0bf42ec1a9b88990976` ; checkpoint validé `work/v73-lodging-validated`. Éviter de refaire les audits V68–V72 sans changement qui le justifie. Réserve pleine/limite de trois côté coursier et autres personnages restent à valider, puis menus généraux, noms tronqués et parcours complet. Aucun 100 % certifié. Les paragraphes suivants sont historiques.
 
 V72 est un audit sans nouvel IPS : **V71 reste le patch actuel**. Voir `RAPPORT_V72.md` et `tools/v72/README_V72.md`. Après dépôt, la réserve contient bien Fiole + sagesse + vitalité. Après livraison de deux objets sur trois, vitalité reste seule ; après livraison d'un sur deux, sagesse reste seule. Ces trois cas sont vérifiés dans les deux profils à partir d'états privés sauvegardés après le départ du coursier : six chaînes, 12 sessions, 174 captures contrôlées, 36 captures clés relues et 10 tests ciblés réussis.
 

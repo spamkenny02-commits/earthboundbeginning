@@ -1,0 +1,4196 @@
+{
+  "version": "v73",
+  "patch_tested": "v73",
+  "profile": "accents",
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "initial_state_sha256": "622aa30903aeffe159b1b748d8537776a7a2c092dda3ef70eeca26434acaf4a7",
+  "npc_id": 898,
+  "entry": "37899B",
+  "natural_scene_access_verified": false,
+  "rest_and_warp_called_by_tester": false,
+  "wram_written_directly_by_tester": false,
+  "cases": {
+    "decline": {
+      "entries": [
+        "37899B"
+      ],
+      "operations": [],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "Right",
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "settle_frames": 0,
+      "status_buttons": [],
+      "state_source": "initial_v33",
+      "input_state_sha256": "622aa30903aeffe159b1b748d8537776a7a2c092dda3ef70eeca26434acaf4a7",
+      "output_state_sha256": null,
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "089b89f70002"
+        }
+      ],
+      "base_rom_sha256": "5cbc419bc4b7a02017eb5361afa049f7d11d22f5747a07b7b1698115b46d7577",
+      "fixture_rom_sha256": "4ac517e457ab529ab602709a2dee9b1e83143ea34bde38cb3e3e82ec4da943d2",
+      "sampled_frames": 1294,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A3"
+          }
+        },
+        {
+          "sample": 125,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A4"
+          }
+        },
+        {
+          "sample": 127,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A5"
+          }
+        },
+        {
+          "sample": 129,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A6"
+          }
+        },
+        {
+          "sample": 131,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A7"
+          }
+        },
+        {
+          "sample": 133,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A8"
+          }
+        },
+        {
+          "sample": 135,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AA"
+          }
+        },
+        {
+          "sample": 151,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AB"
+          }
+        },
+        {
+          "sample": 153,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AC"
+          }
+        },
+        {
+          "sample": 155,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AD"
+          }
+        },
+        {
+          "sample": 157,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AE"
+          }
+        },
+        {
+          "sample": 159,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AF"
+          }
+        },
+        {
+          "sample": 161,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B0"
+          }
+        },
+        {
+          "sample": 163,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B1"
+          }
+        },
+        {
+          "sample": 165,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B2"
+          }
+        },
+        {
+          "sample": 167,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B3"
+          }
+        },
+        {
+          "sample": 169,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B4"
+          }
+        },
+        {
+          "sample": 171,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B5"
+          }
+        },
+        {
+          "sample": 173,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B6"
+          }
+        },
+        {
+          "sample": 175,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B7"
+          }
+        },
+        {
+          "sample": 177,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B8"
+          }
+        },
+        {
+          "sample": 179,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B9"
+          }
+        },
+        {
+          "sample": 181,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BA"
+          }
+        },
+        {
+          "sample": 183,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BB"
+          }
+        },
+        {
+          "sample": 311,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BD"
+          }
+        },
+        {
+          "sample": 313,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BE"
+          }
+        },
+        {
+          "sample": 315,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BF"
+          }
+        },
+        {
+          "sample": 317,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C0"
+          }
+        },
+        {
+          "sample": 319,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C1"
+          }
+        },
+        {
+          "sample": 321,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C2"
+          }
+        },
+        {
+          "sample": 323,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C3"
+          }
+        },
+        {
+          "sample": 325,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C4"
+          }
+        },
+        {
+          "sample": 327,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C5"
+          }
+        },
+        {
+          "sample": 329,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C6"
+          }
+        },
+        {
+          "sample": 331,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C7"
+          }
+        },
+        {
+          "sample": 333,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C8"
+          }
+        },
+        {
+          "sample": 335,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C9"
+          }
+        },
+        {
+          "sample": 337,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CA"
+          }
+        },
+        {
+          "sample": 339,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CB"
+          }
+        },
+        {
+          "sample": 341,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CC"
+          }
+        },
+        {
+          "sample": 343,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CD"
+          }
+        },
+        {
+          "sample": 345,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CE"
+          }
+        },
+        {
+          "sample": 347,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CF"
+          }
+        },
+        {
+          "sample": 349,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D0"
+          }
+        },
+        {
+          "sample": 351,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D1"
+          }
+        },
+        {
+          "sample": 353,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D2"
+          }
+        },
+        {
+          "sample": 355,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D3"
+          }
+        },
+        {
+          "sample": 357,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D4"
+          }
+        },
+        {
+          "sample": 359,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D5"
+          }
+        },
+        {
+          "sample": 361,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D6"
+          }
+        },
+        {
+          "sample": 363,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D8"
+          }
+        },
+        {
+          "sample": 365,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D9"
+          }
+        },
+        {
+          "sample": 367,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DA"
+          }
+        },
+        {
+          "sample": 369,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DB"
+          }
+        },
+        {
+          "sample": 371,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DC"
+          }
+        },
+        {
+          "sample": 373,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DD"
+          }
+        },
+        {
+          "sample": 375,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DE"
+          }
+        },
+        {
+          "sample": 377,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DF"
+          }
+        },
+        {
+          "sample": 379,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E0"
+          }
+        },
+        {
+          "sample": 381,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E1"
+          }
+        },
+        {
+          "sample": 383,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E2"
+          }
+        },
+        {
+          "sample": 385,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E3"
+          }
+        },
+        {
+          "sample": 387,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E4"
+          }
+        },
+        {
+          "sample": 389,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E5"
+          }
+        },
+        {
+          "sample": 391,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E6"
+          }
+        },
+        {
+          "sample": 393,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E7"
+          }
+        },
+        {
+          "sample": 395,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E8"
+          }
+        },
+        {
+          "sample": 397,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E9"
+          }
+        },
+        {
+          "sample": 399,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EA"
+          }
+        },
+        {
+          "sample": 401,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EB"
+          }
+        },
+        {
+          "sample": 403,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EC"
+          }
+        },
+        {
+          "sample": 405,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789ED"
+          }
+        },
+        {
+          "sample": 407,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EE"
+          }
+        },
+        {
+          "sample": 409,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EF"
+          }
+        },
+        {
+          "sample": 411,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F0"
+          }
+        },
+        {
+          "sample": 413,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F1"
+          }
+        },
+        {
+          "sample": 415,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F2"
+          }
+        },
+        {
+          "sample": 417,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F3"
+          }
+        },
+        {
+          "sample": 419,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F4"
+          }
+        },
+        {
+          "sample": 421,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F5"
+          }
+        },
+        {
+          "sample": 423,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F6"
+          }
+        },
+        {
+          "sample": 425,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F7"
+          }
+        },
+        {
+          "sample": 427,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F8"
+          }
+        },
+        {
+          "sample": 429,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F9"
+          }
+        },
+        {
+          "sample": 431,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FA"
+          }
+        },
+        {
+          "sample": 433,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FB"
+          }
+        },
+        {
+          "sample": 435,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FC"
+          }
+        },
+        {
+          "sample": 437,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FD"
+          }
+        },
+        {
+          "sample": 439,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FE"
+          }
+        },
+        {
+          "sample": 441,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FF"
+          }
+        },
+        {
+          "sample": 443,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A00"
+          }
+        },
+        {
+          "sample": 445,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A01"
+          }
+        },
+        {
+          "sample": 447,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A02"
+          }
+        },
+        {
+          "sample": 449,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A03"
+          }
+        },
+        {
+          "sample": 505,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A05"
+          }
+        },
+        {
+          "sample": 507,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A06"
+          }
+        },
+        {
+          "sample": 509,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A07"
+          }
+        },
+        {
+          "sample": 511,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A08"
+          }
+        },
+        {
+          "sample": 513,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A09"
+          }
+        },
+        {
+          "sample": 515,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0A"
+          }
+        },
+        {
+          "sample": 517,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0B"
+          }
+        },
+        {
+          "sample": 519,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0C"
+          }
+        },
+        {
+          "sample": 521,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0D"
+          }
+        },
+        {
+          "sample": 523,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0E"
+          }
+        },
+        {
+          "sample": 525,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0F"
+          }
+        },
+        {
+          "sample": 527,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A10"
+          }
+        },
+        {
+          "sample": 529,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A11"
+          }
+        },
+        {
+          "sample": 531,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A12"
+          }
+        },
+        {
+          "sample": 533,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A13"
+          }
+        },
+        {
+          "sample": 535,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A14"
+          }
+        },
+        {
+          "sample": 537,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A15"
+          }
+        },
+        {
+          "sample": 539,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A16"
+          }
+        },
+        {
+          "sample": 541,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A17"
+          }
+        },
+        {
+          "sample": 543,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A18"
+          }
+        },
+        {
+          "sample": 545,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A19"
+          }
+        },
+        {
+          "sample": 547,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1A"
+          }
+        },
+        {
+          "sample": 549,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1B"
+          }
+        },
+        {
+          "sample": 551,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1C"
+          }
+        },
+        {
+          "sample": 553,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1D"
+          }
+        },
+        {
+          "sample": 555,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1E"
+          }
+        },
+        {
+          "sample": 557,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1F"
+          }
+        },
+        {
+          "sample": 559,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A20"
+          }
+        },
+        {
+          "sample": 561,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A21"
+          }
+        },
+        {
+          "sample": 563,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A22"
+          }
+        },
+        {
+          "sample": 565,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A23"
+          }
+        },
+        {
+          "sample": 567,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A24"
+          }
+        },
+        {
+          "sample": 569,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A25"
+          }
+        },
+        {
+          "sample": 571,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A26"
+          }
+        },
+        {
+          "sample": 573,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A27"
+          }
+        },
+        {
+          "sample": 575,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A28"
+          }
+        },
+        {
+          "sample": 577,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A29"
+          }
+        },
+        {
+          "sample": 579,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A2A"
+          }
+        },
+        {
+          "sample": 581,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A2B"
+          }
+        },
+        {
+          "sample": 583,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "33020B"
+          }
+        },
+        {
+          "sample": 584,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A3B"
+          }
+        },
+        {
+          "sample": 713,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AEF"
+          }
+        },
+        {
+          "sample": 715,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AF0"
+          }
+        },
+        {
+          "sample": 717,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AF1"
+          }
+        },
+        {
+          "sample": 719,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AF2"
+          }
+        },
+        {
+          "sample": 721,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AF3"
+          }
+        },
+        {
+          "sample": 907,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AF5"
+          }
+        },
+        {
+          "sample": 909,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AF6"
+          }
+        },
+        {
+          "sample": 911,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AF7"
+          }
+        },
+        {
+          "sample": 913,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AF8"
+          }
+        },
+        {
+          "sample": 915,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AF9"
+          }
+        },
+        {
+          "sample": 917,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AFA"
+          }
+        },
+        {
+          "sample": 919,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AFB"
+          }
+        },
+        {
+          "sample": 921,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AFC"
+          }
+        },
+        {
+          "sample": 923,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AFD"
+          }
+        },
+        {
+          "sample": 925,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AFE"
+          }
+        },
+        {
+          "sample": 927,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AFF"
+          }
+        },
+        {
+          "sample": 929,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B00"
+          }
+        },
+        {
+          "sample": 931,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B01"
+          }
+        },
+        {
+          "sample": 933,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B02"
+          }
+        },
+        {
+          "sample": 935,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B03"
+          }
+        },
+        {
+          "sample": 937,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B04"
+          }
+        },
+        {
+          "sample": 939,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B05"
+          }
+        },
+        {
+          "sample": 941,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B06"
+          }
+        },
+        {
+          "sample": 943,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B07"
+          }
+        },
+        {
+          "sample": 945,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B08"
+          }
+        },
+        {
+          "sample": 947,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B09"
+          }
+        },
+        {
+          "sample": 949,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B0A"
+          }
+        },
+        {
+          "sample": 951,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B0B"
+          }
+        },
+        {
+          "sample": 953,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B0C"
+          }
+        },
+        {
+          "sample": 955,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B0D"
+          }
+        },
+        {
+          "sample": 957,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B0E"
+          }
+        },
+        {
+          "sample": 959,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B0F"
+          }
+        },
+        {
+          "sample": 961,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B10"
+          }
+        },
+        {
+          "sample": 963,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B11"
+          }
+        },
+        {
+          "sample": 965,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B12"
+          }
+        },
+        {
+          "sample": 967,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B13"
+          }
+        },
+        {
+          "sample": 969,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B14"
+          }
+        },
+        {
+          "sample": 971,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B15"
+          }
+        },
+        {
+          "sample": 973,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B16"
+          }
+        },
+        {
+          "sample": 975,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B17"
+          }
+        },
+        {
+          "sample": 977,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B18"
+          }
+        },
+        {
+          "sample": 979,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B19"
+          }
+        },
+        {
+          "sample": 981,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B1A"
+          }
+        },
+        {
+          "sample": 983,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B1B"
+          }
+        },
+        {
+          "sample": 985,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B1C"
+          }
+        },
+        {
+          "sample": 987,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B1D"
+          }
+        },
+        {
+          "sample": 989,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B1E"
+          }
+        },
+        {
+          "sample": 991,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B1F"
+          }
+        },
+        {
+          "sample": 993,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B20"
+          }
+        },
+        {
+          "sample": 995,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B21"
+          }
+        },
+        {
+          "sample": 997,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B22"
+          }
+        },
+        {
+          "sample": 999,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B23"
+          }
+        },
+        {
+          "sample": 1001,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B24"
+          }
+        },
+        {
+          "sample": 1003,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B25"
+          }
+        },
+        {
+          "sample": 1005,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B26"
+          }
+        },
+        {
+          "sample": 1007,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B27"
+          }
+        },
+        {
+          "sample": 1009,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B28"
+          }
+        },
+        {
+          "sample": 1011,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B29"
+          }
+        },
+        {
+          "sample": 1013,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B2A"
+          }
+        },
+        {
+          "sample": 1015,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B2B"
+          }
+        },
+        {
+          "sample": 1017,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B2C"
+          }
+        },
+        {
+          "sample": 1019,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B2D"
+          }
+        },
+        {
+          "sample": 1021,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378B2E"
+          }
+        },
+        {
+          "sample": 1101,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "33020B": 1,
+        "3789A3": 2,
+        "3789A4": 2,
+        "3789A5": 2,
+        "3789A6": 2,
+        "3789A7": 2,
+        "3789A8": 2,
+        "3789AA": 16,
+        "3789AB": 2,
+        "3789AC": 2,
+        "3789AD": 2,
+        "3789AE": 2,
+        "3789AF": 2,
+        "3789B0": 2,
+        "3789B1": 2,
+        "3789B2": 2,
+        "3789B3": 2,
+        "3789B4": 2,
+        "3789B5": 2,
+        "3789B6": 2,
+        "3789B7": 2,
+        "3789B8": 2,
+        "3789B9": 2,
+        "3789BA": 2,
+        "3789BB": 128,
+        "3789BD": 2,
+        "3789BE": 2,
+        "3789BF": 2,
+        "3789C0": 2,
+        "3789C1": 2,
+        "3789C2": 2,
+        "3789C3": 2,
+        "3789C4": 2,
+        "3789C5": 2,
+        "3789C6": 2,
+        "3789C7": 2,
+        "3789C8": 2,
+        "3789C9": 2,
+        "3789CA": 2,
+        "3789CB": 2,
+        "3789CC": 2,
+        "3789CD": 2,
+        "3789CE": 2,
+        "3789CF": 2,
+        "3789D0": 2,
+        "3789D1": 2,
+        "3789D2": 2,
+        "3789D3": 2,
+        "3789D4": 2,
+        "3789D5": 2,
+        "3789D6": 2,
+        "3789D8": 2,
+        "3789D9": 2,
+        "3789DA": 2,
+        "3789DB": 2,
+        "3789DC": 2,
+        "3789DD": 2,
+        "3789DE": 2,
+        "3789DF": 2,
+        "3789E0": 2,
+        "3789E1": 2,
+        "3789E2": 2,
+        "3789E3": 2,
+        "3789E4": 2,
+        "3789E5": 2,
+        "3789E6": 2,
+        "3789E7": 2,
+        "3789E8": 2,
+        "3789E9": 2,
+        "3789EA": 2,
+        "3789EB": 2,
+        "3789EC": 2,
+        "3789ED": 2,
+        "3789EE": 2,
+        "3789EF": 2,
+        "3789F0": 2,
+        "3789F1": 2,
+        "3789F2": 2,
+        "3789F3": 2,
+        "3789F4": 2,
+        "3789F5": 2,
+        "3789F6": 2,
+        "3789F7": 2,
+        "3789F8": 2,
+        "3789F9": 2,
+        "3789FA": 2,
+        "3789FB": 2,
+        "3789FC": 2,
+        "3789FD": 2,
+        "3789FE": 2,
+        "3789FF": 2,
+        "378A00": 2,
+        "378A01": 2,
+        "378A02": 2,
+        "378A03": 56,
+        "378A05": 2,
+        "378A06": 2,
+        "378A07": 2,
+        "378A08": 2,
+        "378A09": 2,
+        "378A0A": 2,
+        "378A0B": 2,
+        "378A0C": 2,
+        "378A0D": 2,
+        "378A0E": 2,
+        "378A0F": 2,
+        "378A10": 2,
+        "378A11": 2,
+        "378A12": 2,
+        "378A13": 2,
+        "378A14": 2,
+        "378A15": 2,
+        "378A16": 2,
+        "378A17": 2,
+        "378A18": 2,
+        "378A19": 2,
+        "378A1A": 2,
+        "378A1B": 2,
+        "378A1C": 2,
+        "378A1D": 2,
+        "378A1E": 2,
+        "378A1F": 2,
+        "378A20": 2,
+        "378A21": 2,
+        "378A22": 2,
+        "378A23": 2,
+        "378A24": 2,
+        "378A25": 2,
+        "378A26": 2,
+        "378A27": 2,
+        "378A28": 2,
+        "378A29": 2,
+        "378A2A": 2,
+        "378A2B": 2,
+        "378A3B": 129,
+        "378AEF": 2,
+        "378AF0": 2,
+        "378AF1": 2,
+        "378AF2": 2,
+        "378AF3": 186,
+        "378AF5": 2,
+        "378AF6": 2,
+        "378AF7": 2,
+        "378AF8": 2,
+        "378AF9": 2,
+        "378AFA": 2,
+        "378AFB": 2,
+        "378AFC": 2,
+        "378AFD": 2,
+        "378AFE": 2,
+        "378AFF": 2,
+        "378B00": 2,
+        "378B01": 2,
+        "378B02": 2,
+        "378B03": 2,
+        "378B04": 2,
+        "378B05": 2,
+        "378B06": 2,
+        "378B07": 2,
+        "378B08": 2,
+        "378B09": 2,
+        "378B0A": 2,
+        "378B0B": 2,
+        "378B0C": 2,
+        "378B0D": 2,
+        "378B0E": 2,
+        "378B0F": 2,
+        "378B10": 2,
+        "378B11": 2,
+        "378B12": 2,
+        "378B13": 2,
+        "378B14": 2,
+        "378B15": 2,
+        "378B16": 2,
+        "378B17": 2,
+        "378B18": 2,
+        "378B19": 2,
+        "378B1A": 2,
+        "378B1B": 2,
+        "378B1C": 2,
+        "378B1D": 2,
+        "378B1E": 2,
+        "378B1F": 2,
+        "378B20": 2,
+        "378B21": 2,
+        "378B22": 2,
+        "378B23": 2,
+        "378B24": 2,
+        "378B25": 2,
+        "378B26": 2,
+        "378B27": 2,
+        "378B28": 2,
+        "378B29": 2,
+        "378B2A": 2,
+        "378B2B": 2,
+        "378B2C": 2,
+        "378B2D": 2,
+        "378B2E": 80
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v73/accents/decline/page_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "15532801ea62d2a801f5480c9202485a503833557bd91ef73368dfb163f35e2e",
+          "artifact_png_sha256": "5ccaf0fdeae9299ea6e0fe22e1eb1fa7e75e013b870c652ecf8e202b0670cead"
+        },
+        {
+          "path": "tests/emulation_v73/accents/decline/page_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3a7415bf480fa0d7be99443f7b611edcc00d0ab03ded2e37cd581cfd68f424f7",
+          "artifact_png_sha256": "5e83b0eb54e8828f086f9182f859c581e2e60dc83ab77f2864925df571f1a690"
+        },
+        {
+          "path": "tests/emulation_v73/accents/decline/page_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d47a8316830f75c1d2bcfac7e1edf126b2dcf4c3e47e9cf0a350440fb2519fbc",
+          "artifact_png_sha256": "13790df2d1bba8af8858b82ba92ee843a418c42fd26af120c1a6dd8abba53ddb"
+        },
+        {
+          "path": "tests/emulation_v73/accents/decline/page_03.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "7c280b046403303f6bb44f0ca6bd8df301bec06b3f913abd1933ac39fb96e083",
+          "artifact_png_sha256": "940f551a5104ca416425b71a085bf6513b0242d3b9c7fd7a0c348b372f336f6a"
+        },
+        {
+          "path": "tests/emulation_v73/accents/decline/page_04.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b144e1e0750dfbec3503ed3dfd6a89e63cf49712e2f75212c071300fa639fe08",
+          "artifact_png_sha256": "988e90fdacac2b7e77b3e450e63aa25bdc62fddbd5b2a2beacca76f5351941cf"
+        },
+        {
+          "path": "tests/emulation_v73/accents/decline/page_05.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "05199c0c2c21430420cafe638b093e22c30da1fb5825bed911508e8a6ee369d5",
+          "artifact_png_sha256": "63ee802e1a616049577c85ef49e8189a9afe2d6fe571c7443334c2a5f070b0a1"
+        }
+      ],
+      "returncode": 0
+    },
+    "accept": {
+      "entries": [
+        "37899B"
+      ],
+      "operations": [],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "settle_frames": 600,
+      "status_buttons": [
+        "A",
+        "B"
+      ],
+      "state_source": "initial_v33",
+      "input_state_sha256": "622aa30903aeffe159b1b748d8537776a7a2c092dda3ef70eeca26434acaf4a7",
+      "output_state_sha256": "9ec25245016e7fcb80e7656a62897b25b6b71f7135b70dfca90193df5ca335a7",
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "089b89f70002"
+        }
+      ],
+      "base_rom_sha256": "5cbc419bc4b7a02017eb5361afa049f7d11d22f5747a07b7b1698115b46d7577",
+      "fixture_rom_sha256": "4ac517e457ab529ab602709a2dee9b1e83143ea34bde38cb3e3e82ec4da943d2",
+      "sampled_frames": 2462,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A3"
+          }
+        },
+        {
+          "sample": 125,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A4"
+          }
+        },
+        {
+          "sample": 127,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A5"
+          }
+        },
+        {
+          "sample": 129,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A6"
+          }
+        },
+        {
+          "sample": 131,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A7"
+          }
+        },
+        {
+          "sample": 133,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789A8"
+          }
+        },
+        {
+          "sample": 135,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AA"
+          }
+        },
+        {
+          "sample": 151,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AB"
+          }
+        },
+        {
+          "sample": 153,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AC"
+          }
+        },
+        {
+          "sample": 155,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AD"
+          }
+        },
+        {
+          "sample": 157,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AE"
+          }
+        },
+        {
+          "sample": 159,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789AF"
+          }
+        },
+        {
+          "sample": 161,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B0"
+          }
+        },
+        {
+          "sample": 163,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B1"
+          }
+        },
+        {
+          "sample": 165,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B2"
+          }
+        },
+        {
+          "sample": 167,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B3"
+          }
+        },
+        {
+          "sample": 169,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B4"
+          }
+        },
+        {
+          "sample": 171,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B5"
+          }
+        },
+        {
+          "sample": 173,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B6"
+          }
+        },
+        {
+          "sample": 175,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B7"
+          }
+        },
+        {
+          "sample": 177,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B8"
+          }
+        },
+        {
+          "sample": 179,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789B9"
+          }
+        },
+        {
+          "sample": 181,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BA"
+          }
+        },
+        {
+          "sample": 183,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BB"
+          }
+        },
+        {
+          "sample": 311,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BD"
+          }
+        },
+        {
+          "sample": 313,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BE"
+          }
+        },
+        {
+          "sample": 315,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789BF"
+          }
+        },
+        {
+          "sample": 317,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C0"
+          }
+        },
+        {
+          "sample": 319,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C1"
+          }
+        },
+        {
+          "sample": 321,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C2"
+          }
+        },
+        {
+          "sample": 323,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C3"
+          }
+        },
+        {
+          "sample": 325,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C4"
+          }
+        },
+        {
+          "sample": 327,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C5"
+          }
+        },
+        {
+          "sample": 329,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C6"
+          }
+        },
+        {
+          "sample": 331,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C7"
+          }
+        },
+        {
+          "sample": 333,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C8"
+          }
+        },
+        {
+          "sample": 335,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789C9"
+          }
+        },
+        {
+          "sample": 337,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CA"
+          }
+        },
+        {
+          "sample": 339,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CB"
+          }
+        },
+        {
+          "sample": 341,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CC"
+          }
+        },
+        {
+          "sample": 343,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CD"
+          }
+        },
+        {
+          "sample": 345,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CE"
+          }
+        },
+        {
+          "sample": 347,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789CF"
+          }
+        },
+        {
+          "sample": 349,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D0"
+          }
+        },
+        {
+          "sample": 351,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D1"
+          }
+        },
+        {
+          "sample": 353,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D2"
+          }
+        },
+        {
+          "sample": 355,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D3"
+          }
+        },
+        {
+          "sample": 357,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D4"
+          }
+        },
+        {
+          "sample": 359,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D5"
+          }
+        },
+        {
+          "sample": 361,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D6"
+          }
+        },
+        {
+          "sample": 363,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D8"
+          }
+        },
+        {
+          "sample": 365,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789D9"
+          }
+        },
+        {
+          "sample": 367,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DA"
+          }
+        },
+        {
+          "sample": 369,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DB"
+          }
+        },
+        {
+          "sample": 371,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DC"
+          }
+        },
+        {
+          "sample": 373,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DD"
+          }
+        },
+        {
+          "sample": 375,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DE"
+          }
+        },
+        {
+          "sample": 377,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789DF"
+          }
+        },
+        {
+          "sample": 379,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E0"
+          }
+        },
+        {
+          "sample": 381,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E1"
+          }
+        },
+        {
+          "sample": 383,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E2"
+          }
+        },
+        {
+          "sample": 385,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E3"
+          }
+        },
+        {
+          "sample": 387,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E4"
+          }
+        },
+        {
+          "sample": 389,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E5"
+          }
+        },
+        {
+          "sample": 391,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E6"
+          }
+        },
+        {
+          "sample": 393,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E7"
+          }
+        },
+        {
+          "sample": 395,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E8"
+          }
+        },
+        {
+          "sample": 397,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789E9"
+          }
+        },
+        {
+          "sample": 399,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EA"
+          }
+        },
+        {
+          "sample": 401,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EB"
+          }
+        },
+        {
+          "sample": 403,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EC"
+          }
+        },
+        {
+          "sample": 405,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789ED"
+          }
+        },
+        {
+          "sample": 407,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EE"
+          }
+        },
+        {
+          "sample": 409,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789EF"
+          }
+        },
+        {
+          "sample": 411,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F0"
+          }
+        },
+        {
+          "sample": 413,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F1"
+          }
+        },
+        {
+          "sample": 415,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F2"
+          }
+        },
+        {
+          "sample": 417,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F3"
+          }
+        },
+        {
+          "sample": 419,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F4"
+          }
+        },
+        {
+          "sample": 421,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F5"
+          }
+        },
+        {
+          "sample": 423,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F6"
+          }
+        },
+        {
+          "sample": 425,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F7"
+          }
+        },
+        {
+          "sample": 427,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F8"
+          }
+        },
+        {
+          "sample": 429,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789F9"
+          }
+        },
+        {
+          "sample": 431,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FA"
+          }
+        },
+        {
+          "sample": 433,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FB"
+          }
+        },
+        {
+          "sample": 435,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FC"
+          }
+        },
+        {
+          "sample": 437,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FD"
+          }
+        },
+        {
+          "sample": 439,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FE"
+          }
+        },
+        {
+          "sample": 441,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "3789FF"
+          }
+        },
+        {
+          "sample": 443,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A00"
+          }
+        },
+        {
+          "sample": 445,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A01"
+          }
+        },
+        {
+          "sample": 447,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A02"
+          }
+        },
+        {
+          "sample": 449,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A03"
+          }
+        },
+        {
+          "sample": 505,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A05"
+          }
+        },
+        {
+          "sample": 507,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A06"
+          }
+        },
+        {
+          "sample": 509,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A07"
+          }
+        },
+        {
+          "sample": 511,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A08"
+          }
+        },
+        {
+          "sample": 513,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A09"
+          }
+        },
+        {
+          "sample": 515,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0A"
+          }
+        },
+        {
+          "sample": 517,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0B"
+          }
+        },
+        {
+          "sample": 519,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0C"
+          }
+        },
+        {
+          "sample": 521,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0D"
+          }
+        },
+        {
+          "sample": 523,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0E"
+          }
+        },
+        {
+          "sample": 525,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A0F"
+          }
+        },
+        {
+          "sample": 527,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A10"
+          }
+        },
+        {
+          "sample": 529,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A11"
+          }
+        },
+        {
+          "sample": 531,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A12"
+          }
+        },
+        {
+          "sample": 533,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A13"
+          }
+        },
+        {
+          "sample": 535,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A14"
+          }
+        },
+        {
+          "sample": 537,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A15"
+          }
+        },
+        {
+          "sample": 539,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A16"
+          }
+        },
+        {
+          "sample": 541,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A17"
+          }
+        },
+        {
+          "sample": 543,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A18"
+          }
+        },
+        {
+          "sample": 545,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A19"
+          }
+        },
+        {
+          "sample": 547,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1A"
+          }
+        },
+        {
+          "sample": 549,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1B"
+          }
+        },
+        {
+          "sample": 551,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1C"
+          }
+        },
+        {
+          "sample": 553,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1D"
+          }
+        },
+        {
+          "sample": 555,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1E"
+          }
+        },
+        {
+          "sample": 557,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A1F"
+          }
+        },
+        {
+          "sample": 559,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A20"
+          }
+        },
+        {
+          "sample": 561,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A21"
+          }
+        },
+        {
+          "sample": 563,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A22"
+          }
+        },
+        {
+          "sample": 565,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A23"
+          }
+        },
+        {
+          "sample": 567,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A24"
+          }
+        },
+        {
+          "sample": 569,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A25"
+          }
+        },
+        {
+          "sample": 571,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A26"
+          }
+        },
+        {
+          "sample": 573,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A27"
+          }
+        },
+        {
+          "sample": 575,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A28"
+          }
+        },
+        {
+          "sample": 577,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A29"
+          }
+        },
+        {
+          "sample": 579,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A2A"
+          }
+        },
+        {
+          "sample": 581,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A2B"
+          }
+        },
+        {
+          "sample": 583,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "33020B"
+          }
+        },
+        {
+          "sample": 584,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A3B"
+          }
+        },
+        {
+          "sample": 699,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A4C"
+          }
+        },
+        {
+          "sample": 701,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A4D"
+          }
+        },
+        {
+          "sample": 703,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A4E"
+          }
+        },
+        {
+          "sample": 705,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A4F"
+          }
+        },
+        {
+          "sample": 707,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A50"
+          }
+        },
+        {
+          "sample": 709,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A51"
+          }
+        },
+        {
+          "sample": 711,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A52"
+          }
+        },
+        {
+          "sample": 713,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A53"
+          }
+        },
+        {
+          "sample": 715,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A54"
+          }
+        },
+        {
+          "sample": 717,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A55"
+          }
+        },
+        {
+          "sample": 719,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A56"
+          }
+        },
+        {
+          "sample": 721,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A57"
+          }
+        },
+        {
+          "sample": 723,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A58"
+          }
+        },
+        {
+          "sample": 725,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A59"
+          }
+        },
+        {
+          "sample": 727,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A5A"
+          }
+        },
+        {
+          "sample": 729,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A5C"
+          }
+        },
+        {
+          "sample": 745,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A5D"
+          }
+        },
+        {
+          "sample": 747,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A5E"
+          }
+        },
+        {
+          "sample": 749,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A5F"
+          }
+        },
+        {
+          "sample": 751,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A60"
+          }
+        },
+        {
+          "sample": 753,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A61"
+          }
+        },
+        {
+          "sample": 755,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A62"
+          }
+        },
+        {
+          "sample": 757,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A63"
+          }
+        },
+        {
+          "sample": 759,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A64"
+          }
+        },
+        {
+          "sample": 761,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A65"
+          }
+        },
+        {
+          "sample": 763,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A66"
+          }
+        },
+        {
+          "sample": 765,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A67"
+          }
+        },
+        {
+          "sample": 767,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A68"
+          }
+        },
+        {
+          "sample": 769,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A69"
+          }
+        },
+        {
+          "sample": 771,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A6A"
+          }
+        },
+        {
+          "sample": 773,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A6B"
+          }
+        },
+        {
+          "sample": 775,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A6C"
+          }
+        },
+        {
+          "sample": 777,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A6D"
+          }
+        },
+        {
+          "sample": 779,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A6E"
+          }
+        },
+        {
+          "sample": 781,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A6F"
+          }
+        },
+        {
+          "sample": 783,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A70"
+          }
+        },
+        {
+          "sample": 785,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A71"
+          }
+        },
+        {
+          "sample": 787,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A72"
+          }
+        },
+        {
+          "sample": 789,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A73"
+          }
+        },
+        {
+          "sample": 791,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A74"
+          }
+        },
+        {
+          "sample": 793,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A75"
+          }
+        },
+        {
+          "sample": 795,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A76"
+          }
+        },
+        {
+          "sample": 797,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A77"
+          }
+        },
+        {
+          "sample": 799,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A78"
+          }
+        },
+        {
+          "sample": 801,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A79"
+          }
+        },
+        {
+          "sample": 803,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A7A"
+          }
+        },
+        {
+          "sample": 805,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A7B"
+          }
+        },
+        {
+          "sample": 807,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A7C"
+          }
+        },
+        {
+          "sample": 809,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A7D"
+          }
+        },
+        {
+          "sample": 811,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A7E"
+          }
+        },
+        {
+          "sample": 893,
+          "pointer": {
+            "stack_index": 3,
+            "rom_offset": "3879F6"
+          }
+        },
+        {
+          "sample": 897,
+          "pointer": {
+            "stack_index": 3,
+            "rom_offset": "3879FE"
+          }
+        },
+        {
+          "sample": 928,
+          "pointer": {
+            "stack_index": 3,
+            "rom_offset": "387A07"
+          }
+        },
+        {
+          "sample": 1049,
+          "pointer": {
+            "stack_index": 3,
+            "rom_offset": "387A21"
+          }
+        },
+        {
+          "sample": 1081,
+          "pointer": {
+            "stack_index": 3,
+            "rom_offset": "387A23"
+          }
+        },
+        {
+          "sample": 1172,
+          "pointer": {
+            "stack_index": 3,
+            "rom_offset": "387A25"
+          }
+        },
+        {
+          "sample": 1208,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A86"
+          }
+        },
+        {
+          "sample": 1362,
+          "pointer": {
+            "stack_index": 3,
+            "rom_offset": "387A33"
+          }
+        },
+        {
+          "sample": 1363,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "33020B": 1,
+        "3789A3": 2,
+        "3789A4": 2,
+        "3789A5": 2,
+        "3789A6": 2,
+        "3789A7": 2,
+        "3789A8": 2,
+        "3789AA": 16,
+        "3789AB": 2,
+        "3789AC": 2,
+        "3789AD": 2,
+        "3789AE": 2,
+        "3789AF": 2,
+        "3789B0": 2,
+        "3789B1": 2,
+        "3789B2": 2,
+        "3789B3": 2,
+        "3789B4": 2,
+        "3789B5": 2,
+        "3789B6": 2,
+        "3789B7": 2,
+        "3789B8": 2,
+        "3789B9": 2,
+        "3789BA": 2,
+        "3789BB": 128,
+        "3789BD": 2,
+        "3789BE": 2,
+        "3789BF": 2,
+        "3789C0": 2,
+        "3789C1": 2,
+        "3789C2": 2,
+        "3789C3": 2,
+        "3789C4": 2,
+        "3789C5": 2,
+        "3789C6": 2,
+        "3789C7": 2,
+        "3789C8": 2,
+        "3789C9": 2,
+        "3789CA": 2,
+        "3789CB": 2,
+        "3789CC": 2,
+        "3789CD": 2,
+        "3789CE": 2,
+        "3789CF": 2,
+        "3789D0": 2,
+        "3789D1": 2,
+        "3789D2": 2,
+        "3789D3": 2,
+        "3789D4": 2,
+        "3789D5": 2,
+        "3789D6": 2,
+        "3789D8": 2,
+        "3789D9": 2,
+        "3789DA": 2,
+        "3789DB": 2,
+        "3789DC": 2,
+        "3789DD": 2,
+        "3789DE": 2,
+        "3789DF": 2,
+        "3789E0": 2,
+        "3789E1": 2,
+        "3789E2": 2,
+        "3789E3": 2,
+        "3789E4": 2,
+        "3789E5": 2,
+        "3789E6": 2,
+        "3789E7": 2,
+        "3789E8": 2,
+        "3789E9": 2,
+        "3789EA": 2,
+        "3789EB": 2,
+        "3789EC": 2,
+        "3789ED": 2,
+        "3789EE": 2,
+        "3789EF": 2,
+        "3789F0": 2,
+        "3789F1": 2,
+        "3789F2": 2,
+        "3789F3": 2,
+        "3789F4": 2,
+        "3789F5": 2,
+        "3789F6": 2,
+        "3789F7": 2,
+        "3789F8": 2,
+        "3789F9": 2,
+        "3789FA": 2,
+        "3789FB": 2,
+        "3789FC": 2,
+        "3789FD": 2,
+        "3789FE": 2,
+        "3789FF": 2,
+        "378A00": 2,
+        "378A01": 2,
+        "378A02": 2,
+        "378A03": 56,
+        "378A05": 2,
+        "378A06": 2,
+        "378A07": 2,
+        "378A08": 2,
+        "378A09": 2,
+        "378A0A": 2,
+        "378A0B": 2,
+        "378A0C": 2,
+        "378A0D": 2,
+        "378A0E": 2,
+        "378A0F": 2,
+        "378A10": 2,
+        "378A11": 2,
+        "378A12": 2,
+        "378A13": 2,
+        "378A14": 2,
+        "378A15": 2,
+        "378A16": 2,
+        "378A17": 2,
+        "378A18": 2,
+        "378A19": 2,
+        "378A1A": 2,
+        "378A1B": 2,
+        "378A1C": 2,
+        "378A1D": 2,
+        "378A1E": 2,
+        "378A1F": 2,
+        "378A20": 2,
+        "378A21": 2,
+        "378A22": 2,
+        "378A23": 2,
+        "378A24": 2,
+        "378A25": 2,
+        "378A26": 2,
+        "378A27": 2,
+        "378A28": 2,
+        "378A29": 2,
+        "378A2A": 2,
+        "378A2B": 2,
+        "378A3B": 115,
+        "378A4C": 2,
+        "378A4D": 2,
+        "378A4E": 2,
+        "378A4F": 2,
+        "378A50": 2,
+        "378A51": 2,
+        "378A52": 2,
+        "378A53": 2,
+        "378A54": 2,
+        "378A55": 2,
+        "378A56": 2,
+        "378A57": 2,
+        "378A58": 2,
+        "378A59": 2,
+        "378A5A": 2,
+        "378A5C": 16,
+        "378A5D": 2,
+        "378A5E": 2,
+        "378A5F": 2,
+        "378A60": 2,
+        "378A61": 2,
+        "378A62": 2,
+        "378A63": 2,
+        "378A64": 2,
+        "378A65": 2,
+        "378A66": 2,
+        "378A67": 2,
+        "378A68": 2,
+        "378A69": 2,
+        "378A6A": 2,
+        "378A6B": 2,
+        "378A6C": 2,
+        "378A6D": 2,
+        "378A6E": 2,
+        "378A6F": 2,
+        "378A70": 2,
+        "378A71": 2,
+        "378A72": 2,
+        "378A73": 2,
+        "378A74": 2,
+        "378A75": 2,
+        "378A76": 2,
+        "378A77": 2,
+        "378A78": 2,
+        "378A79": 2,
+        "378A7A": 2,
+        "378A7B": 2,
+        "378A7C": 2,
+        "378A7D": 2,
+        "378A7E": 82,
+        "378A86": 154,
+        "3879F6": 4,
+        "3879FE": 31,
+        "387A07": 121,
+        "387A21": 32,
+        "387A23": 91,
+        "387A25": 36,
+        "387A33": 1
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v73/accents/accept/page_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "15532801ea62d2a801f5480c9202485a503833557bd91ef73368dfb163f35e2e",
+          "artifact_png_sha256": "5ccaf0fdeae9299ea6e0fe22e1eb1fa7e75e013b870c652ecf8e202b0670cead"
+        },
+        {
+          "path": "tests/emulation_v73/accents/accept/page_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3a7415bf480fa0d7be99443f7b611edcc00d0ab03ded2e37cd581cfd68f424f7",
+          "artifact_png_sha256": "5e83b0eb54e8828f086f9182f859c581e2e60dc83ab77f2864925df571f1a690"
+        },
+        {
+          "path": "tests/emulation_v73/accents/accept/page_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d47a8316830f75c1d2bcfac7e1edf126b2dcf4c3e47e9cf0a350440fb2519fbc",
+          "artifact_png_sha256": "13790df2d1bba8af8858b82ba92ee843a418c42fd26af120c1a6dd8abba53ddb"
+        },
+        {
+          "path": "tests/emulation_v73/accents/accept/page_03.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "e11ece2940e1d2526df787d647a0b1d1a57de18b7a690a6dba7049f42ab3fa13",
+          "artifact_png_sha256": "c9c66bb8c47f3048678b2d60122654e5634abcb034effc98adfd16bf29e218c9"
+        },
+        {
+          "path": "tests/emulation_v73/accents/accept/page_04.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "2cbbeef1249170a43854962fa5b19fba628470c70beb9ce23e15a0f05cb891f2",
+          "artifact_png_sha256": "028dbb5f914c5785e3fcda302aad0d9f9591a5c943656b3ba3d8c3da8d0702b5"
+        },
+        {
+          "path": "tests/emulation_v73/accents/accept/page_05.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "2cbbeef1249170a43854962fa5b19fba628470c70beb9ce23e15a0f05cb891f2",
+          "artifact_png_sha256": "028dbb5f914c5785e3fcda302aad0d9f9591a5c943656b3ba3d8c3da8d0702b5"
+        },
+        {
+          "path": "tests/emulation_v73/accents/accept/page_06.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+          "artifact_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e"
+        },
+        {
+          "path": "tests/emulation_v73/accents/accept/rest_settled.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+          "artifact_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e"
+        },
+        {
+          "path": "tests/emulation_v73/accents/accept/status_after_rest.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+          "artifact_png_sha256": "7fadfb12fd6049602b6345bb8abc6f08f01fc4d720f72525722605719b5d3a9d"
+        },
+        {
+          "path": "tests/emulation_v73/accents/accept/map_after_status.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+          "artifact_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e"
+        }
+      ],
+      "returncode": 0
+    },
+    "revisit": {
+      "entries": [
+        "37899B"
+      ],
+      "operations": [],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "settle_frames": 0,
+      "status_buttons": [],
+      "state_source": "accept",
+      "input_state_sha256": "9ec25245016e7fcb80e7656a62897b25b6b71f7135b70dfca90193df5ca335a7",
+      "output_state_sha256": null,
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "089b89f70002"
+        }
+      ],
+      "base_rom_sha256": "5cbc419bc4b7a02017eb5361afa049f7d11d22f5747a07b7b1698115b46d7577",
+      "fixture_rom_sha256": "4ac517e457ab529ab602709a2dee9b1e83143ea34bde38cb3e3e82ec4da943d2",
+      "sampled_frames": 892,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A8D"
+          }
+        },
+        {
+          "sample": 125,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A8E"
+          }
+        },
+        {
+          "sample": 127,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A8F"
+          }
+        },
+        {
+          "sample": 129,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A90"
+          }
+        },
+        {
+          "sample": 131,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A91"
+          }
+        },
+        {
+          "sample": 133,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A92"
+          }
+        },
+        {
+          "sample": 135,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A93"
+          }
+        },
+        {
+          "sample": 137,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A94"
+          }
+        },
+        {
+          "sample": 139,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A95"
+          }
+        },
+        {
+          "sample": 141,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A96"
+          }
+        },
+        {
+          "sample": 143,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A97"
+          }
+        },
+        {
+          "sample": 145,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A98"
+          }
+        },
+        {
+          "sample": 147,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A99"
+          }
+        },
+        {
+          "sample": 149,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A9A"
+          }
+        },
+        {
+          "sample": 151,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A9D"
+          }
+        },
+        {
+          "sample": 311,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378A9F"
+          }
+        },
+        {
+          "sample": 313,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA0"
+          }
+        },
+        {
+          "sample": 315,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA1"
+          }
+        },
+        {
+          "sample": 317,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA2"
+          }
+        },
+        {
+          "sample": 319,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA3"
+          }
+        },
+        {
+          "sample": 321,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA4"
+          }
+        },
+        {
+          "sample": 323,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA5"
+          }
+        },
+        {
+          "sample": 325,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA6"
+          }
+        },
+        {
+          "sample": 327,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA7"
+          }
+        },
+        {
+          "sample": 329,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA8"
+          }
+        },
+        {
+          "sample": 331,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AA9"
+          }
+        },
+        {
+          "sample": 333,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AAA"
+          }
+        },
+        {
+          "sample": 335,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AAB"
+          }
+        },
+        {
+          "sample": 337,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AAC"
+          }
+        },
+        {
+          "sample": 339,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AAD"
+          }
+        },
+        {
+          "sample": 341,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AAE"
+          }
+        },
+        {
+          "sample": 343,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AAF"
+          }
+        },
+        {
+          "sample": 345,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB0"
+          }
+        },
+        {
+          "sample": 347,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB1"
+          }
+        },
+        {
+          "sample": 349,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB2"
+          }
+        },
+        {
+          "sample": 351,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB3"
+          }
+        },
+        {
+          "sample": 353,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB4"
+          }
+        },
+        {
+          "sample": 355,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB5"
+          }
+        },
+        {
+          "sample": 357,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB6"
+          }
+        },
+        {
+          "sample": 359,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB7"
+          }
+        },
+        {
+          "sample": 361,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB8"
+          }
+        },
+        {
+          "sample": 363,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AB9"
+          }
+        },
+        {
+          "sample": 365,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ABA"
+          }
+        },
+        {
+          "sample": 505,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ABC"
+          }
+        },
+        {
+          "sample": 507,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ABD"
+          }
+        },
+        {
+          "sample": 509,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ABE"
+          }
+        },
+        {
+          "sample": 511,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ABF"
+          }
+        },
+        {
+          "sample": 513,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AC0"
+          }
+        },
+        {
+          "sample": 515,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AC1"
+          }
+        },
+        {
+          "sample": 517,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AC2"
+          }
+        },
+        {
+          "sample": 519,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AC3"
+          }
+        },
+        {
+          "sample": 521,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AC4"
+          }
+        },
+        {
+          "sample": 523,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AC5"
+          }
+        },
+        {
+          "sample": 525,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AC6"
+          }
+        },
+        {
+          "sample": 527,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AC8"
+          }
+        },
+        {
+          "sample": 543,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AC9"
+          }
+        },
+        {
+          "sample": 545,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ACA"
+          }
+        },
+        {
+          "sample": 547,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ACB"
+          }
+        },
+        {
+          "sample": 549,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ACC"
+          }
+        },
+        {
+          "sample": 551,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ACD"
+          }
+        },
+        {
+          "sample": 553,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ACE"
+          }
+        },
+        {
+          "sample": 555,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ACF"
+          }
+        },
+        {
+          "sample": 557,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD0"
+          }
+        },
+        {
+          "sample": 559,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD1"
+          }
+        },
+        {
+          "sample": 561,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD2"
+          }
+        },
+        {
+          "sample": 563,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD3"
+          }
+        },
+        {
+          "sample": 565,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD4"
+          }
+        },
+        {
+          "sample": 567,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD5"
+          }
+        },
+        {
+          "sample": 569,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD6"
+          }
+        },
+        {
+          "sample": 571,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD7"
+          }
+        },
+        {
+          "sample": 573,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD8"
+          }
+        },
+        {
+          "sample": 575,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AD9"
+          }
+        },
+        {
+          "sample": 577,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ADA"
+          }
+        },
+        {
+          "sample": 579,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ADB"
+          }
+        },
+        {
+          "sample": 581,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ADC"
+          }
+        },
+        {
+          "sample": 583,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ADD"
+          }
+        },
+        {
+          "sample": 585,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ADE"
+          }
+        },
+        {
+          "sample": 587,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378ADF"
+          }
+        },
+        {
+          "sample": 589,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE0"
+          }
+        },
+        {
+          "sample": 591,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE1"
+          }
+        },
+        {
+          "sample": 593,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE2"
+          }
+        },
+        {
+          "sample": 595,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE3"
+          }
+        },
+        {
+          "sample": 597,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE4"
+          }
+        },
+        {
+          "sample": 599,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE5"
+          }
+        },
+        {
+          "sample": 601,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE6"
+          }
+        },
+        {
+          "sample": 603,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE7"
+          }
+        },
+        {
+          "sample": 605,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE8"
+          }
+        },
+        {
+          "sample": 607,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AE9"
+          }
+        },
+        {
+          "sample": 609,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AEA"
+          }
+        },
+        {
+          "sample": 611,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AEB"
+          }
+        },
+        {
+          "sample": 613,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AEC"
+          }
+        },
+        {
+          "sample": 615,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "378AED"
+          }
+        },
+        {
+          "sample": 699,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "378A8D": 2,
+        "378A8E": 2,
+        "378A8F": 2,
+        "378A90": 2,
+        "378A91": 2,
+        "378A92": 2,
+        "378A93": 2,
+        "378A94": 2,
+        "378A95": 2,
+        "378A96": 2,
+        "378A97": 2,
+        "378A98": 2,
+        "378A99": 2,
+        "378A9A": 2,
+        "378A9D": 160,
+        "378A9F": 2,
+        "378AA0": 2,
+        "378AA1": 2,
+        "378AA2": 2,
+        "378AA3": 2,
+        "378AA4": 2,
+        "378AA5": 2,
+        "378AA6": 2,
+        "378AA7": 2,
+        "378AA8": 2,
+        "378AA9": 2,
+        "378AAA": 2,
+        "378AAB": 2,
+        "378AAC": 2,
+        "378AAD": 2,
+        "378AAE": 2,
+        "378AAF": 2,
+        "378AB0": 2,
+        "378AB1": 2,
+        "378AB2": 2,
+        "378AB3": 2,
+        "378AB4": 2,
+        "378AB5": 2,
+        "378AB6": 2,
+        "378AB7": 2,
+        "378AB8": 2,
+        "378AB9": 2,
+        "378ABA": 140,
+        "378ABC": 2,
+        "378ABD": 2,
+        "378ABE": 2,
+        "378ABF": 2,
+        "378AC0": 2,
+        "378AC1": 2,
+        "378AC2": 2,
+        "378AC3": 2,
+        "378AC4": 2,
+        "378AC5": 2,
+        "378AC6": 2,
+        "378AC8": 16,
+        "378AC9": 2,
+        "378ACA": 2,
+        "378ACB": 2,
+        "378ACC": 2,
+        "378ACD": 2,
+        "378ACE": 2,
+        "378ACF": 2,
+        "378AD0": 2,
+        "378AD1": 2,
+        "378AD2": 2,
+        "378AD3": 2,
+        "378AD4": 2,
+        "378AD5": 2,
+        "378AD6": 2,
+        "378AD7": 2,
+        "378AD8": 2,
+        "378AD9": 2,
+        "378ADA": 2,
+        "378ADB": 2,
+        "378ADC": 2,
+        "378ADD": 2,
+        "378ADE": 2,
+        "378ADF": 2,
+        "378AE0": 2,
+        "378AE1": 2,
+        "378AE2": 2,
+        "378AE3": 2,
+        "378AE4": 2,
+        "378AE5": 2,
+        "378AE6": 2,
+        "378AE7": 2,
+        "378AE8": 2,
+        "378AE9": 2,
+        "378AEA": 2,
+        "378AEB": 2,
+        "378AEC": 2,
+        "378AED": 84
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v73/accents/revisit/page_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d56e4031586aba01fdd56dd385530e9e3e0b63a432f0cb4480cc1732ffc78cd4",
+          "artifact_png_sha256": "556f48e43e0da0e9f67bf911549d3d58360d3e8b0404519fdb52754698fb83da"
+        },
+        {
+          "path": "tests/emulation_v73/accents/revisit/page_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "80fb8313d22bc4e13e77f4f11075c61015228bff2cf4ce2916c47ce994d3790c",
+          "artifact_png_sha256": "cce4a045d171234ea4b97e98221a3d00c5edc1aeb7e5fae486f4196a1b1c857a"
+        },
+        {
+          "path": "tests/emulation_v73/accents/revisit/page_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "e2276cc9229fd362c07283f18e59703b5d9216c3f4ebc0a54095c13bcc122cfe",
+          "artifact_png_sha256": "8c1f37378a1e32296750fe9288a3c781c83eab2994f52e11e57ef624c95a51c4"
+        },
+        {
+          "path": "tests/emulation_v73/accents/revisit/page_03.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+          "artifact_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e"
+        }
+      ],
+      "returncode": 0
+    }
+  }
+}

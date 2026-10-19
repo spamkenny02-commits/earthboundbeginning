@@ -1,4 +1,6 @@
-# Suite des textes après audit V72 (IPS V71)
+# Suite des textes après V73 (hébergement)
+
+V73 traduit huit plages du service `37899B`/PNJ 898, avec les choix Oui/Non, et vérifie refus, repos et conversation suivante dans les deux profils. **Prochain lot : service de retour d'objets `387221`/PNJ 87 encore anglais.** Le relevé `tools/v73/custom_npc_roots_v73.json` contient onze candidats dans les racines personnalisées directes `36BB00–3F0000`, omises par l'ancien filtre. Puis traiter canari `3861D3`, Pippi `386B63`, mines `3738F8` et les autres candidats avec leurs appelants. Ce relevé n'est pas récursif et ne prouve pas leur accès naturel ; ses nombres ne sont pas un taux de traduction. Les contrôles acquis de V68–V72 ne sont pas à répéter sans raison nouvelle.
 
 V72 clôt le contrôle concret de la réserve après coursier dans les deux profils : trois objets déposés présents, vitalité restante après livraison de deux sur trois, sagesse restante après livraison d'un sur deux. États privés chaînés ; après livraison partielle, une case est libérée par retrait natif d'un Badge sans toucher à la réserve. Aucun nouvel anglais : pas d'IPS V72. Voir `RAPPORT_V72.md`. Prochain reste utile : réserve pleine/limite de trois côté coursier, autres enseignes et hôtels, autres personnages ; puis menus d'action et noms longs tronqués dans les fenêtres à deux colonnes. Ne pas répéter l'audit des reliquats sans nouvelle raison.
 
