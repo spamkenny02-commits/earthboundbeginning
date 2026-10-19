@@ -1,5 +1,12 @@
 # EarthBound Beginnings SNES — traduction française
 
+## Dernier audit : V68 (patch de jeu V67 inchangé)
+
+Retrait sur inventaire plein refusé en français, puis récupération du même objet après libération d'une case et réserve vide vérifiée. Trois phases liées dans les deux profils : six sessions, 50 captures relues, préparations privées explicitement déclarées. Aucun nouveau texte anglais dans ce lot, donc aucun nouvel IPS. Les accès naturels et les autres configurations restent à vérifier.
+
+- [Rapport V68 et captures](RAPPORT_V68.md)
+- [Sources et reproduction](tools/v68/README_V68.md)
+
 ## Version actuelle : V67 (quantités en boutique)
 
 « Just one / Multiple » devient « Un seul / En lot ». Achat simple/en lot, refus faute d'argent et d'espace, stockage vide et soins acceptés sont vérifiés dans les deux profils : 14 essais, 86 captures relues et 86 comparaisons V66/V67 limitées au texte. Les entrées et préparations d'inventaire sont contrôlées, pas naturelles.

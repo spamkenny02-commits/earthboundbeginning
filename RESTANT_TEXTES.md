@@ -1,4 +1,4 @@
-# Suite des textes après V67
+# Suite des textes après audit V68 (IPS V67)
 
 Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit pas un dénominateur de couverture.
 
@@ -37,3 +37,5 @@ V65 lève deux points de cette liste : retrait sur compte positif et cycle achat
 V66 : le parcours complet Maman → Escargo révèle le sélecteur anglais « Pick-up / Delivery », maintenant traduit en « Déposer / Retirer ». Fins d'appel Papa sans sauvegarde, coût de 1 $ et refus sans argent, refus de retrait de 2 $ sur compte de 1 $, demande de coursier et retrait sur réserve vide vérifiés dans les deux profils : 12 essais, 178 captures, 48 comparaisons limitées au texte. L'arrivée du coursier et les transferts Escargo restent à vérifier ; ne pas les confondre avec le cycle de stockage direct V65. Toujours aucun nouvel accès naturel certifié.
 
 V67 : choix d'achat « Just one / Multiple » traduits en « Un seul / En lot ». Achat en lot de 1, refus de quantité 2 faute d'argent, refus d'achat avec inventaire plein, stockage vide et soins acceptés relus dans les deux profils (14 essais, 86 captures, 86 comparaisons limitées au texte). L'inventaire plein est préparé par commandes natives dans une fixture privée déclarée ; le retrait d'un objet vers cet inventaire, la réserve pleine et plusieurs personnages restent à tester. Aucun nouvel accès naturel prouvé.
+
+V68 (audit, IPS V67 inchangés) lève le retrait vers un inventaire plein pour Ninten seul : refus français, réserve contenant toujours une Fiole, récupération après libération artificielle d'une case, puis réserve vide. Trois phases liées dans les deux profils, 50 captures relues. Pas de nouveau texte anglais dans ce lot. Restent réserve pleine, plusieurs personnages, coursiers/transferts Escargo et parcours naturels ; pas de couverture globale certifiée.
