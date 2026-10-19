@@ -4,7 +4,10 @@
   "copy_offset": "32AA40",
   "copy_size": 27,
   "source_helper": "38B587",
-  "call_operand": "34B577",
+  "call_operands": [
+    "34B577",
+    "259B27"
+  ],
   "text_offset": "34B580",
   "text_end": "34B5A1",
   "french": "  Cet objet sera bien au chaud. ",
@@ -762,18 +765,168 @@
       "330FC0"
     ]
   ],
+  "moved_scripts": [
+    {
+      "root": "258274",
+      "end": "258285",
+      "chunks": [
+        {
+          "source_start": "258274",
+          "source_end": "258285",
+          "destination": "32C814",
+          "continuation": null
+        }
+      ]
+    },
+    {
+      "root": "259A3C",
+      "end": "259A6A",
+      "chunks": [
+        {
+          "source_start": "259A3C",
+          "source_end": "259A6A",
+          "destination": "32F9D0",
+          "continuation": null
+        }
+      ]
+    },
+    {
+      "root": "259A6C",
+      "end": "259A94",
+      "chunks": [
+        {
+          "source_start": "259A6C",
+          "source_end": "259A94",
+          "destination": "32AA80",
+          "continuation": null
+        }
+      ]
+    },
+    {
+      "root": "259A94",
+      "end": "259ABB",
+      "chunks": [
+        {
+          "source_start": "259A94",
+          "source_end": "259ABB",
+          "destination": "330234",
+          "continuation": null
+        }
+      ]
+    },
+    {
+      "root": "259ABC",
+      "end": "259AEF",
+      "chunks": [
+        {
+          "source_start": "259ABC",
+          "source_end": "259AEF",
+          "destination": "330858",
+          "continuation": null
+        }
+      ]
+    },
+    {
+      "root": "259AF0",
+      "end": "259B6D",
+      "chunks": [
+        {
+          "source_start": "259AF0",
+          "source_end": "259B1D",
+          "destination": "32C7DC",
+          "continuation": "33066C"
+        },
+        {
+          "source_start": "259B1D",
+          "source_end": "259B48",
+          "destination": "33066C",
+          "continuation": "32A874"
+        },
+        {
+          "source_start": "259B48",
+          "source_end": "259B6D",
+          "destination": "32A874",
+          "continuation": null
+        }
+      ]
+    },
+    {
+      "root": "259B73",
+      "end": "259B87",
+      "chunks": [
+        {
+          "source_start": "259B73",
+          "source_end": "259B87",
+          "destination": "32FCF0",
+          "continuation": null
+        }
+      ]
+    }
+  ],
   "profiles": {
     "accents": {
       "original_helper_hex": "1a0f001fc0054bb5f8004bb5f8004bb5f8004bb5f80050b5f80002",
       "scoped_helper_hex": "1a0f001fc00550b5f80050b5f80050b5f80050b5f80050b5f80002",
       "original_text_hex": "50507a95509c95509791a29495a29199509299959e5091a550939891a5945e5050",
-      "replacement_text_hex": "50507395a4509f929a95a450a395a291509299959e5091a550939891a5945e5050"
+      "replacement_text_hex": "50507395a4509f929a95a450a395a291509299959e5091a550939891a5945e5050",
+      "safe_pointer_edits": [
+        {
+          "offset": "34B4E7",
+          "target": "330858"
+        },
+        {
+          "offset": "34B50E",
+          "target": "330858"
+        },
+        {
+          "offset": "34B51E",
+          "target": "32F9D0"
+        },
+        {
+          "offset": "34B52F",
+          "target": "32AA80"
+        },
+        {
+          "offset": "34B577",
+          "target": "32AA40"
+        },
+        {
+          "offset": "34B7FE",
+          "target": "32C7DC"
+        }
+      ]
     },
     "ascii": {
       "original_helper_hex": "1a0f001fc0054bb5f8004bb5f8004bb5f8004bb5f80050b5f80002",
       "scoped_helper_hex": "1a0f001fc00550b5f80050b5f80050b5f80050b5f80050b5f80002",
       "original_text_hex": "50507a95509c95509791a29495a29199509299959e5091a550939891a5945e5050",
-      "replacement_text_hex": "50507395a4509f929a95a450a395a291509299959e5091a550939891a5945e5050"
+      "replacement_text_hex": "50507395a4509f929a95a450a395a291509299959e5091a550939891a5945e5050",
+      "safe_pointer_edits": [
+        {
+          "offset": "34B4E7",
+          "target": "330858"
+        },
+        {
+          "offset": "34B50E",
+          "target": "330858"
+        },
+        {
+          "offset": "34B51E",
+          "target": "32F9D0"
+        },
+        {
+          "offset": "34B52F",
+          "target": "32AA80"
+        },
+        {
+          "offset": "34B577",
+          "target": "32AA40"
+        },
+        {
+          "offset": "34B7FE",
+          "target": "32C7DC"
+        }
+      ]
     }
   }
 }

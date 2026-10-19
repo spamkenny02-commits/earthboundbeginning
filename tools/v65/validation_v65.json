@@ -2,26 +2,26 @@
   "version": "v65",
   "base": "v64",
   "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
-  "english_article_removed_in_storage": true,
+  "english_confirmation_contexts_corrected": 2,
   "gender_neutral_confirmation": true,
   "shared_helper_modified": false,
-  "scoped_call_operands_changed": 1,
   "scoped_dispatch_targets_changed": 4,
-  "new_allocation_bytes": 27,
+  "legacy_service_scripts_relocated": 7,
+  "bank25_unchanged": true,
   "classifier_and_dispatch_opcodes_preserved": true,
   "sprites_preserved_against": "v64",
   "natural_scene_access_verified": false,
   "profiles": {
     "accents": {
-      "sha256": "539032f10c1aa355bc18055fd5ded3d9e18eb1ebbd7fc6139a78a2f9707c8035",
-      "target_rom_sha256": "27e8802ba3dec6d2415625e2aa1428b9ff1c5af2942c1543b64cafcd59a75868",
-      "records_added": 3,
+      "sha256": "1c90f73dadd4289512a7a147a8feb5dc8e3ccd844fe7b1feb83f950bd2465a18",
+      "target_rom_sha256": "bf19961ca3c6702d7ebe146e6ef862b31d898654b57444a73697a3f0076f6ca2",
+      "records_added": 17,
       "prior_records_preserved": 8862
     },
     "ascii": {
-      "sha256": "56168063e8083e0ad890339fb91b3660d7d28300a5bb50b3c0102e0a52e58be8",
-      "target_rom_sha256": "a7a5f63bd2bb7021b0c1e928cdc19f8e350af093f079908d9492be578392fd93",
-      "records_added": 3,
+      "sha256": "d5b2b8c935c8058d382e14480c00326cc3aa80a17036a3c59e287ba227ea9382",
+      "target_rom_sha256": "c678da32ce821f845f8be2fc2dc2ce6677fd5b605a3fa359226e8052b192efc4",
+      "records_added": 17,
       "prior_records_preserved": 8757
     }
   }
