@@ -1,5 +1,7 @@
 # Avancement estimé
 
+V71 : 32 plages du coursier de dépôt traduites ; dépôt de trois objets vérifié jusqu'à l'inventaire final, autres confirmations et refus relus dans les deux profils. Réouverture de la réserve après passage du coursier et reliquat d'une livraison partielle restent concrets à vérifier. Les menus et le parcours complet restent à finir ; aucun nouveau taux exhaustif.
+
 V70 : 24 plages du livreur traduites ; douze essais, 338 comparaisons dont 92 changements limités au texte, 116 captures du coursier et des inventaires relues. Arrivée du coursier native après téléphone initial contrôlé. Les services et menus ont encore des cas concrets à traiter ; aucun nouveau taux exhaustif n'est déduit de ces résultats.
 
 Environ **80 %**, avec une fourchette indicative de **75 à 85 %**.

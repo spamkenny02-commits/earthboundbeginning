@@ -1,4 +1,12 @@
-# Reprise — V70, livraison Escargo traduite
+# Reprise — V71, coursier de dépôt Escargo traduit
+
+V71 est le patch actuel : 32 plages traduites en place, commandes, sprites et banque 25 préservés. Voir `RAPPORT_V71.md` et `tools/v71/README_V71.md`. Le wrapper privé accorde trois objets puis appelle le téléphone complet `35C597` ; Maman puis Déposer sont choisis à la manette. Après 600 images, le mécanisme normal du jeu fait arriver le coursier, jamais appelé directement par le test. Le téléphone initial reste artificiel.
+
+Six scénarios dans chaque profil : dépôt de trois objets avec inventaire final, confirmation d'un dépôt simple, paiement refusé, argent nul, carte protégée et confirmation refusée/reprise. Seul le premier certifie l'inventaire final (carte seule) et les frais (20 → 2 $). Les autres s'arrêtent aux dialogues utiles ou au menu. La réserve n'a pas encore été rouverte après le coursier : c'est le prochain lot concret, avec le reliquat des livraisons partielles. Réserve pleine, limite de trois et variante de présentation : traductions statiquement contrôlées, affichage non certifié.
+
+Sorties privées retenues : `/workspace/scratch/98c4eaa3ef23/validated_v71_accepted` et `/workspace/scratch/98c4eaa3ef23/reference_v70_pickup_accepted`. Les tentatives sans suffixe, `_stable` et `_final` contiennent des navigations finales non fiables et ne sont pas les preuves publiées. Ne pas les compter. Le probe public se limite aux séquences acceptées ; la fermeture A/B et des A supplémentaires peuvent laisser le menu actif ou sélectionner Parler au lieu des objets. Garder des sorties distinctes lors d'explorations.
+
+Checkpoint initial local `013572a195040ddbfd10acb8bd6b6fb2e5d5245a`, distant `work/v71-pickup` : `158efc7a433e7207195be2a4f63c7f7e2b1f8615`. Checkpoint validé : `work/v71-pickup-validated`. Les paragraphes suivants sont historiques. Menus d'action encore anglais et parcours complet restant : pas de 100 % certifié.
 
 V70 est le patch actuel : 24 plages du coursier traduites en place, sans allocation ni changement des commandes. Voir `RAPPORT_V70.md` et `tools/v70/README_V70.md`. Douze essais valides, 338 comparaisons V67/V70 dont 92 changements uniquement textuels ; 116 captures de coursier/inventaire relues. Les autres preuves V69 ci-dessous restent historiques.
 

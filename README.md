@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V70 (livreur Escargo)
+## Version actuelle : V71 (coursier de dépôt Escargo)
+
+32 plages encore anglaises traduites : présentation, frais, choix des objets, confirmations et refus. Douze essais, 218 comparaisons limitées au texte, 134 captures du coursier/inventaire relues et 25 tests ciblés réussis. Le dépôt de trois objets est vérifié jusqu'à l'inventaire final ; les autres essais documentent les dialogues. Le téléphone initial est contrôlé, puis le coursier arrive par le mécanisme du jeu. La couverture complète reste à valider.
+
+- [Patch V71 avec accents](patches/EarthBound_Beginnings_FR_v71_accents.ips)
+- [Patch V71 ASCII](patches/EarthBound_Beginnings_FR_v71_ascii.ips)
+- [Rapport V71 et limites](RAPPORT_V71.md)
+- [Sources et reproduction V71](tools/v71/README_V71.md)
+
+Appliquer **un seul IPS V71 directement à la ROM originale USA 1.2**. Les sections suivantes sont historiques.
+
+## Version précédente : V70 (livreur Escargo)
 
 24 plages encore anglaises traduites : présentation, frais, refus et livraisons partielles. Douze essais, 338 comparaisons V67/V70 limitées au texte, 116 captures du coursier et des inventaires relues. Le téléphone est forcé par le test ; le coursier arrive ensuite par le mécanisme normal du jeu. Les validations ne certifient pas une traduction complète.
 

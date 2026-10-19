@@ -1,4 +1,6 @@
-# Suite des textes après V70 (livraison Escargo)
+# Suite des textes après V71 (dépôt Escargo)
+
+V71 traduit 32 plages du coursier de dépôt, réellement arrivé après commande contrôlée. Dépôt de trois objets relu jusqu'à l'inventaire final ; les confirmations d'un objet, refus de paiement/argent, protection de la carte et reprise de sélection sont documentés séparément. Voir `RAPPORT_V71.md`. Prochain reste concret : réouvrir la réserve après dépôt, puis vérifier le reliquat d'une livraison partielle. Les réponses du coursier sur réserve pleine et limite de trois objets sont traduites statiquement mais leur affichage reste à valider. Ne pas compter les tentatives privées de fermeture A/B comme des preuves d'inventaire.
 
 V70 corrige 24 plages du coursier dont l'arrivée normale après commande exposait encore de l'anglais. Voir `RAPPORT_V70.md`. Six scénarios dans les deux profils sont validés ; le téléphone initial est forcé. Prochains restes concrets : coursier de dépôt, reliquat après livraison partielle, sac entièrement plein (tentative non concluante exclue), plusieurs personnages. Ne pas répéter les audits de réserve V68/V69 sans nouvelle raison. Les menus d'action encore anglais restent ensuite prioritaires.
 

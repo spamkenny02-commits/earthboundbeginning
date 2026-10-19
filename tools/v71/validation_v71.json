@@ -1,0 +1,24 @@
+{
+  "version": "v71",
+  "input_patch_version": "v70",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "changed_text_spans": 32,
+  "commands_preserved": true,
+  "pointers_rewritten": 0,
+  "new_allocations": 0,
+  "sprite_digest_preserved_against": "v70",
+  "bank25_unchanged": true,
+  "natural_initial_phone_access_verified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "0290365376b20e6b77bd4bce12839f7378bd34c0431f36fad3dee19b852ed0a6",
+      "target_rom_sha256": "4432d1716bf99ae308e508e8a46448cae46b9418665af0c3d99df89de801cea3",
+      "records_added": 32
+    },
+    "ascii": {
+      "sha256": "4969ab315e6df24d9d4ef3bb47caac7f67c755d855d4c236c9f64402e20bdb68",
+      "target_rom_sha256": "274bb0f2f5b7d4b6a80312c20e77d7d1a34be3c8294d2bdaff55558e89b611ac",
+      "records_added": 32
+    }
+  }
+}
