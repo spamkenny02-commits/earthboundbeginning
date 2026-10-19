@@ -1,0 +1,28 @@
+{
+  "version": "v65",
+  "base": "v64",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "english_article_removed_in_storage": true,
+  "gender_neutral_confirmation": true,
+  "shared_helper_modified": false,
+  "scoped_call_operands_changed": 1,
+  "scoped_dispatch_targets_changed": 4,
+  "new_allocation_bytes": 27,
+  "classifier_and_dispatch_opcodes_preserved": true,
+  "sprites_preserved_against": "v64",
+  "natural_scene_access_verified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "539032f10c1aa355bc18055fd5ded3d9e18eb1ebbd7fc6139a78a2f9707c8035",
+      "target_rom_sha256": "27e8802ba3dec6d2415625e2aa1428b9ff1c5af2942c1543b64cafcd59a75868",
+      "records_added": 3,
+      "prior_records_preserved": 8862
+    },
+    "ascii": {
+      "sha256": "56168063e8083e0ad890339fb91b3660d7d28300a5bb50b3c0102e0a52e58be8",
+      "target_rom_sha256": "a7a5f63bd2bb7021b0c1e928cdc19f8e350af093f079908d9492be578392fd93",
+      "records_added": 3,
+      "prior_records_preserved": 8757
+    }
+  }
+}
