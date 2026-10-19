@@ -1,6 +1,13 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Dernier audit : V68 (patch de jeu V67 inchangé)
+## Dernier audit : V69 (patch de jeu V67 inchangé)
+
+Réserve pleine vérifiée dans les deux profils : quatre pages et 36 objets relus, dépôt refusé, retrait puis redépôt réussis, nouveau refus de dépôt. Six sessions et 50 captures relues ; préparation native privée explicitement déclarée. Aucun nouveau texte anglais dans ce lot, donc pas de nouvel IPS. Les autres configurations et les accès naturels restent à vérifier.
+
+- [Rapport V69 et captures](RAPPORT_V69.md)
+- [Sources et reproduction](tools/v69/README_V69.md)
+
+## Audit précédent : V68 (patch de jeu V67 inchangé)
 
 Retrait sur inventaire plein refusé en français, puis récupération du même objet après libération d'une case et réserve vide vérifiée. Trois phases liées dans les deux profils : six sessions, 50 captures relues, préparations privées explicitement déclarées. Aucun nouveau texte anglais dans ce lot, donc aucun nouvel IPS. Les accès naturels et les autres configurations restent à vérifier.
 

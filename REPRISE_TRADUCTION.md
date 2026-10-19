@@ -1,4 +1,8 @@
-# Reprise — après audit V68 du stockage
+# Reprise — après audit V69 de la réserve pleine
+
+V69 est un audit sans nouveau patch : les IPS V67 restent actuels. Voir `RAPPORT_V69.md`. Réserve pleine relue sur quatre pages, 10 + 10 + 10 + 6 = 36 Fioles ; dépôt refusé, retrait normal puis redépôt normal et nouveau refus. Six sessions, 50 captures, 10 676 images échantillonnées. Checkpoint `work/v69-full-storage` : `56bbfdd78971750717a258712ac1105b5fe4c716`.
+
+Préparation privée en trois phases par commandes natives : 13 insertions de réserve `1D 18 70 00`, puis 13 autres, puis 10 et un don à Ninten avant le service. Pas d'écriture directe en WRAM ; états privés chaînés après retour à la carte. Les numéros « Réserve (1)… » désignent les pages, pas des quantités. Pour lire toutes les pages : cinq Bas+A depuis la première, puis A, puis A (le curseur reste sur la ligne de changement de page), enfin Bas avant de sélectionner l'objet. Les essais R ou cinq Bas répétés à chaque page étaient incorrects et ne sont pas des preuves. Les résultats publiés ne reprennent que la séquence correcte. Sorties privées `/workspace/scratch/98c4eaa3ef23/validated_v69`.
 
 V68 est un **audit sans nouveau patch** : les IPS V67 restent actuels et inchangés. Voir `RAPPORT_V68.md` et `tools/v68/README_V68.md`. Retrait sur inventaire plein refusé en français, puis récupération après libération d'une case, avec réserve d'une Fiole encore intacte après le refus puis vide après récupération. Six sessions, 50 captures relues, 10 564 images échantillonnées. Checkpoint `work/v68-storage-audit` : `171a0c75eb39658da9a8db61df24a307c751c33b`.
 
@@ -31,7 +35,7 @@ Le cycle bancaire fait trois appels du distributeur : dépôt de 1 $, retrait de
 ## Prochain lot utile
 
 1. Tester les plafonds et annulations supplémentaires ; retrait positif validé en V65, refus au-delà du solde en V66. L'ancienne réouverture via le menu principal n'était pas fiable et ne doit pas être utilisée comme preuve.
-2. Vérifier réserve pleine et plusieurs personnages. Le retrait bloqué par inventaire plein puis la récupération après libération d'une case sont contrôlés en V68 pour Ninten seul ; ne pas étendre cette preuve à d'autres configurations. L'état de départ n'a que la carte bancaire. Les préparations par commandes natives doivent rester explicitement déclarées et hors des IPS publiés.
+2. Vérifier plusieurs personnages et objets variés. Le retrait bloqué par inventaire plein est contrôlé en V68, la réserve pleine en V69, pour Ninten seul ; ne pas étendre ces preuves à d'autres configurations. Les préparations par commandes natives doivent rester explicitement déclarées et hors des IPS publiés.
 3. Tester d'autres enseignes, hôtels, autres téléphones et effets des coursiers. Les fins d'appel Maman/Papa sans sauvegarde sont relues en V66 ; les soins acceptés en V67. Ne pas étendre cette preuve aux autres configurations.
 4. Examiner les autres anciennes racines NPC sous `330000` que V62 exclut. V64 a trouvé le distributeur ainsi : 17 NPC pointent vers `0680A6`/`0680C2`. Élargir prudemment les graines avec leur provenance réelle ; certaines entrées sont héritées/dormantes. Une occurrence littérale de pointeur peut être une donnée graphique.
 5. Piste du soigneur classée : NPC 149, racine `24D4A0`, « you have » est un faux positif. Les octets `15 0D` traversent les commandes `1A 15` et `0D 00` et ne sont pas un fragment textuel. La branche de refus est relue dans les deux profils ; ce contexte n'est pas modifié par V65.

@@ -1,4 +1,4 @@
-# Suite des textes après audit V68 (IPS V67)
+# Suite des textes après audit V69 (IPS V67)
 
 Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit pas un dénominateur de couverture.
 
@@ -39,3 +39,5 @@ V66 : le parcours complet Maman → Escargo révèle le sélecteur anglais « Pi
 V67 : choix d'achat « Just one / Multiple » traduits en « Un seul / En lot ». Achat en lot de 1, refus de quantité 2 faute d'argent, refus d'achat avec inventaire plein, stockage vide et soins acceptés relus dans les deux profils (14 essais, 86 captures, 86 comparaisons limitées au texte). L'inventaire plein est préparé par commandes natives dans une fixture privée déclarée ; le retrait d'un objet vers cet inventaire, la réserve pleine et plusieurs personnages restent à tester. Aucun nouvel accès naturel prouvé.
 
 V68 (audit, IPS V67 inchangés) lève le retrait vers un inventaire plein pour Ninten seul : refus français, réserve contenant toujours une Fiole, récupération après libération artificielle d'une case, puis réserve vide. Trois phases liées dans les deux profils, 50 captures relues. Pas de nouveau texte anglais dans ce lot. Restent réserve pleine, plusieurs personnages, coursiers/transferts Escargo et parcours naturels ; pas de couverture globale certifiée.
+
+V69 (audit, IPS V67 inchangés) vérifie la réserve pleine : quatre pages et 36 objets visibles, dépôt refusé, retrait puis redépôt et nouveau refus. Six sessions, 50 captures relues, préparations natives privées déclarées. Les numéros de réserve sont des pages et ne mesurent pas le nombre d'objets. Aucun texte anglais nouveau dans les messages de ce lot ; poursuivre avec plusieurs personnages, objets variés, coursiers et parcours naturels. 100 % non certifié.
