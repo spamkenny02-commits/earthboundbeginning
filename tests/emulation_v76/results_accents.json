@@ -1,0 +1,3455 @@
+{
+  "version": "v76",
+  "patch_tested": "v76",
+  "profile": "accents",
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "initial_state_sha256": "628c29685ba50977441be4665bbc17bcff33e17eebf2c0979af2bf8300bca9c3",
+  "initial_state_source": "private V71 reference lodging accept handoff; Ninten after rest, 30 HP, 20 dollars, bank card",
+  "npc_id": 319,
+  "natural_scene_access_verified": false,
+  "wram_written_directly_by_tester": false,
+  "cases": {
+    "pippi_entry": {
+      "entries": [
+        "386B63"
+      ],
+      "scope": "complete NPC 319 entry from retained post-rest state",
+      "operations": [],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "08636bf80002"
+        }
+      ],
+      "base_rom_sha256": "07eb5458f512bd5032f5b8905f9bf65e6c43de2e93cc2e6e6afb2aa6204574aa",
+      "fixture_rom_sha256": "8086a9f2dcbfbdbcbd320e24db9ed078bbf106697ea1e8f8d71a07842b14065e",
+      "sampled_frames": 1086,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B6E"
+          }
+        },
+        {
+          "sample": 125,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B6F"
+          }
+        },
+        {
+          "sample": 127,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B70"
+          }
+        },
+        {
+          "sample": 129,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B71"
+          }
+        },
+        {
+          "sample": 131,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B72"
+          }
+        },
+        {
+          "sample": 133,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B73"
+          }
+        },
+        {
+          "sample": 135,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B74"
+          }
+        },
+        {
+          "sample": 137,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B75"
+          }
+        },
+        {
+          "sample": 139,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B76"
+          }
+        },
+        {
+          "sample": 141,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B78"
+          }
+        },
+        {
+          "sample": 157,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B79"
+          }
+        },
+        {
+          "sample": 159,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B7A"
+          }
+        },
+        {
+          "sample": 161,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B7B"
+          }
+        },
+        {
+          "sample": 163,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B7C"
+          }
+        },
+        {
+          "sample": 165,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B7D"
+          }
+        },
+        {
+          "sample": 167,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B7E"
+          }
+        },
+        {
+          "sample": 169,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B7F"
+          }
+        },
+        {
+          "sample": 171,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B80"
+          }
+        },
+        {
+          "sample": 311,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B8D"
+          }
+        },
+        {
+          "sample": 313,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B8E"
+          }
+        },
+        {
+          "sample": 315,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B8F"
+          }
+        },
+        {
+          "sample": 317,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B90"
+          }
+        },
+        {
+          "sample": 319,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B91"
+          }
+        },
+        {
+          "sample": 321,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B92"
+          }
+        },
+        {
+          "sample": 323,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B93"
+          }
+        },
+        {
+          "sample": 325,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B94"
+          }
+        },
+        {
+          "sample": 327,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B95"
+          }
+        },
+        {
+          "sample": 329,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B96"
+          }
+        },
+        {
+          "sample": 331,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B97"
+          }
+        },
+        {
+          "sample": 333,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B98"
+          }
+        },
+        {
+          "sample": 335,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B99"
+          }
+        },
+        {
+          "sample": 337,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B9A"
+          }
+        },
+        {
+          "sample": 339,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B9B"
+          }
+        },
+        {
+          "sample": 341,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B9C"
+          }
+        },
+        {
+          "sample": 343,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B9D"
+          }
+        },
+        {
+          "sample": 345,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B9E"
+          }
+        },
+        {
+          "sample": 347,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386B9F"
+          }
+        },
+        {
+          "sample": 349,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BA1"
+          }
+        },
+        {
+          "sample": 365,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BA2"
+          }
+        },
+        {
+          "sample": 367,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BA5"
+          }
+        },
+        {
+          "sample": 379,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BA6"
+          }
+        },
+        {
+          "sample": 381,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BA7"
+          }
+        },
+        {
+          "sample": 505,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCA"
+          }
+        },
+        {
+          "sample": 507,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCB"
+          }
+        },
+        {
+          "sample": 509,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCC"
+          }
+        },
+        {
+          "sample": 511,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCD"
+          }
+        },
+        {
+          "sample": 513,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCE"
+          }
+        },
+        {
+          "sample": 515,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCF"
+          }
+        },
+        {
+          "sample": 517,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD0"
+          }
+        },
+        {
+          "sample": 519,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD1"
+          }
+        },
+        {
+          "sample": 521,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD2"
+          }
+        },
+        {
+          "sample": 523,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD3"
+          }
+        },
+        {
+          "sample": 525,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD4"
+          }
+        },
+        {
+          "sample": 527,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD5"
+          }
+        },
+        {
+          "sample": 529,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD6"
+          }
+        },
+        {
+          "sample": 531,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD7"
+          }
+        },
+        {
+          "sample": 533,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD8"
+          }
+        },
+        {
+          "sample": 535,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD9"
+          }
+        },
+        {
+          "sample": 537,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDA"
+          }
+        },
+        {
+          "sample": 539,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDB"
+          }
+        },
+        {
+          "sample": 541,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDC"
+          }
+        },
+        {
+          "sample": 543,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDD"
+          }
+        },
+        {
+          "sample": 545,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDF"
+          }
+        },
+        {
+          "sample": 561,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE0"
+          }
+        },
+        {
+          "sample": 563,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE1"
+          }
+        },
+        {
+          "sample": 565,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE2"
+          }
+        },
+        {
+          "sample": 567,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE3"
+          }
+        },
+        {
+          "sample": 569,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE4"
+          }
+        },
+        {
+          "sample": 571,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE5"
+          }
+        },
+        {
+          "sample": 573,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE6"
+          }
+        },
+        {
+          "sample": 575,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE7"
+          }
+        },
+        {
+          "sample": 577,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE8"
+          }
+        },
+        {
+          "sample": 579,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE9"
+          }
+        },
+        {
+          "sample": 581,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEA"
+          }
+        },
+        {
+          "sample": 583,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEB"
+          }
+        },
+        {
+          "sample": 585,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEC"
+          }
+        },
+        {
+          "sample": 587,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BED"
+          }
+        },
+        {
+          "sample": 589,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEE"
+          }
+        },
+        {
+          "sample": 591,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEF"
+          }
+        },
+        {
+          "sample": 593,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF0"
+          }
+        },
+        {
+          "sample": 595,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF1"
+          }
+        },
+        {
+          "sample": 597,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF2"
+          }
+        },
+        {
+          "sample": 599,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF3"
+          }
+        },
+        {
+          "sample": 601,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF4"
+          }
+        },
+        {
+          "sample": 603,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF5"
+          }
+        },
+        {
+          "sample": 605,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF6"
+          }
+        },
+        {
+          "sample": 607,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF7"
+          }
+        },
+        {
+          "sample": 609,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF8"
+          }
+        },
+        {
+          "sample": 611,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF9"
+          }
+        },
+        {
+          "sample": 613,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFA"
+          }
+        },
+        {
+          "sample": 615,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFB"
+          }
+        },
+        {
+          "sample": 617,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFC"
+          }
+        },
+        {
+          "sample": 619,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFD"
+          }
+        },
+        {
+          "sample": 621,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFE"
+          }
+        },
+        {
+          "sample": 623,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFF"
+          }
+        },
+        {
+          "sample": 625,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C00"
+          }
+        },
+        {
+          "sample": 627,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C01"
+          }
+        },
+        {
+          "sample": 629,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C02"
+          }
+        },
+        {
+          "sample": 631,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C03"
+          }
+        },
+        {
+          "sample": 633,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C04"
+          }
+        },
+        {
+          "sample": 635,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C05"
+          }
+        },
+        {
+          "sample": 637,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C06"
+          }
+        },
+        {
+          "sample": 699,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C59"
+          }
+        },
+        {
+          "sample": 701,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5A"
+          }
+        },
+        {
+          "sample": 703,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5B"
+          }
+        },
+        {
+          "sample": 705,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5C"
+          }
+        },
+        {
+          "sample": 707,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5D"
+          }
+        },
+        {
+          "sample": 709,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5E"
+          }
+        },
+        {
+          "sample": 711,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5F"
+          }
+        },
+        {
+          "sample": 713,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C60"
+          }
+        },
+        {
+          "sample": 715,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C61"
+          }
+        },
+        {
+          "sample": 717,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C62"
+          }
+        },
+        {
+          "sample": 719,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C63"
+          }
+        },
+        {
+          "sample": 721,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C64"
+          }
+        },
+        {
+          "sample": 723,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C65"
+          }
+        },
+        {
+          "sample": 725,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C66"
+          }
+        },
+        {
+          "sample": 727,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C69"
+          }
+        },
+        {
+          "sample": 893,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6B"
+          }
+        },
+        {
+          "sample": 895,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6C"
+          }
+        },
+        {
+          "sample": 897,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6D"
+          }
+        },
+        {
+          "sample": 899,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6E"
+          }
+        },
+        {
+          "sample": 901,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6F"
+          }
+        },
+        {
+          "sample": 903,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C70"
+          }
+        },
+        {
+          "sample": 905,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C71"
+          }
+        },
+        {
+          "sample": 907,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C72"
+          }
+        },
+        {
+          "sample": 909,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C73"
+          }
+        },
+        {
+          "sample": 911,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C74"
+          }
+        },
+        {
+          "sample": 913,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C75"
+          }
+        },
+        {
+          "sample": 915,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C76"
+          }
+        },
+        {
+          "sample": 917,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C77"
+          }
+        },
+        {
+          "sample": 919,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C78"
+          }
+        },
+        {
+          "sample": 921,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C79"
+          }
+        },
+        {
+          "sample": 923,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7A"
+          }
+        },
+        {
+          "sample": 925,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7B"
+          }
+        },
+        {
+          "sample": 927,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7C"
+          }
+        },
+        {
+          "sample": 929,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7D"
+          }
+        },
+        {
+          "sample": 931,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7E"
+          }
+        },
+        {
+          "sample": 933,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7F"
+          }
+        }
+      ],
+      "pointer_frame_counts": {
+        "386B6E": 2,
+        "386B6F": 2,
+        "386B70": 2,
+        "386B71": 2,
+        "386B72": 2,
+        "386B73": 2,
+        "386B74": 2,
+        "386B75": 2,
+        "386B76": 2,
+        "386B78": 16,
+        "386B79": 2,
+        "386B7A": 2,
+        "386B7B": 2,
+        "386B7C": 2,
+        "386B7D": 2,
+        "386B7E": 2,
+        "386B7F": 2,
+        "386B80": 140,
+        "386B8D": 2,
+        "386B8E": 2,
+        "386B8F": 2,
+        "386B90": 2,
+        "386B91": 2,
+        "386B92": 2,
+        "386B93": 2,
+        "386B94": 2,
+        "386B95": 2,
+        "386B96": 2,
+        "386B97": 2,
+        "386B98": 2,
+        "386B99": 2,
+        "386B9A": 2,
+        "386B9B": 2,
+        "386B9C": 2,
+        "386B9D": 2,
+        "386B9E": 2,
+        "386B9F": 2,
+        "386BA1": 16,
+        "386BA2": 2,
+        "386BA5": 12,
+        "386BA6": 2,
+        "386BA7": 124,
+        "386BCA": 2,
+        "386BCB": 2,
+        "386BCC": 2,
+        "386BCD": 2,
+        "386BCE": 2,
+        "386BCF": 2,
+        "386BD0": 2,
+        "386BD1": 2,
+        "386BD2": 2,
+        "386BD3": 2,
+        "386BD4": 2,
+        "386BD5": 2,
+        "386BD6": 2,
+        "386BD7": 2,
+        "386BD8": 2,
+        "386BD9": 2,
+        "386BDA": 2,
+        "386BDB": 2,
+        "386BDC": 2,
+        "386BDD": 2,
+        "386BDF": 16,
+        "386BE0": 2,
+        "386BE1": 2,
+        "386BE2": 2,
+        "386BE3": 2,
+        "386BE4": 2,
+        "386BE5": 2,
+        "386BE6": 2,
+        "386BE7": 2,
+        "386BE8": 2,
+        "386BE9": 2,
+        "386BEA": 2,
+        "386BEB": 2,
+        "386BEC": 2,
+        "386BED": 2,
+        "386BEE": 2,
+        "386BEF": 2,
+        "386BF0": 2,
+        "386BF1": 2,
+        "386BF2": 2,
+        "386BF3": 2,
+        "386BF4": 2,
+        "386BF5": 2,
+        "386BF6": 2,
+        "386BF7": 2,
+        "386BF8": 2,
+        "386BF9": 2,
+        "386BFA": 2,
+        "386BFB": 2,
+        "386BFC": 2,
+        "386BFD": 2,
+        "386BFE": 2,
+        "386BFF": 2,
+        "386C00": 2,
+        "386C01": 2,
+        "386C02": 2,
+        "386C03": 2,
+        "386C04": 2,
+        "386C05": 2,
+        "386C06": 62,
+        "386C59": 2,
+        "386C5A": 2,
+        "386C5B": 2,
+        "386C5C": 2,
+        "386C5D": 2,
+        "386C5E": 2,
+        "386C5F": 2,
+        "386C60": 2,
+        "386C61": 2,
+        "386C62": 2,
+        "386C63": 2,
+        "386C64": 2,
+        "386C65": 2,
+        "386C66": 2,
+        "386C69": 166,
+        "386C6B": 2,
+        "386C6C": 2,
+        "386C6D": 2,
+        "386C6E": 2,
+        "386C6F": 2,
+        "386C70": 2,
+        "386C71": 2,
+        "386C72": 2,
+        "386C73": 2,
+        "386C74": 2,
+        "386C75": 2,
+        "386C76": 2,
+        "386C77": 2,
+        "386C78": 2,
+        "386C79": 2,
+        "386C7A": 2,
+        "386C7B": 2,
+        "386C7C": 2,
+        "386C7D": 2,
+        "386C7E": 2,
+        "386C7F": 154
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v76/accents/pippi_entry/page_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "11ff66eda55ef1096a7b3b8f4661929cbff961b6142eb93fc4026a4435761103",
+          "artifact_png_sha256": "582a257bec48a3649c7f59b853d972aa427a578df7b12c064550efc06cb88a4b"
+        },
+        {
+          "path": "tests/emulation_v76/accents/pippi_entry/page_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d3209c13140c9b81102c4f3ba3d7f1506f9e966cd6e3892c27ccb21cf77d4af8",
+          "artifact_png_sha256": "35a8985d50a57f4a72c3ed38d5ca6a8be7a14c15e46368789cee6e905ea6198f"
+        },
+        {
+          "path": "tests/emulation_v76/accents/pippi_entry/page_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "2a7badebd875e38da18ce6247eb7a4fc351e075fad5253e130a0d5dec1fc7ec5",
+          "artifact_png_sha256": "0ac2c9cf7fe98075b0c85246315fd3b658df0e792e855b689d282efa1c6e0e3d"
+        },
+        {
+          "path": "tests/emulation_v76/accents/pippi_entry/page_03.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "66ce24a87c83ee7cbf5a59b57021f0232503a434622bc36de7aea9a6b52bad69",
+          "artifact_png_sha256": "c0494bc53376267934fad899d23d7dd6f8403dc95b546ef11107b1abe6392bfe"
+        },
+        {
+          "path": "tests/emulation_v76/accents/pippi_entry/page_04.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "67cc756380f924b047e4a3498cde4e6f43c2e081517402a129b520b587c7e9f5",
+          "artifact_png_sha256": "0008bb6e007af22903ac39c26c8381e38448f9f942215828b126ea3cfd9855a2"
+        }
+      ],
+      "returncode": 0
+    },
+    "podunk_and_secret": {
+      "entries": [
+        "386BAD"
+      ],
+      "scope": "direct inner branch for dynamic name and secret",
+      "operations": [],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "08ad6bf80002"
+        }
+      ],
+      "base_rom_sha256": "07eb5458f512bd5032f5b8905f9bf65e6c43de2e93cc2e6e6afb2aa6204574aa",
+      "fixture_rom_sha256": "ae2f52e153dc1281c43beed1962db9ca2a758e31ffd43d10285c43660e2aa974",
+      "sampled_frames": 1086,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BAE"
+          }
+        },
+        {
+          "sample": 125,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BAF"
+          }
+        },
+        {
+          "sample": 127,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BB0"
+          }
+        },
+        {
+          "sample": 129,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BB1"
+          }
+        },
+        {
+          "sample": 131,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BB2"
+          }
+        },
+        {
+          "sample": 133,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BB3"
+          }
+        },
+        {
+          "sample": 135,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BB4"
+          }
+        },
+        {
+          "sample": 137,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BB7"
+          }
+        },
+        {
+          "sample": 149,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BB8"
+          }
+        },
+        {
+          "sample": 151,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BB9"
+          }
+        },
+        {
+          "sample": 153,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BBA"
+          }
+        },
+        {
+          "sample": 155,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BBB"
+          }
+        },
+        {
+          "sample": 157,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BBC"
+          }
+        },
+        {
+          "sample": 159,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BBD"
+          }
+        },
+        {
+          "sample": 161,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BBE"
+          }
+        },
+        {
+          "sample": 163,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BBF"
+          }
+        },
+        {
+          "sample": 165,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BC0"
+          }
+        },
+        {
+          "sample": 167,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BC1"
+          }
+        },
+        {
+          "sample": 169,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BC2"
+          }
+        },
+        {
+          "sample": 171,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BC3"
+          }
+        },
+        {
+          "sample": 173,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BC4"
+          }
+        },
+        {
+          "sample": 175,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BC5"
+          }
+        },
+        {
+          "sample": 177,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BC6"
+          }
+        },
+        {
+          "sample": 179,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BC7"
+          }
+        },
+        {
+          "sample": 181,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BC8"
+          }
+        },
+        {
+          "sample": 311,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCA"
+          }
+        },
+        {
+          "sample": 313,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCB"
+          }
+        },
+        {
+          "sample": 315,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCC"
+          }
+        },
+        {
+          "sample": 317,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCD"
+          }
+        },
+        {
+          "sample": 319,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCE"
+          }
+        },
+        {
+          "sample": 321,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCF"
+          }
+        },
+        {
+          "sample": 323,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD0"
+          }
+        },
+        {
+          "sample": 325,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD1"
+          }
+        },
+        {
+          "sample": 327,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD2"
+          }
+        },
+        {
+          "sample": 329,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD3"
+          }
+        },
+        {
+          "sample": 331,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD4"
+          }
+        },
+        {
+          "sample": 333,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD5"
+          }
+        },
+        {
+          "sample": 335,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD6"
+          }
+        },
+        {
+          "sample": 337,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD7"
+          }
+        },
+        {
+          "sample": 339,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD8"
+          }
+        },
+        {
+          "sample": 341,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD9"
+          }
+        },
+        {
+          "sample": 343,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDA"
+          }
+        },
+        {
+          "sample": 345,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDB"
+          }
+        },
+        {
+          "sample": 347,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDC"
+          }
+        },
+        {
+          "sample": 349,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDD"
+          }
+        },
+        {
+          "sample": 351,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDF"
+          }
+        },
+        {
+          "sample": 367,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE0"
+          }
+        },
+        {
+          "sample": 369,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE1"
+          }
+        },
+        {
+          "sample": 371,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE2"
+          }
+        },
+        {
+          "sample": 373,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE3"
+          }
+        },
+        {
+          "sample": 375,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE4"
+          }
+        },
+        {
+          "sample": 377,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE5"
+          }
+        },
+        {
+          "sample": 379,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE6"
+          }
+        },
+        {
+          "sample": 381,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE7"
+          }
+        },
+        {
+          "sample": 383,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE8"
+          }
+        },
+        {
+          "sample": 385,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE9"
+          }
+        },
+        {
+          "sample": 387,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEA"
+          }
+        },
+        {
+          "sample": 389,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEB"
+          }
+        },
+        {
+          "sample": 391,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEC"
+          }
+        },
+        {
+          "sample": 393,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BED"
+          }
+        },
+        {
+          "sample": 395,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEE"
+          }
+        },
+        {
+          "sample": 397,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEF"
+          }
+        },
+        {
+          "sample": 399,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF0"
+          }
+        },
+        {
+          "sample": 401,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF1"
+          }
+        },
+        {
+          "sample": 403,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF2"
+          }
+        },
+        {
+          "sample": 405,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF3"
+          }
+        },
+        {
+          "sample": 407,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF4"
+          }
+        },
+        {
+          "sample": 409,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF5"
+          }
+        },
+        {
+          "sample": 411,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF6"
+          }
+        },
+        {
+          "sample": 413,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF7"
+          }
+        },
+        {
+          "sample": 415,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF8"
+          }
+        },
+        {
+          "sample": 417,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF9"
+          }
+        },
+        {
+          "sample": 419,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFA"
+          }
+        },
+        {
+          "sample": 421,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFB"
+          }
+        },
+        {
+          "sample": 423,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFC"
+          }
+        },
+        {
+          "sample": 425,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFD"
+          }
+        },
+        {
+          "sample": 427,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFE"
+          }
+        },
+        {
+          "sample": 429,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFF"
+          }
+        },
+        {
+          "sample": 431,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C00"
+          }
+        },
+        {
+          "sample": 433,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C01"
+          }
+        },
+        {
+          "sample": 435,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C02"
+          }
+        },
+        {
+          "sample": 437,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C03"
+          }
+        },
+        {
+          "sample": 439,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C04"
+          }
+        },
+        {
+          "sample": 441,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C05"
+          }
+        },
+        {
+          "sample": 443,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C06"
+          }
+        },
+        {
+          "sample": 505,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C59"
+          }
+        },
+        {
+          "sample": 507,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5A"
+          }
+        },
+        {
+          "sample": 509,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5B"
+          }
+        },
+        {
+          "sample": 511,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5C"
+          }
+        },
+        {
+          "sample": 513,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5D"
+          }
+        },
+        {
+          "sample": 515,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5E"
+          }
+        },
+        {
+          "sample": 517,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5F"
+          }
+        },
+        {
+          "sample": 519,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C60"
+          }
+        },
+        {
+          "sample": 521,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C61"
+          }
+        },
+        {
+          "sample": 523,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C62"
+          }
+        },
+        {
+          "sample": 525,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C63"
+          }
+        },
+        {
+          "sample": 527,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C64"
+          }
+        },
+        {
+          "sample": 529,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C65"
+          }
+        },
+        {
+          "sample": 531,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C66"
+          }
+        },
+        {
+          "sample": 533,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C69"
+          }
+        },
+        {
+          "sample": 699,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6B"
+          }
+        },
+        {
+          "sample": 701,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6C"
+          }
+        },
+        {
+          "sample": 703,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6D"
+          }
+        },
+        {
+          "sample": 705,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6E"
+          }
+        },
+        {
+          "sample": 707,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6F"
+          }
+        },
+        {
+          "sample": 709,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C70"
+          }
+        },
+        {
+          "sample": 711,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C71"
+          }
+        },
+        {
+          "sample": 713,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C72"
+          }
+        },
+        {
+          "sample": 715,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C73"
+          }
+        },
+        {
+          "sample": 717,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C74"
+          }
+        },
+        {
+          "sample": 719,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C75"
+          }
+        },
+        {
+          "sample": 721,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C76"
+          }
+        },
+        {
+          "sample": 723,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C77"
+          }
+        },
+        {
+          "sample": 725,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C78"
+          }
+        },
+        {
+          "sample": 727,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C79"
+          }
+        },
+        {
+          "sample": 729,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7A"
+          }
+        },
+        {
+          "sample": 731,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7B"
+          }
+        },
+        {
+          "sample": 733,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7C"
+          }
+        },
+        {
+          "sample": 735,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7D"
+          }
+        },
+        {
+          "sample": 737,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7E"
+          }
+        },
+        {
+          "sample": 739,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7F"
+          }
+        },
+        {
+          "sample": 893,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "386BAE": 2,
+        "386BAF": 2,
+        "386BB0": 2,
+        "386BB1": 2,
+        "386BB2": 2,
+        "386BB3": 2,
+        "386BB4": 2,
+        "386BB7": 12,
+        "386BB8": 2,
+        "386BB9": 2,
+        "386BBA": 2,
+        "386BBB": 2,
+        "386BBC": 2,
+        "386BBD": 2,
+        "386BBE": 2,
+        "386BBF": 2,
+        "386BC0": 2,
+        "386BC1": 2,
+        "386BC2": 2,
+        "386BC3": 2,
+        "386BC4": 2,
+        "386BC5": 2,
+        "386BC6": 2,
+        "386BC7": 2,
+        "386BC8": 130,
+        "386BCA": 2,
+        "386BCB": 2,
+        "386BCC": 2,
+        "386BCD": 2,
+        "386BCE": 2,
+        "386BCF": 2,
+        "386BD0": 2,
+        "386BD1": 2,
+        "386BD2": 2,
+        "386BD3": 2,
+        "386BD4": 2,
+        "386BD5": 2,
+        "386BD6": 2,
+        "386BD7": 2,
+        "386BD8": 2,
+        "386BD9": 2,
+        "386BDA": 2,
+        "386BDB": 2,
+        "386BDC": 2,
+        "386BDD": 2,
+        "386BDF": 16,
+        "386BE0": 2,
+        "386BE1": 2,
+        "386BE2": 2,
+        "386BE3": 2,
+        "386BE4": 2,
+        "386BE5": 2,
+        "386BE6": 2,
+        "386BE7": 2,
+        "386BE8": 2,
+        "386BE9": 2,
+        "386BEA": 2,
+        "386BEB": 2,
+        "386BEC": 2,
+        "386BED": 2,
+        "386BEE": 2,
+        "386BEF": 2,
+        "386BF0": 2,
+        "386BF1": 2,
+        "386BF2": 2,
+        "386BF3": 2,
+        "386BF4": 2,
+        "386BF5": 2,
+        "386BF6": 2,
+        "386BF7": 2,
+        "386BF8": 2,
+        "386BF9": 2,
+        "386BFA": 2,
+        "386BFB": 2,
+        "386BFC": 2,
+        "386BFD": 2,
+        "386BFE": 2,
+        "386BFF": 2,
+        "386C00": 2,
+        "386C01": 2,
+        "386C02": 2,
+        "386C03": 2,
+        "386C04": 2,
+        "386C05": 2,
+        "386C06": 62,
+        "386C59": 2,
+        "386C5A": 2,
+        "386C5B": 2,
+        "386C5C": 2,
+        "386C5D": 2,
+        "386C5E": 2,
+        "386C5F": 2,
+        "386C60": 2,
+        "386C61": 2,
+        "386C62": 2,
+        "386C63": 2,
+        "386C64": 2,
+        "386C65": 2,
+        "386C66": 2,
+        "386C69": 166,
+        "386C6B": 2,
+        "386C6C": 2,
+        "386C6D": 2,
+        "386C6E": 2,
+        "386C6F": 2,
+        "386C70": 2,
+        "386C71": 2,
+        "386C72": 2,
+        "386C73": 2,
+        "386C74": 2,
+        "386C75": 2,
+        "386C76": 2,
+        "386C77": 2,
+        "386C78": 2,
+        "386C79": 2,
+        "386C7A": 2,
+        "386C7B": 2,
+        "386C7C": 2,
+        "386C7D": 2,
+        "386C7E": 2,
+        "386C7F": 154
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v76/accents/podunk_and_secret/page_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "fee55b7bb5e0d57f782cc25dfb3f1c8457e52cb53a0327385982e48bd6de66f5",
+          "artifact_png_sha256": "49c5e8593c2b1e9d96efdebc0df7806c7f05e24312c566d5e17776281b2111a6"
+        },
+        {
+          "path": "tests/emulation_v76/accents/podunk_and_secret/page_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "8adf4a0b53a03ea7b4ad329368f41cc1591c3a630bbfc070bdaa357592e684f0",
+          "artifact_png_sha256": "632e518534130c7ebb6fa8b9528fe591fff531bb91af3569bf7d13a8538ef17e"
+        },
+        {
+          "path": "tests/emulation_v76/accents/podunk_and_secret/page_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "66ce24a87c83ee7cbf5a59b57021f0232503a434622bc36de7aea9a6b52bad69",
+          "artifact_png_sha256": "c0494bc53376267934fad899d23d7dd6f8403dc95b546ef11107b1abe6392bfe"
+        },
+        {
+          "path": "tests/emulation_v76/accents/podunk_and_secret/page_03.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "67cc756380f924b047e4a3498cde4e6f43c2e081517402a129b520b587c7e9f5",
+          "artifact_png_sha256": "0008bb6e007af22903ac39c26c8381e38448f9f942215828b126ea3cfd9855a2"
+        },
+        {
+          "path": "tests/emulation_v76/accents/podunk_and_secret/page_04.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+          "artifact_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e"
+        }
+      ],
+      "returncode": 0
+    },
+    "secret_only": {
+      "entries": [
+        "386BC9"
+      ],
+      "scope": "direct inner secret branch",
+      "operations": [],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "08c96bf80002"
+        }
+      ],
+      "base_rom_sha256": "07eb5458f512bd5032f5b8905f9bf65e6c43de2e93cc2e6e6afb2aa6204574aa",
+      "fixture_rom_sha256": "c67a15bf9fcee9286864ed305ecced553d0c13b8b5606d6f570bd696cef97be2",
+      "sampled_frames": 892,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCA"
+          }
+        },
+        {
+          "sample": 125,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCB"
+          }
+        },
+        {
+          "sample": 127,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCC"
+          }
+        },
+        {
+          "sample": 129,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCD"
+          }
+        },
+        {
+          "sample": 131,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCE"
+          }
+        },
+        {
+          "sample": 133,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BCF"
+          }
+        },
+        {
+          "sample": 135,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD0"
+          }
+        },
+        {
+          "sample": 137,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD1"
+          }
+        },
+        {
+          "sample": 139,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD2"
+          }
+        },
+        {
+          "sample": 141,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD3"
+          }
+        },
+        {
+          "sample": 143,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD4"
+          }
+        },
+        {
+          "sample": 145,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD5"
+          }
+        },
+        {
+          "sample": 147,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD6"
+          }
+        },
+        {
+          "sample": 149,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD7"
+          }
+        },
+        {
+          "sample": 151,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD8"
+          }
+        },
+        {
+          "sample": 153,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BD9"
+          }
+        },
+        {
+          "sample": 155,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDA"
+          }
+        },
+        {
+          "sample": 157,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDB"
+          }
+        },
+        {
+          "sample": 159,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDC"
+          }
+        },
+        {
+          "sample": 161,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDD"
+          }
+        },
+        {
+          "sample": 163,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BDF"
+          }
+        },
+        {
+          "sample": 179,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE0"
+          }
+        },
+        {
+          "sample": 181,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE1"
+          }
+        },
+        {
+          "sample": 183,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE2"
+          }
+        },
+        {
+          "sample": 185,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE3"
+          }
+        },
+        {
+          "sample": 187,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE4"
+          }
+        },
+        {
+          "sample": 189,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE5"
+          }
+        },
+        {
+          "sample": 191,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE6"
+          }
+        },
+        {
+          "sample": 193,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE7"
+          }
+        },
+        {
+          "sample": 195,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE8"
+          }
+        },
+        {
+          "sample": 197,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BE9"
+          }
+        },
+        {
+          "sample": 199,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEA"
+          }
+        },
+        {
+          "sample": 201,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEB"
+          }
+        },
+        {
+          "sample": 203,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEC"
+          }
+        },
+        {
+          "sample": 205,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BED"
+          }
+        },
+        {
+          "sample": 207,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEE"
+          }
+        },
+        {
+          "sample": 209,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BEF"
+          }
+        },
+        {
+          "sample": 211,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF0"
+          }
+        },
+        {
+          "sample": 213,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF1"
+          }
+        },
+        {
+          "sample": 215,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF2"
+          }
+        },
+        {
+          "sample": 217,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF3"
+          }
+        },
+        {
+          "sample": 219,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF4"
+          }
+        },
+        {
+          "sample": 221,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF5"
+          }
+        },
+        {
+          "sample": 223,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF6"
+          }
+        },
+        {
+          "sample": 225,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF7"
+          }
+        },
+        {
+          "sample": 227,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF8"
+          }
+        },
+        {
+          "sample": 229,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BF9"
+          }
+        },
+        {
+          "sample": 231,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFA"
+          }
+        },
+        {
+          "sample": 233,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFB"
+          }
+        },
+        {
+          "sample": 235,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFC"
+          }
+        },
+        {
+          "sample": 237,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFD"
+          }
+        },
+        {
+          "sample": 239,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFE"
+          }
+        },
+        {
+          "sample": 241,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386BFF"
+          }
+        },
+        {
+          "sample": 243,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C00"
+          }
+        },
+        {
+          "sample": 245,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C01"
+          }
+        },
+        {
+          "sample": 247,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C02"
+          }
+        },
+        {
+          "sample": 249,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C03"
+          }
+        },
+        {
+          "sample": 251,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C04"
+          }
+        },
+        {
+          "sample": 253,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C05"
+          }
+        },
+        {
+          "sample": 255,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C06"
+          }
+        },
+        {
+          "sample": 311,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C59"
+          }
+        },
+        {
+          "sample": 313,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5A"
+          }
+        },
+        {
+          "sample": 315,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5B"
+          }
+        },
+        {
+          "sample": 317,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5C"
+          }
+        },
+        {
+          "sample": 319,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5D"
+          }
+        },
+        {
+          "sample": 321,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5E"
+          }
+        },
+        {
+          "sample": 323,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5F"
+          }
+        },
+        {
+          "sample": 325,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C60"
+          }
+        },
+        {
+          "sample": 327,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C61"
+          }
+        },
+        {
+          "sample": 329,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C62"
+          }
+        },
+        {
+          "sample": 331,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C63"
+          }
+        },
+        {
+          "sample": 333,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C64"
+          }
+        },
+        {
+          "sample": 335,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C65"
+          }
+        },
+        {
+          "sample": 337,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C66"
+          }
+        },
+        {
+          "sample": 339,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C69"
+          }
+        },
+        {
+          "sample": 505,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6B"
+          }
+        },
+        {
+          "sample": 507,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6C"
+          }
+        },
+        {
+          "sample": 509,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6D"
+          }
+        },
+        {
+          "sample": 511,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6E"
+          }
+        },
+        {
+          "sample": 513,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6F"
+          }
+        },
+        {
+          "sample": 515,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C70"
+          }
+        },
+        {
+          "sample": 517,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C71"
+          }
+        },
+        {
+          "sample": 519,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C72"
+          }
+        },
+        {
+          "sample": 521,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C73"
+          }
+        },
+        {
+          "sample": 523,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C74"
+          }
+        },
+        {
+          "sample": 525,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C75"
+          }
+        },
+        {
+          "sample": 527,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C76"
+          }
+        },
+        {
+          "sample": 529,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C77"
+          }
+        },
+        {
+          "sample": 531,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C78"
+          }
+        },
+        {
+          "sample": 533,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C79"
+          }
+        },
+        {
+          "sample": 535,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7A"
+          }
+        },
+        {
+          "sample": 537,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7B"
+          }
+        },
+        {
+          "sample": 539,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7C"
+          }
+        },
+        {
+          "sample": 541,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7D"
+          }
+        },
+        {
+          "sample": 543,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7E"
+          }
+        },
+        {
+          "sample": 545,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7F"
+          }
+        },
+        {
+          "sample": 699,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "386BCA": 2,
+        "386BCB": 2,
+        "386BCC": 2,
+        "386BCD": 2,
+        "386BCE": 2,
+        "386BCF": 2,
+        "386BD0": 2,
+        "386BD1": 2,
+        "386BD2": 2,
+        "386BD3": 2,
+        "386BD4": 2,
+        "386BD5": 2,
+        "386BD6": 2,
+        "386BD7": 2,
+        "386BD8": 2,
+        "386BD9": 2,
+        "386BDA": 2,
+        "386BDB": 2,
+        "386BDC": 2,
+        "386BDD": 2,
+        "386BDF": 16,
+        "386BE0": 2,
+        "386BE1": 2,
+        "386BE2": 2,
+        "386BE3": 2,
+        "386BE4": 2,
+        "386BE5": 2,
+        "386BE6": 2,
+        "386BE7": 2,
+        "386BE8": 2,
+        "386BE9": 2,
+        "386BEA": 2,
+        "386BEB": 2,
+        "386BEC": 2,
+        "386BED": 2,
+        "386BEE": 2,
+        "386BEF": 2,
+        "386BF0": 2,
+        "386BF1": 2,
+        "386BF2": 2,
+        "386BF3": 2,
+        "386BF4": 2,
+        "386BF5": 2,
+        "386BF6": 2,
+        "386BF7": 2,
+        "386BF8": 2,
+        "386BF9": 2,
+        "386BFA": 2,
+        "386BFB": 2,
+        "386BFC": 2,
+        "386BFD": 2,
+        "386BFE": 2,
+        "386BFF": 2,
+        "386C00": 2,
+        "386C01": 2,
+        "386C02": 2,
+        "386C03": 2,
+        "386C04": 2,
+        "386C05": 2,
+        "386C06": 56,
+        "386C59": 2,
+        "386C5A": 2,
+        "386C5B": 2,
+        "386C5C": 2,
+        "386C5D": 2,
+        "386C5E": 2,
+        "386C5F": 2,
+        "386C60": 2,
+        "386C61": 2,
+        "386C62": 2,
+        "386C63": 2,
+        "386C64": 2,
+        "386C65": 2,
+        "386C66": 2,
+        "386C69": 166,
+        "386C6B": 2,
+        "386C6C": 2,
+        "386C6D": 2,
+        "386C6E": 2,
+        "386C6F": 2,
+        "386C70": 2,
+        "386C71": 2,
+        "386C72": 2,
+        "386C73": 2,
+        "386C74": 2,
+        "386C75": 2,
+        "386C76": 2,
+        "386C77": 2,
+        "386C78": 2,
+        "386C79": 2,
+        "386C7A": 2,
+        "386C7B": 2,
+        "386C7C": 2,
+        "386C7D": 2,
+        "386C7E": 2,
+        "386C7F": 154
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v76/accents/secret_only/page_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "228930ed399e03700b21f81a6448ed3be671b9030ab991af02aaac37ac80876b",
+          "artifact_png_sha256": "f2a8ab4fc198d84724cbb7deab29aa3265b9c8c0ea3d00145757560c86404faf"
+        },
+        {
+          "path": "tests/emulation_v76/accents/secret_only/page_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "66ce24a87c83ee7cbf5a59b57021f0232503a434622bc36de7aea9a6b52bad69",
+          "artifact_png_sha256": "c0494bc53376267934fad899d23d7dd6f8403dc95b546ef11107b1abe6392bfe"
+        },
+        {
+          "path": "tests/emulation_v76/accents/secret_only/page_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "67cc756380f924b047e4a3498cde4e6f43c2e081517402a129b520b587c7e9f5",
+          "artifact_png_sha256": "0008bb6e007af22903ac39c26c8381e38448f9f942215828b126ea3cfd9855a2"
+        },
+        {
+          "path": "tests/emulation_v76/accents/secret_only/page_03.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+          "artifact_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e"
+        }
+      ],
+      "returncode": 0
+    },
+    "morning": {
+      "entries": [
+        "386C58"
+      ],
+      "scope": "direct post-rest morning branch",
+      "operations": [],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        [
+          "A"
+        ],
+        [
+          "A"
+        ]
+      ],
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "08586cf80002"
+        }
+      ],
+      "base_rom_sha256": "07eb5458f512bd5032f5b8905f9bf65e6c43de2e93cc2e6e6afb2aa6204574aa",
+      "fixture_rom_sha256": "490ac5ffde2658ceb809be65543621bac34dfdc65dfbc36228b54e3c460a35ae",
+      "sampled_frames": 698,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C59"
+          }
+        },
+        {
+          "sample": 125,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5A"
+          }
+        },
+        {
+          "sample": 127,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5B"
+          }
+        },
+        {
+          "sample": 129,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5C"
+          }
+        },
+        {
+          "sample": 131,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5D"
+          }
+        },
+        {
+          "sample": 133,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5E"
+          }
+        },
+        {
+          "sample": 135,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C5F"
+          }
+        },
+        {
+          "sample": 137,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C60"
+          }
+        },
+        {
+          "sample": 139,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C61"
+          }
+        },
+        {
+          "sample": 141,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C62"
+          }
+        },
+        {
+          "sample": 143,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C63"
+          }
+        },
+        {
+          "sample": 145,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C64"
+          }
+        },
+        {
+          "sample": 147,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C65"
+          }
+        },
+        {
+          "sample": 149,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C66"
+          }
+        },
+        {
+          "sample": 151,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C69"
+          }
+        },
+        {
+          "sample": 311,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6B"
+          }
+        },
+        {
+          "sample": 313,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6C"
+          }
+        },
+        {
+          "sample": 315,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6D"
+          }
+        },
+        {
+          "sample": 317,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6E"
+          }
+        },
+        {
+          "sample": 319,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C6F"
+          }
+        },
+        {
+          "sample": 321,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C70"
+          }
+        },
+        {
+          "sample": 323,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C71"
+          }
+        },
+        {
+          "sample": 325,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C72"
+          }
+        },
+        {
+          "sample": 327,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C73"
+          }
+        },
+        {
+          "sample": 329,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C74"
+          }
+        },
+        {
+          "sample": 331,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C75"
+          }
+        },
+        {
+          "sample": 333,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C76"
+          }
+        },
+        {
+          "sample": 335,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C77"
+          }
+        },
+        {
+          "sample": 337,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C78"
+          }
+        },
+        {
+          "sample": 339,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C79"
+          }
+        },
+        {
+          "sample": 341,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7A"
+          }
+        },
+        {
+          "sample": 343,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7B"
+          }
+        },
+        {
+          "sample": 345,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7C"
+          }
+        },
+        {
+          "sample": 347,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7D"
+          }
+        },
+        {
+          "sample": 349,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7E"
+          }
+        },
+        {
+          "sample": 351,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "386C7F"
+          }
+        },
+        {
+          "sample": 505,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "386C59": 2,
+        "386C5A": 2,
+        "386C5B": 2,
+        "386C5C": 2,
+        "386C5D": 2,
+        "386C5E": 2,
+        "386C5F": 2,
+        "386C60": 2,
+        "386C61": 2,
+        "386C62": 2,
+        "386C63": 2,
+        "386C64": 2,
+        "386C65": 2,
+        "386C66": 2,
+        "386C69": 160,
+        "386C6B": 2,
+        "386C6C": 2,
+        "386C6D": 2,
+        "386C6E": 2,
+        "386C6F": 2,
+        "386C70": 2,
+        "386C71": 2,
+        "386C72": 2,
+        "386C73": 2,
+        "386C74": 2,
+        "386C75": 2,
+        "386C76": 2,
+        "386C77": 2,
+        "386C78": 2,
+        "386C79": 2,
+        "386C7A": 2,
+        "386C7B": 2,
+        "386C7C": 2,
+        "386C7D": 2,
+        "386C7E": 2,
+        "386C7F": 154
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v76/accents/morning/page_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c0d0761daaa8161c3d73e4a6164e361e5979ea6526c72e25dab2516d8a702dff",
+          "artifact_png_sha256": "00a58e018b71ad0efecf9031404f2bb64c51c8a135dd8303affdcba51eb29b9f"
+        },
+        {
+          "path": "tests/emulation_v76/accents/morning/page_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "386e665bdd7cdcafb05b8dc71e63ff33c2ef21bcd8ff30338ce5cbda2661529a",
+          "artifact_png_sha256": "fefe882424bc03e90a20c3551878a151be435f6530b678dc73ca4c590822c0ca"
+        },
+        {
+          "path": "tests/emulation_v76/accents/morning/page_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+          "artifact_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e"
+        }
+      ],
+      "returncode": 0
+    }
+  }
+}

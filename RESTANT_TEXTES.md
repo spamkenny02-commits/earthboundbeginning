@@ -1,4 +1,6 @@
-# Suite des textes après V75 (canari)
+# Suite des textes après V76 (Pippi)
+
+V76 traduit six plages de Pippi `386B63`/PNJ 319 : présentation, retrouvailles, reconnaissance dynamique à Podunk, secret et matin. Quatre scénarios par profil, 34 captures relues/comparées. Entrée complète et branches intérieures forcées ; accès naturel non prouvé. **Prochain lot concret : mineur `3738F8`/PNJ 210**, puis chameau `374307`/894 et autres candidats historiques non traités. Canari, Pippi et revente ne sont plus des restes. Menus, autres services et parcours complet restent à finir. Voir `RAPPORT_V76.md`. Les paragraphes suivants sont historiques.
 
 V75 traduit sept fragments du canari `3861D3`/PNJ 291 et de sa branche mélodie `32CC90` : question, Oui/Non et pouvoir du chant. Cinq scénarios par profil, 42 captures relues/comparées ; réponses Oui et Non désormais distinctes et vérifiées. L'entrée est forcée, la branche mélodie appelée directement : restitution du petit, apprentissage et accès naturels non prouvés. **Prochain lot concret : Pippi `386B63`/PNJ 319**, puis mines `3738F8`/210. Les lignes canari et revente du relevé V73 sont désormais traitées ; ce relevé reste non exhaustif. Menus d'action, autres services, plusieurs personnages et parcours complet restent à finir. Voir `RAPPORT_V75.md`. Les paragraphes suivants sont historiques.
 

@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V75 (canari et mélodie)
+## Version actuelle : V76 (Pippi)
+
+Six fragments anglais de Pippi traduits en place : présentation, retrouvailles, Podunk, secret et matin. Quatre scénarios par profil, 34 captures relues/comparées et 23 tests ciblés réussis. L'entrée complète et trois branches isolées sont appelées artificiellement ; aucune rencontre naturelle n'est certifiée. Le mineur `3738F8` est le prochain candidat. Menus et parcours complet restent à terminer : pas de 100 % certifié.
+
+- [Patch V76 avec accents](patches/EarthBound_Beginnings_FR_v76_accents.ips)
+- [Patch V76 ASCII](patches/EarthBound_Beginnings_FR_v76_ascii.ips)
+- [Rapport V76 et limites](RAPPORT_V76.md)
+- [Sources et reproduction V76](tools/v76/README_V76.md)
+
+Appliquer **un seul IPS V76 directement à la ROM originale USA 1.2**. Les sections suivantes sont historiques.
+
+## Version précédente : V75 (canari et mélodie)
 
 Sept fragments traduits : présentation du petit canari, question, deux paires Oui/Non et pouvoir du chant. Cinq scénarios par profil, 42 captures relues/comparées et 24 tests ciblés réussis. Les accès sont contrôlés ; la branche mélodie est appelée directement, sans certifier la progression de quête. Pippi est le prochain candidat concret. Les menus et le parcours naturel complet restent à terminer : pas de 100 % certifié.
 

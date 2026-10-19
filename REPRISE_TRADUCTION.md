@@ -1,4 +1,14 @@
-# Reprise — V75, canari et mélodie
+# Reprise — V76, Pippi
+
+V76 est le patch actuel : six plages anglaises de Pippi remplacées en place, sans allocation, réécriture de pointeur ni changement de commandes. Racine `386B63`, PNJ 319 champ 9, opérande `2036E0`. Fermeture utile : `386B63`, `386BAD`, `386BC9`, `386C58`. Sprites, banque 25 et créneau privé inchangés. Voir `RAPPORT_V76.md` et `tools/v76/README_V76.md`.
+
+Quatre cas par profil : entrée complète, Podunk+secret, secret seul, matin. 34 captures relues, 34 comparaisons V75/V76 dont 28 changements textuels seulement, 7 524 images échantillonnées ; 23 tests ciblés V76/V75/V65 réussis. L'entrée complète suit les flags de l'état post-repos, mais tous les accès initiaux sont forcés. Les trois autres appels isolent volontairement des branches intérieures. Aucun accès naturel ni écriture WRAM directe.
+
+**Prochaine priorité : mineur `3738F8`/PNJ 210**, puis chameau `374307`/894 et autres candidats historiques V73 non traités. Canari `3861D3`, Pippi `386B63` et revente `387221` sont traités ; le relevé demeure non récursif et non exhaustif. Branche équipée de revente, services multijoueurs, menus et parcours naturel complet restent à vérifier. Aucun 100 %.
+
+Checkpoint initial local `56e78e0`, branche `work/v76-pippi-local`; checkpoint validé `work/v76-pippi-validated`. Sorties privées : `/workspace/scratch/98c4eaa3ef23/explore_v76` (retenue comme V76 validée après relecture) et `/workspace/scratch/98c4eaa3ef23/reference_v75_pippi`. Les preuves publiées ne contiennent que 68 PNG, résultats et comparaisons ; jamais ROM, cœur, états ou dumps. Dépendances privées identiques à V75 ci-dessous.
+
+## Historique V75
 
 V75 est le patch actuel : sept fragments traduits, cinq plages fixes et deux ponts Non (22 octets), neuf enregistrements ajoutés aux IPS V74. Entrée `3861D3`, PNJ 291 champ 9, opérande `203504` inchangé. Branche mélodie `32CC90`, réponse sur le chant `38636E`. Copies Non : `3302D4` → `38623F` et `330408` → `32CCEF`. Sprites, banque 25, commandes dépliées et pointeur PNJ préservés. Voir `RAPPORT_V75.md` et `tools/v75/README_V75.md`.
 

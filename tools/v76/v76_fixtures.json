@@ -1,0 +1,124 @@
+{
+  "base": "v75",
+  "entry": "386B63",
+  "npc_id": 319,
+  "npc_pointer_operand": "2036E0",
+  "profiles": {
+    "accents": {
+      "edits": [
+        {
+          "context": "386B63",
+          "offset": "386B6D",
+          "end": "386B76",
+          "english": "@It's me,",
+          "french": "@Moi,",
+          "baseline_hex": "7079a457a3509d955c",
+          "replacement_hex": "707d9f995c50505050"
+        },
+        {
+          "context": "386B63",
+          "offset": "386B8C",
+          "end": "386B9F",
+          "english": "@We meet once more,",
+          "french": "@On se revoit,",
+          "baseline_hex": "708795509d9595a4509f9e9395509d9fa2955c",
+          "replacement_hex": "707f9e50a39550a295a69f99a45c5050505050"
+        },
+        {
+          "context": "386BAD",
+          "offset": "386BAD",
+          "end": "386BB4",
+          "english": "@I met ",
+          "french": "@Ah, ",
+          "baseline_hex": "7079509d95a450",
+          "replacement_hex": "7071985c505050"
+        },
+        {
+          "context": "386BAD",
+          "offset": "386BB7",
+          "end": "386BC7",
+          "english": " back in Podunk!",
+          "french": ", de Podunk !",
+          "baseline_hex": "509291939b50999e50809f94a59e9b51",
+          "replacement_hex": "5c50949550809f94a59e9b5051505050"
+        },
+        {
+          "context": "386BAD",
+          "offset": "386BDF",
+          "end": "386C05",
+          "english": " but I didn't tell my mom I came here.",
+          "french": " mais Maman ignore que je suis ici.",
+          "baseline_hex": "5092a5a45079509499949e57a450a4959c9c509da9509d9f9d50795093919d95509895a2955e",
+          "replacement_hex": "509d9199a3507d919d919e5099979e9fa29550a1a595509a9550a3a599a3509993995e505050"
+        },
+        {
+          "context": "386C58",
+          "offset": "386C58",
+          "end": "386C66",
+          "english": "@Good morning!",
+          "french": "@Bonjour !",
+          "baseline_hex": "70779f9f94509d9fa29e999e9751",
+          "replacement_hex": "70729f9e9a9fa5a2505150505050"
+        }
+      ]
+    },
+    "ascii": {
+      "edits": [
+        {
+          "context": "386B63",
+          "offset": "386B6D",
+          "end": "386B76",
+          "english": "@It's me,",
+          "french": "@Moi,",
+          "baseline_hex": "7079a457a3509d955c",
+          "replacement_hex": "707d9f995c50505050"
+        },
+        {
+          "context": "386B63",
+          "offset": "386B8C",
+          "end": "386B9F",
+          "english": "@We meet once more,",
+          "french": "@On se revoit,",
+          "baseline_hex": "708795509d9595a4509f9e9395509d9fa2955c",
+          "replacement_hex": "707f9e50a39550a295a69f99a45c5050505050"
+        },
+        {
+          "context": "386BAD",
+          "offset": "386BAD",
+          "end": "386BB4",
+          "english": "@I met ",
+          "french": "@Ah, ",
+          "baseline_hex": "7079509d95a450",
+          "replacement_hex": "7071985c505050"
+        },
+        {
+          "context": "386BAD",
+          "offset": "386BB7",
+          "end": "386BC7",
+          "english": " back in Podunk!",
+          "french": ", de Podunk !",
+          "baseline_hex": "509291939b50999e50809f94a59e9b51",
+          "replacement_hex": "5c50949550809f94a59e9b5051505050"
+        },
+        {
+          "context": "386BAD",
+          "offset": "386BDF",
+          "end": "386C05",
+          "english": " but I didn't tell my mom I came here.",
+          "french": " mais Maman ignore que je suis ici.",
+          "baseline_hex": "5092a5a45079509499949e57a450a4959c9c509da9509d9f9d50795093919d95509895a2955e",
+          "replacement_hex": "509d9199a3507d919d919e5099979e9fa29550a1a595509a9550a3a599a3509993995e505050"
+        },
+        {
+          "context": "386C58",
+          "offset": "386C58",
+          "end": "386C66",
+          "english": "@Good morning!",
+          "french": "@Bonjour !",
+          "baseline_hex": "70779f9f94509d9fa29e999e9751",
+          "replacement_hex": "70729f9e9a9fa5a2505150505050"
+        }
+      ]
+    }
+  }
+}
