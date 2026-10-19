@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V66 (téléphone et Escargo Express)
+## Version actuelle : V67 (quantités en boutique)
+
+« Just one / Multiple » devient « Un seul / En lot ». Achat simple/en lot, refus faute d'argent et d'espace, stockage vide et soins acceptés sont vérifiés dans les deux profils : 14 essais, 86 captures relues et 86 comparaisons V66/V67 limitées au texte. Les entrées et préparations d'inventaire sont contrôlées, pas naturelles.
+
+- [Patch V67 avec accents](patches/EarthBound_Beginnings_FR_v67_accents.ips)
+- [Patch V67 ASCII](patches/EarthBound_Beginnings_FR_v67_ascii.ips)
+- [Rapport V67 et captures](RAPPORT_V67.md)
+- [Sources et reproduction](tools/v67/README_V67.md)
+
+Appliquer **un seul IPS V67 directement à la ROM originale USA 1.2**. Textes de services d'abord, menus d'action ensuite ; couverture complète non certifiée.
+
+## Version précédente : V66 (téléphone et Escargo Express)
 
 Le sélecteur de service encore anglais « Pick-up / Delivery » devient « Déposer / Retirer ». Douze essais dans les deux profils vérifient les fins d'appel, les refus et les deux choix Escargo : 178 captures relues et 48 comparaisons V65/V66 limitées au texte. Les appels sont contrôlés, pas atteints naturellement sur la carte ; les transferts par coursier restent à vérifier.
 
@@ -48,7 +59,7 @@ Les deux routines bloquées sur `1A 21` sont désormais lues entièrement, avec 
 - [Preuve, parseur et audit](tools/v62/README_V62.md)
 - [Essais et captures](tests/emulation_v62/RAPPORT_EMULATION_V62.md)
 
-V61 reste disponible ci-dessous pour comparaison ; V66 est désormais le patch recommandé.
+V61 reste disponible ci-dessous pour comparaison ; V67 est désormais le patch recommandé.
 
 ## Version précédente : V61 (fragments courts et huées)
 

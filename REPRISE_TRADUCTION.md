@@ -1,6 +1,12 @@
-# Reprise — après V66 téléphone
+# Reprise — après V67 boutiques
 
-V66 ajoute deux traductions à taille fixe : sélecteur Escargo `063734` / `06373E`, « Pick-up / Delivery » → « Déposer / Retirer ». Les IPS actuels sont V66. Voir `RAPPORT_V66.md` et `tools/v66/README_V66.md`. Douze essais principaux, 178 captures relues, 36 204 images échantillonnées et 48 comparaisons avec V65 (deux paires changent, seulement le sélecteur). Checkpoint `work/v66-services` : `e3c3ec3aef576884747a5d817c907fe07884d0a2`.
+V67 est le patch actuel : `37BBB0` et `37BBBB`, « Just one / Multiple » → « Un seul / En lot », à taille constante. Voir `RAPPORT_V67.md`. 14 essais principaux, 86 captures relues, 18 476 images échantillonnées, 86 comparaisons V66/V67 dont six sélecteurs changent seulement dans la fenêtre de texte. Checkpoint `work/v67-quantity` : `3e9c380fe117780c612a71753ac04b106e67971c`.
+
+Les préparations d'inventaire sont **artificielles et déclarées** : treize commandes natives `1D 00 01 01` ajoutent des Badges Franklin avant le service. Elles restent dans la fixture privée, jamais dans l'IPS. L'inventaire de 14 cases et le refus d'achat sont visibles ; le retrait vers un inventaire plein reste non testé. L'achat en lot de 1, le refus de 2 faute d'argent, le stockage vide et les soins acceptés sont contrôlés dans les deux profils. Aucun nouvel accès naturel certifié.
+
+L'ancien dépôt local V38 `/workspace/scratch/60defd300f2e/earthboundbeginning` a une archive modifiée et reste intact. Le travail courant est dans `/workspace/scratch/98c4eaa3ef23/earthboundbeginning`, copie propre issue de main V66. Les chemins de dépendances ci-dessous sont mis à jour ; les anciens états V41 n'ont pas été retrouvés, les références V66 ont été rejouées avec les états V33.
+
+V66 ajoute deux traductions à taille fixe : sélecteur Escargo `063734` / `06373E`, « Pick-up / Delivery » → « Déposer / Retirer ». Voir `RAPPORT_V66.md` et `tools/v66/README_V66.md`. Douze essais principaux, 178 captures relues, 36 204 images échantillonnées et 48 comparaisons avec V65 (deux paires changent, seulement le sélecteur). Checkpoint `work/v66-services` : `e3c3ec3aef576884747a5d817c907fe07884d0a2`.
 
 Les fins d'appel Papa sans sauvegarde (gratuit/payant), le refus du téléphone sans argent, le refus bancaire de 2 $ sur compte de 1 $, Maman puis les deux choix Escargo sont maintenant contrôlés dans les deux profils. Les appels sont forcés comme en V65 : pas de nouvel accès naturel prouvé. Escargo demande un coursier au dépôt et indique une réserve vide au retrait ; son arrivée et les transferts restent à tester. Attention : ouvrir le sélecteur avec A en page 19, puis Droite+A en page 20 pour choisir réellement Retirer. L'ancienne exploration anticipait Droite et n'est pas une preuve de retrait.
 
@@ -20,9 +26,9 @@ Le cycle bancaire fait trois appels du distributeur : dépôt de 1 $, retrait de
 
 ## Prochain lot utile
 
-1. Tester les refus de retrait au-delà du solde, les plafonds et annulations supplémentaires ; le retrait positif est désormais validé par le wrapper V65. L'ancienne réouverture via le menu principal n'était pas fiable et ne doit pas être utilisée comme preuve.
+1. Tester les plafonds et annulations supplémentaires ; retrait positif validé en V65, refus au-delà du solde en V66. L'ancienne réouverture via le menu principal n'était pas fiable et ne doit pas être utilisée comme preuve.
 2. Vérifier réserve pleine, inventaire plein et plusieurs personnages. Le cycle simple d'un objet autorisé est terminé. L'état de départ n'a que la carte bancaire : le scénario V65 achète une Fiole à 20 $ avant le stockage. Une préparation contrôlée par les commandes normales du moteur peut être utile pour les inventaires pleins, mais doit être explicitement déclarée et ne doit pas se retrouver dans l'IPS publié.
-3. Tester d'autres enseignes, soins/hôtels, autres téléphones. Finir les conversations Maman/Papa et les refus de sauvegarde, plutôt que compter seulement le début d'appel.
+3. Tester d'autres enseignes, hôtels, autres téléphones et effets des coursiers. Les fins d'appel Maman/Papa sans sauvegarde sont relues en V66 ; les soins acceptés en V67. Ne pas étendre cette preuve aux autres configurations.
 4. Examiner les autres anciennes racines NPC sous `330000` que V62 exclut. V64 a trouvé le distributeur ainsi : 17 NPC pointent vers `0680A6`/`0680C2`. Élargir prudemment les graines avec leur provenance réelle ; certaines entrées sont héritées/dormantes. Une occurrence littérale de pointeur peut être une donnée graphique.
 5. Piste du soigneur classée : NPC 149, racine `24D4A0`, « you have » est un faux positif. Les octets `15 0D` traversent les commandes `1A 15` et `0D 00` et ne sont pas un fragment textuel. La branche de refus est relue dans les deux profils ; ce contexte n'est pas modifié par V65.
 
@@ -30,11 +36,11 @@ Les menus d'action Use/Eat/Give/Drop/Help! restent pour la phase menus. 100 % de
 
 ## Dépendances privées de cet espace
 
-Racine : `/workspace/scratch/a52b6a3f0578`, dépôt `earthboundbeginning`.
+Dépôt courant : `/workspace/scratch/98c4eaa3ef23/earthboundbeginning`.
 
-- ROM : `upload/EarthBound Beginnings (USA) 1.2(2).sfc`, SHA256 `e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c`.
-- Cœur retrouvé : `/workspace/scratch/cbfe63ce8ac4/emulator/snes9x_libretro.so`, SHA256 `826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210`. L'ancien chemin `96ddda3e7189` n'existe plus.
-- États : `emulation_v41/{accents,ascii}/after_combat.state`.
+- ROM : `/workspace/scratch/60defd300f2e/downloads/EarthBound Beginnings (USA) 1.2(1).sfc`, SHA256 `e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c`.
+- Cœur : `/workspace/scratch/c267dac1e2c1/emulator/snes9x_libretro_standard.so`, SHA256 `826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210`.
+- États V33 : `/workspace/scratch/60defd300f2e/emulation_v33/{accents,ascii}/after_combat.state`. SHA256 : accents `622aa30903aeffe159b1b748d8537776a7a2c092dda3ef70eeca26434acaf4a7`, ASCII `9364b593e11b3beeb993dfe8c63f161362f1a6e1c31402f332f5484ff9aa2ee0`.
 - Runner : `tests/emulation_v18_work/libretro_runner.py` ; `--history-every 120` accélère l'échantillonnage sans perdre les commandes du journal final.
 - Assembleur original : `v62_analysis/ebsrc`, Herringway/ebsrc révision `68aec5c39e67f3ef4f0be138ee58c1ba0cc33d62`.
 

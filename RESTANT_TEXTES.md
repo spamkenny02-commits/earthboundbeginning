@@ -1,4 +1,4 @@
-# Suite des textes après V66
+# Suite des textes après V67
 
 Priorité : textes, puis menus. Cette liste n'est pas exhaustive et ne fournit pas un dénominateur de couverture.
 
@@ -35,3 +35,5 @@ V64 : quatre fragments bancaires traduits à taille fixe. Les racines ATM origin
 V65 lève deux points de cette liste : retrait sur compte positif et cycle achat/dépôt/récupération d'un objet autorisé sont exécutés dans les deux profils. Deux confirmations contenant encore « The » sont corrigées. Sept anciennes copies de stockage sont relocalisées hors de la banque 25, conservée à l'identique ; sprites et commandes restent ceux de V64. Six essais, 84 captures, 40 comparaisons limitées au texte. La piste « you have » du soigneur `24D4A0` est un faux positif de paramètres, confirmé par les frontières de commandes et le rendu. Poursuivre avec les inventaires/réserves pleins, plusieurs personnages, autres services et accès naturels.
 
 V66 : le parcours complet Maman → Escargo révèle le sélecteur anglais « Pick-up / Delivery », maintenant traduit en « Déposer / Retirer ». Fins d'appel Papa sans sauvegarde, coût de 1 $ et refus sans argent, refus de retrait de 2 $ sur compte de 1 $, demande de coursier et retrait sur réserve vide vérifiés dans les deux profils : 12 essais, 178 captures, 48 comparaisons limitées au texte. L'arrivée du coursier et les transferts Escargo restent à vérifier ; ne pas les confondre avec le cycle de stockage direct V65. Toujours aucun nouvel accès naturel certifié.
+
+V67 : choix d'achat « Just one / Multiple » traduits en « Un seul / En lot ». Achat en lot de 1, refus de quantité 2 faute d'argent, refus d'achat avec inventaire plein, stockage vide et soins acceptés relus dans les deux profils (14 essais, 86 captures, 86 comparaisons limitées au texte). L'inventaire plein est préparé par commandes natives dans une fixture privée déclarée ; le retrait d'un objet vers cet inventaire, la réserve pleine et plusieurs personnages restent à tester. Aucun nouvel accès naturel prouvé.

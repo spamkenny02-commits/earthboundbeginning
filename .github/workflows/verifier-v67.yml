@@ -1,0 +1,27 @@
+name: Verify V67 purchase services offline
+
+on:
+  push:
+    paths:
+      - 'tools/v67/**'
+      - 'tests/emulation_v67/**'
+      - 'patches/*v67*'
+      - '.github/workflows/verifier-v67.yml'
+  pull_request:
+    paths:
+      - 'tools/v67/**'
+      - 'tests/emulation_v67/**'
+      - 'patches/*v67*'
+      - '.github/workflows/verifier-v67.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tools/v67 -v
+      - run: python3 -m pip install Pillow
+      - run: python3 tools/v67/verify_display.py
