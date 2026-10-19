@@ -1,4 +1,6 @@
-# Suite des textes après V74 (revente)
+# Suite des textes après V75 (canari)
+
+V75 traduit sept fragments du canari `3861D3`/PNJ 291 et de sa branche mélodie `32CC90` : question, Oui/Non et pouvoir du chant. Cinq scénarios par profil, 42 captures relues/comparées ; réponses Oui et Non désormais distinctes et vérifiées. L'entrée est forcée, la branche mélodie appelée directement : restitution du petit, apprentissage et accès naturels non prouvés. **Prochain lot concret : Pippi `386B63`/PNJ 319**, puis mines `3738F8`/210. Les lignes canari et revente du relevé V73 sont désormais traitées ; ce relevé reste non exhaustif. Menus d'action, autres services, plusieurs personnages et parcours complet restent à finir. Voir `RAPPORT_V75.md`. Les paragraphes suivants sont historiques.
 
 V74 traite le service `387221`/PNJ 87 : neuf fragments anglais, deux formulations françaises, quatre sélecteurs Oui/Non. Vente effective à 29 $ avec inventaire final, refus et carte protégée vérifiés dans les deux profils, 56 captures/comparaisons. La branche d'objet équipé reste statiquement vérifiée seulement ; l'entrée du service est forcée. **Prochain lot concret : canari `3861D3`/PNJ 291**, puis Pippi `386B63`/319 et mines `3738F8`/210. Le relevé V73 demeure historique : ne plus considérer sa ligne `387221` comme non traitée. Menus d'action toujours anglais ; aucun taux global certifié. Voir `RAPPORT_V74.md`. Les paragraphes suivants sont historiques.
 

@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V74 (revente)
+## Version actuelle : V75 (canari et mélodie)
+
+Sept fragments traduits : présentation du petit canari, question, deux paires Oui/Non et pouvoir du chant. Cinq scénarios par profil, 42 captures relues/comparées et 24 tests ciblés réussis. Les accès sont contrôlés ; la branche mélodie est appelée directement, sans certifier la progression de quête. Pippi est le prochain candidat concret. Les menus et le parcours naturel complet restent à terminer : pas de 100 % certifié.
+
+- [Patch V75 avec accents](patches/EarthBound_Beginnings_FR_v75_accents.ips)
+- [Patch V75 ASCII](patches/EarthBound_Beginnings_FR_v75_ascii.ips)
+- [Rapport V75 et limites](RAPPORT_V75.md)
+- [Sources et reproduction V75](tools/v75/README_V75.md)
+
+Appliquer **un seul IPS V75 directement à la ROM originale USA 1.2**. Les sections suivantes sont historiques.
+
+## Version précédente : V74 (revente)
 
 Neuf plages anglaises du service de revente traduites, dont quatre choix Oui/Non, et deux formulations françaises améliorées. Quatre scénarios dans les deux profils : vente à 29 $ avec inventaire final, refus de l'offre, carte protégée et sortie. 56 captures relues, 56 comparaisons limitées au texte et 24 tests ciblés réussis. Entrée du service forcée ; branche d'objet équipé et parcours naturel restent à vérifier. Les menus d'action restent à traduire : pas de 100 % certifié.
 

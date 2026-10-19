@@ -1,5 +1,7 @@
 # Avancement estimé
 
+V75 : sept fragments du canari et de la mélodie traduits, dont deux choix Oui/Non. Dix essais contrôlés, 42 captures/comparaisons, 24 tests ciblés réussis. Refus réellement sélectionnés après correction des premières séquences exploratoires exclues. Pas de restitution du petit, d'apprentissage de mélodie ni d'accès naturel certifié ; Pippi est le prochain candidat. Menus et parcours complet restants, sans taux global.
+
 V74 : neuf plages anglaises du service de revente traduites, quatre choix Oui/Non et deux formulations françaises améliorées. Vente native à 29 $ et inventaire final vérifiés, ainsi que refus et carte protégée, dans les deux profils : 56 captures/comparaisons, 24 tests ciblés. Accès forcé, branche équipée non affichée, menus et parcours complet restants. Le canari `3861D3` est le prochain candidat concret ; aucun pourcentage exhaustif.
 
 V73 : huit plages d'hébergement traduites, dont Oui/Non ; refus, repos et retour vérifiés dans les deux profils, 40 comparaisons limitées au texte et 20 tests ciblés réussis. Le relevé de racines personnalisées oublié par l'ancien filtre identifie onze autres candidats anglais, dont un service de retour d'objets prioritaire. Aucun taux exhaustif ni achèvement des textes n'est déduit de l'ancien graphe.

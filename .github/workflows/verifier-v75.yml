@@ -1,0 +1,17 @@
+name: Verify V75 canary translation offline
+on:
+  push:
+    paths: ['tools/v75/**', 'tests/emulation_v75/**', 'patches/*v75*', '.github/workflows/verifier-v75.yml']
+  pull_request:
+    paths: ['tools/v75/**', 'tests/emulation_v75/**', 'patches/*v75*', '.github/workflows/verifier-v75.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install Pillow
+      - run: python3 -m unittest discover -s tools/v75 -v
+      - run: python3 tools/v75/verify_display.py

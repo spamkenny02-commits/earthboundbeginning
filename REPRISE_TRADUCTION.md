@@ -1,4 +1,14 @@
-# Reprise — V74, revente validée
+# Reprise — V75, canari et mélodie
+
+V75 est le patch actuel : sept fragments traduits, cinq plages fixes et deux ponts Non (22 octets), neuf enregistrements ajoutés aux IPS V74. Entrée `3861D3`, PNJ 291 champ 9, opérande `203504` inchangé. Branche mélodie `32CC90`, réponse sur le chant `38636E`. Copies Non : `3302D4` → `38623F` et `330408` → `32CCEF`. Sprites, banque 25, commandes dépliées et pointeur PNJ préservés. Voir `RAPPORT_V75.md` et `tools/v75/README_V75.md`.
+
+Cinq cas dans chaque profil : sans petit, petit Oui/Non, mélodie Oui/Non. 42 captures relues, 42 comparaisons V74/V75 dont 18 différences textuelles seulement ; 9 364 images échantillonnées, 24 tests ciblés V75/V74/V65 réussis. Entrée du PNJ forcée par carte bancaire ; petit donné par commande native A8. Mélodie appelée directement à sa branche, sans préparation de flag. Aucun accès naturel, retour du petit ni apprentissage réel de mélodie prouvé. Les deux refus sont bien distincts dans les preuves retenues.
+
+**Prochaine priorité concrète : Pippi `386B63`/PNJ 319**, puis mines `3738F8`/210 et autres candidats historiques V73. Ne plus compter le canari `3861D3` ni la revente `387221` comme non traités dans ce relevé. Il ne constitue pas une couverture récursive/exhaustive. Branche équipée de revente, limites du coursier, plusieurs personnages, menus et parcours naturel complet restent à vérifier. Aucun 100 %.
+
+Checkpoint initial local `f744b5a`, branche `work/v75-canary-local` ; checkpoint validé `work/v75-canary-validated`. Sorties privées retenues : `/workspace/scratch/98c4eaa3ef23/validated_v75`, référence `/workspace/scratch/98c4eaa3ef23/reference_v74_canary_final`. Les premières sorties `explore_v75` et `reference_v74_canary` sélectionnaient Oui dans les cas nommés Non : exclues. La question apparaît après un seul A, puis Droite+A choisit Non. Le probe et les PNG publiés reprennent uniquement la séquence corrigée. Les dépendances privées sont celles décrites dans V74 ci-dessous et leurs empreintes sont dans les résultats V75. Ne jamais publier ROM, cœur, états ou dumps.
+
+## Historique V74
 
 V74 est le patch actuel : service complet `387221`, PNJ 87 champ 9, opérande `202778` inchangé. Neuf fragments anglais traduits, deux formulations françaises améliorées. Quatre définitions « Non » en stockage protégé (44 octets), 15 enregistrements ajoutés. Voir `RAPPORT_V74.md` et `tools/v74/README_V74.md`.
 
