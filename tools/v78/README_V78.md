@@ -1,4 +1,12 @@
-# V78 — checkpoint du lot de 150
+# V78 — checkpoint à 114 textes, cible 150
+
+État actuel : 114 sources distinctes, 152 plages. item_help_stage.py ajoute 15 traductions en place, sans allocation. Ses 82 objets sont reliés aux stocks de wrappers PNJ personnalisés ; huit listes de stocks et les aides sélectionnées sont relues en émulateur. Les helpers d'aide partagés sont inclus par un chemin d'appels typés, et comptés une fois.
+
+Nouvelles preuves : tests/emulation_v78_help, 164 paires dont 46 changements textuels et 36 456 images échantillonnées. python3 tools/v78/verify_help.py les vérifie. 14 tests V78 passent avec EARTHBOUND_ROM ; sans ROM, 8 passent et 6 sont ignorés. Le constructeur et update_ledger.py régénèrent les compteurs.
+
+Les captures médicales et trains conservent respectivement les snapshots de 81 et 99 textes, reconstruits pour leurs contrôles. Elles ne sont pas présentées comme des captures du nouveau patch. La bouteille d'eau reste anglaise à 05473C, garde-fou sur 054743. L'aide A5 de la pharmacie à 20 $ est distincte de l'objet70 à 58 $. Voir RAPPORT_V78_AIDES_CHECKPOINT.md et REPRISE_TRADUCTION.md pour les limites et la reprise. Les paragraphes suivants décrivent le checkpoint précédent.
+
+## Historique du checkpoint à 99 textes
 
 V77 reste publiée. V78 compte 99 sources distinctes dans 137 plages, cible 150 ; registre exact dans batch_ledger.json et REPRISE_TRADUCTION.md. Les variantes contextuelles de Sell, Oui/Non répétés et profils sont dédoublonnés.
 

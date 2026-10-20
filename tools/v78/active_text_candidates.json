@@ -4,7 +4,7 @@
   "seed_count": 1080,
   "visited_roots": 4475,
   "parsed_edges": 5655,
-  "candidate_count": 237,
+  "candidate_count": 226,
   "natural_access_verified": false,
   "language_classification_verified": false,
   "pattern": "(?:\\b(the|you|your|please|what|with|where|have|don't|can't|it's|i'm|does|will|would|should|this|that|which|was|were|said|are|some|cannot|their|anyone|someone|yes|no|select|choose|starting|who|want|look|cool|watch)\\b|\\b(?:buy|sell|believe|care|daddy|welcome|bye)\\b)",
@@ -101,58 +101,6 @@
       ]
     },
     {
-      "offset": "053D10",
-      "end": "053D1F",
-      "context": "053D00",
-      "text": "@It also increases your Speed.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:38"
-      ],
-      "path": [
-        "053D00"
-      ]
-    },
-    {
-      "offset": "053F68",
-      "end": "053F87",
-      "context": "053F58",
-      "text": "@It has the logo of your favorite baseball team.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:4A"
-      ],
-      "path": [
-        "053F58"
-      ]
-    },
-    {
-      "offset": "054184",
-      "end": "054195",
-      "context": "05416D",
-      "text": "@So fresh, it's still warm!",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:5C"
-      ],
-      "path": [
-        "05416D"
-      ]
-    },
-    {
-      "offset": "0541AE",
-      "end": "0541C9",
-      "context": "054197",
-      "text": "@There's even a slice of your favorite cake!",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:5D"
-      ],
-      "path": [
-        "054197"
-      ]
-    },
-    {
       "offset": "054342",
       "end": "05436C",
       "context": "054339",
@@ -228,32 +176,6 @@
       ],
       "path": [
         "05475A"
-      ]
-    },
-    {
-      "offset": "05491E",
-      "end": "054937",
-      "context": "0548FC",
-      "text": "@It tastes good with any kind of food, thereby",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:7E"
-      ],
-      "path": [
-        "0548FC"
-      ]
-    },
-    {
-      "offset": "054939",
-      "end": "054950",
-      "context": "0548FC",
-      "text": "@increasing the recovery power of the food.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:7E"
-      ],
-      "path": [
-        "0548FC"
       ]
     },
     {
@@ -423,19 +345,6 @@
       ],
       "path": [
         "054DDC"
-      ]
-    },
-    {
-      "offset": "054FD1",
-      "end": "054FE7",
-      "context": "054FA2",
-      "text": "@The enemy will take about 200 points of damage.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:96"
-      ],
-      "path": [
-        "054FA2"
       ]
     },
     {
@@ -817,19 +726,6 @@
       ]
     },
     {
-      "offset": "055ECB",
-      "end": "055EF4",
-      "context": "055EBB",
-      "text": "@Wow! Look at the pine tar! It's almost all the way to the end!",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:D5"
-      ],
-      "path": [
-        "055EBB"
-      ]
-    },
-    {
       "offset": "055FAB",
       "end": "055FC9",
       "context": "055F84",
@@ -1132,20 +1028,6 @@
       ]
     },
     {
-      "offset": "056BC5",
-      "end": "056BDE",
-      "context": "056BC0",
-      "text": "@It protects you from paralysis attacks.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:36"
-      ],
-      "path": [
-        "053CC8",
-        "056BC0"
-      ]
-    },
-    {
       "offset": "056BF4",
       "end": "056C05",
       "context": "056BF4",
@@ -1199,34 +1081,6 @@
       "path": [
         "054085",
         "056C54"
-      ]
-    },
-    {
-      "offset": "056C6D",
-      "end": "056C8C",
-      "context": "056C6D",
-      "text": "@Miscellaneous equipment that can only be used by ",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:4E"
-      ],
-      "path": [
-        "054055",
-        "056C6D"
-      ]
-    },
-    {
-      "offset": "056D7A",
-      "end": "056D9A",
-      "context": "056D63",
-      "text": "@A good combination increases the strength of your recovery.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:76"
-      ],
-      "path": [
-        "054842",
-        "056D63"
       ]
     },
     {

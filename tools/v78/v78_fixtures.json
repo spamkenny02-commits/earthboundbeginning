@@ -8838,5 +8838,1643 @@
         "destination": "328DF8"
       }
     ]
+  },
+  "item_help": {
+    "entries": [
+      {
+        "item_id": "38",
+        "context": "053D00",
+        "offset": "053D10",
+        "end": "053D1F",
+        "en": "@It also increases your Speed.",
+        "fr": "@Vitesse accrue",
+        "help_path": [
+          "053D00"
+        ]
+      },
+      {
+        "item_id": "4A",
+        "context": "053F58",
+        "offset": "053F68",
+        "end": "053F87",
+        "en": "@It has the logo of your favorite baseball team.",
+        "fr": "@Logo de ton équipe préférée.",
+        "help_path": [
+          "053F58"
+        ]
+      },
+      {
+        "item_id": "5C",
+        "context": "05416D",
+        "offset": "054184",
+        "end": "054195",
+        "en": "@So fresh, it's still warm!",
+        "fr": "@Frais et chaud !",
+        "help_path": [
+          "05416D"
+        ]
+      },
+      {
+        "item_id": "5D",
+        "context": "054197",
+        "offset": "0541AE",
+        "end": "0541C9",
+        "en": "@There's even a slice of your favorite cake!",
+        "fr": "@Avec ton gâteau préféré !",
+        "help_path": [
+          "054197"
+        ]
+      },
+      {
+        "item_id": "7E",
+        "context": "0548FC",
+        "offset": "054905",
+        "end": "05491C",
+        "en": "@Use by sprinkling it over food.",
+        "fr": "@À mettre sur un plat.",
+        "help_path": [
+          "0548FC"
+        ]
+      },
+      {
+        "item_id": "7E",
+        "context": "0548FC",
+        "offset": "05491E",
+        "end": "054937",
+        "en": "@It tastes good with any kind of food, thereby",
+        "fr": "@Bonne avec tout plat,",
+        "help_path": [
+          "0548FC"
+        ]
+      },
+      {
+        "item_id": "7E",
+        "context": "0548FC",
+        "offset": "054939",
+        "end": "054950",
+        "en": "@increasing the recovery power of the food.",
+        "fr": "@renforce ses soins.",
+        "help_path": [
+          "0548FC"
+        ]
+      },
+      {
+        "item_id": "96",
+        "context": "054FA2",
+        "offset": "054FAB",
+        "end": "054FCF",
+        "en": "@Quickly rusts metallic enemies when used during battle.",
+        "fr": "@Rouille les ennemis métalliques.",
+        "help_path": [
+          "054FA2"
+        ]
+      },
+      {
+        "item_id": "96",
+        "context": "054FA2",
+        "offset": "054FD1",
+        "end": "054FE7",
+        "en": "@The enemy will take about 200 points of damage.",
+        "fr": "@Environ 200 dégâts.",
+        "help_path": [
+          "054FA2"
+        ]
+      },
+      {
+        "item_id": "D5",
+        "context": "055EBB",
+        "offset": "055ECB",
+        "end": "055EF4",
+        "en": "@Wow! Look at the pine tar! It's almost all the way to the end!",
+        "fr": "@De la résine presque jusqu'au bout !",
+        "help_path": [
+          "055EBB"
+        ]
+      },
+      {
+        "item_id": "02",
+        "context": "056B5D",
+        "offset": "056B5D",
+        "end": "056B6E",
+        "en": "A cute teddy bear!",
+        "fr": "Un joli nounours!",
+        "help_path": [
+          "053750",
+          "056B5D"
+        ]
+      },
+      {
+        "item_id": "38",
+        "context": "056BC0",
+        "offset": "056BC5",
+        "end": "056BDE",
+        "en": "@It protects you from paralysis attacks.",
+        "fr": "@Protège de la paralysie.",
+        "help_path": [
+          "053D00",
+          "056BC0"
+        ]
+      },
+      {
+        "item_id": "4E",
+        "context": "056C6D",
+        "offset": "056C6D",
+        "end": "056C8C",
+        "en": "@Miscellaneous equipment that can only be used by ",
+        "fr": "@Accessoire exclusif destiné à ",
+        "help_path": [
+          "054055",
+          "056C6D"
+        ]
+      },
+      {
+        "item_id": "76",
+        "context": "056D63",
+        "offset": "056D63",
+        "end": "056D78",
+        "en": "@To use, sprinkle over food.",
+        "fr": "@Saupoudre ton plat.",
+        "help_path": [
+          "054842",
+          "056D63"
+        ]
+      },
+      {
+        "item_id": "76",
+        "context": "056D63",
+        "offset": "056D7A",
+        "end": "056D9A",
+        "en": "@A good combination increases the strength of your recovery.",
+        "fr": "@Un bon mélange soigne mieux.",
+        "help_path": [
+          "054842",
+          "056D63"
+        ]
+      }
+    ],
+    "blocked_entries": [
+      {
+        "item_id": "6E",
+        "context": "054733",
+        "offset": "05473C",
+        "end": "054758",
+        "en": "@When you drink it, your PP slightly increases.",
+        "fr": "@Rend quelques PP en buvant.",
+        "help_path": [
+          "054733"
+        ],
+        "reason": "unqualified interior raw reference; source span preserved",
+        "targets": [
+          "054743"
+        ]
+      }
+    ],
+    "qualification": {
+      "scope": "typed custom-NPC wrappers, flag dispatch, 1A 06 shop selector, seven-byte stock records and item-help pointers",
+      "natural_access_verified": false,
+      "stock_stride_calibrated_against": "V78 controlled pharmacy list; five names and prices",
+      "rows": [
+        {
+          "flag": "00E3",
+          "wrappers": [
+            {
+              "npc": 90,
+              "entry": "365592"
+            }
+          ],
+          "dispatch_operand": "3656E6",
+          "command": "3657A1",
+          "shop_id": 16,
+          "stock_offset": "157722",
+          "items": [
+            "A5",
+            "07",
+            "6D",
+            "95",
+            "96"
+          ]
+        },
+        {
+          "flag": "00E4",
+          "wrappers": [
+            {
+              "npc": 89,
+              "entry": "36559E"
+            }
+          ],
+          "dispatch_operand": "3656ED",
+          "command": "3657A5",
+          "shop_id": 15,
+          "stock_offset": "15771B",
+          "items": [
+            "11",
+            "12",
+            "32",
+            "4A",
+            "1F",
+            "6E"
+          ]
+        },
+        {
+          "flag": "00E5",
+          "wrappers": [
+            {
+              "npc": 86,
+              "entry": "3655AA"
+            }
+          ],
+          "dispatch_operand": "3656F4",
+          "command": "3657A9",
+          "shop_id": 13,
+          "stock_offset": "15770D",
+          "items": [
+            "6A",
+            "AF",
+            "6C",
+            "67",
+            "66",
+            "58",
+            "C4"
+          ]
+        },
+        {
+          "flag": "00E6",
+          "wrappers": [
+            {
+              "npc": 989,
+              "entry": "3655B6"
+            }
+          ],
+          "dispatch_operand": "3656FB",
+          "command": "3657AD",
+          "shop_id": 10,
+          "stock_offset": "1576F8",
+          "items": [
+            "81",
+            "DD",
+            "DF",
+            "E0"
+          ]
+        },
+        {
+          "flag": "00E7",
+          "wrappers": [
+            {
+              "npc": 990,
+              "entry": "3655C8"
+            }
+          ],
+          "dispatch_operand": "365702",
+          "command": "3657B1",
+          "shop_id": 11,
+          "stock_offset": "1576FF",
+          "items": [
+            "EA",
+            "E3",
+            "E4",
+            "E5"
+          ]
+        },
+        {
+          "flag": "00E8",
+          "wrappers": [
+            {
+              "npc": 991,
+              "entry": "3655DA"
+            }
+          ],
+          "dispatch_operand": "365709",
+          "command": "3657B5",
+          "shop_id": 12,
+          "stock_offset": "157706",
+          "items": [
+            "81",
+            "39",
+            "3A",
+            "3B"
+          ]
+        },
+        {
+          "flag": "00E9",
+          "wrappers": [
+            {
+              "npc": 508,
+              "entry": "3655EC"
+            }
+          ],
+          "dispatch_operand": "365710",
+          "command": "3657B9",
+          "shop_id": 7,
+          "stock_offset": "1576E3",
+          "items": [
+            "A5",
+            "07",
+            "6D",
+            "95"
+          ]
+        },
+        {
+          "flag": "00EB",
+          "wrappers": [
+            {
+              "npc": 296,
+              "entry": "3655F8"
+            }
+          ],
+          "dispatch_operand": "365717",
+          "command": "3657BD",
+          "shop_id": 3,
+          "stock_offset": "1576C7",
+          "items": [
+            "8C",
+            "25",
+            "DE",
+            "EA",
+            "2E"
+          ]
+        },
+        {
+          "flag": "00EA",
+          "wrappers": [
+            {
+              "npc": 505,
+              "entry": "365604"
+            }
+          ],
+          "dispatch_operand": "36571E",
+          "command": "3657C1",
+          "shop_id": 2,
+          "stock_offset": "1576C0",
+          "items": [
+            "12",
+            "1A",
+            "33",
+            "02",
+            "1F"
+          ]
+        },
+        {
+          "flag": "00EC",
+          "wrappers": [
+            {
+              "npc": 498,
+              "entry": "365610"
+            }
+          ],
+          "dispatch_operand": "365725",
+          "command": "3657C5",
+          "shop_id": 5,
+          "stock_offset": "1576D5",
+          "items": [
+            "6A",
+            "67",
+            "6C",
+            "AF"
+          ]
+        },
+        {
+          "flag": "00ED",
+          "wrappers": [
+            {
+              "npc": 1008,
+              "entry": "36561C"
+            }
+          ],
+          "dispatch_operand": "36572C",
+          "command": "3657C9",
+          "shop_id": 9,
+          "stock_offset": "1576F1",
+          "items": [
+            "AF",
+            "2B",
+            "6D",
+            "1D",
+            "14",
+            "28",
+            "2D"
+          ]
+        },
+        {
+          "flag": "00EE",
+          "wrappers": [
+            {
+              "npc": 931,
+              "entry": "365628"
+            }
+          ],
+          "dispatch_operand": "365733",
+          "command": "3657CD",
+          "shop_id": 8,
+          "stock_offset": "1576EA",
+          "items": [
+            "A5",
+            "C2",
+            "07",
+            "6D",
+            "95"
+          ]
+        },
+        {
+          "flag": "00EF",
+          "wrappers": [
+            {
+              "npc": 932,
+              "entry": "365634"
+            }
+          ],
+          "dispatch_operand": "36573A",
+          "command": "3657D1",
+          "shop_id": 17,
+          "stock_offset": "157729",
+          "items": [
+            "1B",
+            "33",
+            "1A",
+            "13"
+          ]
+        },
+        {
+          "flag": "00F0",
+          "wrappers": [
+            {
+              "npc": 933,
+              "entry": "365640"
+            }
+          ],
+          "dispatch_operand": "365741",
+          "command": "3657D5",
+          "shop_id": 18,
+          "stock_offset": "157730",
+          "items": [
+            "6A",
+            "AF",
+            "6C",
+            "AE"
+          ]
+        },
+        {
+          "flag": "00F2",
+          "wrappers": [
+            {
+              "npc": 549,
+              "entry": "36565E"
+            }
+          ],
+          "dispatch_operand": "365748",
+          "command": "3657DD",
+          "shop_id": 28,
+          "stock_offset": "157776",
+          "items": [
+            "C7",
+            "C8",
+            "A6",
+            "5E",
+            "6A",
+            "5C",
+            "5D"
+          ]
+        },
+        {
+          "flag": "00F1",
+          "wrappers": [
+            {
+              "npc": 934,
+              "entry": "365652"
+            }
+          ],
+          "dispatch_operand": "36574F",
+          "command": "3657D9",
+          "shop_id": 19,
+          "stock_offset": "157737",
+          "items": [
+            "93",
+            "D7",
+            "D8",
+            "26",
+            "2E"
+          ]
+        },
+        {
+          "flag": "00F3",
+          "wrappers": [
+            {
+              "npc": 935,
+              "entry": "365670"
+            }
+          ],
+          "dispatch_operand": "365756",
+          "command": "3657E1",
+          "shop_id": 8,
+          "stock_offset": "1576EA",
+          "items": [
+            "A5",
+            "C2",
+            "07",
+            "6D",
+            "95"
+          ]
+        },
+        {
+          "flag": "00F4",
+          "wrappers": [
+            {
+              "npc": 941,
+              "entry": "36567C"
+            }
+          ],
+          "dispatch_operand": "36575D",
+          "command": "3657E5",
+          "shop_id": 17,
+          "stock_offset": "157729",
+          "items": [
+            "1B",
+            "33",
+            "1A",
+            "13"
+          ]
+        },
+        {
+          "flag": "00F5",
+          "wrappers": [
+            {
+              "npc": 942,
+              "entry": "365688"
+            }
+          ],
+          "dispatch_operand": "365764",
+          "command": "3657E9",
+          "shop_id": 24,
+          "stock_offset": "15775A",
+          "items": [
+            "6A",
+            "67",
+            "6C",
+            "AE",
+            "AF",
+            "66",
+            "5D"
+          ]
+        },
+        {
+          "flag": "00F6",
+          "wrappers": [
+            {
+              "npc": 939,
+              "entry": "365694"
+            }
+          ],
+          "dispatch_operand": "36576B",
+          "command": "3657ED",
+          "shop_id": 21,
+          "stock_offset": "157745",
+          "items": [
+            "B4",
+            "03",
+            "E9",
+            "E8",
+            "29",
+            "D5",
+            "2F"
+          ]
+        },
+        {
+          "flag": "00F7",
+          "wrappers": [
+            {
+              "npc": 944,
+              "entry": "3656A0"
+            }
+          ],
+          "dispatch_operand": "365772",
+          "command": "3657F1",
+          "shop_id": 22,
+          "stock_offset": "15774C",
+          "items": [
+            "AF",
+            "2C",
+            "AD",
+            "6D",
+            "1C",
+            "1B",
+            "4E"
+          ]
+        },
+        {
+          "flag": "00F8",
+          "wrappers": [
+            {
+              "npc": 950,
+              "entry": "3656AC"
+            }
+          ],
+          "dispatch_operand": "365779",
+          "command": "3657F5",
+          "shop_id": 27,
+          "stock_offset": "15776F",
+          "items": [
+            "AF",
+            "6D",
+            "38",
+            "22",
+            "20",
+            "27"
+          ]
+        },
+        {
+          "flag": "00F9",
+          "wrappers": [
+            {
+              "npc": 799,
+              "entry": "3656B8"
+            },
+            {
+              "npc": 805,
+              "entry": "3656B8"
+            },
+            {
+              "npc": 808,
+              "entry": "3656B8"
+            }
+          ],
+          "dispatch_operand": "365780",
+          "command": "3657F9",
+          "shop_id": 29,
+          "stock_offset": "15777D",
+          "items": [
+            "76",
+            "7C",
+            "7D",
+            "7B",
+            "C5",
+            "BD",
+            "7E"
+          ]
+        },
+        {
+          "flag": "00FA",
+          "wrappers": [
+            {
+              "npc": 445,
+              "entry": "3656C4"
+            },
+            {
+              "npc": 806,
+              "entry": "3656C4"
+            }
+          ],
+          "dispatch_operand": "365787",
+          "command": "3657FD",
+          "shop_id": 4,
+          "stock_offset": "1576CE",
+          "items": [
+            "6A",
+            "FA",
+            "59",
+            "5A",
+            "C6"
+          ]
+        },
+        {
+          "flag": "00FB",
+          "wrappers": [
+            {
+              "npc": 389,
+              "entry": "3656D0"
+            }
+          ],
+          "dispatch_operand": "36578E",
+          "command": "365801",
+          "shop_id": 30,
+          "stock_offset": "157784",
+          "items": [
+            "6A",
+            "FA",
+            "59",
+            "5A",
+            "C6",
+            "F3"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "02",
+          "name": "Ours en peluche",
+          "price": 178,
+          "help_root": "053750",
+          "shop_ids": [
+            2
+          ]
+        },
+        {
+          "id": "03",
+          "name": "Super ours en peluche",
+          "price": 1198,
+          "help_root": "053761",
+          "shop_ids": [
+            21
+          ]
+        },
+        {
+          "id": "07",
+          "name": "Inhalateur",
+          "price": 148,
+          "help_root": "32A910",
+          "shop_ids": [
+            7,
+            8,
+            16
+          ]
+        },
+        {
+          "id": "11",
+          "name": "Batte en plastique",
+          "price": 21,
+          "help_root": "32A948",
+          "shop_ids": [
+            15
+          ]
+        },
+        {
+          "id": "12",
+          "name": "Batte en bois",
+          "price": 98,
+          "help_root": "32A97C",
+          "shop_ids": [
+            2,
+            15
+          ]
+        },
+        {
+          "id": "13",
+          "name": "Batte en aluminium",
+          "price": 700,
+          "help_root": "32A9BC",
+          "shop_ids": [
+            17
+          ]
+        },
+        {
+          "id": "14",
+          "name": "Batte à clous",
+          "price": 2850,
+          "help_root": "355D04",
+          "shop_ids": [
+            9
+          ]
+        },
+        {
+          "id": "1A",
+          "name": "Batte de champion",
+          "price": 480,
+          "help_root": "355C38",
+          "shop_ids": [
+            2,
+            17
+          ]
+        },
+        {
+          "id": "1B",
+          "name": "Bonnet",
+          "price": 350,
+          "help_root": "3574D4",
+          "shop_ids": [
+            17,
+            22
+          ]
+        },
+        {
+          "id": "1C",
+          "name": "Poêle",
+          "price": 450,
+          "help_root": "355DFB",
+          "shop_ids": [
+            22
+          ]
+        },
+        {
+          "id": "1D",
+          "name": "Poêle antiadhésive",
+          "price": 2760,
+          "help_root": "32AA08",
+          "shop_ids": [
+            9
+          ]
+        },
+        {
+          "id": "1F",
+          "name": "Bracelet claquant",
+          "price": 68,
+          "help_root": "357C0D",
+          "shop_ids": [
+            2,
+            15
+          ]
+        },
+        {
+          "id": "20",
+          "name": "Poêle épaisse",
+          "price": 770,
+          "help_root": "355E0B",
+          "shop_ids": [
+            27
+          ]
+        },
+        {
+          "id": "22",
+          "name": "Batte spirituelle",
+          "price": 920,
+          "help_root": "355CBB",
+          "shop_ids": [
+            27
+          ]
+        },
+        {
+          "id": "25",
+          "name": "Pistolet paralysant",
+          "price": 220,
+          "help_root": "355F89",
+          "shop_ids": [
+            3
+          ]
+        },
+        {
+          "id": "26",
+          "name": "Fusil à air",
+          "price": 680,
+          "help_root": "355FF0",
+          "shop_ids": [
+            19
+          ]
+        },
+        {
+          "id": "27",
+          "name": "Fusil à air Magnum",
+          "price": 850,
+          "help_root": "35603F",
+          "shop_ids": [
+            27
+          ]
+        },
+        {
+          "id": "28",
+          "name": "Pistolet artisanal",
+          "price": 2980,
+          "help_root": "356094",
+          "shop_ids": [
+            9
+          ]
+        },
+        {
+          "id": "29",
+          "name": "Poêle de luxe",
+          "price": 3670,
+          "help_root": "355E65",
+          "shop_ids": [
+            21
+          ]
+        },
+        {
+          "id": "2B",
+          "name": "Soupe aux champignons",
+          "price": 56,
+          "help_root": "3566B9",
+          "shop_ids": [
+            9
+          ]
+        },
+        {
+          "id": "2C",
+          "name": "Chocolat chaud",
+          "price": 21,
+          "help_root": "356676",
+          "shop_ids": [
+            22
+          ]
+        },
+        {
+          "id": "2D",
+          "name": "Bottes de pluie",
+          "price": 1320,
+          "help_root": "357E86",
+          "shop_ids": [
+            9
+          ]
+        },
+        {
+          "id": "2E",
+          "name": "Fusée-jouet en kit",
+          "price": 298,
+          "help_root": "3578BA",
+          "shop_ids": [
+            3,
+            19
+          ]
+        },
+        {
+          "id": "2F",
+          "name": "Maquette de fusée",
+          "price": 498,
+          "help_root": "357950",
+          "shop_ids": [
+            21
+          ]
+        },
+        {
+          "id": "32",
+          "name": "Lance-pierre",
+          "price": 52,
+          "help_root": "356194",
+          "shop_ids": [
+            15
+          ]
+        },
+        {
+          "id": "33",
+          "name": "Boomerang",
+          "price": 410,
+          "help_root": "3561C5",
+          "shop_ids": [
+            2,
+            17
+          ]
+        },
+        {
+          "id": "38",
+          "name": "Charme de cristal",
+          "price": 750,
+          "help_root": "053D00",
+          "shop_ids": [
+            27
+          ]
+        },
+        {
+          "id": "39",
+          "name": "Pendentif de pluie",
+          "price": 700,
+          "help_root": "32AB38",
+          "shop_ids": [
+            12
+          ]
+        },
+        {
+          "id": "3A",
+          "name": "Pendentif de flamme",
+          "price": 700,
+          "help_root": "32ABE0",
+          "shop_ids": [
+            12
+          ]
+        },
+        {
+          "id": "3B",
+          "name": "Pendentif de terre",
+          "price": 700,
+          "help_root": "32AC50",
+          "shop_ids": [
+            12
+          ]
+        },
+        {
+          "id": "4A",
+          "name": "Casquette",
+          "price": 20,
+          "help_root": "053F58",
+          "shop_ids": [
+            15
+          ]
+        },
+        {
+          "id": "4E",
+          "name": "Ruban",
+          "price": 240,
+          "help_root": "054055",
+          "shop_ids": [
+            22
+          ]
+        },
+        {
+          "id": "58",
+          "name": "Biscuit",
+          "price": 7,
+          "help_root": "054106",
+          "shop_ids": [
+            13
+          ]
+        },
+        {
+          "id": "59",
+          "name": "Sachet de frites",
+          "price": 8,
+          "help_root": "356536",
+          "shop_ids": [
+            4,
+            30
+          ]
+        },
+        {
+          "id": "5A",
+          "name": "Hamburger",
+          "price": 14,
+          "help_root": "35658B",
+          "shop_ids": [
+            4,
+            30
+          ]
+        },
+        {
+          "id": "5C",
+          "name": "Oeuf frais",
+          "price": 12,
+          "help_root": "05416D",
+          "shop_ids": [
+            28
+          ]
+        },
+        {
+          "id": "5D",
+          "name": "Panier-repas",
+          "price": 24,
+          "help_root": "054197",
+          "shop_ids": [
+            24,
+            28
+          ]
+        },
+        {
+          "id": "5E",
+          "name": "Maïs grillé",
+          "price": 28,
+          "help_root": "357F06",
+          "shop_ids": [
+            28
+          ]
+        },
+        {
+          "id": "66",
+          "name": "Croissant",
+          "price": 18,
+          "help_root": "0544AF",
+          "shop_ids": [
+            13,
+            24
+          ]
+        },
+        {
+          "id": "67",
+          "name": "Petit pain",
+          "price": 12,
+          "help_root": "0544C6",
+          "shop_ids": [
+            5,
+            13,
+            24
+          ]
+        },
+        {
+          "id": "6A",
+          "name": "Jus de fruits",
+          "price": 4,
+          "help_root": "3565AF",
+          "shop_ids": [
+            4,
+            5,
+            13,
+            18,
+            24,
+            28,
+            30
+          ]
+        },
+        {
+          "id": "6C",
+          "name": "Boisson énergétique",
+          "price": 38,
+          "help_root": "3565F7",
+          "shop_ids": [
+            5,
+            13,
+            18,
+            24
+          ]
+        },
+        {
+          "id": "6D",
+          "name": "Crème de vie",
+          "price": 294,
+          "help_root": "356755",
+          "shop_ids": [
+            7,
+            8,
+            9,
+            16,
+            22,
+            27
+          ]
+        },
+        {
+          "id": "6E",
+          "name": "Bouteille d'eau",
+          "price": 4,
+          "help_root": "054733",
+          "shop_ids": [
+            15
+          ]
+        },
+        {
+          "id": "76",
+          "name": "Sachet de ketchup",
+          "price": 2,
+          "help_root": "054842",
+          "shop_ids": [
+            29
+          ]
+        },
+        {
+          "id": "7B",
+          "name": "Sauce piquante",
+          "price": 3,
+          "help_root": "054892",
+          "shop_ids": [
+            29
+          ]
+        },
+        {
+          "id": "7C",
+          "name": "Sachet de sel",
+          "price": 2,
+          "help_root": "0548A2",
+          "shop_ids": [
+            29
+          ]
+        },
+        {
+          "id": "7D",
+          "name": "Sachet de sucre",
+          "price": 3,
+          "help_root": "35806B",
+          "shop_ids": [
+            29
+          ]
+        },
+        {
+          "id": "7E",
+          "name": "Sauce spéciale",
+          "price": 300,
+          "help_root": "0548FC",
+          "shop_ids": [
+            29
+          ]
+        },
+        {
+          "id": "81",
+          "name": "Herbe magique",
+          "price": 30,
+          "help_root": "356942",
+          "shop_ids": [
+            10,
+            12
+          ]
+        },
+        {
+          "id": "8C",
+          "name": "Règle",
+          "price": 2,
+          "help_root": "356A83",
+          "shop_ids": [
+            3
+          ]
+        },
+        {
+          "id": "93",
+          "name": "Bombe",
+          "price": 149,
+          "help_root": "356C5E",
+          "shop_ids": [
+            19
+          ]
+        },
+        {
+          "id": "95",
+          "name": "Insecticide",
+          "price": 20,
+          "help_root": "356D6E",
+          "shop_ids": [
+            7,
+            8,
+            16
+          ]
+        },
+        {
+          "id": "96",
+          "name": "Accélérateur de rouille",
+          "price": 89,
+          "help_root": "054FA2",
+          "shop_ids": [
+            16
+          ]
+        },
+        {
+          "id": "A5",
+          "name": "Fiole de sérum",
+          "price": 20,
+          "help_root": "356E8D",
+          "shop_ids": [
+            7,
+            8,
+            16
+          ]
+        },
+        {
+          "id": "A6",
+          "name": "Banane",
+          "price": 5,
+          "help_root": "357C58",
+          "shop_ids": [
+            28
+          ]
+        },
+        {
+          "id": "AD",
+          "name": "Bain de bouche",
+          "price": 175,
+          "help_root": "356F5C",
+          "shop_ids": [
+            22
+          ]
+        },
+        {
+          "id": "AE",
+          "name": "Yaourt à la truite",
+          "price": 975,
+          "help_root": "356F97",
+          "shop_ids": [
+            18,
+            24
+          ]
+        },
+        {
+          "id": "AF",
+          "name": "Pain",
+          "price": 30,
+          "help_root": "356FD8",
+          "shop_ids": [
+            5,
+            9,
+            13,
+            18,
+            22,
+            24,
+            27
+          ]
+        },
+        {
+          "id": "B4",
+          "name": "Billet de concert",
+          "price": 350,
+          "help_root": "32AEB0",
+          "shop_ids": [
+            21
+          ]
+        },
+        {
+          "id": "BD",
+          "name": "Brique de crème",
+          "price": 4,
+          "help_root": "358100",
+          "shop_ids": [
+            29
+          ]
+        },
+        {
+          "id": "C2",
+          "name": "Herbe secrète",
+          "price": 380,
+          "help_root": "3581F1",
+          "shop_ids": [
+            8
+          ]
+        },
+        {
+          "id": "C4",
+          "name": "Brique de lait",
+          "price": 4,
+          "help_root": "3582E5",
+          "shop_ids": [
+            13
+          ]
+        },
+        {
+          "id": "C5",
+          "name": "Brin de persil",
+          "price": 2,
+          "help_root": "358349",
+          "shop_ids": [
+            29
+          ]
+        },
+        {
+          "id": "C6",
+          "name": "Hamburger au fromage",
+          "price": 26,
+          "help_root": "3583AE",
+          "shop_ids": [
+            4,
+            30
+          ]
+        },
+        {
+          "id": "C7",
+          "name": "Pomme croquante",
+          "price": 15,
+          "help_root": "357DE3",
+          "shop_ids": [
+            28
+          ]
+        },
+        {
+          "id": "C8",
+          "name": "Poire juteuse",
+          "price": 15,
+          "help_root": "357E39",
+          "shop_ids": [
+            28
+          ]
+        },
+        {
+          "id": "D5",
+          "name": "Batte pro",
+          "price": 3870,
+          "help_root": "055EBB",
+          "shop_ids": [
+            21
+          ]
+        },
+        {
+          "id": "D7",
+          "name": "Rayon laser",
+          "price": 1000,
+          "help_root": "35734D",
+          "shop_ids": [
+            19
+          ]
+        },
+        {
+          "id": "D8",
+          "name": "Rayon plasma",
+          "price": 3899,
+          "help_root": "3573D9",
+          "shop_ids": [
+            19
+          ]
+        },
+        {
+          "id": "DD",
+          "name": "Pièce de paix",
+          "price": 460,
+          "help_root": "357482",
+          "shop_ids": [
+            10
+          ]
+        },
+        {
+          "id": "DE",
+          "name": "Corde",
+          "price": 39,
+          "help_root": "357492",
+          "shop_ids": [
+            3
+          ]
+        },
+        {
+          "id": "DF",
+          "name": "Pièce protectrice",
+          "price": 3000,
+          "help_root": "357515",
+          "shop_ids": [
+            10
+          ]
+        },
+        {
+          "id": "E0",
+          "name": "Pièce magique",
+          "price": 6000,
+          "help_root": "357537",
+          "shop_ids": [
+            10
+          ]
+        },
+        {
+          "id": "E3",
+          "name": "Bracelet de fée",
+          "price": 460,
+          "help_root": "357547",
+          "shop_ids": [
+            11
+          ]
+        },
+        {
+          "id": "E4",
+          "name": "Bracelet de chérubin",
+          "price": 3500,
+          "help_root": "357557",
+          "shop_ids": [
+            11
+          ]
+        },
+        {
+          "id": "E5",
+          "name": "Bracelet de déesse",
+          "price": 6300,
+          "help_root": "357567",
+          "shop_ids": [
+            11
+          ]
+        },
+        {
+          "id": "E8",
+          "name": "Couteau de survie",
+          "price": 900,
+          "help_root": "3575E7",
+          "shop_ids": [
+            21
+          ]
+        },
+        {
+          "id": "E9",
+          "name": "Couteau à beurre",
+          "price": 520,
+          "help_root": "32AFA8",
+          "shop_ids": [
+            21
+          ]
+        },
+        {
+          "id": "EA",
+          "name": "Bague répulsive",
+          "price": 122,
+          "help_root": "3576ED",
+          "shop_ids": [
+            3,
+            11
+          ]
+        },
+        {
+          "id": "F3",
+          "name": "Burger de luxe",
+          "price": 98,
+          "help_root": "0565BC",
+          "shop_ids": [
+            30
+          ]
+        },
+        {
+          "id": "FA",
+          "name": "Tasse de café",
+          "price": 6,
+          "help_root": "358400",
+          "shop_ids": [
+            4,
+            30
+          ]
+        }
+      ]
+    },
+    "profiles": {
+      "accents": {
+        "input_patch_sha256": "1fe31a72c95a9f80221df2daf5136b0b626b3912810f7c2704e7cce70400b404",
+        "input_rom_sha256": "19eba1049964c592961b142fb6721a42a540aecc971deea4b00eda6703028412",
+        "input_records_added": 318,
+        "records": [
+          {
+            "offset": "053D10",
+            "hex": "708699a495a3a39550919393a2a595"
+          },
+          {
+            "offset": "053F68",
+            "hex": "707c9f979f50949550a49f9e50b0a1a599a09550a0a2b096b0a2b0955e5050"
+          },
+          {
+            "offset": "054184",
+            "hex": "7076a29199a35095a450939891a5945051"
+          },
+          {
+            "offset": "0541AE",
+            "hex": "7071a6959350a49f9e5097b5a49591a550a0a2b096b0a2b0505150"
+          },
+          {
+            "offset": "054905",
+            "hex": "70be509d95a4a4a29550a3a5a250a59e50a09c91a45e50"
+          },
+          {
+            "offset": "05491E",
+            "hex": "70729f9e9e955091a6959350a49fa5a450a09c91a45c505050"
+          },
+          {
+            "offset": "054939",
+            "hex": "70a2959e969fa2939550a395a350a39f999ea35e505050"
+          },
+          {
+            "offset": "054FAB",
+            "hex": "70829fa5999c9c95509c95a350959e9e959d99a3509db0a4919c9c99a1a595a35e505050"
+          },
+          {
+            "offset": "054FD1",
+            "hex": "70759ea699a29f9e506260605094b097b5a4a35e5050"
+          },
+          {
+            "offset": "055ECB",
+            "hex": "707495509c9150a2b0a3999e9550a0a295a3a1a595509aa5a3a1a55791a550929fa5a4505150505050"
+          },
+          {
+            "offset": "056B5D",
+            "hex": "859e509a9f9c99509e9fa59e9fa5a2a351"
+          },
+          {
+            "offset": "056BC5",
+            "hex": "7080a29fa4b19795509495509c9150a091a2919ca9a399955e"
+          },
+          {
+            "offset": "056C6D",
+            "hex": "7071939395a3a39f99a2955095a8939ca5a39996509495a3a4999eb050b450"
+          },
+          {
+            "offset": "056D63",
+            "hex": "708391a5a09fa594a29550a49f9e50a09c91a45e50"
+          },
+          {
+            "offset": "056D7A",
+            "hex": "70859e50929f9e509db09c919e979550a39f99979e95509d9995a5a85e505050"
+          }
+        ]
+      },
+      "ascii": {
+        "input_patch_sha256": "c7578d0e671ddb6eb3667dbcaca14fc7d968bb142ba674e362ff48a3ea1b9045",
+        "input_rom_sha256": "4ffb25e2984940791cb949d90097ac57cb434cb35663d7998621977ff9562ac3",
+        "input_records_added": 318,
+        "records": [
+          {
+            "offset": "053D10",
+            "hex": "708699a495a3a39550919393a2a595"
+          },
+          {
+            "offset": "053F68",
+            "hex": "707c9f979f50949550a49f9e5095a1a599a09550a0a2959695a295955e5050"
+          },
+          {
+            "offset": "054184",
+            "hex": "7076a29199a35095a450939891a5945051"
+          },
+          {
+            "offset": "0541AE",
+            "hex": "7071a6959350a49f9e509791a49591a550a0a2959695a295505150"
+          },
+          {
+            "offset": "054905",
+            "hex": "7071509d95a4a4a29550a3a5a250a59e50a09c91a45e50"
+          },
+          {
+            "offset": "05491E",
+            "hex": "70729f9e9e955091a6959350a49fa5a450a09c91a45c505050"
+          },
+          {
+            "offset": "054939",
+            "hex": "70a2959e969fa2939550a395a350a39f999ea35e505050"
+          },
+          {
+            "offset": "054FAB",
+            "hex": "70829fa5999c9c95509c95a350959e9e959d99a3509d95a4919c9c99a1a595a35e505050"
+          },
+          {
+            "offset": "054FD1",
+            "hex": "70759ea699a29f9e506260605094959791a4a35e5050"
+          },
+          {
+            "offset": "055ECB",
+            "hex": "707495509c9150a295a3999e9550a0a295a3a1a595509aa5a3a1a55791a550929fa5a4505150505050"
+          },
+          {
+            "offset": "056B5D",
+            "hex": "859e509a9f9c99509e9fa59e9fa5a2a351"
+          },
+          {
+            "offset": "056BC5",
+            "hex": "7080a29fa4959795509495509c9150a091a2919ca9a399955e"
+          },
+          {
+            "offset": "056C6D",
+            "hex": "7071939395a3a39f99a2955095a8939ca5a39996509495a3a4999e95509150"
+          },
+          {
+            "offset": "056D63",
+            "hex": "708391a5a09fa594a29550a49f9e50a09c91a45e50"
+          },
+          {
+            "offset": "056D7A",
+            "hex": "70859e50929f9e509d959c919e979550a39f99979e95509d9995a5a85e505050"
+          }
+        ]
+      }
+    }
   }
 }

@@ -1,33 +1,46 @@
 # Reprise — lot V78 en cours, cible 150 textes distincts
 
-**V77 reste publiée sur main. Poursuivre le même lot V78.** Branche synchronisée : `work/v78-batch150`. Compteur exact : **99 traductions distinctes / cible 150**, dans **137 plages physiques**. Le checkpoint précédent en contenait 81 : 18 sources distinctes nouvelles dans cette reprise. Oui/Non répétés, salutations répétées et profils accents/ASCII ne gonflent pas le compteur. Le texte source Sell est compté une fois, avec Oui dans le service médical et Vendre dans la boutique.
+**V77 reste publiée sur main. Continuer le même lot V78 avant publication.** Branche de checkpoint : `work/v78-batch150`. Compteur exact : **114 traductions distinctes / cible 150**, **152 plages physiques**. Cette reprise ajoute 15 sources distinctes au checkpoint de 99 textes. Un texte partagé entre plusieurs objets ou profils est compté une seule fois ; aucun nom propre, débogage ou texte dormant n'a été ajouté pour faire du volume.
 
-Le train `36DCD5` affiche les devis 11/20/36/48 $ puis accepte le refus sans débit dans les deux profils. Les scripts `25B08C`, `25B0D4`, `25B11C`, `25B164` et `251A50` sont réellement superposés à des pixels de sprites : ils sont copiés en blocs protégés, avec commandes, mots et définitions de choix indivisibles. Seuls leurs cinq appelants explicites sont redirigés. La banque 25, la table PNJ et les empreintes des sprites restent inchangées.
+Les aides restantes sont reliées à **82 identifiants d'objets dans les stocks de 25 wrappers PNJ personnalisés** : flag du wrapper → branche `3656DC` → commande `1A 06` → ligne de sept objets à partir de `1576B2` → table d'objets et pointeur d'aide. Huit listes de stocks sont relues en émulateur ; les autres liens sont statiques. Deux objets portent le nom Fiole de sérum : **A5 coûte 20 $ dans la pharmacie, 70 coûte 58 $**. Ne pas les confondre ni présenter A5 comme 70. Les résultats antérieurs utilisant 70 gardent cet identifiant.
 
-Autres corrections : Youngtown, Papa, inquiétude, confirmation de nom, yaourt à la truite, solde/remise d'argent, singe et clé du zoo, aide de la Fiole de sérum, sept salutations d'hôtel et choix Acheter/Vendre. Les menus généraux restent pour la phase suivante. L'allocation du lot atteint 3 159 octets : 55 initiaux + 2 323 médicaux + 781 pour les restes ; 318 enregistrements IPS ajoutés par profil.
+Quinze plages sont remplacées en place : Charme de cristal/vitesse et paralysie, Casquette, Œuf frais, Panier-repas, Sauce spéciale, Accélérateur de rouille, Batte pro, Ours en peluche, Ruban et conseils communs aux condiments. `item_help_stage.py` garde les mots et commandes en place, sans allocation supplémentaire ni réécriture de pointeur. Le lot total conserve 3 159 octets alloués et ajoute 333 enregistrements aux IPS V77. Commandes, sprites, banque25 et table PNJ préservés.
 
-**Validation actuelle : 28 tests ciblés V78/V77/V65 réussis avec la ROM privée** (12 + 8 + 8). Le checkpoint à 99 textes possède 166 nouvelles paires V77/V78, 66 différences textuelles seulement et 37 060 images échantillonnées. Les 146 paires du checkpoint médical à 81 textes restent conservées avec leurs empreintes exactes ; elles ne sont pas présentées comme des captures du nouvel IPS. Les tests reconstruisent cet ancien état pour les vérifier.
+**Validation : 30 tests ciblés réussis avec ROM privée** (14 V78 + 8 V77 + 8 V65). Hors ROM : 8 tests V78 réussis, 6 ignorés explicitement. **164 nouvelles paires V77/V78**, dont 46 changements dans les fenêtres de texte, 36 456 images échantillonnées, vingt cas par profil. Aides et huit stocks sont relus dans les deux profils ; aucun achat, équipement, consommation ou effet de soin n'est certifié. Les entrées sont forcées via la carte bancaire, sans préparation d'objet ni écriture directe WRAM. Les PNG et résultats nouveaux sont dans `tests/emulation_v78_help`.
 
-Tous les accès initiaux sont forcés par une commande native via la carte bancaire, sans écriture directe WRAM. Préparations natives déclarées : flag0339 pour la quatrième destination, flag0376 pour le père et don de la clé AB pour le singe. Train : devis et refus vérifiés, aucun trajet certifié. Père : Non mène à la proposition de noter le nom ; le nom n'est pas saisi. Solde/remise : branches intérieures, aucun retrait effectif certifié. Youngtown : la phrase est relue, mais l'appel dans la chambre provoque ensuite une animation hors contexte ; Papa et Crois en nous restent statiques. Hôtel : salutation seulement, pas de nuit payée. La boutique montre Acheter/Vendre puis la carte protégée, sans vente conclue. Les scripts médicaux non parcourus, maladies et soins effectifs restent statiques.
-
-Sorties finales nouvelles : `/workspace/scratch/98c4eaa3ef23/current_v78_remaining_retained`, référence `/workspace/scratch/98c4eaa3ef23/reference_v78_remaining_retained`. Les premiers essais `*_v78_remaining` sont exclus : appel direct de devis hors contexte et mauvais rythme des touches. Les essais `*_v78_remaining_final` ont été remplacés pour corriger le choix du père et ouvrir le vrai sélecteur Acheter/Vendre. Preuves nouvelles publiables dans `tests/emulation_v78_remaining`.
+Les anciennes preuves gardent leurs empreintes : 146 paires au checkpoint de 81 textes, 166 paires au checkpoint de 99 textes. Les tests reconstruisent ces deux IPS antérieurs avant de vérifier leurs captures ; ne pas présenter ces images comme celles de l'IPS actuel à 114 textes. Les devis et refus des quatre destinations restent acquis, sans voyage naturel certifié.
 
 **Reste concret avant menus :**
-- `0911ED–091212` reste anglais, garde-fou sur le pointeur intérieur `0911F0` à qualifier. Les deux occurrences brutes `0047F0` et `00706A` ressemblent à BEQ +$11 suivi de CMP dans du code 65816 ; piste détaillée dans `tools/v78/alias_0911f0_notes.json`. La qualification CPU complète reste à faire, le garde-fou est conservé. Ne pas le supprimer pour faire du volume.
-- Helpers partagés `387AA2` (Your/possessif), `387B19` (you/you all/you two) et articles `38B532–38B54F` : traiter par contexte et sans casser les appels déjà français.
-- Qualifier les aides d'objets via les stocks réellement affichés et leurs scripts : Fiole ID70 traitée ; Accélérateur de rouille proposé par la boutique est une nouvelle piste légitime (`054FD1`), contrairement aux objets hérités seulement présents dans la table.
-- Limites du coursier de dépôt, services à plusieurs personnages, branches intérieures conservées, vrai parcours des scènes et du générique restent à établir. Ne pas répéter les audits acquis sans raison nouvelle.
-- Atteindre environ 150 seulement avec de vrais textes restants ; poursuivre ce lot au prochain checkpoint. Les 51 manquants sont un objectif de taille, pas 51 restes déjà prouvés.
+- Bouteille d'eau ID6E : `05473C–054758` reste anglais. Une référence brute entre au milieu à `054743`, occurrence `3C8B3F` ; rôle à qualifier avant modification. L'anglais visible dans `water_guarded` est volontairement conservé comme preuve du reste.
+- Message médical `0911ED–091212` toujours anglais. Les deux occurrences brutes de `0911F0` (`0047F0`, `00706A`) ressemblent à des instructions BEQ/CMP ; voir `alias_0911f0_notes.json`. Qualification CPU complète encore requise ; ne pas supprimer les garde-fous globalement.
+- Helpers `387AA2` (Your/possessif), `387B19` (you/you all/you two), articles `38B532–38B54F` : qualifier les appelants et traiter par contexte sans casser le français existant.
+- Limites du coursier, services avec plusieurs personnages, anciennes branches intérieures conservées et vrais parcours des scènes/générique. Puis menus généraux et relecture complète.
+- Environ 36 sources manquent pour la taille de lot souhaitée ; ce nombre n'est pas un inventaire déjà prouvé. Continuer ce même lot sans nouvelle release après ce sous-ensemble.
 
-Audit élargi actualisé : 1 080 graines, 4 475 racines, zéro erreur de parsing, 237 candidats à qualifier dans `tools/v78/active_text_candidates.json`. Les mots courts Care/Buy/Sell/Welcome/Bye ont été ajoutés au filtre après découverte de ses omissions. Le relevé inclut toujours héritage, débogage et aides sans usage établi ; aucun pourcentage global.
+Le contrôle ciblé `qualified_help_remaining.json` visite 106 racines pour les aides des 82 objets de boutique. Il reste une plage originale de plus de neuf caractères : la bouteille d'eau, zéro erreur d'analyse. Le seuil omet volontairement les fragments courts ; ce résultat ne prouve pas la fin de tous les textes du jeu. L'audit général actualisé contient 226 candidats sur 4 475 racines et 1 080 graines, sans erreur, avec héritage et débogage à exclure.
 
-Dépendances privées : ROM et cœur décrits dans l'historique V74, états post-repos `reference_v71_lodging/{accents,ascii}/accept/handoff.state`. Conserver les preuves médicales précédentes `validated_v78_words` / `reference_v77_words`. Ne publier ni ROM, cœur, état, ni dump. Voir `RAPPORT_V78_CHECKPOINT.md` et `tools/v78/README_V78.md`.
+Sorties finales nouvelles : `/workspace/scratch/98c4eaa3ef23/current_v78_help_final` et référence `/workspace/scratch/98c4eaa3ef23/reference_v78_help_final`. Les essais initiaux `*_v78_help` exposaient encore les helpers partagés : remplacés. Anciennes sorties médicales et trains conservées selon les rapports. ROM/cœur privés décrits dans l'historique V74 ; états post-repos `reference_v71_lodging/{accents,ascii}/accept/handoff.state`. Ne publier ni ROM, cœur, états, ni dumps.
 
-Liste exacte des sources distinctes et de toutes leurs implantations (pour les copies de banque25, offsets source conservés dans le registre ; destinations dans les fixtures) :
+Voir `RAPPORT_V78_AIDES_CHECKPOINT.md` (état actuel) et `RAPPORT_V78_CHECKPOINT.md` (historique à 99 textes). Registre exact des sources et implantations ; les destinations des copies de banque25 sont détaillées dans les fixtures :
 
 | Source distincte | Français | Offsets |
 |---|---|---|
+| @It also increases your Speed. | @Vitesse accrue | 053D10 |
+| @It has the logo of your favorite baseball team. | @Logo de ton équipe préférée. | 053F68 |
+| @So fresh, it's still warm! | @Frais et chaud ! | 054184 |
+| @There's even a slice of your favorite cake! | @Avec ton gâteau préféré ! | 0541AE |
 | @This is the best thing to take when you get poisoned. | @Idéal contre le poison. | 054792 |
+| @Use by sprinkling it over food. | @À mettre sur un plat. | 054905 |
+| @It tastes good with any kind of food, thereby | @Bonne avec tout plat, | 05491E |
+| @increasing the recovery power of the food. | @renforce ses soins. | 054939 |
+| @Quickly rusts metallic enemies when used during battle. | @Rouille les ennemis métalliques. | 054FAB |
+| @The enemy will take about 200 points of damage. | @Environ 200 dégâts. | 054FD1 |
+| @Wow! Look at the pine tar! It's almost all the way to the end! | @De la résine presque jusqu'au bout ! | 055ECB |
+| A cute teddy bear! | Un joli nounours! | 056B5D |
+| @It protects you from paralysis attacks. | @Protège de la paralysie. | 056BC5 |
+| @Miscellaneous equipment that can only be used by  | @Accessoire exclusif destiné à  | 056C6D |
+| @To use, sprinkle over food. | @Saupoudre ton plat. | 056D63 |
+| @A good combination increases the strength of your recovery. | @Un bon mélange soigne mieux. | 056D7A |
 | @I can examine each one of you for $ | @L'examen vous coûte $ | 090FF0 |
 | Yes, please | Oui, merci | 091016 |
 | No, thanks | Non, merci | 091024 |

@@ -58,6 +58,8 @@ def build(rom,out):
  from medical_stage import extend
  plan=extend(source,out,plan,fixtures)
  from remaining_stage import extend as extend_remaining
- return extend_remaining(source,out,plan,fixtures)
+ plan=extend_remaining(source,out,plan,fixtures)
+ from item_help_stage import extend as extend_help
+ return extend_help(source,out,plan,fixtures)
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,default=ROOT/'patches');a=ap.parse_args();print(json.dumps(build(a.rom,a.out),indent=2))

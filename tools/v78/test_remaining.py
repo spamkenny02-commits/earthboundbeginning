@@ -50,8 +50,10 @@ class RemainingRom(unittest.TestCase):
     for a,z,payload in sorted(expansions):
      if root<=a<z<=q['end']:flat.extend(normalized[cursor:a]);flat.extend(payload);cursor=z
     flat.extend(normalized[cursor:q['end']]);self.assertEqual(b.commands(bytes(flat)),b.commands(base[root:q['end']]))
+   # These captures retain the exact 99-text checkpoint, before item-help edits.
+   all_records=b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v78_{p}.ips').read_bytes());count=len(b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v77_{p}.ips').read_bytes()))+load('tools/v78/v78_fixtures.json')['item_help']['profiles'][p]['input_records_added'];snapshot=b.apply(self.source,all_records[:count]);self.assertEqual(b.sha(snapshot),load('tools/v78/v78_fixtures.json')['item_help']['profiles'][p]['input_rom_sha256'])
    for c in load(f'tests/emulation_v78_remaining/results_{p}.json')['cases'].values():
-    self.assertEqual(b.sha(final),c['base_rom_sha256']);fixture=bytearray(final)
+    self.assertEqual(b.sha(snapshot),c['base_rom_sha256']);fixture=bytearray(snapshot)
     for w in c['temporary_rom_writes']:
      a=int(w['offset'],16);raw=bytes.fromhex(w['hex']);fixture[a:a+len(raw)]=raw
     self.assertEqual(b.sha(fixture),c['fixture_rom_sha256'])

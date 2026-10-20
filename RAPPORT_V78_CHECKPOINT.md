@@ -1,5 +1,7 @@
 # V78 — checkpoint à 99 textes, lot de 150 en cours
 
+Historique du checkpoint à 99 textes. L'état actuel à 114 textes est décrit dans RAPPORT_V78_AIDES_CHECKPOINT.md et REPRISE_TRADUCTION.md.
+
 99 sources distinctes sont traduites par rapport à V77, dans 137 plages physiques. Cette reprise ajoute 18 sources nouvelles ; les choix partagés et profils ne gonflent pas le compteur. Sell était déjà traduit par Oui dans un service médical : sa nouvelle variante Vendre ne compte pas comme un nouveau texte. Registre complet : REPRISE_TRADUCTION.md et tools/v78/batch_ledger.json. V77 reste publiée sur main, V78 reste un lot en cours.
 
 Les nouvelles corrections portent sur train, Youngtown, père de Lloyd, confirmation de nom, inquiétude, yaourt à la truite, solde/remise d'argent, singe/clé du zoo, Fiole de sérum, salutations d'hôtel et choix Acheter/Vendre. Les menus généraux ne sont pas encore abordés.

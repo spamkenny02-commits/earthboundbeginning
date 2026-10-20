@@ -35,4 +35,4 @@ def collect(current,reference,sheets=None,dest=None):
    im.save(sheets/f'sheet_{start//20}.png')
  return len(caps)
 if __name__=='__main__':
- ap=argparse.ArgumentParser();ap.add_argument('--current',type=Path,required=True);ap.add_argument('--reference',type=Path,required=True);ap.add_argument('--sheets',type=Path);ap.add_argument('--remaining',action='store_true');a=ap.parse_args();print(collect(a.current,a.reference,a.sheets,ROOT/'tests/emulation_v78_remaining' if a.remaining else None))
+ ap=argparse.ArgumentParser();ap.add_argument('--current',type=Path,required=True);ap.add_argument('--reference',type=Path,required=True);ap.add_argument('--sheets',type=Path);group=ap.add_mutually_exclusive_group();group.add_argument('--remaining',action='store_true');group.add_argument('--help-text',action='store_true');a=ap.parse_args();dest=ROOT/'tests/emulation_v78_help' if a.help_text else ROOT/'tests/emulation_v78_remaining' if a.remaining else None;print(collect(a.current,a.reference,a.sheets,dest))

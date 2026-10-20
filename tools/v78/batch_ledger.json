@@ -1,15 +1,135 @@
 {
   "version": "v78",
   "release_pending": true,
-  "distinct_texts": 99,
-  "physical_spans": 137,
+  "distinct_texts": 114,
+  "physical_spans": 152,
   "target": 150,
   "entries": [
+    {
+      "source": "@It also increases your Speed.",
+      "french": "@Vitesse accrue",
+      "offsets": [
+        "053D10"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@It has the logo of your favorite baseball team.",
+      "french": "@Logo de ton équipe préférée.",
+      "offsets": [
+        "053F68"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@So fresh, it's still warm!",
+      "french": "@Frais et chaud !",
+      "offsets": [
+        "054184"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@There's even a slice of your favorite cake!",
+      "french": "@Avec ton gâteau préféré !",
+      "offsets": [
+        "0541AE"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
     {
       "source": "@This is the best thing to take when you get poisoned.",
       "french": "@Idéal contre le poison.",
       "offsets": [
         "054792"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Use by sprinkling it over food.",
+      "french": "@À mettre sur un plat.",
+      "offsets": [
+        "054905"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@It tastes good with any kind of food, thereby",
+      "french": "@Bonne avec tout plat,",
+      "offsets": [
+        "05491E"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@increasing the recovery power of the food.",
+      "french": "@renforce ses soins.",
+      "offsets": [
+        "054939"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Quickly rusts metallic enemies when used during battle.",
+      "french": "@Rouille les ennemis métalliques.",
+      "offsets": [
+        "054FAB"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@The enemy will take about 200 points of damage.",
+      "french": "@Environ 200 dégâts.",
+      "offsets": [
+        "054FD1"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Wow! Look at the pine tar! It's almost all the way to the end!",
+      "french": "@De la résine presque jusqu'au bout !",
+      "offsets": [
+        "055ECB"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "A cute teddy bear!",
+      "french": "Un joli nounours!",
+      "offsets": [
+        "056B5D"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@It protects you from paralysis attacks.",
+      "french": "@Protège de la paralysie.",
+      "offsets": [
+        "056BC5"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Miscellaneous equipment that can only be used by ",
+      "french": "@Accessoire exclusif destiné à ",
+      "offsets": [
+        "056C6D"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@To use, sprinkle over food.",
+      "french": "@Saupoudre ton plat.",
+      "offsets": [
+        "056D63"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@A good combination increases the strength of your recovery.",
+      "french": "@Un bon mélange soigne mieux.",
+      "offsets": [
+        "056D7A"
       ],
       "validation": "static; runtime coverage is case-specific"
     },

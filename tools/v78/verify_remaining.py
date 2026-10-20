@@ -3,8 +3,8 @@ import hashlib,json
 from pathlib import Path
 from PIL import Image,ImageChops
 ROOT=Path(__file__).resolve().parents[2]
-def verify():
- count=changed=frames=0;declared=set();dest=ROOT/'tests/emulation_v78_remaining';comparison=json.loads((dest/'comparison_v77.json').read_text())
+def verify(dest=None):
+ count=changed=frames=0;declared=set();dest=dest or ROOT/'tests/emulation_v78_remaining';comparison=json.loads((dest/'comparison_v77.json').read_text())
  for p in ('accents','ascii'):
   report=json.loads((dest/f'results_{p}.json').read_text());pairs=comparison[p]['comparisons'];captures=[cap for c in report['cases'].values() for cap in c['captures']];assert len(pairs)==len(captures);frames+=sum(c['sampled_frames'] for c in report['cases'].values())
   for pair,cap in zip(pairs,captures):

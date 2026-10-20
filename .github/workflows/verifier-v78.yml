@@ -16,3 +16,4 @@ jobs:
       - run: python3 -m unittest discover -s tools/v78 -v
       - run: python3 tools/v78/verify_display.py
       - run: python3 tools/v78/verify_remaining.py
+      - run: python3 tools/v78/verify_help.py
