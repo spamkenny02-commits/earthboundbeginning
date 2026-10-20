@@ -1,5 +1,7 @@
 # Avancement estimé
 
+V77 : treize fragments anglais et un accord français corrigés pour le désert, les billets et le chameau. 48 captures/comparaisons et 23 tests ciblés réussis. Choix Oui et refus/reprise du chameau vérifiés ; accès forcés, achat/location/vol non prouvés. Six candidats demeurent dans le relevé direct actualisé de 181 racines ; ce nombre ne mesure pas la couverture totale. Prochains : maison hantée et singes, puis menus et validation complète.
+
 V76 : six plages de Pippi traduites sans allocation ; 34 captures/comparaisons et 23 tests ciblés réussis. Entrée complète et trois branches isolées contrôlées artificiellement, sans accès naturel certifié. Le mineur `3738F8` est le prochain candidat ; menus et parcours complet restent à terminer, sans taux global.
 
 V75 : sept fragments du canari et de la mélodie traduits, dont deux choix Oui/Non. Dix essais contrôlés, 42 captures/comparaisons, 24 tests ciblés réussis. Refus réellement sélectionnés après correction des premières séquences exploratoires exclues. Pas de restitution du petit, d'apprentissage de mélodie ni d'accès naturel certifié ; Pippi est le prochain candidat. Menus et parcours complet restants, sans taux global.

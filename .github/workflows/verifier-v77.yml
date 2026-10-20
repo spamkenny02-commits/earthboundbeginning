@@ -1,0 +1,17 @@
+name: Verify V77 desert translation offline
+on:
+  push:
+    paths: ['tools/v77/**', 'tests/emulation_v77/**', 'patches/*v77*', '.github/workflows/verifier-v77.yml']
+  pull_request:
+    paths: ['tools/v77/**', 'tests/emulation_v77/**', 'patches/*v77*', '.github/workflows/verifier-v77.yml']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install Pillow
+      - run: python3 -m unittest discover -s tools/v77 -v
+      - run: python3 tools/v77/verify_display.py

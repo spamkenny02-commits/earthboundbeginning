@@ -1,0 +1,596 @@
+{
+  "accents": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "miner",
+        "before_path": "tests/emulation_v77/reference_v76/accents/miner/page_00.png",
+        "after_path": "tests/emulation_v77/accents/miner/page_00.png",
+        "before_png_sha256": "27c9e25b0cc77f96c765fc8a0944d095bed1817e38dec0f75cae36c040784161",
+        "before_rgb_sha256": "708793a01495713f229eb3cc97fc9b3b088e15d81a8d5ee878666da73fc11c45",
+        "after_rgb_sha256": "1957244cfbe9ac400514040619e966c1e7c79f2af4e4ad6b9c336173fc71197b",
+        "bbox": [
+          110,
+          17,
+          230,
+          42
+        ]
+      },
+      {
+        "case": "miner",
+        "before_path": "tests/emulation_v77/reference_v76/accents/miner/page_01.png",
+        "after_path": "tests/emulation_v77/accents/miner/page_01.png",
+        "before_png_sha256": "bfcdc020c447ba1d89705b645bd6732965ab2cfe55527dbbd3c94b4a8a9dfb04",
+        "before_rgb_sha256": "468a301adbf252a6f85b5c3e4d249062396c1b3c8b5cbdd89528dd1acb600f67",
+        "after_rgb_sha256": "d1fbd54f16283ef6d0b8ae21f8e8f12208ec611b61c1a1e3bf4b3572091f9d0f",
+        "bbox": [
+          110,
+          18,
+          232,
+          61
+        ]
+      },
+      {
+        "case": "miner",
+        "before_path": "tests/emulation_v77/reference_v76/accents/miner/page_02.png",
+        "after_path": "tests/emulation_v77/accents/miner/page_02.png",
+        "before_png_sha256": "b6f52f50dc733da67adfe7beba0c2e2c2d11c77d37b9aa531733315c60bfc542",
+        "before_rgb_sha256": "e00af78ffa41188a2269154be52beb30edcd72ff77ee63101c3c4250ecd478af",
+        "after_rgb_sha256": "94a48d48b0ae9e4784f6238beadc43a8da61271c20d7e1cf6ecfdffcac903e39",
+        "bbox": [
+          110,
+          18,
+          225,
+          29
+        ]
+      },
+      {
+        "case": "miner",
+        "before_path": "tests/emulation_v77/reference_v76/accents/miner/page_03.png",
+        "after_path": "tests/emulation_v77/accents/miner/page_03.png",
+        "before_png_sha256": "cab4963f6efa92b962172d233029309c524f4c6cfa8c0e576cee12ad74c4cc55",
+        "before_rgb_sha256": "8a8456ad57ec47b9c8c4f55ba90d25d228ebeb88b7cf5418366ab69e484793b2",
+        "after_rgb_sha256": "8a8456ad57ec47b9c8c4f55ba90d25d228ebeb88b7cf5418366ab69e484793b2",
+        "bbox": null
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_yes/page_00.png",
+        "after_path": "tests/emulation_v77/accents/camel_yes/page_00.png",
+        "before_png_sha256": "bd0e41cc7325e9a87ef5455aa71ff1704d44f64508d50d0235dd775bb4d2d00f",
+        "before_rgb_sha256": "d6dde02b3aba387d49fe7756a1e08ceb74a936d2b9190bf043d6fc55ac7e0137",
+        "after_rgb_sha256": "d6dde02b3aba387d49fe7756a1e08ceb74a936d2b9190bf043d6fc55ac7e0137",
+        "bbox": null
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_yes/page_01.png",
+        "after_path": "tests/emulation_v77/accents/camel_yes/page_01.png",
+        "before_png_sha256": "5a38de340723e4823f17071514e4a7fb66e9b2f6d7391c066fbb92d87f7ec87d",
+        "before_rgb_sha256": "7e24dad822b23f27cb444ab44d3682e892dc0897927b0d9665130a73a2fb5ba3",
+        "after_rgb_sha256": "aab4265559cbef6a4637f4a11133c853d04f7ac3e303b7c1325e8ed4f676c9db",
+        "bbox": [
+          110,
+          18,
+          236,
+          58
+        ]
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_yes/page_02.png",
+        "after_path": "tests/emulation_v77/accents/camel_yes/page_02.png",
+        "before_png_sha256": "7d05dbb878c9fdf180ffe18420cfa2ca8dbc5c454f871c2d09d815cc5c0c27e8",
+        "before_rgb_sha256": "9c55f20a6b89638bcbf4b9b6af83a001d6a4ff0ddf409b65f4847dc09cd40b37",
+        "after_rgb_sha256": "8ac8d6bf172b7a8e362cdcb3513f82627739632641c947d134ba3adc8227d0c7",
+        "bbox": [
+          110,
+          18,
+          195,
+          26
+        ]
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_yes/page_03.png",
+        "after_path": "tests/emulation_v77/accents/camel_yes/page_03.png",
+        "before_png_sha256": "518c682b079400bd88e1aa52205cdd9671417c4f97cfc1d6e634d8952315b47e",
+        "before_rgb_sha256": "56e0fbfec3ee6abbb3a233d1e2ab6db7ff6257c3f2c2d4aa25a123ababe06568",
+        "after_rgb_sha256": "56e0fbfec3ee6abbb3a233d1e2ab6db7ff6257c3f2c2d4aa25a123ababe06568",
+        "bbox": null
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_yes/page_04.png",
+        "after_path": "tests/emulation_v77/accents/camel_yes/page_04.png",
+        "before_png_sha256": "7c46f69afc1274a175417e64acbab0d96e4b14e620fabf29847f0ae65779edd9",
+        "before_rgb_sha256": "2a684d1e783310bab2f2e443773a73e7f0433cca7e052068cc8c7279a9861d75",
+        "after_rgb_sha256": "2a684d1e783310bab2f2e443773a73e7f0433cca7e052068cc8c7279a9861d75",
+        "bbox": null
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_yes/page_05.png",
+        "after_path": "tests/emulation_v77/accents/camel_yes/page_05.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_no_then_yes/page_00.png",
+        "after_path": "tests/emulation_v77/accents/camel_no_then_yes/page_00.png",
+        "before_png_sha256": "bd0e41cc7325e9a87ef5455aa71ff1704d44f64508d50d0235dd775bb4d2d00f",
+        "before_rgb_sha256": "d6dde02b3aba387d49fe7756a1e08ceb74a936d2b9190bf043d6fc55ac7e0137",
+        "after_rgb_sha256": "d6dde02b3aba387d49fe7756a1e08ceb74a936d2b9190bf043d6fc55ac7e0137",
+        "bbox": null
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_no_then_yes/page_01.png",
+        "after_path": "tests/emulation_v77/accents/camel_no_then_yes/page_01.png",
+        "before_png_sha256": "5a38de340723e4823f17071514e4a7fb66e9b2f6d7391c066fbb92d87f7ec87d",
+        "before_rgb_sha256": "7e24dad822b23f27cb444ab44d3682e892dc0897927b0d9665130a73a2fb5ba3",
+        "after_rgb_sha256": "aab4265559cbef6a4637f4a11133c853d04f7ac3e303b7c1325e8ed4f676c9db",
+        "bbox": [
+          110,
+          18,
+          236,
+          58
+        ]
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_no_then_yes/page_02.png",
+        "after_path": "tests/emulation_v77/accents/camel_no_then_yes/page_02.png",
+        "before_png_sha256": "f16842d72f0230585ad0a653e1613e7b23a9e218470345fcf4d89d81b634b090",
+        "before_rgb_sha256": "fe60ae69c091e032f5d970c7fd000ac6136c825f1a4aaf21a22ee5e7c3233959",
+        "after_rgb_sha256": "ce0eed2a29382549b38daf191de3d9639a10df171a08390bf4705237ce74c6db",
+        "bbox": [
+          110,
+          18,
+          195,
+          26
+        ]
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_no_then_yes/page_03.png",
+        "after_path": "tests/emulation_v77/accents/camel_no_then_yes/page_03.png",
+        "before_png_sha256": "3d01f58acdb0fff3f37423cc10af3cd1e933b3f516e1fc1da74ed0744f9f6d80",
+        "before_rgb_sha256": "761dedb34d5627d4add3a5c263ad17ee39ed6fd86e563e717980ade70298f635",
+        "after_rgb_sha256": "dbe785977fc211c778da91eccd9c6aa2feaf60676f0fb39a7ebd05c9ccbd4859",
+        "bbox": [
+          110,
+          33,
+          224,
+          58
+        ]
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_no_then_yes/page_04.png",
+        "after_path": "tests/emulation_v77/accents/camel_no_then_yes/page_04.png",
+        "before_png_sha256": "8f591ecb64f4982ba78b9048e32763950441ea6f10b83c064e806b9338dce476",
+        "before_rgb_sha256": "7c1e45da6e423330b09f1d41b4b9c8638d79062fa186921a6c14cff7c3ea5a5a",
+        "after_rgb_sha256": "ec6da78b0284ac997be6686566e8e401f72617adbac3fe7fb05e6f9e1f02507f",
+        "bbox": [
+          110,
+          17,
+          224,
+          29
+        ]
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_no_then_yes/page_05.png",
+        "after_path": "tests/emulation_v77/accents/camel_no_then_yes/page_05.png",
+        "before_png_sha256": "518c682b079400bd88e1aa52205cdd9671417c4f97cfc1d6e634d8952315b47e",
+        "before_rgb_sha256": "56e0fbfec3ee6abbb3a233d1e2ab6db7ff6257c3f2c2d4aa25a123ababe06568",
+        "after_rgb_sha256": "56e0fbfec3ee6abbb3a233d1e2ab6db7ff6257c3f2c2d4aa25a123ababe06568",
+        "bbox": null
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_no_then_yes/page_06.png",
+        "after_path": "tests/emulation_v77/accents/camel_no_then_yes/page_06.png",
+        "before_png_sha256": "7c46f69afc1274a175417e64acbab0d96e4b14e620fabf29847f0ae65779edd9",
+        "before_rgb_sha256": "2a684d1e783310bab2f2e443773a73e7f0433cca7e052068cc8c7279a9861d75",
+        "after_rgb_sha256": "2a684d1e783310bab2f2e443773a73e7f0433cca7e052068cc8c7279a9861d75",
+        "bbox": null
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/accents/camel_no_then_yes/page_07.png",
+        "after_path": "tests/emulation_v77/accents/camel_no_then_yes/page_07.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "ticket_text",
+        "before_path": "tests/emulation_v77/reference_v76/accents/ticket_text/page_00.png",
+        "after_path": "tests/emulation_v77/accents/ticket_text/page_00.png",
+        "before_png_sha256": "3813821170a33ca4c4874143bb23e9615260a7e56f4e295dc94a1a3dd5035091",
+        "before_rgb_sha256": "e2ffa8d492f49bf902e04380848b2eac29d31bbe48d2b652992d156e3785b8be",
+        "after_rgb_sha256": "997352cd486aa277bcb11fc2fd582f73715a56d13177aa7dedd7ba5c8e39e350",
+        "bbox": [
+          110,
+          18,
+          192,
+          45
+        ]
+      },
+      {
+        "case": "ticket_text",
+        "before_path": "tests/emulation_v77/reference_v76/accents/ticket_text/page_01.png",
+        "after_path": "tests/emulation_v77/accents/ticket_text/page_01.png",
+        "before_png_sha256": "a0bf8ccda36d1edd4234f47edeb67c92b5ba6726d4e92a9d9a54232470e025d4",
+        "before_rgb_sha256": "cafb4d59bb091fdf14e39354caddfdcbe4bbe3e69dee9416226573f7c412fcfb",
+        "after_rgb_sha256": "eeeac2710a1c6b4f943c88dabb3e2d7ce1158f6cc8fa0d4c5cbdf293ad089705",
+        "bbox": [
+          110,
+          18,
+          229,
+          58
+        ]
+      },
+      {
+        "case": "ticket_text",
+        "before_path": "tests/emulation_v77/reference_v76/accents/ticket_text/page_02.png",
+        "after_path": "tests/emulation_v77/accents/ticket_text/page_02.png",
+        "before_png_sha256": "561fcc7397c5519795e7497cdaa6d6dae8d3ab46dcebcc39e77623720f13def0",
+        "before_rgb_sha256": "ddc47b625c6dafa53d2e1df6c5d91c1a0a32585f6e5fba1e32e7b9542e4f3148",
+        "after_rgb_sha256": "afded9d677fd2f39c998619c446dab6b0f086ebf304e526fa5ef895d7a02b5f6",
+        "bbox": [
+          110,
+          20,
+          229,
+          42
+        ]
+      },
+      {
+        "case": "ticket_text",
+        "before_path": "tests/emulation_v77/reference_v76/accents/ticket_text/page_03.png",
+        "after_path": "tests/emulation_v77/accents/ticket_text/page_03.png",
+        "before_png_sha256": "82911d145f1357c7a8e59b3103fb101fb86969b1ab682026895303766d5e49df",
+        "before_rgb_sha256": "a1590a78e98fd7c00df80f62d5c9c7360f93740ca83f38a23f9eb9626788c4c6",
+        "after_rgb_sha256": "0f25c0e305d220a86ac9650defd12ba1a9043deb19c6c59255ccff8baedc9f45",
+        "bbox": [
+          110,
+          18,
+          197,
+          26
+        ]
+      },
+      {
+        "case": "price_decline",
+        "before_path": "tests/emulation_v77/reference_v76/accents/price_decline/page_00.png",
+        "after_path": "tests/emulation_v77/accents/price_decline/page_00.png",
+        "before_png_sha256": "d76da546971c4611616569f0a66261e43eb83e25d9d37bb8b60859d73712b6bc",
+        "before_rgb_sha256": "7854d4470f7a384a48ef9c075f41b7a702f3a5b18a39daff614ab59aa05c18f0",
+        "after_rgb_sha256": "e44fe3612d42fae66b56bd98e32567345e73d6f994eafafd44d049637af2e2bb",
+        "bbox": [
+          107,
+          17,
+          227,
+          45
+        ]
+      },
+      {
+        "case": "price_decline",
+        "before_path": "tests/emulation_v77/reference_v76/accents/price_decline/page_01.png",
+        "after_path": "tests/emulation_v77/accents/price_decline/page_01.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      }
+    ]
+  },
+  "ascii": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "miner",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/miner/page_00.png",
+        "after_path": "tests/emulation_v77/ascii/miner/page_00.png",
+        "before_png_sha256": "d066ec13a252785408c9f554d098aba4926e450ee89deb92e7f6c6e47968053a",
+        "before_rgb_sha256": "368f3b6585e24181ba6844fd2f621c0a90bbe62be05dcc51ee50db726dbdb555",
+        "after_rgb_sha256": "964235dc895146a524bb19b3ea5d3133bc4d1fd9881d6ac92e030657266c4fc5",
+        "bbox": [
+          110,
+          17,
+          230,
+          42
+        ]
+      },
+      {
+        "case": "miner",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/miner/page_01.png",
+        "after_path": "tests/emulation_v77/ascii/miner/page_01.png",
+        "before_png_sha256": "48fa10e5d2ee422993f08eb56857d94396b8b8d65c00146ff81497e436324e2e",
+        "before_rgb_sha256": "9b40310c68377fd604ac0dab39f0cff5f20f1b986e3b03e908bde7b747a858e1",
+        "after_rgb_sha256": "b2aa15a9ae85524b57c696d841ba7c1826955daeec366f560e433e543f1ddbe2",
+        "bbox": [
+          110,
+          18,
+          232,
+          61
+        ]
+      },
+      {
+        "case": "miner",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/miner/page_02.png",
+        "after_path": "tests/emulation_v77/ascii/miner/page_02.png",
+        "before_png_sha256": "ffe2a0abe8667ce1d043e280c35cbadb486adcb4327f24cc82f4a9e7f3eed36e",
+        "before_rgb_sha256": "3abdde815346e13c9e15002b4fb6cd4f7961de66e92c6511f9a939ef69a4681c",
+        "after_rgb_sha256": "9ab011ffc4f05ab6ef7ac3ae9fc1ae18b765bdffa2f2ec9dc19f2b3ac0be469c",
+        "bbox": [
+          110,
+          18,
+          225,
+          29
+        ]
+      },
+      {
+        "case": "miner",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/miner/page_03.png",
+        "after_path": "tests/emulation_v77/ascii/miner/page_03.png",
+        "before_png_sha256": "806c3acbfdca2b3a7ec20e24d916d557c2ca6742ae1f85090bd1b74ee0350064",
+        "before_rgb_sha256": "c15b6f6bf4396ca90d96674758246619b0fc1fef26439365d624d3958c637a19",
+        "after_rgb_sha256": "c15b6f6bf4396ca90d96674758246619b0fc1fef26439365d624d3958c637a19",
+        "bbox": null
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_yes/page_00.png",
+        "after_path": "tests/emulation_v77/ascii/camel_yes/page_00.png",
+        "before_png_sha256": "90f6cfd06cbd5644287d36965c2bf96d3b7aa6a1e299b1ba3ab91f6c1402e2ec",
+        "before_rgb_sha256": "21c5db513b3b27d6402ef2830197eaad28bcf179a6eb76fb8381c547f95b70f0",
+        "after_rgb_sha256": "21c5db513b3b27d6402ef2830197eaad28bcf179a6eb76fb8381c547f95b70f0",
+        "bbox": null
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_yes/page_01.png",
+        "after_path": "tests/emulation_v77/ascii/camel_yes/page_01.png",
+        "before_png_sha256": "28d85b0e1bd6651e2d10c7d2227c90fa10a73e1fbbdecace1688d2f88db50837",
+        "before_rgb_sha256": "528fa32760ce3b94938652ea13a4166f2aa080d4aa9c315af7734088b7333e6f",
+        "after_rgb_sha256": "cb3f5115fa5dae71cd7f7e1d67e24dcafedfabb6dd5484cf8b43827d402e7fcd",
+        "bbox": [
+          110,
+          18,
+          236,
+          58
+        ]
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_yes/page_02.png",
+        "after_path": "tests/emulation_v77/ascii/camel_yes/page_02.png",
+        "before_png_sha256": "c025e9fb11b5dbd32d9d3f666e928143f5fc28dca27d984404e0fa283c5d6ad8",
+        "before_rgb_sha256": "abb7972c9c7612dd9fe78269145c33965abf930b533b8cb4af81fac0de138164",
+        "after_rgb_sha256": "ad5581ad7d5e22b2e00c80f8804ca3b4610067b520422a8d68a077227822ccb8",
+        "bbox": [
+          110,
+          18,
+          195,
+          26
+        ]
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_yes/page_03.png",
+        "after_path": "tests/emulation_v77/ascii/camel_yes/page_03.png",
+        "before_png_sha256": "ecb6194b90c7a8f4b9fa8180098df8107f4a1972f36d41e5badb9d6d46c6dfbc",
+        "before_rgb_sha256": "0fd7c7ea49db172e1010807cc7568afc27b30bd700efbbb0caa9e295a7e1e65a",
+        "after_rgb_sha256": "0fd7c7ea49db172e1010807cc7568afc27b30bd700efbbb0caa9e295a7e1e65a",
+        "bbox": null
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_yes/page_04.png",
+        "after_path": "tests/emulation_v77/ascii/camel_yes/page_04.png",
+        "before_png_sha256": "a023fa37003f8e8f8cdc8aed00c431e54af1eeed855f9ff3f1fa5b79cd4fcb45",
+        "before_rgb_sha256": "074e516d9eecc1c91ef5b2555e956a9e7ace845b8a13773c8c0c6f2c5d4ded81",
+        "after_rgb_sha256": "074e516d9eecc1c91ef5b2555e956a9e7ace845b8a13773c8c0c6f2c5d4ded81",
+        "bbox": null
+      },
+      {
+        "case": "camel_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_yes/page_05.png",
+        "after_path": "tests/emulation_v77/ascii/camel_yes/page_05.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_no_then_yes/page_00.png",
+        "after_path": "tests/emulation_v77/ascii/camel_no_then_yes/page_00.png",
+        "before_png_sha256": "90f6cfd06cbd5644287d36965c2bf96d3b7aa6a1e299b1ba3ab91f6c1402e2ec",
+        "before_rgb_sha256": "21c5db513b3b27d6402ef2830197eaad28bcf179a6eb76fb8381c547f95b70f0",
+        "after_rgb_sha256": "21c5db513b3b27d6402ef2830197eaad28bcf179a6eb76fb8381c547f95b70f0",
+        "bbox": null
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_no_then_yes/page_01.png",
+        "after_path": "tests/emulation_v77/ascii/camel_no_then_yes/page_01.png",
+        "before_png_sha256": "28d85b0e1bd6651e2d10c7d2227c90fa10a73e1fbbdecace1688d2f88db50837",
+        "before_rgb_sha256": "528fa32760ce3b94938652ea13a4166f2aa080d4aa9c315af7734088b7333e6f",
+        "after_rgb_sha256": "cb3f5115fa5dae71cd7f7e1d67e24dcafedfabb6dd5484cf8b43827d402e7fcd",
+        "bbox": [
+          110,
+          18,
+          236,
+          58
+        ]
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_no_then_yes/page_02.png",
+        "after_path": "tests/emulation_v77/ascii/camel_no_then_yes/page_02.png",
+        "before_png_sha256": "5a5d366e9de81014aae267a1df81e41579214c6dd8fdc0ed479f3b8070f7e747",
+        "before_rgb_sha256": "d413dab1cc4082d7a6c4e5c0d9d3ede23bee5891d0cdd8b973fdb62d3e1a53cb",
+        "after_rgb_sha256": "404b3c1fca4ebad4945a068ad5b119dae56a3442592c12e38d2e3a3364eb382c",
+        "bbox": [
+          110,
+          18,
+          195,
+          26
+        ]
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_no_then_yes/page_03.png",
+        "after_path": "tests/emulation_v77/ascii/camel_no_then_yes/page_03.png",
+        "before_png_sha256": "4fbb222e875bb4a8790ab32a8439d97f70834b9b3f490ccce836d72dada64b8b",
+        "before_rgb_sha256": "36b9dccb09a09b0137f0af32084b0dc2ffdd0baeb9e7dc72208ba8aa5ca81d95",
+        "after_rgb_sha256": "86285e6d5dee9d12781d77356788ceefd248476f26ce374948f0cf227ccfaa32",
+        "bbox": [
+          110,
+          33,
+          224,
+          58
+        ]
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_no_then_yes/page_04.png",
+        "after_path": "tests/emulation_v77/ascii/camel_no_then_yes/page_04.png",
+        "before_png_sha256": "47a04de7d25656b1294e80624ee95dae43245b9436edec6517771e3d45e4d3e0",
+        "before_rgb_sha256": "20493c67ab280d617dbe2a7f56a098c18ab564eb481f40ce6789d298882faa27",
+        "after_rgb_sha256": "2c9b7b801ccdb45364ba10a823474c785a361505c55d953f904ca1864a79de80",
+        "bbox": [
+          110,
+          17,
+          224,
+          29
+        ]
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_no_then_yes/page_05.png",
+        "after_path": "tests/emulation_v77/ascii/camel_no_then_yes/page_05.png",
+        "before_png_sha256": "ecb6194b90c7a8f4b9fa8180098df8107f4a1972f36d41e5badb9d6d46c6dfbc",
+        "before_rgb_sha256": "0fd7c7ea49db172e1010807cc7568afc27b30bd700efbbb0caa9e295a7e1e65a",
+        "after_rgb_sha256": "0fd7c7ea49db172e1010807cc7568afc27b30bd700efbbb0caa9e295a7e1e65a",
+        "bbox": null
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_no_then_yes/page_06.png",
+        "after_path": "tests/emulation_v77/ascii/camel_no_then_yes/page_06.png",
+        "before_png_sha256": "a023fa37003f8e8f8cdc8aed00c431e54af1eeed855f9ff3f1fa5b79cd4fcb45",
+        "before_rgb_sha256": "074e516d9eecc1c91ef5b2555e956a9e7ace845b8a13773c8c0c6f2c5d4ded81",
+        "after_rgb_sha256": "074e516d9eecc1c91ef5b2555e956a9e7ace845b8a13773c8c0c6f2c5d4ded81",
+        "bbox": null
+      },
+      {
+        "case": "camel_no_then_yes",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/camel_no_then_yes/page_07.png",
+        "after_path": "tests/emulation_v77/ascii/camel_no_then_yes/page_07.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "ticket_text",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/ticket_text/page_00.png",
+        "after_path": "tests/emulation_v77/ascii/ticket_text/page_00.png",
+        "before_png_sha256": "aa1f1dd2a8afd139a32cfd41247ef964e85c6f532ed2346ee18abb4866e28364",
+        "before_rgb_sha256": "055eee605ddbc00354830c9f8b0a759c3148d635be0b089c81866bcc366f6b20",
+        "after_rgb_sha256": "2fea9f70255abd0dfccd7e7f8809a8a0d11895011c3eda0d8f7333964fc49dc5",
+        "bbox": [
+          110,
+          18,
+          192,
+          45
+        ]
+      },
+      {
+        "case": "ticket_text",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/ticket_text/page_01.png",
+        "after_path": "tests/emulation_v77/ascii/ticket_text/page_01.png",
+        "before_png_sha256": "f04e7a2df46dd4e787bf1fee126fe5f69f6e3b70b836285789796a28c2ca887d",
+        "before_rgb_sha256": "b1abfc09b77e8b6c6c1324cc52f39a42cc04a89897fd4daf1ddfb3e2c2785b60",
+        "after_rgb_sha256": "994fe90d8c6a4811044598a7929d2db3858a5c6ae6d9b58feff6605eec0f2c1a",
+        "bbox": [
+          110,
+          18,
+          229,
+          58
+        ]
+      },
+      {
+        "case": "ticket_text",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/ticket_text/page_02.png",
+        "after_path": "tests/emulation_v77/ascii/ticket_text/page_02.png",
+        "before_png_sha256": "54be261841f83254aab759fb6e3ffad657bc14f08c3935686a5d371d31784929",
+        "before_rgb_sha256": "3839cca21ecc3fd93a850381d52e478d2a85be17f39ee0bddacebed234b7c590",
+        "after_rgb_sha256": "88ec6620eacfd677cdf880cacf881716f412e9006b884f37461fad0c94a1aa77",
+        "bbox": [
+          110,
+          20,
+          229,
+          42
+        ]
+      },
+      {
+        "case": "ticket_text",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/ticket_text/page_03.png",
+        "after_path": "tests/emulation_v77/ascii/ticket_text/page_03.png",
+        "before_png_sha256": "0296f48fb2ab6a2f9b66f4305161bccb48fcf5efcd8dcb585af606e4d48337f1",
+        "before_rgb_sha256": "ba03d9eca4644983028a315bafd92c88caec49eb4e4ba04de7c17e5e0ec48099",
+        "after_rgb_sha256": "c0234daa005037b56d72021a37012ded59aec808dce855675bac183f79a2f234",
+        "bbox": [
+          110,
+          18,
+          197,
+          26
+        ]
+      },
+      {
+        "case": "price_decline",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/price_decline/page_00.png",
+        "after_path": "tests/emulation_v77/ascii/price_decline/page_00.png",
+        "before_png_sha256": "31a1c340a3304065cc6e263bdf871c4c52c89a3453c84b1688b2ca31bdd18b55",
+        "before_rgb_sha256": "816efee44fc349dd6df0678790676561e554fa30dcb0a5befff54a3420af99a6",
+        "after_rgb_sha256": "f0b552d2feda8899dc0f17fda5ea26610447ca04c560cfe64c3211224fa5f72d",
+        "bbox": [
+          107,
+          17,
+          227,
+          45
+        ]
+      },
+      {
+        "case": "price_decline",
+        "before_path": "tests/emulation_v77/reference_v76/ascii/price_decline/page_01.png",
+        "after_path": "tests/emulation_v77/ascii/price_decline/page_01.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      }
+    ]
+  }
+}

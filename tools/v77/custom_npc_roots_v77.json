@@ -1,0 +1,78 @@
+{
+  "version": "v77",
+  "scope": "direct NPC roots in [36BB00,3F0000), no recursive closure",
+  "profile": "accents",
+  "custom_roots_examined": 181,
+  "natural_access_verified": false,
+  "language_classification_verified": false,
+  "pattern": "\\b(you|your|what|please|i'm|don't|we|would|can|yes|no|isn't)\\b",
+  "candidates": [
+    {
+      "root": "36EB50",
+      "npc_references": [
+        {
+          "npc": 411,
+          "field": 9,
+          "operand": "203CFC"
+        }
+      ],
+      "text": "@Tu as visité la maison hantée de Spookane?      | Yes | No"
+    },
+    {
+      "root": "376ABE",
+      "npc_references": [
+        {
+          "npc": 904,
+          "field": 9,
+          "operand": "205DB9"
+        }
+      ],
+      "text": "@Mokiki Mokuki? | @(Huh, |  what?) | @Uka Kia Kei? | @(Do I look like a monkey?) | Yes | No"
+    },
+    {
+      "root": "376BB7",
+      "npc_references": [
+        {
+          "npc": 905,
+          "field": 9,
+          "operand": "205DCA"
+        }
+      ],
+      "text": "@Aki akiak. | @(Cool down, dude.) | @Akiu ako kui? | @(Are you so serious all the time?) | Yes | No"
+    },
+    {
+      "root": "377108",
+      "npc_references": [
+        {
+          "npc": 908,
+          "field": 9,
+          "operand": "205DFD"
+        }
+      ],
+      "text": "@Muku Mukii Mukei. Mukoi? | @(I've got a good story to tell you.) | @(Want to hear it?) | Yes | No"
+    },
+    {
+      "root": "37D45C",
+      "npc_references": [
+        {
+          "npc": 550,
+          "field": 9,
+          "operand": "204637"
+        }
+      ],
+      "text": "@Triangle de Mislay: entrée.       |   Watch out! | @(Incredibly enough, you found somebody's  |  right under the sign!)"
+    },
+    {
+      "root": "380A2A",
+      "npc_references": [
+        {
+          "npc": 927,
+          "field": 9,
+          "operand": "205F40"
+        }
+      ],
+      "text": "@(Climb into the rocket?) | Yes | No"
+    }
+  ],
+  "unparsed_roots": []
+}

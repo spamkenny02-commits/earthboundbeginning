@@ -1,4 +1,6 @@
-# Suite des textes après V76 (Pippi)
+# Suite des textes après V77 (désert)
+
+V77 traduit treize fragments anglais du mineur, des billets/char et du chameau, et corrige l'accord des mines au féminin. Cinq cas par profil, 48 captures relues/comparées. Mineur et chameau : entrées complètes forcées ; billets et prix : branches directes, achat/location/vol non certifiés. Le relevé direct actualisé `tools/v77/custom_npc_roots_v77.json` conserve six candidats sur 181 racines, sans erreur d'analyse : **prochain lot, maison hantée `36EB50`/411 puis singes `376ABE`/904, `376BB7`/905, `377108`/908** ; ensuite panneau `37D45C` et fusée `380A2A`. Ce relevé limité n'est pas un taux global. Services restants, menus, générique et parcours naturel restent à finir. Voir `RAPPORT_V77.md`. Les paragraphes suivants sont historiques.
 
 V76 traduit six plages de Pippi `386B63`/PNJ 319 : présentation, retrouvailles, reconnaissance dynamique à Podunk, secret et matin. Quatre scénarios par profil, 34 captures relues/comparées. Entrée complète et branches intérieures forcées ; accès naturel non prouvé. **Prochain lot concret : mineur `3738F8`/PNJ 210**, puis chameau `374307`/894 et autres candidats historiques non traités. Canari, Pippi et revente ne sont plus des restes. Menus, autres services et parcours complet restent à finir. Voir `RAPPORT_V76.md`. Les paragraphes suivants sont historiques.
 

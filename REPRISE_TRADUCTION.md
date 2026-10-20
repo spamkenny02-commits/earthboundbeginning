@@ -1,4 +1,14 @@
-# Reprise — V76, Pippi
+# Reprise — V77, désert et chameau
+
+V77 est le patch actuel : treize fragments anglais traduits, un accord français corrigé ; treize plages fixes et un pont Non, 15 enregistrements ajoutés. Mineur `3738F8`/PNJ 210, billet/char `373C34`, prix `373CD8`, chameau `374307`/894 et relance `374409`. Le Non `374357` saute vers `328DBC` (11 octets), retour `37435C` ; la reprise `374351` utilise la même définition. Commandes dépliées, sprites, banque 25, table PNJ et créneau privé inchangés. Voir `RAPPORT_V77.md` et `tools/v77/README_V77.md`.
+
+Cinq cas par profil, 48 captures relues, 48 comparaisons V76/V77 dont 28 différences textuelles uniquement, 10 500 images échantillonnées ; 23 tests ciblés V77/V76/V65 réussis. Les entrées complètes du mineur et du chameau sont forcées. Non → relance → Oui du chameau réellement vérifié. Billet/char et prix sont des appels intérieurs : ne pas certifier achat, location, argent débité ou trajet. Le mineur s'arrête à la question d'itinéraire. Aucun accès naturel ni écriture WRAM directe.
+
+**Prochain lot concret : maison hantée `36EB50`/PNJ 411 puis singes `376ABE`/904, `376BB7`/905, `377108`/908**. Le relevé direct actualisé `tools/v77/custom_npc_roots_v77.json` contient 181 racines, zéro erreur et six candidats (les quatre ci-dessus, panneau `37D45C`, fusée `380A2A`). Il n'est ni récursif ni exhaustif et ne mesure pas un taux. Les anciennes lignes canari, Pippi, revente, mineur et chameau sont traitées. Restent services calculés/variantes, menus, générique et parcours naturel complet. Aucun 100 %.
+
+Checkpoint initial local `6e58b18`, branche `work/v77-desert-local` ; checkpoint validé `work/v77-desert-validated`. Sorties privées retenues `/workspace/scratch/98c4eaa3ef23/validated_v77`, référence `/workspace/scratch/98c4eaa3ef23/reference_v76_desert`. Dépendances ROM/cœur/états identiques à V76/V75 ci-dessous. Ne publier que patches, outils, résultats et PNG, jamais ROM/cœur/états/dumps.
+
+## Historique V76
 
 V76 est le patch actuel : six plages anglaises de Pippi remplacées en place, sans allocation, réécriture de pointeur ni changement de commandes. Racine `386B63`, PNJ 319 champ 9, opérande `2036E0`. Fermeture utile : `386B63`, `386BAD`, `386BC9`, `386C58`. Sprites, banque 25 et créneau privé inchangés. Voir `RAPPORT_V76.md` et `tools/v76/README_V76.md`.
 

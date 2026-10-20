@@ -1,6 +1,17 @@
 # EarthBound Beginnings SNES — traduction française
 
-## Version actuelle : V76 (Pippi)
+## Version actuelle : V77 (désert et chameau)
+
+Treize fragments anglais traduits et un accord français corrigé : mines, messages de billet/char, prix et choix Oui/Non du chameau. Cinq scénarios par profil, 48 captures relues/comparées et 23 tests ciblés réussis. Les accès sont contrôlés ; achat de billet, location et trajet restent à valider en situation réelle. Six candidats subsistent dans le relevé limité des PNJ personnalisés. Menus et parcours complet restent à terminer : aucun 100 % certifié.
+
+- [Patch V77 avec accents](patches/EarthBound_Beginnings_FR_v77_accents.ips)
+- [Patch V77 ASCII](patches/EarthBound_Beginnings_FR_v77_ascii.ips)
+- [Rapport V77 et limites](RAPPORT_V77.md)
+- [Sources et reproduction V77](tools/v77/README_V77.md)
+
+Appliquer **un seul IPS V77 directement à la ROM originale USA 1.2**. Les sections suivantes sont historiques.
+
+## Version précédente : V76 (Pippi)
 
 Six fragments anglais de Pippi traduits en place : présentation, retrouvailles, Podunk, secret et matin. Quatre scénarios par profil, 34 captures relues/comparées et 23 tests ciblés réussis. L'entrée complète et trois branches isolées sont appelées artificiellement ; aucune rencontre naturelle n'est certifiée. Le mineur `3738F8` est le prochain candidat. Menus et parcours complet restent à terminer : pas de 100 % certifié.
 
