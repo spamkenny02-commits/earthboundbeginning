@@ -1,5 +1,21 @@
 # Reprise — lot V78 en cours, cible 150 textes distincts
 
+**État actuel : 119 textes distincts / cible 150, 157 plages sources.** Même lot V78 sur `work/v78-batch150`, V77 reste publiée sur main. `context_grammar_stage.py` traduit trois sources partagées (table ci-dessous), sans nouvelle allocation ; huit enregistrements supplémentaires, total 377. Trois corrections françaises ne sont pas comptées comme de nouvelles traductions : préfixe du fils et deux majuscules après retrait du possessif redondant.
+
+| Source nouvelle | Français | Offset |
+|---|---|---|
+| you | toi | 387B2B |
+| you all | vous | 387B2F |
+| you two | vous | 387B37 |
+
+PNJ586 : racine `33FA7D`, chemin vers `32FCA0` puis `33FC4C` → unique appel de `387B19`. Le préfixe devient « Fiston se nomme comme » ; son saut est avancé de deux octets dans le même bloc pour éviter des espaces visibles et un point isolé à la ligne. Les helpers plurielles retournent juste après « vous », sans espaces avant le point ; leurs queues devenues inaccessibles sont nulles et n'ont aucune référence intérieure. PNJ1157 : racine `263B90` → `369D9B` / `369E9E` ; seules les deux insertions du possessif `387AA2` sont redirigées vers le retour vide existant `38B550`, car la phrase française dit déjà « notre aïeule ». Le helper original Your/nom's est intact.
+
+18 tests V78 avec ROM privée ; reconstruction déterministe vérifiée. Preuves `tests/emulation_v78_grammar` : 56 paires V77/V78, douze changements textuels seulement, 12 256 images échantillonnées, six cas par profil relus. Le premier choix conditionnel de PNJ586 est `06 B8 00` : préparation native flag00B8. Les variantes plurielles sont des appels artificiels du helper puis de la ponctuation/pause `33FC51`, pas des parties à deux/trois personnages. Les branches de Maria sont forcées ; aucun parcours naturel ni écriture WRAM certifié. Les captures antérieures 81/99/114/116 gardent leurs snapshots.
+
+**Prochain reste :** articles `38B52B–38B550`, dispatchs `38B551`, `38B56C`, `38B587`, à qualifier par appelant avant correction ; limites du coursier et plusieurs personnages ; anciennes branches et parcours naturels ; puis menus. Il manque 31 sources à la cible du lot, sans inventaire exhaustif déjà prouvé. Ne pas compter des corrections françaises, des noms propres ou des branches dormantes pour remplir la cible. Sorties privées retenues : `current_v78_grammar` / `reference_v78_grammar`. Rapport : `RAPPORT_V78_GRAMMAIRE_CHECKPOINT.md`.
+
+## Historique du checkpoint à 116 textes
+
 **État actuel : 116 textes distincts / cible 150, 154 plages sources.** V77 reste publiée sur main ; continuer le même lot V78 sur `work/v78-batch150`. Deux sources nouvelles, par copies contextuelles. La cible restante de 34 n'est pas un inventaire prouvé ; ne pas publier une release de deux textes.
 
 L'aide de la bouteille d'eau ID6E est redirigée depuis son champ `1560E5` vers `330CA8`. La continuation médicale après « Dans ce cas, » est redirigée depuis le saut `329025` vers `32FC98`. `scoped_help_stage.py` copie les commandes et garde chaque mot entier ; 272 octets de remplissage protégés supplémentaires, total 3 431, 369 enregistrements ajoutés aux IPS V77. Les originaux restent intacts, notamment `054743`/occurrence `3C8B3F` et `0911F0`/occurrences `0047F0`, `00706A`. Aucun garde-fou global levé.

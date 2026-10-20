@@ -19,6 +19,7 @@ def build():
  for e in f['remaining']['labels']:add(e['en'],e['fr'],e['offset'])
  for e in f.get('item_help',{}).get('entries',[]):add(e['en'],e['fr'],e['offset'])
  for e in f.get('scoped_help',{}).get('entries',[]):add(e['en'],e['fr'],e['offset'])
+ for e in f.get('context_grammar',{}).get('entries',[]):add(e['en'],e['fr'],e['offset'])
  for e in f['remaining']['menus']+f['remaining']['moved_scripts']:add('Yes','Oui',e['yes']);add('No','Non',e['no_definition'])
  rows=sorted(entries.values(),key=lambda e:min(e['offsets']));plan=json.loads((ROOT/'tools/v78/validation_v78.json').read_text());assert len(rows)==plan['distinct_new_translations'];assert sum(len(e['offsets']) for e in rows)==plan['changed_text_spans']
  return {'version':'v78','release_pending':True,'distinct_texts':len(rows),'physical_spans':plan['changed_text_spans'],'target':150,'entries':rows}

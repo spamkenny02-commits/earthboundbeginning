@@ -1,4 +1,10 @@
-# V78 — checkpoint à 116 textes, cible 150
+# V78 — checkpoint à 119 textes, cible 150
+
+context_grammar_stage.py ajoute trois sources partagées (you/toi, you all/vous, you two/vous) et trois corrections de français, non comptées comme traductions nouvelles. Deux insertions possessives dans Maria sont redirigées vers un retour vide existant ; le helper original est conservé. Le préfixe du fils est raccourci avec son saut déplacé dans le même bloc. Aucune allocation ; total 377 enregistrements ajoutés aux IPS V77, 119 sources / 157 plages sources.
+
+18 tests V78 avec ROM privée, reconstruction déterministe ; nouvelles preuves tests/emulation_v78_grammar : 56 paires, douze changements textuels, 12 256 images échantillonnées. Six cas par profil. Les variantes plurielles sont explicitement artificielles ; entrée PNJ586 forcée avec flag00B8, branches Maria forcées. Aucune progression naturelle certifiée. Les snapshots 81/99/114/116 restent reconstruits pour leurs anciennes preuves. Rapport actuel : RAPPORT_V78_GRAMMAIRE_CHECKPOINT.md ; suite : articles par appelant et services restants, puis menus.
+
+## Historique du checkpoint à 116 textes
 
 État actuel : 116 sources distinctes, 154 plages sources traitées. scoped_help_stage.py ajoute deux copies contextuelles après item_help_stage.py ; les originaux et alias intérieurs restent intacts. Aide ID6E : champ 1560E5 → 330CA8. Médical : retour du pont précédent 329025 → 32FC98. 272 octets protégés supplémentaires, 369 enregistrements ajoutés aux IPS V77.
 

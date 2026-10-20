@@ -1,8 +1,8 @@
 {
   "version": "v78",
   "release_pending": true,
-  "distinct_texts": 116,
-  "physical_spans": 154,
+  "distinct_texts": 119,
+  "physical_spans": 157,
   "target": 150,
   "entries": [
     {
@@ -934,6 +934,30 @@
       "french": "@Vérifie bien que c'est correct.",
       "offsets": [
         "386D46"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "you",
+      "french": "toi",
+      "offsets": [
+        "387B2B"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "you all",
+      "french": "vous",
+      "offsets": [
+        "387B2F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "you two",
+      "french": "vous",
+      "offsets": [
+        "387B37"
       ],
       "validation": "static; runtime coverage is case-specific"
     },

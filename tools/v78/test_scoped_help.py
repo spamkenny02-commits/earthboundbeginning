@@ -32,7 +32,7 @@ class ScopedRom(unittest.TestCase):
   for base in bases.values():targets.update(b.pointer_index(base))
   targets.update(range(0x330FC0,0x331000));reserves,_=safe_reserves(source,bases,{p:b.append(b'PATCH' + b'EOF',v) for p,v in prefixes.items()},targets,b.records)
   for p,base in bases.items():
-   records=b.records(ps[p]);target=b.apply(source,records);self.assertEqual(b.sha(base),f['profiles'][p]['input_rom_sha256']);self.assertEqual(b.sha(b.append(b'PATCHEOF',prefixes[p])),f['profiles'][p]['input_patch_sha256']);expected=[];seen=[]
+   records=b.records(ps[p]);cut=len(b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v77_{p}.ips').read_bytes()))+read('tools/v78/v78_fixtures.json')['context_grammar']['profiles'][p]['input_records_added'];target=b.apply(source,records[:cut]);self.assertEqual(b.sha(target),read('tools/v78/v78_fixtures.json')['context_grammar']['profiles'][p]['input_rom_sha256']);self.assertEqual(b.sha(base),f['profiles'][p]['input_rom_sha256']);self.assertEqual(b.sha(b.append(b'PATCHEOF',prefixes[p])),f['profiles'][p]['input_patch_sha256']);expected=[];seen=[]
    for e in f['entries']:
     root,a,z,end,caller=(int(e[k],16) for k in ('context','offset','end','context_end','caller'));body=base[root:a]+b.encode(e['fr'],p)+base[z:end];self.assertEqual(b.commands(body),b.commands(base[root:end]));self.assertEqual(target[root:end],base[root:end]);self.assertEqual(base[caller:caller+4],b.pointer(root));payload=bytearray();pos=0
     for i,c in enumerate(e['chunks']):
@@ -42,7 +42,7 @@ class ScopedRom(unittest.TestCase):
      self.assertEqual([f'{v:06X}' for v in b.pointer_index(base)[int(t,16)]],occ)
      for v in occ:
       q=int(v,16);self.assertEqual(target[q:q+4],base[q:q+4])
-   seen.sort();self.assertTrue(all(a[1]<=z[0] for a,z in zip(seen,seen[1:])));self.assertEqual(records[len(prefixes[p]):],expected);self.assertEqual(b.sprite_digest(base),b.sprite_digest(target));self.assertEqual(target[0x250000:0x260000],base[0x250000:0x260000]);self.assertEqual(target[0x2021A8:0x2021A8+1584*17],base[0x2021A8:0x2021A8+1584*17]);self.assertEqual(target[0x330FC0:0x331000],base[0x330FC0:0x331000]);self.assertEqual(qualify(target,source)['items'][next(i for i,v in enumerate(qualify(target,source)['items']) if v['id']=='6E')]['help_root'],f['entries'][0]['chunks'][0]['destination']);prove(target)
+   seen.sort();self.assertTrue(all(a[1]<=z[0] for a,z in zip(seen,seen[1:])));self.assertEqual(records[len(prefixes[p]):cut],expected);self.assertEqual(b.sprite_digest(base),b.sprite_digest(target));self.assertEqual(target[0x250000:0x260000],base[0x250000:0x260000]);self.assertEqual(target[0x2021A8:0x2021A8+1584*17],base[0x2021A8:0x2021A8+1584*17]);self.assertEqual(target[0x330FC0:0x331000],base[0x330FC0:0x331000]);self.assertEqual(qualify(target,source)['items'][next(i for i,v in enumerate(qualify(target,source)['items']) if v['id']=='6E')]['help_root'],f['entries'][0]['chunks'][0]['destination']);prove(target)
    for c in read(f'tests/emulation_v78_scoped/results_{p}.json')['cases'].values():
     self.assertEqual(b.sha(target),c['base_rom_sha256']);fixture=bytearray(target)
     for w in c['temporary_rom_writes']:

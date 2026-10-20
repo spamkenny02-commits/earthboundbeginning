@@ -2,8 +2,8 @@
   "version": "v78",
   "input_patch_version": "v77",
   "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
-  "changed_text_spans": 154,
-  "distinct_new_translations": 116,
+  "changed_text_spans": 157,
+  "distinct_new_translations": 119,
   "batch_target_distinct_texts": 150,
   "release_pending": true,
   "native_commands_preserved_after_expanding_menu_bridges": true,
@@ -15,14 +15,14 @@
   "natural_scene_access_verified": false,
   "profiles": {
     "accents": {
-      "sha256": "b97785db00df36c39d9352d778d9e5c1c8472f6aea5b38486087d3fcc2eb232c",
-      "target_rom_sha256": "10b0bc4f0126367b855100f997f49b720aa208b721b3c4423138d8b578ebdefc",
-      "records_added": 369
+      "sha256": "1a347b1a7482110a31b62db50aa92f806f53501308c11a522162e67d6e4b5c59",
+      "target_rom_sha256": "32cc2fdf3b0494aec14056a73c73fa6df148260e23456c8cb7c8e54438d93f74",
+      "records_added": 377
     },
     "ascii": {
-      "sha256": "759f66606bfdad05fb40a7c065e2277fe1ba24b0026e988d8bed3a106875e298",
-      "target_rom_sha256": "208f78ed82789aafc0dc11a8122d2c63e63240c586fa23eb2f548d6548a44188",
-      "records_added": 369
+      "sha256": "2841b44127f8b46b06c4c2572d048ef6b7c8000ba004256bd2dc437d8c8582e5",
+      "target_rom_sha256": "89d5c0e1856cc5600f9ea716eabc7efa8acd7a35903e305fa833cde75dd48cb6",
+      "records_added": 377
     }
   },
   "medical_entries": 71,
@@ -36,5 +36,7 @@
   "item_help_new_distinct": 15,
   "item_help_qualified_shop_items": 82,
   "scoped_help_allocated_bytes": 272,
-  "scoped_help_original_aliases_preserved": true
+  "scoped_help_original_aliases_preserved": true,
+  "context_grammar_new_distinct": 3,
+  "context_grammar_french_corrections": 3
 }

@@ -1,5 +1,7 @@
 # V78 — copies contextuelles, checkpoint à 116 textes
 
+Rapport historique. Le checkpoint actuel est décrit dans RAPPORT_V78_GRAMMAIRE_CHECKPOINT.md ; les captures ci-dessous conservent exactement leur snapshot 116.
+
 Deux textes supplémentaires sont traduits sur leurs chemins qualifiés. Le lot en cours compte 116 sources distinctes et 154 plages sources traitées ; les implantations des deux sources nouvelles restent anglaises et sont préservées comme alias. Les traductions sont dans des copies. V77 reste publiée sur main ; aucun lancement de version V78 avant poursuite du lot visé à 150.
 
 | Chemin | Redirection | Texte français |

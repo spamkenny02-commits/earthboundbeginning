@@ -11119,5 +11119,205 @@
         ]
       }
     }
+  },
+  "context_grammar": {
+    "entries": [
+      {
+        "context": "387B19",
+        "offset": "387B2B",
+        "end": "387B2E",
+        "en": "you",
+        "fr": "toi"
+      },
+      {
+        "context": "387B2F",
+        "offset": "387B2F",
+        "end": "387B36",
+        "en": "you all",
+        "fr": "vous"
+      },
+      {
+        "context": "387B37",
+        "offset": "387B37",
+        "end": "387B3E",
+        "en": "you two",
+        "fr": "vous"
+      }
+    ],
+    "french_corrections": [
+      {
+        "context": "32FCA0",
+        "offset": "32FCA0",
+        "end": "32FCB9",
+        "en": "@Mon fils se nomme aussi ",
+        "fr": "@Fiston se nomme comme ",
+        "mode": "short_bridge"
+      },
+      {
+        "context": "369D9B",
+        "offset": "369DD7",
+        "end": "369DD8",
+        "en": "l",
+        "fr": "L"
+      },
+      {
+        "context": "369E9E",
+        "offset": "369EA8",
+        "end": "369EA9",
+        "en": "l",
+        "fr": "L"
+      }
+    ],
+    "possessive_callers": [
+      {
+        "context": "369D9B",
+        "operand": "369DD2"
+      },
+      {
+        "context": "369E9E",
+        "operand": "369EA3"
+      }
+    ],
+    "empty_return": "38B550",
+    "qualified_npcs": [
+      {
+        "npc": 586,
+        "operand": "20489B",
+        "root": "33FA7D",
+        "paths": [
+          [
+            "33FA7D",
+            "33FBDD",
+            "320B30",
+            "33FC0E",
+            "32FCA0"
+          ],
+          [
+            "33FA7D",
+            "33FBDD",
+            "320B30",
+            "33FC0E",
+            "32FCA0",
+            "33FC4C",
+            "387B19"
+          ],
+          [
+            "33FA7D",
+            "33FBDD",
+            "320B30",
+            "33FC0E",
+            "32FCA0",
+            "33FC4C",
+            "387B19",
+            "387B2F"
+          ],
+          [
+            "33FA7D",
+            "33FBDD",
+            "320B30",
+            "33FC0E",
+            "32FCA0",
+            "33FC4C",
+            "387B19",
+            "387B37"
+          ]
+        ]
+      },
+      {
+        "npc": 1157,
+        "operand": "206E86",
+        "root": "263B90",
+        "paths": [
+          [
+            "263B90",
+            "369D9B"
+          ],
+          [
+            "263B90",
+            "369E9E"
+          ]
+        ]
+      }
+    ],
+    "profiles": {
+      "accents": {
+        "input_patch_sha256": "b97785db00df36c39d9352d778d9e5c1c8472f6aea5b38486087d3fcc2eb232c",
+        "input_rom_sha256": "10b0bc4f0126367b855100f997f49b720aa208b721b3c4423138d8b578ebdefc",
+        "input_records_added": 369,
+        "records": [
+          {
+            "offset": "387B2B",
+            "hex": "a49f9902"
+          },
+          {
+            "offset": "387B2F",
+            "hex": "a69fa5a302000000"
+          },
+          {
+            "offset": "387B37",
+            "hex": "a69fa5a302000000"
+          },
+          {
+            "offset": "32FCA0",
+            "hex": "707699a3a49f9e50a395509e9f9d9d9550939f9d9d95500a4cfcf3000000"
+          },
+          {
+            "offset": "369DD7",
+            "hex": "7c"
+          },
+          {
+            "offset": "369EA8",
+            "hex": "7c"
+          },
+          {
+            "offset": "369DD2",
+            "hex": "50b5f800"
+          },
+          {
+            "offset": "369EA3",
+            "hex": "50b5f800"
+          }
+        ]
+      },
+      "ascii": {
+        "input_patch_sha256": "759f66606bfdad05fb40a7c065e2277fe1ba24b0026e988d8bed3a106875e298",
+        "input_rom_sha256": "208f78ed82789aafc0dc11a8122d2c63e63240c586fa23eb2f548d6548a44188",
+        "input_records_added": 369,
+        "records": [
+          {
+            "offset": "387B2B",
+            "hex": "a49f9902"
+          },
+          {
+            "offset": "387B2F",
+            "hex": "a69fa5a302000000"
+          },
+          {
+            "offset": "387B37",
+            "hex": "a69fa5a302000000"
+          },
+          {
+            "offset": "32FCA0",
+            "hex": "707699a3a49f9e50a395509e9f9d9d9550939f9d9d95500a4cfcf3000000"
+          },
+          {
+            "offset": "369DD7",
+            "hex": "7c"
+          },
+          {
+            "offset": "369EA8",
+            "hex": "7c"
+          },
+          {
+            "offset": "369DD2",
+            "hex": "50b5f800"
+          },
+          {
+            "offset": "369EA3",
+            "hex": "50b5f800"
+          }
+        ]
+      }
+    }
   }
 }
