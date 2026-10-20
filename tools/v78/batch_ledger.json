@@ -1,0 +1,670 @@
+{
+  "version": "v78",
+  "release_pending": true,
+  "distinct_texts": 81,
+  "physical_spans": 94,
+  "target": 150,
+  "entries": [
+    {
+      "source": "@I can examine each one of you for $",
+      "french": "@L'examen vous coûte $",
+      "offsets": [
+        "090FF0"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Yes, please",
+      "french": "Oui, merci",
+      "offsets": [
+        "091016"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "No, thanks",
+      "french": "Non, merci",
+      "offsets": [
+        "091024"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@You really don't need any treatment?",
+      "french": "@Tu n'as vraiment besoin d'aucun soin ?",
+      "offsets": [
+        "091041"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "  All right.",
+      "french": " D'accord.",
+      "offsets": [
+        "091053"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Who is sick?",
+      "french": "@Qui est malade ?",
+      "offsets": [
+        "091074"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@I don't think there is anything wrong with you.",
+      "french": "@Tu m'as l'air en bonne santé.",
+      "offsets": [
+        "0910FB"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@I don't think anyone has anything like that.",
+      "french": "@Personne ne semble avoir ça.",
+      "offsets": [
+        "091113"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Or Is it just my misunderstanding?",
+      "french": "@Ou ai-je mal compris ?",
+      "offsets": [
+        "091127"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@I can only treat an illness.",
+      "french": "@Je ne peux soigner que les maladies.",
+      "offsets": [
+        "091140"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "  Sorry.",
+      "french": " Désolé.",
+      "offsets": [
+        "091153"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "by the way,",
+      "french": "au fait,",
+      "offsets": [
+        "091171"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@What a sad look in your eyes... you, the boy in a red cap.",
+      "french": "@Tu as l'air triste, garçon au bonnet rouge...",
+      "offsets": [
+        "091178"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@You must be homesick.",
+      "french": "@Tu dois avoir le mal du pays.",
+      "offsets": [
+        "09119C"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@That's nothing you need to be ashamed of.",
+      "french": "@Tu n'as pas à en avoir honte.",
+      "offsets": [
+        "0911AA"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Anybody who is on a long trip will miss home.",
+      "french": "@Quand on voyage longtemps, la maison nous manque.",
+      "offsets": [
+        "0911C2"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@In this case,",
+      "french": "@Dans ce cas,",
+      "offsets": [
+        "0911E2"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@You have a cold.",
+      "french": "@Tu as un rhume.",
+      "offsets": [
+        "091214"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@You have sunstroke.",
+      "french": "@Tu as une insolation.",
+      "offsets": [
+        "091222"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@You've been poisoned.",
+      "french": "@Tu souffres d'un empoisonnement.",
+      "offsets": [
+        "091233"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@You must feel nauseous.",
+      "french": "@Tu as la nausée.",
+      "offsets": [
+        "091245"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@You're all well now.",
+      "french": "@Tu vas mieux !",
+      "offsets": [
+        "09126F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "  What a great doctor I am!",
+      "french": " Quel bon médecin je suis !",
+      "offsets": [
+        "091278"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Who do you want to see?",
+      "french": "@Qui veux-tu voir ?",
+      "offsets": [
+        "09129A"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " was just brought in, and is still unconscious.",
+      "french": " vient d'arriver sans connaissance.",
+      "offsets": [
+        "0912D5"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Please pay $",
+      "french": "@Il faut payer $",
+      "offsets": [
+        "0912F5"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " for the doctor's fee.",
+      "french": " pour les soins.",
+      "offsets": [
+        "091301"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Yes",
+      "french": "Oui",
+      "offsets": [
+        "36EB83",
+        "376B0B",
+        "376C0D",
+        "37715F",
+        "380A46",
+        "091311"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "No",
+      "french": "Non",
+      "offsets": [
+        "36EB87",
+        "376B0F",
+        "376C11",
+        "377163",
+        "380A4A",
+        "091315",
+        "091B0E"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Your friend, right?...  It's very serious.",
+      "french": "@Ton ami, c'est ça ? Son état est grave.",
+      "offsets": [
+        "09132E"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@I'm so glad that you recovered, ",
+      "french": "@Ça va mieux, ",
+      "offsets": [
+        "09137D"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Come back any time you need.",
+      "french": "@Reviens si tu as besoin de nous.",
+      "offsets": [
+        "091394"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@We don't have a person like that in our hospital.",
+      "french": "@Ce patient n'est pas dans notre hôpital.",
+      "offsets": [
+        "0913A8"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@You don't have enough money...?",
+      "french": "@Tu n'as pas assez d'argent ?",
+      "offsets": [
+        "0913C4"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "  That's too bad.",
+      "french": " Quel dommage.",
+      "offsets": [
+        "091B30",
+        "0913D0"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@If you are the patient, come into the back room.",
+      "french": "@Si tu es le patient, va dans la salle du fond.",
+      "offsets": [
+        "0913E4"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@You need to be examined?",
+      "french": "@Tu veux un examen ?",
+      "offsets": [
+        "091401"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "  Then, you need to see the doctor... not me.",
+      "french": " Alors, vois le médecin... pas moi.",
+      "offsets": [
+        "091410"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@I'm not busy right now.",
+      "french": "@Je suis disponible.",
+      "offsets": [
+        "09142C"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Shall I explain about the hospital system?",
+      "french": "@Veux-tu savoir comment fonctionne l'hôpital ?",
+      "offsets": [
+        "091439"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Yeah, well, I am actually pretty busy.",
+      "french": "@Bon, en fait, j'ai du travail.",
+      "offsets": [
+        "09146D"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@If a good friend of yours becomes unconscious,",
+      "french": "@Si l'un de tes amis perd connaissance,",
+      "offsets": [
+        "091486"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@come to the hospital right away.",
+      "french": "@viens à l'hôpital tout de suite.",
+      "offsets": [
+        "0914A5"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@As long as you have money for the doctor's fee,",
+      "french": "@Si tu peux payer les soins,",
+      "offsets": [
+        "0914B8"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@you'll be able to see your friend completely recovered in no time.",
+      "french": "@ton ami sera vite sur pied.",
+      "offsets": [
+        "0914D5"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Besides being unconscious, whenever",
+      "french": "@Même sans perdre connaissance, si",
+      "offsets": [
+        "0914FA"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@you don't feel so well, come and talk to a doctor.",
+      "french": "@tu te sens mal, viens consulter un médecin.",
+      "offsets": [
+        "091513"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Everything I just told you applies to hospitals all over the world.",
+      "french": "@Cela vaut pour les hôpitaux du monde entier.",
+      "offsets": [
+        "091532"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Mmm, come back when necessary.",
+      "french": "@Hum, reviens si tu en as besoin.",
+      "offsets": [
+        "0919F6",
+        "0918BF"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Who needs healing?",
+      "french": "@Qui faut-il soigner ?",
+      "offsets": [
+        "0918F7"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " isn't numb.",
+      "french": " ne souffre pas d'engourdissement.",
+      "offsets": [
+        "0919A7"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " isn't possessed.",
+      "french": " n'est pas sous emprise.",
+      "offsets": [
+        "0919BE"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "  Who needs to be healed?",
+      "french": " Qui faut-il soigner ?",
+      "offsets": [
+        "0919DA"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@If you don't have any money, you'll just have to keep on going in your current state.",
+      "french": "@Sans argent, tu devras continuer dans cet état.",
+      "offsets": [
+        "091A12"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@There!  You're already healed!",
+      "french": "@Voilà ! Les soins sont terminés !",
+      "offsets": [
+        "091A61"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "  Can I do my job well, or what!",
+      "french": " Je fais du bon travail, hein !",
+      "offsets": [
+        "091A74"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Hey, now that I notice,",
+      "french": "@Tiens, maintenant que j'y pense,",
+      "offsets": [
+        "091ABE"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@could you sell me the mushroom growing on top of your head?",
+      "french": "@Tu me vends le champignon qui pousse sur ta tête ?",
+      "offsets": [
+        "091ACD"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Come on, let's make a deal.",
+      "french": "@Allez, faisons affaire.",
+      "offsets": [
+        "091AF2"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Sell",
+      "french": "Oui",
+      "offsets": [
+        "091B09"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Thanks.",
+      "french": "@OK",
+      "offsets": [
+        "091B3D"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "  I'll pay you $50 for each mushroom.",
+      "french": " Je te donne $50 par champignon.",
+      "offsets": [
+        "091B41"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@All right, let's do it!",
+      "french": "@D'accord, allons-y !",
+      "offsets": [
+        "091B5A"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@By the way, do you need any help?",
+      "french": "@Au fait, as-tu besoin d'aide ?",
+      "offsets": [
+        "091C1C"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Do you need some help?",
+      "french": "@As-tu besoin d'aide ?",
+      "offsets": [
+        "091C2F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(Huh,",
+      "french": "@(Hein",
+      "offsets": [
+        "376ACE"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " what?)",
+      "french": " quoi?)",
+      "offsets": [
+        "376AD6"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(Do I look like a monkey?)",
+      "french": "@(Je ressemble à un singe?)",
+      "offsets": [
+        "376AED"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(Cool down, dude.)",
+      "french": "@(Du calme, mec.)",
+      "offsets": [
+        "376BC3"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(Are you so serious all the time?)",
+      "french": "@(Es-tu toujours aussi sérieux?)",
+      "offsets": [
+        "376BE7"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(I've got a good story to tell you.)",
+      "french": "@(Je connais une bonne histoire.)",
+      "offsets": [
+        "377122"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(Want to hear it?)",
+      "french": "@(Tu veux savoir?)",
+      "offsets": [
+        "377149"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "  Watch out!",
+      "french": "  Attention!",
+      "offsets": [
+        "37D47F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(Incredibly enough, you found somebody's ",
+      "french": "@(Tiens ! Tu trouves un objet perdu : ",
+      "offsets": [
+        "37D494"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " right under the sign!)",
+      "french": " sous ce panneau !)",
+      "offsets": [
+        "37D4C1"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(Climb into the rocket?)",
+      "french": "@(Monter dans la fusée ?)",
+      "offsets": [
+        "380A2A"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Soften",
+      "french": "Dépétrifier",
+      "offsets": [
+        "38B22B"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Restore feeling",
+      "french": "Sensibilité",
+      "offsets": [
+        "38B234"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Purify",
+      "french": "Purifier",
+      "offsets": [
+        "38B246"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Refresh",
+      "french": "Revigorer",
+      "offsets": [
+        "38B24F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@I need to charge you $",
+      "french": "@Cela te coûtera donc $",
+      "offsets": [
+        "38B27F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    }
+  ]
+}

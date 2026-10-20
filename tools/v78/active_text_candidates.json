@@ -1,0 +1,3851 @@
+{
+  "version": "v78",
+  "scope": "custom/rewritten NPC pointers, action table and 254 item-help fields; parsed closure",
+  "seed_count": 1080,
+  "visited_roots": 4413,
+  "parsed_edges": 5595,
+  "candidate_count": 264,
+  "natural_access_verified": false,
+  "language_classification_verified": false,
+  "pattern": "\\b(the|you|your|please|what|with|where|have|don't|can't|it's|i'm|does|will|would|should|this|that|which|was|were|said|are|some|cannot|their|anyone|someone|yes|no|select|choose|starting|who|want|look|cool|watch)\\b",
+  "candidates": [
+    {
+      "offset": "0537C5",
+      "end": "0537E2",
+      "context": "0537BC",
+      "text": "@There's no way of knowing its original use.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:05"
+      ],
+      "path": [
+        "0537BC"
+      ]
+    },
+    {
+      "offset": "0537E4",
+      "end": "053800",
+      "context": "0537BC",
+      "text": "@It's just some kind of broken mechanism.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:05"
+      ],
+      "path": [
+        "0537BC"
+      ]
+    },
+    {
+      "offset": "053879",
+      "end": "05388E",
+      "context": "053870",
+      "text": "@A contraption that looks like an iron.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:09"
+      ],
+      "path": [
+        "053870"
+      ]
+    },
+    {
+      "offset": "053932",
+      "end": "053957",
+      "context": "053929",
+      "text": "@A broken apparatus that is shaped like a trumpet.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:0E"
+      ],
+      "path": [
+        "053929"
+      ]
+    },
+    {
+      "offset": "053969",
+      "end": "053985",
+      "context": "053960",
+      "text": "@A broken device that looks like a harmonica.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:0F"
+      ],
+      "path": [
+        "053960"
+      ]
+    },
+    {
+      "offset": "053997",
+      "end": "0539BB",
+      "context": "05398E",
+      "text": "@A piece of broken equipment that looks like a satellite dish.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:10"
+      ],
+      "path": [
+        "05398E"
+      ]
+    },
+    {
+      "offset": "053CB8",
+      "end": "053CC6",
+      "context": "053CAF",
+      "text": "@This one rocks, for sure.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:35"
+      ],
+      "path": [
+        "053CAF"
+      ]
+    },
+    {
+      "offset": "053D10",
+      "end": "053D1F",
+      "context": "053D00",
+      "text": "@It also increases your Speed.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:38"
+      ],
+      "path": [
+        "053D00"
+      ]
+    },
+    {
+      "offset": "053F68",
+      "end": "053F87",
+      "context": "053F58",
+      "text": "@It has the logo of your favorite baseball team.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:4A"
+      ],
+      "path": [
+        "053F58"
+      ]
+    },
+    {
+      "offset": "054184",
+      "end": "054195",
+      "context": "05416D",
+      "text": "@So fresh, it's still warm!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:5C"
+      ],
+      "path": [
+        "05416D"
+      ]
+    },
+    {
+      "offset": "0541AE",
+      "end": "0541C9",
+      "context": "054197",
+      "text": "@There's even a slice of your favorite cake!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:5D"
+      ],
+      "path": [
+        "054197"
+      ]
+    },
+    {
+      "offset": "054342",
+      "end": "05436C",
+      "context": "054339",
+      "text": "@This is today's special. It is highly recommended by our chef,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:60"
+      ],
+      "path": [
+        "054339"
+      ]
+    },
+    {
+      "offset": "05436E",
+      "end": "054393",
+      "context": "054339",
+      "text": "@who trained at a five-star restaurant in Paris.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:60"
+      ],
+      "path": [
+        "054339"
+      ]
+    },
+    {
+      "offset": "054411",
+      "end": "05442A",
+      "context": "0543F5",
+      "text": "  that is said to grow at the base of trees",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:63"
+      ],
+      "path": [
+        "0543F5"
+      ]
+    },
+    {
+      "offset": "05447A",
+      "end": "0544AD",
+      "context": "054471",
+      "text": "@When you eat this, it will increase either Speed, Guts, Vitality, IQ or Luck.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:65"
+      ],
+      "path": [
+        "054471"
+      ]
+    },
+    {
+      "offset": "05473C",
+      "end": "054758",
+      "context": "054733",
+      "text": "@When you drink it, your PP slightly increases.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:6E"
+      ],
+      "path": [
+        "054733"
+      ]
+    },
+    {
+      "offset": "054763",
+      "end": "054787",
+      "context": "05475A",
+      "text": "@This is the most effective thing to take when you catch a cold.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:6F"
+      ],
+      "path": [
+        "05475A"
+      ]
+    },
+    {
+      "offset": "054792",
+      "end": "0547AE",
+      "context": "054789",
+      "text": "@This is the best thing to take when you get poisoned.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:70"
+      ],
+      "path": [
+        "054789"
+      ]
+    },
+    {
+      "offset": "05491E",
+      "end": "054937",
+      "context": "0548FC",
+      "text": "@It tastes good with any kind of food, thereby",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:7E"
+      ],
+      "path": [
+        "0548FC"
+      ]
+    },
+    {
+      "offset": "054939",
+      "end": "054950",
+      "context": "0548FC",
+      "text": "@increasing the recovery power of the food.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:7E"
+      ],
+      "path": [
+        "0548FC"
+      ]
+    },
+    {
+      "offset": "05495B",
+      "end": "054977",
+      "context": "054952",
+      "text": "@It's great for those times that you get sunstroke.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:7F"
+      ],
+      "path": [
+        "054952"
+      ]
+    },
+    {
+      "offset": "054982",
+      "end": "0549A7",
+      "context": "054979",
+      "text": "@It helps when you have been poisoned, or you are feeling nauseous.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:80"
+      ],
+      "path": [
+        "054979"
+      ]
+    },
+    {
+      "offset": "054A08",
+      "end": "054A20",
+      "context": "0549FF",
+      "text": "@Revives a friend who is unconscious.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:82"
+      ],
+      "path": [
+        "0549FF"
+      ]
+    },
+    {
+      "offset": "054A48",
+      "end": "054A63",
+      "context": "054A3A",
+      "text": "@Contains the enemy's PSI during a battle.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:83"
+      ],
+      "path": [
+        "054A3A"
+      ]
+    },
+    {
+      "offset": "054A7A",
+      "end": "054A98",
+      "context": "054A6C",
+      "text": "@Breaks through the enemy's shield during a battle.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:84"
+      ],
+      "path": [
+        "054A6C"
+      ]
+    },
+    {
+      "offset": "054ACB",
+      "end": "054AEC",
+      "context": "054AA1",
+      "text": "@it may effect others besides the target creature.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:85"
+      ],
+      "path": [
+        "054AA1"
+      ]
+    },
+    {
+      "offset": "054B03",
+      "end": "054B26",
+      "context": "054AF5",
+      "text": "@Really dishes out a lot of damage to the enemy during a battle.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:86"
+      ],
+      "path": [
+        "054AF5"
+      ]
+    },
+    {
+      "offset": "054B3D",
+      "end": "054B5E",
+      "context": "054AF5",
+      "text": "@it may effect others besides the target creature.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:86"
+      ],
+      "path": [
+        "054AF5"
+      ]
+    },
+    {
+      "offset": "054B75",
+      "end": "054B8D",
+      "context": "054B67",
+      "text": "@Sucks up some HP from the target creature.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:87"
+      ],
+      "path": [
+        "054B67"
+      ]
+    },
+    {
+      "offset": "054B8F",
+      "end": "054BA7",
+      "context": "054B67",
+      "text": "@The more HP an enemy has, the more you get.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:87"
+      ],
+      "path": [
+        "054B67"
+      ]
+    },
+    {
+      "offset": "054BBE",
+      "end": "054BD6",
+      "context": "054BB0",
+      "text": "@Sucks up some HP from all the enemies.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:88"
+      ],
+      "path": [
+        "054BB0"
+      ]
+    },
+    {
+      "offset": "054BD8",
+      "end": "054BF1",
+      "context": "054BB0",
+      "text": "@The more HP the enemies have, the more you get.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:88"
+      ],
+      "path": [
+        "054BB0"
+      ]
+    },
+    {
+      "offset": "054DE5",
+      "end": "054DF8",
+      "context": "054DDC",
+      "text": "@You can even use this during battle!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:8F"
+      ],
+      "path": [
+        "054DDC"
+      ]
+    },
+    {
+      "offset": "054FD1",
+      "end": "054FE7",
+      "context": "054FA2",
+      "text": "@The enemy will take about 200 points of damage.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:96"
+      ],
+      "path": [
+        "054FA2"
+      ]
+    },
+    {
+      "offset": "055038",
+      "end": "05504E",
+      "context": "054FF0",
+      "text": "@The enemy takes about 400 points of damage.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:97"
+      ],
+      "path": [
+        "054FF0"
+      ]
+    },
+    {
+      "offset": "0551A8",
+      "end": "0551BD",
+      "context": "05519F",
+      "text": "@Increases the Defense of all the friends.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:9D"
+      ],
+      "path": [
+        "05519F"
+      ]
+    },
+    {
+      "offset": "055239",
+      "end": "055260",
+      "context": "055230",
+      "text": "@If you sprinkle the powder on one of your friends during battle, ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A0"
+      ],
+      "path": [
+        "055230"
+      ]
+    },
+    {
+      "offset": "055262",
+      "end": "055284",
+      "context": "055230",
+      "text": "@that friend turns into a dragon and attacks all enemies.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A0"
+      ],
+      "path": [
+        "055230"
+      ]
+    },
+    {
+      "offset": "055296",
+      "end": "0552B4",
+      "context": "05528D",
+      "text": "@Increase one of the friends Defense during battle.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A1"
+      ],
+      "path": [
+        "05528D"
+      ]
+    },
+    {
+      "offset": "0552CD",
+      "end": "0552F4",
+      "context": "0552C4",
+      "text": "@If you wear this on your nose, you can find and root out magic truffles.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A2"
+      ],
+      "path": [
+        "0552C4"
+      ]
+    },
+    {
+      "offset": "05531E",
+      "end": "05534E",
+      "context": "0552C4",
+      "text": "@They are a kind of mushroom that grow in damp places, like at the base of big trees.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A2"
+      ],
+      "path": [
+        "0552C4"
+      ]
+    },
+    {
+      "offset": "055350",
+      "end": "055365",
+      "context": "0552C4",
+      "text": "@They are almost always buried, ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A2"
+      ],
+      "path": [
+        "0552C4"
+      ]
+    },
+    {
+      "offset": "055367",
+      "end": "055375",
+      "context": "0552C4",
+      "text": "@so they cannot be seen.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A2"
+      ],
+      "path": [
+        "0552C4"
+      ]
+    },
+    {
+      "offset": "055377",
+      "end": "0553A1",
+      "context": "0552C4",
+      "text": "@If you find one and eat it, it is said to greatly recover a person's PP!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A2"
+      ],
+      "path": [
+        "0552C4"
+      ]
+    },
+    {
+      "offset": "0553A3",
+      "end": "0553D5",
+      "context": "0552C4",
+      "text": "@You can see more info about the wondrous Magic Truffle after you have obtained one.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A2"
+      ],
+      "path": [
+        "0552C4"
+      ]
+    },
+    {
+      "offset": "0553E0",
+      "end": "055400",
+      "context": "0553D7",
+      "text": "@It invites people to come and buy your unnecessary goods.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A3"
+      ],
+      "path": [
+        "0553D7"
+      ]
+    },
+    {
+      "offset": "0554EA",
+      "end": "0554F4",
+      "context": "0554CF",
+      "text": "@Don't eat it, please.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:A9"
+      ],
+      "path": [
+        "0554CF"
+      ]
+    },
+    {
+      "offset": "05554F",
+      "end": "055563",
+      "context": "055546",
+      "text": "@The <Machine that Opens Doors,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:AC"
+      ],
+      "path": [
+        "055546"
+      ]
+    },
+    {
+      "offset": "055565",
+      "end": "055588",
+      "context": "055546",
+      "text": "@especially when you have a slightly bad key> machine.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:AC"
+      ],
+      "path": [
+        "055546"
+      ]
+    },
+    {
+      "offset": "055630",
+      "end": "055649",
+      "context": "055627",
+      "text": "@Riding this makes you feel like whistling!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:B0"
+      ],
+      "path": [
+        "055627"
+      ]
+    },
+    {
+      "offset": "05564B",
+      "end": "055669",
+      "context": "055627",
+      "text": "@You can even ring the bell by pressing the R button.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:B0"
+      ],
+      "path": [
+        "055627"
+      ]
+    },
+    {
+      "offset": "055728",
+      "end": "05573E",
+      "context": "05570B",
+      "text": "@Now, you can receive important calls.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:B5"
+      ],
+      "path": [
+        "05570B"
+      ]
+    },
+    {
+      "offset": "055973",
+      "end": "0559A6",
+      "context": "055957",
+      "text": "@but for someone who knows about it, it is actually a very precious, unusual element.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:C1"
+      ],
+      "path": [
+        "055957"
+      ]
+    },
+    {
+      "offset": "0559F6",
+      "end": "055A23",
+      "context": "0559D9",
+      "text": "@this item resets the abilities of all creatures (friend or enemy)",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:C3"
+      ],
+      "path": [
+        "0559D9"
+      ]
+    },
+    {
+      "offset": "055A25",
+      "end": "055A39",
+      "context": "0559D9",
+      "text": "@to their normal levels.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:C3"
+      ],
+      "path": [
+        "0559D9"
+      ]
+    },
+    {
+      "offset": "055A3B",
+      "end": "055A67",
+      "context": "0559D9",
+      "text": "@Any changes that had taken place due to PSI and such is neutralized.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:C3"
+      ],
+      "path": [
+        "0559D9"
+      ]
+    },
+    {
+      "offset": "055A69",
+      "end": "055A99",
+      "context": "0559D9",
+      "text": "@It also neutralizes all shields (friend or enemy) that were in effect.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:C3"
+      ],
+      "path": [
+        "0559D9"
+      ]
+    },
+    {
+      "offset": "055A9B",
+      "end": "055AAC",
+      "context": "0559D9",
+      "text": "@(Remember, the abilities",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:C3"
+      ],
+      "path": [
+        "0559D9"
+      ]
+    },
+    {
+      "offset": "055AAE",
+      "end": "055AD3",
+      "context": "0559D9",
+      "text": "@that I am talking about are Offense, Defense, Guts, etc.)",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:C3"
+      ],
+      "path": [
+        "0559D9"
+      ]
+    },
+    {
+      "offset": "055DAA",
+      "end": "055DC6",
+      "context": "055DA1",
+      "text": "@It doesn't look like it would do much of anything, but...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:CE",
+        "ITEM_HELP:FD"
+      ],
+      "path": [
+        "055DA1"
+      ]
+    },
+    {
+      "offset": "055E45",
+      "end": "055E5C",
+      "context": "055E28",
+      "text": "@It erases something that looks like an eraser",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:D2"
+      ],
+      "path": [
+        "055E28"
+      ]
+    },
+    {
+      "offset": "055E5E",
+      "end": "055E75",
+      "context": "055E28",
+      "text": "@that also might be blocking your way.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:D2"
+      ],
+      "path": [
+        "055E28"
+      ]
+    },
+    {
+      "offset": "055E93",
+      "end": "055EA9",
+      "context": "055E77",
+      "text": "@Those who like it go nuts for it...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:D3"
+      ],
+      "path": [
+        "055E77"
+      ]
+    },
+    {
+      "offset": "055ECB",
+      "end": "055EF4",
+      "context": "055EBB",
+      "text": "@Wow! Look at the pine tar! It's almost all the way to the end!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:D5"
+      ],
+      "path": [
+        "055EBB"
+      ]
+    },
+    {
+      "offset": "055FAB",
+      "end": "055FC9",
+      "context": "055F84",
+      "text": "@Same as the one that Mr. Saturn wears on his head.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:DC"
+      ],
+      "path": [
+        "055F84"
+      ]
+    },
+    {
+      "offset": "05605D",
+      "end": "05607E",
+      "context": "056054",
+      "text": "@Gives you a spring in your step for about 20 seconds.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:E1"
+      ],
+      "path": [
+        "056054"
+      ]
+    },
+    {
+      "offset": "056080",
+      "end": "056095",
+      "context": "056054",
+      "text": "@It also helps you recover your power a bit.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:E1"
+      ],
+      "path": [
+        "056054"
+      ]
+    },
+    {
+      "offset": "0560A0",
+      "end": "0560B0",
+      "context": "056097",
+      "text": "@It helps you recover your power...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:E2"
+      ],
+      "path": [
+        "056097"
+      ]
+    },
+    {
+      "offset": "0560B2",
+      "end": "0560D1",
+      "context": "056097",
+      "text": "@How much and what you exactly recover depends on your luck!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:E2"
+      ],
+      "path": [
+        "056097"
+      ]
+    },
+    {
+      "offset": "05651D",
+      "end": "056552",
+      "context": "0564FF",
+      "text": "@Obtain some type of meat, slice it into pieces about a half of an inch thick.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F2"
+      ],
+      "path": [
+        "0564FF"
+      ]
+    },
+    {
+      "offset": "056554",
+      "end": "056579",
+      "context": "0564FF",
+      "text": "@Hang the pieces on a laundry line or something like it",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F2"
+      ],
+      "path": [
+        "0564FF"
+      ]
+    },
+    {
+      "offset": "05657B",
+      "end": "056597",
+      "context": "0564FF",
+      "text": "@and leave out in the sun for maybe 6 months...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F2"
+      ],
+      "path": [
+        "0564FF"
+      ]
+    },
+    {
+      "offset": "056599",
+      "end": "0565AB",
+      "context": "0564FF",
+      "text": "@Well, that's what my recipe says.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F2"
+      ],
+      "path": [
+        "0564FF"
+      ]
+    },
+    {
+      "offset": "0565F9",
+      "end": "05660A",
+      "context": "0565D4",
+      "text": "@Obtain some type of meat,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F4"
+      ],
+      "path": [
+        "0565D4"
+      ]
+    },
+    {
+      "offset": "056632",
+      "end": "05664C",
+      "context": "0565D4",
+      "text": "@Season the pieces as much as possible,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F4"
+      ],
+      "path": [
+        "0565D4"
+      ]
+    },
+    {
+      "offset": "05664E",
+      "end": "056674",
+      "context": "0565D4",
+      "text": "@hang the pieces on a laundry line or something like it",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F4"
+      ],
+      "path": [
+        "0565D4"
+      ]
+    },
+    {
+      "offset": "056676",
+      "end": "056692",
+      "context": "0565D4",
+      "text": "@and leave out in the sun for maybe 8 months...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F4"
+      ],
+      "path": [
+        "0565D4"
+      ]
+    },
+    {
+      "offset": "056694",
+      "end": "0566A6",
+      "context": "0565D4",
+      "text": "@Well, that's what my recipe says...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F4"
+      ],
+      "path": [
+        "0565D4"
+      ]
+    },
+    {
+      "offset": "0566C0",
+      "end": "0566EA",
+      "context": "0566B7",
+      "text": "@A gourmet version of jerky that is considered a delicacy.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F5"
+      ],
+      "path": [
+        "0566B7"
+      ]
+    },
+    {
+      "offset": "056708",
+      "end": "056728",
+      "context": "0566B7",
+      "text": "@who has been making jerky for over 60 years.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F5"
+      ],
+      "path": [
+        "0566B7"
+      ]
+    },
+    {
+      "offset": "05672A",
+      "end": "05674F",
+      "context": "0566B7",
+      "text": "@Jerky fans consider this the caviar of all jerkys.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F5"
+      ],
+      "path": [
+        "0566B7"
+      ]
+    },
+    {
+      "offset": "056751",
+      "end": "05677C",
+      "context": "0566B7",
+      "text": "@I understand that they don't dry gourmet jerky on a laundry line...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F5"
+      ],
+      "path": [
+        "0566B7"
+      ]
+    },
+    {
+      "offset": "0567A9",
+      "end": "0567C8",
+      "context": "05678D",
+      "text": "@but almost the same as the water you drink in town.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F6"
+      ],
+      "path": [
+        "05678D"
+      ]
+    },
+    {
+      "offset": "056814",
+      "end": "05682C",
+      "context": "056804",
+      "text": "@It's not money even though it's called a coin.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:F9"
+      ],
+      "path": [
+        "056804"
+      ]
+    },
+    {
+      "offset": "056B0D",
+      "end": "056B3D",
+      "context": "056B0D",
+      "text": "@It is most effective if you use this power multiple times to <layer> the effect.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:9D"
+      ],
+      "path": [
+        "05519F",
+        "056B0D"
+      ]
+    },
+    {
+      "offset": "056B6F",
+      "end": "056B7A",
+      "context": "056B6F",
+      "text": "@That genius ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:05"
+      ],
+      "path": [
+        "0537BC",
+        "056B6F"
+      ]
+    },
+    {
+      "offset": "056B7D",
+      "end": "056B8D",
+      "context": "056B6F",
+      "text": " should be able to fix it sometime.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:05"
+      ],
+      "path": [
+        "0537BC",
+        "056B6F"
+      ]
+    },
+    {
+      "offset": "056BC5",
+      "end": "056BDE",
+      "context": "056BC0",
+      "text": "@It protects you from paralysis attacks.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:36"
+      ],
+      "path": [
+        "053CC8",
+        "056BC0"
+      ]
+    },
+    {
+      "offset": "056BF4",
+      "end": "056C05",
+      "context": "056BF4",
+      "text": "@Must be equipped on your arm.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:40"
+      ],
+      "path": [
+        "053E4F",
+        "056BF4"
+      ]
+    },
+    {
+      "offset": "056C07",
+      "end": "056C15",
+      "context": "056BF4",
+      "text": "@It increases your Defense.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:40"
+      ],
+      "path": [
+        "053E4F",
+        "056BF4"
+      ]
+    },
+    {
+      "offset": "056C16",
+      "end": "056C3F",
+      "context": "056C16",
+      "text": "@Helps keep you from being hypnotized, and it also increases your Luck.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:46"
+      ],
+      "path": [
+        "053EAF",
+        "056C16"
+      ]
+    },
+    {
+      "offset": "056C5B",
+      "end": "056C6C",
+      "context": "056C54",
+      "text": "@Increases your Defense and Luck.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:51"
+      ],
+      "path": [
+        "054085",
+        "056C54"
+      ]
+    },
+    {
+      "offset": "056C6D",
+      "end": "056C8C",
+      "context": "056C6D",
+      "text": "@Miscellaneous equipment that can only be used by ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:4E"
+      ],
+      "path": [
+        "054055",
+        "056C6D"
+      ]
+    },
+    {
+      "offset": "056D7A",
+      "end": "056D9A",
+      "context": "056D63",
+      "text": "@A good combination increases the strength of your recovery.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ITEM_HELP:76"
+      ],
+      "path": [
+        "054842",
+        "056D63"
+      ]
+    },
+    {
+      "offset": "068C66",
+      "end": "068C79",
+      "context": "068C3F",
+      "text": "@I'm a friend who you have never met before...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1031:9"
+      ],
+      "path": [
+        "379CD7",
+        "379D73",
+        "32F69C",
+        "090F90",
+        "068C3F"
+      ]
+    },
+    {
+      "offset": "068C8E",
+      "end": "068C9C",
+      "context": "068C3F",
+      "text": "@Can you hear me calling you?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1031:9"
+      ],
+      "path": [
+        "379CD7",
+        "379D73",
+        "32F69C",
+        "090F90",
+        "068C3F"
+      ]
+    },
+    {
+      "offset": "068CE7",
+      "end": "068CF5",
+      "context": "068CC3",
+      "text": "@Can you hear me calling you?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1031:9"
+      ],
+      "path": [
+        "379CD7",
+        "379D73",
+        "32F69C",
+        "090F90",
+        "068CC3"
+      ]
+    },
+    {
+      "offset": "068D0B",
+      "end": "068D1C",
+      "context": "068CC3",
+      "text": "@Um, I don't know where I am...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1031:9"
+      ],
+      "path": [
+        "379CD7",
+        "379D73",
+        "32F69C",
+        "090F90",
+        "068CC3"
+      ]
+    },
+    {
+      "offset": "068D1E",
+      "end": "068D38",
+      "context": "068CC3",
+      "text": "@I can hear water running in the distance...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1031:9"
+      ],
+      "path": [
+        "379CD7",
+        "379D73",
+        "32F69C",
+        "090F90",
+        "068CC3"
+      ]
+    },
+    {
+      "offset": "068D44",
+      "end": "068D4C",
+      "context": "068CC3",
+      "text": ", please help me!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1031:9"
+      ],
+      "path": [
+        "379CD7",
+        "379D73",
+        "32F69C",
+        "090F90",
+        "068CC3"
+      ]
+    },
+    {
+      "offset": "068D5D",
+      "end": "068D73",
+      "context": "068D5A",
+      "text": "@You are a friend who I have never met before...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1031:9"
+      ],
+      "path": [
+        "379CD7",
+        "379D73",
+        "32F69C",
+        "090F90",
+        "068D5A"
+      ]
+    },
+    {
+      "offset": "068D94",
+      "end": "068DA9",
+      "context": "068D5A",
+      "text": "@If you hear this message, go to the south...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1031:9"
+      ],
+      "path": [
+        "379CD7",
+        "379D73",
+        "32F69C",
+        "090F90",
+        "068D5A"
+      ]
+    },
+    {
+      "offset": "06FA14",
+      "end": "06FA24",
+      "context": "06FA0C",
+      "text": " opened the locker using the ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:608:13"
+      ],
+      "path": [
+        "38E2C2",
+        "06FA0C"
+      ]
+    },
+    {
+      "offset": "06FA30",
+      "end": "06FA38",
+      "context": "06FA2E",
+      "text": "@There was a ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:608:13"
+      ],
+      "path": [
+        "38E2C2",
+        "06FA2E"
+      ]
+    },
+    {
+      "offset": "06FA3B",
+      "end": "06FA42",
+      "context": "06FA2E",
+      "text": " in the locker.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:608:13"
+      ],
+      "path": [
+        "38E2C2",
+        "06FA2E"
+      ]
+    },
+    {
+      "offset": "06FA6B",
+      "end": "06FA8E",
+      "context": "06FA68",
+      "text": "@(The key is bent and doesn't fit into the key hole!)",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:608:13"
+      ],
+      "path": [
+        "38E2C2",
+        "06FA68"
+      ]
+    },
+    {
+      "offset": "06FA93",
+      "end": "06FAB2",
+      "context": "06FA93",
+      "text": "@(Unfortunately, there is nothing in this locker.)",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:608:13"
+      ],
+      "path": [
+        "38E2C2",
+        "06FA93"
+      ]
+    },
+    {
+      "offset": "06FAB4",
+      "end": "06FAC9",
+      "context": "06FAB4",
+      "text": "@However, you already have too many things to carry.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:608:13"
+      ],
+      "path": [
+        "38E2C2",
+        "06FA2E",
+        "06FAB4"
+      ]
+    },
+    {
+      "offset": "06FAD6",
+      "end": "06FAE3",
+      "context": "06FAB4",
+      "text": " left it in the locker.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:608:13"
+      ],
+      "path": [
+        "38E2C2",
+        "06FA2E",
+        "06FAB4"
+      ]
+    },
+    {
+      "offset": "06FB6E",
+      "end": "06FB90",
+      "context": "06FB6D",
+      "text": "@The Suporma sang the song <Ode to Orange Kid.>",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F3D"
+      ],
+      "path": [
+        "06FB6D"
+      ]
+    },
+    {
+      "offset": "06FB92",
+      "end": "06FBB3",
+      "context": "06FB6D",
+      "text": "@As soon as it finished, the machine broke down.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F3D"
+      ],
+      "path": [
+        "06FB6D"
+      ]
+    },
+    {
+      "offset": "06FBB6",
+      "end": "06FBE8",
+      "context": "06FBB5",
+      "text": "@By using the Insignificant Present, you had a very fruitful experience",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F49"
+      ],
+      "path": [
+        "06FBB5"
+      ]
+    },
+    {
+      "offset": "06FBEA",
+      "end": "06FC18",
+      "context": "06FBB5",
+      "text": "@that cannot be understood by someone who does not use something insignificant.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F49"
+      ],
+      "path": [
+        "06FBB5"
+      ]
+    },
+    {
+      "offset": "06FCA0",
+      "end": "06FCAB",
+      "context": "06FC94",
+      "text": "  How are you?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F85"
+      ],
+      "path": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FCAD",
+      "end": "06FCD1",
+      "context": "06FC94",
+      "text": "@Since you left home on your journey, things have changed around here.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F85"
+      ],
+      "path": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FCD3",
+      "end": "06FCF1",
+      "context": "06FC94",
+      "text": "@For example, I don't have as much laundry.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F85"
+      ],
+      "path": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FCF3",
+      "end": "06FD05",
+      "context": "06FC94",
+      "text": "@Also, we don't seem to eat ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F85"
+      ],
+      "path": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD18",
+      "end": "06FD46",
+      "context": "06FC94",
+      "text": "@I heard that you defeated some universal evil character--what was it,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F85"
+      ],
+      "path": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD48",
+      "end": "06FD5A",
+      "context": "06FC94",
+      "text": "@Googi, or something like that?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F85"
+      ],
+      "path": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD5C",
+      "end": "06FD6B",
+      "context": "06FC94",
+      "text": "@Well, that sounds really great!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F85"
+      ],
+      "path": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD6C",
+      "end": "06FD8C",
+      "context": "06FC94",
+      "text": "  I want to hear all the details, so hurry home, okay?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F85"
+      ],
+      "path": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FD99",
+      "end": "06FDA5",
+      "context": "06FC94",
+      "text": " and I are waiting for you.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F85"
+      ],
+      "path": [
+        "06FC94"
+      ]
+    },
+    {
+      "offset": "06FDDF",
+      "end": "06FE02",
+      "context": "06FDBE",
+      "text": "@I wish I could have gone with you on your adventure, even just part of the way,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F91"
+      ],
+      "path": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FE04",
+      "end": "06FE25",
+      "context": "06FDBE",
+      "text": "@but instead I'm sitting here, waiting for you in Winters.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F91"
+      ],
+      "path": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FE27",
+      "end": "06FE57",
+      "context": "06FDBE",
+      "text": "@I want to see you again as soon as possible.  I can't wait to see your cheerful face.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F91"
+      ],
+      "path": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FE59",
+      "end": "06FE82",
+      "context": "06FDBE",
+      "text": "@I bet your glasses are dirty... If you come back, I'll clean them for you!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F91"
+      ],
+      "path": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FE84",
+      "end": "06FE98",
+      "context": "06FDBE",
+      "text": "@Like I said, I'm waiting for you.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F91"
+      ],
+      "path": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FEB9",
+      "end": "06FED4",
+      "context": "06FDBE",
+      "text": "@P.S.  Don't show this letter to anyone!)",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F91"
+      ],
+      "path": [
+        "06FDBE"
+      ]
+    },
+    {
+      "offset": "06FEE2",
+      "end": "06FEED",
+      "context": "06FED6",
+      "text": "  How are you doing?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F9D"
+      ],
+      "path": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FEEE",
+      "end": "06FEF4",
+      "context": "06FED6",
+      "text": "  I'm fine.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F9D"
+      ],
+      "path": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF00",
+      "end": "06FF07",
+      "context": "06FED6",
+      "text": "@So are me!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F9D"
+      ],
+      "path": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF1C",
+      "end": "06FF3D",
+      "context": "06FED6",
+      "text": "@Please come and play with us again at the Polestar Preschool.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F9D"
+      ],
+      "path": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF3F",
+      "end": "06FF64",
+      "context": "06FED6",
+      "text": "@Oh yeah, one more thing, bring us some presents ...if you have any.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F9D"
+      ],
+      "path": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "06FF78",
+      "end": "06FF85",
+      "context": "06FED6",
+      "text": "               Your friends at the",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368F9D"
+      ],
+      "path": [
+        "06FED6"
+      ]
+    },
+    {
+      "offset": "072398",
+      "end": "0723AC",
+      "context": "072398",
+      "text": "@Well, I want to thank you for all the times",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:407:13",
+        "NPC:861:13",
+        "NPC:938:13",
+        "NPC:1010:13",
+        "NPC:1015:13",
+        "NPC:1023:13",
+        "NPC:1201:13",
+        "NPC:1203:13"
+      ],
+      "path": [
+        "35A925",
+        "35A9C3",
+        "35AA71",
+        "35E756",
+        "35E7AA",
+        "072398"
+      ]
+    },
+    {
+      "offset": "0723AE",
+      "end": "0723DA",
+      "context": "072398",
+      "text": "@that you used the hint shop.  It's been a while since I first saw you...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:407:13",
+        "NPC:861:13",
+        "NPC:938:13",
+        "NPC:1010:13",
+        "NPC:1015:13",
+        "NPC:1023:13",
+        "NPC:1201:13",
+        "NPC:1203:13"
+      ],
+      "path": [
+        "35A925",
+        "35A9C3",
+        "35AA71",
+        "35E756",
+        "35E7AA",
+        "072398"
+      ]
+    },
+    {
+      "offset": "0723DC",
+      "end": "0723EE",
+      "context": "072398",
+      "text": "@This is my final day in business.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:407:13",
+        "NPC:861:13",
+        "NPC:938:13",
+        "NPC:1010:13",
+        "NPC:1015:13",
+        "NPC:1023:13",
+        "NPC:1201:13",
+        "NPC:1203:13"
+      ],
+      "path": [
+        "35A925",
+        "35A9C3",
+        "35AA71",
+        "35E756",
+        "35E7AA",
+        "072398"
+      ]
+    },
+    {
+      "offset": "072412",
+      "end": "07241F",
+      "context": "072398",
+      "text": "  No, no... Master ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:407:13",
+        "NPC:861:13",
+        "NPC:938:13",
+        "NPC:1010:13",
+        "NPC:1015:13",
+        "NPC:1023:13",
+        "NPC:1201:13",
+        "NPC:1203:13"
+      ],
+      "path": [
+        "35A925",
+        "35A9C3",
+        "35AA71",
+        "35E756",
+        "35E7AA",
+        "072398"
+      ]
+    },
+    {
+      "offset": "072425",
+      "end": "07242F",
+      "context": "072398",
+      "text": "@See you again,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:407:13",
+        "NPC:861:13",
+        "NPC:938:13",
+        "NPC:1010:13",
+        "NPC:1015:13",
+        "NPC:1023:13",
+        "NPC:1201:13",
+        "NPC:1203:13"
+      ],
+      "path": [
+        "35A925",
+        "35A9C3",
+        "35AA71",
+        "35E756",
+        "35E7AA",
+        "072398"
+      ]
+    },
+    {
+      "offset": "088009",
+      "end": "088027",
+      "context": "088000",
+      "text": "@(The bubble monkey took a piece of bubble gum,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368AE1"
+      ],
+      "path": [
+        "097F72",
+        "088000"
+      ]
+    },
+    {
+      "offset": "08FB26",
+      "end": "08FB43",
+      "context": "08FB1B",
+      "text": "@I understand you guys are already claiming to be heroes.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EF5"
+      ],
+      "path": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FB45",
+      "end": "08FB6C",
+      "context": "08FB1B",
+      "text": "@Well, it is a gazillion years too early for you to oppose Giygas!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EF5"
+      ],
+      "path": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FB6E",
+      "end": "08FB95",
+      "context": "08FB1B",
+      "text": "@You must feel pretty stupid to keep fighting without even knowing",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EF5"
+      ],
+      "path": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FB97",
+      "end": "08FBA0",
+      "context": "08FB1B",
+      "text": "@what Giygas looks like!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EF5"
+      ],
+      "path": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FBA2",
+      "end": "08FBC9",
+      "context": "08FB1B",
+      "text": "@If you were to ever see Giygas, you'd be so petrified with fear,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EF5"
+      ],
+      "path": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FBCB",
+      "end": "08FBDF",
+      "context": "08FB1B",
+      "text": "@you'd never be able to run away!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EF5"
+      ],
+      "path": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FBE1",
+      "end": "08FBF2",
+      "context": "08FB1B",
+      "text": "@...That's how scary it is!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EF5"
+      ],
+      "path": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "08FBF4",
+      "end": "08FC12",
+      "context": "08FB1B",
+      "text": "@So, do you want me to turn off the <Devil's Machine?>",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EF5"
+      ],
+      "path": [
+        "08FB1B"
+      ]
+    },
+    {
+      "offset": "0911ED",
+      "end": "091212",
+      "context": "0911EB",
+      "text": "@the best thing to do is to call home and hear your mom's voice.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:571:9"
+      ],
+      "path": [
+        "381D24",
+        "090FEC",
+        "09105F",
+        "0910C9",
+        "32E260",
+        "091058",
+        "09115D",
+        "32EBF0",
+        "091176",
+        "32CF24",
+        "32E104",
+        "32E244",
+        "09119A",
+        "32F380",
+        "32FFDC",
+        "33025C",
+        "0911A8",
+        "32F0FC",
+        "32F8FC",
+        "0911C0",
+        "32B25C",
+        "32EDBC",
+        "0911E0",
+        "330E00",
+        "329020",
+        "0911EB"
+      ]
+    },
+    {
+      "offset": "09EEA3",
+      "end": "09EEAC",
+      "context": "09EE9F",
+      "text": "@<...I'm h...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369081"
+      ],
+      "path": [
+        "09EE2F",
+        "09EE9F"
+      ]
+    },
+    {
+      "offset": "09F024",
+      "end": "09F030",
+      "context": "09F020",
+      "text": "@<...I'm so sad...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369081"
+      ],
+      "path": [
+        "09EE2F",
+        "09F020"
+      ]
+    },
+    {
+      "offset": "09F094",
+      "end": "09F0A0",
+      "context": "09F090",
+      "text": "@<It's not right...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369081"
+      ],
+      "path": [
+        "09EE2F",
+        "09F090"
+      ]
+    },
+    {
+      "offset": "09F0DF",
+      "end": "09F0F4",
+      "context": "09F0B8",
+      "text": "@<...Please give us strength,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FB5"
+      ],
+      "path": [
+        "09F0B8"
+      ]
+    },
+    {
+      "offset": "09F106",
+      "end": "09F10E",
+      "context": "09F0B8",
+      "text": "  Please...>",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FB5"
+      ],
+      "path": [
+        "09F0B8"
+      ]
+    },
+    {
+      "offset": "09F15B",
+      "end": "09F170",
+      "context": "09F134",
+      "text": "@<...Please give us strength!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FC1"
+      ],
+      "path": [
+        "09F134"
+      ]
+    },
+    {
+      "offset": "09F172",
+      "end": "09F186",
+      "context": "09F134",
+      "text": "@Anyone who can hear our plea....",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FC1"
+      ],
+      "path": [
+        "09F134"
+      ]
+    },
+    {
+      "offset": "09F1BD",
+      "end": "09F1D2",
+      "context": "09F196",
+      "text": "@<...Please give us strength!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FCD"
+      ],
+      "path": [
+        "09F196"
+      ]
+    },
+    {
+      "offset": "09F1D4",
+      "end": "09F1E2",
+      "context": "09F196",
+      "text": "@Speed this prayer",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FCD"
+      ],
+      "path": [
+        "09F196"
+      ]
+    },
+    {
+      "offset": "09F1E3",
+      "end": "09F1F7",
+      "context": "09F196",
+      "text": "  to all the people of the earth.>",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FCD"
+      ],
+      "path": [
+        "09F196"
+      ]
+    },
+    {
+      "offset": "09F224",
+      "end": "09F239",
+      "context": "09F1FD",
+      "text": "@<...Please give us strength!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FD9"
+      ],
+      "path": [
+        "09F1FD"
+      ]
+    },
+    {
+      "offset": "09F23B",
+      "end": "09F24E",
+      "context": "09F1FD",
+      "text": "@Anyone who can hear our plea...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FD9"
+      ],
+      "path": [
+        "09F1FD"
+      ]
+    },
+    {
+      "offset": "09F285",
+      "end": "09F297",
+      "context": "09F25E",
+      "text": "@<...Please grant us power!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FE5"
+      ],
+      "path": [
+        "09F25E"
+      ]
+    },
+    {
+      "offset": "09F299",
+      "end": "09F2AC",
+      "context": "09F25E",
+      "text": "@Anyone who can hear our plea...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FE5"
+      ],
+      "path": [
+        "09F25E"
+      ]
+    },
+    {
+      "offset": "09F2E3",
+      "end": "09F2FB",
+      "context": "09F2BC",
+      "text": "@<...Please grant us strength!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FF1"
+      ],
+      "path": [
+        "09F2BC"
+      ]
+    },
+    {
+      "offset": "09F2FD",
+      "end": "09F310",
+      "context": "09F2BC",
+      "text": "@Anyone who can hear our plea...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FF1"
+      ],
+      "path": [
+        "09F2BC"
+      ]
+    },
+    {
+      "offset": "09F311",
+      "end": "09F31F",
+      "context": "09F2BC",
+      "text": "  We ask for this...>",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FF1"
+      ],
+      "path": [
+        "09F2BC"
+      ]
+    },
+    {
+      "offset": "09F34C",
+      "end": "09F35E",
+      "context": "09F325",
+      "text": "@<...Please grant us power!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FFD"
+      ],
+      "path": [
+        "09F325"
+      ]
+    },
+    {
+      "offset": "09F360",
+      "end": "09F36E",
+      "context": "09F325",
+      "text": "@Speed this prayer",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FFD"
+      ],
+      "path": [
+        "09F325"
+      ]
+    },
+    {
+      "offset": "09F36F",
+      "end": "09F383",
+      "context": "09F325",
+      "text": "  to all the people of the earth...>",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368FFD"
+      ],
+      "path": [
+        "09F325"
+      ]
+    },
+    {
+      "offset": "09F3B0",
+      "end": "09F3BB",
+      "context": "09F389",
+      "text": "@<I can't think of",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369009"
+      ],
+      "path": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F3BC",
+      "end": "09F3C6",
+      "context": "09F389",
+      "text": "  anyone else...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369009"
+      ],
+      "path": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F3C8",
+      "end": "09F3D6",
+      "context": "09F389",
+      "text": "@...Someone, anyone...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369009"
+      ],
+      "path": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F3D7",
+      "end": "09F3E4",
+      "context": "09F389",
+      "text": "  ...please help us.>",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369009"
+      ],
+      "path": [
+        "09F389"
+      ]
+    },
+    {
+      "offset": "09F3FB",
+      "end": "09F40C",
+      "context": "09F3EC",
+      "text": "  from the bottom of her heart!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369015"
+      ],
+      "path": [
+        "09F3EC"
+      ]
+    },
+    {
+      "offset": "09F413",
+      "end": "09F426",
+      "context": "09F3EC",
+      "text": "@<Someone... can you hear me?!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369015"
+      ],
+      "path": [
+        "09F3EC"
+      ]
+    },
+    {
+      "offset": "09F428",
+      "end": "09F43C",
+      "context": "09F3EC",
+      "text": "@Please, give us strength!>",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369015"
+      ],
+      "path": [
+        "09F3EC"
+      ]
+    },
+    {
+      "offset": "09FBA0",
+      "end": "09FBC2",
+      "context": "09FB9F",
+      "text": "@(If you get this message, it means that something is wrong.)",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368B29"
+      ],
+      "path": [
+        "09FB9F"
+      ]
+    },
+    {
+      "offset": "16FB8D",
+      "end": "16FBB5",
+      "context": "16FB50",
+      "text": "@Le garçon cool chanta un air... unique.",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:525:9"
+      ],
+      "path": [
+        "16FB00",
+        "16FB50"
+      ]
+    },
+    {
+      "offset": "251ABF",
+      "end": "251AC2",
+      "context": "251A50",
+      "text": "Yes",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:320:9"
+      ],
+      "path": [
+        "386C80",
+        "251A50"
+      ]
+    },
+    {
+      "offset": "251AC5",
+      "end": "251AC7",
+      "context": "251A50",
+      "text": "No",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:320:9"
+      ],
+      "path": [
+        "386C80",
+        "251A50"
+      ]
+    },
+    {
+      "offset": "25B0B7",
+      "end": "25B0BA",
+      "context": "25B08C",
+      "text": "Yes",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:1080:9"
+      ],
+      "path": [
+        "36DC69",
+        "36DCD5",
+        "25B08C"
+      ]
+    },
+    {
+      "offset": "25B0BD",
+      "end": "25B0BF",
+      "context": "25B08C",
+      "text": "No",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:1080:9"
+      ],
+      "path": [
+        "36DC69",
+        "36DCD5",
+        "25B08C"
+      ]
+    },
+    {
+      "offset": "25B0FF",
+      "end": "25B102",
+      "context": "25B0D4",
+      "text": "Yes",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:1080:9"
+      ],
+      "path": [
+        "36DC69",
+        "36DCD5",
+        "25B0D4"
+      ]
+    },
+    {
+      "offset": "25B105",
+      "end": "25B107",
+      "context": "25B0D4",
+      "text": "No",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:1080:9"
+      ],
+      "path": [
+        "36DC69",
+        "36DCD5",
+        "25B0D4"
+      ]
+    },
+    {
+      "offset": "25B147",
+      "end": "25B14A",
+      "context": "25B11C",
+      "text": "Yes",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:1080:9"
+      ],
+      "path": [
+        "36DC69",
+        "36DCD5",
+        "25B11C"
+      ]
+    },
+    {
+      "offset": "25B14D",
+      "end": "25B14F",
+      "context": "25B11C",
+      "text": "No",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:1080:9"
+      ],
+      "path": [
+        "36DC69",
+        "36DCD5",
+        "25B11C"
+      ]
+    },
+    {
+      "offset": "25B18F",
+      "end": "25B192",
+      "context": "25B164",
+      "text": "Yes",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:1080:9"
+      ],
+      "path": [
+        "36DC69",
+        "36DCD5",
+        "25B164"
+      ]
+    },
+    {
+      "offset": "25B195",
+      "end": "25B197",
+      "context": "25B164",
+      "text": "No",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:1080:9"
+      ],
+      "path": [
+        "36DC69",
+        "36DCD5",
+        "25B164"
+      ]
+    },
+    {
+      "offset": "2F7555",
+      "end": "2F7567",
+      "context": "2F7548",
+      "text": "  edge closer to the enemy!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368E41"
+      ],
+      "path": [
+        "2F745F",
+        "2F7548"
+      ]
+    },
+    {
+      "offset": "2FA0E2",
+      "end": "2FA0F3",
+      "context": "2FA0DC",
+      "text": " read the hieroglyphs.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA0F5",
+      "end": "2FA121",
+      "context": "2FA0DC",
+      "text": "@<To fight against the invaders, we built this pyramid fortress.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA123",
+      "end": "2FA142",
+      "context": "2FA0DC",
+      "text": "@However, our efforts were futile, and we lost.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA144",
+      "end": "2FA16F",
+      "context": "2FA0DC",
+      "text": "@Nonetheless, our pyramid was protected by the gods of Scaraba.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA171",
+      "end": "2FA19A",
+      "context": "2FA0DC",
+      "text": "@The invaders will be reborn every millennium and will attack again.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA19C",
+      "end": "2FA1D4",
+      "context": "2FA0DC",
+      "text": "@Even now, the invaders hide beyond space and time and build their evil stronghold.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA1D6",
+      "end": "2FA206",
+      "context": "2FA0DC",
+      "text": "@A place out of time is beyond the Dark, and is even farther beyond the Lost Underworld.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA208",
+      "end": "2FA22B",
+      "context": "2FA0DC",
+      "text": "@The Deep Darkness is shrouded, it is without light.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA22D",
+      "end": "2FA237",
+      "context": "2FA0DC",
+      "text": "@Only one with the ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA23A",
+      "end": "2FA247",
+      "context": "2FA0DC",
+      "text": " can pierce the dark.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA249",
+      "end": "2FA260",
+      "context": "2FA0DC",
+      "text": "@The Sphinx now watches over everything,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA262",
+      "end": "2FA27F",
+      "context": "2FA0DC",
+      "text": "@waiting for the coming of a truly brave hero.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA294",
+      "end": "2FA2A9",
+      "context": "2FA0DC",
+      "text": "@Dance in front of the Sphinx!>",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EB9"
+      ],
+      "path": [
+        "2FA0DC"
+      ]
+    },
+    {
+      "offset": "2FA2B5",
+      "end": "2FA2C7",
+      "context": "2FA2B5",
+      "text": "@This town is not shown on the map.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:368EC5"
+      ],
+      "path": [
+        "2FA2AB",
+        "2FA2B5"
+      ]
+    },
+    {
+      "offset": "32E139",
+      "end": "32E13C",
+      "context": "32E120",
+      "text": "Yes",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:422:13"
+      ],
+      "path": [
+        "36E4B8",
+        "32E120"
+      ]
+    },
+    {
+      "offset": "32E13F",
+      "end": "32E141",
+      "context": "32E120",
+      "text": "No",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:422:13"
+      ],
+      "path": [
+        "36E4B8",
+        "32E120"
+      ]
+    },
+    {
+      "offset": "34924D",
+      "end": "34925E",
+      "context": "3491E6",
+      "text": "  ...super cool. ",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:497:9"
+      ],
+      "path": [
+        "349148",
+        "32B4A8",
+        "34917F",
+        "257D34",
+        "32A6D4",
+        "257D6E",
+        "3491E6"
+      ]
+    },
+    {
+      "offset": "34A352",
+      "end": "34A386",
+      "context": "34A344",
+      "text": "  You've fixed the spoon, but initially refused him.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:998:9"
+      ],
+      "path": [
+        "349FE1",
+        "32CDE0",
+        "34A279",
+        "34A344"
+      ]
+    },
+    {
+      "offset": "34A388",
+      "end": "34A3A3",
+      "context": "34A344",
+      "text": "  This should never happen.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:998:9"
+      ],
+      "path": [
+        "349FE1",
+        "32CDE0",
+        "34A279",
+        "34A344"
+      ]
+    },
+    {
+      "offset": "35CFFF",
+      "end": "35D018",
+      "context": "35CEAA",
+      "text": "@No: *pssst psst pssst*  ",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:407:13",
+        "NPC:861:13",
+        "NPC:938:13",
+        "NPC:1010:13",
+        "NPC:1015:13",
+        "NPC:1023:13",
+        "NPC:1201:13",
+        "NPC:1203:13"
+      ],
+      "path": [
+        "35A925",
+        "35A9C3",
+        "35CE5D",
+        "35CEAA"
+      ]
+    },
+    {
+      "offset": "35EDC8",
+      "end": "35EDF0",
+      "context": "35EDC1",
+      "text": "Starting Debug battle for PSI testing...",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878C4",
+        "35EDC1"
+      ]
+    },
+    {
+      "offset": "36DD0A",
+      "end": "36DD2A",
+      "context": "36DCD5",
+      "text": " but, you need a ticket to ride.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1080:9"
+      ],
+      "path": [
+        "36DC69",
+        "36DCD5"
+      ]
+    },
+    {
+      "offset": "36E5EB",
+      "end": "36E61D",
+      "context": "36E573",
+      "text": "@First let's go see what's happening in Youngtown.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:422:13"
+      ],
+      "path": [
+        "36E4B8",
+        "32E120",
+        "36E573"
+      ]
+    },
+    {
+      "offset": "36E832",
+      "end": "36E84B",
+      "context": "36E81C",
+      "text": "@I'm concerned about you,",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:420:9"
+      ],
+      "path": [
+        "36E80E",
+        "36E81C"
+      ]
+    },
+    {
+      "offset": "372337",
+      "end": "372344",
+      "context": "372337",
+      "text": "@Cool, merci.",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:89:9"
+      ],
+      "path": [
+        "36559E",
+        "37B994",
+        "37B9D1",
+        "37B9DE",
+        "3658BD",
+        "372337"
+      ]
+    },
+    {
+      "offset": "372583",
+      "end": "372590",
+      "context": "372583",
+      "text": "@Cool, merci.",
+      "unchanged_from_original": false,
+      "seed_labels": [
+        "NPC:90:9"
+      ],
+      "path": [
+        "365592",
+        "37BA93",
+        "37BAA1",
+        "37BAD1",
+        "36643D",
+        "372583"
+      ]
+    },
+    {
+      "offset": "37DE56",
+      "end": "37DE69",
+      "context": "37DE51",
+      "text": "Select your option.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878DA",
+        "37DE51"
+      ]
+    },
+    {
+      "offset": "37DF15",
+      "end": "37DF24",
+      "context": "37DF0A",
+      "text": "Select an item.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878DA",
+        "37DE51",
+        "37DF0A"
+      ]
+    },
+    {
+      "offset": "37E0F5",
+      "end": "37E116",
+      "context": "37E0EC",
+      "text": "What items do you want to remove?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878DA",
+        "37DE51",
+        "37E0EC"
+      ]
+    },
+    {
+      "offset": "37E19B",
+      "end": "37E1AE",
+      "context": "37E191",
+      "text": "Storage filled with",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878DA",
+        "37DE51",
+        "37E191"
+      ]
+    },
+    {
+      "offset": "37FFD9",
+      "end": "37FFEE",
+      "context": "37FFD3",
+      "text": "Select an Event Flag.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387840",
+        "37FFD3"
+      ]
+    },
+    {
+      "offset": "380B42",
+      "end": "380B58",
+      "context": "380B42",
+      "text": "@Have you ever tasted ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1104:9"
+      ],
+      "path": [
+        "380B27",
+        "380B42"
+      ]
+    },
+    {
+      "offset": "380B5F",
+      "end": "380B62",
+      "context": "380B42",
+      "text": "Yes",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1104:9"
+      ],
+      "path": [
+        "380B27",
+        "380B42"
+      ]
+    },
+    {
+      "offset": "380B65",
+      "end": "380B67",
+      "context": "380B42",
+      "text": "No",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1104:9"
+      ],
+      "path": [
+        "380B27",
+        "380B42"
+      ]
+    },
+    {
+      "offset": "380C7A",
+      "end": "380C97",
+      "context": "380C74",
+      "text": "  (This should never happen.)",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1104:9"
+      ],
+      "path": [
+        "380B27",
+        "16FE40",
+        "380C74"
+      ]
+    },
+    {
+      "offset": "380E9B",
+      "end": "380EB8",
+      "context": "380E95",
+      "text": "  (This should never happen.)",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1106:9"
+      ],
+      "path": [
+        "380DDC",
+        "380E3A",
+        "380E95"
+      ]
+    },
+    {
+      "offset": "3834B6",
+      "end": "3834C7",
+      "context": "3834B1",
+      "text": "Select an option.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387906",
+        "3834B1"
+      ]
+    },
+    {
+      "offset": "383516",
+      "end": "383521",
+      "context": "383509",
+      "text": "Which song?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387906",
+        "3834B1",
+        "383509"
+      ]
+    },
+    {
+      "offset": "383539",
+      "end": "38354C",
+      "context": "38352C",
+      "text": "Which sound effect?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387906",
+        "3834B1",
+        "38352C"
+      ]
+    },
+    {
+      "offset": "383589",
+      "end": "3835AE",
+      "context": "383571",
+      "text": "Options 192 and above crash the game.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387906",
+        "3834B1",
+        "383509",
+        "383571"
+      ]
+    },
+    {
+      "offset": "384BA8",
+      "end": "384BAB",
+      "context": "384B8B",
+      "text": "Yes",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:446:13"
+      ],
+      "path": [
+        "384AA4",
+        "252CCC",
+        "384B8B"
+      ]
+    },
+    {
+      "offset": "384BAE",
+      "end": "384BB0",
+      "context": "384B8B",
+      "text": "No",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:446:13"
+      ],
+      "path": [
+        "384AA4",
+        "252CCC",
+        "384B8B"
+      ]
+    },
+    {
+      "offset": "384BE3",
+      "end": "384BE6",
+      "context": "384BC5",
+      "text": "Yes",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:446:13"
+      ],
+      "path": [
+        "384AA4",
+        "252CCC",
+        "384B8B",
+        "384BC5"
+      ]
+    },
+    {
+      "offset": "384BE9",
+      "end": "384BEB",
+      "context": "384BC5",
+      "text": "No",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:446:13"
+      ],
+      "path": [
+        "384AA4",
+        "252CCC",
+        "384B8B",
+        "384BC5"
+      ]
+    },
+    {
+      "offset": "384C44",
+      "end": "384C56",
+      "context": "384C00",
+      "text": "@Your balance is $",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:446:13"
+      ],
+      "path": [
+        "384AA4",
+        "252CCC",
+        "384B8B",
+        "384BC5",
+        "384C00"
+      ]
+    },
+    {
+      "offset": "384CA6",
+      "end": "384CC1",
+      "context": "384C00",
+      "text": "@Here...  Take it with you.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:446:13"
+      ],
+      "path": [
+        "384AA4",
+        "252CCC",
+        "384B8B",
+        "384BC5",
+        "384C00"
+      ]
+    },
+    {
+      "offset": "386D46",
+      "end": "386D66",
+      "context": "386D23",
+      "text": "@Please make sure it is correct.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:320:9"
+      ],
+      "path": [
+        "386C80",
+        "251A50",
+        "386D23"
+      ]
+    },
+    {
+      "offset": "387AAD",
+      "end": "387AB1",
+      "context": "387AA2",
+      "text": "Your",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1157:9"
+      ],
+      "path": [
+        "263B90",
+        "369E9E",
+        "387AA2"
+      ]
+    },
+    {
+      "offset": "387B2B",
+      "end": "387B2E",
+      "context": "387B19",
+      "text": "you",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:586:9"
+      ],
+      "path": [
+        "33FA7D",
+        "33FBDD",
+        "320B30",
+        "33FC0E",
+        "32FCA0",
+        "33FC4C",
+        "387B19"
+      ]
+    },
+    {
+      "offset": "387B2F",
+      "end": "387B36",
+      "context": "387B2F",
+      "text": "you all",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:586:9"
+      ],
+      "path": [
+        "33FA7D",
+        "33FBDD",
+        "320B30",
+        "33FC0E",
+        "32FCA0",
+        "33FC4C",
+        "387B19",
+        "387B2F"
+      ]
+    },
+    {
+      "offset": "387B37",
+      "end": "387B3E",
+      "context": "387B37",
+      "text": "you two",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:586:9"
+      ],
+      "path": [
+        "33FA7D",
+        "33FBDD",
+        "320B30",
+        "33FC0E",
+        "32FCA0",
+        "33FC4C",
+        "387B19",
+        "387B37"
+      ]
+    },
+    {
+      "offset": "388E78",
+      "end": "388E8F",
+      "context": "388E75",
+      "text": "What do you want to do?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387882",
+        "388E75"
+      ]
+    },
+    {
+      "offset": "38902E",
+      "end": "389041",
+      "context": "389022",
+      "text": "Which party member?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387882",
+        "388E75",
+        "389022"
+      ]
+    },
+    {
+      "offset": "38908E",
+      "end": "38909B",
+      "context": "38905B",
+      "text": " was removed.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387882",
+        "388E75",
+        "389022",
+        "38905B"
+      ]
+    },
+    {
+      "offset": "3890A5",
+      "end": "3890C4",
+      "context": "3890A2",
+      "text": "You can't have a party of zero!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387882",
+        "388E75",
+        "389022",
+        "3890A2"
+      ]
+    },
+    {
+      "offset": "3890C9",
+      "end": "3890EB",
+      "context": "3890A2",
+      "text": "The game will freeze if you do so.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387882",
+        "388E75",
+        "389022",
+        "3890A2"
+      ]
+    },
+    {
+      "offset": "3897F2",
+      "end": "389808",
+      "context": "3897EA",
+      "text": "Choose your operation.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA"
+      ]
+    },
+    {
+      "offset": "38986F",
+      "end": "389884",
+      "context": "389867",
+      "text": "You now have $9999999",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA",
+        "389867"
+      ]
+    },
+    {
+      "offset": "389885",
+      "end": "389894",
+      "context": "389867",
+      "text": "   in the bank.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA",
+        "389867"
+      ]
+    },
+    {
+      "offset": "3898A9",
+      "end": "3898BC",
+      "context": "3898A1",
+      "text": "You now have $99999",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA",
+        "3898A1"
+      ]
+    },
+    {
+      "offset": "3898BD",
+      "end": "3898CF",
+      "context": "3898A1",
+      "text": "   in your wallet.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA",
+        "3898A1"
+      ]
+    },
+    {
+      "offset": "3898EC",
+      "end": "3898FE",
+      "context": "3898E4",
+      "text": "Input your amount:",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA",
+        "3898E4"
+      ]
+    },
+    {
+      "offset": "389927",
+      "end": "389935",
+      "context": "3898E4",
+      "text": "You now have $",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA",
+        "3898E4"
+      ]
+    },
+    {
+      "offset": "38993D",
+      "end": "38994F",
+      "context": "3898E4",
+      "text": "   in your wallet.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA",
+        "3898E4"
+      ]
+    },
+    {
+      "offset": "3899CC",
+      "end": "3899DE",
+      "context": "3899BF",
+      "text": "You are now broke!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA",
+        "38995C",
+        "3899BF"
+      ]
+    },
+    {
+      "offset": "3899DF",
+      "end": "3899F7",
+      "context": "3899BF",
+      "text": "   Your wallet is empty!",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "3878AE",
+        "3897EA",
+        "38995C",
+        "3899BF"
+      ]
+    },
+    {
+      "offset": "38B532",
+      "end": "38B537",
+      "context": "38B532",
+      "text": "some ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1420:9"
+      ],
+      "path": [
+        "3803F1",
+        "32B500",
+        "38B551",
+        "38B532"
+      ]
+    },
+    {
+      "offset": "38B538",
+      "end": "38B53C",
+      "context": "38B538",
+      "text": "the ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:1420:9"
+      ],
+      "path": [
+        "3803F1",
+        "32B500",
+        "38B551",
+        "38B538"
+      ]
+    },
+    {
+      "offset": "38B545",
+      "end": "38B54A",
+      "context": "38B545",
+      "text": "Some ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:204:9"
+      ],
+      "path": [
+        "36B788",
+        "36B7D5",
+        "38B56C",
+        "38B545"
+      ]
+    },
+    {
+      "offset": "38B54B",
+      "end": "38B54F",
+      "context": "38B54B",
+      "text": "The ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:204:9"
+      ],
+      "path": [
+        "36B788",
+        "36B7D5",
+        "38B56C",
+        "38B54B"
+      ]
+    },
+    {
+      "offset": "38BADB",
+      "end": "38BAF1",
+      "context": "38BA92",
+      "text": "@The monkey stole the ",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "NPC:63:9"
+      ],
+      "path": [
+        "38BA92"
+      ]
+    },
+    {
+      "offset": "38DC41",
+      "end": "38DC58",
+      "context": "38DC3E",
+      "text": "Who will be leveled up?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "38782A",
+        "38DC3E"
+      ]
+    },
+    {
+      "offset": "38DCC9",
+      "end": "38DCEF",
+      "context": "38DCC4",
+      "text": "Which party member will be leveled up?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "38782A",
+        "38DC3E",
+        "38DCC4"
+      ]
+    },
+    {
+      "offset": "38DD4B",
+      "end": "38DD5D",
+      "context": "38DD48",
+      "text": "Select your level.",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "38782A",
+        "38DC3E",
+        "38DC87",
+        "38DD48"
+      ]
+    },
+    {
+      "offset": "3901B3",
+      "end": "3901C5",
+      "context": "3901B0",
+      "text": "Which Enemy Group?",
+      "unchanged_from_original": true,
+      "seed_labels": [
+        "ACTION:369201"
+      ],
+      "path": [
+        "058000",
+        "3876CE",
+        "3876D5",
+        "387898",
+        "3901B0"
+      ]
+    }
+  ],
+  "unparsed_roots": []
+}

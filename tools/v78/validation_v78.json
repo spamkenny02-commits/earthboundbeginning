@@ -1,0 +1,33 @@
+{
+  "version": "v78",
+  "input_patch_version": "v77",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "changed_text_spans": 94,
+  "distinct_new_translations": 81,
+  "batch_target_distinct_texts": 150,
+  "release_pending": true,
+  "native_commands_preserved_after_expanding_menu_bridges": true,
+  "npc_pointers_rewritten": 0,
+  "menu_bridges": 5,
+  "new_allocated_bytes": 55,
+  "bank25_unchanged": true,
+  "sprites_preserved_against": "v77",
+  "natural_scene_access_verified": false,
+  "profiles": {
+    "accents": {
+      "sha256": "29339285030ae3983a9b13f4c5d95991cfec8f0b38342b6d026f7f74107a4d75",
+      "target_rom_sha256": "8b932363561b436ca2eb5c20c5fc527408f84d609ba76253f6f41db7ae759b73",
+      "records_added": 219
+    },
+    "ascii": {
+      "sha256": "9ec1f5dcbdaa7631530dc011bf964512eaac74ef33c927cfc2b321f344664003",
+      "target_rom_sha256": "b258463363680d782f484ac79e6fc212e5948ebcfc3bf506caaf64e7cb30ea88",
+      "records_added": 219
+    }
+  },
+  "medical_entries": 71,
+  "medical_no_menus": 2,
+  "medical_text_bridges": 61,
+  "medical_allocated_bytes": 2323,
+  "medical_commands_preserved_after_expansion": true
+}

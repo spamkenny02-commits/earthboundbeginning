@@ -1,0 +1,2664 @@
+{
+  "accents": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "haunted_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/haunted_yes/page_00.png",
+        "after_path": "tests/emulation_v78/accents/haunted_yes/page_00.png",
+        "before_png_sha256": "1c1c4f79dbfbd16f82f44bd85612b6fe2377f20636a3be796fbc0da0aade3fcb",
+        "before_rgb_sha256": "3533fb7f4a3b1955dd71954de0394a1ce6f3276a0fb1682eaca73a5046b26cb9",
+        "after_rgb_sha256": "99a7ae5a8b3d384755d13603e90759298d740a98a4d5810a022dcae9da985010",
+        "bbox": [
+          122,
+          50,
+          218,
+          58
+        ]
+      },
+      {
+        "case": "haunted_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/haunted_yes/page_01.png",
+        "after_path": "tests/emulation_v78/accents/haunted_yes/page_01.png",
+        "before_png_sha256": "ebfb4d7a6ba8c6e53bc98b90ef791eaf39dc8491e2d7cefc92ee098995131f5f",
+        "before_rgb_sha256": "940a1930f1a119633021f2d1f34e867e5b87353f17e3965a372cea5922d74a36",
+        "after_rgb_sha256": "940a1930f1a119633021f2d1f34e867e5b87353f17e3965a372cea5922d74a36",
+        "bbox": null
+      },
+      {
+        "case": "haunted_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/haunted_yes/page_02.png",
+        "after_path": "tests/emulation_v78/accents/haunted_yes/page_02.png",
+        "before_png_sha256": "f15ea2d1ac00ed7edf4cf47ba839d36ff2d37a98b628d1979cc81a60988dc5ef",
+        "before_rgb_sha256": "33095fc8e47862c72bf6ca26008e89eb4daf6498992712fe45dbd78d17543db8",
+        "after_rgb_sha256": "33095fc8e47862c72bf6ca26008e89eb4daf6498992712fe45dbd78d17543db8",
+        "bbox": null
+      },
+      {
+        "case": "haunted_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/haunted_yes/page_03.png",
+        "after_path": "tests/emulation_v78/accents/haunted_yes/page_03.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "haunted_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/haunted_no/page_00.png",
+        "after_path": "tests/emulation_v78/accents/haunted_no/page_00.png",
+        "before_png_sha256": "1c1c4f79dbfbd16f82f44bd85612b6fe2377f20636a3be796fbc0da0aade3fcb",
+        "before_rgb_sha256": "3533fb7f4a3b1955dd71954de0394a1ce6f3276a0fb1682eaca73a5046b26cb9",
+        "after_rgb_sha256": "99a7ae5a8b3d384755d13603e90759298d740a98a4d5810a022dcae9da985010",
+        "bbox": [
+          122,
+          50,
+          218,
+          58
+        ]
+      },
+      {
+        "case": "haunted_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/haunted_no/page_01.png",
+        "after_path": "tests/emulation_v78/accents/haunted_no/page_01.png",
+        "before_png_sha256": "a8a7ca6c11fe1218ff6b9696a400f76dabfafdbb9aeafb69bc07dffc1f8f0f11",
+        "before_rgb_sha256": "74a05a5af03392062eb2ebaa6ff369369655ce4a9c249b51c3b91e9de7f5551e",
+        "after_rgb_sha256": "74a05a5af03392062eb2ebaa6ff369369655ce4a9c249b51c3b91e9de7f5551e",
+        "bbox": null
+      },
+      {
+        "case": "haunted_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/haunted_no/page_02.png",
+        "after_path": "tests/emulation_v78/accents/haunted_no/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey1_yes/page_00.png",
+        "after_path": "tests/emulation_v78/accents/monkey1_yes/page_00.png",
+        "before_png_sha256": "3153d54b7ef1d60547ce8e576236ab3a06ac6e9e1b50b4c015e05edacec57c14",
+        "before_rgb_sha256": "e12dcf5a88de142f6a41b4624479134411844bc9e3590b673d0f682d8c3779f5",
+        "after_rgb_sha256": "4eec6a8ac75ed73c003b5a7c71bf538e172b9de0f946ffe8c8d6c2cf027892a8",
+        "bbox": [
+          120,
+          34,
+          166,
+          45
+        ]
+      },
+      {
+        "case": "monkey1_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey1_yes/page_01.png",
+        "after_path": "tests/emulation_v78/accents/monkey1_yes/page_01.png",
+        "before_png_sha256": "792e4afc6f09d8da97bb854fd99d8a2f4e263179f717e244e75bff8cf339e516",
+        "before_rgb_sha256": "2b56ab5cc79f2ff3061a08a6d0012f9cde20d0375936d61a0017126fdb720d64",
+        "after_rgb_sha256": "e826802f27ca0cd8e08f303cef7e2705ca6d7eb1f8e259d30b91be6ac3d301d1",
+        "bbox": [
+          114,
+          34,
+          225,
+          58
+        ]
+      },
+      {
+        "case": "monkey1_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey1_yes/page_02.png",
+        "after_path": "tests/emulation_v78/accents/monkey1_yes/page_02.png",
+        "before_png_sha256": "1b5a78c26a5223cd4d203092de142093648b09d457dde08510713027735af10b",
+        "before_rgb_sha256": "feb8196177573c572598feae15205e7d87653e6390b676ae61e5a2452685755b",
+        "after_rgb_sha256": "feb8196177573c572598feae15205e7d87653e6390b676ae61e5a2452685755b",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey1_yes/page_03.png",
+        "after_path": "tests/emulation_v78/accents/monkey1_yes/page_03.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey1_no/page_00.png",
+        "after_path": "tests/emulation_v78/accents/monkey1_no/page_00.png",
+        "before_png_sha256": "3153d54b7ef1d60547ce8e576236ab3a06ac6e9e1b50b4c015e05edacec57c14",
+        "before_rgb_sha256": "e12dcf5a88de142f6a41b4624479134411844bc9e3590b673d0f682d8c3779f5",
+        "after_rgb_sha256": "4eec6a8ac75ed73c003b5a7c71bf538e172b9de0f946ffe8c8d6c2cf027892a8",
+        "bbox": [
+          120,
+          34,
+          166,
+          45
+        ]
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey1_no/page_01.png",
+        "after_path": "tests/emulation_v78/accents/monkey1_no/page_01.png",
+        "before_png_sha256": "792e4afc6f09d8da97bb854fd99d8a2f4e263179f717e244e75bff8cf339e516",
+        "before_rgb_sha256": "2b56ab5cc79f2ff3061a08a6d0012f9cde20d0375936d61a0017126fdb720d64",
+        "after_rgb_sha256": "e826802f27ca0cd8e08f303cef7e2705ca6d7eb1f8e259d30b91be6ac3d301d1",
+        "bbox": [
+          114,
+          34,
+          225,
+          58
+        ]
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey1_no/page_02.png",
+        "after_path": "tests/emulation_v78/accents/monkey1_no/page_02.png",
+        "before_png_sha256": "b0c9042ba09ab4efe3c509dc1712502677d62bf151d8507afcc5a4fa1c26bac0",
+        "before_rgb_sha256": "0dd015fdd3a68761a95ed7e4040125556341822c054c4105fd7e9ed1a728131d",
+        "after_rgb_sha256": "0dd015fdd3a68761a95ed7e4040125556341822c054c4105fd7e9ed1a728131d",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey1_no/page_03.png",
+        "after_path": "tests/emulation_v78/accents/monkey1_no/page_03.png",
+        "before_png_sha256": "29f03da058a6a8439ed9ddf2be3e316c8ab88c611703dea503d8fcfccfca0126",
+        "before_rgb_sha256": "abb4ce28badd0241854a619f5a51348e8e09fd82ebef667b5e1baf8de5215057",
+        "after_rgb_sha256": "abb4ce28badd0241854a619f5a51348e8e09fd82ebef667b5e1baf8de5215057",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey1_no/page_04.png",
+        "after_path": "tests/emulation_v78/accents/monkey1_no/page_04.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_yes/page_00.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_yes/page_00.png",
+        "before_png_sha256": "16d3ef2748e7f4355a4400adaad23cdc6e59811302bf11840b9327f6b6b534ac",
+        "before_rgb_sha256": "6bb91b30e5cf3a33d362c2231682ae8b9ff772c824c08605abe05b364928ad6d",
+        "after_rgb_sha256": "544f09a1b24e45236f9ea17ab150201c825c38c3e177174f387175ba145175e2",
+        "bbox": [
+          114,
+          34,
+          190,
+          45
+        ]
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_yes/page_01.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_yes/page_01.png",
+        "before_png_sha256": "57bd150bd73a893537910553740bfb2f2be8fd2401eaa8bf36500569f31f8827",
+        "before_rgb_sha256": "15d3db0050e861a415373b5b5fcb06a204a1c7de285db57b0f37a889631b74e3",
+        "after_rgb_sha256": "72441263973fc41427fa0ef2a2f7d71be97c76ba165c11845ffd84ac152f3550",
+        "bbox": [
+          110,
+          18,
+          223,
+          58
+        ]
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_yes/page_02.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_yes/page_02.png",
+        "before_png_sha256": "2b9c16b9c6e076f34d68086d8cd1da40a89c1997e0fd8b0de27720d679822214",
+        "before_rgb_sha256": "e2069f6607d3e7340f85dda1e30464536de0ec1c9ad6cf57502d3c1588e48bf2",
+        "after_rgb_sha256": "e292117e21f625aa01fb23e98d117fc0fc0e3f13c76f97a81d4f7c679b306fa8",
+        "bbox": [
+          110,
+          18,
+          149,
+          29
+        ]
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_yes/page_03.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_yes/page_03.png",
+        "before_png_sha256": "edebb03b4c9cdb155a63b006c0fcb224eb0b0d98a3e1c84e108721c5c9ab09c1",
+        "before_rgb_sha256": "d88e4c9f8bbe3372083f3b5d280eb239c3f893d4dae60fbe0c27169fcea498dc",
+        "after_rgb_sha256": "d88e4c9f8bbe3372083f3b5d280eb239c3f893d4dae60fbe0c27169fcea498dc",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_yes/page_04.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_yes/page_04.png",
+        "before_png_sha256": "4c8aa2fdb8a56226dfa4165a6902345d46115dfb4f070c05a3108159c8faa5b0",
+        "before_rgb_sha256": "dd000830067ebf3b93dcc3d252951cb1ade79a1582111e43c0a4d0dd454f3934",
+        "after_rgb_sha256": "dd000830067ebf3b93dcc3d252951cb1ade79a1582111e43c0a4d0dd454f3934",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_yes/page_05.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_yes/page_05.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_no/page_00.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_no/page_00.png",
+        "before_png_sha256": "16d3ef2748e7f4355a4400adaad23cdc6e59811302bf11840b9327f6b6b534ac",
+        "before_rgb_sha256": "6bb91b30e5cf3a33d362c2231682ae8b9ff772c824c08605abe05b364928ad6d",
+        "after_rgb_sha256": "544f09a1b24e45236f9ea17ab150201c825c38c3e177174f387175ba145175e2",
+        "bbox": [
+          114,
+          34,
+          190,
+          45
+        ]
+      },
+      {
+        "case": "monkey2_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_no/page_01.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_no/page_01.png",
+        "before_png_sha256": "57bd150bd73a893537910553740bfb2f2be8fd2401eaa8bf36500569f31f8827",
+        "before_rgb_sha256": "15d3db0050e861a415373b5b5fcb06a204a1c7de285db57b0f37a889631b74e3",
+        "after_rgb_sha256": "72441263973fc41427fa0ef2a2f7d71be97c76ba165c11845ffd84ac152f3550",
+        "bbox": [
+          110,
+          18,
+          223,
+          58
+        ]
+      },
+      {
+        "case": "monkey2_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_no/page_02.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_no/page_02.png",
+        "before_png_sha256": "9b12d086c4903c6da829ccca1df0724181a31758a9b462b6539ed99b7f694b57",
+        "before_rgb_sha256": "7f89f5045163b76d7341cfa7bdfeaa1cc083d83b415d919e9623341c2815f553",
+        "after_rgb_sha256": "7f89f5045163b76d7341cfa7bdfeaa1cc083d83b415d919e9623341c2815f553",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey2_no/page_03.png",
+        "after_path": "tests/emulation_v78/accents/monkey2_no/page_03.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_yes/page_00.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_yes/page_00.png",
+        "before_png_sha256": "121bd8984c9e8d8e9fd988f9a04d044fec055f157c1809e005bda0e1b6465ee3",
+        "before_rgb_sha256": "6531e9f98d086c299dd4fdcee7d75d30e3a46babc28128843c229552ce44d27d",
+        "after_rgb_sha256": "48ab68260bf68f435f21792f12ae575024b1edc0bf94fbe9e050b01592b33b03",
+        "bbox": [
+          110,
+          33,
+          231,
+          61
+        ]
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_yes/page_01.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_yes/page_01.png",
+        "before_png_sha256": "ebfaa6bcf62eca4c618c134197d6dc69905973f562c89bcf2de73ac682a56e90",
+        "before_rgb_sha256": "b9970c6314af8f7dc535626f9fa05bb95b96f46da76f50feaa91a0d38855a3ff",
+        "after_rgb_sha256": "1f7bd42532115ca6c30907cf549148d4c43f2fb969c2b020e31d958bd1cd93aa",
+        "bbox": [
+          110,
+          18,
+          218,
+          58
+        ]
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_yes/page_02.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_yes/page_02.png",
+        "before_png_sha256": "353cc32ea3920e1748050f43f690a1d4cccd950eb1b75e83660a60c7daae2768",
+        "before_rgb_sha256": "1c7e0864f2b4e014ac4e4b16111e3a029493b69031e519c5bec3056594afddfa",
+        "after_rgb_sha256": "02eb4e2a1c0ce2e3f36e8b843af62b280fad6de1f20f24a02cc30e8b66daa39e",
+        "bbox": [
+          114,
+          18,
+          178,
+          26
+        ]
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_yes/page_03.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_yes/page_03.png",
+        "before_png_sha256": "88a28956f828705712a78817f3bf1acd166d4d47454c56cae7c020b22c578eb6",
+        "before_rgb_sha256": "1cee931770b87df0e5bd1ecd9bd1989adc0589d1e2d644dae0a6d3f77fb2e09e",
+        "after_rgb_sha256": "1cee931770b87df0e5bd1ecd9bd1989adc0589d1e2d644dae0a6d3f77fb2e09e",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_yes/page_04.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_yes/page_04.png",
+        "before_png_sha256": "412e67f7ed4456fb7f9a22179a7e3432c05252588be1cc829deb22dfd04cd3c0",
+        "before_rgb_sha256": "37efea986e2416d5dcd5dc9a5f0676fc90b0fc462277f2d59cdfedf03ee39c22",
+        "after_rgb_sha256": "37efea986e2416d5dcd5dc9a5f0676fc90b0fc462277f2d59cdfedf03ee39c22",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_yes/page_05.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_yes/page_05.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_no/page_00.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_no/page_00.png",
+        "before_png_sha256": "121bd8984c9e8d8e9fd988f9a04d044fec055f157c1809e005bda0e1b6465ee3",
+        "before_rgb_sha256": "6531e9f98d086c299dd4fdcee7d75d30e3a46babc28128843c229552ce44d27d",
+        "after_rgb_sha256": "48ab68260bf68f435f21792f12ae575024b1edc0bf94fbe9e050b01592b33b03",
+        "bbox": [
+          110,
+          33,
+          231,
+          61
+        ]
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_no/page_01.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_no/page_01.png",
+        "before_png_sha256": "ebfaa6bcf62eca4c618c134197d6dc69905973f562c89bcf2de73ac682a56e90",
+        "before_rgb_sha256": "b9970c6314af8f7dc535626f9fa05bb95b96f46da76f50feaa91a0d38855a3ff",
+        "after_rgb_sha256": "1f7bd42532115ca6c30907cf549148d4c43f2fb969c2b020e31d958bd1cd93aa",
+        "bbox": [
+          110,
+          18,
+          218,
+          58
+        ]
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_no/page_02.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_no/page_02.png",
+        "before_png_sha256": "851c8e07ac4f8f4e275dd6c87897f60748f317ecde14fda2781d179ed2a43f87",
+        "before_rgb_sha256": "6291d05ffd24193413ef0b0854c34afe8cf52b4d3bda45dc8a003c2a7db1f73b",
+        "after_rgb_sha256": "da9442cd567bef179b9571257ac091323b199f3ada5cb32f3075c5634955be45",
+        "bbox": [
+          114,
+          18,
+          178,
+          26
+        ]
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_no/page_03.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_no/page_03.png",
+        "before_png_sha256": "34e8b9b4cc6a02e9922c313a201d6c4746ad627ea6b67c50fc5f3e6b414042c0",
+        "before_rgb_sha256": "0cd3cdc7980457f230b782e51a28db391a5b2904f9b53db07e5495e2f7e27777",
+        "after_rgb_sha256": "0cd3cdc7980457f230b782e51a28db391a5b2904f9b53db07e5495e2f7e27777",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/monkey3_no/page_04.png",
+        "after_path": "tests/emulation_v78/accents/monkey3_no/page_04.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "sign",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/sign/page_00.png",
+        "after_path": "tests/emulation_v78/accents/sign/page_00.png",
+        "before_png_sha256": "c8a1a419b51ed7944e88be0711854b45b849870062c3dae4228e7274b4ef06bf",
+        "before_rgb_sha256": "df472bb6e38e84cfa886f959ef6992556e8128ef6c70a9479ad382651fcd6a59",
+        "after_rgb_sha256": "e897ace4e251ea43f4ed3192747853d8a4a04538d11fa70d26a47dd7eeb5fec9",
+        "bbox": [
+          110,
+          50,
+          156,
+          58
+        ]
+      },
+      {
+        "case": "sign",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/sign/page_01.png",
+        "after_path": "tests/emulation_v78/accents/sign/page_01.png",
+        "before_png_sha256": "66a680445390db575e275156ff2e55f07ce6e15a6f9355b566cda593070938b0",
+        "before_rgb_sha256": "5229efe74e7723d1bcf020939d4586f3d973d0b578c28a8d7a1cca650707a31a",
+        "after_rgb_sha256": "10de591b9693c88f6d6cb51e62731570e5c5643d51e4005b4191713eb5183ab5",
+        "bbox": [
+          110,
+          18,
+          234,
+          61
+        ]
+      },
+      {
+        "case": "sign",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/sign/page_02.png",
+        "after_path": "tests/emulation_v78/accents/sign/page_02.png",
+        "before_png_sha256": "c2ec0fa88add2ab97e80f27554258f58a6f11f2eedf710d0e3f17b83790698f0",
+        "before_rgb_sha256": "263b9e2416763747b10bded1c2b71174a1e822965bd19b1ae72e2c687b208a8d",
+        "after_rgb_sha256": "0da1a1f1426839cd4a8a184bb4ab52211bb6bbe01c4bcd1946cd43fffec24f10",
+        "bbox": [
+          110,
+          18,
+          177,
+          29
+        ]
+      },
+      {
+        "case": "rocket_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/rocket_no/page_00.png",
+        "after_path": "tests/emulation_v78/accents/rocket_no/page_00.png",
+        "before_png_sha256": "a4c450c64c6803b1d608a512cb537d3b05f488e236085d2af8f1fc25bcc1df40",
+        "before_rgb_sha256": "1b2fa11e9c81f803d6e53f82bdb7a50b55d2fa235a13d85f34ad171ae8597224",
+        "after_rgb_sha256": "7b9a03658307e28b99290a92addfb36d44fe7b46bf5a1886373f3d7cf61d1aea",
+        "bbox": [
+          114,
+          18,
+          218,
+          42
+        ]
+      },
+      {
+        "case": "rocket_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/rocket_no/page_01.png",
+        "after_path": "tests/emulation_v78/accents/rocket_no/page_01.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "doctor_decline",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/doctor_decline/page_00.png",
+        "after_path": "tests/emulation_v78/accents/doctor_decline/page_00.png",
+        "before_png_sha256": "c49bed40303cd316bcc0296ee5b59b58d788890a9aca6843cf3c6bf1705d72c2",
+        "before_rgb_sha256": "110e9105e1e5e658d75505657e465cb4cd11365e754dd634894d3fe28dbf7eba",
+        "after_rgb_sha256": "fc16cf2863b622a55395ecac8ad1725a2987751a33ba19caa3580b3659e6416b",
+        "bbox": [
+          106,
+          17,
+          238,
+          61
+        ]
+      },
+      {
+        "case": "doctor_decline",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/doctor_decline/page_01.png",
+        "after_path": "tests/emulation_v78/accents/doctor_decline/page_01.png",
+        "before_png_sha256": "b85523417ff06ea8abb590f3fa444907479bf8265578f94d168c596421f6db5c",
+        "before_rgb_sha256": "5e2f14626eb45712e045f42aeb9304d9bc226a6dcdc1c4df56a84b516ea93812",
+        "after_rgb_sha256": "07427554d3767ffb9beb41896126d2ceaced080d00a415eb294919adf57306a0",
+        "bbox": [
+          107,
+          17,
+          217,
+          61
+        ]
+      },
+      {
+        "case": "doctor_decline",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/doctor_decline/page_02.png",
+        "after_path": "tests/emulation_v78/accents/doctor_decline/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "doctor_insufficient",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/doctor_insufficient/page_00.png",
+        "after_path": "tests/emulation_v78/accents/doctor_insufficient/page_00.png",
+        "before_png_sha256": "c49bed40303cd316bcc0296ee5b59b58d788890a9aca6843cf3c6bf1705d72c2",
+        "before_rgb_sha256": "110e9105e1e5e658d75505657e465cb4cd11365e754dd634894d3fe28dbf7eba",
+        "after_rgb_sha256": "fc16cf2863b622a55395ecac8ad1725a2987751a33ba19caa3580b3659e6416b",
+        "bbox": [
+          106,
+          17,
+          238,
+          61
+        ]
+      },
+      {
+        "case": "doctor_insufficient",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/doctor_insufficient/page_01.png",
+        "after_path": "tests/emulation_v78/accents/doctor_insufficient/page_01.png",
+        "before_png_sha256": "d762230301a0306cac71673dc94414fad3fde3083e1952f7abee17d693f7c2c7",
+        "before_rgb_sha256": "c39d6f4ffeb5a793eedea2e1afbb7d7761f1a76d3178cf6d8db48bdbd62c62ee",
+        "after_rgb_sha256": "4a57a6d959ea9caae6d1cdbc297396876350d405473554d48994a2a3fcb0a257",
+        "bbox": [
+          105,
+          17,
+          238,
+          61
+        ]
+      },
+      {
+        "case": "doctor_insufficient",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/doctor_insufficient/page_02.png",
+        "after_path": "tests/emulation_v78/accents/doctor_insufficient/page_02.png",
+        "before_png_sha256": "862301bf1196c056a5ad3403de85171df7c5f5ba4b2dcea7257fa2f37d523ecf",
+        "before_rgb_sha256": "e7a0aa5deb9f059205c7b07125472e06e7037aadc63ac402c72e9f8be735e5ce",
+        "after_rgb_sha256": "e7a0aa5deb9f059205c7b07125472e06e7037aadc63ac402c72e9f8be735e5ce",
+        "bbox": null
+      },
+      {
+        "case": "doctor_insufficient",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/doctor_insufficient/page_03.png",
+        "after_path": "tests/emulation_v78/accents/doctor_insufficient/page_03.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/nurse_explanation/page_00.png",
+        "after_path": "tests/emulation_v78/accents/nurse_explanation/page_00.png",
+        "before_png_sha256": "d0a2a786e85beb3483aac8a08580509b182b3a9d2136bc86d61baccf43c86dab",
+        "before_rgb_sha256": "c0346421ba71a68e215eac7c16234394ff0ecd69b99269828ddec4344d9c2e45",
+        "after_rgb_sha256": "af9346324c67ce97527148ba34d9b694d5749069726467e60b518d9e51d09e0f",
+        "bbox": [
+          110,
+          17,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/nurse_explanation/page_01.png",
+        "after_path": "tests/emulation_v78/accents/nurse_explanation/page_01.png",
+        "before_png_sha256": "63829dfdaa99b5be08bd2611ba9d02cd31a80d10f201dd2ade9518508f359fdb",
+        "before_rgb_sha256": "2b6f75b60fbebd5e7d4dc2deccd096647c372d97ffeb563f1707ff61725b99fe",
+        "after_rgb_sha256": "861077537dfbb6087c7ceada37ed4de437674c21840d44aa842ca7dfc0da57b7",
+        "bbox": [
+          110,
+          18,
+          216,
+          58
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/nurse_explanation/page_02.png",
+        "after_path": "tests/emulation_v78/accents/nurse_explanation/page_02.png",
+        "before_png_sha256": "efbd9b54ad8d2266cf668bff190cddfee29cd6d115d2e1938d560c1a936c89d4",
+        "before_rgb_sha256": "3b46e50d190726125b6c1f4654beacb3a9833d6ae96a1d18c4dd00754ce4b3ae",
+        "after_rgb_sha256": "d1033f6b9702968c7fbf28d3588bb168b7966da5725ae653945e2254e36ffad4",
+        "bbox": [
+          110,
+          17,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/nurse_explanation/page_03.png",
+        "after_path": "tests/emulation_v78/accents/nurse_explanation/page_03.png",
+        "before_png_sha256": "e8c692dcc4a86de90ab6a7167988a92b3b946f30fd2996cafa9a0b18e10cd2bf",
+        "before_rgb_sha256": "c5133fabfea12ddad3fd5720aed99ac6a61c8bce1038dea627767f40123a81b4",
+        "after_rgb_sha256": "d4bcd1476d35666633e43d0fe3dc74b93ddb1c80c1768066661d3b31c4d4dd77",
+        "bbox": [
+          105,
+          17,
+          237,
+          61
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/nurse_explanation/page_04.png",
+        "after_path": "tests/emulation_v78/accents/nurse_explanation/page_04.png",
+        "before_png_sha256": "183411ca1f0ee444a3156d04838b4e94c08c1e2e72feb9d8441c847ad08f5d1c",
+        "before_rgb_sha256": "7864920dde2dcbebfd8213f118fc93ea7f3af7030aa4e8099070c9cd006e6f70",
+        "after_rgb_sha256": "6ede7be9fa54d49fbb5952b808ac7e478d4635557ce80f652da7b35ff97ee70a",
+        "bbox": [
+          105,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/nurse_explanation/page_05.png",
+        "after_path": "tests/emulation_v78/accents/nurse_explanation/page_05.png",
+        "before_png_sha256": "1b804549b6f047fe555988c7889798a7546c602fe22a8901f0fce80416ce2860",
+        "before_rgb_sha256": "1043353946c36f5dffda0e9ddaf037aadd0f777167e56c7ea9a0211229bde7c7",
+        "after_rgb_sha256": "26683e50ebd51c4791c80ff81dea340b92293538a11c1029cb6cd68ee1a77a5e",
+        "bbox": [
+          105,
+          17,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/nurse_explanation/page_06.png",
+        "after_path": "tests/emulation_v78/accents/nurse_explanation/page_06.png",
+        "before_png_sha256": "81431d6284fe8ff554c2c6e406b494c051037259cd05c254d8d96b9b3e6e596c",
+        "before_rgb_sha256": "3abcd55379602bf35877ab17986714e83b4d6028aa4483e21c01b675473d7c8b",
+        "after_rgb_sha256": "5cff8525dd143c1925a6ee8c8611681c2b016db57cef2f633cd0211ee2929dc1",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/nurse_explanation/page_07.png",
+        "after_path": "tests/emulation_v78/accents/nurse_explanation/page_07.png",
+        "before_png_sha256": "c59ff7fb7808051e3701c69d9d3444f537819d55ff829f6a344f747b7d401a59",
+        "before_rgb_sha256": "e1ee111f98741155dd1ee9277b3ffd7f41a8105352f8a01535def13bb1ded8a5",
+        "after_rgb_sha256": "e4a1c03c8242ea5d65bcd39c873b8d35fd529def4bf23e3780a1415148a8390c",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/nurse_explanation/page_08.png",
+        "after_path": "tests/emulation_v78/accents/nurse_explanation/page_08.png",
+        "before_png_sha256": "db0d0af29f47b2650e71c359edd226749bc1d74cf5aa519256a9b9701f5456c2",
+        "before_rgb_sha256": "962df0a44d484a08aa5d101fe6b5a9c6a415e38ccfb66dd875013c49e1f877a2",
+        "after_rgb_sha256": "0c4e0f62f1777e3347a7db069c28bfce040c3fbc62c46e108efd237e813fffa9",
+        "bbox": [
+          105,
+          18,
+          239,
+          58
+        ]
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/healer_entry/page_00.png",
+        "after_path": "tests/emulation_v78/accents/healer_entry/page_00.png",
+        "before_png_sha256": "1de12ff29c2d71930869dd9e7146d7a93b719c7e1fad8e25292bf282c200b073",
+        "before_rgb_sha256": "56173e7bdb8d8dc5f495a5b44699c6b2d019641969d43f4f0b21421bc10f4976",
+        "after_rgb_sha256": "56173e7bdb8d8dc5f495a5b44699c6b2d019641969d43f4f0b21421bc10f4976",
+        "bbox": null
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/healer_entry/page_01.png",
+        "after_path": "tests/emulation_v78/accents/healer_entry/page_01.png",
+        "before_png_sha256": "7d2fff1897ef5aa299ccdc114bad2acda0479e2bce483c9df1879b2875d51d57",
+        "before_rgb_sha256": "b49b0333200c49991104ffc513ae277e21605d2517416061599bcf2e24bed81f",
+        "after_rgb_sha256": "b49b0333200c49991104ffc513ae277e21605d2517416061599bcf2e24bed81f",
+        "bbox": null
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/healer_entry/page_02.png",
+        "after_path": "tests/emulation_v78/accents/healer_entry/page_02.png",
+        "before_png_sha256": "9b8e19a50f6dcf67cdd954727181c4b9ddacfc21d1f59fc916ce56bd96304322",
+        "before_rgb_sha256": "26dbeb733ad1c8393e1d8c24ae9ba71899a5ac94d6f7ee3f5a47ad96378e4d78",
+        "after_rgb_sha256": "26dbeb733ad1c8393e1d8c24ae9ba71899a5ac94d6f7ee3f5a47ad96378e4d78",
+        "bbox": null
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/healer_entry/page_03.png",
+        "after_path": "tests/emulation_v78/accents/healer_entry/page_03.png",
+        "before_png_sha256": "76cad653987fbef4625da90fc492eb6affeefe32aaab704ecb990f3a1c074f25",
+        "before_rgb_sha256": "28245a35d049a00e00369382571304df08f3394ed617cf14731472a8ab0d8e36",
+        "after_rgb_sha256": "28245a35d049a00e00369382571304df08f3394ed617cf14731472a8ab0d8e36",
+        "bbox": null
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/healer_entry/page_04.png",
+        "after_path": "tests/emulation_v78/accents/healer_entry/page_04.png",
+        "before_png_sha256": "d34244b823d90d708c266975feea7c4d3a45b18233db864b95a8e5d00c184015",
+        "before_rgb_sha256": "ec12e845112e87b9c23da0a27502cae011bfedf0b338bc5c39f1f701c6bd4d5e",
+        "after_rgb_sha256": "3387e9c044d9bf358d7b21bf3be99df664bde73d560013bfe83b4b4b601ae3fd",
+        "bbox": [
+          110,
+          33,
+          212,
+          45
+        ]
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/healer_entry/page_05.png",
+        "after_path": "tests/emulation_v78/accents/healer_entry/page_05.png",
+        "before_png_sha256": "dff6dc06a6e68bcc19ecd44d1e39287317715ae5f68ba4c018eee5f4d8cc9579",
+        "before_rgb_sha256": "171b636b090d099680324545f71c2485e23d0c9d87c8f0176d8e00705af03ada",
+        "after_rgb_sha256": "8ca8bfb1e097e5ef7505e8cb4d4595ff9487a854fe241d0d911d7adca77ff57e",
+        "bbox": [
+          110,
+          17,
+          224,
+          117
+        ]
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/healer_entry/page_06.png",
+        "after_path": "tests/emulation_v78/accents/healer_entry/page_06.png",
+        "before_png_sha256": "02bf28e1d4a55722dcf450672147912480d7140d06eca54fe7095c3608000db5",
+        "before_rgb_sha256": "b7f805f1e637a96cc3a8f65cb31138e25f688ee94db52cfb4805827d44fc1bb1",
+        "after_rgb_sha256": "619b8ef53b3760ae6c61992664662ec8478f1a062c244527a61f410a073bc6ad",
+        "bbox": [
+          110,
+          34,
+          222,
+          45
+        ]
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/healer_entry/page_07.png",
+        "after_path": "tests/emulation_v78/accents/healer_entry/page_07.png",
+        "before_png_sha256": "90f4763067615c2f91eb7173299130b12f412b469d8e075eb14d522d969ada28",
+        "before_rgb_sha256": "a918a656d80a7247c630e1d01ff1f12274c414655984a1906f998fe98d29eed6",
+        "after_rgb_sha256": "3edda02998233c89b21f5c0537643b6c2a0ab142a240a52272b47c9af1a51eeb",
+        "bbox": [
+          105,
+          17,
+          234,
+          61
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/hospital_explanation/page_00.png",
+        "after_path": "tests/emulation_v78/accents/hospital_explanation/page_00.png",
+        "before_png_sha256": "a9436668115399bb07a451c6b26e3c2e8a710b50544d76e829e125562e0789b2",
+        "before_rgb_sha256": "de5578e8c5ff1303520bca4cc802fd9e769310eb27142f56eab7500bd042f3ef",
+        "after_rgb_sha256": "252ef6cd60da26873917210c2ea0bf93b75b28fb69151f46664f74d8c7b9a86d",
+        "bbox": [
+          110,
+          17,
+          213,
+          44
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/hospital_explanation/page_01.png",
+        "after_path": "tests/emulation_v78/accents/hospital_explanation/page_01.png",
+        "before_png_sha256": "e8c692dcc4a86de90ab6a7167988a92b3b946f30fd2996cafa9a0b18e10cd2bf",
+        "before_rgb_sha256": "c5133fabfea12ddad3fd5720aed99ac6a61c8bce1038dea627767f40123a81b4",
+        "after_rgb_sha256": "d4bcd1476d35666633e43d0fe3dc74b93ddb1c80c1768066661d3b31c4d4dd77",
+        "bbox": [
+          105,
+          17,
+          237,
+          61
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/hospital_explanation/page_02.png",
+        "after_path": "tests/emulation_v78/accents/hospital_explanation/page_02.png",
+        "before_png_sha256": "183411ca1f0ee444a3156d04838b4e94c08c1e2e72feb9d8441c847ad08f5d1c",
+        "before_rgb_sha256": "7864920dde2dcbebfd8213f118fc93ea7f3af7030aa4e8099070c9cd006e6f70",
+        "after_rgb_sha256": "6ede7be9fa54d49fbb5952b808ac7e478d4635557ce80f652da7b35ff97ee70a",
+        "bbox": [
+          105,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/hospital_explanation/page_03.png",
+        "after_path": "tests/emulation_v78/accents/hospital_explanation/page_03.png",
+        "before_png_sha256": "1b804549b6f047fe555988c7889798a7546c602fe22a8901f0fce80416ce2860",
+        "before_rgb_sha256": "1043353946c36f5dffda0e9ddaf037aadd0f777167e56c7ea9a0211229bde7c7",
+        "after_rgb_sha256": "26683e50ebd51c4791c80ff81dea340b92293538a11c1029cb6cd68ee1a77a5e",
+        "bbox": [
+          105,
+          17,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/hospital_explanation/page_04.png",
+        "after_path": "tests/emulation_v78/accents/hospital_explanation/page_04.png",
+        "before_png_sha256": "81431d6284fe8ff554c2c6e406b494c051037259cd05c254d8d96b9b3e6e596c",
+        "before_rgb_sha256": "3abcd55379602bf35877ab17986714e83b4d6028aa4483e21c01b675473d7c8b",
+        "after_rgb_sha256": "5cff8525dd143c1925a6ee8c8611681c2b016db57cef2f633cd0211ee2929dc1",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/hospital_explanation/page_05.png",
+        "after_path": "tests/emulation_v78/accents/hospital_explanation/page_05.png",
+        "before_png_sha256": "c59ff7fb7808051e3701c69d9d3444f537819d55ff829f6a344f747b7d401a59",
+        "before_rgb_sha256": "e1ee111f98741155dd1ee9277b3ffd7f41a8105352f8a01535def13bb1ded8a5",
+        "after_rgb_sha256": "e4a1c03c8242ea5d65bcd39c873b8d35fd529def4bf23e3780a1415148a8390c",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/accents/hospital_explanation/page_06.png",
+        "after_path": "tests/emulation_v78/accents/hospital_explanation/page_06.png",
+        "before_png_sha256": "db0d0af29f47b2650e71c359edd226749bc1d74cf5aa519256a9b9701f5456c2",
+        "before_rgb_sha256": "962df0a44d484a08aa5d101fe6b5a9c6a415e38ccfb66dd875013c49e1f877a2",
+        "after_rgb_sha256": "0c4e0f62f1777e3347a7db069c28bfce040c3fbc62c46e108efd237e813fffa9",
+        "bbox": [
+          105,
+          18,
+          239,
+          58
+        ]
+      }
+    ]
+  },
+  "ascii": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "haunted_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/haunted_yes/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/haunted_yes/page_00.png",
+        "before_png_sha256": "a3f10501175705f5e7168ebc864d1b7a6435ceaf6a0b971bc96f66fc1c7348a1",
+        "before_rgb_sha256": "f581dad75411f4c4fbbf940aee1c49918eb7de1659d2f2f49ab51153da307c59",
+        "after_rgb_sha256": "b81c008f5145752cec2e3e0b387771992a535f9b38d2dac1913c4589cc5c2c91",
+        "bbox": [
+          122,
+          50,
+          218,
+          58
+        ]
+      },
+      {
+        "case": "haunted_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/haunted_yes/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/haunted_yes/page_01.png",
+        "before_png_sha256": "461cd8c1d803070c8243aaf9a67f44ccc8d44c9619c6aa293451b01955529835",
+        "before_rgb_sha256": "b6cf0fd8ac9759d64c7e68f9bbffb6b987dd56e43982bfda6b1932552583168c",
+        "after_rgb_sha256": "b6cf0fd8ac9759d64c7e68f9bbffb6b987dd56e43982bfda6b1932552583168c",
+        "bbox": null
+      },
+      {
+        "case": "haunted_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/haunted_yes/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/haunted_yes/page_02.png",
+        "before_png_sha256": "51f953678fe1012504af8e7960795615b37a8337ac435a973be6fe58b16a7c49",
+        "before_rgb_sha256": "561bb91a05a9f1d1f5b5a86cf2ee7a9c7bf869466ab745485b04b18ac7971a25",
+        "after_rgb_sha256": "561bb91a05a9f1d1f5b5a86cf2ee7a9c7bf869466ab745485b04b18ac7971a25",
+        "bbox": null
+      },
+      {
+        "case": "haunted_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/haunted_yes/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/haunted_yes/page_03.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "haunted_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/haunted_no/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/haunted_no/page_00.png",
+        "before_png_sha256": "a3f10501175705f5e7168ebc864d1b7a6435ceaf6a0b971bc96f66fc1c7348a1",
+        "before_rgb_sha256": "f581dad75411f4c4fbbf940aee1c49918eb7de1659d2f2f49ab51153da307c59",
+        "after_rgb_sha256": "b81c008f5145752cec2e3e0b387771992a535f9b38d2dac1913c4589cc5c2c91",
+        "bbox": [
+          122,
+          50,
+          218,
+          58
+        ]
+      },
+      {
+        "case": "haunted_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/haunted_no/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/haunted_no/page_01.png",
+        "before_png_sha256": "f99efb1790cd41b27871280c63595c6290ae4b7458a253d2b45813454bc608ee",
+        "before_rgb_sha256": "79a24e041d57193c0c011e3a6aa33f7da2e7c57195a29115c9e314284aa47172",
+        "after_rgb_sha256": "79a24e041d57193c0c011e3a6aa33f7da2e7c57195a29115c9e314284aa47172",
+        "bbox": null
+      },
+      {
+        "case": "haunted_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/haunted_no/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/haunted_no/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey1_yes/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/monkey1_yes/page_00.png",
+        "before_png_sha256": "542db91bfdcbae7219c24dc5b10e976d7d1bcc84d8bbc94abe52aaa164621bc9",
+        "before_rgb_sha256": "bde7ab6fcb6fbb41c07e283661686b6cabffe1e0a2a2d34676032f1df5dd3814",
+        "after_rgb_sha256": "ab55955ce959fe40e0210c8055e045299853a9fbff2dd61c02e677d71da5a5da",
+        "bbox": [
+          120,
+          34,
+          166,
+          45
+        ]
+      },
+      {
+        "case": "monkey1_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey1_yes/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/monkey1_yes/page_01.png",
+        "before_png_sha256": "0e3787e0657f73935616e8d5ea8fd908d7f405fd4e12c16c65521501417012be",
+        "before_rgb_sha256": "4db19c7c974c268ccb3d4e16c512edfa0ed51c3856ceef12aa873abdec8d17a0",
+        "after_rgb_sha256": "553e5bd918ec9ac2ed64359f8cab4928c840410541af49ee73a6dd65eb5793d6",
+        "bbox": [
+          114,
+          34,
+          225,
+          58
+        ]
+      },
+      {
+        "case": "monkey1_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey1_yes/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/monkey1_yes/page_02.png",
+        "before_png_sha256": "776bd53cbef297a19f3fd95b89d500b5fd677ae92ab181a652376b40e7573218",
+        "before_rgb_sha256": "8e380e1a5cdbd7649536d7bdd89a3347fdc90513953fe5f2bcfb0b50505b8276",
+        "after_rgb_sha256": "8e380e1a5cdbd7649536d7bdd89a3347fdc90513953fe5f2bcfb0b50505b8276",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey1_yes/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/monkey1_yes/page_03.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey1_no/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/monkey1_no/page_00.png",
+        "before_png_sha256": "542db91bfdcbae7219c24dc5b10e976d7d1bcc84d8bbc94abe52aaa164621bc9",
+        "before_rgb_sha256": "bde7ab6fcb6fbb41c07e283661686b6cabffe1e0a2a2d34676032f1df5dd3814",
+        "after_rgb_sha256": "ab55955ce959fe40e0210c8055e045299853a9fbff2dd61c02e677d71da5a5da",
+        "bbox": [
+          120,
+          34,
+          166,
+          45
+        ]
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey1_no/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/monkey1_no/page_01.png",
+        "before_png_sha256": "0e3787e0657f73935616e8d5ea8fd908d7f405fd4e12c16c65521501417012be",
+        "before_rgb_sha256": "4db19c7c974c268ccb3d4e16c512edfa0ed51c3856ceef12aa873abdec8d17a0",
+        "after_rgb_sha256": "553e5bd918ec9ac2ed64359f8cab4928c840410541af49ee73a6dd65eb5793d6",
+        "bbox": [
+          114,
+          34,
+          225,
+          58
+        ]
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey1_no/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/monkey1_no/page_02.png",
+        "before_png_sha256": "eeda32ff809c9faa56be05167fe2e833e88c31c24549b3c02e47f472d29e0c90",
+        "before_rgb_sha256": "375116917f55a0a8997e7da7f6a3fe1f428d445e318f79c4dbf534eb633908d3",
+        "after_rgb_sha256": "375116917f55a0a8997e7da7f6a3fe1f428d445e318f79c4dbf534eb633908d3",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey1_no/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/monkey1_no/page_03.png",
+        "before_png_sha256": "e922f8ac1c8553b9e72848b35dbc0f135556277ab58303532457c9733b750b0e",
+        "before_rgb_sha256": "6cd9475a1be55cf23d9bffb4d78da92e20bf32c202fa8d8e63f9806b66210984",
+        "after_rgb_sha256": "6cd9475a1be55cf23d9bffb4d78da92e20bf32c202fa8d8e63f9806b66210984",
+        "bbox": null
+      },
+      {
+        "case": "monkey1_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey1_no/page_04.png",
+        "after_path": "tests/emulation_v78/ascii/monkey1_no/page_04.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_yes/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_yes/page_00.png",
+        "before_png_sha256": "23e44739079ccf335b950364fb86d3f900b137d627ef027f7df7939604e1bd8c",
+        "before_rgb_sha256": "30d4c7845f28108462f7a51f155a16d04604d3013daf673d8c0981938af4d9fc",
+        "after_rgb_sha256": "a8fcfe92c2ed0d8bce9a6139126f87695459bb3ae6080c7d4401d1e921f9a387",
+        "bbox": [
+          114,
+          34,
+          190,
+          45
+        ]
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_yes/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_yes/page_01.png",
+        "before_png_sha256": "36b24a7a3ba1d2c5593bcb0cc2b1b9fe795629fa42d824b68b26153d3cb1f544",
+        "before_rgb_sha256": "e95b9114d8cedac9b141eada91326fa46dab3bbc28ad8e6e379ad2ca456817f6",
+        "after_rgb_sha256": "bb95cc4e5cb5f3dea4ea64fa60b057ba889a023caa475c7a702c1f0c6485a879",
+        "bbox": [
+          110,
+          18,
+          223,
+          58
+        ]
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_yes/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_yes/page_02.png",
+        "before_png_sha256": "a6fc82cc2a1b39db5e69e560f7dfe68fcee393b54e736d396213d54c364e66db",
+        "before_rgb_sha256": "a370e8ea9f37253a375fb08127d49727d13378cda4cbbbe29babede0c4a42f7a",
+        "after_rgb_sha256": "baeb31399f7fd85f9c2297502f1d38aedc12d39a6d86f890f922fd27633d200d",
+        "bbox": [
+          110,
+          18,
+          149,
+          29
+        ]
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_yes/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_yes/page_03.png",
+        "before_png_sha256": "0cff2515fca236d84b18f4a0ec57e84cd300288dfb77f117a2cc6959b0315890",
+        "before_rgb_sha256": "05a93749f3a0d86f48f33008127cc793531f352bae086122b2995cda35d53b31",
+        "after_rgb_sha256": "05a93749f3a0d86f48f33008127cc793531f352bae086122b2995cda35d53b31",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_yes/page_04.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_yes/page_04.png",
+        "before_png_sha256": "ecf6911daa42d2d1b8fcaa623e4c1b9bed95726f8ab867b4e1b8f4dc5e424c39",
+        "before_rgb_sha256": "099be77a044229e55588655e68113d0d2c419a9ea4ba705d9e36896d66f91c52",
+        "after_rgb_sha256": "099be77a044229e55588655e68113d0d2c419a9ea4ba705d9e36896d66f91c52",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_yes/page_05.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_yes/page_05.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_no/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_no/page_00.png",
+        "before_png_sha256": "23e44739079ccf335b950364fb86d3f900b137d627ef027f7df7939604e1bd8c",
+        "before_rgb_sha256": "30d4c7845f28108462f7a51f155a16d04604d3013daf673d8c0981938af4d9fc",
+        "after_rgb_sha256": "a8fcfe92c2ed0d8bce9a6139126f87695459bb3ae6080c7d4401d1e921f9a387",
+        "bbox": [
+          114,
+          34,
+          190,
+          45
+        ]
+      },
+      {
+        "case": "monkey2_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_no/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_no/page_01.png",
+        "before_png_sha256": "36b24a7a3ba1d2c5593bcb0cc2b1b9fe795629fa42d824b68b26153d3cb1f544",
+        "before_rgb_sha256": "e95b9114d8cedac9b141eada91326fa46dab3bbc28ad8e6e379ad2ca456817f6",
+        "after_rgb_sha256": "bb95cc4e5cb5f3dea4ea64fa60b057ba889a023caa475c7a702c1f0c6485a879",
+        "bbox": [
+          110,
+          18,
+          223,
+          58
+        ]
+      },
+      {
+        "case": "monkey2_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_no/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_no/page_02.png",
+        "before_png_sha256": "00007bf618a37e76e8b000a20b5ae81f5c2c4015d6b187c07988f1cc274b0648",
+        "before_rgb_sha256": "74d15e23105d1c509ed578d3068509e872dd0a0065c964cfc4b6fbd5aa36c261",
+        "after_rgb_sha256": "74d15e23105d1c509ed578d3068509e872dd0a0065c964cfc4b6fbd5aa36c261",
+        "bbox": null
+      },
+      {
+        "case": "monkey2_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey2_no/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/monkey2_no/page_03.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_yes/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_yes/page_00.png",
+        "before_png_sha256": "3b655739a9ed7af6852aa3bfc6a90e672946d30785eda907273487ac1efc9ecc",
+        "before_rgb_sha256": "194de809f7cdc585c481efa39e8b524cd06ae1a9f021a0432b37021d1574eda5",
+        "after_rgb_sha256": "1b33f9dc61703016bd27186ee2498ab00a62684551f9c1f5d15863b7aa10e11c",
+        "bbox": [
+          110,
+          33,
+          231,
+          61
+        ]
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_yes/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_yes/page_01.png",
+        "before_png_sha256": "5b751a7c77500b117b3255da34b9e8efb86469bfd793cf6a463810c71a70ac2d",
+        "before_rgb_sha256": "e6a365782bad956b67559651c939794f1d7752e4edfac6df7464a3348fe33cb0",
+        "after_rgb_sha256": "e6ff7b2d414a0183d942651c9b8e04511c5a4034573175a453bb2f1e2c2bea1a",
+        "bbox": [
+          110,
+          18,
+          218,
+          58
+        ]
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_yes/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_yes/page_02.png",
+        "before_png_sha256": "9c03987dfafae55f11bf68f91c9f3601aafc550b3a28ce08047333ccb162c088",
+        "before_rgb_sha256": "1db91afe3fb67d52d9c35746268000d217759c9ca5652d8081d5491ca9c9a5b8",
+        "after_rgb_sha256": "e0d50db7f2b1331324d51b4b7aa070a5dccd94e4edfeb5d5ab8fbd5dacc9d098",
+        "bbox": [
+          114,
+          18,
+          178,
+          26
+        ]
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_yes/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_yes/page_03.png",
+        "before_png_sha256": "421df27660d05428c973f1af3c6c8214910aba8b056d6e973a01d82897983a04",
+        "before_rgb_sha256": "b5fa4462e643ef979f02376c69ab8a375b118ec562b9b5a7c8c8d9b1cddbe3fa",
+        "after_rgb_sha256": "b5fa4462e643ef979f02376c69ab8a375b118ec562b9b5a7c8c8d9b1cddbe3fa",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_yes/page_04.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_yes/page_04.png",
+        "before_png_sha256": "adad6b0d92fee1f0de07e1fe0723368f00b78a3746d7afb60155b157658c84be",
+        "before_rgb_sha256": "d4c54ad32a44abcabed1d977c070143c1d4765f2ddf8774d7bdc80e22ed908df",
+        "after_rgb_sha256": "d4c54ad32a44abcabed1d977c070143c1d4765f2ddf8774d7bdc80e22ed908df",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_yes",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_yes/page_05.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_yes/page_05.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_no/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_no/page_00.png",
+        "before_png_sha256": "3b655739a9ed7af6852aa3bfc6a90e672946d30785eda907273487ac1efc9ecc",
+        "before_rgb_sha256": "194de809f7cdc585c481efa39e8b524cd06ae1a9f021a0432b37021d1574eda5",
+        "after_rgb_sha256": "1b33f9dc61703016bd27186ee2498ab00a62684551f9c1f5d15863b7aa10e11c",
+        "bbox": [
+          110,
+          33,
+          231,
+          61
+        ]
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_no/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_no/page_01.png",
+        "before_png_sha256": "5b751a7c77500b117b3255da34b9e8efb86469bfd793cf6a463810c71a70ac2d",
+        "before_rgb_sha256": "e6a365782bad956b67559651c939794f1d7752e4edfac6df7464a3348fe33cb0",
+        "after_rgb_sha256": "e6ff7b2d414a0183d942651c9b8e04511c5a4034573175a453bb2f1e2c2bea1a",
+        "bbox": [
+          110,
+          18,
+          218,
+          58
+        ]
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_no/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_no/page_02.png",
+        "before_png_sha256": "26059e1abc0a71f1ee28012b8dfcacdb7ec8ac0b553ec425c0390f87b9ff314a",
+        "before_rgb_sha256": "0df7d8c5dc4e9f447a0d279cc142fd7ca791a0e3fd0c27a53daceb7d64c10850",
+        "after_rgb_sha256": "5da7fcda8a0970824fb7b6cbe83854ef4e821de7325ef82ab27e5500551140c2",
+        "bbox": [
+          114,
+          18,
+          178,
+          26
+        ]
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_no/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_no/page_03.png",
+        "before_png_sha256": "887b78be386d00cd4f474f01f53c6b73f6ad0a17ea67fdb88b53a4f6cdc3a60d",
+        "before_rgb_sha256": "9af908fe57da70c52b9b242ac6496c3ab7135e2b3656fb5e870fa51ec462e98c",
+        "after_rgb_sha256": "9af908fe57da70c52b9b242ac6496c3ab7135e2b3656fb5e870fa51ec462e98c",
+        "bbox": null
+      },
+      {
+        "case": "monkey3_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/monkey3_no/page_04.png",
+        "after_path": "tests/emulation_v78/ascii/monkey3_no/page_04.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "sign",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/sign/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/sign/page_00.png",
+        "before_png_sha256": "8ad7ca2ef091306ea1eb7514d6a3ad5b7e23c53b5fd98ceb55ac25be8f2d7c49",
+        "before_rgb_sha256": "45f4b8c861604ceae4a85d2527b84b427eb92f9816fd2725f42d57f6640620c5",
+        "after_rgb_sha256": "08d8f5d06bf04e29a779e8779eede5aa2a2183fd8ece988e8de3db243afebd76",
+        "bbox": [
+          110,
+          50,
+          156,
+          58
+        ]
+      },
+      {
+        "case": "sign",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/sign/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/sign/page_01.png",
+        "before_png_sha256": "4456fc23653cbf5d0c987927bf6ff678039f64d036ef74f899b86c17e75a8b75",
+        "before_rgb_sha256": "3b52e585f9cf3d216f00591ccaa90ed8f9742d1d06e19bdea0e700c6b76d9f33",
+        "after_rgb_sha256": "647ba942e8ab7ca36aa4b940b77086d5218fdaf62b6d93ddb084128e4889a83d",
+        "bbox": [
+          110,
+          18,
+          234,
+          61
+        ]
+      },
+      {
+        "case": "sign",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/sign/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/sign/page_02.png",
+        "before_png_sha256": "03b244ca359c6361a54db514efac4cb2cc363b735bebb73aa6e3f2a05638709c",
+        "before_rgb_sha256": "f8a17d7216f072976c8705733237568a293ac7d5de8810efbb5e2352dc493b73",
+        "after_rgb_sha256": "c8ab37a52dfe0f5fd047397547e05ff6f83c539302cdb6cd36a7cdcf7fcdc7cd",
+        "bbox": [
+          110,
+          18,
+          177,
+          29
+        ]
+      },
+      {
+        "case": "rocket_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/rocket_no/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/rocket_no/page_00.png",
+        "before_png_sha256": "c54463a9199aed2ac0e2200bc789c872769c61a72810a1f23f2034665c71b5f3",
+        "before_rgb_sha256": "c27df56f56047678adc18110696b0427e1ba6240fa674606b2cd4f7ac9952dcf",
+        "after_rgb_sha256": "4b17600ade4cb6c3f1e7fe542b3e237a618c53e644262dadeb17ac07d22b5dd1",
+        "bbox": [
+          114,
+          18,
+          218,
+          42
+        ]
+      },
+      {
+        "case": "rocket_no",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/rocket_no/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/rocket_no/page_01.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "doctor_decline",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/doctor_decline/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/doctor_decline/page_00.png",
+        "before_png_sha256": "4b736d69fe1c858cc09d0c669aa449bbda6a33cee640aeb4fa72524c7c4c7023",
+        "before_rgb_sha256": "8020ef45561f18074b4f00c0d6f93a3673ed0093224d5f04762a3ac00a6482d6",
+        "after_rgb_sha256": "ad53d1d077a7f82f5847135ae80ac93637c38005ef6b9e20d6b7f0d1d9abf2da",
+        "bbox": [
+          106,
+          17,
+          238,
+          61
+        ]
+      },
+      {
+        "case": "doctor_decline",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/doctor_decline/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/doctor_decline/page_01.png",
+        "before_png_sha256": "a5c137b4ef71e40ab85f3395e187640f64d1519a66fa4cd9e22d6b20262a6e22",
+        "before_rgb_sha256": "8c2fde7ee9abfaa112c52dda22e9a6bb7a9de0a7d75bc4d9265651f34a59fd8d",
+        "after_rgb_sha256": "a330ec69bd317631369426c39b6a1c30c8faaa0a72096975fe77254062eaaa0d",
+        "bbox": [
+          107,
+          17,
+          217,
+          61
+        ]
+      },
+      {
+        "case": "doctor_decline",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/doctor_decline/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/doctor_decline/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "doctor_insufficient",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/doctor_insufficient/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/doctor_insufficient/page_00.png",
+        "before_png_sha256": "4b736d69fe1c858cc09d0c669aa449bbda6a33cee640aeb4fa72524c7c4c7023",
+        "before_rgb_sha256": "8020ef45561f18074b4f00c0d6f93a3673ed0093224d5f04762a3ac00a6482d6",
+        "after_rgb_sha256": "ad53d1d077a7f82f5847135ae80ac93637c38005ef6b9e20d6b7f0d1d9abf2da",
+        "bbox": [
+          106,
+          17,
+          238,
+          61
+        ]
+      },
+      {
+        "case": "doctor_insufficient",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/doctor_insufficient/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/doctor_insufficient/page_01.png",
+        "before_png_sha256": "3b2bcc84992991e6b58bbe37773770f861b21e0590d55636ec70e160ac98607d",
+        "before_rgb_sha256": "b8d26e5530b5d51a3270ac4b499ed1a8b12fe8828810fec544647db0db0447f5",
+        "after_rgb_sha256": "831994f4a021ffb19055776e4bc2297630a6be51923efb2a0152535b9b65681f",
+        "bbox": [
+          105,
+          17,
+          238,
+          61
+        ]
+      },
+      {
+        "case": "doctor_insufficient",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/doctor_insufficient/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/doctor_insufficient/page_02.png",
+        "before_png_sha256": "c775d2721be35ad49699c4361c31ab11e8f081a8a14ff6ff9a4f5ed7193ceb9f",
+        "before_rgb_sha256": "65c161761fcc3070f1c4c9fdc20dcc312cad7074171be399bdee81ac43dde44f",
+        "after_rgb_sha256": "65c161761fcc3070f1c4c9fdc20dcc312cad7074171be399bdee81ac43dde44f",
+        "bbox": null
+      },
+      {
+        "case": "doctor_insufficient",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/doctor_insufficient/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/doctor_insufficient/page_03.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/nurse_explanation/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/nurse_explanation/page_00.png",
+        "before_png_sha256": "6bcb89f56946d625a1e5af9692621ee2879c279e0c5586a4b9ce1974d4262839",
+        "before_rgb_sha256": "59fa1f750349a55aac4114fd7546d35697f06c15b32116a1aef385c1326b9480",
+        "after_rgb_sha256": "9f479fece4bb0f68351b39f3f4a7b523bcf90b733a5e2c5794068cbd967b011c",
+        "bbox": [
+          110,
+          17,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/nurse_explanation/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/nurse_explanation/page_01.png",
+        "before_png_sha256": "90932496625372dd6ef366530343123bfdd1f0aaeee3e778a659005f204b0715",
+        "before_rgb_sha256": "1e9500ae98c8e1ce3c1158543c0dcfc47a9617778f08d6ebc477dc3f0b43d347",
+        "after_rgb_sha256": "3337c5f7f3f2275cffb355a05fc46258e02f1b5536369fdec9ec412bb118d693",
+        "bbox": [
+          110,
+          18,
+          216,
+          58
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/nurse_explanation/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/nurse_explanation/page_02.png",
+        "before_png_sha256": "ff208cad91a9d2fc3ef8748b5803dff3749a6ded31f29ca2f36ad71cc1d434e2",
+        "before_rgb_sha256": "288f26f9ddbfa7b6185016cc14fa7b747d83725387260e780668ecdd08e76521",
+        "after_rgb_sha256": "b6c3f33ae7a6bcf3f8df804902d52b3d21514378b44aca9335182f04c2dc1c56",
+        "bbox": [
+          110,
+          17,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/nurse_explanation/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/nurse_explanation/page_03.png",
+        "before_png_sha256": "ab349c60895829f43a5025037e7d0aa71736fcea2c14bac9e85bf85645ecc01f",
+        "before_rgb_sha256": "82a63c9bb5be281c238e9d7acd5b26652852dd354dbeff6be601a451e2d59eb9",
+        "after_rgb_sha256": "85d6ddd6e7c7497921556841d17bafa4e95fba187c9fe72231d3d1e38b2aad9d",
+        "bbox": [
+          105,
+          17,
+          237,
+          61
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/nurse_explanation/page_04.png",
+        "after_path": "tests/emulation_v78/ascii/nurse_explanation/page_04.png",
+        "before_png_sha256": "9cb1e59a1993b9fd0c339fbf5640722b08a894556e371255171f217fa9c84549",
+        "before_rgb_sha256": "89b1f6a7e9a54d65a705bf67ef20c0ced36a2c2ebb856adce202f184863e6e4c",
+        "after_rgb_sha256": "c680bf15b82a097ff5f41e2495b1f5f51f5c5d0a7db5b08d4eb944fbd15637b9",
+        "bbox": [
+          105,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/nurse_explanation/page_05.png",
+        "after_path": "tests/emulation_v78/ascii/nurse_explanation/page_05.png",
+        "before_png_sha256": "ecfef86f63a0fc004af3f76880b2ae92001f511432034ead362607fa547667c7",
+        "before_rgb_sha256": "bd2eb99c4cf6f1ff84a07f5b7101204d6a114f312cf1f2ecec1e4000a21a1e4d",
+        "after_rgb_sha256": "2346ec6c157fac3f6612f0ad3590eb2b69b316d65d2896d1fcd7ec937d7163c1",
+        "bbox": [
+          105,
+          17,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/nurse_explanation/page_06.png",
+        "after_path": "tests/emulation_v78/ascii/nurse_explanation/page_06.png",
+        "before_png_sha256": "b73a488321c644c6869f6179a6928b36e6fde7e62de85192808fedce93cfaf77",
+        "before_rgb_sha256": "e2bff9f38f36e6b5af6a15732d2ddad19ad5fad7cb12fae46474deb7f95944dd",
+        "after_rgb_sha256": "6b1f7a3302612ae699e66bb7609e3acb9be660c959910f63fa5f7c7a44991133",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/nurse_explanation/page_07.png",
+        "after_path": "tests/emulation_v78/ascii/nurse_explanation/page_07.png",
+        "before_png_sha256": "7c72e5ed8fe69c14ea87ca2ddfa223f7051ddee7f6b2e0e34a23d968a9e3d4a5",
+        "before_rgb_sha256": "eb86e3c538cb5dcc59afd3306e5eb32d37d7af50960ae68a5c76cfe5b8a79ba8",
+        "after_rgb_sha256": "4e41ebc4e2928c64f264c099b63088c028cb3eaae4339a549e7c4a4f66f6356b",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "nurse_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/nurse_explanation/page_08.png",
+        "after_path": "tests/emulation_v78/ascii/nurse_explanation/page_08.png",
+        "before_png_sha256": "631282d61c27de013ffd640079b540fa5dbc53492b93a72169ae200905c466ec",
+        "before_rgb_sha256": "69a6a83d06f012ca0481cee5d56c845c7f041752d7bc9a0dd8bd5719cb4dcde4",
+        "after_rgb_sha256": "372766b3820f1ebbf9dfcce5063a85e585848f5a82d9031cb8680b6644647a2d",
+        "bbox": [
+          105,
+          18,
+          239,
+          58
+        ]
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/healer_entry/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/healer_entry/page_00.png",
+        "before_png_sha256": "0cdcbc59aaa672013755ba7c301ac7ac15b214a310b3e1b1e1b377e02051d69e",
+        "before_rgb_sha256": "c29f2fbfce2d569924d2e42819401c2a06cb3b6df06f0e0d1c5621e3cc248906",
+        "after_rgb_sha256": "c29f2fbfce2d569924d2e42819401c2a06cb3b6df06f0e0d1c5621e3cc248906",
+        "bbox": null
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/healer_entry/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/healer_entry/page_01.png",
+        "before_png_sha256": "e7529036753eaf719ef70c03195ed8a3aa757fad19758c98efeba8e32784f34c",
+        "before_rgb_sha256": "7f661ec0132857e2a5b6a54ab930eb9cef92afa00eb70ebed73569d69c0a5c5a",
+        "after_rgb_sha256": "7f661ec0132857e2a5b6a54ab930eb9cef92afa00eb70ebed73569d69c0a5c5a",
+        "bbox": null
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/healer_entry/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/healer_entry/page_02.png",
+        "before_png_sha256": "4a8e37e9295b741f473f54996535a50233e873f973cf7a1e7103231c5bb13d3f",
+        "before_rgb_sha256": "f38b8c288f7de09a4d6478250d916d5d133a4443cae53ccfab18b06396cd8832",
+        "after_rgb_sha256": "f38b8c288f7de09a4d6478250d916d5d133a4443cae53ccfab18b06396cd8832",
+        "bbox": null
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/healer_entry/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/healer_entry/page_03.png",
+        "before_png_sha256": "1f17fbb102e4deb9b6f4d34fa7d40e01c5532fd23f2dc33cfb7fc6c7d73de88f",
+        "before_rgb_sha256": "fcd4d2debaa61b234f7e1b21f45f6a2de2c5d490d7c328a662fe23ae7dc00ce6",
+        "after_rgb_sha256": "fcd4d2debaa61b234f7e1b21f45f6a2de2c5d490d7c328a662fe23ae7dc00ce6",
+        "bbox": null
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/healer_entry/page_04.png",
+        "after_path": "tests/emulation_v78/ascii/healer_entry/page_04.png",
+        "before_png_sha256": "5781e6c3604f272c61f90c646c8b956680afd32a7cc8ac14f25968db1896b476",
+        "before_rgb_sha256": "a61822d4ee621ab2dd0310cf3c6863632af000243268a5de6896556165c87a2a",
+        "after_rgb_sha256": "40a6f8f6305fb71a7d77dff7bc0cdd16c3902e283f8e469b173d792b015a7274",
+        "bbox": [
+          110,
+          33,
+          212,
+          45
+        ]
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/healer_entry/page_05.png",
+        "after_path": "tests/emulation_v78/ascii/healer_entry/page_05.png",
+        "before_png_sha256": "1b4ee1aee56958836d4fa01717fdee6ee006f8dc2e074eeb565a951df874ff19",
+        "before_rgb_sha256": "1a48bd20a21c72f91139a511a09bddc29d3d1a3ae0a11df375722e14b44c56a7",
+        "after_rgb_sha256": "dee159828f81b006985604b08282d688e09900a8a9c5980606078ae94969847b",
+        "bbox": [
+          110,
+          17,
+          224,
+          117
+        ]
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/healer_entry/page_06.png",
+        "after_path": "tests/emulation_v78/ascii/healer_entry/page_06.png",
+        "before_png_sha256": "10de3135841523fa6a5fde9b36e2d81164a229becba116b5f9e462d57f98b258",
+        "before_rgb_sha256": "906d0d29361bd5f100c7837209f616ff69af02a14bc8d0dd388b46e92aeaf3ea",
+        "after_rgb_sha256": "f5e6c4c34b376b914a42246814269414018fcd30602304238ea28252e8e34941",
+        "bbox": [
+          110,
+          34,
+          222,
+          45
+        ]
+      },
+      {
+        "case": "healer_entry",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          126
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/healer_entry/page_07.png",
+        "after_path": "tests/emulation_v78/ascii/healer_entry/page_07.png",
+        "before_png_sha256": "19eb7819e89e64e80f1576d140f6d3de4ab86bd032d6f8a2bff1941bb353adf7",
+        "before_rgb_sha256": "6fec7005b91b103361856010f342b0e34d623c0810a37d5184eb5f525a981708",
+        "after_rgb_sha256": "0c1a2eabdf569cd7303527d28c8700dd08ab68e7d3a34005e72110af42908181",
+        "bbox": [
+          105,
+          17,
+          234,
+          61
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/hospital_explanation/page_00.png",
+        "after_path": "tests/emulation_v78/ascii/hospital_explanation/page_00.png",
+        "before_png_sha256": "2457ec038aabf2acf77dba060a55f9428f9a3eedd8d7d16aea25ecb65c5937bd",
+        "before_rgb_sha256": "af17241f760f28f6734f3665aac23002ec5dbfa4fc49c61a12a5e5104650c430",
+        "after_rgb_sha256": "e3898956416fc14692d2f1684e8e9cc5d73644acb0cb6d8ba159153b09f89ed7",
+        "bbox": [
+          110,
+          17,
+          213,
+          44
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/hospital_explanation/page_01.png",
+        "after_path": "tests/emulation_v78/ascii/hospital_explanation/page_01.png",
+        "before_png_sha256": "ab349c60895829f43a5025037e7d0aa71736fcea2c14bac9e85bf85645ecc01f",
+        "before_rgb_sha256": "82a63c9bb5be281c238e9d7acd5b26652852dd354dbeff6be601a451e2d59eb9",
+        "after_rgb_sha256": "85d6ddd6e7c7497921556841d17bafa4e95fba187c9fe72231d3d1e38b2aad9d",
+        "bbox": [
+          105,
+          17,
+          237,
+          61
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/hospital_explanation/page_02.png",
+        "after_path": "tests/emulation_v78/ascii/hospital_explanation/page_02.png",
+        "before_png_sha256": "9cb1e59a1993b9fd0c339fbf5640722b08a894556e371255171f217fa9c84549",
+        "before_rgb_sha256": "89b1f6a7e9a54d65a705bf67ef20c0ced36a2c2ebb856adce202f184863e6e4c",
+        "after_rgb_sha256": "c680bf15b82a097ff5f41e2495b1f5f51f5c5d0a7db5b08d4eb944fbd15637b9",
+        "bbox": [
+          105,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/hospital_explanation/page_03.png",
+        "after_path": "tests/emulation_v78/ascii/hospital_explanation/page_03.png",
+        "before_png_sha256": "ecfef86f63a0fc004af3f76880b2ae92001f511432034ead362607fa547667c7",
+        "before_rgb_sha256": "bd2eb99c4cf6f1ff84a07f5b7101204d6a114f312cf1f2ecec1e4000a21a1e4d",
+        "after_rgb_sha256": "2346ec6c157fac3f6612f0ad3590eb2b69b316d65d2896d1fcd7ec937d7163c1",
+        "bbox": [
+          105,
+          17,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/hospital_explanation/page_04.png",
+        "after_path": "tests/emulation_v78/ascii/hospital_explanation/page_04.png",
+        "before_png_sha256": "b73a488321c644c6869f6179a6928b36e6fde7e62de85192808fedce93cfaf77",
+        "before_rgb_sha256": "e2bff9f38f36e6b5af6a15732d2ddad19ad5fad7cb12fae46474deb7f95944dd",
+        "after_rgb_sha256": "6b1f7a3302612ae699e66bb7609e3acb9be660c959910f63fa5f7c7a44991133",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/hospital_explanation/page_05.png",
+        "after_path": "tests/emulation_v78/ascii/hospital_explanation/page_05.png",
+        "before_png_sha256": "7c72e5ed8fe69c14ea87ca2ddfa223f7051ddee7f6b2e0e34a23d968a9e3d4a5",
+        "before_rgb_sha256": "eb86e3c538cb5dcc59afd3306e5eb32d37d7af50960ae68a5c76cfe5b8a79ba8",
+        "after_rgb_sha256": "4e41ebc4e2928c64f264c099b63088c028cb3eaae4339a549e7c4a4f66f6356b",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      },
+      {
+        "case": "hospital_explanation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78/reference_v77/ascii/hospital_explanation/page_06.png",
+        "after_path": "tests/emulation_v78/ascii/hospital_explanation/page_06.png",
+        "before_png_sha256": "631282d61c27de013ffd640079b540fa5dbc53492b93a72169ae200905c466ec",
+        "before_rgb_sha256": "69a6a83d06f012ca0481cee5d56c845c7f041752d7bc9a0dd8bd5719cb4dcde4",
+        "after_rgb_sha256": "372766b3820f1ebbf9dfcce5063a85e585848f5a82d9031cb8680b6644647a2d",
+        "bbox": [
+          105,
+          18,
+          239,
+          58
+        ]
+      }
+    ]
+  }
+}

@@ -1,4 +1,6 @@
-# Suite des textes après V77 (désert)
+# Suite des textes — lot V78 en cours
+
+V78 en cours sur `work/v78-batch150` : **81 textes distincts / cible 150**, 94 plages physiques. V77 reste publiée sur main. Services médicaux traduits, 24 tests ciblés réussis et 146 comparaisons contrôlées ; les branches non parcourues restent seulement statiques. Continuer ce même lot avant une nouvelle publication. Voir `REPRISE_TRADUCTION.md`, son registre exact et `RAPPORT_V78_CHECKPOINT.md`. Prochains restes : train `36DD0A`, Youngtown `36E5EB`, solde `384C44`, remise `384CA6`, Pippi `386D46`, vol `38BADB`, puis aides des seuls objets réellement utilisés. L'entrée intérieure `0911F0` empêche encore la traduction sûre du fragment `0911ED`. Les paragraphes suivants sont historiques.
 
 V77 traduit treize fragments anglais du mineur, des billets/char et du chameau, et corrige l'accord des mines au féminin. Cinq cas par profil, 48 captures relues/comparées. Mineur et chameau : entrées complètes forcées ; billets et prix : branches directes, achat/location/vol non certifiés. Le relevé direct actualisé `tools/v77/custom_npc_roots_v77.json` conserve six candidats sur 181 racines, sans erreur d'analyse : **prochain lot, maison hantée `36EB50`/411 puis singes `376ABE`/904, `376BB7`/905, `377108`/908** ; ensuite panneau `37D45C` et fusée `380A2A`. Ce relevé limité n'est pas un taux global. Services restants, menus, générique et parcours naturel restent à finir. Voir `RAPPORT_V77.md`. Les paragraphes suivants sont historiques.
 

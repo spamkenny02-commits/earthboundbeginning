@@ -1,4 +1,104 @@
-# Reprise — V77, désert et chameau
+# Reprise — lot V78 en cours, cible 150 textes distincts
+
+**V77 reste la version publiée sur main. Poursuivre le même lot V78 avant publication.** Checkpoint : branche `work/v78-batch150`. Compteur **81 traductions distinctes / cible 150**, **94 plages physiques**, dédoublonnées par texte source ; accents/ASCII comptés une fois. Il reste environ 69 textes pour atteindre la taille souhaitée, sans garantir que tous les candidats soient réellement utilisés.
+
+Les services infirmière `381D1C`, médecin `381D24` et guérisseur `381D2C` appellent les dialogues hospitaliers originaux : 71 plages médicales et deux définitions Non viennent compléter le premier groupe de 21 plages. Les libellés du choix de soins appartiennent à ce service ; les menus généraux restent pour la phase suivante. 61 ponts médicaux préservent les mots entiers ; les définitions de choix déplacées sont copiées intégralement. Allocation totale 2 378 octets protégés (55 initiaux + 2 323 médicaux), 219 enregistrements IPS ajoutés par profil. Commandes dépliées, table PNJ, sprites, banque 25 et créneau privé préservés.
+
+**Validation : 24 tests ciblés V78/V77/V65 réussis avec la ROM privée.** 146 comparaisons V77/V78 dans les deux profils, 90 différences limitées aux fenêtres de texte et 39 412 images échantillonnées. Entrées forcées par commande native, sans écriture WRAM : aucune rencontre naturelle certifiée. Médecin : refus et fonds insuffisants (25 $ demandés, 20 $ disponibles). Infirmière : explication ; guérisseur : choix Dépétrifier et devis, sans soin effectif. Explication hospitalière appelée directement à une branche intérieure. Panneau : obtention native du Dentier ; fusée : refus seulement. Les branches de maladies et de guérison non atteintes restent statiquement validées uniquement. Voir `RAPPORT_V78_CHECKPOINT.md`.
+
+**Reste précis :** conserver `0911ED–091212` en anglais tant que le pointeur intérieur `0911F0` n'est pas qualifié ; ne pas supprimer le garde-fou. Poursuivre les dialogues/services avant menus : train `36DD0A`, Youngtown `36E5EB`, inquiétude `36E832`, fruit `380B42`, solde `384C44` et remise `384CA6`, Pippi `386D46`, vol `38BADB`, sélecteurs train `25B0B7` et suivants. Qualifier leurs appelants et les branches avant modification. Les aides d'objets doivent être reliées à un objet réellement utilisé : la Fiole de sérum ID70 est une piste prouvée par les services antérieurs. Ne pas traduire les objets hérités/débogage pour gonfler le compteur.
+
+Le nouvel audit `tools/v78/active_text_candidates.json` explore 1 080 graines et 4 413 racines, zéro erreur de parsing, 264 candidats à qualifier. Ce nombre n'est ni un dénominateur de couverture ni une preuve d'accès naturel. Les anciens relevés limités à six PNJ sont clos pour leurs propres candidats. Ne pas refaire les audits acquis sans raison.
+
+Dépendances privées disponibles : ROM et cœur décrits dans l'historique V74 ; états post-repos `reference_v71_lodging/{accents,ascii}/accept/handoff.state`. Sorties finales retenues : `/workspace/scratch/98c4eaa3ef23/validated_v78_words`, référence `/workspace/scratch/98c4eaa3ef23/reference_v77_words`. Exclure les explorations antérieures, notamment celles avec lettres corrompues ou mots coupés. Ne distribuer que IPS, outils, rapports et PNG, jamais ROM/cœur/états/dumps.
+
+Liste exacte des textes distincts et de toutes leurs implantations, également disponible dans `tools/v78/batch_ledger.json` :
+
+| Source distincte | Français | Offsets |
+|---|---|---|
+| @I can examine each one of you for $ | @L'examen vous coûte $ | 090FF0 |
+| Yes, please | Oui, merci | 091016 |
+| No, thanks | Non, merci | 091024 |
+| @You really don't need any treatment? | @Tu n'as vraiment besoin d'aucun soin ? | 091041 |
+|   All right. |  D'accord. | 091053 |
+| @Who is sick? | @Qui est malade ? | 091074 |
+| @I don't think there is anything wrong with you. | @Tu m'as l'air en bonne santé. | 0910FB |
+| @I don't think anyone has anything like that. | @Personne ne semble avoir ça. | 091113 |
+| @Or Is it just my misunderstanding? | @Ou ai-je mal compris ? | 091127 |
+| @I can only treat an illness. | @Je ne peux soigner que les maladies. | 091140 |
+|   Sorry. |  Désolé. | 091153 |
+| by the way, | au fait, | 091171 |
+| @What a sad look in your eyes... you, the boy in a red cap. | @Tu as l'air triste, garçon au bonnet rouge... | 091178 |
+| @You must be homesick. | @Tu dois avoir le mal du pays. | 09119C |
+| @That's nothing you need to be ashamed of. | @Tu n'as pas à en avoir honte. | 0911AA |
+| @Anybody who is on a long trip will miss home. | @Quand on voyage longtemps, la maison nous manque. | 0911C2 |
+| @In this case, | @Dans ce cas, | 0911E2 |
+| @You have a cold. | @Tu as un rhume. | 091214 |
+| @You have sunstroke. | @Tu as une insolation. | 091222 |
+| @You've been poisoned. | @Tu souffres d'un empoisonnement. | 091233 |
+| @You must feel nauseous. | @Tu as la nausée. | 091245 |
+| @You're all well now. | @Tu vas mieux ! | 09126F |
+|   What a great doctor I am! |  Quel bon médecin je suis ! | 091278 |
+| @Who do you want to see? | @Qui veux-tu voir ? | 09129A |
+|  was just brought in, and is still unconscious. |  vient d'arriver sans connaissance. | 0912D5 |
+| @Please pay $ | @Il faut payer $ | 0912F5 |
+|  for the doctor's fee. |  pour les soins. | 091301 |
+| Yes | Oui | 36EB83, 376B0B, 376C0D, 37715F, 380A46, 091311 |
+| No | Non | 36EB87, 376B0F, 376C11, 377163, 380A4A, 091315, 091B0E |
+| @Your friend, right?...  It's very serious. | @Ton ami, c'est ça ? Son état est grave. | 09132E |
+| @I'm so glad that you recovered,  | @Ça va mieux,  | 09137D |
+| @Come back any time you need. | @Reviens si tu as besoin de nous. | 091394 |
+| @We don't have a person like that in our hospital. | @Ce patient n'est pas dans notre hôpital. | 0913A8 |
+| @You don't have enough money...? | @Tu n'as pas assez d'argent ? | 0913C4 |
+|   That's too bad. |  Quel dommage. | 091B30, 0913D0 |
+| @If you are the patient, come into the back room. | @Si tu es le patient, va dans la salle du fond. | 0913E4 |
+| @You need to be examined? | @Tu veux un examen ? | 091401 |
+|   Then, you need to see the doctor... not me. |  Alors, vois le médecin... pas moi. | 091410 |
+| @I'm not busy right now. | @Je suis disponible. | 09142C |
+| @Shall I explain about the hospital system? | @Veux-tu savoir comment fonctionne l'hôpital ? | 091439 |
+| @Yeah, well, I am actually pretty busy. | @Bon, en fait, j'ai du travail. | 09146D |
+| @If a good friend of yours becomes unconscious, | @Si l'un de tes amis perd connaissance, | 091486 |
+| @come to the hospital right away. | @viens à l'hôpital tout de suite. | 0914A5 |
+| @As long as you have money for the doctor's fee, | @Si tu peux payer les soins, | 0914B8 |
+| @you'll be able to see your friend completely recovered in no time. | @ton ami sera vite sur pied. | 0914D5 |
+| @Besides being unconscious, whenever | @Même sans perdre connaissance, si | 0914FA |
+| @you don't feel so well, come and talk to a doctor. | @tu te sens mal, viens consulter un médecin. | 091513 |
+| @Everything I just told you applies to hospitals all over the world. | @Cela vaut pour les hôpitaux du monde entier. | 091532 |
+| @Mmm, come back when necessary. | @Hum, reviens si tu en as besoin. | 0919F6, 0918BF |
+| @Who needs healing? | @Qui faut-il soigner ? | 0918F7 |
+|  isn't numb. |  ne souffre pas d'engourdissement. | 0919A7 |
+|  isn't possessed. |  n'est pas sous emprise. | 0919BE |
+|   Who needs to be healed? |  Qui faut-il soigner ? | 0919DA |
+| @If you don't have any money, you'll just have to keep on going in your current state. | @Sans argent, tu devras continuer dans cet état. | 091A12 |
+| @There!  You're already healed! | @Voilà ! Les soins sont terminés ! | 091A61 |
+|   Can I do my job well, or what! |  Je fais du bon travail, hein ! | 091A74 |
+| @Hey, now that I notice, | @Tiens, maintenant que j'y pense, | 091ABE |
+| @could you sell me the mushroom growing on top of your head? | @Tu me vends le champignon qui pousse sur ta tête ? | 091ACD |
+| @Come on, let's make a deal. | @Allez, faisons affaire. | 091AF2 |
+| Sell | Oui | 091B09 |
+| @Thanks. | @OK | 091B3D |
+|   I'll pay you $50 for each mushroom. |  Je te donne $50 par champignon. | 091B41 |
+| @All right, let's do it! | @D'accord, allons-y ! | 091B5A |
+| @By the way, do you need any help? | @Au fait, as-tu besoin d'aide ? | 091C1C |
+| @Do you need some help? | @As-tu besoin d'aide ? | 091C2F |
+| @(Huh, | @(Hein | 376ACE |
+|  what?) |  quoi?) | 376AD6 |
+| @(Do I look like a monkey?) | @(Je ressemble à un singe?) | 376AED |
+| @(Cool down, dude.) | @(Du calme, mec.) | 376BC3 |
+| @(Are you so serious all the time?) | @(Es-tu toujours aussi sérieux?) | 376BE7 |
+| @(I've got a good story to tell you.) | @(Je connais une bonne histoire.) | 377122 |
+| @(Want to hear it?) | @(Tu veux savoir?) | 377149 |
+|   Watch out! |   Attention! | 37D47F |
+| @(Incredibly enough, you found somebody's  | @(Tiens ! Tu trouves un objet perdu :  | 37D494 |
+|  right under the sign!) |  sous ce panneau !) | 37D4C1 |
+| @(Climb into the rocket?) | @(Monter dans la fusée ?) | 380A2A |
+| Soften | Dépétrifier | 38B22B |
+| Restore feeling | Sensibilité | 38B234 |
+| Purify | Purifier | 38B246 |
+| Refresh | Revigorer | 38B24F |
+| @I need to charge you $ | @Cela te coûtera donc $ | 38B27F |
+
+## Historique V77 — version publiée
 
 V77 est le patch actuel : treize fragments anglais traduits, un accord français corrigé ; treize plages fixes et un pont Non, 15 enregistrements ajoutés. Mineur `3738F8`/PNJ 210, billet/char `373C34`, prix `373CD8`, chameau `374307`/894 et relance `374409`. Le Non `374357` saute vers `328DBC` (11 octets), retour `37435C` ; la reprise `374351` utilise la même définition. Commandes dépliées, sprites, banque 25, table PNJ et créneau privé inchangés. Voir `RAPPORT_V77.md` et `tools/v77/README_V77.md`.
 
