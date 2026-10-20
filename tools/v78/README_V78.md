@@ -1,4 +1,10 @@
-# V78 — checkpoint à 114 textes, cible 150
+# V78 — checkpoint à 116 textes, cible 150
+
+État actuel : 116 sources distinctes, 154 plages sources traitées. scoped_help_stage.py ajoute deux copies contextuelles après item_help_stage.py ; les originaux et alias intérieurs restent intacts. Aide ID6E : champ 1560E5 → 330CA8. Médical : retour du pont précédent 329025 → 32FC98. 272 octets protégés supplémentaires, 369 enregistrements ajoutés aux IPS V77.
+
+16 tests V78 réussissent avec EARTHBOUND_ROM. Les tests hors ROM vérifient aussi les 36 nouvelles paires de tests/emulation_v78_scoped. Six changements textuels seulement, quatre cas par profil, 7 912 images échantillonnées. Appels artificiels, navigation naturelle et effets non certifiés. Chaque preuve antérieure est reconstruite depuis son snapshot 81/99/114. Voir RAPPORT_V78_COPIES_CHECKPOINT.md et REPRISE_TRADUCTION.md pour les limites et la suite du même lot. V77 reste publiée sur main.
+
+## Historique du checkpoint à 114 textes
 
 État actuel : 114 sources distinctes, 152 plages. item_help_stage.py ajoute 15 traductions en place, sans allocation. Ses 82 objets sont reliés aux stocks de wrappers PNJ personnalisés ; huit listes de stocks et les aides sélectionnées sont relues en émulateur. Les helpers d'aide partagés sont inclus par un chemin d'appels typés, et comptés une fois.
 

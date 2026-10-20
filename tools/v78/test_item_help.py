@@ -31,9 +31,10 @@ class HelpRom(unittest.TestCase):
    for e in f['entries']:
     item=next(i for i in f['qualification']['items'] if i['id']==e['item_id']);self.assertEqual(help_path(base,int(item['help_root'],16),int(e['context'],16)),e['help_path'])
     root,a,z=(int(e[k],16) for k in ('context','offset','end'));self.assertEqual(b.decode(base[a:z],dic),e['en']);raw=b.encode(e['fr'],p)+b.encode(' ',p)*(z-a-len(b.encode(e['fr'],p)));expected.append((a,raw));self.assertEqual(target[a:z],raw);end=b.parse(base,root,8192,extra_glyphs=range(0xb0,0xc0))['end'];self.assertEqual(b.commands(target[root:end]),b.commands(base[root:end]));self.assertFalse(any(a<t<z for t in b.pointer_index(base)))
-   self.assertEqual(records[cut:],expected);self.assertEqual(target[0x05473C:0x054758],base[0x05473C:0x054758]);self.assertEqual(b.sprite_digest(target),b.sprite_digest(base));self.assertEqual(target[0x250000:0x260000],base[0x250000:0x260000]);prove(target)
+   self.assertEqual(records[cut:cut+len(expected)],expected);self.assertEqual(target[0x05473C:0x054758],base[0x05473C:0x054758]);self.assertEqual(b.sprite_digest(target),b.sprite_digest(base));self.assertEqual(target[0x250000:0x260000],base[0x250000:0x260000]);prove(target)
+   snapshot=b.apply(source,records[:cut+len(expected)]);self.assertEqual(b.sha(snapshot),read('tools/v78/v78_fixtures.json')['scoped_help']['profiles'][p]['input_rom_sha256'])
    for c in read(f'tests/emulation_v78_help/results_{p}.json')['cases'].values():
-    self.assertEqual(b.sha(target),c['base_rom_sha256']);fixture=bytearray(target)
+    self.assertEqual(b.sha(snapshot),c['base_rom_sha256']);fixture=bytearray(snapshot)
     for w in c['temporary_rom_writes']:
      a=int(w['offset'],16);raw=bytes.fromhex(w['hex']);fixture[a:a+len(raw)]=raw
     self.assertEqual(b.sha(fixture),c['fixture_rom_sha256'])

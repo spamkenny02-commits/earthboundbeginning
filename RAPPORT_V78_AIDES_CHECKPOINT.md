@@ -1,5 +1,7 @@
 # V78 — checkpoint des aides à 114 textes
 
+Rapport historique conservant les empreintes de ses captures. L'état actuel à 116 textes ajoute deux copies contextuelles ; voir RAPPORT_V78_COPIES_CHECKPOINT.md.
+
 Le lot compte 114 sources distinctes et 152 plages physiques, sur une cible d'environ 150 textes avant publication. Cette reprise ajoute 15 sources ; les conseils partagés par plusieurs objets et les profils ne sont comptés qu'une fois. V77 reste publiée sur main. Le registre complet est dans REPRISE_TRADUCTION.md et tools/v78/batch_ledger.json.
 
 La table de sept objets par boutique est identifiée à 1576B2. Le chemin de qualification relie chaque wrapper PNJ personnalisé à son flag, à la branche 3656DC, à la commande 1A06, au stock puis à la table des objets et au pointeur d'aide. Vingt-cinq wrappers proposent 82 identifiants distincts. Les noms et prix de huit listes sont relus en émulateur dans les deux profils ; les autres liens sont statiques. Le stock de pharmacie utilise A5, Fiole de sérum à 20 $, et non 70, Fiole de sérum à 58 $. Leur nom partagé ne suffit pas à identifier l'objet.

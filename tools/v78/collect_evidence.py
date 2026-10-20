@@ -13,7 +13,7 @@ def collect(current,reference,sheets=None,dest=None):
    for field in ('trigger','steps','operations','scope','settle_frames','sampled_frames'):assert oldcase[field]==c[field],field
    assert oldcase.get('logical_entry',oldcase['entries'][0])==c.get('logical_entry',c['entries'][0])
    if oldcase['entries']!=c['entries']:
-    f=json.loads((ROOT/'tools/v78/v78_fixtures.json').read_text());moved=next(n for n in f['remaining']['moved_scripts'] if [n['root']]==oldcase['entries']);assert c['entries']==[moved['chunks'][0]['destination']]
+    f=json.loads((ROOT/'tools/v78/v78_fixtures.json').read_text());moves=[(n['root'],n['chunks'][0]['destination']) for n in f['remaining']['moved_scripts']]+[(n['context'],n['chunks'][0]['destination']) for n in f.get('scoped_help',{}).get('entries',[])];destination=next(d for r,d in moves if [r]==oldcase['entries']);assert c['entries']==[destination]
    assert len(oldcase['captures'])==len(c['captures'])
    for old,cap in zip(oldcase['captures'],c['captures']):
     for source,entry,sub in ((current,cap,Path(p)/name),(reference,old,Path('reference_v77')/p/name)):

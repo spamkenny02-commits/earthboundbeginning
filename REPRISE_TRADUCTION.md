@@ -1,5 +1,22 @@
 # Reprise — lot V78 en cours, cible 150 textes distincts
 
+**État actuel : 116 textes distincts / cible 150, 154 plages sources.** V77 reste publiée sur main ; continuer le même lot V78 sur `work/v78-batch150`. Deux sources nouvelles, par copies contextuelles. La cible restante de 34 n'est pas un inventaire prouvé ; ne pas publier une release de deux textes.
+
+L'aide de la bouteille d'eau ID6E est redirigée depuis son champ `1560E5` vers `330CA8`. La continuation médicale après « Dans ce cas, » est redirigée depuis le saut `329025` vers `32FC98`. `scoped_help_stage.py` copie les commandes et garde chaque mot entier ; 272 octets de remplissage protégés supplémentaires, total 3 431, 369 enregistrements ajoutés aux IPS V77. Les originaux restent intacts, notamment `054743`/occurrence `3C8B3F` et `0911F0`/occurrences `0047F0`, `00706A`. Aucun garde-fou global levé.
+
+16 tests V78 réussis avec ROM privée. 36 nouvelles paires V77/V78, six changements limités aux fenêtres textuelles, 7 912 images échantillonnées ; 36 captures finales relues dans les deux profils. Cas : copie eau, original eau, continuation médicale via le saut précédent, original médical. Appels contrôlés via carte bancaire ; aucune écriture WRAM. Navigation naturelle dans Aide, diagnostic et consommation non certifiés. Les anciennes preuves 81/99/114 sont testées contre leurs snapshots, pas contre le nouvel IPS final.
+
+**Suite concrète :** helpers possessifs/pronoms/articles `387AA2`, `387B19`, `38B532–38B54F` avec leurs appelants ; limites du coursier et services à plusieurs personnages ; autres références à l'ancienne aide eau (`05ABBA`, `37065F`) à qualifier avant redirection ; anciennes branches intérieures et parcours naturel. Puis menus et relecture. Le rôle des trois références brutes intérieures reste ouvert, mais ne bloque plus les deux chemins traduits : ne pas refaire leur audit pour le même appel. L'espace libre protégé est très fragmenté ; vérifier toute nouvelle allocation sans toucher aux sprites.
+
+| Nouvelle source distincte | Français | Implantation source / copie |
+|---|---|---|
+| @When you drink it, your PP slightly increases. | @Bois pour gagner un peu de PP. | 05473C / via ID6E |
+| @the best thing to do is to call home and hear your mom's voice. | @Passe un coup de fil à maman : sa voix te fera du bien. | 0911ED / via saut précédent |
+
+Registre exact complet : `tools/v78/batch_ledger.json` ; la table historique de 114 sources ci-dessous, plus ces deux lignes, donne les 116. Rapport actuel : `RAPPORT_V78_COPIES_CHECKPOINT.md`. Sorties privées : `/workspace/scratch/98c4eaa3ef23/current_v78_scoped` et `reference_v78_scoped` ; publier seulement PNG, résultats, outils et IPS. Dépendances privées inchangées.
+
+## Historique du checkpoint à 114 textes
+
 **V77 reste publiée sur main. Continuer le même lot V78 avant publication.** Branche de checkpoint : `work/v78-batch150`. Compteur exact : **114 traductions distinctes / cible 150**, **152 plages physiques**. Cette reprise ajoute 15 sources distinctes au checkpoint de 99 textes. Un texte partagé entre plusieurs objets ou profils est compté une seule fois ; aucun nom propre, débogage ou texte dormant n'a été ajouté pour faire du volume.
 
 Les aides restantes sont reliées à **82 identifiants d'objets dans les stocks de 25 wrappers PNJ personnalisés** : flag du wrapper → branche `3656DC` → commande `1A 06` → ligne de sept objets à partir de `1576B2` → table d'objets et pointeur d'aide. Huit listes de stocks sont relues en émulateur ; les autres liens sont statiques. Deux objets portent le nom Fiole de sérum : **A5 coûte 20 $ dans la pharmacie, 70 coûte 58 $**. Ne pas les confondre ni présenter A5 comme 70. Les résultats antérieurs utilisant 70 gardent cet identifiant.

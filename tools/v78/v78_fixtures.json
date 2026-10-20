@@ -10476,5 +10476,648 @@
         ]
       }
     }
+  },
+  "scoped_help": {
+    "entries": [
+      {
+        "context": "054733",
+        "offset": "05473C",
+        "end": "054758",
+        "en": "@When you drink it, your PP slightly increases.",
+        "fr": "@Bois pour gagner un peu de PP.",
+        "caller": "1560E5",
+        "kind": "item_help",
+        "aliases": [
+          "054743"
+        ],
+        "qualified_path": [
+          "054733"
+        ],
+        "preserved_interior_occurrences": {
+          "054743": [
+            "3C8B3F"
+          ]
+        },
+        "context_end": "05475A",
+        "chunks": [
+          {
+            "destination": "330CA8",
+            "payload_size": 1
+          },
+          {
+            "destination": "330190",
+            "payload_size": 1
+          },
+          {
+            "destination": "330060",
+            "payload_size": 1
+          },
+          {
+            "destination": "32C188",
+            "payload_size": 3
+          },
+          {
+            "destination": "330FB8",
+            "payload_size": 1
+          },
+          {
+            "destination": "330FAC",
+            "payload_size": 1
+          },
+          {
+            "destination": "3304F8",
+            "payload_size": 1
+          },
+          {
+            "destination": "32FA00",
+            "payload_size": 6
+          },
+          {
+            "destination": "330074",
+            "payload_size": 5
+          },
+          {
+            "destination": "32F334",
+            "payload_size": 7
+          },
+          {
+            "destination": "32B8F8",
+            "payload_size": 3
+          },
+          {
+            "destination": "32C0A0",
+            "payload_size": 4
+          },
+          {
+            "destination": "32B7F8",
+            "payload_size": 3
+          },
+          {
+            "destination": "32ADA8",
+            "payload_size": 3
+          },
+          {
+            "destination": "32FFF4",
+            "payload_size": 1
+          },
+          {
+            "destination": "32FE18",
+            "payload_size": 1
+          }
+        ]
+      },
+      {
+        "context": "0911EB",
+        "offset": "0911ED",
+        "end": "091212",
+        "en": "@the best thing to do is to call home and hear your mom's voice.",
+        "fr": "@Passe un coup de fil à maman : sa voix te fera du bien.",
+        "caller": "329025",
+        "kind": "medical_continuation",
+        "aliases": [
+          "0911F0"
+        ],
+        "qualified_path": [
+          "0911E2",
+          "329020",
+          "0911EB"
+        ],
+        "preserved_interior_occurrences": {
+          "0911F0": [
+            "0047F0",
+            "00706A"
+          ]
+        },
+        "context_end": "091214",
+        "chunks": [
+          {
+            "destination": "32FC98",
+            "payload_size": 1
+          },
+          {
+            "destination": "32EA88",
+            "payload_size": 1
+          },
+          {
+            "destination": "32F114",
+            "payload_size": 7
+          },
+          {
+            "destination": "32AA74",
+            "payload_size": 3
+          },
+          {
+            "destination": "330038",
+            "payload_size": 5
+          },
+          {
+            "destination": "32A908",
+            "payload_size": 3
+          },
+          {
+            "destination": "329C34",
+            "payload_size": 4
+          },
+          {
+            "destination": "32C848",
+            "payload_size": 2
+          },
+          {
+            "destination": "32F3E4",
+            "payload_size": 6
+          },
+          {
+            "destination": "32C4A8",
+            "payload_size": 2
+          },
+          {
+            "destination": "32A0E8",
+            "payload_size": 3
+          },
+          {
+            "destination": "32FF54",
+            "payload_size": 5
+          },
+          {
+            "destination": "329810",
+            "payload_size": 3
+          },
+          {
+            "destination": "32FF24",
+            "payload_size": 5
+          },
+          {
+            "destination": "329388",
+            "payload_size": 3
+          },
+          {
+            "destination": "32FD24",
+            "payload_size": 5
+          },
+          {
+            "destination": "32D598",
+            "payload_size": 1
+          },
+          {
+            "destination": "32CC08",
+            "payload_size": 1
+          }
+        ]
+      }
+    ],
+    "storage": {
+      "padding_bounds": [
+        "328A70",
+        "331000"
+      ],
+      "sprite_groups": 464,
+      "sprite_frames": 4177,
+      "baseline_sprite_sha256": {
+        "accents": "17127823cc216ad11cbb611b120286eea0ca073d9390368aba3633bbf7999cae",
+        "ascii": "1710046fd82c64792de534d08b7dd0eabe58ddd3ee8f07ac63031bb2b5f8f559"
+      }
+    },
+    "safe_reserves": [
+      [
+        "32F114",
+        "32F120"
+      ],
+      [
+        "32F334",
+        "32F340"
+      ],
+      [
+        "32F3E4",
+        "32F3F0"
+      ],
+      [
+        "32FA00",
+        "32FA0C"
+      ],
+      [
+        "32FD24",
+        "32FD30"
+      ],
+      [
+        "32FF24",
+        "32FF30"
+      ],
+      [
+        "32FF54",
+        "32FF60"
+      ],
+      [
+        "330038",
+        "330044"
+      ],
+      [
+        "330074",
+        "330080"
+      ],
+      [
+        "329C34",
+        "329C3D"
+      ],
+      [
+        "32C0A0",
+        "32C0A9"
+      ],
+      [
+        "330060",
+        "330069"
+      ],
+      [
+        "330190",
+        "330199"
+      ],
+      [
+        "330CA8",
+        "330CB1"
+      ],
+      [
+        "329388",
+        "329390"
+      ],
+      [
+        "329810",
+        "329818"
+      ],
+      [
+        "32A0E8",
+        "32A0F0"
+      ],
+      [
+        "32A908",
+        "32A910"
+      ],
+      [
+        "32AA74",
+        "32AA7C"
+      ],
+      [
+        "32ADA8",
+        "32ADB0"
+      ],
+      [
+        "32B7F8",
+        "32B800"
+      ],
+      [
+        "32B8F8",
+        "32B900"
+      ],
+      [
+        "32C188",
+        "32C190"
+      ],
+      [
+        "32C4A8",
+        "32C4B0"
+      ],
+      [
+        "32C848",
+        "32C850"
+      ],
+      [
+        "32CC08",
+        "32CC10"
+      ],
+      [
+        "32D598",
+        "32D5A0"
+      ],
+      [
+        "32EA88",
+        "32EA90"
+      ],
+      [
+        "32FC98",
+        "32FCA0"
+      ],
+      [
+        "32FE18",
+        "32FE20"
+      ],
+      [
+        "32FFF4",
+        "32FFFC"
+      ],
+      [
+        "3304F8",
+        "330500"
+      ],
+      [
+        "330FAC",
+        "330FB4"
+      ],
+      [
+        "330FB8",
+        "330FC0"
+      ]
+    ],
+    "profiles": {
+      "accents": {
+        "input_patch_sha256": "cce49955e32a23c978dd07a44cc19de5491d45a35bab4428734976cffb4040be",
+        "input_rom_sha256": "4673826304d37d73664c433d7c2e0467d1c37f5faed6b1e2eb2cf7be2932a5f8",
+        "input_records_added": 333,
+        "records": [
+          {
+            "offset": "330CA8",
+            "hex": "010a9001f300"
+          },
+          {
+            "offset": "330190",
+            "hex": "500a6000f300"
+          },
+          {
+            "offset": "330060",
+            "hex": "6c0a88c1f200"
+          },
+          {
+            "offset": "32C188",
+            "hex": "1c056e0ab80ff300"
+          },
+          {
+            "offset": "330FB8",
+            "hex": "6e0aac0ff300"
+          },
+          {
+            "offset": "330FAC",
+            "hex": "030af804f300"
+          },
+          {
+            "offset": "3304F8",
+            "hex": "000a00faf200"
+          },
+          {
+            "offset": "32FA00",
+            "hex": "70729f99a3500a7400f300"
+          },
+          {
+            "offset": "330074",
+            "hex": "a09fa5a2500a34f3f200"
+          },
+          {
+            "offset": "32F334",
+            "hex": "9791979e95a2500af8b8f200"
+          },
+          {
+            "offset": "32B8F8",
+            "hex": "a59e500aa0c0f200"
+          },
+          {
+            "offset": "32C0A0",
+            "hex": "a095a5500af8b7f200"
+          },
+          {
+            "offset": "32B7F8",
+            "hex": "9495500aa8adf200"
+          },
+          {
+            "offset": "32ADA8",
+            "hex": "80805e0af4fff200"
+          },
+          {
+            "offset": "32FFF4",
+            "hex": "130a18fef200"
+          },
+          {
+            "offset": "32FE18",
+            "hex": "020000000000"
+          },
+          {
+            "offset": "1560E5",
+            "hex": "a80cf300"
+          },
+          {
+            "offset": "32FC98",
+            "hex": "030a88eaf200"
+          },
+          {
+            "offset": "32EA88",
+            "hex": "000a14f1f200"
+          },
+          {
+            "offset": "32F114",
+            "hex": "708091a3a395500a74aaf200"
+          },
+          {
+            "offset": "32AA74",
+            "hex": "a59e500a3800f300"
+          },
+          {
+            "offset": "330038",
+            "hex": "939fa5a0500a08a9f200"
+          },
+          {
+            "offset": "32A908",
+            "hex": "9495500a349cf200"
+          },
+          {
+            "offset": "329C34",
+            "hex": "96999c500a48c8f200"
+          },
+          {
+            "offset": "32C848",
+            "hex": "b4500ae4f3f200"
+          },
+          {
+            "offset": "32F3E4",
+            "hex": "9d919d919e500aa8c4f200"
+          },
+          {
+            "offset": "32C4A8",
+            "hex": "6a500ae8a0f200"
+          },
+          {
+            "offset": "32A0E8",
+            "hex": "a391500a54fff200"
+          },
+          {
+            "offset": "32FF54",
+            "hex": "a69f99a8500a1098f200"
+          },
+          {
+            "offset": "329810",
+            "hex": "a495500a24fff200"
+          },
+          {
+            "offset": "32FF24",
+            "hex": "9695a291500a8893f200"
+          },
+          {
+            "offset": "329388",
+            "hex": "94a5500a24fdf200"
+          },
+          {
+            "offset": "32FD24",
+            "hex": "9299959e5e0a98d5f200"
+          },
+          {
+            "offset": "32D598",
+            "hex": "130a08ccf200"
+          },
+          {
+            "offset": "32CC08",
+            "hex": "020000000000"
+          },
+          {
+            "offset": "329025",
+            "hex": "98fcf200"
+          }
+        ]
+      },
+      "ascii": {
+        "input_patch_sha256": "dc69a44630c1d77d16959cd27a8cc9c1be33f690bef47321db2839bceccfaa96",
+        "input_rom_sha256": "a64df79bd076f49324d4fea0219a6e35ec41761afaeafa384931e180cfccaa14",
+        "input_records_added": 333,
+        "records": [
+          {
+            "offset": "330CA8",
+            "hex": "010a9001f300"
+          },
+          {
+            "offset": "330190",
+            "hex": "500a6000f300"
+          },
+          {
+            "offset": "330060",
+            "hex": "6c0a88c1f200"
+          },
+          {
+            "offset": "32C188",
+            "hex": "1c056e0ab80ff300"
+          },
+          {
+            "offset": "330FB8",
+            "hex": "6e0aac0ff300"
+          },
+          {
+            "offset": "330FAC",
+            "hex": "030af804f300"
+          },
+          {
+            "offset": "3304F8",
+            "hex": "000a00faf200"
+          },
+          {
+            "offset": "32FA00",
+            "hex": "70729f99a3500a7400f300"
+          },
+          {
+            "offset": "330074",
+            "hex": "a09fa5a2500a34f3f200"
+          },
+          {
+            "offset": "32F334",
+            "hex": "9791979e95a2500af8b8f200"
+          },
+          {
+            "offset": "32B8F8",
+            "hex": "a59e500aa0c0f200"
+          },
+          {
+            "offset": "32C0A0",
+            "hex": "a095a5500af8b7f200"
+          },
+          {
+            "offset": "32B7F8",
+            "hex": "9495500aa8adf200"
+          },
+          {
+            "offset": "32ADA8",
+            "hex": "80805e0af4fff200"
+          },
+          {
+            "offset": "32FFF4",
+            "hex": "130a18fef200"
+          },
+          {
+            "offset": "32FE18",
+            "hex": "020000000000"
+          },
+          {
+            "offset": "1560E5",
+            "hex": "a80cf300"
+          },
+          {
+            "offset": "32FC98",
+            "hex": "030a88eaf200"
+          },
+          {
+            "offset": "32EA88",
+            "hex": "000a14f1f200"
+          },
+          {
+            "offset": "32F114",
+            "hex": "708091a3a395500a74aaf200"
+          },
+          {
+            "offset": "32AA74",
+            "hex": "a59e500a3800f300"
+          },
+          {
+            "offset": "330038",
+            "hex": "939fa5a0500a08a9f200"
+          },
+          {
+            "offset": "32A908",
+            "hex": "9495500a349cf200"
+          },
+          {
+            "offset": "329C34",
+            "hex": "96999c500a48c8f200"
+          },
+          {
+            "offset": "32C848",
+            "hex": "91500ae4f3f200"
+          },
+          {
+            "offset": "32F3E4",
+            "hex": "9d919d919e500aa8c4f200"
+          },
+          {
+            "offset": "32C4A8",
+            "hex": "6a500ae8a0f200"
+          },
+          {
+            "offset": "32A0E8",
+            "hex": "a391500a54fff200"
+          },
+          {
+            "offset": "32FF54",
+            "hex": "a69f99a8500a1098f200"
+          },
+          {
+            "offset": "329810",
+            "hex": "a495500a24fff200"
+          },
+          {
+            "offset": "32FF24",
+            "hex": "9695a291500a8893f200"
+          },
+          {
+            "offset": "329388",
+            "hex": "94a5500a24fdf200"
+          },
+          {
+            "offset": "32FD24",
+            "hex": "9299959e5e0a98d5f200"
+          },
+          {
+            "offset": "32D598",
+            "hex": "130a08ccf200"
+          },
+          {
+            "offset": "32CC08",
+            "hex": "020000000000"
+          },
+          {
+            "offset": "329025",
+            "hex": "98fcf200"
+          }
+        ]
+      }
+    }
   }
 }

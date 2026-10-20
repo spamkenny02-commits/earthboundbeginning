@@ -60,6 +60,8 @@ def build(rom,out):
  from remaining_stage import extend as extend_remaining
  plan=extend_remaining(source,out,plan,fixtures)
  from item_help_stage import extend as extend_help
- return extend_help(source,out,plan,fixtures)
+ plan=extend_help(source,out,plan,fixtures)
+ from scoped_help_stage import extend as extend_scoped
+ return extend_scoped(source,out,plan,fixtures)
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,default=ROOT/'patches');a=ap.parse_args();print(json.dumps(build(a.rom,a.out),indent=2))

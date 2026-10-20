@@ -1,9 +1,9 @@
 name: Verify V78 batch checkpoint offline
 on:
   push:
-    paths: ['tools/v78/**', 'tests/emulation_v78/**', 'patches/*v78*', '.github/workflows/verifier-v78.yml']
+    paths: ['tools/v78/**', 'tests/emulation_v78*/**', 'patches/*v78*', '.github/workflows/verifier-v78.yml']
   pull_request:
-    paths: ['tools/v78/**', 'tests/emulation_v78/**', 'patches/*v78*', '.github/workflows/verifier-v78.yml']
+    paths: ['tools/v78/**', 'tests/emulation_v78*/**', 'patches/*v78*', '.github/workflows/verifier-v78.yml']
 jobs:
   test:
     runs-on: ubuntu-latest

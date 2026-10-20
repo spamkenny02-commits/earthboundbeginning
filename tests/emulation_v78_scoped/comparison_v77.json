@@ -1,0 +1,594 @@
+{
+  "accents": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "water_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/water_scoped/page_00.png",
+        "after_path": "tests/emulation_v78_scoped/accents/water_scoped/page_00.png",
+        "before_png_sha256": "c0b56ce468abd71047a4af66620ab80eb468a10a439a572f6305e0b5d5287cd6",
+        "before_rgb_sha256": "c5f14f7852f00cef9b2cb378230bf19b6a745a7753530fb745c0f1da23f367a6",
+        "after_rgb_sha256": "c5f14f7852f00cef9b2cb378230bf19b6a745a7753530fb745c0f1da23f367a6",
+        "bbox": null
+      },
+      {
+        "case": "water_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/water_scoped/page_01.png",
+        "after_path": "tests/emulation_v78_scoped/accents/water_scoped/page_01.png",
+        "before_png_sha256": "6700ce745c5deb1e6a4902761195a40d35ae0e99d158dfadc30b08dcf0778b5f",
+        "before_rgb_sha256": "b499540ecb4e62efa7a9bca50c921d410edf86e5ad7e7452da3c5c48d68dc8ec",
+        "after_rgb_sha256": "8eb952a721ce481aec6b043c8c569ef4dcd38c3980c3f6520d48cfcb9a7ae2c8",
+        "bbox": [
+          110,
+          34,
+          225,
+          61
+        ]
+      },
+      {
+        "case": "water_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/water_scoped/page_02.png",
+        "after_path": "tests/emulation_v78_scoped/accents/water_scoped/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "water_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/water_scoped/page_03.png",
+        "after_path": "tests/emulation_v78_scoped/accents/water_scoped/page_03.png",
+        "before_png_sha256": "7fadfb12fd6049602b6345bb8abc6f08f01fc4d720f72525722605719b5d3a9d",
+        "before_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "after_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "bbox": null
+      },
+      {
+        "case": "water_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/water_original/page_00.png",
+        "after_path": "tests/emulation_v78_scoped/accents/water_original/page_00.png",
+        "before_png_sha256": "c0b56ce468abd71047a4af66620ab80eb468a10a439a572f6305e0b5d5287cd6",
+        "before_rgb_sha256": "c5f14f7852f00cef9b2cb378230bf19b6a745a7753530fb745c0f1da23f367a6",
+        "after_rgb_sha256": "c5f14f7852f00cef9b2cb378230bf19b6a745a7753530fb745c0f1da23f367a6",
+        "bbox": null
+      },
+      {
+        "case": "water_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/water_original/page_01.png",
+        "after_path": "tests/emulation_v78_scoped/accents/water_original/page_01.png",
+        "before_png_sha256": "6700ce745c5deb1e6a4902761195a40d35ae0e99d158dfadc30b08dcf0778b5f",
+        "before_rgb_sha256": "b499540ecb4e62efa7a9bca50c921d410edf86e5ad7e7452da3c5c48d68dc8ec",
+        "after_rgb_sha256": "b499540ecb4e62efa7a9bca50c921d410edf86e5ad7e7452da3c5c48d68dc8ec",
+        "bbox": null
+      },
+      {
+        "case": "water_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/water_original/page_02.png",
+        "after_path": "tests/emulation_v78_scoped/accents/water_original/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "water_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/water_original/page_03.png",
+        "after_path": "tests/emulation_v78_scoped/accents/water_original/page_03.png",
+        "before_png_sha256": "7fadfb12fd6049602b6345bb8abc6f08f01fc4d720f72525722605719b5d3a9d",
+        "before_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "after_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "bbox": null
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_scoped/page_00.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_scoped/page_00.png",
+        "before_png_sha256": "d05ab9bb699e35c2a62a701063545a1ebe1fa8e37f60b4eb837798f6035880cc",
+        "before_rgb_sha256": "8eda79e37a318c5e805870c06d8b5174fe51e5703df1a5f2a1e017459c8c3c4b",
+        "after_rgb_sha256": "ceb24ee5446fc06b062ba2b474d62d95ec263ab189adbea964a9e3864dc361d7",
+        "bbox": [
+          111,
+          18,
+          164,
+          28
+        ]
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_scoped/page_01.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_scoped/page_01.png",
+        "before_png_sha256": "9ff4046ed69095c252887818d0850e0eab263d05c985d67f0fd250e435a4fc12",
+        "before_rgb_sha256": "8ec268e26a2e1d5d3a1807f143baa86836329366888a3c0abb052613651c7248",
+        "after_rgb_sha256": "4be44325b8dde8a4550222bc312025567edc6b2bd2fad6c4eee3efbe2c4aee93",
+        "bbox": [
+          105,
+          18,
+          237,
+          58
+        ]
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_scoped/page_02.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_scoped/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_scoped/page_03.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_scoped/page_03.png",
+        "before_png_sha256": "7fadfb12fd6049602b6345bb8abc6f08f01fc4d720f72525722605719b5d3a9d",
+        "before_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "after_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "bbox": null
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_scoped/page_04.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_scoped/page_04.png",
+        "before_png_sha256": "edd89900bac678dd2fa88e69682e44eb99607cee6ec40d3b741f941eefe8054d",
+        "before_rgb_sha256": "6b1c84a2e67b1793d90710a0f54fe6cb2ac417775eecf4e59ce4eb042c300f6d",
+        "after_rgb_sha256": "6b1c84a2e67b1793d90710a0f54fe6cb2ac417775eecf4e59ce4eb042c300f6d",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_original/page_00.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_original/page_00.png",
+        "before_png_sha256": "bf0c4ccc26cadec4578637792e5fb10611bd069462a8220e08c887a995959249",
+        "before_rgb_sha256": "cc7613abf2a81535a0536f8244f89bda3e779b446694eeb4950c4febddb4bbec",
+        "after_rgb_sha256": "cc7613abf2a81535a0536f8244f89bda3e779b446694eeb4950c4febddb4bbec",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_original/page_01.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_original/page_01.png",
+        "before_png_sha256": "9ff4046ed69095c252887818d0850e0eab263d05c985d67f0fd250e435a4fc12",
+        "before_rgb_sha256": "8ec268e26a2e1d5d3a1807f143baa86836329366888a3c0abb052613651c7248",
+        "after_rgb_sha256": "8ec268e26a2e1d5d3a1807f143baa86836329366888a3c0abb052613651c7248",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_original/page_02.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_original/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_original/page_03.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_original/page_03.png",
+        "before_png_sha256": "7fadfb12fd6049602b6345bb8abc6f08f01fc4d720f72525722605719b5d3a9d",
+        "before_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "after_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/accents/medical_original/page_04.png",
+        "after_path": "tests/emulation_v78_scoped/accents/medical_original/page_04.png",
+        "before_png_sha256": "edd89900bac678dd2fa88e69682e44eb99607cee6ec40d3b741f941eefe8054d",
+        "before_rgb_sha256": "6b1c84a2e67b1793d90710a0f54fe6cb2ac417775eecf4e59ce4eb042c300f6d",
+        "after_rgb_sha256": "6b1c84a2e67b1793d90710a0f54fe6cb2ac417775eecf4e59ce4eb042c300f6d",
+        "bbox": null
+      }
+    ]
+  },
+  "ascii": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "water_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/water_scoped/page_00.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/water_scoped/page_00.png",
+        "before_png_sha256": "523844ee4facf4769bb762d1533ad4cf12254182d3df7b668b73fedfb879e9f4",
+        "before_rgb_sha256": "e15f0cd4e1592d3d3c146267236aae69321873d45aa97d9e91409ec83b816ee4",
+        "after_rgb_sha256": "e15f0cd4e1592d3d3c146267236aae69321873d45aa97d9e91409ec83b816ee4",
+        "bbox": null
+      },
+      {
+        "case": "water_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/water_scoped/page_01.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/water_scoped/page_01.png",
+        "before_png_sha256": "0485bef14fe4d2e80c6104266c105a84a84036beec4faeab765c0ccb5bc8f307",
+        "before_rgb_sha256": "8c9c29e0c74d038dd672ee1c0aa83660a8be0e8e8bc4de0d50aabea4e22df914",
+        "after_rgb_sha256": "c39db766bf860ea6cab73e90241873d7346f34080e56cdc98f3b586abd5dd2b5",
+        "bbox": [
+          110,
+          34,
+          225,
+          61
+        ]
+      },
+      {
+        "case": "water_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/water_scoped/page_02.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/water_scoped/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "water_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/water_scoped/page_03.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/water_scoped/page_03.png",
+        "before_png_sha256": "e28281381507f9321a8a57796a576647303bbe956676b6bbaeba76359b3d3a76",
+        "before_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "after_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "bbox": null
+      },
+      {
+        "case": "water_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/water_original/page_00.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/water_original/page_00.png",
+        "before_png_sha256": "523844ee4facf4769bb762d1533ad4cf12254182d3df7b668b73fedfb879e9f4",
+        "before_rgb_sha256": "e15f0cd4e1592d3d3c146267236aae69321873d45aa97d9e91409ec83b816ee4",
+        "after_rgb_sha256": "e15f0cd4e1592d3d3c146267236aae69321873d45aa97d9e91409ec83b816ee4",
+        "bbox": null
+      },
+      {
+        "case": "water_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/water_original/page_01.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/water_original/page_01.png",
+        "before_png_sha256": "0485bef14fe4d2e80c6104266c105a84a84036beec4faeab765c0ccb5bc8f307",
+        "before_rgb_sha256": "8c9c29e0c74d038dd672ee1c0aa83660a8be0e8e8bc4de0d50aabea4e22df914",
+        "after_rgb_sha256": "8c9c29e0c74d038dd672ee1c0aa83660a8be0e8e8bc4de0d50aabea4e22df914",
+        "bbox": null
+      },
+      {
+        "case": "water_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/water_original/page_02.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/water_original/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "water_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/water_original/page_03.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/water_original/page_03.png",
+        "before_png_sha256": "e28281381507f9321a8a57796a576647303bbe956676b6bbaeba76359b3d3a76",
+        "before_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "after_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "bbox": null
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_scoped/page_00.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_scoped/page_00.png",
+        "before_png_sha256": "86e6c4f0baecf7e21b1905546a7461f4926b4556fa9f93283e4dbeb40eb5dfa8",
+        "before_rgb_sha256": "9f33039481a90114d71641122d0ca74fa03f81f9b53d27dd7a2b51d70777f97b",
+        "after_rgb_sha256": "5b25910bc15663dfe2d9e3953a31dd1dfdd858d761fbdc77d2331c8de58dcc95",
+        "bbox": [
+          111,
+          18,
+          164,
+          28
+        ]
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_scoped/page_01.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_scoped/page_01.png",
+        "before_png_sha256": "f1d01e5c821c722123c300ada58c15fed5b40b724286fb37d1e63469f0a8b4ef",
+        "before_rgb_sha256": "ec1879685282e47b5a5331509adb53a7513fe074abd10fddc054ee66a8e8947f",
+        "after_rgb_sha256": "610585e5b8b22b56baef68ebebd7bf6bbcf3c99c6d36defe21c93d8290b3e0f0",
+        "bbox": [
+          105,
+          18,
+          237,
+          58
+        ]
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_scoped/page_02.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_scoped/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_scoped/page_03.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_scoped/page_03.png",
+        "before_png_sha256": "e28281381507f9321a8a57796a576647303bbe956676b6bbaeba76359b3d3a76",
+        "before_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "after_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "bbox": null
+      },
+      {
+        "case": "medical_scoped",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_scoped/page_04.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_scoped/page_04.png",
+        "before_png_sha256": "9ff817ebec415d07108678b23d1d3036ae71a7d54c344b4f1358975897d1bf07",
+        "before_rgb_sha256": "f9b7509aafc421249d6391157ff2963544d77cf02c7666cfdc9f4c54265e7f7a",
+        "after_rgb_sha256": "f9b7509aafc421249d6391157ff2963544d77cf02c7666cfdc9f4c54265e7f7a",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_original/page_00.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_original/page_00.png",
+        "before_png_sha256": "30b5012b190db16eab5a31e3251c828aae0b0c02401d2e0afbd1bda97d8fd621",
+        "before_rgb_sha256": "209991bcda133c2fee72aae07dae901c54a46a9392d0764959e60095a05d488f",
+        "after_rgb_sha256": "209991bcda133c2fee72aae07dae901c54a46a9392d0764959e60095a05d488f",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_original/page_01.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_original/page_01.png",
+        "before_png_sha256": "f1d01e5c821c722123c300ada58c15fed5b40b724286fb37d1e63469f0a8b4ef",
+        "before_rgb_sha256": "ec1879685282e47b5a5331509adb53a7513fe074abd10fddc054ee66a8e8947f",
+        "after_rgb_sha256": "ec1879685282e47b5a5331509adb53a7513fe074abd10fddc054ee66a8e8947f",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_original/page_02.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_original/page_02.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_original/page_03.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_original/page_03.png",
+        "before_png_sha256": "e28281381507f9321a8a57796a576647303bbe956676b6bbaeba76359b3d3a76",
+        "before_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "after_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "bbox": null
+      },
+      {
+        "case": "medical_original",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_scoped/reference_v77/ascii/medical_original/page_04.png",
+        "after_path": "tests/emulation_v78_scoped/ascii/medical_original/page_04.png",
+        "before_png_sha256": "9ff817ebec415d07108678b23d1d3036ae71a7d54c344b4f1358975897d1bf07",
+        "before_rgb_sha256": "f9b7509aafc421249d6391157ff2963544d77cf02c7666cfdc9f4c54265e7f7a",
+        "after_rgb_sha256": "f9b7509aafc421249d6391157ff2963544d77cf02c7666cfdc9f4c54265e7f7a",
+        "bbox": null
+      }
+    ]
+  }
+}

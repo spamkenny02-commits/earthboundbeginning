@@ -1,8 +1,8 @@
 {
   "version": "v78",
   "release_pending": true,
-  "distinct_texts": 114,
-  "physical_spans": 152,
+  "distinct_texts": 116,
+  "physical_spans": 154,
   "target": 150,
   "entries": [
     {
@@ -34,6 +34,14 @@
       "french": "@Avec ton gâteau préféré !",
       "offsets": [
         "0541AE"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@When you drink it, your PP slightly increases.",
+      "french": "@Bois pour gagner un peu de PP.",
+      "offsets": [
+        "05473C"
       ],
       "validation": "static; runtime coverage is case-specific"
     },
@@ -266,6 +274,14 @@
       "french": "@Dans ce cas,",
       "offsets": [
         "0911E2"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@the best thing to do is to call home and hear your mom's voice.",
+      "french": "@Passe un coup de fil à maman : sa voix te fera du bien.",
+      "offsets": [
+        "0911ED"
       ],
       "validation": "static; runtime coverage is case-specific"
     },

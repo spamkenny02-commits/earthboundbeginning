@@ -24,13 +24,13 @@ def expansions(f,p,target):
  return sorted(result)
 class OfflineTests(unittest.TestCase):
  def test_batch_counter_and_blocked_entry(self):
-  f=fixtures();p=read_plan();texts={e['english'] for e in f['profiles']['accents']['edits']}|{'No'}|{e['en'] for e in f['medical']['entries']}|{e['en'] for e in f['remaining']['entries']+f['remaining']['labels']+f['item_help']['entries']};self.assertEqual(len(texts),114);self.assertEqual(p['distinct_new_translations'],114);self.assertEqual(p['batch_target_distinct_texts'],150);self.assertTrue(p['release_pending']);self.assertEqual(p['changed_text_spans'],152);self.assertEqual([e['offset'] for e in f['medical']['blocked_entries']],['0911ED'])
+  f=fixtures();p=read_plan();texts={e['english'] for e in f['profiles']['accents']['edits']}|{'No'}|{e['en'] for e in f['medical']['entries']}|{e['en'] for e in f['remaining']['entries']+f['remaining']['labels']+f['item_help']['entries']+f['scoped_help']['entries']};self.assertEqual(len(texts),116);self.assertEqual(p['distinct_new_translations'],116);self.assertEqual(p['batch_target_distinct_texts'],150);self.assertTrue(p['release_pending']);self.assertEqual(p['changed_text_spans'],154);self.assertEqual([e['offset'] for e in f['medical']['blocked_entries']],['0911ED'])
   from update_ledger import build
-  ledger=json.loads((ROOT/'tools/v78/batch_ledger.json').read_text());self.assertEqual(ledger,build());self.assertEqual({e['source'] for e in ledger['entries']},texts);self.assertEqual(len({a for e in ledger['entries'] for a in e['offsets']}),152)
+  ledger=json.loads((ROOT/'tools/v78/batch_ledger.json').read_text());self.assertEqual(ledger,build());self.assertEqual({e['source'] for e in ledger['entries']},texts);self.assertEqual(len({a for e in ledger['entries'] for a in e['offsets']}),154)
  def test_patch_prefix_hash_and_changed_records(self):
   f=fixtures();plan=read_plan()
   for p in ('accents','ascii'):
-   prior=(ROOT/f'patches/EarthBound_Beginnings_FR_v77_{p}.ips').read_bytes();ips=(ROOT/f'patches/EarthBound_Beginnings_FR_v78_{p}.ips').read_bytes();self.assertTrue(ips.startswith(prior[:-3]));self.assertEqual(b.sha(ips),plan['profiles'][p]['sha256']);added=b.records(ips)[len(b.records(prior)):];self.assertEqual(len(added),plan['profiles'][p]['records_added']);medical=[(int(e['offset'],16),bytes.fromhex(e['hex'])) for e in f['medical']['profiles'][p]['records']];remaining=[(int(e['offset'],16),bytes.fromhex(e['hex'])) for e in f['remaining']['profiles'][p]['records']];help_records=[(int(e['offset'],16),bytes.fromhex(e['hex'])) for e in f['item_help']['profiles'][p]['records']];self.assertEqual(added[26:],medical+remaining+help_records)
+   prior=(ROOT/f'patches/EarthBound_Beginnings_FR_v77_{p}.ips').read_bytes();ips=(ROOT/f'patches/EarthBound_Beginnings_FR_v78_{p}.ips').read_bytes();self.assertTrue(ips.startswith(prior[:-3]));self.assertEqual(b.sha(ips),plan['profiles'][p]['sha256']);added=b.records(ips)[len(b.records(prior)):];self.assertEqual(len(added),plan['profiles'][p]['records_added']);expected=[(int(e['offset'],16),bytes.fromhex(e['hex'])) for stage in ('medical','remaining','item_help','scoped_help') for e in f[stage]['profiles'][p]['records']];self.assertEqual(added[26:],expected)
  def test_inputs_and_recomputed_trace_counts(self):
   spec=importlib.util.spec_from_file_location('probe78',ROOT/'tests/emulation_v78/probe.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
   for p,r in reports():
@@ -55,7 +55,7 @@ class RomTests(unittest.TestCase):
  def test_expanded_native_commands_and_preserved_alias(self):
   f=fixtures();contexts={root for root,*_ in CONFIG}|{int(e['context'],16) for e in f['medical']['entries']}|{int(e['context'],16) for e in f['medical']['menus']}
   for p,base in self.bases.items():
-   target=b.apply(self.source,b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v78_{p}.ips').read_bytes()));edits=expansions(f,p,target)
+   records=b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v78_{p}.ips').read_bytes());target=b.apply(self.source,records[:len(b.records(self.priors[p]))+f['scoped_help']['profiles'][p]['input_records_added']]);edits=expansions(f,p,target)
    for root in contexts:
     end=b.parse(base,root,8192,extra_glyphs=range(0xB0,0xC0))['end'];cursor=root;flat=bytearray()
     for a,z,payload in edits:
@@ -67,7 +67,7 @@ class RomTests(unittest.TestCase):
   for base in self.bases.values():targets.update(b.pointer_index(base))
   targets.update(range(0x330FC0,0x331000));reserves,_=safe_reserves(self.source,self.bases,self.priors,targets,b.records)
   for p,base in self.bases.items():
-   ips=(ROOT/f'patches/EarthBound_Beginnings_FR_v78_{p}.ips').read_bytes();added=b.records(ips)[len(b.records(self.priors[p])):];allocated=sorted((a,raw) for a,raw in added if 0x328A70<=a<0x331000 and a not in (0x32E139,0x32E13D))
+   ips=(ROOT/f'patches/EarthBound_Beginnings_FR_v78_{p}.ips').read_bytes();added=b.records(ips)[len(b.records(self.priors[p])):];allocated=sorted((a,raw) for a,raw in added if 0x328A70<=a<0x331000 and a not in (0x32E139,0x32E13D,0x329025))
    for i,(a,raw) in enumerate(allocated):
     self.assertEqual(base[a:a+len(raw)],bytes(len(raw)));self.assertTrue(any(lo<=a and a+len(raw)<=hi for lo,hi in reserves));self.assertFalse(any(a<=t<a+len(raw) for t in targets))
     if i:self.assertLessEqual(allocated[i-1][0]+len(allocated[i-1][1]),a)

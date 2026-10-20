@@ -27,6 +27,8 @@ def run(args):
   entry=cfg['entry'];operations=cfg.get('operations',[])
   if cfg.get('copied') and args.version==78:
    f=json.loads((ROOT/'tools/v78/v78_fixtures.json').read_text());entry=int(next(n for n in f['remaining']['moved_scripts'] if int(n['root'],16)==entry)['chunks'][0]['destination'],16)
+  if cfg.get('scoped_copy') and args.version==78:
+   f=json.loads((ROOT/'tools/v78/v78_fixtures.json').read_text());entry=int(next(n for n in f['scoped_help']['entries'] if int(n['context'],16)==entry)['chunks'][0]['destination'],16)
   s=ServiceSession(source,args.core,args.out/p/name,p,[entry],args.version,operations);captures=[]
   try:
    s.send({'load':str(state),'frames':0});s.step(60)
