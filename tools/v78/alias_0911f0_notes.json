@@ -1,0 +1,33 @@
+{
+  "target": "0911F0",
+  "source_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "raw_pointer_occurrences": ["0047F0", "00706A"],
+  "classification": "CPU instruction candidates; text-entry guard retained pending complete qualification",
+  "observations": [
+    {
+      "anchor": "00705F",
+      "instructions": [
+        "REP #$31 sets 16-bit accumulator and index registers",
+        "LDY #$0001",
+        "LDX $987F",
+        "CMP #$0100",
+        "BEQ +$11 at 00706A",
+        "CMP #$0000 at 00706C"
+      ],
+      "interpretation": "The apparent four-byte pointer starts with a BEQ instruction and crosses into CMP, rather than forming one operand. The instruction boundary is inferred from the REP prologue."
+    },
+    {
+      "anchor": "0047EA",
+      "instructions": [
+        "LDA $5DC6",
+        "AND #$0300 assuming a 16-bit accumulator",
+        "BEQ +$11 at 0047F0",
+        "CMP #$0200 at 0047F2"
+      ],
+      "interpretation": "Same apparent-pointer pattern across BEQ/CMP; accumulator width and the caller entry still require qualification."
+    }
+  ],
+  "translation_changed": false,
+  "guard_removed": false,
+  "next_step": "Qualify CPU reachability and instruction boundaries for both occurrences, recheck all raw and parsed references against the final patched ROM, then permit only this exact proven false-positive if justified. Do not relax guards globally."
+}

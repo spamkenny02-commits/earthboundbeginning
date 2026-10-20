@@ -56,6 +56,8 @@ def build(rom,out):
  plan={'version':'v78','input_patch_version':'v77','source_sha256':b.sha(source),'changed_text_spans':21,'distinct_new_translations':13,'batch_target_distinct_texts':150,'release_pending':True,'native_commands_preserved_after_expanding_menu_bridges':True,'npc_pointers_rewritten':0,'menu_bridges':5,'new_allocated_bytes':55,'bank25_unchanged':True,'sprites_preserved_against':'v77','natural_scene_access_verified':False,'profiles':profiles}
  for name,value in [('v78_fixtures',fixtures),('validation_v78',plan)]:(ROOT/f'tools/v78/{name}.json').write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
  from medical_stage import extend
- return extend(source,out,plan,fixtures)
+ plan=extend(source,out,plan,fixtures)
+ from remaining_stage import extend as extend_remaining
+ return extend_remaining(source,out,plan,fixtures)
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,default=ROOT/'patches');a=ap.parse_args();print(json.dumps(build(a.rom,a.out),indent=2))

@@ -1,21 +1,33 @@
 # Reprise — lot V78 en cours, cible 150 textes distincts
 
-**V77 reste la version publiée sur main. Poursuivre le même lot V78 avant publication.** Checkpoint : branche `work/v78-batch150`. Compteur **81 traductions distinctes / cible 150**, **94 plages physiques**, dédoublonnées par texte source ; accents/ASCII comptés une fois. Il reste environ 69 textes pour atteindre la taille souhaitée, sans garantir que tous les candidats soient réellement utilisés.
+**V77 reste publiée sur main. Poursuivre le même lot V78.** Branche synchronisée : `work/v78-batch150`. Compteur exact : **99 traductions distinctes / cible 150**, dans **137 plages physiques**. Le checkpoint précédent en contenait 81 : 18 sources distinctes nouvelles dans cette reprise. Oui/Non répétés, salutations répétées et profils accents/ASCII ne gonflent pas le compteur. Le texte source Sell est compté une fois, avec Oui dans le service médical et Vendre dans la boutique.
 
-Les services infirmière `381D1C`, médecin `381D24` et guérisseur `381D2C` appellent les dialogues hospitaliers originaux : 71 plages médicales et deux définitions Non viennent compléter le premier groupe de 21 plages. Les libellés du choix de soins appartiennent à ce service ; les menus généraux restent pour la phase suivante. 61 ponts médicaux préservent les mots entiers ; les définitions de choix déplacées sont copiées intégralement. Allocation totale 2 378 octets protégés (55 initiaux + 2 323 médicaux), 219 enregistrements IPS ajoutés par profil. Commandes dépliées, table PNJ, sprites, banque 25 et créneau privé préservés.
+Le train `36DCD5` affiche les devis 11/20/36/48 $ puis accepte le refus sans débit dans les deux profils. Les scripts `25B08C`, `25B0D4`, `25B11C`, `25B164` et `251A50` sont réellement superposés à des pixels de sprites : ils sont copiés en blocs protégés, avec commandes, mots et définitions de choix indivisibles. Seuls leurs cinq appelants explicites sont redirigés. La banque 25, la table PNJ et les empreintes des sprites restent inchangées.
 
-**Validation : 24 tests ciblés V78/V77/V65 réussis avec la ROM privée.** 146 comparaisons V77/V78 dans les deux profils, 90 différences limitées aux fenêtres de texte et 39 412 images échantillonnées. Entrées forcées par commande native, sans écriture WRAM : aucune rencontre naturelle certifiée. Médecin : refus et fonds insuffisants (25 $ demandés, 20 $ disponibles). Infirmière : explication ; guérisseur : choix Dépétrifier et devis, sans soin effectif. Explication hospitalière appelée directement à une branche intérieure. Panneau : obtention native du Dentier ; fusée : refus seulement. Les branches de maladies et de guérison non atteintes restent statiquement validées uniquement. Voir `RAPPORT_V78_CHECKPOINT.md`.
+Autres corrections : Youngtown, Papa, inquiétude, confirmation de nom, yaourt à la truite, solde/remise d'argent, singe et clé du zoo, aide de la Fiole de sérum, sept salutations d'hôtel et choix Acheter/Vendre. Les menus généraux restent pour la phase suivante. L'allocation du lot atteint 3 159 octets : 55 initiaux + 2 323 médicaux + 781 pour les restes ; 318 enregistrements IPS ajoutés par profil.
 
-**Reste précis :** conserver `0911ED–091212` en anglais tant que le pointeur intérieur `0911F0` n'est pas qualifié ; ne pas supprimer le garde-fou. Poursuivre les dialogues/services avant menus : train `36DD0A`, Youngtown `36E5EB`, inquiétude `36E832`, fruit `380B42`, solde `384C44` et remise `384CA6`, Pippi `386D46`, vol `38BADB`, sélecteurs train `25B0B7` et suivants. Qualifier leurs appelants et les branches avant modification. Les aides d'objets doivent être reliées à un objet réellement utilisé : la Fiole de sérum ID70 est une piste prouvée par les services antérieurs. Ne pas traduire les objets hérités/débogage pour gonfler le compteur.
+**Validation actuelle : 28 tests ciblés V78/V77/V65 réussis avec la ROM privée** (12 + 8 + 8). Le checkpoint à 99 textes possède 166 nouvelles paires V77/V78, 66 différences textuelles seulement et 37 060 images échantillonnées. Les 146 paires du checkpoint médical à 81 textes restent conservées avec leurs empreintes exactes ; elles ne sont pas présentées comme des captures du nouvel IPS. Les tests reconstruisent cet ancien état pour les vérifier.
 
-Le nouvel audit `tools/v78/active_text_candidates.json` explore 1 080 graines et 4 413 racines, zéro erreur de parsing, 264 candidats à qualifier. Ce nombre n'est ni un dénominateur de couverture ni une preuve d'accès naturel. Les anciens relevés limités à six PNJ sont clos pour leurs propres candidats. Ne pas refaire les audits acquis sans raison.
+Tous les accès initiaux sont forcés par une commande native via la carte bancaire, sans écriture directe WRAM. Préparations natives déclarées : flag0339 pour la quatrième destination, flag0376 pour le père et don de la clé AB pour le singe. Train : devis et refus vérifiés, aucun trajet certifié. Père : Non mène à la proposition de noter le nom ; le nom n'est pas saisi. Solde/remise : branches intérieures, aucun retrait effectif certifié. Youngtown : la phrase est relue, mais l'appel dans la chambre provoque ensuite une animation hors contexte ; Papa et Crois en nous restent statiques. Hôtel : salutation seulement, pas de nuit payée. La boutique montre Acheter/Vendre puis la carte protégée, sans vente conclue. Les scripts médicaux non parcourus, maladies et soins effectifs restent statiques.
 
-Dépendances privées disponibles : ROM et cœur décrits dans l'historique V74 ; états post-repos `reference_v71_lodging/{accents,ascii}/accept/handoff.state`. Sorties finales retenues : `/workspace/scratch/98c4eaa3ef23/validated_v78_words`, référence `/workspace/scratch/98c4eaa3ef23/reference_v77_words`. Exclure les explorations antérieures, notamment celles avec lettres corrompues ou mots coupés. Ne distribuer que IPS, outils, rapports et PNG, jamais ROM/cœur/états/dumps.
+Sorties finales nouvelles : `/workspace/scratch/98c4eaa3ef23/current_v78_remaining_retained`, référence `/workspace/scratch/98c4eaa3ef23/reference_v78_remaining_retained`. Les premiers essais `*_v78_remaining` sont exclus : appel direct de devis hors contexte et mauvais rythme des touches. Les essais `*_v78_remaining_final` ont été remplacés pour corriger le choix du père et ouvrir le vrai sélecteur Acheter/Vendre. Preuves nouvelles publiables dans `tests/emulation_v78_remaining`.
 
-Liste exacte des textes distincts et de toutes leurs implantations, également disponible dans `tools/v78/batch_ledger.json` :
+**Reste concret avant menus :**
+- `0911ED–091212` reste anglais, garde-fou sur le pointeur intérieur `0911F0` à qualifier. Les deux occurrences brutes `0047F0` et `00706A` ressemblent à BEQ +$11 suivi de CMP dans du code 65816 ; piste détaillée dans `tools/v78/alias_0911f0_notes.json`. La qualification CPU complète reste à faire, le garde-fou est conservé. Ne pas le supprimer pour faire du volume.
+- Helpers partagés `387AA2` (Your/possessif), `387B19` (you/you all/you two) et articles `38B532–38B54F` : traiter par contexte et sans casser les appels déjà français.
+- Qualifier les aides d'objets via les stocks réellement affichés et leurs scripts : Fiole ID70 traitée ; Accélérateur de rouille proposé par la boutique est une nouvelle piste légitime (`054FD1`), contrairement aux objets hérités seulement présents dans la table.
+- Limites du coursier de dépôt, services à plusieurs personnages, branches intérieures conservées, vrai parcours des scènes et du générique restent à établir. Ne pas répéter les audits acquis sans raison nouvelle.
+- Atteindre environ 150 seulement avec de vrais textes restants ; poursuivre ce lot au prochain checkpoint. Les 51 manquants sont un objectif de taille, pas 51 restes déjà prouvés.
+
+Audit élargi actualisé : 1 080 graines, 4 475 racines, zéro erreur de parsing, 237 candidats à qualifier dans `tools/v78/active_text_candidates.json`. Les mots courts Care/Buy/Sell/Welcome/Bye ont été ajoutés au filtre après découverte de ses omissions. Le relevé inclut toujours héritage, débogage et aides sans usage établi ; aucun pourcentage global.
+
+Dépendances privées : ROM et cœur décrits dans l'historique V74, états post-repos `reference_v71_lodging/{accents,ascii}/accept/handoff.state`. Conserver les preuves médicales précédentes `validated_v78_words` / `reference_v77_words`. Ne publier ni ROM, cœur, état, ni dump. Voir `RAPPORT_V78_CHECKPOINT.md` et `tools/v78/README_V78.md`.
+
+Liste exacte des sources distinctes et de toutes leurs implantations (pour les copies de banque25, offsets source conservés dans le registre ; destinations dans les fixtures) :
 
 | Source distincte | Français | Offsets |
 |---|---|---|
+| @This is the best thing to take when you get poisoned. | @Idéal contre le poison. | 054792 |
 | @I can examine each one of you for $ | @L'examen vous coûte $ | 090FF0 |
 | Yes, please | Oui, merci | 091016 |
 | No, thanks | Non, merci | 091024 |
@@ -43,8 +55,8 @@ Liste exacte des textes distincts et de toutes leurs implantations, également d
 |  was just brought in, and is still unconscious. |  vient d'arriver sans connaissance. | 0912D5 |
 | @Please pay $ | @Il faut payer $ | 0912F5 |
 |  for the doctor's fee. |  pour les soins. | 091301 |
-| Yes | Oui | 36EB83, 376B0B, 376C0D, 37715F, 380A46, 091311 |
-| No | Non | 36EB87, 376B0F, 376C11, 377163, 380A4A, 091315, 091B0E |
+| Yes | Oui | 36EB83, 376B0B, 376C0D, 37715F, 380A46, 091311, 32E139, 380B5F, 384BA8, 384BE3, 251ABF, 25B0B7, 25B0FF, 25B147, 25B18F |
+| No | Non | 36EB87, 376B0F, 376C11, 377163, 380A4A, 091315, 091B0E, 32E13D, 380B63, 384BAC, 384BE7, 251AC3, 25B0BB, 25B103, 25B14B, 25B193 |
 | @Your friend, right?...  It's very serious. | @Ton ami, c'est ça ? Son état est grave. | 09132E |
 | @I'm so glad that you recovered,  | @Ça va mieux,  | 09137D |
 | @Come back any time you need. | @Reviens si tu as besoin de nous. | 091394 |
@@ -75,12 +87,18 @@ Liste exacte des textes distincts et de toutes leurs implantations, également d
 | @Hey, now that I notice, | @Tiens, maintenant que j'y pense, | 091ABE |
 | @could you sell me the mushroom growing on top of your head? | @Tu me vends le champignon qui pousse sur ta tête ? | 091ACD |
 | @Come on, let's make a deal. | @Allez, faisons affaire. | 091AF2 |
-| Sell | Oui | 091B09 |
+| Sell | Oui / Vendre | 091B09, 37B9A4 |
 | @Thanks. | @OK | 091B3D |
 |   I'll pay you $50 for each mushroom. |  Je te donne $50 par champignon. | 091B41 |
 | @All right, let's do it! | @D'accord, allons-y ! | 091B5A |
 | @By the way, do you need any help? | @Au fait, as-tu besoin d'aide ? | 091C1C |
 | @Do you need some help? | @As-tu besoin d'aide ? | 091C2F |
+|  but, you need a ticket to ride. |  mais il te faut un billet. | 36DD0A |
+| @Care to buy one? | @Tu en veux un ? | 36DD2C |
+| @First let's go see what's happening in Youngtown. | @Voyons d'abord ce qui se passe à Youngtown. | 36E5EB |
+| @Daddy... | @Papa... | 36E628 |
+| @Believe in us! | @Crois en nous! | 36E66C |
+| @I'm concerned about you, | @Je m'inquiète pour toi, | 36E832 |
 | @(Huh, | @(Hein | 376ACE |
 |  what?) |  quoi?) | 376AD6 |
 | @(Do I look like a monkey?) | @(Je ressemble à un singe?) | 376AED |
@@ -88,15 +106,26 @@ Liste exacte des textes distincts et de toutes leurs implantations, également d
 | @(Are you so serious all the time?) | @(Es-tu toujours aussi sérieux?) | 376BE7 |
 | @(I've got a good story to tell you.) | @(Je connais une bonne histoire.) | 377122 |
 | @(Want to hear it?) | @(Tu veux savoir?) | 377149 |
+| @(Hubba hubba.) | @(Quel charme.) | 377426 |
+|  and  |  et  | 378992 |
+| @Welcome! | @Bonjour! | 3795A3, 3796D2, 379855, 3799D8, 379B5B, 379CDE, 379E5C |
+| Buy | Acheter | 37B99E |
 |   Watch out! |   Attention! | 37D47F |
 | @(Incredibly enough, you found somebody's  | @(Tiens ! Tu trouves un objet perdu :  | 37D494 |
 |  right under the sign!) |  sous ce panneau !) | 37D4C1 |
 | @(Climb into the rocket?) | @(Monter dans la fusée ?) | 380A2A |
+| @Have you ever tasted  | @Tu as déjà goûté :  | 380B42 |
+| @Your balance is $ | @Ton solde est : $ | 384C44 |
+| @Here...  Take it with you. | @Tiens... Prends l'argent. | 384CA6 |
+| @Go think things over again. | @Va donc y réfléchir encore. | 384D94 |
+| @Bye! | @Ciao | 384DB7 |
+| @Please make sure it is correct. | @Vérifie bien que c'est correct. | 386D46 |
 | Soften | Dépétrifier | 38B22B |
 | Restore feeling | Sensibilité | 38B234 |
 | Purify | Purifier | 38B246 |
 | Refresh | Revigorer | 38B24F |
 | @I need to charge you $ | @Cela te coûtera donc $ | 38B27F |
+| @The monkey stole the  | @Le singe a volé :  | 38BADB |
 
 ## Historique V77 — version publiée
 

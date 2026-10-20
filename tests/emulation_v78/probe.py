@@ -24,7 +24,10 @@ TRIGGER=['A','Right','A','A','A']
 def run(args):
  p=args.profile;source=args.rom.read_bytes();state=(args.states_dir/p/'accept/handoff.state').resolve();report={'version':'v78','patch_tested':f'v{args.version}','profile':p,'core_sha256':b.sha(args.core.read_bytes()),'initial_state_sha256':b.sha(state.read_bytes()),'initial_state_source':'private V71 reference lodging accept handoff; Ninten after rest, 30 HP, 20 dollars, bank card','natural_scene_access_verified':False,'wram_written_directly_by_tester':False,'cases':{}}
  for name,cfg in CASES.items():
-  s=ServiceSession(source,args.core,args.out/p/name,p,[cfg['entry']],args.version);captures=[]
+  entry=cfg['entry'];operations=cfg.get('operations',[])
+  if cfg.get('copied') and args.version==78:
+   f=json.loads((ROOT/'tools/v78/v78_fixtures.json').read_text());entry=int(next(n for n in f['remaining']['moved_scripts'] if int(n['root'],16)==entry)['chunks'][0]['destination'],16)
+  s=ServiceSession(source,args.core,args.out/p/name,p,[entry],args.version,operations);captures=[]
   try:
    s.send({'load':str(state),'frames':0});s.step(60)
    for key in TRIGGER:s.tap(key)
@@ -32,7 +35,7 @@ def run(args):
    for i,keys in enumerate(cfg['steps'],1):
     for key in keys:s.tap(key)
     s.step(cfg.get('wait',180));captures.append(s.capture(f'page_{i:02d}'))
-   data={'entries':[f'{cfg["entry"]:06X}'],'scope':'direct hospital explanation branch' if name=='hospital_explanation' else 'complete NPC entry forced by bank card; initial map context is not natural','settle_frames':cfg.get('wait',180),'operations':[],'trigger':TRIGGER,'steps':cfg['steps'],'temporary_rom_writes':s.routing,'base_rom_sha256':b.sha(s.data),'fixture_rom_sha256':b.sha(s.fixture),'sampled_frames':s.frame,'events':s.events,'pointer_frame_counts':dict(sorted(s.counts.items())),'captures':captures}
+   data={'entries':[f'{entry:06X}'],'logical_entry':f'{cfg["entry"]:06X}','scope':cfg.get('scope','direct hospital explanation branch' if name=='hospital_explanation' else 'complete NPC entry forced by bank card; initial map context is not natural'),'settle_frames':cfg.get('wait',180),'operations':operations,'trigger':TRIGGER,'steps':cfg['steps'],'temporary_rom_writes':s.routing,'base_rom_sha256':b.sha(s.data),'fixture_rom_sha256':b.sha(s.fixture),'sampled_frames':s.frame,'events':s.events,'pointer_frame_counts':dict(sorted(s.counts.items())),'captures':captures}
   finally:s.close()
   data['returncode']=s.proc.returncode;report['cases'][name]=data;print(p,args.version,name,s.frame,'frames',len(captures),'captures',flush=True)
  args.out.mkdir(parents=True,exist_ok=True);(args.out/f'results_{p}.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

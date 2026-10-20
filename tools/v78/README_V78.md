@@ -1,13 +1,19 @@
 # V78 — checkpoint du lot de 150
-V77 reste publiée. Ce répertoire contient 81 traductions distinctes sur une cible de 150, implantées dans 94 plages. Le registre batch_ledger.json et REPRISE_TRADUCTION.md donnent les textes source, le français et chaque offset.
 
-build_v78.py vérifie la ROM source et les IPS V77, construit le groupe PNJ puis appelle medical_stage.py pour les services médicaux. medical_translations.json contient aussi une entrée bloquée qui n'est pas comptée : 0911ED, pointeur intérieur 0911F0. Les allocations proviennent de safe_storage ; aucun déplacement aveugle d'alias. Les sauts de texte préservent les mots entiers ; les définitions de choix déplacées comprennent leurs commandes 19 02 et 02. Les commandes natives sont comparées après dépliage des ponts.
+V77 reste publiée. V78 compte 99 sources distinctes dans 137 plages, cible 150 ; registre exact dans batch_ledger.json et REPRISE_TRADUCTION.md. Les variantes contextuelles de Sell, Oui/Non répétés et profils sont dédoublonnés.
+
+build_v78.py construit successivement le groupe PNJ, medical_stage.py puis remaining_stage.py. Le dernier module copie cinq scripts superposés à des sprites dans la banque25 sans en modifier un octet. Ses cinq redirections sont gardées par un inventaire exhaustif de leurs pointeurs explicites. Les mots, commandes et définitions de choix restent entiers dans les copies. Les quatre devis du train sont parcourus depuis leur script parent ; les appels directs sans contexte sont exclus des preuves.
 
 Construction privée : python3 tools/v78/build_v78.py --rom CHEMIN_PRIVE --out patches
-Tests hors ROM : python3 -m unittest discover -s tools/v78 -v
-Tests complets : définir EARTHBOUND_ROM au chemin privé avant la commande précédente.
-Vérification RGB : python3 tools/v78/verify_display.py
+Registre : python3 tools/v78/update_ledger.py
+Tests : python3 -m unittest discover -s tools/v78 -v
+Tests complets : définir EARTHBOUND_ROM au chemin privé.
+Vérifications RGB : python3 tools/v78/verify_display.py et python3 tools/v78/verify_remaining.py
 
-tests/emulation_v78/probe.py exécute quinze cas par profil à partir des états post-repos. collect_evidence.py ne copie que les PNG et les rapports ; les états, ROM et dumps restent privés. Résultats : 146 paires, 90 différences textuelles, 39 412 images échantillonnées. La fenêtre du choix de soins s'étend jusqu'à y126 ; les autres sont limitées à y98. Les accès initiaux sont tous forcés. Maladies, soins effectifs, rencontre naturelle et lancement de fusée ne sont pas certifiés par ces essais.
+Les 146 paires médicales certifient exactement le checkpoint de 81 textes. Les 166 paires de tests/emulation_v78_remaining certifient le checkpoint actuel : 66 changements textuels, 37 060 images échantillonnées. Tests complets : 12 V78 réussis ; hors ROM, 7 réussis et 5 ignorés. Les captures médicales sont vérifiées contre leur ancien IPS reconstruit, les captures restantes contre l'IPS final.
 
-audit_active_text.py étend l'ancien audit aux appels transitifs et aides d'objets. Ses 264 candidats incluent des données héritées : qualifier les usages avant traduction. Continuer le même lot et garder les menus généraux après les textes/services.
+Les probes utilisent ServiceSession, avec préparations natives flag0339, flag0376 et don AB explicitement déclarées. Aucune écriture WRAM directe. Les devis et refus sont validés, aucun voyage certifié ; les branches de retrait/remise ne prouvent pas de transfert bancaire. Hôtel : salutation seulement. Youngtown : phrase affichée, animation suivante hors contexte ; Papa et Crois en nous statiques. Les menus généraux restent pour la phase suivante.
+
+collect_evidence.py --remaining enregistre les PNG et rapports dans tests/emulation_v78_remaining ; les dépendances et sorties binaires privées restent hors dépôt. La fenêtre des devis du train est limitée à y126, les autres à y98. Les séquences corrigées et les sorties retenues sont indiquées dans REPRISE_TRADUCTION.md.
+
+audit_active_text.py ajoute les mots courts omis (Buy/Sell/Welcome/Bye/Care/Daddy/Believe). Ses 237 candidats incluent des données héritées et des aides sans usage établi. Ne pas traduire pour atteindre artificiellement 150. L'alias médical 0911F0 reste à qualifier.

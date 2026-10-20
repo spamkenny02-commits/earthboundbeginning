@@ -8,6 +8,7 @@ from pathlib import Path
 from build_v78 import ROOT,b
 from parser_v62 import length
 PATTERN=r"\b(the|you|your|please|what|with|where|have|don't|can't|it's|i'm|does|will|would|should|this|that|which|was|were|said|are|some|cannot|their|anyone|someone|yes|no|select|choose|starting|who|want|look|cool|watch)\b"
+PATTERN=rf'(?:{PATTERN}|\b(?:buy|sell|believe|care|daddy|welcome|bye)\b)'
 def audit(source,data):
  seeds={}
  def seed(root,label):

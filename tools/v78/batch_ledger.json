@@ -1,10 +1,18 @@
 {
   "version": "v78",
   "release_pending": true,
-  "distinct_texts": 81,
-  "physical_spans": 94,
+  "distinct_texts": 99,
+  "physical_spans": 137,
   "target": 150,
   "entries": [
+    {
+      "source": "@This is the best thing to take when you get poisoned.",
+      "french": "@Idéal contre le poison.",
+      "offsets": [
+        "054792"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
     {
       "source": "@I can examine each one of you for $",
       "french": "@L'examen vous coûte $",
@@ -230,7 +238,16 @@
         "376C0D",
         "37715F",
         "380A46",
-        "091311"
+        "091311",
+        "32E139",
+        "380B5F",
+        "384BA8",
+        "384BE3",
+        "251ABF",
+        "25B0B7",
+        "25B0FF",
+        "25B147",
+        "25B18F"
       ],
       "validation": "static; runtime coverage is case-specific"
     },
@@ -244,7 +261,16 @@
         "377163",
         "380A4A",
         "091315",
-        "091B0E"
+        "091B0E",
+        "32E13D",
+        "380B63",
+        "384BAC",
+        "384BE7",
+        "251AC3",
+        "25B0BB",
+        "25B103",
+        "25B14B",
+        "25B193"
       ],
       "validation": "static; runtime coverage is case-specific"
     },
@@ -492,11 +518,26 @@
     },
     {
       "source": "Sell",
-      "french": "Oui",
+      "french": "Oui / Vendre",
       "offsets": [
-        "091B09"
+        "091B09",
+        "37B9A4"
       ],
-      "validation": "static; runtime coverage is case-specific"
+      "validation": "static; runtime coverage is case-specific",
+      "translations": [
+        {
+          "french": "Oui",
+          "offsets": [
+            "091B09"
+          ]
+        },
+        {
+          "french": "Vendre",
+          "offsets": [
+            "37B9A4"
+          ]
+        }
+      ]
     },
     {
       "source": "@Thanks.",
@@ -535,6 +576,54 @@
       "french": "@As-tu besoin d'aide ?",
       "offsets": [
         "091C2F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " but, you need a ticket to ride.",
+      "french": " mais il te faut un billet.",
+      "offsets": [
+        "36DD0A"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Care to buy one?",
+      "french": "@Tu en veux un ?",
+      "offsets": [
+        "36DD2C"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@First let's go see what's happening in Youngtown.",
+      "french": "@Voyons d'abord ce qui se passe à Youngtown.",
+      "offsets": [
+        "36E5EB"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Daddy...",
+      "french": "@Papa...",
+      "offsets": [
+        "36E628"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Believe in us!",
+      "french": "@Crois en nous!",
+      "offsets": [
+        "36E66C"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@I'm concerned about you,",
+      "french": "@Je m'inquiète pour toi,",
+      "offsets": [
+        "36E832"
       ],
       "validation": "static; runtime coverage is case-specific"
     },
@@ -595,6 +684,44 @@
       "validation": "static; runtime coverage is case-specific"
     },
     {
+      "source": "@(Hubba hubba.)",
+      "french": "@(Quel charme.)",
+      "offsets": [
+        "377426"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " and ",
+      "french": " et ",
+      "offsets": [
+        "378992"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Welcome!",
+      "french": "@Bonjour!",
+      "offsets": [
+        "3795A3",
+        "3796D2",
+        "379855",
+        "3799D8",
+        "379B5B",
+        "379CDE",
+        "379E5C"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Buy",
+      "french": "Acheter",
+      "offsets": [
+        "37B99E"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
       "source": "  Watch out!",
       "french": "  Attention!",
       "offsets": [
@@ -623,6 +750,54 @@
       "french": "@(Monter dans la fusée ?)",
       "offsets": [
         "380A2A"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Have you ever tasted ",
+      "french": "@Tu as déjà goûté : ",
+      "offsets": [
+        "380B42"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Your balance is $",
+      "french": "@Ton solde est : $",
+      "offsets": [
+        "384C44"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Here...  Take it with you.",
+      "french": "@Tiens... Prends l'argent.",
+      "offsets": [
+        "384CA6"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Go think things over again.",
+      "french": "@Va donc y réfléchir encore.",
+      "offsets": [
+        "384D94"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Bye!",
+      "french": "@Ciao",
+      "offsets": [
+        "384DB7"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@Please make sure it is correct.",
+      "french": "@Vérifie bien que c'est correct.",
+      "offsets": [
+        "386D46"
       ],
       "validation": "static; runtime coverage is case-specific"
     },
@@ -663,6 +838,14 @@
       "french": "@Cela te coûtera donc $",
       "offsets": [
         "38B27F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@The monkey stole the ",
+      "french": "@Le singe a volé : ",
+      "offsets": [
+        "38BADB"
       ],
       "validation": "static; runtime coverage is case-specific"
     }

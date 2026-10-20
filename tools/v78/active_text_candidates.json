@@ -2,12 +2,12 @@
   "version": "v78",
   "scope": "custom/rewritten NPC pointers, action table and 254 item-help fields; parsed closure",
   "seed_count": 1080,
-  "visited_roots": 4413,
-  "parsed_edges": 5595,
-  "candidate_count": 264,
+  "visited_roots": 4475,
+  "parsed_edges": 5655,
+  "candidate_count": 237,
   "natural_access_verified": false,
   "language_classification_verified": false,
-  "pattern": "\\b(the|you|your|please|what|with|where|have|don't|can't|it's|i'm|does|will|would|should|this|that|which|was|were|said|are|some|cannot|their|anyone|someone|yes|no|select|choose|starting|who|want|look|cool|watch)\\b",
+  "pattern": "(?:\\b(the|you|your|please|what|with|where|have|don't|can't|it's|i'm|does|will|would|should|this|that|which|was|were|said|are|some|cannot|their|anyone|someone|yes|no|select|choose|starting|who|want|look|cool|watch)\\b|\\b(?:buy|sell|believe|care|daddy|welcome|bye)\\b)",
   "candidates": [
     {
       "offset": "0537C5",
@@ -228,19 +228,6 @@
       ],
       "path": [
         "05475A"
-      ]
-    },
-    {
-      "offset": "054792",
-      "end": "0547AE",
-      "context": "054789",
-      "text": "@This is the best thing to take when you get poisoned.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "ITEM_HELP:70"
-      ],
-      "path": [
-        "054789"
       ]
     },
     {
@@ -2466,154 +2453,6 @@
       ]
     },
     {
-      "offset": "251ABF",
-      "end": "251AC2",
-      "context": "251A50",
-      "text": "Yes",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:320:9"
-      ],
-      "path": [
-        "386C80",
-        "251A50"
-      ]
-    },
-    {
-      "offset": "251AC5",
-      "end": "251AC7",
-      "context": "251A50",
-      "text": "No",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:320:9"
-      ],
-      "path": [
-        "386C80",
-        "251A50"
-      ]
-    },
-    {
-      "offset": "25B0B7",
-      "end": "25B0BA",
-      "context": "25B08C",
-      "text": "Yes",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:1080:9"
-      ],
-      "path": [
-        "36DC69",
-        "36DCD5",
-        "25B08C"
-      ]
-    },
-    {
-      "offset": "25B0BD",
-      "end": "25B0BF",
-      "context": "25B08C",
-      "text": "No",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:1080:9"
-      ],
-      "path": [
-        "36DC69",
-        "36DCD5",
-        "25B08C"
-      ]
-    },
-    {
-      "offset": "25B0FF",
-      "end": "25B102",
-      "context": "25B0D4",
-      "text": "Yes",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:1080:9"
-      ],
-      "path": [
-        "36DC69",
-        "36DCD5",
-        "25B0D4"
-      ]
-    },
-    {
-      "offset": "25B105",
-      "end": "25B107",
-      "context": "25B0D4",
-      "text": "No",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:1080:9"
-      ],
-      "path": [
-        "36DC69",
-        "36DCD5",
-        "25B0D4"
-      ]
-    },
-    {
-      "offset": "25B147",
-      "end": "25B14A",
-      "context": "25B11C",
-      "text": "Yes",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:1080:9"
-      ],
-      "path": [
-        "36DC69",
-        "36DCD5",
-        "25B11C"
-      ]
-    },
-    {
-      "offset": "25B14D",
-      "end": "25B14F",
-      "context": "25B11C",
-      "text": "No",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:1080:9"
-      ],
-      "path": [
-        "36DC69",
-        "36DCD5",
-        "25B11C"
-      ]
-    },
-    {
-      "offset": "25B18F",
-      "end": "25B192",
-      "context": "25B164",
-      "text": "Yes",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:1080:9"
-      ],
-      "path": [
-        "36DC69",
-        "36DCD5",
-        "25B164"
-      ]
-    },
-    {
-      "offset": "25B195",
-      "end": "25B197",
-      "context": "25B164",
-      "text": "No",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:1080:9"
-      ],
-      "path": [
-        "36DC69",
-        "36DCD5",
-        "25B164"
-      ]
-    },
-    {
       "offset": "2F7555",
       "end": "2F7567",
       "context": "2F7548",
@@ -2811,34 +2650,6 @@
       ]
     },
     {
-      "offset": "32E139",
-      "end": "32E13C",
-      "context": "32E120",
-      "text": "Yes",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:422:13"
-      ],
-      "path": [
-        "36E4B8",
-        "32E120"
-      ]
-    },
-    {
-      "offset": "32E13F",
-      "end": "32E141",
-      "context": "32E120",
-      "text": "No",
-      "unchanged_from_original": false,
-      "seed_labels": [
-        "NPC:422:13"
-      ],
-      "path": [
-        "36E4B8",
-        "32E120"
-      ]
-    },
-    {
       "offset": "34924D",
       "end": "34925E",
       "context": "3491E6",
@@ -2930,62 +2741,20 @@
       ]
     },
     {
-      "offset": "36DD0A",
-      "end": "36DD2A",
-      "context": "36DCD5",
-      "text": " but, you need a ticket to ride.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:1080:9"
-      ],
-      "path": [
-        "36DC69",
-        "36DCD5"
-      ]
-    },
-    {
-      "offset": "36E5EB",
-      "end": "36E61D",
-      "context": "36E573",
-      "text": "@First let's go see what's happening in Youngtown.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:422:13"
-      ],
-      "path": [
-        "36E4B8",
-        "32E120",
-        "36E573"
-      ]
-    },
-    {
-      "offset": "36E832",
-      "end": "36E84B",
-      "context": "36E81C",
-      "text": "@I'm concerned about you,",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:420:9"
-      ],
-      "path": [
-        "36E80E",
-        "36E81C"
-      ]
-    },
-    {
       "offset": "372337",
       "end": "372344",
       "context": "372337",
       "text": "@Cool, merci.",
       "unchanged_from_original": false,
       "seed_labels": [
-        "NPC:89:9"
+        "NPC:90:9"
       ],
       "path": [
-        "36559E",
-        "37B994",
-        "37B9D1",
-        "37B9DE",
+        "365592",
+        "37BA93",
+        "37BAA1",
+        "37BAFF",
+        "37BB0C",
         "3658BD",
         "372337"
       ]
@@ -3097,48 +2866,6 @@
       ]
     },
     {
-      "offset": "380B42",
-      "end": "380B58",
-      "context": "380B42",
-      "text": "@Have you ever tasted ",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:1104:9"
-      ],
-      "path": [
-        "380B27",
-        "380B42"
-      ]
-    },
-    {
-      "offset": "380B5F",
-      "end": "380B62",
-      "context": "380B42",
-      "text": "Yes",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:1104:9"
-      ],
-      "path": [
-        "380B27",
-        "380B42"
-      ]
-    },
-    {
-      "offset": "380B65",
-      "end": "380B67",
-      "context": "380B42",
-      "text": "No",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:1104:9"
-      ],
-      "path": [
-        "380B27",
-        "380B42"
-      ]
-    },
-    {
       "offset": "380C7A",
       "end": "380C97",
       "context": "380C74",
@@ -3238,117 +2965,6 @@
         "3834B1",
         "383509",
         "383571"
-      ]
-    },
-    {
-      "offset": "384BA8",
-      "end": "384BAB",
-      "context": "384B8B",
-      "text": "Yes",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:446:13"
-      ],
-      "path": [
-        "384AA4",
-        "252CCC",
-        "384B8B"
-      ]
-    },
-    {
-      "offset": "384BAE",
-      "end": "384BB0",
-      "context": "384B8B",
-      "text": "No",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:446:13"
-      ],
-      "path": [
-        "384AA4",
-        "252CCC",
-        "384B8B"
-      ]
-    },
-    {
-      "offset": "384BE3",
-      "end": "384BE6",
-      "context": "384BC5",
-      "text": "Yes",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:446:13"
-      ],
-      "path": [
-        "384AA4",
-        "252CCC",
-        "384B8B",
-        "384BC5"
-      ]
-    },
-    {
-      "offset": "384BE9",
-      "end": "384BEB",
-      "context": "384BC5",
-      "text": "No",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:446:13"
-      ],
-      "path": [
-        "384AA4",
-        "252CCC",
-        "384B8B",
-        "384BC5"
-      ]
-    },
-    {
-      "offset": "384C44",
-      "end": "384C56",
-      "context": "384C00",
-      "text": "@Your balance is $",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:446:13"
-      ],
-      "path": [
-        "384AA4",
-        "252CCC",
-        "384B8B",
-        "384BC5",
-        "384C00"
-      ]
-    },
-    {
-      "offset": "384CA6",
-      "end": "384CC1",
-      "context": "384C00",
-      "text": "@Here...  Take it with you.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:446:13"
-      ],
-      "path": [
-        "384AA4",
-        "252CCC",
-        "384B8B",
-        "384BC5",
-        "384C00"
-      ]
-    },
-    {
-      "offset": "386D46",
-      "end": "386D66",
-      "context": "386D23",
-      "text": "@Please make sure it is correct.",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:320:9"
-      ],
-      "path": [
-        "386C80",
-        "251A50",
-        "386D23"
       ]
     },
     {
@@ -3760,19 +3376,6 @@
         "36B7D5",
         "38B56C",
         "38B54B"
-      ]
-    },
-    {
-      "offset": "38BADB",
-      "end": "38BAF1",
-      "context": "38BA92",
-      "text": "@The monkey stole the ",
-      "unchanged_from_original": true,
-      "seed_labels": [
-        "NPC:63:9"
-      ],
-      "path": [
-        "38BA92"
       ]
     },
     {
