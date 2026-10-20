@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "status": "pending_local_recovery_and_validation",
+  "input_commit": "79a3db97f0a6d5d5e4f52392c517724041a1ce34",
+  "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
+  "new_distinct_texts": 0,
+  "validated_batch_distinct_texts": 119,
+  "validated_batch_source_spans": 157,
+  "integrate_into_build": false,
+  "profiles": [
+    "accents",
+    "ascii"
+  ],
+  "additional_allocated_bytes": 0,
+  "qualified_contexts": [
+    {
+      "npc": 1420,
+      "npc_pointer_operand": "207FFD",
+      "path": [
+        "3803F1",
+        "32B500"
+      ],
+      "call_operand": "32B50A",
+      "original_helper": "38B551"
+    },
+    {
+      "npc": 204,
+      "npc_pointer_operand": "202F3D",
+      "path": [
+        "36B788",
+        "36B7D5"
+      ],
+      "call_operand": "36B830",
+      "original_helper": "38B56C"
+    }
+  ],
+  "reused_helper": {
+    "offset": "32AA40",
+    "length": 27,
+    "source_fixture": "tools/v65/v65_fixtures.json",
+    "required_command_prefix_hex": "1a0f001fc005",
+    "required_dispatch_target": "38B550",
+    "required_dispatch_target_count": 5,
+    "required_target_opcode_hex": "02"
+  },
+  "ordered_writes": [
+    {
+      "offset": "32B50A",
+      "length": 4,
+      "kind": "hirom_pointer",
+      "expected_old_target": "38B551",
+      "target": "32AA40",
+      "expected_preceding_opcode_hex": "08"
+    },
+    {
+      "offset": "36B830",
+      "length": 4,
+      "kind": "hirom_pointer",
+      "expected_old_target": "38B56C",
+      "target": "32AA40",
+      "expected_preceding_opcode_hex": "08"
+    },
+    {
+      "offset": "32B501",
+      "length": 8,
+      "kind": "encoded_literal",
+      "expected_old_text": "@Il y a ",
+      "text": "@Objet: "
+    },
+    {
+      "offset": "32B511",
+      "length": 18,
+      "kind": "encoded_literal_then_commands_then_unreachable_padding",
+      "expected_old_text": " à l'intérieur !",
+      "expected_old_commands_hex": "0302",
+      "text": ".",
+      "commands_hex": "0302",
+      "unreachable_zero_padding_bytes": 15
+    },
+    {
+      "offset": "36B839",
+      "length": 29,
+      "kind": "encoded_literal",
+      "expected_old_text": "  Je le garderai en lieu sûr.",
+      "text": "  Cet objet sera bien gardé. "
+    }
+  ],
+  "interior_reference_guard_ranges": [
+    [
+      "32B501",
+      "32B509"
+    ],
+    [
+      "32B511",
+      "32B523"
+    ],
+    [
+      "36B839",
+      "36B856"
+    ]
+  ],
+  "preserved_ranges": [
+    [
+      "38B52B",
+      "38B5A2"
+    ],
+    [
+      "32AA40",
+      "32AA5B"
+    ],
+    [
+      "32F120",
+      "32F1B2"
+    ],
+    [
+      "250000",
+      "260000"
+    ],
+    [
+      "2021A8",
+      "208AD8"
+    ],
+    [
+      "330FC0",
+      "331000"
+    ]
+  ],
+  "profiles_at_input": {
+    "accents": {
+      "patch_sha256": "1a347b1a7482110a31b62db50aa92f806f53501308c11a522162e67d6e4b5c59",
+      "rom_sha256": "32cc2fdf3b0494aec14056a73c73fa6df148260e23456c8cb7c8e54438d93f74",
+      "records_added_to_v77": 377
+    },
+    "ascii": {
+      "patch_sha256": "2841b44127f8b46b06c4c2572d048ef6b7c8000ba004256bd2dc437d8c8582e5",
+      "rom_sha256": "89d5c0e1856cc5600f9ea716eabc7efa8acd7a35903e305fa833cde75dd48cb6",
+      "records_added_to_v77": 377
+    }
+  },
+  "historical_local_outputs_to_reproduce": {
+    "validation_status": "fingerprints_observed_before_environment_loss_not_revalidated",
+    "accents": {
+      "patch_sha256": "d1efcbe101164ef719d75bea1d0cc87bdda66405375a78143929033ad258b020",
+      "rom_sha256": "fe54b46cc909d1b93492e176a34d905be25e4ff2427159fcaea1f5082947d25c"
+    },
+    "ascii": {
+      "patch_sha256": "66e92303b7884db337d0f6522dee3d5cbcc899a07e4b709cf340031d0ffb7daf",
+      "rom_sha256": "c9761d5d07af8872d0ed238206b4fa95f61fee229cdcac2c1ab3b8cde50b0797"
+    },
+    "records_added_to_v77": 382
+  },
+  "probes": {
+    "trigger": [
+      "A",
+      "Right",
+      "A",
+      "A",
+      "A"
+    ],
+    "natural_scene_access_verified": false,
+    "direct_wram_writes_allowed": false,
+    "cases": [
+      {
+        "name": "contents_caption",
+        "entry": "32B500",
+        "operations": [],
+        "steps": [
+          [
+            "A"
+          ],
+          [
+            "A"
+          ]
+        ],
+        "scope": "forced text entry; current native item variable, no natural container or acquisition certified"
+      },
+      {
+        "name": "minnie_deposit",
+        "entry": "36B788",
+        "operations": [
+          [
+            "give",
+            112
+          ]
+        ],
+        "steps": [
+          [
+            "A"
+          ],
+          [
+            "A"
+          ],
+          [
+            "A"
+          ],
+          [
+            "Right",
+            "A"
+          ],
+          [
+            "A"
+          ],
+          [
+            "Right",
+            "A"
+          ],
+          [
+            "A"
+          ]
+        ],
+        "scope": "forced complete NPC entry; item70 is serum priced 58 dollars, not A5 priced 20 dollars; deposit effect requires separate inventory evidence"
+      },
+      {
+        "name": "minnie_confirmation",
+        "entry": "36B82E",
+        "operations": [],
+        "steps": [],
+        "scope": "forced interior entry; pause only, no completed deposit certified"
+      }
+    ],
+    "expected_captures_per_profile": 12,
+    "expected_comparison_pairs": 24,
+    "latest_sequence_validated": false
+  },
+  "requirements_before_publication": [
+    "Recover and checkpoint existing dirty local files before applying remote notes.",
+    "Recheck source ROM and both validated input patch/ROM hashes.",
+    "Recheck typed callers, original text encodings, all interior references and neutral-helper classification/dispatch.",
+    "Apply exactly the five ordered writes; preserve specified ranges and sprite digest.",
+    "Compare command streams after normalizing only the two authorized call operands; parse the shortened container to its actual new end.",
+    "Reconstruct historical 81/99/114/116/119 snapshots for their own retained evidence.",
+    "Finish, collect and visually review the corrected Minnie probe in both profiles; do not reuse older card-refusal captures as deposit evidence.",
+    "Run structural and offline checks plus a sequential deterministic rebuild; no build mutation concurrent with tests or probes.",
+    "Keep distinct-source counter unchanged; no release or main publication based on this unvalidated manifest."
+  ]
+}
