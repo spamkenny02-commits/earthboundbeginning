@@ -1,5 +1,7 @@
 # Reprise — lot V78 en cours, cible 150 textes distincts
 
+**Blocage au 20 octobre 2026 : environnement local indisponible.** Le checkpoint distant reste à 119 textes. Des corrections Minnie/contenant supplémentaires étaient encore locales ; les récupérer avant toute réinitialisation. Voir [REPRISE_ENVIRONNEMENT_INDISPONIBLE.md](REPRISE_ENVIRONNEMENT_INDISPONIBLE.md) pour les écritures, les sondes et les validations interrompues. Aucun nouveau patch n'est validé par cette note.
+
 **État actuel : 119 textes distincts / cible 150, 157 plages sources.** Même lot V78 sur `work/v78-batch150`, V77 reste publiée sur main. `context_grammar_stage.py` traduit trois sources partagées (table ci-dessous), sans nouvelle allocation ; huit enregistrements supplémentaires, total 377. Trois corrections françaises ne sont pas comptées comme de nouvelles traductions : préfixe du fils et deux majuscules après retrait du possessif redondant.
 
 | Source nouvelle | Français | Offset |
