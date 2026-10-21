@@ -11319,5 +11319,113 @@
         ]
       }
     }
+  },
+  "article_context": {
+    "qualified_contexts": [
+      {
+        "npc": 1420,
+        "npc_operand": "207FFD",
+        "root": "3803F1",
+        "context": "32B500",
+        "caller": "32B50A",
+        "helper": "38B551",
+        "path": [
+          "3803F1",
+          "32B500"
+        ]
+      },
+      {
+        "npc": 204,
+        "npc_operand": "202F3D",
+        "root": "36B788",
+        "context": "36B7D5",
+        "caller": "36B830",
+        "helper": "38B56C",
+        "path": [
+          "36B788",
+          "36B7D5"
+        ]
+      }
+    ],
+    "withdrawal_prefix": {
+      "npc": 204,
+      "context": "36BA13",
+      "offset": "36BA48",
+      "end": "36BA4C",
+      "before": "@Le ",
+      "after": "@   ",
+      "path": [
+        "36B788",
+        "36B9D9",
+        "36BA13"
+      ]
+    },
+    "neutral_helper": "32AA40",
+    "new_source_count": 0,
+    "unqualified_return_copy_preserved": "32F120",
+    "profiles": {
+      "accents": {
+        "input_patch_sha256": "1a347b1a7482110a31b62db50aa92f806f53501308c11a522162e67d6e4b5c59",
+        "input_rom_sha256": "32cc2fdf3b0494aec14056a73c73fa6df148260e23456c8cb7c8e54438d93f74",
+        "input_records_added": 377,
+        "records": [
+          {
+            "offset": "32B50A",
+            "hex": "40aaf200"
+          },
+          {
+            "offset": "36B830",
+            "hex": "40aaf200"
+          },
+          {
+            "offset": "32B501",
+            "hex": "707f929a95a46a50"
+          },
+          {
+            "offset": "32B511",
+            "hex": "5e0302000000000000000000000000000000"
+          },
+          {
+            "offset": "36B839",
+            "hex": "50507395a4509f929a95a450a395a291509299959e509791a294b05e50"
+          },
+          {
+            "offset": "36BA48",
+            "hex": "70505050"
+          }
+        ]
+      },
+      "ascii": {
+        "input_patch_sha256": "2841b44127f8b46b06c4c2572d048ef6b7c8000ba004256bd2dc437d8c8582e5",
+        "input_rom_sha256": "89d5c0e1856cc5600f9ea716eabc7efa8acd7a35903e305fa833cde75dd48cb6",
+        "input_records_added": 377,
+        "records": [
+          {
+            "offset": "32B50A",
+            "hex": "40aaf200"
+          },
+          {
+            "offset": "36B830",
+            "hex": "40aaf200"
+          },
+          {
+            "offset": "32B501",
+            "hex": "707f929a95a46a50"
+          },
+          {
+            "offset": "32B511",
+            "hex": "5e0302000000000000000000000000000000"
+          },
+          {
+            "offset": "36B839",
+            "hex": "50507395a4509f929a95a450a395a291509299959e509791a294955e50"
+          },
+          {
+            "offset": "36BA48",
+            "hex": "70505050"
+          }
+        ]
+      }
+    }
   }
 }

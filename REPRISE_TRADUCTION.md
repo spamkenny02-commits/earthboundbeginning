@@ -1,5 +1,13 @@
 # Reprise — lot V78 en cours, cible 150 textes distincts
 
+**21 octobre 2026 — reprise validée des corrections Minnie/contenant.** Environnement et travail local récupérés. Six écritures, 383 enregistrements ajoutés à V77 ; aucune allocation ni source nouvelle. Compteur inchangé : **119/150**, 157 plages sources. Voir [RAPPORT_V78_ARTICLES_CHECKPOINT.md](RAPPORT_V78_ARTICLES_CHECKPOINT.md).
+
+48 paires V77/V78, huit changements limités au texte, 10 148 images échantillonnées. Dans les deux profils, la fiole ID70 est présente dans le sac page03, absente page08, dans la réserve page11, puis revenue au sac page19. Entrée PNJ204 forcée avec préparation native ; aucun parcours naturel certifié. « Le Fiole » est corrigé.
+
+Prochain reste : limites du coursier, services avec plusieurs personnages, contexte ancien `32F120`/helper `38B587` conservé à qualifier, dialogues et parcours naturels ; puis menus. Il manque 31 sources à la cible, sans inventaire exhaustif prouvé. Continuer le même lot ; ces corrections françaises ajoutent zéro au compteur.
+
+## Historique antérieur à cette reprise
+
 **Blocage au 20 octobre 2026 : environnement local indisponible.** Le checkpoint distant reste à 119 textes. Des corrections Minnie/contenant supplémentaires étaient encore locales ; les récupérer avant toute réinitialisation. Voir [REPRISE_ENVIRONNEMENT_INDISPONIBLE.md](REPRISE_ENVIRONNEMENT_INDISPONIBLE.md) pour les écritures, les sondes et les validations interrompues. Aucun nouveau patch n'est validé par cette note.
 
 **État actuel : 119 textes distincts / cible 150, 157 plages sources.** Même lot V78 sur `work/v78-batch150`, V77 reste publiée sur main. `context_grammar_stage.py` traduit trois sources partagées (table ci-dessous), sans nouvelle allocation ; huit enregistrements supplémentaires, total 377. Trois corrections françaises ne sont pas comptées comme de nouvelles traductions : préfixe du fils et deux majuscules après retrait du possessif redondant.

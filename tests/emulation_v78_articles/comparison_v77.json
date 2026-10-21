@@ -1,0 +1,784 @@
+{
+  "accents": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "contents_caption",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/contents_caption/page_00.png",
+        "after_path": "tests/emulation_v78_articles/accents/contents_caption/page_00.png",
+        "before_png_sha256": "f30922ad1909462645e582ddd8cb1bb9e4e4b1207f81ede8b29f87df534ce9b7",
+        "before_rgb_sha256": "0ab39651d75939c2a5ac6df30d2141e7c3587e421d5b3263c7393e47b9858a35",
+        "after_rgb_sha256": "f89787bce1c09e8df8f254a230894e09bdf9fa6a59c09bbf1307a77570016cb8",
+        "bbox": [
+          110,
+          18,
+          220,
+          42
+        ]
+      },
+      {
+        "case": "contents_caption",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/contents_caption/page_01.png",
+        "after_path": "tests/emulation_v78_articles/accents/contents_caption/page_01.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "contents_caption",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/contents_caption/page_02.png",
+        "after_path": "tests/emulation_v78_articles/accents/contents_caption/page_02.png",
+        "before_png_sha256": "7fadfb12fd6049602b6345bb8abc6f08f01fc4d720f72525722605719b5d3a9d",
+        "before_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "after_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_00.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_00.png",
+        "before_png_sha256": "008d3b98d4043408ed3ea8094a1a0be64ba168186f292604f76c2370f377eb3d",
+        "before_rgb_sha256": "7343373e2e710529fcda8d7fb35319ae29067e8166ea9a6063c1dd8112cd7203",
+        "after_rgb_sha256": "7343373e2e710529fcda8d7fb35319ae29067e8166ea9a6063c1dd8112cd7203",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_01.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_01.png",
+        "before_png_sha256": "ec85dfd1cbb9dc8a6759291ffb254e14542d9a9fec49371dc13f36a882b99e92",
+        "before_rgb_sha256": "7bcf5f6aa85c8789273749fb8d71225fbd3aa25776a2987de4d98c49ffc04cce",
+        "after_rgb_sha256": "7bcf5f6aa85c8789273749fb8d71225fbd3aa25776a2987de4d98c49ffc04cce",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_02.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_02.png",
+        "before_png_sha256": "c37e5e4da40cde5bc045d42244697266c716fc7168bc444c49553bc2b0086e95",
+        "before_rgb_sha256": "30dec55a77cb281a815b6f191109a97d75f7441039e44b3ef6b34b69eb334e82",
+        "after_rgb_sha256": "30dec55a77cb281a815b6f191109a97d75f7441039e44b3ef6b34b69eb334e82",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_03.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_03.png",
+        "before_png_sha256": "16c8d3e9060f1563a1fe1aa822354b8a9d8d7b483f51b346760523c37ccbcf79",
+        "before_rgb_sha256": "a3467072301bb3c5b286b8ba259e4b733f110a3c54fc451d1da1be59f74eff5b",
+        "after_rgb_sha256": "a3467072301bb3c5b286b8ba259e4b733f110a3c54fc451d1da1be59f74eff5b",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_04.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_04.png",
+        "before_png_sha256": "0ae8b9d44f00c5efc01f37f0ec7cd2188d60b916ee18b5c345ab8181efe23f4e",
+        "before_rgb_sha256": "cf451612de57da021756399d5e1038a6152a538a8007551b31cd711ded752472",
+        "after_rgb_sha256": "6a882f967fd65b4305a701f7a372d1808ebd6d680a1ff4d1179047bde27f8ee3",
+        "bbox": [
+          110,
+          34,
+          221,
+          61
+        ]
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_05.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_05.png",
+        "before_png_sha256": "ca126a9fc5ec11b726dd764cbb5252d507d015f3ab59ddac50a8f4ac39d2828a",
+        "before_rgb_sha256": "8472542bab338af10e23e8129fb1e876bf4ec18d418154b47372a9dc506a687d",
+        "after_rgb_sha256": "8472542bab338af10e23e8129fb1e876bf4ec18d418154b47372a9dc506a687d",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_06.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_06.png",
+        "before_png_sha256": "0d5fd9b6bab0a2bb568ce075c61e5bf5bb300d32e64232d9164db6a83fac9e5f",
+        "before_rgb_sha256": "c422b91d1c786db240f831b06495332792aa3fdc016000aa80b3f68e76f2030d",
+        "after_rgb_sha256": "c422b91d1c786db240f831b06495332792aa3fdc016000aa80b3f68e76f2030d",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_07.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_07.png",
+        "before_png_sha256": "1ba66b6ccbcd866da56396ff388b826930e91df0d30c82586fc4acaa0ba3371a",
+        "before_rgb_sha256": "e0d52fc4f2fdeef345793b199fb9b88438d7d74a4e24dbf29e8e810c78fce0c2",
+        "after_rgb_sha256": "e0d52fc4f2fdeef345793b199fb9b88438d7d74a4e24dbf29e8e810c78fce0c2",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_08.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_08.png",
+        "before_png_sha256": "d03f9a3221860576defc1e9bedf7f623accdc3ca3d2c9d1eb97594d55caa7717",
+        "before_rgb_sha256": "1babe5828fed48cdc13cf4d4854f5d09902c0b62012a57b47243946c61ead55f",
+        "after_rgb_sha256": "1babe5828fed48cdc13cf4d4854f5d09902c0b62012a57b47243946c61ead55f",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_09.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_09.png",
+        "before_png_sha256": "a3471ba970bf82c548ef99171e13b742aaa9886e1cd02f22a0816fb960e115ab",
+        "before_rgb_sha256": "eb6539354765970753e46139d51c453529b49e4f1a5c24326f9954fd54b9b3c4",
+        "after_rgb_sha256": "eb6539354765970753e46139d51c453529b49e4f1a5c24326f9954fd54b9b3c4",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_10.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_10.png",
+        "before_png_sha256": "8b66a381a9e5a49e4862754049a71dc9b5cc6b2fcca1867e211fcf51a54f096a",
+        "before_rgb_sha256": "94d4cc05d26399d0017d50074ea429c89110290aa3240a4694998847968ce117",
+        "after_rgb_sha256": "94d4cc05d26399d0017d50074ea429c89110290aa3240a4694998847968ce117",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_11.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_11.png",
+        "before_png_sha256": "b2526e26a6ceea011bc403d0ef100aed7ec4fbffb284878551d47dc684e81089",
+        "before_rgb_sha256": "0b8a4d25d539b3c6388596434545e34b77aeedb25f74a9ad868c20c508ee725d",
+        "after_rgb_sha256": "0b8a4d25d539b3c6388596434545e34b77aeedb25f74a9ad868c20c508ee725d",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_12.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_12.png",
+        "before_png_sha256": "b6d64865eb30da84a673e8f5db62bca8fa4962275af5318ae902c34834bcf54c",
+        "before_rgb_sha256": "38b039b495db9aab18f6e761863a8d171f52f506bec0b721f8bda6aa5bc5f7c7",
+        "after_rgb_sha256": "38b039b495db9aab18f6e761863a8d171f52f506bec0b721f8bda6aa5bc5f7c7",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_13.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_13.png",
+        "before_png_sha256": "b5aa3d0b2d3415407e70e411bd70da9b0a83ed062b82857a7303070a6eb2cbbe",
+        "before_rgb_sha256": "e955e9d39de89c4bd524c52cbc42e95a3af7572a6ebe67092c24bb91717776a5",
+        "after_rgb_sha256": "c2b34d480eae92a22ba634ce362d9e857e08cc74a9523d634b82c7ef9d87c9a5",
+        "bbox": [
+          110,
+          34,
+          189,
+          42
+        ]
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_14.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_14.png",
+        "before_png_sha256": "d6024fe2a4e0e8cdc8a6fcc4124530b366e6b186acd5f1739d413829c8ac4599",
+        "before_rgb_sha256": "76cd553602f9896b34bb3e29b28dfcf09290c12f788441cb11dab09d46bd81ea",
+        "after_rgb_sha256": "76cd553602f9896b34bb3e29b28dfcf09290c12f788441cb11dab09d46bd81ea",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_15.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_15.png",
+        "before_png_sha256": "064f39b4c9004fcc993521d7e21564439a39dd7177ebe2b5084e10f0c839a6e1",
+        "before_rgb_sha256": "fcac31cff58f73b524356e09835a7a4216da635cbce3dec1ca1717baef750903",
+        "after_rgb_sha256": "fcac31cff58f73b524356e09835a7a4216da635cbce3dec1ca1717baef750903",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_16.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_16.png",
+        "before_png_sha256": "b8ea6dff73e946d7fa2d3d5110d69baea4fdc932eb2909eb3d5ec74b1eda2ba5",
+        "before_rgb_sha256": "5f3402ce4a4e1d05766ef57d6904b8502789c27703c37a7e39d130e6f9b529e3",
+        "after_rgb_sha256": "5f3402ce4a4e1d05766ef57d6904b8502789c27703c37a7e39d130e6f9b529e3",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_17.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_17.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_18.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_18.png",
+        "before_png_sha256": "7fadfb12fd6049602b6345bb8abc6f08f01fc4d720f72525722605719b5d3a9d",
+        "before_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "after_rgb_sha256": "bc6cca05c17981e49b7b6dec5b4c4e52e3e8b9011faae3c039d402e3db42ba46",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_deposit/page_19.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_deposit/page_19.png",
+        "before_png_sha256": "4ade5bbe78f57c413c2cd246311f3d82d92a80566c4d23359ba1b6389b6b7833",
+        "before_rgb_sha256": "2e0182bf2b05393d8e0a1b9dcacb56481e3482ed32c895bdadcd27c88331c6a0",
+        "after_rgb_sha256": "2e0182bf2b05393d8e0a1b9dcacb56481e3482ed32c895bdadcd27c88331c6a0",
+        "bbox": null
+      },
+      {
+        "case": "minnie_confirmation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/accents/minnie_confirmation/page_00.png",
+        "after_path": "tests/emulation_v78_articles/accents/minnie_confirmation/page_00.png",
+        "before_png_sha256": "81625643f63c4975b13aa97095f4218e48708610078f9c9e6dce33df70ace5e4",
+        "before_rgb_sha256": "9acb867b78d4bafce6d83774bd91d9323e0ba102607d025472a4c0cc7c8a5f4c",
+        "after_rgb_sha256": "72cd322b12833aec0e6db3702e4502a199272dbdb32131fb9efcefd5734dfc36",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      }
+    ]
+  },
+  "ascii": {
+    "same_controller_inputs": true,
+    "allowed_text_window": [
+      104,
+      8,
+      248,
+      98
+    ],
+    "comparisons": [
+      {
+        "case": "contents_caption",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/contents_caption/page_00.png",
+        "after_path": "tests/emulation_v78_articles/ascii/contents_caption/page_00.png",
+        "before_png_sha256": "ab168f282d587925575785070c9c0e32b80435f5c62f9a7154d8b336f95a1b00",
+        "before_rgb_sha256": "c32c9dce41e4fafcdd8b4f762c4d852ab857f244ead57270f42f9ce585ffcaf2",
+        "after_rgb_sha256": "2ed2a17eccefca23df40d5b5e8335f732ea6469db51e1cd3afc7080a932afe37",
+        "bbox": [
+          110,
+          18,
+          220,
+          42
+        ]
+      },
+      {
+        "case": "contents_caption",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/contents_caption/page_01.png",
+        "after_path": "tests/emulation_v78_articles/ascii/contents_caption/page_01.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "contents_caption",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/contents_caption/page_02.png",
+        "after_path": "tests/emulation_v78_articles/ascii/contents_caption/page_02.png",
+        "before_png_sha256": "e28281381507f9321a8a57796a576647303bbe956676b6bbaeba76359b3d3a76",
+        "before_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "after_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_00.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_00.png",
+        "before_png_sha256": "dc9d79122085a30d0223cf9ef4e4f24b1bddbabb618fd2cddb8c0ee3740a920e",
+        "before_rgb_sha256": "7792b2b6268b01f17f35509d58b9e9faf25200eb83ea54cb2d6c9298b5fecc84",
+        "after_rgb_sha256": "7792b2b6268b01f17f35509d58b9e9faf25200eb83ea54cb2d6c9298b5fecc84",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_01.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_01.png",
+        "before_png_sha256": "a80d1a4ba5b0e27b740d0eecfb66d7ed64a07b6029838b4f560c6a3c0f634f33",
+        "before_rgb_sha256": "b780ae81a3ee7f7e26156b8819eb13742b60311fac53c1a0fcda379982ae20cd",
+        "after_rgb_sha256": "b780ae81a3ee7f7e26156b8819eb13742b60311fac53c1a0fcda379982ae20cd",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_02.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_02.png",
+        "before_png_sha256": "7e98461e5d5f53c99b6d0e8d4b181db033ffd8dd6fcb754e6613813ff62c0e08",
+        "before_rgb_sha256": "74dbd8742a4c604d0062a765f9dfffeda07c889634dd8bc7584c3966b0c6f1f7",
+        "after_rgb_sha256": "74dbd8742a4c604d0062a765f9dfffeda07c889634dd8bc7584c3966b0c6f1f7",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_03.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_03.png",
+        "before_png_sha256": "294253e215d884ff037e2a1effb9c3ff99600f4dae535fc642e2e8929ab0bfa0",
+        "before_rgb_sha256": "46b761683b9ee130c6c992956469a7d9d4e63ea6e5b1b88a4aed7efa020cb58b",
+        "after_rgb_sha256": "46b761683b9ee130c6c992956469a7d9d4e63ea6e5b1b88a4aed7efa020cb58b",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_04.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_04.png",
+        "before_png_sha256": "f556e29a8c3ba5b95c88ce0e08d157198d563257c08d107a94146620e0164512",
+        "before_rgb_sha256": "71152cfb8a0abbfdf643cf7e4a40ef729065603e48a36d718fbcd4509ed5c7b3",
+        "after_rgb_sha256": "6d2f41d2dd8b01da9ec22ea2d8b2a1ce518542be637bd3f26005e5e010e3e289",
+        "bbox": [
+          110,
+          34,
+          221,
+          61
+        ]
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_05.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_05.png",
+        "before_png_sha256": "7417fa60b4ab5f7fabddb95efe2dd9be04e89f664f8c90651b359dc4dbd4df71",
+        "before_rgb_sha256": "92d2a13e90ebdfbc0c0b84d83a15029448dfe31590e826c439d68334e8544e9e",
+        "after_rgb_sha256": "92d2a13e90ebdfbc0c0b84d83a15029448dfe31590e826c439d68334e8544e9e",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_06.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_06.png",
+        "before_png_sha256": "10f37565008d33c64f462e07e4062aef46c37dd7380504a7ac9c195db619b67e",
+        "before_rgb_sha256": "0ddd88143604c2aff192a55b16f72918c4f213ad9b081751456de4876d2471ed",
+        "after_rgb_sha256": "0ddd88143604c2aff192a55b16f72918c4f213ad9b081751456de4876d2471ed",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_07.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_07.png",
+        "before_png_sha256": "f692f8ecc8a72b0455d15227c09097fd04322d7e2fb9f51ac536916fc838f970",
+        "before_rgb_sha256": "5cd9d224bbba23d651ed76ab084f3af45808e0a566111d5d0848bcd2a330b0ac",
+        "after_rgb_sha256": "5cd9d224bbba23d651ed76ab084f3af45808e0a566111d5d0848bcd2a330b0ac",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_08.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_08.png",
+        "before_png_sha256": "d03f9a3221860576defc1e9bedf7f623accdc3ca3d2c9d1eb97594d55caa7717",
+        "before_rgb_sha256": "1babe5828fed48cdc13cf4d4854f5d09902c0b62012a57b47243946c61ead55f",
+        "after_rgb_sha256": "1babe5828fed48cdc13cf4d4854f5d09902c0b62012a57b47243946c61ead55f",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_09.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_09.png",
+        "before_png_sha256": "cb28939e887471efdbef24fc2317e2cbf561c4fd94eaa29ae83bea1bb60650e6",
+        "before_rgb_sha256": "6362859c0738ff1ceb58334fc542dfb69250487333c959a1e1e47c60ef018e67",
+        "after_rgb_sha256": "6362859c0738ff1ceb58334fc542dfb69250487333c959a1e1e47c60ef018e67",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_10.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_10.png",
+        "before_png_sha256": "8630ade778ce79680cf5fee1a6cdbe7858f78e0558aa47a844191ef764be0bf3",
+        "before_rgb_sha256": "351d028a227ce36864a8f058a4d11ca64fab7d3e42acb8c8e6c690a882fb868b",
+        "after_rgb_sha256": "351d028a227ce36864a8f058a4d11ca64fab7d3e42acb8c8e6c690a882fb868b",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_11.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_11.png",
+        "before_png_sha256": "f8c3f6cf4aa9044dd2f06b13110da7ece2d308f81fada2e4083ec6d1eeaa95ca",
+        "before_rgb_sha256": "a0708947aaa004ba1a8188d2c2428d87db3a61f772999a649e8d0a14f28164c6",
+        "after_rgb_sha256": "a0708947aaa004ba1a8188d2c2428d87db3a61f772999a649e8d0a14f28164c6",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_12.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_12.png",
+        "before_png_sha256": "68cee346673eb412876dd15c57ed0b716bb406022874d997ea3de6a0d97f0747",
+        "before_rgb_sha256": "0344731f432678e2bdf337d19d3322d45e15c3ca24c294267b2f2f372716979d",
+        "after_rgb_sha256": "0344731f432678e2bdf337d19d3322d45e15c3ca24c294267b2f2f372716979d",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_13.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_13.png",
+        "before_png_sha256": "6e5b36821a60158b5f1d3fd90d78b4d6a52ea7eebf765ed0d8614f9b0c75cf21",
+        "before_rgb_sha256": "5086ece2c73ff7b706bee9275d4c3555d8f2bd38c066e783b560cf638d8963b2",
+        "after_rgb_sha256": "e1c3dce39bab051721faf11791e184489e700e3a3dcbb399158c42c554b3834f",
+        "bbox": [
+          110,
+          34,
+          189,
+          42
+        ]
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_14.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_14.png",
+        "before_png_sha256": "910d1f599aa2f47d6e1952d4dc689f1ac9d90c4da86dbb2fcbb3ab2276a48a0b",
+        "before_rgb_sha256": "2c299e90e359df2a09ca0703a2157ed44da1be57f10569aac7d3bea071d3c3a0",
+        "after_rgb_sha256": "2c299e90e359df2a09ca0703a2157ed44da1be57f10569aac7d3bea071d3c3a0",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_15.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_15.png",
+        "before_png_sha256": "f28a0357ead7e988ea47871a67cd08d24b415a9f0021e6f829e77a38ba6f95db",
+        "before_rgb_sha256": "3d7e33141a75cef38595d986108bda42b6c9f91f9495b4cbdc42e53d713f71c7",
+        "after_rgb_sha256": "3d7e33141a75cef38595d986108bda42b6c9f91f9495b4cbdc42e53d713f71c7",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_16.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_16.png",
+        "before_png_sha256": "39817ca546db61a2e5ba22106b7473a9ff4c040019581490fc163e797f69e97d",
+        "before_rgb_sha256": "8d9c9960f3913b4e3b385fa8d6bbd1344c36585ec36f3693433fe9ffc58a4e93",
+        "after_rgb_sha256": "8d9c9960f3913b4e3b385fa8d6bbd1344c36585ec36f3693433fe9ffc58a4e93",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_17.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_17.png",
+        "before_png_sha256": "8c58f8b67cebb3460af3c64b8e0061dee2d31f12a9aa32a3386ffa955bd36b2e",
+        "before_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "after_rgb_sha256": "23e01b80debfed97ec486fa723c485591da7c57adb15048f044c2c6437eebe52",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_18.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_18.png",
+        "before_png_sha256": "e28281381507f9321a8a57796a576647303bbe956676b6bbaeba76359b3d3a76",
+        "before_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "after_rgb_sha256": "25daf0b2572688cf6898154daf5394cb206671ff9b26386a15b2ae6d23967d62",
+        "bbox": null
+      },
+      {
+        "case": "minnie_deposit",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_deposit/page_19.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_deposit/page_19.png",
+        "before_png_sha256": "42c39d20da337c535285cad89fa1730efdf047684ebd3ce1dfbe2b1ad630476f",
+        "before_rgb_sha256": "5108211bc5a342aad0871bf00e7504ca3a2b222f0fd02be599cf601cd7032c51",
+        "after_rgb_sha256": "5108211bc5a342aad0871bf00e7504ca3a2b222f0fd02be599cf601cd7032c51",
+        "bbox": null
+      },
+      {
+        "case": "minnie_confirmation",
+        "allowed_text_window": [
+          104,
+          8,
+          248,
+          98
+        ],
+        "before_path": "tests/emulation_v78_articles/reference_v77/ascii/minnie_confirmation/page_00.png",
+        "after_path": "tests/emulation_v78_articles/ascii/minnie_confirmation/page_00.png",
+        "before_png_sha256": "9aec2d7efba47edadb8073b32a12e63da936ff715c182c7d4107caf14d73ad4e",
+        "before_rgb_sha256": "6cecbd5a70c78aabe393e6a55f68f669e95987d4dec4730332ae84dd280baaed",
+        "after_rgb_sha256": "88836337aacd2f9d2ce93dc5bcb18bf3f118978c901dac697a21d6bec63653fe",
+        "bbox": [
+          110,
+          18,
+          240,
+          69
+        ]
+      }
+    ]
+  }
+}

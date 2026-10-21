@@ -1,5 +1,13 @@
 # V78 — checkpoint à 119 textes, cible 150
 
+**21 octobre 2026 — reprise validée des corrections Minnie/contenant.** Environnement et travail local récupérés. Six écritures, 383 enregistrements ajoutés à V77 ; aucune allocation ni source nouvelle. Compteur inchangé : **119/150**, 157 plages sources. Voir [RAPPORT_V78_ARTICLES_CHECKPOINT.md](../../RAPPORT_V78_ARTICLES_CHECKPOINT.md).
+
+48 paires V77/V78, huit changements limités au texte, 10 148 images échantillonnées. Dans les deux profils, la fiole ID70 est présente dans le sac page03, absente page08, dans la réserve page11, puis revenue au sac page19. Entrée PNJ204 forcée avec préparation native ; aucun parcours naturel certifié. « Le Fiole » est corrigé.
+
+Prochain reste : limites du coursier, services avec plusieurs personnages, contexte ancien `32F120`/helper `38B587` conservé à qualifier, dialogues et parcours naturels ; puis menus. Il manque 31 sources à la cible, sans inventaire exhaustif prouvé. Continuer le même lot ; ces corrections françaises ajoutent zéro au compteur.
+
+## Historique antérieur à cette reprise
+
 context_grammar_stage.py ajoute trois sources partagées (you/toi, you all/vous, you two/vous) et trois corrections de français, non comptées comme traductions nouvelles. Deux insertions possessives dans Maria sont redirigées vers un retour vide existant ; le helper original est conservé. Le préfixe du fils est raccourci avec son saut déplacé dans le même bloc. Aucune allocation ; total 377 enregistrements ajoutés aux IPS V77, 119 sources / 157 plages sources.
 
 18 tests V78 avec ROM privée, reconstruction déterministe ; nouvelles preuves tests/emulation_v78_grammar : 56 paires, douze changements textuels, 12 256 images échantillonnées. Six cas par profil. Les variantes plurielles sont explicitement artificielles ; entrée PNJ586 forcée avec flag00B8, branches Maria forcées. Aucune progression naturelle certifiée. Les snapshots 81/99/114/116 restent reconstruits pour leurs anciennes preuves. Rapport actuel : RAPPORT_V78_GRAMMAIRE_CHECKPOINT.md ; suite : articles par appelant et services restants, puis menus.

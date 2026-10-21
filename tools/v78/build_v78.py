@@ -64,6 +64,8 @@ def build(rom,out):
  from scoped_help_stage import extend as extend_scoped
  plan=extend_scoped(source,out,plan,fixtures)
  from context_grammar_stage import extend as extend_grammar
- return extend_grammar(source,out,plan,fixtures)
+ plan=extend_grammar(source,out,plan,fixtures)
+ from article_context_stage import extend as extend_articles
+ return extend_articles(source,out,plan,fixtures)
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,default=ROOT/'patches');a=ap.parse_args();print(json.dumps(build(a.rom,a.out),indent=2))

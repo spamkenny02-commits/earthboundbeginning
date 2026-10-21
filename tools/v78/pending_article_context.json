@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "pending_local_recovery_and_validation",
+  "status": "historical_plan_superseded_by_validated_article_context_stage",
   "input_commit": "79a3db97f0a6d5d5e4f52392c517724041a1ce34",
   "source_rom_sha256": "e878b83e9b00b51f8da6d038a5cbaf31cb9dccff5e11f0a7014048f4511f582c",
   "new_distinct_texts": 0,
@@ -232,5 +232,18 @@
     "Finish, collect and visually review the corrected Minnie probe in both profiles; do not reuse older card-refusal captures as deposit evidence.",
     "Run structural and offline checks plus a sequential deterministic rebuild; no build mutation concurrent with tests or probes.",
     "Keep distinct-source counter unchanged; no release or main publication based on this unvalidated manifest."
-  ]
+  ],
+  "resolution": {
+    "date": "2026-10-21",
+    "report": "RAPPORT_V78_ARTICLES_CHECKPOINT.md",
+    "module": "tools/v78/article_context_stage.py",
+    "fixtures": "tools/v78/v78_fixtures.json",
+    "records_added_over_v77": 383,
+    "article_write_count": 6,
+    "new_distinct_texts": 0,
+    "batch_distinct_texts": 119,
+    "comparison_pairs": 48,
+    "tests_passed": 20,
+    "note": "Original five-write plan below is historical; validated stage also neutralizes withdrawal prefix 36BA48."
+  }
 }

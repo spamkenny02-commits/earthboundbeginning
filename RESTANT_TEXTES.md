@@ -1,5 +1,13 @@
 # Suite des textes — lot V78 en cours
 
+**21 octobre 2026 — reprise validée des corrections Minnie/contenant.** Environnement et travail local récupérés. Six écritures, 383 enregistrements ajoutés à V77 ; aucune allocation ni source nouvelle. Compteur inchangé : **119/150**, 157 plages sources. Voir [RAPPORT_V78_ARTICLES_CHECKPOINT.md](RAPPORT_V78_ARTICLES_CHECKPOINT.md).
+
+48 paires V77/V78, huit changements limités au texte, 10 148 images échantillonnées. Dans les deux profils, la fiole ID70 est présente dans le sac page03, absente page08, dans la réserve page11, puis revenue au sac page19. Entrée PNJ204 forcée avec préparation native ; aucun parcours naturel certifié. « Le Fiole » est corrigé.
+
+Prochain reste : limites du coursier, services avec plusieurs personnages, contexte ancien `32F120`/helper `38B587` conservé à qualifier, dialogues et parcours naturels ; puis menus. Il manque 31 sources à la cible, sans inventaire exhaustif prouvé. Continuer le même lot ; ces corrections françaises ajoutent zéro au compteur.
+
+## Historique antérieur à cette reprise
+
 État actuel : **119 textes distincts / cible 150**, 157 plages sources. Pronoms you/you all/you two traités et phrases du fils/Maria corrigées par contexte, sans allocation. 18 tests V78 avec ROM ; 56 nouvelles paires, douze changements textuels, profils relus. Appels contrôlés uniquement. Continuer le lot : articles partagés `38B52B–38B550` et dispatchs `38B551/38B56C/38B587` par appelant, limites du coursier et plusieurs personnages, autres alias, puis menus et parcours complet. V77 reste sur main ; pas de release par petit sous-ensemble. Voir `REPRISE_TRADUCTION.md` et `RAPPORT_V78_GRAMMAIRE_CHECKPOINT.md`. Les paragraphes suivants sont historiques.
 
 État actuel : **116 textes distincts / cible 150**, 154 plages sources. Copies françaises de l'aide ID6E via `1560E5` et du conseil médical via `329025` ; originaux et références intérieures préservés. 16 tests V78 réussis avec ROM, 36 nouvelles paires d'affichage relues, accès contrôlés seulement. V77 reste sur main. Continuer le même lot : helpers possessifs/pronoms/articles, limites du coursier, services à plusieurs personnages et anciennes branches, puis menus et parcours naturel. Les 34 sources manquant à la cible ne sont pas un inventaire déjà prouvé. Voir `REPRISE_TRADUCTION.md` et `RAPPORT_V78_COPIES_CHECKPOINT.md`. Les paragraphes suivants sont historiques.

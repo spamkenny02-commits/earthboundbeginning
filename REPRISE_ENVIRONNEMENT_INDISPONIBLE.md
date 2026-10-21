@@ -1,5 +1,13 @@
 # Reprise après indisponibilité de l'environnement — 20 octobre 2026
 
+**21 octobre 2026 — reprise validée des corrections Minnie/contenant.** Environnement et travail local récupérés. Six écritures, 383 enregistrements ajoutés à V77 ; aucune allocation ni source nouvelle. Compteur inchangé : **119/150**, 157 plages sources. Voir [RAPPORT_V78_ARTICLES_CHECKPOINT.md](RAPPORT_V78_ARTICLES_CHECKPOINT.md).
+
+48 paires V77/V78, huit changements limités au texte, 10 148 images échantillonnées. Dans les deux profils, la fiole ID70 est présente dans le sac page03, absente page08, dans la réserve page11, puis revenue au sac page19. Entrée PNJ204 forcée avec préparation native ; aucun parcours naturel certifié. « Le Fiole » est corrigé.
+
+Prochain reste : limites du coursier, services avec plusieurs personnages, contexte ancien `32F120`/helper `38B587` conservé à qualifier, dialogues et parcours naturels ; puis menus. Il manque 31 sources à la cible, sans inventaire exhaustif prouvé. Continuer le même lot ; ces corrections françaises ajoutent zéro au compteur.
+
+## Historique antérieur à cette reprise
+
 Le moteur d'exécution local répond : « No usable execution environment is available ». L'environnement est signalé indisponible. GitHub demeure accessible. Impossible de vérifier le répertoire de travail, ses processus/verrous, de sauvegarder un nouveau commit local, de reconstruire les IPS ou de terminer les captures. Ne pas déduire que les fichiers privés ont été supprimés : leur présence n'est simplement plus vérifiable.
 
 ## État distant confirmé
