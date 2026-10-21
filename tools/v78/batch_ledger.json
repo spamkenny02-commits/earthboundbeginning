@@ -1,8 +1,8 @@
 {
   "version": "v78",
   "release_pending": true,
-  "distinct_texts": 129,
-  "physical_spans": 167,
+  "distinct_texts": 137,
+  "physical_spans": 175,
   "target": 400,
   "entries": [
     {
@@ -90,6 +90,30 @@
       "french": "@Environ 200 dégâts.",
       "offsets": [
         "054FD1"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@The <Machine that Opens Doors,",
+      "french": "@Cette machine ouvre",
+      "offsets": [
+        "05554F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@especially when you have a slightly bad key> machine.",
+      "french": "@les portes malgré une clé tordue.",
+      "offsets": [
+        "055565"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@A key to a regular locker.",
+      "french": "@Clé d'un casier.",
+      "offsets": [
+        "055D8B"
       ],
       "validation": "static; runtime coverage is case-specific"
     },
@@ -1086,6 +1110,46 @@
       "french": "@Le singe a volé : ",
       "offsets": [
         "38BADB"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Use",
+      "french": "Util.",
+      "offsets": [
+        "38E834"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Eat",
+      "french": "Aval.",
+      "offsets": [
+        "38E83A"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Give",
+      "french": "Donne",
+      "offsets": [
+        "38E840"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Drop",
+      "french": "Jette",
+      "offsets": [
+        "38E846"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "Help!",
+      "french": "Aide",
+      "offsets": [
+        "38E84C"
       ],
       "validation": "static; runtime coverage is case-specific"
     }

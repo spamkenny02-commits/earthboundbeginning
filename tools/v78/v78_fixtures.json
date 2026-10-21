@@ -11735,5 +11735,196 @@
         ]
       }
     }
+  },
+  "locker_help": {
+    "entries": [
+      {
+        "context": "055546",
+        "offset": "05554F",
+        "end": "055563",
+        "en": "@The <Machine that Opens Doors,",
+        "fr": "@Cette machine ouvre"
+      },
+      {
+        "context": "055546",
+        "offset": "055565",
+        "end": "055588",
+        "en": "@especially when you have a slightly bad key> machine.",
+        "fr": "@les portes malgré une clé tordue."
+      },
+      {
+        "context": "055D82",
+        "offset": "055D8B",
+        "end": "055D9F",
+        "en": "@A key to a regular locker.",
+        "fr": "@Clé d'un casier."
+      }
+    ],
+    "corrections": [
+      {
+        "context": "2F69A1",
+        "offset": "2F69A5",
+        "end": "2F69AB",
+        "en": "'s HP are",
+        "fr": " : PV"
+      },
+      {
+        "context": "2F69A1",
+        "offset": "2F69AC",
+        "end": "2F69B5",
+        "en": "  maxed out!",
+        "fr": " au max !"
+      }
+    ],
+    "item_help_roots": {
+      "AC": "055546",
+      "CD": "055D82"
+    },
+    "profiles": {
+      "accents": {
+        "input_records_added": 393,
+        "input_rom_sha256": "5c2a554263fb3d6bf5f37a6cef0292e41b976c790653b2ac441280c9c5395a28",
+        "input_patch_sha256": "754874ee245eaf6492162f4582d26deca25d8fd84f3de8a61cdafc5a6ae43f9f",
+        "records": [
+          {
+            "offset": "05554F",
+            "hex": "707395a4a495509d919398999e95509fa5a6a295"
+          },
+          {
+            "offset": "055565",
+            "hex": "709c95a350a09fa2a495a3509d919c97a2b050a59e9550939cb050a49fa294a5955e50"
+          },
+          {
+            "offset": "055D8B",
+            "hex": "70739cb0509457a59e509391a39995a25e505050"
+          },
+          {
+            "offset": "2F69A5",
+            "hex": "506a50808650"
+          },
+          {
+            "offset": "2F69AC",
+            "hex": "5091a5509d91a85051"
+          }
+        ]
+      },
+      "ascii": {
+        "input_records_added": 393,
+        "input_rom_sha256": "ff310f70babd9bf64b2d0966598284c57009cae8c49259184e10b3a4b62ccf90",
+        "input_patch_sha256": "118364c7af8f4f4b973d785773e282a751c370f6977acb846b46f2d2e9ab8bb4",
+        "records": [
+          {
+            "offset": "05554F",
+            "hex": "707395a4a495509d919398999e95509fa5a6a295"
+          },
+          {
+            "offset": "055565",
+            "hex": "709c95a350a09fa2a495a3509d919c97a29550a59e9550939c9550a49fa294a5955e50"
+          },
+          {
+            "offset": "055D8B",
+            "hex": "70739c95509457a59e509391a39995a25e505050"
+          },
+          {
+            "offset": "2F69A5",
+            "hex": "506a50808650"
+          },
+          {
+            "offset": "2F69AC",
+            "hex": "5091a5509d91a85051"
+          }
+        ]
+      }
+    }
+  },
+  "item_action": {
+    "reader_offset": "01369D",
+    "reader_hex": "a934e88506a9f80085089885040a65040a1865068506850ea5088510",
+    "table": "38E834",
+    "stride": 6,
+    "slots": 5,
+    "entries": [
+      {
+        "offset": "38E834",
+        "en": "Use",
+        "fr": "Util."
+      },
+      {
+        "offset": "38E83A",
+        "en": "Eat",
+        "fr": "Aval."
+      },
+      {
+        "offset": "38E840",
+        "en": "Give",
+        "fr": "Donne"
+      },
+      {
+        "offset": "38E846",
+        "en": "Drop",
+        "fr": "Jette"
+      },
+      {
+        "offset": "38E84C",
+        "en": "Help!",
+        "fr": "Aide"
+      }
+    ],
+    "profiles": {
+      "accents": {
+        "input_records_added": 398,
+        "input_rom_sha256": "4fb6a6587717b849cbee3f6c0d51936a662d21a58d90d0a8039e33382c35b2e5",
+        "input_patch_sha256": "deb9dc4afdf9a6cd0d913695de4f7608b95f75b5ceea1d32fdde939e92f49ce8",
+        "records": [
+          {
+            "offset": "38E834",
+            "hex": "85a4999c5e00"
+          },
+          {
+            "offset": "38E83A",
+            "hex": "71a6919c5e00"
+          },
+          {
+            "offset": "38E840",
+            "hex": "749f9e9e9500"
+          },
+          {
+            "offset": "38E846",
+            "hex": "7a95a4a49500"
+          },
+          {
+            "offset": "38E84C",
+            "hex": "719994950000"
+          }
+        ]
+      },
+      "ascii": {
+        "input_records_added": 398,
+        "input_rom_sha256": "f6df04972f8950a4746f45eab248e63b18c4b7d81975406ec034f9a13771524f",
+        "input_patch_sha256": "302b31bc702a8e710c4c0c25a4dff4cfc72f8ddfc0c14bd507a93aa28fef017b",
+        "records": [
+          {
+            "offset": "38E834",
+            "hex": "85a4999c5e00"
+          },
+          {
+            "offset": "38E83A",
+            "hex": "71a6919c5e00"
+          },
+          {
+            "offset": "38E840",
+            "hex": "749f9e9e9500"
+          },
+          {
+            "offset": "38E846",
+            "hex": "7a95a4a49500"
+          },
+          {
+            "offset": "38E84C",
+            "hex": "719994950000"
+          }
+        ]
+      }
+    }
   }
 }

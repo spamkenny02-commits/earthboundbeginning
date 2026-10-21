@@ -1,4 +1,14 @@
-# V78 — checkpoint à 129 textes, cible 400
+# V78 — checkpoint à 137 textes, cible 400
+
+**État actuel, 21 octobre 2026 : 137/400 sources distinctes, 175 plages comptées.** Huit nouvelles sources depuis le checkpoint129 : cinq commandes d'objets et trois fragments d'aide des clés. Deux fragments du message natif de PV sont corrigés sans nouvelle source comptée : une copie avait déjà été traduite en V43. Même lot, sans petite release.
+
+Les commandes natives d'objets deviennent « Util. / Aval. / Donne / Jette / Aide » dans leurs cinq cases de six octets, sans modification du lecteur ni de son pas. « Mange » et « Mang. » ont été remplacés par « Aval. » après constat de troncature. L'aide de la Machine à clés et celle de la clé du casier sont traduites. Récupération du Papier froissé PNJ606 et nouvelle tentative PNJ608 après consommation d'un biscuit : parcours à la manette après préparation native D1. Rapport et preuves : `RAPPORT_V78_COMMANDES_CHECKPOINT.md`, `tests/emulation_v78_actions`.
+
+**Reprise concrète :** casier PNJ609/Bracelet claquant (le placement précédent a rencontré un casier vide ; ne pas le déclarer validé), autres flags des casiers et trajets naturels. Puis poursuivre les menus et autres aides accessibles, avant la fin/générique et la relecture intégrale. Les huit sources nouvelles sont listées dans le rapport et le registre `tools/v78/batch_ledger.json`. Il manque 263 sources à la cible du lot ; aucun inventaire exhaustif des restes du jeu n'est établi.
+
+**Validation du checkpoint137 : 28 tests V78 réussis avec ROM privée ; 132 paires V77/V78, 60 changements textuels, 34 084 images échantillonnées.** Deux profils relus, 26 captures clés. Commit local intermédiaire conservé ; checkpoint Git, sans publication du lot400 incomplet.
+
+## Historique à 129 sources — qualification initiale des casiers
 
 **État actuel, 21 octobre 2026 : 129/400 sources distinctes, 167 plages.** Neuf sources des casiers de l'école sont nouvellement traduites. Les variantes accents/ASCII, les six PNJ partageant le texte et les captures ne sont pas comptés en double. Même lot V78 ; aucune petite release.
 
