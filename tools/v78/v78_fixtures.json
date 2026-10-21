@@ -11474,5 +11474,266 @@
         ]
       }
     }
+  },
+  "locker": {
+    "entries": [
+      {
+        "context": "06F8D9",
+        "offset": "06F8D9",
+        "end": "06F8E4",
+        "en": "@This one is locked.",
+        "fr": "@Verrouillé"
+      },
+      {
+        "context": "06FA0C",
+        "offset": "06FA14",
+        "end": "06FA24",
+        "en": " opened the locker using the ",
+        "fr": " ouvre avec la "
+      },
+      {
+        "context": "06FA2E",
+        "offset": "06FA30",
+        "end": "06FA38",
+        "en": "@There was a ",
+        "fr": "@Objet: "
+      },
+      {
+        "context": "06FA2E",
+        "offset": "06FA3B",
+        "end": "06FA42",
+        "en": " in the locker.",
+        "fr": "."
+      },
+      {
+        "context": "06FA2E",
+        "offset": "06FA5D",
+        "end": "06FA61",
+        "en": " got it.",
+        "fr": " l'a"
+      },
+      {
+        "context": "06FA68",
+        "offset": "06FA6B",
+        "end": "06FA8E",
+        "en": "@(The key is bent and doesn't fit into the key hole!)",
+        "fr": "@(Clé tordue : ça coince !)"
+      },
+      {
+        "context": "06FA93",
+        "offset": "06FA93",
+        "end": "06FAB2",
+        "en": "@(Unfortunately, there is nothing in this locker.)",
+        "fr": "@(Ce casier est vide.)"
+      },
+      {
+        "context": "06FAB4",
+        "offset": "06FAB4",
+        "end": "06FAC9",
+        "en": "@However, you already have too many things to carry.",
+        "fr": "@Ton sac est plein."
+      },
+      {
+        "context": "06FAB4",
+        "offset": "06FAD6",
+        "end": "06FAE3",
+        "en": " left it in the locker.",
+        "fr": " le laisse."
+      }
+    ],
+    "qualification": {
+      "placement_pointer_operand": "002261",
+      "placement_table": "1CF2F5",
+      "placements": [
+        {
+          "npc": 606,
+          "sector": 823,
+          "operand": "0F7021",
+          "x": 80,
+          "y": 224
+        },
+        {
+          "npc": 613,
+          "sector": 823,
+          "operand": "0F7025",
+          "x": 56,
+          "y": 224
+        },
+        {
+          "npc": 608,
+          "sector": 823,
+          "operand": "0F7029",
+          "x": 32,
+          "y": 224
+        },
+        {
+          "npc": 612,
+          "sector": 823,
+          "operand": "0F702D",
+          "x": 64,
+          "y": 192
+        },
+        {
+          "npc": 609,
+          "sector": 823,
+          "operand": "0F7031",
+          "x": 88,
+          "y": 192
+        },
+        {
+          "npc": 616,
+          "sector": 823,
+          "operand": "0F7035",
+          "x": 112,
+          "y": 192
+        },
+        {
+          "npc": 616,
+          "sector": 1212,
+          "operand": "0F74FF",
+          "x": 152,
+          "y": 63
+        },
+        {
+          "npc": 612,
+          "sector": 1212,
+          "operand": "0F7503",
+          "x": 131,
+          "y": 64
+        }
+      ],
+      "npc_rows": [
+        {
+          "npc": 606,
+          "primary": "06F8D9",
+          "secondary": "38E350",
+          "secondary_operand": "2049F3"
+        },
+        {
+          "npc": 608,
+          "primary": "06F8D9",
+          "secondary": "38E2C2",
+          "secondary_operand": "204A15"
+        },
+        {
+          "npc": 609,
+          "primary": "06F8D9",
+          "secondary": "38E309",
+          "secondary_operand": "204A26"
+        },
+        {
+          "npc": 612,
+          "primary": "06F8D9",
+          "secondary": "38E397",
+          "secondary_operand": "204A59"
+        },
+        {
+          "npc": 613,
+          "primary": "06F8D9",
+          "secondary": "38E397",
+          "secondary_operand": "204A6A"
+        },
+        {
+          "npc": 616,
+          "primary": "06F8D9",
+          "secondary": "38E397",
+          "secondary_operand": "204A9D"
+        }
+      ],
+      "initial_access": "native warp D1 to school hallway; then existing door and controller Examine/Use; no direct locker entry call",
+      "natural_initial_map_access_verified": false,
+      "format_sources": [
+        "https://github.com/pk-hack/CoilSnake/blob/master/coilsnake/modules/eb/MapSpriteModule.py",
+        "https://github.com/pk-hack/CoilSnake/blob/master/coilsnake/model/eb/map_sprites.py"
+      ]
+    },
+    "profiles": {
+      "accents": {
+        "input_records_added": 384,
+        "input_patch_sha256": "fc1b19d83c53cf51e9f1f578b7404aa21b7103f8c3f911a0e2a78e7e9ccdda8c",
+        "input_rom_sha256": "31157766e0427b09ceb80e58445cff60784162554b3f0474bdc55770817f8243",
+        "records": [
+          {
+            "offset": "06F8D9",
+            "hex": "708695a2a29fa5999c9cb0"
+          },
+          {
+            "offset": "06FA14",
+            "hex": "509fa5a6a2955091a69593509c915050"
+          },
+          {
+            "offset": "06FA30",
+            "hex": "707f929a95a46a50"
+          },
+          {
+            "offset": "06FA3B",
+            "hex": "5e505050505050"
+          },
+          {
+            "offset": "06FA5D",
+            "hex": "509c5791"
+          },
+          {
+            "offset": "06FA6B",
+            "hex": "7058739cb050a49fa294a595506a50bc9150939f999e93955051595050505050505050"
+          },
+          {
+            "offset": "06FA93",
+            "hex": "70587395509391a39995a25095a3a450a69994955e59505050505050505050"
+          },
+          {
+            "offset": "06FAB4",
+            "hex": "70849f9e50a391935095a3a450a09c95999e5e5050"
+          },
+          {
+            "offset": "06FAD6",
+            "hex": "509c95509c9199a3a3955e5050"
+          }
+        ]
+      },
+      "ascii": {
+        "input_records_added": 384,
+        "input_patch_sha256": "d9d8b604ecd93e1e547a40f886d7418f6012241ad061d663c87e2ef7da1ebe18",
+        "input_rom_sha256": "b37427e01eece7c3038e269bdf210ccfb1c099b7810419ef628cd2da5882e69f",
+        "records": [
+          {
+            "offset": "06F8D9",
+            "hex": "708695a2a29fa5999c9c95"
+          },
+          {
+            "offset": "06FA14",
+            "hex": "509fa5a6a2955091a69593509c915050"
+          },
+          {
+            "offset": "06FA30",
+            "hex": "707f929a95a46a50"
+          },
+          {
+            "offset": "06FA3B",
+            "hex": "5e505050505050"
+          },
+          {
+            "offset": "06FA5D",
+            "hex": "509c5791"
+          },
+          {
+            "offset": "06FA6B",
+            "hex": "7058739c9550a49fa294a595506a50939150939f999e93955051595050505050505050"
+          },
+          {
+            "offset": "06FA93",
+            "hex": "70587395509391a39995a25095a3a450a69994955e59505050505050505050"
+          },
+          {
+            "offset": "06FAB4",
+            "hex": "70849f9e50a391935095a3a450a09c95999e5e5050"
+          },
+          {
+            "offset": "06FAD6",
+            "hex": "509c95509c9199a3a3955e5050"
+          }
+        ]
+      }
+    }
   }
 }

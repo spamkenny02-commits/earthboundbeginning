@@ -29,7 +29,7 @@ class PartyRom(unittest.TestCase):
   if not path:self.skipTest('Private ROM not supplied')
   source=Path(path).read_bytes();self.assertEqual(b.sha(source),b.ROM_SHA)
   for p in ('accents','ascii'):
-   data=b.apply(source,b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v78_{p}.ips').read_bytes()));q=b.parse(data,0x36E6DF,8192,extra_glyphs=range(0xb0,0xc0));self.assertTrue(q['terminal']);self.assertFalse(q['error']);self.assertIn(bytes.fromhex('1f1102'),b.commands(data[0x36E6DF:q['end']]))
+   records=b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v78_{p}.ips').read_bytes());cut=len(b.records((ROOT/f'patches/EarthBound_Beginnings_FR_v77_{p}.ips').read_bytes()))+read('tools/v78/v78_fixtures.json')['locker']['profiles'][p]['input_records_added'];data=b.apply(source,records[:cut]);q=b.parse(data,0x36E6DF,8192,extra_glyphs=range(0xb0,0xc0));self.assertTrue(q['terminal']);self.assertFalse(q['error']);self.assertIn(bytes.fromhex('1f1102'),b.commands(data[0x36E6DF:q['end']]))
    for c in read(f'tests/emulation_v78_party/results_{p}.json')['cases'].values():
     self.assertEqual(b.sha(data),c['base_rom_sha256']);fixture=bytearray(data)
     for w in c['temporary_rom_writes']:

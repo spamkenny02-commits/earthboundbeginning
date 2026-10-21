@@ -68,6 +68,8 @@ def build(rom,out):
  from article_context_stage import extend as extend_articles
  plan=extend_articles(source,out,plan,fixtures)
  from phone_label_stage import extend as extend_phone_label
- return extend_phone_label(source,out,plan,fixtures)
+ plan=extend_phone_label(source,out,plan,fixtures)
+ from locker_stage import extend as extend_locker
+ return extend_locker(source,out,plan,fixtures)
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('--rom',type=Path,required=True);ap.add_argument('--out',type=Path,default=ROOT/'patches');a=ap.parse_args();print(json.dumps(build(a.rom,a.out),indent=2))

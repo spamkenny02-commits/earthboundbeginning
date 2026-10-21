@@ -1,8 +1,8 @@
 {
   "version": "v78",
   "release_pending": true,
-  "distinct_texts": 120,
-  "physical_spans": 158,
+  "distinct_texts": 129,
+  "physical_spans": 167,
   "target": 400,
   "entries": [
     {
@@ -138,6 +138,78 @@
       "french": "@Un bon mélange soigne mieux.",
       "offsets": [
         "056D7A"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@This one is locked.",
+      "french": "@Verrouillé",
+      "offsets": [
+        "06F8D9"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " opened the locker using the ",
+      "french": " ouvre avec la ",
+      "offsets": [
+        "06FA14"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@There was a ",
+      "french": "@Objet: ",
+      "offsets": [
+        "06FA30"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " in the locker.",
+      "french": ".",
+      "offsets": [
+        "06FA3B"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " got it.",
+      "french": " l'a",
+      "offsets": [
+        "06FA5D"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(The key is bent and doesn't fit into the key hole!)",
+      "french": "@(Clé tordue : ça coince !)",
+      "offsets": [
+        "06FA6B"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@(Unfortunately, there is nothing in this locker.)",
+      "french": "@(Ce casier est vide.)",
+      "offsets": [
+        "06FA93"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@However, you already have too many things to carry.",
+      "french": "@Ton sac est plein.",
+      "offsets": [
+        "06FAB4"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": " left it in the locker.",
+      "french": " le laisse.",
+      "offsets": [
+        "06FAD6"
       ],
       "validation": "static; runtime coverage is case-specific"
     },

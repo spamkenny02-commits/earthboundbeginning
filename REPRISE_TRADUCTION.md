@@ -1,6 +1,12 @@
 # Reprise — lot V78 en cours, cible 400 textes distincts
 
-**Consigne actuelle : lot de 400 sources distinctes, compteur conservé à 120/400 (158 plages).** L'ancienne cible de 150 est remplacée dans le reconstructeur, le registre et les tests. La branche conserve son nom historique `work/v78-batch150` ; aucune nouvelle release n'est publiée pour ce sous-ensemble.
+**État actuel, 21 octobre 2026 : 129/400 sources distinctes, 167 plages.** Neuf sources des casiers de l'école sont nouvellement traduites. Les variantes accents/ASCII, les six PNJ partageant le texte et les captures ne sont pas comptés en double. Même lot V78 ; aucune petite release.
+
+Interaction ordinaire « Voir » puis utilisation de la Machine à clés sur PNJ608/champ13 → `38E2C2`, après téléportation native D1 et passage à la manette par la porte existante. Ouverture, objet reçu (Fusée-jouet en kit), clé tordue, casier vide et sac plein contrôlés dans les deux profils. 108 paires V77/V78, 28 changements limités au texte, 27 436 images échantillonnées. Les racines des casiers ne sont pas appelées directement par la sonde ; le trajet initial naturel reste non certifié. Rapport : `RAPPORT_V78_CASIERS_CHECKPOINT.md`.
+
+**Reprise concrète :** autres contenus des PNJ606/609 et reprise après libération d'une place au sac (zéro nouvelle source pour le texte partagé) ; qualifier ensuite le lecteur natif des commandes d'objets `38E834` et traduire les libellés encore anglais. Menus, fin, générique et relecture intégrale restent ouverts. Il reste 271 sources à la cible du lot ; ce nombre ne constitue pas un inventaire du jeu restant.
+
+## Historique à 120 sources — état antérieur à la qualification des casiers
 
 **Checkpoint à plusieurs personnages, 21 octobre 2026 :** Ninten dépose la fiole ID70, Ana la récupère ; les inventaires finaux sont relus dans les deux profils. Deux et trois personnages sont réellement présents via commandes natives de préparation ; le sélecteur choisit respectivement `387B37` et `387B2F`, et affiche « vous ». Les entrées de scènes restent forcées. 56 nouvelles paires V77/V78, huit changements textuels, 11 728 images échantillonnées ; **24 tests V78 réussis avec ROM privée**. Aucun texte nouvellement traduit dans ce checkpoint de validation ; les IPS sont identiques au précédent.
 

@@ -1,0 +1,3271 @@
+{
+  "version": "v78",
+  "patch_tested": "v78",
+  "profile": "accents",
+  "core_sha256": "826bdab012551be45dcdca92a4823a43caf556f7e480e3e8a613a7fae9afd210",
+  "initial_state_sha256": "628c29685ba50977441be4665bbc17bcff33e17eebf2c0979af2bf8300bca9c3",
+  "natural_scene_access_verified": false,
+  "initial_map_access": "native warp D1 via declared private preparation, then walking through existing door",
+  "locker_script_called_by_tester": false,
+  "wram_written_directly_by_tester": false,
+  "cases": {
+    "pickup": {
+      "entries": [
+        "38B550"
+      ],
+      "logical_entry": "38B550",
+      "scope": "native warp/item preparation; existing door and ordinary Examine/Use; no direct locker root call or natural initial journey certified",
+      "npc": 608,
+      "operations": [
+        [
+          "give",
+          172
+        ],
+        [
+          "warp",
+          209
+        ]
+      ],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        {
+          "name": "hall",
+          "move": [
+            [
+              "Down",
+              4
+            ]
+          ]
+        },
+        {
+          "name": "room",
+          "move": [
+            [
+              "Right",
+              40
+            ]
+          ]
+        },
+        {
+          "name": "front",
+          "move": [
+            [
+              "Left",
+              92
+            ]
+          ]
+        },
+        {
+          "name": "position",
+          "move": [
+            [
+              "Down",
+              12
+            ],
+            [
+              "Left",
+              58
+            ],
+            [
+              "Up",
+              15
+            ]
+          ]
+        },
+        {
+          "name": "locked",
+          "keys": [
+            "A",
+            "Down",
+            "Down",
+            "A"
+          ]
+        },
+        {
+          "name": "closed",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "inventory_before",
+          "keys": [
+            "A",
+            "Right",
+            "A"
+          ]
+        },
+        {
+          "name": "action_menu",
+          "keys": [
+            "Right",
+            "A"
+          ]
+        },
+        {
+          "name": "use_00",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_01",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_02",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_03",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "inventory_after",
+          "keys": [
+            "A",
+            "Right",
+            "A"
+          ]
+        }
+      ],
+      "settle_frames": 180,
+      "wait_after_preparation_frames": 600,
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "1d0001ac1f21d10850b5f80002"
+        }
+      ],
+      "base_rom_sha256": "5c2a554263fb3d6bf5f37a6cef0292e41b976c790653b2ac441280c9c5395a28",
+      "fixture_rom_sha256": "07347de6b7bfceaa8736b84ad6ac11d3c6352ea5ebaad71acd53e8864cfe5f54",
+      "sampled_frames": 3529,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "330FC7"
+          }
+        },
+        {
+          "sample": 247,
+          "pointer": null
+        },
+        {
+          "sample": 1714,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DA"
+          }
+        },
+        {
+          "sample": 1716,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DB"
+          }
+        },
+        {
+          "sample": 1718,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DC"
+          }
+        },
+        {
+          "sample": 1720,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DD"
+          }
+        },
+        {
+          "sample": 1722,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DE"
+          }
+        },
+        {
+          "sample": 1724,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DF"
+          }
+        },
+        {
+          "sample": 1726,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E0"
+          }
+        },
+        {
+          "sample": 1728,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E1"
+          }
+        },
+        {
+          "sample": 1730,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E2"
+          }
+        },
+        {
+          "sample": 1732,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E3"
+          }
+        },
+        {
+          "sample": 1734,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E4"
+          }
+        },
+        {
+          "sample": 1736,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E5"
+          }
+        },
+        {
+          "sample": 1908,
+          "pointer": null
+        },
+        {
+          "sample": 2538,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "38E2E0"
+          }
+        },
+        {
+          "sample": 2539,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA11"
+          }
+        },
+        {
+          "sample": 2541,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA14"
+          }
+        },
+        {
+          "sample": 2553,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA15"
+          }
+        },
+        {
+          "sample": 2555,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA16"
+          }
+        },
+        {
+          "sample": 2557,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA17"
+          }
+        },
+        {
+          "sample": 2559,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA18"
+          }
+        },
+        {
+          "sample": 2561,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA19"
+          }
+        },
+        {
+          "sample": 2563,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1A"
+          }
+        },
+        {
+          "sample": 2565,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1B"
+          }
+        },
+        {
+          "sample": 2567,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1C"
+          }
+        },
+        {
+          "sample": 2569,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1D"
+          }
+        },
+        {
+          "sample": 2571,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1E"
+          }
+        },
+        {
+          "sample": 2573,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1F"
+          }
+        },
+        {
+          "sample": 2575,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA20"
+          }
+        },
+        {
+          "sample": 2577,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA21"
+          }
+        },
+        {
+          "sample": 2579,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA22"
+          }
+        },
+        {
+          "sample": 2581,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA23"
+          }
+        },
+        {
+          "sample": 2583,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA24"
+          }
+        },
+        {
+          "sample": 2585,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA27"
+          }
+        },
+        {
+          "sample": 2613,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA28"
+          }
+        },
+        {
+          "sample": 2615,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA2B"
+          }
+        },
+        {
+          "sample": 2616,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA2C"
+          }
+        },
+        {
+          "sample": 2726,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA31"
+          }
+        },
+        {
+          "sample": 2728,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA32"
+          }
+        },
+        {
+          "sample": 2730,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA33"
+          }
+        },
+        {
+          "sample": 2732,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA34"
+          }
+        },
+        {
+          "sample": 2734,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA35"
+          }
+        },
+        {
+          "sample": 2736,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA36"
+          }
+        },
+        {
+          "sample": 2738,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA37"
+          }
+        },
+        {
+          "sample": 2740,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA38"
+          }
+        },
+        {
+          "sample": 2742,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3B"
+          }
+        },
+        {
+          "sample": 2778,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3C"
+          }
+        },
+        {
+          "sample": 2780,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3D"
+          }
+        },
+        {
+          "sample": 2782,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3E"
+          }
+        },
+        {
+          "sample": 2784,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3F"
+          }
+        },
+        {
+          "sample": 2786,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA40"
+          }
+        },
+        {
+          "sample": 2788,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA41"
+          }
+        },
+        {
+          "sample": 2790,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA42"
+          }
+        },
+        {
+          "sample": 2792,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA43"
+          }
+        },
+        {
+          "sample": 2920,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA57"
+          }
+        },
+        {
+          "sample": 2921,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA58"
+          }
+        },
+        {
+          "sample": 2922,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA5B"
+          }
+        },
+        {
+          "sample": 2934,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA5E"
+          }
+        },
+        {
+          "sample": 2936,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA5F"
+          }
+        },
+        {
+          "sample": 2938,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA60"
+          }
+        },
+        {
+          "sample": 2940,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA61"
+          }
+        },
+        {
+          "sample": 2942,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA62"
+          }
+        },
+        {
+          "sample": 3114,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA65"
+          }
+        },
+        {
+          "sample": 3115,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA67"
+          }
+        },
+        {
+          "sample": 3117,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "06F8DA": 2,
+        "06F8DB": 2,
+        "06F8DC": 2,
+        "06F8DD": 2,
+        "06F8DE": 2,
+        "06F8DF": 2,
+        "06F8E0": 2,
+        "06F8E1": 2,
+        "06F8E2": 2,
+        "06F8E3": 2,
+        "06F8E4": 2,
+        "06F8E5": 172,
+        "06FA11": 2,
+        "06FA14": 12,
+        "06FA15": 2,
+        "06FA16": 2,
+        "06FA17": 2,
+        "06FA18": 2,
+        "06FA19": 2,
+        "06FA1A": 2,
+        "06FA1B": 2,
+        "06FA1C": 2,
+        "06FA1D": 2,
+        "06FA1E": 2,
+        "06FA1F": 2,
+        "06FA20": 2,
+        "06FA21": 2,
+        "06FA22": 2,
+        "06FA23": 2,
+        "06FA24": 2,
+        "06FA27": 28,
+        "06FA28": 2,
+        "06FA2B": 1,
+        "06FA2C": 110,
+        "06FA31": 2,
+        "06FA32": 2,
+        "06FA33": 2,
+        "06FA34": 2,
+        "06FA35": 2,
+        "06FA36": 2,
+        "06FA37": 2,
+        "06FA38": 2,
+        "06FA3B": 36,
+        "06FA3C": 2,
+        "06FA3D": 2,
+        "06FA3E": 2,
+        "06FA3F": 2,
+        "06FA40": 2,
+        "06FA41": 2,
+        "06FA42": 2,
+        "06FA43": 128,
+        "06FA57": 1,
+        "06FA58": 1,
+        "06FA5B": 12,
+        "06FA5E": 2,
+        "06FA5F": 2,
+        "06FA60": 2,
+        "06FA61": 2,
+        "06FA62": 172,
+        "06FA65": 1,
+        "06FA67": 2,
+        "330FC7": 124,
+        "38E2E0": 1
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/warped.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ee6e9d6b4d9456d988b631d3fcbe816b3595e56ff9bf86a68d554c764349a763",
+          "artifact_png_sha256": "6ffd78eb02fede737e75ed4f9679d92574335e2507a32df6d776c01e98ce08a3"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/hall.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "5fa2eae0d93a66e5648ccfb152f6b26dea0e3770eab26b89a6470204e1a12712",
+          "artifact_png_sha256": "713fbfd41985d5c801490e09b8ff6d303655b1a8ff3bf4d22e89a6c6017fb3bf"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/room.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6270d99c2eff32c74ab34d3bb0fb8ef95079fb477ad136ffe062f21dad3cce9d",
+          "artifact_png_sha256": "ad7d02a106dbc2b3ab992e39f50212e035d5052c9b8b352195848cdab8b90d2a"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/front.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b11c16daabad70565cc18df8639ad1ea8ca582aeeecf6a5730e4db6559f2cc39",
+          "artifact_png_sha256": "2093196c51496703462b8492386280d71954d307ae74bf729a7ab94821610969"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/position.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c8534e55488b0fa87a636aa7f937209f3d69410957572e0687832540c63d8247",
+          "artifact_png_sha256": "a33122f1544f2999d99c852f598f0dcdf0af6b9657cc7be037517e4f1de0ad16"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/locked.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "38c11a9585356414e95f523a09f94c121905f35e30b1fe4d11824c99dbaceae5",
+          "artifact_png_sha256": "5d4f2c7ad33c4d090c9e5f6077a9c4c926c92d7c8702a6a8e54f4db85e1ad5c2"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/closed.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c8534e55488b0fa87a636aa7f937209f3d69410957572e0687832540c63d8247",
+          "artifact_png_sha256": "a33122f1544f2999d99c852f598f0dcdf0af6b9657cc7be037517e4f1de0ad16"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/inventory_before.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b682fe152971c28287bf64a9363e20a2e3e139182d72eae454deb8cb9104d011",
+          "artifact_png_sha256": "663ffd7ab12ecf4b8329343ee4c081a3465e9ddcc2318b87bca4bfbf50513752"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/action_menu.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "8dabdb7353bd59f089e3360e19d0758a5bb526ce32bbaf3de561685dea43f46a",
+          "artifact_png_sha256": "c29b40fc4cdfed2b3d65e62e1d870d47306259f0fa1eadb990d9639edb36f5ae"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/use_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c1627ffaa8e1741c9f5aae29e0ac8f3dce7647c51cbf1e4d6b51787ee16f591f",
+          "artifact_png_sha256": "fb7c062104b203305eb56e062136fe5f7c1fd6bce8edf6309946c26e82a18f7b"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/use_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "4fa438c3d229e41d2800fc606612f5b8106c59492c696aec860f37cded4b9832",
+          "artifact_png_sha256": "555fcd51983827ce83410d90adfa81038af465984fa43ea4543174de268ea63f"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/use_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "f61c8afc5353cf75bceeea6d2c5f0c34acda7c00523453208ad9ec39895c7aca",
+          "artifact_png_sha256": "b1578a87b116164f0b129ba9892eae6a8ec6d8e54d8718d0c119150dbc669a89"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/use_03.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c8534e55488b0fa87a636aa7f937209f3d69410957572e0687832540c63d8247",
+          "artifact_png_sha256": "a33122f1544f2999d99c852f598f0dcdf0af6b9657cc7be037517e4f1de0ad16"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/pickup/inventory_after.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "a017c5004f1f10536fdb8c161becb91e1a12d4e0a4e74f451a5ce6f69df968a7",
+          "artifact_png_sha256": "3b17339f60047a6cc3fef7417d8f33708787308ffced639929f7320e732d7529"
+        }
+      ],
+      "returncode": 0
+    },
+    "empty": {
+      "entries": [
+        "38B550"
+      ],
+      "logical_entry": "38B550",
+      "scope": "native warp/item preparation; existing door and ordinary Examine/Use; no direct locker root call or natural initial journey certified",
+      "npc": 613,
+      "operations": [
+        [
+          "give",
+          172
+        ],
+        [
+          "warp",
+          209
+        ]
+      ],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        {
+          "name": "hall",
+          "move": [
+            [
+              "Down",
+              4
+            ]
+          ]
+        },
+        {
+          "name": "room",
+          "move": [
+            [
+              "Right",
+              40
+            ]
+          ]
+        },
+        {
+          "name": "front",
+          "move": [
+            [
+              "Left",
+              92
+            ]
+          ]
+        },
+        {
+          "name": "position",
+          "move": [
+            [
+              "Down",
+              12
+            ],
+            [
+              "Left",
+              48
+            ],
+            [
+              "Up",
+              15
+            ]
+          ]
+        },
+        {
+          "name": "locked",
+          "keys": [
+            "A",
+            "Down",
+            "Down",
+            "A"
+          ]
+        },
+        {
+          "name": "closed",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "inventory_before",
+          "keys": [
+            "A",
+            "Right",
+            "A"
+          ]
+        },
+        {
+          "name": "action_menu",
+          "keys": [
+            "Right",
+            "A"
+          ]
+        },
+        {
+          "name": "use_00",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_01",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_02",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "inventory_after",
+          "keys": [
+            "A",
+            "Right",
+            "A"
+          ]
+        }
+      ],
+      "settle_frames": 180,
+      "wait_after_preparation_frames": 600,
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "1d0001ac1f21d10850b5f80002"
+        }
+      ],
+      "base_rom_sha256": "5c2a554263fb3d6bf5f37a6cef0292e41b976c790653b2ac441280c9c5395a28",
+      "fixture_rom_sha256": "07347de6b7bfceaa8736b84ad6ac11d3c6352ea5ebaad71acd53e8864cfe5f54",
+      "sampled_frames": 3325,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "330FC7"
+          }
+        },
+        {
+          "sample": 247,
+          "pointer": null
+        },
+        {
+          "sample": 1704,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DA"
+          }
+        },
+        {
+          "sample": 1706,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DB"
+          }
+        },
+        {
+          "sample": 1708,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DC"
+          }
+        },
+        {
+          "sample": 1710,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DD"
+          }
+        },
+        {
+          "sample": 1712,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DE"
+          }
+        },
+        {
+          "sample": 1714,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DF"
+          }
+        },
+        {
+          "sample": 1716,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E0"
+          }
+        },
+        {
+          "sample": 1718,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E1"
+          }
+        },
+        {
+          "sample": 1720,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E2"
+          }
+        },
+        {
+          "sample": 1722,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E3"
+          }
+        },
+        {
+          "sample": 1724,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E4"
+          }
+        },
+        {
+          "sample": 1726,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E5"
+          }
+        },
+        {
+          "sample": 1898,
+          "pointer": null
+        },
+        {
+          "sample": 2528,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "38E3B7"
+          }
+        },
+        {
+          "sample": 2529,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA11"
+          }
+        },
+        {
+          "sample": 2531,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA14"
+          }
+        },
+        {
+          "sample": 2543,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA15"
+          }
+        },
+        {
+          "sample": 2545,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA16"
+          }
+        },
+        {
+          "sample": 2547,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA17"
+          }
+        },
+        {
+          "sample": 2549,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA18"
+          }
+        },
+        {
+          "sample": 2551,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA19"
+          }
+        },
+        {
+          "sample": 2553,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1A"
+          }
+        },
+        {
+          "sample": 2555,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1B"
+          }
+        },
+        {
+          "sample": 2557,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1C"
+          }
+        },
+        {
+          "sample": 2559,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1D"
+          }
+        },
+        {
+          "sample": 2561,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1E"
+          }
+        },
+        {
+          "sample": 2563,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1F"
+          }
+        },
+        {
+          "sample": 2565,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA20"
+          }
+        },
+        {
+          "sample": 2567,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA21"
+          }
+        },
+        {
+          "sample": 2569,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA22"
+          }
+        },
+        {
+          "sample": 2571,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA23"
+          }
+        },
+        {
+          "sample": 2573,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA24"
+          }
+        },
+        {
+          "sample": 2575,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA27"
+          }
+        },
+        {
+          "sample": 2603,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA28"
+          }
+        },
+        {
+          "sample": 2605,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA2B"
+          }
+        },
+        {
+          "sample": 2606,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA2C"
+          }
+        },
+        {
+          "sample": 2716,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA94"
+          }
+        },
+        {
+          "sample": 2718,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA95"
+          }
+        },
+        {
+          "sample": 2720,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA96"
+          }
+        },
+        {
+          "sample": 2722,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA97"
+          }
+        },
+        {
+          "sample": 2724,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA98"
+          }
+        },
+        {
+          "sample": 2726,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA99"
+          }
+        },
+        {
+          "sample": 2728,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA9A"
+          }
+        },
+        {
+          "sample": 2730,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA9B"
+          }
+        },
+        {
+          "sample": 2732,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA9C"
+          }
+        },
+        {
+          "sample": 2734,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA9D"
+          }
+        },
+        {
+          "sample": 2736,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA9E"
+          }
+        },
+        {
+          "sample": 2738,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA9F"
+          }
+        },
+        {
+          "sample": 2740,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA0"
+          }
+        },
+        {
+          "sample": 2742,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA1"
+          }
+        },
+        {
+          "sample": 2744,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA2"
+          }
+        },
+        {
+          "sample": 2746,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA3"
+          }
+        },
+        {
+          "sample": 2748,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA4"
+          }
+        },
+        {
+          "sample": 2750,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA5"
+          }
+        },
+        {
+          "sample": 2752,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA6"
+          }
+        },
+        {
+          "sample": 2754,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA7"
+          }
+        },
+        {
+          "sample": 2756,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA8"
+          }
+        },
+        {
+          "sample": 2758,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAA9"
+          }
+        },
+        {
+          "sample": 2760,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAAA"
+          }
+        },
+        {
+          "sample": 2762,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAAB"
+          }
+        },
+        {
+          "sample": 2764,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAAC"
+          }
+        },
+        {
+          "sample": 2766,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAAD"
+          }
+        },
+        {
+          "sample": 2768,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAAE"
+          }
+        },
+        {
+          "sample": 2770,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAAF"
+          }
+        },
+        {
+          "sample": 2772,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAB0"
+          }
+        },
+        {
+          "sample": 2774,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAB1"
+          }
+        },
+        {
+          "sample": 2776,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAB2"
+          }
+        },
+        {
+          "sample": 2778,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAB3"
+          }
+        },
+        {
+          "sample": 2910,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "06F8DA": 2,
+        "06F8DB": 2,
+        "06F8DC": 2,
+        "06F8DD": 2,
+        "06F8DE": 2,
+        "06F8DF": 2,
+        "06F8E0": 2,
+        "06F8E1": 2,
+        "06F8E2": 2,
+        "06F8E3": 2,
+        "06F8E4": 2,
+        "06F8E5": 172,
+        "06FA11": 2,
+        "06FA14": 12,
+        "06FA15": 2,
+        "06FA16": 2,
+        "06FA17": 2,
+        "06FA18": 2,
+        "06FA19": 2,
+        "06FA1A": 2,
+        "06FA1B": 2,
+        "06FA1C": 2,
+        "06FA1D": 2,
+        "06FA1E": 2,
+        "06FA1F": 2,
+        "06FA20": 2,
+        "06FA21": 2,
+        "06FA22": 2,
+        "06FA23": 2,
+        "06FA24": 2,
+        "06FA27": 28,
+        "06FA28": 2,
+        "06FA2B": 1,
+        "06FA2C": 110,
+        "06FA94": 2,
+        "06FA95": 2,
+        "06FA96": 2,
+        "06FA97": 2,
+        "06FA98": 2,
+        "06FA99": 2,
+        "06FA9A": 2,
+        "06FA9B": 2,
+        "06FA9C": 2,
+        "06FA9D": 2,
+        "06FA9E": 2,
+        "06FA9F": 2,
+        "06FAA0": 2,
+        "06FAA1": 2,
+        "06FAA2": 2,
+        "06FAA3": 2,
+        "06FAA4": 2,
+        "06FAA5": 2,
+        "06FAA6": 2,
+        "06FAA7": 2,
+        "06FAA8": 2,
+        "06FAA9": 2,
+        "06FAAA": 2,
+        "06FAAB": 2,
+        "06FAAC": 2,
+        "06FAAD": 2,
+        "06FAAE": 2,
+        "06FAAF": 2,
+        "06FAB0": 2,
+        "06FAB1": 2,
+        "06FAB2": 2,
+        "06FAB3": 132,
+        "330FC7": 124,
+        "38E3B7": 1
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/warped.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ee6e9d6b4d9456d988b631d3fcbe816b3595e56ff9bf86a68d554c764349a763",
+          "artifact_png_sha256": "6ffd78eb02fede737e75ed4f9679d92574335e2507a32df6d776c01e98ce08a3"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/hall.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "5fa2eae0d93a66e5648ccfb152f6b26dea0e3770eab26b89a6470204e1a12712",
+          "artifact_png_sha256": "713fbfd41985d5c801490e09b8ff6d303655b1a8ff3bf4d22e89a6c6017fb3bf"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/room.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6270d99c2eff32c74ab34d3bb0fb8ef95079fb477ad136ffe062f21dad3cce9d",
+          "artifact_png_sha256": "ad7d02a106dbc2b3ab992e39f50212e035d5052c9b8b352195848cdab8b90d2a"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/front.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b11c16daabad70565cc18df8639ad1ea8ca582aeeecf6a5730e4db6559f2cc39",
+          "artifact_png_sha256": "2093196c51496703462b8492386280d71954d307ae74bf729a7ab94821610969"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/position.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ce6278a00389098b1966bdba3e2f38e2cce1d64cb091e3c7fc4529ce227d52f4",
+          "artifact_png_sha256": "bc265b3fbad700aafb7d8085f33694a3df819b1c63449b59e9e32c03cc9b1d18"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/locked.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "4ad0ccc41c83936bbe9ea97c84a13b2cfa45e0c0355c6b664fd1f5c07d172a7f",
+          "artifact_png_sha256": "86c7fb9ad299546467b5e4f2b70a6816347cddc0632a8e97b0c1e61f8d2597d0"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/closed.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ce6278a00389098b1966bdba3e2f38e2cce1d64cb091e3c7fc4529ce227d52f4",
+          "artifact_png_sha256": "bc265b3fbad700aafb7d8085f33694a3df819b1c63449b59e9e32c03cc9b1d18"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/inventory_before.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "0cf1b74e400addca492cc241dcaf3e97ab6f1557e4647b0bd21c03cef01ed196",
+          "artifact_png_sha256": "f69e2a041fd69b1318ba23c8849076c8b7c4a0e5d8287d6eaa1c5f6154d371d8"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/action_menu.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3b22dfcbc7f177f28f233fdd8835909b0b393dcccab71677582d75e6aef31f8f",
+          "artifact_png_sha256": "6661efe755a3d2a2ac8c0e8c2b5751a5b8100cbede29436b824cf549ebc4c7fb"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/use_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d3303ded174bb09af54bfa2e0f0d7ffbd959b5fc1a88a9980439bbc746890f1e",
+          "artifact_png_sha256": "0f98023495b84c65e5e761fe7a44e5ecb2de4f040eb586f07fb1cb5d75076eb1"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/use_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "3a1129b5c089ccb674b3d7e0a4b130029f6636d8b67acbf6eaefbf2c4f0ae71d",
+          "artifact_png_sha256": "2ad6e668540d0dd0f0a6acc64ef76bdac45e5d4e1f18b0a144211a14d2d306fb"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/use_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ce6278a00389098b1966bdba3e2f38e2cce1d64cb091e3c7fc4529ce227d52f4",
+          "artifact_png_sha256": "bc265b3fbad700aafb7d8085f33694a3df819b1c63449b59e9e32c03cc9b1d18"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/empty/inventory_after.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "0cf1b74e400addca492cc241dcaf3e97ab6f1557e4647b0bd21c03cef01ed196",
+          "artifact_png_sha256": "f69e2a041fd69b1318ba23c8849076c8b7c4a0e5d8287d6eaa1c5f6154d371d8"
+        }
+      ],
+      "returncode": 0
+    },
+    "bent": {
+      "entries": [
+        "38B550"
+      ],
+      "logical_entry": "38B550",
+      "scope": "native warp/item preparation; existing door and ordinary Examine/Use; no direct locker root call or natural initial journey certified",
+      "npc": 608,
+      "operations": [
+        [
+          "give",
+          205
+        ],
+        [
+          "warp",
+          209
+        ]
+      ],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        {
+          "name": "hall",
+          "move": [
+            [
+              "Down",
+              4
+            ]
+          ]
+        },
+        {
+          "name": "room",
+          "move": [
+            [
+              "Right",
+              40
+            ]
+          ]
+        },
+        {
+          "name": "front",
+          "move": [
+            [
+              "Left",
+              92
+            ]
+          ]
+        },
+        {
+          "name": "position",
+          "move": [
+            [
+              "Down",
+              12
+            ],
+            [
+              "Left",
+              58
+            ],
+            [
+              "Up",
+              15
+            ]
+          ]
+        },
+        {
+          "name": "locked",
+          "keys": [
+            "A",
+            "Down",
+            "Down",
+            "A"
+          ]
+        },
+        {
+          "name": "closed",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "inventory_before",
+          "keys": [
+            "A",
+            "Right",
+            "A"
+          ]
+        },
+        {
+          "name": "action_menu",
+          "keys": [
+            "Right",
+            "A"
+          ]
+        },
+        {
+          "name": "use_00",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_01",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "inventory_after",
+          "keys": [
+            "A",
+            "Right",
+            "A"
+          ]
+        }
+      ],
+      "settle_frames": 180,
+      "wait_after_preparation_frames": 600,
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "1d0001cd1f21d10850b5f80002"
+        }
+      ],
+      "base_rom_sha256": "5c2a554263fb3d6bf5f37a6cef0292e41b976c790653b2ac441280c9c5395a28",
+      "fixture_rom_sha256": "3828917557c195438384d11744fbb05a83b506dcdfcdf263264cade2f800bf60",
+      "sampled_frames": 3141,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "330FC7"
+          }
+        },
+        {
+          "sample": 247,
+          "pointer": null
+        },
+        {
+          "sample": 1714,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DA"
+          }
+        },
+        {
+          "sample": 1716,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DB"
+          }
+        },
+        {
+          "sample": 1718,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DC"
+          }
+        },
+        {
+          "sample": 1720,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DD"
+          }
+        },
+        {
+          "sample": 1722,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DE"
+          }
+        },
+        {
+          "sample": 1724,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DF"
+          }
+        },
+        {
+          "sample": 1726,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E0"
+          }
+        },
+        {
+          "sample": 1728,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E1"
+          }
+        },
+        {
+          "sample": 1730,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E2"
+          }
+        },
+        {
+          "sample": 1732,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E3"
+          }
+        },
+        {
+          "sample": 1734,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E4"
+          }
+        },
+        {
+          "sample": 1736,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E5"
+          }
+        },
+        {
+          "sample": 1908,
+          "pointer": null
+        },
+        {
+          "sample": 2538,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA6C"
+          }
+        },
+        {
+          "sample": 2540,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA6D"
+          }
+        },
+        {
+          "sample": 2542,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA6E"
+          }
+        },
+        {
+          "sample": 2544,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA6F"
+          }
+        },
+        {
+          "sample": 2546,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA70"
+          }
+        },
+        {
+          "sample": 2548,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA71"
+          }
+        },
+        {
+          "sample": 2550,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA72"
+          }
+        },
+        {
+          "sample": 2552,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA73"
+          }
+        },
+        {
+          "sample": 2554,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA74"
+          }
+        },
+        {
+          "sample": 2556,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA75"
+          }
+        },
+        {
+          "sample": 2558,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA76"
+          }
+        },
+        {
+          "sample": 2560,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA77"
+          }
+        },
+        {
+          "sample": 2562,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA78"
+          }
+        },
+        {
+          "sample": 2564,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA79"
+          }
+        },
+        {
+          "sample": 2566,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA7A"
+          }
+        },
+        {
+          "sample": 2568,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA7B"
+          }
+        },
+        {
+          "sample": 2570,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA7C"
+          }
+        },
+        {
+          "sample": 2572,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA7D"
+          }
+        },
+        {
+          "sample": 2574,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA7E"
+          }
+        },
+        {
+          "sample": 2576,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA7F"
+          }
+        },
+        {
+          "sample": 2578,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA80"
+          }
+        },
+        {
+          "sample": 2580,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA81"
+          }
+        },
+        {
+          "sample": 2582,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA82"
+          }
+        },
+        {
+          "sample": 2584,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA83"
+          }
+        },
+        {
+          "sample": 2586,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA84"
+          }
+        },
+        {
+          "sample": 2588,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA85"
+          }
+        },
+        {
+          "sample": 2590,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA86"
+          }
+        },
+        {
+          "sample": 2592,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA87"
+          }
+        },
+        {
+          "sample": 2594,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA88"
+          }
+        },
+        {
+          "sample": 2596,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA89"
+          }
+        },
+        {
+          "sample": 2598,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA8A"
+          }
+        },
+        {
+          "sample": 2600,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA8B"
+          }
+        },
+        {
+          "sample": 2602,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA8C"
+          }
+        },
+        {
+          "sample": 2604,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA8D"
+          }
+        },
+        {
+          "sample": 2606,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA8E"
+          }
+        },
+        {
+          "sample": 2608,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06FA8F"
+          }
+        },
+        {
+          "sample": 2726,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "06F8DA": 2,
+        "06F8DB": 2,
+        "06F8DC": 2,
+        "06F8DD": 2,
+        "06F8DE": 2,
+        "06F8DF": 2,
+        "06F8E0": 2,
+        "06F8E1": 2,
+        "06F8E2": 2,
+        "06F8E3": 2,
+        "06F8E4": 2,
+        "06F8E5": 172,
+        "06FA6C": 2,
+        "06FA6D": 2,
+        "06FA6E": 2,
+        "06FA6F": 2,
+        "06FA70": 2,
+        "06FA71": 2,
+        "06FA72": 2,
+        "06FA73": 2,
+        "06FA74": 2,
+        "06FA75": 2,
+        "06FA76": 2,
+        "06FA77": 2,
+        "06FA78": 2,
+        "06FA79": 2,
+        "06FA7A": 2,
+        "06FA7B": 2,
+        "06FA7C": 2,
+        "06FA7D": 2,
+        "06FA7E": 2,
+        "06FA7F": 2,
+        "06FA80": 2,
+        "06FA81": 2,
+        "06FA82": 2,
+        "06FA83": 2,
+        "06FA84": 2,
+        "06FA85": 2,
+        "06FA86": 2,
+        "06FA87": 2,
+        "06FA88": 2,
+        "06FA89": 2,
+        "06FA8A": 2,
+        "06FA8B": 2,
+        "06FA8C": 2,
+        "06FA8D": 2,
+        "06FA8E": 2,
+        "06FA8F": 118,
+        "330FC7": 124
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/warped.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ee6e9d6b4d9456d988b631d3fcbe816b3595e56ff9bf86a68d554c764349a763",
+          "artifact_png_sha256": "6ffd78eb02fede737e75ed4f9679d92574335e2507a32df6d776c01e98ce08a3"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/hall.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "5fa2eae0d93a66e5648ccfb152f6b26dea0e3770eab26b89a6470204e1a12712",
+          "artifact_png_sha256": "713fbfd41985d5c801490e09b8ff6d303655b1a8ff3bf4d22e89a6c6017fb3bf"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/room.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6270d99c2eff32c74ab34d3bb0fb8ef95079fb477ad136ffe062f21dad3cce9d",
+          "artifact_png_sha256": "ad7d02a106dbc2b3ab992e39f50212e035d5052c9b8b352195848cdab8b90d2a"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/front.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b11c16daabad70565cc18df8639ad1ea8ca582aeeecf6a5730e4db6559f2cc39",
+          "artifact_png_sha256": "2093196c51496703462b8492386280d71954d307ae74bf729a7ab94821610969"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/position.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c8534e55488b0fa87a636aa7f937209f3d69410957572e0687832540c63d8247",
+          "artifact_png_sha256": "a33122f1544f2999d99c852f598f0dcdf0af6b9657cc7be037517e4f1de0ad16"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/locked.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "38c11a9585356414e95f523a09f94c121905f35e30b1fe4d11824c99dbaceae5",
+          "artifact_png_sha256": "5d4f2c7ad33c4d090c9e5f6077a9c4c926c92d7c8702a6a8e54f4db85e1ad5c2"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/closed.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c8534e55488b0fa87a636aa7f937209f3d69410957572e0687832540c63d8247",
+          "artifact_png_sha256": "a33122f1544f2999d99c852f598f0dcdf0af6b9657cc7be037517e4f1de0ad16"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/inventory_before.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "f1cf00e148cca24e491abda0caea9a510f0e61c8e680ebf2ddb3c85fbc9099e3",
+          "artifact_png_sha256": "03c33e93f69be7b34d9e266e3c9fabfa25be1b135a8d9e0daf54907a2d1f0f4d"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/action_menu.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "59ddd983127161e431ec6cc3439012b7564f85d09f118eb630b3ce779f28ae23",
+          "artifact_png_sha256": "999582ee463917ae00365408a030b3495c226c2af4fd0f30202164182c01d3de"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/use_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "1f813fb0e944adfac896d13b2ad87450223c69fb7c2d3c24c5ad2b0258695e11",
+          "artifact_png_sha256": "21a56fa6dac1766a11f116d120317a7d8055de80285eb70cce91d8a4fd4fabbc"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/use_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c8534e55488b0fa87a636aa7f937209f3d69410957572e0687832540c63d8247",
+          "artifact_png_sha256": "a33122f1544f2999d99c852f598f0dcdf0af6b9657cc7be037517e4f1de0ad16"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/bent/inventory_after.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "f1cf00e148cca24e491abda0caea9a510f0e61c8e680ebf2ddb3c85fbc9099e3",
+          "artifact_png_sha256": "03c33e93f69be7b34d9e266e3c9fabfa25be1b135a8d9e0daf54907a2d1f0f4d"
+        }
+      ],
+      "returncode": 0
+    },
+    "full": {
+      "entries": [
+        "38B550"
+      ],
+      "logical_entry": "38B550",
+      "scope": "native warp/item preparation; existing door and ordinary Examine/Use; no direct locker root call or natural initial journey certified",
+      "npc": 608,
+      "operations": [
+        [
+          "give",
+          172
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "give",
+          1
+        ],
+        [
+          "warp",
+          209
+        ]
+      ],
+      "trigger": [
+        "A",
+        "Right",
+        "A",
+        "A",
+        "A"
+      ],
+      "steps": [
+        {
+          "name": "hall",
+          "move": [
+            [
+              "Down",
+              4
+            ]
+          ]
+        },
+        {
+          "name": "room",
+          "move": [
+            [
+              "Right",
+              40
+            ]
+          ]
+        },
+        {
+          "name": "front",
+          "move": [
+            [
+              "Left",
+              92
+            ]
+          ]
+        },
+        {
+          "name": "position",
+          "move": [
+            [
+              "Down",
+              12
+            ],
+            [
+              "Left",
+              58
+            ],
+            [
+              "Up",
+              15
+            ]
+          ]
+        },
+        {
+          "name": "locked",
+          "keys": [
+            "A",
+            "Down",
+            "Down",
+            "A"
+          ]
+        },
+        {
+          "name": "closed",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "inventory_before",
+          "keys": [
+            "A",
+            "Right",
+            "A"
+          ]
+        },
+        {
+          "name": "action_menu",
+          "keys": [
+            "Right",
+            "A"
+          ]
+        },
+        {
+          "name": "use_00",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_01",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_02",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_03",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "use_04",
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "name": "inventory_after",
+          "keys": [
+            "A",
+            "Right",
+            "A"
+          ]
+        }
+      ],
+      "settle_frames": 180,
+      "wait_after_preparation_frames": 600,
+      "temporary_rom_writes": [
+        {
+          "offset": "368B51",
+          "hex": "c00ff300"
+        },
+        {
+          "offset": "330FC0",
+          "hex": "1d0001ac1d0001011d0001011d0001011d0001011d0001011d0001011d0001011d0001011d0001011d0001011d0001011d0001011f21d10850b5f80002"
+        }
+      ],
+      "base_rom_sha256": "5c2a554263fb3d6bf5f37a6cef0292e41b976c790653b2ac441280c9c5395a28",
+      "fixture_rom_sha256": "a85e0d414180a72a0b04925b32fa6c8ea26d077d248d0aab338c85f27f031ca3",
+      "sampled_frames": 3723,
+      "events": [
+        {
+          "sample": 123,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "330FF0"
+          }
+        },
+        {
+          "sample": 124,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "330FF7"
+          }
+        },
+        {
+          "sample": 247,
+          "pointer": null
+        },
+        {
+          "sample": 1714,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DA"
+          }
+        },
+        {
+          "sample": 1716,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DB"
+          }
+        },
+        {
+          "sample": 1718,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DC"
+          }
+        },
+        {
+          "sample": 1720,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DD"
+          }
+        },
+        {
+          "sample": 1722,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DE"
+          }
+        },
+        {
+          "sample": 1724,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8DF"
+          }
+        },
+        {
+          "sample": 1726,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E0"
+          }
+        },
+        {
+          "sample": 1728,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E1"
+          }
+        },
+        {
+          "sample": 1730,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E2"
+          }
+        },
+        {
+          "sample": 1732,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E3"
+          }
+        },
+        {
+          "sample": 1734,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E4"
+          }
+        },
+        {
+          "sample": 1736,
+          "pointer": {
+            "stack_index": 1,
+            "rom_offset": "06F8E5"
+          }
+        },
+        {
+          "sample": 1908,
+          "pointer": null
+        },
+        {
+          "sample": 2538,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA04"
+          }
+        },
+        {
+          "sample": 2539,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA11"
+          }
+        },
+        {
+          "sample": 2541,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA14"
+          }
+        },
+        {
+          "sample": 2553,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA15"
+          }
+        },
+        {
+          "sample": 2555,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA16"
+          }
+        },
+        {
+          "sample": 2557,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA17"
+          }
+        },
+        {
+          "sample": 2559,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA18"
+          }
+        },
+        {
+          "sample": 2561,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA19"
+          }
+        },
+        {
+          "sample": 2563,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1A"
+          }
+        },
+        {
+          "sample": 2565,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1B"
+          }
+        },
+        {
+          "sample": 2567,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1C"
+          }
+        },
+        {
+          "sample": 2569,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1D"
+          }
+        },
+        {
+          "sample": 2571,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1E"
+          }
+        },
+        {
+          "sample": 2573,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA1F"
+          }
+        },
+        {
+          "sample": 2575,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA20"
+          }
+        },
+        {
+          "sample": 2577,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA21"
+          }
+        },
+        {
+          "sample": 2579,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA22"
+          }
+        },
+        {
+          "sample": 2581,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA23"
+          }
+        },
+        {
+          "sample": 2583,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA24"
+          }
+        },
+        {
+          "sample": 2585,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA27"
+          }
+        },
+        {
+          "sample": 2613,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA28"
+          }
+        },
+        {
+          "sample": 2615,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA2B"
+          }
+        },
+        {
+          "sample": 2616,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA2C"
+          }
+        },
+        {
+          "sample": 2726,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA31"
+          }
+        },
+        {
+          "sample": 2728,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA32"
+          }
+        },
+        {
+          "sample": 2730,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA33"
+          }
+        },
+        {
+          "sample": 2732,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA34"
+          }
+        },
+        {
+          "sample": 2734,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA35"
+          }
+        },
+        {
+          "sample": 2736,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA36"
+          }
+        },
+        {
+          "sample": 2738,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA37"
+          }
+        },
+        {
+          "sample": 2740,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA38"
+          }
+        },
+        {
+          "sample": 2742,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3B"
+          }
+        },
+        {
+          "sample": 2778,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3C"
+          }
+        },
+        {
+          "sample": 2780,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3D"
+          }
+        },
+        {
+          "sample": 2782,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3E"
+          }
+        },
+        {
+          "sample": 2784,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA3F"
+          }
+        },
+        {
+          "sample": 2786,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA40"
+          }
+        },
+        {
+          "sample": 2788,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA41"
+          }
+        },
+        {
+          "sample": 2790,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA42"
+          }
+        },
+        {
+          "sample": 2792,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FA43"
+          }
+        },
+        {
+          "sample": 2920,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAB5"
+          }
+        },
+        {
+          "sample": 2922,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAB6"
+          }
+        },
+        {
+          "sample": 2924,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAB7"
+          }
+        },
+        {
+          "sample": 2926,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAB8"
+          }
+        },
+        {
+          "sample": 2928,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAB9"
+          }
+        },
+        {
+          "sample": 2930,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FABA"
+          }
+        },
+        {
+          "sample": 2932,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FABB"
+          }
+        },
+        {
+          "sample": 2934,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FABC"
+          }
+        },
+        {
+          "sample": 2936,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FABD"
+          }
+        },
+        {
+          "sample": 2938,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FABE"
+          }
+        },
+        {
+          "sample": 2940,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FABF"
+          }
+        },
+        {
+          "sample": 2942,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC0"
+          }
+        },
+        {
+          "sample": 2944,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC1"
+          }
+        },
+        {
+          "sample": 2946,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC2"
+          }
+        },
+        {
+          "sample": 2948,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC3"
+          }
+        },
+        {
+          "sample": 2950,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC4"
+          }
+        },
+        {
+          "sample": 2952,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC5"
+          }
+        },
+        {
+          "sample": 2954,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC6"
+          }
+        },
+        {
+          "sample": 2956,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC7"
+          }
+        },
+        {
+          "sample": 2958,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC8"
+          }
+        },
+        {
+          "sample": 2960,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAC9"
+          }
+        },
+        {
+          "sample": 2962,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FACA"
+          }
+        },
+        {
+          "sample": 3114,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAD1"
+          }
+        },
+        {
+          "sample": 3116,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAD4"
+          }
+        },
+        {
+          "sample": 3128,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAD7"
+          }
+        },
+        {
+          "sample": 3130,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAD8"
+          }
+        },
+        {
+          "sample": 3132,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAD9"
+          }
+        },
+        {
+          "sample": 3134,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FADA"
+          }
+        },
+        {
+          "sample": 3136,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FADB"
+          }
+        },
+        {
+          "sample": 3138,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FADC"
+          }
+        },
+        {
+          "sample": 3140,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FADD"
+          }
+        },
+        {
+          "sample": 3142,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FADE"
+          }
+        },
+        {
+          "sample": 3144,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FADF"
+          }
+        },
+        {
+          "sample": 3146,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAE0"
+          }
+        },
+        {
+          "sample": 3148,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAE1"
+          }
+        },
+        {
+          "sample": 3150,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAE2"
+          }
+        },
+        {
+          "sample": 3152,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAE3"
+          }
+        },
+        {
+          "sample": 3154,
+          "pointer": {
+            "stack_index": 2,
+            "rom_offset": "06FAE4"
+          }
+        },
+        {
+          "sample": 3308,
+          "pointer": null
+        }
+      ],
+      "pointer_frame_counts": {
+        "06F8DA": 2,
+        "06F8DB": 2,
+        "06F8DC": 2,
+        "06F8DD": 2,
+        "06F8DE": 2,
+        "06F8DF": 2,
+        "06F8E0": 2,
+        "06F8E1": 2,
+        "06F8E2": 2,
+        "06F8E3": 2,
+        "06F8E4": 2,
+        "06F8E5": 172,
+        "06FA04": 1,
+        "06FA11": 2,
+        "06FA14": 12,
+        "06FA15": 2,
+        "06FA16": 2,
+        "06FA17": 2,
+        "06FA18": 2,
+        "06FA19": 2,
+        "06FA1A": 2,
+        "06FA1B": 2,
+        "06FA1C": 2,
+        "06FA1D": 2,
+        "06FA1E": 2,
+        "06FA1F": 2,
+        "06FA20": 2,
+        "06FA21": 2,
+        "06FA22": 2,
+        "06FA23": 2,
+        "06FA24": 2,
+        "06FA27": 28,
+        "06FA28": 2,
+        "06FA2B": 1,
+        "06FA2C": 110,
+        "06FA31": 2,
+        "06FA32": 2,
+        "06FA33": 2,
+        "06FA34": 2,
+        "06FA35": 2,
+        "06FA36": 2,
+        "06FA37": 2,
+        "06FA38": 2,
+        "06FA3B": 36,
+        "06FA3C": 2,
+        "06FA3D": 2,
+        "06FA3E": 2,
+        "06FA3F": 2,
+        "06FA40": 2,
+        "06FA41": 2,
+        "06FA42": 2,
+        "06FA43": 128,
+        "06FAB5": 2,
+        "06FAB6": 2,
+        "06FAB7": 2,
+        "06FAB8": 2,
+        "06FAB9": 2,
+        "06FABA": 2,
+        "06FABB": 2,
+        "06FABC": 2,
+        "06FABD": 2,
+        "06FABE": 2,
+        "06FABF": 2,
+        "06FAC0": 2,
+        "06FAC1": 2,
+        "06FAC2": 2,
+        "06FAC3": 2,
+        "06FAC4": 2,
+        "06FAC5": 2,
+        "06FAC6": 2,
+        "06FAC7": 2,
+        "06FAC8": 2,
+        "06FAC9": 2,
+        "06FACA": 152,
+        "06FAD1": 2,
+        "06FAD4": 12,
+        "06FAD7": 2,
+        "06FAD8": 2,
+        "06FAD9": 2,
+        "06FADA": 2,
+        "06FADB": 2,
+        "06FADC": 2,
+        "06FADD": 2,
+        "06FADE": 2,
+        "06FADF": 2,
+        "06FAE0": 2,
+        "06FAE1": 2,
+        "06FAE2": 2,
+        "06FAE3": 2,
+        "06FAE4": 154,
+        "330FF0": 1,
+        "330FF7": 123
+      },
+      "captures": [
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/warped.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "ee6e9d6b4d9456d988b631d3fcbe816b3595e56ff9bf86a68d554c764349a763",
+          "artifact_png_sha256": "6ffd78eb02fede737e75ed4f9679d92574335e2507a32df6d776c01e98ce08a3"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/hall.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "5fa2eae0d93a66e5648ccfb152f6b26dea0e3770eab26b89a6470204e1a12712",
+          "artifact_png_sha256": "713fbfd41985d5c801490e09b8ff6d303655b1a8ff3bf4d22e89a6c6017fb3bf"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/room.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "6270d99c2eff32c74ab34d3bb0fb8ef95079fb477ad136ffe062f21dad3cce9d",
+          "artifact_png_sha256": "ad7d02a106dbc2b3ab992e39f50212e035d5052c9b8b352195848cdab8b90d2a"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/front.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "b11c16daabad70565cc18df8639ad1ea8ca582aeeecf6a5730e4db6559f2cc39",
+          "artifact_png_sha256": "2093196c51496703462b8492386280d71954d307ae74bf729a7ab94821610969"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/position.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c8534e55488b0fa87a636aa7f937209f3d69410957572e0687832540c63d8247",
+          "artifact_png_sha256": "a33122f1544f2999d99c852f598f0dcdf0af6b9657cc7be037517e4f1de0ad16"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/locked.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "38c11a9585356414e95f523a09f94c121905f35e30b1fe4d11824c99dbaceae5",
+          "artifact_png_sha256": "5d4f2c7ad33c4d090c9e5f6077a9c4c926c92d7c8702a6a8e54f4db85e1ad5c2"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/closed.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c8534e55488b0fa87a636aa7f937209f3d69410957572e0687832540c63d8247",
+          "artifact_png_sha256": "a33122f1544f2999d99c852f598f0dcdf0af6b9657cc7be037517e4f1de0ad16"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/inventory_before.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "bf40dc1b51cfd356bfb371c6c30d62f4ef3911467024eb24be4195b822ef6276",
+          "artifact_png_sha256": "ed124c06c71f9cbdf822debd020207e512560315bf0b6c7b89ace8a4ed790889"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/action_menu.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "d75dad45c897392713b0f14d87d38edf9810749d1319cfa5ec93c509b8aaa23d",
+          "artifact_png_sha256": "4743f6fb5b45fac50f7c6d6da07cc2917a79acce5c7260ba6c825b5f093394e3"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/use_00.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c1627ffaa8e1741c9f5aae29e0ac8f3dce7647c51cbf1e4d6b51787ee16f591f",
+          "artifact_png_sha256": "fb7c062104b203305eb56e062136fe5f7c1fd6bce8edf6309946c26e82a18f7b"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/use_01.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "4fa438c3d229e41d2800fc606612f5b8106c59492c696aec860f37cded4b9832",
+          "artifact_png_sha256": "555fcd51983827ce83410d90adfa81038af465984fa43ea4543174de268ea63f"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/use_02.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "61c70370e6d278f388f8b32092f87cd40a0634d69a494b5088c047b867982961",
+          "artifact_png_sha256": "620bcd7fcc72797f8ee28988d782837e4794e1a3e596b9eafdfddb5b179e6b01"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/use_03.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "af88c48a275335904ce3d64b9e005c140db145c3a8bdf9c356e9aef9278e741c",
+          "artifact_png_sha256": "fa95127232db832635aa8e1f8895caf094df71f1f3bd82a9962006765a87d33e"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/use_04.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "c8534e55488b0fa87a636aa7f937209f3d69410957572e0687832540c63d8247",
+          "artifact_png_sha256": "a33122f1544f2999d99c852f598f0dcdf0af6b9657cc7be037517e4f1de0ad16"
+        },
+        {
+          "path": "tests/emulation_v78_lockers/accents/full/inventory_after.png",
+          "width": 256,
+          "height": 224,
+          "sha256_rgb": "bf40dc1b51cfd356bfb371c6c30d62f4ef3911467024eb24be4195b822ef6276",
+          "artifact_png_sha256": "ed124c06c71f9cbdf822debd020207e512560315bf0b6c7b89ace8a4ed790889"
+        }
+      ],
+      "returncode": 0
+    }
+  }
+}
