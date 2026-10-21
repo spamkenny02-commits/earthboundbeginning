@@ -11,8 +11,8 @@ def operations_payload(operations):
  assert len(operations)<=14
  result=bytearray()
  for op,item in operations:
-  assert op in ('give','take','store','spend','flag') and type(item) is int and 1<=item<=(65535 if op in ('spend','flag') else 255)
-  result.extend(b'\x04'+item.to_bytes(2,'little') if op=='flag' else bytes((0x1D,0x09))+item.to_bytes(2,'little') if op=='spend' else bytes((0x1D,0x18,item,0)) if op=='store' else bytes((0x1D,0 if op=='give' else 1,1,item)))
+  assert op in ('give','take','store','spend','flag','join') and type(item) is int and 1<=item<=(4 if op=='join' else 65535 if op in ('spend','flag') else 255)
+  result.extend(bytes((0x1F,0x11,item)) if op=='join' else b'\x04'+item.to_bytes(2,'little') if op=='flag' else bytes((0x1D,0x09))+item.to_bytes(2,'little') if op=='spend' else bytes((0x1D,0x18,item,0)) if op=='store' else bytes((0x1D,0 if op=='give' else 1,1,item)))
  return bytes(result)
 
 class ServiceSession(BaseSession):

@@ -1,5 +1,16 @@
 # V78 — checkpoint à 119 textes, cible 150
 
+**Consigne actuelle : lot de 400 sources distinctes, compteur conservé à 120/400 (158 plages).** L'ancienne cible de 150 est remplacée dans le reconstructeur, le registre et les tests. La branche conserve son nom historique `work/v78-batch150` ; aucune nouvelle release n'est publiée pour ce sous-ensemble.
+
+**Checkpoint à plusieurs personnages, 21 octobre 2026 :** Ninten dépose la fiole ID70, Ana la récupère ; les inventaires finaux sont relus dans les deux profils. Deux et trois personnages sont réellement présents via commandes natives de préparation ; le sélecteur choisit respectivement `387B37` et `387B2F`, et affiche « vous ». Les entrées de scènes restent forcées. 56 nouvelles paires V77/V78, huit changements textuels, 11 728 images échantillonnées ; **24 tests V78 réussis avec ROM privée**. Aucun texte nouvellement traduit dans ce checkpoint de validation ; les IPS sont identiques au précédent.
+
+Rapport : `RAPPORT_V78_PARTY_CHECKPOINT.md`. Suivi de la recherche d'oublis et de la relecture : `tools/v78/review_coverage.json` ; menus, fin, générique et relecture intégrale restent ouverts.
+
+**Prochain reste concret avant les menus :** qualifier l'usage de la Machine à clés IDAC avec PNJ608/champ13 → `38E2C2`, puis les textes anglais `06FA0C/06FA2E/06FA68/06FA93/06FAB4`. Les liens existent, mais l'accès en jeu n'est pas encore prouvé ; ne pas traduire cet héritage pour remplir 400. Les flags `0459` et `037F` contrôlent les branches. L'ancienne copie `32F120` n'est pas atteinte par les 47 racines du graphe typé actuel de `34B490` ; son seul pointeur brut est `34B745`, hors de ce graphe. Elle reste conservée, sans déclaration globale de dormance. Éviter de refaire ce seul audit sans nouvelle preuve d'appel calculé.
+
+## Historique avant le passage de la cible à 400
+
+
 **21 octobre 2026 — checkpoint coursier, 120/150 sources distinctes, 158 plages.** Le même lot V78 continue ; V77 reste sur main. Une source visible adaptée : `35CFFF`, « @No: *pssst psst pssst* » → « @Num.: *pssst psst pssst* ». C'est une abréviation de numéro, pas une réponse Non. Registre exact : `tools/v78/batch_ledger.json`.
 
 Limite de trois objets vérifiée avec quatre objets disponibles : Fiole/sagesse/vitalité en réserve, vitesse conservée au sac, frais 18 $. Réserve pleine chez le coursier : refus français, quatre objets et 20 $ conservés, 36 objets relus sur quatre pages. Téléphone et inspection forcés ; sortie de la maison à la manette et arrivée native. Pour le second cas, dix insertions natives remplissent artificiellement la réserve après l'appel. Aucun parcours complet naturel certifié.

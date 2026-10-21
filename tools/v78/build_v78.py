@@ -1,4 +1,4 @@
-"""V78 batch checkpoint: remaining custom NPC text; release target 150 distinct texts."""
+"""V78 batch checkpoint: remaining custom NPC text; release target 400 distinct texts."""
 import argparse,json,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT/'tools/v62'))
@@ -53,7 +53,7 @@ def build(rom,out):
   assert target[0x2021A8:0x2021A8+1584*17]==base[0x2021A8:0x2021A8+1584*17]
   assert target[NPC_POINTER:NPC_POINTER+4]==base[NPC_POINTER:NPC_POINTER+4];assert b.sprite_digest(target)==b.sprite_digest(base);assert target[0x250000:0x260000]==base[0x250000:0x260000];assert target[0x330FC0:0x331000]==base[0x330FC0:0x331000]
   Path(out).mkdir(parents=True,exist_ok=True);(Path(out)/f'EarthBound_Beginnings_FR_v78_{p}.ips').write_bytes(ips);profiles[p]={'sha256':b.sha(ips),'target_rom_sha256':b.sha(target),'records_added':len(changes)};fixtures['profiles'][p]={'edits':proof,'bridge_records':[{'offset':f'{a:06X}','hex':raw.hex()} for a,raw in changes[len(CONFIG):]]}
- plan={'version':'v78','input_patch_version':'v77','source_sha256':b.sha(source),'changed_text_spans':21,'distinct_new_translations':13,'batch_target_distinct_texts':150,'release_pending':True,'native_commands_preserved_after_expanding_menu_bridges':True,'npc_pointers_rewritten':0,'menu_bridges':5,'new_allocated_bytes':55,'bank25_unchanged':True,'sprites_preserved_against':'v77','natural_scene_access_verified':False,'profiles':profiles}
+ plan={'version':'v78','input_patch_version':'v77','source_sha256':b.sha(source),'changed_text_spans':21,'distinct_new_translations':13,'batch_target_distinct_texts':400,'release_pending':True,'native_commands_preserved_after_expanding_menu_bridges':True,'npc_pointers_rewritten':0,'menu_bridges':5,'new_allocated_bytes':55,'bank25_unchanged':True,'sprites_preserved_against':'v77','natural_scene_access_verified':False,'profiles':profiles}
  for name,value in [('v78_fixtures',fixtures),('validation_v78',plan)]:(ROOT/f'tools/v78/{name}.json').write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
  from medical_stage import extend
  plan=extend(source,out,plan,fixtures)

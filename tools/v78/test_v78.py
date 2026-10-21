@@ -24,7 +24,7 @@ def expansions(f,p,target):
  return sorted(result)
 class OfflineTests(unittest.TestCase):
  def test_batch_counter_and_blocked_entry(self):
-  f=fixtures();p=read_plan();texts={e['english'] for e in f['profiles']['accents']['edits']}|{'No'}|{e['en'] for e in f['medical']['entries']}|{e['en'] for e in f['remaining']['entries']+f['remaining']['labels']+f['item_help']['entries']+f['scoped_help']['entries']+f['context_grammar']['entries']+f['phone_label']['entries']};self.assertEqual(len(texts),120);self.assertEqual(p['distinct_new_translations'],120);self.assertEqual(p['batch_target_distinct_texts'],150);self.assertTrue(p['release_pending']);self.assertEqual(p['changed_text_spans'],158);self.assertEqual([e['offset'] for e in f['medical']['blocked_entries']],['0911ED'])
+  f=fixtures();p=read_plan();texts={e['english'] for e in f['profiles']['accents']['edits']}|{'No'}|{e['en'] for e in f['medical']['entries']}|{e['en'] for e in f['remaining']['entries']+f['remaining']['labels']+f['item_help']['entries']+f['scoped_help']['entries']+f['context_grammar']['entries']+f['phone_label']['entries']};self.assertEqual(len(texts),120);self.assertEqual(p['distinct_new_translations'],120);self.assertEqual(p['batch_target_distinct_texts'],400);self.assertTrue(p['release_pending']);self.assertEqual(p['changed_text_spans'],158);self.assertEqual([e['offset'] for e in f['medical']['blocked_entries']],['0911ED'])
   from update_ledger import build
   ledger=json.loads((ROOT/'tools/v78/batch_ledger.json').read_text());self.assertEqual(ledger,build());self.assertEqual({e['source'] for e in ledger['entries']},texts);self.assertEqual(len({a for e in ledger['entries'] for a in e['offsets']}),158)
  def test_patch_prefix_hash_and_changed_records(self):
