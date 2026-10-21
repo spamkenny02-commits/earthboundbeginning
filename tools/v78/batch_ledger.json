@@ -1,8 +1,8 @@
 {
   "version": "v78",
   "release_pending": true,
-  "distinct_texts": 119,
-  "physical_spans": 157,
+  "distinct_texts": 120,
+  "physical_spans": 158,
   "target": 150,
   "entries": [
     {
@@ -712,6 +712,14 @@
       "french": "@As-tu besoin d'aide ?",
       "offsets": [
         "091C2F"
+      ],
+      "validation": "static; runtime coverage is case-specific"
+    },
+    {
+      "source": "@No: *pssst psst pssst*  ",
+      "french": "@Num.: *pssst psst pssst*",
+      "offsets": [
+        "35CFFF"
       ],
       "validation": "static; runtime coverage is case-specific"
     },

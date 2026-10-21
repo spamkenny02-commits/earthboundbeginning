@@ -16,14 +16,14 @@ def operations_payload(operations):
  return bytes(result)
 
 class ServiceSession(BaseSession):
- def __init__(self,source,core,out,profile,entries,version=70,operations=()):
+ def __init__(self,source,core,out,profile,entries,version=70,operations=(),post_operations=()):
   preparation=operations_payload(operations)
   self.out=out.resolve();self.out.mkdir(parents=True,exist_ok=True);self.rom=self.out/'fixture.sfc'
   assert b.sha(source)==b.ROM_SHA
   plan=json.loads((ROOT/f'tools/v{version}/validation_v{version}.json').read_text());ips=(ROOT/f'patches/EarthBound_Beginnings_FR_v{version}_{profile}.ips').read_bytes()
   assert b.sha(ips)==plan['profiles'][profile]['sha256']
   self.data=b.apply(source,b.records(ips));assert b.sha(self.data)==plan['profiles'][profile]['target_rom_sha256']
-  wrapper=0x330FC0;payload=preparation+b''.join(b'\x08'+b.pointer(a) for a in entries)+b'\x02'
+  wrapper=0x330FC0;payload=preparation+b''.join(b'\x08'+b.pointer(a) for a in entries)+operations_payload(post_operations)+b'\x02'
   assert len(payload)<=64 and self.data[wrapper:wrapper+len(payload)]==bytes(len(payload))
   self.fixture=bytearray(self.data);self.fixture[0x368B51:0x368B55]=b.pointer(wrapper);self.fixture[wrapper:wrapper+len(payload)]=payload
   self.routing=[{'offset':'368B51','hex':b.pointer(wrapper).hex()},{'offset':f'{wrapper:06X}','hex':payload.hex()}]

@@ -1,5 +1,16 @@
 # Reprise — lot V78 en cours, cible 150 textes distincts
 
+**21 octobre 2026 — checkpoint coursier, 120/150 sources distinctes, 158 plages.** Le même lot V78 continue ; V77 reste sur main. Une source visible adaptée : `35CFFF`, « @No: *pssst psst pssst* » → « @Num.: *pssst psst pssst* ». C'est une abréviation de numéro, pas une réponse Non. Registre exact : `tools/v78/batch_ledger.json`.
+
+Limite de trois objets vérifiée avec quatre objets disponibles : Fiole/sagesse/vitalité en réserve, vitesse conservée au sac, frais 18 $. Réserve pleine chez le coursier : refus français, quatre objets et 20 $ conservés, 36 objets relus sur quatre pages. Téléphone et inspection forcés ; sortie de la maison à la manette et arrivée native. Pour le second cas, dix insertions natives remplissent artificiellement la réserve après l'appel. Aucun parcours complet naturel certifié.
+
+152 paires V77/V78, quatre différences textuelles seulement, 46 620 images échantillonnées ; 26 captures clés relues dans les deux profils. Rapport : `RAPPORT_V78_COURSIER_CHECKPOINT.md`. Les anciennes preuves restent des snapshots historiques.
+
+**Suite :** configurations à plusieurs personnages, ancienne copie `32F120`/helper `38B587` et autres dialogues accessibles à qualifier ; puis menus et parcours naturels. La limite effective de trois est prouvée, mais le message intérieur `064240` n'a pas été atteint ; ne pas le déclarer validé à l'écran. Il manque 30 sources à la cible, sans inventaire exhaustif prouvé ; ne pas remplir ce nombre avec du débogage ou des textes dormants.
+
+## Historique avant le checkpoint coursier à 120 sources
+
+
 **21 octobre 2026 — reprise validée des corrections Minnie/contenant.** Environnement et travail local récupérés. Six écritures, 383 enregistrements ajoutés à V77 ; aucune allocation ni source nouvelle. Compteur inchangé : **119/150**, 157 plages sources. Voir [RAPPORT_V78_ARTICLES_CHECKPOINT.md](RAPPORT_V78_ARTICLES_CHECKPOINT.md).
 
 48 paires V77/V78, huit changements limités au texte, 10 148 images échantillonnées. Dans les deux profils, la fiole ID70 est présente dans le sac page03, absente page08, dans la réserve page11, puis revenue au sac page19. Entrée PNJ204 forcée avec préparation native ; aucun parcours naturel certifié. « Le Fiole » est corrigé.

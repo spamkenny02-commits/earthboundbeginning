@@ -11,6 +11,7 @@ def collect(current,reference,sheets=None,dest=None):
   for name,c in r['cases'].items():
    oldcase=ref['cases'][name]
    for field in ('trigger','steps','operations','scope','settle_frames','sampled_frames'):assert oldcase[field]==c[field],field
+   for field in ('post_operations','exit_route','courier_steps','wait_after_phone_frames','inventory_trigger','inventory_close','state_source'):assert oldcase.get(field)==c.get(field),field
    assert oldcase.get('logical_entry',oldcase['entries'][0])==c.get('logical_entry',c['entries'][0])
    if oldcase['entries']!=c['entries']:
     f=json.loads((ROOT/'tools/v78/v78_fixtures.json').read_text());moves=[(n['root'],n['chunks'][0]['destination']) for n in f['remaining']['moved_scripts']]+[(n['context'],n['chunks'][0]['destination']) for n in f.get('scoped_help',{}).get('entries',[])];destination=next(d for r,d in moves if [r]==oldcase['entries']);assert c['entries']==[destination]
